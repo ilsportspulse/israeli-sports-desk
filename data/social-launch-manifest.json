@@ -146,8 +146,8 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-20T01:40:00Z",
-    "validUntil": "2026-07-20T13:40:00Z",
+    "checkedAt": "2026-07-20T16:15:03Z",
+    "validUntil": "2026-07-21T04:15:03Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
@@ -160,28 +160,28 @@
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260719-lemkin-twente-interview",
+        "articleId": "live-20260720-afriyie-injury",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 24,
+        "maxAgeHours": 27,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260719-kangwa-aek-offer",
+        "articleId": "live-20260719-dowtin-napoli",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 36,
+        "maxAgeHours": 37,
         "requires": [
           "column"
         ]
@@ -189,14 +189,14 @@
       {
         "role": "archive",
         "articleId": "archive-20260719-helsinki-1952",
-        "maxAgeHours": 36,
+        "maxAgeHours": 37,
         "requires": [
           "historical-feature"
         ]
       },
       {
         "role": "major-international",
-        "articleId": "live-20260719-kerr-mile-world-record",
+        "articleId": "live-20260720-scaloni-departure",
         "maxAgeHours": 24,
         "requires": []
       }
