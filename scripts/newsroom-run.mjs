@@ -13,6 +13,11 @@ import { fileURLToPath } from "node:url";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const MODEL = process.env.ANTHROPIC_MODEL ?? "claude-sonnet-5";
 const MAX_CANDIDATES = Math.max(1, Number(process.env.NEWSROOM_MAX_CANDIDATES ?? 6));
+// CLI mode runs a full Claude Code agent loop (several web-search rounds + writing)
+// per article, which is thorough but slow. Give each draft a generous wall-clock
+// budget and a turn cap so it concludes instead of running forever.
+const DRAFT_TIMEOUT_MS = Math.max(60_000, Number(process.env.NEWSROOM_DRAFT_TIMEOUT_MS ?? 9 * 60 * 1000));
+const DRAFT_MAX_TURNS = Math.max(8, Number(process.env.NEWSROOM_DRAFT_MAX_TURNS ?? 40));
 
 // Two ways to drive the newsroom, in priority order:
 //   1. CLI mode  — Claude Code + a Max/Pro subscription token (CLAUDE_CODE_OAUTH_TOKEN).
@@ -149,12 +154,15 @@ function draftViaCli(candidate, todayIso) {
 
 Fields required in the JSON object: id, slug, title, dek, category, desk ("israel" or "international"), kind, storyForm, publishedAt, updatedAt, readMinutes (number), source {name,url}, verificationSources [{label,url}], body (array of EXACTLY 7 strings), facts (array of >=5 strings), theme, homepagePriority (number), homepageReason, dedupeKey, aiDisclosure, nameChecks [{hebrew,english,verificationUrl,confidence}], confidence (0-1 number), warning (string, "" if none), commonsQuery, commonsCandidates [{title,creditUrl,credit,license}].
 
+Work efficiently: do at most 5 web searches to gather and cross-check the essential facts, then stop researching and write. If you cannot verify enough to meet the gates within that budget, still emit the object with an honest low confidence and a warning rather than searching endlessly.
+
 Output ONLY the raw JSON object as your final message — no prose, no code fences.`;
 
   // Headless allow-list: ONLY web read tools may run; every other tool (file
   // writes, shell, etc.) is auto-denied. No blanket permission-skip is used — the
   // agent can research the web and nothing else. The script, not the agent,
-  // writes the article to disk.
+  // writes the article to disk. --max-turns bounds the agent loop so a draft
+  // concludes within the wall-clock budget instead of searching indefinitely.
   const out = execFileSync(
     "claude",
     [
@@ -163,12 +171,13 @@ Output ONLY the raw JSON object as your final message — no prose, no code fenc
       "--model", MODEL,
       "--allowedTools", "WebSearch,WebFetch",
       "--permission-mode", "default",
+      "--max-turns", String(DRAFT_MAX_TURNS),
     ],
     {
       cwd: root,
       encoding: "utf8",
       maxBuffer: 32 * 1024 * 1024,
-      timeout: 5 * 60 * 1000,
+      timeout: DRAFT_TIMEOUT_MS,
       env: { ...process.env },
     },
   );
@@ -219,7 +228,8 @@ function passesGates(article) {
 }
 
 async function main() {
-  console.log(`Newsroom runner starting — mode=${MODE}, model=${MODEL}, max=${MAX_CANDIDATES}`);
+  console.log(`Newsroom runner starting — mode=${MODE}, model=${MODEL}, max=${MAX_CANDIDATES}` +
+    (MODE === "cli" ? `, draftBudget=${Math.round(DRAFT_TIMEOUT_MS / 1000)}s, maxTurns=${DRAFT_MAX_TURNS}` : ""));
 
   // 1. Discovery (writes candidates into data/ingestion-report.json).
   try {
@@ -229,7 +239,21 @@ async function main() {
   }
 
   const report = await readJson("data/ingestion-report.json").catch(() => ({ candidates: [] }));
-  const candidates = (report.candidates ?? []).slice(0, MAX_CANDIDATES);
+
+  // In CLI mode each draft is slow, so cap how many we attempt per cycle to fit
+  // inside the Action's job timeout (setup + discovery + N*draftBudget + tests
+  // must stay under 30 min). API mode is fast and keeps the full requested count.
+  let effectiveMax = MAX_CANDIDATES;
+  if (MODE === "cli") {
+    const cliBudgetMs = Math.max(DRAFT_TIMEOUT_MS, Number(process.env.NEWSROOM_CLI_TIME_BUDGET_MS ?? 24 * 60 * 1000));
+    const fitsBudget = Math.max(1, Math.floor(cliBudgetMs / DRAFT_TIMEOUT_MS));
+    effectiveMax = Math.min(MAX_CANDIDATES, fitsBudget);
+    if (effectiveMax < MAX_CANDIDATES) {
+      console.log(`CLI mode: capping ${MAX_CANDIDATES} -> ${effectiveMax} candidates to fit the job timeout.`);
+    }
+  }
+
+  const candidates = (report.candidates ?? []).slice(0, effectiveMax);
   if (!candidates.length) {
     console.log("No candidates this cycle.");
     return;
