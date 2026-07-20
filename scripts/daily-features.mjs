@@ -72,7 +72,9 @@ async function callApi(prompt, schema, name, { web = false } = {}) {
   return use ? use.input : null;
 }
 
-const GATE = `HARD RULES: never invent facts, quotes, results, names, numbers or sources. Verify every material fact against at least two independent, named sources. Keep every Israeli/foreign name transliteration correct. If you cannot verify something, omit it. Do NOT publish the founder's name or biography anywhere.`;
+const GATE = `HARD RULES: never invent facts, quotes, results, names, numbers or sources. Verify every material fact against at least two independent, named sources. Keep every Israeli/foreign name transliteration correct. If you cannot verify something, omit it. Do NOT publish the founder's name or biography anywhere.
+
+IMAGE (MANDATORY): research an accurate photo for THIS exact story and return commonsQuery plus commonsCandidates — 2 to 4 REAL Wikimedia Commons files, ranked most-relevant first. For EACH, via web search on commons.wikimedia.org: confirm the file exists and is a JPEG photograph (not a logo/flag/map/diagram/artwork), confirm a reusable licence (CC BY, CC BY-SA, CC0 or public domain), and CONFIRM IT DEPICTS THE RIGHT SUBJECT — the exact person, club, venue or competition in the story (beware namesakes and wrong context; check the file's description/categories). Priority: the named athlete → their club/team → the exact venue → the competition/trophy. If you cannot verify at least one correctly-identified image, return commonsCandidates as [] and say so in warning — the story is held rather than shown with a wrong photo. Never invent or guess a file name.`;
 
 // ---------- 1. Daily quiz (grounded in our own verified articles) ----------
 async function ensureQuiz(articles, now) {
@@ -129,6 +131,8 @@ async function generateArticle(kind, prompt, now) {
       confidence: { type: "number" }, warning: { type: "string" },
       archiveDate: { type: "string" }, archiveDisplay: { type: "object" },
       source: { type: "object", properties: { name: { type: "string" }, url: { type: "string" } } },
+      commonsQuery: { type: "string" },
+      commonsCandidates: { type: "array", items: { type: "object", properties: { title: { type: "string" }, creditUrl: { type: "string" }, credit: { type: "string" }, license: { type: "string" } } } },
     },
   };
   const art = MODE === "cli" ? callCli(prompt, { web: true }) : await callApi(prompt, schema, "emit_article", { web: true });
@@ -174,7 +178,7 @@ Return ONLY JSON with: title, dek, category, body[], facts[>=5], verificationSou
       category: "From the Archive", desk: "israel", kind: "explainer", storyForm: "historical-feature",
       publishedAt: now.toISOString(), updatedAt: now.toISOString(), readMinutes: Math.max(3, Math.round(art.body.join(" ").split(/\s+/).length / 200)),
       source: art.source ?? { name: "ILSP History Desk", url: "" }, verificationSources: art.verificationSources ?? [],
-      body: art.body, facts: art.facts, theme: "night-pitch",
+      body: art.body, facts: art.facts, theme: "night-pitch", commonsQuery: art.commonsQuery, commonsCandidates: art.commonsCandidates ?? [],
       archiveDate: art.archiveDate, archiveDisplay: art.archiveDisplay ?? { home: "The story", score: "Retro", away: "Revisited", dateLine: art.archiveDate, year: art.archiveDate.slice(0, 4) },
       aiDisclosure: "Researched and written by the ILSP AI history desk; every fact verified against independent sources.",
       status: "published",
@@ -212,7 +216,7 @@ Return ONLY JSON with: title, dek, category, body[], facts[>=5], verificationSou
       category: art.category || "ILSP Column", desk: "israel", kind: "analysis", storyForm: "column",
       publishedAt: now.toISOString(), updatedAt: now.toISOString(), readMinutes: Math.max(4, Math.round(art.body.join(" ").split(/\s+/).length / 200)),
       source: art.source ?? { name: "ILSP Column", url: "" }, verificationSources: art.verificationSources ?? [],
-      body: art.body, facts: art.facts, theme: "amber-dusk",
+      body: art.body, facts: art.facts, theme: "amber-dusk", commonsQuery: art.commonsQuery, commonsCandidates: art.commonsCandidates ?? [],
       aiDisclosure: "An ILSP AI column: the analysis and opinion are the desk's; every underlying fact is verified against independent sources.",
       status: "published",
     },
@@ -245,7 +249,7 @@ Return ONLY JSON with: title, dek, category("Cycling"), body[], facts[>=5], veri
       series: "Tour de France",
       publishedAt: now.toISOString(), updatedAt: now.toISOString(), readMinutes: Math.max(3, Math.round(art.body.join(" ").split(/\s+/).length / 200)),
       source: art.source ?? { name: "ILSP Cycling Desk", url: "" }, verificationSources: art.verificationSources ?? [],
-      body: art.body, facts: art.facts, theme: "golden-hour",
+      body: art.body, facts: art.facts, theme: "golden-hour", commonsQuery: art.commonsQuery, commonsCandidates: art.commonsCandidates ?? [],
       aiDisclosure: "Compiled by the ILSP AI cycling desk; every result and classification verified against official Tour and independent cycling sources.",
       status: "published",
     },

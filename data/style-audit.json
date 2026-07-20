@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T22:55:39.960Z",
+  "generatedAt": "2026-07-20T23:35:23.340Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,18 +11,17 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 154,
+    "publishedArticles": 134,
     "wordCount": {
       "minimum": 266,
       "maximum": 1070,
-      "median": 494,
-      "average": 513.1
+      "median": 502.5,
+      "average": 525
     },
     "paragraphDistribution": {
       "5": 1,
-      "6": 4,
-      "7": 40,
-      "8": 45,
+      "7": 27,
+      "8": 42,
       "9": 27,
       "10": 19,
       "11": 8,
@@ -33,11 +32,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.292,
+    "dominantParagraphShare": 0.313,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 4,
+    "exactSixParagraphArticles": 0,
     "analysisBelowTarget": 1,
-    "articlesWithStyleFlags": 5
+    "articlesWithStyleFlags": 4
   },
   "flagged": [
     {
@@ -61,29 +60,6 @@
       "publisherAttributions": 0,
       "flags": [
         "below-editorial-target:266/280"
-      ]
-    },
-    {
-      "id": "live-20260719-roddy-hapoel-jerusalem",
-      "slug": "hapoel-jerusalem-david-roddy-first-offer-rejected",
-      "title": "Report: Hapoel Jerusalem chasing ex-Denver forward David Roddy after first offer rejected",
-      "kind": "news",
-      "words": 456,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 58,
-        "longest": 83,
-        "average": 65.1
-      },
-      "sentenceWords": {
-        "shortest": 8,
-        "longest": 51,
-        "average": 30.4
-      },
-      "lexicalDiversity": 0.577,
-      "publisherAttributions": 0,
-      "flags": [
-        "stock-phrase:statement-of-intent"
       ]
     },
     {
@@ -158,153 +134,6 @@
   ],
   "clean": [
     {
-      "id": "live-2026-07-20-roddy-hapoel-jerusalem",
-      "slug": "david-roddy-reported-sign-hapoel-jerusalem",
-      "title": "David Roddy Reported to Sign With Hapoel Jerusalem",
-      "kind": "news",
-      "words": 309,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 34,
-        "longest": 62,
-        "average": 44.1
-      },
-      "sentenceWords": {
-        "shortest": 12,
-        "longest": 41,
-        "average": 28.1
-      },
-      "lexicalDiversity": 0.612,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-07-20-athletics-championship-records",
-      "slug": "mamo-mantel-israeli-records-athletics-championship",
-      "title": "Mamo and Mantel Break Israeli Records at National Athletics Championships",
-      "kind": "news",
-      "words": 315,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 35,
-        "longest": 59,
-        "average": 45
-      },
-      "sentenceWords": {
-        "shortest": 9,
-        "longest": 57,
-        "average": 35
-      },
-      "lexicalDiversity": 0.61,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-07-20-messi-world-cup-final-reaction",
-      "slug": "messi-world-cup-final-reaction-pain-enormous",
-      "title": "Messi: 'The Pain Is Enormous' After World Cup Final Heartbreak",
-      "kind": "news",
-      "words": 384,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 49,
-        "longest": 60,
-        "average": 54.9
-      },
-      "sentenceWords": {
-        "shortest": 7,
-        "longest": 98,
-        "average": 29.5
-      },
-      "lexicalDiversity": 0.609,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-07-20-fifa-2030-64-teams",
-      "slug": "fifa-2030-world-cup-64-team-expansion-proposal",
-      "title": "FIFA to Weigh Expanding 2030 World Cup to 64 Teams",
-      "kind": "news",
-      "words": 419,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 38,
-        "longest": 77,
-        "average": 59.9
-      },
-      "sentenceWords": {
-        "shortest": 8,
-        "longest": 50,
-        "average": 29.9
-      },
-      "lexicalDiversity": 0.558,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-07-20-nof-hagalil-youth-coaches",
-      "slug": "nof-hagalil-youth-academy-coaching-overhaul",
-      "title": "Hapoel Nof HaGalil Rebuilds Youth Coaching Staff After Relegation",
-      "kind": "article",
-      "words": 390,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 46,
-        "longest": 73,
-        "average": 55.7
-      },
-      "sentenceWords": {
-        "shortest": 11,
-        "longest": 54,
-        "average": 39
-      },
-      "lexicalDiversity": 0.574,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260720-hapoel-tel-aviv-conference-path",
-      "slug": "hapoel-tel-aviv-conference-league-zilina-katowice",
-      "title": "Hapoel Tel Aviv's Road to Europe Runs Through Bulgaria, With Žilina or Katowice Waiting",
-      "kind": "match-preview",
-      "words": 532,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 48,
-        "longest": 99,
-        "average": 76
-      },
-      "sentenceWords": {
-        "shortest": 5,
-        "longest": 99,
-        "average": 35.5
-      },
-      "lexicalDiversity": 0.521,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260720-israeli-referees-europe",
-      "slug": "israeli-referees-appointed-european-qualifiers-summer-2026",
-      "title": "Two Israeli referees handed European qualifier appointments for the new season",
-      "kind": "news",
-      "words": 419,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 57,
-        "longest": 62,
-        "average": 59.9
-      },
-      "sentenceWords": {
-        "shortest": 19,
-        "longest": 40,
-        "average": 29.9
-      },
-      "lexicalDiversity": 0.535,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
       "id": "live-20260720-afriyie-injury",
       "slug": "blessing-afrifah-pulled-israeli-championships-hamstring-injury",
       "title": "Israel's 100m record-holder Blessing Afrifah pulled from national championships with hamstring injury",
@@ -322,27 +151,6 @@
         "average": 23.8
       },
       "lexicalDiversity": 0.579,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260720-sokler-maccabi-tel-aviv",
-      "slug": "maccabi-tel-aviv-close-signing-slovenian-striker-ester-sokler",
-      "title": "Maccabi Tel Aviv close to signing Slovenian striker Ester Sokler from Radnicki 1923",
-      "kind": "news",
-      "words": 431,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 54,
-        "longest": 70,
-        "average": 61.6
-      },
-      "sentenceWords": {
-        "shortest": 13,
-        "longest": 42,
-        "average": 26.9
-      },
-      "lexicalDiversity": 0.582,
       "publisherAttributions": 0,
       "flags": []
     },
@@ -389,27 +197,6 @@
       "flags": []
     },
     {
-      "id": "live-20260719-haifa-glazer-yarmakov",
-      "slug": "maccabi-haifa-goalkeeper-reshuffle-glazer-return-yermakov-metalist",
-      "title": "Haifa's goalkeeper reshuffle agreed: Glazer set for return as Yermakov heads to Ukraine",
-      "kind": "news",
-      "words": 459,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 52,
-        "longest": 79,
-        "average": 65.6
-      },
-      "sentenceWords": {
-        "shortest": 9,
-        "longest": 57,
-        "average": 30.6
-      },
-      "lexicalDiversity": 0.58,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
       "id": "live-20260719-hapoel-ta-sofia-season-start",
       "slug": "hapoel-tel-aviv-basketball-open-season-sofia",
       "title": "Hapoel Tel Aviv confirm they will open new season in Sofia",
@@ -427,27 +214,6 @@
         "average": 28.4
       },
       "lexicalDiversity": 0.574,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260719-hapoel-haifa-training-ban",
-      "slug": "hapoel-haifa-barred-beit-nagler-training-ground-derby-week",
-      "title": "Locked out before the derby: Hapoel Haifa say city has barred them from training ground",
-      "kind": "news",
-      "words": 452,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 43,
-        "longest": 98,
-        "average": 64.6
-      },
-      "sentenceWords": {
-        "shortest": 6,
-        "longest": 169,
-        "average": 41.1
-      },
-      "lexicalDiversity": 0.522,
       "publisherAttributions": 0,
       "flags": []
     },
@@ -574,27 +340,6 @@
         "average": 29.4
       },
       "lexicalDiversity": 0.558,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260719-maccabi-ta-six-loans",
-      "slug": "maccabi-tel-aviv-loans-six-academy-players-hapoel-kfar-shalem",
-      "title": "Maccabi Tel Aviv send six academy graduates on loan to Kfar Shalem in one sweep",
-      "kind": "news",
-      "words": 348,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 32,
-        "longest": 59,
-        "average": 49.7
-      },
-      "sentenceWords": {
-        "shortest": 5,
-        "longest": 51,
-        "average": 31.6
-      },
-      "lexicalDiversity": 0.609,
       "publisherAttributions": 0,
       "flags": []
     },
@@ -2195,27 +1940,6 @@
       "flags": []
     },
     {
-      "id": "live-20260717-ballout-haifa-youth-deal",
-      "slug": "maccabi-haifa-adrian-ballout-three-year-academy-deal",
-      "title": "Maccabi Haifa tie teenage striker Adrian Ballout to a new three-year deal",
-      "kind": "news",
-      "words": 561,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 35,
-        "longest": 101,
-        "average": 70.1
-      },
-      "sentenceWords": {
-        "shortest": 5,
-        "longest": 51,
-        "average": 29.5
-      },
-      "lexicalDiversity": 0.537,
-      "publisherAttributions": 1,
-      "flags": []
-    },
-    {
       "id": "live-20260717-beitar-hapoel-ta-police-guidelines",
       "slug": "police-set-out-matchday-rules-beitar-jerusalem-hapoel-tel-aviv-netanya",
       "title": "Police detail strict entry rules for Beitar Jerusalem's Netanya meeting with Hapoel Tel Aviv",
@@ -2237,27 +1961,6 @@
       "flags": []
     },
     {
-      "id": "live-20260717-all-dance-thessaloniki-elkobi",
-      "slug": "emily-elkobi-all-dance-gold-thessaloniki",
-      "title": "Emily Elkobi, 12, dances Israel to gold at All Dance finals in Thessaloniki",
-      "kind": "news",
-      "words": 446,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 39,
-        "longest": 78,
-        "average": 55.8
-      },
-      "sentenceWords": {
-        "shortest": 9,
-        "longest": 40,
-        "average": 24.8
-      },
-      "lexicalDiversity": 0.556,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
       "id": "live-20260717-israel-u20-iceland-handball",
       "slug": "israel-u20-handball-iceland-35-23-m20-ehf-euro-placement",
       "title": "Israel's under-20s swept aside 35:23 by Iceland with a World Championship place still on the line",
@@ -2275,27 +1978,6 @@
         "average": 23.1
       },
       "lexicalDiversity": 0.621,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260717-maccabi-ta-youth-oretzki-kadosh",
-      "slug": "maccabi-tel-aviv-academy-adds-nahalal-yizrael-pair-oretzki-kadosh",
-      "title": "Maccabi Tel Aviv academy adds Nahalal Yizrael pair Oretzki and Kadosh",
-      "kind": "news",
-      "words": 502,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 46,
-        "longest": 92,
-        "average": 62.8
-      },
-      "sentenceWords": {
-        "shortest": 8,
-        "longest": 47,
-        "average": 26.4
-      },
-      "lexicalDiversity": 0.546,
       "publisherAttributions": 0,
       "flags": []
     },
@@ -2636,27 +2318,6 @@
       "flags": []
     },
     {
-      "id": "live-20260717-salah-besiktas-verbal-agreement-report",
-      "slug": "salah-besiktas-verbal-agreement-report",
-      "title": "Salah 'agrees verbal deal' with Besiktas, French outlet reports",
-      "kind": "news",
-      "words": 432,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 48,
-        "longest": 84,
-        "average": 61.7
-      },
-      "sentenceWords": {
-        "shortest": 7,
-        "longest": 48,
-        "average": 27
-      },
-      "lexicalDiversity": 0.602,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
       "id": "live-20260717-abu-fani-red-star-macva50",
       "slug": "abu-fani-full-90-red-star-belgrade-crush-macva-superliga-opener",
       "title": "Abu Fani goes the full 90 as Red Star Belgrade crush Mačva in SuperLiga opener",
@@ -2737,27 +2398,6 @@
         "average": 24.8
       },
       "lexicalDiversity": 0.644,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260718-abramov-interview-media-feud-claim",
-      "slug": "abramov-ulpan-shishi-interview-keshet-leumi-partners-claim",
-      "title": "Abramov breaks silence on Japanika attacks and alleges a media 'conflict' he says he fell victim to",
-      "kind": "news",
-      "words": 636,
-      "paragraphs": 6,
-      "paragraphWords": {
-        "shortest": 83,
-        "longest": 144,
-        "average": 106
-      },
-      "sentenceWords": {
-        "shortest": 8,
-        "longest": 132,
-        "average": 42.4
-      },
-      "lexicalDiversity": 0.522,
       "publisherAttributions": 0,
       "flags": []
     },
@@ -2930,27 +2570,6 @@
       "flags": []
     },
     {
-      "id": "live-20260718-seck-saudi-move",
-      "slug": "abdoulaye-seck-reported-al-faisaly-move-after-maccabi-haifa-exit",
-      "title": "Seck reported to be on verge of Al-Faisaly switch after Maccabi Haifa exit",
-      "kind": "news",
-      "words": 409,
-      "paragraphs": 6,
-      "paragraphWords": {
-        "shortest": 54,
-        "longest": 80,
-        "average": 68.2
-      },
-      "sentenceWords": {
-        "shortest": 8,
-        "longest": 54,
-        "average": 29.2
-      },
-      "lexicalDiversity": 0.543,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
       "id": "live-20260718-tsunami-maccabi-haifa",
       "slug": "wenderson-tsunami-signs-maccabi-haifa-free-transfer",
       "title": "Maccabi Haifa Land Brazilian Defender Wenderson Tsunami on a Free Transfer",
@@ -2968,27 +2587,6 @@
         "average": 28.2
       },
       "lexicalDiversity": 0.588,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260718-lundberg-ultimatum-walker",
-      "slug": "maccabi-lundberg-ultimatum-walker-expected-to-stay",
-      "title": "'We'll need to compromise': Maccabi run out of patience with Lundberg as Walker edges towards staying",
-      "kind": "news",
-      "words": 434,
-      "paragraphs": 6,
-      "paragraphWords": {
-        "shortest": 58,
-        "longest": 86,
-        "average": 72.3
-      },
-      "sentenceWords": {
-        "shortest": 7,
-        "longest": 86,
-        "average": 31
-      },
-      "lexicalDiversity": 0.618,
       "publisherAttributions": 0,
       "flags": []
     },
@@ -3073,27 +2671,6 @@
         "average": 23.7
       },
       "lexicalDiversity": 0.577,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260719-tour-stage-14-pogacar",
-      "slug": "tour-de-france-stage-14-pogacar-fourth-win-le-markstein",
-      "title": "Pogačar dances to a fourth Tour stage win at Le Markstein as lead stretches to 4:30",
-      "kind": "news",
-      "words": 323,
-      "paragraphs": 6,
-      "paragraphWords": {
-        "shortest": 37,
-        "longest": 67,
-        "average": 53.8
-      },
-      "sentenceWords": {
-        "shortest": 3,
-        "longest": 43,
-        "average": 24.8
-      },
-      "lexicalDiversity": 0.628,
       "publisherAttributions": 0,
       "flags": []
     },

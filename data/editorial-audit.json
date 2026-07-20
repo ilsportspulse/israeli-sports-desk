@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T22:55:39.894Z",
+  "generatedAt": "2026-07-20T23:35:23.284Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -18,57 +18,15 @@
   },
   "summary": {
     "totalArticles": 207,
-    "publishedBefore": 154,
-    "cleanPublished": 154,
+    "publishedBefore": 134,
+    "cleanPublished": 134,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 154,
-    "reviewAfter": 53
+    "publishedAfter": 134,
+    "reviewAfter": 73
   },
   "blockedPublished": [],
   "warnings": [
-    {
-      "id": "live-2026-07-20-messi-world-cup-final-reaction",
-      "slug": "messi-world-cup-final-reaction-pain-enormous",
-      "title": "Messi: 'The Pain Is Enormous' After World Cup Final Heartbreak",
-      "statusBefore": "published",
-      "words": 384,
-      "paragraphs": 7,
-      "facts": 7,
-      "verificationSources": 6,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-07-20-fifa-2030-64-teams",
-      "slug": "fifa-2030-world-cup-64-team-expansion-proposal",
-      "title": "FIFA to Weigh Expanding 2030 World Cup to 64 Teams",
-      "statusBefore": "published",
-      "words": 420,
-      "paragraphs": 7,
-      "facts": 6,
-      "verificationSources": 6,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-20260720-hapoel-tel-aviv-conference-path",
-      "slug": "hapoel-tel-aviv-conference-league-zilina-katowice",
-      "title": "Hapoel Tel Aviv's Road to Europe Runs Through Bulgaria, With Žilina or Katowice Waiting",
-      "statusBefore": "published",
-      "words": 534,
-      "paragraphs": 7,
-      "facts": 6,
-      "verificationSources": 7,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
     {
       "id": "live-20260720-afriyie-injury",
       "slug": "blessing-afrifah-pulled-israeli-championships-hamstring-injury",
@@ -101,12 +59,14 @@
       "id": "live-20260719-roddy-hapoel-jerusalem",
       "slug": "hapoel-jerusalem-david-roddy-first-offer-rejected",
       "title": "Report: Hapoel Jerusalem chasing ex-Denver forward David Roddy after first offer rejected",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 450,
       "paragraphs": 7,
       "facts": 7,
       "verificationSources": 5,
-      "blockers": [],
+      "blockers": [
+        "media:no-licensed-image"
+      ],
       "warnings": [
         "voice:stock-editorial-phrase-detected"
       ]
@@ -1144,20 +1104,6 @@
       ]
     },
     {
-      "id": "live-20260718-lundberg-ultimatum-walker",
-      "slug": "maccabi-lundberg-ultimatum-walker-expected-to-stay",
-      "title": "'We'll need to compromise': Maccabi run out of patience with Lundberg as Walker edges towards staying",
-      "statusBefore": "published",
-      "words": 441,
-      "paragraphs": 6,
-      "facts": 6,
-      "verificationSources": 2,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
       "id": "live-20260718-israel-u20-latvia-rout",
       "slug": "israel-u20-latvia-96-74-belaga-triple-double",
       "title": "Belaga makes history with a triple-double as Israel U20s rout Latvia 96–74",
@@ -1166,20 +1112,6 @@
       "paragraphs": 9,
       "facts": 7,
       "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-20260719-tour-stage-14-pogacar",
-      "slug": "tour-de-france-stage-14-pogacar-fourth-win-le-markstein",
-      "title": "Pogačar dances to a fourth Tour stage win at Le Markstein as lead stretches to 4:30",
-      "statusBefore": "published",
-      "words": 316,
-      "paragraphs": 6,
-      "facts": 6,
-      "verificationSources": 2,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -1258,96 +1190,6 @@
   ],
   "cleanPublished": [
     {
-      "id": "live-2026-07-20-roddy-hapoel-jerusalem",
-      "slug": "david-roddy-reported-sign-hapoel-jerusalem",
-      "title": "David Roddy Reported to Sign With Hapoel Jerusalem",
-      "statusBefore": "published",
-      "words": 309,
-      "paragraphs": 7,
-      "facts": 8,
-      "verificationSources": 6,
-      "blockers": [],
-      "warnings": []
-    },
-    {
-      "id": "live-2026-07-20-athletics-championship-records",
-      "slug": "mamo-mantel-israeli-records-athletics-championship",
-      "title": "Mamo and Mantel Break Israeli Records at National Athletics Championships",
-      "statusBefore": "published",
-      "words": 308,
-      "paragraphs": 7,
-      "facts": 7,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": []
-    },
-    {
-      "id": "live-2026-07-20-messi-world-cup-final-reaction",
-      "slug": "messi-world-cup-final-reaction-pain-enormous",
-      "title": "Messi: 'The Pain Is Enormous' After World Cup Final Heartbreak",
-      "statusBefore": "published",
-      "words": 384,
-      "paragraphs": 7,
-      "facts": 7,
-      "verificationSources": 6,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-07-20-fifa-2030-64-teams",
-      "slug": "fifa-2030-world-cup-64-team-expansion-proposal",
-      "title": "FIFA to Weigh Expanding 2030 World Cup to 64 Teams",
-      "statusBefore": "published",
-      "words": 420,
-      "paragraphs": 7,
-      "facts": 6,
-      "verificationSources": 6,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-07-20-nof-hagalil-youth-coaches",
-      "slug": "nof-hagalil-youth-academy-coaching-overhaul",
-      "title": "Hapoel Nof HaGalil Rebuilds Youth Coaching Staff After Relegation",
-      "statusBefore": "published",
-      "words": 388,
-      "paragraphs": 7,
-      "facts": 5,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": []
-    },
-    {
-      "id": "live-20260720-hapoel-tel-aviv-conference-path",
-      "slug": "hapoel-tel-aviv-conference-league-zilina-katowice",
-      "title": "Hapoel Tel Aviv's Road to Europe Runs Through Bulgaria, With Žilina or Katowice Waiting",
-      "statusBefore": "published",
-      "words": 534,
-      "paragraphs": 7,
-      "facts": 6,
-      "verificationSources": 7,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-20260720-israeli-referees-europe",
-      "slug": "israeli-referees-appointed-european-qualifiers-summer-2026",
-      "title": "Two Israeli referees handed European qualifier appointments for the new season",
-      "statusBefore": "published",
-      "words": 421,
-      "paragraphs": 7,
-      "facts": 6,
-      "verificationSources": 5,
-      "blockers": [],
-      "warnings": []
-    },
-    {
       "id": "live-20260720-afriyie-injury",
       "slug": "blessing-afrifah-pulled-israeli-championships-hamstring-injury",
       "title": "Israel's 100m record-holder Blessing Afrifah pulled from national championships with hamstring injury",
@@ -1360,18 +1202,6 @@
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
-    },
-    {
-      "id": "live-20260720-sokler-maccabi-tel-aviv",
-      "slug": "maccabi-tel-aviv-close-signing-slovenian-striker-ester-sokler",
-      "title": "Maccabi Tel Aviv close to signing Slovenian striker Ester Sokler from Radnicki 1923",
-      "statusBefore": "published",
-      "words": 429,
-      "paragraphs": 7,
-      "facts": 7,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": []
     },
     {
       "id": "live-20260720-scaloni-departure",
@@ -1400,18 +1230,6 @@
       "warnings": []
     },
     {
-      "id": "live-20260719-haifa-glazer-yarmakov",
-      "slug": "maccabi-haifa-goalkeeper-reshuffle-glazer-return-yermakov-metalist",
-      "title": "Haifa's goalkeeper reshuffle agreed: Glazer set for return as Yermakov heads to Ukraine",
-      "statusBefore": "published",
-      "words": 462,
-      "paragraphs": 7,
-      "facts": 7,
-      "verificationSources": 5,
-      "blockers": [],
-      "warnings": []
-    },
-    {
       "id": "live-20260719-dowtin-napoli",
       "slug": "jeff-dowtin-maccabi-tel-aviv-napoli-basket-eurocup",
       "title": "Ex-Maccabi Tel Aviv guard Jeff Dowtin Jr joins Napoli Basket",
@@ -1432,32 +1250,6 @@
       "paragraphs": 8,
       "facts": 7,
       "verificationSources": 6,
-      "blockers": [],
-      "warnings": []
-    },
-    {
-      "id": "live-20260719-roddy-hapoel-jerusalem",
-      "slug": "hapoel-jerusalem-david-roddy-first-offer-rejected",
-      "title": "Report: Hapoel Jerusalem chasing ex-Denver forward David Roddy after first offer rejected",
-      "statusBefore": "published",
-      "words": 450,
-      "paragraphs": 7,
-      "facts": 7,
-      "verificationSources": 5,
-      "blockers": [],
-      "warnings": [
-        "voice:stock-editorial-phrase-detected"
-      ]
-    },
-    {
-      "id": "live-20260719-hapoel-haifa-training-ban",
-      "slug": "hapoel-haifa-barred-beit-nagler-training-ground-derby-week",
-      "title": "Locked out before the derby: Hapoel Haifa say city has barred them from training ground",
-      "statusBefore": "published",
-      "words": 455,
-      "paragraphs": 7,
-      "facts": 7,
-      "verificationSources": 3,
       "blockers": [],
       "warnings": []
     },
@@ -1532,18 +1324,6 @@
       "paragraphs": 7,
       "facts": 6,
       "verificationSources": 5,
-      "blockers": [],
-      "warnings": []
-    },
-    {
-      "id": "live-20260719-maccabi-ta-six-loans",
-      "slug": "maccabi-tel-aviv-loans-six-academy-players-hapoel-kfar-shalem",
-      "title": "Maccabi Tel Aviv send six academy graduates on loan to Kfar Shalem in one sweep",
-      "statusBefore": "published",
-      "words": 348,
-      "paragraphs": 7,
-      "facts": 7,
-      "verificationSources": 3,
       "blockers": [],
       "warnings": []
     },
@@ -2540,18 +2320,6 @@
       "warnings": []
     },
     {
-      "id": "live-20260717-ballout-haifa-youth-deal",
-      "slug": "maccabi-haifa-adrian-ballout-three-year-academy-deal",
-      "title": "Maccabi Haifa tie teenage striker Adrian Ballout to a new three-year deal",
-      "statusBefore": "published",
-      "words": 565,
-      "paragraphs": 8,
-      "facts": 6,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": []
-    },
-    {
       "id": "live-20260717-beitar-hapoel-ta-police-guidelines",
       "slug": "police-set-out-matchday-rules-beitar-jerusalem-hapoel-tel-aviv-netanya",
       "title": "Police detail strict entry rules for Beitar Jerusalem's Netanya meeting with Hapoel Tel Aviv",
@@ -2564,18 +2332,6 @@
       "warnings": []
     },
     {
-      "id": "live-20260717-all-dance-thessaloniki-elkobi",
-      "slug": "emily-elkobi-all-dance-gold-thessaloniki",
-      "title": "Emily Elkobi, 12, dances Israel to gold at All Dance finals in Thessaloniki",
-      "statusBefore": "published",
-      "words": 449,
-      "paragraphs": 8,
-      "facts": 6,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": []
-    },
-    {
       "id": "live-20260717-israel-u20-iceland-handball",
       "slug": "israel-u20-handball-iceland-35-23-m20-ehf-euro-placement",
       "title": "Israel's under-20s swept aside 35:23 by Iceland with a World Championship place still on the line",
@@ -2584,18 +2340,6 @@
       "paragraphs": 8,
       "facts": 6,
       "verificationSources": 5,
-      "blockers": [],
-      "warnings": []
-    },
-    {
-      "id": "live-20260717-maccabi-ta-youth-oretzki-kadosh",
-      "slug": "maccabi-tel-aviv-academy-adds-nahalal-yizrael-pair-oretzki-kadosh",
-      "title": "Maccabi Tel Aviv academy adds Nahalal Yizrael pair Oretzki and Kadosh",
-      "statusBefore": "published",
-      "words": 507,
-      "paragraphs": 8,
-      "facts": 6,
-      "verificationSources": 4,
       "blockers": [],
       "warnings": []
     },
@@ -2794,18 +2538,6 @@
       "warnings": []
     },
     {
-      "id": "live-20260717-salah-besiktas-verbal-agreement-report",
-      "slug": "salah-besiktas-verbal-agreement-report",
-      "title": "Salah 'agrees verbal deal' with Besiktas, French outlet reports",
-      "statusBefore": "published",
-      "words": 435,
-      "paragraphs": 7,
-      "facts": 6,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": []
-    },
-    {
       "id": "live-20260717-abu-fani-red-star-macva50",
       "slug": "abu-fani-full-90-red-star-belgrade-crush-macva-superliga-opener",
       "title": "Abu Fani goes the full 90 as Red Star Belgrade crush Mačva in SuperLiga opener",
@@ -2854,18 +2586,6 @@
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
-    },
-    {
-      "id": "live-20260718-abramov-interview-media-feud-claim",
-      "slug": "abramov-ulpan-shishi-interview-keshet-leumi-partners-claim",
-      "title": "Abramov breaks silence on Japanika attacks and alleges a media 'conflict' he says he fell victim to",
-      "statusBefore": "published",
-      "words": 644,
-      "paragraphs": 6,
-      "facts": 6,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": []
     },
     {
       "id": "live-20260718-guildford-maccabi-ban-payout",
@@ -2966,18 +2686,6 @@
       "warnings": []
     },
     {
-      "id": "live-20260718-seck-saudi-move",
-      "slug": "abdoulaye-seck-reported-al-faisaly-move-after-maccabi-haifa-exit",
-      "title": "Seck reported to be on verge of Al-Faisaly switch after Maccabi Haifa exit",
-      "statusBefore": "published",
-      "words": 411,
-      "paragraphs": 6,
-      "facts": 6,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": []
-    },
-    {
       "id": "live-20260718-tsunami-maccabi-haifa",
       "slug": "wenderson-tsunami-signs-maccabi-haifa-free-transfer",
       "title": "Maccabi Haifa Land Brazilian Defender Wenderson Tsunami on a Free Transfer",
@@ -2988,20 +2696,6 @@
       "verificationSources": 6,
       "blockers": [],
       "warnings": []
-    },
-    {
-      "id": "live-20260718-lundberg-ultimatum-walker",
-      "slug": "maccabi-lundberg-ultimatum-walker-expected-to-stay",
-      "title": "'We'll need to compromise': Maccabi run out of patience with Lundberg as Walker edges towards staying",
-      "statusBefore": "published",
-      "words": 441,
-      "paragraphs": 6,
-      "facts": 6,
-      "verificationSources": 2,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
     },
     {
       "id": "live-20260718-koppel-referee-sponsorship-row",
@@ -3048,20 +2742,6 @@
       "paragraphs": 9,
       "facts": 7,
       "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-20260719-tour-stage-14-pogacar",
-      "slug": "tour-de-france-stage-14-pogacar-fourth-win-le-markstein",
-      "title": "Pogačar dances to a fourth Tour stage win at Le Markstein as lead stretches to 4:30",
-      "statusBefore": "published",
-      "words": 316,
-      "paragraphs": 6,
-      "facts": 6,
-      "verificationSources": 2,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
