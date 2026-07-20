@@ -49,7 +49,7 @@ jobs:
         run: node scripts/newsroom-run.mjs
 
       - name: Refresh governance evidence snapshot (keeps the full gate green)
-        # Re-takes the â¤12h current-story snapshot from the freshest published
+        # Re-takes the 12h current-story snapshot from the freshest published
         # stories so the founder-governance suite stays valid without weakening it.
         run: node scripts/refresh-social-launch-snapshot.mjs
 
