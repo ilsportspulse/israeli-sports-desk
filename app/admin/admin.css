@@ -1,0 +1,209 @@
+/* Backoffice styling — namespaced under .ilsp-admin so it never touches the
+   public site. Uses the brand tokens from globals.css. */
+
+.ilsp-admin {
+  --a-navy: #07142c;
+  --a-navy-2: #0d2246;
+  --a-blue: #1257f1;
+  --a-blue-2: #407cff;
+  --a-red: #f03a49;
+  --a-gold: #f0b94b;
+  --a-green: #1f9d63;
+  --a-bg: #f4f5f2;
+  --a-surface: #ffffff;
+  --a-line: #e2e4df;
+  --a-ink: #111722;
+  --a-muted: #69707d;
+  --a-radius: 12px;
+  --a-sidebar: 244px;
+  color: var(--a-ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+.ilsp-admin * { box-sizing: border-box; }
+
+/* ---- Shell ---- */
+.ilsp-admin .shell { display: grid; grid-template-columns: var(--a-sidebar) 1fr; min-height: 100vh; background: var(--a-bg); }
+
+.ilsp-admin .sidebar {
+  background: var(--a-navy); color: #cdd6e6; padding: 20px 14px; position: sticky; top: 0; height: 100vh;
+  display: flex; flex-direction: column; gap: 4px; overflow-y: auto;
+}
+.ilsp-admin .brand { display: flex; align-items: center; gap: 10px; padding: 6px 8px 16px; }
+.ilsp-admin .brand-mark {
+  width: 34px; height: 34px; border-radius: 9px; background: linear-gradient(135deg, var(--a-blue), var(--a-blue-2));
+  color: #fff; font-weight: 800; font-size: 14px; display: grid; place-items: center; letter-spacing: -.02em;
+}
+.ilsp-admin .brand-logo { width: 44px; height: 44px; border-radius: 11px; display: block; flex-shrink: 0; }
+.ilsp-admin .mobile-header .brand-logo { width: 32px; height: 32px; border-radius: 8px; }
+.ilsp-admin .login-card .brand-logo { width: 56px; height: 56px; border-radius: 14px; }
+.ilsp-admin .brand-text { line-height: 1.1; }
+.ilsp-admin .brand-text b { color: #fff; font-size: 15px; letter-spacing: -.01em; display: block; }
+.ilsp-admin .brand-text span { color: #7f8db0; font-size: 11px; }
+
+.ilsp-admin .nav-group { font-size: 10.5px; text-transform: uppercase; letter-spacing: .09em; color: #64749b; padding: 14px 10px 6px; }
+.ilsp-admin .nav-link {
+  display: flex; align-items: center; gap: 10px; padding: 9px 10px; border-radius: 9px; color: #cdd6e6;
+  text-decoration: none; font-size: 13.5px; font-weight: 500; transition: background .12s, color .12s;
+}
+.ilsp-admin .nav-link:hover { background: rgba(255,255,255,.06); color: #fff; }
+.ilsp-admin .nav-link.active { background: var(--a-blue); color: #fff; }
+.ilsp-admin .nav-link .ic { width: 17px; text-align: center; opacity: .9; }
+.ilsp-admin .nav-link.soon { color: #5a6a8c; opacity: .5; cursor: default; }
+.ilsp-admin .nav-link.soon:hover { background: none; }
+.ilsp-admin .nav-badge { margin-left: auto; background: var(--a-gold); color: #3a2c05; font-size: 10.5px; font-weight: 700; border-radius: 999px; padding: 1px 7px; }
+.ilsp-admin .nav-soon-tag { margin-left: auto; font-size: 9.5px; color: #64749b; text-transform: uppercase; letter-spacing: .06em; }
+
+/* ---- Topbar ---- */
+.ilsp-admin .main { display: flex; flex-direction: column; min-width: 0; }
+.ilsp-admin .topbar {
+  display: flex; align-items: center; gap: 16px; padding: 15px 26px; background: var(--a-surface);
+  border-bottom: 1px solid var(--a-line); position: sticky; top: 0; z-index: 5;
+}
+.ilsp-admin .topbar h1 { font-size: 18px; font-weight: 700; letter-spacing: -.02em; margin: 0; }
+.ilsp-admin .topbar .sub { color: var(--a-muted); font-size: 12.5px; }
+.ilsp-admin .spacer { flex: 1; }
+.ilsp-admin .user-chip { display: flex; align-items: center; gap: 9px; font-size: 13px; }
+.ilsp-admin .user-avatar { width: 30px; height: 30px; border-radius: 50%; background: var(--a-navy-2); color: #fff; display: grid; place-items: center; font-weight: 700; font-size: 12px; }
+.ilsp-admin .user-chip b { font-weight: 600; }
+.ilsp-admin .user-chip small { color: var(--a-muted); display: block; font-size: 11px; }
+
+.ilsp-admin .content { padding: 26px; max-width: 1180px; width: 100%; }
+
+/* ---- Cards & grid ---- */
+.ilsp-admin .grid { display: grid; gap: 16px; }
+.ilsp-admin .grid.cols-4 { grid-template-columns: repeat(4, 1fr); }
+.ilsp-admin .grid.cols-3 { grid-template-columns: repeat(3, 1fr); }
+.ilsp-admin .grid.cols-2 { grid-template-columns: repeat(2, 1fr); }
+.ilsp-admin .card { background: var(--a-surface); border: 1px solid var(--a-line); border-radius: var(--a-radius); padding: 18px; }
+.ilsp-admin .card h2 { font-size: 14px; margin: 0 0 12px; letter-spacing: -.01em; }
+.ilsp-admin .stat { display: flex; flex-direction: column; gap: 4px; }
+.ilsp-admin .stat .n { font-size: 30px; font-weight: 800; letter-spacing: -.03em; line-height: 1; }
+.ilsp-admin .stat .l { color: var(--a-muted); font-size: 12.5px; }
+.ilsp-admin .stat .ic-badge { width: 36px; height: 36px; border-radius: 10px; display: grid; place-items: center; font-size: 17px; margin-bottom: 8px; }
+
+/* ---- Buttons ---- */
+.ilsp-admin .btn {
+  display: inline-flex; align-items: center; gap: 7px; border: 1px solid var(--a-line); background: var(--a-surface);
+  color: var(--a-ink); padding: 8px 14px; border-radius: 9px; font-size: 13px; font-weight: 600; cursor: pointer;
+  text-decoration: none; transition: background .12s, border-color .12s, opacity .12s; line-height: 1.2;
+}
+.ilsp-admin .btn:hover { background: #f0f1ee; }
+.ilsp-admin .btn.primary { background: var(--a-blue); border-color: var(--a-blue); color: #fff; }
+.ilsp-admin .btn.primary:hover { background: #0f4ad4; }
+.ilsp-admin .btn.success { background: var(--a-green); border-color: var(--a-green); color: #fff; }
+.ilsp-admin .btn.success:hover { opacity: .9; }
+.ilsp-admin .btn.danger { background: #fff; border-color: #f0c3c7; color: var(--a-red); }
+.ilsp-admin .btn.danger:hover { background: #fdf1f2; }
+.ilsp-admin .btn.ghost { border-color: transparent; background: transparent; }
+.ilsp-admin .btn.sm { padding: 5px 10px; font-size: 12px; }
+.ilsp-admin .btn:disabled { opacity: .5; cursor: not-allowed; }
+
+/* ---- Badges ---- */
+.ilsp-admin .badge { display: inline-flex; align-items: center; gap: 5px; font-size: 11.5px; font-weight: 700; border-radius: 999px; padding: 3px 9px; letter-spacing: .01em; }
+.ilsp-admin .badge.published { background: #e4f4ec; color: #157a4b; }
+.ilsp-admin .badge.review { background: #fdf1dc; color: #9a6b04; }
+.ilsp-admin .badge.desk { background: #eaf0ff; color: #1748c0; }
+.ilsp-admin .badge.neutral { background: #eef0ec; color: #5c6472; }
+
+/* ---- Tables ---- */
+.ilsp-admin .table-wrap { background: var(--a-surface); border: 1px solid var(--a-line); border-radius: var(--a-radius); overflow: hidden; }
+.ilsp-admin table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.ilsp-admin thead th { text-align: left; font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--a-muted); padding: 11px 14px; border-bottom: 1px solid var(--a-line); background: #fafbf9; }
+.ilsp-admin tbody td { padding: 12px 14px; border-bottom: 1px solid var(--a-line); vertical-align: middle; }
+.ilsp-admin tbody tr:last-child td { border-bottom: none; }
+.ilsp-admin tbody tr:hover { background: #fafbf9; }
+.ilsp-admin .row-title { font-weight: 600; color: var(--a-ink); text-decoration: none; }
+.ilsp-admin .row-title:hover { color: var(--a-blue); }
+.ilsp-admin .row-meta { color: var(--a-muted); font-size: 11.5px; margin-top: 2px; }
+.ilsp-admin .row-actions { display: flex; gap: 6px; justify-content: flex-end; }
+
+/* ---- Filters ---- */
+.ilsp-admin .filters { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 16px; }
+.ilsp-admin .field { display: flex; flex-direction: column; gap: 5px; }
+.ilsp-admin .field label { font-size: 11.5px; color: var(--a-muted); font-weight: 600; }
+.ilsp-admin input[type=text], .ilsp-admin input[type=password], .ilsp-admin input[type=number], .ilsp-admin input[type=datetime-local],
+.ilsp-admin select, .ilsp-admin textarea {
+  border: 1px solid var(--a-line); border-radius: 9px; padding: 9px 11px; font-size: 13px; font-family: inherit;
+  background: var(--a-surface); color: var(--a-ink); width: 100%; outline: none; transition: border-color .12s, box-shadow .12s;
+}
+.ilsp-admin input:focus, .ilsp-admin select:focus, .ilsp-admin textarea:focus { border-color: var(--a-blue); box-shadow: 0 0 0 3px rgba(18,87,241,.12); }
+.ilsp-admin textarea { resize: vertical; min-height: 68px; line-height: 1.5; }
+.ilsp-admin .search { min-width: 240px; }
+
+/* ---- Editor ---- */
+.ilsp-admin .editor-grid { display: grid; grid-template-columns: 1fr 320px; gap: 20px; align-items: start; }
+.ilsp-admin .editor-main { display: flex; flex-direction: column; gap: 16px; }
+.ilsp-admin .editor-side { display: flex; flex-direction: column; gap: 16px; position: sticky; top: 78px; }
+.ilsp-admin .field-row { display: grid; gap: 12px; margin-bottom: 12px; }
+.ilsp-admin .field-row.two { grid-template-columns: 1fr 1fr; }
+.ilsp-admin .field-row:last-child { margin-bottom: 0; }
+.ilsp-admin .block-item { display: flex; gap: 8px; align-items: flex-start; margin-bottom: 10px; }
+.ilsp-admin .block-item textarea { flex: 1; }
+.ilsp-admin .block-num { color: var(--a-muted); font-size: 12px; font-weight: 700; width: 20px; padding-top: 10px; }
+.ilsp-admin .hint { font-size: 11.5px; color: var(--a-muted); }
+.ilsp-admin .save-bar { display: flex; gap: 10px; align-items: center; }
+.ilsp-admin .save-bar .msg { font-size: 12.5px; }
+.ilsp-admin .save-bar .msg.ok { color: var(--a-green); }
+.ilsp-admin .save-bar .msg.err { color: var(--a-red); }
+
+/* ---- Login ---- */
+.ilsp-admin .login-wrap { min-height: 100vh; display: grid; place-items: center; background: radial-gradient(1200px 600px at 50% -10%, #12245200, #07142c 60%), var(--a-navy); }
+.ilsp-admin .login-card { width: 360px; max-width: calc(100vw - 40px); background: var(--a-surface); border-radius: 16px; padding: 28px; box-shadow: 0 30px 80px rgba(0,0,0,.4); }
+.ilsp-admin .login-card .brand { justify-content: center; padding-bottom: 18px; }
+.ilsp-admin .login-card h1 { font-size: 18px; text-align: center; margin: 0 0 4px; }
+.ilsp-admin .login-card p.sub { text-align: center; color: var(--a-muted); font-size: 12.5px; margin: 0 0 20px; }
+.ilsp-admin .login-card .field { margin-bottom: 13px; }
+.ilsp-admin .remember { display: flex; align-items: center; gap: 8px; font-size: 12.5px; color: var(--a-muted); margin: 4px 0 16px; }
+.ilsp-admin .remember input { width: auto; }
+.ilsp-admin .login-err { background: #fdf1f2; color: var(--a-red); font-size: 12.5px; border-radius: 8px; padding: 9px 11px; margin-bottom: 14px; }
+
+.ilsp-admin .empty { text-align: center; color: var(--a-muted); padding: 40px; font-size: 13.5px; }
+.ilsp-admin .section-head { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+.ilsp-admin .section-head h2 { font-size: 16px; margin: 0; }
+.ilsp-admin a.plain { color: var(--a-blue); text-decoration: none; }
+.ilsp-admin a.plain:hover { text-decoration: underline; }
+
+/* ---- Mobile header + drawer (hidden on desktop) ---- */
+.ilsp-admin .mobile-header { display: none; }
+.ilsp-admin .backdrop { display: none; }
+
+@media (max-width: 1000px) {
+  .ilsp-admin .editor-grid { grid-template-columns: 1fr; }
+  .ilsp-admin .editor-side { position: static; }
+}
+
+@media (max-width: 900px) {
+  .ilsp-admin .shell { grid-template-columns: 1fr; }
+  .ilsp-admin .grid.cols-4, .ilsp-admin .grid.cols-3, .ilsp-admin .grid.cols-2 { grid-template-columns: 1fr; }
+
+  /* Sidebar becomes an off-canvas drawer toggled from the mobile header. */
+  .ilsp-admin .mobile-header {
+    display: flex; align-items: center; gap: 10px; padding: 10px 14px;
+    background: var(--a-navy); color: #fff; position: sticky; top: 0; z-index: 30;
+  }
+  .ilsp-admin .mobile-header .brand-text b { font-size: 14px; }
+  .ilsp-admin .hamburger {
+    margin-left: auto; background: rgba(255,255,255,.12); border: none; color: #fff;
+    width: 40px; height: 36px; border-radius: 9px; font-size: 17px; cursor: pointer;
+  }
+  .ilsp-admin .sidebar {
+    position: fixed; top: 0; left: 0; bottom: 0; width: 260px; height: 100vh;
+    transform: translateX(-100%); transition: transform .2s ease; z-index: 40;
+  }
+  .ilsp-admin .sidebar.open { transform: none; }
+  .ilsp-admin .backdrop.show { display: block; position: fixed; inset: 0; background: rgba(0,0,0,.45); z-index: 35; }
+
+  .ilsp-admin .topbar { flex-wrap: wrap; row-gap: 10px; padding: 13px 16px; }
+  .ilsp-admin .topbar h1 { font-size: 16px; }
+  .ilsp-admin .content { padding: 16px; }
+  .ilsp-admin .filters { flex-direction: column; align-items: stretch; }
+  .ilsp-admin .field.search { min-width: 0; }
+  .ilsp-admin .save-bar { flex-wrap: wrap; }
+  .ilsp-admin table { min-width: 480px; } /* scroll instead of breaking */
+  .ilsp-admin .btn { min-height: 40px; } /* comfortable touch target */
+  .ilsp-admin .row-actions { flex-wrap: wrap; justify-content: flex-start; }
+}
+
+/* Tables always scroll horizontally rather than break the layout on small screens. */
+.ilsp-admin .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }

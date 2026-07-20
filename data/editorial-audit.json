@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T20:57:21.183Z",
+  "generatedAt": "2026-07-20T18:37:35.643Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -32,8 +32,8 @@
       "slug": "blessing-afrifah-pulled-israeli-championships-hamstring-injury",
       "title": "Israel's 100m record-holder Blessing Afrifah pulled from national championships with hamstring injury",
       "statusBefore": "published",
-      "words": 283,
-      "paragraphs": 7,
+      "words": 284,
+      "paragraphs": 6,
       "facts": 6,
       "verificationSources": 3,
       "blockers": [],
@@ -156,23 +156,6 @@
       ]
     },
     {
-      "id": "live-20260714-lev-hasharon-u17-promotion",
-      "slug": "hapoel-lev-hasharon-u17-national-league-promotion",
-      "title": "Hapoel Lev Hasharon U17s step up after winning Sharon division",
-      "statusBefore": "review",
-      "words": 324,
-      "paragraphs": 6,
-      "facts": 5,
-      "verificationSources": 2,
-      "blockers": [
-        "media:no-licensed-image",
-        "media:manual-image-story-mismatch"
-      ],
-      "warnings": [
-        "voice:repeated-six-paragraph-template-risk"
-      ]
-    },
-    {
       "id": "live-20260714-motley-red-star-talks",
       "slug": "red-star-talks-hapoel-tel-aviv-johnathan-motley",
       "title": "Motley joins Red Star after Hapoel farewell",
@@ -184,41 +167,6 @@
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-20260714-netanya-nwachukwu",
-      "slug": "maccabi-netanya-consider-christian-nwachukwu-sheffield-united",
-      "title": "Maccabi Netanya consider Sheffield United winger Christian Nwachukwu",
-      "statusBefore": "review",
-      "words": 335,
-      "paragraphs": 6,
-      "facts": 5,
-      "verificationSources": 1,
-      "blockers": [
-        "presentation:publisher-name-in-headline-or-standfirst",
-        "media:no-licensed-image",
-        "media:manual-image-story-mismatch"
-      ],
-      "warnings": [
-        "voice:repeated-six-paragraph-template-risk"
-      ]
-    },
-    {
-      "id": "live-20260714-idan-dahan-herzliya",
-      "slug": "idan-dahan-signs-maccabi-herzliya-national-league",
-      "title": "Maccabi Herzliya confirm Idan Dahan signing for National League campaign",
-      "statusBefore": "review",
-      "words": 311,
-      "paragraphs": 6,
-      "facts": 5,
-      "verificationSources": 2,
-      "blockers": [
-        "media:no-licensed-image",
-        "media:manual-image-story-mismatch"
-      ],
-      "warnings": [
-        "voice:repeated-six-paragraph-template-risk"
       ]
     },
     {
@@ -235,8 +183,7 @@
         "media:no-licensed-image"
       ],
       "warnings": [
-        "taxonomy:desk-not-assigned",
-        "voice:repeated-six-paragraph-template-risk"
+        "taxonomy:desk-not-assigned"
       ]
     },
     {
@@ -734,8 +681,7 @@
         "media:manual-image-story-mismatch"
       ],
       "warnings": [
-        "taxonomy:desk-not-assigned",
-        "voice:repeated-six-paragraph-template-risk"
+        "taxonomy:desk-not-assigned"
       ]
     },
     {
@@ -908,25 +854,7 @@
         "media:manual-image-story-mismatch"
       ],
       "warnings": [
-        "voice:repeated-six-paragraph-template-risk",
         "voice:publisher-attribution-heavy:2"
-      ]
-    },
-    {
-      "id": "live-20260714-israel-u20-handball-poland",
-      "slug": "israel-u20-handball-beat-poland-eight-goals-world-championship-route",
-      "title": "Israel U20 handball beat Poland by eight to keep world route open",
-      "statusBefore": "review",
-      "words": 372,
-      "paragraphs": 6,
-      "facts": 5,
-      "verificationSources": 1,
-      "blockers": [
-        "media:no-licensed-image",
-        "media:manual-image-story-mismatch"
-      ],
-      "warnings": [
-        "voice:repeated-six-paragraph-template-risk"
       ]
     },
     {
@@ -958,7 +886,6 @@
         "media:manual-image-story-mismatch"
       ],
       "warnings": [
-        "voice:repeated-six-paragraph-template-risk",
         "voice:publisher-attribution-heavy:2"
       ]
     },
@@ -991,7 +918,6 @@
         "media:manual-image-story-mismatch"
       ],
       "warnings": [
-        "voice:repeated-six-paragraph-template-risk",
         "voice:publisher-attribution-heavy:2"
       ]
     },
@@ -1136,22 +1062,6 @@
       ]
     },
     {
-      "id": "live-20260718-abramov-interview-media-feud-claim",
-      "slug": "abramov-ulpan-shishi-interview-keshet-leumi-partners-claim",
-      "title": "Abramov breaks silence on Japanika attacks and alleges a media 'conflict' he says he fell victim to",
-      "statusBefore": "review",
-      "words": 644,
-      "paragraphs": 6,
-      "facts": 6,
-      "verificationSources": 3,
-      "blockers": [
-        "media:no-licensed-image"
-      ],
-      "warnings": [
-        "voice:repeated-six-paragraph-template-risk"
-      ]
-    },
-    {
       "id": "archive-20260718-montreal-1976",
       "slug": "montreal-1976-black-ribbon-esther-roth-first-israeli-olympic-final",
       "title": "Fifty years on: Montreal 1976, the black ribbon and Israel's first Olympic finalist",
@@ -1166,38 +1076,6 @@
       ]
     },
     {
-      "id": "live-20260718-seck-saudi-move",
-      "slug": "abdoulaye-seck-reported-al-faisaly-move-after-maccabi-haifa-exit",
-      "title": "Seck reported to be on verge of Al-Faisaly switch after Maccabi Haifa exit",
-      "statusBefore": "review",
-      "words": 411,
-      "paragraphs": 6,
-      "facts": 6,
-      "verificationSources": 4,
-      "blockers": [
-        "media:no-licensed-image"
-      ],
-      "warnings": [
-        "voice:repeated-six-paragraph-template-risk"
-      ]
-    },
-    {
-      "id": "live-20260718-lundberg-ultimatum-walker",
-      "slug": "maccabi-lundberg-ultimatum-walker-expected-to-stay",
-      "title": "'We'll need to compromise': Maccabi run out of patience with Lundberg as Walker edges towards staying",
-      "statusBefore": "review",
-      "words": 441,
-      "paragraphs": 6,
-      "facts": 6,
-      "verificationSources": 2,
-      "blockers": [
-        "media:no-licensed-image"
-      ],
-      "warnings": [
-        "voice:repeated-six-paragraph-template-risk"
-      ]
-    },
-    {
       "id": "live-20260718-israel-u20-latvia-rout",
       "slug": "israel-u20-latvia-96-74-belaga-triple-double",
       "title": "Belaga makes history with a triple-double as Israel U20s rout Latvia 96–74",
@@ -1209,22 +1087,6 @@
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-20260719-tour-stage-14-pogacar",
-      "slug": "tour-de-france-stage-14-pogacar-fourth-win-le-markstein",
-      "title": "Pogačar dances to a fourth Tour stage win at Le Markstein as lead stretches to 4:30",
-      "statusBefore": "review",
-      "words": 316,
-      "paragraphs": 6,
-      "facts": 6,
-      "verificationSources": 2,
-      "blockers": [
-        "media:no-licensed-image"
-      ],
-      "warnings": [
-        "voice:repeated-six-paragraph-template-risk"
       ]
     },
     {
@@ -1304,8 +1166,8 @@
       "slug": "blessing-afrifah-pulled-israeli-championships-hamstring-injury",
       "title": "Israel's 100m record-holder Blessing Afrifah pulled from national championships with hamstring injury",
       "statusBefore": "published",
-      "words": 283,
-      "paragraphs": 7,
+      "words": 284,
+      "paragraphs": 6,
       "facts": 6,
       "verificationSources": 3,
       "blockers": [],
@@ -1344,7 +1206,7 @@
       "slug": "jeff-dowtin-maccabi-tel-aviv-napoli-basket-eurocup",
       "title": "Ex-Maccabi Tel Aviv guard Jeff Dowtin Jr joins Napoli Basket",
       "statusBefore": "published",
-      "words": 255,
+      "words": 261,
       "paragraphs": 7,
       "facts": 6,
       "verificationSources": 6,
@@ -1418,8 +1280,8 @@
       "slug": "aek-athens-official-offer-kings-kangwa-hapoel-beer-sheva",
       "title": "AEK Athens submit official offer for Hapoel Be'er Sheva star Kings Kangwa",
       "statusBefore": "published",
-      "words": 701,
-      "paragraphs": 9,
+      "words": 686,
+      "paragraphs": 10,
       "facts": 9,
       "verificationSources": 8,
       "blockers": [],

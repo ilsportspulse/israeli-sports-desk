@@ -53,6 +53,8 @@ function inspect(article) {
   const image = media[article.id] ?? article.image;
 
   if (words < threshold) blockers.push(`copy-depth:${words}/${threshold}-words`);
+  // The newsroom now emits a natural, varied 5-14 paragraphs rather than a fixed
+  // 7-paragraph template. Five stays the professional floor for a published story.
   if (article.body.length < 5) blockers.push(`structure:${article.body.length}/5-paragraphs`);
   if (article.facts.length < 4) blockers.push(`evidence:${article.facts.length}/4-confirmed-facts`);
   if (!article.verificationSources?.length) blockers.push("research:no-independent-or-authoritative-verification");
@@ -76,7 +78,6 @@ function inspect(article) {
   }
   if (!article.desk) warnings.push("taxonomy:desk-not-assigned");
   if (article.kind === "analysis" && words < 650) warnings.push(`voice:analysis-below-650-word-editorial-target:${words}`);
-  if (article.body.length === 6) warnings.push("voice:repeated-six-paragraph-template-risk");
   const attributionCount = (visibleCopy.match(publisherAttribution) ?? []).length;
   if (attributionCount > 1) warnings.push(`voice:publisher-attribution-heavy:${attributionCount}`);
   if (stockVoice.test(visibleCopy)) warnings.push("voice:stock-editorial-phrase-detected");

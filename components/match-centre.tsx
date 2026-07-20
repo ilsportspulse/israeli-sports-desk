@@ -41,7 +41,7 @@ function EventRow({ event }: { event: MatchEvent }) {
 export function MatchCentre({ recap }: { recap: MatchRecap }) {
   const [activeTab, setActiveTab] = useState<MatchTab>("Overview");
   const goals = recap.events.filter((event) => event.type === "goal");
-  const cards = recap.events.filter((event) => event.type === "yellow" || event.type === "second-yellow");
+  const cards = recap.events.filter((event) => event.type === "yellow" || event.type === "second-yellow" || event.type === "red");
 
   return (
     <section className="match-centre" aria-labelledby="match-centre-title">

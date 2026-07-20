@@ -10,8 +10,8 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: "*",
         allow: "/",
-        // Never expose the admin backoffice, internal APIs or the Hebrew prototype to crawlers.
-        disallow: ["/admin", "/api/", "/he-preview"],
+        // Never expose the admin backoffice or internal APIs to crawlers.
+        disallow: ["/admin", "/api/"],
       },
     ],
     sitemap: `${BASE}/sitemap.xml`,

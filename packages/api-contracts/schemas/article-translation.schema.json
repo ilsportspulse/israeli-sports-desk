@@ -15,9 +15,9 @@
   ],
   "properties": {
     "articleId": { "type": "string", "minLength": 1 },
-    "locale": { "enum": ["he"] },
+    "locale": { "enum": ["fr", "es"] },
     "sourceUpdatedAt": { "type": "string", "format": "date-time" },
-    "status": { "enum": ["reviewed-prototype"] },
+    "status": { "enum": ["published", "reviewed", "reviewed-prototype"] },
     "coverage": { "enum": ["summary", "full"] },
     "title": { "type": "string", "minLength": 1 },
     "dek": { "type": "string", "minLength": 1 },

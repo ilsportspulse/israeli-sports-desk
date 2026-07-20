@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T20:57:21.313Z",
+  "generatedAt": "2026-07-20T18:37:35.701Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -13,24 +13,25 @@
   "summary": {
     "publishedArticles": 134,
     "wordCount": {
-      "minimum": 258,
+      "minimum": 264,
       "maximum": 1115,
       "median": 501,
-      "average": 524.4
+      "average": 524.3
     },
     "paragraphDistribution": {
       "5": 5,
-      "7": 65,
+      "6": 1,
+      "7": 64,
       "8": 39,
-      "9": 14,
-      "10": 8,
+      "9": 13,
+      "10": 9,
       "11": 2,
       "12": 1
     },
     "dominantParagraphCount": 7,
-    "dominantParagraphShare": 0.485,
+    "dominantParagraphShare": 0.478,
     "uniformStructureWarning": true,
-    "exactSixParagraphArticles": 0,
+    "exactSixParagraphArticles": 1,
     "analysisBelowTarget": 0,
     "articlesWithStyleFlags": 1
   },
@@ -40,22 +41,22 @@
       "slug": "jeff-dowtin-maccabi-tel-aviv-napoli-basket-eurocup",
       "title": "Ex-Maccabi Tel Aviv guard Jeff Dowtin Jr joins Napoli Basket",
       "kind": "news",
-      "words": 258,
+      "words": 264,
       "paragraphs": 7,
       "paragraphWords": {
-        "shortest": 29,
-        "longest": 49,
-        "average": 36.9
+        "shortest": 30,
+        "longest": 48,
+        "average": 37.7
       },
       "sentenceWords": {
         "shortest": 6,
-        "longest": 45,
-        "average": 23.5
+        "longest": 36,
+        "average": 22
       },
-      "lexicalDiversity": 0.655,
+      "lexicalDiversity": 0.644,
       "publisherAttributions": 0,
       "flags": [
-        "below-editorial-target:258/280"
+        "below-editorial-target:264/280"
       ]
     }
   ],
@@ -65,19 +66,19 @@
       "slug": "blessing-afrifah-pulled-israeli-championships-hamstring-injury",
       "title": "Israel's 100m record-holder Blessing Afrifah pulled from national championships with hamstring injury",
       "kind": "news",
-      "words": 285,
-      "paragraphs": 7,
+      "words": 286,
+      "paragraphs": 6,
       "paragraphWords": {
-        "shortest": 33,
-        "longest": 51,
-        "average": 40.7
+        "shortest": 32,
+        "longest": 82,
+        "average": 47.7
       },
       "sentenceWords": {
         "shortest": 8,
-        "longest": 46,
-        "average": 35.6
+        "longest": 47,
+        "average": 26
       },
-      "lexicalDiversity": 0.579,
+      "lexicalDiversity": 0.577,
       "publisherAttributions": 0,
       "flags": []
     },
@@ -233,19 +234,19 @@
       "slug": "aek-athens-official-offer-kings-kangwa-hapoel-beer-sheva",
       "title": "AEK Athens submit official offer for Hapoel Be'er Sheva star Kings Kangwa",
       "kind": "news",
-      "words": 699,
-      "paragraphs": 9,
+      "words": 685,
+      "paragraphs": 10,
       "paragraphWords": {
-        "shortest": 49,
-        "longest": 138,
-        "average": 77.7
+        "shortest": 48,
+        "longest": 107,
+        "average": 68.5
       },
       "sentenceWords": {
         "shortest": 4,
-        "longest": 71,
-        "average": 30.4
+        "longest": 65,
+        "average": 26.3
       },
-      "lexicalDiversity": 0.511,
+      "lexicalDiversity": 0.524,
       "publisherAttributions": 1,
       "flags": []
     },

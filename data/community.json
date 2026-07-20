@@ -1,0 +1,28 @@
+{
+  "enabled": {
+    "accounts": false,
+    "comments": false,
+    "reactions": false,
+    "predictions": false,
+    "liveMatchPulse": false,
+    "motmVoting": false,
+    "watchAlongRooms": false,
+    "fanZones": false,
+    "polls": false,
+    "quizzes": false,
+    "managerGame": false
+  },
+  "moderation": {
+    "aiFilter": true,
+    "humanReviewQueue": true,
+    "requireEmailVerify": true,
+    "newAccountThrottle": true,
+    "antiBrigade": true,
+    "languages": [
+      "en",
+      "he",
+      "ar"
+    ],
+    "bannedWords": []
+  }
+}

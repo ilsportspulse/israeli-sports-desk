@@ -6,6 +6,7 @@ export const siteConfig = {
   description:
     "Independent English-language news, scores and analysis across Israeli sport.",
   primaryDomain: "ilsportspulse.com",
+  shortDomain: "ilsp.co.il", // owned — 301-redirects to the primary domain
   localDomain: "ilsportspulse.co.il",
   defensiveDomain: "ilpulse.co.il",
   siteUrl: "https://ilsportspulse.com",

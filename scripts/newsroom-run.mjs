@@ -12,7 +12,7 @@ import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const MODEL = process.env.ANTHROPIC_MODEL ?? "claude-sonnet-5";
-const MAX_CANDIDATES = Math.max(1, Number(process.env.NEWSROOM_MAX_CANDIDATES ?? 6));
+let MAX_CANDIDATES = Math.max(1, Number(process.env.NEWSROOM_MAX_CANDIDATES ?? 6));
 // CLI mode runs a full Claude Code agent loop (several web-search rounds + writing)
 // per article, which is thorough but slow. Give each draft a generous wall-clock
 // budget and a turn cap so it concludes instead of running forever.
@@ -83,7 +83,7 @@ const ARTICLE_SCHEMA = {
       type: "array",
       items: { type: "object", required: ["label", "url"], properties: { label: { type: "string" }, url: { type: "string" } } },
     },
-    body: { type: "array", items: { type: "string" }, minItems: 7, maxItems: 8 },
+    body: { type: "array", items: { type: "string" }, minItems: 5, maxItems: 18 },
     facts: { type: "array", items: { type: "string" }, minItems: 5 },
     theme: { type: "string" },
     homepagePriority: { type: "number" },
@@ -101,6 +101,14 @@ const ARTICLE_SCHEMA = {
       type: "array",
       items: { type: "object", properties: { title: { type: "string" }, creditUrl: { type: "string" }, credit: { type: "string" }, license: { type: "string" } } },
     },
+    video: {
+      type: "object",
+      properties: { title: { type: "string" }, channel: { type: "string" }, youtubeId: { type: "string" }, sourceUrl: { type: "string" } },
+    },
+    officialSocialPost: {
+      type: "object",
+      properties: { title: { type: "string" }, account: { type: "string" }, platform: { type: "string" }, url: { type: "string" }, postId: { type: "string" } },
+    },
   },
 };
 
@@ -111,7 +119,8 @@ const GATES = `HARD EDITORIAL GATES — obey exactly:
 - Verify every person/team name transliteration against an official/registry record (Transfermarkt / Wikipedia / league / World Athletics) and record it in nameChecks.
 - The story must be genuinely Israeli-related (Israeli competition or an Israeli athlete/team). If it is international with only a thin Israeli angle, use desk "international"; if there is no Israeli relevance at all, set confidence 0 and warning "no Israeli angle".
 - No publisher names in title or dek; at most once in the body; never on the international desk.
-- body must be professional broadsheet English, EXACTLY 7 paragraphs.
+- RICH MEDIA (encouraged): when a genuinely relevant, REAL and verifiable clip or post exists, embed it — it makes the article richer. Include "video" for a real YouTube video (set youtubeId to the exact 11-character id from a working youtube.com/watch?v= or youtu.be/ URL you actually found, plus title, channel, sourceUrl) and/or "officialSocialPost" for an official club/athlete/federation post on X or Instagram (platform "twitter" or "instagram", the exact post/tweet id, url, title, account). ONLY include one you have actually seen and verified via web search — NEVER guess, invent or approximate an id or url. If you cannot verify a real one, omit the field entirely. Prefer official accounts and official highlight channels.
+- VOICE: write like a real, experienced human sports journalist for a quality broadsheet — never a template or a robot, never amateurish. Let the STORY and the depth of your reporting dictate the length: a tight news item may be 5-7 paragraphs, a well-researched story or analysis 10-16. Length must be flexible BOTH ways — shorter when the story is small, longer when genuine research (background, context, history, standings, quotes) earns it. NEVER pad, repeat or restate to reach a length; every paragraph must add new information and stay readable — keep paragraphs short (roughly 2-4 sentences), never dense walls of text that tire the reader. Vary paragraph length and sentence rhythm; open with a genuine, specific news hook (not a formula); avoid any repeated fixed structure. Between 5 and 18 paragraphs — pick what the story truly needs, and make different articles read differently.
 - Set confidence (0-1) honestly. Set warning to "" only if every core fact is multi-source consistent and nothing is uncertain.
 - Propose commonsQuery + up to 3 REAL Wikimedia Commons files (verify they exist) for a relevant, correctly-identified photo.`;
 
@@ -152,7 +161,7 @@ function extractJson(text) {
 function draftViaCli(candidate, todayIso) {
   const prompt = `${buildPrompt(candidate, todayIso)}
 
-Fields required in the JSON object: id, slug, title, dek, category, desk ("israel" or "international"), kind, storyForm, publishedAt, updatedAt, readMinutes (number), source {name,url}, verificationSources [{label,url}], body (array of EXACTLY 7 strings), facts (array of >=5 strings), theme, homepagePriority (number), homepageReason, dedupeKey, aiDisclosure, nameChecks [{hebrew,english,verificationUrl,confidence}], confidence (0-1 number), warning (string, "" if none), commonsQuery, commonsCandidates [{title,creditUrl,credit,license}].
+Fields required in the JSON object: id, slug, title, dek, category, desk ("israel" or "international"), kind, storyForm, publishedAt, updatedAt, readMinutes (number), source {name,url}, verificationSources [{label,url}], body (array of 5-18 strings; the natural length for THIS story — shorter or longer as the reporting earns, never padded, never a fixed count), facts (array of >=5 strings), theme, homepagePriority (number), homepageReason, dedupeKey, aiDisclosure, nameChecks [{hebrew,english,verificationUrl,confidence}], confidence (0-1 number), warning (string, "" if none), commonsQuery, commonsCandidates [{title,creditUrl,credit,license}]. OPTIONAL rich media (include ONLY if you verified a real one, else omit): video {title,channel,youtubeId,sourceUrl} for a real YouTube clip, officialSocialPost {title,account,platform ("twitter"|"instagram"),url,postId} for a real official X/Instagram post.
 
 Work efficiently: do at most 5 web searches to gather and cross-check the essential facts, then stop researching and write. If you cannot verify enough to meet the gates within that budget, still emit the object with an honest low confidence and a warning rather than searching endlessly.
 
@@ -217,19 +226,35 @@ async function draftAndVerify(candidate, todayIso) {
   return MODE === "cli" ? draftViaCli(candidate, todayIso) : draftViaApi(candidate, todayIso);
 }
 
-function passesGates(article) {
+function passesGates(article, confidenceMin = 0.92, namecheckMin = 0.9) {
   if (!article) return false;
-  if (typeof article.confidence !== "number" || article.confidence < 0.92) return false;
+  if (typeof article.confidence !== "number" || article.confidence < confidenceMin) return false;
   if (article.warning && article.warning.trim() !== "") return false;
-  if (!Array.isArray(article.body) || article.body.length < 7) return false;
+  if (!Array.isArray(article.body) || article.body.length < 5) return false;
   const names = article.nameChecks ?? [];
-  if (names.some((n) => typeof n.confidence === "number" && n.confidence < 0.9)) return false;
+  if (names.some((n) => typeof n.confidence === "number" && n.confidence < namecheckMin)) return false;
   return true;
 }
 
 async function main() {
   console.log(`Newsroom runner starting — mode=${MODE}, model=${MODEL}, max=${MAX_CANDIDATES}` +
     (MODE === "cli" ? `, draftBudget=${Math.round(DRAFT_TIMEOUT_MS / 1000)}s, maxTurns=${DRAFT_MAX_TURNS}` : ""));
+
+  // 0. Backoffice-editable gate settings (nothing hardcoded). Falls back to the
+  // conservative defaults baked into passesGates if the file is absent.
+  const settings = await readJson("data/settings.json").catch(() => ({}));
+  const gates = settings.newsroom ?? {};
+  if (gates.enabled === false) {
+    console.log("Newsroom is turned OFF in backoffice settings — skipping this cycle.");
+    return;
+  }
+  const CONFIDENCE_MIN = typeof gates.confidenceThreshold === "number" ? gates.confidenceThreshold : 0.92;
+  const NAMECHECK_MIN = typeof gates.namecheckThreshold === "number" ? gates.namecheckThreshold : 0.9;
+  const AUTO_PUBLISH = gates.autoPublish === true;
+  if (typeof gates.maxCandidates === "number" && !process.env.NEWSROOM_MAX_CANDIDATES) {
+    MAX_CANDIDATES = Math.max(1, gates.maxCandidates);
+  }
+  console.log(`Gates — confidence>=${CONFIDENCE_MIN}, namecheck>=${NAMECHECK_MIN}, autoPublish=${AUTO_PUBLISH}`);
 
   // 1. Discovery (writes candidates into data/ingestion-report.json).
   try {
@@ -266,6 +291,8 @@ async function main() {
   const todayIso = new Date().toISOString();
   let published = 0;
   let review = 0;
+  let skipped = 0;
+  const decisions = []; // per-candidate outcome for the backoffice monitor
 
   for (const candidate of candidates) {
     let article;
@@ -273,28 +300,43 @@ async function main() {
       article = await draftAndVerify(candidate, todayIso);
     } catch (error) {
       console.warn(`Draft failed for ${candidate.url}: ${error.message}`);
+      decisions.push({ url: candidate.url, decision: "error", reason: error.message });
+      skipped += 1;
       continue;
     }
-    if (!article || !article.id || !article.slug) continue;
+    if (!article || !article.id || !article.slug) {
+      decisions.push({ url: candidate.url, decision: "skipped", reason: "no valid article emitted" });
+      skipped += 1;
+      continue;
+    }
     if (seen.has(norm(article.id)) || seen.has(norm(article.slug)) || (article.dedupeKey && seen.has(norm(article.dedupeKey)))) {
       console.log(`Skip duplicate: ${article.slug}`);
+      decisions.push({ slug: article.slug, title: article.title, decision: "duplicate" });
+      skipped += 1;
       continue;
     }
-    // Media, structured recaps and full media QA are handled by the media step /
-    // human desk; for now anything that would publish without vetted media is held.
-    const gated = passesGates(article);
-    article.status = gated ? "review" : "review"; // v1: always land in review until media + vision QA runs.
+    const gated = passesGates(article, CONFIDENCE_MIN, NAMECHECK_MIN);
+    // Media, structured recaps and full media QA still happen at the media step /
+    // human desk, so auto-publish only when both the gates pass AND the backoffice
+    // explicitly enables it; otherwise the story is held in the review queue.
+    article.status = gated && AUTO_PUBLISH ? "published" : "review";
     if (!article.warning) article.warning = "";
-
-    // Strip runner-only fields we don't persist verbatim if empty.
     if (!article.nameChecks) article.nameChecks = [];
 
     articles.unshift(article);
     seen.add(norm(article.id));
     seen.add(norm(article.slug));
     if (article.dedupeKey) seen.add(norm(article.dedupeKey));
-    if (gated) published += 1; else review += 1;
-    console.log(`Drafted ${article.slug} — confidence ${article.confidence}, gate ${gated ? "PASS" : "HOLD"} -> review`);
+    if (article.status === "published") published += 1; else review += 1;
+    decisions.push({
+      slug: article.slug,
+      title: article.title,
+      confidence: article.confidence,
+      gate: gated ? "pass" : "hold",
+      decision: article.status,
+      reason: gated ? "" : (article.warning || "below gate thresholds"),
+    });
+    console.log(`Drafted ${article.slug} — confidence ${article.confidence}, gate ${gated ? "PASS" : "HOLD"} -> ${article.status}`);
   }
 
   if (Array.isArray(data)) {
@@ -304,7 +346,22 @@ async function main() {
     await writeJson("data/articles.json", data);
   }
 
-  console.log(`Cycle done — ${published} gate-pass, ${review} held; all staged as review pending media + final QA.`);
+  // Monitoring log for the backoffice: newest cycle first, keep the last 50.
+  try {
+    const prior = await readJson("data/newsroom-log.json").catch(() => []);
+    const log = Array.isArray(prior) ? prior : [];
+    log.unshift({
+      ts: todayIso, mode: MODE, model: MODEL,
+      candidates: candidates.length, published, review, skipped,
+      gates: { confidenceMin: CONFIDENCE_MIN, namecheckMin: NAMECHECK_MIN, autoPublish: AUTO_PUBLISH },
+      decisions,
+    });
+    await writeJson("data/newsroom-log.json", log.slice(0, 50));
+  } catch (error) {
+    console.warn(`Could not write newsroom log: ${error.message}`);
+  }
+
+  console.log(`Cycle done — ${published} published, ${review} held for review, ${skipped} skipped.`);
 }
 
 await main();

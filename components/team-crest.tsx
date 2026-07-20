@@ -1,3 +1,5 @@
+import { getClubCrest } from "@/lib/israeli-clubs";
+
 export function TeamCrest({
   name,
   logo,
@@ -7,23 +9,27 @@ export function TeamCrest({
   logo?: string | null;
   alternate?: boolean;
 }) {
-  const initials = name
-    .split(/\s+/)
-    .slice(0, 2)
-    .map((part) => part[0])
-    .join("")
-    .toUpperCase();
+  if (logo) {
+    return (
+      <span
+        className="team-crest team-crest-image"
+        role="img"
+        aria-label={`${name} crest`}
+        style={{ backgroundImage: `url("${logo}")` }}
+      />
+    );
+  }
 
-  return logo ? (
+  // No licensed logo: render a recognisable, on-brand monogram in the club's
+  // colours (see lib/israeli-clubs). Not the official trademarked crest.
+  const crest = getClubCrest(name);
+  return (
     <span
-      className="team-crest team-crest-image"
-      role="img"
-      aria-label={`${name} crest`}
-      style={{ backgroundImage: `url("${logo}")` }}
-    />
-  ) : (
-    <span className={`team-crest team-crest-fallback${alternate ? " alt" : ""}`} aria-hidden="true">
-      {initials}
+      className={`team-crest team-crest-fallback${alternate ? " alt" : ""}`}
+      aria-hidden="true"
+      style={{ background: crest.bg, color: crest.fg }}
+    >
+      {crest.label}
     </span>
   );
 }

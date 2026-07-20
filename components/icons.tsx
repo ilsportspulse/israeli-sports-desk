@@ -107,6 +107,41 @@ export function HomeIcon({ size, ...props }: IconProps) {
   );
 }
 
+export function ScoreboardIcon({ size, ...props }: IconProps) {
+  return (
+    <svg {...base(size)} {...props}>
+      <rect x="3" y="5" width="18" height="14" rx="2.5" />
+      <path d="M12 6.5v11" />
+      <circle cx="7.5" cy="10" r="1.1" fill="currentColor" stroke="none" />
+      <circle cx="7.5" cy="14" r="1.1" fill="currentColor" stroke="none" />
+      <circle cx="16.5" cy="10" r="1.1" fill="currentColor" stroke="none" />
+      <circle cx="16.5" cy="14" r="1.1" fill="currentColor" stroke="none" />
+    </svg>
+  );
+}
+
+export function IsraelFlagIcon({ size = 20 }: { size?: number }) {
+  // Recognisable Israeli flag: white field, two blue bars, blue Star of David.
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <rect x="2.5" y="4.5" width="19" height="15" rx="2.4" fill="#ffffff" stroke="#d7dbe2" strokeWidth="0.6" />
+      <rect x="2.5" y="6.7" width="19" height="1.9" fill="#0038b8" />
+      <rect x="2.5" y="15.4" width="19" height="1.9" fill="#0038b8" />
+      <path d="M12 9.1 16 12 12 14.9 8 12Z" fill="none" stroke="#0038b8" strokeWidth="0.9" />
+      <path d="M9.4 10.5h5.2L12 15.1ZM9.4 13.5h5.2L12 8.9Z" fill="none" stroke="#0038b8" strokeWidth="0.9" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
+export function GlobeIcon({ size, ...props }: IconProps) {
+  return (
+    <svg {...base(size)} {...props}>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M3 12h18M12 3c2.5 2.5 3.8 5.7 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.7-3.8-9s1.3-6.5 3.8-9Z" />
+    </svg>
+  );
+}
+
 export function ClockIcon({ size, ...props }: IconProps) {
   return (
     <svg {...base(size)} {...props}>

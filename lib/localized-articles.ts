@@ -1,13 +1,21 @@
 import translationsJson from "@/data/content-translations.json";
 
 import type { PublicArticle, PublicArticleSummary } from "@/lib/types";
-import type { LocaleCode } from "@/lib/locales";
+import { defaultLocale, type LocaleCode } from "@/lib/locales";
 
-type SummaryTranslation = {
+// A translation targets a non-default locale (fr/es). English is always the
+// canonical source and needs no stored translation.
+export type TranslatedLocale = Exclude<LocaleCode, typeof defaultLocale>;
+
+// Statuses we accept as publishable on the live site. Newsroom-generated
+// translations land as "published"; human-reviewed copy as "reviewed".
+const PUBLISHABLE_STATUSES = new Set(["published", "reviewed", "reviewed-prototype"]);
+
+type StoredTranslation = {
   articleId: string;
-  locale: "he";
+  locale: LocaleCode;
   sourceUpdatedAt: string;
-  status: "reviewed-prototype";
+  status: string;
   coverage: "summary" | "full";
   title: string;
   dek: string;
@@ -33,13 +41,33 @@ export type LocalizedArticleDetailCopy = LocalizedArticleSummaryCopy & {
   };
 };
 
-const summaryTranslations = translationsJson.translations as SummaryTranslation[];
+const storedTranslations = (translationsJson.translations ?? []) as StoredTranslation[];
+
+function findTranslation(
+  articleId: string,
+  locale: LocaleCode,
+  sourceVersion: string | undefined,
+  requireFull: boolean,
+): StoredTranslation | null {
+  return (
+    storedTranslations.find(
+      (item) =>
+        item.articleId === articleId &&
+        item.locale === locale &&
+        PUBLISHABLE_STATUSES.has(item.status) &&
+        (requireFull ? item.coverage === "full" : item.coverage === "summary" || item.coverage === "full") &&
+        // A source update invalidates a stale translation (unless the translation
+        // was written without a pinned source version).
+        (!item.sourceUpdatedAt || item.sourceUpdatedAt === sourceVersion),
+    ) ?? null
+  );
+}
 
 export function getLocalizedArticleSummaryCopy(
   article: PublicArticleSummary,
   locale: LocaleCode,
 ): LocalizedArticleSummaryCopy | null {
-  if (locale === "en") {
+  if (locale === defaultLocale) {
     return {
       locale,
       title: article.title,
@@ -49,15 +77,9 @@ export function getLocalizedArticleSummaryCopy(
   }
 
   const sourceVersion = article.updatedAt ?? article.publishedAt;
-  const translation = summaryTranslations.find(
-    (item) => item.articleId === article.id
-      && item.locale === locale
-      && item.status === "reviewed-prototype"
-      && (item.coverage === "summary" || item.coverage === "full")
-      && item.sourceUpdatedAt === sourceVersion,
-  );
-
+  const translation = findTranslation(article.id, locale, sourceVersion, false);
   if (!translation) return null;
+
   return {
     locale,
     title: translation.title,
@@ -70,7 +92,7 @@ export function getLocalizedArticleDetailCopy(
   article: PublicArticle,
   locale: LocaleCode,
 ): LocalizedArticleDetailCopy | null {
-  if (locale === "en") {
+  if (locale === defaultLocale) {
     return {
       locale,
       title: article.title,
@@ -86,23 +108,18 @@ export function getLocalizedArticleDetailCopy(
   }
 
   const sourceVersion = article.updatedAt ?? article.publishedAt;
-  const translation = summaryTranslations.find(
-    (item) => item.articleId === article.id
-      && item.locale === locale
-      && item.status === "reviewed-prototype"
-      && item.coverage === "full"
-      && item.sourceUpdatedAt === sourceVersion,
-  );
+  const translation = findTranslation(article.id, locale, sourceVersion, true);
 
   if (
-    !translation
-    || !translation.body
-    || translation.body.length < 5
-    || !translation.facts
-    || translation.facts.length < 4
-    || !translation.media?.alt.trim()
-    || !translation.media.caption.trim()
-  ) return null;
+    !translation ||
+    !translation.body ||
+    translation.body.length < 5 ||
+    !translation.facts ||
+    translation.facts.length < 4 ||
+    !translation.media?.alt.trim() ||
+    !translation.media.caption.trim()
+  )
+    return null;
 
   return {
     locale,

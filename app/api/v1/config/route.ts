@@ -19,6 +19,9 @@ export function GET() {
         publicLaunchLocales: active,
         prototypeLocales: prototypes,
         localePolicy: {
+          // The mobile app's public launch contract is English-only and gated
+          // separately from the website, which serves en/fr/es. The website reads
+          // data/locale-config.json directly and does not depend on this endpoint.
           publicLaunch: "english-only",
           prototypeLocalesPubliclySelectable: false,
         },

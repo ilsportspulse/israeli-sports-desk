@@ -24,9 +24,9 @@ export function StoryIndex({ eyebrow, title, introduction, articles }: StoryInde
           </Link>
           <nav className="story-index-nav" aria-label="Story archive">
             <Link href="/stories">All stories</Link>
-            <Link href="/archive">Archive</Link>
+            <Link href="/archive">Retro</Link>
             <Link href="/columns">Columns</Link>
-            <Link href="/scores">Scores</Link>
+            <Link href="/scores">Match Center</Link>
           </nav>
           <Link href="/" className="article-back"><HomeIcon size={16} /> Back to the desk</Link>
         </div>

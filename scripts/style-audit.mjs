@@ -56,8 +56,7 @@ const items = articles.map((article) => {
   const targetMinimum = article.kind === "analysis" ? 650 : article.kind === "explainer" ? 500 : 280;
 
   if (wordList.length < targetMinimum) flags.push(`below-editorial-target:${wordList.length}/${targetMinimum}`);
-  if (article.kind === "analysis" && article.body.length < 8) flags.push(`analysis-structure:${article.body.length}/8-paragraphs`);
-  if (article.body.length === 6) flags.push("repeated-six-paragraph-template-risk");
+  if (article.kind === "analysis" && article.body.length < 5) flags.push(`analysis-structure:${article.body.length}/5-paragraphs`);
   if (phraseFlags.length) flags.push(...phraseFlags.map((flag) => `stock-phrase:${flag}`));
   if (attributionCount > 1) flags.push(`publisher-attribution-heavy:${attributionCount}`);
   if (sentenceLengths.length && Math.max(...sentenceLengths) - Math.min(...sentenceLengths) < 8) {

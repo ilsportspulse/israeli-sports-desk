@@ -33,6 +33,7 @@ export type MediaAsset = {
   changes?: string;
   width?: number;
   height?: number;
+  focalPoint?: { x: number; y: number }; // 0-100 %, for face-aware cropping (CSS object-position)
 };
 
 export type MatchTeam = {
@@ -114,11 +115,22 @@ export type BasketballRecap = {
   leaders: BasketballLeader[];
 };
 
+export type ArticleSeo = {
+  metaTitle?: string;
+  metaDescription?: string;
+  canonical?: string;
+  ogImage?: string;
+  keywords?: string[];
+  focusKeyword?: string;
+  noindex?: boolean;
+};
+
 export type Article = {
   id: string;
   slug: string;
   title: string;
   dek: string;
+  seo?: ArticleSeo;
   category: string;
   kind: ArticleKind;
   publishedAt: string;

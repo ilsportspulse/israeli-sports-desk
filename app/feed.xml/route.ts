@@ -15,7 +15,7 @@ function escapeXml(value: string): string {
 }
 
 export function GET() {
-  const articles = getArticles().slice(0, 50);
+  const articles = getArticles().filter((article) => !article.seo?.noindex).slice(0, 50);
   const lastBuild = new Date().toUTCString();
 
   const items = articles

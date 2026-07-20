@@ -10,3 +10,15 @@ data/ingestion-state.json
 data/ingestion-report.json
 .vercel
 .env*
+
+# Backoffice runtime log (regenerated at runtime)
+data/admin-audit.json
+
+# Runtime analytics events (high-volume; use KV/Postgres in prod)
+data/analytics/
+
+# Admin 2FA secret (never in git; use ADMIN_TOTP_SECRET env in prod)
+data/admin-2fa.json
+
+# Backup snapshots (shipped to off-site storage; not tracked)
+backups/

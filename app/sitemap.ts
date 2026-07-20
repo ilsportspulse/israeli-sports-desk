@@ -29,7 +29,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: entry.priority,
   }));
 
-  const articleEntries: MetadataRoute.Sitemap = getArticles().map((article) => {
+  const articleEntries: MetadataRoute.Sitemap = getArticles().filter((article) => !article.seo?.noindex).map((article) => {
     const lastModified = article.updatedAt ?? article.publishedAt;
     return {
       url: `${BASE}/article/${article.slug}`,
