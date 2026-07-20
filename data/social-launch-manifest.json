@@ -146,8 +146,8 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-20T18:24:17Z",
-    "validUntil": "2026-07-21T06:24:17Z",
+    "checkedAt": "2026-07-20T20:57:20Z",
+    "validUntil": "2026-07-21T08:57:20Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
@@ -167,7 +167,7 @@
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 29,
+        "maxAgeHours": 32,
         "requires": [
           "basketballRecap"
         ]
@@ -181,7 +181,7 @@
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 39,
+        "maxAgeHours": 42,
         "requires": [
           "column"
         ]
@@ -189,7 +189,7 @@
       {
         "role": "archive",
         "articleId": "archive-20260719-helsinki-1952",
-        "maxAgeHours": 39,
+        "maxAgeHours": 42,
         "requires": [
           "historical-feature"
         ]
