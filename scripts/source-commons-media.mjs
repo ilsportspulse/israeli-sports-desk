@@ -861,10 +861,15 @@ function openverseUsable(item) {
   const type = (item.filetype ?? "").toLowerCase();
   return Boolean(item.foreign_landing_url && item.url) && (type === "jpg" || type === "jpeg" || /\.jpe?g(?:$|\?)/i.test(item.url));
 }
-async function openversePick(searchQueries, usedUrlSet) {
+async function openversePick(searchQueries, usedUrlSet, tokens = []) {
   for (const query of searchQueries) {
     const results = await openverseSearch(query);
-    const hit = results.find((item) => openverseUsable(item) && !usedUrlSet.has(item.foreign_landing_url));
+    const hit = results.find((item) => {
+      if (!openverseUsable(item) || usedUrlSet.has(item.foreign_landing_url)) return false;
+      if (!tokens.length) return true;
+      const haystack = `${item.title ?? ""} ${(item.tags ?? []).map((tag) => tag.name).join(" ")}`.toLowerCase();
+      return tokens.some((token) => haystack.includes(token.toLowerCase()));
+    });
     if (hit) return hit;
     await wait(300);
   }
@@ -909,37 +914,72 @@ if (!dryRun) await mkdir(outputDirectory, { recursive: true });
 // Commons 429 rate-limiting when many single-article runs each prefetched them all).
 const preferredPages = await fetchFiles(articles.map((article) => preferredFiles[article.id]).filter(Boolean));
 
+// Words that do NOT identify a story's subject — sport nouns, competition words and
+// common headline verbs/prepositions. What remains after removing these are the
+// distinctive entities (Hapoel, Maccabi, Messi, Ludogorets, Pogacar, a surname, a
+// venue) that an image must actually depict.
+const GENERIC_WORDS = new Set(
+  ("football soccer basketball handball volleyball tennis cycling athletics swimming rugby match matches game games fixture friendly stadium arena hall court pitch ground venue league leagues division cup supercup super world worlds europe european euro uefa fifa champions conference qualifier qualifiers qualifying playoff national team teams squad club clubs side player players star sign signs signed signing deal deals contract report reported reports reportedly claim claims interview transfer transfers move moves switch join joins joined loan loans coach coaching manager staff goalkeeper keeper striker forward guard defender midfielder record records breaks break broke youth academy junior senior women womens mens israeli israel abroad round rounds final finals semifinal opening season summer winter after with from through against over into ahead before waiting weigh weighs expanding expand rebuild rebuilds chasing close closes agrees agree verbal talks talk offer offers bonus release clause standoff return returns retire retirement debut appointment appointments appointed handed rout preview report city derby road runs pain silence patience compromise heartbreak reaction back path first second third fourth fifth new next set send sends tie ties tied loan compensation dispute row").split(/\s+/),
+);
+function articleTokens(article) {
+  const source = `${article.title ?? ""} ${article.dek ?? ""}`;
+  return [...new Set(
+    source
+      .split(/[^A-Za-zÀ-ÖØ-öø-ÿ']+/)
+      .map((word) => word.replace(/'s$/i, "").replace(/'/g, "").trim())
+      .filter((word) => word.length >= 4 && !GENERIC_WORDS.has(word.toLowerCase())),
+  )];
+}
+function pageHaystack(page) {
+  const info = page.imageinfo?.[0] ?? {};
+  const metadata = info.extmetadata ?? {};
+  return `${page.title ?? ""} ${stripHtml(metadata.ImageDescription?.value)} ${metadata.Categories?.value ?? ""}`.toLowerCase();
+}
+function relevant(haystack, tokens) {
+  return tokens.some((token) => haystack.includes(token.toLowerCase()));
+}
+
 for (const [index, article] of articles.entries()) {
-  const primary = queries[article.id] ?? article.title;
-  const fallback = categoryFallbacks[article.category] ?? "sports competition";
-  let candidates = [];
+  const curated = Boolean(preferredFiles[article.id]);
+  const tokens = articleTokens(article);
+  // Search on the story's distinctive entities (club, player, person, competition,
+  // venue) rather than the full headline sentence — a sentence matches generic
+  // "football" images, entities match the actual subject.
+  const primary = queries[article.id] ?? (tokens.slice(0, 5).join(" ") || article.title);
   let downloaded = false;
   try {
+    // Only two TRUSTED, story-specific image sources are ever used:
+    //   1. commonsCandidates — Commons files the drafting AI researched and matched
+    //      to THIS exact story (verified relevant), and
+    //   2. a hand-curated preferred file for this story.
+    // Blind keyword search is deliberately NOT used: it matched coincidental words
+    // (a city name, a first name, a substring) and put unrelated photos on stories.
+    // If neither trusted source yields a usable image, the story is held for review
+    // rather than published with a wrong one. The drafting step is responsible for
+    // supplying good candidates so most stories still get an image automatically.
     let selected;
     try {
-      selected = preferredFiles[article.id] ? preferredPages.get(preferredFiles[article.id]) : undefined;
-      if (selected && !free(selected)) selected = undefined;
-      if (!selected) selected = (await search(primary)).find(free);
-      if (!selected) {
-        await wait(350);
-        selected = (await search(fallback, (index % 8) * 10)).find(free);
+      const candidateFiles = (article.commonsCandidates ?? [])
+        .map((candidate) => candidate.title)
+        .filter((title) => typeof title === "string" && /^File:/i.test(title));
+      if (candidateFiles.length) {
+        const candidatePages = await fetchFiles(candidateFiles);
+        for (const title of candidateFiles) {
+          const page = candidatePages.get(title);
+          if (page && free(page)) { selected = page; break; }
+        }
+      }
+      if (!selected && curated) {
+        const page = preferredPages.get(preferredFiles[article.id]);
+        if (page && free(page)) selected = page;
       }
     } catch {
-      // Commons unavailable (e.g. a sustained rate-limit) — fall through to Openverse
-      // so one source can never stall the newsroom.
       selected = undefined;
     }
-    let result;
-    if (selected) {
-      used.add(selected.pageid);
-      usedUrls.add(selected.imageinfo?.[0]?.descriptionurl);
-      result = toAsset(article, selected);
-    } else {
-      const item = await openversePick([primary, fallback], usedUrls);
-      if (!item) throw new Error("no unique reusable image on Commons or Openverse");
-      usedUrls.add(item.foreign_landing_url);
-      result = openverseToResult(article, item);
-    }
+    if (!selected) throw new Error("no AI-verified or curated image for this story — held for review");
+    used.add(selected.pageid);
+    usedUrls.add(selected.imageinfo?.[0]?.descriptionurl);
+    const result = toAsset(article, selected);
     if (!dryRun) {
       const previous = previousMedia[article.id];
       downloaded = await downloadImage(
