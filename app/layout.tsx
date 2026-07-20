@@ -13,14 +13,36 @@ export const metadata: Metadata = {
   },
   description: siteConfig.description,
   applicationName: siteConfig.name,
+  alternates: {
+    canonical: "/",
+    types: { "application/rss+xml": `${siteConfig.siteUrl.replace(/\/$/, "")}/feed.xml` },
+  },
   openGraph: {
     type: "website",
     locale: "en_IL",
+    url: siteConfig.siteUrl,
     siteName: siteConfig.name,
     title: `${siteConfig.name} — ${siteConfig.tagline}`,
     description: siteConfig.description,
   },
-  robots: { index: false, follow: false },
+  twitter: {
+    card: "summary_large_image",
+    site: siteConfig.socialHandle,
+    creator: siteConfig.socialHandle,
+    title: `${siteConfig.name} — ${siteConfig.tagline}`,
+    description: siteConfig.description,
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
 };
 
 export const viewport: Viewport = {
@@ -33,15 +55,30 @@ export const viewport: Viewport = {
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
-  const structuredData = {
-    "@context": "https://schema.org",
-    "@type": "NewsMediaOrganization",
-    name: siteConfig.name,
-    url: siteConfig.siteUrl,
-    description: siteConfig.description,
-    areaServed: "Israel",
-    inLanguage: "en",
-  };
+  const base = siteConfig.siteUrl.replace(/\/$/, "");
+  const twitterUrl = `https://x.com/${siteConfig.socialHandle.replace(/^@/, "")}`;
+  const structuredData = [
+    {
+      "@context": "https://schema.org",
+      "@type": "NewsMediaOrganization",
+      name: siteConfig.name,
+      alternateName: siteConfig.shortName,
+      url: base,
+      logo: `${base}/brand/ilsp-mark.svg`,
+      description: siteConfig.description,
+      areaServed: "Israel",
+      inLanguage: "en",
+      sameAs: [twitterUrl],
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      name: siteConfig.name,
+      url: base,
+      inLanguage: "en",
+      publisher: { "@type": "NewsMediaOrganization", name: siteConfig.name },
+    },
+  ];
 
   return (
     <html lang="en" suppressHydrationWarning>
