@@ -1,0 +1,14 @@
+{
+  "newsroom": {
+    "enabled": true,
+    "maxCandidates": 6,
+    "confidenceThreshold": 0.92,
+    "namecheckThreshold": 0.9,
+    "requireTwoFtSources": true,
+    "holdOnAnyDoubt": true,
+    "autoPublish": true,
+    "dailyFeatures": true
+  },
+  "updatedAt": "2026-07-21T09:00:00.000Z",
+  "updatedBy": "patrick"
+}

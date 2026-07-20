@@ -10,6 +10,8 @@ import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
+import { runDailyFeatures } from "./daily-features.mjs";
+
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const MODEL = process.env.ANTHROPIC_MODEL ?? "claude-sonnet-5";
 let MAX_CANDIDATES = Math.max(1, Number(process.env.NEWSROOM_MAX_CANDIDATES ?? 6));
@@ -256,6 +258,19 @@ async function main() {
   }
   console.log(`Gates — confidence>=${CONFIDENCE_MIN}, namecheck>=${NAMECHECK_MIN}, autoPublish=${AUTO_PUBLISH}`);
 
+  // 0b. Daily recurring features (Retro article, fresh quiz, ILSP column and the
+  // Tour de France beat). Each self-gates to once per day, so on the 30-minute
+  // schedule only the first cycle of the day produces them. Wrapped so a failure
+  // here can never abort the main newsroom cycle.
+  if (gates.dailyFeatures !== false) {
+    try {
+      const daily = await runDailyFeatures();
+      console.log("Daily features:", JSON.stringify(daily));
+    } catch (err) {
+      console.warn("Daily features step failed (continuing):", err?.message?.split("\n")[0]);
+    }
+  }
+
   // 1. Discovery (writes candidates into data/ingestion-report.json).
   try {
     execSync("npm run ingest:dry", { cwd: root, stdio: "inherit" });
@@ -316,9 +331,10 @@ async function main() {
       continue;
     }
     const gated = passesGates(article, CONFIDENCE_MIN, NAMECHECK_MIN);
-    // Media, structured recaps and full media QA still happen at the media step /
-    // human desk, so auto-publish only when both the gates pass AND the backoffice
-    // explicitly enables it; otherwise the story is held in the review queue.
+    // Auto-publish when the hard gates pass AND the backoffice enables it; otherwise
+    // hold for review. A relevant licensed image is sourced automatically after this
+    // loop (see the image step below); stories that still cannot be matched to a
+    // unique image are held there, so nothing publishes without its own photo.
     article.status = gated && AUTO_PUBLISH ? "published" : "review";
     if (!article.warning) article.warning = "";
     if (!article.nameChecks) article.nameChecks = [];
@@ -344,6 +360,52 @@ async function main() {
   } else {
     data.articles = articles;
     await writeJson("data/articles.json", data);
+  }
+
+  // Give every newly published story its OWN relevant, licensed image by searching
+  // the free image sources (Wikimedia Commons first, Openverse as a fallback). This
+  // is incremental: only stories still missing an image are looked up, so the run
+  // stays light. Any story that cannot be matched to a UNIQUE image is held for
+  // review instead of published without one — so the "every published story has its
+  // own licensed image" gate stays green and no story ever shows a shared/mismatched
+  // photo. Set newsroom.sourceImages=false in settings to skip this.
+  if (gates.sourceImages !== false && published > 0) {
+    try {
+      execSync("node scripts/source-commons-media.mjs", { cwd: root, stdio: "inherit" });
+    } catch {
+      console.warn("Image sourcing exited non-zero; unmatched stories will be held for review.");
+    }
+    try {
+      const media = await readJson("data/article-media.json").catch(() => ({}));
+      const srcCount = new Map();
+      const urlCount = new Map();
+      for (const article of articles) {
+        if ((article.status ?? "published") === "review") continue;
+        const asset = media[article.id];
+        if (asset?.src) srcCount.set(asset.src, (srcCount.get(asset.src) ?? 0) + 1);
+        if (asset?.creditUrl) urlCount.set(asset.creditUrl, (urlCount.get(asset.creditUrl) ?? 0) + 1);
+      }
+      let held = 0;
+      for (const article of articles) {
+        if ((article.status ?? "published") === "review") continue;
+        const asset = media[article.id];
+        const unique = asset?.src && asset?.creditUrl && srcCount.get(asset.src) === 1 && urlCount.get(asset.creditUrl) === 1;
+        if (!unique) {
+          article.status = "review";
+          article.reviewReasons = ["media:awaiting-unique-licensed-image"];
+          held += 1;
+          published -= 1;
+          review += 1;
+        }
+      }
+      if (held) {
+        console.log(`Held ${held} story(ies) for review pending a unique licensed image.`);
+        if (Array.isArray(data)) await writeJson("data/articles.json", articles);
+        else { data.articles = articles; await writeJson("data/articles.json", data); }
+      }
+    } catch (error) {
+      console.warn(`Image gate check failed: ${error.message}`);
+    }
   }
 
   // Monitoring log for the backoffice: newest cycle first, keep the last 50.

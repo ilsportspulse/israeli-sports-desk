@@ -91,6 +91,23 @@ export default function AboutPage() {
           </p>
         </section>
 
+        <section className="about-wrap about-section">
+          <span className="about-eyebrow dark">How it started</span>
+          <h2>One supporter, following from afar.</h2>
+          <p className="about-body">
+            ILSP began with one supporter — born in Tel Aviv to an Israeli mother and a Belgian father — who left the
+            country more than a decade ago and kept following its sport from abroad. Reaching it in English meant piecing
+            together scraps, and often missing the story altogether. ILSP is the publication that supporter wanted to
+            read: complete, verified and genuinely readable.
+          </p>
+          <p className="about-body">
+            The founder stays deliberately in the background so the journalism speaks for itself.
+            {" "}
+            Funding pays for editors and reporters, not for influence — commercial partners can never buy coverage,
+            shape a story or delay a correction.
+          </p>
+        </section>
+
         <section className="about-standards-band">
           <div className="about-wrap">
             <span className="about-eyebrow">How we work</span>

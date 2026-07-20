@@ -12,7 +12,12 @@ const previousMedia = await readFile(path.join(root, "data/article-media.json"),
 const articles = JSON.parse(await readFile(path.join(root, "data/articles.json"), "utf8"))
   .filter((article) => article.status !== "review")
   .filter((article) => !articleId || article.id === articleId)
-  .filter((article) => !replaceTextVisuals || previousMedia[article.id]?.src?.endsWith(".svg"));
+  .filter((article) => !replaceTextVisuals || previousMedia[article.id]?.src?.endsWith(".svg"))
+  // Default (no --article / --replace-text-visuals): only source stories that do
+  // not already have an image. This keeps runs incremental and gentle on the
+  // Commons API (no full re-search every cycle), so the newsroom can call it each
+  // cycle to image just the newly published stories.
+  .filter((article) => Boolean(articleId) || replaceTextVisuals || !previousMedia[article.id]);
 const outputDirectory = path.join(root, "public/media/stories");
 const api = "https://commons.wikimedia.org/w/api.php";
 const userAgent = process.env.NEWSROOM_USER_AGENT ?? "Mozilla/5.0 IsraelSportsPulseLocalPreview/0.1";
@@ -699,6 +704,19 @@ const mediaCopy = {
 };
 
 const wait = (milliseconds) => new Promise((resolve) => setTimeout(resolve, milliseconds));
+
+// Commons rate-limits bursts with HTTP 429. Retry the query endpoints with backoff
+// so a shared runner IP (or a busy cycle) recovers instead of dropping the image.
+async function commonsFetch(url) {
+  for (let attempt = 0; attempt < 5; attempt += 1) {
+    const response = await fetch(url, { headers: { "User-Agent": userAgent } });
+    if (response.ok) return response;
+    if (response.status !== 429) throw new Error(`Commons API ${response.status}`);
+    const retryAfter = Math.min(30, Number(response.headers.get("retry-after")) || (attempt + 1) * 5);
+    await wait(retryAfter * 1000);
+  }
+  throw new Error("Commons API 429 after retries");
+}
 const stripHtml = (value = "") => value
   .replace(/<[^>]+>/g, " ")
   .replace(/&quot;/g, '"')
@@ -740,8 +758,7 @@ async function search(query, offset = 0) {
     format: "json",
     formatversion: "2",
   });
-  const response = await fetch(`${api}?${params}`, { headers: { "User-Agent": userAgent } });
-  if (!response.ok) throw new Error(`Commons API ${response.status}`);
+  const response = await commonsFetch(`${api}?${params}`);
   const payload = await response.json();
   return (payload.query?.pages ?? []).filter(allowedImage).sort((a, b) => scorePage(b, query) - scorePage(a, query));
 }
@@ -758,8 +775,7 @@ async function fetchFiles(titles) {
       format: "json",
       formatversion: "2",
     });
-    const response = await fetch(`${api}?${params}`, { headers: { "User-Agent": userAgent } });
-    if (!response.ok) throw new Error(`Commons API ${response.status}`);
+    const response = await commonsFetch(`${api}?${params}`);
     const payload = await response.json();
     for (const page of (payload.query?.pages ?? []).filter(allowedImage)) pages.set(page.title, page);
     for (const normalized of payload.query?.normalized ?? []) {
@@ -822,13 +838,76 @@ function toAsset(article, page) {
   };
 }
 
+// Openverse — a second free source (aggregates CC/public-domain images from Flickr,
+// museums and more). Used only when Commons has no unique match or is unavailable, so
+// a single source can never block a story from publishing.
+const openverseApi = "https://api.openverse.org/v1/images/";
+async function openverseSearch(query) {
+  const params = new URLSearchParams({ q: query, license: "by,by-sa,cc0,pdm", page_size: "20", mature: "false" });
+  for (let attempt = 0; attempt < 4; attempt += 1) {
+    let response;
+    try {
+      response = await fetch(`${openverseApi}?${params}`, { headers: { "User-Agent": userAgent } });
+    } catch {
+      return [];
+    }
+    if (response.ok) return (await response.json()).results ?? [];
+    if (response.status !== 429) return [];
+    await wait((attempt + 1) * 4000);
+  }
+  return [];
+}
+function openverseUsable(item) {
+  const type = (item.filetype ?? "").toLowerCase();
+  return Boolean(item.foreign_landing_url && item.url) && (type === "jpg" || type === "jpeg" || /\.jpe?g(?:$|\?)/i.test(item.url));
+}
+async function openversePick(searchQueries, usedUrlSet) {
+  for (const query of searchQueries) {
+    const results = await openverseSearch(query);
+    const hit = results.find((item) => openverseUsable(item) && !usedUrlSet.has(item.foreign_landing_url));
+    if (hit) return hit;
+    await wait(300);
+  }
+  return null;
+}
+function openverseToResult(article, item) {
+  const copy = mediaCopy[article.id];
+  const description = stripHtml(item.title ?? "").replace(/[.\s]+$/, "");
+  const creator = stripHtml(item.creator ?? "Openverse contributor");
+  const license = `${String(item.license ?? "CC").toUpperCase()}${item.license_version ? ` ${item.license_version}` : ""}`.trim();
+  return {
+    fileName: `${article.slug}.jpg`,
+    downloadUrl: item.url,
+    asset: {
+      src: `/media/stories/${article.slug}.jpg`,
+      alt: copy?.alt || description.slice(0, 180) || `File photograph related to ${article.title}`,
+      caption: copy?.caption || `${description.slice(0, 220) || "Licensed sports file photograph"}. File photograph.`,
+      credit: `${creator} / Openverse`.slice(0, 140),
+      creditUrl: item.foreign_landing_url,
+      license,
+      licenseUrl: item.license_url || "https://openverse.org/",
+      changes: "Resized and colour-treated; the full frame is preserved in the site layout.",
+    },
+    selection: { articleId: article.id, article: article.title, query: queries[article.id], source: "openverse", file: item.foreign_landing_url, license },
+  };
+}
+
 const used = new Set();
-const media = articleId || replaceTextVisuals ? { ...previousMedia } : {};
+// Never wipe existing curated media — always merge so a partial run or an API
+// error can only ADD images, never drop the ones already sourced.
+const media = { ...previousMedia };
+// Enforce uniqueness against images ALREADY in the media map too (test 11 requires
+// a distinct local file and source URL per published story), not just within this run.
+const usedUrls = new Set(Object.values(previousMedia).map((asset) => asset.creditUrl).filter(Boolean));
+const free = (page) => Boolean(page) && !used.has(page.pageid) && !usedUrls.has(page.imageinfo?.[0]?.descriptionurl);
 const selections = [];
 const failures = [];
 
 if (!dryRun) await mkdir(outputDirectory, { recursive: true });
-const preferredPages = await fetchFiles(Object.values(preferredFiles));
+// Only pre-fetch the preferred files for the stories we are actually sourcing this
+// run, so an incremental run makes a handful of calls instead of ~130 (the cause of
+// Commons 429 rate-limiting when many single-article runs each prefetched them all).
+const preferredPages = await fetchFiles(articles.map((article) => preferredFiles[article.id]).filter(Boolean));
 
 for (const [index, article] of articles.entries()) {
   const primary = queries[article.id] ?? article.title;
@@ -836,18 +915,31 @@ for (const [index, article] of articles.entries()) {
   let candidates = [];
   let downloaded = false;
   try {
-    let selected = preferredFiles[article.id] ? preferredPages.get(preferredFiles[article.id]) : undefined;
-    if (selected && used.has(selected.pageid)) selected = undefined;
-    if (!selected) candidates = await search(primary);
-    selected ??= candidates.find((page) => !used.has(page.pageid));
-    if (!selected) {
-      await wait(350);
-      candidates = await search(fallback, (index % 8) * 10);
-      selected = candidates.find((page) => !used.has(page.pageid));
+    let selected;
+    try {
+      selected = preferredFiles[article.id] ? preferredPages.get(preferredFiles[article.id]) : undefined;
+      if (selected && !free(selected)) selected = undefined;
+      if (!selected) selected = (await search(primary)).find(free);
+      if (!selected) {
+        await wait(350);
+        selected = (await search(fallback, (index % 8) * 10)).find(free);
+      }
+    } catch {
+      // Commons unavailable (e.g. a sustained rate-limit) — fall through to Openverse
+      // so one source can never stall the newsroom.
+      selected = undefined;
     }
-    if (!selected) throw new Error("no unique reusable JPEG found");
-    used.add(selected.pageid);
-    const result = toAsset(article, selected);
+    let result;
+    if (selected) {
+      used.add(selected.pageid);
+      usedUrls.add(selected.imageinfo?.[0]?.descriptionurl);
+      result = toAsset(article, selected);
+    } else {
+      const item = await openversePick([primary, fallback], usedUrls);
+      if (!item) throw new Error("no unique reusable image on Commons or Openverse");
+      usedUrls.add(item.foreign_landing_url);
+      result = openverseToResult(article, item);
+    }
     if (!dryRun) {
       const previous = previousMedia[article.id];
       downloaded = await downloadImage(
