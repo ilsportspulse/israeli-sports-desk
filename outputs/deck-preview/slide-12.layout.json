@@ -1,0 +1,1282 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/j5eapc",
+    "id": "j5eapc",
+    "slide": 12,
+    "layoutId": "154ca8f1-6ceb-415e-a987-87cb12940279",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "ed0b58b4-c833-48e5-96c4-5f845d3524cb",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "154ca8f1-6ceb-415e-a987-87cb12940279",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "ed0b58b4-c833-48e5-96c4-5f845d3524cb",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "ed0b58b4-c833-48e5-96c4-5f845d3524cb",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s3i58nmt",
+      "id": "1",
+      "bbox": [
+        72,
+        40,
+        620,
+        24
+      ],
+      "geometry": "rect",
+      "text": "THE ASK",
+      "textPreview": "THE ASK",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#155EEF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "THE ASK"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "THE ASK",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#155EEF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "THE ASK",
+              "fontSize": 12,
+              "color": "#155EEF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/729ofi58",
+      "id": "2",
+      "bbox": [
+        72,
+        68,
+        1120,
+        76
+      ],
+      "geometry": "rect",
+      "text": "The professional 12-month launch target: $213,790.",
+      "textPreview": "The professional 12-month launch target: $213,790.",
+      "resolvedFontSize": 42,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 42,
+        "typeface": "+mn-lt",
+        "color": "#071426",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The professional 12-month launch target: $213,790."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The professional 12-month launch target: $213,790.",
+          "resolvedTextStyle": {
+            "fontSize": 42,
+            "color": "#071426",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The professional 12-month launch target: $213,790.",
+              "fontSize": 42,
+              "color": "#071426",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/610n6x4n",
+      "id": "3",
+      "bbox": [
+        72,
+        142,
+        1090,
+        50
+      ],
+      "geometry": "rect",
+      "text": "A conservative founder-led model—not a fully staffed corporate newsroom. Public technology prices are verified; payroll, rights and data still require local quotes.",
+      "textPreview": "A conservative founder-led model—not a fully staffed corporate newsroom. Public technology prices are verified; payroll, rights and data ...",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#69707D",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "A conservative founder-led model—not a fully staffed corporate newsroom. Public technology prices are verified; payroll, rights and"
+          },
+          {
+            "index": 2,
+            "text": "data still require local quotes."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "A conservative founder-led model—not a fully staffed corporate newsroom. Public technology prices are verified; payroll, rights and data still require local quotes.",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#69707D",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "A conservative founder-led model—not a fully staffed corporate newsroom. Public technology prices are verified; payroll, rights and data still require local quotes.",
+              "fontSize": 18,
+              "color": "#69707D",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/50r6dsn2",
+      "id": "4",
+      "bbox": [
+        72,
+        214,
+        370,
+        170
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#071426",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kzi54nmh",
+      "id": "5",
+      "bbox": [
+        94,
+        236,
+        326,
+        66
+      ],
+      "geometry": "rect",
+      "text": "$213,790",
+      "textPreview": "$213,790",
+      "resolvedFontSize": 46,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 46,
+        "typeface": "+mn-lt",
+        "color": "#4F7DFF",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "$213,790"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "$213,790",
+          "resolvedTextStyle": {
+            "fontSize": 46,
+            "color": "#4F7DFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "$213,790",
+              "fontSize": 46,
+              "color": "#4F7DFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jypobi5w",
+      "id": "6",
+      "bbox": [
+        94,
+        312,
+        326,
+        34
+      ],
+      "geometry": "rect",
+      "text": "12-month cash target",
+      "textPreview": "12-month cash target",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 16,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "12-month cash target"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "12-month cash target",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "12-month cash target",
+              "fontSize": 16,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ixgn2d4b",
+      "id": "7",
+      "bbox": [
+        72,
+        410,
+        176,
+        88
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#EEF4FF",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xc7m98n6",
+      "id": "8",
+      "bbox": [
+        82,
+        422,
+        156,
+        34
+      ],
+      "geometry": "rect",
+      "text": "$14,465",
+      "textPreview": "$14,465",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#155EEF",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "$14,465"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "$14,465",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#155EEF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "$14,465",
+              "fontSize": 23,
+              "color": "#155EEF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wby503ml",
+      "id": "9",
+      "bbox": [
+        84,
+        458,
+        152,
+        28
+      ],
+      "geometry": "rect",
+      "text": "monthly operating run rate",
+      "textPreview": "monthly operating run rate",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 10,
+        "typeface": "+mn-lt",
+        "color": "#69707D",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "monthly operating run rate"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "monthly operating run rate",
+          "resolvedTextStyle": {
+            "fontSize": 10,
+            "color": "#69707D",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "monthly operating run rate",
+              "fontSize": 10,
+              "color": "#69707D",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u5gba14r",
+      "id": "10",
+      "bbox": [
+        260,
+        410,
+        176,
+        88
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#EEF4FF",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/v6pcj6lc",
+      "id": "11",
+      "bbox": [
+        270,
+        422,
+        156,
+        34
+      ],
+      "geometry": "rect",
+      "text": "$17,304",
+      "textPreview": "$17,304",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#155EEF",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "$17,304"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "$17,304",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#155EEF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "$17,304",
+              "fontSize": 23,
+              "color": "#155EEF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/g7ytcbmx",
+      "id": "12",
+      "bbox": [
+        272,
+        458,
+        152,
+        28
+      ],
+      "geometry": "rect",
+      "text": "one-time launch work",
+      "textPreview": "one-time launch work",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 10,
+        "typeface": "+mn-lt",
+        "color": "#69707D",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "one-time launch work"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "one-time launch work",
+          "resolvedTextStyle": {
+            "fontSize": 10,
+            "color": "#69707D",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "one-time launch work",
+              "fontSize": 10,
+              "color": "#69707D",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h87ulg3i",
+      "id": "13",
+      "bbox": [
+        72,
+        514,
+        176,
+        88
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#EEF4FF",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6hwb614v",
+      "id": "14",
+      "bbox": [
+        82,
+        526,
+        156,
+        34
+      ],
+      "geometry": "rect",
+      "text": "$22,906",
+      "textPreview": "$22,906",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#155EEF",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "$22,906"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "$22,906",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#155EEF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "$22,906",
+              "fontSize": 23,
+              "color": "#155EEF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7i5cf6lg",
+      "id": "15",
+      "bbox": [
+        84,
+        562,
+        152,
+        28
+      ],
+      "geometry": "rect",
+      "text": "contingency reserve",
+      "textPreview": "contingency reserve",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 10,
+        "typeface": "+mn-lt",
+        "color": "#69707D",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "contingency reserve"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "contingency reserve",
+          "resolvedTextStyle": {
+            "fontSize": 10,
+            "color": "#69707D",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "contingency reserve",
+              "fontSize": 10,
+              "color": "#69707D",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8jyt8bm1",
+      "id": "16",
+      "bbox": [
+        260,
+        514,
+        176,
+        88
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#EEF4FF",
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tk7uhw36",
+      "id": "17",
+      "bbox": [
+        270,
+        526,
+        156,
+        34
+      ],
+      "geometry": "rect",
+      "text": "$30,000",
+      "textPreview": "$30,000",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#155EEF",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "$30,000"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "$30,000",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#155EEF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "$30,000",
+              "fontSize": 23,
+              "color": "#155EEF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ydwb2h4j",
+      "id": "18",
+      "bbox": [
+        272,
+        562,
+        152,
+        28
+      ],
+      "geometry": "rect",
+      "text": "indicative in-kind target",
+      "textPreview": "indicative in-kind target",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 10,
+        "typeface": "+mn-lt",
+        "color": "#69707D",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "indicative in-kind target"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "indicative in-kind target",
+          "resolvedTextStyle": {
+            "fontSize": 10,
+            "color": "#69707D",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "indicative in-kind target",
+              "fontSize": 10,
+              "color": "#69707D",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "chart",
+      "scope": "slide",
+      "aid": "ch/jelgr6pk",
+      "id": "19",
+      "bbox": [
+        504,
+        228,
+        704,
+        332
+      ],
+      "chartType": "bar"
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ni183i1w",
+      "id": "20",
+      "bbox": [
+        504,
+        578,
+        704,
+        52
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#4F7DFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mhsradkb",
+      "id": "21",
+      "bbox": [
+        522,
+        578,
+        668,
+        52
+      ],
+      "geometry": "rect",
+      "text": "Recommended gate: one founding cash partner + one infrastructure/data partner before production purchases.",
+      "textPreview": "Recommended gate: one founding cash partner + one infrastructure/data partner before production purchases.",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "color": "#071426",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Recommended gate: one founding cash partner + one infrastructure/data partner before"
+          },
+          {
+            "index": 2,
+            "text": "production purchases."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Recommended gate: one founding cash partner + one infrastructure/data partner before production purchases.",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "color": "#071426",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Recommended gate: one founding cash partner + one infrastructure/data partner before production purchases.",
+              "fontSize": 15,
+              "color": "#071426",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9k3q5sj2",
+      "id": "22",
+      "bbox": [
+        504,
+        644,
+        704,
+        28
+      ],
+      "geometry": "rect",
+      "text": "MODEL STATUS: math reconciles · public platform fees checked · employment, media and production-data costs remain estimates",
+      "textPreview": "MODEL STATUS: math reconciles · public platform fees checked · employment, media and production-data costs remain estimates",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 10,
+        "typeface": "+mn-lt",
+        "color": "#69707D",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "MODEL STATUS: math reconciles · public platform fees checked · employment, media and production-data costs remain estimates"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "MODEL STATUS: math reconciles · public platform fees checked · employment, media and production-data costs remain estimates",
+          "resolvedTextStyle": {
+            "fontSize": 10,
+            "color": "#69707D",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "MODEL STATUS: math reconciles · public platform fees checked · employment, media and production-data costs remain estimates",
+              "fontSize": 10,
+              "color": "#69707D",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/oja9cn2h",
+      "id": "23",
+      "bbox": [
+        72,
+        684,
+        960,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Source: ILSP launch funding model · Public vendor prices rechecked 17 July 2026 · Quotes required before commitment",
+      "textPreview": "Source: ILSP launch funding model · Public vendor prices rechecked 17 July 2026 · Quotes required before commitment",
+      "resolvedFontSize": 9,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 9,
+        "typeface": "+mn-lt",
+        "color": "#8492A6",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Source: ILSP launch funding model · Public vendor prices rechecked 17 July 2026 · Quotes required before commitment"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Source: ILSP launch funding model · Public vendor prices rechecked 17 July 2026 · Quotes required before commitment",
+          "resolvedTextStyle": {
+            "fontSize": 9,
+            "color": "#8492A6",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Source: ILSP launch funding model · Public vendor prices rechecked 17 July 2026 · Quotes required before commitment",
+              "fontSize": 9,
+              "color": "#8492A6",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bml87218",
+      "id": "24",
+      "bbox": [
+        1160,
+        680,
+        48,
+        20
+      ],
+      "geometry": "rect",
+      "text": "12",
+      "textPreview": "12",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 10,
+        "typeface": "+mn-lt",
+        "color": "#155EEF",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "12"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "12",
+          "resolvedTextStyle": {
+            "fontSize": 10,
+            "color": "#155EEF",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "12",
+              "fontSize": 10,
+              "color": "#155EEF",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

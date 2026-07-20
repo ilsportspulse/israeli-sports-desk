@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "1.0",
+  "id": "fixture-basketball-club-recap",
+  "slug": "houston-brooklyn-club-recap",
+  "locale": "en",
+  "status": "published",
+  "title": "Houston beat Brooklyn 100–83",
+  "dek": "A representative club basketball recap with team logos and an explicitly unavailable attendance figure.",
+  "category": "Israelis Abroad",
+  "kind": "news",
+  "publishedAt": "2026-07-17T06:38:00+03:00",
+  "readMinutes": 5,
+  "media": {
+    "src": "/media/stories/saraf-wolf-brooklyn-houston-summer-league-loss.jpg",
+    "alt": "Danny Wolf representing Israel",
+    "caption": "Exact-player file photograph.",
+    "credit": "Jgumina / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/wiki/File:Danny_Wolf.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "body": ["Paragraph one."],
+  "facts": ["Fact one.", "Fact two.", "Fact three.", "Fact four."],
+  "basketballRecap": {
+    "competition": "NBA Summer League · Preliminary round",
+    "status": "FT",
+    "tipoff": "2026-07-16T23:30:00+03:00",
+    "venue": "Cox Pavilion",
+    "city": "Las Vegas, Nevada",
+    "attendanceNote": "Not published",
+    "officials": ["Kastine Evans", "Austin Spiker", "Monnazjea Finney-Smithy"],
+    "home": {
+      "name": "Houston Rockets",
+      "shortName": "Houston",
+      "logo": "/media/team-marks/houston-rockets.svg",
+      "score": 100,
+      "quarters": [28, 21, 29, 22]
+    },
+    "away": {
+      "name": "Brooklyn Nets",
+      "shortName": "Brooklyn",
+      "logo": "/media/team-marks/brooklyn-nets.svg",
+      "score": 83,
+      "quarters": [13, 21, 23, 26]
+    },
+    "stats": [
+      { "label": "Field goals", "home": "43.1%", "away": "35.2%" },
+      { "label": "Three-pointers", "home": "45.8%", "away": "23.7%" },
+      { "label": "Rebounds", "home": "41", "away": "32" },
+      { "label": "Turnovers", "home": "17", "away": "15" }
+    ],
+    "leaders": [
+      { "player": "Bruce Thornton", "team": "Houston", "value": "23", "label": "Points" },
+      { "player": "Danny Wolf", "team": "Brooklyn", "value": "8", "label": "Rebounds" }
+    ]
+  }
+}

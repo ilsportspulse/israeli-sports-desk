@@ -1,0 +1,109 @@
+{
+  "updatedAt": "2026-07-19T10:28:00+03:00",
+  "status": "local-policy-surfaces-ready-external-gates-open",
+  "localAudit": {
+    "checkedAt": "2026-07-20T08:35:39Z",
+    "validUntil": "2026-07-21T08:35:39Z",
+    "browserReport": "outputs/site-mobile-qa/report.json",
+    "browserReportCheckedAt": "2026-07-20T04:25:35.270Z",
+    "policyScenariosPassed": 8,
+    "status": "pass-local-only"
+  },
+  "policyRoutes": [
+    {
+      "route": "/corrections",
+      "file": "app/corrections/page.tsx",
+      "footerLinkVerified": true,
+      "responsiveSharedLayout": true
+    },
+    {
+      "route": "/privacy",
+      "file": "app/privacy/page.tsx",
+      "footerLinkVerified": true,
+      "responsiveSharedLayout": true
+    },
+    {
+      "route": "/terms",
+      "file": "app/terms/page.tsx",
+      "footerLinkVerified": true,
+      "responsiveSharedLayout": true
+    },
+    {
+      "route": "/commercial-independence",
+      "file": "app/commercial-independence/page.tsx",
+      "footerLinkVerified": true,
+      "responsiveSharedLayout": true
+    }
+  ],
+  "publicAddresses": [
+    {
+      "address": "corrections@ilsportspulse.com",
+      "purpose": "factual correction requests",
+      "activationStatus": "unverified-owner-controlled",
+      "ownerApprovalRequired": true
+    },
+    {
+      "address": "privacy@ilsportspulse.com",
+      "purpose": "privacy rights and data requests",
+      "activationStatus": "unverified-owner-controlled",
+      "ownerApprovalRequired": true
+    },
+    {
+      "address": "legal@ilsportspulse.com",
+      "purpose": "terms and legal questions",
+      "activationStatus": "unverified-owner-controlled",
+      "ownerApprovalRequired": true
+    },
+    {
+      "address": "partnerships@ilsportspulse.com",
+      "purpose": "commercial labelling and partner-conduct questions",
+      "activationStatus": "unverified-owner-controlled",
+      "ownerApprovalRequired": true
+    }
+  ],
+  "launchPrerequisites": [
+    {
+      "id": "public-domain",
+      "status": "pending-owner",
+      "evidenceRequired": "Approved and controlled production domain"
+    },
+    {
+      "id": "policy-mailboxes",
+      "status": "pending-owner",
+      "evidenceRequired": "Tested inbound delivery, owner-controlled recovery and two-factor authentication for all four addresses"
+    },
+    {
+      "id": "operating-entity-and-jurisdiction",
+      "status": "pending-owner-and-professional-review",
+      "evidenceRequired": "Confirmed legal entity, governing law and applicable privacy jurisdiction"
+    },
+    {
+      "id": "production-provider-inventory",
+      "status": "pending-production-selection",
+      "evidenceRequired": "Named hosting, analytics, email, security, score, advertising and payment providers where applicable"
+    },
+    {
+      "id": "corrections-operations",
+      "status": "pending-owner",
+      "evidenceRequired": "Named owner, acknowledgement target, escalation path and publication-note rules"
+    },
+    {
+      "id": "consent-and-preferences",
+      "status": "pending-production-selection-and-professional-review",
+      "evidenceRequired": "Consent controls matched to the trackers and processors actually enabled in production"
+    },
+    {
+      "id": "policy-effective-date-and-versioning",
+      "status": "pending-owner-and-professional-review",
+      "evidenceRequired": "Approved effective date and retained version record for every policy"
+    }
+  ],
+  "launchBlockers": [
+    "No production domain has been approved in this local work.",
+    "Mailbox activation, delivery and recovery control have not been verified.",
+    "The operating entity, governing law and privacy jurisdiction require owner input and professional review.",
+    "Production providers, trackers, retention rules and consent requirements are not final."
+  ],
+  "externalActionsTaken": [],
+  "nextExecutableAction": "After owner input, record domain and mailbox evidence, then route the four policy pages and provider inventory through professional legal and privacy review before deployment."
+}

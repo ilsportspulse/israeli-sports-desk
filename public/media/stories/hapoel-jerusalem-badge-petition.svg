@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Hapoel Jerusalem badge petition editorial visual</title>
+  <desc id="desc">A red, black and cream data-led graphic showing approximately 1,300 petition signatures and a three-card badge consultation motif without reproducing any proposed club logo.</desc>
+  <defs>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e31b2f"/>
+      <stop offset="1" stop-color="#9f0718"/>
+    </linearGradient>
+    <pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse">
+      <path d="M54 0H0V54" fill="none" stroke="#f4ead8" stroke-opacity=".08" stroke-width="1"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#160609" flood-opacity=".24"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="#151114"/>
+  <rect width="940" height="900" fill="url(#red)"/>
+  <rect width="940" height="900" fill="url(#grid)"/>
+  <path d="M940 0H1600V900H760C912 720 990 512 940 0Z" fill="#f4ead8"/>
+
+  <g font-family="Inter, Arial, sans-serif" fill="#fff">
+    <text x="96" y="108" font-size="28" font-weight="700" letter-spacing="5">ISRAEL SPORTS PULSE</text>
+    <text x="96" y="204" font-size="34" font-weight="700" letter-spacing="4" opacity=".82">HAPOEL JERUSALEM</text>
+    <text x="96" y="294" font-size="88" font-weight="900">THE BADGE</text>
+    <text x="96" y="384" font-size="88" font-weight="900">BECOMES</text>
+    <text x="96" y="474" font-size="88" font-weight="900">THE DEBATE</text>
+    <rect x="96" y="536" width="590" height="4" fill="#fff" opacity=".7"/>
+    <text x="96" y="616" font-size="30" font-weight="600">ALTERNATIVES SENT TO SEASON-TICKET HOLDERS</text>
+    <text x="96" y="662" font-size="25" opacity=".82">No replacement badge has been adopted</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="1010" y="92" width="494" height="314" rx="28" fill="#fffaf0"/>
+    <text x="1062" y="160" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#9f0718" letter-spacing="3">SUPPORTER PETITION</text>
+    <text x="1054" y="294" font-family="Inter, Arial, sans-serif" font-size="136" font-weight="900" fill="#151114">1,300</text>
+    <text x="1062" y="352" font-family="Inter, Arial, sans-serif" font-size="31" font-weight="800" fill="#151114" letter-spacing="4">SIGNATURES</text>
+  </g>
+
+  <g transform="translate(1008 486)" filter="url(#shadow)">
+    <rect width="140" height="220" rx="20" fill="#fffaf0" stroke="#c8bda9" stroke-width="3"/>
+    <circle cx="70" cy="82" r="42" fill="none" stroke="#c8bda9" stroke-width="5" stroke-dasharray="8 8"/>
+    <text x="70" y="176" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="800" fill="#5b5151">OPTION 01</text>
+    <rect x="168" width="140" height="220" rx="20" fill="#fffaf0" stroke="#c8bda9" stroke-width="3"/>
+    <path d="M238 38L278 67V116L238 145L198 116V67Z" fill="none" stroke="#c8bda9" stroke-width="5" stroke-dasharray="8 8"/>
+    <text x="238" y="176" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="800" fill="#5b5151">OPTION 02</text>
+    <rect x="336" width="140" height="220" rx="20" fill="#fffaf0" stroke="#c8bda9" stroke-width="3"/>
+    <path d="M406 40L448 60V106C448 130 430 145 406 156C382 145 364 130 364 106V60Z" fill="none" stroke="#c8bda9" stroke-width="5" stroke-dasharray="8 8"/>
+    <text x="406" y="176" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="800" fill="#5b5151">OPTION 03</text>
+  </g>
+
+  <text x="1014" y="774" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#5b5151" letter-spacing="2">CONSULTATION • NOT A FINAL CREST</text>
+  <rect x="1014" y="808" width="490" height="2" fill="#c8bda9"/>
+  <text x="1014" y="852" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" fill="#9f0718">ILSP VISUAL DESK • 16 JULY 2026</text>
+</svg>

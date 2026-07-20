@@ -1,0 +1,83 @@
+{
+  "checkedAt": "2026-07-17T12:29:20.673Z",
+  "visibility": "internal",
+  "valid": true,
+  "routeEvidenceMaxAgeDays": 31,
+  "routes": [
+    {
+      "id": "aws-activate",
+      "organisation": "AWS Activate",
+      "status": "application-fact-sheet-ready-pending-owner-and-launch-prerequisites",
+      "evidenceAt": "2026-07-16",
+      "expiresAt": "2026-08-16T00:00:00.000Z",
+      "ageDays": 1.5,
+      "daysUntilExpiry": 29.5,
+      "ownerApprovalRequired": true,
+      "routeUrl": "https://aws.amazon.com/startups/credits/",
+      "evidenceUrl": "https://aws.amazon.com/startups/"
+    },
+    {
+      "id": "maccabi-world-union",
+      "organisation": "Maccabi World Union",
+      "status": "eight-week-pilot-draft-ready-pending-owner-approval",
+      "evidenceAt": "2026-07-16",
+      "expiresAt": "2026-08-16T00:00:00.000Z",
+      "ageDays": 1.5,
+      "daysUntilExpiry": 29.5,
+      "ownerApprovalRequired": true,
+      "routeUrl": "https://www.maccabi.org/contact",
+      "evidenceUrl": "https://www.maccabi.org/who-we-are/partners"
+    },
+    {
+      "id": "bank-hapoalim",
+      "organisation": "Bank Hapoalim",
+      "status": "hold-official-intake-not-public",
+      "evidenceAt": "2026-07-16T19:34:00+03:00",
+      "expiresAt": "2026-08-16T16:34:00.000Z",
+      "ageDays": 0.8,
+      "daysUntilExpiry": 30.2,
+      "ownerApprovalRequired": true,
+      "routeUrl": "https://www.bankhapoalim.co.il/he/about/bank-profile",
+      "evidenceUrl": "https://www.bankhapoalim.co.il/sites/default/files/media/PDFS/SocialBanking/ESG_poalim_2025.pdf"
+    },
+    {
+      "id": "bank-leumi",
+      "organisation": "Bank Leumi",
+      "status": "hold-official-intake-not-public",
+      "evidenceAt": "2026-07-16T19:34:00+03:00",
+      "expiresAt": "2026-08-16T16:34:00.000Z",
+      "ageDays": 0.8,
+      "daysUntilExpiry": 30.2,
+      "ownerApprovalRequired": true,
+      "routeUrl": "https://www.leumi.co.il/leumi-hebrew/s3fs-public/complex_link_file/02-25/Leumi_Way.acc.pdf",
+      "evidenceUrl": "https://www.leumi.co.il/he/about-leumi/about_corporate-responsibility/Donations_and_sponsorship"
+    },
+    {
+      "id": "yes-israel",
+      "organisation": "yes",
+      "status": "hold-official-intake-not-public",
+      "evidenceAt": "2026-07-16T19:34:00+03:00",
+      "expiresAt": "2026-08-16T16:34:00.000Z",
+      "ageDays": 0.8,
+      "daysUntilExpiry": 30.2,
+      "ownerApprovalRequired": true,
+      "routeUrl": "https://www.yes.co.il/",
+      "evidenceUrl": "https://ir.bezeq.co.il/static-files/c7df9a10-1111-4e29-a396-f440a4146399"
+    }
+  ],
+  "controls": {
+    "qualifiedRoutes": 2,
+    "heldRoutes": 3,
+    "hardStopPlaceholders": 7,
+    "pendingDecisionCells": 12
+  },
+  "findings": [
+    "The USD 30,000 founding anchor remains separate from the AWS credit and Maccabi non-cash routes.",
+    "Seven hard-stop placeholders and twelve pending decision cells remain intact.",
+    "Both qualified routes and all three held routes retain owner-approval gates.",
+    "All five route-evidence records are within the 31-day freshness window."
+  ],
+  "errors": [],
+  "nextExecutableAction": "Refresh each route from its official evidence before expiry; no application or message may proceed without explicit owner approval.",
+  "externalActionsTaken": []
+}

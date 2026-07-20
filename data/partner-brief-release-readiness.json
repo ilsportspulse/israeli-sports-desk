@@ -1,0 +1,42 @@
+{
+  "checkedAt": "2026-07-17T12:29:20.882Z",
+  "visibility": "internal",
+  "valid": true,
+  "artifacts": {
+    "editableSource": {
+      "path": "docs/partner-one-page-brief.md",
+      "bytes": 2563,
+      "sha256": "f29babf6c72f89357b5825af17db7ff1eb26f6d435a2c0d326bd6afd089b9bea"
+    },
+    "consistencyRecord": {
+      "path": "docs/partner-brief-consistency-check.md",
+      "sha256": "a9e62e333b7d721e9e409068f5425105072b36df44e61f32cfc1caac84539a29"
+    },
+    "renderedPdf": {
+      "path": "output/pdf/ilsp-founding-partner-brief.pdf",
+      "bytes": 100716,
+      "sha256": "32a9f59a0fa324c7271d9a501915ae7ed5dab008c696fd075dd4db86dab8d433",
+      "pages": 1
+    }
+  },
+  "currentness": {
+    "maxAgeDays": 31,
+    "evidenceAgeDays": 0.79,
+    "expiresAt": "2026-08-16T17:31:10.000Z"
+  },
+  "controlledPosition": {
+    "price": "USD 30,000",
+    "term": "twelve months",
+    "maximumNonCompetingPositions": 3,
+    "ownerApprovalRequired": true
+  },
+  "findings": [
+    "The editable brief retains the USD 30,000 twelve-month position and three-position inventory cap.",
+    "The English-language audience, editorial firewall and no-current-Hebrew-translation position remain explicit.",
+    "The rendered PDF is a current, non-empty single-page artifact with matching title metadata.",
+    "The editable brief, consistency record and rendered PDF are all within the 31-day owner-review window."
+  ],
+  "errors": [],
+  "nextExecutableAction": "Rebuild and rerun this preflight after any controlled change and refresh the owner-review evidence before 2026-08-16T17:31:10.000Z.",
+  "externalActionsTaken": []
+}

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Nike Sibande joins Ironi Kiryat Ata</title>
+  <desc id="desc">An ILSP editorial scouting graphic with a basketball court, player initials and verified profile information.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06152e"/>
+      <stop offset="1" stop-color="#123b79"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1d63ff"/>
+      <stop offset="1" stop-color="#54b7ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <circle cx="1280" cy="160" r="360" fill="#1d63ff" opacity=".10"/>
+  <circle cx="1280" cy="160" r="260" fill="none" stroke="#70c5ff" stroke-width="3" opacity=".24"/>
+  <path d="M1160 0v560M1160 280h440M1160 130h170v300h-170M1330 235a90 90 0 0 1 0 90" fill="none" stroke="#d6e7ff" stroke-width="4" opacity=".25"/>
+  <rect x="90" y="82" width="216" height="56" rx="28" fill="url(#accent)"/>
+  <text x="198" y="120" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" text-anchor="middle" letter-spacing="5">SIGNING</text>
+  <text x="90" y="275" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="800" letter-spacing="-3">NIKE SIBANDE</text>
+  <text x="94" y="338" fill="#9db6dc" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" letter-spacing="7">IRONI KIRYAT ATA · GUARD</text>
+  <line x1="92" y1="400" x2="1000" y2="400" stroke="url(#accent)" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="315" cy="650" r="180" fill="#07162f" stroke="#397fff" stroke-width="7"/>
+  <text x="315" y="690" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="150" font-weight="800" font-style="italic" text-anchor="middle">NS</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="610" y="560" fill="#8098bd" font-size="24" font-weight="700" letter-spacing="4">HEIGHT</text>
+    <text x="610" y="625" fill="#fff" font-size="58" font-weight="800">1.93 M</text>
+    <text x="850" y="560" fill="#8098bd" font-size="24" font-weight="700" letter-spacing="4">NATIONAL TEAM</text>
+    <text x="850" y="625" fill="#fff" font-size="58" font-weight="800">UGANDA</text>
+    <text x="610" y="735" fill="#8098bd" font-size="24" font-weight="700" letter-spacing="4">LAST CLUB</text>
+    <text x="610" y="800" fill="#fff" font-size="47" font-weight="800">NINERS CHEMNITZ</text>
+  </g>
+  <rect x="90" y="900" width="1420" height="2" fill="#5d78a2" opacity=".45"/>
+  <text x="90" y="952" fill="#8ea7cd" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" letter-spacing="4">ISRAEL SPORTS PULSE · PLAYER PROFILE</text>
+</svg>

@@ -1,0 +1,1447 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/ivxjs1",
+    "id": "ivxjs1",
+    "slide": 9,
+    "layoutId": "154ca8f1-6ceb-415e-a987-87cb12940279",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "ed0b58b4-c833-48e5-96c4-5f845d3524cb",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F4F4EF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "154ca8f1-6ceb-415e-a987-87cb12940279",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "ed0b58b4-c833-48e5-96c4-5f845d3524cb",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "ed0b58b4-c833-48e5-96c4-5f845d3524cb",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5wni10f6",
+      "id": "1",
+      "bbox": [
+        72,
+        40,
+        620,
+        24
+      ],
+      "geometry": "rect",
+      "text": "PARTNER VALUE",
+      "textPreview": "PARTNER VALUE",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#155EEF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "PARTNER VALUE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "PARTNER VALUE",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#155EEF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "PARTNER VALUE",
+              "fontSize": 12,
+              "color": "#155EEF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/itwzqlgf",
+      "id": "2",
+      "bbox": [
+        72,
+        68,
+        1120,
+        76
+      ],
+      "geometry": "rect",
+      "text": "What does the partner actually gain?",
+      "textPreview": "What does the partner actually gain?",
+      "resolvedFontSize": 42,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 42,
+        "typeface": "+mn-lt",
+        "color": "#071426",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "What does the partner actually gain?"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "What does the partner actually gain?",
+          "resolvedTextStyle": {
+            "fontSize": 42,
+            "color": "#071426",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "What does the partner actually gain?",
+              "fontSize": 42,
+              "color": "#071426",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ju50zqx0",
+      "id": "3",
+      "bbox": [
+        72,
+        142,
+        1090,
+        50
+      ],
+      "geometry": "rect",
+      "text": "A partner receives a defined audience product, measurable outcomes and category protection—not vague logo exposure.",
+      "textPreview": "A partner receives a defined audience product, measurable outcomes and category protection—not vague logo exposure.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#69707D",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "A partner receives a defined audience product, measurable outcomes and category protection—not vague logo exposure."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "A partner receives a defined audience product, measurable outcomes and category protection—not vague logo exposure.",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#69707D",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "A partner receives a defined audience product, measurable outcomes and category protection—not vague logo exposure.",
+              "fontSize": 18,
+              "color": "#69707D",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wruhobyp",
+      "id": "4",
+      "bbox": [
+        72,
+        224,
+        544,
+        146
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#071426",
+      "lineWidth": 1
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xs3yxgfa",
+      "id": "5",
+      "bbox": [
+        94,
+        244,
+        42,
+        24
+      ],
+      "geometry": "rect",
+      "text": "01",
+      "textPreview": "01",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#4F7DFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "01"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "01",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#4F7DFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "01",
+              "fontSize": 12,
+              "color": "#4F7DFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/apczm1gj",
+      "id": "6",
+      "bbox": [
+        150,
+        238,
+        420,
+        42
+      ],
+      "geometry": "rect",
+      "text": "Visible relevance",
+      "textPreview": "Visible relevance",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Visible relevance"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Visible relevance",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Visible relevance",
+              "fontSize": 22,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vqlgv6x4",
+      "id": "7",
+      "bbox": [
+        94,
+        292,
+        496,
+        58
+      ],
+      "geometry": "rect",
+      "text": "Presence on the selected ILSP product, launch moments and approved campaign surfaces.",
+      "textPreview": "Presence on the selected ILSP product, launch moments and approved campaign surfaces.",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "color": "#C7D3E4",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Presence on the selected ILSP product, launch moments and"
+          },
+          {
+            "index": 2,
+            "text": "approved campaign surfaces."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Presence on the selected ILSP product, launch moments and approved campaign surfaces.",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "color": "#C7D3E4",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Presence on the selected ILSP product, launch moments and approved campaign surfaces.",
+              "fontSize": 15,
+              "color": "#C7D3E4",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gnyh0fyt",
+      "id": "8",
+      "bbox": [
+        648,
+        224,
+        544,
+        146
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D9E0EA",
+      "lineWidth": 1
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ho7i9kfe",
+      "id": "9",
+      "bbox": [
+        670,
+        244,
+        42,
+        24
+      ],
+      "geometry": "rect",
+      "text": "02",
+      "textPreview": "02",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#4F7DFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "02"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "02",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#4F7DFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "02",
+              "fontSize": 12,
+              "color": "#4F7DFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/po72d836",
+      "id": "10",
+      "bbox": [
+        726,
+        238,
+        420,
+        42
+      ],
+      "geometry": "rect",
+      "text": "Audience access",
+      "textPreview": "Audience access",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#071426",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Audience access"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Audience access",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#071426",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Audience access",
+              "fontSize": 22,
+              "color": "#071426",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4nelk32l",
+      "id": "11",
+      "bbox": [
+        670,
+        292,
+        496,
+        58
+      ],
+      "geometry": "rect",
+      "text": "A credible route into English-speaking supporters of Israeli sport in Israel and worldwide.",
+      "textPreview": "A credible route into English-speaking supporters of Israeli sport in Israel and worldwide.",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "color": "#69707D",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "A credible route into English-speaking supporters of Israeli sport in"
+          },
+          {
+            "index": 2,
+            "text": "Israel and worldwide."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "A credible route into English-speaking supporters of Israeli sport in Israel and worldwide.",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "color": "#69707D",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "A credible route into English-speaking supporters of Israeli sport in Israel and worldwide.",
+              "fontSize": 15,
+              "color": "#69707D",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3m5kbyl0",
+      "id": "12",
+      "bbox": [
+        72,
+        398,
+        544,
+        146
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D9E0EA",
+      "lineWidth": 1
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2lw3itkf",
+      "id": "13",
+      "bbox": [
+        94,
+        418,
+        42,
+        24
+      ],
+      "geometry": "rect",
+      "text": "03",
+      "textPreview": "03",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#4F7DFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "03"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "03",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#4F7DFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "03",
+              "fontSize": 12,
+              "color": "#4F7DFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hkn29o3a",
+      "id": "14",
+      "bbox": [
+        150,
+        412,
+        420,
+        42
+      ],
+      "geometry": "rect",
+      "text": "Measured proof",
+      "textPreview": "Measured proof",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#071426",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Measured proof"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Measured proof",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#071426",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Measured proof",
+              "fontSize": 22,
+              "color": "#071426",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gjelgj2p",
+      "id": "15",
+      "bbox": [
+        94,
+        466,
+        496,
+        58
+      ],
+      "geometry": "rect",
+      "text": "Monthly delivery reporting and a quarterly impact review covering reach, usage and engagement.",
+      "textPreview": "Monthly delivery reporting and a quarterly impact review covering reach, usage and engagement.",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "color": "#69707D",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Monthly delivery reporting and a quarterly impact review covering"
+          },
+          {
+            "index": 2,
+            "text": "reach, usage and engagement."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Monthly delivery reporting and a quarterly impact review covering reach, usage and engagement.",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "color": "#69707D",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Monthly delivery reporting and a quarterly impact review covering reach, usage and engagement.",
+              "fontSize": 15,
+              "color": "#69707D",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fi5k7el4",
+      "id": "16",
+      "bbox": [
+        648,
+        398,
+        544,
+        146
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D9E0EA",
+      "lineWidth": 1
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/uhwje9kj",
+      "id": "17",
+      "bbox": [
+        670,
+        418,
+        42,
+        24
+      ],
+      "geometry": "rect",
+      "text": "04",
+      "textPreview": "04",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#4F7DFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "04"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "04",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#4F7DFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "04",
+              "fontSize": 12,
+              "color": "#4F7DFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lgr2ls3e",
+      "id": "18",
+      "bbox": [
+        726,
+        412,
+        420,
+        42
+      ],
+      "geometry": "rect",
+      "text": "Purpose + trust",
+      "textPreview": "Purpose + trust",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#071426",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Purpose + trust"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Purpose + trust",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#071426",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Purpose + trust",
+              "fontSize": 22,
+              "color": "#071426",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0filsn2t",
+      "id": "19",
+      "bbox": [
+        670,
+        466,
+        496,
+        58
+      ],
+      "geometry": "rect",
+      "text": "Association with independent sport, diaspora connection and under-covered teams and athletes.",
+      "textPreview": "Association with independent sport, diaspora connection and under-covered teams and athletes.",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "color": "#69707D",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Association with independent sport, diaspora connection and"
+          },
+          {
+            "index": 2,
+            "text": "under-covered teams and athletes."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Association with independent sport, diaspora connection and under-covered teams and athletes.",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "color": "#69707D",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Association with independent sport, diaspora connection and under-covered teams and athletes.",
+              "fontSize": 15,
+              "color": "#69707D",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kvqd4veh",
+      "id": "20",
+      "bbox": [
+        72,
+        586,
+        1136,
+        58
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#4F7DFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5wjexgfm",
+      "id": "21",
+      "bbox": [
+        94,
+        586,
+        188,
+        58
+      ],
+      "geometry": "rect",
+      "text": "Founding advantage",
+      "textPreview": "Founding advantage",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 14,
+        "typeface": "+mn-lt",
+        "color": "#071426",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Founding advantage"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Founding advantage",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "color": "#071426",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Founding advantage",
+              "fontSize": 14,
+              "color": "#071426",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/it8v2lwb",
+      "id": "22",
+      "bbox": [
+        286,
+        586,
+        890,
+        58
+      ],
+      "geometry": "rect",
+      "text": "Early category position, launch association and a first renewal conversation—without editorial influence.",
+      "textPreview": "Early category position, launch association and a first renewal conversation—without editorial influence.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#071426",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Early category position, launch association and a first renewal conversation—without editorial"
+          },
+          {
+            "index": 2,
+            "text": "influence."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Early category position, launch association and a first renewal conversation—without editorial influence.",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#071426",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Early category position, launch association and a first renewal conversation—without editorial influence.",
+              "fontSize": 18,
+              "color": "#071426",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/juhwvqxw",
+      "id": "23",
+      "bbox": [
+        72,
+        652,
+        1050,
+        24
+      ],
+      "geometry": "rect",
+      "text": "Before audited traffic exists, ILSP sells a defined pilot and a baseline—not invented impressions or guaranteed reach.",
+      "textPreview": "Before audited traffic exists, ILSP sells a defined pilot and a baseline—not invented impressions or guaranteed reach.",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#69707D",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Before audited traffic exists, ILSP sells a defined pilot and a baseline—not invented impressions or guaranteed reach."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Before audited traffic exists, ILSP sells a defined pilot and a baseline—not invented impressions or guaranteed reach.",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#69707D",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Before audited traffic exists, ILSP sells a defined pilot and a baseline—not invented impressions or guaranteed reach.",
+              "fontSize": 11,
+              "color": "#69707D",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w7qd0be5",
+      "id": "24",
+      "bbox": [
+        72,
+        684,
+        960,
+        18
+      ],
+      "geometry": "rect",
+      "text": "ILSP partner value framework · 17 July 2026",
+      "textPreview": "ILSP partner value framework · 17 July 2026",
+      "resolvedFontSize": 9,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 9,
+        "typeface": "+mn-lt",
+        "color": "#8492A6",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ILSP partner value framework · 17 July 2026"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ILSP partner value framework · 17 July 2026",
+          "resolvedTextStyle": {
+            "fontSize": 9,
+            "color": "#8492A6",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ILSP partner value framework · 17 July 2026",
+              "fontSize": 9,
+              "color": "#8492A6",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x8ze9gfq",
+      "id": "25",
+      "bbox": [
+        1160,
+        680,
+        48,
+        20
+      ],
+      "geometry": "rect",
+      "text": "09",
+      "textPreview": "09",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 10,
+        "typeface": "+mn-lt",
+        "color": "#155EEF",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "09"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "09",
+          "resolvedTextStyle": {
+            "fontSize": 10,
+            "color": "#155EEF",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "09",
+              "fontSize": 10,
+              "color": "#155EEF",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

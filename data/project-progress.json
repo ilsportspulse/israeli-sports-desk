@@ -1,0 +1,244 @@
+{
+  "updatedAt": "2026-07-19T19:58:00Z",
+  "visibility": "internal",
+  "operatingRule": "Complete or materially advance one safe local launch-roadmap item after each mandatory newsroom gate whenever time permits.",
+  "currentPhase": "parallel-newsroom-and-launch-foundation",
+  "lastRoadmapAdvance": {
+    "id": "owner-feedback-homepage-structure-and-score-centre",
+    "status": "complete-pending-skin-choice",
+    "evidence": [
+      "components/newsroom.tsx",
+      "lib/sports-data.ts",
+      "app/globals.css",
+      "outputs/site-mobile-qa/report.json"
+    ],
+    "result": "Owner UX feedback of 19 July implemented structurally: (1) the score centre now merges ILSP-verified match centres into the feed — Israeli cup competitions (Toto Cup, Super Cup) and youth internationals that no connected provider carries now appear with the desk's verified scores, superseding stale provider rows for the same match, ordered Israeli-first per sport (top flight, cups, lower tiers, Europe, world) and grouped by competition in the homepage rail with finished matches linking to their ILSP match reports; (2) the homepage gained Israeli/International desk tabs with desk-scoped category filters, modelled on international sports-site patterns, mobile-first; (3) every story image now renders in a uniform 16:9 frame with consistent radius, border and footer treatment, replacing the mixed crops the owner flagged; a mis-set portrait on the referees-sponsorship story was caught in visual QA and replaced with an exact officiating photograph. Five visual skin directions were rendered as real-data mobile screenshots and delivered for the owner's choice. All gates green after the change (60 tests, audit clean, 41-scenario matrix 0 failures).",
+    "blocker": "Visual skin selection awaits the owner's pick from the five delivered options.",
+    "nextExecutableAction": "Apply the chosen visual skin, re-run the responsive matrix, and extend the score centre with scheduled Israeli cup fixtures once a provider or manual fixture source is approved."
+  },
+  "workstreams": [
+    {
+      "id": "brand",
+      "status": "complete-local",
+      "evidence": [
+        "docs/brand-and-accounts.md",
+        "public/brand/ilsp-lockup.svg",
+        "public/brand/ilsp-mark.svg",
+        "public/brand/ilsp-social-avatar.svg",
+        "public/brand/ilsp-social-banner.svg"
+      ],
+      "nextAction": "Complete professional trademark and final domain-price checks.",
+      "ownerApprovalRequired": true
+    },
+    {
+      "id": "newsroom",
+      "status": "active-claude-copy-desk",
+      "evidence": [
+        "data/articles.json",
+        "data/editorial-audit.json",
+        "data/ingestion-report.json",
+        "data/discovery-ledger.json",
+        "data/style-audit.json",
+        "scripts/capture-site-mobile-qa.mjs",
+        "outputs/site-mobile-qa/report.json"
+      ],
+      "nextAction": "Continue source-map completeness and factual freshness audits on the highest-impact promoted legacy story in each suitable cycle.",
+      "ownerApprovalRequired": false
+    },
+    {
+      "id": "permanent-library",
+      "status": "complete-local",
+      "evidence": [
+        "app/stories/page.tsx",
+        "app/archive/page.tsx",
+        "app/columns/page.tsx",
+        "components/story-index.tsx",
+        "components/newsroom.tsx"
+      ],
+      "nextAction": "Keep every index automatic and include historic-route visibility in regression QA.",
+      "ownerApprovalRequired": false
+    },
+    {
+      "id": "social",
+      "status": "complete-local-current-story-and-media-preflight-passed",
+      "evidence": [
+        "docs/social-launch-kit.md",
+        "docs/social-asset-system.md",
+        "docs/social-launch-manifest-freshness-check.md",
+        "data/social-launch-manifest.json",
+        "scripts/validate-social-launch.mjs",
+        "tests/social-launch.test.mjs",
+        "assets/social/templates/ilsp-story-card-4x5.svg",
+        "assets/social/templates/ilsp-score-card-square.svg",
+        "assets/social/templates/ilsp-vertical-story.svg",
+        "public/brand/ilsp-social-avatar.svg",
+        "public/brand/ilsp-social-banner.svg"
+      ],
+      "nextAction": "Owner approval of account registration, public URL, launch date and the first bounded posting batch; refresh the internal story snapshot before use and rerun the automated preflight after approved launch-input changes.",
+      "ownerApprovalRequired": true
+    },
+    {
+      "id": "funding",
+      "status": "fourteen-slide-partner-value-deck-full-pdf-and-financial-reality-check-ready-for-owner-review",
+      "evidence": [
+        "docs/funding-plan.md",
+        "outputs/ilsp-launch-funding-model.xlsx",
+        "outputs/ilsp-founding-partner-deck.pptx",
+        "output/pdf/ilsp-founding-partner-deck.pdf",
+        "docs/funding-model-reality-check.md",
+        "docs/partner-outreach-scale-plan.md",
+        "outputs/deck-assets/founder-patrick-vanden-broek.jpeg",
+        "scripts/build-sponsor-deck.mjs",
+        "outputs/site-mobile-qa/report.json",
+        "app/about/page.tsx",
+        "tests/content-integrity.test.mjs",
+        "docs/partner-one-page-brief.md",
+        "docs/partner-brief-consistency-check.md",
+        "output/pdf/ilsp-founding-partner-brief.pdf",
+        "scripts/validate-partner-brief.mjs",
+        "tests/partner-brief-validation.test.mjs",
+        "data/partner-brief-release-readiness.json"
+      ],
+      "nextAction": "Keep the current-brand deck and brief release preflight green; owner reviews the founder narrative, USD 30,000 founding-partner price, USD 213,790 professional target, partner inventory and outreach language before any external use.",
+      "ownerApprovalRequired": true
+    },
+    {
+      "id": "partners",
+      "status": "qualified-drafts-and-held-route-monitoring-fail-closed-currentness-passed-ready-for-owner-review",
+      "evidence": [
+        "data/partner-prospects.json",
+        "docs/partner-targets.md",
+        "docs/outreach-kit.md",
+        "docs/partner-first-five-qualification.md",
+        "docs/partner-intake-monitoring.md",
+        "data/partner-intake-monitoring.json",
+        "docs/partner-one-page-brief.md",
+        "output/pdf/ilsp-founding-partner-brief.pdf",
+        "docs/aws-activate-application-fact-sheet.md",
+        "docs/maccabi-world-union-eight-week-pilot.md",
+        "docs/partner-brief-consistency-check.md",
+        "docs/partner-owner-decision-brief.md",
+        "docs/partner-first-two-submission-drafts.md",
+        "docs/partner-submission-preflight.md",
+        "data/partner-submission-readiness.json",
+        "scripts/validate-partner-submissions.mjs",
+        "tests/partner-submission-validation.test.mjs",
+        "scripts/validate-partner-intake-monitoring.mjs",
+        "tests/partner-intake-monitoring-validation.test.mjs"
+      ],
+      "nextAction": "Keep both partner preflights and readiness records green, refreshing official route evidence before 16 August 2026; owner reviews the decision brief and target-specific drafts, confirms AWS company facts and decides whether to approve, revise or hold each route; run held-target monitoring only monthly, on official material change or before expiry.",
+      "ownerApprovalRequired": true
+    },
+    {
+      "id": "scores",
+      "status": "coverage-matrix-football-recap-and-evidence-currentness-gates-passed-trials-gated SofaScore RapidAPI live feed merged 19 Jul 2026 (owner-approved; free-plan day budget; Ultra upgrade pending).",
+      "evidence": [
+        "components/score-centre.tsx",
+        "lib/sports-data.ts",
+        "docs/funding-plan.md",
+        "docs/score-provider-coverage-matrix.md",
+        "docs/score-provider-matrix-maintenance-check.md",
+        "data/score-provider-coverage.json",
+        "scripts/validate-score-provider-coverage.mjs",
+        "tests/score-provider-validation.test.mjs"
+      ],
+      "nextAction": "Keep the matrix, twelve-field recap and 31-day evidence-currentness preflights green and refresh provider evidence before 16 August 2026; after owner approval, run bounded Sportmonks and multi-sport trials without purchasing until exact competition coverage, recap completeness and display rights pass.",
+      "ownerApprovalRequired": true
+    },
+    {
+      "id": "mobile-apps",
+      "status": "recap-contract-snapshot-english-only-public-locale-boundary-and-evidence-currentness-fail-closed-native-emulators-blocked-local",
+      "evidence": [
+        "outputs/ilsp-founding-partner-deck.pptx",
+        "outputs/ilsp-launch-funding-model.xlsx",
+        "docs/mobile-app-api-architecture.md",
+        "data/mobile-release-plan.json",
+        "packages/api-contracts/src/index.ts",
+        "packages/api-contracts/schemas/envelope.schema.json",
+        "packages/api-contracts/schemas/article-summary.schema.json",
+        "packages/api-contracts/schemas/article-detail.schema.json",
+        "packages/api-contracts/fixtures/article-detail.football.json",
+        "packages/api-contracts/fixtures/article-detail.basketball.json",
+        "packages/api-contracts/fixtures/article-detail.basketball-club.json",
+        "packages/api-contracts/schemas/score-event.schema.json",
+        "packages/api-contracts/schemas/config.schema.json",
+        "app/api/v1/config/route.ts",
+        "app/api/v1/articles/route.ts",
+        "app/api/v1/articles/[slug]/route.ts",
+        "app/api/v1/scores/route.ts",
+        "prototypes/mobile/app/_layout.tsx",
+        "prototypes/mobile/app/index.tsx",
+        "prototypes/mobile/app/article/[slug].tsx",
+        "prototypes/mobile/src/api.ts",
+        "prototypes/mobile/src/header.tsx",
+        "prototypes/mobile/src/locale.tsx",
+        "prototypes/mobile/package.json",
+        "prototypes/mobile/app.json",
+        "prototypes/mobile/package-lock.json",
+        "docs/mobile-device-acceptance.md",
+        "outputs/mobile-qa/feed-en-390x844@2x.png",
+        "outputs/mobile-qa/feed-en-landscape-844x390@2x.png",
+        "outputs/mobile-qa/feed-en-large-text-390x844@2x.png",
+        "outputs/mobile-qa/responsive-qa-report.json",
+        "scripts/capture-mobile-responsive-qa.mjs",
+        "scripts/validate-api-contracts.mjs",
+        "scripts/validate-mobile-release-plan.mjs",
+        "tests/api-contract-validation.test.mjs",
+        "tests/api-contracts.test.mjs",
+        "tests/mobile-release-plan-validation.test.mjs"
+      ],
+      "nextAction": "Keep the exact four-file contract snapshot, English-only public locale boundary, standalone contract, mobile type-check and 24-hour responsive-evidence preflights green; refresh the proxy proof before 10:54 Asia/Jerusalem on 18 July. Install or provide local iOS Simulator and Android emulator runtimes before repeating the documented English checks natively.",
+      "ownerApprovalRequired": true,
+      "approvalGate": "Native simulator QA is currently blocked by missing local runtimes. Apple and Google developer accounts, private beta distribution and store submission require explicit owner approval."
+    },
+    {
+      "id": "multilingual",
+      "status": "language-neutral-foundation-retained-hebrew-editorial-work-stopped",
+      "evidence": [
+        "docs/brand-and-accounts.md",
+        "docs/operations-roadmap.md",
+        "docs/multilingual-and-rtl-foundation.md",
+        "data/locale-config.json",
+        "data/content-translations.json",
+        "lib/locales.ts",
+        "app/he-preview/page.tsx",
+        "app/he-preview/hebrew-preview.module.css",
+        "prototypes/mobile/src/locale.tsx",
+        "prototypes/mobile/app/index.tsx",
+        "prototypes/mobile/app/article/[slug].tsx",
+        "lib/localized-articles.ts",
+        "app/api/v1/articles/route.ts",
+        "packages/api-contracts/schemas/article-translation.schema.json",
+        "tests/api-contracts.test.mjs",
+        "tests/localization.test.mjs"
+      ],
+      "nextAction": "No Hebrew editorial translation work. Revisit localisation only after the owner selects a different target language and audience.",
+      "ownerApprovalRequired": true,
+      "approvalGate": "A public language route requires complete translated bodies, fluent editorial review, translated policy operations, mobile QA and explicit owner approval."
+    },
+    {
+      "id": "production-governance",
+      "status": "complete-local-currentness-preflight-and-responsive-browser-acceptance-passed-pending-review",
+      "evidence": [
+        "README.md",
+        "docs/operations-roadmap.md",
+        "docs/governance-launch-checklist.md",
+        "data/governance-activation-status.json",
+        "components/governance-page.tsx",
+        "app/corrections/page.tsx",
+        "app/privacy/page.tsx",
+        "app/terms/page.tsx",
+        "app/commercial-independence/page.tsx",
+        "components/newsroom.tsx",
+        "scripts/validate-governance-launch.mjs",
+        "tests/governance-launch-validation.test.mjs",
+        "tests/content-integrity.test.mjs",
+        "outputs/site-mobile-qa/report.json"
+      ],
+      "nextAction": "Keep the local governance and browser evidence current before release review; activate owner-controlled policy inboxes, record domain and entity evidence, repeat route acceptance against the production build and obtain professional legal/privacy review before deployment.",
+      "ownerApprovalRequired": true
+    }
+  ],
+  "nextQueueItem": "owner-review-of-funding-pack-then-first-25-target-specific-openings",
+  "externalActionsTaken": []
+}

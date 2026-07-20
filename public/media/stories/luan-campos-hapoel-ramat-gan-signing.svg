@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Luan Campos joins Hapoel Ramat Gan</title>
+  <desc id="desc">Editorial signing graphic showing Luan Campos, his two-year agreement with a one-year option, and his attacking roles.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#18070d"/>
+      <stop offset=".55" stop-color="#51101d"/>
+      <stop offset="1" stop-color="#0a1625"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="77%" cy="35%" r="55%">
+      <stop offset="0" stop-color="#ef3340" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#ef3340" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#glow)"/>
+  <path d="M0 760 1600 470v430H0z" fill="#050b13" fill-opacity=".72"/>
+  <path d="M65 770 1535 500" stroke="#ef3340" stroke-width="2" stroke-opacity=".5"/>
+  <text x="100" y="130" fill="#f7a9ae" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" letter-spacing="7">HAPOEL RAMAT GAN • 2026/27</text>
+  <text x="96" y="284" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="116" font-weight="900">LUAN</text>
+  <text x="96" y="402" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="116" font-weight="900">CAMPOS</text>
+  <rect x="100" y="452" width="650" height="104" rx="15" fill="#ef3340"/>
+  <text x="140" y="521" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="43" font-weight="900">2 YEARS + 1-YEAR OPTION</text>
+  <text x="1045" y="190" fill="#f7a9ae" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="4">ATTACKING PROFILE</text>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="900" text-anchor="middle">
+    <rect x="1008" y="233" width="145" height="104" rx="16" fill="#ffffff" fill-opacity=".12" stroke="#ffffff" stroke-opacity=".3"/>
+    <rect x="1172" y="233" width="145" height="104" rx="16" fill="#ffffff" fill-opacity=".12" stroke="#ffffff" stroke-opacity=".3"/>
+    <rect x="1336" y="233" width="145" height="104" rx="16" fill="#ffffff" fill-opacity=".12" stroke="#ffffff" stroke-opacity=".3"/>
+    <text x="1080" y="299" fill="#ffffff">LW</text>
+    <text x="1244" y="299" fill="#ffffff">RW</text>
+    <text x="1408" y="299" fill="#ffffff">CF</text>
+  </g>
+  <text x="100" y="681" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="800">OȚELUL GALAȚI</text>
+  <path d="M454 670h293" stroke="#ef3340" stroke-width="8" stroke-linecap="round"/>
+  <path d="m728 650 34 20-34 20" fill="none" stroke="#ef3340" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="806" y="681" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="800">HAPOEL RAMAT GAN</text>
+  <text x="100" y="773" fill="#b9c6d2" font-family="Arial, Helvetica, sans-serif" font-size="24">BRAZILIAN FORWARD • BORN 19 MARCH 2002</text>
+  <text x="1500" y="825" text-anchor="end" fill="#8d9cad" font-family="Arial, Helvetica, sans-serif" font-size="18" letter-spacing="3">ILSP VISUAL DESK</text>
+</svg>

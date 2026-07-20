@@ -1,0 +1,178 @@
+{
+  "updatedAt": "2026-07-19T10:28:00+03:00",
+  "visibility": "internal",
+  "evidenceFreshness": {
+    "releasePlanReviewedAt": "2026-07-19T07:28:16Z",
+    "apiContractValidatorLastPassedAt": "2026-07-20T02:26:46Z",
+    "responsiveWebEvidenceAt": "2026-07-20T02:23:45.857Z",
+    "responsiveWebEvidenceValidUntil": "2026-07-21T02:23:45.857Z",
+    "maxEvidenceAgeHours": 24,
+    "nativeSimulatorEvidenceAt": null,
+    "nativeAcceptanceStatus": "blocked-missing-local-ios-and-android-runtimes"
+  },
+  "maintenanceReview": {
+    "reviewedAt": "2026-07-19T07:28:16Z",
+    "releaseGates": 5,
+    "articleDetailFixtures": 3,
+    "footballStartingElevens": [
+      11,
+      11
+    ],
+    "basketballTeamMarkModes": [
+      "flag",
+      "logo"
+    ],
+    "responsiveWebScenarios": 2,
+    "responsiveEvidenceAgeHours": 0,
+    "responsiveEvidenceExpiry": "2026-07-21T02:23:45.857Z",
+    "externalActionsTaken": 0,
+    "nextExecutableAction": "Keep the four-file recap-contract snapshot, English-only public locale boundary and responsive proof current before 05:23 Asia/Jerusalem on 21 July, then repeat the documented matrix natively only when local iOS and Android runtimes are available."
+  },
+  "contractSnapshot": {
+    "algorithm": "sha256",
+    "verifiedAt": "2026-07-17T10:32:00Z",
+    "publicLaunchLocales": [
+      "en"
+    ],
+    "rtlFoundationReady": true,
+    "files": [
+      {
+        "path": "packages/api-contracts/schemas/article-detail.schema.json",
+        "sha256": "7ab75811fa786af3697d64ab4a617ebc31986418713244187f42fb82571cc556"
+      },
+      {
+        "path": "packages/api-contracts/fixtures/article-detail.football.json",
+        "sha256": "9d17f18e08af9a70a8146450e9cae6c5a871f7801c1b3d0b856c2d3843821c6e"
+      },
+      {
+        "path": "packages/api-contracts/fixtures/article-detail.basketball.json",
+        "sha256": "dec4912b153d2715d06eb8f293d651a516f15f2ed2542242a81724140f147c8f"
+      },
+      {
+        "path": "packages/api-contracts/fixtures/article-detail.basketball-club.json",
+        "sha256": "9ab320f5a623a98d17a6ddcdde9b6fd93b5dc413566d0b4890a1c4bfc2aabee2"
+      }
+    ]
+  },
+  "localeBoundary": {
+    "publicLaunchLocales": [
+      "en"
+    ],
+    "prototypeLocales": [
+      "he"
+    ],
+    "publicSelectorEnabled": false,
+    "prototypeOptInEnvironmentVariable": "EXPO_PUBLIC_ENABLE_HEBREW_PROTOTYPE",
+    "prototypeRequiresDevelopmentBuild": true,
+    "evidence": [
+      "app/api/v1/config/route.ts",
+      "packages/api-contracts/schemas/config.schema.json",
+      "data/locale-config.json",
+      "prototypes/mobile/src/locale.tsx",
+      "prototypes/mobile/src/header.tsx"
+    ]
+  },
+  "decision": {
+    "client": "React Native with Expo and TypeScript",
+    "products": [
+      "iOS",
+      "Android"
+    ],
+    "backend": "Versioned ILSP mobile/web gateway over canonical editorial and sports data",
+    "rationale": "One shared product team can meet the launch quality bar without funding two duplicated native codebases; native modules remain available for proven platform gaps."
+  },
+  "mvpIncludes": [
+    "home and latest feeds",
+    "sport and competition feeds",
+    "articles, columns and archive",
+    "licensed scores, fixtures, results and tables",
+    "search",
+    "saved and offline stories",
+    "followed-topic notifications",
+    "locale-aware and RTL-ready UI"
+  ],
+  "mvpExcludes": [
+    "live video",
+    "betting",
+    "comments",
+    "public profiles",
+    "fantasy games",
+    "subscription paywall"
+  ],
+  "releaseGates": [
+    {
+      "id": "contracts-prototype",
+      "status": "complete-local-contracts-and-responsive-web-proof-native-acceptance-pending",
+      "evidence": [
+        "packages/api-contracts/schemas/envelope.schema.json",
+        "packages/api-contracts/schemas/article-summary.schema.json",
+        "packages/api-contracts/schemas/article-detail.schema.json",
+        "packages/api-contracts/schemas/score-event.schema.json",
+        "packages/api-contracts/schemas/config.schema.json",
+        "packages/api-contracts/fixtures/article-detail.football.json",
+        "packages/api-contracts/fixtures/article-detail.basketball.json",
+        "packages/api-contracts/fixtures/article-detail.basketball-club.json",
+        "app/api/v1/config/route.ts",
+        "app/api/v1/articles/route.ts",
+        "app/api/v1/articles/[slug]/route.ts",
+        "app/api/v1/scores/route.ts",
+        "prototypes/mobile/app/index.tsx",
+        "prototypes/mobile/app/article/[slug].tsx",
+        "scripts/validate-api-contracts.mjs",
+        "outputs/mobile-qa/responsive-qa-report.json",
+        "tests/api-contract-validation.test.mjs",
+        "tests/api-contracts.test.mjs"
+      ],
+      "exitCriteria": [
+        "API schemas validate",
+        "home and article use real public ILSP data",
+        "English phone layouts pass",
+        "no credential is present in the binary"
+      ],
+      "externalApprovalRequired": false
+    },
+    {
+      "id": "internal-alpha",
+      "status": "planned",
+      "exitCriteria": [
+        "offline reading, deep links, saved stories and score read models work",
+        "current and previous major iOS and Android versions pass",
+        "a constrained Android profile passes"
+      ],
+      "externalApprovalRequired": false
+    },
+    {
+      "id": "private-beta",
+      "status": "gated",
+      "exitCriteria": [
+        "crash-free sessions at or above 99.5 per cent",
+        "performance budgets pass",
+        "no severity-one content or score defect remains",
+        "privacy and accessibility reviews pass"
+      ],
+      "externalApprovalRequired": true,
+      "gate": "Apple and Google developer accounts plus owner approval"
+    },
+    {
+      "id": "public-beta-candidate",
+      "status": "gated",
+      "exitCriteria": [
+        "store metadata and privacy declarations are complete",
+        "support and rollback routes are operational",
+        "every enabled competition passes the provider acceptance suite"
+      ],
+      "externalApprovalRequired": true
+    },
+    {
+      "id": "store-launch",
+      "status": "gated",
+      "exitCriteria": [
+        "owner, editorial, legal and privacy approvals are recorded",
+        "production monitoring and staged rollout are ready"
+      ],
+      "externalApprovalRequired": true,
+      "gate": "Explicit owner approval for submission and production release"
+    }
+  ],
+  "externalActionsTaken": []
+}

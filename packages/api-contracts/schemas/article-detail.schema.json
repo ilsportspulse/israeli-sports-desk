@@ -1,0 +1,142 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ilsp.example/schemas/v1/article-detail.schema.json",
+  "title": "ILSP public article detail v1",
+  "allOf": [
+    { "$ref": "./article-summary.schema.json" },
+    {
+      "type": "object",
+      "required": ["body", "facts"],
+      "properties": {
+        "body": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+        "facts": { "type": "array", "minItems": 4, "items": { "type": "string", "minLength": 1 } },
+        "matchRecap": {
+          "type": "object",
+          "required": ["competition", "status", "kickoff", "venue", "city", "referee", "home", "away", "events"],
+          "anyOf": [
+            { "required": ["attendance"] },
+            { "required": ["attendanceNote"] }
+          ],
+          "properties": {
+            "competition": { "type": "string", "minLength": 1 },
+            "status": { "const": "FT" },
+            "kickoff": { "type": "string", "format": "date-time" },
+            "venue": { "type": "string", "minLength": 1 },
+            "city": { "type": "string", "minLength": 1 },
+            "attendance": { "type": "integer", "minimum": 1 },
+            "attendanceNote": { "type": "string", "minLength": 1 },
+            "referee": { "type": "string", "minLength": 1 },
+            "home": { "$ref": "#/$defs/footballTeam" },
+            "away": { "$ref": "#/$defs/footballTeam" },
+            "events": {
+              "type": "array",
+              "minItems": 1,
+              "items": { "$ref": "#/$defs/footballEvent" }
+            }
+          }
+        },
+        "basketballRecap": {
+          "type": "object",
+          "required": ["competition", "status", "tipoff", "venue", "city", "officials", "home", "away", "stats", "leaders"],
+          "anyOf": [
+            { "required": ["attendance"] },
+            { "required": ["attendanceNote"] }
+          ],
+          "properties": {
+            "competition": { "type": "string", "minLength": 1 },
+            "status": { "const": "FT" },
+            "tipoff": { "type": "string", "format": "date-time" },
+            "venue": { "type": "string", "minLength": 1 },
+            "city": { "type": "string", "minLength": 1 },
+            "attendance": { "type": "integer", "minimum": 1 },
+            "attendanceNote": { "type": "string", "minLength": 1 },
+            "officials": { "type": "array", "minItems": 2, "items": { "type": "string", "minLength": 1 } },
+            "home": { "$ref": "#/$defs/basketballTeam" },
+            "away": { "$ref": "#/$defs/basketballTeam" },
+            "stats": {
+              "type": "array",
+              "minItems": 4,
+              "items": {
+                "type": "object",
+                "required": ["label", "home", "away"],
+                "properties": {
+                  "label": { "type": "string", "minLength": 1 },
+                  "home": { "type": "string", "minLength": 1 },
+                  "away": { "type": "string", "minLength": 1 }
+                }
+              }
+            },
+            "leaders": {
+              "type": "array",
+              "minItems": 2,
+              "items": {
+                "type": "object",
+                "required": ["player", "team", "value", "label"],
+                "properties": {
+                  "player": { "type": "string", "minLength": 1 },
+                  "team": { "type": "string", "minLength": 1 },
+                  "value": { "type": "string", "minLength": 1 },
+                  "label": { "type": "string", "minLength": 1 }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "footballTeam": {
+      "type": "object",
+      "required": ["name", "shortName", "score", "coach", "lineup"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "shortName": { "type": "string", "minLength": 1 },
+        "logo": {
+          "type": "string",
+          "anyOf": [
+            { "format": "uri" },
+            { "pattern": "^/media/team-marks/" }
+          ]
+        },
+        "score": { "type": "integer", "minimum": 0 },
+        "coach": { "type": "string", "minLength": 1 },
+        "lineup": { "type": "array", "minItems": 11, "maxItems": 11, "items": { "type": "string", "minLength": 1 } }
+      }
+    },
+    "footballEvent": {
+      "type": "object",
+      "required": ["minute", "type", "team", "player"],
+      "properties": {
+        "minute": { "type": "string", "minLength": 1 },
+        "type": { "enum": ["goal", "yellow", "second-yellow", "red", "var"] },
+        "team": { "type": "string", "minLength": 1 },
+        "player": { "type": "string", "minLength": 1 },
+        "detail": { "type": "string", "minLength": 1 },
+        "score": { "type": "string", "minLength": 1 }
+      }
+    },
+    "basketballTeam": {
+      "type": "object",
+      "required": ["name", "shortName", "score", "quarters"],
+      "anyOf": [
+        { "required": ["flag"] },
+        { "required": ["logo"] }
+      ],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "shortName": { "type": "string", "minLength": 1 },
+        "flag": { "type": "string", "minLength": 1 },
+        "logo": {
+          "type": "string",
+          "anyOf": [
+            { "format": "uri" },
+            { "pattern": "^/media/team-marks/" }
+          ]
+        },
+        "score": { "type": "integer", "minimum": 0 },
+        "quarters": { "type": "array", "minItems": 4, "maxItems": 4, "items": { "type": "integer", "minimum": 0 } }
+      }
+    }
+  }
+}

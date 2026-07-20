@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ilsp.example/schemas/v1/envelope.schema.json",
+  "title": "ILSP API v1 response envelope",
+  "type": "object",
+  "required": ["schemaVersion", "generatedAt", "data", "meta"],
+  "properties": {
+    "schemaVersion": { "const": "1.0" },
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "data": {},
+    "meta": {
+      "type": "object",
+      "required": ["locale", "timezone"],
+      "properties": {
+        "locale": { "enum": ["en", "he"] },
+        "timezone": { "const": "Asia/Jerusalem" }
+      },
+      "additionalProperties": false
+    },
+    "page": {
+      "type": "object",
+      "required": ["nextCursor"],
+      "properties": {
+        "nextCursor": { "type": ["string", "null"] }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Noam Mocha development compensation ruling</title>
+  <desc id="desc">An original ILSP editorial graphic showing a 450,000 shekel development compensation ruling from M.S. Ashdod to Beitar Jerusalem.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071529"/>
+      <stop offset="0.58" stop-color="#0b203b"/>
+      <stop offset="1" stop-color="#15130e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f4c64d"/>
+      <stop offset="1" stop-color="#fff0a3"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0V64" fill="none" stroke="#6fa6dc" stroke-opacity="0.065" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <rect width="1600" height="1000" fill="url(#grid)"/>
+  <path d="M0 0h490L210 1000H0z" fill="#0d4b80" opacity="0.25"/>
+  <path d="M1600 0h-310l-220 1000h530z" fill="#e2ae2f" opacity="0.12"/>
+  <g font-family="Inter, Arial, sans-serif" fill="#f7fbff">
+    <text x="110" y="110" font-size="28" font-weight="700" letter-spacing="7" fill="#9bc4e8">ISRAEL SPORTS PULSE</text>
+    <rect x="110" y="148" width="1380" height="4" rx="2" fill="url(#gold)"/>
+    <text x="110" y="260" font-size="30" font-weight="700" letter-spacing="5" fill="#f4c64d">PLAYER-STATUS DECISION</text>
+    <text x="800" y="490" text-anchor="middle" font-size="170" font-weight="900" letter-spacing="-8" fill="url(#gold)" filter="url(#shadow)">₪450,000</text>
+    <text x="800" y="560" text-anchor="middle" font-size="34" font-weight="700" letter-spacing="8" fill="#d9e8f6">TRAINING &amp; DEVELOPMENT COMPENSATION</text>
+  </g>
+  <g transform="translate(135 650)" font-family="Inter, Arial, sans-serif">
+    <rect width="1330" height="190" rx="26" fill="#07111f" fill-opacity="0.78" stroke="#86acd0" stroke-opacity="0.25"/>
+    <g transform="translate(60 42)">
+      <circle cx="54" cy="54" r="54" fill="#1e6a9d"/>
+      <circle cx="54" cy="54" r="38" fill="none" stroke="#dcefff" stroke-width="4" opacity="0.9"/>
+      <text x="54" y="64" text-anchor="middle" font-size="25" font-weight="900" fill="#fff">MSA</text>
+      <text x="135" y="48" font-size="31" font-weight="800" fill="#fff">M.S. ASHDOD</text>
+      <text x="135" y="85" font-size="20" font-weight="600" letter-spacing="3" fill="#8eb9dc">DEVELOPING CLUB</text>
+    </g>
+    <g transform="translate(575 65)" fill="none" stroke="#f4c64d" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 30h150"/>
+      <path d="M120 0l30 30-30 30"/>
+    </g>
+    <g transform="translate(940 42)">
+      <circle cx="54" cy="54" r="54" fill="#f1c232"/>
+      <path d="M28 32h52v12H28zm0 25h52v12H28zm0 25h52v12H28z" fill="#18150b"/>
+      <text x="135" y="48" font-size="31" font-weight="800" fill="#fff">BEITAR JERUSALEM</text>
+      <text x="135" y="85" font-size="20" font-weight="600" letter-spacing="3" fill="#d7bb64">ACQUIRING CLUB</text>
+    </g>
+  </g>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="110" y="930" font-size="24" font-weight="700" letter-spacing="3" fill="#a7c4df">NOAM MOCHA • 16 JULY 2026</text>
+    <text x="1490" y="930" text-anchor="end" font-size="22" font-weight="700" letter-spacing="3" fill="#f4c64d">ILSP EDITORIAL VISUAL</text>
+  </g>
+</svg>

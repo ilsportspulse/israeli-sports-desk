@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ilsp.example/schemas/v1/config.schema.json",
+  "title": "ILSP client configuration v1",
+  "type": "object",
+  "required": ["brand", "defaultLocale", "availableLocales", "publicLaunchLocales", "prototypeLocales", "localePolicy", "features"],
+  "properties": {
+    "brand": { "const": "Israel Sports Pulse" },
+    "defaultLocale": { "const": "en" },
+    "availableLocales": { "const": ["en"] },
+    "publicLaunchLocales": { "const": ["en"] },
+    "prototypeLocales": { "const": ["he"] },
+    "localePolicy": {
+      "type": "object",
+      "required": ["publicLaunch", "prototypeLocalesPubliclySelectable"],
+      "properties": {
+        "publicLaunch": { "const": "english-only" },
+        "prototypeLocalesPubliclySelectable": { "const": false }
+      },
+      "additionalProperties": false
+    },
+    "features": {
+      "type": "object",
+      "required": ["articles", "scores", "search", "notifications"],
+      "properties": {
+        "articles": { "type": "boolean" },
+        "scores": { "type": "boolean" },
+        "search": { "type": "boolean" },
+        "notifications": { "type": "boolean" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

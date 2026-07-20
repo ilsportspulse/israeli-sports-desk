@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-07-20T02:23:45.857Z",
+  "baseUrl": "http://127.0.0.1:19007",
+  "scope": "responsive web proxy for native rotation and text scaling; native simulator acceptance remains separate",
+  "results": [
+    {
+      "id": "landscape",
+      "width": 844,
+      "height": 390,
+      "fontScale": 1,
+      "screenshot": "feed-en-landscape-844x390@2x.png",
+      "viewportWidth": 844,
+      "documentWidth": 844,
+      "noHorizontalOverflow": true,
+      "languageButtonVisible": true,
+      "brandFullyVisible": true,
+      "brandEstimatedLines": null,
+      "status": "pass"
+    },
+    {
+      "id": "large-text",
+      "width": 390,
+      "height": 844,
+      "fontScale": 2,
+      "screenshot": "feed-en-large-text-390x844@2x.png",
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "noHorizontalOverflow": true,
+      "languageButtonVisible": true,
+      "brandFullyVisible": true,
+      "brandEstimatedLines": null,
+      "status": "pass"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "1.0",
+  "id": "fixture-event-1",
+  "sport": "Football",
+  "competition": "Israeli Premier League",
+  "scheduledAt": "2026-08-22T20:00:00+03:00",
+  "status": "scheduled",
+  "home": { "id": "team-home", "name": "Home", "score": null },
+  "away": { "id": "team-away", "name": "Away", "score": null },
+  "lastConfirmedAt": "2026-07-16T07:00:00+03:00"
+}

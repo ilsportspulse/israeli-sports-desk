@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Greece 79, Israel 66 at the 2026 FIBA U20 EuroBasket</title>
+  <desc id="desc">Israel Sports Pulse editorial result graphic for the round-of-16 game in Ljubljana.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06132d"/>
+      <stop offset="0.58" stop-color="#0b1d3c"/>
+      <stop offset="1" stop-color="#102b57"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#1554e8"/>
+      <stop offset="1" stop-color="#2b74ff"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="20" stdDeviation="24" flood-color="#020816" flood-opacity="0.46"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <g fill="none" stroke="#8fa7d0" stroke-opacity="0.13" stroke-width="3">
+    <path d="M800 0v900M0 450h1600"/>
+    <circle cx="800" cy="450" r="170"/>
+    <path d="M0 122h245c108 0 195 88 195 196v264c0 108-87 196-195 196H0M1600 122h-245c-108 0-195 88-195 196v264c0 108 87 196 195 196h245"/>
+    <path d="M0 298h262v304H0M1600 298h-262v304h262"/>
+  </g>
+  <g transform="translate(88 70)">
+    <rect width="250" height="58" rx="29" fill="#fff" fill-opacity="0.09"/>
+    <circle cx="29" cy="29" r="7" fill="#2b74ff"/>
+    <text x="50" y="37" fill="#dce7fb" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="2">FIBA U20 EUROBASKET</text>
+  </g>
+  <text x="1512" y="109" text-anchor="end" fill="#aebdd7" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="3">ROUND OF 16 · LJUBLJANA</text>
+  <g filter="url(#shadow)">
+    <rect x="90" y="185" width="1420" height="470" rx="42" fill="#071630" fill-opacity="0.9" stroke="#7e9aca" stroke-opacity="0.23"/>
+  </g>
+  <g transform="translate(184 268)">
+    <g transform="translate(0 3)">
+      <rect width="100" height="72" rx="12" fill="#fff"/>
+      <path d="M0 16h100M0 32h100M0 48h100M0 64h100" stroke="#1768d5" stroke-width="8"/>
+      <rect width="44" height="40" fill="#1768d5"/>
+      <path d="M22 7l3.6 7.5 8.3 1.2-6 5.8 1.4 8.2-7.3-3.9-7.3 3.9 1.4-8.2-6-5.8 8.3-1.2z" fill="#fff"/>
+    </g>
+    <text x="0" y="128" fill="#aebdd7" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="4">GREECE</text>
+    <text x="0" y="276" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="154" font-weight="800">79</text>
+  </g>
+  <g transform="translate(1020 268)">
+    <g transform="translate(260 3)">
+      <rect width="100" height="72" rx="12" fill="#fff"/>
+      <path d="M0 12h100M0 60h100" stroke="#1768d5" stroke-width="8"/>
+      <g transform="translate(50 36)" fill="none" stroke="#1768d5" stroke-width="3">
+        <path d="M0-17l15 26h-30zM0 17l-15-26h30z"/>
+      </g>
+    </g>
+    <text x="360" y="128" text-anchor="end" fill="#aebdd7" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="4">ISRAEL</text>
+    <text x="360" y="276" text-anchor="end" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="154" font-weight="800">66</text>
+  </g>
+  <g transform="translate(720 310)">
+    <rect width="160" height="52" rx="26" fill="url(#blue)"/>
+    <text x="80" y="34" text-anchor="middle" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="800" letter-spacing="4">FINAL</text>
+    <text x="80" y="165" text-anchor="middle" fill="#5f86ca" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700">—</text>
+  </g>
+  <g transform="translate(90 700)">
+    <rect width="930" height="120" rx="26" fill="#fff" fill-opacity="0.06" stroke="#91a8d0" stroke-opacity="0.2"/>
+    <text x="42" y="45" fill="#82a9ee" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="800" letter-spacing="3">ISRAEL LEADING SCORERS</text>
+    <text x="42" y="88" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700">OREN SAHAR 20</text>
+    <circle cx="330" cy="78" r="4" fill="#2b74ff"/>
+    <text x="358" y="88" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700">RANY BELAGA 19</text>
+  </g>
+  <g transform="translate(1050 700)">
+    <rect width="460" height="120" rx="26" fill="url(#blue)"/>
+    <text x="34" y="45" fill="#cfe0ff" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="800" letter-spacing="3">NEXT</text>
+    <text x="34" y="88" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="800">CLASSIFICATION 9–16</text>
+  </g>
+  <g transform="translate(1390 854)">
+    <text x="0" y="0" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="23" font-style="italic" font-weight="800">ILSP</text>
+    <rect x="64" y="-18" width="70" height="5" rx="3" fill="#2b74ff"/>
+  </g>
+</svg>

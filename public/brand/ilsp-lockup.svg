@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 360" role="img" aria-labelledby="title desc">
+  <title id="title">Israel Sports Pulse master lockup</title>
+  <desc id="desc">The compact ILSP app mark beside the Israel Sports Pulse name and tagline.</desc>
+  <g aria-label="ILSP compact mark">
+    <rect x="40" y="40" width="280" height="280" rx="68" fill="#07152f"/>
+    <g transform="skewX(-7)">
+      <text x="78" y="211" fill="#ffffff" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="122" font-weight="900" letter-spacing="-15">ILSP</text>
+    </g>
+    <g transform="translate(40 40) scale(2.9166667)">
+      <path d="M79 6l2.75 5h5.75l-3 5 3 5h-5.75L79 26l-2.75-5H70.5l3-5-3-5h5.75zM79 12l3.2 2v4L79 20l-3.2-2v-4z" fill="#4f7dff" fill-rule="evenodd" transform="rotate(8 79 16)"/>
+    </g>
+    <path d="M82 260h190" fill="none" stroke="#155eef" stroke-width="18" stroke-linecap="round"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="900">
+    <text x="370" y="166" fill="#155eef" font-size="110" letter-spacing="-6">ISRAEL</text>
+    <rect x="777" y="84" width="174" height="73" rx="21" fill="#155eef"/>
+    <text x="800" y="134" fill="#ffffff" font-size="31" letter-spacing="6">SPORTS</text>
+    <text x="983" y="166" fill="#07152f" font-size="110" letter-spacing="-6">PULSE</text>
+  </g>
+  <text x="374" y="248" fill="#697386" font-family="Arial, Helvetica, sans-serif" font-size="31" font-style="italic" font-weight="700" letter-spacing="8">THE BEAT OF ISRAELI SPORT</text>
+</svg>

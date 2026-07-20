@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Ronen Hanzis returns with Ironi Beit Dagan</title>
+  <desc id="desc">An ILSP editorial football career-path graphic showing the verified stages of Ronen Hanzis's career.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06152e"/>
+      <stop offset=".58" stop-color="#0b2f57"/>
+      <stop offset="1" stop-color="#075d54"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2874ff"/>
+      <stop offset="1" stop-color="#39d0b0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <path d="M1040 0h560v1000h-290c-135-145-204-300-204-467 0-176 68-354 204-533z" fill="#2cd2b0" opacity=".07"/>
+  <path d="M1245 80h270v840h-270M1245 500h270M1378 80v840M1245 330h270M1245 670h270" fill="none" stroke="#bfeee4" stroke-width="3" opacity=".18"/>
+  <rect x="88" y="82" width="340" height="56" rx="28" fill="#fff" opacity=".10"/>
+  <text x="258" y="120" fill="#cbe1ff" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" text-anchor="middle" letter-spacing="5">CAREER RESTART</text>
+  <text x="88" y="280" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="91" font-weight="800" letter-spacing="-3">RONEN HANZIS</text>
+  <text x="92" y="344" fill="#a5bddb" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" letter-spacing="7">IRONI BEIT DAGAN · LIGA BET SOUTH A</text>
+  <line x1="90" y1="405" x2="1045" y2="405" stroke="url(#line)" stroke-width="10" stroke-linecap="round"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <line x1="156" y1="650" x2="1060" y2="650" stroke="url(#line)" stroke-width="8" stroke-linecap="round"/>
+    <g fill="#07172e" stroke="#6aa1ff" stroke-width="6">
+      <circle cx="156" cy="650" r="28"/><circle cx="455" cy="650" r="28"/><circle cx="754" cy="650" r="28"/><circle cx="1060" cy="650" r="36" stroke="#49d6b5"/>
+    </g>
+    <text x="156" y="555" fill="#89a6ca" font-size="23" font-weight="700" text-anchor="middle" letter-spacing="3">2019</text>
+    <text x="156" y="740" fill="#fff" font-size="29" font-weight="800" text-anchor="middle">MACCABI YOUTH</text>
+    <text x="455" y="555" fill="#89a6ca" font-size="23" font-weight="700" text-anchor="middle" letter-spacing="3">2020</text>
+    <text x="455" y="740" fill="#fff" font-size="29" font-weight="800" text-anchor="middle">SENIOR DEBUT</text>
+    <text x="754" y="555" fill="#89a6ca" font-size="23" font-weight="700" text-anchor="middle" letter-spacing="3">LOAN</text>
+    <text x="754" y="740" fill="#fff" font-size="29" font-weight="800" text-anchor="middle">BEITAR TEL AVIV</text>
+    <text x="1060" y="555" fill="#75dfc8" font-size="23" font-weight="700" text-anchor="middle" letter-spacing="3">2026</text>
+    <text x="1060" y="740" fill="#fff" font-size="29" font-weight="800" text-anchor="middle">BEIT DAGAN</text>
+    <text x="90" y="874" fill="#9bb4d5" font-size="29" font-weight="700" letter-spacing="3">33 YOUTH CAPS · 6 YOUTH GOALS · 6 GOALS IN 22 LOAN APPEARANCES</text>
+  </g>
+  <text x="90" y="952" fill="#86a1c5" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" letter-spacing="4">ISRAEL SPORTS PULSE · CAREER PATH</text>
+</svg>

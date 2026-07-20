@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "1.0",
+  "defaultLocale": "en",
+  "contentTimezone": "Asia/Jerusalem",
+  "locales": [
+    {
+      "code": "en",
+      "bcp47": "en-IL",
+      "label": "English",
+      "nativeLabel": "English",
+      "direction": "ltr",
+      "pathPrefix": null,
+      "status": "active"
+    },
+    {
+      "code": "he",
+      "bcp47": "he-IL",
+      "label": "Hebrew",
+      "nativeLabel": "עברית",
+      "direction": "rtl",
+      "pathPrefix": "/he",
+      "status": "prototype"
+    }
+  ],
+  "fallbacks": {
+    "he": [
+      "en"
+    ]
+  },
+  "publicationRules": {
+    "publicLaunchLocales": [
+      "en"
+    ],
+    "prototypeLocalesPubliclySelectable": false,
+    "prototypeOptInEnvironmentVariable": "EXPO_PUBLIC_ENABLE_HEBREW_PROTOTYPE",
+    "fullVisibleCopyRequired": true,
+    "fallbackMustBeLabelled": true,
+    "sourceUpdateInvalidatesTranslation": true,
+    "reviewRequiredBeforePublication": true,
+    "separateLocaleRoutes": true
+  }
+}

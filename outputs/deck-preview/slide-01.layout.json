@@ -1,0 +1,506 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/v1qe00",
+    "id": "v1qe00",
+    "slide": 1,
+    "layoutId": "154ca8f1-6ceb-415e-a987-87cb12940279",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "ed0b58b4-c833-48e5-96c4-5f845d3524cb",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#071426",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "154ca8f1-6ceb-415e-a987-87cb12940279",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "ed0b58b4-c833-48e5-96c4-5f845d3524cb",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "ed0b58b4-c833-48e5-96c4-5f845d3524cb",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/mx8bqp8r",
+      "id": "1",
+      "bbox": [
+        560,
+        0,
+        720,
+        720
+      ],
+      "geometry": "rect",
+      "alt": "Israel Sports Pulse live product",
+      "contentType": "image/png",
+      "imageFit": "cover",
+      "imageMask": {
+        "geometry": "rect"
+      },
+      "asset": {
+        "assetId": "8eb0de05-5a47-4264-9f5e-2e75d545d34a",
+        "contentType": "image/png",
+        "byteLength": 674883
+      }
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gjal4rml",
+      "id": "2",
+      "bbox": [
+        0,
+        0,
+        690,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#071426",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/8zqtszqh",
+      "id": "3",
+      "bbox": [
+        72,
+        48,
+        500,
+        100
+      ],
+      "geometry": "rect",
+      "alt": "Current Israel Sports Pulse lockup",
+      "contentType": "image/svg+xml",
+      "imageFit": "contain",
+      "imageMask": {
+        "geometry": "rect"
+      },
+      "asset": {
+        "assetId": "fe0c4c1c-2b30-4628-ba74-dae0560d1213",
+        "contentType": "image/svg+xml",
+        "byteLength": 1580
+      }
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ilc361kb",
+      "id": "4",
+      "bbox": [
+        72,
+        174,
+        218,
+        30
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#4F7DFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3ml4z6lw",
+      "id": "5",
+      "bbox": [
+        72,
+        174,
+        218,
+        30
+      ],
+      "geometry": "rect",
+      "text": "FOUNDING PARTNER BRIEF",
+      "textPreview": "FOUNDING PARTNER BRIEF",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#071426",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "FOUNDING PARTNER BRIEF"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "FOUNDING PARTNER BRIEF",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#071426",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "FOUNDING PARTNER BRIEF",
+              "fontSize": 12,
+              "color": "#071426",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4nul8b2h",
+      "id": "6",
+      "bbox": [
+        72,
+        220,
+        540,
+        148
+      ],
+      "geometry": "rect",
+      "text": "THE DAILY HOME\nFOR ISRAELI SPORT",
+      "textPreview": "THE DAILY HOME | FOR ISRAELI SPORT",
+      "resolvedFontSize": 50,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 50,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "THE DAILY HOME"
+          },
+          {
+            "index": 2,
+            "text": "FOR ISRAELI SPORT"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "THE DAILY HOME",
+          "resolvedTextStyle": {
+            "fontSize": 50,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "THE DAILY HOME",
+              "fontSize": 50,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "FOR ISRAELI SPORT",
+          "resolvedTextStyle": {
+            "fontSize": 50,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "FOR ISRAELI SPORT",
+              "fontSize": 50,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5o3m1w32",
+      "id": "7",
+      "bbox": [
+        72,
+        382,
+        520,
+        44
+      ],
+      "geometry": "rect",
+      "text": "English reporting. Scores. History. Community.",
+      "textPreview": "English reporting. Scores. History. Community.",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#4F7DFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "English reporting. Scores. History."
+          },
+          {
+            "index": 2,
+            "text": "Community."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "English reporting. Scores. History. Community.",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#4F7DFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "English reporting. Scores. History. Community.",
+              "fontSize": 23,
+              "color": "#4F7DFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qpc3a1kn",
+      "id": "8",
+      "bbox": [
+        72,
+        444,
+        492,
+        90
+      ],
+      "geometry": "rect",
+      "text": "A professional English-language newsroom and daily sports habit—built in Israel for supporters everywhere.",
+      "textPreview": "A professional English-language newsroom and daily sports habit—built in Israel for supporters everywhere.",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#D2DCEB",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "A professional English-language newsroom and daily"
+          },
+          {
+            "index": 2,
+            "text": "sports habit—built in Israel for supporters"
+          },
+          {
+            "index": 3,
+            "text": "everywhere."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "A professional English-language newsroom and daily sports habit—built in Israel for supporters everywhere.",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#D2DCEB",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "A professional English-language newsroom and daily sports habit—built in Israel for supporters everywhere.",
+              "fontSize": 20,
+              "color": "#D2DCEB",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rql436l8",
+      "id": "9",
+      "bbox": [
+        72,
+        632,
+        420,
+        24
+      ],
+      "geometry": "rect",
+      "text": "12-MONTH LAUNCH · JULY 2026",
+      "textPreview": "12-MONTH LAUNCH · JULY 2026",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#8EA2BF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "12-MONTH LAUNCH · JULY 2026"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "12-MONTH LAUNCH · JULY 2026",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#8EA2BF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "12-MONTH LAUNCH · JULY 2026",
+              "fontSize": 11,
+              "color": "#8EA2BF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

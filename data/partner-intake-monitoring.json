@@ -1,0 +1,71 @@
+{
+  "updatedAt": "2026-07-17T12:29:20.776Z",
+  "visibility": "internal",
+  "status": "fail-closed-currentness-preflight-passed",
+  "cadence": "monthly-or-on-official-material-change",
+  "maxEvidenceAgeDays": 31,
+  "targets": [
+    {
+      "id": "bank-hapoalim",
+      "status": "hold-official-intake-not-public",
+      "officialUrls": [
+        "https://www.bankhapoalim.co.il/he/about/bank-profile",
+        "https://www.bankhapoalim.co.il/sites/default/files/media/PDFS/SocialBanking/ESG_poalim_2025.pdf"
+      ],
+      "qualifyingSignal": "A public marketing, procurement or supplier intake explicitly accepting commercial media, advertising or sponsorship proposals.",
+      "excludedRoutes": [
+        "community banking",
+        "donations",
+        "press",
+        "investor relations",
+        "customer service"
+      ],
+      "lastCheckedAt": "2026-07-16T19:34:00+03:00"
+    },
+    {
+      "id": "bank-leumi",
+      "status": "hold-official-intake-not-public",
+      "officialUrls": [
+        "https://www.leumi.co.il/en/Lobby-Investor-Relations/ESG",
+        "https://www.leumi.co.il/leumi-hebrew/s3fs-public/complex_link_file/02-25/Leumi_Way.acc.pdf",
+        "https://www.leumi.co.il/leumi-hebrew/s3fs-public/complex_link_file/11-24/Leumi_ESG_Report_2023_Acc.pdf"
+      ],
+      "qualifyingSignal": "An open supplier or marketing-procurement intake whose scope includes advertising, media or sponsorship inventory.",
+      "excludedRoutes": [
+        "donations committee",
+        "press",
+        "investor relations",
+        "retail banking support"
+      ],
+      "lastCheckedAt": "2026-07-16T19:34:00+03:00"
+    },
+    {
+      "id": "yes-israel",
+      "status": "hold-official-intake-not-public",
+      "officialUrls": [
+        "https://ir.bezeq.co.il/static-files/c7df9a10-1111-4e29-a396-f440a4146399",
+        "https://suppliers.bezeq.co.il/",
+        "https://www.bezeq.co.il/business/bservices_gallery/b2b/"
+      ],
+      "qualifyingSignal": "A yes or Bezeq Group marketing/business-development route explicitly accepting media partnerships, connected-TV campaigns or sponsorship proposals.",
+      "excludedRoutes": [
+        "supplier login",
+        "B2B reseller programme",
+        "subscriber sales",
+        "technical support",
+        "customer service"
+      ],
+      "lastCheckedAt": "2026-07-16T19:34:00+03:00"
+    }
+  ],
+  "promotionRequiresOwnerApproval": true,
+  "externalActionsTaken": [],
+  "maintenanceReview": {
+    "checkedAt": "2026-07-17T12:29:20.776Z",
+    "valid": true,
+    "heldTargets": 3,
+    "oldestEvidenceAgeDays": 0.8,
+    "earliestExpiryAt": "2026-08-16T16:34:00.000Z",
+    "errors": []
+  }
+}

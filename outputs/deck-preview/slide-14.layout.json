@@ -1,0 +1,572 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/dueo8p",
+    "id": "dueo8p",
+    "slide": 14,
+    "layoutId": "154ca8f1-6ceb-415e-a987-87cb12940279",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "ed0b58b4-c833-48e5-96c4-5f845d3524cb",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#071426",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "154ca8f1-6ceb-415e-a987-87cb12940279",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "ed0b58b4-c833-48e5-96c4-5f845d3524cb",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "ed0b58b4-c833-48e5-96c4-5f845d3524cb",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/ap0ny9c7",
+      "id": "1",
+      "bbox": [
+        688,
+        0,
+        592,
+        720
+      ],
+      "geometry": "rect",
+      "alt": "ILSP homepage product",
+      "contentType": "image/png",
+      "imageFit": "cover",
+      "imageMask": {
+        "geometry": "rect"
+      },
+      "asset": {
+        "assetId": "40201d7b-9fdd-4d63-a45a-a12b9d1fea8c",
+        "contentType": "image/png",
+        "byteLength": 674883
+      }
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gjilknah",
+      "id": "2",
+      "bbox": [
+        0,
+        0,
+        760,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#071426",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1kr2tsr2",
+      "id": "3",
+      "bbox": [
+        72,
+        64,
+        204,
+        30
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#4F7DFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2l03mxsn",
+      "id": "4",
+      "bbox": [
+        72,
+        64,
+        204,
+        30
+      ],
+      "geometry": "rect",
+      "text": "FOUNDING CONVERSATION",
+      "textPreview": "FOUNDING CONVERSATION",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#071426",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "FOUNDING CONVERSATION"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "FOUNDING CONVERSATION",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#071426",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "FOUNDING CONVERSATION",
+              "fontSize": 12,
+              "color": "#071426",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/369kv298",
+      "id": "5",
+      "bbox": [
+        72,
+        132,
+        590,
+        170
+      ],
+      "geometry": "rect",
+      "text": "Help build the daily home of Israeli sport in English.",
+      "textPreview": "Help build the daily home of Israeli sport in English.",
+      "resolvedFontSize": 44,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 44,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Help build the daily home"
+          },
+          {
+            "index": 2,
+            "text": "of Israeli sport in English."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Help build the daily home of Israeli sport in English.",
+          "resolvedTextStyle": {
+            "fontSize": 44,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Help build the daily home of Israeli sport in English.",
+              "fontSize": 44,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/o7ilo7at",
+      "id": "6",
+      "bbox": [
+        72,
+        334,
+        220,
+        32
+      ],
+      "geometry": "rect",
+      "text": "We are seeking:",
+      "textPreview": "We are seeking:",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "color": "#4F7DFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "We are seeking:"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "We are seeking:",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "color": "#4F7DFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "We are seeking:",
+              "fontSize": 15,
+              "color": "#4F7DFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p8r2xsre",
+      "id": "7",
+      "bbox": [
+        72,
+        378,
+        560,
+        116
+      ],
+      "geometry": "rect",
+      "text": "01  A founding cash partner\n02  A licensed data or infrastructure partner\n03  Mission-aligned distribution and grant partners",
+      "textPreview": "01  A founding cash partner | 02  A licensed data or infrastructure partner | 03  Mission-aligned distribution and grant partners",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#D3DEEC",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "01  A founding cash partner"
+          },
+          {
+            "index": 2,
+            "text": "02  A licensed data or infrastructure partner"
+          },
+          {
+            "index": 3,
+            "text": "03  Mission-aligned distribution and grant partners"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "01  A founding cash partner",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#D3DEEC",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "01  A founding cash partner",
+              "fontSize": 22,
+              "color": "#D3DEEC",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "02  A licensed data or infrastructure partner",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#D3DEEC",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "02  A licensed data or infrastructure partner",
+              "fontSize": 22,
+              "color": "#D3DEEC",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "03  Mission-aligned distribution and grant partners",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#D3DEEC",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "03  Mission-aligned distribution and grant partners",
+              "fontSize": 22,
+              "color": "#D3DEEC",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q903qxsj",
+      "id": "8",
+      "bbox": [
+        72,
+        540,
+        544,
+        70
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#4F7DFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/batkz294",
+      "id": "9",
+      "bbox": [
+        92,
+        540,
+        504,
+        70
+      ],
+      "geometry": "rect",
+      "text": "NEXT: 30-minute partner-fit and launch-gate review",
+      "textPreview": "NEXT: 30-minute partner-fit and launch-gate review",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#071426",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "NEXT: 30-minute partner-fit and launch-gate review"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "NEXT: 30-minute partner-fit and launch-gate review",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#071426",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "NEXT: 30-minute partner-fit and launch-gate review",
+              "fontSize": 18,
+              "color": "#071426",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/361wruxo",
+      "id": "10",
+      "bbox": [
+        72,
+        650,
+        600,
+        28
+      ],
+      "geometry": "rect",
+      "text": "Israel Sports Pulse · ILSP · Planned primary domain: ilsportspulse.com (registration pending)",
+      "textPreview": "Israel Sports Pulse · ILSP · Planned primary domain: ilsportspulse.com (registration pending)",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 10,
+        "typeface": "+mn-lt",
+        "color": "#8EA2BF",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Israel Sports Pulse · ILSP · Planned primary domain: ilsportspulse.com (registration pending)"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Israel Sports Pulse · ILSP · Planned primary domain: ilsportspulse.com (registration pending)",
+          "resolvedTextStyle": {
+            "fontSize": 10,
+            "color": "#8EA2BF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Israel Sports Pulse · ILSP · Planned primary domain: ilsportspulse.com (registration pending)",
+              "fontSize": 10,
+              "color": "#8EA2BF",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

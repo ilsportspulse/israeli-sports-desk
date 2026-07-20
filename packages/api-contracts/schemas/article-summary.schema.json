@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ilsp.example/schemas/v1/article-summary.schema.json",
+  "title": "ILSP public article summary v1",
+  "type": "object",
+  "required": ["schemaVersion", "id", "slug", "locale", "status", "title", "dek", "category", "kind", "publishedAt", "readMinutes", "media"],
+  "properties": {
+    "schemaVersion": { "const": "1.0" },
+    "id": { "type": "string", "minLength": 1 },
+    "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "locale": { "enum": ["en", "he"] },
+    "status": { "const": "published" },
+    "title": { "type": "string", "minLength": 1 },
+    "dek": { "type": "string", "minLength": 1 },
+    "category": { "type": "string", "minLength": 1 },
+    "kind": { "enum": ["news", "analysis", "explainer"] },
+    "publishedAt": { "type": "string", "format": "date-time" },
+    "readMinutes": { "type": "integer", "minimum": 1 },
+    "media": {
+      "type": "object",
+      "required": ["src", "alt", "caption", "credit", "creditUrl", "license", "licenseUrl"],
+      "properties": {
+        "src": { "type": "string", "pattern": "^/media/" },
+        "alt": { "type": "string", "minLength": 1 },
+        "caption": { "type": "string", "minLength": 1 },
+        "credit": { "type": "string", "minLength": 1 },
+        "creditUrl": { "type": "string", "format": "uri" },
+        "license": { "type": "string", "minLength": 1 },
+        "licenseUrl": { "type": "string", "format": "uri" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

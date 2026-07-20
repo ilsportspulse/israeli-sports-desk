@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "1.0",
+  "id": "fixture-article-1",
+  "slug": "fixture-article-one",
+  "locale": "en",
+  "status": "published",
+  "title": "A verified ILSP story",
+  "dek": "A bounded fixture used to prevent accidental public-contract drift.",
+  "category": "Israeli Football",
+  "kind": "news",
+  "publishedAt": "2026-07-16T07:00:00+03:00",
+  "readMinutes": 3,
+  "media": {
+    "src": "/media/stories/fixture.jpg",
+    "alt": "Fixture image",
+    "caption": "Fixture caption.",
+    "credit": "Fixture author",
+    "creditUrl": "https://example.com/image",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

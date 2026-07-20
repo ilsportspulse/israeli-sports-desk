@@ -1,0 +1,10 @@
+node_modules
+.next
+.next-build
+out
+.env
+.env.local
+npm-debug.log*
+*.tsbuildinfo
+data/ingestion-state.json
+data/ingestion-report.json

@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Israel Sports Pulse",
+    "slug": "ilsp-mobile-prototype",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "ilsp",
+    "extra": {
+      "supportsRTL": true
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "sport.ilpulse.prototype"
+    },
+    "android": {
+      "package": "sport.ilpulse.prototype",
+      "predictiveBackGestureEnabled": true
+    },
+    "plugins": [
+      "expo-router",
+      "expo-localization"
+    ],
+    "experiments": { "typedRoutes": true },
+    "web": { "bundler": "metro" }
+  }
+}

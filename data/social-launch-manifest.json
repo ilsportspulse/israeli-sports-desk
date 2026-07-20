@@ -1,0 +1,219 @@
+{
+  "updatedAt": "2026-07-17T09:20:00+03:00",
+  "visibility": "internal",
+  "launchDate": null,
+  "status": "templates-and-fourteen-day-plan-ready-pending-owner-account-approval",
+  "handle": "@ILSportsPulse",
+  "languagePositioning": "English-only launch content; no Hebrew translations or bilingual duplicates are planned.",
+  "externalActionsTaken": [],
+  "templates": {
+    "storyCard4x5": "assets/social/templates/ilsp-story-card-4x5.svg",
+    "scoreCardSquare": "assets/social/templates/ilsp-score-card-square.svg",
+    "verticalStory": "assets/social/templates/ilsp-vertical-story.svg"
+  },
+  "days": [
+    {
+      "day": 1,
+      "lead": "Brand launch and editorial promise",
+      "support": "Working-product walkthrough",
+      "primaryTemplate": "verticalStory",
+      "secondaryTemplate": "storyCard4x5",
+      "requiredInput": "Owner-approved public URL and final founder wording",
+      "status": "copy-structure-ready"
+    },
+    {
+      "day": 2,
+      "lead": "Strongest verified Israeli lead",
+      "support": "Match Centre capability",
+      "primaryTemplate": "storyCard4x5",
+      "secondaryTemplate": "verticalStory",
+      "requiredInput": "Current published lead with licensed media",
+      "status": "dynamic-slot-ready"
+    },
+    {
+      "day": 3,
+      "lead": "Israeli athlete abroad",
+      "support": "Daily Five teaser",
+      "primaryTemplate": "storyCard4x5",
+      "secondaryTemplate": "verticalStory",
+      "requiredInput": "Verified result and next competition date",
+      "status": "dynamic-slot-ready"
+    },
+    {
+      "day": 4,
+      "lead": "League or rule explainer",
+      "support": "From the Archive card",
+      "primaryTemplate": "verticalStory",
+      "secondaryTemplate": "storyCard4x5",
+      "requiredInput": "Current rule record and archive rights",
+      "status": "dynamic-slot-ready"
+    },
+    {
+      "day": 5,
+      "lead": "Weekend fixtures guide",
+      "support": "Team or athlete spotlight",
+      "primaryTemplate": "scoreCardSquare",
+      "secondaryTemplate": "storyCard4x5",
+      "requiredInput": "Official fixtures and Jerusalem times",
+      "status": "dynamic-slot-ready"
+    },
+    {
+      "day": 6,
+      "lead": "Live match sequence",
+      "support": "Three Things post-match",
+      "primaryTemplate": "scoreCardSquare",
+      "secondaryTemplate": "verticalStory",
+      "requiredInput": "Confirmed status, score, scorers and final report",
+      "status": "dynamic-slot-ready"
+    },
+    {
+      "day": 7,
+      "lead": "Week in Israeli sport",
+      "support": "Audience question",
+      "primaryTemplate": "storyCard4x5",
+      "secondaryTemplate": "verticalStory",
+      "requiredInput": "Five distinct verified developments",
+      "status": "dynamic-slot-ready"
+    },
+    {
+      "day": 8,
+      "lead": "Women's or youth lead",
+      "support": "The Name Desk: Israeli names in English",
+      "primaryTemplate": "storyCard4x5",
+      "secondaryTemplate": "verticalStory",
+      "requiredInput": "Published story and reader-facing name context",
+      "status": "dynamic-slot-ready"
+    },
+    {
+      "day": 9,
+      "lead": "Lower-division spotlight",
+      "support": "Table or promotion-race graphic",
+      "primaryTemplate": "storyCard4x5",
+      "secondaryTemplate": "scoreCardSquare",
+      "requiredInput": "Official competition table and matching photo",
+      "status": "dynamic-slot-ready"
+    },
+    {
+      "day": 10,
+      "lead": "Judo, combat or Olympic sport",
+      "support": "Athlete calendar",
+      "primaryTemplate": "storyCard4x5",
+      "secondaryTemplate": "verticalStory",
+      "requiredInput": "Federation-confirmed schedule and identity",
+      "status": "dynamic-slot-ready"
+    },
+    {
+      "day": 11,
+      "lead": "Israeli basketball lead",
+      "support": "Tactical carousel cover",
+      "primaryTemplate": "storyCard4x5",
+      "secondaryTemplate": "verticalStory",
+      "requiredInput": "Published report and verified tactical claim",
+      "status": "dynamic-slot-ready"
+    },
+    {
+      "day": 12,
+      "lead": "Israeli football lead",
+      "support": "Weekend watch list",
+      "primaryTemplate": "storyCard4x5",
+      "secondaryTemplate": "scoreCardSquare",
+      "requiredInput": "Current lead and official fixtures",
+      "status": "dynamic-slot-ready"
+    },
+    {
+      "day": 13,
+      "lead": "Live match sequence",
+      "support": "Scorer or key-stat card",
+      "primaryTemplate": "scoreCardSquare",
+      "secondaryTemplate": "verticalStory",
+      "requiredInput": "Confirmed live data and licensed media",
+      "status": "dynamic-slot-ready"
+    },
+    {
+      "day": 14,
+      "lead": "Best of the first two weeks",
+      "support": "Newsletter or WhatsApp interest call",
+      "primaryTemplate": "storyCard4x5",
+      "secondaryTemplate": "verticalStory",
+      "requiredInput": "Measured highlights and owner-approved signup route",
+      "status": "dynamic-slot-ready"
+    }
+  ],
+  "ownerGates": [
+    "Register owner-controlled accounts and recovery methods.",
+    "Approve public launch date, profile bios and founder wording.",
+    "Confirm the public domain and privacy-safe signup route.",
+    "Approve each first-wave post or an explicit bounded scheduling batch."
+  ],
+  "currentStorySnapshot": {
+    "checkedAt": "2026-07-20T01:40:00Z",
+    "validUntil": "2026-07-20T13:40:00Z",
+    "status": "internal-candidates-only-not-scheduled",
+    "candidates": [
+      {
+        "role": "match-centre",
+        "articleId": "live-20260720-world-cup-final-spain-argentina",
+        "maxAgeHours": 24,
+        "requires": [
+          "matchRecap"
+        ]
+      },
+      {
+        "role": "israelis-abroad",
+        "articleId": "live-20260719-lemkin-twente-interview",
+        "maxAgeHours": 48,
+        "requires": []
+      },
+      {
+        "role": "youth",
+        "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
+        "maxAgeHours": 24,
+        "requires": [
+          "basketballRecap"
+        ]
+      },
+      {
+        "role": "israeli-football",
+        "articleId": "live-20260719-kangwa-aek-offer",
+        "maxAgeHours": 24,
+        "requires": []
+      },
+      {
+        "role": "column",
+        "articleId": "column-20260719-second-wave-youth-basketball",
+        "maxAgeHours": 36,
+        "requires": [
+          "column"
+        ]
+      },
+      {
+        "role": "archive",
+        "articleId": "archive-20260719-helsinki-1952",
+        "maxAgeHours": 36,
+        "requires": [
+          "historical-feature"
+        ]
+      },
+      {
+        "role": "major-international",
+        "articleId": "live-20260719-kerr-mile-world-record",
+        "maxAgeHours": 24,
+        "requires": []
+      }
+    ]
+  },
+  "freshnessCheck": {
+    "checkedAt": "2026-07-17T09:20:00+03:00",
+    "daysChecked": 14,
+    "templatesChecked": 3,
+    "findings": [
+      "All fourteen numbered slots are present once and reference an existing master template.",
+      "Every slot remains dynamic; seven current published candidates are linked for local readiness checks but are not scheduled.",
+      "Every candidate resolves to a published article, a unique credited media record and any required match, basketball, column or archive payload.",
+      "The launch position is English-only and does not promise Hebrew translation or bilingual duplication.",
+      "Account registration, public URLs, sign-up routes, scheduling and posting remain explicit owner gates."
+    ],
+    "unresolved": [],
+    "nextTrigger": "Refresh the internal candidate snapshot before it expires, and repeat after a launch-date decision, template change, channel-order change or material editorial-positioning update."
+  }
+}

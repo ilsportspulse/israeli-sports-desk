@@ -1,0 +1,2975 @@
+{
+  "generatedAt": "2026-07-20T08:28:13.031Z",
+  "mode": "audit-only",
+  "standard": {
+    "minimumWords": {
+      "news": 220,
+      "explainer": 200,
+      "analysis": 300
+    },
+    "minimumParagraphs": 5,
+    "minimumConfirmedFacts": 4,
+    "authoritativeVerificationRequired": true,
+    "specificSupportingResearchUrlRequired": true,
+    "internationalPublisherNamesHiddenFromReaderCopy": true,
+    "publisherNamesProhibitedInHeadlinesAndStandfirsts": true,
+    "internalWorkflowCopyProhibited": true,
+    "exactOrHonestCurrentMediaRequired": true
+  },
+  "summary": {
+    "totalArticles": 201,
+    "publishedBefore": 134,
+    "cleanPublished": 134,
+    "blockedPublished": 0,
+    "demoted": 0,
+    "publishedAfter": 134,
+    "reviewAfter": 67
+  },
+  "blockedPublished": [],
+  "warnings": [
+    {
+      "id": "live-20260720-afriyie-injury",
+      "slug": "blessing-afrifah-pulled-israeli-championships-hamstring-injury",
+      "title": "Israel's 100m record-holder Blessing Afrifah pulled from national championships with hamstring injury",
+      "statusBefore": "published",
+      "words": 283,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260720-scaloni-departure",
+      "slug": "scaloni-tearful-argentina-future-contract-december",
+      "title": "Tearful Scaloni puts Argentina future in doubt, commits only to seeing out contract to December",
+      "statusBefore": "published",
+      "words": 369,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260719-roddy-hapoel-jerusalem",
+      "slug": "hapoel-jerusalem-david-roddy-first-offer-rejected",
+      "title": "Report: Hapoel Jerusalem chasing ex-Denver forward David Roddy after first offer rejected",
+      "statusBefore": "review",
+      "words": 450,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [
+        "media:no-licensed-image"
+      ],
+      "warnings": [
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "live-20260719-tour-stage15-vingegaard",
+      "slug": "tour-de-france-2026-stage-15-evenepoel-wins-vingegaard-abandons",
+      "title": "Evenepoel conquers the Solaison as Vingegaard crashes out of the Tour",
+      "statusBefore": "published",
+      "words": 610,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 7,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260719-haziza-netanya",
+      "slug": "dolev-haziza-expected-maccabi-netanya-move-talks-narrow",
+      "title": "Dolev Haziza expected to join Maccabi Netanya as gaps in talks narrow",
+      "statusBefore": "published",
+      "words": 439,
+      "paragraphs": 7,
+      "facts": 8,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "column-20260717-israel-u20-division-a-response",
+      "slug": "israel-u20-italy-division-a-response-column",
+      "title": "Israel U20s answered a survival game with grown-up control",
+      "statusBefore": "published",
+      "words": 730,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260716-daniel-warku-compensation",
+      "slug": "daniel-warku-beitar-compensation-award-240000",
+      "title": "Beitar cleared to register Warku after NIS 240,000 award",
+      "statusBefore": "published",
+      "words": 470,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260716-belgian-grand-prix-preview",
+      "slug": "belgian-grand-prix-antonelli-russell-title-fight-preview",
+      "title": "Spa opens a new phase in Antonelli–Russell title fight",
+      "statusBefore": "published",
+      "words": 521,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260715-israel-u20-greece",
+      "slug": "israel-u20-greece-eurobasket-classification",
+      "title": "Israel U20s fall to Greece and face Division A survival fight",
+      "statusBefore": "published",
+      "words": 582,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260714-lev-hasharon-u17-promotion",
+      "slug": "hapoel-lev-hasharon-u17-national-league-promotion",
+      "title": "Hapoel Lev Hasharon U17s step up after winning Sharon division",
+      "statusBefore": "review",
+      "words": 324,
+      "paragraphs": 6,
+      "facts": 5,
+      "verificationSources": 2,
+      "blockers": [
+        "media:no-licensed-image",
+        "media:manual-image-story-mismatch"
+      ],
+      "warnings": [
+        "voice:repeated-six-paragraph-template-risk"
+      ]
+    },
+    {
+      "id": "live-20260714-motley-red-star-talks",
+      "slug": "red-star-talks-hapoel-tel-aviv-johnathan-motley",
+      "title": "Motley joins Red Star after Hapoel farewell",
+      "statusBefore": "published",
+      "words": 458,
+      "paragraphs": 8,
+      "facts": 8,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260714-netanya-nwachukwu",
+      "slug": "maccabi-netanya-consider-christian-nwachukwu-sheffield-united",
+      "title": "Maccabi Netanya consider Sheffield United winger Christian Nwachukwu",
+      "statusBefore": "review",
+      "words": 335,
+      "paragraphs": 6,
+      "facts": 5,
+      "verificationSources": 1,
+      "blockers": [
+        "presentation:publisher-name-in-headline-or-standfirst",
+        "media:no-licensed-image",
+        "media:manual-image-story-mismatch"
+      ],
+      "warnings": [
+        "voice:repeated-six-paragraph-template-risk"
+      ]
+    },
+    {
+      "id": "live-20260714-idan-dahan-herzliya",
+      "slug": "idan-dahan-signs-maccabi-herzliya-national-league",
+      "title": "Maccabi Herzliya confirm Idan Dahan signing for National League campaign",
+      "statusBefore": "review",
+      "words": 311,
+      "paragraphs": 6,
+      "facts": 5,
+      "verificationSources": 2,
+      "blockers": [
+        "media:no-licensed-image",
+        "media:manual-image-story-mismatch"
+      ],
+      "warnings": [
+        "voice:repeated-six-paragraph-template-risk"
+      ]
+    },
+    {
+      "id": "live-20260714-lonnie-walker",
+      "slug": "lonnie-walker-nba-deadline-shapes-maccabi-backcourt",
+      "title": "Walker’s NBA deadline is holding Maccabi’s backcourt in suspense",
+      "statusBefore": "review",
+      "words": 353,
+      "paragraphs": 6,
+      "facts": 5,
+      "verificationSources": 2,
+      "blockers": [
+        "research:verification-links-are-generic-homepages",
+        "media:no-licensed-image"
+      ],
+      "warnings": [
+        "taxonomy:desk-not-assigned",
+        "voice:repeated-six-paragraph-template-risk"
+      ]
+    },
+    {
+      "id": "live-20260714-zach-leday",
+      "slug": "zach-leday-signing-raises-hapoel-tel-aviv-ceiling",
+      "title": "Zach LeDay signing raises Hapoel Tel Aviv’s frontcourt ceiling",
+      "statusBefore": "published",
+      "words": 500,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "taxonomy:desk-not-assigned"
+      ]
+    },
+    {
+      "id": "live-20260714-khalaili",
+      "slug": "khalaili-inter-collapse-opens-ipswich-route",
+      "title": "Khalaili’s Inter deal collapses after Italian fitness ruling; Ipswich step in",
+      "statusBefore": "published",
+      "words": 642,
+      "paragraphs": 10,
+      "facts": 9,
+      "verificationSources": 10,
+      "blockers": [],
+      "warnings": [
+        "taxonomy:desk-not-assigned",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "brief-20260714-tiberias-investigation",
+      "slug": "evidence-questions-reshape-ironi-tiberias-investigation",
+      "title": "Ironi Tiberias challenge investigation in federation appeal",
+      "statusBefore": "review",
+      "words": 452,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 8,
+      "blockers": [
+        "media:no-licensed-image"
+      ],
+      "warnings": [
+        "taxonomy:desk-not-assigned"
+      ]
+    },
+    {
+      "id": "brief-20260714-tomer-asayag",
+      "slug": "tomer-asayag-stays-with-ironi-kiryat-ata",
+      "title": "Tomer Asayag stays with Ironi Kiryat Ata and moves towards captaincy",
+      "statusBefore": "review",
+      "words": 88,
+      "paragraphs": 3,
+      "facts": 3,
+      "verificationSources": 0,
+      "blockers": [
+        "copy-depth:88/220-words",
+        "structure:3/5-paragraphs",
+        "evidence:3/4-confirmed-facts",
+        "research:no-independent-or-authoritative-verification",
+        "media:no-licensed-image"
+      ],
+      "warnings": [
+        "taxonomy:desk-not-assigned"
+      ]
+    },
+    {
+      "id": "brief-20260714-yarden-garzon",
+      "slug": "yarden-garzon-embraces-zaragoza-move",
+      "title": "Yarden Garzon embraces Zaragoza move despite the noise around it",
+      "statusBefore": "review",
+      "words": 108,
+      "paragraphs": 3,
+      "facts": 3,
+      "verificationSources": 1,
+      "blockers": [
+        "copy-depth:108/220-words",
+        "structure:3/5-paragraphs",
+        "evidence:3/4-confirmed-facts",
+        "research:verification-links-are-generic-homepages",
+        "media:no-licensed-image"
+      ],
+      "warnings": [
+        "taxonomy:desk-not-assigned"
+      ]
+    },
+    {
+      "id": "brief-20260714-hapoel-basketball-roster",
+      "slug": "hapoel-tel-aviv-roster-after-leday-arrival",
+      "title": "Hapoel Tel Aviv’s roster takes shape after the LeDay statement signing",
+      "statusBefore": "review",
+      "words": 114,
+      "paragraphs": 3,
+      "facts": 3,
+      "verificationSources": 0,
+      "blockers": [
+        "copy-depth:114/200-words",
+        "structure:3/5-paragraphs",
+        "evidence:3/4-confirmed-facts",
+        "research:no-independent-or-authoritative-verification",
+        "media:no-licensed-image"
+      ],
+      "warnings": [
+        "taxonomy:desk-not-assigned"
+      ]
+    },
+    {
+      "id": "brief-20260714-yarin-levy",
+      "slug": "maccabi-haifa-move-to-secure-yarin-levy",
+      "title": "Maccabi Haifa move to secure Yarin Levy with improved deal",
+      "statusBefore": "review",
+      "words": 96,
+      "paragraphs": 3,
+      "facts": 3,
+      "verificationSources": 0,
+      "blockers": [
+        "copy-depth:96/220-words",
+        "structure:3/5-paragraphs",
+        "evidence:3/4-confirmed-facts",
+        "research:no-independent-or-authoritative-verification",
+        "media:no-licensed-image"
+      ],
+      "warnings": [
+        "taxonomy:desk-not-assigned"
+      ]
+    },
+    {
+      "id": "brief-20260714-beitar-season-tickets",
+      "slug": "beitar-season-ticket-sellout-changes-club-economics",
+      "title": "Beitar’s 20,000-ticket sellout can change the club’s economics",
+      "statusBefore": "review",
+      "words": 116,
+      "paragraphs": 3,
+      "facts": 3,
+      "verificationSources": 0,
+      "blockers": [
+        "copy-depth:116/200-words",
+        "structure:3/5-paragraphs",
+        "evidence:3/4-confirmed-facts",
+        "research:no-independent-or-authoritative-verification",
+        "media:no-licensed-image"
+      ],
+      "warnings": [
+        "taxonomy:desk-not-assigned"
+      ]
+    },
+    {
+      "id": "brief-20260713-oren-sahar",
+      "slug": "oren-sahar-begins-pepperdine-chapter",
+      "title": "Oren Sahar begins his Pepperdine chapter with a clear development brief",
+      "statusBefore": "review",
+      "words": 105,
+      "paragraphs": 3,
+      "facts": 3,
+      "verificationSources": 0,
+      "blockers": [
+        "copy-depth:105/220-words",
+        "structure:3/5-paragraphs",
+        "evidence:3/4-confirmed-facts",
+        "research:no-independent-or-authoritative-verification",
+        "media:no-licensed-image"
+      ],
+      "warnings": [
+        "taxonomy:desk-not-assigned"
+      ]
+    },
+    {
+      "id": "brief-20260713-israel-u20-men-czechia",
+      "slug": "israel-u20-men-overpower-czechia-87-73",
+      "title": "Israel U20 men overpower Czechia with five double-figure scorers",
+      "statusBefore": "review",
+      "words": 94,
+      "paragraphs": 3,
+      "facts": 3,
+      "verificationSources": 1,
+      "blockers": [
+        "copy-depth:94/220-words",
+        "structure:3/5-paragraphs",
+        "evidence:3/4-confirmed-facts",
+        "research:verification-links-are-generic-homepages",
+        "media:no-licensed-image"
+      ],
+      "warnings": [
+        "taxonomy:desk-not-assigned"
+      ]
+    },
+    {
+      "id": "brief-20260714-liam-elok",
+      "slug": "liam-elok-signs-hapoel-ramat-gan",
+      "title": "Promoted Hapoel Ramat Gan add Liam Elok to their attacking options",
+      "statusBefore": "review",
+      "words": 102,
+      "paragraphs": 3,
+      "facts": 3,
+      "verificationSources": 0,
+      "blockers": [
+        "copy-depth:102/220-words",
+        "structure:3/5-paragraphs",
+        "evidence:3/4-confirmed-facts",
+        "research:no-independent-or-authoritative-verification",
+        "media:no-licensed-image"
+      ],
+      "warnings": [
+        "taxonomy:desk-not-assigned"
+      ]
+    },
+    {
+      "id": "brief-20260714-israeli-referees",
+      "slug": "israeli-referee-team-appointed-conference-league-return",
+      "title": "Israeli referee team appointed to Conference League return leg",
+      "statusBefore": "review",
+      "words": 77,
+      "paragraphs": 3,
+      "facts": 3,
+      "verificationSources": 1,
+      "blockers": [
+        "copy-depth:77/220-words",
+        "structure:3/5-paragraphs",
+        "evidence:3/4-confirmed-facts",
+        "research:verification-links-are-generic-homepages",
+        "media:no-licensed-image"
+      ],
+      "warnings": [
+        "taxonomy:desk-not-assigned"
+      ]
+    },
+    {
+      "id": "brief-20260712-saraf-wolf-summer-league",
+      "slug": "wolf-saraf-lead-brooklyn-scoring-in-summer-league-loss",
+      "title": "Wolf and Saraf produce in Brooklyn’s Summer League defeat",
+      "statusBefore": "review",
+      "words": 88,
+      "paragraphs": 3,
+      "facts": 3,
+      "verificationSources": 1,
+      "blockers": [
+        "copy-depth:88/220-words",
+        "structure:3/5-paragraphs",
+        "evidence:3/4-confirmed-facts",
+        "research:verification-links-are-generic-homepages",
+        "media:no-licensed-image"
+      ],
+      "warnings": [
+        "taxonomy:desk-not-assigned"
+      ]
+    },
+    {
+      "id": "brief-20260714-or-zahavi",
+      "slug": "or-zahavi-signs-maccabi-kiryat-gat",
+      "title": "Or Zahavi signs for Maccabi Kiryat Gat",
+      "statusBefore": "review",
+      "words": 77,
+      "paragraphs": 3,
+      "facts": 3,
+      "verificationSources": 0,
+      "blockers": [
+        "copy-depth:77/220-words",
+        "structure:3/5-paragraphs",
+        "evidence:3/4-confirmed-facts",
+        "research:no-independent-or-authoritative-verification",
+        "media:no-licensed-image"
+      ],
+      "warnings": [
+        "taxonomy:desk-not-assigned"
+      ]
+    },
+    {
+      "id": "brief-20260714-maccabi-haifa-sponsor",
+      "slug": "maccabi-haifa-add-haier-shirt-sleeve-partner",
+      "title": "Maccabi Haifa add Haier as shirt-sleeve partner",
+      "statusBefore": "review",
+      "words": 81,
+      "paragraphs": 3,
+      "facts": 3,
+      "verificationSources": 0,
+      "blockers": [
+        "copy-depth:81/220-words",
+        "structure:3/5-paragraphs",
+        "evidence:3/4-confirmed-facts",
+        "research:no-independent-or-authoritative-verification",
+        "media:no-licensed-image"
+      ],
+      "warnings": [
+        "taxonomy:desk-not-assigned"
+      ]
+    },
+    {
+      "id": "seed-001",
+      "slug": "discipline-cases-close-super-cup-takes-centre-stage",
+      "title": "Discipline cases close as the Super Cup takes centre stage",
+      "statusBefore": "review",
+      "words": 80,
+      "paragraphs": 3,
+      "facts": 3,
+      "verificationSources": 1,
+      "blockers": [
+        "copy-depth:80/220-words",
+        "structure:3/5-paragraphs",
+        "evidence:3/4-confirmed-facts",
+        "research:verification-links-are-generic-homepages"
+      ],
+      "warnings": [
+        "taxonomy:desk-not-assigned"
+      ]
+    },
+    {
+      "id": "seed-002",
+      "slug": "maccabi-attendance-rule-matchday-math",
+      "title": "Maccabi’s new attendance rule changes the matchday equation",
+      "statusBefore": "review",
+      "words": 78,
+      "paragraphs": 3,
+      "facts": 3,
+      "verificationSources": 0,
+      "blockers": [
+        "copy-depth:78/200-words",
+        "structure:3/5-paragraphs",
+        "evidence:3/4-confirmed-facts",
+        "research:no-independent-or-authoritative-verification",
+        "media:no-licensed-image"
+      ],
+      "warnings": [
+        "taxonomy:desk-not-assigned"
+      ]
+    },
+    {
+      "id": "seed-003",
+      "slug": "israel-u20-women-european-final-belief",
+      "title": "A fearless Israel U20 group reaches its biggest night",
+      "statusBefore": "review",
+      "words": 74,
+      "paragraphs": 3,
+      "facts": 3,
+      "verificationSources": 1,
+      "blockers": [
+        "copy-depth:74/220-words",
+        "structure:3/5-paragraphs",
+        "evidence:3/4-confirmed-facts",
+        "research:verification-links-are-generic-homepages"
+      ],
+      "warnings": [
+        "taxonomy:desk-not-assigned"
+      ]
+    },
+    {
+      "id": "seed-004",
+      "slug": "anan-khalaili-transfer-probability-board",
+      "title": "Khalaili’s transfer summer is about role, not just price",
+      "statusBefore": "review",
+      "words": 115,
+      "paragraphs": 3,
+      "facts": 3,
+      "verificationSources": 1,
+      "blockers": [
+        "copy-depth:115/300-words",
+        "structure:3/5-paragraphs",
+        "evidence:3/4-confirmed-facts",
+        "research:verification-links-are-generic-homepages",
+        "media:no-licensed-image"
+      ],
+      "warnings": [
+        "taxonomy:desk-not-assigned",
+        "voice:analysis-below-650-word-editorial-target:115"
+      ]
+    },
+    {
+      "id": "seed-005",
+      "slug": "maccabi-preseason-imt-belgrade-lessons",
+      "title": "Maccabi’s first pre-season warning arrives without panic",
+      "statusBefore": "review",
+      "words": 68,
+      "paragraphs": 3,
+      "facts": 3,
+      "verificationSources": 0,
+      "blockers": [
+        "copy-depth:68/220-words",
+        "structure:3/5-paragraphs",
+        "evidence:3/4-confirmed-facts",
+        "research:no-independent-or-authoritative-verification",
+        "media:no-licensed-image"
+      ],
+      "warnings": [
+        "taxonomy:desk-not-assigned"
+      ]
+    },
+    {
+      "id": "seed-006",
+      "slug": "basketball-federation-review-player-absences",
+      "title": "Basketball federation brings forward review after player absences",
+      "statusBefore": "review",
+      "words": 82,
+      "paragraphs": 3,
+      "facts": 3,
+      "verificationSources": 1,
+      "blockers": [
+        "copy-depth:82/220-words",
+        "structure:3/5-paragraphs",
+        "evidence:3/4-confirmed-facts",
+        "research:verification-links-are-generic-homepages",
+        "media:no-licensed-image"
+      ],
+      "warnings": [
+        "taxonomy:desk-not-assigned"
+      ]
+    },
+    {
+      "id": "seed-007",
+      "slug": "gloukh-not-gloch-name-desk",
+      "title": "The Name Desk: why it’s Oscar Gloukh—not a fresh guess every week",
+      "statusBefore": "review",
+      "words": 98,
+      "paragraphs": 3,
+      "facts": 3,
+      "verificationSources": 2,
+      "blockers": [
+        "copy-depth:98/300-words",
+        "structure:3/5-paragraphs",
+        "evidence:3/4-confirmed-facts",
+        "research:verification-links-are-generic-homepages",
+        "media:no-licensed-image"
+      ],
+      "warnings": [
+        "taxonomy:desk-not-assigned",
+        "voice:analysis-below-650-word-editorial-target:98"
+      ]
+    },
+    {
+      "id": "seed-008",
+      "slug": "israeli-sport-week-ahead-watchlist",
+      "title": "Five tactical questions that will shape the next sporting week",
+      "statusBefore": "published",
+      "words": 784,
+      "paragraphs": 9,
+      "facts": 5,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "taxonomy:desk-not-assigned"
+      ]
+    },
+    {
+      "id": "seed-009",
+      "slug": "messi-england-world-cup-stage",
+      "title": "Messi, England and the World Cup stage that still feels new",
+      "statusBefore": "review",
+      "words": 85,
+      "paragraphs": 3,
+      "facts": 3,
+      "verificationSources": 1,
+      "blockers": [
+        "copy-depth:85/300-words",
+        "structure:3/5-paragraphs",
+        "evidence:3/4-confirmed-facts",
+        "research:verification-links-are-generic-homepages",
+        "media:no-licensed-image"
+      ],
+      "warnings": [
+        "voice:analysis-below-650-word-editorial-target:85"
+      ]
+    },
+    {
+      "id": "seed-012",
+      "slug": "jaylen-brown-philadelphia-trade-fit",
+      "title": "The Jaylen Brown trade resets two Eastern Conference timelines",
+      "statusBefore": "review",
+      "words": 84,
+      "paragraphs": 3,
+      "facts": 3,
+      "verificationSources": 1,
+      "blockers": [
+        "copy-depth:84/300-words",
+        "structure:3/5-paragraphs",
+        "evidence:3/4-confirmed-facts",
+        "research:verification-links-are-generic-homepages",
+        "presentation:publisher-name-in-international-reader-copy",
+        "media:caption-confirms-semantic-mismatch"
+      ],
+      "warnings": [
+        "voice:analysis-below-650-word-editorial-target:84"
+      ]
+    },
+    {
+      "id": "brief-20260714-abramov-security",
+      "slug": "barak-abramov-business-attacks-police-inquiry",
+      "title": "Fresh grenade attack hits Abramov-owned restaurant as inquiry widens",
+      "statusBefore": "review",
+      "words": 345,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [
+        "media:no-licensed-image",
+        "media:manual-image-story-mismatch"
+      ],
+      "warnings": [
+        "taxonomy:desk-not-assigned",
+        "voice:repeated-six-paragraph-template-risk"
+      ]
+    },
+    {
+      "id": "brief-20260714-netanya-tshibangu",
+      "slug": "maccabi-netanya-trial-isaac-tshibangu",
+      "title": "Maccabi Netanya take DR Congo winger Isaac Tshibangu on trial",
+      "statusBefore": "review",
+      "words": 114,
+      "paragraphs": 3,
+      "facts": 4,
+      "verificationSources": 1,
+      "blockers": [
+        "copy-depth:114/220-words",
+        "structure:3/5-paragraphs",
+        "media:no-licensed-image"
+      ],
+      "warnings": [
+        "taxonomy:desk-not-assigned"
+      ]
+    },
+    {
+      "id": "brief-20260714-beersheva-qualifier",
+      "slug": "hapoel-beer-sheva-wait-gyor-vikingur-champions-league",
+      "title": "Be’er Sheva wait on Győr–Víkingur to learn their next European opponent",
+      "statusBefore": "review",
+      "words": 108,
+      "paragraphs": 3,
+      "facts": 3,
+      "verificationSources": 1,
+      "blockers": [
+        "copy-depth:108/220-words",
+        "structure:3/5-paragraphs",
+        "evidence:3/4-confirmed-facts",
+        "research:verification-links-are-generic-homepages",
+        "media:no-licensed-image"
+      ],
+      "warnings": [
+        "taxonomy:desk-not-assigned"
+      ]
+    },
+    {
+      "id": "brief-20260714-bnei-eilat-transition",
+      "slug": "tamer-nofi-leaves-bnei-eilat-after-17-years",
+      "title": "Tamer Nofi leaves Bnei Eilat leadership after 17 years",
+      "statusBefore": "review",
+      "words": 115,
+      "paragraphs": 3,
+      "facts": 3,
+      "verificationSources": 0,
+      "blockers": [
+        "copy-depth:115/220-words",
+        "structure:3/5-paragraphs",
+        "evidence:3/4-confirmed-facts",
+        "research:no-independent-or-authoritative-verification",
+        "media:no-licensed-image"
+      ],
+      "warnings": [
+        "taxonomy:desk-not-assigned"
+      ]
+    },
+    {
+      "id": "brief-20260714-maccabiah-closing",
+      "slug": "maccabiah-2026-closes-tel-aviv",
+      "title": "Maccabiah 2026 closes in Tel Aviv after two weeks of competition",
+      "statusBefore": "review",
+      "words": 156,
+      "paragraphs": 4,
+      "facts": 4,
+      "verificationSources": 1,
+      "blockers": [
+        "copy-depth:156/220-words",
+        "structure:4/5-paragraphs",
+        "media:no-licensed-image"
+      ],
+      "warnings": [
+        "taxonomy:desk-not-assigned"
+      ]
+    },
+    {
+      "id": "brief-20260714-avdija-insurance",
+      "slug": "insurance-explains-deni-avdija-israel-absence",
+      "title": "Insurance exclusion explains Avdija’s absence from Israel window",
+      "statusBefore": "review",
+      "words": 165,
+      "paragraphs": 4,
+      "facts": 4,
+      "verificationSources": 0,
+      "blockers": [
+        "copy-depth:165/220-words",
+        "structure:4/5-paragraphs",
+        "research:no-independent-or-authoritative-verification",
+        "presentation:publisher-name-in-headline-or-standfirst",
+        "media:no-licensed-image"
+      ],
+      "warnings": [
+        "taxonomy:desk-not-assigned"
+      ]
+    },
+    {
+      "id": "brief-20260714-hasan-hilo",
+      "slug": "hasan-hilo-signs-radnicki-1923-serbia",
+      "title": "Hasan Hilo leaves Bnei Sakhnin for Serbia’s Radnički 1923",
+      "statusBefore": "review",
+      "words": 110,
+      "paragraphs": 3,
+      "facts": 4,
+      "verificationSources": 0,
+      "blockers": [
+        "copy-depth:110/220-words",
+        "structure:3/5-paragraphs",
+        "research:no-independent-or-authoritative-verification",
+        "media:no-licensed-image"
+      ],
+      "warnings": [
+        "taxonomy:desk-not-assigned"
+      ]
+    },
+    {
+      "id": "brief-20260714-la28-israel-house",
+      "slug": "israel-house-planned-los-angeles-2028-olympics",
+      "title": "Israel plans first dedicated national house at the LA 2028 Olympics",
+      "statusBefore": "review",
+      "words": 108,
+      "paragraphs": 3,
+      "facts": 3,
+      "verificationSources": 2,
+      "blockers": [
+        "copy-depth:108/220-words",
+        "structure:3/5-paragraphs",
+        "evidence:3/4-confirmed-facts",
+        "research:verification-links-are-generic-homepages",
+        "media:no-licensed-image"
+      ],
+      "warnings": [
+        "taxonomy:desk-not-assigned"
+      ]
+    },
+    {
+      "id": "brief-20260714-youth-registration",
+      "slug": "israeli-youth-premier-league-registration-2026-27",
+      "title": "Eight Youth Premier League teams begin 2026/27 registration",
+      "statusBefore": "review",
+      "words": 96,
+      "paragraphs": 3,
+      "facts": 3,
+      "verificationSources": 1,
+      "blockers": [
+        "copy-depth:96/220-words",
+        "structure:3/5-paragraphs",
+        "evidence:3/4-confirmed-facts",
+        "research:verification-links-are-generic-homepages",
+        "media:no-licensed-image"
+      ],
+      "warnings": [
+        "taxonomy:desk-not-assigned"
+      ]
+    },
+    {
+      "id": "live-20260714-beitar-flares",
+      "slug": "atzili-yarden-cohen-burned-flares-beitar-open-training",
+      "title": "Atzili and Cohen burned by flares at Beitar’s open training",
+      "statusBefore": "review",
+      "words": 409,
+      "paragraphs": 6,
+      "facts": 5,
+      "verificationSources": 1,
+      "blockers": [
+        "presentation:publisher-name-in-headline-or-standfirst",
+        "media:no-licensed-image",
+        "media:manual-image-story-mismatch"
+      ],
+      "warnings": [
+        "voice:repeated-six-paragraph-template-risk",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260714-israel-u20-handball-poland",
+      "slug": "israel-u20-handball-beat-poland-eight-goals-world-championship-route",
+      "title": "Israel U20 handball beat Poland by eight to keep world route open",
+      "statusBefore": "review",
+      "words": 372,
+      "paragraphs": 6,
+      "facts": 5,
+      "verificationSources": 1,
+      "blockers": [
+        "media:no-licensed-image",
+        "media:manual-image-story-mismatch"
+      ],
+      "warnings": [
+        "voice:repeated-six-paragraph-template-risk"
+      ]
+    },
+    {
+      "id": "live-20260714-peretz-miller-maccabi",
+      "slug": "dor-peretz-commits-maccabi-kenny-miller-promises-reinforcements",
+      "title": "Peretz commits to Maccabi as Miller promises reinforcements",
+      "statusBefore": "published",
+      "words": 503,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260714-basketball-coaches-registration",
+      "slug": "israeli-basketball-coaches-demand-registration-freeze",
+      "title": "Israeli basketball coaches demand freeze on registration overhaul",
+      "statusBefore": "review",
+      "words": 354,
+      "paragraphs": 6,
+      "facts": 5,
+      "verificationSources": 0,
+      "blockers": [
+        "research:no-independent-or-authoritative-verification",
+        "media:no-licensed-image",
+        "media:manual-image-story-mismatch"
+      ],
+      "warnings": [
+        "voice:repeated-six-paragraph-template-risk",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260714-satoransky-hapoel",
+      "slug": "hapoel-tel-aviv-reported-satoransky-agreement-local-status-unresolved",
+      "title": "Satoranský officially joins Hapoel Tel Aviv on one-year deal",
+      "statusBefore": "published",
+      "words": 497,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260714-beitar-four-outside-plans",
+      "slug": "beitar-four-players-outside-plans-squad-reshaping",
+      "title": "Sport5: four Beitar players told they are outside the plans",
+      "statusBefore": "review",
+      "words": 359,
+      "paragraphs": 6,
+      "facts": 5,
+      "verificationSources": 3,
+      "blockers": [
+        "presentation:publisher-name-in-headline-or-standfirst",
+        "media:no-licensed-image",
+        "media:manual-image-story-mismatch"
+      ],
+      "warnings": [
+        "voice:repeated-six-paragraph-template-risk",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260714-beersheva-vikingur",
+      "slug": "hapoel-beer-sheva-vikingur-champions-league-qualifier",
+      "title": "Be'er Sheva fly to Iceland without injured new winger João Victor",
+      "statusBefore": "published",
+      "words": 408,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260715-saraf-wolf-brooklyn-sacramento",
+      "slug": "saraf-wolf-brooklyn-beat-sacramento-summer-league",
+      "title": "Saraf’s two-way efficiency drives Brooklyn’s 32-point Summer League win",
+      "statusBefore": "published",
+      "words": 474,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260716-nobby-stiles-heading-inquest",
+      "slug": "nobby-stiles-heading-cte-inquest-football",
+      "title": "Stiles inquest finds heading-linked CTE contributed to his death",
+      "statusBefore": "published",
+      "words": 631,
+      "paragraphs": 8,
+      "facts": 8,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260716-israeli-football-racism-pyrotechnics-data",
+      "slug": "israeli-football-racism-pyrotechnics-decline-data",
+      "title": "Israeli football records fewer racism convictions and pitch pyrotechnics",
+      "statusBefore": "published",
+      "words": 527,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260716-mazkeret-batya-kunin-artistic-swimming",
+      "slug": "mazkeret-batya-katy-kunin-israel-artistic-swimming-titles",
+      "title": "Kunin doubles up as Mazkeret Batya retain national artistic-swimming cup",
+      "statusBefore": "published",
+      "words": 430,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260716-aaron-wheeler-hapoel-eilat",
+      "slug": "aaron-wheeler-signs-hapoel-eilat",
+      "title": "Hapoel Eilat add Aaron Wheeler to a roster built for the Premier League",
+      "statusBefore": "published",
+      "words": 439,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260716-iba-disciplinary-court-renewal",
+      "slug": "israel-basketball-disciplinary-court-four-new-judges",
+      "title": "Four appointments complete a generational change in Israeli basketball’s disciplinary court",
+      "statusBefore": "published",
+      "words": 474,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260716-trump-world-cup-final-attendance",
+      "slug": "trump-world-cup-final-argentina-spain-attendance",
+      "title": "Trump to attend Argentina–Spain World Cup final",
+      "statusBefore": "published",
+      "words": 435,
+      "paragraphs": 7,
+      "facts": 8,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260717-liam-hermesh-agrees-grazer-ak-move",
+      "slug": "liam-hermesh-agrees-grazer-ak-move",
+      "title": "Liam Hermesh Agrees Move to Austrian Bundesliga Side Grazer AK",
+      "statusBefore": "published",
+      "words": 553,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260718-sharp-kings-summer-league-finale",
+      "slug": "emanuel-sharp-16-points-kings-hornets-summer-league-finale",
+      "title": "Sharp signs off Summer League with 16 points as Kings edge Hornets",
+      "statusBefore": "published",
+      "words": 427,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260718-abramov-interview-media-feud-claim",
+      "slug": "abramov-ulpan-shishi-interview-keshet-leumi-partners-claim",
+      "title": "Abramov breaks silence on Japanika attacks and alleges a media 'conflict' he says he fell victim to",
+      "statusBefore": "review",
+      "words": 644,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [
+        "media:no-licensed-image"
+      ],
+      "warnings": [
+        "voice:repeated-six-paragraph-template-risk"
+      ]
+    },
+    {
+      "id": "archive-20260718-montreal-1976",
+      "slug": "montreal-1976-black-ribbon-esther-roth-first-israeli-olympic-final",
+      "title": "Fifty years on: Montreal 1976, the black ribbon and Israel's first Olympic finalist",
+      "statusBefore": "published",
+      "words": 622,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260718-seck-saudi-move",
+      "slug": "abdoulaye-seck-reported-al-faisaly-move-after-maccabi-haifa-exit",
+      "title": "Seck reported to be on verge of Al-Faisaly switch after Maccabi Haifa exit",
+      "statusBefore": "review",
+      "words": 411,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [
+        "media:no-licensed-image"
+      ],
+      "warnings": [
+        "voice:repeated-six-paragraph-template-risk"
+      ]
+    },
+    {
+      "id": "live-20260718-lundberg-ultimatum-walker",
+      "slug": "maccabi-lundberg-ultimatum-walker-expected-to-stay",
+      "title": "'We'll need to compromise': Maccabi run out of patience with Lundberg as Walker edges towards staying",
+      "statusBefore": "review",
+      "words": 441,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [
+        "media:no-licensed-image"
+      ],
+      "warnings": [
+        "voice:repeated-six-paragraph-template-risk"
+      ]
+    },
+    {
+      "id": "live-20260718-israel-u20-latvia-rout",
+      "slug": "israel-u20-latvia-96-74-belaga-triple-double",
+      "title": "Belaga makes history with a triple-double as Israel U20s rout Latvia 96–74",
+      "statusBefore": "published",
+      "words": 477,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260719-tour-stage-14-pogacar",
+      "slug": "tour-de-france-stage-14-pogacar-fourth-win-le-markstein",
+      "title": "Pogačar dances to a fourth Tour stage win at Le Markstein as lead stretches to 4:30",
+      "statusBefore": "review",
+      "words": 316,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [
+        "media:no-licensed-image"
+      ],
+      "warnings": [
+        "voice:repeated-six-paragraph-template-risk"
+      ]
+    },
+    {
+      "id": "live-20260719-kerr-mile-world-record",
+      "slug": "josh-kerr-mile-world-record-3-42-66-london-diamond-league",
+      "title": "Josh Kerr shatters athletics' oldest track record with 3:42.66 mile in London",
+      "statusBefore": "published",
+      "words": 439,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260719-datiashvili-youth-europeans",
+      "slug": "datiashvili-seventh-ilca6-youth-europeans-thessaloniki",
+      "title": "Datiashvili turns a race-one win into seventh at the ILCA 6 Youth Europeans",
+      "statusBefore": "published",
+      "words": 480,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260719-eli-ohana-farewell",
+      "slug": "eli-ohana-official-farewell-finished-my-path-in-football",
+      "title": "Eli Ohana bids official farewell: \"I have finished my path in football\"",
+      "statusBefore": "published",
+      "words": 567,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260719-israel-u20-handball-world-championship",
+      "slug": "israel-u20-handball-beat-croatia-world-championship-qualification-first-in-21-years",
+      "title": "Israel's under-20s beat Croatia 36:31 to end a 21-year wait for a World Championship place",
+      "statusBefore": "published",
+      "words": 495,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260719-israel-relay-record-rieti",
+      "slug": "israel-1000m-medley-relay-record-rieti",
+      "title": "Israeli teenagers clock 2:15.00 to erase 35-year-old 1,000m relay record in Rieti",
+      "statusBefore": "published",
+      "words": 321,
+      "paragraphs": 5,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    }
+  ],
+  "cleanPublished": [
+    {
+      "id": "live-20260720-afriyie-injury",
+      "slug": "blessing-afrifah-pulled-israeli-championships-hamstring-injury",
+      "title": "Israel's 100m record-holder Blessing Afrifah pulled from national championships with hamstring injury",
+      "statusBefore": "published",
+      "words": 283,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260720-scaloni-departure",
+      "slug": "scaloni-tearful-argentina-future-contract-december",
+      "title": "Tearful Scaloni puts Argentina future in doubt, commits only to seeing out contract to December",
+      "statusBefore": "published",
+      "words": 369,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260720-world-cup-final-spain-argentina",
+      "slug": "spain-1-0-argentina-world-cup-2026-final-ferran-torres-extra-time-winner",
+      "title": "Kings of the world: Ferran Torres strikes in extra time as Spain beat Argentina 1-0 to win the 2026 World Cup",
+      "statusBefore": "published",
+      "words": 705,
+      "paragraphs": 8,
+      "facts": 9,
+      "verificationSources": 11,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260719-dowtin-napoli",
+      "slug": "jeff-dowtin-maccabi-tel-aviv-napoli-basket-eurocup",
+      "title": "Ex-Maccabi Tel Aviv guard Jeff Dowtin Jr joins Napoli Basket",
+      "statusBefore": "published",
+      "words": 255,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260719-hapoel-ta-sofia-season-start",
+      "slug": "hapoel-tel-aviv-basketball-open-season-sofia",
+      "title": "Hapoel Tel Aviv confirm they will open new season in Sofia",
+      "statusBefore": "published",
+      "words": 418,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260719-tour-stage15-vingegaard",
+      "slug": "tour-de-france-2026-stage-15-evenepoel-wins-vingegaard-abandons",
+      "title": "Evenepoel conquers the Solaison as Vingegaard crashes out of the Tour",
+      "statusBefore": "published",
+      "words": 610,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 7,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260719-israel-u20-lithuania-eurobasket",
+      "slug": "israel-u20-fall-to-lithuania-ninth-place-eurobasket-2026",
+      "title": "Sour finish in Ljubljana: Israel under-20s beaten by Lithuania in ninth-place game",
+      "statusBefore": "published",
+      "words": 446,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260719-atias-retirement",
+      "slug": "ariel-atias-israel-decathlon-record-holder-retires",
+      "title": "Ariel Atias, Israel's decathlon record-holder, retires at 27 to coach the next generation",
+      "statusBefore": "published",
+      "words": 406,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260719-lemkin-twente-interview",
+      "slug": "stav-lemkin-first-eredivisie-season-reflections",
+      "title": "'He waited for my first mistake': Stav Lemkin looks back on a first season of two halves at Twente",
+      "statusBefore": "published",
+      "words": 477,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260719-kangwa-aek-offer",
+      "slug": "aek-athens-official-offer-kings-kangwa-hapoel-beer-sheva",
+      "title": "AEK Athens submit official offer for Hapoel Be'er Sheva star Kings Kangwa",
+      "statusBefore": "published",
+      "words": 701,
+      "paragraphs": 9,
+      "facts": 9,
+      "verificationSources": 8,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260719-konfino-maccabi-ashdod",
+      "slug": "noa-konfino-team-manager-maccabi-ashdod-winner-league",
+      "title": "Noa Konfino named Maccabi Ashdod team manager ahead of top-flight return",
+      "statusBefore": "published",
+      "words": 384,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260719-haziza-netanya",
+      "slug": "dolev-haziza-expected-maccabi-netanya-move-talks-narrow",
+      "title": "Dolev Haziza expected to join Maccabi Netanya as gaps in talks narrow",
+      "statusBefore": "published",
+      "words": 439,
+      "paragraphs": 7,
+      "facts": 8,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260719-martins-slovan-bratislava",
+      "slug": "kiryat-shmona-cristian-martinez-slovan-bratislava-transfer",
+      "title": "Kiryat Shmona confirm agreement to sell Cristian Martínez to Slovan Bratislava",
+      "statusBefore": "published",
+      "words": 364,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260717-maccabi-haifa-womens-academy",
+      "slug": "maccabi-haifa-womens-basketball-academy-reali-school",
+      "title": "Maccabi Haifa open girls’ basketball academy with Reali School",
+      "statusBefore": "published",
+      "words": 403,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260717-israel-long-beach-board-sailing",
+      "slug": "steinberg-kantor-long-beach-iqfoil-sixth-eighth",
+      "title": "Steinberg sixth, Kantor eighth as Israel miss Long Beach podium",
+      "statusBefore": "published",
+      "words": 428,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260717-world-cup-championship-rings",
+      "slug": "fifa-world-cup-2026-champions-rings",
+      "title": "World Cup winners to receive rings in FIFA first",
+      "statusBefore": "published",
+      "words": 376,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260717-giannis-miami-introduction",
+      "slug": "giannis-antetokounmpo-miami-heat-introduction-title-path",
+      "title": "Giannis presents Miami move as his clearest route back to the title",
+      "statusBefore": "published",
+      "words": 561,
+      "paragraphs": 8,
+      "facts": 8,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260717-gary-trent-bucks-contract-probe",
+      "slug": "gary-trent-bucks-contract-nba-probe",
+      "title": "NBA examines Trent’s reported $64m Bucks contract",
+      "statusBefore": "published",
+      "words": 491,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260717-vincic-world-cup-final",
+      "slug": "slavko-vincic-world-cup-final-referee",
+      "title": "Vinčić handed whistle for Argentina–Spain World Cup final",
+      "statusBefore": "published",
+      "words": 462,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260717-world-cup-final-smoke",
+      "slug": "wildfire-smoke-spain-training-world-cup-final",
+      "title": "Wildfire smoke clouds Spain training, but final outlook improves",
+      "statusBefore": "published",
+      "words": 504,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260717-saraf-wolf-brooklyn-houston",
+      "slug": "saraf-wolf-brooklyn-houston-summer-league-loss",
+      "title": "Houston hold Saraf and Wolf quiet in 100–83 Brooklyn defeat",
+      "statusBefore": "published",
+      "words": 521,
+      "paragraphs": 8,
+      "facts": 9,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260717-kanichowsky-ferencvaros-twente",
+      "slug": "gabi-kanichowsky-ferencvaros-vojvodina-twente-europa-league",
+      "title": "Kanichowsky and Ferencváros advance to face Twente",
+      "statusBefore": "published",
+      "words": 451,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260717-israel-u20-italy-division-a",
+      "slug": "israel-u20-italy-84-59-division-a-safety",
+      "title": "Israel U20s crush Italy 84–59 to secure Division A safety",
+      "statusBefore": "published",
+      "words": 453,
+      "paragraphs": 7,
+      "facts": 8,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260717-andrija-novakovich-maccabi-haifa-agreement",
+      "slug": "andrija-novakovich-maccabi-haifa-agreement-medical",
+      "title": "Maccabi Haifa agree Novakovich deal pending medical",
+      "statusBefore": "published",
+      "words": 467,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260717-maccabi-tel-aviv-sheriff-europa-league",
+      "slug": "maccabi-tel-aviv-sheriff-europa-league-second-round",
+      "title": "Maccabi Tel Aviv draw Sheriff in Europa League second round",
+      "statusBefore": "published",
+      "words": 419,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "column-20260717-israel-u20-division-a-response",
+      "slug": "israel-u20-italy-division-a-response-column",
+      "title": "Israel U20s answered a survival game with grown-up control",
+      "statusBefore": "published",
+      "words": 730,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "archive-20260717-israel-u20-back-to-back-titles",
+      "slug": "israel-u20-back-to-back-european-titles-2018-2019",
+      "title": "2018–19: the two summers that changed Israeli youth basketball",
+      "statusBefore": "published",
+      "words": 671,
+      "paragraphs": 10,
+      "facts": 8,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260716-hapoel-jerusalem-badge-petition",
+      "slug": "hapoel-jerusalem-badge-vote-fan-petition",
+      "title": "Hapoel Jerusalem badge vote meets 1,300-signature backlash",
+      "statusBefore": "published",
+      "words": 443,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260716-paris-lee-ness-ziona",
+      "slug": "paris-lee-ironi-ness-ziona-two-year-signing",
+      "title": "Ness Ziona turn to Paris Lee for two-year backcourt reset",
+      "statusBefore": "published",
+      "words": 483,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260716-diarra-kasimpasa-hapoel-tel-aviv",
+      "slug": "tiemoko-diarra-kasimpasa-hapoel-tel-aviv-collapse",
+      "title": "Diarra joins Kasımpaşa as Hapoel Tel Aviv move collapses",
+      "statusBefore": "published",
+      "words": 527,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260716-daniel-warku-compensation",
+      "slug": "daniel-warku-beitar-compensation-award-240000",
+      "title": "Beitar cleared to register Warku after NIS 240,000 award",
+      "statusBefore": "published",
+      "words": 470,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260716-luan-campos-hapoel-ramat-gan",
+      "slug": "luan-campos-hapoel-ramat-gan-signing",
+      "title": "Hapoel Ramat Gan sign Luan Campos on two-year deal",
+      "statusBefore": "published",
+      "words": 442,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260716-boavista-insolvency-closure",
+      "slug": "boavista-insolvency-closure-estadio-do-bessa",
+      "title": "Boavista ordered to cease activity as insolvency closes the Bessa",
+      "statusBefore": "published",
+      "words": 572,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260716-israel-u20-handball-faroe-islands",
+      "slug": "israel-u20-handball-faroe-islands-world-championship-path",
+      "title": "Israel U20 let halftime lead slip in 33–31 Faroe defeat",
+      "statusBefore": "published",
+      "words": 451,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260716-hapoel-tel-aviv-kits",
+      "slug": "hapoel-tel-aviv-2026-27-home-away-kits",
+      "title": "Hapoel Tel Aviv keep it classical in 2026/27 shirt reveal",
+      "statusBefore": "published",
+      "words": 458,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260716-world-cup-final-ticket-prices",
+      "slug": "world-cup-final-ticket-prices-spain-argentina",
+      "title": "World Cup final seats reach $8,680 in Spain's allocation",
+      "statusBefore": "published",
+      "words": 541,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260716-hapoel-tel-aviv-rtmi-sponsorship",
+      "slug": "hapoel-tel-aviv-rtmi-two-year-sponsorship",
+      "title": "Hapoel Tel Aviv add RTMI as two-year principal sponsor",
+      "statusBefore": "published",
+      "words": 463,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260716-maccabi-haifa-home-kit",
+      "slug": "maccabi-haifa-home-kit-1991-double-adidas-2031",
+      "title": "Maccabi Haifa reach into double-winning past for new home shirt",
+      "statusBefore": "published",
+      "words": 485,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260716-emanuel-sharp-celtics-summer-league",
+      "slug": "emanuel-sharp-12-points-kings-celtics-summer-league",
+      "title": "Sharp scores 12 as Kings fall to Celtics in Summer League",
+      "statusBefore": "published",
+      "words": 576,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "column-20260716-messi-third-final-reinvention",
+      "slug": "messi-third-world-cup-final-reinvention-cafu-record-column",
+      "title": "Messi's third final would measure reinvention, not just longevity",
+      "statusBefore": "published",
+      "words": 755,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260716-belgian-grand-prix-preview",
+      "slug": "belgian-grand-prix-antonelli-russell-title-fight-preview",
+      "title": "Spa opens a new phase in Antonelli–Russell title fight",
+      "statusBefore": "published",
+      "words": 521,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260716-messi-golden-boot-lead",
+      "slug": "messi-golden-boot-lead-mbappe-assists-tiebreak",
+      "title": "Messi takes Golden Boot lead without scoring after two-assist semi-final",
+      "statusBefore": "published",
+      "words": 502,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260716-argentina-malvinas-banner",
+      "slug": "argentina-malvinas-banner-england-world-cup-semifinal",
+      "title": "UK seeks FIFA probe as Milei backs Argentina's Falklands banner",
+      "statusBefore": "published",
+      "words": 527,
+      "paragraphs": 8,
+      "facts": 8,
+      "verificationSources": 7,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260716-josh-nebo-barcelona",
+      "slug": "josh-nebo-barcelona-three-year-deal",
+      "title": "Barça sign former Maccabi centre Josh Nebo through 2029",
+      "statusBefore": "published",
+      "words": 484,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260716-israeli-football-law-changes",
+      "slug": "israeli-football-2026-27-law-changes-explained",
+      "title": "Israel adopts restart countdowns, treatment waits and wider VAR",
+      "statusBefore": "published",
+      "words": 772,
+      "paragraphs": 10,
+      "facts": 8,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260716-argentina-england-comeback",
+      "slug": "argentina-england-world-cup-semifinal-comeback",
+      "title": "Argentina stun England with two late goals to reach World Cup final",
+      "statusBefore": "published",
+      "words": 414,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "archive-20260716-maccabiah-2001",
+      "slug": "maccabiah-2001-teddy-stadium-opening-jerusalem",
+      "title": "July 16, 2001: the Maccabiah that opened against the odds",
+      "statusBefore": "published",
+      "words": 601,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260715-valanciunas-zalgiris-homecoming",
+      "slug": "jonas-valanciunas-zalgiris-lithuania-homecoming",
+      "title": "Žalgiris bring Valančiūnas home after 14 NBA seasons",
+      "statusBefore": "published",
+      "words": 556,
+      "paragraphs": 8,
+      "facts": 5,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260715-orian-goren-barcelona-training",
+      "slug": "orian-goren-barcelona-first-team-preseason-training",
+      "title": "Orian Goren trains with Barcelona first team in preseason",
+      "statusBefore": "published",
+      "words": 388,
+      "paragraphs": 7,
+      "facts": 5,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "column-20260715-argentina-england-space",
+      "slug": "argentina-england-world-cup-semifinal-space",
+      "title": "England protected a lead until they stopped protecting the game",
+      "statusBefore": "published",
+      "words": 772,
+      "paragraphs": 9,
+      "facts": 5,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260715-israel-u20-greece",
+      "slug": "israel-u20-greece-eurobasket-classification",
+      "title": "Israel U20s fall to Greece and face Division A survival fight",
+      "statusBefore": "published",
+      "words": 582,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260715-recanati-maccabi-ownership",
+      "slug": "recanati-maccabi-tel-aviv-ownership-deal-closes",
+      "title": "Recanati family raise Maccabi Tel Aviv stake to 58% as deal closes",
+      "statusBefore": "published",
+      "words": 463,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260714-pogacar-tour-stage-10",
+      "slug": "pogacar-tour-stage-10-bastille-day-lead",
+      "title": "Pogačar breaks open the Tour on Bastille Day as lead reaches 3:36",
+      "statusBefore": "published",
+      "words": 598,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260714-otomewo-reims-medical",
+      "slug": "john-otomewo-reims-medical-hapoel-jerusalem-sale",
+      "title": "Otomewo completes Hapoel Jerusalem’s record €1.6m sale to Reims",
+      "statusBefore": "published",
+      "words": 555,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260714-motley-red-star-talks",
+      "slug": "red-star-talks-hapoel-tel-aviv-johnathan-motley",
+      "title": "Motley joins Red Star after Hapoel farewell",
+      "statusBefore": "published",
+      "words": 458,
+      "paragraphs": 8,
+      "facts": 8,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260714-super-cup-kanaan",
+      "slug": "kanaan-absence-gives-super-cup-preparation-an-early-edge",
+      "title": "Ten-man Maccabi beat Be’er Sheva 3–1 to lift Super Cup",
+      "statusBefore": "published",
+      "words": 678,
+      "paragraphs": 11,
+      "facts": 21,
+      "verificationSources": 20,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260714-zach-leday",
+      "slug": "zach-leday-signing-raises-hapoel-tel-aviv-ceiling",
+      "title": "Zach LeDay signing raises Hapoel Tel Aviv’s frontcourt ceiling",
+      "statusBefore": "published",
+      "words": 500,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "taxonomy:desk-not-assigned"
+      ]
+    },
+    {
+      "id": "live-20260714-khalaili",
+      "slug": "khalaili-inter-collapse-opens-ipswich-route",
+      "title": "Khalaili’s Inter deal collapses after Italian fitness ruling; Ipswich step in",
+      "statusBefore": "published",
+      "words": 642,
+      "paragraphs": 10,
+      "facts": 9,
+      "verificationSources": 10,
+      "blockers": [],
+      "warnings": [
+        "taxonomy:desk-not-assigned",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "brief-20260714-france-knockout-record",
+      "slug": "france-knockout-record-frames-spain-world-cup-semi-final",
+      "title": "Spain shut out France to reach the World Cup final",
+      "statusBefore": "published",
+      "words": 573,
+      "paragraphs": 10,
+      "facts": 8,
+      "verificationSources": 8,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "seed-008",
+      "slug": "israeli-sport-week-ahead-watchlist",
+      "title": "Five tactical questions that will shape the next sporting week",
+      "statusBefore": "published",
+      "words": 784,
+      "paragraphs": 9,
+      "facts": 5,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "taxonomy:desk-not-assigned"
+      ]
+    },
+    {
+      "id": "brief-20260714-beitar-recruitment",
+      "slug": "beitar-jerusalem-foreign-midfielder-centre-back-plan",
+      "title": "Beitar target foreign midfielder and centre-back as squad plan shifts",
+      "statusBefore": "published",
+      "words": 447,
+      "paragraphs": 7,
+      "facts": 5,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260714-peretz-miller-maccabi",
+      "slug": "dor-peretz-commits-maccabi-kenny-miller-promises-reinforcements",
+      "title": "Peretz commits to Maccabi as Miller promises reinforcements",
+      "statusBefore": "published",
+      "words": 503,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260714-gloukh-ajax-role",
+      "slug": "oscar-gloukh-stays-ajax-starting-role-target",
+      "title": "Gloukh chooses the harder Ajax route: earning the No. 10 role",
+      "statusBefore": "published",
+      "words": 555,
+      "paragraphs": 8,
+      "facts": 8,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260714-satoransky-hapoel",
+      "slug": "hapoel-tel-aviv-reported-satoransky-agreement-local-status-unresolved",
+      "title": "Satoranský officially joins Hapoel Tel Aviv on one-year deal",
+      "statusBefore": "published",
+      "words": 497,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260714-beersheva-vikingur",
+      "slug": "hapoel-beer-sheva-vikingur-champions-league-qualifier",
+      "title": "Be'er Sheva fly to Iceland without injured new winger João Victor",
+      "statusBefore": "published",
+      "words": 408,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260714-gil-itzhak-bnei-eilat",
+      "slug": "gil-itzhak-signs-bnei-eilat-liga-bet",
+      "title": "Bnei Eilat land Gil Itzhak in fourth-tier statement signing",
+      "statusBefore": "published",
+      "words": 533,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260714-tielemans-manchester-united",
+      "slug": "youri-tielemans-signs-manchester-united",
+      "title": "Manchester United sign Tielemans through 2031",
+      "statusBefore": "published",
+      "words": 591,
+      "paragraphs": 8,
+      "facts": 5,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "archive-20260714-france-israel-1993",
+      "slug": "france-israel-1993-parc-des-princes-comeback",
+      "title": "Paris, 1993: the night Israel turned 2–1 into history",
+      "statusBefore": "published",
+      "words": 519,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "archive-20260715-mexico-1970",
+      "slug": "israel-mexico-1970-spiegler-world-cup-goal",
+      "title": "Mexico, 1970: the goal that put Israel on the World Cup map",
+      "statusBefore": "published",
+      "words": 562,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260715-saraf-wolf-brooklyn-sacramento",
+      "slug": "saraf-wolf-brooklyn-beat-sacramento-summer-league",
+      "title": "Saraf’s two-way efficiency drives Brooklyn’s 32-point Summer League win",
+      "statusBefore": "published",
+      "words": 474,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260715-kawhi-toronto-trade-hold",
+      "slug": "silver-kawhi-leonard-toronto-trade-investigation",
+      "title": "Silver sets summer target as Leonard’s Toronto return remains frozen",
+      "statusBefore": "published",
+      "words": 564,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260715-world-cup-final-halftime",
+      "slug": "world-cup-final-halftime-reported-30-minutes-law-7",
+      "title": "World Cup final halftime reportedly set to stretch towards 30 minutes",
+      "statusBefore": "published",
+      "words": 490,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260715-nike-sibande-kiryat-ata",
+      "slug": "nike-sibande-joins-ironi-kiryat-ata",
+      "title": "Kiryat Ata add Nike Sibande to reshape their backcourt",
+      "statusBefore": "published",
+      "words": 481,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260715-ronen-hanzis-beit-dagan",
+      "slug": "ronen-hanzis-returns-with-ironi-beit-dagan",
+      "title": "Ronen Hanzis returns with Ironi Beit Dagan in fourth-tier reset",
+      "statusBefore": "published",
+      "words": 531,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260715-waerenskjold-tour-stage-11",
+      "slug": "waerenskjold-wins-fastest-tour-de-france-stage",
+      "title": "Wærenskjold wins the fastest stage in Tour de France history",
+      "statusBefore": "published",
+      "words": 549,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260715-rani-cohen-hapoel-eilat",
+      "slug": "rani-cohen-appointed-hapoel-eilat-ceo",
+      "title": "Rani Cohen takes Hapoel Eilat CEO role after promotion",
+      "statusBefore": "published",
+      "words": 442,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "column-20260716-argentina-spain-final",
+      "slug": "argentina-spain-world-cup-final-risk-tactical-preview",
+      "title": "The final is not Messi against Yamal. It is a contest over where risk lives",
+      "statusBefore": "published",
+      "words": 1110,
+      "paragraphs": 12,
+      "facts": 9,
+      "verificationSources": 11,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260716-nobby-stiles-heading-inquest",
+      "slug": "nobby-stiles-heading-cte-inquest-football",
+      "title": "Stiles inquest finds heading-linked CTE contributed to his death",
+      "statusBefore": "published",
+      "words": 631,
+      "paragraphs": 8,
+      "facts": 8,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260716-israeli-football-racism-pyrotechnics-data",
+      "slug": "israeli-football-racism-pyrotechnics-decline-data",
+      "title": "Israeli football records fewer racism convictions and pitch pyrotechnics",
+      "statusBefore": "published",
+      "words": 527,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260716-mazkeret-batya-kunin-artistic-swimming",
+      "slug": "mazkeret-batya-katy-kunin-israel-artistic-swimming-titles",
+      "title": "Kunin doubles up as Mazkeret Batya retain national artistic-swimming cup",
+      "statusBefore": "published",
+      "words": 430,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260716-claudell-harris-hapoel-holon",
+      "slug": "claudell-harris-jr-signs-hapoel-holon",
+      "title": "Hapoel Holon bet on Claudell Harris Jr’s second-season growth",
+      "statusBefore": "published",
+      "words": 447,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260716-marcus-bingham-fenerbahce",
+      "slug": "marcus-bingham-signs-fenerbahce-two-year-deal",
+      "title": "Fenerbahçe turn Marcus Bingham’s breakout year into a two-season bet",
+      "statusBefore": "published",
+      "words": 518,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260716-aaron-wheeler-hapoel-eilat",
+      "slug": "aaron-wheeler-signs-hapoel-eilat",
+      "title": "Hapoel Eilat add Aaron Wheeler to a roster built for the Premier League",
+      "statusBefore": "published",
+      "words": 439,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260716-iba-disciplinary-court-renewal",
+      "slug": "israel-basketball-disciplinary-court-four-new-judges",
+      "title": "Four appointments complete a generational change in Israeli basketball’s disciplinary court",
+      "statusBefore": "published",
+      "words": 474,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260716-dan-biton-medical-update",
+      "slug": "dan-biton-medical-procedures-return-update",
+      "title": "Dan Biton asks for medical privacy as he works towards a return",
+      "statusBefore": "published",
+      "words": 294,
+      "paragraphs": 5,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260716-noam-mocha-compensation",
+      "slug": "beitar-jerusalem-noam-mocha-compensation-ruling",
+      "title": "₪450,000 ruling closes Beitar’s Noam Mocha compensation dispute",
+      "statusBefore": "published",
+      "words": 493,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260716-radinio-balker-huddersfield-extension",
+      "slug": "radinio-balker-huddersfield-extension-maccabi-haifa",
+      "title": "Balker extension closes Maccabi Haifa route for now",
+      "statusBefore": "published",
+      "words": 467,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260716-trump-world-cup-final-attendance",
+      "slug": "trump-world-cup-final-argentina-spain-attendance",
+      "title": "Trump to attend Argentina–Spain World Cup final",
+      "statusBefore": "published",
+      "words": 435,
+      "paragraphs": 7,
+      "facts": 8,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "column-20260716-yehezkel-super-cup-width",
+      "slug": "sagiv-yehezkel-super-cup-three-assists-tactical-column",
+      "title": "Yehezkel made Maccabi’s width a Super Cup weapon",
+      "statusBefore": "published",
+      "words": 654,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260717-or-blorian-mls-debut",
+      "slug": "or-blorian-mls-debut-st-louis-sporting-kc-3-2",
+      "title": "Blorian plays 75 minutes in MLS debut as Sporting KC lose 3–2",
+      "statusBefore": "published",
+      "words": 519,
+      "paragraphs": 8,
+      "facts": 9,
+      "verificationSources": 7,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260717-beitar-hapoel-ta-police-guidelines",
+      "slug": "police-set-out-matchday-rules-beitar-jerusalem-hapoel-tel-aviv-netanya",
+      "title": "Police detail strict entry rules for Beitar Jerusalem's Netanya meeting with Hapoel Tel Aviv",
+      "statusBefore": "published",
+      "words": 584,
+      "paragraphs": 8,
+      "facts": 8,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260717-israel-u20-iceland-handball",
+      "slug": "israel-u20-handball-iceland-35-23-m20-ehf-euro-placement",
+      "title": "Israel's under-20s swept aside 35:23 by Iceland with a World Championship place still on the line",
+      "statusBefore": "published",
+      "words": 448,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260717-rivollier-hapoel-return",
+      "slug": "rivollier-crosses-petah-tikva-divide-again-hapoel-return",
+      "title": "Rivollier crosses the Petah Tikva divide again as Hapoel bring French striker back",
+      "statusBefore": "published",
+      "words": 528,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260717-varsano-u18-record",
+      "slug": "varsano-israeli-u18-400m-hurdles-record-rieti",
+      "title": "Varsano lowers Israeli under-18 400m hurdles record at European youth championships in Rieti",
+      "statusBefore": "published",
+      "words": 337,
+      "paragraphs": 5,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260717-worko-beitar-debut-shua-doubt-carabali-commits",
+      "slug": "worko-beitar-debut-shua-doubt-carabali-commits",
+      "title": "Worko in line for Beitar debut as Shua sweats on fitness and Carabalí commits",
+      "statusBefore": "published",
+      "words": 503,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 7,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260717-france-world-cup-replay-petition-fifa-backs-referee",
+      "slug": "france-world-cup-replay-petition-fifa-backs-referee",
+      "title": "France's World Cup Replay Petition Passes 50,000 Signatures as FIFA Backs Referee",
+      "statusBefore": "published",
+      "words": 642,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260717-red-star-glazer-fee-demand",
+      "slug": "red-star-said-to-demand-250000-before-releasing-omri-glazer-to-maccabi-haifa",
+      "title": "Maccabi Haifa Said to Pay Red Star an Estimated €300,000 to Close Omri Glazer Deal",
+      "statusBefore": "published",
+      "words": 743,
+      "paragraphs": 10,
+      "facts": 9,
+      "verificationSources": 7,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260717-liam-hermesh-agrees-grazer-ak-move",
+      "slug": "liam-hermesh-agrees-grazer-ak-move",
+      "title": "Liam Hermesh Agrees Move to Austrian Bundesliga Side Grazer AK",
+      "statusBefore": "published",
+      "words": 553,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260717-police-announce-further-arrest-japanika-grenade-attacks",
+      "slug": "police-announce-further-arrest-japanika-grenade-attacks",
+      "title": "Police announce further arrest over grenade attacks on Beitar owner's Japanika chain",
+      "statusBefore": "published",
+      "words": 634,
+      "paragraphs": 9,
+      "facts": 9,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260717-kanyuk-ramat-gan-bonus-claim",
+      "slug": "kanyuk-threatens-to-sue-hapoel-ramat-gan-bonus-claim",
+      "title": "Kanyuk sets seven-day deadline as Hapoel Ramat Gan claim swells to 350,000 shekels",
+      "statusBefore": "published",
+      "words": 724,
+      "paragraphs": 11,
+      "facts": 8,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260717-szoboszlai-signs-new-liverpool-deal-to-2031",
+      "slug": "szoboszlai-signs-new-liverpool-deal-to-2031",
+      "title": "Szoboszlai Commits His Prime to Liverpool With New Contract Until 2031",
+      "statusBefore": "published",
+      "words": 361,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260717-orian-goren-tipped-to-cover-injured-de-jong-barcelona",
+      "slug": "orian-goren-tipped-to-cover-injured-de-jong-barcelona",
+      "title": "Spanish media tip Israel's Orian Goren, 17, as cover for injured De Jong at Barcelona",
+      "statusBefore": "published",
+      "words": 515,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 7,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260717-us-analysts-warn-portland-morant-gamble-squeezes-avdija",
+      "slug": "us-analysts-warn-portland-morant-gamble-squeezes-avdija",
+      "title": "US analysts warn Portland's Morant gamble could squeeze Deni Avdija's breakout role",
+      "statusBefore": "published",
+      "words": 558,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260717-novakovich-profile-saief-reunion",
+      "slug": "andrija-novakovich-striker-reuniting-kenny-saief-maccabi-haifa",
+      "title": "Andrija Novakovich: The Well-Travelled Striker Reuniting With Kenny Saief at Maccabi Haifa",
+      "statusBefore": "published",
+      "words": 671,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260717-levy-gal-470-junior-worlds-silver-gdynia",
+      "slug": "levy-gal-470-junior-worlds-silver-gdynia",
+      "title": "Levy and Gal take junior world 470 silver after title defence is lost on a countback",
+      "statusBefore": "published",
+      "words": 366,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260717-david-natan-obituary",
+      "slug": "david-natan-hapoel-ramat-gan-wonder-season-champion-dies-86",
+      "title": "David Natan, champion of Hapoel Ramat Gan's wonder season, dies at 86",
+      "statusBefore": "published",
+      "words": 452,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260717-eissat-forced-off-eight-minutes-into-bristol-city-debut",
+      "slug": "eissat-forced-off-eight-minutes-into-bristol-city-debut",
+      "title": "Lisav Eissat forced off eight minutes into his Bristol City debut",
+      "statusBefore": "published",
+      "words": 395,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260717-hapoel-tel-aviv-close-in-on-jacob-toppin",
+      "slug": "hapoel-tel-aviv-close-in-on-jacob-toppin",
+      "title": "Hapoel Tel Aviv Close In on Former NBA Forward Jacob Toppin",
+      "statusBefore": "published",
+      "words": 523,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260717-abu-fani-red-star-macva50",
+      "slug": "abu-fani-full-90-red-star-belgrade-crush-macva-superliga-opener",
+      "title": "Abu Fani goes the full 90 as Red Star Belgrade crush Mačva in SuperLiga opener",
+      "statusBefore": "published",
+      "words": 525,
+      "paragraphs": 8,
+      "facts": 8,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260717-stilman-recanati-interview",
+      "slug": "shtilman-recanati-atm-interview-maccabi-tel-aviv",
+      "title": "'To them, the fans are an ATM': Rapyd chief Shtilman turns on Maccabi Tel Aviv's new owners",
+      "statusBefore": "published",
+      "words": 579,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260717-zaarura-russian-interest",
+      "slug": "rodina-moscow-reported-interest-basam-zaarura-maccabi-netanya",
+      "title": "Rodina Moscow reportedly eyeing Maccabi Netanya midfielder Basam Zaarura",
+      "statusBefore": "published",
+      "words": 306,
+      "paragraphs": 5,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260718-sharp-kings-summer-league-finale",
+      "slug": "emanuel-sharp-16-points-kings-hornets-summer-league-finale",
+      "title": "Sharp signs off Summer League with 16 points as Kings edge Hornets",
+      "statusBefore": "published",
+      "words": 427,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260718-guildford-maccabi-ban-payout",
+      "slug": "guildford-maccabi-villa-park-ban-payout",
+      "title": "Police chief behind Maccabi Tel Aviv's Villa Park ban left with £57,800 payout",
+      "statusBefore": "published",
+      "words": 411,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260718-yermakov-metalist-record-sale",
+      "slug": "maccabi-haifa-close-in-on-record-yermakov-sale-to-metalist-kharkiv",
+      "title": "Maccabi Haifa and Metalist agree terms on record Yermakov sale",
+      "statusBefore": "published",
+      "words": 768,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 9,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "archive-20260718-montreal-1976",
+      "slug": "montreal-1976-black-ribbon-esther-roth-first-israeli-olympic-final",
+      "title": "Fifty years on: Montreal 1976, the black ribbon and Israel's first Olympic finalist",
+      "statusBefore": "published",
+      "words": 622,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "column-20260718-develop-and-sell-summer",
+      "slug": "israeli-football-develop-and-sell-summer-column",
+      "title": "Israeli football has learned how to sell — now the fees have to become real",
+      "statusBefore": "published",
+      "words": 1024,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260718-sakhnin-balbarau",
+      "slug": "bnei-sakhnin-sign-romanian-goalkeeper-raul-balbarau",
+      "title": "Bnei Sakhnin sign Romanian goalkeeper Raul Bălbărău",
+      "statusBefore": "published",
+      "words": 536,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260718-varela-interest",
+      "slug": "helio-varela-maccabi-tel-aviv-four-clubs-reported-interest",
+      "title": "Four European clubs reportedly tracking Maccabi Tel Aviv winger Hélio Varela",
+      "statusBefore": "published",
+      "words": 336,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260718-abuhatzira-release-clause",
+      "slug": "yarin-abuhatzira-netanya-100k-release-clause-contract-talks",
+      "title": "Netanya race to shield 16-year-old Abuhatzira after €100,000 release clause is laid bare",
+      "statusBefore": "published",
+      "words": 390,
+      "paragraphs": 5,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260718-show-kocaelispor-permanent",
+      "slug": "maccabi-haifa-show-kocaelispor-permanent-transfer",
+      "title": "Maccabi Haifa agree permanent sale of Show to Kocaelispor",
+      "statusBefore": "published",
+      "words": 467,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260718-tsunami-maccabi-haifa",
+      "slug": "wenderson-tsunami-signs-maccabi-haifa-free-transfer",
+      "title": "Maccabi Haifa Land Brazilian Defender Wenderson Tsunami on a Free Transfer",
+      "statusBefore": "published",
+      "words": 552,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260718-koppel-referee-sponsorship-row",
+      "slug": "koppel-referee-sponsorship-row",
+      "title": "Maccabi Tel Aviv backer's sponsorship of referees' body ignites integrity row",
+      "statusBefore": "published",
+      "words": 487,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260718-rogers-chelsea-record",
+      "slug": "chelsea-morgan-rogers-117m-british-record-transfer",
+      "title": "Chelsea agree £117m Morgan Rogers deal to make him Britain's costliest player",
+      "statusBefore": "published",
+      "words": 397,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260718-beitar-hapoel-ta-netanya-report",
+      "slug": "tzur-shootout-saves-hapoel-tel-aviv-beat-beitar-toto-cup",
+      "title": "Tzur saves three in shootout as Hapoel Tel Aviv oust Beitar after 2–2 thriller",
+      "statusBefore": "published",
+      "words": 834,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 8,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260718-israel-u20-latvia-rout",
+      "slug": "israel-u20-latvia-96-74-belaga-triple-double",
+      "title": "Belaga makes history with a triple-double as Israel U20s rout Latvia 96–74",
+      "statusBefore": "published",
+      "words": 477,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260719-france-england-bronze",
+      "slug": "england-france-6-4-world-cup-third-place-bronze",
+      "title": "England win a ten-goal epic 6-4 as Saka hat-trick claims World Cup bronze",
+      "statusBefore": "published",
+      "words": 488,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "column-20260719-second-wave-youth-basketball",
+      "slug": "israel-youth-basketball-second-wave-column",
+      "title": "Israel's second basketball wave is real — and ninth place is still ninth place",
+      "statusBefore": "published",
+      "words": 951,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "archive-20260719-helsinki-1952",
+      "slug": "helsinki-1952-israel-first-olympic-games",
+      "title": "Helsinki, 19 July 1952: the day Israel walked into the Olympic movement",
+      "statusBefore": "published",
+      "words": 669,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260719-gadrani-beitar-standoff",
+      "slug": "gadrani-doubtful-larnaca-beitar-jerusalem-contract-standoff",
+      "title": "Gadrani doubtful for Larnaca as contract standoff with Beitar Jerusalem sharpens",
+      "statusBefore": "published",
+      "words": 475,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260719-kerr-mile-world-record",
+      "slug": "josh-kerr-mile-world-record-3-42-66-london-diamond-league",
+      "title": "Josh Kerr shatters athletics' oldest track record with 3:42.66 mile in London",
+      "statusBefore": "published",
+      "words": 439,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260719-datiashvili-youth-europeans",
+      "slug": "datiashvili-seventh-ilca6-youth-europeans-thessaloniki",
+      "title": "Datiashvili turns a race-one win into seventh at the ILCA 6 Youth Europeans",
+      "statusBefore": "published",
+      "words": 480,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260719-eli-ohana-farewell",
+      "slug": "eli-ohana-official-farewell-finished-my-path-in-football",
+      "title": "Eli Ohana bids official farewell: \"I have finished my path in football\"",
+      "statusBefore": "published",
+      "words": 567,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260719-israel-u20-handball-world-championship",
+      "slug": "israel-u20-handball-beat-croatia-world-championship-qualification-first-in-21-years",
+      "title": "Israel's under-20s beat Croatia 36:31 to end a 21-year wait for a World Championship place",
+      "statusBefore": "published",
+      "words": 495,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260719-israel-relay-record-rieti",
+      "slug": "israel-1000m-medley-relay-record-rieti",
+      "title": "Israeli teenagers clock 2:15.00 to erase 35-year-old 1,000m relay record in Rieti",
+      "statusBefore": "published",
+      "words": 321,
+      "paragraphs": 5,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    }
+  ]
+}

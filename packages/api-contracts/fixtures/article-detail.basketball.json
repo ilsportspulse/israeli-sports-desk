@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "1.0",
+  "id": "live-20260717-israel-u20-italy-division-a",
+  "slug": "israel-u20-italy-84-59-division-a-safety",
+  "locale": "en",
+  "status": "published",
+  "title": "Israel U20s crush Italy 84–59 to secure Division A safety",
+  "dek": "A representative basketball recap contract fixture.",
+  "category": "Israeli Basketball",
+  "kind": "news",
+  "publishedAt": "2026-07-17T00:28:00+03:00",
+  "readMinutes": 4,
+  "media": {
+    "src": "/media/stories/israel-u20-italy-division-a-2026.jpg",
+    "alt": "Basketball action inside Arena Stožice",
+    "caption": "Arena Stožice in Ljubljana.",
+    "credit": "Gremi35 / Wikimedia Commons",
+    "creditUrl": "https://commons.wikimedia.org/",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "body": ["Paragraph one."],
+  "facts": ["Fact one.", "Fact two.", "Fact three.", "Fact four."],
+  "basketballRecap": {
+    "competition": "FIBA U20 EuroBasket · Classification 9–16",
+    "status": "FT",
+    "tipoff": "2026-07-16T22:00:00+03:00",
+    "venue": "Arena Stožice II",
+    "city": "Ljubljana, Slovenia",
+    "attendance": 100,
+    "officials": ["Yener Yilmaz", "Lukasz Jankowski", "Sinisa Prpa"],
+    "home": { "name": "Italy U20", "shortName": "Italy", "flag": "🇮🇹", "score": 59, "quarters": [16, 16, 11, 16] },
+    "away": { "name": "Israel U20", "shortName": "Israel", "flag": "🇮🇱", "score": 84, "quarters": [21, 18, 20, 25] },
+    "stats": [
+      { "label": "Field goals", "home": "31.0%", "away": "40.0%" },
+      { "label": "Two-pointers", "home": "37.2%", "away": "46.8%" },
+      { "label": "Three-pointers", "home": "16.7%", "away": "30.0%" },
+      { "label": "Free throws", "home": "69.2%", "away": "81.3%" }
+    ],
+    "leaders": [
+      { "player": "Yonatan Keller", "team": "Israel", "value": "19", "label": "Points" },
+      { "player": "Oren Sahar", "team": "Israel", "value": "23", "label": "Efficiency" }
+    ]
+  }
+}

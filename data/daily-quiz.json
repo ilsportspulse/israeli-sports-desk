@@ -1,0 +1,67 @@
+{
+  "date": "2026-07-19",
+  "title": "The Daily Five",
+  "dek": "Five verified questions from a wild Saturday: a ten-goal bronze final, a shootout in Netanya, a record-breaking triple-double and Maccabi Haifa's busy window.",
+  "questions": [
+    {
+      "question": "What was the final score of the World Cup third-place match between England and France?",
+      "answers": [
+        "6–4 to England",
+        "4–2 to England",
+        "3–1 to England",
+        "5–4 to France"
+      ],
+      "correctIndex": 0,
+      "explanation": "England won a ten-goal epic 6–4 in Miami Gardens, with a Bukayo Saka hat-trick and a stoppage-time Jude Bellingham goal.",
+      "sourceUrl": "https://www.espn.com/soccer/match/_/gameId/760516/england-france"
+    },
+    {
+      "question": "How did Hapoel Tel Aviv beat Beitar Jerusalem in the Toto Cup quarter-final?",
+      "answers": [
+        "3–1 on penalties after 2–2",
+        "2–1 after extra time",
+        "3–2 in 90 minutes",
+        "On away goals"
+      ],
+      "correctIndex": 0,
+      "explanation": "Daniel Dappa equalised in the 96th minute and goalkeeper Assaf Tzur saved three spot-kicks in the shootout.",
+      "sourceUrl": "https://playbyplay.sport5.co.il/?GameID=150633&FLNum=163"
+    },
+    {
+      "question": "What was Rany Belaga's historic statline in Israel U20's 96–74 win over Latvia?",
+      "answers": [
+        "16 points, 12 assists, 10 rebounds",
+        "20 points, 10 assists, 10 rebounds",
+        "10 points, 10 assists, 15 rebounds",
+        "25 points, 8 assists, 11 rebounds"
+      ],
+      "correctIndex": 0,
+      "explanation": "The captain's 16-12-10 was reported as the first triple-double by an Israeli at the FIBA U20 EuroBasket.",
+      "sourceUrl": "https://www.fiba.basketball/en/events/fiba-u20-eurobasket-2026/games/131741-LAT-ISR"
+    },
+    {
+      "question": "Whose all-time World Cup scoring record did Kylian Mbappé pass in the bronze final?",
+      "answers": [
+        "Lionel Messi's",
+        "Miroslav Klose's",
+        "Ronaldo's",
+        "Just Fontaine's"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mbappé's brace took him to 22 career World Cup goals, one past Messi's 21 — with Messi still to play in Sunday's final.",
+      "sourceUrl": "https://www.foxsports.com/soccer/fifa-world-cup-men-france-vs-england-jul-18-2026-game-boxscore-607933"
+    },
+    {
+      "question": "For which reported fee did Maccabi Haifa sell midfielder Show to Kocaelispor?",
+      "answers": [
+        "€500,000",
+        "€3 million",
+        "€1.5 million",
+        "A free transfer"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Angolan midfielder's permanent move to the Turkish top flight was announced at a reported €500,000, paid in instalments.",
+      "sourceUrl": "https://www.mavikocaeli.com.tr/kocaelispor-showuna-kavusuyor-maddi-detaylar-belli-oldu/247877/"
+    }
+  ]
+}

@@ -1,0 +1,3239 @@
+{
+  "checkedAt": "2026-07-20T04:25:35.270Z",
+  "baseUrl": "http://127.0.0.1:3000",
+  "summary": {
+    "scenarios": 41,
+    "passed": 41,
+    "failed": 0,
+    "statusFailures": 0,
+    "overflowFailures": 0,
+    "resourceFailures": 0,
+    "stylesheetFailures": 0
+  },
+  "results": [
+    {
+      "id": "home-390",
+      "path": "/",
+      "width": 390,
+      "height": 844,
+      "statusCode": 200,
+      "screenshot": "home-390.png",
+      "localResourceFailures": [],
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "noHorizontalOverflow": true,
+      "stylesheetRuleCount": 666,
+      "overflow": [
+        {
+          "selector": "div.ticker-track",
+          "left": 14,
+          "right": 7671,
+          "width": 7656,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 14,
+          "right": 554,
+          "width": 540,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 554,
+          "right": 1158,
+          "width": 605,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 1158,
+          "right": 1499,
+          "width": 341,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 1499,
+          "right": 1911,
+          "width": 412,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 1911,
+          "right": 2353,
+          "width": 442,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 2353,
+          "right": 2813,
+          "width": 460,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 2813,
+          "right": 3298,
+          "width": 486,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 3298,
+          "right": 3842,
+          "width": 544,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 3842,
+          "right": 4382,
+          "width": 540,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 4382,
+          "right": 4987,
+          "width": 605,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 4987,
+          "right": 5328,
+          "width": 341,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 5328,
+          "right": 5739,
+          "width": 412,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 5739,
+          "right": 6182,
+          "width": 442,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 6182,
+          "right": 6641,
+          "width": 460,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 6641,
+          "right": 7127,
+          "width": 486,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 7127,
+          "right": 7671,
+          "width": 544,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a.score-rail-card",
+          "left": 299,
+          "right": 587,
+          "width": 289,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "div.score-rail-meta",
+          "left": 313,
+          "right": 573,
+          "width": 261,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "span.fixture-chip",
+          "left": 313,
+          "right": 418,
+          "width": 106,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "span",
+          "left": 426,
+          "right": 448,
+          "width": 22,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "div.score-team-row",
+          "left": 313,
+          "right": 573,
+          "width": 261,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "strong",
+          "left": 345,
+          "right": 558,
+          "width": 213,
+          "overflowX": "hidden",
+          "position": "static"
+        },
+        {
+          "selector": "b",
+          "left": 565,
+          "right": 573,
+          "width": 9,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "div.score-team-row",
+          "left": 313,
+          "right": 573,
+          "width": 261,
+          "overflowX": "visible",
+          "position": "static"
+        }
+      ]
+    },
+    {
+      "id": "home-360",
+      "path": "/",
+      "width": 360,
+      "height": 800,
+      "statusCode": 200,
+      "screenshot": "home-360.png",
+      "localResourceFailures": [],
+      "viewportWidth": 360,
+      "documentWidth": 360,
+      "bodyWidth": 360,
+      "noHorizontalOverflow": true,
+      "stylesheetRuleCount": 666,
+      "overflow": [
+        {
+          "selector": "div.ticker-track",
+          "left": 18,
+          "right": 7674,
+          "width": 7656,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 18,
+          "right": 557,
+          "width": 540,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 557,
+          "right": 1162,
+          "width": 605,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 1162,
+          "right": 1503,
+          "width": 341,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 1503,
+          "right": 1915,
+          "width": 412,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 1915,
+          "right": 2357,
+          "width": 442,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 2357,
+          "right": 2817,
+          "width": 460,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 2817,
+          "right": 3302,
+          "width": 486,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 3302,
+          "right": 3846,
+          "width": 544,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 3846,
+          "right": 4386,
+          "width": 540,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 4386,
+          "right": 4990,
+          "width": 605,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 4990,
+          "right": 5331,
+          "width": 341,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 5331,
+          "right": 5743,
+          "width": 412,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 5743,
+          "right": 6185,
+          "width": 442,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 6185,
+          "right": 6645,
+          "width": 460,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 6645,
+          "right": 7130,
+          "width": 486,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 7130,
+          "right": 7674,
+          "width": 544,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a.score-rail-card",
+          "left": 276,
+          "right": 543,
+          "width": 266,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "div.score-rail-meta",
+          "left": 290,
+          "right": 529,
+          "width": 238,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "span.fixture-chip",
+          "left": 290,
+          "right": 396,
+          "width": 106,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "span",
+          "left": 404,
+          "right": 426,
+          "width": 22,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "div.score-team-row",
+          "left": 290,
+          "right": 529,
+          "width": 238,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "strong",
+          "left": 322,
+          "right": 513,
+          "width": 191,
+          "overflowX": "hidden",
+          "position": "static"
+        },
+        {
+          "selector": "b",
+          "left": 520,
+          "right": 529,
+          "width": 9,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "div.score-team-row",
+          "left": 290,
+          "right": 529,
+          "width": 238,
+          "overflowX": "visible",
+          "position": "static"
+        }
+      ]
+    },
+    {
+      "id": "super-cup-recap-390",
+      "path": "/article/kanaan-absence-gives-super-cup-preparation-an-early-edge",
+      "width": 390,
+      "height": 844,
+      "statusCode": 200,
+      "screenshot": "super-cup-recap-390.png",
+      "localResourceFailures": [],
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "noHorizontalOverflow": true,
+      "stylesheetRuleCount": 666,
+      "overflow": [
+        {
+          "selector": "img.article-image-backdrop",
+          "left": -19,
+          "right": 410,
+          "width": 429,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": -5,
+          "right": 331,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "a.related-card",
+          "left": 328,
+          "right": 632,
+          "width": 304,
+          "overflowX": "hidden",
+          "position": "static"
+        },
+        {
+          "selector": "figure.story-visual.story-photo.visual-night-pitch",
+          "left": 329,
+          "right": 631,
+          "width": 302,
+          "overflowX": "hidden",
+          "position": "relative"
+        },
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": 312,
+          "right": 648,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "img.story-photo-image",
+          "left": 330,
+          "right": 630,
+          "width": 300,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "div",
+          "left": 329,
+          "right": 631,
+          "width": 302,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "span.eyebrow",
+          "left": 346,
+          "right": 461,
+          "width": 115,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "h3",
+          "left": 346,
+          "right": 614,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "p",
+          "left": 346,
+          "right": 614,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a.related-card",
+          "left": 645,
+          "right": 950,
+          "width": 304,
+          "overflowX": "hidden",
+          "position": "static"
+        },
+        {
+          "selector": "figure.story-visual.story-photo.visual-night-pitch",
+          "left": 646,
+          "right": 949,
+          "width": 302,
+          "overflowX": "hidden",
+          "position": "relative"
+        },
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": 629,
+          "right": 966,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "img.story-photo-image",
+          "left": 647,
+          "right": 948,
+          "width": 300,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "div",
+          "left": 646,
+          "right": 949,
+          "width": 302,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "span.eyebrow",
+          "left": 663,
+          "right": 778,
+          "width": 115,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "h3",
+          "left": 663,
+          "right": 932,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "p",
+          "left": 663,
+          "right": 932,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        }
+      ]
+    },
+    {
+      "id": "blorian-mls-recap-390",
+      "path": "/article/or-blorian-mls-debut-st-louis-sporting-kc-3-2",
+      "width": 390,
+      "height": 844,
+      "statusCode": 200,
+      "screenshot": "blorian-mls-recap-390.png",
+      "localResourceFailures": [],
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "noHorizontalOverflow": true,
+      "stylesheetRuleCount": 666,
+      "overflow": [
+        {
+          "selector": "img.article-image-backdrop",
+          "left": -19,
+          "right": 410,
+          "width": 429,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": -5,
+          "right": 331,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "a.related-card",
+          "left": 328,
+          "right": 632,
+          "width": 304,
+          "overflowX": "hidden",
+          "position": "static"
+        },
+        {
+          "selector": "figure.story-visual.story-photo.visual-blue-court",
+          "left": 329,
+          "right": 631,
+          "width": 302,
+          "overflowX": "hidden",
+          "position": "relative"
+        },
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": 312,
+          "right": 648,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "img.story-photo-image",
+          "left": 330,
+          "right": 630,
+          "width": 300,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "div",
+          "left": 329,
+          "right": 631,
+          "width": 302,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "span.eyebrow",
+          "left": 346,
+          "right": 456,
+          "width": 110,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "h3",
+          "left": 346,
+          "right": 614,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "p",
+          "left": 346,
+          "right": 614,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a.related-card",
+          "left": 645,
+          "right": 950,
+          "width": 304,
+          "overflowX": "hidden",
+          "position": "static"
+        },
+        {
+          "selector": "figure.story-visual.story-photo.visual-transfer-grid",
+          "left": 646,
+          "right": 949,
+          "width": 302,
+          "overflowX": "hidden",
+          "position": "relative"
+        },
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": 629,
+          "right": 966,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "img.story-photo-image",
+          "left": 647,
+          "right": 948,
+          "width": 300,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "div",
+          "left": 646,
+          "right": 949,
+          "width": 302,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "span.eyebrow",
+          "left": 663,
+          "right": 773,
+          "width": 110,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "h3",
+          "left": 663,
+          "right": 932,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "p",
+          "left": 663,
+          "right": 932,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        }
+      ]
+    },
+    {
+      "id": "basketball-recap-390",
+      "path": "/article/israel-u20-italy-84-59-division-a-safety",
+      "width": 390,
+      "height": 844,
+      "statusCode": 200,
+      "screenshot": "basketball-recap-390.png",
+      "localResourceFailures": [],
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "noHorizontalOverflow": true,
+      "stylesheetRuleCount": 666,
+      "overflow": [
+        {
+          "selector": "img.article-image-backdrop",
+          "left": -19,
+          "right": 410,
+          "width": 429,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": -5,
+          "right": 331,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "a.related-card",
+          "left": 328,
+          "right": 632,
+          "width": 304,
+          "overflowX": "hidden",
+          "position": "static"
+        },
+        {
+          "selector": "figure.story-visual.story-photo.visual-night-pitch",
+          "left": 329,
+          "right": 631,
+          "width": 302,
+          "overflowX": "hidden",
+          "position": "relative"
+        },
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": 312,
+          "right": 648,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "img.story-photo-image",
+          "left": 330,
+          "right": 630,
+          "width": 300,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "div",
+          "left": 329,
+          "right": 631,
+          "width": 302,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "span.eyebrow",
+          "left": 346,
+          "right": 477,
+          "width": 131,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "h3",
+          "left": 346,
+          "right": 614,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "p",
+          "left": 346,
+          "right": 614,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a.related-card",
+          "left": 645,
+          "right": 950,
+          "width": 304,
+          "overflowX": "hidden",
+          "position": "static"
+        },
+        {
+          "selector": "figure.story-visual.story-photo.visual-night-pitch",
+          "left": 646,
+          "right": 949,
+          "width": 302,
+          "overflowX": "hidden",
+          "position": "relative"
+        },
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": 629,
+          "right": 966,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "img.story-photo-image",
+          "left": 647,
+          "right": 948,
+          "width": 300,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "div",
+          "left": 646,
+          "right": 949,
+          "width": 302,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "span.eyebrow",
+          "left": 663,
+          "right": 794,
+          "width": 131,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "h3",
+          "left": 663,
+          "right": 932,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "p",
+          "left": 663,
+          "right": 932,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        }
+      ]
+    },
+    {
+      "id": "club-basketball-recap-390",
+      "path": "/article/saraf-wolf-brooklyn-houston-summer-league-loss",
+      "width": 390,
+      "height": 844,
+      "statusCode": 200,
+      "screenshot": "club-basketball-recap-390.png",
+      "localResourceFailures": [],
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "noHorizontalOverflow": true,
+      "stylesheetRuleCount": 666,
+      "overflow": [
+        {
+          "selector": "img.article-image-backdrop",
+          "left": -19,
+          "right": 410,
+          "width": 429,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": -5,
+          "right": 331,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "a.related-card",
+          "left": 328,
+          "right": 632,
+          "width": 304,
+          "overflowX": "hidden",
+          "position": "static"
+        },
+        {
+          "selector": "figure.story-visual.story-photo.visual-blue-court",
+          "left": 329,
+          "right": 631,
+          "width": 302,
+          "overflowX": "hidden",
+          "position": "relative"
+        },
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": 312,
+          "right": 648,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "img.story-photo-image",
+          "left": 330,
+          "right": 630,
+          "width": 300,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "div",
+          "left": 329,
+          "right": 631,
+          "width": 302,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "span.eyebrow",
+          "left": 346,
+          "right": 456,
+          "width": 110,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "h3",
+          "left": 346,
+          "right": 614,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "p",
+          "left": 346,
+          "right": 614,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a.related-card",
+          "left": 645,
+          "right": 950,
+          "width": 304,
+          "overflowX": "hidden",
+          "position": "static"
+        },
+        {
+          "selector": "figure.story-visual.story-photo.visual-transfer-grid",
+          "left": 646,
+          "right": 949,
+          "width": 302,
+          "overflowX": "hidden",
+          "position": "relative"
+        },
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": 629,
+          "right": 966,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "img.story-photo-image",
+          "left": 647,
+          "right": 948,
+          "width": 300,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "div",
+          "left": 646,
+          "right": 949,
+          "width": 302,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "span.eyebrow",
+          "left": 663,
+          "right": 773,
+          "width": 110,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "h3",
+          "left": 663,
+          "right": 932,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "p",
+          "left": 663,
+          "right": 932,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        }
+      ]
+    },
+    {
+      "id": "world-cup-smoke-390",
+      "path": "/article/wildfire-smoke-spain-training-world-cup-final",
+      "width": 390,
+      "height": 844,
+      "statusCode": 200,
+      "screenshot": "world-cup-smoke-390.png",
+      "localResourceFailures": [],
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "noHorizontalOverflow": true,
+      "stylesheetRuleCount": 666,
+      "overflow": [
+        {
+          "selector": "img.article-image-backdrop",
+          "left": -19,
+          "right": 410,
+          "width": 429,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": -5,
+          "right": 331,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "a.related-card",
+          "left": 328,
+          "right": 632,
+          "width": 304,
+          "overflowX": "hidden",
+          "position": "static"
+        },
+        {
+          "selector": "figure.story-visual.story-photo.visual-night-pitch",
+          "left": 329,
+          "right": 631,
+          "width": 302,
+          "overflowX": "hidden",
+          "position": "relative"
+        },
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": 312,
+          "right": 648,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "img.story-photo-image",
+          "left": 330,
+          "right": 630,
+          "width": 300,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "div",
+          "left": 329,
+          "right": 631,
+          "width": 302,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "span.eyebrow",
+          "left": 346,
+          "right": 453,
+          "width": 106,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "h3",
+          "left": 346,
+          "right": 614,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "p",
+          "left": 346,
+          "right": 614,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a.related-card",
+          "left": 645,
+          "right": 950,
+          "width": 304,
+          "overflowX": "hidden",
+          "position": "static"
+        },
+        {
+          "selector": "figure.story-visual.story-photo.visual-world-cup-gold",
+          "left": 646,
+          "right": 949,
+          "width": 302,
+          "overflowX": "hidden",
+          "position": "relative"
+        },
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": 629,
+          "right": 966,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "img.story-photo-image",
+          "left": 647,
+          "right": 948,
+          "width": 300,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "div",
+          "left": 646,
+          "right": 949,
+          "width": 302,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "span.eyebrow",
+          "left": 663,
+          "right": 770,
+          "width": 106,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "h3",
+          "left": 663,
+          "right": 932,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "p",
+          "left": 663,
+          "right": 932,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        }
+      ]
+    },
+    {
+      "id": "world-cup-referee-390",
+      "path": "/article/slavko-vincic-world-cup-final-referee",
+      "width": 390,
+      "height": 844,
+      "statusCode": 200,
+      "screenshot": "world-cup-referee-390.png",
+      "localResourceFailures": [],
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "noHorizontalOverflow": true,
+      "stylesheetRuleCount": 666,
+      "overflow": [
+        {
+          "selector": "img.article-image-backdrop",
+          "left": -19,
+          "right": 410,
+          "width": 429,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": -5,
+          "right": 331,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "a.related-card",
+          "left": 328,
+          "right": 632,
+          "width": 304,
+          "overflowX": "hidden",
+          "position": "static"
+        },
+        {
+          "selector": "figure.story-visual.story-photo.visual-night-pitch",
+          "left": 329,
+          "right": 631,
+          "width": 302,
+          "overflowX": "hidden",
+          "position": "relative"
+        },
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": 312,
+          "right": 648,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "img.story-photo-image",
+          "left": 330,
+          "right": 630,
+          "width": 300,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "div",
+          "left": 329,
+          "right": 631,
+          "width": 302,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "span.eyebrow",
+          "left": 346,
+          "right": 453,
+          "width": 106,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "h3",
+          "left": 346,
+          "right": 614,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "p",
+          "left": 346,
+          "right": 614,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a.related-card",
+          "left": 645,
+          "right": 950,
+          "width": 304,
+          "overflowX": "hidden",
+          "position": "static"
+        },
+        {
+          "selector": "figure.story-visual.story-photo.visual-world-cup-gold",
+          "left": 646,
+          "right": 949,
+          "width": 302,
+          "overflowX": "hidden",
+          "position": "relative"
+        },
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": 629,
+          "right": 966,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "img.story-photo-image",
+          "left": 647,
+          "right": 948,
+          "width": 300,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "div",
+          "left": 646,
+          "right": 949,
+          "width": 302,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "span.eyebrow",
+          "left": 663,
+          "right": 770,
+          "width": 106,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "h3",
+          "left": 663,
+          "right": 932,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "p",
+          "left": 663,
+          "right": 932,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        }
+      ]
+    },
+    {
+      "id": "giannis-miami-introduction-390",
+      "path": "/article/giannis-antetokounmpo-miami-heat-introduction-title-path",
+      "width": 390,
+      "height": 844,
+      "statusCode": 200,
+      "screenshot": "giannis-miami-introduction-390.png",
+      "localResourceFailures": [],
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "noHorizontalOverflow": true,
+      "stylesheetRuleCount": 666,
+      "overflow": [
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": -5,
+          "right": 331,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "a.related-card",
+          "left": 328,
+          "right": 632,
+          "width": 304,
+          "overflowX": "hidden",
+          "position": "static"
+        },
+        {
+          "selector": "figure.story-visual.story-photo.visual-red-court",
+          "left": 329,
+          "right": 631,
+          "width": 302,
+          "overflowX": "hidden",
+          "position": "relative"
+        },
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": 312,
+          "right": 648,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "img.story-photo-image",
+          "left": 330,
+          "right": 630,
+          "width": 300,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "div",
+          "left": 329,
+          "right": 631,
+          "width": 302,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "h3",
+          "left": 346,
+          "right": 614,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "p",
+          "left": 346,
+          "right": 614,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a.related-card",
+          "left": 645,
+          "right": 950,
+          "width": 304,
+          "overflowX": "hidden",
+          "position": "static"
+        },
+        {
+          "selector": "figure.story-visual.story-photo.visual-night-pitch",
+          "left": 646,
+          "right": 949,
+          "width": 302,
+          "overflowX": "hidden",
+          "position": "relative"
+        },
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": 629,
+          "right": 966,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "img.story-photo-image",
+          "left": 647,
+          "right": 948,
+          "width": 300,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "div",
+          "left": 646,
+          "right": 949,
+          "width": 302,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "span.eyebrow",
+          "left": 663,
+          "right": 770,
+          "width": 106,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "h3",
+          "left": 663,
+          "right": 932,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "p",
+          "left": 663,
+          "right": 932,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        }
+      ]
+    },
+    {
+      "id": "gary-trent-probe-390",
+      "path": "/article/gary-trent-bucks-contract-nba-probe",
+      "width": 390,
+      "height": 844,
+      "statusCode": 200,
+      "screenshot": "gary-trent-probe-390.png",
+      "localResourceFailures": [],
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "noHorizontalOverflow": true,
+      "stylesheetRuleCount": 666,
+      "overflow": [
+        {
+          "selector": "img.article-image-backdrop",
+          "left": -19,
+          "right": 410,
+          "width": 429,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": -5,
+          "right": 331,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "a.related-card",
+          "left": 328,
+          "right": 632,
+          "width": 304,
+          "overflowX": "hidden",
+          "position": "static"
+        },
+        {
+          "selector": "figure.story-visual.story-photo.visual-red-court",
+          "left": 329,
+          "right": 631,
+          "width": 302,
+          "overflowX": "hidden",
+          "position": "relative"
+        },
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": 312,
+          "right": 648,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "img.story-photo-image",
+          "left": 330,
+          "right": 630,
+          "width": 300,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "div",
+          "left": 329,
+          "right": 631,
+          "width": 302,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "h3",
+          "left": 346,
+          "right": 614,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "p",
+          "left": 346,
+          "right": 614,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a.related-card",
+          "left": 645,
+          "right": 950,
+          "width": 304,
+          "overflowX": "hidden",
+          "position": "static"
+        },
+        {
+          "selector": "figure.story-visual.story-photo.visual-night-pitch",
+          "left": 646,
+          "right": 949,
+          "width": 302,
+          "overflowX": "hidden",
+          "position": "relative"
+        },
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": 629,
+          "right": 966,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "img.story-photo-image",
+          "left": 647,
+          "right": 948,
+          "width": 300,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "div",
+          "left": 646,
+          "right": 949,
+          "width": 302,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "span.eyebrow",
+          "left": 663,
+          "right": 770,
+          "width": 106,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "h3",
+          "left": 663,
+          "right": 932,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "p",
+          "left": 663,
+          "right": 932,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        }
+      ]
+    },
+    {
+      "id": "kanichowsky-390",
+      "path": "/article/gabi-kanichowsky-ferencvaros-vojvodina-twente-europa-league",
+      "width": 390,
+      "height": 844,
+      "statusCode": 200,
+      "screenshot": "kanichowsky-390.png",
+      "localResourceFailures": [],
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "noHorizontalOverflow": true,
+      "stylesheetRuleCount": 666,
+      "overflow": [
+        {
+          "selector": "img.article-image-backdrop",
+          "left": -19,
+          "right": 410,
+          "width": 429,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": -5,
+          "right": 331,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "a.related-card",
+          "left": 328,
+          "right": 632,
+          "width": 304,
+          "overflowX": "hidden",
+          "position": "static"
+        },
+        {
+          "selector": "figure.story-visual.story-photo.visual-blue-court",
+          "left": 329,
+          "right": 631,
+          "width": 302,
+          "overflowX": "hidden",
+          "position": "relative"
+        },
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": 312,
+          "right": 648,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "img.story-photo-image",
+          "left": 330,
+          "right": 630,
+          "width": 300,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "div",
+          "left": 329,
+          "right": 631,
+          "width": 302,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "span.eyebrow",
+          "left": 346,
+          "right": 456,
+          "width": 110,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "h3",
+          "left": 346,
+          "right": 614,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "p",
+          "left": 346,
+          "right": 614,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a.related-card",
+          "left": 645,
+          "right": 950,
+          "width": 304,
+          "overflowX": "hidden",
+          "position": "static"
+        },
+        {
+          "selector": "figure.story-visual.story-photo.visual-transfer-grid",
+          "left": 646,
+          "right": 949,
+          "width": 302,
+          "overflowX": "hidden",
+          "position": "relative"
+        },
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": 629,
+          "right": 966,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "img.story-photo-image",
+          "left": 647,
+          "right": 948,
+          "width": 300,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "div",
+          "left": 646,
+          "right": 949,
+          "width": 302,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "span.eyebrow",
+          "left": 663,
+          "right": 773,
+          "width": 110,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "h3",
+          "left": 663,
+          "right": 932,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "p",
+          "left": 663,
+          "right": 932,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        }
+      ]
+    },
+    {
+      "id": "long-beach-sailing-390",
+      "path": "/article/steinberg-kantor-long-beach-iqfoil-sixth-eighth",
+      "width": 390,
+      "height": 844,
+      "statusCode": 200,
+      "screenshot": "long-beach-sailing-390.png",
+      "localResourceFailures": [],
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "noHorizontalOverflow": true,
+      "stylesheetRuleCount": 666,
+      "overflow": [
+        {
+          "selector": "img.article-image-backdrop",
+          "left": -19,
+          "right": 410,
+          "width": 429,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": -5,
+          "right": 331,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "a.related-card",
+          "left": 328,
+          "right": 632,
+          "width": 304,
+          "overflowX": "hidden",
+          "position": "static"
+        },
+        {
+          "selector": "figure.story-visual.story-photo.visual-night-pitch",
+          "left": 329,
+          "right": 631,
+          "width": 302,
+          "overflowX": "hidden",
+          "position": "relative"
+        },
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": 312,
+          "right": 648,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "img.story-photo-image",
+          "left": 330,
+          "right": 630,
+          "width": 300,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "div",
+          "left": 329,
+          "right": 631,
+          "width": 302,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "span.eyebrow",
+          "left": 346,
+          "right": 453,
+          "width": 106,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "h3",
+          "left": 346,
+          "right": 614,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "p",
+          "left": 346,
+          "right": 614,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a.related-card",
+          "left": 645,
+          "right": 950,
+          "width": 304,
+          "overflowX": "hidden",
+          "position": "static"
+        },
+        {
+          "selector": "figure.story-visual.story-photo.visual-night-pitch",
+          "left": 646,
+          "right": 949,
+          "width": 302,
+          "overflowX": "hidden",
+          "position": "relative"
+        },
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": 629,
+          "right": 966,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "img.story-photo-image",
+          "left": 647,
+          "right": 948,
+          "width": 300,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "div",
+          "left": 646,
+          "right": 949,
+          "width": 302,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "span.eyebrow",
+          "left": 663,
+          "right": 770,
+          "width": 106,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "h3",
+          "left": 663,
+          "right": 932,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "p",
+          "left": 663,
+          "right": 932,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        }
+      ]
+    },
+    {
+      "id": "world-cup-rings-390",
+      "path": "/article/fifa-world-cup-2026-champions-rings",
+      "width": 390,
+      "height": 844,
+      "statusCode": 200,
+      "screenshot": "world-cup-rings-390.png",
+      "localResourceFailures": [],
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "noHorizontalOverflow": true,
+      "stylesheetRuleCount": 666,
+      "overflow": [
+        {
+          "selector": "img.article-image-backdrop",
+          "left": -19,
+          "right": 410,
+          "width": 429,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": -5,
+          "right": 331,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "a.related-card",
+          "left": 328,
+          "right": 632,
+          "width": 304,
+          "overflowX": "hidden",
+          "position": "static"
+        },
+        {
+          "selector": "figure.story-visual.story-photo.visual-night-pitch",
+          "left": 329,
+          "right": 631,
+          "width": 302,
+          "overflowX": "hidden",
+          "position": "relative"
+        },
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": 312,
+          "right": 648,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "img.story-photo-image",
+          "left": 330,
+          "right": 630,
+          "width": 300,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "div",
+          "left": 329,
+          "right": 631,
+          "width": 302,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "span.eyebrow",
+          "left": 346,
+          "right": 453,
+          "width": 106,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "h3",
+          "left": 346,
+          "right": 614,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "p",
+          "left": 346,
+          "right": 614,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a.related-card",
+          "left": 645,
+          "right": 950,
+          "width": 304,
+          "overflowX": "hidden",
+          "position": "static"
+        },
+        {
+          "selector": "figure.story-visual.story-photo.visual-press-box",
+          "left": 646,
+          "right": 949,
+          "width": 302,
+          "overflowX": "hidden",
+          "position": "relative"
+        },
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": 629,
+          "right": 966,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "img.story-photo-image",
+          "left": 647,
+          "right": 948,
+          "width": 300,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "div",
+          "left": 646,
+          "right": 949,
+          "width": 302,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "span.eyebrow",
+          "left": 663,
+          "right": 770,
+          "width": 106,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "h3",
+          "left": 663,
+          "right": 932,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "p",
+          "left": 663,
+          "right": 932,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        }
+      ]
+    },
+    {
+      "id": "motley-red-star-390",
+      "path": "/article/red-star-talks-hapoel-tel-aviv-johnathan-motley",
+      "width": 390,
+      "height": 844,
+      "statusCode": 200,
+      "screenshot": "motley-red-star-390.png",
+      "localResourceFailures": [],
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "noHorizontalOverflow": true,
+      "stylesheetRuleCount": 666,
+      "overflow": [
+        {
+          "selector": "img.article-image-backdrop",
+          "left": -19,
+          "right": 410,
+          "width": 429,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": -5,
+          "right": 331,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "a.related-card",
+          "left": 328,
+          "right": 632,
+          "width": 304,
+          "overflowX": "hidden",
+          "position": "static"
+        },
+        {
+          "selector": "figure.story-visual.story-photo.visual-night-pitch",
+          "left": 329,
+          "right": 631,
+          "width": 302,
+          "overflowX": "hidden",
+          "position": "relative"
+        },
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": 312,
+          "right": 648,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "img.story-photo-image",
+          "left": 330,
+          "right": 630,
+          "width": 300,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "div",
+          "left": 329,
+          "right": 631,
+          "width": 302,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "span.eyebrow",
+          "left": 346,
+          "right": 477,
+          "width": 131,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "h3",
+          "left": 346,
+          "right": 614,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "p",
+          "left": 346,
+          "right": 614,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a.related-card",
+          "left": 645,
+          "right": 950,
+          "width": 304,
+          "overflowX": "hidden",
+          "position": "static"
+        },
+        {
+          "selector": "figure.story-visual.story-photo.visual-night-pitch",
+          "left": 646,
+          "right": 949,
+          "width": 302,
+          "overflowX": "hidden",
+          "position": "relative"
+        },
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": 629,
+          "right": 966,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "img.story-photo-image",
+          "left": 647,
+          "right": 948,
+          "width": 300,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "div",
+          "left": 646,
+          "right": 949,
+          "width": 302,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "span.eyebrow",
+          "left": 663,
+          "right": 794,
+          "width": 131,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "h3",
+          "left": 663,
+          "right": 932,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "p",
+          "left": 663,
+          "right": 932,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        }
+      ]
+    },
+    {
+      "id": "argentina-malvinas-390",
+      "path": "/article/argentina-malvinas-banner-england-world-cup-semifinal",
+      "width": 390,
+      "height": 844,
+      "statusCode": 200,
+      "screenshot": "argentina-malvinas-390.png",
+      "localResourceFailures": [],
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "noHorizontalOverflow": true,
+      "stylesheetRuleCount": 666,
+      "overflow": [
+        {
+          "selector": "img.article-image-backdrop",
+          "left": -19,
+          "right": 410,
+          "width": 429,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": -5,
+          "right": 331,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "a.related-card",
+          "left": 328,
+          "right": 632,
+          "width": 304,
+          "overflowX": "hidden",
+          "position": "static"
+        },
+        {
+          "selector": "figure.story-visual.story-photo.visual-night-pitch",
+          "left": 329,
+          "right": 631,
+          "width": 302,
+          "overflowX": "hidden",
+          "position": "relative"
+        },
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": 312,
+          "right": 648,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "img.story-photo-image",
+          "left": 330,
+          "right": 630,
+          "width": 300,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "div",
+          "left": 329,
+          "right": 631,
+          "width": 302,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "span.eyebrow",
+          "left": 346,
+          "right": 453,
+          "width": 106,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "h3",
+          "left": 346,
+          "right": 614,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "p",
+          "left": 346,
+          "right": 614,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a.related-card",
+          "left": 645,
+          "right": 950,
+          "width": 304,
+          "overflowX": "hidden",
+          "position": "static"
+        },
+        {
+          "selector": "figure.story-visual.story-photo.visual-world-cup-gold",
+          "left": 646,
+          "right": 949,
+          "width": 302,
+          "overflowX": "hidden",
+          "position": "relative"
+        },
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": 629,
+          "right": 966,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "img.story-photo-image",
+          "left": 647,
+          "right": 948,
+          "width": 300,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "div",
+          "left": 646,
+          "right": 949,
+          "width": 302,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "span.eyebrow",
+          "left": 663,
+          "right": 770,
+          "width": 106,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "h3",
+          "left": 663,
+          "right": 932,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "p",
+          "left": 663,
+          "right": 932,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        }
+      ]
+    },
+    {
+      "id": "maccabi-haifa-womens-academy-390",
+      "path": "/article/maccabi-haifa-womens-basketball-academy-reali-school",
+      "width": 390,
+      "height": 844,
+      "statusCode": 200,
+      "screenshot": "maccabi-haifa-womens-academy-390.png",
+      "localResourceFailures": [],
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "noHorizontalOverflow": true,
+      "stylesheetRuleCount": 666,
+      "overflow": [
+        {
+          "selector": "img.article-image-backdrop",
+          "left": -19,
+          "right": 410,
+          "width": 429,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": -5,
+          "right": 331,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "a.related-card",
+          "left": 328,
+          "right": 632,
+          "width": 304,
+          "overflowX": "hidden",
+          "position": "static"
+        },
+        {
+          "selector": "figure.story-visual.story-photo.visual-night-pitch",
+          "left": 329,
+          "right": 631,
+          "width": 302,
+          "overflowX": "hidden",
+          "position": "relative"
+        },
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": 312,
+          "right": 648,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "img.story-photo-image",
+          "left": 330,
+          "right": 630,
+          "width": 300,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "div",
+          "left": 329,
+          "right": 631,
+          "width": 302,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "span.eyebrow",
+          "left": 346,
+          "right": 477,
+          "width": 131,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "h3",
+          "left": 346,
+          "right": 614,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "p",
+          "left": 346,
+          "right": 614,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a.related-card",
+          "left": 645,
+          "right": 950,
+          "width": 304,
+          "overflowX": "hidden",
+          "position": "static"
+        },
+        {
+          "selector": "figure.story-visual.story-photo.visual-night-pitch",
+          "left": 646,
+          "right": 949,
+          "width": 302,
+          "overflowX": "hidden",
+          "position": "relative"
+        },
+        {
+          "selector": "img.story-photo-backdrop",
+          "left": 629,
+          "right": 966,
+          "width": 336,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "img.story-photo-image",
+          "left": 647,
+          "right": 948,
+          "width": 300,
+          "overflowX": "clip",
+          "position": "absolute"
+        },
+        {
+          "selector": "div",
+          "left": 646,
+          "right": 949,
+          "width": 302,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "span.eyebrow",
+          "left": 663,
+          "right": 794,
+          "width": 131,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "h3",
+          "left": 663,
+          "right": 932,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "p",
+          "left": 663,
+          "right": 932,
+          "width": 268,
+          "overflowX": "visible",
+          "position": "static"
+        }
+      ]
+    },
+    {
+      "id": "corrections-390",
+      "path": "/corrections",
+      "width": 390,
+      "height": 844,
+      "statusCode": 200,
+      "screenshot": "corrections-390.png",
+      "localResourceFailures": [],
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "noHorizontalOverflow": true,
+      "stylesheetRuleCount": 666,
+      "overflow": []
+    },
+    {
+      "id": "privacy-390",
+      "path": "/privacy",
+      "width": 390,
+      "height": 844,
+      "statusCode": 200,
+      "screenshot": "privacy-390.png",
+      "localResourceFailures": [],
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "noHorizontalOverflow": true,
+      "stylesheetRuleCount": 666,
+      "overflow": []
+    },
+    {
+      "id": "terms-390",
+      "path": "/terms",
+      "width": 390,
+      "height": 844,
+      "statusCode": 200,
+      "screenshot": "terms-390.png",
+      "localResourceFailures": [],
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "noHorizontalOverflow": true,
+      "stylesheetRuleCount": 666,
+      "overflow": []
+    },
+    {
+      "id": "commercial-independence-390",
+      "path": "/commercial-independence",
+      "width": 390,
+      "height": 844,
+      "statusCode": 200,
+      "screenshot": "commercial-independence-390.png",
+      "localResourceFailures": [],
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "noHorizontalOverflow": true,
+      "stylesheetRuleCount": 666,
+      "overflow": []
+    },
+    {
+      "id": "about-390",
+      "path": "/about",
+      "width": 390,
+      "height": 844,
+      "statusCode": 200,
+      "screenshot": "about-390.png",
+      "localResourceFailures": [],
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "noHorizontalOverflow": true,
+      "stylesheetRuleCount": 666,
+      "overflow": []
+    },
+    {
+      "id": "home-1440",
+      "path": "/",
+      "width": 1440,
+      "height": 1000,
+      "statusCode": 200,
+      "screenshot": "home-1440.png",
+      "localResourceFailures": [],
+      "viewportWidth": 1440,
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "noHorizontalOverflow": true,
+      "stylesheetRuleCount": 666,
+      "overflow": [
+        {
+          "selector": "div.ticker-track",
+          "left": 79,
+          "right": 7992,
+          "width": 7912,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 1256,
+          "right": 1612,
+          "width": 357,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 1612,
+          "right": 2040,
+          "width": 428,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 2040,
+          "right": 2498,
+          "width": 458,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 2498,
+          "right": 2974,
+          "width": 476,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 2974,
+          "right": 3476,
+          "width": 502,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 3476,
+          "right": 4035,
+          "width": 560,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 4035,
+          "right": 4591,
+          "width": 556,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 4591,
+          "right": 5212,
+          "width": 621,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 5212,
+          "right": 5569,
+          "width": 357,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 5569,
+          "right": 5996,
+          "width": 428,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 5996,
+          "right": 6455,
+          "width": 458,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 6455,
+          "right": 6930,
+          "width": 476,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 6930,
+          "right": 7432,
+          "width": 502,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a",
+          "left": 7432,
+          "right": 7992,
+          "width": 560,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a.score-rail-card",
+          "left": 1320,
+          "right": 1552,
+          "width": 232,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "div.score-rail-meta",
+          "left": 1334,
+          "right": 1538,
+          "width": 204,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "span",
+          "left": 1448,
+          "right": 1469,
+          "width": 22,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "div.score-team-row",
+          "left": 1334,
+          "right": 1538,
+          "width": 204,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "strong",
+          "left": 1366,
+          "right": 1522,
+          "width": 156,
+          "overflowX": "hidden",
+          "position": "static"
+        },
+        {
+          "selector": "b",
+          "left": 1529,
+          "right": 1538,
+          "width": 9,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "div.score-team-row",
+          "left": 1334,
+          "right": 1538,
+          "width": 204,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "strong",
+          "left": 1366,
+          "right": 1522,
+          "width": 156,
+          "overflowX": "hidden",
+          "position": "static"
+        },
+        {
+          "selector": "b",
+          "left": 1529,
+          "right": 1538,
+          "width": 9,
+          "overflowX": "visible",
+          "position": "static"
+        },
+        {
+          "selector": "a.score-rail-card",
+          "left": 1562,
+          "right": 1794,
+          "width": 232,
+          "overflowX": "visible",
+          "position": "static"
+        }
+      ]
+    },
+    {
+      "id": "super-cup-recap-1440",
+      "path": "/article/kanaan-absence-gives-super-cup-preparation-an-early-edge",
+      "width": 1440,
+      "height": 1000,
+      "statusCode": 200,
+      "screenshot": "super-cup-recap-1440.png",
+      "localResourceFailures": [],
+      "viewportWidth": 1440,
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "noHorizontalOverflow": true,
+      "stylesheetRuleCount": 666,
+      "overflow": []
+    },
+    {
+      "id": "blorian-mls-recap-1440",
+      "path": "/article/or-blorian-mls-debut-st-louis-sporting-kc-3-2",
+      "width": 1440,
+      "height": 1000,
+      "statusCode": 200,
+      "screenshot": "blorian-mls-recap-1440.png",
+      "localResourceFailures": [],
+      "viewportWidth": 1440,
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "noHorizontalOverflow": true,
+      "stylesheetRuleCount": 666,
+      "overflow": []
+    },
+    {
+      "id": "basketball-recap-1440",
+      "path": "/article/israel-u20-italy-84-59-division-a-safety",
+      "width": 1440,
+      "height": 1000,
+      "statusCode": 200,
+      "screenshot": "basketball-recap-1440.png",
+      "localResourceFailures": [],
+      "viewportWidth": 1440,
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "noHorizontalOverflow": true,
+      "stylesheetRuleCount": 666,
+      "overflow": []
+    },
+    {
+      "id": "club-basketball-recap-1440",
+      "path": "/article/saraf-wolf-brooklyn-houston-summer-league-loss",
+      "width": 1440,
+      "height": 1000,
+      "statusCode": 200,
+      "screenshot": "club-basketball-recap-1440.png",
+      "localResourceFailures": [],
+      "viewportWidth": 1440,
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "noHorizontalOverflow": true,
+      "stylesheetRuleCount": 666,
+      "overflow": []
+    },
+    {
+      "id": "world-cup-smoke-1440",
+      "path": "/article/wildfire-smoke-spain-training-world-cup-final",
+      "width": 1440,
+      "height": 1000,
+      "statusCode": 200,
+      "screenshot": "world-cup-smoke-1440.png",
+      "localResourceFailures": [],
+      "viewportWidth": 1440,
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "noHorizontalOverflow": true,
+      "stylesheetRuleCount": 666,
+      "overflow": []
+    },
+    {
+      "id": "world-cup-referee-1440",
+      "path": "/article/slavko-vincic-world-cup-final-referee",
+      "width": 1440,
+      "height": 1000,
+      "statusCode": 200,
+      "screenshot": "world-cup-referee-1440.png",
+      "localResourceFailures": [],
+      "viewportWidth": 1440,
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "noHorizontalOverflow": true,
+      "stylesheetRuleCount": 666,
+      "overflow": []
+    },
+    {
+      "id": "giannis-miami-introduction-1440",
+      "path": "/article/giannis-antetokounmpo-miami-heat-introduction-title-path",
+      "width": 1440,
+      "height": 1000,
+      "statusCode": 200,
+      "screenshot": "giannis-miami-introduction-1440.png",
+      "localResourceFailures": [],
+      "viewportWidth": 1440,
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "noHorizontalOverflow": true,
+      "stylesheetRuleCount": 666,
+      "overflow": []
+    },
+    {
+      "id": "gary-trent-probe-1440",
+      "path": "/article/gary-trent-bucks-contract-nba-probe",
+      "width": 1440,
+      "height": 1000,
+      "statusCode": 200,
+      "screenshot": "gary-trent-probe-1440.png",
+      "localResourceFailures": [],
+      "viewportWidth": 1440,
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "noHorizontalOverflow": true,
+      "stylesheetRuleCount": 666,
+      "overflow": []
+    },
+    {
+      "id": "kanichowsky-1440",
+      "path": "/article/gabi-kanichowsky-ferencvaros-vojvodina-twente-europa-league",
+      "width": 1440,
+      "height": 1000,
+      "statusCode": 200,
+      "screenshot": "kanichowsky-1440.png",
+      "localResourceFailures": [],
+      "viewportWidth": 1440,
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "noHorizontalOverflow": true,
+      "stylesheetRuleCount": 666,
+      "overflow": []
+    },
+    {
+      "id": "long-beach-sailing-1440",
+      "path": "/article/steinberg-kantor-long-beach-iqfoil-sixth-eighth",
+      "width": 1440,
+      "height": 1000,
+      "statusCode": 200,
+      "screenshot": "long-beach-sailing-1440.png",
+      "localResourceFailures": [],
+      "viewportWidth": 1440,
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "noHorizontalOverflow": true,
+      "stylesheetRuleCount": 666,
+      "overflow": []
+    },
+    {
+      "id": "world-cup-rings-1440",
+      "path": "/article/fifa-world-cup-2026-champions-rings",
+      "width": 1440,
+      "height": 1000,
+      "statusCode": 200,
+      "screenshot": "world-cup-rings-1440.png",
+      "localResourceFailures": [],
+      "viewportWidth": 1440,
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "noHorizontalOverflow": true,
+      "stylesheetRuleCount": 666,
+      "overflow": []
+    },
+    {
+      "id": "motley-red-star-1440",
+      "path": "/article/red-star-talks-hapoel-tel-aviv-johnathan-motley",
+      "width": 1440,
+      "height": 1000,
+      "statusCode": 200,
+      "screenshot": "motley-red-star-1440.png",
+      "localResourceFailures": [],
+      "viewportWidth": 1440,
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "noHorizontalOverflow": true,
+      "stylesheetRuleCount": 666,
+      "overflow": []
+    },
+    {
+      "id": "argentina-malvinas-1440",
+      "path": "/article/argentina-malvinas-banner-england-world-cup-semifinal",
+      "width": 1440,
+      "height": 1000,
+      "statusCode": 200,
+      "screenshot": "argentina-malvinas-1440.png",
+      "localResourceFailures": [],
+      "viewportWidth": 1440,
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "noHorizontalOverflow": true,
+      "stylesheetRuleCount": 666,
+      "overflow": []
+    },
+    {
+      "id": "maccabi-haifa-womens-academy-1440",
+      "path": "/article/maccabi-haifa-womens-basketball-academy-reali-school",
+      "width": 1440,
+      "height": 1000,
+      "statusCode": 200,
+      "screenshot": "maccabi-haifa-womens-academy-1440.png",
+      "localResourceFailures": [],
+      "viewportWidth": 1440,
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "noHorizontalOverflow": true,
+      "stylesheetRuleCount": 666,
+      "overflow": []
+    },
+    {
+      "id": "corrections-1440",
+      "path": "/corrections",
+      "width": 1440,
+      "height": 1000,
+      "statusCode": 200,
+      "screenshot": "corrections-1440.png",
+      "localResourceFailures": [],
+      "viewportWidth": 1440,
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "noHorizontalOverflow": true,
+      "stylesheetRuleCount": 666,
+      "overflow": []
+    },
+    {
+      "id": "privacy-1440",
+      "path": "/privacy",
+      "width": 1440,
+      "height": 1000,
+      "statusCode": 200,
+      "screenshot": "privacy-1440.png",
+      "localResourceFailures": [],
+      "viewportWidth": 1440,
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "noHorizontalOverflow": true,
+      "stylesheetRuleCount": 666,
+      "overflow": []
+    },
+    {
+      "id": "terms-1440",
+      "path": "/terms",
+      "width": 1440,
+      "height": 1000,
+      "statusCode": 200,
+      "screenshot": "terms-1440.png",
+      "localResourceFailures": [],
+      "viewportWidth": 1440,
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "noHorizontalOverflow": true,
+      "stylesheetRuleCount": 666,
+      "overflow": []
+    },
+    {
+      "id": "commercial-independence-1440",
+      "path": "/commercial-independence",
+      "width": 1440,
+      "height": 1000,
+      "statusCode": 200,
+      "screenshot": "commercial-independence-1440.png",
+      "localResourceFailures": [],
+      "viewportWidth": 1440,
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "noHorizontalOverflow": true,
+      "stylesheetRuleCount": 666,
+      "overflow": []
+    },
+    {
+      "id": "about-1440",
+      "path": "/about",
+      "width": 1440,
+      "height": 1000,
+      "statusCode": 200,
+      "screenshot": "about-1440.png",
+      "localResourceFailures": [],
+      "viewportWidth": 1440,
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "noHorizontalOverflow": true,
+      "stylesheetRuleCount": 666,
+      "overflow": []
+    }
+  ]
+}

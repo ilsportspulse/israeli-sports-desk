@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ilsp.example/schemas/v1/score-event.schema.json",
+  "title": "ILSP score event v1",
+  "type": "object",
+  "required": ["schemaVersion", "id", "sport", "competition", "scheduledAt", "status", "home", "away", "lastConfirmedAt"],
+  "properties": {
+    "schemaVersion": { "const": "1.0" },
+    "id": { "type": "string", "minLength": 1 },
+    "sport": { "type": "string", "minLength": 1 },
+    "competition": { "type": "string", "minLength": 1 },
+    "scheduledAt": { "type": ["string", "null"], "format": "date-time" },
+    "status": { "enum": ["scheduled", "live", "finished"] },
+    "home": { "$ref": "#/$defs/participant" },
+    "away": { "$ref": "#/$defs/participant" },
+    "lastConfirmedAt": { "type": "string", "format": "date-time" }
+  },
+  "$defs": {
+    "participant": {
+      "type": "object",
+      "required": ["id", "name", "score"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "name": { "type": "string", "minLength": 1 },
+        "score": { "type": ["integer", "null"], "minimum": 0 }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" role="img" aria-labelledby="title desc">
+  <title id="title">ILSP score card square template</title>
+  <desc id="desc">Square score template with premium navy background, team marks, confirmed status, score and scorers.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#061631"/><stop offset="1" stop-color="#174276"/></linearGradient></defs>
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <circle cx="930" cy="90" r="240" fill="#155eef" opacity=".16"/>
+  <g transform="translate(56 52)"><text x="0" y="45" fill="#ffffff" font-family="Arial Black,Arial,Helvetica,sans-serif" font-size="46" font-style="italic" font-weight="900" letter-spacing="-5">ILSP</text><path d="M132 4l5 9h10l-5 9 5 9h-10l-5 9-5-9h-10l5-9-5-9h10z" fill="#4f7dff"/></g>
+  <rect x="390" y="46" width="634" height="64" rx="22" fill="#0b2349" stroke="#31558c" stroke-width="2"/>
+  <text x="707" y="86" text-anchor="middle" fill="#b8c6da" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="800" letter-spacing="3">[COMPETITION] · [STATUS]</text>
+  <text x="540" y="190" text-anchor="middle" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="35" font-weight="900">[DATE · JERUSALEM TIME]</text>
+  <g>
+    <circle cx="250" cy="402" r="118" fill="#0b2349" stroke="#4f7dff" stroke-width="5"/>
+    <circle cx="830" cy="402" r="118" fill="#0b2349" stroke="#4f7dff" stroke-width="5"/>
+    <text x="250" y="420" text-anchor="middle" fill="#9fb1ca" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="800">[CREST A]</text>
+    <text x="830" y="420" text-anchor="middle" fill="#9fb1ca" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="800">[CREST B]</text>
+    <text x="250" y="578" text-anchor="middle" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="38" font-weight="900">[TEAM A]</text>
+    <text x="830" y="578" text-anchor="middle" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="38" font-weight="900">[TEAM B]</text>
+  </g>
+  <text x="540" y="482" text-anchor="middle" fill="#ffffff" font-family="Arial Black,Arial,Helvetica,sans-serif" font-size="138" font-weight="900" letter-spacing="-7">[0–0]</text>
+  <rect x="66" y="666" width="948" height="222" rx="34" fill="#081a38" stroke="#31558c" stroke-width="2"/>
+  <text x="96" y="724" fill="#4f7dff" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="900" letter-spacing="4">MATCH DETAIL</text>
+  <text x="96" y="786" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="31" font-weight="700">[SCORERS / DECISIVE MOMENT]</text>
+  <text x="96" y="842" fill="#b8c6da" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="600">[ONE VERIFIED CONTEXT LINE]</text>
+  <rect x="66" y="940" width="948" height="76" rx="24" fill="#155eef"/>
+  <text x="96" y="990" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="900">FULL REPORT</text>
+  <text x="984" y="990" text-anchor="end" fill="#ffffff" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="800" letter-spacing="3">ILPULSE.SPORT</text>
+</svg>

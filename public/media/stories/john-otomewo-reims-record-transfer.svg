@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">John Otomewo record transfer to Stade de Reims</title>
+  <desc id="desc">Original ILSP editorial graphic showing a 1.6 million euro transfer from Hapoel Jerusalem to Stade de Reims on a five-year contract.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071a31"/>
+      <stop offset="0.54" stop-color="#0a2745"/>
+      <stop offset="1" stop-color="#4b0d18"/>
+    </linearGradient>
+    <linearGradient id="fee" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#ffbdc7"/>
+    </linearGradient>
+    <pattern id="grid" width="72" height="72" patternUnits="userSpaceOnUse">
+      <path d="M72 0H0V72" fill="none" stroke="#d8e8f7" stroke-opacity="0.055"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000" flood-opacity="0.38"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <rect width="1600" height="1000" fill="url(#grid)"/>
+  <path d="M0 0h520L290 1000H0z" fill="#1d5788" opacity="0.24"/>
+  <path d="M1600 0h-360l-190 1000h550z" fill="#d7193f" opacity="0.2"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="110" y="108" font-size="28" font-weight="700" letter-spacing="7" fill="#a9d0f2">ISRAEL SPORTS PULSE</text>
+    <rect x="110" y="146" width="1380" height="4" rx="2" fill="#f03855"/>
+    <text x="110" y="250" font-size="30" font-weight="800" letter-spacing="5" fill="#ff647d">CLUB-RECORD TRANSFER</text>
+    <text x="800" y="490" text-anchor="middle" font-size="184" font-weight="900" letter-spacing="-7" fill="url(#fee)" filter="url(#shadow)">€1.6M</text>
+    <text x="800" y="558" text-anchor="middle" font-size="31" font-weight="700" letter-spacing="7" fill="#d7e8f7">JOHN OTOMEWO • FIVE-YEAR CONTRACT</text>
+  </g>
+  <g transform="translate(135 650)" font-family="Inter, Arial, sans-serif">
+    <rect width="1330" height="190" rx="26" fill="#050e19" fill-opacity="0.8" stroke="#9bc2e5" stroke-opacity="0.24"/>
+    <g transform="translate(58 42)">
+      <circle cx="54" cy="54" r="54" fill="#b81d38"/>
+      <text x="54" y="65" text-anchor="middle" font-size="27" font-weight="900" fill="#fff">HJ</text>
+      <text x="138" y="48" font-size="31" font-weight="800" fill="#fff">HAPOEL JERUSALEM</text>
+      <text x="138" y="86" font-size="20" font-weight="600" letter-spacing="3" fill="#d6a5ae">DEVELOPING CLUB</text>
+    </g>
+    <g transform="translate(590 64)" fill="none" stroke="#ff536f" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 30h150"/>
+      <path d="M120 0l30 30-30 30"/>
+    </g>
+    <g transform="translate(940 42)">
+      <circle cx="54" cy="54" r="54" fill="#e31b3d"/>
+      <text x="54" y="65" text-anchor="middle" font-size="26" font-weight="900" fill="#fff">SDR</text>
+      <text x="135" y="48" font-size="31" font-weight="800" fill="#fff">STADE DE REIMS</text>
+      <text x="135" y="86" font-size="20" font-weight="600" letter-spacing="3" fill="#ff9aaa">LIGUE 2 • FRANCE</text>
+    </g>
+  </g>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="110" y="928" font-size="24" font-weight="700" letter-spacing="3" fill="#aecce7">19 YEARS • 21 SENIOR APPEARANCES</text>
+    <text x="1490" y="928" text-anchor="end" font-size="22" font-weight="700" letter-spacing="3" fill="#ff5e78">ILSP EDITORIAL VISUAL</text>
+  </g>
+</svg>
