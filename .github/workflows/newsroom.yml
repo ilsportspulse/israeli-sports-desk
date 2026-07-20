@@ -48,6 +48,11 @@ jobs:
           NEWSROOM_MAX_CANDIDATES: ${{ github.event.inputs.max_candidates || '6' }}
         run: node scripts/newsroom-run.mjs
 
+      - name: Refresh governance evidence snapshot (keeps the full gate green)
+        # Re-takes the â¤12h current-story snapshot from the freshest published
+        # stories so the founder-governance suite stays valid without weakening it.
+        run: node scripts/refresh-social-launch-snapshot.mjs
+
       - name: Quality gate (audit + tests must pass before publishing)
         run: |
           npm run audit
