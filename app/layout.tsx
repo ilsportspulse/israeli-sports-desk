@@ -4,6 +4,7 @@ import { Archivo, Inter } from "next/font/google";
 
 import { AnalyticsBeacon } from "@/components/analytics-beacon";
 import { MobileBottomNav } from "@/components/mobile-bottom-nav";
+import { RouteProgress } from "@/components/route-progress";
 import { siteConfig } from "@/config/site";
 import { getSettings } from "@/lib/admin/settings";
 import { getLocaleDefinition } from "@/lib/locales";
@@ -107,6 +108,7 @@ export default async function RootLayout({ children }: { children: ReactNode }) 
   return (
     <html lang={localeDef.code} dir={localeDef.direction} className={`${inter.variable} ${archivo.variable}`} suppressHydrationWarning>
       <body>
+        <RouteProgress />
         {children}
         <MobileBottomNav />
         <AnalyticsBeacon />

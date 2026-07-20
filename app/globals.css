@@ -1457,3 +1457,9 @@ html { scroll-behavior: smooth; }
 @media (max-width: 620px) {
   .about-values, .about-standards { grid-template-columns: 1fr; }
 }
+
+/* Top route-progress bar — instant feedback on every navigation (incl. language switch) */
+.route-progress { position: fixed; top: 0; left: 0; height: 3px; width: 0; z-index: 2000; background: linear-gradient(90deg, var(--blue, #155eef), #5f96ff); opacity: 0; pointer-events: none; box-shadow: 0 0 8px rgba(21,94,239,.5); }
+.route-progress.on { width: 92%; opacity: 1; transition: width 6s cubic-bezier(.05,.8,.2,1); }
+/* Competition badge shows a real league crest when supplied */
+.comp-hero-badge .team-crest { width: 40px; height: 40px; font-size: 13px; }

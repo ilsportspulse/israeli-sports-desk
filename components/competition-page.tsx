@@ -60,7 +60,9 @@ export function CompetitionPage({
   const { name, sport, season, live, upcoming, recent, table, articles } = competition;
   const current = activeSlug ?? competition.slug;
   const matches = [...live, ...upcoming, ...recent].slice(0, 12);
-  const badge = sport.slice(0, 3).toUpperCase() || "•";
+  // Neat monogram from the competition name (e.g. "Israeli Premier League" -> "IPL").
+  const leagueBadge = matches[0]?.leagueBadge;
+  const badge = name.split(/\s+/).map((w) => w[0]).filter((c) => /[A-Za-z0-9]/.test(c)).join("").slice(0, 3).toUpperCase() || sport.slice(0, 2).toUpperCase() || "•";
 
   return (
     <div className="competition-page">
@@ -71,7 +73,7 @@ export function CompetitionPage({
             <Link href="/" className="comp-back"><HomeIcon size={16} /> Home</Link>
           </div>
           <div className="comp-hero-title">
-            <span className="comp-hero-badge">{badge}</span>
+            <span className="comp-hero-badge">{leagueBadge ? <TeamCrest name={name} logo={leagueBadge} /> : badge}</span>
             <div>
               <h1>{name}</h1>
               {season ? <p className="comp-hero-sub">{season}</p> : null}
