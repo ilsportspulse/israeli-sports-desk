@@ -8,3 +8,5 @@ npm-debug.log*
 *.tsbuildinfo
 data/ingestion-state.json
 data/ingestion-report.json
+.vercel
+.env*
