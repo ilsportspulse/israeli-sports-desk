@@ -5,26 +5,39 @@
 // "review". The workflow runs audit + tests afterwards, so a malformed cycle is
 // never committed. Designed to be conservative: when in doubt, hold.
 
-import { execSync } from "node:child_process";
+import { execSync, execFileSync } from "node:child_process";
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
-import Anthropic from "@anthropic-ai/sdk";
-
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const MODEL = process.env.ANTHROPIC_MODEL ?? "claude-sonnet-5";
 const MAX_CANDIDATES = Math.max(1, Number(process.env.NEWSROOM_MAX_CANDIDATES ?? 6));
-const apiKey = process.env.ANTHROPIC_API_KEY;
 
-if (!apiKey) {
-  // Skip quietly (exit 0) so scheduled runs before the key is configured don't
-  // spam failure notifications. Set ANTHROPIC_API_KEY to activate the newsroom.
-  console.log("ANTHROPIC_API_KEY is not set — skipping this cycle (newsroom not yet activated).");
+// Two ways to drive the newsroom, in priority order:
+//   1. CLI mode  — Claude Code + a Max/Pro subscription token (CLAUDE_CODE_OAUTH_TOKEN).
+//      No pay-per-use billing; runs `claude -p` headlessly in the Action.
+//   2. API mode  — a pay-per-use Anthropic API key (ANTHROPIC_API_KEY).
+// If a subscription token is present we prefer it (that's the current setup).
+const oauthToken = process.env.CLAUDE_CODE_OAUTH_TOKEN;
+const apiKey = process.env.ANTHROPIC_API_KEY;
+const MODE = oauthToken ? "cli" : apiKey ? "api" : null;
+
+if (!MODE) {
+  // Skip quietly (exit 0) so scheduled runs before auth is configured don't spam
+  // failure notifications. Set CLAUDE_CODE_OAUTH_TOKEN (Max) or ANTHROPIC_API_KEY
+  // to activate the newsroom.
+  console.log("No Claude auth configured (CLAUDE_CODE_OAUTH_TOKEN / ANTHROPIC_API_KEY) — skipping this cycle.");
   process.exit(0);
 }
 
-const client = new Anthropic({ apiKey });
+// The API client is only needed in API mode; import it lazily so CLI-mode runs
+// don't require the SDK to be installed.
+let client = null;
+if (MODE === "api") {
+  const { default: Anthropic } = await import("@anthropic-ai/sdk");
+  client = new Anthropic({ apiKey });
+}
 
 const readJson = async (rel) => JSON.parse(await readFile(path.join(root, rel), "utf8"));
 const writeJson = async (rel, value) =>
@@ -97,15 +110,82 @@ const GATES = `HARD EDITORIAL GATES — obey exactly:
 - Set confidence (0-1) honestly. Set warning to "" only if every core fact is multi-source consistent and nothing is uncertain.
 - Propose commonsQuery + up to 3 REAL Wikimedia Commons files (verify they exist) for a relevant, correctly-identified photo.`;
 
-async function draftAndVerify(candidate, todayIso) {
-  const prompt = `You are the copy desk for Israel Sports Pulse (English-language Israeli sports newsroom).
+function buildPrompt(candidate, todayIso) {
+  return `You are the copy desk for Israel Sports Pulse (English-language Israeli sports newsroom).
 Draft ONE article from this source: ${candidate.url}
 (reported title: ${candidate.title ?? "unknown"})
 
 Use web search to read the source and to verify every fact against independent sources.
 ${GATES}
 
-Fixed fields: publishedAt/updatedAt = "${todayIso}", theme = "night-pitch", pick a sensible category (e.g. "Israeli Football", "Israeli Basketball", "Israelis Abroad", "Israeli Olympic Sport", "World Football") and desk. Make id start with "live-" + date + a short slug, and a descriptive kebab slug with no publisher names.
+Fixed fields: publishedAt/updatedAt = "${todayIso}", theme = "night-pitch", pick a sensible category (e.g. "Israeli Football", "Israeli Basketball", "Israelis Abroad", "Israeli Olympic Sport", "World Football") and desk. Make id start with "live-" + date + a short slug, and a descriptive kebab slug with no publisher names.`;
+}
+
+// Pull the article object out of free-form model output (handles ```json fences
+// and surrounding prose by matching the outermost balanced {...}).
+function extractJson(text) {
+  if (!text) return null;
+  const fenced = text.match(/```(?:json)?\s*([\s\S]*?)```/i);
+  const candidates = [];
+  if (fenced) candidates.push(fenced[1]);
+  const first = text.indexOf("{");
+  const last = text.lastIndexOf("}");
+  if (first !== -1 && last > first) candidates.push(text.slice(first, last + 1));
+  candidates.push(text);
+  for (const raw of candidates) {
+    try {
+      return JSON.parse(raw.trim());
+    } catch {
+      /* try the next candidate */
+    }
+  }
+  return null;
+}
+
+// CLI mode: drive Claude Code headlessly with a subscription token. Claude Code
+// has web search/fetch built in; we ask it to end with the raw article JSON.
+function draftViaCli(candidate, todayIso) {
+  const prompt = `${buildPrompt(candidate, todayIso)}
+
+Fields required in the JSON object: id, slug, title, dek, category, desk ("israel" or "international"), kind, storyForm, publishedAt, updatedAt, readMinutes (number), source {name,url}, verificationSources [{label,url}], body (array of EXACTLY 7 strings), facts (array of >=5 strings), theme, homepagePriority (number), homepageReason, dedupeKey, aiDisclosure, nameChecks [{hebrew,english,verificationUrl,confidence}], confidence (0-1 number), warning (string, "" if none), commonsQuery, commonsCandidates [{title,creditUrl,credit,license}].
+
+Output ONLY the raw JSON object as your final message — no prose, no code fences.`;
+
+  // Headless allow-list: ONLY web read tools may run; every other tool (file
+  // writes, shell, etc.) is auto-denied. No blanket permission-skip is used — the
+  // agent can research the web and nothing else. The script, not the agent,
+  // writes the article to disk.
+  const out = execFileSync(
+    "claude",
+    [
+      "-p", prompt,
+      "--output-format", "json",
+      "--model", MODEL,
+      "--allowedTools", "WebSearch,WebFetch",
+      "--permission-mode", "default",
+    ],
+    {
+      cwd: root,
+      encoding: "utf8",
+      maxBuffer: 32 * 1024 * 1024,
+      timeout: 5 * 60 * 1000,
+      env: { ...process.env },
+    },
+  );
+
+  let resultText = out;
+  try {
+    const envelope = JSON.parse(out);
+    resultText = envelope.result ?? envelope.text ?? out;
+  } catch {
+    /* not the JSON envelope — treat stdout as the raw result */
+  }
+  return extractJson(resultText);
+}
+
+// API mode: forced tool call gives us a schema-validated object directly.
+async function draftViaApi(candidate, todayIso) {
+  const prompt = `${buildPrompt(candidate, todayIso)}
 
 Return the article by calling the tool "emit_article" with the full object. Do not write anything else.`;
 
@@ -124,6 +204,10 @@ Return the article by calling the tool "emit_article" with the full object. Do n
   return toolUse ? toolUse.input : null;
 }
 
+async function draftAndVerify(candidate, todayIso) {
+  return MODE === "cli" ? draftViaCli(candidate, todayIso) : draftViaApi(candidate, todayIso);
+}
+
 function passesGates(article) {
   if (!article) return false;
   if (typeof article.confidence !== "number" || article.confidence < 0.92) return false;
@@ -135,7 +219,7 @@ function passesGates(article) {
 }
 
 async function main() {
-  console.log(`Newsroom runner starting — model=${MODEL}, max=${MAX_CANDIDATES}`);
+  console.log(`Newsroom runner starting — mode=${MODE}, model=${MODEL}, max=${MAX_CANDIDATES}`);
 
   // 1. Discovery (writes candidates into data/ingestion-report.json).
   try {
