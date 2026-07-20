@@ -154,6 +154,35 @@ Legend: **[P1]** launch-critical · **[P2]** shortly after · **[P3]** later/sca
 - **[P1]** Editorial gate: never publish invented facts/scores; publisher-name rules per desk.
 - **[P2]** GDPR / cookie-consent config; privacy / terms / about page editor.
 
+## 14. Community & social layer (be *super original*)
+User accounts + interaction — the differentiator. Front-end features + backoffice moderation/management.
+
+### Accounts & profiles [P2]
+- Register/login (email + social), profile, avatar, **favourite teams/athletes** (personalises feed + notifications).
+- Reputation/level, badges, verified-fan status.
+
+### Comments & discussion [P2]
+- Threaded comments on articles with reactions/upvotes; sort by top/new.
+- @mentions, follow users, notifications; optional DMs [P3].
+- Real-time updates.
+
+### Original score-centre community features [P2/P3] — the standout ideas
+- **Live Match Pulse**: a realtime reaction feed per live match — fans drop emoji/short reactions tied to actual match events (goal, red card), producing a live "crowd" energy graph alongside the verified timeline.
+- **Predict-the-score**: lock a prediction before kickoff → live leaderboard + season-long **prediction league** with badges.
+- **Community Man of the Match** live voting; **fan-sentiment meter** per team.
+- **Watch-along rooms**: per-match live chat rooms (moderated), auto-created for Israeli fixtures.
+- **Co-commentary**: fans add colour while ILSP supplies the verified facts — clearly separated (fan takes vs verified).
+- **Fan zones** per club/community; polls, debates, weekly quiz tie-in.
+- All community activity feeds the internal analytics (engagement, retention).
+
+### Moderation & safety [P1 for any launch of UGC — non-negotiable]
+- **AI + human moderation**: auto-filter hate speech, incitement, spam, doxxing; queue for review; per-language (EN/HE/AR).
+- Report/block, rate-limiting, new-account throttling, **anti-brigade / raid detection** (given the elevated threat model).
+- Shadow-ban, ban, IP/device bans; full moderator audit log; appeal flow.
+- Identity/abuse controls: email verification, optional phone, no PII exposure, GDPR-compliant user data + deletion.
+- Legal guardrails: defamation/hate-speech handling, clear community rules, takedown process.
+- Backoffice: moderation dashboard, user management, roles for moderators, banned-word/rules config, all **editable from the BO** (nothing hardcoded).
+
 ## 13. System & settings
 - **[P1]** Branding editable from BO: logo, colours, fonts, tagline, favicon.
 - **[P1]** Deploy status + **cache purge / revalidate** button.
@@ -164,6 +193,14 @@ Legend: **[P1]** launch-critical · **[P2]** shortly after · **[P3]** later/sca
 ---
 
 ## Architecture notes
+
+### Extensible platform principle (build for what's next)
+The system is built as a **modular platform**, not a fixed site — new capabilities plug in without rebuilding the core:
+- **Feature modules** (comments, predictions, quizzes, games, **fantasy/manager game**, live match rooms, polls) register into a shared shell (auth, users, notifications, analytics, moderation, data feeds) via clean interfaces.
+- Everything **configurable from the backoffice** (enable/disable modules, per-module settings) — nothing hardcoded.
+- Shared building blocks reused by every module: user identity, points/badges/leaderboards, realtime channels, notifications, moderation, and the score/data layer — so a **manager game**, a **quiz** or a **prediction league** are new modules on the same rails, not separate apps.
+- API-first + versioned contracts so the web app, future iOS/Android apps and third parties consume the same data.
+
 - **Storage**: articles/media/settings persist by committing to the GitHub repo (single source of truth) → Vercel redeploys; move hot/edit-heavy data (settings, notifications, analytics) to a database (Vercel Postgres/KV) as volume grows.
 - **Auth**: password + session now; roles + 2FA next.
 - **Automation**: scheduled GitHub Action calling the Anthropic API runs the newsroom fully in the cloud (no local machine); the backoffice is its control + monitoring plane, not a manual approval queue.
