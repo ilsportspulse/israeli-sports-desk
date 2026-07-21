@@ -12,11 +12,20 @@ export const metadata = { alternates: { canonical: "/" } };
 
 export default async function HomePage() {
   const locale = getRequestLocale();
-  const [articles, scores, categoryOrder] = await Promise.all([
+  const [allArticles, scores, categoryOrder] = await Promise.all([
     Promise.resolve(getPublicArticleSummaries()),
     getScoreCentreData(),
     getCategoryOrder(),
   ]);
+
+  // The homepage only surfaces recent stories across its sections (the full archive
+  // lives on /stories). Cap to the 100 most-recent to keep the rendered page and its
+  // client hydration light — the newest archive/analysis/international items all fall
+  // well within this window, so no section loses content. This trims page weight
+  // without changing what a visitor actually sees.
+  const articles = [...allArticles]
+    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
+    .slice(0, 100);
 
   // Localise summary copy where a translation exists; fall back to English.
   const localized = articles.map((article) => {
