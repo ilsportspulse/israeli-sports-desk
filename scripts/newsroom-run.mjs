@@ -18,7 +18,7 @@ let MAX_CANDIDATES = Math.max(1, Number(process.env.NEWSROOM_MAX_CANDIDATES ?? 6
 // CLI mode runs a full Claude Code agent loop (several web-search rounds + writing)
 // per article, which is thorough but slow. Give each draft a generous wall-clock
 // budget and a turn cap so it concludes instead of running forever.
-const DRAFT_TIMEOUT_MS = Math.max(60_000, Number(process.env.NEWSROOM_DRAFT_TIMEOUT_MS ?? 6.5 * 60 * 1000));
+const DRAFT_TIMEOUT_MS = Math.max(60_000, Number(process.env.NEWSROOM_DRAFT_TIMEOUT_MS ?? 5.5 * 60 * 1000));
 const DRAFT_MAX_TURNS = Math.max(8, Number(process.env.NEWSROOM_DRAFT_MAX_TURNS ?? 40));
 
 // Two ways to drive the newsroom, in priority order:
@@ -265,10 +265,12 @@ async function main() {
   // Tour de France beat). Each self-gates to once per day, so on the 30-minute
   // schedule only the first cycle of the day produces them. Wrapped so a failure
   // here can never abort the main newsroom cycle.
+  let dailyHeavy = false; // did a slow research feature (retro/column/tour) run this cycle?
   if (gates.dailyFeatures !== false) {
     try {
       const daily = await runDailyFeatures();
       console.log("Daily features:", JSON.stringify(daily));
+      dailyHeavy = Boolean(daily?.retro?.article || daily?.column?.article || daily?.tour?.article);
     } catch (err) {
       console.warn("Daily features step failed (continuing):", err?.message?.split("\n")[0]);
     }
@@ -288,7 +290,12 @@ async function main() {
   // must stay under 30 min). API mode is fast and keeps the full requested count.
   let effectiveMax = MAX_CANDIDATES;
   if (MODE === "cli") {
-    const cliBudgetMs = Math.max(DRAFT_TIMEOUT_MS, Number(process.env.NEWSROOM_CLI_TIME_BUDGET_MS ?? 10 * 60 * 1000));
+    // Most cycles do NOT run a slow daily feature (those self-gate to once/day), so
+    // spend the freed time on more drafts — the way to publish more stories/day.
+    // On the few cycles that DID produce a daily feature, use a smaller draft budget
+    // so the whole cycle still fits the 30-minute job window.
+    const defaultBudget = (dailyHeavy ? 9 : 18) * 60 * 1000;
+    const cliBudgetMs = Math.max(DRAFT_TIMEOUT_MS, Number(process.env.NEWSROOM_CLI_TIME_BUDGET_MS ?? defaultBudget));
     const fitsBudget = Math.max(1, Math.floor(cliBudgetMs / DRAFT_TIMEOUT_MS));
     effectiveMax = Math.min(MAX_CANDIDATES, fitsBudget);
     if (effectiveMax < MAX_CANDIDATES) {
