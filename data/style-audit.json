@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T15:01:32.826Z",
+  "generatedAt": "2026-07-21T16:20:54.254Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 171,
+    "publishedArticles": 175,
     "wordCount": {
       "minimum": 266,
       "maximum": 1070,
-      "median": 490,
-      "average": 510.2
+      "median": 488,
+      "average": 507.4
     },
     "paragraphDistribution": {
       "5": 1,
-      "6": 6,
+      "6": 7,
       "7": 42,
       "8": 46,
-      "9": 32,
-      "10": 23,
+      "9": 33,
+      "10": 25,
       "11": 10,
       "12": 2,
       "13": 3,
@@ -33,13 +33,36 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.269,
+    "dominantParagraphShare": 0.263,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 6,
+    "exactSixParagraphArticles": 7,
     "analysisBelowTarget": 1,
-    "articlesWithStyleFlags": 5
+    "articlesWithStyleFlags": 6
   },
   "flagged": [
+    {
+      "id": "live-20260721-maccabi-haifa-kfar-saba-friendly",
+      "slug": "maccabi-haifa-hapoel-kfar-saba-preseason-friendly-2-0",
+      "title": "Grimberg and Mordechai on target as Maccabi Haifa lead Hapoel Kfar Saba 2-0 in preseason friendly",
+      "kind": "news",
+      "words": 275,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 60,
+        "average": 45.8
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 42,
+        "average": 27.5
+      },
+      "lexicalDiversity": 0.669,
+      "publisherAttributions": 0,
+      "flags": [
+        "below-editorial-target:275/280"
+      ]
+    },
     {
       "id": "live-20260719-dowtin-napoli",
       "slug": "jeff-dowtin-maccabi-tel-aviv-napoli-basket-eurocup",
@@ -157,6 +180,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-21-aek-withdraws-kangwa-offer",
+      "slug": "aek-athens-withdraws-kings-kangwa-offer",
+      "title": "AEK Athens Pulls Out of Kings Kangwa Deal After Beer Sheva Refuse to Rest Him for Vikingur",
+      "kind": "news",
+      "words": 445,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 25,
+        "longest": 63,
+        "average": 49.4
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 56,
+        "average": 26.2
+      },
+      "lexicalDiversity": 0.562,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260721-argentina-world-cup-final-brawl-fifa-probe",
+      "slug": "argentina-spain-world-cup-final-brawl-fifa-investigation",
+      "title": "FIFA opens investigation into Argentina after ugly brawl at World Cup final",
+      "kind": "news",
+      "words": 448,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 32,
+        "longest": 63,
+        "average": 44.8
+      },
+      "sentenceWords": {
+        "shortest": 13,
+        "longest": 50,
+        "average": 34.5
+      },
+      "lexicalDiversity": 0.627,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-21-aek-athens-withdraws-kangwa-offer",
+      "slug": "aek-athens-withdraws-kangwa-offer-beersheba-champions-league",
+      "title": "AEK Athens Pull Offer for Beersheba's Kangwa After Club Refuses to Rest Him for Vikingur Tie",
+      "kind": "news",
+      "words": 377,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 20,
+        "longest": 54,
+        "average": 37.7
+      },
+      "sentenceWords": {
+        "shortest": 3,
+        "longest": 36,
+        "average": 23.6
+      },
+      "lexicalDiversity": 0.584,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-07-21-argentina-pilot-prank",
       "slug": "spanish-pilot-argentina-fans-world-cup-prank",

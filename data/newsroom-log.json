@@ -1,5 +1,69 @@
 [
   {
+    "ts": "2026-07-21T16:14:12.613Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 6,
+    "published": 4,
+    "review": 2,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "aek-athens-withdraws-kangwa-offer-beersheba-champions-league",
+        "title": "AEK Athens Pull Offer for Beersheba's Kangwa After Club Refuses to Rest Him for Vikingur Tie",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "or-poni-hapoel-hadera-youth-transfer",
+        "title": "Playoff Hero Or Poni Leaves Nahalal Yizrael for Hapoel Hadera's Youth Ranks",
+        "confidence": 0.82,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Single-sourced to ONE's interview with the player; the coaches named (Idan Weitzman, Osher Gal) and Shahar Poni's new role are not independently corroborated beyond that article. No correctly-identified, licensable Wikimedia Commons photo of Poni, Nahalal Yizrael or Hapoel Hadera's youth setup could be verified, so no image is attached."
+      },
+      {
+        "slug": "maccabi-haifa-hapoel-kfar-saba-preseason-friendly-2-0",
+        "title": "Grimberg and Mordechai on target as Maccabi Haifa lead Hapoel Kfar Saba 2-0 in preseason friendly",
+        "confidence": 0.75,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "argentina-spain-world-cup-final-brawl-fifa-investigation",
+        "title": "FIFA opens investigation into Argentina after ugly brawl at World Cup final",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "messi-cryptic-tunnel-speech-fifa-conspiracy-claims",
+        "title": "Messi's cryptic tunnel speech before World Cup final fuels conspiracy claims against FIFA",
+        "confidence": 0.75,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "The FIFA conspiracy allegations (Infantino/UEFA deal, referee bias, foul/card disparity, broadcast bias) rest on a single Argentine journalist's claims as reported by ONE, with no evidence produced and no response yet from FIFA, UEFA, RFEF or AFA — treat as an unverified claim, not an established fact. The match result, awards and referee appointment are independently confirmed."
+      },
+      {
+        "slug": "aek-athens-withdraws-kings-kangwa-offer",
+        "title": "AEK Athens Pulls Out of Kings Kangwa Deal After Beer Sheva Refuse to Rest Him for Vikingur",
+        "confidence": 0.78,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-07-21T14:53:52.607Z",
     "mode": "cli",
     "model": "claude-sonnet-5",

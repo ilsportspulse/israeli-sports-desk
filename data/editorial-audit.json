@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T15:01:32.706Z",
+  "generatedAt": "2026-07-21T16:20:54.127Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,59 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 238,
-    "publishedBefore": 171,
-    "cleanPublished": 171,
+    "totalArticles": 244,
+    "publishedBefore": 175,
+    "cleanPublished": 175,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 171,
-    "reviewAfter": 67
+    "publishedAfter": 175,
+    "reviewAfter": 69
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-2026-07-21-aek-withdraws-kangwa-offer",
+      "slug": "aek-athens-withdraws-kings-kangwa-offer",
+      "title": "AEK Athens Pulls Out of Kings Kangwa Deal After Beer Sheva Refuse to Rest Him for Vikingur",
+      "statusBefore": "published",
+      "words": 445,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260721-argentina-world-cup-final-brawl-fifa-probe",
+      "slug": "argentina-spain-world-cup-final-brawl-fifa-investigation",
+      "title": "FIFA opens investigation into Argentina after ugly brawl at World Cup final",
+      "statusBefore": "published",
+      "words": 449,
+      "paragraphs": 10,
+      "facts": 8,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260721-maccabi-haifa-kfar-saba-friendly",
+      "slug": "maccabi-haifa-hapoel-kfar-saba-preseason-friendly-2-0",
+      "title": "Grimberg and Mordechai on target as Maccabi Haifa lead Hapoel Kfar Saba 2-0 in preseason friendly",
+      "statusBefore": "published",
+      "words": 277,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-07-21-argentina-pilot-prank",
       "slug": "spanish-pilot-argentina-fans-world-cup-prank",
@@ -1453,6 +1496,61 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-07-21-aek-withdraws-kangwa-offer",
+      "slug": "aek-athens-withdraws-kings-kangwa-offer",
+      "title": "AEK Athens Pulls Out of Kings Kangwa Deal After Beer Sheva Refuse to Rest Him for Vikingur",
+      "statusBefore": "published",
+      "words": 445,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260721-argentina-world-cup-final-brawl-fifa-probe",
+      "slug": "argentina-spain-world-cup-final-brawl-fifa-investigation",
+      "title": "FIFA opens investigation into Argentina after ugly brawl at World Cup final",
+      "statusBefore": "published",
+      "words": 449,
+      "paragraphs": 10,
+      "facts": 8,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260721-maccabi-haifa-kfar-saba-friendly",
+      "slug": "maccabi-haifa-hapoel-kfar-saba-preseason-friendly-2-0",
+      "title": "Grimberg and Mordechai on target as Maccabi Haifa lead Hapoel Kfar Saba 2-0 in preseason friendly",
+      "statusBefore": "published",
+      "words": 277,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-21-aek-athens-withdraws-kangwa-offer",
+      "slug": "aek-athens-withdraws-kangwa-offer-beersheba-champions-league",
+      "title": "AEK Athens Pull Offer for Beersheba's Kangwa After Club Refuses to Rest Him for Vikingur Tie",
+      "statusBefore": "published",
+      "words": 382,
+      "paragraphs": 10,
+      "facts": 8,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-2026-07-21-argentina-pilot-prank",
       "slug": "spanish-pilot-argentina-fans-world-cup-prank",
