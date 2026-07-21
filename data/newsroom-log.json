@@ -1,5 +1,29 @@
 [
   {
+    "ts": "2026-07-21T06:57:22.159Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 1,
+    "published": 0,
+    "review": 1,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.92,
+      "namecheckMin": 0.9,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "hapoel-beer-sheva-vikingur-reykjavik-champions-league-kangwa",
+        "title": "Kangwa set to start as champions Beer Sheva open Champions League bid in Reykjavik",
+        "confidence": 0.87,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "The source article described Kangwa's expected defensive-line role and pairing in a way that could not be independently verified; two independent registries (Wikipedia, match-preview lineups) confirm him as a midfielder, so the article describes his role that way rather than repeating an unverifiable back-line pairing. The coach's name transliteration (Kozuch/Kuziak) also varies between the Hebrew source and English coverage and could not be pinned down with full certainty."
+      }
+    ]
+  },
+  {
     "ts": "2026-07-21T05:41:31.497Z",
     "mode": "cli",
     "model": "claude-sonnet-5",

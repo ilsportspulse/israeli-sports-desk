@@ -146,14 +146,14 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-21T05:50:50Z",
-    "validUntil": "2026-07-21T17:50:50Z",
+    "checkedAt": "2026-07-21T07:01:32Z",
+    "validUntil": "2026-07-21T19:01:32Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 33,
+        "maxAgeHours": 34,
         "requires": [
           "matchRecap"
         ]
@@ -167,7 +167,7 @@
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 41,
+        "maxAgeHours": 42,
         "requires": [
           "basketballRecap"
         ]
@@ -181,7 +181,7 @@
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 51,
+        "maxAgeHours": 52,
         "requires": [
           "column"
         ]
@@ -189,14 +189,14 @@
       {
         "role": "archive",
         "articleId": "archive-20260719-helsinki-1952",
-        "maxAgeHours": 51,
+        "maxAgeHours": 52,
         "requires": [
           "historical-feature"
         ]
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-07-20-messi-world-cup-final-reaction",
+        "articleId": "live-2026-07-20-roddy-hapoel-jerusalem",
         "maxAgeHours": 24,
         "requires": []
       }

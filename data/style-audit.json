@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T06:44:03.627Z",
+  "generatedAt": "2026-07-21T07:01:32.926Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,16 +11,16 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 151,
+    "publishedArticles": 148,
     "wordCount": {
       "minimum": 266,
       "maximum": 1070,
-      "median": 496,
-      "average": 512.6
+      "median": 496.5,
+      "average": 515.6
     },
     "paragraphDistribution": {
       "5": 1,
-      "6": 4,
+      "6": 1,
       "7": 38,
       "8": 44,
       "9": 27,
@@ -33,9 +33,9 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.291,
+    "dominantParagraphShare": 0.297,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 4,
+    "exactSixParagraphArticles": 1,
     "analysisBelowTarget": 1,
     "articlesWithStyleFlags": 5
   },
@@ -1502,27 +1502,6 @@
       "flags": []
     },
     {
-      "id": "live-20260714-netanya-nwachukwu",
-      "slug": "maccabi-netanya-consider-christian-nwachukwu-sheffield-united",
-      "title": "Maccabi Netanya consider Sheffield United winger Christian Nwachukwu",
-      "kind": "news",
-      "words": 337,
-      "paragraphs": 6,
-      "paragraphWords": {
-        "shortest": 50,
-        "longest": 64,
-        "average": 56.2
-      },
-      "sentenceWords": {
-        "shortest": 6,
-        "longest": 28,
-        "average": 19.8
-      },
-      "lexicalDiversity": 0.617,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
       "id": "live-20260714-super-cup-kanaan",
       "slug": "kanaan-absence-gives-super-cup-preparation-an-early-edge",
       "title": "Ten-man Maccabi beat Be’er Sheva 3–1 to lift Super Cup",
@@ -1628,27 +1607,6 @@
       "flags": []
     },
     {
-      "id": "brief-20260714-abramov-security",
-      "slug": "barak-abramov-business-attacks-police-inquiry",
-      "title": "Fresh grenade attack hits Abramov-owned restaurant as inquiry widens",
-      "kind": "news",
-      "words": 345,
-      "paragraphs": 6,
-      "paragraphWords": {
-        "shortest": 50,
-        "longest": 61,
-        "average": 57.5
-      },
-      "sentenceWords": {
-        "shortest": 6,
-        "longest": 33,
-        "average": 20.3
-      },
-      "lexicalDiversity": 0.614,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
       "id": "brief-20260714-beitar-recruitment",
       "slug": "beitar-jerusalem-foreign-midfielder-centre-back-plan",
       "title": "Beitar target foreign midfielder and centre-back as squad plan shifts",
@@ -1667,27 +1625,6 @@
       },
       "lexicalDiversity": 0.601,
       "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260714-beitar-flares",
-      "slug": "atzili-yarden-cohen-burned-flares-beitar-open-training",
-      "title": "Atzili and Cohen burned by flares at Beitar’s open training",
-      "kind": "news",
-      "words": 412,
-      "paragraphs": 6,
-      "paragraphWords": {
-        "shortest": 58,
-        "longest": 77,
-        "average": 68.7
-      },
-      "sentenceWords": {
-        "shortest": 7,
-        "longest": 35,
-        "average": 19.6
-      },
-      "lexicalDiversity": 0.585,
-      "publisherAttributions": 1,
       "flags": []
     },
     {

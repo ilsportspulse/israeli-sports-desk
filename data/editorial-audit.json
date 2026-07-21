@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-21T06:45:12.617Z",
-  "mode": "applied",
+  "generatedAt": "2026-07-21T07:01:32.778Z",
+  "mode": "audit-only",
   "standard": {
     "minimumWords": {
       "news": 220,
@@ -17,49 +17,15 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 213,
-    "publishedBefore": 150,
+    "totalArticles": 214,
+    "publishedBefore": 148,
     "cleanPublished": 148,
-    "blockedPublished": 2,
-    "demoted": 2,
+    "blockedPublished": 0,
+    "demoted": 0,
     "publishedAfter": 148,
-    "reviewAfter": 65
+    "reviewAfter": 66
   },
-  "blockedPublished": [
-    {
-      "id": "brief-20260714-abramov-security",
-      "slug": "barak-abramov-business-attacks-police-inquiry",
-      "title": "Fresh grenade attack hits Abramov-owned restaurant as inquiry widens",
-      "statusBefore": "published",
-      "words": 345,
-      "paragraphs": 6,
-      "facts": 6,
-      "verificationSources": 2,
-      "blockers": [
-        "media:manual-image-story-mismatch"
-      ],
-      "warnings": [
-        "taxonomy:desk-not-assigned"
-      ]
-    },
-    {
-      "id": "live-20260714-beitar-flares",
-      "slug": "atzili-yarden-cohen-burned-flares-beitar-open-training",
-      "title": "Atzili and Cohen burned by flares at Beitar’s open training",
-      "statusBefore": "published",
-      "words": 409,
-      "paragraphs": 6,
-      "facts": 5,
-      "verificationSources": 1,
-      "blockers": [
-        "presentation:publisher-name-in-headline-or-standfirst",
-        "media:manual-image-story-mismatch"
-      ],
-      "warnings": [
-        "voice:publisher-attribution-heavy:2"
-      ]
-    }
-  ],
+  "blockedPublished": [],
   "warnings": [
     {
       "id": "live-20260721-draymond-green-pj-tucker-lebron",
@@ -773,7 +739,7 @@
       "id": "brief-20260714-abramov-security",
       "slug": "barak-abramov-business-attacks-police-inquiry",
       "title": "Fresh grenade attack hits Abramov-owned restaurant as inquiry widens",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 345,
       "paragraphs": 6,
       "facts": 6,
@@ -944,7 +910,7 @@
       "id": "live-20260714-beitar-flares",
       "slug": "atzili-yarden-cohen-burned-flares-beitar-open-training",
       "title": "Atzili and Cohen burned by flares at Beitar’s open training",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 409,
       "paragraphs": 6,
       "facts": 5,
