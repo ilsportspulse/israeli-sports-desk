@@ -1,67 +1,67 @@
 {
-  "date": "2026-07-19",
+  "date": "2026-07-21",
   "title": "The Daily Five",
-  "dek": "Five verified questions from a wild Saturday: a ten-goal bronze final, a shootout in Netanya, a record-breaking triple-double and Maccabi Haifa's busy window.",
+  "dek": "Five questions on this week's biggest stories, from Jerusalem's track to a World Cup final in New Jersey.",
   "questions": [
     {
-      "question": "What was the final score of the World Cup third-place match between England and France?",
+      "question": "Blessing Afrifah, withdrawn from the Israeli Athletics Championships with a hamstring injury, holds Israel's national 100m record. What is the time?",
       "answers": [
-        "6–4 to England",
-        "4–2 to England",
-        "3–1 to England",
-        "5–4 to France"
+        "10.09 seconds",
+        "9.98 seconds",
+        "10.25 seconds",
+        "10.45 seconds"
       ],
       "correctIndex": 0,
-      "explanation": "England won a ten-goal epic 6–4 in Miami Gardens, with a Bukayo Saka hat-trick and a stoppage-time Jude Bellingham goal.",
-      "sourceUrl": "https://www.espn.com/soccer/match/_/gameId/760516/england-france"
+      "explanation": "Afrifah set Israel's 100m national record of 10.09 seconds in Jerusalem in July 2025, per World Athletics.",
+      "sourceUrl": "https://www.one.co.il/Article/528614.html"
     },
     {
-      "question": "How did Hapoel Tel Aviv beat Beitar Jerusalem in the Toto Cup quarter-final?",
+      "question": "Who scored the winning goal as Spain beat Argentina 1-0 in extra time to win the 2026 World Cup final?",
       "answers": [
-        "3–1 on penalties after 2–2",
-        "2–1 after extra time",
-        "3–2 in 90 minutes",
-        "On away goals"
+        "Ferran Torres",
+        "Nico Williams",
+        "Pedri",
+        "Lamine Yamal"
       ],
       "correctIndex": 0,
-      "explanation": "Daniel Dappa equalised in the 96th minute and goalkeeper Assaf Tzur saved three spot-kicks in the shootout.",
-      "sourceUrl": "https://playbyplay.sport5.co.il/?GameID=150633&FLNum=163"
+      "explanation": "Ferran Torres struck in the 106th minute in East Rutherford, New Jersey, to win Spain the title.",
+      "sourceUrl": "https://www.espn.com/soccer/story/_/id/49403084/2026-world-cup-final-spain-argentina-score-ferran-torres"
     },
     {
-      "question": "What was Rany Belaga's historic statline in Israel U20's 96–74 win over Latvia?",
+      "question": "After parting ways with Maccabi Tel Aviv, which club did American guard Jeff Dowtin Jr sign for?",
       "answers": [
-        "16 points, 12 assists, 10 rebounds",
-        "20 points, 10 assists, 10 rebounds",
-        "10 points, 10 assists, 15 rebounds",
-        "25 points, 8 assists, 11 rebounds"
+        "Napoli Basket",
+        "AEK Athens",
+        "Olympiacos",
+        "Partizan"
       ],
       "correctIndex": 0,
-      "explanation": "The captain's 16-12-10 was reported as the first triple-double by an Israeli at the FIBA U20 EuroBasket.",
-      "sourceUrl": "https://www.fiba.basketball/en/events/fiba-u20-eurobasket-2026/games/131741-LAT-ISR"
+      "explanation": "Napoli Basket officially announced Dowtin's signing on 20 July 2026, ahead of the club's first EuroCup campaign in almost 20 years.",
+      "sourceUrl": "https://www.sport5.co.il/articles.aspx?FolderID=1420&docID=552731"
     },
     {
-      "question": "Whose all-time World Cup scoring record did Kylian Mbappé pass in the bronze final?",
+      "question": "Who won stage 15 of the 2026 Tour de France to the Plateau de Solaison, his first Tour stage win on a road/mountain stage?",
       "answers": [
-        "Lionel Messi's",
-        "Miroslav Klose's",
-        "Ronaldo's",
-        "Just Fontaine's"
+        "Remco Evenepoel",
+        "Tadej Pogacar",
+        "Isaac del Toro",
+        "Jonas Vingegaard"
       ],
       "correctIndex": 0,
-      "explanation": "Mbappé's brace took him to 22 career World Cup goals, one past Messi's 21 — with Messi still to play in Sunday's final.",
-      "sourceUrl": "https://www.foxsports.com/soccer/fifa-world-cup-men-france-vs-england-jul-18-2026-game-boxscore-607933"
+      "explanation": "Evenepoel won the 183.9km stage from Champagnole ahead of Pogacar, while Vingegaard crashed out of the race.",
+      "sourceUrl": "https://www.sport5.co.il/articles.aspx?FolderID=2911&docID=552720"
     },
     {
-      "question": "For which reported fee did Maccabi Haifa sell midfielder Show to Kocaelispor?",
+      "question": "Israeli centre-back Stav Lemkin, who battled for a starting spot after a rocky Eredivisie debut, plays his club football for which Dutch side?",
       "answers": [
-        "€500,000",
-        "€3 million",
-        "€1.5 million",
-        "A free transfer"
+        "FC Twente",
+        "PEC Zwolle",
+        "Ajax",
+        "Feyenoord"
       ],
       "correctIndex": 0,
-      "explanation": "The Angolan midfielder's permanent move to the Turkish top flight was announced at a reported €500,000, paid in instalments.",
-      "sourceUrl": "https://www.mavikocaeli.com.tr/kocaelispor-showuna-kavusuyor-maddi-detaylar-belli-oldu/247877/"
+      "explanation": "Lemkin joined Twente from Shakhtar Donetsk in June 2025 and made 26 Eredivisie appearances in 2025-26 as the club secured European football.",
+      "sourceUrl": "https://sport1.maariv.co.il/israeli-soccer/israelis-abroad/article/1903718/"
     }
   ]
 }

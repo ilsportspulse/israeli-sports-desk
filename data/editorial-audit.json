@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T23:35:23.284Z",
+  "generatedAt": "2026-07-21T01:54:40.721Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,44 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 207,
-    "publishedBefore": 134,
-    "cleanPublished": 134,
+    "totalArticles": 210,
+    "publishedBefore": 138,
+    "cleanPublished": 138,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 134,
-    "reviewAfter": 73
+    "publishedAfter": 138,
+    "reviewAfter": 72
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "archive-20260721-barcelona-30-july-1992-the-silver-that-e",
+      "slug": "barcelona-30-july-1992-the-silver-that-ended-the-wait",
+      "title": "Barcelona, 30 July 1992: The Silver That Ended the Wait",
+      "statusBefore": "published",
+      "words": 551,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-20-nof-hagalil-youth-coaches",
+      "slug": "nof-hagalil-youth-academy-coaching-overhaul",
+      "title": "Hapoel Nof HaGalil Rebuilds Youth Coaching Staff After Relegation",
+      "statusBefore": "published",
+      "words": 388,
+      "paragraphs": 7,
+      "facts": 5,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260720-afriyie-injury",
       "slug": "blessing-afrifah-pulled-israeli-championships-hamstring-injury",
@@ -1189,6 +1217,58 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "archive-20260721-barcelona-30-july-1992-the-silver-that-e",
+      "slug": "barcelona-30-july-1992-the-silver-that-ended-the-wait",
+      "title": "Barcelona, 30 July 1992: The Silver That Ended the Wait",
+      "statusBefore": "published",
+      "words": 551,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-20-messi-world-cup-final-reaction",
+      "slug": "messi-world-cup-final-reaction-pain-enormous",
+      "title": "Messi: 'The Pain Is Enormous' After World Cup Final Heartbreak",
+      "statusBefore": "published",
+      "words": 384,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-07-20-nof-hagalil-youth-coaches",
+      "slug": "nof-hagalil-youth-academy-coaching-overhaul",
+      "title": "Hapoel Nof HaGalil Rebuilds Youth Coaching Staff After Relegation",
+      "statusBefore": "published",
+      "words": 388,
+      "paragraphs": 7,
+      "facts": 5,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260720-hapoel-tel-aviv-conference-path",
+      "slug": "hapoel-tel-aviv-conference-league-zilina-katowice",
+      "title": "Hapoel Tel Aviv's Road to Europe Runs Through Bulgaria, With Žilina or Katowice Waiting",
+      "statusBefore": "published",
+      "words": 534,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 7,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-20260720-afriyie-injury",
       "slug": "blessing-afrifah-pulled-israeli-championships-hamstring-injury",

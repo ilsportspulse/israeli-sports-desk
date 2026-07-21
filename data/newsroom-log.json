@@ -1,0 +1,34 @@
+[
+  {
+    "ts": "2026-07-21T01:47:40.863Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 2,
+    "published": 0,
+    "review": 2,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.92,
+      "namecheckMin": 0.9,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "enzo-fernandez-world-cup-final-red-card-no-apology",
+        "title": "Enzo Fernández Speaks Out on World Cup Final Red Card, Skips the Apology",
+        "confidence": 0,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "This story carries no Israeli competition, athlete or team angle — it concerns only Argentina and Spain's men's national teams at the 2026 World Cup final. Per desk policy, confidence is set to 0 and the piece is held for editorial review rather than published on the Israeli sports desk. All match, red-card and quote facts are independently verified across NBC News, Yahoo Sports, ESPN, FIFA's official match record, Goal.com, LadBible and the Mirror; the 1-0 scoreline is confirmed as full-time/after extra time by FIFA.com, ESPN and multiple other outlets and matches the single reported goal event (Ferran Torres)."
+      },
+      {
+        "slug": "omri-glazer-lands-in-israel-maccabi-haifa-return",
+        "title": "Omri Glazer lands in Israel to seal Maccabi Haifa return",
+        "confidence": 0.9,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Outlets differ slightly on the exact transfer fee (reported between €250,000 and €300,000); no source has yet confirmed the medical/signing is fully complete, only that terms were agreed and Glazer arrived to finalize the move."
+      }
+    ]
+  }
+]

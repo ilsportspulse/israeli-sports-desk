@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T23:35:23.340Z",
+  "generatedAt": "2026-07-21T01:54:40.885Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,17 +11,17 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 134,
+    "publishedArticles": 138,
     "wordCount": {
       "minimum": 266,
       "maximum": 1070,
       "median": 502.5,
-      "average": 525
+      "average": 523.2
     },
     "paragraphDistribution": {
       "5": 1,
-      "7": 27,
-      "8": 42,
+      "7": 30,
+      "8": 43,
       "9": 27,
       "10": 19,
       "11": 8,
@@ -32,7 +32,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.313,
+    "dominantParagraphShare": 0.312,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 0,
     "analysisBelowTarget": 1,
@@ -133,6 +133,90 @@
     }
   ],
   "clean": [
+    {
+      "id": "archive-20260721-barcelona-30-july-1992-the-silver-that-e",
+      "slug": "barcelona-30-july-1992-the-silver-that-ended-the-wait",
+      "title": "Barcelona, 30 July 1992: The Silver That Ended the Wait",
+      "kind": "explainer",
+      "words": 545,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 63,
+        "longest": 76,
+        "average": 68.1
+      },
+      "sentenceWords": {
+        "shortest": 3,
+        "longest": 61,
+        "average": 24.8
+      },
+      "lexicalDiversity": 0.488,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-20-messi-world-cup-final-reaction",
+      "slug": "messi-world-cup-final-reaction-pain-enormous",
+      "title": "Messi: 'The Pain Is Enormous' After World Cup Final Heartbreak",
+      "kind": "news",
+      "words": 384,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 49,
+        "longest": 60,
+        "average": 54.9
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 98,
+        "average": 29.5
+      },
+      "lexicalDiversity": 0.609,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-20-nof-hagalil-youth-coaches",
+      "slug": "nof-hagalil-youth-academy-coaching-overhaul",
+      "title": "Hapoel Nof HaGalil Rebuilds Youth Coaching Staff After Relegation",
+      "kind": "article",
+      "words": 390,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 46,
+        "longest": 73,
+        "average": 55.7
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 54,
+        "average": 39
+      },
+      "lexicalDiversity": 0.574,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260720-hapoel-tel-aviv-conference-path",
+      "slug": "hapoel-tel-aviv-conference-league-zilina-katowice",
+      "title": "Hapoel Tel Aviv's Road to Europe Runs Through Bulgaria, With Žilina or Katowice Waiting",
+      "kind": "match-preview",
+      "words": 532,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 48,
+        "longest": 99,
+        "average": 76
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 99,
+        "average": 35.5
+      },
+      "lexicalDiversity": 0.521,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260720-afriyie-injury",
       "slug": "blessing-afrifah-pulled-israeli-championships-hamstring-injury",
