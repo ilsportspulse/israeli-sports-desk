@@ -123,26 +123,27 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
   const tenHoursAgo = Date.now() - 10 * 60 * 60 * 1000;
   const freshnessTime = (article: PublicArticleSummary) =>
     new Date(article.featured ? article.updatedAt ?? article.publishedAt : article.publishedAt).getTime();
+  // The lead/top-stories block is ISRAELI news first — the whole point of an Israeli
+  // sports pulse. Only genuinely HUGE international stories (a World Cup final, a Messi
+  // retirement) earn a headline slot; everything else international goes to the
+  // International corner below. We gate that on a high homepagePriority (>=85).
+  const isHeadlineWorthy = (article: PublicArticleSummary) =>
+    article.kind !== "analysis" &&
+    article.category !== "From the Archive" &&
+    (article.desk === "israel" || (article.homepagePriority ?? 50) >= 85);
   const leadPool = articles
-    .filter((article) => article.kind !== "analysis" && article.category !== "From the Archive" && freshnessTime(article) >= tenHoursAgo)
+    .filter((article) => isHeadlineWorthy(article) && freshnessTime(article) >= tenHoursAgo)
     .sort((a, b) => {
       const ageA = Math.max(0, (Date.now() - freshnessTime(a)) / 3_600_000);
       const ageB = Math.max(0, (Date.now() - freshnessTime(b)) / 3_600_000);
-      const scoreA = (a.homepagePriority ?? 50) + Math.max(0, 10 - ageA) * 2;
-      const scoreB = (b.homepagePriority ?? 50) + Math.max(0, 10 - ageB) * 2;
+      // Israeli stories get a headline boost so home-grown news leads the page.
+      const scoreA = (a.homepagePriority ?? 50) + (a.desk === "israel" ? 20 : 0) + Math.max(0, 10 - ageA) * 2;
+      const scoreB = (b.homepagePriority ?? 50) + (b.desk === "israel" ? 20 : 0) + Math.max(0, 10 - ageB) * 2;
       return scoreB - scoreA || freshnessTime(b) - freshnessTime(a);
     })
     .slice(0, 4);
-  // When no story is fresh enough for the lead pool, fall back to the most recent
-  // REAL news story — never a "From the Archive"/Retro item or an analysis column
-  // (which have their own dedicated sections). Retro must never surface as the lead.
-  const featured =
-    leadPool[0] ??
-    articles.find((article) => article.kind !== "analysis" && article.category !== "From the Archive") ??
-    articles[0];
-  const standardStories = articles.filter(
-    (article) => article.id !== featured.id && article.kind !== "analysis" && article.category !== "From the Archive",
-  );
+  const featured = leadPool[0] ?? articles.find(isHeadlineWorthy) ?? articles.find((a) => a.desk === "israel") ?? articles[0];
+  const standardStories = articles.filter((article) => article.id !== featured.id && isHeadlineWorthy(article));
   // Secondary top stories shown as cards beneath the lead.
   const heroRail = [
     ...leadPool.filter((article) => article.id !== featured.id),

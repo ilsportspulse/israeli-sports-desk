@@ -62,11 +62,11 @@ function inspect(article) {
     blockers.push("research:verification-links-are-generic-homepages");
   }
   if (internalCopy.test(visibleCopy)) blockers.push("voice:internal-workflow-copy-visible");
-  if (internationalPublisher.test(`${article.title} ${article.dek}`)) {
-    blockers.push("presentation:publisher-name-in-headline-or-standfirst");
-  }
-  if ((article.desk === "international" || article.desk === "world") && internationalPublisher.test(visibleCopy)) {
-    blockers.push("presentation:publisher-name-in-international-reader-copy");
+  // Source attribution ("ONE reports…", "according to Sport5…") is now standard,
+  // responsible journalism for single-source aggregation — no longer a blocker. Just
+  // nudge (warning) if an outlet name sits in the headline itself.
+  if (internationalPublisher.test(`${article.title} ${article.dek ?? ""}`)) {
+    warnings.push("presentation:outlet-name-in-headline");
   }
   // A photo is an enhancement, not a publish gate: a story without one shows a clean
   // category visual, so missing-image no longer blocks. We still block a WRONG image

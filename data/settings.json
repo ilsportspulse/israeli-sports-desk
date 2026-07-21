@@ -1,11 +1,11 @@
 {
   "newsroom": {
     "enabled": true,
-    "maxCandidates": 10,
-    "confidenceThreshold": 0.92,
-    "namecheckThreshold": 0.9,
-    "requireTwoFtSources": true,
-    "holdOnAnyDoubt": true,
+    "maxCandidates": 12,
+    "confidenceThreshold": 0.55,
+    "namecheckThreshold": 0.75,
+    "requireTwoFtSources": false,
+    "holdOnAnyDoubt": false,
     "autoPublish": true,
     "dailyFeatures": true
   },

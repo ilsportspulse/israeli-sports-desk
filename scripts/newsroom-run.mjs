@@ -118,15 +118,16 @@ const ARTICLE_SCHEMA = {
 };
 
 const GATES = `HARD EDITORIAL GATES — obey exactly:
-- Never invent facts, quotes, results, names or numbers. If you cannot verify something from the source, omit it.
-- Verify every material fact against at least TWO independent, named sources; list them all in verificationSources.
-- A final score is publishable ONLY if at least two independent outlets explicitly report the match as full-time, and the goal events sum exactly to the score. Otherwise report it as in-progress or hold (set confidence below 0.92 and explain in warning).
-- Verify every person/team name transliteration against an official/registry record (Transfermarkt / Wikipedia / league / World Athletics) and record it in nameChecks.
+- Never INVENT facts, quotes, results, names or numbers. Report ONLY what the source states — but a story is fully publishable on a SINGLE reputable source. ONE (one.co.il) and Sport5 are reliable Israeli outlets; Walla, Ynet, Sport1/Maariv, and any club/league/federation are reliable too. Do NOT require a second confirmation and do NOT lower confidence just because a story is single-source.
+- ATTRIBUTE clearly in the copy when something is a report/claim rather than confirmed ("ONE reports…", "according to Sport5…", "the club has announced…"). Attributing the source is REQUIRED and good journalism — it is NOT a reason to hold. This is how we cover transfers, rumours and previews responsibly.
+- Set confidence on how CLEARLY the source states it (a clear report from a reliable outlet is 0.8+), NOT on the number of sources. Use a "warning" only as a short reader-facing note (e.g. "fee not yet official") — a warning does NOT hold the story. List whatever sources you used in verificationSources (one is fine).
+- A final SCORE must be right: only publish a full-time score you can confirm; otherwise report it as in-progress. (Results are the one place to be strict; transfers/previews/rumours are not.)
+- Transliterate every person/team name carefully against an official/registry record where possible and record it in nameChecks.
 - SCOPE — we cover BOTH Israeli sport AND major world sport:
     • Israeli stories (Israeli competition, athlete or team) → desk "israel". This is our core; prioritise it.
     • GENUINELY SIGNIFICANT international sport → desk "international", and this is WELCOME with NO Israeli angle: the World Cup and its aftermath (results, managerial sackings/appointments, retirements, fallout), the big European leagues and continental cups, major transfers, the NBA, Grand Slams, Grand Tours, athletics, F1, and major championships/events. Cover these properly and keep them fresh — our International corner must reflect what is actually happening in world sport right now.
     • Only truly trivial, purely local-foreign filler with no wider significance should be held — set confidence 0 and warning "not newsworthy". A big, real world-sport story is NOT to be held for "no Israeli angle".
-- No publisher names in title or dek; at most once in the body; never on the international desk.
+- Attributing a source in the body is fine and encouraged ("ONE reports…"); keep the headline itself clean of an outlet name where you can, but attribution in the story is never a problem.
 - RICH MEDIA (encouraged): when a genuinely relevant, REAL and verifiable clip or post exists, embed it — it makes the article richer. Include "video" for a real YouTube video (set youtubeId to the exact 11-character id from a working youtube.com/watch?v= or youtu.be/ URL you actually found, plus title, channel, sourceUrl) and/or "officialSocialPost" for an official club/athlete/federation post on X or Instagram (platform "twitter" or "instagram", the exact post/tweet id, url, title, account). ONLY include one you have actually seen and verified via web search — NEVER guess, invent or approximate an id or url. If you cannot verify a real one, omit the field entirely. Prefer official accounts and official highlight channels.
 - VOICE: write like a real, experienced human sports journalist for a quality broadsheet — never a template or a robot, never amateurish. Let the STORY and the depth of your reporting dictate the length: a tight news item may be 5-7 paragraphs, a well-researched story or analysis 10-16. Length must be flexible BOTH ways — shorter when the story is small, longer when genuine research (background, context, history, standings, quotes) earns it. NEVER pad, repeat or restate to reach a length; every paragraph must add new information and stay readable — keep paragraphs short (roughly 2-4 sentences), never dense walls of text that tire the reader. Vary paragraph length and sentence rhythm; open with a genuine, specific news hook (not a formula); avoid any repeated fixed structure. Between 5 and 18 paragraphs — pick what the story truly needs, and make different articles read differently.
 - Set confidence (0-1) honestly. Set warning to "" only if every core fact is multi-source consistent and nothing is uncertain.
@@ -259,11 +260,15 @@ async function mapWithConcurrency(items, limit, fn) {
   return results;
 }
 
-function passesGates(article, confidenceMin = 0.92, namecheckMin = 0.9) {
+function passesGates(article, confidenceMin = 0.55, namecheckMin = 0.75) {
   if (!article) return false;
+  // We aggregate reputable Israeli/sports sources: a SINGLE reliable outlet (ONE,
+  // Sport5, Walla, Ynet, Sport1, a club/federation) is enough — no double confirmation
+  // required. A warning no longer blocks publishing; it just means "reported/uncertain"
+  // and the copy frames it that way (never invented, always attributed). Only a very
+  // low confidence, too-short body, or a badly-transliterated name holds a story.
   if (typeof article.confidence !== "number" || article.confidence < confidenceMin) return false;
-  if (article.warning && article.warning.trim() !== "") return false;
-  if (!Array.isArray(article.body) || article.body.length < 5) return false;
+  if (!Array.isArray(article.body) || article.body.length < 4) return false;
   const names = article.nameChecks ?? [];
   if (names.some((n) => typeof n.confidence === "number" && n.confidence < namecheckMin)) return false;
   return true;
@@ -281,8 +286,8 @@ async function main() {
     console.log("Newsroom is turned OFF in backoffice settings — skipping this cycle.");
     return;
   }
-  const CONFIDENCE_MIN = typeof gates.confidenceThreshold === "number" ? gates.confidenceThreshold : 0.92;
-  const NAMECHECK_MIN = typeof gates.namecheckThreshold === "number" ? gates.namecheckThreshold : 0.9;
+  const CONFIDENCE_MIN = typeof gates.confidenceThreshold === "number" ? gates.confidenceThreshold : 0.55;
+  const NAMECHECK_MIN = typeof gates.namecheckThreshold === "number" ? gates.namecheckThreshold : 0.75;
   const AUTO_PUBLISH = gates.autoPublish === true;
   if (typeof gates.maxCandidates === "number" && !process.env.NEWSROOM_MAX_CANDIDATES) {
     MAX_CANDIDATES = Math.max(1, gates.maxCandidates);
