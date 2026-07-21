@@ -3,6 +3,7 @@ import { competitionPriority } from "@/lib/competition-priority";
 import {
   getSofaDateIsraeli,
   getSofaLiveIsraeli,
+  getSofaUpcomingIsraeliFootball,
   sofaScoreEnabled,
   type SofaScoreRow,
 } from "@/lib/sofascore-provider";
@@ -676,10 +677,11 @@ async function mergeSofaScore(base: ScoreCentreData): Promise<ScoreCentreData> {
   try {
     const today = new Date().toISOString().slice(0, 10);
     const yesterday = new Date(Date.now() - 86_400_000).toISOString().slice(0, 10);
-    const [live, todayRows, yesterdayRows] = await Promise.all([
+    const [live, todayRows, yesterdayRows, upcomingRows] = await Promise.all([
       getSofaLiveIsraeli(),
       getSofaDateIsraeli(today),
       getSofaDateIsraeli(yesterday),
+      getSofaUpcomingIsraeliFootball(6),
     ]);
     const toEvent = (row: SofaScoreRow): ScoreEvent => ({
       ...row,
@@ -689,7 +691,7 @@ async function mergeSofaScore(base: ScoreCentreData): Promise<ScoreCentreData> {
       articleSlug: null,
     });
     const liveEvents = live.map(toEvent);
-    const dated = [...todayRows, ...yesterdayRows].map(toEvent);
+    const dated = [...todayRows, ...yesterdayRows, ...upcomingRows].map(toEvent);
     const liveKeys = new Set(liveEvents.map(matchKey));
     const sofaRecent = dated.filter((e) => e.status === "FT" && !liveKeys.has(matchKey(e)));
     const sofaFixtures = dated.filter((e) => e.status === "SCHEDULED" && !liveKeys.has(matchKey(e)));

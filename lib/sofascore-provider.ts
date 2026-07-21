@@ -189,6 +189,26 @@ export async function getSofaDateIsraeli(date: string): Promise<SofaScoreRow[]> 
   return rows;
 }
 
+/**
+ * Upcoming Israeli FOOTBALL fixtures for the next `days` days — football only and a
+ * short horizon to stay inside the API budget. Because isIsraeli() now also matches
+ * any tie involving an Israeli club, this is what surfaces Maccabi/Hapoel/Beitar in
+ * the Champions/Europa/Conference League qualifiers in Live & upcoming.
+ */
+export async function getSofaUpcomingIsraeliFootball(days: number): Promise<SofaScoreRow[]> {
+  const rows: SofaScoreRow[] = [];
+  for (let d = 1; d <= days; d += 1) {
+    const date = new Date(Date.now() + d * 86_400_000).toISOString().slice(0, 10);
+    const raw = await get(`/match/list?sport_slug=football&date=${date}`, LIST_TTL_MS);
+    for (const e of asEvents(raw)) {
+      if (!isIsraeli(e)) continue;
+      const row = toRow("football", e);
+      if (row && row.status === "SCHEDULED") rows.push(row);
+    }
+  }
+  return rows;
+}
+
 export function sofaScoreEnabled(): boolean {
   return KEY.length > 0;
 }
