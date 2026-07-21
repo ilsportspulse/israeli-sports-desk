@@ -1,5 +1,82 @@
 [
   {
+    "ts": "2026-07-21T14:53:52.607Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 8,
+    "published": 6,
+    "review": 1,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "url": "https://www.one.co.il/Article/528746.html",
+        "decision": "skipped",
+        "reason": "no valid article emitted"
+      },
+      {
+        "slug": "beer-sheva-farthest-travel-champions-league-qualifier-vikingur",
+        "title": "Champions of Israel Fly Furthest: Beer Sheva Cover 5,315km to Reach Reykjavik Qualifier",
+        "confidence": 0.83,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "cubarsi-laporte-left-off-fifa-world-cup-best-xi-shortlist",
+        "title": "Spain Baffled as FIFA Leaves Cubarsí and Laporte Off World Cup Best XI Shortlist",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "lukassen-red-star-belgrade-hapoel-beer-sheva-champions-league",
+        "title": "The man who eliminated Maccabi and Red Star is closing in on a move — to Red Star",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "bnei-sakhnin-labor-court-rejects-halt-mimer-arbitration",
+        "title": "Haifa Labour Court Rejects Bnei Sakhnin Bid to Freeze Arbitration in Mimer Pay Dispute",
+        "confidence": 0.83,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "below gate thresholds"
+      },
+      {
+        "slug": "omri-glazer-returns-maccabi-haifa-three-year-deal",
+        "title": "Omri Glazer completes homecoming to Maccabi Haifa on three-year deal",
+        "confidence": 0.87,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "lameck-banda-lecce-saga-maccabi-petah-tikva-windfall",
+        "title": "Banda's Lecce stand-off could still hand Maccabi Petah Tikva a bonus payday",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "spanish-pilot-argentina-fans-world-cup-prank",
+        "title": "Pilot's cruel mid-flight prank convinces grieving Argentina fans they had won the World Cup",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-07-21T12:02:37.450Z",
     "mode": "cli",
     "model": "claude-sonnet-5",

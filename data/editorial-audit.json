@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T12:11:38.224Z",
+  "generatedAt": "2026-07-21T15:01:32.706Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,100 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 231,
-    "publishedBefore": 165,
-    "cleanPublished": 165,
+    "totalArticles": 238,
+    "publishedBefore": 171,
+    "cleanPublished": 171,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 165,
-    "reviewAfter": 66
+    "publishedAfter": 171,
+    "reviewAfter": 67
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-2026-07-21-argentina-pilot-prank",
+      "slug": "spanish-pilot-argentina-fans-world-cup-prank",
+      "title": "Pilot's cruel mid-flight prank convinces grieving Argentina fans they had won the World Cup",
+      "statusBefore": "published",
+      "words": 468,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260721-banda-maccabi-petah-tikva-windfall",
+      "slug": "lameck-banda-lecce-saga-maccabi-petah-tikva-windfall",
+      "title": "Banda's Lecce stand-off could still hand Maccabi Petah Tikva a bonus payday",
+      "statusBefore": "published",
+      "words": 686,
+      "paragraphs": 10,
+      "facts": 8,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260721-omri-glazer-maccabi-haifa-return",
+      "slug": "omri-glazer-returns-maccabi-haifa-three-year-deal",
+      "title": "Omri Glazer completes homecoming to Maccabi Haifa on three-year deal",
+      "statusBefore": "published",
+      "words": 517,
+      "paragraphs": 12,
+      "facts": 8,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260721-bnei-sakhnin-mimer-court",
+      "slug": "bnei-sakhnin-labor-court-rejects-halt-mimer-arbitration",
+      "title": "Haifa Labour Court Rejects Bnei Sakhnin Bid to Freeze Arbitration in Mimer Pay Dispute",
+      "statusBefore": "review",
+      "words": 342,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260721-cubarsi-laporte-fifa-best-xi-snub",
+      "slug": "cubarsi-laporte-left-off-fifa-world-cup-best-xi-shortlist",
+      "title": "Spain Baffled as FIFA Leaves Cubarsí and Laporte Off World Cup Best XI Shortlist",
+      "statusBefore": "published",
+      "words": 414,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260721-beer-sheva-farthest-travel-vikingur",
+      "slug": "beer-sheva-farthest-travel-champions-league-qualifier-vikingur",
+      "title": "Champions of Israel Fly Furthest: Beer Sheva Cover 5,315km to Reach Reykjavik Qualifier",
+      "statusBefore": "published",
+      "words": 366,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
     {
       "id": "live-20260721-tebas-infantino-must-go",
       "slug": "tebas-says-infantino-must-go-destroying-football",
@@ -333,6 +417,22 @@
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260714-netanya-nwachukwu",
+      "slug": "maccabi-netanya-consider-christian-nwachukwu-sheffield-united",
+      "title": "Maccabi Netanya consider Sheffield United winger Christian Nwachukwu",
+      "statusBefore": "review",
+      "words": 335,
+      "paragraphs": 6,
+      "facts": 5,
+      "verificationSources": 1,
+      "blockers": [
+        "media:manual-image-story-mismatch"
+      ],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
       ]
     },
     {
@@ -804,8 +904,7 @@
         "copy-depth:84/300-words",
         "structure:3/5-paragraphs",
         "evidence:3/4-confirmed-facts",
-        "research:verification-links-are-generic-homepages",
-        "presentation:publisher-name-in-international-reader-copy"
+        "research:verification-links-are-generic-homepages"
       ],
       "warnings": [
         "voice:analysis-below-650-word-editorial-target:84"
@@ -900,6 +999,25 @@
       ]
     },
     {
+      "id": "brief-20260714-bellingham-fan-vote",
+      "slug": "jude-bellingham-wins-one-quarter-final-fan-vote",
+      "title": "Bellingham tops ONE’s World Cup quarter-final fan vote",
+      "statusBefore": "review",
+      "words": 100,
+      "paragraphs": 3,
+      "facts": 3,
+      "verificationSources": 0,
+      "blockers": [
+        "copy-depth:100/220-words",
+        "structure:3/5-paragraphs",
+        "evidence:3/4-confirmed-facts",
+        "research:no-independent-or-authoritative-verification"
+      ],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
       "id": "brief-20260714-avdija-insurance",
       "slug": "insurance-explains-deni-avdija-israel-absence",
       "title": "Insurance exclusion explains Avdija’s absence from Israel window",
@@ -911,10 +1029,10 @@
       "blockers": [
         "copy-depth:165/220-words",
         "structure:4/5-paragraphs",
-        "research:no-independent-or-authoritative-verification",
-        "presentation:publisher-name-in-headline-or-standfirst"
+        "research:no-independent-or-authoritative-verification"
       ],
       "warnings": [
+        "presentation:outlet-name-in-headline",
         "taxonomy:desk-not-assigned"
       ]
     },
@@ -984,10 +1102,10 @@
       "facts": 5,
       "verificationSources": 1,
       "blockers": [
-        "presentation:publisher-name-in-headline-or-standfirst",
         "media:manual-image-story-mismatch"
       ],
       "warnings": [
+        "presentation:outlet-name-in-headline",
         "voice:publisher-attribution-heavy:2"
       ]
     },
@@ -1046,10 +1164,10 @@
       "facts": 5,
       "verificationSources": 3,
       "blockers": [
-        "presentation:publisher-name-in-headline-or-standfirst",
         "media:manual-image-story-mismatch"
       ],
       "warnings": [
+        "presentation:outlet-name-in-headline",
         "voice:publisher-attribution-heavy:2"
       ]
     },
@@ -1335,6 +1453,88 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-07-21-argentina-pilot-prank",
+      "slug": "spanish-pilot-argentina-fans-world-cup-prank",
+      "title": "Pilot's cruel mid-flight prank convinces grieving Argentina fans they had won the World Cup",
+      "statusBefore": "published",
+      "words": 468,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260721-banda-maccabi-petah-tikva-windfall",
+      "slug": "lameck-banda-lecce-saga-maccabi-petah-tikva-windfall",
+      "title": "Banda's Lecce stand-off could still hand Maccabi Petah Tikva a bonus payday",
+      "statusBefore": "published",
+      "words": 686,
+      "paragraphs": 10,
+      "facts": 8,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260721-omri-glazer-maccabi-haifa-return",
+      "slug": "omri-glazer-returns-maccabi-haifa-three-year-deal",
+      "title": "Omri Glazer completes homecoming to Maccabi Haifa on three-year deal",
+      "statusBefore": "published",
+      "words": 517,
+      "paragraphs": 12,
+      "facts": 8,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260721-lukassen-red-star-hapoel-beer-sheva",
+      "slug": "lukassen-red-star-belgrade-hapoel-beer-sheva-champions-league",
+      "title": "The man who eliminated Maccabi and Red Star is closing in on a move — to Red Star",
+      "statusBefore": "published",
+      "words": 562,
+      "paragraphs": 11,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260721-cubarsi-laporte-fifa-best-xi-snub",
+      "slug": "cubarsi-laporte-left-off-fifa-world-cup-best-xi-shortlist",
+      "title": "Spain Baffled as FIFA Leaves Cubarsí and Laporte Off World Cup Best XI Shortlist",
+      "statusBefore": "published",
+      "words": 414,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260721-beer-sheva-farthest-travel-vikingur",
+      "slug": "beer-sheva-farthest-travel-champions-league-qualifier-vikingur",
+      "title": "Champions of Israel Fly Furthest: Beer Sheva Cover 5,315km to Reach Reykjavik Qualifier",
+      "statusBefore": "published",
+      "words": 366,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
     {
       "id": "live-20260721-tebas-infantino-must-go",
       "slug": "tebas-says-infantino-must-go-destroying-football",

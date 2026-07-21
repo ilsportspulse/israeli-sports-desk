@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T12:11:38.434Z",
+  "generatedAt": "2026-07-21T15:01:32.826Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,31 +11,31 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 165,
+    "publishedArticles": 171,
     "wordCount": {
       "minimum": 266,
       "maximum": 1070,
       "median": 490,
-      "average": 510.6
+      "average": 510.2
     },
     "paragraphDistribution": {
       "5": 1,
-      "6": 5,
+      "6": 6,
       "7": 42,
       "8": 46,
-      "9": 30,
-      "10": 22,
-      "11": 9,
-      "12": 1,
+      "9": 32,
+      "10": 23,
+      "11": 10,
+      "12": 2,
       "13": 3,
       "14": 2,
       "16": 1,
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.279,
+    "dominantParagraphShare": 0.269,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 5,
+    "exactSixParagraphArticles": 6,
     "analysisBelowTarget": 1,
     "articlesWithStyleFlags": 5
   },
@@ -157,6 +157,132 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-21-argentina-pilot-prank",
+      "slug": "spanish-pilot-argentina-fans-world-cup-prank",
+      "title": "Pilot's cruel mid-flight prank convinces grieving Argentina fans they had won the World Cup",
+      "kind": "news",
+      "words": 462,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 81,
+        "average": 51.3
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 56,
+        "average": 25.7
+      },
+      "lexicalDiversity": 0.567,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260721-banda-maccabi-petah-tikva-windfall",
+      "slug": "lameck-banda-lecce-saga-maccabi-petah-tikva-windfall",
+      "title": "Banda's Lecce stand-off could still hand Maccabi Petah Tikva a bonus payday",
+      "kind": "article",
+      "words": 682,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 50,
+        "longest": 88,
+        "average": 68.2
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 48,
+        "average": 31
+      },
+      "lexicalDiversity": 0.537,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260721-omri-glazer-maccabi-haifa-return",
+      "slug": "omri-glazer-returns-maccabi-haifa-three-year-deal",
+      "title": "Omri Glazer completes homecoming to Maccabi Haifa on three-year deal",
+      "kind": "news",
+      "words": 516,
+      "paragraphs": 12,
+      "paragraphWords": {
+        "shortest": 25,
+        "longest": 57,
+        "average": 43
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 49,
+        "average": 30.4
+      },
+      "lexicalDiversity": 0.612,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260721-lukassen-red-star-hapoel-beer-sheva",
+      "slug": "lukassen-red-star-belgrade-hapoel-beer-sheva-champions-league",
+      "title": "The man who eliminated Maccabi and Red Star is closing in on a move — to Red Star",
+      "kind": "news",
+      "words": 559,
+      "paragraphs": 11,
+      "paragraphWords": {
+        "shortest": 39,
+        "longest": 61,
+        "average": 50.8
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 51,
+        "average": 32.9
+      },
+      "lexicalDiversity": 0.54,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260721-cubarsi-laporte-fifa-best-xi-snub",
+      "slug": "cubarsi-laporte-left-off-fifa-world-cup-best-xi-shortlist",
+      "title": "Spain Baffled as FIFA Leaves Cubarsí and Laporte Off World Cup Best XI Shortlist",
+      "kind": "news",
+      "words": 409,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 52,
+        "average": 45.4
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 52,
+        "average": 31.5
+      },
+      "lexicalDiversity": 0.606,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260721-beer-sheva-farthest-travel-vikingur",
+      "slug": "beer-sheva-farthest-travel-champions-league-qualifier-vikingur",
+      "title": "Champions of Israel Fly Furthest: Beer Sheva Cover 5,315km to Reach Reykjavik Qualifier",
+      "kind": "news",
+      "words": 365,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 43,
+        "longest": 86,
+        "average": 60.8
+      },
+      "sentenceWords": {
+        "shortest": 13,
+        "longest": 46,
+        "average": 33.2
+      },
+      "lexicalDiversity": 0.622,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-20260721-tebas-infantino-must-go",
       "slug": "tebas-says-infantino-must-go-destroying-football",
