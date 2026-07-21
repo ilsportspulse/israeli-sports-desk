@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T22:42:20.559Z",
+  "generatedAt": "2026-07-21T23:45:39.750Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,21 +11,21 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 189,
+    "publishedArticles": 193,
     "wordCount": {
       "minimum": 266,
       "maximum": 1070,
       "median": 479,
-      "average": 501
+      "average": 500.7
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 8,
       "7": 43,
       "8": 51,
-      "9": 38,
+      "9": 41,
       "10": 26,
-      "11": 11,
+      "11": 12,
       "12": 2,
       "13": 3,
       "14": 2,
@@ -33,13 +33,36 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.27,
+    "dominantParagraphShare": 0.264,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 8,
     "analysisBelowTarget": 1,
-    "articlesWithStyleFlags": 7
+    "articlesWithStyleFlags": 8
   },
   "flagged": [
+    {
+      "id": "live-2026-07-21-scaloni-messi-future-argentina",
+      "slug": "scaloni-dismisses-messi-viral-speech-future-uncertain",
+      "title": "Scaloni Brushes Off Messi's Viral Locker-Room Video, Says Stars Will Now 'Rethink' Their Futures",
+      "kind": "article",
+      "words": 486,
+      "paragraphs": 11,
+      "paragraphWords": {
+        "shortest": 27,
+        "longest": 58,
+        "average": 44.2
+      },
+      "sentenceWords": {
+        "shortest": 3,
+        "longest": 51,
+        "average": 28.6
+      },
+      "lexicalDiversity": 0.593,
+      "publisherAttributions": 0,
+      "flags": [
+        "stock-phrase:what-comes-next"
+      ]
+    },
     {
       "id": "live-2026-07-21-bnei-yehuda-nitzan-shirazi-tribute",
       "slug": "bnei-yehuda-marks-12-years-since-nitzan-shirazis-death",
@@ -203,6 +226,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-21-ibrahimovic-paredes-headbutt",
+      "slug": "ibrahimovic-headbutt-paredes-world-cup-final-brawl",
+      "title": "Ibrahimović's Parting Shot: \"I'd Have Headbutted Paredes\" Over Final Brawl",
+      "kind": "news",
+      "words": 459,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 67,
+        "average": 51
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 95,
+        "average": 32.8
+      },
+      "lexicalDiversity": 0.562,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-21-ronaldo-portugal-retirement-wales",
+      "slug": "ronaldo-portugal-retirement-date-wales-alvalade",
+      "title": "Report: Ronaldo's Portugal career set to end against Wales on September 24",
+      "kind": "news",
+      "words": 474,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 43,
+        "longest": 82,
+        "average": 52.7
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 79,
+        "average": 36.5
+      },
+      "lexicalDiversity": 0.555,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-21-trump-wants-infantino-un-secretary-general",
+      "slug": "trump-wants-infantino-un-secretary-general",
+      "title": "Report: Trump Wants FIFA's Infantino as Next UN Secretary-General",
+      "kind": "news",
+      "words": 513,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 44,
+        "longest": 75,
+        "average": 57
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 66,
+        "average": 32.1
+      },
+      "lexicalDiversity": 0.567,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-07-21-fifa-world-cup-revenue-record",
       "slug": "fifa-world-cup-2026-record-revenue",

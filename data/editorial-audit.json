@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T22:42:20.330Z",
+  "generatedAt": "2026-07-21T23:45:39.562Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,58 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 264,
-    "publishedBefore": 189,
-    "cleanPublished": 189,
+    "totalArticles": 268,
+    "publishedBefore": 193,
+    "cleanPublished": 193,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 189,
+    "publishedAfter": 193,
     "reviewAfter": 75
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-2026-07-21-scaloni-messi-future-argentina",
+      "slug": "scaloni-dismisses-messi-viral-speech-future-uncertain",
+      "title": "Scaloni Brushes Off Messi's Viral Locker-Room Video, Says Stars Will Now 'Rethink' Their Futures",
+      "statusBefore": "published",
+      "words": 487,
+      "paragraphs": 11,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-21-ronaldo-portugal-retirement-wales",
+      "slug": "ronaldo-portugal-retirement-date-wales-alvalade",
+      "title": "Report: Ronaldo's Portugal career set to end against Wales on September 24",
+      "statusBefore": "published",
+      "words": 476,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-21-trump-wants-infantino-un-secretary-general",
+      "slug": "trump-wants-infantino-un-secretary-general",
+      "title": "Report: Trump Wants FIFA's Infantino as Next UN Secretary-General",
+      "statusBefore": "published",
+      "words": 518,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
     {
       "id": "live-2026-07-21-fifa-world-cup-revenue-record",
       "slug": "fifa-world-cup-2026-record-revenue",
@@ -1666,6 +1708,60 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-07-21-scaloni-messi-future-argentina",
+      "slug": "scaloni-dismisses-messi-viral-speech-future-uncertain",
+      "title": "Scaloni Brushes Off Messi's Viral Locker-Room Video, Says Stars Will Now 'Rethink' Their Futures",
+      "statusBefore": "published",
+      "words": 487,
+      "paragraphs": 11,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-21-ibrahimovic-paredes-headbutt",
+      "slug": "ibrahimovic-headbutt-paredes-world-cup-final-brawl",
+      "title": "Ibrahimović's Parting Shot: \"I'd Have Headbutted Paredes\" Over Final Brawl",
+      "statusBefore": "published",
+      "words": 464,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-07-21-ronaldo-portugal-retirement-wales",
+      "slug": "ronaldo-portugal-retirement-date-wales-alvalade",
+      "title": "Report: Ronaldo's Portugal career set to end against Wales on September 24",
+      "statusBefore": "published",
+      "words": 476,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-21-trump-wants-infantino-un-secretary-general",
+      "slug": "trump-wants-infantino-un-secretary-general",
+      "title": "Report: Trump Wants FIFA's Infantino as Next UN Secretary-General",
+      "statusBefore": "published",
+      "words": 518,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
     {
       "id": "live-2026-07-21-fifa-world-cup-revenue-record",
       "slug": "fifa-world-cup-2026-record-revenue",

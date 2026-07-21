@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-21T22:42:20Z",
-    "validUntil": "2026-07-22T10:42:20Z",
+    "checkedAt": "2026-07-21T23:45:39Z",
+    "validUntil": "2026-07-22T11:45:39Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 50,
+        "maxAgeHours": 51,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-07-21-fifa-world-cup-revenue-record",
+        "articleId": "live-2026-07-21-ibrahimovic-paredes-headbutt",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 57,
+        "maxAgeHours": 59,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-07-21-infantino-message-argentina-world-cup-final",
+        "articleId": "live-2026-07-21-ronaldo-portugal-retirement-wales",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 68,
+        "maxAgeHours": 69,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-07-21-partizan-wendell-moore-jr-race",
+        "articleId": "live-2026-07-21-fifa-world-cup-revenue-record",
         "maxAgeHours": 24,
         "requires": []
       }
