@@ -135,9 +135,20 @@ function toRow(sport: string, e: SofaEvent): SofaScoreRow | null {
   };
 }
 
+// Distinctive Israeli club markers. "Maccabi", "Hapoel" and "Beitar" are exclusive
+// to Israeli sport, so a match involving any of these is an Israeli-team match even
+// in a European competition — which is how we surface Maccabi Tel Aviv / Hapoel
+// Be'er Sheva etc. in the Champions/Europa/Conference League and the EuroLeague.
+const ISRAELI_TEAM_RE = /\b(maccabi|hapoel|beitar|bnei sakhnin|bnei yehuda|ironi kiryat shmona|ironi tiberias|sektzia|hakoah|ness ziona|kfar saba|f\.?c\.? ashdod|m\.?s\.? ashdod)\b/i;
+function isIsraeliTeam(name?: string): boolean {
+  return ISRAELI_TEAM_RE.test(name ?? "");
+}
+
 function isIsraeli(e: SofaEvent): boolean {
   const utId = e.tournament?.uniqueTournament?.id;
-  return utId !== undefined && ISRAELI_TOURNAMENT_IDS.has(utId);
+  if (utId !== undefined && ISRAELI_TOURNAMENT_IDS.has(utId)) return true;
+  // Also include any match — notably European ties — that involves an Israeli club.
+  return isIsraeliTeam(e.homeTeam?.name) || isIsraeliTeam(e.awayTeam?.name);
 }
 
 function asEvents(raw: unknown): SofaEvent[] {
