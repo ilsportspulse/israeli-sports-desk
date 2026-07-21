@@ -1,5 +1,66 @@
 [
   {
+    "ts": "2026-07-21T22:36:21.585Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 6,
+    "published": 4,
+    "review": 1,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "kangwa-vows-fight-back-beersheba-fall-vikingur-champions-league",
+        "title": "Kangwa scores but Beersheba fall to Vikingur in Champions League opener",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "hapoel-katamon-jerusalem-champions-league-debut-paok",
+        "title": "Hapoel Katamon Jerusalem Set for Historic Champions League Debut Against PAOK",
+        "confidence": 0.82,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Coach quote and squad-signing names are drawn from Sport5's report alone and could not be independently cross-checked spelling-for-spelling; match date, kickoff time, venue and format are confirmed via UEFA's official qualifying draw."
+      },
+      {
+        "slug": "kangwa-champions-league-equalizer-vikingur-aek-transfer",
+        "title": "Kangwa Levels for Hapoel in Iceland but Barely Celebrates Amid AEK Transfer Talks",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "morgan-rogers-chelsea-record-signing",
+        "title": "Chelsea Smash British Transfer Record to Sign Morgan Rogers From Aston Villa",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "infantino-message-argentina-world-cup-final",
+        "title": "Infantino praises Argentina's \"unforgettable\" run despite chaotic World Cup final",
+        "confidence": 0.88,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "fifa-world-cup-2026-record-revenue",
+        "title": "FIFA Banks Record $15 Billion From 2026 World Cup, Nearly Double Qatar's Haul",
+        "confidence": 0.88,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-07-21T21:33:57.555Z",
     "mode": "cli",
     "model": "claude-sonnet-5",

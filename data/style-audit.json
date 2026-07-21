@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T21:41:12.245Z",
+  "generatedAt": "2026-07-21T22:42:20.559Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,19 +11,19 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 185,
+    "publishedArticles": 189,
     "wordCount": {
       "minimum": 266,
       "maximum": 1070,
-      "median": 483,
-      "average": 503.1
+      "median": 479,
+      "average": 501
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 8,
-      "7": 42,
+      "7": 43,
       "8": 51,
-      "9": 35,
+      "9": 38,
       "10": 26,
       "11": 11,
       "12": 2,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.276,
+    "dominantParagraphShare": 0.27,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 8,
     "analysisBelowTarget": 1,
@@ -203,6 +203,90 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-21-fifa-world-cup-revenue-record",
+      "slug": "fifa-world-cup-2026-record-revenue",
+      "title": "FIFA Banks Record $15 Billion From 2026 World Cup, Nearly Double Qatar's Haul",
+      "kind": "article",
+      "words": 426,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 61,
+        "average": 47.3
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 76,
+        "average": 38.7
+      },
+      "lexicalDiversity": 0.592,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-21-infantino-message-argentina-world-cup-final",
+      "slug": "infantino-message-argentina-world-cup-final",
+      "title": "Infantino praises Argentina's \"unforgettable\" run despite chaotic World Cup final",
+      "kind": "news",
+      "words": 408,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 65,
+        "average": 45.3
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 61,
+        "average": 34
+      },
+      "lexicalDiversity": 0.588,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260721-kangwa-vikingur-aek-equalizer",
+      "slug": "kangwa-champions-league-equalizer-vikingur-aek-transfer",
+      "title": "Kangwa Levels for Hapoel in Iceland but Barely Celebrates Amid AEK Transfer Talks",
+      "kind": "news",
+      "words": 495,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 80,
+        "average": 55
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 56,
+        "average": 27.5
+      },
+      "lexicalDiversity": 0.552,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-21-kangwa-beersheba-vikingur-first-leg",
+      "slug": "kangwa-vows-fight-back-beersheba-fall-vikingur-champions-league",
+      "title": "Kangwa scores but Beersheba fall to Vikingur in Champions League opener",
+      "kind": "news",
+      "words": 291,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 49,
+        "average": 41.6
+      },
+      "sentenceWords": {
+        "shortest": 14,
+        "longest": 44,
+        "average": 32.3
+      },
+      "lexicalDiversity": 0.643,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-07-21-partizan-wendell-moore-jr-race",
       "slug": "partizan-joins-race-wendell-moore-jr",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T21:41:12.011Z",
+  "generatedAt": "2026-07-21T22:42:20.330Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,72 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 259,
-    "publishedBefore": 185,
-    "cleanPublished": 185,
+    "totalArticles": 264,
+    "publishedBefore": 189,
+    "cleanPublished": 189,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 185,
-    "reviewAfter": 74
+    "publishedAfter": 189,
+    "reviewAfter": 75
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-2026-07-21-fifa-world-cup-revenue-record",
+      "slug": "fifa-world-cup-2026-record-revenue",
+      "title": "FIFA Banks Record $15 Billion From 2026 World Cup, Nearly Double Qatar's Haul",
+      "statusBefore": "published",
+      "words": 426,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-21-infantino-message-argentina-world-cup-final",
+      "slug": "infantino-message-argentina-world-cup-final",
+      "title": "Infantino praises Argentina's \"unforgettable\" run despite chaotic World Cup final",
+      "statusBefore": "published",
+      "words": 408,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260721-hapoel-katamon-jerusalem-champions-league-debut",
+      "slug": "hapoel-katamon-jerusalem-champions-league-debut-paok",
+      "title": "Hapoel Katamon Jerusalem Set for Historic Champions League Debut Against PAOK",
+      "statusBefore": "review",
+      "words": 317,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-07-21-kangwa-beersheba-vikingur-first-leg",
+      "slug": "kangwa-vows-fight-back-beersheba-fall-vikingur-champions-league",
+      "title": "Kangwa scores but Beersheba fall to Vikingur in Champions League opener",
+      "statusBefore": "published",
+      "words": 292,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
     {
       "id": "live-20260721-kayouf-achilles-injury",
       "slug": "maccabi-haifa-goalkeeper-kayouf-achilles-tear",
@@ -1610,6 +1666,60 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-07-21-fifa-world-cup-revenue-record",
+      "slug": "fifa-world-cup-2026-record-revenue",
+      "title": "FIFA Banks Record $15 Billion From 2026 World Cup, Nearly Double Qatar's Haul",
+      "statusBefore": "published",
+      "words": 426,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-21-infantino-message-argentina-world-cup-final",
+      "slug": "infantino-message-argentina-world-cup-final",
+      "title": "Infantino praises Argentina's \"unforgettable\" run despite chaotic World Cup final",
+      "statusBefore": "published",
+      "words": 408,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260721-kangwa-vikingur-aek-equalizer",
+      "slug": "kangwa-champions-league-equalizer-vikingur-aek-transfer",
+      "title": "Kangwa Levels for Hapoel in Iceland but Barely Celebrates Amid AEK Transfer Talks",
+      "statusBefore": "published",
+      "words": 491,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-07-21-kangwa-beersheba-vikingur-first-leg",
+      "slug": "kangwa-vows-fight-back-beersheba-fall-vikingur-champions-league",
+      "title": "Kangwa scores but Beersheba fall to Vikingur in Champions League opener",
+      "statusBefore": "published",
+      "words": 292,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
     {
       "id": "live-2026-07-21-partizan-wendell-moore-jr-race",
       "slug": "partizan-joins-race-wendell-moore-jr",
