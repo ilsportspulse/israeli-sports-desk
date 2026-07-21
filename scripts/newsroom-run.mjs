@@ -18,7 +18,7 @@ let MAX_CANDIDATES = Math.max(1, Number(process.env.NEWSROOM_MAX_CANDIDATES ?? 6
 // CLI mode runs a full Claude Code agent loop (several web-search rounds + writing)
 // per article, which is thorough but slow. Give each draft a generous wall-clock
 // budget and a turn cap so it concludes instead of running forever.
-const DRAFT_TIMEOUT_MS = Math.max(60_000, Number(process.env.NEWSROOM_DRAFT_TIMEOUT_MS ?? 5 * 60 * 1000));
+const DRAFT_TIMEOUT_MS = Math.max(60_000, Number(process.env.NEWSROOM_DRAFT_TIMEOUT_MS ?? 6.5 * 60 * 1000));
 const DRAFT_MAX_TURNS = Math.max(8, Number(process.env.NEWSROOM_DRAFT_MAX_TURNS ?? 40));
 
 // Two ways to drive the newsroom, in priority order:
