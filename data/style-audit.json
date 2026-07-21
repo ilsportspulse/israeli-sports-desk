@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T10:23:24.808Z",
+  "generatedAt": "2026-07-21T12:11:38.434Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 164,
+    "publishedArticles": 165,
     "wordCount": {
       "minimum": 266,
       "maximum": 1070,
       "median": 490,
-      "average": 510.7
+      "average": 510.6
     },
     "paragraphDistribution": {
       "5": 1,
@@ -24,7 +24,7 @@
       "7": 42,
       "8": 46,
       "9": 30,
-      "10": 21,
+      "10": 22,
       "11": 9,
       "12": 1,
       "13": 3,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.28,
+    "dominantParagraphShare": 0.279,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 5,
     "analysisBelowTarget": 1,
@@ -157,6 +157,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260721-tebas-infantino-must-go",
+      "slug": "tebas-says-infantino-must-go-destroying-football",
+      "title": "LaLiga chief Tebas: Infantino 'must go, he's destroying football'",
+      "kind": "news",
+      "words": 493,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 27,
+        "longest": 95,
+        "average": 49.3
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 124,
+        "average": 37.9
+      },
+      "lexicalDiversity": 0.598,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260721-world-cup-2026-spain-mbappe-americanization",
       "slug": "spain-crown-mbappe-record-football-americanization-world-cup-2026",
