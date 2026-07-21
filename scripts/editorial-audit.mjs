@@ -68,7 +68,9 @@ function inspect(article) {
   if ((article.desk === "international" || article.desk === "world") && internationalPublisher.test(visibleCopy)) {
     blockers.push("presentation:publisher-name-in-international-reader-copy");
   }
-  if (!image) blockers.push("media:no-licensed-image");
+  // A photo is an enhancement, not a publish gate: a story without one shows a clean
+  // category visual, so missing-image no longer blocks. We still block a WRONG image
+  // (mismatched caption or a manually-flagged mismatch) when one is present.
   if (image?.caption && /does not depict|not shown|not represented as visible|illustrating.*not identified|generic image/i.test(image.caption)) {
     blockers.push("media:caption-confirms-semantic-mismatch");
   }

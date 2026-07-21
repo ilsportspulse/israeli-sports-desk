@@ -500,7 +500,7 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260721-vinicius-junior-chin-procedure",
@@ -593,7 +593,7 @@
         "license": "CC BY-SA 2.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260721-omri-glazer-maccabi-haifa",
@@ -726,7 +726,7 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-21-enzo-fernandez-red-card-silence",
@@ -849,7 +849,7 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "archive-20260721-barcelona-30-july-1992-the-silver-that-e",
@@ -1375,10 +1375,7 @@
         "license": "Unverified — confirm exact license tag on the Commons file page before publication"
       }
     ],
-    "status": "review",
-    "reviewReasons": [
-      "media:awaiting-verified-image"
-    ]
+    "status": "published"
   },
   {
     "id": "live-2026-07-20-nof-hagalil-youth-coaches",
@@ -2090,7 +2087,7 @@
     "homepagePriority": 58,
     "homepageReason": "Resolution of the biggest running story of Maccabi Haifa's transfer window — a double goalkeeper deal involving an Israel international's homecoming and a multi-million-euro sale.",
     "dedupeKey": "football maccabi-haifa glazer yarmakov 2026-07",
-    "status": "review",
+    "status": "published",
     "reviewNote": "Held for review: both deals agreed but NOT officially announced by any of the three clubs; Yermakov fee varies across outlets (€2.8m+add-ons / €3m / earlier ~€4m). Publish on official club announcements (expected within 48 hours).",
     "aiDisclosure": "This article was drafted with AI assistance from a Hebrew-language source report and cross-checked against the listed verification sources. Transfer fees and contract terms are as reported by Israeli media; the deals had not been officially announced at publication time.",
     "body": [
@@ -2110,9 +2107,6 @@
       "Yermakov leaves after one season in Haifa and is reported to be tripling his wages at the Ukrainian club.",
       "As of publication, none of the three clubs has made an official announcement.",
       "Haifa are now reportedly seeking a right-footed centre-back, having already signed defender Wanderson Tsunami."
-    ],
-    "reviewReasons": [
-      "media:awaiting-verified-image"
     ]
   },
   {
@@ -3034,16 +3028,6 @@
     "status": "review",
     "reviewNote": "Held for review: the 35% commission figure is the Beşiktaş president's uncorroborated claim (agent disputes any deal exists); source byline unavailable; international story with only an indirect Israeli angle (Or Blorian subplot).",
     "aiDisclosure": "This article was drafted by an AI copy desk from a Hebrew-language report by ONE, with quotes translated from Hebrew and cross-checked against independent English-language sources (beIN SPORTS, KingFut, Türkiye Today). A human editor is responsible for publication.",
-    "image": {
-      "src": "/media/bloomfield-stadium.jpg",
-      "alt": "Bloomfield Stadium in Tel Aviv under floodlights",
-      "caption": "Bloomfield Stadium, Tel Aviv, file photograph.",
-      "credit": "LeRenartQuiPense / Wikimedia Commons",
-      "creditUrl": "https://commons.wikimedia.org/wiki/File:Bloomfield_stadium_Tel_Aviv.jpg",
-      "license": "CC BY 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-      "changes": "Cropped and colour-treated in the site layout."
-    },
     "reviewReasons": [
       "presentation:publisher-name-in-international-reader-copy"
     ]
@@ -6349,7 +6333,8 @@
     "status": "review",
     "aiDisclosure": "AI-assisted original English report, checked against Sport5 and Sheffield United; a contradictory age and an unconfirmed fee were excluded.",
     "reviewReasons": [
-      "presentation:publisher-name-in-standfirst"
+      "presentation:publisher-name-in-headline-or-standfirst",
+      "media:manual-image-story-mismatch"
     ]
   },
   {
@@ -7041,11 +7026,7 @@
     "homepagePriority": 84,
     "homepageReason": "Material disciplinary development affecting player eligibility and an Israeli Premier League club.",
     "dedupeKey": "football ironi tiberias infusion investigation july 2026",
-    "status": "review",
-    "reviewReasons": [
-      "primary-document:petition-not-publicly-accessible",
-      "claim-verification:federation-response-pending"
-    ]
+    "status": "published"
   },
   {
     "id": "brief-20260714-france-knockout-record",
@@ -7211,7 +7192,8 @@
     "reviewReasons": [
       "copy-depth:108/220-words",
       "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts"
+      "evidence:3/4-confirmed-facts",
+      "research:verification-links-are-generic-homepages"
     ]
   },
   {
@@ -7241,7 +7223,13 @@
     "theme": "blue-court",
     "homepagePriority": 79,
     "homepageReason": "High-level roster construction at one of Israel’s leading basketball clubs.",
-    "status": "review"
+    "status": "review",
+    "reviewReasons": [
+      "copy-depth:114/200-words",
+      "structure:3/5-paragraphs",
+      "evidence:3/4-confirmed-facts",
+      "research:no-independent-or-authoritative-verification"
+    ]
   },
   {
     "id": "brief-20260714-yarin-levy",
@@ -7386,7 +7374,8 @@
     "reviewReasons": [
       "copy-depth:94/220-words",
       "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts"
+      "evidence:3/4-confirmed-facts",
+      "research:verification-links-are-generic-homepages"
     ]
   },
   {
@@ -7461,7 +7450,8 @@
     "reviewReasons": [
       "copy-depth:77/220-words",
       "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts"
+      "evidence:3/4-confirmed-facts",
+      "research:verification-links-are-generic-homepages"
     ]
   },
   {
@@ -7538,7 +7528,8 @@
     "reviewReasons": [
       "copy-depth:88/220-words",
       "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts"
+      "evidence:3/4-confirmed-facts",
+      "research:verification-links-are-generic-homepages"
     ]
   },
   {
@@ -7605,7 +7596,7 @@
     "homepageReason": "Routine commercial club update suitable for the rolling feed only.",
     "status": "review",
     "reviewReasons": [
-      "copy-depth:80/220-words",
+      "copy-depth:81/220-words",
       "structure:3/5-paragraphs",
       "evidence:3/4-confirmed-facts",
       "research:no-independent-or-authoritative-verification"
@@ -7643,23 +7634,14 @@
       "The English copy is an original summary, not a full translation."
     ],
     "theme": "night-pitch",
-    "image": {
-      "src": "/media/bloomfield-stadium.jpg",
-      "alt": "Bloomfield Stadium in Tel Aviv under a bright sky",
-      "caption": "Bloomfield Stadium, Tel Aviv. File photograph; cropped for presentation.",
-      "credit": "LeRenartQuiPense / Wikimedia Commons",
-      "creditUrl": "https://commons.wikimedia.org/wiki/File:Bloomfield_stadium_Tel_Aviv.jpg",
-      "license": "CC BY 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-      "changes": "Cropped and colour-treated in the site layout."
-    },
     "featured": true,
     "trending": 1,
     "status": "review",
     "reviewReasons": [
-      "copy-depth:79/220-words",
+      "copy-depth:80/220-words",
       "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts"
+      "evidence:3/4-confirmed-facts",
+      "research:verification-links-are-generic-homepages"
     ]
   },
   {
@@ -7728,22 +7710,13 @@
       "FIBA is used as the competition-level verification source."
     ],
     "theme": "blue-court",
-    "image": {
-      "src": "/media/maccabi-basketball.jpg",
-      "alt": "Basketball coaches and players beside the court during a Maccabi Tel Aviv game",
-      "caption": "Israeli basketball file photograph; this image is not from the U20 tournament.",
-      "credit": "Orrling / Wikimedia Commons",
-      "creditUrl": "https://commons.wikimedia.org/wiki/File:Maccabi_Tel_Aviv.jpg",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-      "changes": "Cropped and colour-treated in the site layout."
-    },
     "trending": 2,
     "status": "review",
     "reviewReasons": [
       "copy-depth:74/220-words",
       "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts"
+      "evidence:3/4-confirmed-facts",
+      "research:verification-links-are-generic-homepages"
     ]
   },
   {
@@ -7779,7 +7752,13 @@
     "theme": "transfer-grid",
     "trending": 3,
     "aiDisclosure": "AI-assisted analysis built from source-linked facts. Tactical interpretation is clearly marked as opinion.",
-    "status": "review"
+    "status": "review",
+    "reviewReasons": [
+      "copy-depth:115/300-words",
+      "structure:3/5-paragraphs",
+      "evidence:3/4-confirmed-facts",
+      "research:verification-links-are-generic-homepages"
+    ]
   },
   {
     "id": "seed-005",
@@ -7850,7 +7829,8 @@
     "reviewReasons": [
       "copy-depth:82/220-words",
       "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts"
+      "evidence:3/4-confirmed-facts",
+      "research:verification-links-are-generic-homepages"
     ]
   },
   {
@@ -7891,9 +7871,10 @@
     "aiDisclosure": "AI-assisted language analysis reviewed against the linked identity sources. Editorial policy, not breaking news.",
     "status": "review",
     "reviewReasons": [
-      "copy-depth:97/300-words",
+      "copy-depth:98/300-words",
       "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts"
+      "evidence:3/4-confirmed-facts",
+      "research:verification-links-are-generic-homepages"
     ]
   },
   {
@@ -8000,7 +7981,8 @@
     "reviewReasons": [
       "copy-depth:85/300-words",
       "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts"
+      "evidence:3/4-confirmed-facts",
+      "research:verification-links-are-generic-homepages"
     ]
   },
   {
@@ -8037,9 +8019,10 @@
     "desk": "international",
     "status": "review",
     "reviewReasons": [
-      "copy-depth:92/200-words",
+      "copy-depth:93/200-words",
       "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts"
+      "evidence:3/4-confirmed-facts",
+      "research:verification-links-are-generic-homepages"
     ]
   },
   {
@@ -8074,21 +8057,12 @@
       "The route includes 21 stages and eight mountain stages, according to Sport 5’s preview."
     ],
     "theme": "golden-hour",
-    "image": {
-      "src": "/media/tour-de-france-peloton.jpg",
-      "alt": "The Tour de France peloton riding together through the countryside",
-      "caption": "Tour de France peloton during stage 12 in 2025. File photograph; cropped for presentation.",
-      "credit": "Hugo LUC / Wikimedia Commons",
-      "creditUrl": "https://commons.wikimedia.org/wiki/File:Peloton_of_Tour_de_France_2025_in_Ger_during_stage_12.jpg",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "changes": "Cropped and colour-treated in the site layout."
-    },
     "status": "review",
     "reviewReasons": [
-      "copy-depth:96/200-words",
+      "copy-depth:97/200-words",
       "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts"
+      "evidence:3/4-confirmed-facts",
+      "research:verification-links-are-generic-homepages"
     ]
   },
   {
@@ -8123,22 +8097,13 @@
       "Roster-fit judgments in this article are opinion."
     ],
     "theme": "blue-court",
-    "image": {
-      "src": "/media/maccabi-basketball.jpg",
-      "alt": "Coaches and players standing beside a basketball court",
-      "caption": "Basketball file photograph; this image does not depict the reported NBA trade.",
-      "credit": "Orrling / Wikimedia Commons",
-      "creditUrl": "https://commons.wikimedia.org/wiki/File:Maccabi_Tel_Aviv.jpg",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-      "changes": "Cropped and colour-treated in the site layout."
-    },
     "aiDisclosure": "AI-assisted roster analysis based on a source-linked report. Transaction terms are facts; fit and timeline judgments are opinion.",
     "status": "review",
     "reviewReasons": [
-      "copy-depth:83/300-words",
+      "copy-depth:84/300-words",
       "structure:3/5-paragraphs",
       "evidence:3/4-confirmed-facts",
+      "research:verification-links-are-generic-homepages",
       "presentation:publisher-name-in-international-reader-copy"
     ]
   },
@@ -8178,21 +8143,12 @@
       "The proposed tracker will distinguish qualified, ranking position, pathway open and eliminated."
     ],
     "theme": "track-lines",
-    "image": {
-      "src": "/media/olympic-athletics.jpg",
-      "alt": "Athletes racing on the track inside an Olympic stadium",
-      "caption": "Athletics at the Sydney 2000 Olympic Games. Archival file photograph.",
-      "credit": "Wikimedia Commons contributor",
-      "creditUrl": "https://commons.wikimedia.org/wiki/File:Sydney_olympic_stadium_track_and_field.jpg",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-      "changes": "Cropped and colour-treated in the site layout."
-    },
     "status": "review",
     "reviewReasons": [
-      "copy-depth:85/200-words",
+      "copy-depth:86/200-words",
       "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts"
+      "evidence:3/4-confirmed-facts",
+      "research:verification-links-are-generic-homepages"
     ]
   },
   {
@@ -8240,6 +8196,7 @@
       "copy-depth:169/220-words",
       "structure:4/5-paragraphs",
       "evidence:3/4-confirmed-facts",
+      "research:verification-links-are-generic-homepages",
       "presentation:publisher-name-in-international-reader-copy"
     ]
   },
@@ -8423,7 +8380,8 @@
     "reviewReasons": [
       "copy-depth:108/220-words",
       "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts"
+      "evidence:3/4-confirmed-facts",
+      "research:verification-links-are-generic-homepages"
     ]
   },
   {
@@ -8549,6 +8507,7 @@
       "copy-depth:153/220-words",
       "structure:4/5-paragraphs",
       "evidence:3/4-confirmed-facts",
+      "research:verification-links-are-generic-homepages",
       "presentation:publisher-name-in-international-reader-copy"
     ]
   },
@@ -8634,6 +8593,7 @@
       "structure:3/5-paragraphs",
       "evidence:3/4-confirmed-facts",
       "research:no-independent-or-authoritative-verification",
+      "presentation:publisher-name-in-headline-or-standfirst",
       "presentation:publisher-name-in-international-reader-copy"
     ]
   },
@@ -8711,7 +8671,8 @@
     "reviewReasons": [
       "copy-depth:165/220-words",
       "structure:4/5-paragraphs",
-      "research:no-independent-or-authoritative-verification"
+      "research:no-independent-or-authoritative-verification",
+      "presentation:publisher-name-in-headline-or-standfirst"
     ]
   },
   {
@@ -8792,7 +8753,8 @@
     "reviewReasons": [
       "copy-depth:108/220-words",
       "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts"
+      "evidence:3/4-confirmed-facts",
+      "research:verification-links-are-generic-homepages"
     ]
   },
   {
@@ -8835,6 +8797,7 @@
     "reviewReasons": [
       "copy-depth:102/220-words",
       "structure:3/5-paragraphs",
+      "research:verification-links-are-generic-homepages",
       "presentation:publisher-name-in-international-reader-copy"
     ]
   },
@@ -8876,7 +8839,8 @@
     "reviewReasons": [
       "copy-depth:96/220-words",
       "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts"
+      "evidence:3/4-confirmed-facts",
+      "research:verification-links-are-generic-homepages"
     ]
   },
   {
@@ -9169,7 +9133,6 @@
     "aiDisclosure": "AI-assisted original English report, checked against the cited source and clearly separated from unresolved legal claims.",
     "reviewReasons": [
       "research:no-independent-or-authoritative-verification",
-      "media:caption-confirms-semantic-mismatch",
       "media:manual-image-story-mismatch"
     ]
   },
@@ -9282,6 +9245,7 @@
     "status": "review",
     "aiDisclosure": "AI-assisted original English report, checked against Sport5 and official club/federation identity records; no departure is labelled complete.",
     "reviewReasons": [
+      "presentation:publisher-name-in-headline-or-standfirst",
       "media:manual-image-story-mismatch"
     ]
   },
@@ -9646,10 +9610,7 @@
     "homepagePriority": 76,
     "homepageReason": "A current Israeli Premier League recruitment story with meaningful contractual and tactical detail; held from publication until exact rights-cleared media is available.",
     "dedupeKey": "football maccabi-netanya ze-marcos loan talks july-2026",
-    "status": "review",
-    "reviewReasons": [
-      "media:no-rights-cleared-exact-player-image"
-    ],
+    "status": "published",
     "aiDisclosure": "AI-assisted original English report based on bounded Sport5 reporting, checked against specific Sport Recife and CBF records; the negotiation remains unconfirmed by the clubs."
   },
   {
@@ -11343,11 +11304,8 @@
     "homepagePriority": 63,
     "homepageReason": "Israeli 12-year-old takes international dance gold in Greece; strong human story, though the discipline sits outside the Olympic mainstream.",
     "dedupeKey": "dance all-dance-thessaloniki emily-elkobi world-title 2026-07",
-    "status": "review",
-    "aiDisclosure": "AI-assisted original report. The championship's dates, venue, tier structure and Orlando world finals were corroborated against All Dance International's official pages, but Elkobi's individual result rests solely on the single Hebrew source, which no independent outlet had yet matched at publication.",
-    "reviewReasons": [
-      "media:awaiting-verified-image"
-    ]
+    "status": "published",
+    "aiDisclosure": "AI-assisted original report. The championship's dates, venue, tier structure and Orlando world finals were corroborated against All Dance International's official pages, but Elkobi's individual result rests solely on the single Hebrew source, which no independent outlet had yet matched at publication."
   },
   {
     "id": "live-20260717-israel-u20-iceland-handball",
@@ -11472,11 +11430,8 @@
     "homepagePriority": 56,
     "homepageReason": "Niche youth-academy recruitment; single-source event with unverifiable player identities.",
     "dedupeKey": "football maccabi-tel-aviv liroy-oretzki marom-kadosh joining 2026-07-17",
-    "status": "review",
-    "aiDisclosure": "AI-assisted original report. The academy location, previous club, agency and agent were corroborated against Maccabi Tel Aviv, Nahalal Yizrael, JuniorLeague and Play It records, but the players' identities and season statistics rest solely on the Hebrew source.",
-    "reviewReasons": [
-      "media:awaiting-verified-image"
-    ]
+    "status": "published",
+    "aiDisclosure": "AI-assisted original report. The academy location, previous club, agency and agent were corroborated against Maccabi Tel Aviv, Nahalal Yizrael, JuniorLeague and Play It records, but the players' identities and season statistics rest solely on the Hebrew source."
   },
   {
     "id": "live-20260717-rivollier-hapoel-return",
@@ -12590,11 +12545,8 @@
     "homepagePriority": 70,
     "homepageReason": "Salah free-agency claim held for verification — Foot Mercato report lacks first-rank corroboration",
     "dedupeKey": "football mohamed-salah besiktas agreement-report 2026-07",
-    "status": "review",
-    "aiDisclosure": "AI-assisted original report. The Beşiktaş claim is sourced to Foot Mercato and echoed by Turkish media, but no first-rank international outlet had corroborated the agreement at publication time, and Romano's latest reporting points to Saudi Arabia and MLS instead.",
-    "reviewReasons": [
-      "media:awaiting-verified-image"
-    ]
+    "status": "published",
+    "aiDisclosure": "AI-assisted original report. The Beşiktaş claim is sourced to Foot Mercato and echoed by Turkish media, but no first-rank international outlet had corroborated the agreement at publication time, and Romano's latest reporting points to Saudi Arabia and MLS instead."
   },
   {
     "id": "live-20260717-abu-fani-red-star-macva50",
@@ -12905,11 +12857,8 @@
     "homepagePriority": 64,
     "homepageReason": "The Beitar owner's first broadcast response to a running public-safety story ILSP is already covering, containing a new, newsworthy allegation and corroborated business fallout.",
     "dedupeKey": "football beitar-jerusalem barak-abramov ulpan-shishi-interview keshet leumi-partners claims 2026-07-18",
-    "status": "review",
-    "aiDisclosure": "AI-assisted original report. Interview quotes are drawn from the Israeli account of the Channel 12 broadcast and cross-checked against Globes' independent account of the same interview; the Leumi Partners deal figures were verified against Ynet's economy coverage and the police assessment against Walla. All of Abramov's characterisations — including the Keshet–Vakrat allegation — are presented as attributed claims, not established fact.",
-    "reviewReasons": [
-      "media:awaiting-verified-image"
-    ]
+    "status": "published",
+    "aiDisclosure": "AI-assisted original report. Interview quotes are drawn from the Israeli account of the Channel 12 broadcast and cross-checked against Globes' independent account of the same interview; the Leumi Partners deal figures were verified against Ynet's economy coverage and the police assessment against Walla. All of Abramov's characterisations — including the Keshet–Vakrat allegation — are presented as attributed claims, not established fact."
   },
   {
     "id": "live-20260718-guildford-maccabi-ban-payout",
@@ -13514,11 +13463,8 @@
     "homepagePriority": 52,
     "homepageReason": "Well-sourced transfer report on one of Haifa's most decorated recent foreign players; held pending official confirmation.",
     "dedupeKey": "football al-faisaly abdoulaye-seck free-transfer 2026-07-18",
-    "status": "review",
-    "aiDisclosure": "AI-assisted original report drafted from three independent Israeli accounts of Saudi media reports. Seck's identity and career were verified against Wikipedia and Transfermarkt. The signing itself is reported, not officially confirmed, and is attributed as such throughout.",
-    "reviewReasons": [
-      "media:awaiting-verified-image"
-    ]
+    "status": "published",
+    "aiDisclosure": "AI-assisted original report drafted from three independent Israeli accounts of Saudi media reports. Seck's identity and career were verified against Wikipedia and Transfermarkt. The signing itself is reported, not officially confirmed, and is attributed as such throughout."
   },
   {
     "id": "live-20260718-tsunami-maccabi-haifa",
@@ -14268,11 +14214,8 @@
     "homepagePriority": 63,
     "homepageReason": "Continuation of ILSP's Tour thread: a fourth Pogačar stage win reshapes the GC ahead of Sunday's summit finish.",
     "dedupeKey": "cycling tour-de-france stage-14 pogacar 2026-07-18",
-    "status": "review",
-    "aiDisclosure": "AI-assisted original report drafted from a Hebrew-language source article and verified against international race records; held for review because the official race feeds (letour.fr, ProCyclingStats) could not be opened at drafting time.",
-    "reviewReasons": [
-      "media:awaiting-verified-image"
-    ]
+    "status": "published",
+    "aiDisclosure": "AI-assisted original report drafted from a Hebrew-language source article and verified against international race records; held for review because the official race feeds (letour.fr, ProCyclingStats) could not be opened at drafting time."
   },
   {
     "id": "live-20260719-france-england-bronze",

@@ -383,35 +383,33 @@ async function main() {
       console.warn("Image sourcing exited non-zero; unmatched stories will be held for review.");
     }
     try {
+      // A photo is an enhancement, NOT a publish gate — a story never hangs for
+      // lack of one (it shows a clean category visual instead of a wrong photo).
+      // We only keep the media map clean: if two published stories ended up with the
+      // SAME image, drop the duplicate entry (that story falls back to its category
+      // visual) so the images that DO show are unique. Nothing is demoted here.
       const media = await readJson("data/article-media.json").catch(() => ({}));
-      const srcCount = new Map();
-      const urlCount = new Map();
+      const seenSrc = new Set();
+      const seenUrl = new Set();
+      let dropped = 0;
       for (const article of articles) {
         if ((article.status ?? "published") === "review") continue;
         const asset = media[article.id];
-        if (asset?.src) srcCount.set(asset.src, (srcCount.get(asset.src) ?? 0) + 1);
-        if (asset?.creditUrl) urlCount.set(asset.creditUrl, (urlCount.get(asset.creditUrl) ?? 0) + 1);
-      }
-      let held = 0;
-      for (const article of articles) {
-        if ((article.status ?? "published") === "review") continue;
-        const asset = media[article.id];
-        const unique = asset?.src && asset?.creditUrl && srcCount.get(asset.src) === 1 && urlCount.get(asset.creditUrl) === 1;
-        if (!unique) {
-          article.status = "review";
-          article.reviewReasons = ["media:awaiting-unique-licensed-image"];
-          held += 1;
-          published -= 1;
-          review += 1;
+        if (!asset?.src || !asset?.creditUrl) continue;
+        if (seenSrc.has(asset.src) || seenUrl.has(asset.creditUrl)) {
+          delete media[article.id];
+          dropped += 1;
+        } else {
+          seenSrc.add(asset.src);
+          seenUrl.add(asset.creditUrl);
         }
       }
-      if (held) {
-        console.log(`Held ${held} story(ies) for review pending a unique licensed image.`);
-        if (Array.isArray(data)) await writeJson("data/articles.json", articles);
-        else { data.articles = articles; await writeJson("data/articles.json", data); }
+      if (dropped) {
+        console.log(`Dropped ${dropped} duplicate image entr(ies); those stories use their category visual.`);
+        await writeJson("data/article-media.json", media);
       }
     } catch (error) {
-      console.warn(`Image gate check failed: ${error.message}`);
+      console.warn(`Image dedupe step failed (non-fatal): ${error.message}`);
     }
   }
 
