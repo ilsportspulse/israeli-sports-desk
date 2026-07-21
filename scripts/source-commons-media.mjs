@@ -989,11 +989,17 @@ for (const [index, article] of articles.entries()) {
     usedUrls.add(selected.imageinfo?.[0]?.descriptionurl);
     const result = toAsset(article, selected);
     if (!dryRun) {
+      // Overwrite the file unless it is already the SAME image (same source URL).
+      // We only reach here for stories being (re)sourced, so a file left at this
+      // slug from an earlier run is stale — never keep it, or the page would show
+      // the old wrong photo while the metadata claims the new one. (This was the
+      // bug: a skipped download left a 1946 match photo under a Bloomfield caption.)
       const previous = previousMedia[article.id];
+      const alreadyCorrect = previous && previous.creditUrl === result.asset.creditUrl;
       downloaded = await downloadImage(
         result.downloadUrl,
         path.join(outputDirectory, result.fileName),
-        Boolean(previous && previous.creditUrl !== result.asset.creditUrl),
+        !alreadyCorrect,
       );
     }
     media[article.id] = result.asset;

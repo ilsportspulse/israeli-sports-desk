@@ -133,7 +133,13 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
       return scoreB - scoreA || freshnessTime(b) - freshnessTime(a);
     })
     .slice(0, 4);
-  const featured = leadPool[0] ?? articles[0];
+  // When no story is fresh enough for the lead pool, fall back to the most recent
+  // REAL news story — never a "From the Archive"/Retro item or an analysis column
+  // (which have their own dedicated sections). Retro must never surface as the lead.
+  const featured =
+    leadPool[0] ??
+    articles.find((article) => article.kind !== "analysis" && article.category !== "From the Archive") ??
+    articles[0];
   const standardStories = articles.filter(
     (article) => article.id !== featured.id && article.kind !== "analysis" && article.category !== "From the Archive",
   );
