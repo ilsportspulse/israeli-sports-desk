@@ -18,7 +18,7 @@ let MAX_CANDIDATES = Math.max(1, Number(process.env.NEWSROOM_MAX_CANDIDATES ?? 6
 // CLI mode runs a full Claude Code agent loop (several web-search rounds + writing)
 // per article, which is thorough but slow. Give each draft a generous wall-clock
 // budget and a turn cap so it concludes instead of running forever.
-const DRAFT_TIMEOUT_MS = Math.max(60_000, Number(process.env.NEWSROOM_DRAFT_TIMEOUT_MS ?? 9 * 60 * 1000));
+const DRAFT_TIMEOUT_MS = Math.max(60_000, Number(process.env.NEWSROOM_DRAFT_TIMEOUT_MS ?? 5 * 60 * 1000));
 const DRAFT_MAX_TURNS = Math.max(8, Number(process.env.NEWSROOM_DRAFT_MAX_TURNS ?? 40));
 
 // Two ways to drive the newsroom, in priority order:
@@ -285,7 +285,7 @@ async function main() {
   // must stay under 30 min). API mode is fast and keeps the full requested count.
   let effectiveMax = MAX_CANDIDATES;
   if (MODE === "cli") {
-    const cliBudgetMs = Math.max(DRAFT_TIMEOUT_MS, Number(process.env.NEWSROOM_CLI_TIME_BUDGET_MS ?? 24 * 60 * 1000));
+    const cliBudgetMs = Math.max(DRAFT_TIMEOUT_MS, Number(process.env.NEWSROOM_CLI_TIME_BUDGET_MS ?? 14 * 60 * 1000));
     const fitsBudget = Math.max(1, Math.floor(cliBudgetMs / DRAFT_TIMEOUT_MS));
     effectiveMax = Math.min(MAX_CANDIDATES, fitsBudget);
     if (effectiveMax < MAX_CANDIDATES) {

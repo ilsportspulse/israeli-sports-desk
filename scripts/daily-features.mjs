@@ -24,7 +24,7 @@ const ARTICLES = path.join(root, "data", "articles.json");
 const QUIZ = path.join(root, "data", "daily-quiz.json");
 
 const MODEL = process.env.ANTHROPIC_MODEL ?? "claude-sonnet-5";
-const TIMEOUT_MS = Number(process.env.DAILY_TIMEOUT_MS ?? String(8 * 60 * 1000));
+const TIMEOUT_MS = Number(process.env.DAILY_TIMEOUT_MS ?? String(6 * 60 * 1000));
 const apiKey = process.env.ANTHROPIC_API_KEY;
 const MODE = process.env.DAILY_MODE ?? (apiKey && !process.env.CLAUDE_CODE_OAUTH_TOKEN ? "api" : "cli");
 
@@ -265,15 +265,29 @@ export async function runDailyFeatures(nowIso) {
   if (!only || only === "quiz") {
     try { results.quiz = await ensureQuiz(articles, now); } catch (e) { results.quiz = { error: e.message?.split("\n")[0] }; }
   }
+  // Each of retro/column/tour is a slow, research-heavy AI call. Running all three
+  // every cycle blew past the 30-minute job window. Instead run AT MOST ONE of them
+  // per cycle — the first that isn't done today — so the load spreads across the
+  // day's cycles and each cycle stays well inside the timeout. (When DAILY_ONLY is
+  // set we run exactly that one, for manual/testing use.)
   const additions = [];
-  if (!only || only === "retro") {
-    try { const r = await ensureRetro(articles, now); results.retro = r; if (r?.article) additions.push(r.article); } catch (e) { results.retro = { error: e.message?.split("\n")[0] }; }
-  }
-  if (!only || only === "column") {
-    try { const c = await ensureColumn(articles, now); results.column = c; if (c?.article) additions.push(c.article); } catch (e) { results.column = { error: e.message?.split("\n")[0] }; }
-  }
-  if (!only || only === "tour") {
-    try { const t = await ensureTour(articles, now); results.tour = t; if (t?.article) additions.push(t.article); } catch (e) { results.tour = { error: e.message?.split("\n")[0] }; }
+  const slow = [
+    ["retro", ensureRetro],
+    ["column", ensureColumn],
+    ["tour", ensureTour],
+  ];
+  for (const [key, ensure] of slow) {
+    if (only && only !== key) continue;
+    try {
+      const r = await ensure(articles, now);
+      results[key] = r;
+      if (r?.article) { additions.push(r.article); break; } // one slow feature per cycle
+      if (r?.skipped) continue; // already done today → try the next one
+      break; // attempted but produced nothing (held/failed) → stop for this cycle
+    } catch (e) {
+      results[key] = { error: e.message?.split("\n")[0] };
+      break;
+    }
   }
   if (additions.length) {
     articles = readJson(ARTICLES, articles); // re-read in case it changed
