@@ -321,12 +321,12 @@ async function eliteData(): Promise<ScoreCentreData> {
   const cleanBase = baseUrl.replace(/\/$/, "");
   const [liveResponse, upcomingResponse] = await Promise.all([
     fetch(`${cleanBase}/api/v1/public/opticodds/events?status=LIVE&limit=50`, {
-      cache: "no-store",
+      next: { revalidate: 30 },
       headers: { "x-locale": "en" },
     }),
     fetch(
       `${cleanBase}/api/v1/public/opticodds/events?status=PREMATCH&limit=50`,
-      { cache: "no-store", headers: { "x-locale": "en" } },
+      { next: { revalidate: 30 }, headers: { "x-locale": "en" } },
     ),
   ]);
 
@@ -473,10 +473,10 @@ async function sportmonksData(): Promise<ScoreCentreData> {
   const date = (value: Date) => value.toISOString().slice(0, 10);
   const params = `api_token=${encodeURIComponent(token)}`;
   const [liveResponse, ...seasonResponses] = await Promise.all([
-    fetch(`https://api.sportmonks.com/v3/football/livescores/inplay?${params}&include=participants;scores;state;league`, { cache: "no-store" }),
+    fetch(`https://api.sportmonks.com/v3/football/livescores/inplay?${params}&include=participants;scores;state;league`, { next: { revalidate: 30 } }),
     ...seasons.map(async (season) => {
       const [fixturesResponse, tableResponse] = await Promise.all([
-        fetch(`https://api.sportmonks.com/v3/football/fixtures/between/${date(today)}/${date(end)}?${params}&include=participants;scores;state;league&filters=fixtureSeasons:${season.id}`, { cache: "no-store" }),
+        fetch(`https://api.sportmonks.com/v3/football/fixtures/between/${date(today)}/${date(end)}?${params}&include=participants;scores;state;league&filters=fixtureSeasons:${season.id}`, { next: { revalidate: 30 } }),
         fetch(`https://api.sportmonks.com/v3/football/standings/seasons/${season.id}?${params}&include=participant;details.type`, { next: { revalidate: 300 } }),
       ]);
       return { season, fixturesResponse, tableResponse };

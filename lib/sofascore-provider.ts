@@ -79,7 +79,7 @@ async function get(path: string, ttl: number): Promise<unknown | null> {
   try {
     const res = await fetch(`${BASE}${path}`, {
       headers: { "x-rapidapi-key": KEY, "x-rapidapi-host": HOST },
-      cache: "no-store",
+      next: { revalidate: 30 },
     });
     if (!res.ok) return hit?.value ?? null;
     const value = (await res.json()) as unknown;
