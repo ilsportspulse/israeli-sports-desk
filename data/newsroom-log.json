@@ -1,5 +1,69 @@
 [
   {
+    "ts": "2026-07-21T19:59:40.904Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 6,
+    "published": 5,
+    "review": 1,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "vikingur-reykjavik-hapoel-beer-sheva-champions-league-qualifier-live",
+        "title": "Hapoel Be'er Sheva Held Scoreless in Reykjavik as Champions League Qualifier Nears Half-Time",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "abu-fani-red-star-belgrade-lead-larne-champions-league-qualifier",
+        "title": "Duarte penalty puts Abu Fani's Red Star ahead of Larne in Champions League qualifier",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "naor-barkol-holon-yermiyahu-liga-alef-coach",
+        "title": "Naor Barkol Leaves Youth Ranks Behind to Coach Holon Yermiyahu",
+        "confidence": 0.82,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "No verifiable, correctly-identified Wikimedia Commons photo of Barkol, Holon Yermiyahu or their ground could be found, so no image is included; backroom-staff names (Pontormeli, Rosenkovich) and the club owner's name rest on this single source only."
+      },
+      {
+        "slug": "beitar-owner-japanika-grenade-arrest",
+        "title": "Another Suspect Held Over Grenade Attack on Restaurant Chain Owned by Beitar Jerusalem's Owner",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "modric-agrees-new-one-year-milan-contract",
+        "title": "Modrić Agrees New Milan Deal, Signing Off on Retirement Talk for Now",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "ronaldo-likes-post-accusing-fifa-favoring-argentina",
+        "title": "Ronaldo Likes Instagram Post Accusing FIFA of Rigging World Cup for Argentina",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-07-21T17:58:44.461Z",
     "mode": "cli",
     "model": "claude-sonnet-5",

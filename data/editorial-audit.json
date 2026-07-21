@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T18:03:54.239Z",
+  "generatedAt": "2026-07-21T20:05:18.868Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,30 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 249,
-    "publishedBefore": 178,
-    "cleanPublished": 178,
+    "totalArticles": 255,
+    "publishedBefore": 183,
+    "cleanPublished": 183,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 178,
-    "reviewAfter": 71
+    "publishedAfter": 183,
+    "reviewAfter": 72
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-20260721-ronaldo-fifa-argentina-instagram-like",
+      "slug": "ronaldo-likes-post-accusing-fifa-favoring-argentina",
+      "title": "Ronaldo Likes Instagram Post Accusing FIFA of Rigging World Cup for Argentina",
+      "statusBefore": "published",
+      "words": 422,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-07-21-argentina-spain-finalissima-november",
       "slug": "argentina-spain-finalissima-rematch-november-qatar",
@@ -168,6 +182,20 @@
       "blockers": [],
       "warnings": [
         "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260721-lukassen-red-star-hapoel-beer-sheva",
+      "slug": "lukassen-red-star-belgrade-hapoel-beer-sheva-champions-league",
+      "title": "The man who eliminated Maccabi and Red Star is closing in on a move — to Red Star",
+      "statusBefore": "published",
+      "words": 562,
+      "paragraphs": 11,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -1541,6 +1569,68 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-20260721-ronaldo-fifa-argentina-instagram-like",
+      "slug": "ronaldo-likes-post-accusing-fifa-favoring-argentina",
+      "title": "Ronaldo Likes Instagram Post Accusing FIFA of Rigging World Cup for Argentina",
+      "statusBefore": "published",
+      "words": 422,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-21-modric-milan-contract-extension",
+      "slug": "modric-agrees-new-one-year-milan-contract",
+      "title": "Modrić Agrees New Milan Deal, Signing Off on Retirement Talk for Now",
+      "statusBefore": "published",
+      "words": 291,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-07-21-beitar-owner-japanika-grenade-arrest",
+      "slug": "beitar-owner-japanika-grenade-arrest",
+      "title": "Another Suspect Held Over Grenade Attack on Restaurant Chain Owned by Beitar Jerusalem's Owner",
+      "statusBefore": "published",
+      "words": 351,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260721-abu-fani-larne-red-star-clash",
+      "slug": "abu-fani-red-star-belgrade-lead-larne-champions-league-qualifier",
+      "title": "Duarte penalty puts Abu Fani's Red Star ahead of Larne in Champions League qualifier",
+      "statusBefore": "published",
+      "words": 403,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-07-21-vikingur-hapoel-beer-sheva-cl-qualifier",
+      "slug": "vikingur-reykjavik-hapoel-beer-sheva-champions-league-qualifier-live",
+      "title": "Hapoel Be'er Sheva Held Scoreless in Reykjavik as Champions League Qualifier Nears Half-Time",
+      "statusBefore": "published",
+      "words": 356,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
       "id": "live-2026-07-21-argentina-spain-finalissima-november",
       "slug": "argentina-spain-finalissima-rematch-november-qatar",
       "title": "Argentina and Spain Reportedly Closing In on a November Finalissima Rematch in Qatar",
@@ -1689,7 +1779,9 @@
       "facts": 7,
       "verificationSources": 5,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-20260721-cubarsi-laporte-fifa-best-xi-snub",

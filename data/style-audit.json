@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T18:03:54.390Z",
+  "generatedAt": "2026-07-21T20:05:19.133Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,19 +11,19 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 178,
+    "publishedArticles": 183,
     "wordCount": {
       "minimum": 266,
       "maximum": 1070,
-      "median": 489,
-      "average": 508.4
+      "median": 486,
+      "average": 504.4
     },
     "paragraphDistribution": {
       "5": 1,
-      "6": 7,
+      "6": 8,
       "7": 42,
-      "8": 47,
-      "9": 34,
+      "8": 50,
+      "9": 35,
       "10": 25,
       "11": 11,
       "12": 2,
@@ -33,9 +33,9 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.264,
+    "dominantParagraphShare": 0.273,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 7,
+    "exactSixParagraphArticles": 8,
     "analysisBelowTarget": 1,
     "articlesWithStyleFlags": 7
   },
@@ -203,6 +203,111 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260721-ronaldo-fifa-argentina-instagram-like",
+      "slug": "ronaldo-likes-post-accusing-fifa-favoring-argentina",
+      "title": "Ronaldo Likes Instagram Post Accusing FIFA of Rigging World Cup for Argentina",
+      "kind": "news",
+      "words": 419,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 27,
+        "longest": 73,
+        "average": 46.6
+      },
+      "sentenceWords": {
+        "shortest": 20,
+        "longest": 58,
+        "average": 34.9
+      },
+      "lexicalDiversity": 0.609,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-21-modric-milan-contract-extension",
+      "slug": "modric-agrees-new-one-year-milan-contract",
+      "title": "Modrić Agrees New Milan Deal, Signing Off on Retirement Talk for Now",
+      "kind": "news",
+      "words": 290,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 23,
+        "longest": 46,
+        "average": 36.3
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 46,
+        "average": 32.2
+      },
+      "lexicalDiversity": 0.686,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-21-beitar-owner-japanika-grenade-arrest",
+      "slug": "beitar-owner-japanika-grenade-arrest",
+      "title": "Another Suspect Held Over Grenade Attack on Restaurant Chain Owned by Beitar Jerusalem's Owner",
+      "kind": "news",
+      "words": 351,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 29,
+        "longest": 64,
+        "average": 43.9
+      },
+      "sentenceWords": {
+        "shortest": 16,
+        "longest": 71,
+        "average": 35.1
+      },
+      "lexicalDiversity": 0.595,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260721-abu-fani-larne-red-star-clash",
+      "slug": "abu-fani-red-star-belgrade-lead-larne-champions-league-qualifier",
+      "title": "Duarte penalty puts Abu Fani's Red Star ahead of Larne in Champions League qualifier",
+      "kind": "news",
+      "words": 399,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 58,
+        "average": 49.9
+      },
+      "sentenceWords": {
+        "shortest": 13,
+        "longest": 53,
+        "average": 33.3
+      },
+      "lexicalDiversity": 0.576,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-21-vikingur-hapoel-beer-sheva-cl-qualifier",
+      "slug": "vikingur-reykjavik-hapoel-beer-sheva-champions-league-qualifier-live",
+      "title": "Hapoel Be'er Sheva Held Scoreless in Reykjavik as Champions League Qualifier Nears Half-Time",
+      "kind": "news",
+      "words": 355,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 39,
+        "longest": 74,
+        "average": 59.2
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 56,
+        "average": 27.3
+      },
+      "lexicalDiversity": 0.634,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-07-21-argentina-spain-finalissima-november",
       "slug": "argentina-spain-finalissima-rematch-november-qatar",
