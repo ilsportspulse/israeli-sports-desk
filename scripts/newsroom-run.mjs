@@ -288,7 +288,7 @@ async function main() {
   // must stay under 30 min). API mode is fast and keeps the full requested count.
   let effectiveMax = MAX_CANDIDATES;
   if (MODE === "cli") {
-    const cliBudgetMs = Math.max(DRAFT_TIMEOUT_MS, Number(process.env.NEWSROOM_CLI_TIME_BUDGET_MS ?? 14 * 60 * 1000));
+    const cliBudgetMs = Math.max(DRAFT_TIMEOUT_MS, Number(process.env.NEWSROOM_CLI_TIME_BUDGET_MS ?? 10 * 60 * 1000));
     const fitsBudget = Math.max(1, Math.floor(cliBudgetMs / DRAFT_TIMEOUT_MS));
     effectiveMax = Math.min(MAX_CANDIDATES, fitsBudget);
     if (effectiveMax < MAX_CANDIDATES) {
@@ -412,6 +412,25 @@ async function main() {
       }
     } catch (error) {
       console.warn(`Image gate check failed: ${error.message}`);
+    }
+  }
+
+  // Translate the newest still-untranslated stories to FR/ES so /fr and /es never
+  // show English at the top. Tightly capped (a couple of stories, short per-call
+  // timeout) so it can never blow the 30-minute job window, and fully wrapped so a
+  // translation hiccup never fails or blocks the publish. It is incremental and
+  // newest-first, so over a few cycles it always catches up. Set newsroom.translate
+  // = false to disable.
+  if (gates.translate !== false && published > 0) {
+    try {
+      const max = typeof gates.translateMax === "number" ? gates.translateMax : 1;
+      execSync("node scripts/translate-articles.mjs", {
+        cwd: root,
+        stdio: "inherit",
+        env: { ...process.env, TRANSLATE_MAX: String(max), TRANSLATE_TIMEOUT_MS: "180000" },
+      });
+    } catch {
+      console.warn("Translation step did not finish this cycle; newest stories will be caught up next cycle.");
     }
   }
 
