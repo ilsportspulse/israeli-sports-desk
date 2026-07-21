@@ -5,7 +5,10 @@
 // "review". The workflow runs audit + tests afterwards, so a malformed cycle is
 // never committed. Designed to be conservative: when in doubt, hold.
 
-import { execSync, execFileSync } from "node:child_process";
+import { execSync, execFile } from "node:child_process";
+import { promisify } from "node:util";
+
+const execFileAsync = promisify(execFile);
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -18,7 +21,7 @@ let MAX_CANDIDATES = Math.max(1, Number(process.env.NEWSROOM_MAX_CANDIDATES ?? 6
 // CLI mode runs a full Claude Code agent loop (several web-search rounds + writing)
 // per article, which is thorough but slow. Give each draft a generous wall-clock
 // budget and a turn cap so it concludes instead of running forever.
-const DRAFT_TIMEOUT_MS = Math.max(60_000, Number(process.env.NEWSROOM_DRAFT_TIMEOUT_MS ?? 5.5 * 60 * 1000));
+const DRAFT_TIMEOUT_MS = Math.max(60_000, Number(process.env.NEWSROOM_DRAFT_TIMEOUT_MS ?? 7 * 60 * 1000));
 const DRAFT_MAX_TURNS = Math.max(8, Number(process.env.NEWSROOM_DRAFT_MAX_TURNS ?? 40));
 
 // Two ways to drive the newsroom, in priority order:
@@ -163,7 +166,7 @@ function extractJson(text) {
 
 // CLI mode: drive Claude Code headlessly with a subscription token. Claude Code
 // has web search/fetch built in; we ask it to end with the raw article JSON.
-function draftViaCli(candidate, todayIso) {
+async function draftViaCli(candidate, todayIso) {
   const prompt = `${buildPrompt(candidate, todayIso)}
 
 Fields required in the JSON object: id, slug, title, dek, category, desk ("israel" or "international"), kind, storyForm, publishedAt, updatedAt, readMinutes (number), source {name,url}, verificationSources [{label,url}], body (array of 5-18 strings; the natural length for THIS story — shorter or longer as the reporting earns, never padded, never a fixed count), facts (array of >=5 strings), theme, homepagePriority (number), homepageReason, dedupeKey, aiDisclosure, nameChecks [{hebrew,english,verificationUrl,confidence}], confidence (0-1 number), warning (string, "" if none), commonsQuery, commonsCandidates [{title,creditUrl,credit,license}] (REQUIRED: 2-4 web-verified, correctly-identified Commons photos as described above, or [] if none can be verified — the story is then held rather than shown with a wrong image). OPTIONAL rich media (include ONLY if you verified a real one, else omit): video {title,channel,youtubeId,sourceUrl} for a real YouTube clip, officialSocialPost {title,account,platform ("twitter"|"instagram"),url,postId} for a real official X/Instagram post.
@@ -177,24 +180,34 @@ Output ONLY the raw JSON object as your final message — no prose, no code fenc
   // agent can research the web and nothing else. The script, not the agent,
   // writes the article to disk. --max-turns bounds the agent loop so a draft
   // concludes within the wall-clock budget instead of searching indefinitely.
-  const out = execFileSync(
-    "claude",
-    [
-      "-p", prompt,
-      "--output-format", "json",
-      "--model", MODEL,
-      "--allowedTools", "WebSearch,WebFetch",
-      "--permission-mode", "default",
-      "--max-turns", String(DRAFT_MAX_TURNS),
-    ],
-    {
-      cwd: root,
-      encoding: "utf8",
-      maxBuffer: 32 * 1024 * 1024,
-      timeout: DRAFT_TIMEOUT_MS,
-      env: { ...process.env },
-    },
-  );
+  // Async exec so many drafts can run CONCURRENTLY (Promise-based), turning N slow
+  // sequential drafts into ~one draft's wall-clock — the key to publishing more per
+  // cycle. On timeout, salvage whatever the agent had already written to stdout.
+  let out = "";
+  try {
+    const { stdout } = await execFileAsync(
+      "claude",
+      [
+        "-p", prompt,
+        "--output-format", "json",
+        "--model", MODEL,
+        "--allowedTools", "WebSearch,WebFetch",
+        "--permission-mode", "default",
+        "--max-turns", String(DRAFT_MAX_TURNS),
+      ],
+      {
+        cwd: root,
+        encoding: "utf8",
+        maxBuffer: 32 * 1024 * 1024,
+        timeout: DRAFT_TIMEOUT_MS,
+        env: { ...process.env },
+      },
+    );
+    out = stdout;
+  } catch (error) {
+    out = typeof error?.stdout === "string" ? error.stdout : "";
+    if (!out) throw error;
+  }
 
   let resultText = out;
   try {
@@ -229,6 +242,21 @@ Return the article by calling the tool "emit_article" with the full object. Do n
 
 async function draftAndVerify(candidate, todayIso) {
   return MODE === "cli" ? draftViaCli(candidate, todayIso) : draftViaApi(candidate, todayIso);
+}
+
+// Run fn over items with at most `limit` in flight at once; preserves input order.
+async function mapWithConcurrency(items, limit, fn) {
+  const results = new Array(items.length);
+  let next = 0;
+  async function worker() {
+    while (next < items.length) {
+      const index = next;
+      next += 1;
+      results[index] = await fn(items[index], index);
+    }
+  }
+  await Promise.all(Array.from({ length: Math.min(limit, items.length) }, worker));
+  return results;
 }
 
 function passesGates(article, confidenceMin = 0.92, namecheckMin = 0.9) {
@@ -290,16 +318,13 @@ async function main() {
   // must stay under 30 min). API mode is fast and keeps the full requested count.
   let effectiveMax = MAX_CANDIDATES;
   if (MODE === "cli") {
-    // Most cycles do NOT run a slow daily feature (those self-gate to once/day), so
-    // spend the freed time on more drafts — the way to publish more stories/day.
-    // On the few cycles that DID produce a daily feature, use a smaller draft budget
-    // so the whole cycle still fits the 30-minute job window.
-    const defaultBudget = (dailyHeavy ? 9 : 18) * 60 * 1000;
-    const cliBudgetMs = Math.max(DRAFT_TIMEOUT_MS, Number(process.env.NEWSROOM_CLI_TIME_BUDGET_MS ?? defaultBudget));
-    const fitsBudget = Math.max(1, Math.floor(cliBudgetMs / DRAFT_TIMEOUT_MS));
-    effectiveMax = Math.min(MAX_CANDIDATES, fitsBudget);
+    // Drafts now run concurrently, so wall-clock ≈ one draft (not N). The cap is a
+    // concurrency/quota guard, not a sequential-time budget: draft several stories at
+    // once on ordinary cycles, fewer on the rare cycle that also ran a daily feature.
+    const parallelCap = dailyHeavy ? 4 : 8;
+    effectiveMax = Math.min(MAX_CANDIDATES, parallelCap);
     if (effectiveMax < MAX_CANDIDATES) {
-      console.log(`CLI mode: capping ${MAX_CANDIDATES} -> ${effectiveMax} candidates to fit the job timeout.`);
+      console.log(`CLI mode: drafting up to ${effectiveMax} candidates concurrently this cycle.`);
     }
   }
 
@@ -319,11 +344,20 @@ async function main() {
   let skipped = 0;
   const decisions = []; // per-candidate outcome for the backoffice monitor
 
-  for (const candidate of candidates) {
-    let article;
+  // Draft every candidate CONCURRENTLY (bounded), then process the results in order.
+  // Concurrency turns N sequential slow drafts into roughly one draft's wall-clock,
+  // so a cycle can publish several stories instead of one.
+  const draftConcurrency = Math.max(1, Number(process.env.NEWSROOM_DRAFT_CONCURRENCY ?? 5));
+  const drafted = await mapWithConcurrency(candidates, draftConcurrency, async (candidate) => {
     try {
-      article = await draftAndVerify(candidate, todayIso);
+      return { candidate, article: await draftAndVerify(candidate, todayIso) };
     } catch (error) {
+      return { candidate, error };
+    }
+  });
+
+  for (const { candidate, article, error } of drafted) {
+    if (error) {
       console.warn(`Draft failed for ${candidate.url}: ${error.message}`);
       decisions.push({ url: candidate.url, decision: "error", reason: error.message });
       skipped += 1;
