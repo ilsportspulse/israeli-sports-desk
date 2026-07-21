@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T05:50:51.089Z",
+  "generatedAt": "2026-07-21T06:44:03.627Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,17 +11,18 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 139,
+    "publishedArticles": 151,
     "wordCount": {
       "minimum": 266,
       "maximum": 1070,
-      "median": 502,
-      "average": 522.2
+      "median": 496,
+      "average": 512.6
     },
     "paragraphDistribution": {
       "5": 1,
-      "7": 31,
-      "8": 43,
+      "6": 4,
+      "7": 38,
+      "8": 44,
       "9": 27,
       "10": 19,
       "11": 8,
@@ -32,11 +33,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.309,
+    "dominantParagraphShare": 0.291,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 0,
+    "exactSixParagraphArticles": 4,
     "analysisBelowTarget": 1,
-    "articlesWithStyleFlags": 4
+    "articlesWithStyleFlags": 5
   },
   "flagged": [
     {
@@ -60,6 +61,29 @@
       "publisherAttributions": 0,
       "flags": [
         "below-editorial-target:266/280"
+      ]
+    },
+    {
+      "id": "live-20260719-roddy-hapoel-jerusalem",
+      "slug": "hapoel-jerusalem-david-roddy-first-offer-rejected",
+      "title": "Report: Hapoel Jerusalem chasing ex-Denver forward David Roddy after first offer rejected",
+      "kind": "news",
+      "words": 456,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 58,
+        "longest": 83,
+        "average": 65.1
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 51,
+        "average": 30.4
+      },
+      "lexicalDiversity": 0.577,
+      "publisherAttributions": 0,
+      "flags": [
+        "stock-phrase:statement-of-intent"
       ]
     },
     {
@@ -176,6 +200,48 @@
       "flags": []
     },
     {
+      "id": "live-2026-07-20-roddy-hapoel-jerusalem",
+      "slug": "david-roddy-reported-sign-hapoel-jerusalem",
+      "title": "David Roddy Reported to Sign With Hapoel Jerusalem",
+      "kind": "news",
+      "words": 309,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 62,
+        "average": 44.1
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 41,
+        "average": 28.1
+      },
+      "lexicalDiversity": 0.612,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-20-athletics-championship-records",
+      "slug": "mamo-mantel-israeli-records-athletics-championship",
+      "title": "Mamo and Mantel Break Israeli Records at National Athletics Championships",
+      "kind": "news",
+      "words": 315,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 59,
+        "average": 45
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 57,
+        "average": 35
+      },
+      "lexicalDiversity": 0.61,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
       "id": "live-2026-07-20-messi-world-cup-final-reaction",
       "slug": "messi-world-cup-final-reaction-pain-enormous",
       "title": "Messi: 'The Pain Is Enormous' After World Cup Final Heartbreak",
@@ -239,6 +305,27 @@
       "flags": []
     },
     {
+      "id": "live-20260720-israeli-referees-europe",
+      "slug": "israeli-referees-appointed-european-qualifiers-summer-2026",
+      "title": "Two Israeli referees handed European qualifier appointments for the new season",
+      "kind": "news",
+      "words": 419,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 57,
+        "longest": 62,
+        "average": 59.9
+      },
+      "sentenceWords": {
+        "shortest": 19,
+        "longest": 40,
+        "average": 29.9
+      },
+      "lexicalDiversity": 0.535,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
       "id": "live-20260720-afriyie-injury",
       "slug": "blessing-afrifah-pulled-israeli-championships-hamstring-injury",
       "title": "Israel's 100m record-holder Blessing Afrifah pulled from national championships with hamstring injury",
@@ -256,6 +343,27 @@
         "average": 23.8
       },
       "lexicalDiversity": 0.579,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260720-sokler-maccabi-tel-aviv",
+      "slug": "maccabi-tel-aviv-close-signing-slovenian-striker-ester-sokler",
+      "title": "Maccabi Tel Aviv close to signing Slovenian striker Ester Sokler from Radnicki 1923",
+      "kind": "news",
+      "words": 431,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 54,
+        "longest": 70,
+        "average": 61.6
+      },
+      "sentenceWords": {
+        "shortest": 13,
+        "longest": 42,
+        "average": 26.9
+      },
+      "lexicalDiversity": 0.582,
       "publisherAttributions": 0,
       "flags": []
     },
@@ -319,6 +427,27 @@
         "average": 28.4
       },
       "lexicalDiversity": 0.574,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260719-hapoel-haifa-training-ban",
+      "slug": "hapoel-haifa-barred-beit-nagler-training-ground-derby-week",
+      "title": "Locked out before the derby: Hapoel Haifa say city has barred them from training ground",
+      "kind": "news",
+      "words": 452,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 43,
+        "longest": 98,
+        "average": 64.6
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 169,
+        "average": 41.1
+      },
+      "lexicalDiversity": 0.522,
       "publisherAttributions": 0,
       "flags": []
     },
@@ -445,6 +574,27 @@
         "average": 29.4
       },
       "lexicalDiversity": 0.558,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260719-maccabi-ta-six-loans",
+      "slug": "maccabi-tel-aviv-loans-six-academy-players-hapoel-kfar-shalem",
+      "title": "Maccabi Tel Aviv send six academy graduates on loan to Kfar Shalem in one sweep",
+      "kind": "news",
+      "words": 348,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 32,
+        "longest": 59,
+        "average": 49.7
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 51,
+        "average": 31.6
+      },
+      "lexicalDiversity": 0.609,
       "publisherAttributions": 0,
       "flags": []
     },
@@ -1352,6 +1502,27 @@
       "flags": []
     },
     {
+      "id": "live-20260714-netanya-nwachukwu",
+      "slug": "maccabi-netanya-consider-christian-nwachukwu-sheffield-united",
+      "title": "Maccabi Netanya consider Sheffield United winger Christian Nwachukwu",
+      "kind": "news",
+      "words": 337,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 50,
+        "longest": 64,
+        "average": 56.2
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 28,
+        "average": 19.8
+      },
+      "lexicalDiversity": 0.617,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
       "id": "live-20260714-super-cup-kanaan",
       "slug": "kanaan-absence-gives-super-cup-preparation-an-early-edge",
       "title": "Ten-man Maccabi beat Be’er Sheva 3–1 to lift Super Cup",
@@ -1457,6 +1628,27 @@
       "flags": []
     },
     {
+      "id": "brief-20260714-abramov-security",
+      "slug": "barak-abramov-business-attacks-police-inquiry",
+      "title": "Fresh grenade attack hits Abramov-owned restaurant as inquiry widens",
+      "kind": "news",
+      "words": 345,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 50,
+        "longest": 61,
+        "average": 57.5
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 33,
+        "average": 20.3
+      },
+      "lexicalDiversity": 0.614,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
       "id": "brief-20260714-beitar-recruitment",
       "slug": "beitar-jerusalem-foreign-midfielder-centre-back-plan",
       "title": "Beitar target foreign midfielder and centre-back as squad plan shifts",
@@ -1475,6 +1667,27 @@
       },
       "lexicalDiversity": 0.601,
       "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260714-beitar-flares",
+      "slug": "atzili-yarden-cohen-burned-flares-beitar-open-training",
+      "title": "Atzili and Cohen burned by flares at Beitar’s open training",
+      "kind": "news",
+      "words": 412,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 58,
+        "longest": 77,
+        "average": 68.7
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 35,
+        "average": 19.6
+      },
+      "lexicalDiversity": 0.585,
+      "publisherAttributions": 1,
       "flags": []
     },
     {
@@ -2042,6 +2255,27 @@
       },
       "lexicalDiversity": 0.578,
       "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260717-ballout-haifa-youth-deal",
+      "slug": "maccabi-haifa-adrian-ballout-three-year-academy-deal",
+      "title": "Maccabi Haifa tie teenage striker Adrian Ballout to a new three-year deal",
+      "kind": "news",
+      "words": 561,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 101,
+        "average": 70.1
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 51,
+        "average": 29.5
+      },
+      "lexicalDiversity": 0.537,
+      "publisherAttributions": 1,
       "flags": []
     },
     {
@@ -2692,6 +2926,27 @@
         "average": 28.2
       },
       "lexicalDiversity": 0.588,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260718-lundberg-ultimatum-walker",
+      "slug": "maccabi-lundberg-ultimatum-walker-expected-to-stay",
+      "title": "'We'll need to compromise': Maccabi run out of patience with Lundberg as Walker edges towards staying",
+      "kind": "news",
+      "words": 434,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 58,
+        "longest": 86,
+        "average": 72.3
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 86,
+        "average": 31
+      },
+      "lexicalDiversity": 0.618,
       "publisherAttributions": 0,
       "flags": []
     },

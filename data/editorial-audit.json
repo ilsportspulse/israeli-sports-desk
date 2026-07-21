@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-21T05:50:50.954Z",
-  "mode": "audit-only",
+  "generatedAt": "2026-07-21T06:45:12.617Z",
+  "mode": "applied",
   "standard": {
     "minimumWords": {
       "news": 220,
@@ -18,14 +18,48 @@
   },
   "summary": {
     "totalArticles": 213,
-    "publishedBefore": 139,
-    "cleanPublished": 139,
-    "blockedPublished": 0,
-    "demoted": 0,
-    "publishedAfter": 139,
-    "reviewAfter": 74
+    "publishedBefore": 150,
+    "cleanPublished": 148,
+    "blockedPublished": 2,
+    "demoted": 2,
+    "publishedAfter": 148,
+    "reviewAfter": 65
   },
-  "blockedPublished": [],
+  "blockedPublished": [
+    {
+      "id": "brief-20260714-abramov-security",
+      "slug": "barak-abramov-business-attacks-police-inquiry",
+      "title": "Fresh grenade attack hits Abramov-owned restaurant as inquiry widens",
+      "statusBefore": "published",
+      "words": 345,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [
+        "media:manual-image-story-mismatch"
+      ],
+      "warnings": [
+        "taxonomy:desk-not-assigned"
+      ]
+    },
+    {
+      "id": "live-20260714-beitar-flares",
+      "slug": "atzili-yarden-cohen-burned-flares-beitar-open-training",
+      "title": "Atzili and Cohen burned by flares at Beitar’s open training",
+      "statusBefore": "published",
+      "words": 409,
+      "paragraphs": 6,
+      "facts": 5,
+      "verificationSources": 1,
+      "blockers": [
+        "presentation:publisher-name-in-headline-or-standfirst",
+        "media:manual-image-story-mismatch"
+      ],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    }
+  ],
   "warnings": [
     {
       "id": "live-20260721-draymond-green-pj-tucker-lebron",
@@ -50,6 +84,20 @@
       "paragraphs": 8,
       "facts": 7,
       "verificationSources": 6,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-20-athletics-championship-records",
+      "slug": "mamo-mantel-israeli-records-athletics-championship",
+      "title": "Mamo and Mantel Break Israeli Records at National Athletics Championships",
+      "statusBefore": "published",
+      "words": 308,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 4,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -101,14 +149,12 @@
       "id": "live-20260719-roddy-hapoel-jerusalem",
       "slug": "hapoel-jerusalem-david-roddy-first-offer-rejected",
       "title": "Report: Hapoel Jerusalem chasing ex-Denver forward David Roddy after first offer rejected",
-      "statusBefore": "review",
+      "statusBefore": "published",
       "words": 450,
       "paragraphs": 7,
       "facts": 7,
       "verificationSources": 5,
-      "blockers": [
-        "media:no-licensed-image"
-      ],
+      "blockers": [],
       "warnings": [
         "voice:stock-editorial-phrase-detected"
       ]
@@ -122,6 +168,20 @@
       "paragraphs": 9,
       "facts": 7,
       "verificationSources": 7,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260719-maccabi-ta-six-loans",
+      "slug": "maccabi-tel-aviv-loans-six-academy-players-hapoel-kfar-shalem",
+      "title": "Maccabi Tel Aviv send six academy graduates on loan to Kfar Shalem in one sweep",
+      "statusBefore": "published",
+      "words": 348,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 3,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -713,13 +773,12 @@
       "id": "brief-20260714-abramov-security",
       "slug": "barak-abramov-business-attacks-police-inquiry",
       "title": "Fresh grenade attack hits Abramov-owned restaurant as inquiry widens",
-      "statusBefore": "review",
+      "statusBefore": "published",
       "words": 345,
       "paragraphs": 6,
       "facts": 6,
       "verificationSources": 2,
       "blockers": [
-        "media:no-licensed-image",
         "media:manual-image-story-mismatch"
       ],
       "warnings": [
@@ -885,14 +944,13 @@
       "id": "live-20260714-beitar-flares",
       "slug": "atzili-yarden-cohen-burned-flares-beitar-open-training",
       "title": "Atzili and Cohen burned by flares at Beitar’s open training",
-      "statusBefore": "review",
+      "statusBefore": "published",
       "words": 409,
       "paragraphs": 6,
       "facts": 5,
       "verificationSources": 1,
       "blockers": [
         "presentation:publisher-name-in-headline-or-standfirst",
-        "media:no-licensed-image",
         "media:manual-image-story-mismatch"
       ],
       "warnings": [
@@ -1146,6 +1204,20 @@
       ]
     },
     {
+      "id": "live-20260718-lundberg-ultimatum-walker",
+      "slug": "maccabi-lundberg-ultimatum-walker-expected-to-stay",
+      "title": "'We'll need to compromise': Maccabi run out of patience with Lundberg as Walker edges towards staying",
+      "statusBefore": "published",
+      "words": 441,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-20260718-israel-u20-latvia-rout",
       "slug": "israel-u20-latvia-96-74-belaga-triple-double",
       "title": "Belaga makes history with a triple-double as Israel U20s rout Latvia 96–74",
@@ -1260,6 +1332,32 @@
       ]
     },
     {
+      "id": "live-2026-07-20-roddy-hapoel-jerusalem",
+      "slug": "david-roddy-reported-sign-hapoel-jerusalem",
+      "title": "David Roddy Reported to Sign With Hapoel Jerusalem",
+      "statusBefore": "published",
+      "words": 309,
+      "paragraphs": 7,
+      "facts": 8,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-07-20-athletics-championship-records",
+      "slug": "mamo-mantel-israeli-records-athletics-championship",
+      "title": "Mamo and Mantel Break Israeli Records at National Athletics Championships",
+      "statusBefore": "published",
+      "words": 308,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-2026-07-20-messi-world-cup-final-reaction",
       "slug": "messi-world-cup-final-reaction-pain-enormous",
       "title": "Messi: 'The Pain Is Enormous' After World Cup Final Heartbreak",
@@ -1298,6 +1396,18 @@
       "warnings": []
     },
     {
+      "id": "live-20260720-israeli-referees-europe",
+      "slug": "israeli-referees-appointed-european-qualifiers-summer-2026",
+      "title": "Two Israeli referees handed European qualifier appointments for the new season",
+      "statusBefore": "published",
+      "words": 421,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
       "id": "live-20260720-afriyie-injury",
       "slug": "blessing-afrifah-pulled-israeli-championships-hamstring-injury",
       "title": "Israel's 100m record-holder Blessing Afrifah pulled from national championships with hamstring injury",
@@ -1310,6 +1420,18 @@
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
+    },
+    {
+      "id": "live-20260720-sokler-maccabi-tel-aviv",
+      "slug": "maccabi-tel-aviv-close-signing-slovenian-striker-ester-sokler",
+      "title": "Maccabi Tel Aviv close to signing Slovenian striker Ester Sokler from Radnicki 1923",
+      "statusBefore": "published",
+      "words": 429,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
     },
     {
       "id": "live-20260720-scaloni-departure",
@@ -1358,6 +1480,32 @@
       "paragraphs": 8,
       "facts": 7,
       "verificationSources": 6,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260719-roddy-hapoel-jerusalem",
+      "slug": "hapoel-jerusalem-david-roddy-first-offer-rejected",
+      "title": "Report: Hapoel Jerusalem chasing ex-Denver forward David Roddy after first offer rejected",
+      "statusBefore": "published",
+      "words": 450,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "live-20260719-hapoel-haifa-training-ban",
+      "slug": "hapoel-haifa-barred-beit-nagler-training-ground-derby-week",
+      "title": "Locked out before the derby: Hapoel Haifa say city has barred them from training ground",
+      "statusBefore": "published",
+      "words": 455,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 3,
       "blockers": [],
       "warnings": []
     },
@@ -1434,6 +1582,20 @@
       "verificationSources": 5,
       "blockers": [],
       "warnings": []
+    },
+    {
+      "id": "live-20260719-maccabi-ta-six-loans",
+      "slug": "maccabi-tel-aviv-loans-six-academy-players-hapoel-kfar-shalem",
+      "title": "Maccabi Tel Aviv send six academy graduates on loan to Kfar Shalem in one sweep",
+      "statusBefore": "published",
+      "words": 348,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-20260719-haziza-netanya",
@@ -2428,6 +2590,18 @@
       "warnings": []
     },
     {
+      "id": "live-20260717-ballout-haifa-youth-deal",
+      "slug": "maccabi-haifa-adrian-ballout-three-year-academy-deal",
+      "title": "Maccabi Haifa tie teenage striker Adrian Ballout to a new three-year deal",
+      "statusBefore": "published",
+      "words": 565,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
       "id": "live-20260717-beitar-hapoel-ta-police-guidelines",
       "slug": "police-set-out-matchday-rules-beitar-jerusalem-hapoel-tel-aviv-netanya",
       "title": "Police detail strict entry rules for Beitar Jerusalem's Netanya meeting with Hapoel Tel Aviv",
@@ -2804,6 +2978,20 @@
       "verificationSources": 6,
       "blockers": [],
       "warnings": []
+    },
+    {
+      "id": "live-20260718-lundberg-ultimatum-walker",
+      "slug": "maccabi-lundberg-ultimatum-walker-expected-to-stay",
+      "title": "'We'll need to compromise': Maccabi run out of patience with Lundberg as Walker edges towards staying",
+      "statusBefore": "published",
+      "words": 441,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-20260718-koppel-referee-sponsorship-row",
