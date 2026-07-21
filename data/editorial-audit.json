@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T09:55:18.130Z",
+  "generatedAt": "2026-07-21T10:23:24.522Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,44 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 222,
-    "publishedBefore": 163,
-    "cleanPublished": 163,
+    "totalArticles": 227,
+    "publishedBefore": 164,
+    "cleanPublished": 164,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 163,
-    "reviewAfter": 59
+    "publishedAfter": 164,
+    "reviewAfter": 63
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-20260721-american-alumni-israel-basketball-europe",
+      "slug": "israel-basketball-american-alumni-chase-europe-return",
+      "title": "Israeli Basketball's American Alumni Are Chasing Their Way Back to Europe",
+      "statusBefore": "review",
+      "words": 640,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 12,
+      "blockers": [],
+      "warnings": [
+        "voice:analysis-below-650-word-editorial-target:640"
+      ]
+    },
+    {
+      "id": "live-20260721-world-cup-2026-spain-mbappe-americanization",
+      "slug": "spain-crown-mbappe-record-football-americanization-world-cup-2026",
+      "title": "Spain's Crown, Mbappé's Record and Football's American Makeover",
+      "statusBefore": "published",
+      "words": 770,
+      "paragraphs": 11,
+      "facts": 7,
+      "verificationSources": 9,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-07-21-argentina-homecoming-without-messi",
       "slug": "argentina-homecoming-without-messi",
@@ -1293,6 +1321,20 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-20260721-world-cup-2026-spain-mbappe-americanization",
+      "slug": "spain-crown-mbappe-record-football-americanization-world-cup-2026",
+      "title": "Spain's Crown, Mbappé's Record and Football's American Makeover",
+      "statusBefore": "published",
+      "words": 770,
+      "paragraphs": 11,
+      "facts": 7,
+      "verificationSources": 9,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-07-21-argentina-homecoming-without-messi",
       "slug": "argentina-homecoming-without-messi",

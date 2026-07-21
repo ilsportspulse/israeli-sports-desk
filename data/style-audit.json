@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T09:55:18.359Z",
+  "generatedAt": "2026-07-21T10:23:24.808Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 163,
+    "publishedArticles": 164,
     "wordCount": {
       "minimum": 266,
       "maximum": 1070,
       "median": 490,
-      "average": 509.2
+      "average": 510.7
     },
     "paragraphDistribution": {
       "5": 1,
@@ -25,7 +25,7 @@
       "8": 46,
       "9": 30,
       "10": 21,
-      "11": 8,
+      "11": 9,
       "12": 1,
       "13": 3,
       "14": 2,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.282,
+    "dominantParagraphShare": 0.28,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 5,
     "analysisBelowTarget": 1,
@@ -157,6 +157,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260721-world-cup-2026-spain-mbappe-americanization",
+      "slug": "spain-crown-mbappe-record-football-americanization-world-cup-2026",
+      "title": "Spain's Crown, Mbappé's Record and Football's American Makeover",
+      "kind": "article",
+      "words": 762,
+      "paragraphs": 11,
+      "paragraphWords": {
+        "shortest": 43,
+        "longest": 90,
+        "average": 69.3
+      },
+      "sentenceWords": {
+        "shortest": 13,
+        "longest": 47,
+        "average": 30.5
+      },
+      "lexicalDiversity": 0.547,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-07-21-argentina-homecoming-without-messi",
       "slug": "argentina-homecoming-without-messi",
