@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T16:20:54.254Z",
+  "generatedAt": "2026-07-21T18:03:54.390Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,21 +11,21 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 175,
+    "publishedArticles": 178,
     "wordCount": {
       "minimum": 266,
       "maximum": 1070,
-      "median": 488,
-      "average": 507.4
+      "median": 489,
+      "average": 508.4
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 7,
       "7": 42,
-      "8": 46,
-      "9": 33,
+      "8": 47,
+      "9": 34,
       "10": 25,
-      "11": 10,
+      "11": 11,
       "12": 2,
       "13": 3,
       "14": 2,
@@ -33,13 +33,36 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.263,
+    "dominantParagraphShare": 0.264,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 7,
     "analysisBelowTarget": 1,
-    "articlesWithStyleFlags": 6
+    "articlesWithStyleFlags": 7
   },
   "flagged": [
+    {
+      "id": "live-2026-07-21-bnei-yehuda-nitzan-shirazi-tribute",
+      "slug": "bnei-yehuda-marks-12-years-since-nitzan-shirazis-death",
+      "title": "Bnei Yehuda Pause for Nitzan Shirazi, 12 Years After His Death",
+      "kind": "news",
+      "words": 389,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 55,
+        "average": 43.2
+      },
+      "sentenceWords": {
+        "shortest": 3,
+        "longest": 47,
+        "average": 27.8
+      },
+      "lexicalDiversity": 0.537,
+      "publisherAttributions": 2,
+      "flags": [
+        "publisher-attribution-heavy:2"
+      ]
+    },
     {
       "id": "live-20260721-maccabi-haifa-kfar-saba-friendly",
       "slug": "maccabi-haifa-hapoel-kfar-saba-preseason-friendly-2-0",
@@ -180,6 +203,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-21-argentina-spain-finalissima-november",
+      "slug": "argentina-spain-finalissima-rematch-november-qatar",
+      "title": "Argentina and Spain Reportedly Closing In on a November Finalissima Rematch in Qatar",
+      "kind": "news",
+      "words": 494,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 53,
+        "longest": 78,
+        "average": 61.8
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 53,
+        "average": 26
+      },
+      "lexicalDiversity": 0.591,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "tour-20260721-evenepoel-destroys-the-clock-by-lake-gen",
+      "slug": "evenepoel-destroys-the-clock-by-lake-geneva-as-lipowitz-s-tour-ends-in",
+      "title": "Evenepoel Destroys the Clock by Lake Geneva as Lipowitz's Tour Ends in the Barriers",
+      "kind": "news",
+      "words": 829,
+      "paragraphs": 11,
+      "paragraphWords": {
+        "shortest": 51,
+        "longest": 93,
+        "average": 75.4
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 54,
+        "average": 34.5
+      },
+      "lexicalDiversity": 0.51,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-07-21-aek-withdraws-kangwa-offer",
       "slug": "aek-athens-withdraws-kings-kangwa-offer",

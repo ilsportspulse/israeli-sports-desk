@@ -1,5 +1,53 @@
 [
   {
+    "ts": "2026-07-21T17:58:44.461Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 4,
+    "published": 2,
+    "review": 2,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "bnei-yehuda-marks-12-years-since-nitzan-shirazis-death",
+        "title": "Bnei Yehuda Pause for Nitzan Shirazi, 12 Years After His Death",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "ms-dimona-youth-team-wins-shfela-league-title",
+        "title": "Best Attack, Best Defence: M.S. Dimona's Youth Side Sweeps to a Shfela League Title",
+        "confidence": 0.8,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "No accurately identified, licence-clear Commons photo of this specific youth team, its exact venue, or a verified current M.S. Dimona club photo could be confirmed within the research budget; the story should run without a photo or with a generic Dimona city/stadium file only if independently re-verified."
+      },
+      {
+        "slug": "shuki-nagar-named-professional-director-beer-yaakov",
+        "title": "Shuki Nagar Named Professional Director at Maccabi Amit Be'er Ya'akov",
+        "confidence": 0.8,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Single-source (ONE) for the appointment itself and the supporting quote and staff names; club-side names transliterated from the source only, not independently registry-verified. No accurate, verifiable Wikimedia Commons photo of Shuki Nagar or of Be'er Ya'akov's own football ground could be confirmed within the research budget — an unrelated same-name stadium (Turner Stadium, Be'er Sheva) was ruled out — so no image is included."
+      },
+      {
+        "slug": "argentina-spain-finalissima-rematch-november-qatar",
+        "title": "Argentina and Spain Reportedly Closing In on a November Finalissima Rematch in Qatar",
+        "confidence": 0.6,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-07-21T16:14:12.613Z",
     "mode": "cli",
     "model": "claude-sonnet-5",

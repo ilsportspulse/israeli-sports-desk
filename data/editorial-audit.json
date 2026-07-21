@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T16:20:54.127Z",
+  "generatedAt": "2026-07-21T18:03:54.239Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,60 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 244,
-    "publishedBefore": 175,
-    "cleanPublished": 175,
+    "totalArticles": 249,
+    "publishedBefore": 178,
+    "cleanPublished": 178,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 175,
-    "reviewAfter": 69
+    "publishedAfter": 178,
+    "reviewAfter": 71
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-2026-07-21-argentina-spain-finalissima-november",
+      "slug": "argentina-spain-finalissima-rematch-november-qatar",
+      "title": "Argentina and Spain Reportedly Closing In on a November Finalissima Rematch in Qatar",
+      "statusBefore": "published",
+      "words": 497,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-21-dimona-youth-shfela-title",
+      "slug": "ms-dimona-youth-team-wins-shfela-league-title",
+      "title": "Best Attack, Best Defence: M.S. Dimona's Youth Side Sweeps to a Shfela League Title",
+      "statusBefore": "review",
+      "words": 388,
+      "paragraphs": 8,
+      "facts": 8,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-07-21-bnei-yehuda-nitzan-shirazi-tribute",
+      "slug": "bnei-yehuda-marks-12-years-since-nitzan-shirazis-death",
+      "title": "Bnei Yehuda Pause for Nitzan Shirazi, 12 Years After His Death",
+      "statusBefore": "published",
+      "words": 388,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:3"
+      ]
+    },
     {
       "id": "live-2026-07-21-aek-withdraws-kangwa-offer",
       "slug": "aek-athens-withdraws-kings-kangwa-offer",
@@ -1496,6 +1540,48 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-07-21-argentina-spain-finalissima-november",
+      "slug": "argentina-spain-finalissima-rematch-november-qatar",
+      "title": "Argentina and Spain Reportedly Closing In on a November Finalissima Rematch in Qatar",
+      "statusBefore": "published",
+      "words": 497,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-21-bnei-yehuda-nitzan-shirazi-tribute",
+      "slug": "bnei-yehuda-marks-12-years-since-nitzan-shirazis-death",
+      "title": "Bnei Yehuda Pause for Nitzan Shirazi, 12 Years After His Death",
+      "statusBefore": "published",
+      "words": 388,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:3"
+      ]
+    },
+    {
+      "id": "tour-20260721-evenepoel-destroys-the-clock-by-lake-gen",
+      "slug": "evenepoel-destroys-the-clock-by-lake-geneva-as-lipowitz-s-tour-ends-in",
+      "title": "Evenepoel Destroys the Clock by Lake Geneva as Lipowitz's Tour Ends in the Barriers",
+      "statusBefore": "published",
+      "words": 831,
+      "paragraphs": 11,
+      "facts": 8,
+      "verificationSources": 8,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-2026-07-21-aek-withdraws-kangwa-offer",
       "slug": "aek-athens-withdraws-kings-kangwa-offer",

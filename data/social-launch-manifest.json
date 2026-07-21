@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-21T16:20:53Z",
-    "validUntil": "2026-07-22T04:20:53Z",
+    "checkedAt": "2026-07-21T18:03:54Z",
+    "validUntil": "2026-07-22T06:03:54Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 43,
+        "maxAgeHours": 45,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-07-21-aek-withdraws-kangwa-offer",
+        "articleId": "live-2026-07-21-argentina-spain-finalissima-november",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 51,
+        "maxAgeHours": 53,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260721-argentina-world-cup-final-brawl-fifa-probe",
+        "articleId": "live-2026-07-21-bnei-yehuda-nitzan-shirazi-tribute",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 61,
+        "maxAgeHours": 63,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260721-maccabi-haifa-kfar-saba-friendly",
+        "articleId": "tour-20260721-evenepoel-destroys-the-clock-by-lake-gen",
         "maxAgeHours": 24,
         "requires": []
       }
