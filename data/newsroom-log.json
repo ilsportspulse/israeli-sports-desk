@@ -1,5 +1,34 @@
 [
   {
+    "ts": "2026-07-21T04:48:54.535Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 2,
+    "published": 0,
+    "review": 1,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.92,
+      "namecheckMin": 0.9,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "url": "https://www.one.co.il/Article/528684.html",
+        "decision": "error",
+        "reason": "spawnSync claude ETIMEDOUT"
+      },
+      {
+        "slug": "vinicius-junior-new-look-chin-filler-procedure",
+        "title": "Vinícius Júnior Debuts Sharper Jawline After Chin Filler Procedure",
+        "confidence": 0,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "This story carries no Israeli competition, athlete or team angle — it concerns only a Brazilian footballer's personal cosmetic procedure. Per desk policy, confidence is set to 0 and the piece is held for editorial review rather than published on the Israeli desk. The core facts (procedure type, Goiânia clinic location, World Cup-criticism motivation) are independently confirmed by Yahoo Entertainment and OneFootball; the treating dermatologist's name and the ex-girlfriend's specific role in circulating the photos rest on a single primary source plus corroborating social-media context, so those secondary details are reported with attribution rather than as flatly confirmed."
+      }
+    ]
+  },
+  {
     "ts": "2026-07-21T01:47:40.863Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
