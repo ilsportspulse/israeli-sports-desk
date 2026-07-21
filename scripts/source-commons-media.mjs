@@ -959,8 +959,16 @@ for (const [index, article] of articles.entries()) {
     // supplying good candidates so most stories still get an image automatically.
     let selected;
     try {
+      // Models return the Commons file name under either "title" or "file"; accept
+      // both. Fall back to deriving "File:<name>" from a commons.wikimedia.org URL.
       const candidateFiles = (article.commonsCandidates ?? [])
-        .map((candidate) => candidate.title)
+        .map((candidate) => {
+          const named = candidate.title ?? candidate.file;
+          if (typeof named === "string" && /^File:/i.test(named)) return named;
+          const url = candidate.creditUrl ?? candidate.url ?? "";
+          const match = typeof url === "string" && url.match(/\/wiki\/(File:[^?#]+)/i);
+          return match ? decodeURIComponent(match[1]) : null;
+        })
         .filter((title) => typeof title === "string" && /^File:/i.test(title));
       if (candidateFiles.length) {
         const candidatePages = await fetchFiles(candidateFiles);

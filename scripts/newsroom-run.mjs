@@ -369,7 +369,11 @@ async function main() {
   // review instead of published without one — so the "every published story has its
   // own licensed image" gate stays green and no story ever shows a shared/mismatched
   // photo. Set newsroom.sourceImages=false in settings to skip this.
-  if (gates.sourceImages !== false && published > 0) {
+  // Run whenever image sourcing is enabled — NOT only when the main draft loop
+  // published something. Daily features (Retro/column/Tour) are published by
+  // runDailyFeatures and would otherwise skip both sourcing and the imageless-demote
+  // guard, leaving a published story with no image and failing the "own image" test.
+  if (gates.sourceImages !== false) {
     try {
       execSync("node scripts/source-commons-media.mjs", { cwd: root, stdio: "inherit" });
     } catch {
