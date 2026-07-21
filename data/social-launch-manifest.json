@@ -146,49 +146,49 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-21T07:30:44Z",
-    "validUntil": "2026-07-21T19:30:44Z",
+    "checkedAt": "2026-07-21T08:58:51Z",
+    "validUntil": "2026-07-21T20:58:51Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 35,
+        "maxAgeHours": 36,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260721-draymond-green-pj-tucker-lebron",
+        "articleId": "live-2026-07-21-argentina-homecoming-without-messi",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 42,
+        "maxAgeHours": 44,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "archive-20260721-barcelona-30-july-1992-the-silver-that-e",
+        "articleId": "live-20260721-draymond-green-pj-tucker-lebron",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 53,
+        "maxAgeHours": 54,
         "requires": [
           "column"
         ]
       },
       {
         "role": "archive",
-        "articleId": "archive-20260719-helsinki-1952",
+        "articleId": "archive-20260721-barcelona-30-july-1992-the-silver-that-e",
         "maxAgeHours": 53,
         "requires": [
           "historical-feature"
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-07-20-roddy-hapoel-jerusalem",
+        "articleId": "live-20260721-hapoel-beer-sheva-vikingur-odds",
         "maxAgeHours": 24,
         "requires": []
       }

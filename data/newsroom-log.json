@@ -1,5 +1,42 @@
 [
   {
+    "ts": "2026-07-21T08:43:23.916Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 3,
+    "published": 1,
+    "review": 1,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.92,
+      "namecheckMin": 0.9,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "url": "https://www.one.co.il/Article/528704.html",
+        "decision": "error",
+        "reason": "spawnSync claude ETIMEDOUT"
+      },
+      {
+        "slug": "israeli-referee-team-fcsb-auda-conference-league",
+        "title": "Israeli refereeing team named for FCSB's Conference League qualifier",
+        "confidence": 0.4,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "The match context (FCSB v FK Auda, second qualifying round, Thursday July 23, 20:45, Ghencea/Steaua stadium, Bucharest) is confirmed by UEFA.com and two independent Romanian outlets. However, the story's central claim — the specific Israeli referee appointment (David Foksman and his assistant/fourth-official team) — comes from the single source article and could not be corroborated against a second independent outlet (e.g. UEFA's official referee list or a referee-tracking site) within the research budget. The source article also stated the match would be played 'in Norway,' which directly contradicts the venue confirmed by UEFA and multiple Romanian outlets (Bucharest); that detail has been omitted as unreliable. Given the single-source referee names and this unresolved discrepancy, confidence is capped below the publishable threshold for a firm appointment story pending independent confirmation."
+      },
+      {
+        "slug": "argentina-homecoming-without-messi",
+        "title": "Without Messi, Argentina Comes Home to a Hero's Welcome After World Cup Heartbreak",
+        "confidence": 0.93,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-07-21T07:26:00.430Z",
     "mode": "cli",
     "model": "claude-sonnet-5",

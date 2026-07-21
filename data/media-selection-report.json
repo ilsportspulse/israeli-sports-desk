@@ -1,4 +1,86 @@
 {
-  "selections": [],
-  "failures": []
+  "selections": [
+    {
+      "articleId": "live-2026-07-21-argentina-homecoming-without-messi",
+      "article": "Without Messi, Argentina Comes Home to a Hero's Welcome After World Cup Heartbreak",
+      "file": "File:Lionel Scaloni - 2022.jpg",
+      "license": "CC BY 4.0"
+    },
+    {
+      "articleId": "live-20260721-hapoel-beer-sheva-vikingur-odds",
+      "article": "Champions Priced as Underdogs: Bookmakers See No Favorite as Beer Sheva Open Europe in Iceland",
+      "file": "File:1 Gylfi Sigurðsson 2017.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-20260721-vinicius-junior-chin-procedure",
+      "article": "Vinícius Júnior Debuts Sharper Jawline After Chin Filler Procedure",
+      "file": "File:Vinícius Júnior Brazil V Morocco 13 June 2026-207 (cropped).jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-2026-07-21-enzo-fernandez-red-card-silence",
+      "article": "Enzo Fernández Speaks Out on World Cup Final Red Card, Skips the Apology",
+      "file": "File:Enzo Fernandez Argentina v Egypt 7 July 2026-058.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-2026-07-20-fifa-2030-64-teams",
+      "article": "FIFA to Weigh Expanding 2030 World Cup to 64 Teams",
+      "file": "File:Gianni Infantino, President of FIFA (52390379929).jpg",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
+  "failures": [
+    {
+      "id": "live-20260721-omri-glazer-maccabi-haifa",
+      "title": "Omri Glazer lands in Israel to seal Maccabi Haifa return",
+      "error": "image download 429 after retries"
+    },
+    {
+      "id": "live-20260719-haifa-glazer-yarmakov",
+      "title": "Haifa's goalkeeper reshuffle agreed: Glazer set for return as Yermakov heads to Ukraine",
+      "error": "no AI-verified or curated image for this story — held for review"
+    },
+    {
+      "id": "brief-20260714-tiberias-investigation",
+      "title": "Ironi Tiberias challenge investigation in federation appeal",
+      "error": "image download 429 after retries"
+    },
+    {
+      "id": "live-20260715-ze-marcos-netanya-talks",
+      "title": "Netanya enter advanced loan talks for Brazilian centre-back Zé Marcos",
+      "error": "no AI-verified or curated image for this story — held for review"
+    },
+    {
+      "id": "live-20260717-all-dance-thessaloniki-elkobi",
+      "title": "Emily Elkobi, 12, dances Israel to gold at All Dance finals in Thessaloniki",
+      "error": "no AI-verified or curated image for this story — held for review"
+    },
+    {
+      "id": "live-20260717-maccabi-ta-youth-oretzki-kadosh",
+      "title": "Maccabi Tel Aviv academy adds Nahalal Yizrael pair Oretzki and Kadosh",
+      "error": "no AI-verified or curated image for this story — held for review"
+    },
+    {
+      "id": "live-20260717-salah-besiktas-verbal-agreement-report",
+      "title": "Salah 'agrees verbal deal' with Besiktas, French outlet reports",
+      "error": "no AI-verified or curated image for this story — held for review"
+    },
+    {
+      "id": "live-20260718-abramov-interview-media-feud-claim",
+      "title": "Abramov breaks silence on Japanika attacks and alleges a media 'conflict' he says he fell victim to",
+      "error": "no AI-verified or curated image for this story — held for review"
+    },
+    {
+      "id": "live-20260718-seck-saudi-move",
+      "title": "Seck reported to be on verge of Al-Faisaly switch after Maccabi Haifa exit",
+      "error": "no AI-verified or curated image for this story — held for review"
+    },
+    {
+      "id": "live-20260719-tour-stage-14-pogacar",
+      "title": "Pogačar dances to a fourth Tour stage win at Le Markstein as lead stretches to 4:30",
+      "error": "no AI-verified or curated image for this story — held for review"
+    }
+  ]
 }

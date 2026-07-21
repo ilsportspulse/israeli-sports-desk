@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T07:30:45.258Z",
+  "generatedAt": "2026-07-21T08:58:51.908Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 148,
+    "publishedArticles": 163,
     "wordCount": {
       "minimum": 266,
       "maximum": 1070,
-      "median": 496.5,
-      "average": 515.6
+      "median": 490,
+      "average": 509.2
     },
     "paragraphDistribution": {
       "5": 1,
-      "6": 1,
-      "7": 38,
-      "8": 44,
-      "9": 27,
-      "10": 19,
+      "6": 5,
+      "7": 42,
+      "8": 46,
+      "9": 30,
+      "10": 21,
       "11": 8,
       "12": 1,
       "13": 3,
@@ -33,9 +33,9 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.297,
+    "dominantParagraphShare": 0.282,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 1,
+    "exactSixParagraphArticles": 5,
     "analysisBelowTarget": 1,
     "articlesWithStyleFlags": 5
   },
@@ -158,6 +158,27 @@
   ],
   "clean": [
     {
+      "id": "live-2026-07-21-argentina-homecoming-without-messi",
+      "slug": "argentina-homecoming-without-messi",
+      "title": "Without Messi, Argentina Comes Home to a Hero's Welcome After World Cup Heartbreak",
+      "kind": "article",
+      "words": 472,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 29,
+        "longest": 66,
+        "average": 47.2
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 46,
+        "average": 29.5
+      },
+      "lexicalDiversity": 0.581,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
       "id": "live-20260721-draymond-green-pj-tucker-lebron",
       "slug": "draymond-green-jokes-pj-tucker-role-lebron-warriors",
       "title": "Draymond Green Jokes He'd Become 'the Next PJ Tucker' if LeBron Joins Warriors",
@@ -175,6 +196,90 @@
         "average": 25.2
       },
       "lexicalDiversity": 0.624,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260721-hapoel-beer-sheva-vikingur-odds",
+      "slug": "hapoel-beer-sheva-vikingur-reykjavik-champions-league-odds",
+      "title": "Champions Priced as Underdogs: Bookmakers See No Favorite as Beer Sheva Open Europe in Iceland",
+      "kind": "match-preview",
+      "words": 468,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 84,
+        "average": 52
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 57,
+        "average": 29.3
+      },
+      "lexicalDiversity": 0.573,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260721-vinicius-junior-chin-procedure",
+      "slug": "vinicius-junior-new-look-chin-filler-procedure",
+      "title": "Vinícius Júnior Debuts Sharper Jawline After Chin Filler Procedure",
+      "kind": "news",
+      "words": 331,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 78,
+        "average": 55.2
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 79,
+        "average": 33.1
+      },
+      "lexicalDiversity": 0.656,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260721-omri-glazer-maccabi-haifa",
+      "slug": "omri-glazer-lands-in-israel-maccabi-haifa-return",
+      "title": "Omri Glazer lands in Israel to seal Maccabi Haifa return",
+      "kind": "news",
+      "words": 424,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 32,
+        "longest": 71,
+        "average": 47.1
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 44,
+        "average": 26.5
+      },
+      "lexicalDiversity": 0.566,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-21-enzo-fernandez-red-card-silence",
+      "slug": "enzo-fernandez-world-cup-final-red-card-no-apology",
+      "title": "Enzo Fernández Speaks Out on World Cup Final Red Card, Skips the Apology",
+      "kind": "news",
+      "words": 461,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 32,
+        "longest": 56,
+        "average": 46.1
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 74,
+        "average": 35.5
+      },
+      "lexicalDiversity": 0.549,
       "publisherAttributions": 0,
       "flags": []
     },
@@ -259,6 +364,27 @@
         "average": 29.5
       },
       "lexicalDiversity": 0.609,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-20-fifa-2030-64-teams",
+      "slug": "fifa-2030-world-cup-64-team-expansion-proposal",
+      "title": "FIFA to Weigh Expanding 2030 World Cup to 64 Teams",
+      "kind": "news",
+      "words": 419,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 38,
+        "longest": 77,
+        "average": 59.9
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 50,
+        "average": 29.9
+      },
+      "lexicalDiversity": 0.558,
       "publisherAttributions": 0,
       "flags": []
     },
@@ -406,6 +532,27 @@
         "average": 24.9
       },
       "lexicalDiversity": 0.563,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260719-haifa-glazer-yarmakov",
+      "slug": "maccabi-haifa-goalkeeper-reshuffle-glazer-return-yermakov-metalist",
+      "title": "Haifa's goalkeeper reshuffle agreed: Glazer set for return as Yermakov heads to Ukraine",
+      "kind": "news",
+      "words": 459,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 52,
+        "longest": 79,
+        "average": 65.6
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 57,
+        "average": 30.6
+      },
+      "lexicalDiversity": 0.58,
       "publisherAttributions": 0,
       "flags": []
     },
@@ -1565,6 +1712,27 @@
       "flags": []
     },
     {
+      "id": "brief-20260714-tiberias-investigation",
+      "slug": "evidence-questions-reshape-ironi-tiberias-investigation",
+      "title": "Ironi Tiberias challenge investigation in federation appeal",
+      "kind": "news",
+      "words": 453,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 39,
+        "longest": 64,
+        "average": 50.3
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 40,
+        "average": 22.7
+      },
+      "lexicalDiversity": 0.565,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
       "id": "brief-20260714-france-knockout-record",
       "slug": "france-knockout-record-frames-spain-world-cup-semi-final",
       "title": "Spain shut out France to reach the World Cup final",
@@ -1793,6 +1961,27 @@
       },
       "lexicalDiversity": 0.554,
       "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260715-ze-marcos-netanya-talks",
+      "slug": "maccabi-netanya-ze-marcos-advanced-loan-talks",
+      "title": "Netanya enter advanced loan talks for Brazilian centre-back Zé Marcos",
+      "kind": "news",
+      "words": 451,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 48,
+        "longest": 77,
+        "average": 64.4
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 34,
+        "average": 21.5
+      },
+      "lexicalDiversity": 0.627,
+      "publisherAttributions": 1,
       "flags": []
     },
     {
@@ -2237,6 +2426,27 @@
       "flags": []
     },
     {
+      "id": "live-20260717-all-dance-thessaloniki-elkobi",
+      "slug": "emily-elkobi-all-dance-gold-thessaloniki",
+      "title": "Emily Elkobi, 12, dances Israel to gold at All Dance finals in Thessaloniki",
+      "kind": "news",
+      "words": 446,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 39,
+        "longest": 78,
+        "average": 55.8
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 40,
+        "average": 24.8
+      },
+      "lexicalDiversity": 0.556,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
       "id": "live-20260717-israel-u20-iceland-handball",
       "slug": "israel-u20-handball-iceland-35-23-m20-ehf-euro-placement",
       "title": "Israel's under-20s swept aside 35:23 by Iceland with a World Championship place still on the line",
@@ -2254,6 +2464,27 @@
         "average": 23.1
       },
       "lexicalDiversity": 0.621,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260717-maccabi-ta-youth-oretzki-kadosh",
+      "slug": "maccabi-tel-aviv-academy-adds-nahalal-yizrael-pair-oretzki-kadosh",
+      "title": "Maccabi Tel Aviv academy adds Nahalal Yizrael pair Oretzki and Kadosh",
+      "kind": "news",
+      "words": 502,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 46,
+        "longest": 92,
+        "average": 62.8
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 47,
+        "average": 26.4
+      },
+      "lexicalDiversity": 0.546,
       "publisherAttributions": 0,
       "flags": []
     },
@@ -2594,6 +2825,27 @@
       "flags": []
     },
     {
+      "id": "live-20260717-salah-besiktas-verbal-agreement-report",
+      "slug": "salah-besiktas-verbal-agreement-report",
+      "title": "Salah 'agrees verbal deal' with Besiktas, French outlet reports",
+      "kind": "news",
+      "words": 432,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 48,
+        "longest": 84,
+        "average": 61.7
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 48,
+        "average": 27
+      },
+      "lexicalDiversity": 0.602,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
       "id": "live-20260717-abu-fani-red-star-macva50",
       "slug": "abu-fani-full-90-red-star-belgrade-crush-macva-superliga-opener",
       "title": "Abu Fani goes the full 90 as Red Star Belgrade crush Mačva in SuperLiga opener",
@@ -2674,6 +2926,27 @@
         "average": 24.8
       },
       "lexicalDiversity": 0.644,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260718-abramov-interview-media-feud-claim",
+      "slug": "abramov-ulpan-shishi-interview-keshet-leumi-partners-claim",
+      "title": "Abramov breaks silence on Japanika attacks and alleges a media 'conflict' he says he fell victim to",
+      "kind": "news",
+      "words": 636,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 83,
+        "longest": 144,
+        "average": 106
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 132,
+        "average": 42.4
+      },
+      "lexicalDiversity": 0.522,
       "publisherAttributions": 0,
       "flags": []
     },
@@ -2846,6 +3119,27 @@
       "flags": []
     },
     {
+      "id": "live-20260718-seck-saudi-move",
+      "slug": "abdoulaye-seck-reported-al-faisaly-move-after-maccabi-haifa-exit",
+      "title": "Seck reported to be on verge of Al-Faisaly switch after Maccabi Haifa exit",
+      "kind": "news",
+      "words": 409,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 54,
+        "longest": 80,
+        "average": 68.2
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 54,
+        "average": 29.2
+      },
+      "lexicalDiversity": 0.543,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
       "id": "live-20260718-tsunami-maccabi-haifa",
       "slug": "wenderson-tsunami-signs-maccabi-haifa-free-transfer",
       "title": "Maccabi Haifa Land Brazilian Defender Wenderson Tsunami on a Free Transfer",
@@ -2968,6 +3262,27 @@
         "average": 23.7
       },
       "lexicalDiversity": 0.577,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260719-tour-stage-14-pogacar",
+      "slug": "tour-de-france-stage-14-pogacar-fourth-win-le-markstein",
+      "title": "Pogačar dances to a fourth Tour stage win at Le Markstein as lead stretches to 4:30",
+      "kind": "news",
+      "words": 323,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 67,
+        "average": 53.8
+      },
+      "sentenceWords": {
+        "shortest": 3,
+        "longest": 43,
+        "average": 24.8
+      },
+      "lexicalDiversity": 0.628,
       "publisherAttributions": 0,
       "flags": []
     },
