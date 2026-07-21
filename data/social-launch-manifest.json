@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-21T20:05:18Z",
-    "validUntil": "2026-07-22T08:05:18Z",
+    "checkedAt": "2026-07-21T21:41:11Z",
+    "validUntil": "2026-07-22T09:41:11Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 47,
+        "maxAgeHours": 49,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260721-ronaldo-fifa-argentina-instagram-like",
+        "articleId": "live-2026-07-21-partizan-wendell-moore-jr-race",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 55,
+        "maxAgeHours": 56,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-07-21-modric-milan-contract-extension",
+        "articleId": "live-20260721-morgan-rogers-chelsea-record-transfer",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 65,
+        "maxAgeHours": 67,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-07-21-beitar-owner-japanika-grenade-arrest",
+        "articleId": "live-20260721-ronaldo-fifa-argentina-instagram-like",
         "maxAgeHours": 24,
         "requires": []
       }

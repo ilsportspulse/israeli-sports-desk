@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T20:05:19.133Z",
+  "generatedAt": "2026-07-21T21:41:12.245Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 183,
+    "publishedArticles": 185,
     "wordCount": {
       "minimum": 266,
       "maximum": 1070,
-      "median": 486,
-      "average": 504.4
+      "median": 483,
+      "average": 503.1
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 8,
       "7": 42,
-      "8": 50,
+      "8": 51,
       "9": 35,
-      "10": 25,
+      "10": 26,
       "11": 11,
       "12": 2,
       "13": 3,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.273,
+    "dominantParagraphShare": 0.276,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 8,
     "analysisBelowTarget": 1,
@@ -203,6 +203,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-21-partizan-wendell-moore-jr-race",
+      "slug": "partizan-joins-race-wendell-moore-jr",
+      "title": "Partizan Belgrade Joins Hapoel Jerusalem in Race for Wendell Moore Jr.",
+      "kind": "news",
+      "words": 395,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 26,
+        "longest": 65,
+        "average": 49.4
+      },
+      "sentenceWords": {
+        "shortest": 3,
+        "longest": 44,
+        "average": 24.7
+      },
+      "lexicalDiversity": 0.62,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260721-morgan-rogers-chelsea-record-transfer",
+      "slug": "morgan-rogers-chelsea-record-transfer",
+      "title": "Chelsea Complete British Transfer-Record Signing of Morgan Rogers",
+      "kind": "news",
+      "words": 365,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 48,
+        "average": 36.5
+      },
+      "sentenceWords": {
+        "shortest": 30,
+        "longest": 77,
+        "average": 40.6
+      },
+      "lexicalDiversity": 0.63,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260721-ronaldo-fifa-argentina-instagram-like",
       "slug": "ronaldo-likes-post-accusing-fifa-favoring-argentina",

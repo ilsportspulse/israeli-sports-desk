@@ -1,5 +1,63 @@
 [
   {
+    "ts": "2026-07-21T21:33:57.555Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 6,
+    "published": 2,
+    "review": 2,
+    "skipped": 2,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "morgan-rogers-chelsea-record-transfer",
+        "title": "Chelsea Complete British Transfer-Record Signing of Morgan Rogers",
+        "confidence": 0.9,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "partizan-joins-race-wendell-moore-jr",
+        "title": "Partizan Belgrade Joins Hapoel Jerusalem in Race for Wendell Moore Jr.",
+        "confidence": 0.78,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "versano-breaks-israel-u18-400m-hurdles-record",
+        "title": "Versano Breaks Israeli U18 Hurdles Record as Afrifah Completes Sprint Double in Jerusalem",
+        "confidence": 0.75,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "ONE's report gives Noa Levi's winning 400m hurdles time as 48.82 seconds, which is physically impossible (well inside the world record) and appears to be a misprint in the source; we omitted that figure and could not independently confirm her actual time."
+      },
+      {
+        "slug": "maccabi-haifa-goalkeeper-kayouf-achilles-tear",
+        "title": "Maccabi Haifa Goalkeeper Kayouf Ruptures Achilles Before Season Even Starts",
+        "confidence": 0.85,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "below gate thresholds"
+      },
+      {
+        "slug": "hapoel-beer-sheva-lose-first-leg-vikingur-reykjavik",
+        "title": "Hansen double and a chalked-off goal leave Hapoel Be'er Sheva facing a fight for Europe",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "morgan-rogers-chelsea-record-transfer-most-expensive-englishman",
+        "title": "Chelsea Agree Record £117m Deal for Morgan Rogers, Making Him Most Expensive Englishman Ever",
+        "decision": "duplicate"
+      }
+    ]
+  },
+  {
     "ts": "2026-07-21T19:59:40.904Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
