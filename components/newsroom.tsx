@@ -22,7 +22,7 @@ import { DailyQuiz } from "@/components/daily-quiz";
 import { StoryVisual } from "@/components/story-visual";
 import { TeamCrest } from "@/components/team-crest";
 import { formatArticleDate } from "@/lib/articles";
-import { getArticleImage } from "@/lib/media";
+import { getArticlePhoto } from "@/lib/media";
 import type { DailyQuiz as DailyQuizData } from "@/lib/quiz";
 import { competitionPriority } from "@/lib/competition-priority";
 import type { ScoreCentreData, ScoreEvent } from "@/lib/sports-data";
@@ -379,7 +379,7 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
             </div>
             <Link href={`/article/${featured.slug}`} className="ts-lead">
               <div className="ts-lead-img">
-                <StoryVisual theme={featured.theme} label={featured.category} image={getArticleImage(featured)} priority />
+                <StoryVisual theme={featured.theme} label={featured.category} image={getArticlePhoto(featured)} priority />
                 <span className="ts-cat">{featured.category}</span>
               </div>
               <div className="ts-lead-copy">
@@ -391,7 +391,7 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
             <div className="ts-cards">
               {heroRail.slice(0, 4).map((article) => (
                 <Link key={article.id} href={`/article/${article.slug}`} className="ts-card">
-                  <div className="ts-card-img"><StoryVisual theme={article.theme} label={article.category} image={getArticleImage(article)} /></div>
+                  <div className="ts-card-img"><StoryVisual theme={article.theme} label={article.category} image={getArticlePhoto(article)} /></div>
                   <span className="ts-card-cat">{article.category}</span>
                   <h3>{article.title}</h3>
                 </Link>
@@ -454,7 +454,7 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
                 .slice(0, 10)
                 .map((article) => (
                   <Link key={article.id} href={`/article/${article.slug}`} className="latest-story">
-                    <StoryVisual theme={article.theme} label={article.category} image={getArticleImage(article)} />
+                    <StoryVisual theme={article.theme} label={article.category} image={getArticlePhoto(article)} />
                     <div className="latest-story-copy">
                       <div className="latest-story-topline">
                         <span className={`kind-badge kind-${article.kind}`}>
@@ -504,7 +504,7 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
               </div>
               <Link href={`/article/${archiveFeature.slug}`} className="ts-lead">
                 <div className="ts-lead-img">
-                  <StoryVisual theme={archiveFeature.theme} label="Retro" image={getArticleImage(archiveFeature)} />
+                  <StoryVisual theme={archiveFeature.theme} label="Retro" image={getArticlePhoto(archiveFeature)} />
                   <span className="ts-cat">{tr("nav.archive")} · {archiveFeature.archiveDisplay?.dateLine ?? archiveFeature.archiveDate}</span>
                 </div>
                 <div className="ts-lead-copy">
@@ -516,7 +516,7 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
                 <div className="ts-cards">
                   {archiveStories.slice(1, 5).map((article) => (
                     <Link key={article.id} href={`/article/${article.slug}`} className="ts-card">
-                      <div className="ts-card-img"><StoryVisual theme={article.theme} label="Retro" image={getArticleImage(article)} /></div>
+                      <div className="ts-card-img"><StoryVisual theme={article.theme} label="Retro" image={getArticlePhoto(article)} /></div>
                       <span className="ts-card-cat">{article.archiveDisplay?.dateLine ?? article.archiveDate}</span>
                       <h3>{article.title}</h3>
                     </Link>
@@ -537,7 +537,7 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
               </div>
               <Link href={`/article/${international[0].slug}`} className="ts-lead">
                 <div className="ts-lead-img">
-                  <StoryVisual theme={international[0].theme} label={international[0].category} image={getArticleImage(international[0])} />
+                  <StoryVisual theme={international[0].theme} label={international[0].category} image={getArticlePhoto(international[0])} />
                   <span className="ts-cat">{international[0].category}</span>
                 </div>
                 <div className="ts-lead-copy">
@@ -550,7 +550,7 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
                 <div className="ts-cards">
                   {international.slice(1, 5).map((article) => (
                     <Link key={article.id} href={`/article/${article.slug}`} className="ts-card">
-                      <div className="ts-card-img"><StoryVisual theme={article.theme} label={article.category} image={getArticleImage(article)} /></div>
+                      <div className="ts-card-img"><StoryVisual theme={article.theme} label={article.category} image={getArticlePhoto(article)} /></div>
                       <span className="ts-card-cat">{article.category}</span>
                       <h3>{article.title}</h3>
                     </Link>
@@ -573,7 +573,7 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
             <div className="latest-list">
               {international.slice(5, 15).map((article) => (
                 <Link key={article.id} href={`/article/${article.slug}`} className="latest-story">
-                  <StoryVisual theme={article.theme} label={article.category} image={getArticleImage(article)} />
+                  <StoryVisual theme={article.theme} label={article.category} image={getArticlePhoto(article)} />
                   <div className="latest-story-copy">
                     <div className="latest-story-topline">
                       <span className={`kind-badge kind-${article.kind}`}>{article.category}</span>
@@ -606,7 +606,7 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
               {analysisStories.slice(0, 3).map((article) => (
                 <Link key={article.id} href={`/article/${article.slug}`} className="ai-story">
                   <div className="ai-story-img">
-                    <StoryVisual theme={article.theme} label={article.category} image={getArticleImage(article)} />
+                    <StoryVisual theme={article.theme} label={article.category} image={getArticlePhoto(article)} />
                     <span className="ai-story-tag">Column</span>
                   </div>
                   <div className="ai-story-body">

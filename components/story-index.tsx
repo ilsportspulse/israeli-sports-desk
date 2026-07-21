@@ -4,7 +4,7 @@ import { BrandLockup } from "@/components/brand";
 import { ArrowIcon, HomeIcon } from "@/components/icons";
 import { StoryVisual } from "@/components/story-visual";
 import { formatArticleDate } from "@/lib/articles";
-import { getArticleImage } from "@/lib/media";
+import { getArticlePhoto } from "@/lib/media";
 import type { PublicArticleSummary } from "@/lib/types";
 
 type StoryIndexProps = {
@@ -45,7 +45,7 @@ export function StoryIndex({ eyebrow, title, introduction, articles }: StoryInde
         <section className="page-width story-index-list" aria-label={title}>
           {articles.map((article) => (
             <Link key={article.id} href={`/article/${article.slug}`} className="story-index-card">
-              <StoryVisual theme={article.theme} label={article.category} image={getArticleImage(article)} />
+              <StoryVisual theme={article.theme} label={article.category} image={getArticlePhoto(article)} />
               <div className="story-index-copy">
                 <div className="story-index-meta">
                   <span>{article.category}</span>

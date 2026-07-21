@@ -137,6 +137,15 @@ const olympics: MediaAsset = {
 
 type ArticleWithVisual = Pick<Article, "id" | "title" | "dek" | "category" | "image">;
 
+// Only a story's OWN, curated/verified photo — never a shared category fallback. Use
+// this for cards/lists: a story without its own photo returns undefined so the UI
+// shows its branded ILSP visual instead of repeating the same stadium across many
+// cards. (getArticleImage below always resolves to something, for the article hero,
+// OG images and API where a concrete image is required.)
+export function getArticlePhoto(article: ArticleWithVisual): MediaAsset | undefined {
+  return articleMedia[article.id] ?? article.image ?? undefined;
+}
+
 export function getArticleImage(article: ArticleWithVisual): MediaAsset {
   if (articleMedia[article.id]) return articleMedia[article.id];
   if (article.image) return article.image;
