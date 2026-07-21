@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T05:10:17.945Z",
+  "generatedAt": "2026-07-21T05:50:51.089Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,16 +11,16 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 138,
+    "publishedArticles": 139,
     "wordCount": {
       "minimum": 266,
       "maximum": 1070,
-      "median": 502.5,
-      "average": 523.2
+      "median": 502,
+      "average": 522.2
     },
     "paragraphDistribution": {
       "5": 1,
-      "7": 30,
+      "7": 31,
       "8": 43,
       "9": 27,
       "10": 19,
@@ -32,7 +32,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.312,
+    "dominantParagraphShare": 0.309,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 0,
     "analysisBelowTarget": 1,
@@ -133,6 +133,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260721-draymond-green-pj-tucker-lebron",
+      "slug": "draymond-green-jokes-pj-tucker-role-lebron-warriors",
+      "title": "Draymond Green Jokes He'd Become 'the Next PJ Tucker' if LeBron Joins Warriors",
+      "kind": "news",
+      "words": 378,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 77,
+        "average": 54
+      },
+      "sentenceWords": {
+        "shortest": 3,
+        "longest": 62,
+        "average": 25.2
+      },
+      "lexicalDiversity": 0.624,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "archive-20260721-barcelona-30-july-1992-the-silver-that-e",
       "slug": "barcelona-30-july-1992-the-silver-that-ended-the-wait",

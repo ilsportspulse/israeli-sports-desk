@@ -1,5 +1,37 @@
 [
   {
+    "ts": "2026-07-21T05:41:31.497Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 2,
+    "published": 1,
+    "review": 1,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.92,
+      "namecheckMin": 0.9,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "hapoel-beer-sheva-vikingur-reykjavik-champions-league-odds",
+        "title": "Champions Priced as Underdogs: Bookmakers See No Favorite as Beer Sheva Open Europe in Iceland",
+        "confidence": 0.86,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "The head coach's name is transliterated inconsistently across English-language sources (Kojok/Kozuch/Kozuk for the same Hebrew רן קוז'וך); we use 'Kozuch' per the English text of his Wikipedia entry. Kickoff time carries a minor cross-source discrepancy (the source article gives 22:00 Israel time / 19:00 UTC, while one English preview lists an 8pm local start), so the exact clock time is omitted from the body. The betting odds and prop-bet prices come from a single bookmaker (Winner) as reported in the source and are a snapshot that can move before kickoff; reported figures for any Kangwa transfer fee vary by outlet and were therefore not stated as a specific number."
+      },
+      {
+        "slug": "draymond-green-jokes-pj-tucker-role-lebron-warriors",
+        "title": "Draymond Green Jokes He'd Become 'the Next PJ Tucker' if LeBron Joins Warriors",
+        "confidence": 0.92,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-07-21T04:48:54.535Z",
     "mode": "cli",
     "model": "claude-sonnet-5",

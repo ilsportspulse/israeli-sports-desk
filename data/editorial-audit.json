@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T05:10:17.889Z",
+  "generatedAt": "2026-07-21T05:50:50.954Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,30 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 211,
-    "publishedBefore": 138,
-    "cleanPublished": 138,
+    "totalArticles": 213,
+    "publishedBefore": 139,
+    "cleanPublished": 139,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 138,
-    "reviewAfter": 73
+    "publishedAfter": 139,
+    "reviewAfter": 74
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-20260721-draymond-green-pj-tucker-lebron",
+      "slug": "draymond-green-jokes-pj-tucker-role-lebron-warriors",
+      "title": "Draymond Green Jokes He'd Become 'the Next PJ Tucker' if LeBron Joins Warriors",
+      "statusBefore": "published",
+      "words": 380,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "archive-20260721-barcelona-30-july-1992-the-silver-that-e",
       "slug": "barcelona-30-july-1992-the-silver-that-ended-the-wait",
@@ -1217,6 +1231,20 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-20260721-draymond-green-pj-tucker-lebron",
+      "slug": "draymond-green-jokes-pj-tucker-role-lebron-warriors",
+      "title": "Draymond Green Jokes He'd Become 'the Next PJ Tucker' if LeBron Joins Warriors",
+      "statusBefore": "published",
+      "words": 380,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "archive-20260721-barcelona-30-july-1992-the-silver-that-e",
       "slug": "barcelona-30-july-1992-the-silver-that-ended-the-wait",
