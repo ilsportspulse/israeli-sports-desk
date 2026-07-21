@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T08:58:51.758Z",
+  "generatedAt": "2026-07-21T09:55:18.130Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 217,
+    "totalArticles": 222,
     "publishedBefore": 163,
     "cleanPublished": 163,
     "blockedPublished": 0,
     "demoted": 0,
     "publishedAfter": 163,
-    "reviewAfter": 54
+    "reviewAfter": 59
   },
   "blockedPublished": [],
   "warnings": [
@@ -50,6 +50,20 @@
       "paragraphs": 7,
       "facts": 6,
       "verificationSources": 6,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260721-omri-glazer-maccabi-haifa",
+      "slug": "omri-glazer-lands-in-israel-maccabi-haifa-return",
+      "title": "Omri Glazer lands in Israel to seal Maccabi Haifa return",
+      "statusBefore": "published",
+      "words": 422,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 8,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -1341,7 +1355,9 @@
       "facts": 8,
       "verificationSources": 8,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-2026-07-21-enzo-fernandez-red-card-silence",
