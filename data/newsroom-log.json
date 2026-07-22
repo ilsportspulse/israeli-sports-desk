@@ -1,5 +1,69 @@
 [
   {
+    "ts": "2026-07-22T12:10:31.080Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 6,
+    "published": 4,
+    "review": 2,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "brazili-blasts-almeida-over-weight-miss-ahead-of-tel-aviv-main-event",
+        "title": "Brazili accuses Almeida of exploiting his 'willingness to fight' after Brazilian misses weight by 15kg",
+        "confidence": 0.78,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Almeida's exact identity/UFC record and the precise current weight gap are per Brazili's own account as relayed by ONE; not independently confirmed by an official weigh-in yet."
+      },
+      {
+        "slug": "israel-youth-swimming-championship-age-records",
+        "title": "14 Age-Group Records Fall at Israel's Youth Swimming Championship",
+        "confidence": 0.8,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "below gate thresholds"
+      },
+      {
+        "slug": "pedro-amador-hapoel-beer-sheva-transfer-close",
+        "title": "Portuguese Left-Back Pedro Amador Closing In on Hapoel Beer Sheva Move",
+        "confidence": 0.78,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "nigel-lonwijk-maccabi-haifa-eissat-replacement",
+        "title": "Maccabi Haifa Turn to Wolves Loanee Nigel Lonwijk to Replace Eissat at the Back",
+        "confidence": 0.75,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "uefa-blocks-var-mistaken-identity-rule-for-diving-calls",
+        "title": "UEFA Won't Let VAR Use World Cup's 'Mistaken Identity' Rule to Overturn Diving Calls",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "ivic-maccabi-tel-aviv-bonus-interview",
+        "title": "Ivić: \"I Was Shocked by the Bonus at Maccabi Tel Aviv\"",
+        "confidence": 0.83,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-07-22T10:15:36.482Z",
     "mode": "cli",
     "model": "claude-sonnet-5",

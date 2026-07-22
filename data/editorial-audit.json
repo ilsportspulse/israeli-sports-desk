@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T10:24:37.867Z",
+  "generatedAt": "2026-07-22T12:19:11.391Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,72 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 284,
-    "publishedBefore": 205,
-    "cleanPublished": 205,
+    "totalArticles": 290,
+    "publishedBefore": 209,
+    "cleanPublished": 209,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 205,
-    "reviewAfter": 79
+    "publishedAfter": 209,
+    "reviewAfter": 81
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-20260722-ivic-maccabi-bonus-shock",
+      "slug": "ivic-maccabi-tel-aviv-bonus-interview",
+      "title": "Ivić: \"I Was Shocked by the Bonus at Maccabi Tel Aviv\"",
+      "statusBefore": "published",
+      "words": 402,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260722-uefa-var-mistaken-identity-diving",
+      "slug": "uefa-blocks-var-mistaken-identity-rule-for-diving-calls",
+      "title": "UEFA Won't Let VAR Use World Cup's 'Mistaken Identity' Rule to Overturn Diving Calls",
+      "statusBefore": "published",
+      "words": 482,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260722-lonwijk-haifa-centre-back",
+      "slug": "nigel-lonwijk-maccabi-haifa-eissat-replacement",
+      "title": "Maccabi Haifa Turn to Wolves Loanee Nigel Lonwijk to Replace Eissat at the Back",
+      "statusBefore": "published",
+      "words": 566,
+      "paragraphs": 10,
+      "facts": 8,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-20260722-pedro-amador-hapoel-beer-sheva",
+      "slug": "pedro-amador-hapoel-beer-sheva-transfer-close",
+      "title": "Portuguese Left-Back Pedro Amador Closing In on Hapoel Beer Sheva Move",
+      "statusBefore": "published",
+      "words": 365,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-07-22-pedrao-petah-tikva-tibi-derby",
       "slug": "pedrao-offered-maccabi-petah-tikva-tibi-injury-derby",
@@ -1849,6 +1905,62 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-20260722-ivic-maccabi-bonus-shock",
+      "slug": "ivic-maccabi-tel-aviv-bonus-interview",
+      "title": "Ivić: \"I Was Shocked by the Bonus at Maccabi Tel Aviv\"",
+      "statusBefore": "published",
+      "words": 402,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260722-uefa-var-mistaken-identity-diving",
+      "slug": "uefa-blocks-var-mistaken-identity-rule-for-diving-calls",
+      "title": "UEFA Won't Let VAR Use World Cup's 'Mistaken Identity' Rule to Overturn Diving Calls",
+      "statusBefore": "published",
+      "words": 482,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260722-lonwijk-haifa-centre-back",
+      "slug": "nigel-lonwijk-maccabi-haifa-eissat-replacement",
+      "title": "Maccabi Haifa Turn to Wolves Loanee Nigel Lonwijk to Replace Eissat at the Back",
+      "statusBefore": "published",
+      "words": 566,
+      "paragraphs": 10,
+      "facts": 8,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-20260722-pedro-amador-hapoel-beer-sheva",
+      "slug": "pedro-amador-hapoel-beer-sheva-transfer-close",
+      "title": "Portuguese Left-Back Pedro Amador Closing In on Hapoel Beer Sheva Move",
+      "statusBefore": "published",
+      "words": 365,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-07-22-neymar-poker-santos",
       "slug": "neymar-poker-table-santos-recovery-backlash",

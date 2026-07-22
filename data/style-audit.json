@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T10:24:38.088Z",
+  "generatedAt": "2026-07-22T12:19:11.599Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 205,
+    "publishedArticles": 209,
     "wordCount": {
       "minimum": 266,
       "maximum": 1070,
       "median": 479,
-      "average": 500.4
+      "average": 499.5
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 8,
-      "7": 43,
-      "8": 56,
-      "9": 46,
-      "10": 28,
+      "7": 44,
+      "8": 57,
+      "9": 47,
+      "10": 29,
       "11": 12,
       "12": 2,
       "13": 3,
@@ -226,6 +226,90 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260722-ivic-maccabi-bonus-shock",
+      "slug": "ivic-maccabi-tel-aviv-bonus-interview",
+      "title": "Ivić: \"I Was Shocked by the Bonus at Maccabi Tel Aviv\"",
+      "kind": "news",
+      "words": 399,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 69,
+        "average": 49.9
+      },
+      "sentenceWords": {
+        "shortest": 3,
+        "longest": 82,
+        "average": 36.3
+      },
+      "lexicalDiversity": 0.549,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260722-uefa-var-mistaken-identity-diving",
+      "slug": "uefa-blocks-var-mistaken-identity-rule-for-diving-calls",
+      "title": "UEFA Won't Let VAR Use World Cup's 'Mistaken Identity' Rule to Overturn Diving Calls",
+      "kind": "news",
+      "words": 477,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 73,
+        "average": 53
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 55,
+        "average": 29.8
+      },
+      "lexicalDiversity": 0.612,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260722-lonwijk-haifa-centre-back",
+      "slug": "nigel-lonwijk-maccabi-haifa-eissat-replacement",
+      "title": "Maccabi Haifa Turn to Wolves Loanee Nigel Lonwijk to Replace Eissat at the Back",
+      "kind": "news",
+      "words": 568,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 82,
+        "average": 56.8
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 51,
+        "average": 28.4
+      },
+      "lexicalDiversity": 0.581,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260722-pedro-amador-hapoel-beer-sheva",
+      "slug": "pedro-amador-hapoel-beer-sheva-transfer-close",
+      "title": "Portuguese Left-Back Pedro Amador Closing In on Hapoel Beer Sheva Move",
+      "kind": "news",
+      "words": 366,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 39,
+        "longest": 64,
+        "average": 52.3
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 54,
+        "average": 26.1
+      },
+      "lexicalDiversity": 0.607,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-07-22-neymar-poker-santos",
       "slug": "neymar-poker-table-santos-recovery-backlash",
