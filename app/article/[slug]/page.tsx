@@ -15,7 +15,8 @@ import { MatchCentre } from "@/components/match-centre";
 import { MatchScoreline } from "@/components/match-scoreline";
 import { StoryVisual } from "@/components/story-visual";
 import { siteConfig } from "@/config/site";
-import { formatArticleDate, getArticle, getArticles } from "@/lib/articles";
+import { getCurrentAdmin } from "@/lib/admin/auth";
+import { formatArticleDate, getArticle, getArticleIncludingReview, getArticles } from "@/lib/articles";
 import { getLocalizedArticleDetailCopy, getLocalizedArticleSummaryCopy } from "@/lib/localized-articles";
 import { getArticleImage } from "@/lib/media";
 import { getBasketballWinnerStyle, getWinnerStyle } from "@/lib/match-style";
@@ -67,7 +68,17 @@ export async function generateMetadata({ params }: ArticlePageProps): Promise<Me
 
 export default async function ArticlePage({ params }: ArticlePageProps) {
   const { slug } = await params;
-  const article = getArticle(slug);
+  let article = getArticle(slug);
+  // Backoffice preview: a signed-in admin session may view articles still in
+  // review, exactly as they will render once published. Never for the public.
+  let previewing = false;
+  if (!article && getCurrentAdmin()) {
+    const draft = getArticleIncludingReview(slug);
+    if (draft) {
+      article = draft;
+      previewing = true;
+    }
+  }
   if (!article) {
     // Honour a backoffice slug-change redirect before 404ing so old URLs keep ranking.
     const redirect = await findRedirect(`/article/${slug}`);
@@ -134,6 +145,12 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
 
   return (
     <div className="article-page">
+      {previewing && (
+        <div style={{ background: "#b45309", color: "#fff", textAlign: "center", padding: "8px 16px", fontSize: 14, fontWeight: 600, position: "sticky", top: 0, zIndex: 50 }}>
+          Preview — this article is in review and not visible to the public.{" "}
+          <a href={`/admin/articles/${article.id}`} style={{ color: "#fff", textDecoration: "underline" }}>Back to editor</a>
+        </div>
+      )}
       <header className="article-header">
         <div className="page-width article-nav">
           <Link href="/" className="brand-lockup">

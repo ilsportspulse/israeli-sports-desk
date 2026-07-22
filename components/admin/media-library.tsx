@@ -120,6 +120,14 @@ export function MediaLibrary() {
             <h2>Upload an image</h2>
             {upMsg && <span className={`msg ${upMsg.kind}`} style={{ fontSize: 12 }}>{upMsg.text}</span>}
           </div>
+          {upFile && (
+            <div style={{ marginBottom: 10 }}>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={URL.createObjectURL(upFile)} alt="Preview of the file to upload"
+                style={{ maxWidth: 420, width: "100%", height: 160, objectFit: "cover", borderRadius: 8, background: "#eee", border: "2px dashed var(--a-line, #ccc)" }} />
+              <div className="hint" style={{ marginTop: 4 }}>Preview — not uploaded yet. {upFile.name} · {(upFile.size / 1024).toFixed(0)} KB</div>
+            </div>
+          )}
           <div className="field-row two">
             <div className="field"><label>Image file (JPEG/PNG/WebP/GIF, max 4 MB)</label>
               <input type="file" accept="image/jpeg,image/png,image/webp,image/gif"

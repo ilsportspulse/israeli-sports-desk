@@ -122,8 +122,10 @@ export function ArticleEditor({ initial, mode }: Props) {
         <div className="spacer" />
         <div className="save-bar">
           {msg && <span className={`msg ${msg.kind}`}>{msg.text}</span>}
-          {mode === "edit" && status === "published" && form.slug && (
-            <a className="btn" href={`/stories/${form.slug}`} target="_blank" rel="noreferrer">View live ↗</a>
+          {mode === "edit" && form.slug && (
+            <a className="btn" href={`/article/${form.slug}`} target="_blank" rel="noreferrer">
+              {status === "published" ? "View live ↗" : "Preview ↗"}
+            </a>
           )}
           <button className="btn primary" onClick={save} disabled={busy}>{busy ? "Saving…" : "Save"}</button>
         </div>

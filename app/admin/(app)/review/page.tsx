@@ -42,7 +42,7 @@ export default async function ReviewQueuePage() {
                     <div className="row-meta" style={{ marginTop: 8 }}>/{a.slug} · source: {a.source?.name || "—"}</div>
                   </div>
                   <div style={{ display: "flex", flexDirection: "column", gap: 8, alignItems: "flex-end" }}>
-                    <ArticleRowActions id={a.id} status="review" compact />
+                    <ArticleRowActions id={a.id} status="review" slug={a.slug} compact />
                   </div>
                 </div>
               );

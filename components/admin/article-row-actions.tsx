@@ -3,9 +3,9 @@
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
-type Props = { id: string; status: "published" | "review"; compact?: boolean };
+type Props = { id: string; status: "published" | "review"; compact?: boolean; slug?: string };
 
-export function ArticleRowActions({ id, status, compact }: Props) {
+export function ArticleRowActions({ id, status, compact, slug }: Props) {
   const router = useRouter();
   const [busy, setBusy] = useState<string | null>(null);
 
@@ -34,6 +34,11 @@ export function ArticleRowActions({ id, status, compact }: Props) {
   return (
     <div className="row-actions">
       <a className="btn sm" href={`/admin/articles/${id}`}>Edit</a>
+      {slug && (
+        <a className="btn sm" href={`/article/${slug}`} target="_blank" rel="noreferrer">
+          {status === "review" ? "Preview" : "View"}
+        </a>
+      )}
       {status === "review" ? (
         <button className="btn sm success" disabled={busy !== null} onClick={() => action("publish")}>
           {busy === "publish" ? "…" : "Publish"}

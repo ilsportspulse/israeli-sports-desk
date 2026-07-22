@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 import type { MediaAsset } from "@/lib/types";
 
@@ -33,6 +33,10 @@ export function ArticleImageCard({ articleId }: { articleId: string }) {
   useEffect(() => { load(); }, [articleId]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const set = (k: keyof MediaAsset, v: unknown) => setForm((f) => ({ ...f, [k]: v }));
+
+  // Local preview of the picked file, before it is uploaded.
+  const filePreview = useMemo(() => (file ? URL.createObjectURL(file) : null), [file]);
+  useEffect(() => () => { if (filePreview) URL.revokeObjectURL(filePreview); }, [filePreview]);
 
   async function upload() {
     if (!file || (!entry && !upAlt.trim())) return;
@@ -132,6 +136,14 @@ export function ArticleImageCard({ articleId }: { articleId: string }) {
         <p className="hint" style={{ marginBottom: 10 }}>No image yet — upload one, or pick from the media library.</p>
       )}
 
+      {filePreview && (
+        <div style={{ marginBottom: 10 }}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={filePreview} alt="Preview of the file to upload"
+            style={{ width: "100%", height: 180, objectFit: "cover", borderRadius: 8, background: "#eee", border: "2px dashed var(--a-line, #ccc)" }} />
+          <div className="hint" style={{ marginTop: 4 }}>Preview — not uploaded yet. {file ? `${file.name} · ${(file.size / 1024).toFixed(0)} KB` : ""}</div>
+        </div>
+      )}
       <div className="field-row two">
         <div className="field"><label>{entry ? "Replace with new upload" : "Upload (JPEG/PNG/WebP/GIF, max 4 MB)"}</label>
           <input type="file" accept="image/jpeg,image/png,image/webp,image/gif" onChange={(e) => setFile(e.target.files?.[0] ?? null)} /></div>

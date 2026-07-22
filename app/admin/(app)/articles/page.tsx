@@ -97,7 +97,7 @@ export default async function ArticlesPage({ searchParams }: { searchParams: Sea
                       <td>{a.category}</td>
                       <td><span className={`badge ${status}`}>{status === "review" ? "Review" : "Published"}</span></td>
                       <td style={{ color: "var(--a-muted)", fontSize: 12.5 }}>{fmtDate(a.publishedAt)}</td>
-                      <td><ArticleRowActions id={a.id} status={status} /></td>
+                      <td><ArticleRowActions id={a.id} status={status} slug={a.slug} /></td>
                     </tr>
                   );
                 })

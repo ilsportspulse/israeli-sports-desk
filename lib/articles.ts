@@ -76,6 +76,12 @@ export function getArticle(slug: string) {
   );
 }
 
+// Backoffice preview: also finds articles still in review. Only ever call this
+// behind an admin-session check — review copy must never reach the public.
+export function getArticleIncludingReview(slug: string) {
+  return articles.find((article) => article.slug === slug);
+}
+
 export function getReviewArticles() {
   return articles.filter((article) => article.status === "review");
 }
