@@ -1,67 +1,67 @@
 {
-  "date": "2026-07-21",
+  "date": "2026-07-22",
   "title": "The Daily Five",
-  "dek": "Five questions on this week's biggest stories, from Jerusalem's track to a World Cup final in New Jersey.",
+  "dek": "Five questions from this week's World Cup fallout, transfer records and Israeli clubs in Europe.",
   "questions": [
     {
-      "question": "Blessing Afrifah, withdrawn from the Israeli Athletics Championships with a hamstring injury, holds Israel's national 100m record. What is the time?",
+      "question": "Argentina entered the 2026 World Cup final as defending champions but were beaten by which country at MetLife Stadium on July 19?",
       "answers": [
-        "10.09 seconds",
-        "9.98 seconds",
-        "10.25 seconds",
-        "10.45 seconds"
+        "Spain",
+        "France",
+        "Portugal",
+        "Brazil"
       ],
       "correctIndex": 0,
-      "explanation": "Afrifah set Israel's 100m national record of 10.09 seconds in Jerusalem in July 2025, per World Athletics.",
-      "sourceUrl": "https://www.one.co.il/Article/528614.html"
+      "explanation": "Spain won 1-0 after extra time, claiming their second World Cup title and first since 2010.",
+      "sourceUrl": "https://sport1.maariv.co.il/mundial-2026/article/1905702/"
     },
     {
-      "question": "Who scored the winning goal as Spain beat Argentina 1-0 in extra time to win the 2026 World Cup final?",
+      "question": "Chelsea broke the British transfer record this summer by signing Morgan Rogers from Aston Villa for £117 million. Which player's fee did that surpass as Chelsea's previous most expensive signing?",
       "answers": [
-        "Ferran Torres",
-        "Nico Williams",
-        "Pedri",
-        "Lamine Yamal"
+        "Moises Caicedo",
+        "Enzo Fernández",
+        "Romelu Lukaku",
+        "Nicolas Jackson"
       ],
       "correctIndex": 0,
-      "explanation": "Ferran Torres struck in the 106th minute in East Rutherford, New Jersey, to win Spain the title.",
-      "sourceUrl": "https://www.espn.com/soccer/story/_/id/49403084/2026-world-cup-final-spain-argentina-score-ferran-torres"
+      "explanation": "The £117m Rogers fee topped the £115m Chelsea paid for Moises Caicedo in 2023.",
+      "sourceUrl": "https://www.one.co.il/Article/528765.html"
     },
     {
-      "question": "After parting ways with Maccabi Tel Aviv, which club did American guard Jeff Dowtin Jr sign for?",
+      "question": "Which Israeli basketball club is competing with Partizan Belgrade to sign free-agent forward Wendell Moore Jr.?",
       "answers": [
-        "Napoli Basket",
+        "Hapoel Jerusalem",
+        "Maccabi Tel Aviv",
+        "Hapoel Tel Aviv",
+        "Bnei Herzliya"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hapoel Jerusalem's pursuit of Moore, a 2022 first-round NBA draft pick, is now being challenged by Partizan Belgrade.",
+      "sourceUrl": "https://www.one.co.il/Article/528763.html"
+    },
+    {
+      "question": "Israel international Mohammed Abu Fani made his first European fixture since joining from Ferencváros while starting in central midfield for which club against Larne?",
+      "answers": [
+        "Red Star Belgrade",
+        "Partizan Belgrade",
         "AEK Athens",
-        "Olympiacos",
-        "Partizan"
+        "Sporting CP"
       ],
       "correctIndex": 0,
-      "explanation": "Napoli Basket officially announced Dowtin's signing on 20 July 2026, ahead of the club's first EuroCup campaign in almost 20 years.",
-      "sourceUrl": "https://www.sport5.co.il/articles.aspx?FolderID=1420&docID=552731"
+      "explanation": "Abu Fani started for Red Star Belgrade in their Champions League second qualifying round first leg at Larne, his first European match since his June 2026 move.",
+      "sourceUrl": "https://www.one.co.il/Article/528695.html"
     },
     {
-      "question": "Who won stage 15 of the 2026 Tour de France to the Plateau de Solaison, his first Tour stage win on a road/mountain stage?",
+      "question": "Kings Kangwa scored to level the match for Hapoel Beer Sheva, but the Israeli side still lost their Champions League qualifier to which Icelandic club?",
       "answers": [
-        "Remco Evenepoel",
-        "Tadej Pogacar",
-        "Isaac del Toro",
-        "Jonas Vingegaard"
+        "Víkingur Reykjavík",
+        "KR Reykjavík",
+        "Breidablik",
+        "Valur"
       ],
       "correctIndex": 0,
-      "explanation": "Evenepoel won the 183.9km stage from Champagnole ahead of Pogacar, while Vingegaard crashed out of the race.",
-      "sourceUrl": "https://www.sport5.co.il/articles.aspx?FolderID=2911&docID=552720"
-    },
-    {
-      "question": "Israeli centre-back Stav Lemkin, who battled for a starting spot after a rocky Eredivisie debut, plays his club football for which Dutch side?",
-      "answers": [
-        "FC Twente",
-        "PEC Zwolle",
-        "Ajax",
-        "Feyenoord"
-      ],
-      "correctIndex": 0,
-      "explanation": "Lemkin joined Twente from Shakhtar Donetsk in June 2025 and made 26 Eredivisie appearances in 2025-26 as the club secured European football.",
-      "sourceUrl": "https://sport1.maariv.co.il/israeli-soccer/israelis-abroad/article/1903718/"
+      "explanation": "Nikolaj Hansen scored twice for Víkingur Reykjavík, either side of Kangwa's equalizer, as Beer Sheva fell 2-1 in the first leg.",
+      "sourceUrl": "https://www.sport5.co.il/articles.aspx?FolderID=398&docID=553954"
     }
   ]
 }

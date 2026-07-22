@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T23:45:39.562Z",
+  "generatedAt": "2026-07-22T01:19:32.513Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,30 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 268,
-    "publishedBefore": 193,
-    "cleanPublished": 193,
+    "totalArticles": 270,
+    "publishedBefore": 195,
+    "cleanPublished": 195,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 193,
+    "publishedAfter": 195,
     "reviewAfter": 75
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "archive-20260722-belgrade-7-april-1977-the-night-tal-brod",
+      "slug": "belgrade-7-april-1977-the-night-tal-brody-put-israel-on-the-map",
+      "title": "Belgrade, 7 April 1977: The Night Tal Brody Put Israel \"On the Map\"",
+      "statusBefore": "published",
+      "words": 729,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-07-21-scaloni-messi-future-argentina",
       "slug": "scaloni-dismisses-messi-viral-speech-future-uncertain",
@@ -1708,6 +1722,32 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-07-22-summerville-al-hilal-transfer",
+      "slug": "summerville-snubs-man-united-for-al-hilal-move",
+      "title": "Man United Miss Out as World Cup Star Summerville Set for Shock Al-Hilal Move",
+      "statusBefore": "published",
+      "words": 477,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "archive-20260722-belgrade-7-april-1977-the-night-tal-brod",
+      "slug": "belgrade-7-april-1977-the-night-tal-brody-put-israel-on-the-map",
+      "title": "Belgrade, 7 April 1977: The Night Tal Brody Put Israel \"On the Map\"",
+      "statusBefore": "published",
+      "words": 729,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-07-21-scaloni-messi-future-argentina",
       "slug": "scaloni-dismisses-messi-viral-speech-future-uncertain",

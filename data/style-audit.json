@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T23:45:39.750Z",
+  "generatedAt": "2026-07-22T01:19:32.729Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,19 +11,19 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 193,
+    "publishedArticles": 195,
     "wordCount": {
       "minimum": 266,
       "maximum": 1070,
       "median": 479,
-      "average": 500.7
+      "average": 501.7
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 8,
       "7": 43,
       "8": 51,
-      "9": 41,
+      "9": 43,
       "10": 26,
       "11": 12,
       "12": 2,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.264,
+    "dominantParagraphShare": 0.262,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 8,
     "analysisBelowTarget": 1,
@@ -226,6 +226,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-22-summerville-al-hilal-transfer",
+      "slug": "summerville-snubs-man-united-for-al-hilal-move",
+      "title": "Man United Miss Out as World Cup Star Summerville Set for Shock Al-Hilal Move",
+      "kind": "news",
+      "words": 474,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 40,
+        "longest": 68,
+        "average": 52.7
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 59,
+        "average": 31.6
+      },
+      "lexicalDiversity": 0.605,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "archive-20260722-belgrade-7-april-1977-the-night-tal-brod",
+      "slug": "belgrade-7-april-1977-the-night-tal-brody-put-israel-on-the-map",
+      "title": "Belgrade, 7 April 1977: The Night Tal Brody Put Israel \"On the Map\"",
+      "kind": "explainer",
+      "words": 723,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 51,
+        "longest": 100,
+        "average": 80.3
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 78,
+        "average": 30.1
+      },
+      "lexicalDiversity": 0.494,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-07-21-ibrahimovic-paredes-headbutt",
       "slug": "ibrahimovic-headbutt-paredes-world-cup-final-brawl",

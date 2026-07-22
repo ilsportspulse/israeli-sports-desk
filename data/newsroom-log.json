@@ -1,5 +1,29 @@
 [
   {
+    "ts": "2026-07-22T01:15:29.597Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 1,
+    "published": 1,
+    "review": 0,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "summerville-snubs-man-united-for-al-hilal-move",
+        "title": "Man United Miss Out as World Cup Star Summerville Set for Shock Al-Hilal Move",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-07-21T23:41:15.322Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
