@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T19:55:32.076Z",
+  "generatedAt": "2026-07-22T21:41:48.899Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,77 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 313,
-    "publishedBefore": 221,
-    "cleanPublished": 221,
+    "totalArticles": 318,
+    "publishedBefore": 225,
+    "cleanPublished": 225,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 221,
-    "reviewAfter": 92
+    "publishedAfter": 225,
+    "reviewAfter": 93
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-2026-07-22-seck-al-faisaly-snub",
+      "slug": "seck-al-faisaly-maccabi-haifa-omitted",
+      "title": "Seck Signs for Saudi Arabia's Al-Faisaly — but His Four Years at Maccabi Haifa Go Unmentioned",
+      "statusBefore": "published",
+      "words": 379,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260722-cubarsi-final-clearance",
+      "slug": "cubarsi-late-clearance-seals-spain-world-cup-title",
+      "title": "Cubarsí's Late Block Preserved Spain's World Cup Crown",
+      "statusBefore": "published",
+      "words": 601,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:3"
+      ]
+    },
+    {
+      "id": "live-2026-07-22-solomon-tottenham-mk-dons",
+      "slug": "solomon-tottenham-preseason-mk-dons",
+      "title": "Manor Solomon Back in Lilywhite as Tottenham Edge MK Dons in Pre-Season Friendly",
+      "statusBefore": "published",
+      "words": 516,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-22-lundberg-maccabi-extension",
+      "slug": "iffe-lundberg-maccabi-tel-aviv-contract-extension",
+      "title": "Lundberg Agrees New Multi-Year Deal to Stay at Maccabi Tel Aviv",
+      "statusBefore": "published",
+      "words": 354,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
     {
       "id": "live-2026-07-22-heat-lebron-video-leak",
       "slug": "miami-heat-deny-lebron-james-signing-video-leak",
@@ -2123,6 +2184,67 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-07-22-seck-al-faisaly-snub",
+      "slug": "seck-al-faisaly-maccabi-haifa-omitted",
+      "title": "Seck Signs for Saudi Arabia's Al-Faisaly — but His Four Years at Maccabi Haifa Go Unmentioned",
+      "statusBefore": "published",
+      "words": 379,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260722-cubarsi-final-clearance",
+      "slug": "cubarsi-late-clearance-seals-spain-world-cup-title",
+      "title": "Cubarsí's Late Block Preserved Spain's World Cup Crown",
+      "statusBefore": "published",
+      "words": 601,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:3"
+      ]
+    },
+    {
+      "id": "live-2026-07-22-solomon-tottenham-mk-dons",
+      "slug": "solomon-tottenham-preseason-mk-dons",
+      "title": "Manor Solomon Back in Lilywhite as Tottenham Edge MK Dons in Pre-Season Friendly",
+      "statusBefore": "published",
+      "words": 516,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-22-lundberg-maccabi-extension",
+      "slug": "iffe-lundberg-maccabi-tel-aviv-contract-extension",
+      "title": "Lundberg Agrees New Multi-Year Deal to Stay at Maccabi Tel Aviv",
+      "statusBefore": "published",
+      "words": 354,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
     {
       "id": "live-2026-07-22-heat-lebron-video-leak",
       "slug": "miami-heat-deny-lebron-james-signing-video-leak",

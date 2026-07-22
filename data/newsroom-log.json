@@ -1,5 +1,66 @@
 [
   {
+    "ts": "2026-07-22T21:34:16.399Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 6,
+    "published": 4,
+    "review": 1,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "iffe-lundberg-maccabi-tel-aviv-contract-extension",
+        "title": "Lundberg Agrees New Multi-Year Deal to Stay at Maccabi Tel Aviv",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "solomon-tottenham-preseason-mk-dons",
+        "title": "Manor Solomon Back in Lilywhite as Tottenham Edge MK Dons in Pre-Season Friendly",
+        "confidence": 0.9,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "hezonja-nba-exit-clause-real-madrid-leverage",
+        "title": "Hezonja's NBA Comeback Hits a Snag as Real Madrid Gains Leverage",
+        "confidence": 0.85,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Buyout figure and next steps remain fluid; no official NBA offer has been confirmed by any team as of writing."
+      },
+      {
+        "slug": "cubarsi-late-clearance-seals-spain-world-cup-title",
+        "title": "Cubarsí's Late Block Preserved Spain's World Cup Crown",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "seck-al-faisaly-maccabi-haifa-omitted",
+        "title": "Seck Signs for Saudi Arabia's Al-Faisaly — but His Four Years at Maccabi Haifa Go Unmentioned",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "url": "https://www.sport5.co.il/articles.aspx?FolderID=8638&docID=554053",
+        "decision": "skipped",
+        "reason": "no valid article emitted"
+      }
+    ]
+  },
+  {
     "ts": "2026-07-22T19:49:47.913Z",
     "mode": "cli",
     "model": "claude-sonnet-5",

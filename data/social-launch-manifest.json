@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-22T19:55:31Z",
-    "validUntil": "2026-07-23T07:55:31Z",
+    "checkedAt": "2026-07-22T21:41:48Z",
+    "validUntil": "2026-07-23T09:41:48Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 71,
+        "maxAgeHours": 73,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-07-22-heat-lebron-video-leak",
+        "articleId": "live-2026-07-22-seck-al-faisaly-snub",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 79,
+        "maxAgeHours": 80,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-07-22-hapoel-ludogorets-preview",
+        "articleId": "live-20260722-cubarsi-final-clearance",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 89,
+        "maxAgeHours": 91,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-07-22-wembanyama-irving-netanyahu-post",
+        "articleId": "live-2026-07-22-solomon-tottenham-mk-dons",
         "maxAgeHours": 24,
         "requires": []
       }

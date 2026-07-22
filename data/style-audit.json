@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T19:55:32.370Z",
+  "generatedAt": "2026-07-22T21:41:49.153Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 221,
+    "publishedArticles": 225,
     "wordCount": {
       "minimum": 266,
       "maximum": 1070,
       "median": 478,
-      "average": 495.8
+      "average": 495.1
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 8,
-      "7": 45,
+      "7": 46,
       "8": 61,
-      "9": 50,
-      "10": 33,
+      "9": 52,
+      "10": 34,
       "11": 12,
       "12": 2,
       "13": 3,
@@ -33,13 +33,36 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.276,
+    "dominantParagraphShare": 0.271,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 8,
     "analysisBelowTarget": 1,
-    "articlesWithStyleFlags": 8
+    "articlesWithStyleFlags": 9
   },
   "flagged": [
+    {
+      "id": "live-2026-07-22-lundberg-maccabi-extension",
+      "slug": "iffe-lundberg-maccabi-tel-aviv-contract-extension",
+      "title": "Lundberg Agrees New Multi-Year Deal to Stay at Maccabi Tel Aviv",
+      "kind": "news",
+      "words": 353,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 27,
+        "longest": 65,
+        "average": 50.4
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 46,
+        "average": 27.2
+      },
+      "lexicalDiversity": 0.589,
+      "publisherAttributions": 2,
+      "flags": [
+        "publisher-attribution-heavy:2"
+      ]
+    },
     {
       "id": "live-2026-07-21-scaloni-messi-future-argentina",
       "slug": "scaloni-dismisses-messi-viral-speech-future-uncertain",
@@ -226,6 +249,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-22-seck-al-faisaly-snub",
+      "slug": "seck-al-faisaly-maccabi-haifa-omitted",
+      "title": "Seck Signs for Saudi Arabia's Al-Faisaly — but His Four Years at Maccabi Haifa Go Unmentioned",
+      "kind": "news",
+      "words": 376,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 23,
+        "longest": 57,
+        "average": 41.8
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 37,
+        "average": 23.5
+      },
+      "lexicalDiversity": 0.577,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260722-cubarsi-final-clearance",
+      "slug": "cubarsi-late-clearance-seals-spain-world-cup-title",
+      "title": "Cubarsí's Late Block Preserved Spain's World Cup Crown",
+      "kind": "news",
+      "words": 593,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 50,
+        "longest": 69,
+        "average": 59.3
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 69,
+        "average": 34.9
+      },
+      "lexicalDiversity": 0.562,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-22-solomon-tottenham-mk-dons",
+      "slug": "solomon-tottenham-preseason-mk-dons",
+      "title": "Manor Solomon Back in Lilywhite as Tottenham Edge MK Dons in Pre-Season Friendly",
+      "kind": "news",
+      "words": 511,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 71,
+        "average": 56.8
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 58,
+        "average": 34.1
+      },
+      "lexicalDiversity": 0.544,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-07-22-heat-lebron-video-leak",
       "slug": "miami-heat-deny-lebron-james-signing-video-leak",
