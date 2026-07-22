@@ -1,5 +1,69 @@
 [
   {
+    "ts": "2026-07-22T16:23:05.569Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 6,
+    "published": 1,
+    "review": 5,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "hapoel-haemek-assistant-coach-yablonovsky-contract-extension",
+        "title": "Hapoel HaEmek Extends Assistant Coach Yablonovsky's Contract by Three Seasons",
+        "confidence": 0.85,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "below gate thresholds"
+      },
+      {
+        "slug": "idf-palestinian-footballers-terror-operatives-claim",
+        "title": "IDF names Palestinian footballers and coaches it says doubled as Hamas, Islamic Jihad operatives",
+        "confidence": 0.78,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "IDF's terror-affiliation claims for most of the eleven named individuals rest on the military's own statement and could not be independently corroborated; only the Abu al-Atta case has outside confirmation, via Palestinian Islamic Jihad's own acknowledgment. The 1,009 sports-community casualty figure is the Palestinian Football Association's own count, not independently audited."
+      },
+      {
+        "slug": "hapoel-jerusalem-women-paok-champions-league-qualifier",
+        "title": "Ten-woman Hapoel Jerusalem lead PAOK at half-time in Champions League debut",
+        "confidence": 0.75,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "This is a half-time snapshot from ONE's live coverage; the full-time score was not yet available at time of writing. Several player names (PAOK's Mitko and the Jerusalem goal-scorer given only as 'Gakoni') are transliterated directly from the Hebrew source and could not be independently cross-verified against official club rosters."
+      },
+      {
+        "slug": "bnei-eilat-youth-b-southern-district-champions",
+        "title": "Bnei Eilat's Youth B Side Go Unbeaten to Win Southern District Title",
+        "confidence": 0.85,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "No correctly-identified, licence-clear Wikimedia Commons photograph of Bnei Eilat's youth team, its North Beach home ground, or the named players could be verified; commonsCandidates is empty pending a suitable image."
+      },
+      {
+        "slug": "pedro-amador-hapoel-beer-sheva-left-back",
+        "title": "Hapoel Beer Sheva close in on Atlanta United's Amador as Lopes successor",
+        "confidence": 0.78,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "ironi-tiberias-indictment-iv-infusion-doping-case",
+        "title": "Indictment Looms for Ironi Tiberias in Banned IV-Infusion Case",
+        "confidence": 0.78,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Some granular details (exact number of people questioned, precise infusion volume alleged) come from a single ONE report and could not be independently cross-checked; no verifiable, correctly-identified Wikimedia Commons photo of Ironi Tiberias, its stadium or the named individuals could be confirmed, so no image is included."
+      }
+    ]
+  },
+  {
     "ts": "2026-07-22T14:29:52.789Z",
     "mode": "cli",
     "model": "claude-sonnet-5",

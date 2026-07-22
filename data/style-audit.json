@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T14:36:32.760Z",
+  "generatedAt": "2026-07-22T16:31:14.124Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,17 +11,17 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 215,
+    "publishedArticles": 216,
     "wordCount": {
       "minimum": 266,
       "maximum": 1070,
-      "median": 479,
-      "average": 498.2
+      "median": 478.5,
+      "average": 497.4
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 8,
-      "7": 44,
+      "7": 45,
       "8": 59,
       "9": 48,
       "10": 32,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.274,
+    "dominantParagraphShare": 0.273,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 8,
     "analysisBelowTarget": 1,
@@ -226,6 +226,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260722-amador-beer-sheva",
+      "slug": "pedro-amador-hapoel-beer-sheva-left-back",
+      "title": "Hapoel Beer Sheva close in on Atlanta United's Amador as Lopes successor",
+      "kind": "news",
+      "words": 315,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 39,
+        "longest": 50,
+        "average": 45
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 48,
+        "average": 35
+      },
+      "lexicalDiversity": 0.571,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-07-22-monza-asante-maccabi",
       "slug": "monza-approach-maccabi-tel-aviv-defender-tyrese-asante",
