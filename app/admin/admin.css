@@ -176,6 +176,7 @@
 @media (max-width: 900px) {
   .ilsp-admin .shell { grid-template-columns: 1fr; }
   .ilsp-admin .grid.cols-4, .ilsp-admin .grid.cols-3, .ilsp-admin .grid.cols-2 { grid-template-columns: 1fr; }
+  .ilsp-admin .field-row.two { grid-template-columns: 1fr; } /* stack paired fields */
 
   /* Sidebar becomes an off-canvas drawer toggled from the mobile header. */
   .ilsp-admin .mobile-header {
@@ -206,4 +207,9 @@
 }
 
 /* Tables always scroll horizontally rather than break the layout on small screens. */
-.ilsp-admin .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.ilsp-admin .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; max-width: 100%; }
+
+/* Grid/flex children may never stretch their column wider than the viewport —
+   without min-width:0 a wide table forces the whole page to scroll sideways. */
+.ilsp-admin .grid > *, .ilsp-admin .editor-grid > *, .ilsp-admin .main, .ilsp-admin .content { min-width: 0; }
+.ilsp-admin .card { min-width: 0; max-width: 100%; }

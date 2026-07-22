@@ -18,6 +18,10 @@ export type StoredUser = {
   hash: string; // hex scrypt(password, salt)
   createdAt: string;
   updatedAt: string;
+  // One-time recovery codes, each hashed with its own salt so consuming one
+  // never touches the others; a used code keeps its usedAt stamp for the audit
+  // trail and can never be replayed.
+  recovery?: { salt: string; hash: string; usedAt?: string }[];
 };
 
 export type PublicUser = Pick<StoredUser, "username" | "role" | "createdAt" | "updatedAt">;
@@ -117,6 +121,76 @@ export async function deleteUser(username: string, actor: string): Promise<boole
   if (file.users.length === before) return false;
   await writeUsers(file, actor);
   return true;
+}
+
+// ---- Recovery codes ----
+
+function formatRecoveryCode(): string {
+  const alphabet = "ABCDEFGHJKMNPQRSTUVWXYZ23456789";
+  const bytes = randomBytes(8);
+  const chars = Array.from(bytes, (b) => alphabet[b % alphabet.length]);
+  return `${chars.slice(0, 4).join("")}-${chars.slice(4).join("")}`;
+}
+
+// Generate a fresh set of one-time recovery codes for a user (replacing any
+// previous set). Returns the plain codes exactly once — only hashes are stored.
+export async function generateRecoveryCodes(
+  username: string,
+  actor: string,
+  opts: { createRole?: AdminRole } = {},
+): Promise<string[] | null> {
+  const file = await readUsers();
+  let user = file.users.find((u) => u.username === username);
+  const now = new Date().toISOString();
+  if (!user) {
+    if (!opts.createRole) return null;
+    // Root-account case: create a store entry that carries only recovery codes;
+    // an empty hash means the env password stays the only password until reset.
+    user = { username, role: opts.createRole, salt: randomBytes(16).toString("hex"), hash: "", createdAt: now, updatedAt: now };
+    file.users.push(user);
+  }
+  const codes = Array.from({ length: 8 }, formatRecoveryCode);
+  user.recovery = codes.map((c) => {
+    const salt = randomBytes(16).toString("hex");
+    return { salt, hash: hashPassword(c, salt) };
+  });
+  user.updatedAt = now;
+  await writeUsers(file, actor);
+  return codes;
+}
+
+export async function countUnusedRecoveryCodes(username: string): Promise<number> {
+  const { users } = await readUsers();
+  const user = users.find((u) => u.username === username);
+  return user?.recovery?.filter((r) => !r.usedAt).length ?? 0;
+}
+
+// Burn a recovery code and set the new password in the same write, so a code
+// can never be consumed without the password actually changing. Other unused
+// codes stay valid (each has its own salt).
+export async function recoverWithCode(
+  username: string,
+  code: string,
+  newPassword: string,
+): Promise<AdminRole | null> {
+  const file = await readUsers();
+  const user = file.users.find((u) => u.username === username);
+  if (!user?.recovery?.length) return null;
+  const normalized = code.trim().toUpperCase();
+  const match = user.recovery.find((r) => {
+    if (r.usedAt) return false;
+    const stored = Buffer.from(r.hash, "hex");
+    const attempt = Buffer.from(hashPassword(normalized, r.salt), "hex");
+    return stored.length === attempt.length && timingSafeEqual(stored, attempt);
+  });
+  if (!match) return null;
+  const now = new Date().toISOString();
+  match.usedAt = now;
+  user.salt = randomBytes(16).toString("hex");
+  user.hash = hashPassword(newPassword, user.salt);
+  user.updatedAt = now;
+  await writeUsers(file, username);
+  return user.role;
 }
 
 // Password check against the store. Returns the role on success, null otherwise.

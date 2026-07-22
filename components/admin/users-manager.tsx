@@ -23,13 +23,28 @@ export function UsersManager({ self }: { self: string }) {
   const [pwNext, setPwNext] = useState("");
   const [pwMsg, setPwMsg] = useState<Msg>(null);
 
+  const [recoveryUnused, setRecoveryUnused] = useState<number | null>(null);
+  const [recoveryCodes, setRecoveryCodes] = useState<string[] | null>(null);
+
   async function load() {
     const res = await fetch("/api/admin/users", { cache: "no-store" });
     const data = await res.json().catch(() => ({}));
     setUsers(data.users ?? []);
     setRootUsername(data.rootUsername ?? "");
+    const rc = await fetch("/api/admin/users/recovery-codes", { cache: "no-store" });
+    const rcData = await rc.json().catch(() => ({}));
+    setRecoveryUnused(typeof rcData.unused === "number" ? rcData.unused : null);
   }
   useEffect(() => { load(); }, []);
+
+  async function generateRecovery() {
+    if (recoveryUnused && !window.confirm("Generate a new set of recovery codes? Your previous codes stop working.")) return;
+    const res = await fetch("/api/admin/users/recovery-codes", { method: "POST" });
+    const data = await res.json().catch(() => ({}));
+    if (!res.ok) { setPwMsg({ kind: "err", text: data.error || "Failed." }); return; }
+    setRecoveryCodes(data.codes ?? []);
+    setRecoveryUnused((data.codes ?? []).length);
+  }
 
   async function call(path: string, init: RequestInit, okText: string): Promise<Record<string, unknown> | null> {
     setBusy(true); setMsg(null);
@@ -52,6 +67,15 @@ export function UsersManager({ self }: { self: string }) {
     if (!window.confirm(`Generate a new password for ${username}? The old one stops working.`)) return;
     const data = await call(`/api/admin/users/${encodeURIComponent(username)}`, { method: "PATCH", body: JSON.stringify({ resetPassword: true }) }, `Password of ${username} reset.`);
     if (data?.password) setOneTime({ username, password: data.password as string });
+  }
+
+  // Manual escape hatch: the admin types the password (e.g. dictated over the
+  // phone) instead of a generated one.
+  async function setManualPassword(username: string) {
+    const pw = window.prompt(`Type the new password for ${username} (min 10 characters). The old one stops working.`);
+    if (pw === null) return;
+    if (pw.length < 10) { setMsg({ kind: "err", text: "Password must be at least 10 characters." }); return; }
+    await call(`/api/admin/users/${encodeURIComponent(username)}`, { method: "PATCH", body: JSON.stringify({ password: pw }) }, `Password of ${username} set.`);
   }
 
   async function changeRole(username: string, role: string) {
@@ -105,8 +129,9 @@ export function UsersManager({ self }: { self: string }) {
               <tr>
                 <td><b>{rootUsername}</b> <span className="badge neutral">root</span></td>
                 <td><span className="badge published">Administrator</span></td>
-                <td style={{ textAlign: "right" }}>
-                  <button className="btn" disabled={busy} onClick={() => resetPassword(rootUsername)}>Reset password</button>
+                <td style={{ textAlign: "right", whiteSpace: "nowrap" }}>
+                  <button className="btn" disabled={busy} onClick={() => resetPassword(rootUsername)}>Reset password</button>{" "}
+                  <button className="btn" disabled={busy} onClick={() => setManualPassword(rootUsername)}>Set password…</button>
                 </td>
               </tr>
             )}
@@ -124,6 +149,7 @@ export function UsersManager({ self }: { self: string }) {
                 </td>
                 <td style={{ textAlign: "right", whiteSpace: "nowrap" }}>
                   <button className="btn" disabled={busy} onClick={() => resetPassword(u.username)}>Reset password</button>{" "}
+                  <button className="btn" disabled={busy} onClick={() => setManualPassword(u.username)}>Set password…</button>{" "}
                   {u.username !== rootUsername && u.username !== self && (
                     <button className="btn danger" disabled={busy} onClick={() => removeUser(u.username)}>Delete</button>
                   )}
@@ -157,6 +183,41 @@ export function UsersManager({ self }: { self: string }) {
           {pwMsg && <span className={`msg ${pwMsg.kind}`}>{pwMsg.text}</span>}
           <button className="btn primary" disabled={pwCurrent.length === 0 || pwNext.length < 10} onClick={changeOwnPassword}>Change password</button>
         </div>
+      </div>
+
+      <div className="card">
+        <div className="section-head" style={{ justifyContent: "space-between" }}>
+          <h2>Recovery codes</h2>
+          <span className={`badge ${recoveryUnused ? "published" : "review"}`}>
+            {recoveryUnused === null ? "…" : recoveryUnused ? `${recoveryUnused} unused` : "none"}
+          </span>
+        </div>
+        {recoveryCodes ? (
+          <>
+            <p className="hint" style={{ marginBottom: 8 }}>
+              Save these one-time codes somewhere safe (password manager, printed note). They are shown <b>only now</b>.
+              Forgot your password? Click “Forgot password?” on the sign-in page and use one code to set a new password.
+            </p>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(120px, 1fr))", gap: 6, marginBottom: 10 }}>
+              {recoveryCodes.map((c) => (
+                <code key={c} style={{ fontFamily: "monospace", background: "#f4f6f8", borderRadius: 6, padding: "6px 8px", textAlign: "center" }}>{c}</code>
+              ))}
+            </div>
+            <div className="save-bar">
+              <button className="btn" onClick={() => { navigator.clipboard?.writeText(recoveryCodes.join("\n")); }}>Copy all</button>
+              <button className="btn" onClick={() => setRecoveryCodes(null)}>Done — I saved them</button>
+            </div>
+          </>
+        ) : (
+          <>
+            <p className="hint" style={{ marginBottom: 10 }}>
+              One-time codes that let you sign back in and set a new password if you ever forget it — without needing another administrator.
+            </p>
+            <button className="btn primary" onClick={generateRecovery}>
+              {recoveryUnused ? "Generate new codes" : "Generate recovery codes"}
+            </button>
+          </>
+        )}
       </div>
     </>
   );

@@ -71,6 +71,36 @@ export function ArticleEditor({ initial, mode }: Props) {
     { ok: (form.verificationSources ?? []).length >= 2, label: "≥2 verification sources" },
   ];
   const seoScore = seoChecks.filter((c) => c.ok).length;
+  const [seoBusy, setSeoBusy] = useState(false);
+
+  // AI-driven SEO fill: focus keyword + keywords always; title/description
+  // overrides only when still empty (they are deliberate overrides).
+  async function suggestSeo() {
+    setSeoBusy(true);
+    setMsg(null);
+    try {
+      const res = await fetch("/api/admin/seo-suggest", {
+        method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ title: form.title, dek: form.dek, body, category: form.category }),
+      });
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok || !data.suggestion) { setMsg({ kind: "err", text: data.error || "Suggestion failed." }); return; }
+      const s = data.suggestion;
+      setForm((f) => ({
+        ...f,
+        seo: {
+          ...(f.seo ?? {}),
+          focusKeyword: s.focusKeyword,
+          keywords: s.keywords,
+          metaTitle: f.seo?.metaTitle || s.metaTitle,
+          metaDescription: f.seo?.metaDescription || s.metaDescription,
+        },
+      }));
+      setMsg({ kind: "ok", text: s.source === "ai" ? "SEO filled by AI — review, then Save." : "SEO filled (heuristic — no AI key configured). Review, then Save." });
+    } finally {
+      setSeoBusy(false);
+    }
+  }
 
   async function save() {
     setBusy(true);
@@ -209,7 +239,12 @@ export function ArticleEditor({ initial, mode }: Props) {
             <div className="card">
               <div className="section-head" style={{ justifyContent: "space-between" }}>
                 <h2>SEO</h2>
-                <span className={`badge ${seoScore >= 4 ? "published" : seoScore >= 2 ? "review" : "neutral"}`}>Score {seoScore}/5</span>
+                <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                  <button className="btn sm" onClick={suggestSeo} disabled={seoBusy || !(form.title ?? "").trim()}>
+                    {seoBusy ? "Generating…" : "✨ Auto-fill (AI)"}
+                  </button>
+                  <span className={`badge ${seoScore >= 4 ? "published" : seoScore >= 2 ? "review" : "neutral"}`}>Score {seoScore}/5</span>
+                </div>
               </div>
               <div className="field-row"><div className="field"><label>Meta title (override)</label>
                 <input type="text" value={seo.metaTitle ?? ""} placeholder={form.title ?? ""} onChange={(e) => setSeo("metaTitle", e.target.value)} /></div></div>

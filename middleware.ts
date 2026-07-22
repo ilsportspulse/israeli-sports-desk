@@ -19,6 +19,7 @@ const PUBLIC_ADMIN_PATHS = new Set([
   "/admin/login",
   "/admin/manifest.webmanifest",
   "/api/admin/login",
+  "/api/admin/login/recover",
   "/api/admin/logout",
 ]);
 

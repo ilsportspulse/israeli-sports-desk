@@ -23,21 +23,27 @@ export async function PATCH(req: NextRequest, { params }: Params) {
   }
   const username = decodeURIComponent(params.name).toLowerCase();
 
-  let body: { role?: string; resetPassword?: boolean };
+  let body: { role?: string; resetPassword?: boolean; password?: string };
   try {
     body = await req.json();
   } catch {
     return NextResponse.json({ error: "Invalid request." }, { status: 400 });
   }
 
-  if (body.resetPassword) {
-    const password = generatePassword();
+  // Manual set (admin types the password) or reset (generated, returned once).
+  if (body.resetPassword || typeof body.password === "string") {
+    const manual = typeof body.password === "string";
+    if (manual && (body.password as string).length < 10) {
+      return NextResponse.json({ error: "Password must be at least 10 characters." }, { status: 400 });
+    }
+    const password = manual ? (body.password as string) : generatePassword();
     const user = await setPassword(username, password, session.sub, {
       createRole: username === ADMIN_USERNAME ? "admin" : undefined,
     });
     if (!user) return NextResponse.json({ error: "User not found." }, { status: 404 });
-    await recordAudit({ actor: session.sub, action: "users.reset", summary: `Reset password of ${username}` });
-    return NextResponse.json({ user, password });
+    await recordAudit({ actor: session.sub, action: "users.reset", summary: `${manual ? "Set" : "Reset"} password of ${username}` });
+    // Manual passwords are not echoed back — the admin already knows them.
+    return NextResponse.json(manual ? { user } : { user, password });
   }
 
   if (body.role) {
