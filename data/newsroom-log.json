@@ -1,5 +1,69 @@
 [
   {
+    "ts": "2026-07-22T14:29:52.789Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 6,
+    "published": 6,
+    "review": 0,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "nigel-lonwijk-maccabi-haifa-arrival",
+        "title": "Maccabi Haifa's Defensive Reinforcement Lands: Nigel Lonwijk Arrives in Israel",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "jason-levien-maccabi-euroleague-board-seat",
+        "title": "Jason Levien Set to Take Maccabi Tel Aviv's Seat on the EuroLeague Board",
+        "confidence": 0.78,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "nigel-lonwijk-maccabi-haifa-injury-history",
+        "title": "Maccabi Haifa's next defensive target comes with a fitness question mark",
+        "confidence": 0.75,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "figo-real-madrid-always-wants-the-best",
+        "title": "Figo: Real Madrid Always Wants the Best",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "shaul-eisenberg-hapoel-tel-aviv-name-lawsuit",
+        "title": "Former Owner Shaul Eisenberg Sues, Says Hapoel Tel Aviv's Name Belongs to Him",
+        "confidence": 0.83,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "monza-approach-maccabi-tel-aviv-defender-tyrese-asante",
+        "title": "Monza reportedly approach Maccabi Tel Aviv over defender Tyrese Asante",
+        "confidence": 0.78,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-07-22T12:10:31.080Z",
     "mode": "cli",
     "model": "claude-sonnet-5",

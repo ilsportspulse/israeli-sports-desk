@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T12:19:11.599Z",
+  "generatedAt": "2026-07-22T14:36:32.760Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 209,
+    "publishedArticles": 215,
     "wordCount": {
       "minimum": 266,
       "maximum": 1070,
       "median": 479,
-      "average": 499.5
+      "average": 498.2
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 8,
       "7": 44,
-      "8": 57,
-      "9": 47,
-      "10": 29,
+      "8": 59,
+      "9": 48,
+      "10": 32,
       "11": 12,
       "12": 2,
       "13": 3,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.273,
+    "dominantParagraphShare": 0.274,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 8,
     "analysisBelowTarget": 1,
@@ -226,6 +226,132 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-22-monza-asante-maccabi",
+      "slug": "monza-approach-maccabi-tel-aviv-defender-tyrese-asante",
+      "title": "Monza reportedly approach Maccabi Tel Aviv over defender Tyrese Asante",
+      "kind": "news",
+      "words": 364,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 55,
+        "average": 45.5
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 52,
+        "average": 26
+      },
+      "lexicalDiversity": 0.558,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260722-eisenberg-hapoel-tel-aviv-name-dispute",
+      "slug": "shaul-eisenberg-hapoel-tel-aviv-name-lawsuit",
+      "title": "Former Owner Shaul Eisenberg Sues, Says Hapoel Tel Aviv's Name Belongs to Him",
+      "kind": "news",
+      "words": 510,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 61,
+        "average": 51
+      },
+      "sentenceWords": {
+        "shortest": 3,
+        "longest": 62,
+        "average": 30
+      },
+      "lexicalDiversity": 0.535,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-22-figo-real-madrid-rodri",
+      "slug": "figo-real-madrid-always-wants-the-best",
+      "title": "Figo: Real Madrid Always Wants the Best",
+      "kind": "article",
+      "words": 450,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 62,
+        "average": 50
+      },
+      "sentenceWords": {
+        "shortest": 23,
+        "longest": 121,
+        "average": 45
+      },
+      "lexicalDiversity": 0.556,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260722-lonwijk-haifa-injury-history",
+      "slug": "nigel-lonwijk-maccabi-haifa-injury-history",
+      "title": "Maccabi Haifa's next defensive target comes with a fitness question mark",
+      "kind": "article",
+      "words": 581,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 45,
+        "longest": 73,
+        "average": 58.1
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 50,
+        "average": 27.7
+      },
+      "lexicalDiversity": 0.551,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260722-levien-maccabi-euroleague-seat",
+      "slug": "jason-levien-maccabi-euroleague-board-seat",
+      "title": "Jason Levien Set to Take Maccabi Tel Aviv's Seat on the EuroLeague Board",
+      "kind": "news",
+      "words": 484,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 67,
+        "average": 48.4
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 50,
+        "average": 25.5
+      },
+      "lexicalDiversity": 0.585,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260722-lonwijk-maccabi-haifa-signing",
+      "slug": "nigel-lonwijk-maccabi-haifa-arrival",
+      "title": "Maccabi Haifa's Defensive Reinforcement Lands: Nigel Lonwijk Arrives in Israel",
+      "kind": "news",
+      "words": 333,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 57,
+        "average": 41.6
+      },
+      "sentenceWords": {
+        "shortest": 20,
+        "longest": 50,
+        "average": 33.3
+      },
+      "lexicalDiversity": 0.607,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-20260722-ivic-maccabi-bonus-shock",
       "slug": "ivic-maccabi-tel-aviv-bonus-interview",

@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-22T12:19:11Z",
-    "validUntil": "2026-07-23T00:19:11Z",
+    "checkedAt": "2026-07-22T14:36:32Z",
+    "validUntil": "2026-07-23T02:36:32Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 63,
+        "maxAgeHours": 66,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260722-ivic-maccabi-bonus-shock",
+        "articleId": "live-2026-07-22-monza-asante-maccabi",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 71,
+        "maxAgeHours": 73,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260722-uefa-var-mistaken-identity-diving",
+        "articleId": "live-20260722-eisenberg-hapoel-tel-aviv-name-dispute",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 81,
+        "maxAgeHours": 84,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260722-pedro-amador-hapoel-beer-sheva",
+        "articleId": "live-2026-07-22-figo-real-madrid-rodri",
         "maxAgeHours": 24,
         "requires": []
       }
