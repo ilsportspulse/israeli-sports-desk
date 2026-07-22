@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T16:31:14.124Z",
+  "generatedAt": "2026-07-22T17:54:33.030Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,18 +11,18 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 216,
+    "publishedArticles": 218,
     "wordCount": {
       "minimum": 266,
       "maximum": 1070,
       "median": 478.5,
-      "average": 497.4
+      "average": 497.2
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 8,
       "7": 45,
-      "8": 59,
+      "8": 61,
       "9": 48,
       "10": 32,
       "11": 12,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.273,
+    "dominantParagraphShare": 0.28,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 8,
     "analysisBelowTarget": 1,
@@ -226,6 +226,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-22-wembanyama-irving-netanyahu-post",
+      "slug": "wembanyama-irving-support-mamdani-netanyahu-arrest-post",
+      "title": "Wembanyama and Irving Signal Support for Mamdani's Call to Arrest Netanyahu",
+      "kind": "news",
+      "words": 543,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 42,
+        "longest": 93,
+        "average": 67.9
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 66,
+        "average": 33.9
+      },
+      "lexicalDiversity": 0.573,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-22-eli-ohana-likud-knesset-spot",
+      "slug": "eli-ohana-likud-knesset-spot-report",
+      "title": "Beitar Legend Eli Ohana Reportedly Set for Guaranteed Likud Knesset Spot",
+      "kind": "article",
+      "words": 401,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 32,
+        "longest": 73,
+        "average": 50.1
+      },
+      "sentenceWords": {
+        "shortest": 3,
+        "longest": 54,
+        "average": 26.7
+      },
+      "lexicalDiversity": 0.666,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260722-amador-beer-sheva",
       "slug": "pedro-amador-hapoel-beer-sheva-left-back",

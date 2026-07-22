@@ -1,5 +1,69 @@
 [
   {
+    "ts": "2026-07-22T17:48:10.430Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 6,
+    "published": 2,
+    "review": 4,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "eli-ohana-likud-knesset-spot-report",
+        "title": "Beitar Legend Eli Ohana Reportedly Set for Guaranteed Likud Knesset Spot",
+        "confidence": 0.75,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "idf-names-gaza-referee-footballers-coaches-hamas-islamic-jihad",
+        "title": "IDF names Gaza referee, footballers and coaches it says doubled as Hamas and Islamic Jihad operatives",
+        "confidence": 0.78,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "The IDF's specific allegations about each individual's militant role are unverified open-source claims, not adjudicated findings; no response from FIFA, the AFC or Palestinian football bodies to this specific list was found."
+      },
+      {
+        "slug": "wembanyama-irving-support-mamdani-netanyahu-arrest-post",
+        "title": "Wembanyama and Irving Signal Support for Mamdani's Call to Arrest Netanyahu",
+        "confidence": 0.7,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "almog-cohen-beitar-larnaca-experience-cant-be-bought",
+        "title": "Almog Cohen: 'You Can't Buy the Experience Larnaca Has'",
+        "confidence": 0.83,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Midfielder Boris Enow's name appears with varying Hebrew-to-English transliterations across outlets; his quote is translated from ONE's Hebrew report and could not be independently cross-checked word-for-word."
+      },
+      {
+        "slug": "meiri-tzadaf-football-association-joint-list-talks",
+        "title": "Deputy Chairman Meiri Meets Hapoel Center's Tzadaf as Football Association Camps Edge Toward Joint Ticket",
+        "confidence": 0.82,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "The exact composition and seat-division formula of the prospective joint list are still under negotiation and were not finalized as of this report; the formal election date (December 2026, possibly moved up to August) has also not been confirmed."
+      },
+      {
+        "slug": "ben-simeon-signs-hapoel-tel-aviv-three-year-deal",
+        "title": "Hapoel Tel Aviv Land Wanted Teen Ben Simeon on Three-Year Deal",
+        "confidence": 0.76,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "The transfer fee and the player's exact first-name spelling are reported by ONE only and not yet independently corroborated by a second outlet; as a youth player he does not yet appear in searchable federation player registries."
+      }
+    ]
+  },
+  {
     "ts": "2026-07-22T16:23:05.569Z",
     "mode": "cli",
     "model": "claude-sonnet-5",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T16:31:13.932Z",
+  "generatedAt": "2026-07-22T17:54:32.714Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,61 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 302,
-    "publishedBefore": 216,
-    "cleanPublished": 216,
+    "totalArticles": 308,
+    "publishedBefore": 218,
+    "cleanPublished": 218,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 216,
-    "reviewAfter": 86
+    "publishedAfter": 218,
+    "reviewAfter": 90
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-2026-07-22-ben-simeon-hapoel-tel-aviv",
+      "slug": "ben-simeon-signs-hapoel-tel-aviv-three-year-deal",
+      "title": "Hapoel Tel Aviv Land Wanted Teen Ben Simeon on Three-Year Deal",
+      "statusBefore": "review",
+      "words": 282,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-20260722-cohen-larnaca-experience",
+      "slug": "almog-cohen-beitar-larnaca-experience-cant-be-bought",
+      "title": "Almog Cohen: 'You Can't Buy the Experience Larnaca Has'",
+      "statusBefore": "review",
+      "words": 597,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:2",
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-22-wembanyama-irving-netanyahu-post",
+      "slug": "wembanyama-irving-support-mamdani-netanyahu-arrest-post",
+      "title": "Wembanyama and Irving Signal Support for Mamdani's Call to Arrest Netanyahu",
+      "statusBefore": "published",
+      "words": 549,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260722-bnei-eilat-youth-b-champions",
       "slug": "bnei-eilat-youth-b-southern-district-champions",
@@ -2022,6 +2067,33 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-07-22-wembanyama-irving-netanyahu-post",
+      "slug": "wembanyama-irving-support-mamdani-netanyahu-arrest-post",
+      "title": "Wembanyama and Irving Signal Support for Mamdani's Call to Arrest Netanyahu",
+      "statusBefore": "published",
+      "words": 549,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-22-eli-ohana-likud-knesset-spot",
+      "slug": "eli-ohana-likud-knesset-spot-report",
+      "title": "Beitar Legend Eli Ohana Reportedly Set for Guaranteed Likud Knesset Spot",
+      "statusBefore": "published",
+      "words": 403,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-20260722-amador-beer-sheva",
       "slug": "pedro-amador-hapoel-beer-sheva-left-back",
