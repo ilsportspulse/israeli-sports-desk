@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T01:19:32.513Z",
+  "generatedAt": "2026-07-22T04:59:01.912Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,59 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 270,
-    "publishedBefore": 195,
-    "cleanPublished": 195,
+    "totalArticles": 275,
+    "publishedBefore": 198,
+    "cleanPublished": 198,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 195,
-    "reviewAfter": 75
+    "publishedAfter": 198,
+    "reviewAfter": 77
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-2026-07-22-zaire-emery-man-utd-bid",
+      "slug": "manchester-united-warren-zaire-emery-transfer-bid",
+      "title": "Manchester United Ready €60m Opening Bid for PSG's Warren Zaire-Emery",
+      "statusBefore": "published",
+      "words": 419,
+      "paragraphs": 8,
+      "facts": 5,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260722-blazers-dundon-broadcast-cuts",
+      "slug": "portland-trail-blazers-dundon-broadcast-cuts",
+      "title": "Portland Set to Become the NBA's Outlier as New Owner Guts the Broadcast Booth",
+      "statusBefore": "published",
+      "words": 592,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260722-rodri-ballon-dor-poll",
+      "slug": "rodri-ballon-dor-fan-poll",
+      "title": "Spanish Public Overwhelmingly Backs Rodri for the Ballon d'Or",
+      "statusBefore": "published",
+      "words": 562,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "archive-20260722-belgrade-7-april-1977-the-night-tal-brod",
       "slug": "belgrade-7-april-1977-the-night-tal-brody-put-israel-on-the-map",
@@ -1722,6 +1765,49 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-07-22-zaire-emery-man-utd-bid",
+      "slug": "manchester-united-warren-zaire-emery-transfer-bid",
+      "title": "Manchester United Ready €60m Opening Bid for PSG's Warren Zaire-Emery",
+      "statusBefore": "published",
+      "words": 419,
+      "paragraphs": 8,
+      "facts": 5,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260722-blazers-dundon-broadcast-cuts",
+      "slug": "portland-trail-blazers-dundon-broadcast-cuts",
+      "title": "Portland Set to Become the NBA's Outlier as New Owner Guts the Broadcast Booth",
+      "statusBefore": "published",
+      "words": 592,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260722-rodri-ballon-dor-poll",
+      "slug": "rodri-ballon-dor-fan-poll",
+      "title": "Spanish Public Overwhelmingly Backs Rodri for the Ballon d'Or",
+      "statusBefore": "published",
+      "words": 562,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-07-22-summerville-al-hilal-transfer",
       "slug": "summerville-snubs-man-united-for-al-hilal-move",

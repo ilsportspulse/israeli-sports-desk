@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T01:19:32.729Z",
+  "generatedAt": "2026-07-22T04:59:02.149Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,19 +11,19 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 195,
+    "publishedArticles": 198,
     "wordCount": {
       "minimum": 266,
       "maximum": 1070,
-      "median": 479,
-      "average": 501.7
+      "median": 481,
+      "average": 501.9
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 8,
       "7": 43,
-      "8": 51,
-      "9": 43,
+      "8": 53,
+      "9": 44,
       "10": 26,
       "11": 12,
       "12": 2,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.262,
+    "dominantParagraphShare": 0.268,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 8,
     "analysisBelowTarget": 1,
@@ -226,6 +226,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-22-zaire-emery-man-utd-bid",
+      "slug": "manchester-united-warren-zaire-emery-transfer-bid",
+      "title": "Manchester United Ready €60m Opening Bid for PSG's Warren Zaire-Emery",
+      "kind": "news",
+      "words": 415,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 46,
+        "longest": 61,
+        "average": 51.9
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 47,
+        "average": 29.6
+      },
+      "lexicalDiversity": 0.6,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260722-blazers-dundon-broadcast-cuts",
+      "slug": "portland-trail-blazers-dundon-broadcast-cuts",
+      "title": "Portland Set to Become the NBA's Outlier as New Owner Guts the Broadcast Booth",
+      "kind": "news",
+      "words": 586,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 55,
+        "longest": 108,
+        "average": 73.3
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 64,
+        "average": 36.6
+      },
+      "lexicalDiversity": 0.599,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260722-rodri-ballon-dor-poll",
+      "slug": "rodri-ballon-dor-fan-poll",
+      "title": "Spanish Public Overwhelmingly Backs Rodri for the Ballon d'Or",
+      "kind": "news",
+      "words": 556,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 38,
+        "longest": 104,
+        "average": 61.8
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 74,
+        "average": 30.9
+      },
+      "lexicalDiversity": 0.527,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-07-22-summerville-al-hilal-transfer",
       "slug": "summerville-snubs-man-united-for-al-hilal-move",

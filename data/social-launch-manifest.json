@@ -146,49 +146,49 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-22T01:19:32Z",
-    "validUntil": "2026-07-22T13:19:32Z",
+    "checkedAt": "2026-07-22T04:59:01Z",
+    "validUntil": "2026-07-22T16:59:01Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 52,
+        "maxAgeHours": 56,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-07-22-summerville-al-hilal-transfer",
+        "articleId": "live-2026-07-22-zaire-emery-man-utd-bid",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 60,
+        "maxAgeHours": 64,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "archive-20260722-belgrade-7-april-1977-the-night-tal-brod",
+        "articleId": "live-20260722-blazers-dundon-broadcast-cuts",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 70,
+        "maxAgeHours": 74,
         "requires": [
           "column"
         ]
       },
       {
         "role": "archive",
-        "articleId": "archive-20260721-barcelona-30-july-1992-the-silver-that-e",
+        "articleId": "archive-20260722-belgrade-7-april-1977-the-night-tal-brod",
         "maxAgeHours": 53,
         "requires": [
           "historical-feature"
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-07-21-ibrahimovic-paredes-headbutt",
+        "articleId": "live-20260722-rodri-ballon-dor-poll",
         "maxAgeHours": 24,
         "requires": []
       }

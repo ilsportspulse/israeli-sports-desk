@@ -1,5 +1,66 @@
 [
   {
+    "ts": "2026-07-22T04:50:10.362Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 6,
+    "published": 3,
+    "review": 2,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "kangwa-aek-beer-sheva-transfer-saga",
+        "title": "AEK Athens Say Kangwa Pursuit Still 'Active' Despite Reports of Collapse",
+        "confidence": 0.78,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Transfer fee, personal terms and AEK's exact current stance are still unofficial and unconfirmed by either club."
+      },
+      {
+        "slug": "rodri-ballon-dor-fan-poll",
+        "title": "Spanish Public Overwhelmingly Backs Rodri for the Ballon d'Or",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "url": "https://www.one.co.il/Article/528767.html",
+        "decision": "skipped",
+        "reason": "no valid article emitted"
+      },
+      {
+        "slug": "hapoel-beer-sheva-vikingur-champions-league-setback",
+        "title": "Hapoel Beer Sheva's European Dream Wobbles After Reykjavik Reverse",
+        "confidence": 0.88,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Kangwa's AEK Athens move is speculative and unconfirmed by either club; Ran Kozuch's surname is transliterated variously (Kozuch/Kojok/Kozuk) across sources."
+      },
+      {
+        "slug": "portland-trail-blazers-dundon-broadcast-cuts",
+        "title": "Portland Set to Become the NBA's Outlier as New Owner Guts the Broadcast Booth",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "manchester-united-warren-zaire-emery-transfer-bid",
+        "title": "Manchester United Ready €60m Opening Bid for PSG's Warren Zaire-Emery",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-07-22T01:15:29.597Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
