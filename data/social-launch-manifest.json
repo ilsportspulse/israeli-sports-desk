@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-22T04:59:01Z",
-    "validUntil": "2026-07-22T16:59:01Z",
+    "checkedAt": "2026-07-22T07:36:32Z",
+    "validUntil": "2026-07-22T19:36:32Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 56,
+        "maxAgeHours": 59,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-07-22-zaire-emery-man-utd-bid",
+        "articleId": "live-2026-07-22-ceferin-world-cup-final-boycott",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 64,
+        "maxAgeHours": 66,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260722-blazers-dundon-broadcast-cuts",
+        "articleId": "live-20260722-buzelis-avdija-mentor",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 74,
+        "maxAgeHours": 77,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260722-rodri-ballon-dor-poll",
+        "articleId": "live-2026-07-22-jacob-wiley-nes-ziona",
         "maxAgeHours": 24,
         "requires": []
       }

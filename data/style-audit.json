@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T04:59:02.149Z",
+  "generatedAt": "2026-07-22T07:36:32.686Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 198,
+    "publishedArticles": 202,
     "wordCount": {
       "minimum": 266,
       "maximum": 1070,
-      "median": 481,
-      "average": 501.9
+      "median": 479,
+      "average": 500.7
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 8,
       "7": 43,
-      "8": 53,
-      "9": 44,
-      "10": 26,
+      "8": 54,
+      "9": 45,
+      "10": 28,
       "11": 12,
       "12": 2,
       "13": 3,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.268,
+    "dominantParagraphShare": 0.267,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 8,
     "analysisBelowTarget": 1,
@@ -226,6 +226,90 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-22-ceferin-world-cup-final-boycott",
+      "slug": "ceferin-world-cup-final-boycott-trump-balogun",
+      "title": "UEFA's Čeferin Boycotts World Cup Final Over FIFA's Handling of Trump-Balogun Affair",
+      "kind": "news",
+      "words": 550,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 71,
+        "average": 55
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 75,
+        "average": 30.6
+      },
+      "lexicalDiversity": 0.575,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260722-buzelis-avdija-mentor",
+      "slug": "bulls-buzelis-seeks-avdija-mentorship-attacking-rim",
+      "title": "Bulls Rookie Star Buzelis Wants Avdija's Blueprint for Attacking the Rim",
+      "kind": "news",
+      "words": 376,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 22,
+        "longest": 68,
+        "average": 47
+      },
+      "sentenceWords": {
+        "shortest": 17,
+        "longest": 83,
+        "average": 37.6
+      },
+      "lexicalDiversity": 0.62,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260722-bezos-liverpool-investment",
+      "slug": "jeff-bezos-considers-liverpool-investment",
+      "title": "Bezos in Talks to Join Investor Group Eyeing Liverpool Stake",
+      "kind": "news",
+      "words": 423,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 51,
+        "average": 42.3
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 51,
+        "average": 23.5
+      },
+      "lexicalDiversity": 0.544,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-22-jacob-wiley-nes-ziona",
+      "slug": "jacob-wiley-signs-ironi-nes-ziona-two-years",
+      "title": "Ironi Nes Ziona Add Wandering Frontcourt Man Jacob Wiley on Two-Year Deal",
+      "kind": "news",
+      "words": 407,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 24,
+        "longest": 71,
+        "average": 45.2
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 61,
+        "average": 33.9
+      },
+      "lexicalDiversity": 0.668,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-07-22-zaire-emery-man-utd-bid",
       "slug": "manchester-united-warren-zaire-emery-transfer-bid",
