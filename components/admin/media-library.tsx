@@ -18,6 +18,13 @@ export function MediaLibrary() {
   const [commonsQ, setCommonsQ] = useState("");
   const [commonsResults, setCommonsResults] = useState<CommonsResult[]>([]);
   const [commonsBusy, setCommonsBusy] = useState(false);
+  const [upFile, setUpFile] = useState<File | null>(null);
+  const [upKey, setUpKey] = useState("");
+  const [upAlt, setUpAlt] = useState("");
+  const [upCaption, setUpCaption] = useState("");
+  const [upCredit, setUpCredit] = useState("");
+  const [upBusy, setUpBusy] = useState(false);
+  const [upMsg, setUpMsg] = useState<{ kind: "ok" | "err"; text: string } | null>(null);
 
   async function load(q = "") {
     const res = await fetch(`/api/admin/media${q ? `?search=${encodeURIComponent(q)}` : ""}`);
@@ -70,6 +77,30 @@ export function MediaLibrary() {
     setMsg({ kind: "ok", text: `Attribution filled from Commons: ${r.title}. Review, then Save.` });
   }
 
+  async function upload() {
+    if (!upFile || !upKey.trim() || !upAlt.trim()) return;
+    setUpBusy(true); setUpMsg(null);
+    try {
+      const fd = new FormData();
+      fd.set("file", upFile);
+      fd.set("key", upKey.trim());
+      fd.set("alt", upAlt.trim());
+      fd.set("caption", upCaption.trim());
+      fd.set("credit", upCredit.trim());
+      const res = await fetch("/api/admin/media/upload", { method: "POST", body: fd });
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok) { setUpMsg({ kind: "err", text: data.error || "Upload failed." }); return; }
+      setUpMsg({
+        kind: "ok",
+        text: data.deferred
+          ? "Uploaded. The image goes live with the deploy that just started (±1 min); the preview may 404 until then."
+          : "Uploaded.",
+      });
+      setUpFile(null); setUpKey(""); setUpAlt(""); setUpCaption(""); setUpCredit("");
+      load(search);
+    } finally { setUpBusy(false); }
+  }
+
   const errorCount = issues.filter((i) => i.severity === "error").length;
 
   return (
@@ -84,6 +115,34 @@ export function MediaLibrary() {
       </header>
 
       <div className="content">
+        <div className="card" style={{ marginBottom: 16 }}>
+          <div className="section-head" style={{ justifyContent: "space-between" }}>
+            <h2>Upload an image</h2>
+            {upMsg && <span className={`msg ${upMsg.kind}`} style={{ fontSize: 12 }}>{upMsg.text}</span>}
+          </div>
+          <div className="field-row two">
+            <div className="field"><label>Image file (JPEG/PNG/WebP/GIF, max 4 MB)</label>
+              <input type="file" accept="image/jpeg,image/png,image/webp,image/gif"
+                onChange={(e) => setUpFile(e.target.files?.[0] ?? null)} /></div>
+            <div className="field"><label>Key (article id to attach, or a unique library name)</label>
+              <input type="text" placeholder="e.g. maccabi-derby-preview" value={upKey} onChange={(e) => setUpKey(e.target.value)} /></div>
+          </div>
+          <div className="field-row two">
+            <div className="field"><label>Alt text (required)</label>
+              <input type="text" placeholder="What the image shows" value={upAlt} onChange={(e) => setUpAlt(e.target.value)} /></div>
+            <div className="field"><label>Credit (default: Israel Sports Pulse)</label>
+              <input type="text" placeholder="Photographer / source" value={upCredit} onChange={(e) => setUpCredit(e.target.value)} /></div>
+          </div>
+          <div className="field-row"><div className="field"><label>Caption (optional)</label>
+            <input type="text" value={upCaption} onChange={(e) => setUpCaption(e.target.value)} /></div></div>
+          <div className="save-bar">
+            <button className="btn primary" onClick={upload} disabled={upBusy || !upFile || !upKey.trim() || !upAlt.trim()}>
+              {upBusy ? "Uploading…" : "Upload"}
+            </button>
+          </div>
+          <p className="hint" style={{ marginTop: 8 }}>Only upload photos you have the rights to use. Uploads are stored in the site repository with full attribution.</p>
+        </div>
+
         {issues.length > 0 && (
           <div className="card" style={{ marginBottom: 16, borderColor: errorCount ? "#f0c3c7" : "var(--a-line)" }}>
             <h2>Attribution & caption checks</h2>

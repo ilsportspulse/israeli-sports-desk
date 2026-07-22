@@ -16,6 +16,7 @@ import {
 } from "@/lib/admin/session";
 import { verifyTotp } from "@/lib/admin/totp";
 import { get2faSecret, is2faEnabled } from "@/lib/admin/twofa";
+import { verifyStoredUser } from "@/lib/admin/users-store";
 
 export const runtime = "nodejs";
 
@@ -44,7 +45,8 @@ export async function POST(req: NextRequest) {
   const username = (body.username ?? "").toString();
   const password = (body.password ?? "").toString();
   const code = (body.code ?? "").toString();
-  const role = verifyCredentials(username, password);
+  // Store-managed users first; the env root account stays as break-glass.
+  const role = (await verifyStoredUser(username.trim(), password)) ?? verifyCredentials(username, password);
 
   if (!role) {
     recordLoginFailure(key);

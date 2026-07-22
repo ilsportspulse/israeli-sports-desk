@@ -1,4 +1,4 @@
-import { readFile, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 // Persistence layer for all backoffice data (articles, redirects, settings, …).
@@ -51,7 +51,27 @@ export async function writeData(rel: string, value: unknown, opts: WriteOpts = {
   }
 }
 
+// Binary variant of writeData for uploaded assets (images). Same strategy:
+// disk in dev, GitHub commit on Vercel so the file ships with the next deploy.
+export async function writeBinaryData(rel: string, data: Buffer, opts: WriteOpts = {}): Promise<void> {
+  try {
+    await mkdir(path.dirname(path.join(root, rel)), { recursive: true });
+    await writeFile(path.join(root, rel), data);
+  } catch (err) {
+    if (!preferCommit()) throw err;
+  }
+
+  if (preferCommit()) {
+    const who = opts.actor ? ` by ${opts.actor}` : "";
+    await commitBase64ToGitHub(rel, data.toString("base64"), opts.message ?? `chore(backoffice): upload ${rel}${who}`);
+  }
+}
+
 async function commitToGitHub(rel: string, content: string, message: string): Promise<void> {
+  await commitBase64ToGitHub(rel, Buffer.from(content, "utf8").toString("base64"), message);
+}
+
+async function commitBase64ToGitHub(rel: string, base64: string, message: string): Promise<void> {
   const repo = process.env.GITHUB_REPO; // "owner/name"
   const token = process.env.GITHUB_TOKEN;
   const branch = process.env.GITHUB_BRANCH || "main";
@@ -73,7 +93,7 @@ async function commitToGitHub(rel: string, content: string, message: string): Pr
 
   const body = {
     message,
-    content: Buffer.from(content, "utf8").toString("base64"),
+    content: base64,
     branch,
     sha,
     // Commit author must map to a GitHub account or Vercel blocks the deploy.

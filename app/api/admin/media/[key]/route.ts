@@ -3,11 +3,18 @@ import type { NextRequest } from "next/server";
 
 import { can, getApiAdmin } from "@/lib/admin/auth";
 import { recordAudit } from "@/lib/admin/audit";
-import { deleteMedia, updateMedia, validateCaption } from "@/lib/admin/media-store";
+import { deleteMedia, getMedia, updateMedia, validateCaption } from "@/lib/admin/media-store";
 
 export const runtime = "nodejs";
 
 type Params = { params: { key: string } };
+
+export async function GET(_req: NextRequest, { params }: Params) {
+  const session = getApiAdmin();
+  if (!session) return NextResponse.json({ error: "unauthorized" }, { status: 401 });
+  const entry = await getMedia(decodeURIComponent(params.key));
+  return NextResponse.json({ media: entry }); // null when the key has no image yet
+}
 
 export async function PUT(req: NextRequest, { params }: Params) {
   const session = getApiAdmin();

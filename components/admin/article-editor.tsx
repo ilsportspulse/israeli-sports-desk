@@ -3,6 +3,7 @@
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
+import { ArticleImageCard } from "@/components/admin/article-image";
 import type { Article } from "@/lib/types";
 
 const KINDS = ["news", "analysis", "explainer"] as const;
@@ -162,6 +163,15 @@ export function ArticleEditor({ initial, mode }: Props) {
               ))}
               <button className="btn sm" onClick={addBody}>+ Add paragraph</button>
             </div>
+
+            {mode === "edit" && initial.id ? (
+              <ArticleImageCard articleId={initial.id} />
+            ) : (
+              <div className="card">
+                <div className="section-head"><h2>Article image</h2></div>
+                <p className="hint">Save the article first — then you can upload or pick its image here.</p>
+              </div>
+            )}
 
             <div className="card">
               <div className="section-head"><h2>Key facts</h2></div>

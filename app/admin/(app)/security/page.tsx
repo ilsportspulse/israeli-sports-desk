@@ -1,4 +1,5 @@
 import { SecurityManager } from "@/components/admin/security-manager";
+import { UsersManager } from "@/components/admin/users-manager";
 import { ROLE_LABELS, getCurrentAdmin } from "@/lib/admin/auth";
 
 export const dynamic = "force-dynamic";
@@ -19,7 +20,10 @@ export default function SecurityPage() {
       </header>
       <div className="content">
         <div className="grid cols-2" style={{ alignItems: "start" }}>
-          <SecurityManager />
+          <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
+            <UsersManager self={session?.sub ?? ""} />
+            <SecurityManager />
+          </div>
           <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
             <div className="card">
               <h2>Signed in as</h2>
@@ -41,7 +45,7 @@ export default function SecurityPage() {
                   </tr>
                 ))}</tbody>
               </table></div>
-              <p className="hint" style={{ marginTop: 10 }}>Multi-user invites arrive with the team plan; the role model is already enforced across every action.</p>
+              <p className="hint" style={{ marginTop: 10 }}>Create accounts and assign roles in Users &amp; permissions; the role model is enforced across every action.</p>
             </div>
           </div>
         </div>
