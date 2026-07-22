@@ -1,5 +1,66 @@
 [
   {
+    "ts": "2026-07-22T10:15:36.482Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 6,
+    "published": 3,
+    "review": 2,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "gfn-fighters-tour-shiloh-jerusalem-ahead-of-tel-aviv-card",
+        "title": "Before Israel's Biggest Fight Night, GFN's Visiting Fighters Toured Shiloh and Jerusalem",
+        "confidence": 0.78,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "maccabi-tel-aviv-varela-asante-blitz-training-sheriff-tiraspol",
+        "title": "Varela, Asante and Blitz Back in Full Training as Miller Weighs Selection Puzzle Before Sheriff Tiraspol",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "url": "https://www.one.co.il/Article/528797.html",
+        "decision": "skipped",
+        "reason": "no valid article emitted"
+      },
+      {
+        "slug": "pedrao-offered-maccabi-petah-tikva-tibi-injury-derby",
+        "title": "Pedrão Offered to Maccabi Petah Tikva as Veteran Tibi Ruled Out of Derby",
+        "confidence": 0.82,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "below gate thresholds"
+      },
+      {
+        "slug": "neymar-poker-table-santos-recovery-backlash",
+        "title": "Neymar Trades the Pitch for the Poker Table While Santos Fly to Venezuela",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "hapoel-jerusalem-women-champions-league-paok-opener",
+        "title": "Hapoel Jerusalem's Women Open Israel's Champions League History Against PAOK",
+        "confidence": 0.82,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Spelling of some new-signing names (e.g. \"Reyza\") is per ONE's report only and could not be independently cross-verified; this is a pre-match preview, so no result is reported."
+      }
+    ]
+  },
+  {
     "ts": "2026-07-22T07:28:16.575Z",
     "mode": "cli",
     "model": "claude-sonnet-5",

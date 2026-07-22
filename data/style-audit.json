@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T07:36:32.686Z",
+  "generatedAt": "2026-07-22T10:24:38.088Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,19 +11,19 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 202,
+    "publishedArticles": 205,
     "wordCount": {
       "minimum": 266,
       "maximum": 1070,
       "median": 479,
-      "average": 500.7
+      "average": 500.4
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 8,
       "7": 43,
-      "8": 54,
-      "9": 45,
+      "8": 56,
+      "9": 46,
       "10": 28,
       "11": 12,
       "12": 2,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.267,
+    "dominantParagraphShare": 0.273,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 8,
     "analysisBelowTarget": 1,
@@ -226,6 +226,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-22-neymar-poker-santos",
+      "slug": "neymar-poker-table-santos-recovery-backlash",
+      "title": "Neymar Trades the Pitch for the Poker Table While Santos Fly to Venezuela",
+      "kind": "news",
+      "words": 487,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 53,
+        "longest": 78,
+        "average": 60.9
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 44,
+        "average": 25.6
+      },
+      "lexicalDiversity": 0.55,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-22-maccabi-tlv-sheriff-training-headache",
+      "slug": "maccabi-tel-aviv-varela-asante-blitz-training-sheriff-tiraspol",
+      "title": "Varela, Asante and Blitz Back in Full Training as Miller Weighs Selection Puzzle Before Sheriff Tiraspol",
+      "kind": "news",
+      "words": 446,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 72,
+        "average": 55.8
+      },
+      "sentenceWords": {
+        "shortest": 17,
+        "longest": 42,
+        "average": 29.7
+      },
+      "lexicalDiversity": 0.599,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-22-gfn-fighters-tour-israel",
+      "slug": "gfn-fighters-tour-shiloh-jerusalem-ahead-of-tel-aviv-card",
+      "title": "Before Israel's Biggest Fight Night, GFN's Visiting Fighters Toured Shiloh and Jerusalem",
+      "kind": "news",
+      "words": 521,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 38,
+        "longest": 75,
+        "average": 57.9
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 139,
+        "average": 37.2
+      },
+      "lexicalDiversity": 0.576,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-07-22-ceferin-world-cup-final-boycott",
       "slug": "ceferin-world-cup-final-boycott-trump-balogun",
