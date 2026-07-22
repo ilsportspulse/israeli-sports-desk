@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T17:54:32.714Z",
+  "generatedAt": "2026-07-22T19:55:32.076Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,72 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 308,
-    "publishedBefore": 218,
-    "cleanPublished": 218,
+    "totalArticles": 313,
+    "publishedBefore": 221,
+    "cleanPublished": 221,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 218,
-    "reviewAfter": 90
+    "publishedAfter": 221,
+    "reviewAfter": 92
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-2026-07-22-heat-lebron-video-leak",
+      "slug": "miami-heat-deny-lebron-james-signing-video-leak",
+      "title": "Miami Heat Deny LeBron Signing After Leaked 'Introduction' Video Sends NBA Into Frenzy",
+      "statusBefore": "published",
+      "words": 401,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-22-hapoel-ludogorets-preview",
+      "slug": "hapoel-tel-aviv-ludogorets-conference-league-preview",
+      "title": "Barda: Hapoel Tel Aviv Face 'Champions League-Level' Test as European Exile Ends",
+      "statusBefore": "published",
+      "words": 398,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-22-ashdod-pirin-comeback-draw",
+      "slug": "ashdod-comeback-draw-pirin-blagoevgrad-friendly",
+      "title": "Ashdod Claw Back From Two Down to Draw 2-2 With Bulgaria's Pirin in Friendly",
+      "statusBefore": "review",
+      "words": 353,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-20260722-niron-haifa-transfer-collapse",
+      "slug": "netanya-demands-sink-niron-move-to-maccabi-haifa",
+      "title": "Netanya's asking price sinks Nir'on's move to Maccabi Haifa",
+      "statusBefore": "review",
+      "words": 479,
+      "paragraphs": 8,
+      "facts": 8,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
     {
       "id": "live-2026-07-22-ben-simeon-hapoel-tel-aviv",
       "slug": "ben-simeon-signs-hapoel-tel-aviv-three-year-deal",
@@ -2067,6 +2123,46 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-07-22-heat-lebron-video-leak",
+      "slug": "miami-heat-deny-lebron-james-signing-video-leak",
+      "title": "Miami Heat Deny LeBron Signing After Leaked 'Introduction' Video Sends NBA Into Frenzy",
+      "statusBefore": "published",
+      "words": 401,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-22-hapoel-ludogorets-preview",
+      "slug": "hapoel-tel-aviv-ludogorets-conference-league-preview",
+      "title": "Barda: Hapoel Tel Aviv Face 'Champions League-Level' Test as European Exile Ends",
+      "statusBefore": "published",
+      "words": 398,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260722-maccabi-sheriff-europa-preview",
+      "slug": "maccabi-tel-aviv-sheriff-tiraspol-europa-league-preview",
+      "title": "Miller: Maccabi Tel Aviv \"Fit and Ready\" for Sheriff Tiraspol Test",
+      "statusBefore": "published",
+      "words": 392,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-2026-07-22-wembanyama-irving-netanyahu-post",
       "slug": "wembanyama-irving-support-mamdani-netanyahu-arrest-post",

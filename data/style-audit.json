@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T17:54:33.030Z",
+  "generatedAt": "2026-07-22T19:55:32.370Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 218,
+    "publishedArticles": 221,
     "wordCount": {
       "minimum": 266,
       "maximum": 1070,
-      "median": 478.5,
-      "average": 497.2
+      "median": 478,
+      "average": 495.8
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 8,
       "7": 45,
       "8": 61,
-      "9": 48,
-      "10": 32,
+      "9": 50,
+      "10": 33,
       "11": 12,
       "12": 2,
       "13": 3,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.28,
+    "dominantParagraphShare": 0.276,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 8,
     "analysisBelowTarget": 1,
@@ -226,6 +226,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-22-heat-lebron-video-leak",
+      "slug": "miami-heat-deny-lebron-james-signing-video-leak",
+      "title": "Miami Heat Deny LeBron Signing After Leaked 'Introduction' Video Sends NBA Into Frenzy",
+      "kind": "news",
+      "words": 397,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 52,
+        "average": 44.1
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 76,
+        "average": 30.5
+      },
+      "lexicalDiversity": 0.597,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-22-hapoel-ludogorets-preview",
+      "slug": "hapoel-tel-aviv-ludogorets-conference-league-preview",
+      "title": "Barda: Hapoel Tel Aviv Face 'Champions League-Level' Test as European Exile Ends",
+      "kind": "article",
+      "words": 395,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 26,
+        "longest": 73,
+        "average": 43.9
+      },
+      "sentenceWords": {
+        "shortest": 17,
+        "longest": 85,
+        "average": 35.9
+      },
+      "lexicalDiversity": 0.603,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260722-maccabi-sheriff-europa-preview",
+      "slug": "maccabi-tel-aviv-sheriff-tiraspol-europa-league-preview",
+      "title": "Miller: Maccabi Tel Aviv \"Fit and Ready\" for Sheriff Tiraspol Test",
+      "kind": "article",
+      "words": 390,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 44,
+        "average": 39
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 77,
+        "average": 39
+      },
+      "lexicalDiversity": 0.618,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-07-22-wembanyama-irving-netanyahu-post",
       "slug": "wembanyama-irving-support-mamdani-netanyahu-arrest-post",

@@ -1,5 +1,66 @@
 [
   {
+    "ts": "2026-07-22T19:49:47.913Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 6,
+    "published": 3,
+    "review": 2,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "netanya-demands-sink-niron-move-to-maccabi-haifa",
+        "title": "Netanya's asking price sinks Nir'on's move to Maccabi Haifa",
+        "confidence": 0.82,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Financial figures (loan fee, buy-option, valuation of a makeweight player, Nir'on's salary) are as reported by ONE and have not been confirmed by either club."
+      },
+      {
+        "slug": "maccabi-tel-aviv-sheriff-tiraspol-europa-league-preview",
+        "title": "Miller: Maccabi Tel Aviv \"Fit and Ready\" for Sheriff Tiraspol Test",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "ashdod-comeback-draw-pirin-blagoevgrad-friendly",
+        "title": "Ashdod Claw Back From Two Down to Draw 2-2 With Bulgaria's Pirin in Friendly",
+        "confidence": 0.72,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Single-sourced to ONE; several player names (Tamam, Asenta, Khalaila, Ouchai, Yamin, and a player rendered 'Deboush') are transliterated phonetically from Hebrew and could not be cross-checked against an official Ashdod roster or Bulgarian club registry within this pass. Exact match date is given only as 'Wednesday' in the source."
+      },
+      {
+        "url": "https://www.one.co.il/Article/528829.html",
+        "decision": "skipped",
+        "reason": "no valid article emitted"
+      },
+      {
+        "slug": "hapoel-tel-aviv-ludogorets-conference-league-preview",
+        "title": "Barda: Hapoel Tel Aviv Face 'Champions League-Level' Test as European Exile Ends",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "miami-heat-deny-lebron-james-signing-video-leak",
+        "title": "Miami Heat Deny LeBron Signing After Leaked 'Introduction' Video Sends NBA Into Frenzy",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-07-22T17:48:10.430Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
