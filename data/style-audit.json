@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T03:56:24.039Z",
+  "generatedAt": "2026-07-23T05:14:39.946Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 233,
+    "publishedArticles": 240,
     "wordCount": {
-      "minimum": 266,
+      "minimum": 237,
       "maximum": 1070,
-      "median": 478,
-      "average": 494.1
+      "median": 476.5,
+      "average": 491.5
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 8,
-      "7": 47,
-      "8": 62,
-      "9": 56,
-      "10": 36,
+      "7": 49,
+      "8": 64,
+      "9": 58,
+      "10": 37,
       "11": 12,
       "12": 2,
       "13": 3,
@@ -33,11 +33,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.266,
+    "dominantParagraphShare": 0.267,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 8,
-    "analysisBelowTarget": 1,
-    "articlesWithStyleFlags": 10
+    "analysisBelowTarget": 2,
+    "articlesWithStyleFlags": 12
   },
   "flagged": [
     {
@@ -153,6 +153,52 @@
       "publisherAttributions": 0,
       "flags": [
         "below-editorial-target:275/280"
+      ]
+    },
+    {
+      "id": "live-2026-07-21-abdach-maccabi-petah-tikva",
+      "slug": "bashar-abdach-signs-maccabi-petah-tikva",
+      "title": "Officially: Bashar Abdach signs three-year deal with Maccabi Petah Tikva",
+      "kind": "news",
+      "words": 237,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 12,
+        "longest": 47,
+        "average": 33.9
+      },
+      "sentenceWords": {
+        "shortest": 30,
+        "longest": 50,
+        "average": 39.5
+      },
+      "lexicalDiversity": 0.667,
+      "publisherAttributions": 0,
+      "flags": [
+        "below-editorial-target:237/280"
+      ]
+    },
+    {
+      "id": "live-20260721-american-alumni-israel-basketball-europe",
+      "slug": "israel-basketball-american-alumni-chase-europe-return",
+      "title": "Israeli Basketball's American Alumni Are Chasing Their Way Back to Europe",
+      "kind": "analysis",
+      "words": 633,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 53,
+        "longest": 74,
+        "average": 63.3
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 56,
+        "average": 27.5
+      },
+      "lexicalDiversity": 0.532,
+      "publisherAttributions": 0,
+      "flags": [
+        "below-editorial-target:633/650"
       ]
     },
     {
@@ -1617,6 +1663,27 @@
       "flags": []
     },
     {
+      "id": "live-2026-07-21-rafaelov-bachar-training-pitch",
+      "slug": "rafaelov-bachar-maccabi-haifa-training-pitch",
+      "title": "Reuven Atar: Rafaelov must come down to the grass to help Bachar",
+      "kind": "news",
+      "words": 367,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 65,
+        "average": 52.4
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 59,
+        "average": 33.4
+      },
+      "lexicalDiversity": 0.619,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
       "id": "live-20260721-world-cup-2026-spain-mbappe-americanization",
       "slug": "spain-crown-mbappe-record-football-americanization-world-cup-2026",
       "title": "Spain's Crown, Mbappé's Record and Football's American Makeover",
@@ -1634,6 +1701,90 @@
         "average": 30.5
       },
       "lexicalDiversity": 0.547,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-21-hapoel-haifa-municipal-debt",
+      "slug": "haifa-municipality-hapoel-haifa-190000-shekel-debt-claim",
+      "title": "Haifa council says Hapoel Haifa owes it 190,000 shekels, threatens training base",
+      "kind": "news",
+      "words": 376,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 73,
+        "average": 47
+      },
+      "sentenceWords": {
+        "shortest": 3,
+        "longest": 62,
+        "average": 34.2
+      },
+      "lexicalDiversity": 0.612,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260721-cj-elleby-hapoel-haemek",
+      "slug": "cj-elleby-signs-hapoel-haemek-ligat-haal",
+      "title": "Beer Sheva's leading scorer C.J. Elleby signs with Hapoel HaEmek",
+      "kind": "news",
+      "words": 353,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 63,
+        "average": 44.1
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 45,
+        "average": 29.4
+      },
+      "lexicalDiversity": 0.618,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-21-beer-sheva-vikingur-champions-league",
+      "slug": "hapoel-beer-sheva-champions-league-vikingur-reykjavik-preview",
+      "title": "Southern dream: Be'er Sheva chase a first Champions League breakthrough in Reykjavík",
+      "kind": "article",
+      "words": 526,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 87,
+        "average": 58.4
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 49,
+        "average": 29.2
+      },
+      "lexicalDiversity": 0.576,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-21-haziza-netanya-deal",
+      "slug": "dolev-haziza-agrees-maccabi-netanya-deal",
+      "title": "Haziza Agrees Terms to Join Maccabi Netanya, Ending Seven Years at Haifa",
+      "kind": "news",
+      "words": 347,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 29,
+        "longest": 47,
+        "average": 38.6
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 45,
+        "average": 24.8
+      },
+      "lexicalDiversity": 0.657,
       "publisherAttributions": 0,
       "flags": []
     },

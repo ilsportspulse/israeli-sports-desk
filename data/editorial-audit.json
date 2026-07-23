@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T03:56:23.879Z",
+  "generatedAt": "2026-07-23T05:14:39.857Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -18,12 +18,12 @@
   },
   "summary": {
     "totalArticles": 327,
-    "publishedBefore": 233,
-    "cleanPublished": 233,
+    "publishedBefore": 240,
+    "cleanPublished": 240,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 233,
-    "reviewAfter": 94
+    "publishedAfter": 240,
+    "reviewAfter": 87
   },
   "blockedPublished": [],
   "warnings": [
@@ -143,6 +143,20 @@
       ]
     },
     {
+      "id": "live-2026-07-22-hezonja-nba-exit-clause-snag",
+      "slug": "hezonja-nba-exit-clause-real-madrid-leverage",
+      "title": "Hezonja's NBA Comeback Hits a Snag as Real Madrid Gains Leverage",
+      "statusBefore": "review",
+      "words": 432,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-2026-07-22-solomon-tottenham-mk-dons",
       "slug": "solomon-tottenham-preseason-mk-dons",
       "title": "Manor Solomon Back in Lilywhite as Tottenham Edge MK Dons in Pre-Season Friendly",
@@ -225,7 +239,8 @@
       "verificationSources": 4,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -243,6 +258,20 @@
       ]
     },
     {
+      "id": "live-20260722-meiri-tzadaf-joint-list",
+      "slug": "meiri-tzadaf-football-association-joint-list-talks",
+      "title": "Deputy Chairman Meiri Meets Hapoel Center's Tzadaf as Football Association Camps Edge Toward Joint Ticket",
+      "statusBefore": "review",
+      "words": 374,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-20260722-cohen-larnaca-experience",
       "slug": "almog-cohen-beitar-larnaca-experience-cant-be-bought",
       "title": "Almog Cohen: 'You Can't Buy the Experience Larnaca Has'",
@@ -254,6 +283,7 @@
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
         "voice:publisher-attribution-heavy:2",
         "voice:stock-editorial-phrase-detected"
       ]
@@ -299,6 +329,7 @@
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
         "voice:publisher-attribution-heavy:2"
       ]
     },
@@ -313,6 +344,7 @@
       "verificationSources": 4,
       "blockers": [],
       "warnings": [
+        "media:no-action-or-competition-context-detected",
         "voice:publisher-attribution-heavy:2"
       ]
     },
@@ -446,6 +478,20 @@
       ]
     },
     {
+      "id": "live-20260722-brazili-almeida-weight-feud",
+      "slug": "brazili-blasts-almeida-over-weight-miss-ahead-of-tel-aviv-main-event",
+      "title": "Brazili accuses Almeida of exploiting his 'willingness to fight' after Brazilian misses weight by 15kg",
+      "statusBefore": "review",
+      "words": 430,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-2026-07-22-pedrao-petah-tikva-tibi-derby",
       "slug": "pedrao-offered-maccabi-petah-tikva-tibi-injury-derby",
       "title": "Pedrão Offered to Maccabi Petah Tikva as Veteran Tibi Ruled Out of Derby",
@@ -456,7 +502,8 @@
       "verificationSources": 4,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -649,6 +696,20 @@
       "title": "Infantino praises Argentina's \"unforgettable\" run despite chaotic World Cup final",
       "statusBefore": "published",
       "words": 408,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260721-kangwa-vikingur-aek-equalizer",
+      "slug": "kangwa-champions-league-equalizer-vikingur-aek-transfer",
+      "title": "Kangwa Levels for Hapoel in Iceland but Barely Celebrates Amid AEK Transfer Talks",
+      "statusBefore": "published",
+      "words": 491,
       "paragraphs": 9,
       "facts": 7,
       "verificationSources": 5,
@@ -881,6 +942,7 @@
       "verificationSources": 2,
       "blockers": [],
       "warnings": [
+        "media:no-action-or-competition-context-detected",
         "voice:publisher-attribution-heavy:2"
       ]
     },
@@ -944,13 +1006,14 @@
       "id": "live-20260721-american-alumni-israel-basketball-europe",
       "slug": "israel-basketball-american-alumni-chase-europe-return",
       "title": "Israeli Basketball's American Alumni Are Chasing Their Way Back to Europe",
-      "statusBefore": "review",
+      "statusBefore": "published",
       "words": 640,
       "paragraphs": 10,
       "facts": 6,
       "verificationSources": 12,
       "blockers": [],
       "warnings": [
+        "media:no-action-or-competition-context-detected",
         "voice:analysis-below-650-word-editorial-target:640"
       ]
     },
@@ -969,6 +1032,34 @@
       ]
     },
     {
+      "id": "live-20260721-cj-elleby-hapoel-haemek",
+      "slug": "cj-elleby-signs-hapoel-haemek-ligat-haal",
+      "title": "Beer Sheva's leading scorer C.J. Elleby signs with Hapoel HaEmek",
+      "statusBefore": "published",
+      "words": 349,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-21-haziza-netanya-deal",
+      "slug": "dolev-haziza-agrees-maccabi-netanya-deal",
+      "title": "Haziza Agrees Terms to Join Maccabi Netanya, Ending Seven Years at Haifa",
+      "statusBefore": "published",
+      "words": 344,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-2026-07-21-argentina-homecoming-without-messi",
       "slug": "argentina-homecoming-without-messi",
       "title": "Without Messi, Argentina Comes Home to a Hero's Welcome After World Cup Heartbreak",
@@ -978,6 +1069,22 @@
       "facts": 6,
       "verificationSources": 5,
       "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-21-israeli-referees-fcsb-auda",
+      "slug": "israeli-referee-team-fcsb-auda-conference-league",
+      "title": "Israeli refereeing team named for FCSB's Conference League qualifier",
+      "statusBefore": "review",
+      "words": 208,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [
+        "copy-depth:208/220-words"
+      ],
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
@@ -1103,6 +1210,20 @@
       "paragraphs": 9,
       "facts": 6,
       "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260719-haifa-glazer-yarmakov",
+      "slug": "maccabi-haifa-goalkeeper-reshuffle-glazer-return-yermakov-metalist",
+      "title": "Haifa's goalkeeper reshuffle agreed: Glazer set for return as Yermakov heads to Ukraine",
+      "statusBefore": "published",
+      "words": 462,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 5,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -1402,6 +1523,7 @@
         "research:no-independent-or-authoritative-verification"
       ],
       "warnings": [
+        "media:no-action-or-competition-context-detected",
         "taxonomy:desk-not-assigned"
       ]
     },
@@ -1516,6 +1638,7 @@
         "research:no-independent-or-authoritative-verification"
       ],
       "warnings": [
+        "media:no-action-or-competition-context-detected",
         "taxonomy:desk-not-assigned"
       ]
     },
@@ -1554,6 +1677,7 @@
         "research:verification-links-are-generic-homepages"
       ],
       "warnings": [
+        "media:no-action-or-competition-context-detected",
         "taxonomy:desk-not-assigned"
       ]
     },
@@ -1669,6 +1793,7 @@
         "research:verification-links-are-generic-homepages"
       ],
       "warnings": [
+        "media:no-action-or-competition-context-detected",
         "taxonomy:desk-not-assigned",
         "voice:analysis-below-650-word-editorial-target:98"
       ]
@@ -1707,6 +1832,44 @@
       ]
     },
     {
+      "id": "seed-010",
+      "slug": "world-cup-knockout-map-pressure-points",
+      "title": "World Cup knockout map: the pressure points that decide the final route",
+      "statusBefore": "review",
+      "words": 93,
+      "paragraphs": 3,
+      "facts": 3,
+      "verificationSources": 1,
+      "blockers": [
+        "copy-depth:93/200-words",
+        "structure:3/5-paragraphs",
+        "evidence:3/4-confirmed-facts",
+        "research:verification-links-are-generic-homepages"
+      ],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "seed-011",
+      "slug": "tour-de-france-2026-five-title-question",
+      "title": "Tour de France: the fifth-title question is only the start",
+      "statusBefore": "review",
+      "words": 97,
+      "paragraphs": 3,
+      "facts": 3,
+      "verificationSources": 1,
+      "blockers": [
+        "copy-depth:97/200-words",
+        "structure:3/5-paragraphs",
+        "evidence:3/4-confirmed-facts",
+        "research:verification-links-are-generic-homepages"
+      ],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "seed-012",
       "slug": "jaylen-brown-philadelphia-trade-fit",
       "title": "The Jaylen Brown trade resets two Eastern Conference timelines",
@@ -1723,6 +1886,25 @@
       ],
       "warnings": [
         "voice:analysis-below-650-word-editorial-target:84"
+      ]
+    },
+    {
+      "id": "seed-013",
+      "slug": "olympic-qualification-road-la-2028",
+      "title": "Road to LA 2028: qualification is already the real competition",
+      "statusBefore": "review",
+      "words": 86,
+      "paragraphs": 3,
+      "facts": 3,
+      "verificationSources": 2,
+      "blockers": [
+        "copy-depth:86/200-words",
+        "structure:3/5-paragraphs",
+        "evidence:3/4-confirmed-facts",
+        "research:verification-links-are-generic-homepages"
+      ],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -1755,6 +1937,7 @@
         "structure:3/5-paragraphs"
       ],
       "warnings": [
+        "media:no-action-or-competition-context-detected",
         "taxonomy:desk-not-assigned"
       ]
     },
@@ -1810,6 +1993,7 @@
         "structure:4/5-paragraphs"
       ],
       "warnings": [
+        "media:no-action-or-competition-context-detected",
         "taxonomy:desk-not-assigned"
       ]
     },
@@ -1830,6 +2014,25 @@
       ],
       "warnings": [
         "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "feature-20260714-ronaldo-madeira",
+      "slug": "cristiano-ronaldo-madeira-roots-after-portugal-farewell",
+      "title": "Madeira revisits the roots of Cristiano Ronaldo after his Portugal farewell",
+      "statusBefore": "review",
+      "words": 160,
+      "paragraphs": 4,
+      "facts": 3,
+      "verificationSources": 0,
+      "blockers": [
+        "copy-depth:160/200-words",
+        "structure:4/5-paragraphs",
+        "evidence:3/4-confirmed-facts",
+        "research:no-independent-or-authoritative-verification"
+      ],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -1866,6 +2069,7 @@
         "research:no-independent-or-authoritative-verification"
       ],
       "warnings": [
+        "media:no-action-or-competition-context-detected",
         "taxonomy:desk-not-assigned"
       ]
     },
@@ -1885,6 +2089,7 @@
         "research:verification-links-are-generic-homepages"
       ],
       "warnings": [
+        "media:no-action-or-competition-context-detected",
         "taxonomy:desk-not-assigned"
       ]
     },
@@ -1949,9 +2154,11 @@
       "verificationSources": 0,
       "blockers": [
         "research:no-independent-or-authoritative-verification",
+        "media:caption-confirms-semantic-mismatch",
         "media:manual-image-story-mismatch"
       ],
       "warnings": [
+        "media:no-action-or-competition-context-detected",
         "voice:publisher-attribution-heavy:2"
       ]
     },
@@ -2127,6 +2334,20 @@
       ]
     },
     {
+      "id": "live-20260717-maccabi-ta-youth-oretzki-kadosh",
+      "slug": "maccabi-tel-aviv-academy-adds-nahalal-yizrael-pair-oretzki-kadosh",
+      "title": "Maccabi Tel Aviv academy adds Nahalal Yizrael pair Oretzki and Kadosh",
+      "statusBefore": "published",
+      "words": 507,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-20260717-liam-hermesh-agrees-grazer-ak-move",
       "slug": "liam-hermesh-agrees-grazer-ak-move",
       "title": "Liam Hermesh Agrees Move to Austrian Bundesliga Side Grazer AK",
@@ -2155,6 +2376,20 @@
       ]
     },
     {
+      "id": "live-20260718-abramov-interview-media-feud-claim",
+      "slug": "abramov-ulpan-shishi-interview-keshet-leumi-partners-claim",
+      "title": "Abramov breaks silence on Japanika attacks and alleges a media 'conflict' he says he fell victim to",
+      "statusBefore": "published",
+      "words": 644,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "archive-20260718-montreal-1976",
       "slug": "montreal-1976-black-ribbon-esther-roth-first-israeli-olympic-final",
       "title": "Fifty years on: Montreal 1976, the black ribbon and Israel's first Olympic finalist",
@@ -2163,6 +2398,20 @@
       "paragraphs": 10,
       "facts": 6,
       "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260718-seck-saudi-move",
+      "slug": "abdoulaye-seck-reported-al-faisaly-move-after-maccabi-haifa-exit",
+      "title": "Seck reported to be on verge of Al-Faisaly switch after Maccabi Haifa exit",
+      "statusBefore": "published",
+      "words": 411,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 4,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -2191,6 +2440,20 @@
       "paragraphs": 9,
       "facts": 7,
       "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260719-tour-stage-14-pogacar",
+      "slug": "tour-de-france-stage-14-pogacar-fourth-win-le-markstein",
+      "title": "Pogačar dances to a fourth Tour stage win at Le Markstein as lead stretches to 4:30",
+      "statusBefore": "published",
+      "words": 316,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 2,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -2911,7 +3174,9 @@
       "facts": 7,
       "verificationSources": 5,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-2026-07-21-kangwa-beersheba-vikingur-first-leg",
@@ -3213,6 +3478,45 @@
       ]
     },
     {
+      "id": "live-2026-07-21-abdach-maccabi-petah-tikva",
+      "slug": "bashar-abdach-signs-maccabi-petah-tikva",
+      "title": "Officially: Bashar Abdach signs three-year deal with Maccabi Petah Tikva",
+      "statusBefore": "published",
+      "words": 237,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-07-21-rafaelov-bachar-training-pitch",
+      "slug": "rafaelov-bachar-maccabi-haifa-training-pitch",
+      "title": "Reuven Atar: Rafaelov must come down to the grass to help Bachar",
+      "statusBefore": "published",
+      "words": 373,
+      "paragraphs": 7,
+      "facts": 5,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260721-american-alumni-israel-basketball-europe",
+      "slug": "israel-basketball-american-alumni-chase-europe-return",
+      "title": "Israeli Basketball's American Alumni Are Chasing Their Way Back to Europe",
+      "statusBefore": "published",
+      "words": 640,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 12,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:analysis-below-650-word-editorial-target:640"
+      ]
+    },
+    {
       "id": "live-20260721-world-cup-2026-spain-mbappe-americanization",
       "slug": "spain-crown-mbappe-record-football-americanization-world-cup-2026",
       "title": "Spain's Crown, Mbappé's Record and Football's American Makeover",
@@ -3221,6 +3525,58 @@
       "paragraphs": 11,
       "facts": 7,
       "verificationSources": 9,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-21-hapoel-haifa-municipal-debt",
+      "slug": "haifa-municipality-hapoel-haifa-190000-shekel-debt-claim",
+      "title": "Haifa council says Hapoel Haifa owes it 190,000 shekels, threatens training base",
+      "statusBefore": "published",
+      "words": 374,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260721-cj-elleby-hapoel-haemek",
+      "slug": "cj-elleby-signs-hapoel-haemek-ligat-haal",
+      "title": "Beer Sheva's leading scorer C.J. Elleby signs with Hapoel HaEmek",
+      "statusBefore": "published",
+      "words": 349,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-21-beer-sheva-vikingur-champions-league",
+      "slug": "hapoel-beer-sheva-champions-league-vikingur-reykjavik-preview",
+      "title": "Southern dream: Be'er Sheva chase a first Champions League breakthrough in Reykjavík",
+      "statusBefore": "published",
+      "words": 524,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 10,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-07-21-haziza-netanya-deal",
+      "slug": "dolev-haziza-agrees-maccabi-netanya-deal",
+      "title": "Haziza Agrees Terms to Join Maccabi Netanya, Ending Seven Years at Haifa",
+      "statusBefore": "published",
+      "words": 344,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -3472,7 +3828,9 @@
       "facts": 7,
       "verificationSources": 5,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-20260719-dowtin-napoli",
@@ -4688,7 +5046,9 @@
       "facts": 6,
       "verificationSources": 4,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-20260717-rivollier-hapoel-return",
@@ -4956,7 +5316,9 @@
       "facts": 6,
       "verificationSources": 3,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-20260718-guildford-maccabi-ban-payout",
@@ -5066,7 +5428,9 @@
       "facts": 6,
       "verificationSources": 4,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-20260718-tsunami-maccabi-haifa",
@@ -5154,7 +5518,9 @@
       "facts": 6,
       "verificationSources": 2,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-20260719-france-england-bronze",

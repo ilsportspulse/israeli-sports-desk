@@ -17,12 +17,12 @@ import {
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dryRun = process.argv.includes("--dry-run");
-const fallbackMaxPerSource = Math.max(1, Number(process.env.NEWSROOM_MAX_PER_SOURCE ?? 5));
+const fallbackMaxPerSource = Math.max(1, Number(process.env.NEWSROOM_MAX_PER_SOURCE ?? 500));
 const autoPublish = process.env.NEWSROOM_AUTO_PUBLISH === "true";
 const userAgent = process.env.NEWSROOM_USER_AGENT ?? "IsraelSportsPulseBot/0.1 (+editor@example.com)";
 const model = process.env.OPENAI_MODEL ?? "gpt-5.6-terra";
 const apiKey = process.env.OPENAI_API_KEY;
-const maxCandidateAgeHours = Math.max(1, Number(process.env.NEWSROOM_MAX_CANDIDATE_AGE_HOURS ?? 24));
+const maxCandidateAgeHours = Math.max(1, Number(process.env.NEWSROOM_MAX_CANDIDATE_AGE_HOURS ?? 72));
 const robotsFallbacks = JSON.parse(
   await readFile(path.join(root, "config/robots-cache.json"), "utf8"),
 );
@@ -318,7 +318,33 @@ async function run() {
         if (priorDiscovery) {
           priorDiscovery.lastSeenAt = startedAt;
           priorDiscovery.seenCount = (priorDiscovery.seenCount ?? 1) + 1;
-          sourceReport.previouslySeen += 1;
+          // Rollover: a link discovered in an earlier cycle but never turned into
+          // an article (drafting was over that cycle's budget, or failed) is
+          // re-offered as a candidate every cycle until it is drafted or ages out
+          // of the freshness window. Without this, anything beyond a cycle's draft
+          // cap was marked "seen" and silently lost forever — the root cause of
+          // missing coverage. Already-published events are filtered by the
+          // duplicate check below, so re-offering is safe.
+          const ageMs = Date.parse(priorDiscovery.publishedAt || link.publishedAt || "");
+          const inWindow = !Number.isFinite(ageMs) || Date.now() - ageMs <= maxCandidateAgeHours * 60 * 60 * 1000;
+          const undrafted = priorDiscovery.disposition === "candidate";
+          const canonical = priorDiscovery.canonicalUrl || link.url;
+          const title = priorDiscovery.title || link.anchor;
+          const alreadyStory = isDuplicate({ url: canonical, title }, [...storedArticles, ...newArticles]);
+          if (undrafted && inWindow && !alreadyStory && accepted < sourceLimit) {
+            accepted += 1;
+            sourceReport.accepted = accepted;
+            report.candidates.push({
+              source: source.name,
+              url: canonical,
+              title,
+              publishedAt: priorDiscovery.publishedAt || "",
+              imageStatus: "no-source-image",
+              rollover: true,
+            });
+          } else {
+            sourceReport.previouslySeen += 1;
+          }
           continue;
         }
         if (isDuplicate({ url: link.url, title: link.anchor }, [...storedArticles, ...newArticles])) {

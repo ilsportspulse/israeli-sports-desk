@@ -6,10 +6,18 @@
     "sectionUrl": "https://www.one.co.il/rss",
     "feedUrl": "https://www.one.co.il/rss",
     "integrationStatus": "live-rss",
-    "allowedHosts": ["sites.one.co.il", "www.one.co.il", "classic.one.co.il"],
-    "articleHints": ["/Mobile/Article/", "/Article/", "/article/"],
+    "allowedHosts": [
+      "sites.one.co.il",
+      "www.one.co.il",
+      "classic.one.co.il"
+    ],
+    "articleHints": [
+      "/Mobile/Article/",
+      "/Article/",
+      "/article/"
+    ],
     "priority": 100,
-    "maxPerRun": 10,
+    "maxPerRun": 500,
     "minimumDelayMs": 1400,
     "enabled": true,
     "rights": "metadata-and-short-original-summary",
@@ -21,9 +29,12 @@
     "homepage": "https://www.sport5.co.il/",
     "sectionUrl": "https://www.sport5.co.il/Homepage.aspx?FolderId=890",
     "feedUrl": "https://www.sport5.co.il/sitemap/articles/news-sitemap.xml",
-    "articleHints": ["/Articles.aspx", "/articles.aspx"],
+    "articleHints": [
+      "/Articles.aspx",
+      "/articles.aspx"
+    ],
     "priority": 95,
-    "maxPerRun": 10,
+    "maxPerRun": 500,
     "minimumDelayMs": 1400,
     "enabled": true,
     "rights": "metadata-and-short-original-summary",
@@ -35,9 +46,11 @@
     "homepage": "https://sports.walla.co.il/",
     "sectionUrl": "https://sports.walla.co.il/",
     "feedUrl": "https://sports.walla.co.il/sitemap/3/today.xml",
-    "articleHints": ["/item/"],
+    "articleHints": [
+      "/item/"
+    ],
     "priority": 70,
-    "maxPerRun": 5,
+    "maxPerRun": 500,
     "minimumDelayMs": 1400,
     "enabled": true,
     "rights": "metadata-and-short-original-summary",
@@ -48,9 +61,12 @@
     "name": "Ynet Sport",
     "homepage": "https://www.ynet.co.il/sport",
     "sectionUrl": "https://www.ynet.co.il/sport",
-    "articleHints": ["/sport/article/", "/yedioth/article/"],
+    "articleHints": [
+      "/sport/article/",
+      "/yedioth/article/"
+    ],
     "priority": 60,
-    "maxPerRun": 4,
+    "maxPerRun": 500,
     "minimumDelayMs": 1600,
     "enabled": true,
     "rights": "metadata-and-short-original-summary",
@@ -61,9 +77,11 @@
     "name": "Sport1 / Maariv",
     "homepage": "https://sport1.maariv.co.il/",
     "sectionUrl": "https://sport1.maariv.co.il/",
-    "articleHints": ["/article/"],
+    "articleHints": [
+      "/article/"
+    ],
     "priority": 60,
-    "maxPerRun": 4,
+    "maxPerRun": 500,
     "minimumDelayMs": 1600,
     "enabled": true,
     "rights": "metadata-and-short-original-summary",

@@ -21,7 +21,8 @@ let MAX_CANDIDATES = Math.max(1, Number(process.env.NEWSROOM_MAX_CANDIDATES ?? 6
 // CLI mode runs a full Claude Code agent loop (several web-search rounds + writing)
 // per article, which is thorough but slow. Give each draft a generous wall-clock
 // budget and a turn cap so it concludes instead of running forever.
-const DRAFT_TIMEOUT_MS = Math.max(60_000, Number(process.env.NEWSROOM_DRAFT_TIMEOUT_MS ?? 7 * 60 * 1000));
+const DRAFT_TIMEOUT_MS = Math.max(60_000, Number(process.env.NEWSROOM_DRAFT_TIMEOUT_MS ?? 5 * 60 * 1000));
+let DRAFT_CONCURRENCY = Math.max(1, Number(process.env.NEWSROOM_DRAFT_CONCURRENCY ?? 5));
 const DRAFT_MAX_TURNS = Math.max(8, Number(process.env.NEWSROOM_DRAFT_MAX_TURNS ?? 40));
 
 // Two ways to drive the newsroom, in priority order:
@@ -289,8 +290,14 @@ async function main() {
   const CONFIDENCE_MIN = typeof gates.confidenceThreshold === "number" ? gates.confidenceThreshold : 0.55;
   const NAMECHECK_MIN = typeof gates.namecheckThreshold === "number" ? gates.namecheckThreshold : 0.75;
   const AUTO_PUBLISH = gates.autoPublish === true;
-  if (typeof gates.maxCandidates === "number" && !process.env.NEWSROOM_MAX_CANDIDATES) {
-    MAX_CANDIDATES = Math.max(1, gates.maxCandidates);
+  // Backoffice settings win over the workflow env default so throughput stays
+  // editable without a workflow change: take the larger of the two. (The env
+  // default is a floor set by the Action; a higher backoffice value raises it.)
+  if (typeof gates.maxCandidates === "number") {
+    MAX_CANDIDATES = Math.max(MAX_CANDIDATES, gates.maxCandidates);
+  }
+  if (typeof gates.draftConcurrency === "number") {
+    DRAFT_CONCURRENCY = Math.max(DRAFT_CONCURRENCY, gates.draftConcurrency);
   }
   console.log(`Gates — confidence>=${CONFIDENCE_MIN}, namecheck>=${NAMECHECK_MIN}, autoPublish=${AUTO_PUBLISH}`);
 
@@ -352,7 +359,7 @@ async function main() {
   // Draft every candidate CONCURRENTLY (bounded), then process the results in order.
   // Concurrency turns N sequential slow drafts into roughly one draft's wall-clock,
   // so a cycle can publish several stories instead of one.
-  const draftConcurrency = Math.max(1, Number(process.env.NEWSROOM_DRAFT_CONCURRENCY ?? 5));
+  const draftConcurrency = DRAFT_CONCURRENCY;
   const drafted = await mapWithConcurrency(candidates, draftConcurrency, async (candidate) => {
     try {
       return { candidate, article: await draftAndVerify(candidate, todayIso) };
