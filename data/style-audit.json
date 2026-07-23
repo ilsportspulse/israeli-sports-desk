@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T21:36:25.545Z",
+  "generatedAt": "2026-07-23T22:46:04.869Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 276,
+    "publishedArticles": 279,
     "wordCount": {
       "minimum": 237,
       "maximum": 1070,
-      "median": 469.5,
-      "average": 484.6
+      "median": 469,
+      "average": 484.7
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 9,
-      "7": 54,
+      "7": 55,
       "8": 70,
       "9": 72,
-      "10": 46,
+      "10": 48,
       "11": 13,
       "12": 2,
       "13": 3,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 9,
-    "dominantParagraphShare": 0.261,
+    "dominantParagraphShare": 0.258,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 9,
     "analysisBelowTarget": 4,
@@ -410,6 +410,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260723-ludogorets-bulgarian-press-reaction",
+      "slug": "bulgarian-press-slams-ludogorets-after-hapoel-tel-aviv-defeat",
+      "title": "Bulgarian Press Turns on Ludogorets After Hapoel Tel Aviv Rout",
+      "kind": "news",
+      "words": 460,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 53,
+        "longest": 81,
+        "average": 65.7
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 55,
+        "average": 27.1
+      },
+      "lexicalDiversity": 0.607,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-23-beitar-fans-attacked-larnaca",
+      "slug": "beitar-jerusalem-fans-attacked-larnaca-cyprus",
+      "title": "Beitar Jerusalem Fans Attacked Outside Stadium Before Larnaca Clash",
+      "kind": "news",
+      "words": 463,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 28,
+        "longest": 96,
+        "average": 46.3
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 45,
+        "average": 27.2
+      },
+      "lexicalDiversity": 0.57,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260723-otamendi-argentina-retirement",
+      "slug": "otamendi-retires-argentina-national-team-world-cup-final",
+      "title": "Otamendi Bows Out of Argentina Duty After World Cup Final Heartbreak",
+      "kind": "news",
+      "words": 562,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 79,
+        "average": 56.2
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 57,
+        "average": 29.6
+      },
+      "lexicalDiversity": 0.521,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-20260723-belic-injury-maccabi",
       "slug": "belic-injured-substitute-maccabi-sheriff-tiraspol",

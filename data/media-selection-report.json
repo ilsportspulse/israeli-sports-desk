@@ -1,19 +1,30 @@
 {
   "selections": [
     {
-      "articleId": "live-20260723-belic-injury-maccabi",
-      "article": "Belić's Return Lasts Eight Minutes as Maccabi Rout Sheriff Tiraspol 5-0",
-      "file": "File:Kristijan Belić.jpg",
+      "articleId": "live-20260723-ludogorets-bulgarian-press-reaction",
+      "article": "Bulgarian Press Turns on Ludogorets After Hapoel Tel Aviv Rout",
+      "file": "File:Ludogorets Arena.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "articleId": "live-2026-07-23-beitar-fans-attacked-larnaca",
+      "article": "Beitar Jerusalem Fans Attacked Outside Stadium Before Larnaca Clash",
+      "file": "File:Soccer. Beitar Jerusalem (12359371595).jpg",
       "license": "CC BY 2.0"
     },
     {
-      "articleId": "live-2026-07-23-ozen-interim-coach-tiberias",
-      "article": "Tiberias Turns to Youth Chief Ozen After Head Coach Suspended in Saline-Drip Case",
-      "file": "File:Tiberias municipal football stadium by Bodek Architects.jpg",
-      "license": "CC BY-SA 3.0"
+      "articleId": "live-20260723-khalaili-training-return",
+      "article": "Khalaili Breaks Silence After Failed Inter Move: 'I've Played 99 Games, Finished Almost All of Them'",
+      "file": "File:Anan Khalaili Union 2025.jpg",
+      "license": "CC BY-SA 4.0"
     }
   ],
   "failures": [
+    {
+      "id": "live-20260723-otamendi-argentina-retirement",
+      "title": "Otamendi Bows Out of Argentina Duty After World Cup Final Heartbreak",
+      "error": "image download 429 after retries"
+    },
     {
       "id": "live-20260723-kiryat-yam-bognim-agbaria-signings",
       "title": "Kiryat Yam Add Bognim and Agbaria as They Aim for Another Playoff Push",
@@ -28,11 +39,6 @@
       "id": "live-20260723-beitar-larnaca-clean-sheet",
       "title": "Beitar Jerusalem Take Slender Lead to Europe After Carabalí's Free-Kick Sinks Ten-Man Larnaca",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
-    },
-    {
-      "id": "live-20260723-khalaili-training-return",
-      "title": "Khalaili Breaks Silence After Failed Inter Move: 'I've Played 99 Games, Finished Almost All of Them'",
-      "error": "image download 429 after retries"
     },
     {
       "id": "live-2026-07-23-ipfl-war-preparedness",
