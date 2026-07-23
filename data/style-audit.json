@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T21:41:49.153Z",
+  "generatedAt": "2026-07-23T00:05:02.431Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 225,
+    "publishedArticles": 229,
     "wordCount": {
       "minimum": 266,
       "maximum": 1070,
-      "median": 478,
-      "average": 495.1
+      "median": 477,
+      "average": 493.4
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 8,
-      "7": 46,
+      "7": 47,
       "8": 61,
-      "9": 52,
-      "10": 34,
+      "9": 54,
+      "10": 35,
       "11": 12,
       "12": 2,
       "13": 3,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.271,
+    "dominantParagraphShare": 0.266,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 8,
     "analysisBelowTarget": 1,
@@ -249,6 +249,90 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260722-manor-solomon-tottenham-preseason",
+      "slug": "manor-solomon-tottenham-preseason-lineup-surprise-return",
+      "title": "Manor Solomon Handed Surprise Start in Tottenham's Pre-Season Opener",
+      "kind": "news",
+      "words": 485,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 72,
+        "average": 48.5
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 68,
+        "average": 28.5
+      },
+      "lexicalDiversity": 0.565,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-22-maccabi-haifa-value-ranking",
+      "slug": "maccabi-haifa-most-valuable-club-ligat-haal-rankings",
+      "title": "Maccabi Haifa Rated Israel's Most Valuable Club in New Ligat Ha'al Rankings",
+      "kind": "article",
+      "words": 354,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 19,
+        "longest": 53,
+        "average": 39.3
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 53,
+        "average": 32.2
+      },
+      "lexicalDiversity": 0.602,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-22-rodri-real-madrid-kroos-successor",
+      "slug": "rodri-real-madrid-interest-kroos-successor",
+      "title": "Real Madrid Eye Rodri as Kroos's Long-Term Successor",
+      "kind": "news",
+      "words": 430,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 63,
+        "average": 47.8
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 53,
+        "average": 28.7
+      },
+      "lexicalDiversity": 0.535,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-22-iffe-lundberg-maccabi-contract",
+      "slug": "iffe-lundberg-new-contract-maccabi-tel-aviv",
+      "title": "Finals MVP Iffe Lundberg agrees new Maccabi Tel Aviv deal through 2028",
+      "kind": "news",
+      "words": 330,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 58,
+        "average": 47.1
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 49,
+        "average": 23.6
+      },
+      "lexicalDiversity": 0.618,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-07-22-seck-al-faisaly-snub",
       "slug": "seck-al-faisaly-maccabi-haifa-omitted",

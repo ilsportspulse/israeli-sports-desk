@@ -1,5 +1,63 @@
 [
   {
+    "ts": "2026-07-22T23:58:40.418Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 6,
+    "published": 4,
+    "review": 0,
+    "skipped": 2,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "iffe-lundberg-new-contract-maccabi-tel-aviv",
+        "title": "Finals MVP Iffe Lundberg agrees new Maccabi Tel Aviv deal through 2028",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "rodri-real-madrid-interest-kroos-successor",
+        "title": "Real Madrid Eye Rodri as Kroos's Long-Term Successor",
+        "confidence": 0.78,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "maccabi-haifa-most-valuable-club-ligat-haal-rankings",
+        "title": "Maccabi Haifa Rated Israel's Most Valuable Club in New Ligat Ha'al Rankings",
+        "confidence": 0.72,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "trump-wants-infantino-un-secretary-general",
+        "title": "Trump Wants FIFA's Infantino to Be Next UN Secretary-General, Report Says",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "manor-solomon-tottenham-preseason-lineup-surprise-return",
+        "title": "Manor Solomon Handed Surprise Start in Tottenham's Pre-Season Opener",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "url": "https://www.sport5.co.il/articles.aspx?FolderID=274&docID=553990",
+        "decision": "skipped",
+        "reason": "no valid article emitted"
+      }
+    ]
+  },
+  {
     "ts": "2026-07-22T21:34:16.399Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
