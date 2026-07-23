@@ -146,49 +146,49 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-23T03:56:23Z",
-    "validUntil": "2026-07-23T15:56:23Z",
+    "checkedAt": "2026-07-23T07:52:44Z",
+    "validUntil": "2026-07-23T19:52:44Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 79,
+        "maxAgeHours": 83,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-07-23-dembele-al-hilal-psg-contract",
+        "articleId": "live-2026-07-23-mbappe-olise-real-madrid",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 87,
+        "maxAgeHours": 91,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260723-abada-baribo-blorian-mls-roundup",
+        "articleId": "live-20260723-fulham-garcia-mastantuono",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 97,
+        "maxAgeHours": 101,
         "requires": [
           "column"
         ]
       },
       {
         "role": "archive",
-        "articleId": "archive-20260722-belgrade-7-april-1977-the-night-tal-brod",
+        "articleId": "archive-20260723-tel-aviv-1-may-2004-the-night-the-final-",
         "maxAgeHours": 53,
         "requires": [
           "historical-feature"
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260722-manor-solomon-tottenham-preseason",
+        "articleId": "live-2026-07-23-hapoel-haifa-agada-talks",
         "maxAgeHours": 24,
         "requires": []
       }
