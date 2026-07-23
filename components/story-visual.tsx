@@ -11,11 +11,14 @@ type StoryVisualProps = {
 
 export function StoryVisual({ theme, label, priority, image }: StoryVisualProps) {
   if (image) {
-    // Portrait photographs are almost always player/person shots: keep the
-    // face in frame by focusing the crop near the top. Landscape images
-    // (stadiums, action) stay centred.
+    // A backoffice-set focal point always wins. Otherwise: portrait photographs
+    // are almost always player/person shots — keep the face in frame by
+    // focusing near the top; landscape defaults slightly above centre so heads
+    // in action shots stay visible too.
     const isPortrait = Boolean(image.width && image.height && image.height > image.width * 1.02);
-    const focus = isPortrait ? "center 14%" : "center 45%";
+    const focus = image.focalPoint
+      ? `${image.focalPoint.x}% ${image.focalPoint.y}%`
+      : isPortrait ? "center 14%" : "center 32%";
     return (
       <figure className={`story-visual story-photo visual-${theme}`}>
         <Image
