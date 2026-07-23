@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T22:46:04.869Z",
+  "generatedAt": "2026-07-23T23:46:33.210Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 279,
+    "publishedArticles": 282,
     "wordCount": {
       "minimum": 237,
       "maximum": 1070,
       "median": 469,
-      "average": 484.7
+      "average": 483.9
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 9,
       "7": 55,
-      "8": 70,
+      "8": 72,
       "9": 72,
-      "10": 48,
+      "10": 49,
       "11": 13,
       "12": 2,
       "13": 3,
@@ -32,8 +32,8 @@
       "16": 1,
       "17": 3
     },
-    "dominantParagraphCount": 9,
-    "dominantParagraphShare": 0.258,
+    "dominantParagraphCount": 8,
+    "dominantParagraphShare": 0.255,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 9,
     "analysisBelowTarget": 4,
@@ -410,6 +410,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260723-beitar-jerusalem-camoranesi-credit",
+      "slug": "beitar-jerusalem-aek-larnaca-camoranesi-credit-win",
+      "title": "Camoranesi: Beitar Jerusalem \"deserve credit\" after taking their chance in Cyprus",
+      "kind": "article",
+      "words": 361,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 53,
+        "average": 45.1
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 46,
+        "average": 27.8
+      },
+      "lexicalDiversity": 0.609,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-23-maccabi-tel-aviv-foreign-players-europe-message",
+      "slug": "maccabi-tel-aviv-foreign-players-europe-message",
+      "title": "Maccabi Tel Aviv's message to its foreign players: secure Europe first, talk transfers later",
+      "kind": "news",
+      "words": 466,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 65,
+        "average": 46.6
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 56,
+        "average": 35.8
+      },
+      "lexicalDiversity": 0.605,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-23-sissokho-debut-goal-maccabi-sheriff",
+      "slug": "sissokho-debut-goal-maccabi-tel-aviv-sheriff-tiraspol",
+      "title": "Sissokho scores first Maccabi Tel Aviv goal as yellow-and-blue rout Sheriff Tiraspol 5-0",
+      "kind": "news",
+      "words": 390,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 68,
+        "average": 48.8
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 85,
+        "average": 35.5
+      },
+      "lexicalDiversity": 0.605,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260723-ludogorets-bulgarian-press-reaction",
       "slug": "bulgarian-press-slams-ludogorets-after-hapoel-tel-aviv-defeat",

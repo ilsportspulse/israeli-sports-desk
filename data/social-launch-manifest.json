@@ -146,14 +146,14 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-23T22:46:04Z",
-    "validUntil": "2026-07-24T10:46:04Z",
+    "checkedAt": "2026-07-23T23:46:32Z",
+    "validUntil": "2026-07-24T11:46:32Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 98,
+        "maxAgeHours": 99,
         "requires": [
           "matchRecap"
         ]
@@ -167,7 +167,7 @@
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 106,
+        "maxAgeHours": 107,
         "requires": [
           "basketballRecap"
         ]
@@ -181,7 +181,7 @@
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 116,
+        "maxAgeHours": 117,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260723-belic-injury-maccabi",
+        "articleId": "live-20260723-otamendi-argentina-retirement",
         "maxAgeHours": 24,
         "requires": []
       }
