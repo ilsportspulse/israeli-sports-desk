@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T20:09:19.119Z",
+  "generatedAt": "2026-07-23T21:36:25.545Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,16 +11,16 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 275,
+    "publishedArticles": 276,
     "wordCount": {
       "minimum": 237,
       "maximum": 1070,
-      "median": 470,
-      "average": 485.3
+      "median": 469.5,
+      "average": 484.6
     },
     "paragraphDistribution": {
       "5": 1,
-      "6": 8,
+      "6": 9,
       "7": 54,
       "8": 70,
       "9": 72,
@@ -33,9 +33,9 @@
       "17": 3
     },
     "dominantParagraphCount": 9,
-    "dominantParagraphShare": 0.262,
+    "dominantParagraphShare": 0.261,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 8,
+    "exactSixParagraphArticles": 9,
     "analysisBelowTarget": 4,
     "articlesWithStyleFlags": 16
   },
@@ -410,6 +410,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260723-belic-injury-maccabi",
+      "slug": "belic-injured-substitute-maccabi-sheriff-tiraspol",
+      "title": "Belić's Return Lasts Eight Minutes as Maccabi Rout Sheriff Tiraspol 5-0",
+      "kind": "news",
+      "words": 305,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 41,
+        "longest": 62,
+        "average": 50.8
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 48,
+        "average": 27.7
+      },
+      "lexicalDiversity": 0.685,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-20260723-gloukh-first-goal-ajax-vojvodina",
       "slug": "oscar-gloukh-first-goal-ajax-vojvodina-conference-league",

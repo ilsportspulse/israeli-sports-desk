@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-23T20:09:18Z",
-    "validUntil": "2026-07-24T08:09:18Z",
+    "checkedAt": "2026-07-23T21:36:25Z",
+    "validUntil": "2026-07-24T09:36:25Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 95,
+        "maxAgeHours": 97,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-07-23-hapoel-ludogorets-flare-stoppage",
+        "articleId": "live-20260723-belic-injury-maccabi",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 103,
+        "maxAgeHours": 104,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260723-gloukh-first-goal-ajax-vojvodina",
+        "articleId": "live-2026-07-23-hapoel-ludogorets-flare-stoppage",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 113,
+        "maxAgeHours": 115,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260723-avdija-nori-portland-blazers",
+        "articleId": "live-20260723-gloukh-first-goal-ajax-vojvodina",
         "maxAgeHours": 24,
         "requires": []
       }
