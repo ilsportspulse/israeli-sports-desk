@@ -1,7 +1,7 @@
 {
  "newsroom": {
   "enabled": true,
-  "maxCandidates": 30,
+  "maxCandidates": 12,
   "confidenceThreshold": 0.55,
   "namecheckThreshold": 0.75,
   "requireTwoFtSources": false,
