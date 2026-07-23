@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T11:46:22.564Z",
+  "generatedAt": "2026-07-23T13:26:11.737Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 254,
+    "publishedArticles": 258,
     "wordCount": {
       "minimum": 237,
       "maximum": 1070,
       "median": 475,
-      "average": 490.7
+      "average": 489.8
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 8,
-      "7": 50,
+      "7": 51,
       "8": 66,
-      "9": 64,
-      "10": 41,
+      "9": 66,
+      "10": 42,
       "11": 13,
       "12": 2,
       "13": 3,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.26,
+    "dominantParagraphShare": 0.256,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 8,
     "analysisBelowTarget": 3,
@@ -364,6 +364,90 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-23-ipfl-war-preparedness",
+      "slug": "israeli-league-ready-to-halt-play-again-war",
+      "title": "\"If We Need to Stop the League, We'll Stop It\": IPFL Chief on War Footing Ahead of New Season",
+      "kind": "news",
+      "words": 507,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 26,
+        "longest": 103,
+        "average": 56.3
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 64,
+        "average": 39
+      },
+      "lexicalDiversity": 0.58,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-23-kangwa-panathinaikos-interest",
+      "slug": "kings-kangwa-panathinaikos-transfer-interest-hapoel-beer-sheva",
+      "title": "Report: Panathinaikos Eye Hapoel Beer Sheva Star Kings Kangwa After AEK Talks Collapse",
+      "kind": "news",
+      "words": 452,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 22,
+        "longest": 75,
+        "average": 45.2
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 47,
+        "average": 25.1
+      },
+      "lexicalDiversity": 0.564,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260723-hapoel-tel-aviv-fans-convoy-ludogorets",
+      "slug": "hapoel-tel-aviv-fans-convoy-ludogorets-miskolc",
+      "title": "Red convoy: thousands of Hapoel Tel Aviv fans escorted to Hungary for Europe return",
+      "kind": "news",
+      "words": 306,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 53,
+        "average": 43.7
+      },
+      "sentenceWords": {
+        "shortest": 15,
+        "longest": 53,
+        "average": 38.3
+      },
+      "lexicalDiversity": 0.601,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-23-rodri-back-surgery",
+      "slug": "rodri-back-surgery-man-city-future-uncertain",
+      "title": "Rodri Set for Back Surgery as Man City Face Season Without Their Golden Ball Winner",
+      "kind": "news",
+      "words": 484,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 68,
+        "average": 53.8
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 43,
+        "average": 25.5
+      },
+      "lexicalDiversity": 0.574,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-07-23-beitar-larnaca-hotel-police",
       "slug": "beitar-jerusalem-larnaca-hotel-police-uefa-nothing-unusual",

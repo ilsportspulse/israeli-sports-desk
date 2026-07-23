@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-23T11:46:22Z",
-    "validUntil": "2026-07-23T23:46:22Z",
+    "checkedAt": "2026-07-23T13:26:11Z",
+    "validUntil": "2026-07-24T01:26:11Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 87,
+        "maxAgeHours": 88,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-07-23-beitar-larnaca-hotel-police",
+        "articleId": "live-20260723-hapoel-tel-aviv-fans-convoy-ludogorets",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 95,
+        "maxAgeHours": 96,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-07-23-adeyemi-barcelona",
+        "articleId": "live-2026-07-23-rodri-back-surgery",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 105,
+        "maxAgeHours": 106,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260723-beitar-larnaca-hotel-warning",
+        "articleId": "live-2026-07-23-beitar-larnaca-hotel-police",
         "maxAgeHours": 24,
         "requires": []
       }
