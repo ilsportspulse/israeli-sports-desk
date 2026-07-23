@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T15:50:23.103Z",
+  "generatedAt": "2026-07-23T17:25:27.247Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 262,
+    "publishedArticles": 266,
     "wordCount": {
       "minimum": 237,
       "maximum": 1070,
       "median": 474,
-      "average": 489.4
+      "average": 488.8
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 8,
-      "7": 51,
+      "7": 53,
       "8": 66,
-      "9": 68,
-      "10": 44,
+      "9": 69,
+      "10": 45,
       "11": 13,
       "12": 2,
       "13": 3,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 9,
-    "dominantParagraphShare": 0.26,
+    "dominantParagraphShare": 0.259,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 8,
     "analysisBelowTarget": 3,
@@ -364,6 +364,90 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260723-beitar-larnaca-conference-league",
+      "slug": "beitar-jerusalem-aek-larnaca-conference-league-first-leg",
+      "title": "Beitar Held Scoreless Through First Half of European Opener in Larnaca",
+      "kind": "news",
+      "words": 384,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 41,
+        "longest": 81,
+        "average": 54.9
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 47,
+        "average": 32
+      },
+      "lexicalDiversity": 0.573,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-23-carapaz-wins-tour-stage-18",
+      "slug": "carapaz-solo-attack-wins-tour-de-france-stage-18",
+      "title": "Carapaz Strikes Late to Win Tour de France Stage 18 in the Alps",
+      "kind": "news",
+      "words": 371,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 25,
+        "longest": 63,
+        "average": 41.2
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 57,
+        "average": 28.5
+      },
+      "lexicalDiversity": 0.62,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260723-olise-boateng-villa",
+      "slug": "olise-must-leave-boateng-villa-munich",
+      "title": "Olise Told to Vacate Boateng's Munich Villa by End of August",
+      "kind": "news",
+      "words": 344,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 68,
+        "average": 49.1
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 49,
+        "average": 31.3
+      },
+      "lexicalDiversity": 0.599,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "tour-20260723-carapaz-solos-to-orci-res-merlette-as-br",
+      "slug": "carapaz-solos-to-orci-res-merlette-as-breakaway-storms-the-alps",
+      "title": "Carapaz Solos to Orcières-Merlette as Breakaway Storms the Alps",
+      "kind": "news",
+      "words": 715,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 42,
+        "longest": 96,
+        "average": 71.5
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 63,
+        "average": 29.8
+      },
+      "lexicalDiversity": 0.515,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-07-23-stadium-shelter-readiness",
       "slug": "leagues-administration-demands-immediate-stadium-shelter-readiness",
