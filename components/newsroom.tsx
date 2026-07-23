@@ -36,7 +36,7 @@ type NewsroomProps = {
   locale?: LocaleCode;
 };
 
-const mainNav: { key: UiKey; href: string }[] = [
+const mainNav: { key: UiKey; href: string; label?: string }[] = [
   { key: "nav.home", href: "/" },
   { key: "nav.israeliSport", href: "/#latest" },
   { key: "nav.internationalSport", href: "/#international" },
@@ -44,6 +44,7 @@ const mainNav: { key: UiKey; href: string }[] = [
   { key: "nav.columns", href: "/#columns" },
   { key: "nav.quiz", href: "/#daily-quiz" },
   { key: "nav.about", href: "/about" },
+  { key: "nav.about", href: "/partners", label: "Partners" },
 ];
 
 function formatKickoff(value?: string | null) {
@@ -321,7 +322,7 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
           <nav className="desktop-nav" aria-label="Main navigation">
             {mainNav.map((item, index) => (
               <Link key={item.key} href={item.href} className={index === 0 ? "active" : ""}>
-                {tr(item.key)}
+                {item.label ?? tr(item.key)}
               </Link>
             ))}
           </nav>
@@ -373,7 +374,7 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
             <nav>
               {mainNav.map((item) => (
                 <Link key={item.key} href={item.href} onClick={() => setMenuOpen(false)}>
-                  {tr(item.key)} <ArrowIcon size={18} />
+                  {item.label ?? tr(item.key)} <ArrowIcon size={18} />
                 </Link>
               ))}
               <Link href="/scores" onClick={() => setMenuOpen(false)}>

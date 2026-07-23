@@ -1470,3 +1470,34 @@ html { scroll-behavior: smooth; }
 .route-progress.on { width: 92%; opacity: 1; transition: width 6s cubic-bezier(.05,.8,.2,1); }
 /* Competition badge shows a real league crest when supplied */
 .comp-hero-badge .team-crest { width: 40px; height: 40px; font-size: 13px; }
+
+/* Partnerships / sponsorship contact form (/partners) */
+.pc-form { max-width: 640px; display: flex; flex-direction: column; gap: 16px; }
+.pc-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.pc-field { display: flex; flex-direction: column; gap: 6px; }
+.pc-field label { font-size: 13px; font-weight: 700; color: var(--ink, #14213a); }
+.pc-field input, .pc-field select, .pc-field textarea {
+  font: inherit; font-size: 15px; padding: 11px 13px; border: 1px solid var(--line, #d7deea);
+  border-radius: 10px; background: #fff; color: #14213a; transition: border-color .15s ease, box-shadow .15s ease;
+}
+.pc-field input:focus, .pc-field select:focus, .pc-field textarea:focus {
+  outline: none; border-color: var(--a-blue, #1257f1); box-shadow: 0 0 0 3px rgba(18,87,241,.14);
+}
+.pc-field textarea { resize: vertical; min-height: 120px; line-height: 1.5; }
+.pc-actions { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+.pc-submit { font: inherit; font-weight: 800; font-size: 15px; color: #fff; background: var(--a-blue, #1257f1);
+  border: none; border-radius: 10px; padding: 12px 24px; cursor: pointer; transition: filter .15s ease; }
+.pc-submit:hover { filter: brightness(1.07); }
+.pc-submit:disabled { opacity: .6; cursor: default; }
+.pc-alt { font-size: 13.5px; color: var(--muted, #5a6b85); }
+.pc-alt a { color: var(--a-blue, #1257f1); font-weight: 700; }
+.pc-error { color: #c0392b; font-size: 14px; font-weight: 600; margin: 0; }
+.pc-privacy { font-size: 12.5px; color: var(--muted, #7a869c); margin: 4px 0 0; }
+.pc-sent { max-width: 640px; padding: 22px 24px; border: 1px solid #bcd9bc; background: #f4f9f4; border-radius: 12px; }
+.pc-sent h3 { margin: 0 0 8px; font-size: 18px; color: #14213a; }
+.pc-sent p { margin: 0; color: #3a4a63; line-height: 1.55; }
+:root[data-theme="dark"] .pc-field label { color: #e6edf7; }
+:root[data-theme="dark"] .pc-field input, :root[data-theme="dark"] .pc-field select, :root[data-theme="dark"] .pc-field textarea { background: #101a2e; border-color: #26344c; color: #e6edf7; }
+:root[data-theme="dark"] .pc-sent { background: #10241a; border-color: #234b34; }
+:root[data-theme="dark"] .pc-sent h3 { color: #e6edf7; } :root[data-theme="dark"] .pc-sent p { color: #b9c6da; }
+@media (max-width: 560px) { .pc-row { grid-template-columns: 1fr; } }
