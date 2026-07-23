@@ -1,67 +1,67 @@
 {
-  "date": "2026-07-22",
+  "date": "2026-07-23",
   "title": "The Daily Five",
-  "dek": "Five questions from this week's World Cup fallout, transfer records and Israeli clubs in Europe.",
+  "dek": "Five questions from this week's verified Israeli sports headlines — football comebacks, a basketball MVP's new deal, and a World Cup final for the ages.",
   "questions": [
     {
-      "question": "Argentina entered the 2026 World Cup final as defending champions but were beaten by which country at MetLife Stadium on July 19?",
+      "question": "Which club did Manor Solomon start for on the right wing in a 22 July 2026 pre-season friendly against MK Dons?",
       "answers": [
-        "Spain",
-        "France",
-        "Portugal",
-        "Brazil"
+        "Tottenham Hotspur",
+        "Fiorentina",
+        "Villarreal",
+        "Leeds United"
       ],
       "correctIndex": 0,
-      "explanation": "Spain won 1-0 after extra time, claiming their second World Cup title and first since 2010.",
-      "sourceUrl": "https://sport1.maariv.co.il/mundial-2026/article/1905702/"
+      "explanation": "Solomon started for Tottenham at Hotspur Way as they beat MK Dons 1-0, playing the first half before Roberto De Zerbi's mass substitutions.",
+      "sourceUrl": "https://www.sport5.co.il/articles.aspx?FolderID=252&docID=554039"
     },
     {
-      "question": "Chelsea broke the British transfer record this summer by signing Morgan Rogers from Aston Villa for £117 million. Which player's fee did that surpass as Chelsea's previous most expensive signing?",
+      "question": "Who scored the only goal, a third-minute volley, as Tottenham beat MK Dons 1-0 in pre-season?",
       "answers": [
-        "Moises Caicedo",
+        "Mateus Fernandes",
+        "Mathys Tel",
+        "Conor Gallagher",
+        "Manor Solomon"
+      ],
+      "correctIndex": 0,
+      "explanation": "Summer signing Mateus Fernandes volleyed home after MK Dons keeper Craig MacGillivray could only punch clear a Mathys Tel corner.",
+      "sourceUrl": "https://www.one.co.il/Article/528835.html"
+    },
+    {
+      "question": "Which Danish guard was named Finals MVP as Maccabi Tel Aviv won its 58th Israeli championship, and has now agreed a new contract to stay?",
+      "answers": [
+        "Iffe Lundberg",
+        "Oded Kattash",
+        "Kenny Miller",
+        "Roy Revivo"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lundberg averaged 14.1 points, 5.1 assists and 3.3 rebounds in the playoffs and was named Finals MVP as Maccabi beat Hapoel Tel Aviv 3-1.",
+      "sourceUrl": "https://www.sport5.co.il/articles.aspx?FolderID=274&docID=554077"
+    },
+    {
+      "question": "Which 19-year-old Barcelona and Spain centre-back was named FIFA's Young Player of the Tournament after Spain's extra-time win over Argentina in the 2026 World Cup final?",
+      "answers": [
+        "Pau Cubarsí",
+        "Ferran Torres",
         "Enzo Fernández",
-        "Romelu Lukaku",
-        "Nicolas Jackson"
+        "Marcos Senesi"
       ],
       "correctIndex": 0,
-      "explanation": "The £117m Rogers fee topped the £115m Chelsea paid for Moises Caicedo in 2023.",
-      "sourceUrl": "https://www.one.co.il/Article/528765.html"
+      "explanation": "Cubarsí led the final with six clearances and made a decisive late goal-line block as Spain won 1-0 after extra time.",
+      "sourceUrl": "https://www.one.co.il/Article/528836.html"
     },
     {
-      "question": "Which Israeli basketball club is competing with Partizan Belgrade to sign free-agent forward Wendell Moore Jr.?",
+      "question": "According to Sport5's new valuation model, which Ligat Ha'al club was ranked Israel's most valuable ahead of the new season?",
       "answers": [
-        "Hapoel Jerusalem",
+        "Maccabi Haifa",
         "Maccabi Tel Aviv",
-        "Hapoel Tel Aviv",
-        "Bnei Herzliya"
+        "Hapoel Be'er Sheva",
+        "Beitar Jerusalem"
       ],
       "correctIndex": 0,
-      "explanation": "Hapoel Jerusalem's pursuit of Moore, a 2022 first-round NBA draft pick, is now being challenged by Partizan Belgrade.",
-      "sourceUrl": "https://www.one.co.il/Article/528763.html"
-    },
-    {
-      "question": "Israel international Mohammed Abu Fani made his first European fixture since joining from Ferencváros while starting in central midfield for which club against Larne?",
-      "answers": [
-        "Red Star Belgrade",
-        "Partizan Belgrade",
-        "AEK Athens",
-        "Sporting CP"
-      ],
-      "correctIndex": 0,
-      "explanation": "Abu Fani started for Red Star Belgrade in their Champions League second qualifying round first leg at Larne, his first European match since his June 2026 move.",
-      "sourceUrl": "https://www.one.co.il/Article/528695.html"
-    },
-    {
-      "question": "Kings Kangwa scored to level the match for Hapoel Beer Sheva, but the Israeli side still lost their Champions League qualifier to which Icelandic club?",
-      "answers": [
-        "Víkingur Reykjavík",
-        "KR Reykjavík",
-        "Breidablik",
-        "Valur"
-      ],
-      "correctIndex": 0,
-      "explanation": "Nikolaj Hansen scored twice for Víkingur Reykjavík, either side of Kangwa's equalizer, as Beer Sheva fell 2-1 in the first leg.",
-      "sourceUrl": "https://www.sport5.co.il/articles.aspx?FolderID=398&docID=553954"
+      "explanation": "Maccabi Haifa topped the rankings at an estimated €83.8 million, just ahead of Maccabi Tel Aviv's €79.85 million.",
+      "sourceUrl": "https://site.sport5.co.il/bsPziozki"
     }
   ]
 }

@@ -1,5 +1,53 @@
 [
   {
+    "ts": "2026-07-23T03:49:20.252Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 4,
+    "published": 3,
+    "review": 1,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "abada-baribo-blorian-israelis-abroad-mls-night",
+        "title": "Abada Nets a Brace, Baribo Strikes Late as Blorian Tastes First MLS Win",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "tiberias-youth-lineup-threat-points-deduction",
+        "title": "Tiberias Warns It Will Field an All-Youth Side If Hit With Any Further Points Deduction",
+        "confidence": 0.75,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "maccabi-netanya-nwachukwu-loan-sheffield-united",
+        "title": "Maccabi Netanya close to loan deal for Sheffield United winger Nwachukwu",
+        "confidence": 0.75,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Deal not yet finalized or officially confirmed by either club; loan-with-option structure, agent name and the Aouatrah/Niron club-context details rest on the single Sport5 report."
+      },
+      {
+        "slug": "dembele-al-hilal-psg-contract-standoff",
+        "title": "Al-Hilal Make Surprise Move for Dembélé as PSG Contract Talks Stall",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-07-22T23:58:40.418Z",
     "mode": "cli",
     "model": "claude-sonnet-5",

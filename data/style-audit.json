@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T00:05:02.431Z",
+  "generatedAt": "2026-07-23T03:56:24.039Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 229,
+    "publishedArticles": 233,
     "wordCount": {
       "minimum": 266,
       "maximum": 1070,
-      "median": 477,
-      "average": 493.4
+      "median": 478,
+      "average": 494.1
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 8,
       "7": 47,
-      "8": 61,
-      "9": 54,
-      "10": 35,
+      "8": 62,
+      "9": 56,
+      "10": 36,
       "11": 12,
       "12": 2,
       "13": 3,
@@ -37,9 +37,32 @@
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 8,
     "analysisBelowTarget": 1,
-    "articlesWithStyleFlags": 9
+    "articlesWithStyleFlags": 10
   },
   "flagged": [
+    {
+      "id": "live-2026-07-23-tiberias-youth-threat",
+      "slug": "tiberias-youth-lineup-threat-points-deduction",
+      "title": "Tiberias Warns It Will Field an All-Youth Side If Hit With Any Further Points Deduction",
+      "kind": "article",
+      "words": 616,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 99,
+        "average": 61.6
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 112,
+        "average": 36.2
+      },
+      "lexicalDiversity": 0.547,
+      "publisherAttributions": 2,
+      "flags": [
+        "publisher-attribution-heavy:2"
+      ]
+    },
     {
       "id": "live-2026-07-22-lundberg-maccabi-extension",
       "slug": "iffe-lundberg-maccabi-tel-aviv-contract-extension",
@@ -249,6 +272,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-23-dembele-al-hilal-psg-contract",
+      "slug": "dembele-al-hilal-psg-contract-standoff",
+      "title": "Al-Hilal Make Surprise Move for Dembélé as PSG Contract Talks Stall",
+      "kind": "news",
+      "words": 398,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 43,
+        "longest": 55,
+        "average": 49.8
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 43,
+        "average": 23.4
+      },
+      "lexicalDiversity": 0.593,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260723-abada-baribo-blorian-mls-roundup",
+      "slug": "abada-baribo-blorian-israelis-abroad-mls-night",
+      "title": "Abada Nets a Brace, Baribo Strikes Late as Blorian Tastes First MLS Win",
+      "kind": "news",
+      "words": 523,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 43,
+        "longest": 70,
+        "average": 58.1
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 62,
+        "average": 27.5
+      },
+      "lexicalDiversity": 0.568,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "archive-20260723-tel-aviv-1-may-2004-the-night-the-final-",
+      "slug": "tel-aviv-1-may-2004-the-night-the-final-four-broke-the-scoreboard",
+      "title": "Tel Aviv, 1 May 2004: The Night the Final Four Broke the Scoreboard",
+      "kind": "explainer",
+      "words": 586,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 57,
+        "longest": 81,
+        "average": 65.1
+      },
+      "sentenceWords": {
+        "shortest": 3,
+        "longest": 63,
+        "average": 34.5
+      },
+      "lexicalDiversity": 0.568,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260722-manor-solomon-tottenham-preseason",
       "slug": "manor-solomon-tottenham-preseason-lineup-surprise-return",
