@@ -1,5 +1,82 @@
 [
   {
+    "ts": "2026-07-23T15:43:59.586Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 8,
+    "published": 4,
+    "review": 3,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "alona-barkat-iron-lady-kangwa-transfer-standoff",
+        "title": "Israeli football's 'Iron Lady' won't blink in the Kangwa transfer stand-off",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "beitar-jerusalem-tisha-bav-prayer-before-larnaca",
+        "title": "Beitar Jerusalem Players Pause for Tisha B'Av Prayer Hours Before Larnaca Test",
+        "confidence": 0.8,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Rabbi Raskin and Rabbi Ami Faikovsky are named only in the ONE source and could not be independently cross-checked; the match result is not yet known as this is a pre-match report."
+      },
+      {
+        "slug": "beitar-jerusalem-starting-xi-aek-larnaca-conference-league",
+        "title": "Shua and Atzili start as Beitar Jerusalem open European campaign in Cyprus",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "arsenal-sign-tzolis-garnacho-joins-aston-villa",
+        "title": "Arsenal Land Tzolis in Belgian-Record Deal as Garnacho Quits Chelsea for Aston Villa After a Year",
+        "confidence": 0.9,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "mls-investigates-inter-miami-beckham-casemiro-tampering",
+        "title": "MLS Opens Tampering Investigation Into Inter Miami Over Casemiro Signing",
+        "confidence": 0.9,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "leagues-administration-demands-immediate-stadium-shelter-readiness",
+        "title": "Leagues Administration Orders Clubs to Ready Stadium Shelters Ahead of New Season",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "kibedy-gordon-warns-quinonez-gfn1",
+        "title": "Kibedy Gordon's Warning to His Rival: \"You're Going Down\"",
+        "confidence": 0.82,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Opponent's surname appears variously as \"Quiñones\"/\"Quiñonez\" across sources, and the main-event opponent is confirmed only by the surname \"Lineker\" in fight-card listings."
+      },
+      {
+        "slug": "tiberias-injections-affair-three-legal-tracks-explained",
+        "title": "Sorting Out the Tiberias Affair: The Three Fronts of Israeli Football's Injections Scandal",
+        "confidence": 0.82,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Player and staff name transliterations vary slightly across Hebrew outlets (e.g. Hudda/Houdda, Kaltin/Kaltines, Gutlieb/Gotlieb, Tafer/Tapper); owner \"Miki Bitan\" is named only by ONE among sources checked, distinct from Doroth Group chairman Aryeh Kalmanzon, who is the club's better-documented public face."
+      }
+    ]
+  },
+  {
     "ts": "2026-07-23T13:18:53.208Z",
     "mode": "cli",
     "model": "claude-sonnet-5",

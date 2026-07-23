@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T13:26:11.737Z",
+  "generatedAt": "2026-07-23T15:50:23.103Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 258,
+    "publishedArticles": 262,
     "wordCount": {
       "minimum": 237,
       "maximum": 1070,
-      "median": 475,
-      "average": 489.8
+      "median": 474,
+      "average": 489.4
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 8,
       "7": 51,
       "8": 66,
-      "9": 66,
-      "10": 42,
+      "9": 68,
+      "10": 44,
       "11": 13,
       "12": 2,
       "13": 3,
@@ -32,8 +32,8 @@
       "16": 1,
       "17": 3
     },
-    "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.256,
+    "dominantParagraphCount": 9,
+    "dominantParagraphShare": 0.26,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 8,
     "analysisBelowTarget": 3,
@@ -364,6 +364,90 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-23-stadium-shelter-readiness",
+      "slug": "leagues-administration-demands-immediate-stadium-shelter-readiness",
+      "title": "Leagues Administration Orders Clubs to Ready Stadium Shelters Ahead of New Season",
+      "kind": "news",
+      "words": 344,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 51,
+        "average": 38.2
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 51,
+        "average": 34.4
+      },
+      "lexicalDiversity": 0.61,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-23-mls-investigates-miami-casemiro-tampering",
+      "slug": "mls-investigates-inter-miami-beckham-casemiro-tampering",
+      "title": "MLS Opens Tampering Investigation Into Inter Miami Over Casemiro Signing",
+      "kind": "news",
+      "words": 394,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 22,
+        "longest": 49,
+        "average": 39.4
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 84,
+        "average": 32.8
+      },
+      "lexicalDiversity": 0.579,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-23-arsenal-tzolis-garnacho-villa",
+      "slug": "arsenal-sign-tzolis-garnacho-joins-aston-villa",
+      "title": "Arsenal Land Tzolis in Belgian-Record Deal as Garnacho Quits Chelsea for Aston Villa After a Year",
+      "kind": "news",
+      "words": 455,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 25,
+        "longest": 70,
+        "average": 45.5
+      },
+      "sentenceWords": {
+        "shortest": 15,
+        "longest": 63,
+        "average": 35
+      },
+      "lexicalDiversity": 0.615,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260723-barkat-iron-lady-kangwa",
+      "slug": "alona-barkat-iron-lady-kangwa-transfer-standoff",
+      "title": "Israeli football's 'Iron Lady' won't blink in the Kangwa transfer stand-off",
+      "kind": "article",
+      "words": 643,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 52,
+        "longest": 90,
+        "average": 71.4
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 59,
+        "average": 30.6
+      },
+      "lexicalDiversity": 0.538,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-07-23-ipfl-war-preparedness",
       "slug": "israeli-league-ready-to-halt-play-again-war",
