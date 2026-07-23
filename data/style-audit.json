@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T18:54:35.113Z",
+  "generatedAt": "2026-07-23T20:09:19.119Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 270,
+    "publishedArticles": 275,
     "wordCount": {
       "minimum": 237,
       "maximum": 1070,
-      "median": 473,
-      "average": 487.4
+      "median": 470,
+      "average": 485.3
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 8,
-      "7": 53,
-      "8": 68,
-      "9": 71,
-      "10": 45,
+      "7": 54,
+      "8": 70,
+      "9": 72,
+      "10": 46,
       "11": 13,
       "12": 2,
       "13": 3,
@@ -33,13 +33,36 @@
       "17": 3
     },
     "dominantParagraphCount": 9,
-    "dominantParagraphShare": 0.263,
+    "dominantParagraphShare": 0.262,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 8,
     "analysisBelowTarget": 4,
-    "articlesWithStyleFlags": 15
+    "articlesWithStyleFlags": 16
   },
   "flagged": [
+    {
+      "id": "live-2026-07-23-hapoel-ludogorets-flare-stoppage",
+      "slug": "hapoel-tel-aviv-ludogorets-flare-stoppage",
+      "title": "Flares Halt Hapoel Tel Aviv's Long-Awaited European Return",
+      "kind": "news",
+      "words": 342,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 55,
+        "average": 42.8
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 55,
+        "average": 26.3
+      },
+      "lexicalDiversity": 0.567,
+      "publisherAttributions": 2,
+      "flags": [
+        "publisher-attribution-heavy:2"
+      ]
+    },
     {
       "id": "live-20260723-avdija-nori-portland-blazers",
       "slug": "deni-avdija-progress-key-micah-nori-blazers-season",
@@ -387,6 +410,90 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260723-gloukh-first-goal-ajax-vojvodina",
+      "slug": "oscar-gloukh-first-goal-ajax-vojvodina-conference-league",
+      "title": "Gloukh Opens His Season's Account as Ajax Rout Vojvodina 4-1",
+      "kind": "news",
+      "words": 338,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 27,
+        "longest": 53,
+        "average": 42.3
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 50,
+        "average": 28.2
+      },
+      "lexicalDiversity": 0.609,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260723-kiryat-yam-bognim-agbaria-signings",
+      "slug": "kiryat-yam-sign-bognim-agbaria",
+      "title": "Kiryat Yam Add Bognim and Agbaria as They Aim for Another Playoff Push",
+      "kind": "article",
+      "words": 371,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 18,
+        "longest": 73,
+        "average": 53
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 52,
+        "average": 33.7
+      },
+      "lexicalDiversity": 0.582,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260723-maccabi-sheriff-tiraspol-rout",
+      "slug": "maccabi-tel-aviv-sheriff-tiraspol-europa-league-5-0",
+      "title": "Maccabi Tel Aviv Thrash Sheriff Tiraspol 5-0 to Open European Campaign",
+      "kind": "news",
+      "words": 351,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 22,
+        "longest": 51,
+        "average": 35.1
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 101,
+        "average": 39
+      },
+      "lexicalDiversity": 0.595,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260723-beitar-larnaca-clean-sheet",
+      "slug": "beitar-jerusalem-clean-sheet-win-aek-larnaca-conference-league",
+      "title": "Beitar Jerusalem Take Slender Lead to Europe After Carabalí's Free-Kick Sinks Ten-Man Larnaca",
+      "kind": "article",
+      "words": 438,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 41,
+        "longest": 56,
+        "average": 48.7
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 50,
+        "average": 33.7
+      },
+      "lexicalDiversity": 0.616,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-07-23-asante-lecce-gandelman-interest",
       "slug": "asante-lecce-monza-kasimpasa-interest-gandelman",

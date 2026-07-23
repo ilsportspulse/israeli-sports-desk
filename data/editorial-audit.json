@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T18:54:34.912Z",
+  "generatedAt": "2026-07-23T20:09:18.868Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,59 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 365,
-    "publishedBefore": 270,
-    "cleanPublished": 270,
+    "totalArticles": 370,
+    "publishedBefore": 275,
+    "cleanPublished": 275,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 270,
+    "publishedAfter": 275,
     "reviewAfter": 95
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-2026-07-23-hapoel-ludogorets-flare-stoppage",
+      "slug": "hapoel-tel-aviv-ludogorets-flare-stoppage",
+      "title": "Flares Halt Hapoel Tel Aviv's Long-Awaited European Return",
+      "statusBefore": "published",
+      "words": 343,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260723-gloukh-first-goal-ajax-vojvodina",
+      "slug": "oscar-gloukh-first-goal-ajax-vojvodina-conference-league",
+      "title": "Gloukh Opens His Season's Account as Ajax Rout Vojvodina 4-1",
+      "statusBefore": "published",
+      "words": 341,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260723-kiryat-yam-bognim-agbaria-signings",
+      "slug": "kiryat-yam-sign-bognim-agbaria",
+      "title": "Kiryat Yam Add Bognim and Agbaria as They Aim for Another Playoff Push",
+      "statusBefore": "published",
+      "words": 371,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
     {
       "id": "live-20260723-avdija-nori-portland-blazers",
       "slug": "deni-avdija-progress-key-micah-nori-blazers-season",
@@ -55,6 +98,20 @@
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-23-sheriff-maccabi-europa-league",
+      "slug": "sheriff-tiraspol-maccabi-tel-aviv-europa-league-qualifier",
+      "title": "Maccabi Tel Aviv Storm to 5-0 Lead at Sheriff Tiraspol in Europa League Opener",
+      "statusBefore": "review",
+      "words": 382,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
     },
@@ -2972,6 +3029,73 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-07-23-hapoel-ludogorets-flare-stoppage",
+      "slug": "hapoel-tel-aviv-ludogorets-flare-stoppage",
+      "title": "Flares Halt Hapoel Tel Aviv's Long-Awaited European Return",
+      "statusBefore": "published",
+      "words": 343,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260723-gloukh-first-goal-ajax-vojvodina",
+      "slug": "oscar-gloukh-first-goal-ajax-vojvodina-conference-league",
+      "title": "Gloukh Opens His Season's Account as Ajax Rout Vojvodina 4-1",
+      "statusBefore": "published",
+      "words": 341,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260723-kiryat-yam-bognim-agbaria-signings",
+      "slug": "kiryat-yam-sign-bognim-agbaria",
+      "title": "Kiryat Yam Add Bognim and Agbaria as They Aim for Another Playoff Push",
+      "statusBefore": "published",
+      "words": 371,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-20260723-maccabi-sheriff-tiraspol-rout",
+      "slug": "maccabi-tel-aviv-sheriff-tiraspol-europa-league-5-0",
+      "title": "Maccabi Tel Aviv Thrash Sheriff Tiraspol 5-0 to Open European Campaign",
+      "statusBefore": "published",
+      "words": 352,
+      "paragraphs": 10,
+      "facts": 5,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260723-beitar-larnaca-clean-sheet",
+      "slug": "beitar-jerusalem-clean-sheet-win-aek-larnaca-conference-league",
+      "title": "Beitar Jerusalem Take Slender Lead to Europe After Carabalí's Free-Kick Sinks Ten-Man Larnaca",
+      "statusBefore": "published",
+      "words": 442,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-20260723-avdija-nori-portland-blazers",
       "slug": "deni-avdija-progress-key-micah-nori-blazers-season",
