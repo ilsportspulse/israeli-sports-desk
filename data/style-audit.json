@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T09:28:29.774Z",
+  "generatedAt": "2026-07-23T11:46:22.564Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,21 +11,21 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 251,
+    "publishedArticles": 254,
     "wordCount": {
       "minimum": 237,
       "maximum": 1070,
-      "median": 476,
-      "average": 490.9
+      "median": 475,
+      "average": 490.7
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 8,
       "7": 50,
       "8": 66,
-      "9": 63,
-      "10": 40,
-      "11": 12,
+      "9": 64,
+      "10": 41,
+      "11": 13,
       "12": 2,
       "13": 3,
       "14": 2,
@@ -33,13 +33,36 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.263,
+    "dominantParagraphShare": 0.26,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 8,
-    "analysisBelowTarget": 2,
-    "articlesWithStyleFlags": 13
+    "analysisBelowTarget": 3,
+    "articlesWithStyleFlags": 14
   },
   "flagged": [
+    {
+      "id": "live-20260723-maccabi-driks-sheriff-warning",
+      "slug": "eli-driks-warns-maccabi-tel-aviv-sheriff-tiraspol-not-a-formality",
+      "title": "Driks Warns Maccabi Tel Aviv: Win Tonight Isn't Enough, Sheriff Are No Pushover",
+      "kind": "analysis",
+      "words": 579,
+      "paragraphs": 11,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 73,
+        "average": 52.6
+      },
+      "sentenceWords": {
+        "shortest": 18,
+        "longest": 79,
+        "average": 38.6
+      },
+      "lexicalDiversity": 0.53,
+      "publisherAttributions": 1,
+      "flags": [
+        "below-editorial-target:579/650"
+      ]
+    },
     {
       "id": "live-2026-07-23-mbappe-olise-real-madrid",
       "slug": "mbappe-lobbying-olise-real-madrid-transfer",
@@ -341,6 +364,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-23-beitar-larnaca-hotel-police",
+      "slug": "beitar-jerusalem-larnaca-hotel-police-uefa-nothing-unusual",
+      "title": "Beitar spokesman: police told UEFA nothing unusual happened in Larnaca",
+      "kind": "news",
+      "words": 391,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 26,
+        "longest": 61,
+        "average": 43.4
+      },
+      "sentenceWords": {
+        "shortest": 13,
+        "longest": 61,
+        "average": 35.5
+      },
+      "lexicalDiversity": 0.634,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-23-adeyemi-barcelona",
+      "slug": "karim-adeyemi-signs-fc-barcelona-borussia-dortmund",
+      "title": "Karim Adeyemi Completes Move to Barcelona from Borussia Dortmund",
+      "kind": "news",
+      "words": 437,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 63,
+        "average": 43.7
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 46,
+        "average": 27.3
+      },
+      "lexicalDiversity": 0.6,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-20260723-beitar-larnaca-hotel-warning",
       "slug": "beitar-larnaca-hotel-graffiti-noise-cannabis-warning",
