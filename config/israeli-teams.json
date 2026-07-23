@@ -1,0 +1,25 @@
+{
+  "note": "Israeli clubs + national teams tracked for the homepage Live & Upcoming / agenda. Each team's fixtures are pulled directly from TheSportsDB by team id (eventsnext + eventslast), so EVERY match is captured — domestic AND European (UEFA Champions/Europa/Conference League, EuroLeague, EuroCup, BCL, FIBA Europe Cup, EHF, etc.) — across all sports. Maintain per season via the operate-ilsp-live-agenda skill. europe=true means a regular European participant (used only for labelling; all matches are shown regardless).",
+  "teams": [
+    { "id": "134315", "name": "Maccabi Tel Aviv", "sport": "Football", "europe": true },
+    { "id": "134400", "name": "Maccabi Haifa", "sport": "Football", "europe": true },
+    { "id": "135992", "name": "Beitar Jerusalem", "sport": "Football", "europe": true },
+    { "id": "134124", "name": "Hapoel Tel Aviv", "sport": "Football", "europe": true },
+    { "id": "141235", "name": "Hapoel Jerusalem", "sport": "Football", "europe": true },
+    { "id": "134087", "name": "Maccabi Netanya", "sport": "Football", "europe": true },
+    { "id": "135995", "name": "Hapoel Haifa", "sport": "Football", "europe": false },
+    { "id": "135991", "name": "F.C. Ashdod", "sport": "Football", "europe": false },
+    { "id": "135994", "name": "Bnei Sakhnin", "sport": "Football", "europe": false },
+    { "id": "141801", "name": "Maccabi Bnei Reineh", "sport": "Football", "europe": false },
+    { "id": "135931", "name": "Israel", "sport": "Football", "europe": true },
+    { "id": "136065", "name": "Maccabi Tel Aviv BC", "sport": "Basketball", "europe": true },
+    { "id": "136059", "name": "Hapoel Tel Aviv BC", "sport": "Basketball", "europe": true },
+    { "id": "136334", "name": "Hapoel Beer Sheva BC", "sport": "Basketball", "europe": true },
+    { "id": "136064", "name": "Maccabi Rishon LeZion", "sport": "Basketball", "europe": true },
+    { "id": "136058", "name": "Hapoel Holon", "sport": "Basketball", "europe": true },
+    { "id": "136055", "name": "Bnei Herzliya", "sport": "Basketball", "europe": true },
+    { "id": "142793", "name": "Maccabi Tel Aviv Handball", "sport": "Handball", "europe": true },
+    { "id": "142820", "name": "Maccabi Rishon LeZion Handball", "sport": "Handball", "europe": true },
+    { "id": "140588", "name": "Israel Handball", "sport": "Handball", "europe": true }
+  ]
+}

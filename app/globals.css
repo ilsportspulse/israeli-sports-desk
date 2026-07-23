@@ -1242,11 +1242,18 @@ a:hover .story-photo .story-photo-image { transform: scale(1.006); }
 
 /* ==== Thin one-line scores strip (top of page) ==== */
 .score-strip { background: var(--navy); border-bottom: 1px solid rgba(255,255,255,.08); }
-.score-strip-inner { display: flex; align-items: stretch; overflow-x: auto; height: 58px; scrollbar-width: none; }
+.score-strip-inner { display: flex; align-items: stretch; overflow-x: auto; height: 74px; scrollbar-width: none; }
 .score-strip-inner::-webkit-scrollbar { display: none; }
 .score-strip .sb-label { display: flex; align-items: center; gap: 7px; padding-right: 15px; color: #fff; font-weight: 800; font-size: 11px; letter-spacing: .05em; text-transform: uppercase; flex: none; border-right: 1px solid rgba(255,255,255,.12); }
 .score-strip .sb-label .status-dot { background: var(--live, #ff5a4d); }
-.score-strip .sb-game { display: flex; flex-direction: column; justify-content: center; gap: 3px; padding: 0 16px; min-width: 158px; flex: none; border-right: 1px solid rgba(255,255,255,.1); text-decoration: none; }
+.score-strip .sb-game { display: flex; flex-direction: column; justify-content: center; gap: 4px; padding: 9px 16px; min-width: 190px; flex: none; border-right: 1px solid rgba(255,255,255,.1); text-decoration: none; transition: background .15s ease; }
+.score-strip .sb-game:hover { background: rgba(255,255,255,.05); }
+.score-strip .sb-game.is-live { background: linear-gradient(180deg, rgba(255,90,77,.10), transparent); }
+.score-strip .sb-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 1px; }
+.score-strip .sb-comp { display: flex; align-items: center; gap: 5px; font-size: 9.5px; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; color: #9fb2d0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 118px; }
+.score-strip .sb-comp-ico { font-size: 10px; filter: grayscale(.15); }
+.score-strip .sb-live-dot { display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: #ff5a4d; margin-right: 4px; box-shadow: 0 0 0 0 rgba(255,90,77,.7); animation: sbLivePulse 1.6s infinite; vertical-align: middle; }
+@keyframes sbLivePulse { 0% { box-shadow: 0 0 0 0 rgba(255,90,77,.6);} 70% { box-shadow: 0 0 0 5px rgba(255,90,77,0);} 100% { box-shadow: 0 0 0 0 rgba(255,90,77,0);} }
 .score-strip .sb-status { font-size: 9.5px; font-weight: 800; text-transform: uppercase; }
 .score-strip .sb-status.live { color: #ff8078; }
 .score-strip .sb-status.up, .score-strip .sb-status.ft { color: #8ea3c4; }

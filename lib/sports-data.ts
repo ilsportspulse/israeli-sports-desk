@@ -1,3 +1,4 @@
+import israeliTeamsConfig from "@/config/israeli-teams.json";
 import { teamLogo } from "@/config/team-logos";
 import { competitionPriority } from "@/lib/competition-priority";
 import {
@@ -710,15 +711,96 @@ async function mergeSofaScore(base: ScoreCentreData): Promise<ScoreCentreData> {
   }
 }
 
+// ---------------------------------------------------------------------------
+// Israeli-team agenda: EVERY match involving an Israeli club or national team,
+// across ALL sports and ALL competitions — crucially the European ties (UEFA
+// Champions/Europa/Conference League, EuroLeague, EuroCup, BCL, FIBA Europe
+// Cup, EHF, …) that the domestic-league feeds never contain. Each team's own
+// schedule is pulled directly from TheSportsDB by team id, so nothing an
+// Israeli team plays is ever missing. This is what powers the homepage
+// "Live & Upcoming" board and doubles as the reader's agenda.
+// Maintain the roster in config/israeli-teams.json (see the live-agenda skill).
+// ---------------------------------------------------------------------------
+type IsraeliTeam = { id: string; name: string; sport: string; europe?: boolean };
+const israeliTeams = (israeliTeamsConfig as { teams: IsraeliTeam[] }).teams;
+
+// A stable key for a fixture so the same match discovered from two teams (or
+// from a domestic feed) is never listed twice.
+function eventKey(event: ScoreEvent): string {
+  const day = (event.startTime ?? "").slice(0, 10);
+  const teams = [event.home, event.away].map((t) => (t ?? "").toLowerCase().replace(/[^a-z0-9]/g, "")).sort().join("-");
+  return `${event.sport.toLowerCase()}|${teams}|${day}`;
+}
+
+async function israeliTeamAgenda(): Promise<{ live: ScoreEvent[]; fixtures: ScoreEvent[]; recent: ScoreEvent[] }> {
+  const perTeam = await Promise.all(
+    israeliTeams.map(async (team) => {
+      try {
+        const [next, last] = await Promise.all([
+          sportsDbJson<{ events?: SportsDbEvent[] | null }>(`eventsnext.php?id=${team.id}`).catch(() => ({ events: [] })),
+          sportsDbJson<{ events?: SportsDbEvent[] | null }>(`eventslast.php?id=${team.id}`).catch(() => ({ events: [] })),
+        ]);
+        return [...(next.events ?? []), ...(last.events ?? [])].map(mapSportsDbEvent);
+      } catch {
+        return [] as ScoreEvent[];
+      }
+    }),
+  );
+
+  const byKey = new Map<string, ScoreEvent>();
+  for (const event of perTeam.flat()) {
+    const key = eventKey(event);
+    // Prefer a LIVE/FT record (has a score/clock) over a bare SCHEDULED one.
+    const existing = byKey.get(key);
+    if (!existing || (existing.status === "SCHEDULED" && event.status !== "SCHEDULED")) byKey.set(key, event);
+  }
+  const all = Array.from(byKey.values());
+  const now = Date.now();
+  return {
+    live: all.filter((e) => e.status === "LIVE"),
+    fixtures: all
+      .filter((e) => e.status === "SCHEDULED" && (!e.startTime || new Date(e.startTime).getTime() >= now - 3 * 60 * 60 * 1000))
+      .sort((a, b) => new Date(a.startTime ?? 0).getTime() - new Date(b.startTime ?? 0).getTime()),
+    recent: all
+      .filter((e) => e.status === "FT")
+      .sort((a, b) => new Date(b.startTime ?? 0).getTime() - new Date(a.startTime ?? 0).getTime()),
+  };
+}
+
+// Fold the Israeli-team agenda into whatever the primary provider returned, so
+// European ties always appear even when the base feed only has domestic leagues.
+async function mergeAgenda(base: ScoreCentreData): Promise<ScoreCentreData> {
+  let agenda: { live: ScoreEvent[]; fixtures: ScoreEvent[]; recent: ScoreEvent[] };
+  try {
+    agenda = await israeliTeamAgenda();
+  } catch {
+    return base;
+  }
+  const seen = new Set([...base.live, ...base.fixtures].map(eventKey));
+  const addUnique = (existing: ScoreEvent[], extra: ScoreEvent[]) => {
+    const out = [...existing];
+    for (const e of extra) {
+      const k = eventKey(e);
+      if (!seen.has(k)) { seen.add(k); out.push(e); }
+    }
+    return out;
+  };
+  const live = addUnique(base.live, agenda.live);
+  const fixtures = addUnique(base.fixtures, agenda.fixtures).sort(
+    (a, b) => new Date(a.startTime ?? 0).getTime() - new Date(b.startTime ?? 0).getTime(),
+  );
+  return { ...base, live, fixtures };
+}
+
 export async function getScoreCentreData(): Promise<ScoreCentreData> {
   const provider = process.env.SPORTS_DATA_PROVIDER ?? "thesportsdb";
   const ilspEvents = await getIlspVerifiedEvents();
   try {
-    if (provider === "elite") return mergeIlspEvents(await eliteData(), ilspEvents);
-    if (provider === "sportmonks") return mergeIlspEvents(await sportmonksData(), ilspEvents);
+    if (provider === "elite") return mergeIlspEvents(await mergeAgenda(await eliteData()), ilspEvents);
+    if (provider === "sportmonks") return mergeIlspEvents(await mergeAgenda(await sportmonksData()), ilspEvents);
     if (provider === "thesportsdb")
-      return mergeIlspEvents(await mergeSofaScore(await theSportsDbData()), ilspEvents);
-    return mergeIlspEvents(previewData(), ilspEvents);
+      return mergeIlspEvents(await mergeAgenda(await mergeSofaScore(await theSportsDbData())), ilspEvents);
+    return mergeIlspEvents(await mergeAgenda(previewData()), ilspEvents);
   } catch (error) {
     const fallback = mergeIlspEvents(previewData(), ilspEvents);
     return {

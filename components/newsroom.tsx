@@ -59,23 +59,41 @@ function formatKickoff(value?: string | null) {
 }
 
 // Compact game block for the thin one-line scores strip at the very top.
+const SPORT_ICON: Record<string, string> = { football: "⚽", soccer: "⚽", basketball: "🏀", handball: "🤾", volleyball: "🏐" };
+
+// Short, readable competition label for the card header.
+function competitionLabel(event: ScoreEvent): string {
+  const l = event.league || "";
+  return l
+    .replace(/^UEFA\s+/i, "")
+    .replace(/Israeli Basketball Premier League/i, "Winner League")
+    .replace(/Israeli Premier League/i, "Ligat ha'Al")
+    .trim() || event.sport;
+}
+
 function ScoreStripItem({ event }: { event: ScoreEvent }) {
   const isLive = event.status === "LIVE";
   const isFt = event.status === "FT";
   const home = event.homeScore ?? null;
   const away = event.awayScore ?? null;
   const settled = isFt && home !== null && away !== null;
+  const homeWon = settled && home !== null && away !== null && home > away;
+  const awayWon = settled && home !== null && away !== null && away > home;
   const statusText = isLive ? `LIVE${event.clock ? ` · ${event.clock}` : ""}` : isFt ? "FT" : formatKickoff(event.startTime);
   const statusClass = isLive ? "live" : isFt ? "ft" : "up";
+  const icon = SPORT_ICON[(event.sport || "").toLowerCase()] ?? "•";
   return (
-    <Link href={event.articleSlug ? `/article/${event.articleSlug}` : "/scores"} className="sb-game">
-      <span className={`sb-status ${statusClass}`}>{statusText}</span>
-      <div className={`sb-team${settled && away !== null && home !== null && home > away ? "" : settled && away !== null && home !== null && away > home ? " lose" : ""}`}>
+    <Link href={event.articleSlug ? `/article/${event.articleSlug}` : "/scores"} className={`sb-game${isLive ? " is-live" : ""}`}>
+      <div className="sb-head">
+        <span className="sb-comp"><span className="sb-comp-ico" aria-hidden="true">{icon}</span>{competitionLabel(event)}</span>
+        <span className={`sb-status ${statusClass}`}>{isLive ? <><span className="sb-live-dot" aria-hidden="true" />{statusText}</> : statusText}</span>
+      </div>
+      <div className={`sb-team${awayWon ? " lose" : ""}`}>
         <TeamCrest name={event.home} logo={event.homeLogo} />
         <span className="nm">{event.home}</span>
         <span className="sc">{home ?? "–"}</span>
       </div>
-      <div className={`sb-team${settled && away !== null && home !== null && away > home ? "" : settled && away !== null && home !== null && home > away ? " lose" : ""}`}>
+      <div className={`sb-team${homeWon ? " lose" : ""}`}>
         <TeamCrest name={event.away} logo={event.awayLogo} alternate />
         <span className="nm">{event.away}</span>
         <span className="sc">{away ?? "–"}</span>
@@ -229,7 +247,23 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
     if (group) group.events.push(event);
     else railGroups.push({ league: event.league, sport: event.sport, events: [event] });
   }
-  railGroups.sort((a, b) => competitionPriority(a.sport, a.league) - competitionPriority(b.sport, b.league));
+  // Order the rail like an agenda: whatever is LIVE now first, then the groups
+  // with the soonest upcoming match (so today's European ties lead over a
+  // domestic round weeks away), with competition priority as the tie-breaker.
+  const groupSoonest = (group: { events: ScoreEvent[] }) => {
+    const hasLive = group.events.some((e) => e.status === "LIVE");
+    const soonest = group.events
+      .filter((e) => e.status === "SCHEDULED" && e.startTime)
+      .reduce((min, e) => Math.min(min, new Date(e.startTime!).getTime()), Number.POSITIVE_INFINITY);
+    return { hasLive, soonest };
+  };
+  railGroups.sort((a, b) => {
+    const ga = groupSoonest(a);
+    const gb = groupSoonest(b);
+    if (ga.hasLive !== gb.hasLive) return ga.hasLive ? -1 : 1;
+    if (ga.soonest !== gb.soonest) return ga.soonest - gb.soonest;
+    return competitionPriority(a.sport, a.league) - competitionPriority(b.sport, b.league);
+  });
   const statusRank = (event: ScoreEvent) => (event.status === "LIVE" ? 0 : event.status === "SCHEDULED" ? 1 : 2);
   for (const group of railGroups) {
     group.events.sort((a, b) =>
@@ -238,13 +272,23 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
     );
   }
   const tickerStories = articles.filter((article) => article.category !== "From the Archive").slice(0, 8);
-  const trending = [...articles]
+  const byRank = (a: (typeof articles)[number], b: (typeof articles)[number]) =>
+    (a.trending ?? 99) - (b.trending ?? 99)
+    || (b.homepagePriority ?? 50) - (a.homepagePriority ?? 50)
+    || freshnessTime(b) - freshnessTime(a);
+  // "Most followed" should never be empty. Prefer fresh trending stories, but
+  // fall back to the top trending regardless of age, then to the highest-priority
+  // recent stories — so the rail always has five items even during a quiet spell.
+  const freshTrending = [...articles]
     .filter((article) => article.trending && freshnessTime(article) >= tenHoursAgo)
-    .sort((a, b) =>
-      (a.trending ?? 99) - (b.trending ?? 99)
-      || (b.homepagePriority ?? 50) - (a.homepagePriority ?? 50)
-      || freshnessTime(b) - freshnessTime(a),
-    )
+    .sort(byRank);
+  const anyTrending = [...articles].filter((article) => article.trending).sort(byRank);
+  const byPriority = [...articles].sort(
+    (a, b) => (b.homepagePriority ?? 50) - (a.homepagePriority ?? 50) || freshnessTime(b) - freshnessTime(a),
+  );
+  const trendingSeen = new Set<string>();
+  const trending = [...freshTrending, ...anyTrending, ...byPriority]
+    .filter((article) => (trendingSeen.has(article.id) ? false : trendingSeen.add(article.id)))
     .slice(0, 5);
 
   return (
@@ -256,7 +300,7 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
         <div className="score-strip" aria-label={tr("label.liveScores")}>
           <div className="page-width score-strip-inner">
             <span className="sb-label"><span className="status-dot" />{tr("label.liveUpcoming")}</span>
-            {railEvents.map((event) => <ScoreStripItem key={event.id} event={event} />)}
+            {railGroups.flatMap((group) => group.events).map((event) => <ScoreStripItem key={event.id} event={event} />)}
             <Link href="/scores" className="sb-more">{tr("nav.scores")} <ArrowIcon size={13} /></Link>
           </div>
         </div>
