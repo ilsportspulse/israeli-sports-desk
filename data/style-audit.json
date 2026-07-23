@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T07:52:44.779Z",
+  "generatedAt": "2026-07-23T09:28:29.774Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 245,
+    "publishedArticles": 251,
     "wordCount": {
       "minimum": 237,
       "maximum": 1070,
       "median": 476,
-      "average": 491.3
+      "average": 490.9
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 8,
       "7": 50,
-      "8": 65,
-      "9": 60,
-      "10": 38,
+      "8": 66,
+      "9": 63,
+      "10": 40,
       "11": 12,
       "12": 2,
       "13": 3,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.265,
+    "dominantParagraphShare": 0.263,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 8,
     "analysisBelowTarget": 2,
@@ -341,6 +341,132 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260723-beitar-larnaca-hotel-warning",
+      "slug": "beitar-larnaca-hotel-graffiti-noise-cannabis-warning",
+      "title": "Beitar hotel in Larnaca complains of graffiti, noise and cannabis smell hours before Conference League opener",
+      "kind": "news",
+      "words": 385,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 28,
+        "longest": 54,
+        "average": 42.8
+      },
+      "sentenceWords": {
+        "shortest": 22,
+        "longest": 77,
+        "average": 38.5
+      },
+      "lexicalDiversity": 0.61,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-23-solomon-tottenham-preseason-squad",
+      "slug": "manor-solomon-tottenham-preseason-squad-australia-new-zealand",
+      "title": "Manor Solomon named in Tottenham's touring squad for Australia and New Zealand",
+      "kind": "news",
+      "words": 433,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 62,
+        "average": 48.1
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 49,
+        "average": 30.9
+      },
+      "lexicalDiversity": 0.633,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-23-maccabi-sheriff-tiraspol-europa-league",
+      "slug": "maccabi-tel-aviv-sheriff-tiraspol-europa-league-qualifier",
+      "title": "Maccabi Tel Aviv Face Sheriff Tiraspol in a Tie That Could Shape Their Whole European Season",
+      "kind": "article",
+      "words": 644,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 90,
+        "average": 64.4
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 64,
+        "average": 32.2
+      },
+      "lexicalDiversity": 0.576,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-23-beitar-larnaca-fan-violence-denial",
+      "slug": "beitar-jerusalem-denies-larnaca-fan-violence-claims",
+      "title": "Beitar Jerusalem Denies Fans Caused Damage in Larnaca Ahead of AEK Clash",
+      "kind": "news",
+      "words": 384,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 56,
+        "average": 48
+      },
+      "sentenceWords": {
+        "shortest": 16,
+        "longest": 55,
+        "average": 34.9
+      },
+      "lexicalDiversity": 0.568,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260723-camoranesi-beitar-larnaca",
+      "slug": "camoranesi-anti-spain-philosophy-beitar-jerusalem-conference-league",
+      "title": "Camoranesi Brings His Anti-Spain Football Creed to Beitar Jerusalem Test",
+      "kind": "news",
+      "words": 493,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 67,
+        "average": 49.3
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 57,
+        "average": 32.9
+      },
+      "lexicalDiversity": 0.617,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-23-lonwijk-maccabi-haifa",
+      "slug": "nigel-lonwijk-maccabi-haifa-defender-signing",
+      "title": "Maccabi Haifa close in on well-travelled Wolves defender Nigel Lonwijk",
+      "kind": "news",
+      "words": 508,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 40,
+        "longest": 85,
+        "average": 56.4
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 62,
+        "average": 29.9
+      },
+      "lexicalDiversity": 0.565,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-20260723-fulham-garcia-mastantuono",
       "slug": "fulham-in-talks-real-madrid-garcia-mastantuono",

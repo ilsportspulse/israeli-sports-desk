@@ -1,58 +1,53 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-07-23-mbappe-olise-real-madrid",
-      "article": "Mbappé Reportedly Lobbying Olise to Join Him at Real Madrid",
-      "file": "File:Kylian Mbappe France v Senegal 16 June 2026-269.jpg",
+      "articleId": "live-20260723-beitar-larnaca-hotel-warning",
+      "article": "Beitar hotel in Larnaca complains of graffiti, noise and cannabis smell hours before Conference League opener",
+      "file": "File:Bnei Yehuda Tel Aviv vs Beitar Jerusalem.JPG",
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-20260723-fulham-garcia-mastantuono",
-      "article": "Fulham chase Real Madrid pair García and Mastantuono as Arbeloa raids old club",
-      "file": "File:Franco Mastantuono in 2025 (cropped).jpg",
-      "license": "CC0"
-    },
-    {
-      "articleId": "live-2026-07-23-hapoel-haifa-agada-talks",
-      "article": "Hapoel Haifa reopens old file, chases return of William Agada",
-      "file": "File:SammyOferSTD.jpg",
-      "license": "CC BY-SA 4.0"
-    },
-    {
-      "articleId": "live-20260723-winner-odds-israeli-clubs-europe",
-      "article": "Winner's Odds Make Maccabi Tel Aviv the Only Israeli Favourite Tonight",
-      "file": "File:Bloomfield Stadium aerial view august 2013.JPG",
+      "articleId": "live-2026-07-23-hapoel-hadera-placement-injunction",
+      "article": "Hapoel Hadera Wins Court Injunction in Liga Alef Placement Fight",
+      "file": "File:Netanya-Stadium 33.JPG",
       "license": "CC BY-SA 3.0"
     },
     {
-      "articleId": "live-2026-07-23-lebron-james-free-agency-delay",
-      "article": "LeBron James Stalls Free Agency, Banking on a Trade for Irving or Davis",
-      "file": "File:LeBron James crop.jpg",
-      "license": "CC BY-SA 2.0"
-    },
-    {
-      "articleId": "brief-20260713-oren-sahar",
-      "article": "Oren Sahar begins his Pepperdine chapter with a clear development brief",
-      "query": "Pepperdine Waves basketball",
-      "file": "File:Firestone Fieldhouse (Pepperdine).jpg",
-      "license": "CC BY-SA 4.0"
-    },
-    {
-      "articleId": "brief-20260714-bnei-eilat-transition",
-      "article": "Tamer Nofi leaves Bnei Eilat leadership after 17 years",
-      "query": "Eilat football stadium",
-      "file": "File:Eilat Sports Center by Bodek Achitects.JPG",
+      "articleId": "live-2026-07-23-maccabi-sheriff-tiraspol-europa-league",
+      "article": "Maccabi Tel Aviv Face Sheriff Tiraspol in a Tie That Could Shape Their Whole European Season",
+      "file": "File:Sheriff Tiraspol stadium by night2.JPG",
       "license": "CC BY-SA 3.0"
     },
     {
-      "articleId": "live-20260717-worko-beitar-debut-shua-doubt-carabali-commits",
-      "article": "Worko in line for Beitar debut as Shua sweats on fitness and Carabalí commits",
-      "query": "Beitar Jerusalem training",
-      "file": "File:Beitar Jerusalem in training.JPG",
-      "license": "CC BY 3.0"
+      "articleId": "live-20260723-camoranesi-beitar-larnaca",
+      "article": "Camoranesi Brings His Anti-Spain Football Creed to Beitar Jerusalem Test",
+      "file": "File:Italy vs Belgium - Mauro Camoranesi.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "articleId": "brief-20260714-leo-coelho-lawsuit",
+      "article": "Brazilian club answer defender’s lawsuit with public error montage",
+      "query": "Leo Coelho football Brazil",
+      "file": "File:Nacional vs Defensor Sporting.jpg",
+      "license": "CC BY-SA 3.0"
     }
   ],
   "failures": [
+    {
+      "id": "live-2026-07-23-solomon-tottenham-preseason-squad",
+      "title": "Manor Solomon named in Tottenham's touring squad for Australia and New Zealand",
+      "error": "image download 429 after retries"
+    },
+    {
+      "id": "live-2026-07-23-beitar-larnaca-fan-violence-denial",
+      "title": "Beitar Jerusalem Denies Fans Caused Damage in Larnaca Ahead of AEK Clash",
+      "error": "image download 429 after retries"
+    },
+    {
+      "id": "live-2026-07-23-lonwijk-maccabi-haifa",
+      "title": "Maccabi Haifa close in on well-travelled Wolves defender Nigel Lonwijk",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
     {
       "id": "live-2026-07-22-eli-ohana-likud-knesset-spot",
       "title": "Beitar Legend Eli Ohana Reportedly Set for Guaranteed Likud Knesset Spot",
@@ -172,11 +167,6 @@
       "id": "brief-20260714-beersheva-qualifier",
       "title": "Be’er Sheva wait on Győr–Víkingur to learn their next European opponent",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
-    },
-    {
-      "id": "brief-20260714-leo-coelho-lawsuit",
-      "title": "Brazilian club answer defender’s lawsuit with public error montage",
-      "error": "image download 429 after retries"
     },
     {
       "id": "live-20260715-ze-marcos-netanya-talks",

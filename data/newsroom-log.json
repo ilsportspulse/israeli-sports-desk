@@ -1,5 +1,82 @@
 [
   {
+    "ts": "2026-07-23T09:21:50.663Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 8,
+    "published": 6,
+    "review": 1,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "nigel-lonwijk-maccabi-haifa-defender-signing",
+        "title": "Maccabi Haifa close in on well-travelled Wolves defender Nigel Lonwijk",
+        "confidence": 0.75,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "camoranesi-anti-spain-philosophy-beitar-jerusalem-conference-league",
+        "title": "Camoranesi Brings His Anti-Spain Football Creed to Beitar Jerusalem Test",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "beitar-jerusalem-denies-larnaca-fan-violence-claims",
+        "title": "Beitar Jerusalem Denies Fans Caused Damage in Larnaca Ahead of AEK Clash",
+        "confidence": 0.75,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "maccabi-tel-aviv-sheriff-tiraspol-europa-league-qualifier",
+        "title": "Maccabi Tel Aviv Face Sheriff Tiraspol in a Tie That Could Shape Their Whole European Season",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "manor-solomon-tottenham-preseason-squad-australia-new-zealand",
+        "title": "Manor Solomon named in Tottenham's touring squad for Australia and New Zealand",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "hapoel-hadera-liga-alef-placement-court-injunction",
+        "title": "Hapoel Hadera Wins Court Injunction in Liga Alef Placement Fight",
+        "confidence": 0.82,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "The judge and attorney's names are reported by a single outlet (ONE) and not independently confirmed by a court record; the underlying placement dispute is still pending a July 30, 2026 hearing and has not been finally resolved."
+      },
+      {
+        "slug": "beitar-larnaca-hotel-graffiti-noise-cannabis-warning",
+        "title": "Beitar hotel in Larnaca complains of graffiti, noise and cannabis smell hours before Conference League opener",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "hapoel-tel-aviv-budapest-fans-ludogorets-conference-league",
+        "title": "Hapoel's 5,000-Strong Army Fills Budapest as Barda Weighs His Striker",
+        "decision": "duplicate"
+      }
+    ]
+  },
+  {
     "ts": "2026-07-23T07:46:30.167Z",
     "mode": "cli",
     "model": "claude-sonnet-5",

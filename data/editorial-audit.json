@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T07:52:44.516Z",
+  "generatedAt": "2026-07-23T09:28:29.564Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,74 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 332,
-    "publishedBefore": 245,
-    "cleanPublished": 245,
+    "totalArticles": 339,
+    "publishedBefore": 251,
+    "cleanPublished": 251,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 245,
-    "reviewAfter": 87
+    "publishedAfter": 251,
+    "reviewAfter": 88
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-20260723-beitar-larnaca-hotel-warning",
+      "slug": "beitar-larnaca-hotel-graffiti-noise-cannabis-warning",
+      "title": "Beitar hotel in Larnaca complains of graffiti, noise and cannabis smell hours before Conference League opener",
+      "statusBefore": "published",
+      "words": 384,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-23-hapoel-hadera-placement-injunction",
+      "slug": "hapoel-hadera-liga-alef-placement-court-injunction",
+      "title": "Hapoel Hadera Wins Court Injunction in Liga Alef Placement Fight",
+      "statusBefore": "review",
+      "words": 564,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-07-23-solomon-tottenham-preseason-squad",
+      "slug": "manor-solomon-tottenham-preseason-squad-australia-new-zealand",
+      "title": "Manor Solomon named in Tottenham's touring squad for Australia and New Zealand",
+      "statusBefore": "published",
+      "words": 442,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-07-23-beitar-larnaca-fan-violence-denial",
+      "slug": "beitar-jerusalem-denies-larnaca-fan-violence-claims",
+      "title": "Beitar Jerusalem Denies Fans Caused Damage in Larnaca Ahead of AEK Clash",
+      "statusBefore": "published",
+      "words": 388,
+      "paragraphs": 8,
+      "facts": 8,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
     {
       "id": "live-2026-07-23-mbappe-olise-real-madrid",
       "slug": "mbappe-lobbying-olise-real-madrid-transfer",
@@ -2226,6 +2284,25 @@
       ]
     },
     {
+      "id": "brief-20260714-leo-coelho-lawsuit",
+      "slug": "amazonas-respond-leo-coelho-lawsuit-error-video",
+      "title": "Brazilian club answer defender’s lawsuit with public error montage",
+      "statusBefore": "review",
+      "words": 109,
+      "paragraphs": 3,
+      "facts": 3,
+      "verificationSources": 0,
+      "blockers": [
+        "copy-depth:109/220-words",
+        "structure:3/5-paragraphs",
+        "evidence:3/4-confirmed-facts",
+        "research:no-independent-or-authoritative-verification"
+      ],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-20260714-beitar-flares",
       "slug": "atzili-yarden-cohen-burned-flares-beitar-open-training",
       "title": "Atzili and Cohen burned by flares at Beitar’s open training",
@@ -2616,6 +2693,85 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-20260723-beitar-larnaca-hotel-warning",
+      "slug": "beitar-larnaca-hotel-graffiti-noise-cannabis-warning",
+      "title": "Beitar hotel in Larnaca complains of graffiti, noise and cannabis smell hours before Conference League opener",
+      "statusBefore": "published",
+      "words": 384,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-23-solomon-tottenham-preseason-squad",
+      "slug": "manor-solomon-tottenham-preseason-squad-australia-new-zealand",
+      "title": "Manor Solomon named in Tottenham's touring squad for Australia and New Zealand",
+      "statusBefore": "published",
+      "words": 442,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-07-23-maccabi-sheriff-tiraspol-europa-league",
+      "slug": "maccabi-tel-aviv-sheriff-tiraspol-europa-league-qualifier",
+      "title": "Maccabi Tel Aviv Face Sheriff Tiraspol in a Tie That Could Shape Their Whole European Season",
+      "statusBefore": "published",
+      "words": 648,
+      "paragraphs": 10,
+      "facts": 8,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-07-23-beitar-larnaca-fan-violence-denial",
+      "slug": "beitar-jerusalem-denies-larnaca-fan-violence-claims",
+      "title": "Beitar Jerusalem Denies Fans Caused Damage in Larnaca Ahead of AEK Clash",
+      "statusBefore": "published",
+      "words": 388,
+      "paragraphs": 8,
+      "facts": 8,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260723-camoranesi-beitar-larnaca",
+      "slug": "camoranesi-anti-spain-philosophy-beitar-jerusalem-conference-league",
+      "title": "Camoranesi Brings His Anti-Spain Football Creed to Beitar Jerusalem Test",
+      "statusBefore": "published",
+      "words": 498,
+      "paragraphs": 10,
+      "facts": 9,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-07-23-lonwijk-maccabi-haifa",
+      "slug": "nigel-lonwijk-maccabi-haifa-defender-signing",
+      "title": "Maccabi Haifa close in on well-travelled Wolves defender Nigel Lonwijk",
+      "statusBefore": "published",
+      "words": 513,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-2026-07-23-mbappe-olise-real-madrid",
       "slug": "mbappe-lobbying-olise-real-madrid-transfer",
