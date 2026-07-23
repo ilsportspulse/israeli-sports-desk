@@ -10,7 +10,9 @@ const previousMedia = await readFile(path.join(root, "data/article-media.json"),
   .then((value) => JSON.parse(value))
   .catch(() => ({}));
 const articles = JSON.parse(await readFile(path.join(root, "data/articles.json"), "utf8"))
-  .filter((article) => article.status !== "review")
+  // Review stories are included on purpose: most are held ONLY because no image
+  // was found, so sourcing one (incl. the subject-fallback tier) is exactly what
+  // unblocks them for the editor.
   .filter((article) => !articleId || article.id === articleId)
   .filter((article) => !replaceTextVisuals || previousMedia[article.id]?.src?.endsWith(".svg"))
   // Default (no --article / --replace-text-visuals): only source stories that do
@@ -914,6 +916,63 @@ if (!dryRun) await mkdir(outputDirectory, { recursive: true });
 // Commons 429 rate-limiting when many single-article runs each prefetched them all).
 const preferredPages = await fetchFiles(articles.map((article) => preferredFiles[article.id]).filter(Boolean));
 
+// ---------------------------------------------------------------------------
+// Subject-level curated fallbacks (config/subject-fallback-images.json).
+// When a story has no story-specific image (no verified candidate, no per-story
+// preferred file), fall back to a hand-verified club/sport file photograph that
+// MATCHES the story subject — never a generic or unrelated image. Each subject
+// has a small pool so the uniqueness rule holds; when a pool is exhausted the
+// story is held for review exactly as before.
+const subjectPools = JSON.parse(
+  await readFile(path.join(root, "config/subject-fallback-images.json"), "utf8"),
+);
+// Order matters: the FIRST matching subject wins, so specific clubs come before
+// generic sport buckets. A matcher checks title+dek+category text; club entries
+// with a basketball/football twin also require the right sport context.
+const SUBJECT_MATCHERS = [
+  ["maccabi-tel-aviv-bc", /maccabi tel aviv/i, /basket|euroleague|b\.c\./i],
+  ["maccabi-tel-aviv-fc", /maccabi tel aviv/i, null],
+  ["maccabi-haifa-fc", /maccabi haifa/i, null],
+  ["hapoel-beer-sheva-fc", /hapoel be'?er sheva|beersheva|be'er sheva/i, null],
+  ["beitar-jerusalem-fc", /beitar jerusalem|beitar/i, null],
+  ["hapoel-tel-aviv-bc", /hapoel tel aviv/i, /basket|euroleague|b\.c\./i],
+  ["hapoel-tel-aviv-fc", /hapoel tel aviv/i, null],
+  ["hapoel-haifa-fc", /hapoel haifa/i, null],
+  ["maccabi-netanya-fc", /maccabi netanya|netanya fc/i, null],
+  ["bnei-sakhnin-fc", /sakhnin/i, null],
+  ["ironi-kiryat-shmona-fc", /kiryat shmona/i, null],
+  ["hapoel-jerusalem-bc", /hapoel jerusalem/i, /basket|winner league|b\.c\./i],
+  ["hapoel-jerusalem-fc", /hapoel jerusalem|katamon/i, null],
+  ["israel-nt-basketball", /israel/i, /eurobasket|national basketball|basketball team/i],
+  ["israel-nt-football", /israel/i, /national team|world cup qualif|uefa|nations league/i],
+  ["israeli-basketball", /basket/i, null],
+  ["israeli-athletics", /athletics|track and field|marathon|hurdles|sprint|jump|pole vault/i, null],
+  ["israeli-tennis", /tennis|atp|wta|davis cup/i, null],
+  ["israeli-swimming", /swim|freestyle|backstroke|butterfly|medley/i, null],
+  ["israeli-judo", /judo|judoka/i, null],
+  ["israeli-handball", /handball/i, null],
+  ["israeli-sailing", /sailing|windsurf|regatta|470|ilca/i, null],
+  ["israeli-cycling", /cycling|tour de france|giro|vuelta|premier tech|peloton/i, null],
+  ["israeli-football", /football|soccer|ligat|liga|cup|derby|goal/i, null],
+];
+const subjectFallbackPages = await fetchFiles([...new Set(Object.values(subjectPools).flat())]);
+function subjectFallbackFor(article, isUsed) {
+  const haystack = `${article.title ?? ""} ${article.dek ?? ""} ${article.category ?? ""}`.toLowerCase();
+  for (const [key, primaryRe, contextRe] of SUBJECT_MATCHERS) {
+    if (!subjectPools[key]) continue;
+    if (!primaryRe.test(haystack)) continue;
+    if (contextRe && !contextRe.test(haystack)) continue;
+    for (const title of subjectPools[key]) {
+      const page = subjectFallbackPages.get(title);
+      if (page && free(page) && !isUsed(page)) return page;
+    }
+    // Matched the subject but its pool is exhausted: stop here rather than
+    // falling through to a less specific (wrong-club) bucket.
+    return null;
+  }
+  return null;
+}
+
 // Words that do NOT identify a story's subject — sport nouns, competition words and
 // common headline verbs/prepositions. What remains after removing these are the
 // distinctive entities (Hapoel, Maccabi, Messi, Ludogorets, Pogacar, a surname, a
@@ -984,7 +1043,14 @@ for (const [index, article] of articles.entries()) {
     } catch {
       selected = undefined;
     }
-    if (!selected) throw new Error("no AI-verified or curated image for this story — held for review");
+    if (!selected) {
+      const isUsed = (page) => used.has(page.pageid) || usedUrls.has(page.imageinfo?.[0]?.descriptionurl);
+      selected = subjectFallbackFor(article, isUsed);
+      if (selected) {
+        console.log(`Subject fallback for ${article.id}: ${selected.title}`);
+      }
+    }
+    if (!selected) throw new Error("no AI-verified, curated or subject-fallback image for this story — held for review");
     used.add(selected.pageid);
     usedUrls.add(selected.imageinfo?.[0]?.descriptionurl);
     const result = toAsset(article, selected);
