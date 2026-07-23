@@ -14,6 +14,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 import { runDailyFeatures } from "./daily-features.mjs";
+import { submitIndexNow } from "./ping-indexnow.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const MODEL = process.env.ANTHROPIC_MODEL ?? "claude-sonnet-5";
@@ -352,6 +353,7 @@ async function main() {
 
   const todayIso = new Date().toISOString();
   let published = 0;
+  const publishedUrls = [];
   let review = 0;
   let skipped = 0;
   const decisions = []; // per-candidate outcome for the backoffice monitor
@@ -400,6 +402,7 @@ async function main() {
     seen.add(norm(article.slug));
     if (article.dedupeKey) seen.add(norm(article.dedupeKey));
     if (article.status === "published") published += 1; else review += 1;
+    if (article.status === "published") publishedUrls.push(`https://ilsportspulse.com/article/${article.slug}`);
     decisions.push({
       slug: article.slug,
       title: article.title,
@@ -498,6 +501,17 @@ async function main() {
     await writeJson("data/newsroom-log.json", log.slice(0, 50));
   } catch (error) {
     console.warn(`Could not write newsroom log: ${error.message}`);
+  }
+
+  // Instantly notify IndexNow (Bing, Yandex, …) about the stories we just
+  // published — a quick indexing win that costs one request per cycle.
+  if (publishedUrls.length) {
+    try {
+      const r = await submitIndexNow(["https://ilsportspulse.com", ...publishedUrls]);
+      console.log(`IndexNow: submitted ${r.count} url(s), ok=${r.ok}`);
+    } catch (error) {
+      console.warn(`IndexNow ping failed: ${error.message}`);
+    }
   }
 
   console.log(`Cycle done — ${published} published, ${review} held for review, ${skipped} skipped.`);
