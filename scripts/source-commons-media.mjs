@@ -956,18 +956,48 @@ const SUBJECT_MATCHERS = [
   ["israeli-football", /football|soccer|ligat|liga|cup|derby|goal/i, null],
 ];
 const subjectFallbackPages = await fetchFiles([...new Set(Object.values(subjectPools).flat())]);
+// A fallback file is "venue-safe" when it shows a stadium/arena/fans/crest or a
+// wide team scene — something that can never be mistaken for a specific person.
+// Single-player or close-crop match photos are NOT venue-safe.
+function isVenueSafe(title) {
+  const t = (title || "").replace(/^File:/, "").toLowerCase();
+  // Venue / crowd / crest keywords only — anything that clearly is NOT one person.
+  return /stadium|arena|stade|panorama|exterior|fans|supporters|crest|logo|derby|gate|hall|sammy ofer|bloomfield|teddy|pais arena|yad eliyahu|nokia|kiryat/.test(t);
+}
+
+// Person/topic stories (a named individual, an appointment, an interview, an
+// injury) must NEVER get a single-player fallback photo — the face reads as the
+// article's subject. Detect "team/match" stories (safe for any club photo) vs
+// everything else (venue-safe images only, else no photo -> themed visual).
+function isTeamOrMatchStory(article) {
+  if (article.matchRecap || article.basketballRecap) return true;
+  const h = `${article.title ?? ""} ${article.dek ?? ""}`.toLowerCase();
+  return /\bvs\b|\bv\.?\b|\bbeat\b|\bdraw\b|\bdefeat|\bhold\b|\bwin\b|\bloss\b|preview|kick.?off|full.?time|matchday|fixture|clash|derby|qualif/.test(h);
+}
+
 function subjectFallbackFor(article, isUsed) {
   const haystack = `${article.title ?? ""} ${article.dek ?? ""} ${article.category ?? ""}`.toLowerCase();
+  const venueOnly = !isTeamOrMatchStory(article);
   for (const [key, primaryRe, contextRe] of SUBJECT_MATCHERS) {
     if (!subjectPools[key]) continue;
     if (!primaryRe.test(haystack)) continue;
     if (contextRe && !contextRe.test(haystack)) continue;
-    for (const title of subjectPools[key]) {
+    // Club pool first; for person/topic stories keep only venue-safe files.
+    const clubFiles = venueOnly ? subjectPools[key].filter(isVenueSafe) : subjectPools[key];
+    for (const title of clubFiles) {
       const page = subjectFallbackPages.get(title);
       if (page && free(page) && !isUsed(page)) return page;
     }
-    // Matched the subject but its pool is exhausted: stop here rather than
-    // falling through to a less specific (wrong-club) bucket.
+    // For a person/topic story with no venue-safe club file, fall through to the
+    // generic per-sport venue pool (stadiums/arenas) rather than force a face.
+    if (venueOnly) {
+      const sport = (article.category || "").toLowerCase();
+      const generic = /basket/.test(haystack) || /basket/.test(sport) ? "israeli-basketball" : "israeli-football";
+      for (const title of (subjectPools[generic] || []).filter(isVenueSafe)) {
+        const page = subjectFallbackPages.get(title);
+        if (page && free(page) && !isUsed(page)) return page;
+      }
+    }
     return null;
   }
   return null;
