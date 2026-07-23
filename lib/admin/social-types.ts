@@ -28,6 +28,10 @@ export type SocialConfig = {
   autoPostOnPublish: boolean;
   autoPostRequiresApproval: boolean;
   defaultHashtags: string;
+  // Auto-post throttle (keeps the feed professional and inside the free X API tier):
+  // at most `autoPostDailyMax` tweets per day, at least `autoPostMinGapMinutes` apart.
+  autoPostDailyMax: number;
+  autoPostMinGapMinutes: number;
 };
 
 export type PostStatus = "draft" | "scheduled" | "posted" | "failed";
@@ -54,5 +58,7 @@ export const DEFAULT_SOCIAL: SocialConfig = {
   telegramChatId: "",
   autoPostOnPublish: false,
   autoPostRequiresApproval: true,
-  defaultHashtags: "#IsraelSport #ILSP",
+  defaultHashtags: "#IsraeliSport #IsraeliFootball #Israel",
+  autoPostDailyMax: 12,
+  autoPostMinGapMinutes: 25,
 };

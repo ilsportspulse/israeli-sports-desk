@@ -15,6 +15,7 @@ import { fileURLToPath } from "node:url";
 
 import { runDailyFeatures } from "./daily-features.mjs";
 import { submitIndexNow } from "./ping-indexnow.mjs";
+import { postTweet, xCredsFromEnv } from "./lib/x-post.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const MODEL = process.env.ANTHROPIC_MODEL ?? "claude-sonnet-5";
@@ -354,6 +355,7 @@ async function main() {
   const todayIso = new Date().toISOString();
   let published = 0;
   const publishedUrls = [];
+  const publishedArticles = [];
   let review = 0;
   let skipped = 0;
   const decisions = []; // per-candidate outcome for the backoffice monitor
@@ -402,7 +404,10 @@ async function main() {
     seen.add(norm(article.slug));
     if (article.dedupeKey) seen.add(norm(article.dedupeKey));
     if (article.status === "published") published += 1; else review += 1;
-    if (article.status === "published") publishedUrls.push(`https://ilsportspulse.com/article/${article.slug}`);
+    if (article.status === "published") {
+      publishedUrls.push(`https://ilsportspulse.com/article/${article.slug}`);
+      publishedArticles.push(article);
+    }
     decisions.push({
       slug: article.slug,
       title: article.title,
@@ -514,7 +519,70 @@ async function main() {
     }
   }
 
+  // Auto-post the strongest new stories to X (@ilsportspulse). This is OFF until
+  // three things are true: social.autoPostOnPublish is on, X is enabled, and the
+  // four X_* keys are present — so with no keys nothing ever posts. We do NOT tweet
+  // every article (that spams followers and blows the free API tier): Israeli-first,
+  // highest homepagePriority, one per cycle, spaced by a min gap, capped per day.
+  try {
+    await autoPostToX(publishedArticles);
+  } catch (error) {
+    console.warn(`X auto-post step failed (non-fatal): ${error.message}`);
+  }
+
   console.log(`Cycle done — ${published} published, ${review} held for review, ${skipped} skipped.`);
+}
+
+async function autoPostToX(publishedArticles) {
+  if (!publishedArticles.length) return;
+  const social = await readJson("data/social.json").catch(() => null);
+  if (!social || !social.autoPostOnPublish || !social.enabled?.x) return;
+  const creds = xCredsFromEnv();
+  if (!creds) { console.log("X auto-post: skipped (X_* keys not set)."); return; }
+
+  const dailyMax = Number.isFinite(social.autoPostDailyMax) ? social.autoPostDailyMax : 12;
+  const minGapMs = (Number.isFinite(social.autoPostMinGapMinutes) ? social.autoPostMinGapMinutes : 25) * 60 * 1000;
+  const hashtags = (social.defaultHashtags || "").trim();
+
+  const posts = await readJson("data/social-posts.json").catch(() => []);
+  const store = Array.isArray(posts) ? posts : [];
+  const today = new Date().toISOString().slice(0, 10);
+  const xPostsToday = store.filter((p) => Array.isArray(p.platforms) && p.platforms.includes("x") && p.status === "posted" && (p.postedAt || "").slice(0, 10) === today);
+  if (xPostsToday.length >= dailyMax) { console.log(`X auto-post: daily cap (${dailyMax}) reached.`); return; }
+  const lastX = store.find((p) => Array.isArray(p.platforms) && p.platforms.includes("x") && p.status === "posted");
+  if (lastX?.postedAt && Date.now() - new Date(lastX.postedAt).getTime() < minGapMs) { console.log("X auto-post: within min gap, waiting for next cycle."); return; }
+
+  // Israeli facts first, then by homepage priority; take the single best story this cycle.
+  const isIsraeli = (a) => a.desk === "israel" || /^israeli|israelis abroad/i.test(a.category || "");
+  const ranked = [...publishedArticles].sort((a, b) => (isIsraeli(b) - isIsraeli(a)) || ((b.homepagePriority ?? 0) - (a.homepagePriority ?? 0)));
+  const pick = ranked[0];
+  if (!pick) return;
+
+  const url = `https://ilsportspulse.com/article/${pick.slug}`;
+  const room = 280 - (url.length + 2) - (hashtags ? hashtags.length + 2 : 0);
+  const title = (pick.title || "").length > room ? (pick.title || "").slice(0, room - 1).trimEnd() + "…" : (pick.title || "");
+  const text = [title, url, hashtags].filter(Boolean).join("\n\n");
+
+  const requiresApproval = social.autoPostRequiresApproval !== false;
+  const record = {
+    id: `post-${Date.now().toString(36)}`,
+    text: title, link: url, hashtags, platforms: ["x"],
+    createdAt: new Date().toISOString(), createdBy: "newsroom",
+  };
+  if (requiresApproval) {
+    record.status = "draft";
+    store.unshift(record);
+    await writeJson("data/social-posts.json", store.slice(0, 500));
+    console.log(`X auto-post: queued as draft for approval — ${pick.slug} (set social.autoPostRequiresApproval=false for full auto).`);
+    return;
+  }
+  const result = await postTweet(text, creds);
+  record.status = result.ok ? "posted" : "failed";
+  record.postedAt = new Date().toISOString();
+  record.results = { x: { ok: result.ok, detail: result.ok ? `tweet ${result.id}` : result.detail } };
+  store.unshift(record);
+  await writeJson("data/social-posts.json", store.slice(0, 500));
+  console.log(result.ok ? `X auto-post: tweeted ${pick.slug} (${result.id})` : `X auto-post: failed — ${result.detail}`);
 }
 
 await main();

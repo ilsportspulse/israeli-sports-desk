@@ -10,5 +10,5 @@ export const siteConfig = {
   localDomain: "ilsportspulse.co.il",
   defensiveDomain: "ilpulse.co.il",
   siteUrl: "https://ilsportspulse.com",
-  socialHandle: "@ILSportsPulse",
+  socialHandle: "@ilsportspulse",
 };

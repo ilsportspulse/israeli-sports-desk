@@ -1,0 +1,24 @@
+{
+  "enabled": {
+    "telegram": false,
+    "discord": false,
+    "x": true,
+    "instagram": false,
+    "facebook": false,
+    "threads": false,
+    "linkedin": false,
+    "bluesky": false,
+    "mastodon": false,
+    "tiktok": false,
+    "youtube": false,
+    "whatsapp": false,
+    "reddit": false,
+    "pinterest": false
+  },
+  "telegramChatId": "",
+  "autoPostOnPublish": true,
+  "autoPostRequiresApproval": false,
+  "defaultHashtags": "#IsraeliSport #IsraeliFootball #Israel",
+  "autoPostDailyMax": 12,
+  "autoPostMinGapMinutes": 25
+}

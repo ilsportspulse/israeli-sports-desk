@@ -146,6 +146,16 @@ export function SocialHub({ initialConfig, initialPosts, telegramReady }: { init
               <div className="field-row"><div className="field"><label>Default hashtags</label>
                 <input type="text" value={config.defaultHashtags} onChange={(e) => setConfig({ ...config, defaultHashtags: e.target.value })}
                   onBlur={() => saveConfig({ defaultHashtags: config.defaultHashtags })} /></div></div>
+              <div className="field-row">
+                <div className="field"><label>Max auto-posts / day</label>
+                  <input type="number" min={1} max={100} value={config.autoPostDailyMax}
+                    onChange={(e) => setConfig({ ...config, autoPostDailyMax: Number(e.target.value) })}
+                    onBlur={() => saveConfig({ autoPostDailyMax: config.autoPostDailyMax })} /></div>
+                <div className="field"><label>Min minutes between posts</label>
+                  <input type="number" min={0} max={720} value={config.autoPostMinGapMinutes}
+                    onChange={(e) => setConfig({ ...config, autoPostMinGapMinutes: Number(e.target.value) })}
+                    onBlur={() => saveConfig({ autoPostMinGapMinutes: config.autoPostMinGapMinutes })} /></div></div>
+              <p className="hint">Only the strongest new story each cycle is posted (Israeli facts first), spaced out and capped — keeps the feed professional and inside the free X API tier.</p>
             </div>
           </div>
         </div>

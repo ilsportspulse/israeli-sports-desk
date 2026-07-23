@@ -1,5 +1,6 @@
 import { siteConfig } from "@/config/site";
 import type { Platform, SocialConfig, SocialPost } from "@/lib/admin/social-types";
+import { postTweet, xCredsFromEnv } from "@/lib/admin/x-client";
 
 // Per-platform posting. Secrets live in env vars (never in the repo). A platform
 // that isn't configured returns a clear, non-fatal result so the rest still post.
@@ -31,6 +32,16 @@ async function postToTelegram(post: SocialPost, config: SocialConfig): Promise<R
   }
 }
 
+async function postToX(post: SocialPost, config: SocialConfig): Promise<Result> {
+  const creds = xCredsFromEnv();
+  if (!creds) return { ok: false, detail: "Connect X — add X_API_KEY, X_API_SECRET, X_ACCESS_TOKEN, X_ACCESS_SECRET." };
+  // X counts every URL as 23 chars, but composeText's own truncation on the raw
+  // length is a safe upper bound, so a slightly generous 280 keeps us within limits.
+  const text = composeText(post, config, 280);
+  const res = await postTweet(text, creds);
+  return res.ok ? { ok: true, detail: res.detail } : { ok: false, detail: `X error: ${res.detail}` };
+}
+
 async function postToDiscord(post: SocialPost, config: SocialConfig): Promise<Result> {
   const url = process.env.DISCORD_WEBHOOK_URL;
   if (!url) return { ok: false, detail: "Set DISCORD_WEBHOOK_URL to enable Discord." };
@@ -56,7 +67,7 @@ function credentialGated(platform: Platform, envVar: string): Result {
 const ADAPTERS: Record<Platform, (p: SocialPost, c: SocialConfig) => Promise<Result>> = {
   telegram: postToTelegram,
   discord: postToDiscord,
-  x: async () => credentialGated("x", "X_API_KEY"),
+  x: postToX,
   instagram: async () => credentialGated("instagram", "INSTAGRAM_ACCESS_TOKEN"),
   facebook: async () => credentialGated("facebook", "FACEBOOK_PAGE_TOKEN"),
   threads: async () => credentialGated("threads", "THREADS_ACCESS_TOKEN"),
