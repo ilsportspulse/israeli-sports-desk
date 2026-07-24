@@ -21,6 +21,22 @@ const data = JSON.parse(await readFile(file, "utf8"));
 const list = Array.isArray(data) ? data : data.articles;
 const published = list.filter((a) => (a.status ?? "published") === "published");
 
+// --- 0) normalize inconsistent international category labels ------------------
+// The world desk drifted into synonyms (Cycling vs World Cycling, NBA/International
+// Basketball vs World Basketball). Fold them onto the canonical "World X" family so
+// the same sport never shows two different labels. Runs on ALL articles every cycle.
+const CATEGORY_NORMALIZE = {
+  "Cycling": "World Cycling",
+  "NBA": "World Basketball",
+  "International Basketball": "World Basketball",
+  "Combat Sports": "World Combat Sports",
+};
+let relabelled = 0;
+for (const a of list) {
+  const mapped = CATEGORY_NORMALIZE[a.category];
+  if (mapped && a.category !== mapped) { a.category = mapped; relabelled++; }
+}
+
 const demoted = new Map(); // id -> reason
 
 // --- 1) in-progress / half-time match reports ---------------------------------
