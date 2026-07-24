@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T03:06:30.103Z",
+  "generatedAt": "2026-07-24T04:50:41.153Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 280,
+    "publishedArticles": 283,
     "wordCount": {
       "minimum": 237,
       "maximum": 1070,
-      "median": 470.5,
-      "average": 486.6
+      "median": 469,
+      "average": 485.6
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 7,
       "7": 54,
-      "8": 72,
-      "9": 72,
-      "10": 50,
+      "8": 73,
+      "9": 73,
+      "10": 51,
       "11": 13,
       "12": 2,
       "13": 3,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.257,
+    "dominantParagraphShare": 0.258,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 7,
     "analysisBelowTarget": 4,
@@ -410,6 +410,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260724-dolev-haziza-maccabi-netanya",
+      "slug": "dolev-haziza-signs-maccabi-netanya",
+      "title": "Dolev Haziza set to sign for Maccabi Netanya, ending six-year Haifa stay",
+      "kind": "news",
+      "words": 342,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 52,
+        "average": 42.8
+      },
+      "sentenceWords": {
+        "shortest": 13,
+        "longest": 45,
+        "average": 31.1
+      },
+      "lexicalDiversity": 0.635,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-24-maccabi-tel-aviv-thrash-sheriff-tiraspol",
+      "slug": "maccabi-tel-aviv-thrash-sheriff-tiraspol-europa-league",
+      "title": "Maccabi Tel Aviv stun Sheriff Tiraspol 5-0 to open European campaign",
+      "kind": "article",
+      "words": 415,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 28,
+        "longest": 62,
+        "average": 41.5
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 62,
+        "average": 37.7
+      },
+      "lexicalDiversity": 0.61,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-24-lonwijk-tsunami-haifa-derby",
+      "slug": "maccabi-haifa-lonwijk-first-training-tsunami-derby-squad",
+      "title": "Maccabi Haifa give Lonwijk first taste of training as Tsunami is named for the derby",
+      "kind": "news",
+      "words": 412,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 27,
+        "longest": 77,
+        "average": 45.8
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 48,
+        "average": 29.4
+      },
+      "lexicalDiversity": 0.629,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-20260724-beitar-jerusalem-carabali-larnaca",
       "slug": "beitar-jerusalem-carabali-free-kick-sinks-aek-larnaca",

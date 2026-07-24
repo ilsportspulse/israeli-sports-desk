@@ -146,49 +146,49 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-24T03:06:29Z",
-    "validUntil": "2026-07-24T15:06:29Z",
+    "checkedAt": "2026-07-24T04:50:40Z",
+    "validUntil": "2026-07-24T16:50:40Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 102,
+        "maxAgeHours": 104,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260724-beitar-jerusalem-carabali-larnaca",
+        "articleId": "live-2026-07-24-lonwijk-tsunami-haifa-derby",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 110,
+        "maxAgeHours": 112,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "archive-20260724-athens-25-august-2004-the-race-that-gave",
+        "articleId": "live-20260724-beitar-jerusalem-carabali-larnaca",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 120,
+        "maxAgeHours": 122,
         "requires": [
           "column"
         ]
       },
       {
         "role": "archive",
-        "articleId": "archive-20260723-tel-aviv-1-may-2004-the-night-the-final-",
+        "articleId": "archive-20260724-athens-25-august-2004-the-race-that-gave",
         "maxAgeHours": 53,
         "requires": [
           "historical-feature"
