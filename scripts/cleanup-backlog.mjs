@@ -35,7 +35,9 @@ for (const a of published) {
 }
 
 // --- 2) duplicates ------------------------------------------------------------
-const GENERIC = new Set(("the and for with from after before over into out its his her their they them league cup europa conference champions nations world european stage tour season report reports move deal signing preview clash opener rout win draw loss goal goals side club team first second third final semifinal against north south east west united city real inter athletic sporting star young boys football cycling basketball soccer news article").split(/\s+/));
+const GENERIC = new Set(("the and for with from after before over into out its his her their they them league cup europa conference champions nations world european stage tour season report reports move deal signing preview clash opener rout win draw loss goal goals side club team first second third final semifinal against north south east west united city real inter athletic sporting star young boys football cycling basketball soccer news article " +
+  // common non-distinctive news verbs/nouns that shouldn't count toward same-event overlap
+  "year years have has had made make makes making back last summer winter next new deal move sign signs signed return returns returning coach coaches fans supporters told tells said says agree agrees agreed talks talk contract test ready fit fitness training start starts started week weekend saturday sunday monday tuesday wednesday thursday friday ahead face faces facing eye eyes eyeing open opens opening close closing set aims aim push against night tonight home away player players manager boss target targets reportedly surprise interest links link loan window campaign tie leg round group match game games play plays date confirmed confirm reveals reveal debut before after this that will would could been being into over more most about their which when what where over").split(/\s+/));
 const tokensOf = (a) => new Set(
   `${a.title ?? ""} ${a.dek ?? ""}`
     .split(/[^A-Za-zÀ-ÖØ-öø-ÿ'’]+/)
@@ -81,6 +83,31 @@ for (const group of byDay.values()) {
       if (shared >= 3) {
         const loser = fullness(a) >= fullness(b) ? b : a;
         demoted.set(loser.id, `dup same-match recap (${shared} shared tokens)`);
+      }
+    }
+  }
+}
+
+// 2c) GENERAL same-event near-duplicates (covers non-score stories: signings,
+// records, awards, business). Same-day stories that share >= 4 distinctive tokens
+// are almost always the same event told from different angles — keep the fullest,
+// demote the rest. Threshold 4 keeps genuinely separate stories about the same
+// person/club on one day (which typically share only the 1-2 name tokens).
+const remaining = published.filter((a) => !demoted.has(a.id));
+const tok2 = new Map(remaining.map((a) => [a.id, tokensOf(a)]));
+const byDay2 = new Map();
+for (const a of remaining) { const d = dayOf(a); if (!byDay2.has(d)) byDay2.set(d, []); byDay2.get(d).push(a); }
+for (const group of byDay2.values()) {
+  for (let i = 0; i < group.length; i++) {
+    for (let j = i + 1; j < group.length; j++) {
+      const a = group[i], b = group[j];
+      if (demoted.has(a.id) || demoted.has(b.id)) continue;
+      const A = tok2.get(a.id), B = tok2.get(b.id);
+      const sh = [];
+      for (const t of A) if (B.has(t)) sh.push(t);
+      if (sh.length >= 7) {
+        const loser = fullness(a) >= fullness(b) ? b : a;
+        demoted.set(loser.id, `dup same-event (${sh.length}: ${sh.slice(0, 6).join(",")})`);
       }
     }
   }

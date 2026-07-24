@@ -535,6 +535,14 @@ async function main() {
     console.warn(`X auto-post step failed (non-fatal): ${error.message}`);
   }
 
+  // Collapse same-event duplicates this cycle may have produced (signings, records,
+  // match recaps) so the live feed keeps one canonical story per event.
+  try {
+    execSync("node scripts/cleanup-backlog.mjs", { cwd: root, stdio: "inherit" });
+  } catch (error) {
+    console.warn(`Dedup step failed (non-fatal): ${error.message}`);
+  }
+
   console.log(`Cycle done — ${published} published, ${review} held for review, ${skipped} skipped.`);
 }
 
@@ -557,11 +565,13 @@ async function autoPostToX(publishedArticles) {
   const lastX = store.find((p) => Array.isArray(p.platforms) && p.platforms.includes("x") && p.status === "posted");
   if (lastX?.postedAt && Date.now() - new Date(lastX.postedAt).getTime() < minGapMs) { console.log("X auto-post: within min gap, waiting for next cycle."); return; }
 
-  // Israeli facts first, then by homepage priority; take the single best story this cycle.
+  // X is our ISRAELI-news channel: only post Israeli-desk stories, highest homepage
+  // priority first. If this cycle published no Israeli story, post nothing (wait for
+  // the next cycle) rather than tweeting an international item.
   const isIsraeli = (a) => a.desk === "israel" || /^israeli|israelis abroad/i.test(a.category || "");
-  const ranked = [...publishedArticles].sort((a, b) => (isIsraeli(b) - isIsraeli(a)) || ((b.homepagePriority ?? 0) - (a.homepagePriority ?? 0)));
-  const pick = ranked[0];
-  if (!pick) return;
+  const israeli = publishedArticles.filter(isIsraeli).sort((a, b) => (b.homepagePriority ?? 0) - (a.homepagePriority ?? 0));
+  const pick = israeli[0];
+  if (!pick) { console.log("X auto-post: no Israeli story this cycle, skipping."); return; }
 
   const url = `https://ilsportspulse.com/article/${pick.slug}`;
   const room = 280 - (url.length + 2) - (hashtags ? hashtags.length + 2 : 0);
