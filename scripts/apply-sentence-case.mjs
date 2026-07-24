@@ -1,0 +1,113 @@
+// One-off: rewrite the existing Title-Case backlog headlines to sentence case
+// (first word + proper nouns/competitions capitalised). Hand-checked mapping so
+// no name is ever wrongly lowercased. New articles already come out sentence-case
+// from the drafting prompt; this fixes what was published before that change.
+import { readFile, writeFile } from "node:fs/promises";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+
+const MAP = {
+  "archive-20260724-athens-25-august-2004-the-race-that-gave": "Athens, 25 August 2004: The race that gave Israel its first Olympic gold",
+  "live-20260723-ludogorets-bulgarian-press-reaction": "Bulgarian press turns on Ludogorets after Hapoel Tel Aviv rout",
+  "live-2026-07-23-beitar-fans-attacked-larnaca": "Beitar Jerusalem fans attacked outside stadium before Larnaca clash",
+  "live-20260723-otamendi-argentina-retirement": "Otamendi bows out of Argentina duty after World Cup final heartbreak",
+  "live-2026-07-23-hapoel-ludogorets-flare-stoppage": "Flares halt Hapoel Tel Aviv's long-awaited European return",
+  "live-20260723-gloukh-first-goal-ajax-vojvodina": "Gloukh opens his season's account as Ajax rout Vojvodina 4-1",
+  "live-20260723-kiryat-yam-bognim-agbaria-signings": "Kiryat Yam add Bognim and Agbaria as they aim for another playoff push",
+  "live-20260723-beitar-larnaca-clean-sheet": "Beitar Jerusalem take slender lead to Europe after Carabalí's free-kick sinks ten-man Larnaca",
+  "live-20260723-avdija-nori-portland-blazers": "Blazers coach Nori's first season seen hinging on Deni Avdija's leap",
+  "live-2026-07-23-asante-lecce-gandelman-interest": "Asante draws Serie A interest as Lecce eye reunion with Gandelman",
+  "live-20260723-khalaili-training-return": "Khalaili breaks silence after failed Inter move: 'I've played 99 games, finished almost all of them'",
+  "live-20260723-de-jong-knee-injury-commitment": "De Jong pushes back on doubts over his Barcelona commitment after World Cup knee blow",
+  "live-2026-07-23-carapaz-wins-tour-stage-18": "Carapaz strikes late to win Tour de France stage 18 in the Alps",
+  "live-20260723-olise-boateng-villa": "Olise told to vacate Boateng's Munich villa by end of August",
+  "tour-20260723-carapaz-solos-to-orci-res-merlette-as-br": "Carapaz solos to Orcières-Merlette as breakaway storms the Alps",
+  "live-2026-07-23-stadium-shelter-readiness": "Leagues Administration orders clubs to ready stadium shelters ahead of new season",
+  "live-2026-07-23-mls-investigates-miami-casemiro-tampering": "MLS opens tampering investigation into Inter Miami over Casemiro signing",
+  "live-2026-07-23-arsenal-tzolis-garnacho-villa": "Arsenal land Tzolis in Belgian-record deal as Garnacho quits Chelsea for Aston Villa after a year",
+  "live-2026-07-23-ipfl-war-preparedness": "\"If we need to stop the league, we'll stop it\": IPFL chief on war footing ahead of new season",
+  "live-2026-07-23-kangwa-panathinaikos-interest": "Report: Panathinaikos eye Hapoel Beer Sheva star Kings Kangwa after AEK talks collapse",
+  "live-2026-07-23-rodri-back-surgery": "Rodri set for back surgery as Man City face season without their Golden Ball winner",
+  "live-2026-07-23-adeyemi-barcelona": "Karim Adeyemi completes move to Barcelona from Borussia Dortmund",
+  "live-20260723-maccabi-driks-sheriff-warning": "Driks warns Maccabi Tel Aviv: win tonight isn't enough, Sheriff are no pushover",
+  "live-2026-07-23-maccabi-sheriff-tiraspol-europa-league": "Maccabi Tel Aviv face Sheriff Tiraspol in a tie that could shape their whole European season",
+  "live-2026-07-23-beitar-larnaca-fan-violence-denial": "Beitar Jerusalem denies fans caused damage in Larnaca ahead of AEK clash",
+  "live-20260723-camoranesi-beitar-larnaca": "Camoranesi brings his anti-Spain football creed to Beitar Jerusalem test",
+  "live-2026-07-23-mbappe-olise-real-madrid": "Mbappé reportedly lobbying Olise to join him at Real Madrid",
+  "live-20260723-winner-odds-israeli-clubs-europe": "Winner's odds make Maccabi Tel Aviv the only Israeli favourite tonight",
+  "live-2026-07-23-lebron-james-free-agency-delay": "LeBron James stalls free agency, banking on a trade for Irving or Davis",
+  "live-2026-07-23-dembele-al-hilal-psg-contract": "Al-Hilal make surprise move for Dembélé as PSG contract talks stall",
+  "live-2026-07-23-tiberias-youth-threat": "Tiberias warns it will field an all-youth side if hit with any further points deduction",
+  "live-20260723-abada-baribo-blorian-mls-roundup": "Abada nets a brace, Baribo strikes late as Blorian tastes first MLS win",
+  "archive-20260723-tel-aviv-1-may-2004-the-night-the-final-": "Tel Aviv, 1 May 2004: The night the Final Four broke the scoreboard",
+  "live-20260722-manor-solomon-tottenham-preseason": "Manor Solomon handed surprise start in Tottenham's pre-season opener",
+  "live-2026-07-22-maccabi-haifa-value-ranking": "Maccabi Haifa rated Israel's most valuable club in new Ligat Ha'al rankings",
+  "live-2026-07-22-rodri-real-madrid-kroos-successor": "Real Madrid eye Rodri as Kroos's long-term successor",
+  "live-2026-07-22-seck-al-faisaly-snub": "Seck signs for Saudi Arabia's Al-Faisaly — but his four years at Maccabi Haifa go unmentioned",
+  "live-20260722-cubarsi-final-clearance": "Cubarsí's late block preserved Spain's World Cup crown",
+  "live-2026-07-22-solomon-tottenham-mk-dons": "Manor Solomon back in lilywhite as Tottenham edge MK Dons in pre-season friendly",
+  "live-2026-07-22-lundberg-maccabi-extension": "Lundberg agrees new multi-year deal to stay at Maccabi Tel Aviv",
+  "live-2026-07-22-heat-lebron-video-leak": "Miami Heat deny LeBron signing after leaked 'introduction' video sends NBA into frenzy",
+  "live-2026-07-22-hapoel-ludogorets-preview": "Barda: Hapoel Tel Aviv face 'Champions League-level' test as European exile ends",
+  "live-2026-07-22-eli-ohana-likud-knesset-spot": "Beitar legend Eli Ohana reportedly set for guaranteed Likud Knesset spot",
+  "live-20260722-eisenberg-hapoel-tel-aviv-name-dispute": "Former owner Shaul Eisenberg sues, says Hapoel Tel Aviv's name belongs to him",
+  "live-20260722-levien-maccabi-euroleague-seat": "Jason Levien set to take Maccabi Tel Aviv's seat on the EuroLeague board",
+  "live-20260722-lonwijk-maccabi-haifa-signing": "Maccabi Haifa's defensive reinforcement lands: Nigel Lonwijk arrives in Israel",
+  "live-20260722-ivic-maccabi-bonus-shock": "Ivić: \"I was shocked by the bonus at Maccabi Tel Aviv\"",
+  "live-20260722-lonwijk-haifa-centre-back": "Maccabi Haifa turn to Wolves loanee Nigel Lonwijk to replace Eissat at the back",
+  "live-20260722-pedro-amador-hapoel-beer-sheva": "Portuguese left-back Pedro Amador closing in on Hapoel Beer Sheva move",
+  "live-2026-07-22-neymar-poker-santos": "Neymar trades the pitch for the poker table while Santos fly to Venezuela",
+  "live-2026-07-22-maccabi-tlv-sheriff-training-headache": "Varela, Asante and Blitz back in full training as Miller weighs selection puzzle before Sheriff Tiraspol",
+  "live-2026-07-22-ceferin-world-cup-final-boycott": "UEFA's Čeferin boycotts World Cup final over FIFA's handling of Trump-Balogun affair",
+  "live-20260722-bezos-liverpool-investment": "Bezos in talks to join investor group eyeing Liverpool stake",
+  "live-2026-07-22-jacob-wiley-nes-ziona": "Ironi Nes Ziona add wandering frontcourt man Jacob Wiley on two-year deal",
+  "live-20260722-blazers-dundon-broadcast-cuts": "Portland set to become the NBA's outlier as new owner guts the broadcast booth",
+  "live-20260722-rodri-ballon-dor-poll": "Spanish public overwhelmingly backs Rodri for the Ballon d'Or",
+  "live-2026-07-22-summerville-al-hilal-transfer": "Man United miss out as World Cup star Summerville set for shock Al-Hilal move",
+  "archive-20260722-belgrade-7-april-1977-the-night-tal-brod": "Belgrade, 7 April 1977: The night Tal Brody put Israel \"on the map\"",
+  "live-2026-07-21-scaloni-messi-future-argentina": "Scaloni brushes off Messi's viral locker-room video, says stars will now 'rethink' their futures",
+  "live-2026-07-21-ibrahimovic-paredes-headbutt": "Ibrahimović's parting shot: \"I'd have headbutted Paredes\" over final brawl",
+  "live-2026-07-21-fifa-world-cup-revenue-record": "FIFA banks record $15 billion from 2026 World Cup, nearly double Qatar's haul",
+  "live-20260721-kangwa-vikingur-aek-equalizer": "Kangwa levels for Hapoel in Iceland but barely celebrates amid AEK transfer talks",
+  "live-2026-07-21-partizan-wendell-moore-jr-race": "Partizan Belgrade joins Hapoel Jerusalem in race for Wendell Moore Jr.",
+  "live-20260721-morgan-rogers-chelsea-record-transfer": "Chelsea complete British transfer-record signing of Morgan Rogers",
+  "live-2026-07-21-modric-milan-contract-extension": "Modrić agrees new Milan deal, signing off on retirement talk for now",
+  "live-2026-07-21-beitar-owner-japanika-grenade-arrest": "Another suspect held over grenade attack on restaurant chain owned by Beitar Jerusalem's owner",
+  "live-2026-07-21-argentina-spain-finalissima-november": "Argentina and Spain reportedly closing in on a November Finalissima rematch in Qatar",
+  "live-2026-07-21-bnei-yehuda-nitzan-shirazi-tribute": "Bnei Yehuda pause for Nitzan Shirazi, 12 years after his death",
+  "tour-20260721-evenepoel-destroys-the-clock-by-lake-gen": "Evenepoel destroys the clock by Lake Geneva as Lipowitz's Tour ends in the barriers",
+  "live-2026-07-21-aek-withdraws-kangwa-offer": "AEK Athens pulls out of Kings Kangwa deal after Beer Sheva refuse to rest him for Vikingur",
+  "live-2026-07-21-aek-athens-withdraws-kangwa-offer": "AEK Athens pull offer for Beersheba's Kangwa after club refuses to rest him for Vikingur tie",
+  "live-20260721-cubarsi-laporte-fifa-best-xi-snub": "Spain baffled as FIFA leaves Cubarsí and Laporte off World Cup Best XI shortlist",
+  "live-20260721-american-alumni-israel-basketball-europe": "Israeli basketball's American alumni are chasing their way back to Europe",
+  "live-2026-07-21-haziza-netanya-deal": "Haziza agrees terms to join Maccabi Netanya, ending seven years at Haifa",
+  "live-2026-07-21-argentina-homecoming-without-messi": "Without Messi, Argentina comes home to a hero's welcome after World Cup heartbreak",
+  "live-20260721-draymond-green-pj-tucker-lebron": "Draymond Green jokes he'd become 'the next PJ Tucker' if LeBron joins Warriors",
+  "live-20260721-hapoel-beer-sheva-vikingur-odds": "Champions priced as underdogs: bookmakers see no favorite as Beer Sheva open Europe in Iceland",
+  "live-20260721-vinicius-junior-chin-procedure": "Vinícius Júnior debuts sharper jawline after chin filler procedure",
+  "live-2026-07-21-enzo-fernandez-red-card-silence": "Enzo Fernández speaks out on World Cup final red card, skips the apology",
+  "archive-20260721-barcelona-30-july-1992-the-silver-that-e": "Barcelona, 30 July 1992: The silver that ended the wait",
+  "live-2026-07-20-roddy-hapoel-jerusalem": "David Roddy reported to sign with Hapoel Jerusalem",
+  "live-2026-07-20-athletics-championship-records": "Mamo and Mantel break Israeli records at national athletics championships",
+  "live-2026-07-20-messi-world-cup-final-reaction": "Messi: 'The pain is enormous' after World Cup final heartbreak",
+  "live-2026-07-20-nof-hagalil-youth-coaches": "Hapoel Nof HaGalil rebuilds youth coaching staff after relegation",
+  "live-20260720-hapoel-tel-aviv-conference-path": "Hapoel Tel Aviv's road to Europe runs through Bulgaria, with Žilina or Katowice waiting",
+  "live-20260718-tsunami-maccabi-haifa": "Maccabi Haifa land Brazilian defender Wenderson Tsunami on a free transfer",
+  "live-20260717-hapoel-tel-aviv-close-in-on-jacob-toppin": "Hapoel Tel Aviv close in on former NBA forward Jacob Toppin",
+  "live-20260717-szoboszlai-signs-new-liverpool-deal-to-2031": "Szoboszlai commits his prime to Liverpool with new contract until 2031",
+  "live-20260717-novakovich-profile-saief-reunion": "Andrija Novakovich: the well-travelled striker reuniting with Kenny Saief at Maccabi Haifa",
+  "live-20260717-red-star-glazer-fee-demand": "Maccabi Haifa said to pay Red Star an estimated €300,000 to close Omri Glazer deal",
+  "live-20260717-liam-hermesh-agrees-grazer-ak-move": "Liam Hermesh agrees move to Austrian Bundesliga side Grazer AK",
+  "live-20260717-france-world-cup-replay-petition-fifa-backs-referee": "France's World Cup replay petition passes 50,000 signatures as FIFA backs referee",
+};
+
+const file = path.join(root, "data/articles.json");
+const data = JSON.parse(await readFile(file, "utf8"));
+const list = Array.isArray(data) ? data : data.articles;
+let n = 0;
+for (const a of list) {
+  if (MAP[a.id] && a.title !== MAP[a.id]) { a.title = MAP[a.id]; n++; }
+}
+await writeFile(file, JSON.stringify(data, null, 2) + "\n", "utf8");
+console.log(`Rewrote ${n} titles to sentence case.`);
