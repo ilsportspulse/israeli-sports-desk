@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T01:51:09.349Z",
+  "generatedAt": "2026-07-24T03:06:30.103Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 278,
+    "publishedArticles": 280,
     "wordCount": {
       "minimum": 237,
       "maximum": 1070,
-      "median": 469.5,
-      "average": 485.8
+      "median": 470.5,
+      "average": 486.6
     },
     "paragraphDistribution": {
       "5": 1,
@@ -24,7 +24,7 @@
       "7": 54,
       "8": 72,
       "9": 72,
-      "10": 48,
+      "10": 50,
       "11": 13,
       "12": 2,
       "13": 3,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.259,
+    "dominantParagraphShare": 0.257,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 7,
     "analysisBelowTarget": 4,
@@ -410,6 +410,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260724-beitar-jerusalem-carabali-larnaca",
+      "slug": "beitar-jerusalem-carabali-free-kick-sinks-aek-larnaca",
+      "title": "Beitar Jerusalem open European campaign with 1-0 win at AEK Larnaca",
+      "kind": "article",
+      "words": 471,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 39,
+        "longest": 64,
+        "average": 47.1
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 89,
+        "average": 42.8
+      },
+      "lexicalDiversity": 0.592,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "archive-20260724-athens-25-august-2004-the-race-that-gave",
+      "slug": "athens-25-august-2004-the-race-that-gave-israel-its-first-olympic-gold",
+      "title": "Athens, 25 August 2004: The Race That Gave Israel Its First Olympic Gold",
+      "kind": "explainer",
+      "words": 715,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 42,
+        "longest": 104,
+        "average": 71.5
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 57,
+        "average": 31.1
+      },
+      "lexicalDiversity": 0.506,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260723-beitar-jerusalem-camoranesi-credit",
       "slug": "beitar-jerusalem-aek-larnaca-camoranesi-credit-win",

@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-23T23:46:32Z",
-    "validUntil": "2026-07-24T11:46:32Z",
+    "checkedAt": "2026-07-24T03:06:29Z",
+    "validUntil": "2026-07-24T15:06:29Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 99,
+        "maxAgeHours": 102,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260723-ludogorets-bulgarian-press-reaction",
+        "articleId": "live-20260724-beitar-jerusalem-carabali-larnaca",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 107,
+        "maxAgeHours": 110,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-07-23-beitar-fans-attacked-larnaca",
+        "articleId": "archive-20260724-athens-25-august-2004-the-race-that-gave",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 117,
+        "maxAgeHours": 120,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260723-otamendi-argentina-retirement",
+        "articleId": "live-20260723-ludogorets-bulgarian-press-reaction",
         "maxAgeHours": 24,
         "requires": []
       }
