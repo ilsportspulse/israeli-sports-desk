@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T04:50:41.153Z",
+  "generatedAt": "2026-07-24T07:32:27.065Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 283,
+    "publishedArticles": 290,
     "wordCount": {
       "minimum": 237,
       "maximum": 1070,
       "median": 469,
-      "average": 485.6
+      "average": 483.9
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 7,
       "7": 54,
-      "8": 73,
-      "9": 73,
-      "10": 51,
+      "8": 78,
+      "9": 74,
+      "10": 52,
       "11": 13,
       "12": 2,
       "13": 3,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.258,
+    "dominantParagraphShare": 0.269,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 7,
     "analysisBelowTarget": 4,
@@ -410,6 +410,153 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-24-world-cup-match-fixing-alerts",
+      "slug": "seven-yellow-alerts-world-cup-betting-integrity",
+      "title": "Suspicious betting? Seven alerts raised over World Cup matches despite FIFA's clean bill of health",
+      "kind": "news",
+      "words": 545,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 76,
+        "average": 54.5
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 54,
+        "average": 28.7
+      },
+      "lexicalDiversity": 0.596,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-24-volpato-cocaine-licence",
+      "slug": "cristian-volpato-cocaine-test-licence-suspended-sydney",
+      "title": "Socceroos winger Cristian Volpato loses licence after alleged positive cocaine test",
+      "kind": "news",
+      "words": 383,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 64,
+        "average": 47.9
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 42,
+        "average": 25.5
+      },
+      "lexicalDiversity": 0.561,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-24-hapoel-rishon-lezion-youth-academy",
+      "slug": "hapoel-rishon-lezion-youth-academy-investment",
+      "title": "Hapoel Rishon LeZion bets on youth as it rebuilds for the future",
+      "kind": "news",
+      "words": 339,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 25,
+        "longest": 52,
+        "average": 42.4
+      },
+      "sentenceWords": {
+        "shortest": 19,
+        "longest": 48,
+        "average": 33.9
+      },
+      "lexicalDiversity": 0.605,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-24-world-climbing-suspension-vote-cancelled",
+      "slug": "world-climbing-cancels-vote-suspend-israel-competitions",
+      "title": "World Climbing cancels vote to suspend Israel from competitions",
+      "kind": "article",
+      "words": 353,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 26,
+        "longest": 59,
+        "average": 44.1
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 48,
+        "average": 27.2
+      },
+      "lexicalDiversity": 0.584,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-24-beitar-jerusalem-historic-away-win-larnaca",
+      "slug": "beitar-jerusalem-historic-away-win-aek-larnaca",
+      "title": "Beitar Jerusalem's win at AEK Larnaca is only their sixth European away victory ever",
+      "kind": "article",
+      "words": 432,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 48,
+        "longest": 63,
+        "average": 54
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 51,
+        "average": 30.9
+      },
+      "lexicalDiversity": 0.604,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260724-hezonja-nba-lebron-wait",
+      "slug": "hezonja-nba-comeback-waits-on-lebron-james-decision",
+      "title": "Hezonja's NBA comeback is stuck waiting on LeBron James",
+      "kind": "news",
+      "words": 519,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 50,
+        "longest": 66,
+        "average": 57.7
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 76,
+        "average": 32.4
+      },
+      "lexicalDiversity": 0.551,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260724-maccabi-haifa-lonwijk-signing",
+      "slug": "maccabi-haifa-sign-nigel-lonwijk",
+      "title": "Maccabi Haifa land Wolves defender Nigel Lonwijk on a three-year deal",
+      "kind": "news",
+      "words": 333,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 32,
+        "longest": 55,
+        "average": 41.6
+      },
+      "sentenceWords": {
+        "shortest": 17,
+        "longest": 49,
+        "average": 30.3
+      },
+      "lexicalDiversity": 0.655,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-20260724-dolev-haziza-maccabi-netanya",
       "slug": "dolev-haziza-signs-maccabi-netanya",

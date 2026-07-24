@@ -1,5 +1,689 @@
 [
   {
+    "id": "live-2026-07-24-world-cup-match-fixing-alerts",
+    "slug": "seven-yellow-alerts-world-cup-betting-integrity",
+    "title": "Suspicious betting? Seven alerts raised over World Cup matches despite FIFA's clean bill of health",
+    "dek": "An independent integrity monitor tied to the Council of Europe flagged seven low-level suspicious betting cases from the tournament, including a red card, a disallowed goal and a $4.8 million wager on Spain, even as FIFA insists it found nothing untoward.",
+    "category": "World Football",
+    "desk": "international",
+    "kind": "news",
+    "storyForm": "article",
+    "publishedAt": "2026-07-24T07:24:12.726Z",
+    "updatedAt": "2026-07-24T07:24:12.726Z",
+    "readMinutes": 4,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/528935.html"
+    },
+    "verificationSources": [
+      {
+        "label": "Goal.com",
+        "url": "https://www.goal.com/en/news/including-the-saudi-arabia-and-spain-match-7-suspected-match-fixing-cases-at-the-world-cup/blt673787b919c3c391"
+      },
+      {
+        "label": "FourFourTwo",
+        "url": "https://www.fourfourtwo.com/competition/seven-red-flags-raised-by-international-advisory-body-over-world-cup-2026-betting-irregularities"
+      },
+      {
+        "label": "Yahoo Sports",
+        "url": "https://sports.yahoo.com/articles/potential-world-cup-betting-scandal-120719385.html"
+      },
+      {
+        "label": "OneFootball",
+        "url": "https://onefootball.com/en/news/fifas-stance-as-two-spain-world-cup-matches-are-probed-over-betting-43178496"
+      }
+    ],
+    "body": [
+      "Five days after the final whistle in the 2026 World Cup, an uncomfortable question is being asked about the tournament's integrity: did anyone try to manipulate a match, and would anyone even know?",
+      "ONE reports that the Group of Copenhagen, an independent sports-betting monitoring body linked to the Council of Europe, tracked all 104 matches of the finals and singled out seven cases as \"yellow alerts\" — its second-lowest tier, denoting multiple indicators of irregularity that fall well short of proof but warrant a closer look. Fifteen matches in total received extra scrutiny, concentrated around the tense finish to the group stage, with twelve separate incidents examined for integrity risk.",
+      "The findings sit awkwardly alongside FIFA's own account. The governing body's Integrity Task Force has stated flatly that it identified \"no suspicious betting activity or indications of match manipulation\" in any fixture across the entire competition — a direct contradiction the Group of Copenhagen's report does not shy away from.",
+      "The most detailed case involves Folarin Balogun. The United States forward was shown a red card, and on July 2 the prediction-market platform Polymarket opened a market asking simply whether he would play against Belgium — three days before FIFA's Disciplinary Committee confirmed his suspension had been lifted. According to the report, no comparable betting market appeared for any of the other fourteen players sent off during the tournament, none of whom had their bans suspended.",
+      "A second flagged case centres on Spain's goalless group-stage draw with Cape Verde, where roughly $4.8 million was staked on Polymarket against Spain winning outright — a striking sum for a fixture pitting a heavy favourite against a World Cup debutant.",
+      "Spain features again in a third case: a VAR review lasting some three and a half minutes before a Ferran Torres goal was ruled out in the team's 4-0 win over Saudi Arabia. The delay itself, rather than the eventual decision, drew the monitor's attention.",
+      "The opening match of the tournament also made the list. South Africa's Themba Zwane was sent off in the 84th minute of the Group A curtain-raiser against Mexico, an incident the report includes among its seven flagged episodes.",
+      "None of this amounts to an allegation that any player, official or match was actually corrupted. A yellow alert, in the Group of Copenhagen's four-tier scale running from green through yellow and orange to red, is explicitly a trigger for further review rather than a finding of wrongdoing — it can be set off by nothing more sinister than an unusual swing in odds or a rumour circulating on social media.",
+      "What has amplified the story is scale. The Group of Copenhagen estimates roughly $240 billion was wagered worldwide on this World Cup, close to double the amount bet on Qatar 2022 — a market large enough that even minor statistical anomalies attract attention, and one prediction markets like Polymarket have made far more visible than in previous tournaments.",
+      "FIFA has not publicly detailed how it reconciles its own clean assessment with the Council of Europe-linked body's findings, and no disciplinary or criminal process has been opened over any of the seven cases. For now, the story is one of two respected integrity processes reaching different conclusions from the same tournament — not evidence that a World Cup match was fixed."
+    ],
+    "facts": [
+      "The Group of Copenhagen, an independent monitoring body linked to the Council of Europe, flagged seven \"yellow alert\" cases from the 2026 World Cup.",
+      "FIFA's Integrity Task Force says it found no suspicious betting activity or match-manipulation indicators in any tournament match.",
+      "Folarin Balogun (USA) was sent off before a Polymarket market asked whether he'd play against Belgium; his suspension was lifted three days later, on July 5.",
+      "Roughly $4.8 million was bet on Polymarket against Spain beating Cape Verde in a group match that finished 0-0.",
+      "A VAR review lasting about three and a half minutes disallowed a Ferran Torres goal in Spain's 4-0 win over Saudi Arabia.",
+      "Themba Zwane (South Africa) was sent off in the 84th minute of the tournament's opening match against Mexico.",
+      "The Group of Copenhagen estimates roughly $240 billion was wagered globally on the 2026 World Cup, about double the total for Qatar 2022."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 5,
+    "homepageReason": "Major post-World Cup integrity story with a genuine FIFA-vs-independent-monitor contradiction, no Israeli angle needed given its global significance.",
+    "dedupeKey": "worldcup2026-copenhagen-group-integrity-alerts",
+    "aiDisclosure": "Drafted by an AI copy desk from ONE's reporting and cross-checked against Goal.com, FourFourTwo, Yahoo Sports and OneFootball before publication.",
+    "nameChecks": [
+      {
+        "hebrew": "תמבה זוואנה",
+        "english": "Themba Zwane",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Themba_Zwane",
+        "confidence": 0.75
+      },
+      {
+        "hebrew": "פראן טורס",
+        "english": "Ferran Torres",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Ferran_Torres",
+        "confidence": 0.75
+      },
+      {
+        "hebrew": "פולארין באלוגון",
+        "english": "Folarin Balogun",
+        "verificationUrl": "https://commons.wikimedia.org/wiki/Category:Folarin_Balogun",
+        "confidence": 0.75
+      }
+    ],
+    "confidence": 0.85,
+    "warning": "",
+    "commonsQuery": "Themba Zwane red card Mexico South Africa World Cup 2026 / Ferran Torres Spain World Cup 2026 / Folarin Balogun USA World Cup 2026",
+    "commonsCandidates": [
+      {
+        "title": "File:Tarjeta roja a Themba Zwane en M1, México vs Sudáfrica del Mundial 2026.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Tarjeta_roja_a_Themba_Zwane_en_M1,_M%C3%A9xico_vs_Sud%C3%A1frica_del_Mundial_2026.jpg",
+        "credit": "Omar David Sandoval Sida / Wikimedia Commons",
+        "license": "CC BY 4.0"
+      },
+      {
+        "title": "File:Ferran Torres France v Spain 7.24.26-237 (cropped).jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Ferran_Torres_France_v_Spain_7.24.26-237_(cropped).jpg",
+        "credit": "Bryan Berlin (Berlination) / Wikimedia Commons, WikiPortraits",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:Folarin Balogun Australia v USA 19 June 2026-137.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Folarin_Balogun_Australia_v_USA_19_June_2026-137.jpg",
+        "credit": "Bryan Berlin (Berlination) / Wikimedia Commons, WikiPortraits",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "live-2026-07-24-volpato-cocaine-licence",
+    "slug": "cristian-volpato-cocaine-test-licence-suspended-sydney",
+    "title": "Socceroos winger Cristian Volpato loses licence after alleged positive cocaine test",
+    "dek": "The Sassuolo forward, fresh off Australia's World Cup campaign, was pulled over twice on Sydney's Anzac Bridge before a roadside drug test allegedly returned positive.",
+    "category": "World Football",
+    "desk": "international",
+    "kind": "news",
+    "storyForm": "brief",
+    "publishedAt": "2026-07-24T07:24:12.726Z",
+    "updatedAt": "2026-07-24T07:24:12.726Z",
+    "readMinutes": 3,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/528936.html"
+    },
+    "verificationSources": [
+      {
+        "label": "SBS News",
+        "url": "https://www.sbs.com.au/news/article/cristian-volpato-allegedly-tests-positive-for-cocaine/tmj4q3geo"
+      },
+      {
+        "label": "Asharq Al-Awsat (AFP wire)",
+        "url": "https://english.aawsat.com/sports/5299553-socceroos-star-volpato-allegedly-tests-positive-cocaine"
+      },
+      {
+        "label": "eNCA",
+        "url": "https://www.enca.com/sport/socceroos-star-cristian-volpato-allegedly-tests-positive-cocaine"
+      }
+    ],
+    "body": [
+      "Cristian Volpato's summer has taken a sharp and unwelcome turn. Weeks after helping Australia through the group stage at the FIFA World Cup, the Sassuolo winger allegedly returned a positive roadside test for cocaine during a late-night traffic stop in Sydney, and has had his international driver's licence suspended for six months.",
+      "New South Wales Police stopped Volpato twice in the space of two hours on the Anzac Bridge, one of Sydney's main harbour crossings. The first stop came just after 11pm on Thursday, when he was clocked doing 86-94 km/h in a 60 km/h zone. He was fined and passed a breath alcohol test at the scene.",
+      "A little over two hours later, at around 1.10am on Friday, police stopped him again on the same bridge, this time allegedly travelling at 109 km/h — close to 50 km/h over the limit. A roadside drug test taken during that second stop allegedly returned a positive reading for cocaine, according to a police statement reported by Australian outlets including SBS News.",
+      "A secondary oral fluid sample was taken for laboratory confirmation, the standard follow-up procedure in New South Wales before any formal charge is laid. As things stand, Volpato has not been charged with a criminal offence — the immediate consequence has been the six-month suspension of his licence.",
+      "ONE, the Israeli outlet that first flagged the story locally, reported the incident under the player's name as \"Christian\" Volpato; his correct playing name, as registered with Sassuolo, the Australian federation and FIFA, is Cristian Volpato.",
+      "The 22-year-old was one of the more talked-about figures of Australia's World Cup, having switched international allegiance from Italy — where he had represented the Azzurrini at Under-19 and Under-20 level — to the Socceroos shortly before the tournament. He made three appearances at the finals.",
+      "Born in the Sydney suburb of Camperdown, Volpato came through Roma's academy before joining Sassuolo, where he remains under contract in Serie A. Neither the club nor Football Australia had issued a public statement on the matter at the time of writing.",
+      "The episode is an awkward one for a player who had used the World Cup to raise his profile after a modest run of club form, and it now leaves a cloud over his return to pre-season training in Italy."
+    ],
+    "facts": [
+      "Cristian Volpato, 22, plays for Serie A club Sassuolo and made three appearances for Australia at the 2026 FIFA World Cup.",
+      "He was stopped twice by NSW Police on Sydney's Anzac Bridge within roughly two hours on the night of 23-24 July 2026.",
+      "The first stop, just after 11pm, clocked him at 86-94 km/h in a 60 km/h zone; he was fined and passed a breath alcohol test.",
+      "The second stop, around 1.10am, allegedly clocked him at 109 km/h; a roadside drug test allegedly returned positive for cocaine.",
+      "A secondary oral fluid sample was taken for laboratory confirmation; no criminal charge has been laid to date.",
+      "His international driver's licence was suspended for six months.",
+      "Volpato switched international allegiance from Italy to Australia shortly before the World Cup, having previously played for Italy's youth sides."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 5,
+    "homepageReason": "Notable World Cup player embroiled in an off-field drugs and driving controversy days after the tournament.",
+    "dedupeKey": "volpato-cocaine-licence-sydney-2026-07",
+    "aiDisclosure": "Drafted by an AI copy desk from verified wire and news sources.",
+    "nameChecks": [
+      {
+        "hebrew": "כריסטיאן וולפאטו",
+        "english": "Cristian Volpato",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Cristian_Volpato",
+        "confidence": 0.9
+      }
+    ],
+    "confidence": 0.82,
+    "warning": "Result is from a roadside test pending laboratory confirmation and no criminal charge has been filed; club/federation have not commented.",
+    "commonsQuery": "Cristian Volpato footballer",
+    "commonsCandidates": [
+      {
+        "title": "File:Cristian_Volpato_Australia_v_USA_19_June_2026-216.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Cristian_Volpato_Australia_v_USA_19_June_2026-216.jpg",
+        "credit": "Bryan Berlin / WikiPortraits",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:Sergino_Dest_Cristian_Volpato_Australia_v_USA_19_June_2026-209.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Sergino_Dest_Cristian_Volpato_Australia_v_USA_19_June_2026-209.jpg",
+        "credit": "Bryan Berlin / WikiPortraits",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:FC_Internazionale_Milano_v_US_Sassuolo_Calcio,_21_September_2025_-_08_(Cristian_Volpato).jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:FC_Internazionale_Milano_v_US_Sassuolo_Calcio,_21_September_2025_-_08_(Cristian_Volpato).jpg",
+        "credit": "SonoGrazy",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "live-2026-07-24-hapoel-rishon-lezion-youth-academy",
+    "slug": "hapoel-rishon-lezion-youth-academy-investment",
+    "title": "Hapoel Rishon LeZion bets on youth as it rebuilds for the future",
+    "dek": "More than 100 children turned out for the club's summer training camp, the first visible step in a youth strategy the Liga Leumit side hopes will carry it back to the top flight.",
+    "category": "Israeli Football",
+    "desk": "israel",
+    "kind": "news",
+    "storyForm": "news",
+    "publishedAt": "2026-07-24T07:24:12.726Z",
+    "updatedAt": "2026-07-24T07:24:12.726Z",
+    "readMinutes": 3,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/528938.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/528938.html"
+      },
+      {
+        "label": "BE106 Rishon LeZion – youth camp registration",
+        "url": "https://www.be106.net/231/143755"
+      }
+    ],
+    "body": [
+      "Hapoel Rishon LeZion kicked off its summer not with a marquee signing but with more than a hundred children and teenagers on the training pitch, in what the club is presenting as the first real step of a rebuilt youth strategy, ONE reported.",
+      "The Liga Leumit club's youth department ran a summer training camp for close to 100 boys and girls, split into small groups and worked through stations covering technique, finishing, individual tactics and pressing games, alongside coordination and physical conditioning.",
+      "Ophir Kupel, the department's professional manager, said the camp was run \"at the highest professional level, with the department's best coaches,\" with close attention paid to technical detail, physical work and team play. Alongside the football work, players sat in on enrichment sessions covering nutrition, mental resilience and a broader sporting lifestyle.",
+      "Arik Ben Yididya, the department's administrative manager, organised the camp together with Kupel — part of a push the club says goes beyond one summer session.",
+      "ONE frames the camp as the visible face of a larger commitment: an advanced football academy the club is investing in financially, built on the idea that Hapoel Rishon LeZion's route forward runs through developing its own players rather than leaning on a wealthy owner to buy success.",
+      "That framing lines up with where the club sits: Hapoel Rishon LeZion currently play in Liga Leumit, Israel's second tier, and are chasing promotion back to the top flight. A functioning academy pipeline would let the club develop players internally rather than relying solely on transfer budgets it does not have.",
+      "A separate notice from the youth department, carried by local outlet BE106, listed the preparatory camp as running from July 12 to July 28 — consistent with the timing of the camp described by ONE.",
+      "Alongside the football curriculum, the club says it is building the program around values like self-confidence, discipline, teamwork and friendship — the kind of framing clubs increasingly use to sell academy places to parents, but one that also reflects a genuine shift in resourcing toward the youth ranks."
+    ],
+    "facts": [
+      "Hapoel Rishon LeZion's youth department ran a summer training camp attended by close to 100 children and teenagers.",
+      "Ophir Kupel is the professional manager of the youth department; Arik Ben Yididya is the administrative manager.",
+      "The camp featured small-group, station-based training covering technique, finishing, individual tactics, pressing games, coordination and physical conditioning, plus lectures on nutrition and mental resilience.",
+      "The club describes the camp as part of a wider, financially backed investment in building an advanced football academy.",
+      "Hapoel Rishon LeZion currently compete in Liga Leumit, Israel's second-tier league, and are aiming for promotion to the top flight.",
+      "A separate local report (BE106) listed the youth department's preparatory camp as running from July 12 to July 28, 2026."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 5,
+    "homepageReason": "Modest but genuine club-level youth development story with local interest for Rishon LeZion fans; not a major transfer or result.",
+    "dedupeKey": "hapoel-rishon-lezion-youth-academy-2026-07",
+    "aiDisclosure": "Drafted by an AI copy desk from a single verified source (ONE), cross-checked against a local outlet for camp dates.",
+    "nameChecks": [
+      {
+        "hebrew": "הפועל ראשון לציון",
+        "english": "Hapoel Rishon LeZion",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Hapoel_Rishon_LeZion_F.C.",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "אופיר קופל",
+        "english": "Ophir Kupel",
+        "verificationUrl": "https://www.one.co.il/Article/528938.html",
+        "confidence": 0.75
+      },
+      {
+        "hebrew": "אריק בן ידידיה",
+        "english": "Arik Ben Yididya",
+        "verificationUrl": "https://www.be106.net/231/143755",
+        "confidence": 0.75
+      }
+    ],
+    "confidence": 0.78,
+    "warning": "Single-source club/youth item; names of staff (Kupel, Ben Yididya) are transliterated from Hebrew with no official English-language registry spelling found.",
+    "commonsQuery": "Hapoel Rishon LeZion F.C. Haberfeld Stadium",
+    "commonsCandidates": [
+      {
+        "title": "File:Hapoel Jerusalem-vs-Hapoel Rishon Lezion-0001.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Hapoel_Jerusalem-vs-Hapoel_Rishon_Lezion-0001.jpg",
+        "credit": "Rakoon / Wikimedia Commons",
+        "license": "CC0 1.0"
+      },
+      {
+        "title": "File:RLZ Haberfeld Stadium aerial view august 2013.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:RLZ_Haberfeld_Stadium_aerial_view_august_2013.jpg",
+        "credit": "Neukoln / Wikimedia Commons",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "title": "File:Haberfeld-stadium-rishon-00002-september-2016.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/Category:Haberfeld_Stadium",
+        "credit": "Wikimedia Commons contributor",
+        "license": "CC BY-SA (verify on file page)"
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "live-2026-07-24-world-climbing-suspension-vote-cancelled",
+    "slug": "world-climbing-cancels-vote-suspend-israel-competitions",
+    "title": "World Climbing cancels vote to suspend Israel from competitions",
+    "dek": "A last-minute motion from USA Climbing, Australia and Cyprus averted a vote on banning Israel, Russia and Belarus from international competition, with a disciplinary review ordered instead.",
+    "category": "Israeli Olympic Sport",
+    "desk": "israel",
+    "kind": "article",
+    "storyForm": "news",
+    "publishedAt": "2026-07-24T07:24:12.726Z",
+    "updatedAt": "2026-07-24T07:24:12.726Z",
+    "readMinutes": 3,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/528939.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/528939.html"
+      },
+      {
+        "label": "Climbing.com",
+        "url": "https://www.climbing.com/news/world-climbing-assembly-cancels-vote-on-banning-israel-russia-and-belarus/"
+      }
+    ],
+    "body": [
+      "A push to suspend Israel from international climbing competitions collapsed just hours before it was due to be put to a vote, ONE reports. World Climbing, the sport's global governing body formerly known as the IFSC, had called an extraordinary general assembly for Thursday to decide whether the Israeli federation should be barred from competition alongside Russia and Belarus.",
+      "The push originated with the Palestinian Climbing Federation and activist groups such as Climbers for Palestine, who argue that Israeli climbers and organisers have developed climbing sites on land they say belongs to Palestinian territory, and accuse the Israel Climbing Federation of appropriating routes in the West Bank.",
+      "More than 70 national federations logged on for the virtual assembly, but the suspension vote itself never happened. In an eleventh-hour intervention, USA Climbing, joined by the federations of Australia and Cyprus, put forward an alternative motion asking the assembly to shelve the ban vote altogether.",
+      "That alternative passed by a slim majority. Instead of voting Israel, Russia and Belarus in or out, the assembly instructed World Climbing's Executive Board to build a general framework, grounded in good governance, proportionality and non-discrimination, for deciding in future which national federations may take part in its events.",
+      "The immediate suspension threat has been lifted, but not the scrutiny. ONE reports that allegations of possible regulatory violations by both the Israeli and Russian climbing federations will now be referred to World Climbing's disciplinary committee for review.",
+      "Individual athletes are unaffected by Thursday's proceedings: their eligibility to compete under their national flags remains unchanged regardless of the outcome of any future federation-level process.",
+      "Climbing becomes the latest sport to wrestle publicly with campaigns to exclude Israel from international competition, with advocates pointing specifically to disputes over access to bouldering and cliff sites in the West Bank as their central grievance.",
+      "For now, Israeli climbers can compete without interruption, with no federation currently suspended from the World Cup or World Championship calendar. But with the Executive Board now tasked with drafting a formal framework, the question of Israel's place in international climbing looks likely to resurface once that work is complete."
+    ],
+    "facts": [
+      "World Climbing, formerly the IFSC, held a virtual extraordinary general assembly on Thursday, July 23, 2026, with more than 70 national federations attending.",
+      "The assembly was scheduled to vote on suspending Israel, Russia and Belarus from international climbing competition.",
+      "USA Climbing, together with the Australian and Cypriot federations, proposed a last-minute alternative motion to cancel the suspension vote.",
+      "A slight majority of federations backed the alternative, instructing the Executive Board to draft a principles-based framework for future participation decisions.",
+      "Allegations that Israel's and Russia's climbing federations breached regulations will be referred to World Climbing's disciplinary committee.",
+      "Individual athletes' eligibility to compete is unaffected by the vote's cancellation."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 6,
+    "homepageReason": "International sports-governance story with direct stakes for Israeli athletes and its federation.",
+    "dedupeKey": "world-climbing-israel-suspension-vote-2026-07-23",
+    "aiDisclosure": "This article was drafted by an AI newsroom assistant from verified source reporting and independently cross-checked facts.",
+    "nameChecks": [
+      {
+        "hebrew": "התאחדות הטיפוס בישראל",
+        "english": "Israel Climbing Federation (ILCA)",
+        "verificationUrl": "https://ilca.org.il/",
+        "confidence": 0.8
+      }
+    ],
+    "confidence": 0.85,
+    "warning": "",
+    "commonsQuery": "IFSC World Climbing Championships lead climbing competition",
+    "commonsCandidates": [
+      {
+        "title": "File:Climbing World Championships 2018 Lead Final Schubert 08.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Climbing_World_Championships_2018_Lead_Final_Schubert_08.jpg",
+        "credit": "Simon Legner / Wikimedia Austria (WikiDaheim 2018)",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:Rock climbing wall 3.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Rock_climbing_wall_3.jpg",
+        "credit": "ProjectManhattan",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "title": "File:Sport Climbing.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Sport_Climbing.jpg",
+        "credit": "Ram Sripracha",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "live-2026-07-24-beitar-jerusalem-historic-away-win-larnaca",
+    "slug": "beitar-jerusalem-historic-away-win-aek-larnaca",
+    "title": "Beitar Jerusalem's win at AEK Larnaca is only their sixth European away victory ever",
+    "dek": "Brayan Carabalí's second-half free kick settled a 1-0 win in Cyprus, giving Beitar back-to-back European away victories for the first time in the club's history ahead of next week's return leg in Romania.",
+    "category": "Israeli Football",
+    "desk": "israel",
+    "kind": "article",
+    "storyForm": "news",
+    "publishedAt": "2026-07-24T07:24:12.726Z",
+    "updatedAt": "2026-07-24T07:24:12.726Z",
+    "readMinutes": 4,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/528921.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/528921.html"
+      },
+      {
+        "label": "Sport1 (Maariv)",
+        "url": "https://sport1.maariv.co.il/israeli-soccer/ligat-haal/article/1907343/"
+      },
+      {
+        "label": "Ynetnews",
+        "url": "https://www.ynetnews.com/article/9ddq0gvww"
+      },
+      {
+        "label": "Sports Mole match report",
+        "url": "https://www.sportsmole.co.uk/football/europa-conference-league/aek-larnaca-vs-beitar-jerusalem_game_251503.html"
+      }
+    ],
+    "body": [
+      "Beitar Jerusalem beat AEK Larnaca 1-0 away in Cyprus on Thursday to open their Conference League second qualifying round tie, and by the numbers alone it is one of the rarer results in the club's European history: only the sixth away win Beitar have managed in 28 attempts in continental competition.",
+      "The only goal came in the 77th minute at the AEK Arena – George Karapatakis, when Brayan Carabalí curled a direct free kick past the Cypriot goalkeeper. The Colombian centre-back's strike arrived five minutes after AEK were reduced to ten men, with Mike van der Hoorn sent off in the 72nd minute.",
+      "ONE, reporting on the significance of the result, notes that Beitar have now won on the road in Europe for the first time in successive seasons — following last year's 2-1 victory at Sutjeska in the same competition. In a fixture list stretching back to 1996, that has never happened before.",
+      "The club's full away-win ledger in Europe, as laid out by ONE, reads: Floriana 5-1 (1996/97), Torshavn 1-0 (1998/99), WIT Georgia 4-1 (2000/01), Vasas 3-0 (2017/18), Sutjeska 2-1 (2025/26) and now AEK Larnaca 1-0 (2026/27) — six wins from 28 away trips over three decades.",
+      "The gaps between those results tell their own story: 17 years separated the win in Georgia from the one over Vasas in Hungary, and a further eight passed before Sutjeska. Beitar's away form in continental football has long been the club's soft underbelly, and Thursday's result, coming barely a year after ending that drought altogether, points to something changing.",
+      "It was also a first competitive outing as head coach for Almog Cohen, who moved from the club's sports director role into the dugout this summer after Beitar finished runners-up in the Israeli Premier League last season. Barak Itzhaki left the post at the end of the campaign.",
+      "The return leg is scheduled for July 30 — but not in Cyprus, and not in Jerusalem either. With UEFA continuing to bar European fixtures from being staged in Israel because of the security situation, Beitar will host AEK Larnaca at the Ilie Oană Stadium in Ploiești, Romania, a roughly 15,000-capacity ground the club has used before for matches designated as \"home\" games.",
+      "A one-goal cushion is a workable but hardly decisive lead to carry into that second leg. Still, for a club whose European away record has been defined more by long famines than by results like Thursday's, banking a clean sheet and a goal in Larnaca gives Beitar a rare position of comfort heading into the second half of the tie."
+    ],
+    "facts": [
+      "Beitar Jerusalem beat AEK Larnaca 1-0 away in the Conference League second qualifying round, first leg, on July 23, 2026.",
+      "Brayan Carabalí scored the only goal in the 77th minute with a direct free kick.",
+      "AEK Larnaca defender Mike van der Hoorn was sent off in the 72nd minute.",
+      "It was Beitar Jerusalem's sixth away win in 28 European away matches in the club's history, per ONE's count.",
+      "The result gave Beitar away wins in Europe in consecutive seasons for the first time, following last season's win at Sutjeska.",
+      "It was new head coach Almog Cohen's first competitive match in charge, after moving from the club's sports director role.",
+      "The second leg is scheduled for July 30, 2026, at the Ilie Oană Stadium in Ploiești, Romania, standing in as Beitar's home venue because UEFA continues to bar matches in Israel."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 6,
+    "homepageReason": "Historic milestone (rare European away win) plus a winning competitive debut for Beitar's new head coach — strong domestic football interest.",
+    "dedupeKey": "conf-league-q2-aeklarnaca-beitarjerusalem-2026-07-23",
+    "aiDisclosure": "Drafted by an AI copy desk system from verified source reporting, cross-checked against independent Israeli and international outlets before publication.",
+    "nameChecks": [
+      {
+        "hebrew": "בית\"ר ירושלים",
+        "english": "Beitar Jerusalem",
+        "verificationUrl": "https://he.wikipedia.org/wiki/%D7%91%D7%99%D7%AA%22%D7%A8_%D7%99%D7%A8%D7%95%D7%A9%D7%9C%D7%99%D7%9D",
+        "confidence": 0.99
+      },
+      {
+        "hebrew": "א.א.ק לרנקה",
+        "english": "AEK Larnaca",
+        "verificationUrl": "https://www.uefa.com/uefaconferenceleague/clubs/54191--aek-larnaca/",
+        "confidence": 0.92
+      },
+      {
+        "hebrew": "בריאן קרבאלי",
+        "english": "Brayan Carabalí",
+        "verificationUrl": "https://www.transfermarkt.us/brayan-carabali/profil/spieler/652362",
+        "confidence": 0.88
+      },
+      {
+        "hebrew": "אלמוג כהן",
+        "english": "Almog Cohen",
+        "verificationUrl": "https://www.jpost.com/israel-news/sports/article-901007",
+        "confidence": 0.85
+      },
+      {
+        "hebrew": "מייק ואן דר הורן",
+        "english": "Mike van der Hoorn",
+        "verificationUrl": "https://www.sportsmole.co.uk/football/europa-conference-league/aek-larnaca-vs-beitar-jerusalem_game_251503.html",
+        "confidence": 0.85
+      }
+    ],
+    "confidence": 0.85,
+    "warning": "",
+    "commonsQuery": "Beitar Jerusalem F.C. training photograph OR Teddy Stadium Jerusalem interior",
+    "commonsCandidates": [
+      {
+        "title": "File:Beitar Jerusalem in training.JPG",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Beitar_Jerusalem_in_training.JPG",
+        "credit": "Jonathan Peters (Govvy), Wikimedia Commons",
+        "license": "CC BY 3.0"
+      },
+      {
+        "title": "File:Teddy Kollek Stadium - Inside.JPG",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Teddy_Kollek_Stadium_-_Inside.JPG",
+        "credit": "Little Savage, Wikimedia Commons",
+        "license": "Public domain"
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "live-20260724-hezonja-nba-lebron-wait",
+    "slug": "hezonja-nba-comeback-waits-on-lebron-james-decision",
+    "title": "Hezonja's NBA comeback is stuck waiting on LeBron James",
+    "dek": "Real Madrid's Liga ACB MVP has real NBA interest from Golden State and Cleveland, but ESPN reports both are waiting to see where LeBron James lands before committing to anyone else",
+    "category": "World Basketball",
+    "desk": "international",
+    "kind": "news",
+    "storyForm": "report",
+    "publishedAt": "2026-07-24T07:24:12.726Z",
+    "updatedAt": "2026-07-24T07:24:12.726Z",
+    "readMinutes": 4,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/528940.html"
+    },
+    "verificationSources": [
+      {
+        "label": "Basketnews",
+        "url": "https://basketnews.com/news-252517-lebron-james-holding-up-mario-hezonja-nba-comeback-per-shams.html"
+      },
+      {
+        "label": "Heavy.com",
+        "url": "https://heavy.com/sports/nba/golden-state-warriors/warriors-linked-lebron-james-backup-plan/"
+      },
+      {
+        "label": "Yahoo Sports",
+        "url": "https://sports.yahoo.com/articles/nba-offseason-trade-free-agent-201126098.html"
+      },
+      {
+        "label": "Walla Sport",
+        "url": "https://sports.walla.co.il/item/3851443"
+      }
+    ],
+    "body": [
+      "Mario Hezonja spent six years rebuilding a reputation the NBA had all but written off, turning himself back into one of the EuroLeague's most dangerous forwards at Real Madrid. Now, with genuine NBA suitors circling again, his comeback has stalled for a reason that has nothing to do with him at all: LeBron James still hasn't decided where he's playing next season.",
+      "ONE reports that the Croatian, once the fifth overall pick of the 2015 draft, has interest from multiple NBA teams, but that Golden State and Cleveland are effectively sitting on their hands until James resolves his own free agency. Both clubs see Hezonja as a fallback wing option rather than a priority, which leaves him waiting on a decision that isn't his to make.",
+      "ESPN's Shams Charania, speaking on The Pat McAfee Show, said Hezonja \"is coming from the EuroLeague back to the NBA\" but \"cannot choose his destination until James makes his free-agency decision.\" When a co-host joked that Hezonja had been stuck at the airport for three weeks \"like Tom Hanks\" in The Terminal, Charania simply replied, \"Exactly.\"",
+      "It is a strange twist for a player once regarded as one of the bigger busts of his draft class. Orlando took Hezonja fifth overall in 2015 ahead of players like Devin Booker, and across 330 NBA games with the Magic, Knicks and Trail Blazers he managed only 6.9 points, 3.1 rebounds and 1.3 assists a game before leaving the league in 2020.",
+      "Europe is where he rebuilt himself. Since joining Real Madrid for the 2022–23 season, Hezonja has grown into one of the continent's most productive scoring wings, and last season he was named Liga ACB MVP while averaging 17.5 points a game on 36.6 percent three-point shooting as Real Madrid reached the EuroLeague final, where they fell to Olympiacos.",
+      "That form is precisely why NBA interest has resurfaced. Hebrew outlets Walla Sport and Sport5 reported that Hezonja used an NBA exit clause in his Real Madrid contract, which ran until July 20, to inform the club he intends to leave for a return to the league that once gave up on him.",
+      "The problem is timing. Golden State and Cleveland are both among LeBron James's finalists as he weighs his next move, alongside teams such as Miami and Philadelphia, and neither wants to commit a roster spot or salary-cap flexibility to Hezonja until they know whether they've landed the 41-year-old four-time champion.",
+      "James declined his player option with Cleveland to enter free agency, and ESPN has reported that all interested teams have now made their final pitches. Charania has said James is \"getting closer and closer\" to a decision, though no firm timetable has been set, leaving the entire market — Hezonja included — in a holding pattern.",
+      "For a player who once seemed to have exhausted his NBA chances, the frustration is almost a good problem to have. Hezonja rebuilt his career from scratch in Europe and earned his way back to the league's doorstep — he is simply discovering that getting through it now depends on somebody else's phone call."
+    ],
+    "facts": [
+      "Mario Hezonja, drafted fifth overall by the Orlando Magic in 2015, is attempting to return to the NBA this offseason.",
+      "ESPN's Shams Charania reported on The Pat McAfee Show that Hezonja cannot choose his next NBA team until LeBron James resolves his free agency.",
+      "The Golden State Warriors and Cleveland Cavaliers, both pursuing James, view Hezonja as a fallback wing option rather than a primary target.",
+      "Hezonja won Liga ACB MVP last season with Real Madrid, averaging 17.5 points a game on 36.6 percent three-point shooting, and helped the club reach the 2026 EuroLeague final.",
+      "In his first NBA stint, Hezonja averaged 6.9 points, 3.1 rebounds and 1.3 assists across 330 games with Orlando, New York and Portland before leaving the league in 2020.",
+      "LeBron James, 41, declined his player option with Cleveland to become a free agent, with Golden State and Cleveland among the teams still in contention for him."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 5,
+    "homepageReason": "Notable NBA/EuroLeague crossover tied directly to the LeBron James free agency saga dominating basketball headlines this week.",
+    "dedupeKey": "hezonja-nba-return-lebron-freeagency-2026",
+    "aiDisclosure": "Drafted with AI assistance from wire and source reporting; edited by the Israel Sports Pulse desk.",
+    "nameChecks": [
+      {
+        "hebrew": "מריו הזוניה",
+        "english": "Mario Hezonja",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Mario_Hezonja",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "לברון ג'יימס",
+        "english": "LeBron James",
+        "verificationUrl": "https://en.wikipedia.org/wiki/LeBron_James",
+        "confidence": 0.98
+      }
+    ],
+    "confidence": 0.85,
+    "warning": "",
+    "commonsQuery": "Mario Hezonja Real Madrid basketball",
+    "commonsCandidates": [
+      {
+        "title": "File:Mario Hezonja 11 Real Madrid Baloncesto Euroleague 20260409 (1).jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Mario_Hezonja_11_Real_Madrid_Baloncesto_Euroleague_20260409_(1).jpg",
+        "credit": "Zafer / Wikimedia Commons",
+        "license": "CC BY 4.0"
+      },
+      {
+        "title": "File:Mario Hezonja.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Mario_Hezonja.jpg",
+        "credit": "Castroquini2011 via Flickr / Wikimedia Commons",
+        "license": "CC BY 2.0"
+      },
+      {
+        "title": "File:Mario Hezonja 2022.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Mario_Hezonja_2022.jpg",
+        "credit": "Igor Kralj/PIXSELL / Wikimedia Commons",
+        "license": "CC BY 3.0"
+      },
+      {
+        "title": "File:Mario Hezonja3.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Mario_Hezonja3.jpg",
+        "credit": "(:Julien:) / Wikimedia Commons",
+        "license": "CC BY-SA 3.0"
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "live-20260724-maccabi-haifa-lonwijk-signing",
+    "slug": "maccabi-haifa-sign-nigel-lonwijk",
+    "title": "Maccabi Haifa land Wolves defender Nigel Lonwijk on a three-year deal",
+    "dek": "The Surinamese-Dutch centre-back, who spent last season on loan at Luton Town, becomes the champions' fifth summer arrival as they refresh their back line before the new campaign.",
+    "category": "Israeli Football",
+    "desk": "israel",
+    "kind": "news",
+    "storyForm": "brief",
+    "publishedAt": "2026-07-24T07:24:12.726Z",
+    "updatedAt": "2026-07-24T07:24:12.726Z",
+    "readMinutes": 3,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/528877.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/528877.html"
+      },
+      {
+        "label": "Walla Sport",
+        "url": "https://sports.walla.co.il/item/3855438"
+      },
+      {
+        "label": "Sport5",
+        "url": "https://www.sport5.co.il/articles.aspx?FolderID=64&docID=554008"
+      },
+      {
+        "label": "Israel Hayom",
+        "url": "https://www.israelhayom.co.il/sport/israeli-soccer/article/21036353"
+      }
+    ],
+    "body": [
+      "Maccabi Haifa have put the finishing touches on the defensive reinforcement they spent the summer chasing, confirming the signing of centre-back Nigel Lonwijk from Wolverhampton Wanderers on a three-year contract, ONE reports.",
+      "The 23-year-old underwent a medical in Haifa before putting pen to paper, closing out a pursuit that Israeli outlets had been tracking closely for the past week as talks with Wolves progressed.",
+      "Lonwijk is a Surinamese-Dutch defender who came through PSV Eindhoven's academy before Wolves signed him in 2020. Since then he has been farmed out on a string of loans in the English lower divisions, at Huddersfield Town, Wycombe Wanderers and Plymouth Argyle, where he won the League One title in 2022/23.",
+      "Last season he was loaned to Luton Town in League One, making 45 appearances and scoring twice while picking up nine yellow cards. Standing 1.90 metres, he is primarily a centre-back but has also been used at right-back, giving Maccabi Haifa a defender who can slot into a back three or a back four.",
+      "ONE puts the transfer fee to Wolves at around €600,000, though other Israeli reports, including Israel Hayom, have cited a slightly lower figure closer to half a million euros. His salary in Haifa is projected at roughly €400,000 a season, according to Sport5 and Walla Sport.",
+      "Lonwijk becomes Maccabi Haifa's fifth permanent signing of the summer window, following the arrivals of Yair Mordechai, Wanderson, Omri Glazer and Andrea Novakovic, as the club continues to rebuild around Frenkie de Jong's former youth coach's core group ahead of a season that will include Champions League qualifying football.",
+      "The addition addresses a defensive department that has seen turnover this summer, with the club keen to add height, physicality and versatility at the back rather than relying solely on returning faces.",
+      "Maccabi Haifa are expected to formally unveil Lonwijk in the coming days, with pre-season friendlies giving new manager and staff an early look at how he fits alongside the club's existing centre-back pairing."
+    ],
+    "facts": [
+      "Nigel Lonwijk, 23, has signed a three-year contract with Maccabi Haifa.",
+      "He joins from Wolverhampton Wanderers, who had loaned him to Luton Town in England's League One last season.",
+      "ONE reports the transfer fee at approximately €600,000; other Israeli outlets, including Israel Hayom, cited a figure closer to €500,000.",
+      "His projected salary at Maccabi Haifa is around €400,000 per season, per Sport5 and Walla Sport.",
+      "He made 45 appearances and scored twice for Luton Town last season.",
+      "He is 1.90 metres tall, of Surinamese-Dutch descent, and came through the PSV Eindhoven academy before joining Wolves in 2020.",
+      "He previously had loan spells at Huddersfield Town, Wycombe Wanderers and Plymouth Argyle, winning the League One title with Plymouth in 2022/23.",
+      "He is Maccabi Haifa's fifth summer signing, after Yair Mordechai, Wanderson, Omri Glazer and Andrea Novakovic."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 5,
+    "homepageReason": "Confirmed defensive signing for the Israeli champions ahead of the new season, with fee and contract details reported by multiple Israeli outlets.",
+    "dedupeKey": "maccabihaifa-lonwijk-signing-2026-07",
+    "aiDisclosure": "This article was drafted by an AI copy desk assistant from reporting by ONE, cross-checked against Walla Sport, Sport5 and Israel Hayom.",
+    "nameChecks": [
+      {
+        "hebrew": "נייג'ל לונוויק",
+        "english": "Nigel Lonwijk",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Nigel_Lonwijk",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "וולברהמפטון",
+        "english": "Wolverhampton Wanderers",
+        "verificationUrl": "https://www.wolves.co.uk/news/loan-watch/20250710-lonwijk-signs-new-deal-ahead-of-luton-loan/",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "לוטון טאון",
+        "english": "Luton Town",
+        "verificationUrl": "https://www.premierleague.com/en/players/465551/nigel-lonwijk/overview",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "מכבי חיפה",
+        "english": "Maccabi Haifa",
+        "verificationUrl": "https://www.one.co.il/Article/528877.html",
+        "confidence": 0.95
+      }
+    ],
+    "confidence": 0.82,
+    "warning": "Reported transfer fee varies slightly across Israeli outlets (roughly €500,000-€600,000); exact figure not yet officially confirmed by either club.",
+    "commonsQuery": "Sammy Ofer Stadium Haifa",
+    "commonsCandidates": [
+      {
+        "title": "File:Sammy Ofer Stadium panorama.JPG",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Sammy_Ofer_Stadium_panorama.JPG",
+        "credit": "Assaf Yekuel (Shefshef)",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:SammyOfer25.JPG",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:SammyOfer25.JPG",
+        "credit": "Itai Zoref (Segal)",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "status": "published"
+  },
+  {
     "id": "live-20260724-dolev-haziza-maccabi-netanya",
     "slug": "dolev-haziza-signs-maccabi-netanya",
     "title": "Dolev Haziza set to sign for Maccabi Netanya, ending six-year Haifa stay",

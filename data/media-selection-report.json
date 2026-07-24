@@ -1,19 +1,46 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-07-24-hapoel-pt-arroyo-zrihan",
-      "article": "Hapoel Petah Tikva optimistic over Arroyo loan as Zrihan emerges as target",
-      "file": "File:Petah Tikva HaMoshava Stadium 4.jpg",
-      "license": "CC BY 3.0"
+      "articleId": "live-2026-07-24-world-cup-match-fixing-alerts",
+      "article": "Suspicious betting? Seven alerts raised over World Cup matches despite FIFA's clean bill of health",
+      "file": "File:Tarjeta roja a Themba Zwane en M1, México vs Sudáfrica del Mundial 2026.jpg",
+      "license": "CC BY 4.0"
     },
     {
-      "articleId": "live-2026-07-24-lonwijk-tsunami-haifa-derby",
-      "article": "Maccabi Haifa give Lonwijk first taste of training as Tsunami is named for the derby",
-      "file": "File:Bayern Munich vs Maccabi Haifa (4136140709).jpg",
-      "license": "CC BY-SA 2.0"
+      "articleId": "live-2026-07-24-volpato-cocaine-licence",
+      "article": "Socceroos winger Cristian Volpato loses licence after alleged positive cocaine test",
+      "file": "File:Cristian Volpato Australia v USA 19 June 2026-216.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-2026-07-24-world-climbing-suspension-vote-cancelled",
+      "article": "World Climbing cancels vote to suspend Israel from competitions",
+      "file": "File:Climbing World Championships 2018 Lead Final Schubert 08.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-20260724-hezonja-nba-lebron-wait",
+      "article": "Hezonja's NBA comeback is stuck waiting on LeBron James",
+      "file": "File:Mario Hezonja 11 Real Madrid Baloncesto Euroleague 20260409 (1).jpg",
+      "license": "CC BY 4.0"
     }
   ],
   "failures": [
+    {
+      "id": "live-2026-07-24-hapoel-rishon-lezion-youth-academy",
+      "title": "Hapoel Rishon LeZion bets on youth as it rebuilds for the future",
+      "error": "image download 429 after retries"
+    },
+    {
+      "id": "live-2026-07-24-beitar-jerusalem-historic-away-win-larnaca",
+      "title": "Beitar Jerusalem's win at AEK Larnaca is only their sixth European away victory ever",
+      "error": "image download 429 after retries"
+    },
+    {
+      "id": "live-20260724-maccabi-haifa-lonwijk-signing",
+      "title": "Maccabi Haifa land Wolves defender Nigel Lonwijk on a three-year deal",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
     {
       "id": "live-20260724-dolev-haziza-maccabi-netanya",
       "title": "Dolev Haziza set to sign for Maccabi Netanya, ending six-year Haifa stay",
