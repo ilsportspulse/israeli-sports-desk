@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T19:24:23.875Z",
+  "generatedAt": "2026-07-24T20:48:40.292Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 315,
+    "publishedArticles": 320,
     "wordCount": {
       "minimum": 237,
       "maximum": 1070,
-      "median": 465,
-      "average": 479.9
+      "median": 464.5,
+      "average": 478.7
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 7,
-      "7": 58,
+      "7": 59,
       "8": 83,
-      "9": 81,
-      "10": 59,
+      "9": 83,
+      "10": 61,
       "11": 15,
       "12": 2,
       "13": 3,
@@ -33,13 +33,36 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.263,
+    "dominantParagraphShare": 0.259,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 7,
     "analysisBelowTarget": 4,
-    "articlesWithStyleFlags": 18
+    "articlesWithStyleFlags": 19
   },
   "flagged": [
+    {
+      "id": "live-20260724-israel-u16-girls-water-polo-worlds-zagreb",
+      "slug": "israel-u16-girls-water-polo-open-world-championship-zagreb",
+      "title": "Israel's under-16 girls' water polo team open world championship campaign in Zagreb",
+      "kind": "article",
+      "words": 272,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 53,
+        "average": 38.9
+      },
+      "sentenceWords": {
+        "shortest": 14,
+        "longest": 71,
+        "average": 38.9
+      },
+      "lexicalDiversity": 0.621,
+      "publisherAttributions": 1,
+      "flags": [
+        "below-editorial-target:272/280"
+      ]
+    },
     {
       "id": "live-20260724-lebron-james-business-empire",
       "slug": "lebron-james-1-7-billion-business-empire",
@@ -456,6 +479,90 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-24-kangwa-panathinaikos-transfer",
+      "slug": "kings-kangwa-panathinaikos-four-year-deal",
+      "title": "Kings Kangwa agrees four-year deal with Panathinaikos in record Beer Sheva sale",
+      "kind": "news",
+      "words": 355,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 26,
+        "longest": 46,
+        "average": 35.5
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 46,
+        "average": 27.3
+      },
+      "lexicalDiversity": 0.592,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260724-lebron-76ers-shock-reaction",
+      "slug": "lebron-james-signs-76ers-nba-reactions",
+      "title": "NBA stunned as LeBron James signs with the Philadelphia 76ers",
+      "kind": "news",
+      "words": 476,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 44,
+        "longest": 61,
+        "average": 52.9
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 51,
+        "average": 31.7
+      },
+      "lexicalDiversity": 0.624,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-24-jean-silva-knockout-episode-50",
+      "slug": "jean-silva-knockout-podcast-ilai-brazili-menora",
+      "title": "UFC's Jean Silva guests on Israeli MMA podcast Knockout ahead of Menora corner duty",
+      "kind": "article",
+      "words": 398,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 55,
+        "average": 44.2
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 55,
+        "average": 39.8
+      },
+      "lexicalDiversity": 0.575,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-24-lebron-james-76ers",
+      "slug": "lebron-james-signs-76ers-lebron-day",
+      "title": "LeBron James signs with the 76ers as Pennsylvania declares 'LeBron James Day'",
+      "kind": "news",
+      "words": 488,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 38,
+        "longest": 66,
+        "average": 48.8
+      },
+      "sentenceWords": {
+        "shortest": 1,
+        "longest": 57,
+        "average": 24.4
+      },
+      "lexicalDiversity": 0.561,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-20260724-chelsea-lacroix-inter-romero",
       "slug": "lacroix-completes-chelsea-medical-as-inter-open-romero-talks",

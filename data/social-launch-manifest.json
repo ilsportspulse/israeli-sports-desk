@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-24T19:24:23Z",
-    "validUntil": "2026-07-25T07:24:23Z",
+    "checkedAt": "2026-07-24T20:48:39Z",
+    "validUntil": "2026-07-25T08:48:39Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 118,
+        "maxAgeHours": 120,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260724-chelsea-lacroix-inter-romero",
+        "articleId": "live-20260724-israel-u16-girls-water-polo-worlds-zagreb",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 126,
+        "maxAgeHours": 128,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "tour-20260724-poga-ar-shatters-pantani-s-alpe-d-huez-r",
+        "articleId": "live-2026-07-24-kangwa-panathinaikos-transfer",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 136,
+        "maxAgeHours": 138,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260724-guardiola-rejects-italy-job",
+        "articleId": "live-2026-07-24-lebron-james-76ers",
         "maxAgeHours": 24,
         "requires": []
       }
