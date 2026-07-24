@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T17:51:22.117Z",
+  "generatedAt": "2026-07-24T19:24:23.875Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,19 +11,19 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 313,
+    "publishedArticles": 315,
     "wordCount": {
       "minimum": 237,
       "maximum": 1070,
       "median": 465,
-      "average": 480
+      "average": 479.9
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 7,
       "7": 58,
       "8": 83,
-      "9": 79,
+      "9": 81,
       "10": 59,
       "11": 15,
       "12": 2,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.265,
+    "dominantParagraphShare": 0.263,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 7,
     "analysisBelowTarget": 4,
@@ -456,6 +456,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260724-chelsea-lacroix-inter-romero",
+      "slug": "lacroix-completes-chelsea-medical-as-inter-open-romero-talks",
+      "title": "Lacroix undergoes Chelsea medical as Inter open talks for Tottenham's Romero",
+      "kind": "news",
+      "words": 379,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 48,
+        "average": 42.1
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 59,
+        "average": 29.2
+      },
+      "lexicalDiversity": 0.628,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "tour-20260724-poga-ar-shatters-pantani-s-alpe-d-huez-r",
+      "slug": "poga-ar-shatters-pantani-s-alpe-d-huez-record-to-seal-tour-de-france-s",
+      "title": "Pogačar shatters Pantani's Alpe d'Huez record to seal Tour de France stranglehold",
+      "kind": "news",
+      "words": 547,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 86,
+        "average": 60.8
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 80,
+        "average": 32.2
+      },
+      "lexicalDiversity": 0.55,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260724-guardiola-rejects-italy-job",
       "slug": "guardiola-rejects-italy-coaching-job",

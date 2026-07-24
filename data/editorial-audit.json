@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T17:51:21.905Z",
+  "generatedAt": "2026-07-24T19:24:23.623Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,30 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 429,
-    "publishedBefore": 313,
-    "cleanPublished": 313,
+    "totalArticles": 431,
+    "publishedBefore": 315,
+    "cleanPublished": 315,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 313,
+    "publishedAfter": 315,
     "reviewAfter": 116
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-20260724-chelsea-lacroix-inter-romero",
+      "slug": "lacroix-completes-chelsea-medical-as-inter-open-romero-talks",
+      "title": "Lacroix undergoes Chelsea medical as Inter open talks for Tottenham's Romero",
+      "statusBefore": "published",
+      "words": 381,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260724-guardiola-rejects-italy-job",
       "slug": "guardiola-rejects-italy-coaching-job",
@@ -81,7 +95,8 @@
       "verificationSources": 5,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -109,7 +124,8 @@
       "verificationSources": 4,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -3571,6 +3587,32 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-20260724-chelsea-lacroix-inter-romero",
+      "slug": "lacroix-completes-chelsea-medical-as-inter-open-romero-talks",
+      "title": "Lacroix undergoes Chelsea medical as Inter open talks for Tottenham's Romero",
+      "statusBefore": "published",
+      "words": 381,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "tour-20260724-poga-ar-shatters-pantani-s-alpe-d-huez-r",
+      "slug": "poga-ar-shatters-pantani-s-alpe-d-huez-record-to-seal-tour-de-france-s",
+      "title": "Pogačar shatters Pantani's Alpe d'Huez record to seal Tour de France stranglehold",
+      "statusBefore": "published",
+      "words": 537,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 8,
+      "blockers": [],
+      "warnings": []
+    },
+    {
       "id": "live-20260724-guardiola-rejects-italy-job",
       "slug": "guardiola-rejects-italy-coaching-job",
       "title": "Guardiola turns down Italy job, leaving Maldini to chase plan B",
@@ -3610,7 +3652,8 @@
       "verificationSources": 5,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -3638,7 +3681,8 @@
       "verificationSources": 4,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
