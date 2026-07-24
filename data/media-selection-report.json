@@ -1,41 +1,45 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-07-24-tamir-berman-kfar-shalem",
-      "article": "Tamir Berman crosses the road from Bnei Yehuda to Hapoel Kfar Shalem",
-      "file": "File:Hatikva Neighborhood Stadium (1).jpg",
-      "license": "CC BY-SA 3.0"
-    },
-    {
-      "articleId": "live-2026-07-24-bnei-herzliya-brewton",
-      "article": "Bnei Herzliya sign well-travelled American guard DJ Brewton",
-      "file": "File:Isaac Herzog awards the Israeli Basketball State Cup to Bnei Herzliya Basket, February 2022 (GPOZACH 1 10).jpg",
-      "license": "CC BY-SA 3.0"
-    },
-    {
-      "articleId": "live-2026-07-24-shtilman-100m-offer-maccabi-tel-aviv",
-      "article": "Rapyd's Shtilman offers $100 million for Recanati family's Maccabi Tel Aviv stake",
-      "file": "File:NokiaArena-TelAviv.jpg",
+      "articleId": "live-2026-07-24-haziza-farewell-maccabi-haifa",
+      "article": "Dolev Haziza bids farewell to Maccabi Haifa as move to Maccabi Netanya is confirmed",
+      "file": "File:Dolev Haziza.JPG",
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-2026-07-24-spain-world-cup-matches-betting-probe",
-      "article": "Two of Spain's World Cup matches flagged in betting integrity report",
-      "file": "File:Ferran Torres France v Spain 7.24.26-237 (cropped).jpg",
+      "articleId": "live-2026-07-24-man-city-marc-bernal-rodri-successor",
+      "article": "Manchester City weigh move for Barcelona's Marc Bernal as a long-term Rodri successor",
+      "file": "File:Camp Nou October 2015.JPG",
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-20260724-tiberias-without-coach",
-      "article": "Ironi Tiberias open season without coach and six players amid banned-infusions case",
-      "file": "File:Sakhnin stadium and city.jpg",
+      "articleId": "live-20260724-hapoel-petah-tikva-2026-27-kits",
+      "article": "Hapoel Petah Tikva unveil three new kits for 2026/27, timed for derby debut",
+      "file": "File:HaMoshava Stadium (2).JPG",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "articleId": "live-2026-07-24-rest-between-sets-gym-training",
+      "article": "How long should you rest between sets at the gym?",
+      "file": "File:Barbell Group Fitness Class2.JPG",
       "license": "CC BY-SA 3.0"
     }
   ],
   "failures": [
     {
-      "id": "live-2026-07-24-rest-between-sets-gym-training",
-      "title": "How long should you rest between sets at the gym?",
+      "id": "live-2026-07-24-hapoel-haifa-away-kit",
+      "title": "Hapoel Haifa unveil black away kit built around the city's landmarks",
       "error": "image download 429 after retries"
+    },
+    {
+      "id": "live-2026-07-24-van-bommel-belgium-coach",
+      "title": "Mark van Bommel appointed new Belgium head coach",
+      "error": "image download 429 after retries"
+    },
+    {
+      "id": "live-2026-07-24-beitar-maale-adumim-youth-champions",
+      "title": "Beitar Ma'ale Adumim's youth side wins promotion to the national league",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {
       "id": "live-2026-07-24-shpungin-machane-yehuda-liga-alef",

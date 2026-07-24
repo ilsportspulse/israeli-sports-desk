@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T12:59:59.894Z",
+  "generatedAt": "2026-07-24T14:40:23.303Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,21 +11,21 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 296,
+    "publishedArticles": 300,
     "wordCount": {
       "minimum": 237,
       "maximum": 1070,
-      "median": 469,
-      "average": 483.5
+      "median": 468.5,
+      "average": 482.1
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 7,
       "7": 55,
-      "8": 78,
-      "9": 75,
+      "8": 80,
+      "9": 76,
       "10": 55,
-      "11": 14,
+      "11": 15,
       "12": 2,
       "13": 3,
       "14": 2,
@@ -33,13 +33,36 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.264,
+    "dominantParagraphShare": 0.267,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 7,
     "analysisBelowTarget": 4,
-    "articlesWithStyleFlags": 16
+    "articlesWithStyleFlags": 17
   },
   "flagged": [
+    {
+      "id": "live-2026-07-24-haziza-farewell-maccabi-haifa",
+      "slug": "dolev-haziza-farewell-maccabi-haifa-netanya-transfer",
+      "title": "Dolev Haziza bids farewell to Maccabi Haifa as move to Maccabi Netanya is confirmed",
+      "kind": "news",
+      "words": 389,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 29,
+        "longest": 59,
+        "average": 43.2
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 34,
+        "average": 24.3
+      },
+      "lexicalDiversity": 0.548,
+      "publisherAttributions": 2,
+      "flags": [
+        "publisher-attribution-heavy:2"
+      ]
+    },
     {
       "id": "live-2026-07-23-hapoel-ludogorets-flare-stoppage",
       "slug": "hapoel-tel-aviv-ludogorets-flare-stoppage",
@@ -410,6 +433,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-24-man-city-marc-bernal-rodri-successor",
+      "slug": "man-city-eye-marc-bernal-as-rodri-successor",
+      "title": "Manchester City weigh move for Barcelona's Marc Bernal as a long-term Rodri successor",
+      "kind": "news",
+      "words": 418,
+      "paragraphs": 11,
+      "paragraphWords": {
+        "shortest": 27,
+        "longest": 44,
+        "average": 38
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 43,
+        "average": 29.9
+      },
+      "lexicalDiversity": 0.62,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260724-hapoel-petah-tikva-2026-27-kits",
+      "slug": "hapoel-petah-tikva-unveils-2026-27-kits",
+      "title": "Hapoel Petah Tikva unveil three new kits for 2026/27, timed for derby debut",
+      "kind": "news",
+      "words": 334,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 23,
+        "longest": 55,
+        "average": 41.8
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 51,
+        "average": 33.4
+      },
+      "lexicalDiversity": 0.611,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-24-van-bommel-belgium-coach",
+      "slug": "van-bommel-appointed-belgium-head-coach",
+      "title": "Mark van Bommel appointed new Belgium head coach",
+      "kind": "news",
+      "words": 360,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 53,
+        "average": 45
+      },
+      "sentenceWords": {
+        "shortest": 21,
+        "longest": 113,
+        "average": 45
+      },
+      "lexicalDiversity": 0.625,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-07-24-bnei-herzliya-brewton",
       "slug": "bnei-herzliya-sign-guard-dj-brewton",
