@@ -1,5 +1,82 @@
 [
   {
+    "ts": "2026-07-24T17:45:28.651Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 8,
+    "published": 6,
+    "review": 1,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "eli-ohana-breaks-silence-netanyahu-likud",
+        "title": "Eli Ohana breaks his silence on reports Netanyahu wants him on the Likud list",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "nba-reacts-lebron-james-76ers-shock-move",
+        "title": "NBA world reacts to LeBron James's shock move to the 76ers",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "lebron-james-1-7-billion-business-empire",
+        "title": "LeBron James has earned $1.7 billion since turning pro, ONE reports",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "pogacar-smashes-alpe-dhuez-record-tour-de-france",
+        "title": "Pogačar smashes 30-year-old Alpe d'Huez record on stage 19",
+        "confidence": 0.95,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "lebron-james-76ers-reshapes-eastern-conference",
+        "title": "LeBron James joins the 76ers, reshaping the balance of power in the East",
+        "confidence": 0.93,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "maresca-unveiled-manchester-city-rodri-real-madrid",
+        "title": "Maresca faces the media at Manchester City: 'Every manager would want Rodri'",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "bakhar-crest-speaks-for-itself-maccabi-haifa-toto-cup-opener",
+        "title": "Bakhar says Maccabi Haifa's crest \"speaks for itself\" ahead of Toto Cup opener against Hapoel Haifa",
+        "confidence": 0.82,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Some secondary squad names (e.g. Bruninho, Pedrão, Yarin Levi, David Marten, Lidor Ganon) are drawn only from the single ONE source and could not be independently cross-verified in this pass."
+      },
+      {
+        "slug": "guardiola-rejects-italy-coaching-job",
+        "title": "Guardiola turns down Italy job, leaving Maldini to chase plan B",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-07-24T16:01:02.492Z",
     "mode": "cli",
     "model": "claude-sonnet-5",

@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-24T16:08:54Z",
-    "validUntil": "2026-07-25T04:08:54Z",
+    "checkedAt": "2026-07-24T17:51:21Z",
+    "validUntil": "2026-07-25T05:51:21Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 115,
+        "maxAgeHours": 117,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260724-kings-kangwa-panathinaikos-transfer",
+        "articleId": "live-20260724-guardiola-rejects-italy-job",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 123,
+        "maxAgeHours": 125,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-07-24-david-green-kiryat-ata",
+        "articleId": "live-2026-07-24-maresca-unveiled-city",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 133,
+        "maxAgeHours": 135,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-07-24-david-moses-florida-atlantic",
+        "articleId": "live-20260724-pogacar-alpe-dhuez-record",
         "maxAgeHours": 24,
         "requires": []
       }

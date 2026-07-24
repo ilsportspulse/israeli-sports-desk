@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T16:08:55.098Z",
+  "generatedAt": "2026-07-24T17:51:22.117Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 307,
+    "publishedArticles": 313,
     "wordCount": {
       "minimum": 237,
       "maximum": 1070,
-      "median": 466,
+      "median": 465,
       "average": 480
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 7,
       "7": 58,
-      "8": 81,
-      "9": 78,
-      "10": 56,
+      "8": 83,
+      "9": 79,
+      "10": 59,
       "11": 15,
       "12": 2,
       "13": 3,
@@ -33,13 +33,36 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.264,
+    "dominantParagraphShare": 0.265,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 7,
     "analysisBelowTarget": 4,
-    "articlesWithStyleFlags": 17
+    "articlesWithStyleFlags": 18
   },
   "flagged": [
+    {
+      "id": "live-20260724-lebron-james-business-empire",
+      "slug": "lebron-james-1-7-billion-business-empire",
+      "title": "LeBron James has earned $1.7 billion since turning pro, ONE reports",
+      "kind": "explainer",
+      "words": 448,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 43,
+        "longest": 73,
+        "average": 56
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 55,
+        "average": 28
+      },
+      "lexicalDiversity": 0.578,
+      "publisherAttributions": 0,
+      "flags": [
+        "below-editorial-target:448/500"
+      ]
+    },
     {
       "id": "live-2026-07-24-haziza-farewell-maccabi-haifa",
       "slug": "dolev-haziza-farewell-maccabi-haifa-netanya-transfer",
@@ -433,6 +456,111 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260724-guardiola-rejects-italy-job",
+      "slug": "guardiola-rejects-italy-coaching-job",
+      "title": "Guardiola turns down Italy job, leaving Maldini to chase plan B",
+      "kind": "news",
+      "words": 364,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 27,
+        "longest": 54,
+        "average": 40.4
+      },
+      "sentenceWords": {
+        "shortest": 15,
+        "longest": 46,
+        "average": 33.1
+      },
+      "lexicalDiversity": 0.643,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-24-maresca-unveiled-city",
+      "slug": "maresca-unveiled-manchester-city-rodri-real-madrid",
+      "title": "Maresca faces the media at Manchester City: 'Every manager would want Rodri'",
+      "kind": "news",
+      "words": 443,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 44,
+        "longest": 71,
+        "average": 55.4
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 104,
+        "average": 40.3
+      },
+      "lexicalDiversity": 0.569,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260724-lebron-james-76ers-eastern-conference",
+      "slug": "lebron-james-76ers-reshapes-eastern-conference",
+      "title": "LeBron James joins the 76ers, reshaping the balance of power in the East",
+      "kind": "analysis",
+      "words": 711,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 44,
+        "longest": 98,
+        "average": 71.1
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 79,
+        "average": 28.4
+      },
+      "lexicalDiversity": 0.502,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260724-pogacar-alpe-dhuez-record",
+      "slug": "pogacar-smashes-alpe-dhuez-record-tour-de-france",
+      "title": "Pogačar smashes 30-year-old Alpe d'Huez record on stage 19",
+      "kind": "news",
+      "words": 454,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 63,
+        "average": 45.4
+      },
+      "sentenceWords": {
+        "shortest": 15,
+        "longest": 45,
+        "average": 28.4
+      },
+      "lexicalDiversity": 0.619,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-24-eli-ohana-likud-politics",
+      "slug": "eli-ohana-breaks-silence-netanyahu-likud",
+      "title": "Eli Ohana breaks his silence on reports Netanyahu wants him on the Likud list",
+      "kind": "news",
+      "words": 480,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 61,
+        "average": 48
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 99,
+        "average": 36.9
+      },
+      "lexicalDiversity": 0.552,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260724-kings-kangwa-panathinaikos-transfer",
       "slug": "kings-kangwa-panathinaikos-transfer-beer-sheva",
