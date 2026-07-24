@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T20:48:40.292Z",
+  "generatedAt": "2026-07-24T21:53:25.502Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 320,
+    "publishedArticles": 323,
     "wordCount": {
       "minimum": 237,
       "maximum": 1070,
-      "median": 464.5,
-      "average": 478.7
+      "median": 464,
+      "average": 477.6
     },
     "paragraphDistribution": {
       "5": 1,
-      "6": 7,
+      "6": 9,
       "7": 59,
       "8": 83,
       "9": 83,
-      "10": 61,
+      "10": 62,
       "11": 15,
       "12": 2,
       "13": 3,
@@ -33,9 +33,9 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.259,
+    "dominantParagraphShare": 0.257,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 7,
+    "exactSixParagraphArticles": 9,
     "analysisBelowTarget": 4,
     "articlesWithStyleFlags": 19
   },
@@ -479,6 +479,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-24-volpato-cocaine-test",
+      "slug": "volpato-cocaine-positive-roadside-test-sydney",
+      "title": "World Cup midfielder Volpato tests positive for cocaine in Sydney roadside stop",
+      "kind": "news",
+      "words": 477,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 28,
+        "longest": 78,
+        "average": 47.7
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 50,
+        "average": 29.8
+      },
+      "lexicalDiversity": 0.568,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260724-thiem-registers-footballer",
+      "slug": "dominic-thiem-registers-footballer-badener-ac",
+      "title": "Former world No. 3 Dominic Thiem registers as a footballer in Austria",
+      "kind": "article",
+      "words": 310,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 45,
+        "longest": 57,
+        "average": 51.7
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 43,
+        "average": 23.8
+      },
+      "lexicalDiversity": 0.629,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-24-orian-goren-barcelona-debut",
+      "slug": "orian-goren-first-minutes-barcelona-senior-team",
+      "title": "Orian Goren gets first taste of Barcelona's senior side in preseason opener",
+      "kind": "article",
+      "words": 306,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 64,
+        "average": 51
+      },
+      "sentenceWords": {
+        "shortest": 18,
+        "longest": 42,
+        "average": 30.6
+      },
+      "lexicalDiversity": 0.621,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-07-24-kangwa-panathinaikos-transfer",
       "slug": "kings-kangwa-panathinaikos-four-year-deal",

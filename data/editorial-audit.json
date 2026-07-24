@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T20:48:39.946Z",
+  "generatedAt": "2026-07-24T21:53:25.301Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,87 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 436,
-    "publishedBefore": 320,
-    "cleanPublished": 320,
+    "totalArticles": 441,
+    "publishedBefore": 323,
+    "cleanPublished": 323,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 320,
-    "reviewAfter": 116
+    "publishedAfter": 323,
+    "reviewAfter": 118
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-2026-07-24-volpato-cocaine-test",
+      "slug": "volpato-cocaine-positive-roadside-test-sydney",
+      "title": "World Cup midfielder Volpato tests positive for cocaine in Sydney roadside stop",
+      "statusBefore": "published",
+      "words": 476,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260724-thiem-registers-footballer",
+      "slug": "dominic-thiem-registers-footballer-badener-ac",
+      "title": "Former world No. 3 Dominic Thiem registers as a footballer in Austria",
+      "statusBefore": "published",
+      "words": 310,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-24-real-madrid-diomande-bid",
+      "slug": "real-madrid-100m-bid-yan-diomande-leipzig",
+      "title": "Real Madrid table €100m bid for RB Leipzig winger Yan Diomandé",
+      "statusBefore": "review",
+      "words": 322,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260724-mourinho-real-madrid-debut-alcorcon",
+      "slug": "mourinho-real-madrid-debut-win-alcorcon",
+      "title": "Mourinho wins Real Madrid debut as Mastantuono shines in narrow Alcorcón victory",
+      "statusBefore": "review",
+      "words": 414,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-24-orian-goren-barcelona-debut",
+      "slug": "orian-goren-first-minutes-barcelona-senior-team",
+      "title": "Orian Goren gets first taste of Barcelona's senior side in preseason opener",
+      "statusBefore": "published",
+      "words": 307,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260724-israel-u16-girls-water-polo-worlds-zagreb",
       "slug": "israel-u16-girls-water-polo-open-world-championship-zagreb",
@@ -3600,6 +3671,48 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-07-24-volpato-cocaine-test",
+      "slug": "volpato-cocaine-positive-roadside-test-sydney",
+      "title": "World Cup midfielder Volpato tests positive for cocaine in Sydney roadside stop",
+      "statusBefore": "published",
+      "words": 476,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260724-thiem-registers-footballer",
+      "slug": "dominic-thiem-registers-footballer-badener-ac",
+      "title": "Former world No. 3 Dominic Thiem registers as a footballer in Austria",
+      "statusBefore": "published",
+      "words": 310,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-24-orian-goren-barcelona-debut",
+      "slug": "orian-goren-first-minutes-barcelona-senior-team",
+      "title": "Orian Goren gets first taste of Barcelona's senior side in preseason opener",
+      "statusBefore": "published",
+      "words": 307,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260724-israel-u16-girls-water-polo-worlds-zagreb",
       "slug": "israel-u16-girls-water-polo-open-world-championship-zagreb",
