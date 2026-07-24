@@ -146,8 +146,8 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-24T23:40:53Z",
-    "validUntil": "2026-07-25T11:40:53Z",
+    "checkedAt": "2026-07-24T23:52:50Z",
+    "validUntil": "2026-07-25T11:52:50Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
@@ -160,21 +160,21 @@
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-07-24-lebron-james-76ers-pay-cut",
+        "articleId": "live-2026-07-24-nwaiwu-sakhnin-fulham",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 130,
+        "maxAgeHours": 131,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260724-kevin-kampl-gardener",
+        "articleId": "live-20260724-tambedou-hapoel-flop-levadia",
         "maxAgeHours": 24,
         "requires": []
       },
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-07-24-alex-garcia-bauru-contract-47",
+        "articleId": "live-2026-07-24-lebron-james-76ers-pay-cut",
         "maxAgeHours": 24,
         "requires": []
       }

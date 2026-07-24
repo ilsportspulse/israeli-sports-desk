@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T23:40:53.624Z",
+  "generatedAt": "2026-07-24T23:52:50.994Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,59 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 445,
-    "publishedBefore": 307,
-    "cleanPublished": 307,
+    "totalArticles": 451,
+    "publishedBefore": 310,
+    "cleanPublished": 310,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 307,
-    "reviewAfter": 138
+    "publishedAfter": 310,
+    "reviewAfter": 141
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-2026-07-24-kangwa-panathinaikos-hapoel-fee",
+      "slug": "hapoel-beer-sheva-kangwa-panathinaikos-fee",
+      "title": "Hapoel Beer Sheva set to land €4m as Kangwa completes move to Panathinaikos",
+      "statusBefore": "review",
+      "words": 326,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-07-24-nwaiwu-sakhnin-fulham",
+      "slug": "nwaiwu-sakhnin-trial-fulham-transfer",
+      "title": "The defender Bnei Sakhnin passed on three years ago is closing in on a Premier League move",
+      "statusBefore": "published",
+      "words": 413,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260724-tambedou-hapoel-flop-levadia",
+      "slug": "tambedou-hapoel-tel-aviv-flop-levadia-scoring-run",
+      "title": "The Hapoel Tel Aviv flop now closing in on a scoring title in Estonia",
+      "statusBefore": "published",
+      "words": 551,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260724-david-musis-fau-move",
       "slug": "david-musis-israeli-basketball-talent-heads-to-florida-atlantic",
@@ -130,7 +173,7 @@
       "id": "live-2026-07-24-orian-goren-barcelona-debut",
       "slug": "orian-goren-first-minutes-barcelona-senior-team",
       "title": "Orian Goren gets first taste of Barcelona's senior side in preseason opener",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 307,
       "paragraphs": 6,
       "facts": 6,
@@ -3714,6 +3757,59 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-2026-07-24-nwaiwu-sakhnin-fulham",
+      "slug": "nwaiwu-sakhnin-trial-fulham-transfer",
+      "title": "The defender Bnei Sakhnin passed on three years ago is closing in on a Premier League move",
+      "statusBefore": "published",
+      "words": 413,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260724-tambedou-hapoel-flop-levadia",
+      "slug": "tambedou-hapoel-tel-aviv-flop-levadia-scoring-run",
+      "title": "The Hapoel Tel Aviv flop now closing in on a scoring title in Estonia",
+      "statusBefore": "published",
+      "words": 551,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-24-oryan-goren-barcelona-debut",
+      "slug": "oryan-goren-makes-barcelona-first-team-debut-at-17",
+      "title": "Oryan Goren, 17, makes his Barcelona first-team debut in preseason win",
+      "statusBefore": "published",
+      "words": 362,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-07-24-philipsen-stage17-tdf",
+      "slug": "philipsen-wins-tour-de-france-stage-17-voiron",
+      "title": "Philipsen finally breaks through to win Tour de France stage 17",
+      "statusBefore": "published",
+      "words": 430,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
       "id": "live-2026-07-24-lebron-james-76ers-pay-cut",
       "slug": "lebron-james-takes-veteran-minimum-to-join-76ers",
       "title": "LeBron James takes a fraction of his old salary to sign with the 76ers",
@@ -3776,20 +3872,6 @@
       "paragraphs": 6,
       "facts": 6,
       "verificationSources": 3,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-07-24-orian-goren-barcelona-debut",
-      "slug": "orian-goren-first-minutes-barcelona-senior-team",
-      "title": "Orian Goren gets first taste of Barcelona's senior side in preseason opener",
-      "statusBefore": "published",
-      "words": 307,
-      "paragraphs": 6,
-      "facts": 6,
-      "verificationSources": 4,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"

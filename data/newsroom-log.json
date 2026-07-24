@@ -1,5 +1,79 @@
 [
   {
+    "ts": "2026-07-24T23:45:41.601Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 8,
+    "published": 5,
+    "review": 1,
+    "skipped": 2,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "dolev-haziza-signs-maccabi-netanya",
+        "title": "Dolev Haziza signs two-year deal with hometown club Maccabi Netanya",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "philipsen-wins-tour-de-france-stage-17-voiron",
+        "title": "Philipsen finally breaks through to win Tour de France stage 17",
+        "confidence": 0.9,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "yarden-mantel-noam-mamu-break-israel-athletics-championship-records",
+        "title": "Mantel and Mamu break Israeli records on opening day of the national athletics championships",
+        "confidence": 0.85,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Supporting-race results (Levi, Hanzel) are drawn from Walla/Davar coverage and could not be cross-checked against an official World Athletics registry within budget; the two headline records (Mantel, Mamu) are corroborated by World Athletics profiles."
+      },
+      {
+        "slug": "oryan-goren-makes-barcelona-first-team-debut-at-17",
+        "title": "Oryan Goren, 17, makes his Barcelona first-team debut in preseason win",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "tambedou-hapoel-tel-aviv-flop-levadia-scoring-run",
+        "title": "The Hapoel Tel Aviv flop now closing in on a scoring title in Estonia",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "kings-kangwa-leaves-hapoel-beer-sheva-for-panathinaikos",
+        "title": "Kangwa completes record move from Hapoel Beer Sheva to Panathinaikos",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "nwaiwu-sakhnin-trial-fulham-transfer",
+        "title": "The defender Bnei Sakhnin passed on three years ago is closing in on a Premier League move",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "hapoel-beer-sheva-kangwa-panathinaikos-fee",
+        "title": "Hapoel Beer Sheva set to land €4m as Kangwa completes move to Panathinaikos",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-07-24T23:34:32.916Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -2989,35 +3063,6 @@
         "gate": "pass",
         "decision": "published",
         "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-07-21T04:48:54.535Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 2,
-    "published": 0,
-    "review": 1,
-    "skipped": 1,
-    "gates": {
-      "confidenceMin": 0.92,
-      "namecheckMin": 0.9,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "url": "https://www.one.co.il/Article/528684.html",
-        "decision": "error",
-        "reason": "spawnSync claude ETIMEDOUT"
-      },
-      {
-        "slug": "vinicius-junior-new-look-chin-filler-procedure",
-        "title": "Vinícius Júnior Debuts Sharper Jawline After Chin Filler Procedure",
-        "confidence": 0,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "This story carries no Israeli competition, athlete or team angle — it concerns only a Brazilian footballer's personal cosmetic procedure. Per desk policy, confidence is set to 0 and the piece is held for editorial review rather than published on the Israeli desk. The core facts (procedure type, Goiânia clinic location, World Cup-criticism motivation) are independently confirmed by Yahoo Entertainment and OneFootball; the treating dermatologist's name and the ex-girlfriend's specific role in circulating the photos rest on a single primary source plus corroborating social-media context, so those secondary details are reported with attribution rather than as flatly confirmed."
       }
     ]
   }

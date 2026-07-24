@@ -1,31 +1,40 @@
 {
   "selections": [
     {
-      "articleId": "live-20260724-david-musis-fau-move",
-      "article": "Israeli basketball prospect David Musis set for move to Florida Atlantic",
-      "file": "File:FAU Arena 2.jpeg",
-      "license": "Public domain"
-    },
-    {
-      "articleId": "live-2026-07-24-lebron-james-76ers-pay-cut",
-      "article": "LeBron James takes a fraction of his old salary to sign with the 76ers",
-      "file": "File:LeBron James (15662939969).jpg",
-      "license": "CC BY-SA 2.0"
-    },
-    {
-      "articleId": "live-20260724-kevin-kampl-gardener",
-      "article": "Bundesliga star Kevin Kampl trades the pitch for a Mallorca vegetable farm after family tragedy",
-      "file": "File:2022-04-20 Fußball, Männer, DFB-Pokal, RB Leipzig - 1. FC Union Berlin 1DX 8279 by Stepro.jpg",
+      "articleId": "live-2026-07-24-nwaiwu-sakhnin-fulham",
+      "article": "The defender Bnei Sakhnin passed on three years ago is closing in on a Premier League move",
+      "file": "File:Şenol Güneş Stadium.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-2026-07-24-alex-garcia-bauru-contract-47",
-      "article": "Ex-Maccabi Tel Aviv guard Alex Garcia signs on to play until at least 47",
-      "file": "File:Game between Lithuania and Brazil men's national basketball teams at the 2016 Summer Olympics (11).jpg",
-      "license": "CC BY 3.0 br"
+      "articleId": "live-20260724-tambedou-hapoel-flop-levadia",
+      "article": "The Hapoel Tel Aviv flop now closing in on a scoring title in Estonia",
+      "file": "File:A. Le Coq Arena - Lilleküla staadion.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-20260724-mantel-mamu-israel-athletics-records",
+      "article": "Mantel and Mamu break Israeli records on opening day of the national athletics championships",
+      "file": "File:Givat ram stadium.jpg",
+      "license": "CC BY-SA 3.0"
     }
   ],
   "failures": [
+    {
+      "id": "live-2026-07-24-kangwa-panathinaikos-hapoel-fee",
+      "title": "Hapoel Beer Sheva set to land €4m as Kangwa completes move to Panathinaikos",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-2026-07-24-oryan-goren-barcelona-debut",
+      "title": "Oryan Goren, 17, makes his Barcelona first-team debut in preseason win",
+      "error": "image download 429 after retries"
+    },
+    {
+      "id": "live-2026-07-24-philipsen-stage17-tdf",
+      "title": "Philipsen finally breaks through to win Tour de France stage 17",
+      "error": "image download 429 after retries"
+    },
     {
       "id": "live-20260724-lebron-76ers-shock-reaction",
       "title": "NBA stunned as LeBron James signs with the Philadelphia 76ers",
