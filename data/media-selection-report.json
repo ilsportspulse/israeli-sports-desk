@@ -1,39 +1,61 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-07-24-haziza-farewell-maccabi-haifa",
-      "article": "Dolev Haziza bids farewell to Maccabi Haifa as move to Maccabi Netanya is confirmed",
-      "file": "File:Dolev Haziza.JPG",
+      "articleId": "live-2026-07-24-david-green-kiryat-ata",
+      "article": "American forward David Green joins Kiryat Ata",
+      "file": "File:Pais Arena Jerusalem February 2015 (16255167127).jpg",
+      "license": "CC BY 2.0"
+    },
+    {
+      "articleId": "live-2026-07-24-david-moses-florida-atlantic",
+      "article": "Israeli prospect David Moses set for move to Florida Atlantic",
+      "file": "File:רמת השרון במשחק נגד הפועל חיפה 2016.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-2026-07-24-man-city-marc-bernal-rodri-successor",
-      "article": "Manchester City weigh move for Barcelona's Marc Bernal as a long-term Rodri successor",
-      "file": "File:Camp Nou October 2015.JPG",
-      "license": "CC BY-SA 4.0"
-    },
-    {
-      "articleId": "live-20260724-hapoel-petah-tikva-2026-27-kits",
-      "article": "Hapoel Petah Tikva unveil three new kits for 2026/27, timed for derby debut",
-      "file": "File:HaMoshava Stadium (2).JPG",
+      "articleId": "live-2026-07-24-messi-paredes-argentina-retirement",
+      "article": "Paredes says Messi had already decided the World Cup final would be his last for Argentina",
+      "file": "File:Leandro Paredes 2018 (cropped).jpg",
       "license": "CC BY-SA 3.0"
     },
     {
-      "articleId": "live-2026-07-24-rest-between-sets-gym-training",
-      "article": "How long should you rest between sets at the gym?",
-      "file": "File:Barbell Group Fitness Class2.JPG",
-      "license": "CC BY-SA 3.0"
+      "articleId": "live-2026-07-24-lebron-james-signs-76ers",
+      "article": "LeBron James signs with Philadelphia 76ers, ending eight-year Lakers spell",
+      "file": "File:LeBron James - 51959723161.jpg",
+      "license": "CC BY 2.0"
+    },
+    {
+      "articleId": "live-2026-07-24-van-bommel-belgium-coach",
+      "article": "Mark van Bommel appointed new Belgium head coach",
+      "file": "File:2010 Mark van Bommel.jpg",
+      "license": "CC BY 2.0"
+    },
+    {
+      "articleId": "live-2026-07-24-klopp-germany-family-warning",
+      "article": "Klopp warns he will quit as Germany coach if media targets his family",
+      "file": "File:Klopp (24669321424).jpg",
+      "license": "CC BY-SA 2.0"
     }
   ],
   "failures": [
     {
-      "id": "live-2026-07-24-hapoel-haifa-away-kit",
-      "title": "Hapoel Haifa unveil black away kit built around the city's landmarks",
+      "id": "live-20260724-kings-kangwa-panathinaikos-transfer",
+      "title": "Kangwa set to triple his wages in €4.5m Panathinaikos move from Beer Sheva",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-2026-07-24-kangwa-panathinaikos-farewell",
+      "title": "Kangwa thanks Panathinaikos fans, vows to repay their faith after Beer Sheva exit",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-2026-07-24-maccabi-tel-aviv-tax-demand",
+      "title": "Tax authority demands tens of millions of shekels from Maccabi Tel Aviv",
       "error": "image download 429 after retries"
     },
     {
-      "id": "live-2026-07-24-van-bommel-belgium-coach",
-      "title": "Mark van Bommel appointed new Belgium head coach",
+      "id": "live-2026-07-24-hapoel-haifa-away-kit",
+      "title": "Hapoel Haifa unveil black away kit built around the city's landmarks",
       "error": "image download 429 after retries"
     },
     {
@@ -45,11 +67,6 @@
       "id": "live-2026-07-24-shpungin-machane-yehuda-liga-alef",
       "title": "Yair Shpungin agrees to stay with Hapoel Machane Yehuda for Liga Alef return",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
-    },
-    {
-      "id": "live-2026-07-24-klopp-germany-family-warning",
-      "title": "Klopp warns he will quit as Germany coach if media targets his family",
-      "error": "image download 429 after retries"
     },
     {
       "id": "live-2026-07-24-kangwa-panathinaikos",

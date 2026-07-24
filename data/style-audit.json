@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T14:40:23.303Z",
+  "generatedAt": "2026-07-24T16:08:55.098Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 300,
+    "publishedArticles": 307,
     "wordCount": {
       "minimum": 237,
       "maximum": 1070,
-      "median": 468.5,
-      "average": 482.1
+      "median": 466,
+      "average": 480
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 7,
-      "7": 55,
-      "8": 80,
-      "9": 76,
-      "10": 55,
+      "7": 58,
+      "8": 81,
+      "9": 78,
+      "10": 56,
       "11": 15,
       "12": 2,
       "13": 3,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.267,
+    "dominantParagraphShare": 0.264,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 7,
     "analysisBelowTarget": 4,
@@ -433,6 +433,153 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260724-kings-kangwa-panathinaikos-transfer",
+      "slug": "kings-kangwa-panathinaikos-transfer-beer-sheva",
+      "title": "Kangwa set to triple his wages in €4.5m Panathinaikos move from Beer Sheva",
+      "kind": "news",
+      "words": 396,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 64,
+        "average": 49.5
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 54,
+        "average": 26.4
+      },
+      "lexicalDiversity": 0.616,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-24-david-green-kiryat-ata",
+      "slug": "david-green-signs-kiryat-ata-basketball",
+      "title": "American forward David Green joins Kiryat Ata",
+      "kind": "news",
+      "words": 345,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 68,
+        "average": 49.3
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 75,
+        "average": 31.4
+      },
+      "lexicalDiversity": 0.606,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-24-david-moses-florida-atlantic",
+      "slug": "david-moses-israeli-prospect-florida-atlantic",
+      "title": "Israeli prospect David Moses set for move to Florida Atlantic",
+      "kind": "news",
+      "words": 389,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 55,
+        "average": 43.2
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 49,
+        "average": 35.4
+      },
+      "lexicalDiversity": 0.586,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-24-kangwa-panathinaikos-farewell",
+      "slug": "kings-kangwa-panathinaikos-thanks-fans",
+      "title": "Kangwa thanks Panathinaikos fans, vows to repay their faith after Beer Sheva exit",
+      "kind": "news",
+      "words": 309,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 32,
+        "longest": 56,
+        "average": 44.1
+      },
+      "sentenceWords": {
+        "shortest": 18,
+        "longest": 146,
+        "average": 51.5
+      },
+      "lexicalDiversity": 0.605,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-24-maccabi-tel-aviv-tax-demand",
+      "slug": "maccabi-tel-aviv-tax-authority-demand",
+      "title": "Tax authority demands tens of millions of shekels from Maccabi Tel Aviv",
+      "kind": "article",
+      "words": 295,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 49,
+        "average": 42.1
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 42,
+        "average": 26.8
+      },
+      "lexicalDiversity": 0.593,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-24-messi-paredes-argentina-retirement",
+      "slug": "paredes-messi-last-match-argentina-spain-final",
+      "title": "Paredes says Messi had already decided the World Cup final would be his last for Argentina",
+      "kind": "news",
+      "words": 455,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 63,
+        "average": 50.6
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 81,
+        "average": 32.5
+      },
+      "lexicalDiversity": 0.558,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-24-lebron-james-signs-76ers",
+      "slug": "lebron-james-signs-philadelphia-76ers-ends-lakers-era",
+      "title": "LeBron James signs with Philadelphia 76ers, ending eight-year Lakers spell",
+      "kind": "news",
+      "words": 548,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 70,
+        "average": 54.8
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 106,
+        "average": 42.2
+      },
+      "lexicalDiversity": 0.542,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-07-24-man-city-marc-bernal-rodri-successor",
       "slug": "man-city-eye-marc-bernal-as-rodri-successor",
