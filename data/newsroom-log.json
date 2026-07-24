@@ -1,5 +1,82 @@
 [
   {
+    "ts": "2026-07-24T12:53:22.052Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 8,
+    "published": 3,
+    "review": 4,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "spain-world-cup-matches-flagged-betting-watchdog",
+        "title": "Two of Spain's World Cup matches flagged in betting integrity report",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "klopp-warns-he-will-quit-germany-job-if-media-targets-family",
+        "title": "Klopp warns he will quit as Germany coach if media targets his family",
+        "confidence": 0.92,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "kangwa-panathinaikos-triple-wage-beersheba",
+        "title": "Kangwa set to triple his wage as Panathinaikos win race for Beersheba's talisman",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "yair-shpungin-stays-hapoel-machane-yehuda-liga-alef",
+        "title": "Yair Shpungin agrees to stay with Hapoel Machane Yehuda for Liga Alef return",
+        "confidence": 0.78,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "No verifiable Wikimedia Commons photograph of Shpungin or Hapoel Machane Yehuda could be confirmed, so no image is attached; a couple of secondary career details (earlier promotions) rest on the single ONE report only."
+      },
+      {
+        "slug": "shtilman-submits-100-million-offer-recanati-maccabi-tel-aviv-basketball",
+        "title": "Rapyd's Shtilman offers $100 million for Recanati family's Maccabi Tel Aviv stake",
+        "confidence": 0.85,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Shtilman's $100 million offer is non-binding and unconfirmed by the Recanati family; the parallel Jason Levin stake-sale talks and Guy Harel's facilitating role are reported by ONE only and not yet independently corroborated."
+      },
+      {
+        "slug": "rest-between-sets-gym-training-guide",
+        "title": "How long should you rest between sets at the gym?",
+        "confidence": 0,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "not newsworthy — generic gym-training advice with no athlete, team, match, transfer or competitive event; no Israeli or international sport news angle for this desk"
+      },
+      {
+        "slug": "bnei-herzliya-sign-guard-dj-brewton",
+        "title": "Bnei Herzliya sign well-travelled American guard DJ Brewton",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "tamir-berman-signs-hapoel-kfar-shalem",
+        "title": "Tamir Berman crosses the road from Bnei Yehuda to Hapoel Kfar Shalem",
+        "confidence": 0.8,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Contract length and transfer fee not disclosed; some peripheral reported signings (Beit Yaakov, Nir, Ransom, Tzarfati) come from ONE alone and were not independently corroborated."
+      }
+    ]
+  },
+  {
     "ts": "2026-07-24T11:21:13.887Z",
     "mode": "cli",
     "model": "claude-sonnet-5",

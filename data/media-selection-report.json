@@ -1,39 +1,50 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-07-24-klopp-germany-coach",
-      "article": "Jürgen Klopp returns to the touchline as new Germany head coach",
-      "file": "File:Jürgen Klopp.jpg",
+      "articleId": "live-2026-07-24-tamir-berman-kfar-shalem",
+      "article": "Tamir Berman crosses the road from Bnei Yehuda to Hapoel Kfar Shalem",
+      "file": "File:Hatikva Neighborhood Stadium (1).jpg",
       "license": "CC BY-SA 3.0"
     },
     {
-      "articleId": "live-2026-07-24-lonnie-walker-real-madrid",
-      "article": "Real Madrid open talks to sign Lonnie Walker away from Maccabi Tel Aviv",
-      "file": "File:Lonnie Walker 1 BC Žalgiris EuroLeague 20250117 (1).jpg",
-      "license": "CC BY 4.0"
+      "articleId": "live-2026-07-24-bnei-herzliya-brewton",
+      "article": "Bnei Herzliya sign well-travelled American guard DJ Brewton",
+      "file": "File:Isaac Herzog awards the Israeli Basketball State Cup to Bnei Herzliya Basket, February 2022 (GPOZACH 1 10).jpg",
+      "license": "CC BY-SA 3.0"
     },
     {
-      "articleId": "live-2026-07-24-gordon-brothers-gfn1-press-conference",
-      "article": "Gordon brothers say they never expected their own fight promotion to grow this big",
-      "file": "File:אהבת השם גורדון.jpg",
-      "license": "CC0"
+      "articleId": "live-2026-07-24-shtilman-100m-offer-maccabi-tel-aviv",
+      "article": "Rapyd's Shtilman offers $100 million for Recanati family's Maccabi Tel Aviv stake",
+      "file": "File:NokiaArena-TelAviv.jpg",
+      "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-2026-07-24-thelwell-hapoel-holon",
-      "article": "Hapoel Holon sign American-Jamaican guard Drew Thelwell",
-      "file": "File:Hapoel Holon - Hapachim.JPG",
-      "license": "CC BY 3.0"
+      "articleId": "live-2026-07-24-spain-world-cup-matches-betting-probe",
+      "article": "Two of Spain's World Cup matches flagged in betting integrity report",
+      "file": "File:Ferran Torres France v Spain 7.24.26-237 (cropped).jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-20260724-tiberias-without-coach",
+      "article": "Ironi Tiberias open season without coach and six players amid banned-infusions case",
+      "file": "File:Sakhnin stadium and city.jpg",
+      "license": "CC BY-SA 3.0"
     }
   ],
   "failures": [
     {
-      "id": "live-20260724-refaelov-pushed-bachar-contract",
-      "title": "Refaelov: 'I was one of those who pushed for Bachar to sign a new deal'",
+      "id": "live-2026-07-24-rest-between-sets-gym-training",
+      "title": "How long should you rest between sets at the gym?",
       "error": "image download 429 after retries"
     },
     {
-      "id": "live-20260724-tiberias-without-coach",
-      "title": "Ironi Tiberias open season without coach and six players amid banned-infusions case",
+      "id": "live-2026-07-24-shpungin-machane-yehuda-liga-alef",
+      "title": "Yair Shpungin agrees to stay with Hapoel Machane Yehuda for Liga Alef return",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-2026-07-24-klopp-germany-family-warning",
+      "title": "Klopp warns he will quit as Germany coach if media targets his family",
       "error": "image download 429 after retries"
     },
     {

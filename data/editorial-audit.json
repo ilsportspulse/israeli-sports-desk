@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T11:28:29.776Z",
+  "generatedAt": "2026-07-24T12:59:59.691Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,72 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 402,
-    "publishedBefore": 293,
-    "cleanPublished": 293,
+    "totalArticles": 409,
+    "publishedBefore": 296,
+    "cleanPublished": 296,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 293,
-    "reviewAfter": 109
+    "publishedAfter": 296,
+    "reviewAfter": 113
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-2026-07-24-tamir-berman-kfar-shalem",
+      "slug": "tamir-berman-signs-hapoel-kfar-shalem",
+      "title": "Tamir Berman crosses the road from Bnei Yehuda to Hapoel Kfar Shalem",
+      "statusBefore": "review",
+      "words": 351,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-07-24-rest-between-sets-gym-training",
+      "slug": "rest-between-sets-gym-training-guide",
+      "title": "How long should you rest between sets at the gym?",
+      "statusBefore": "review",
+      "words": 329,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-07-24-shtilman-100m-offer-maccabi-tel-aviv",
+      "slug": "shtilman-submits-100-million-offer-recanati-maccabi-tel-aviv-basketball",
+      "title": "Rapyd's Shtilman offers $100 million for Recanati family's Maccabi Tel Aviv stake",
+      "statusBefore": "review",
+      "words": 450,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-24-spain-world-cup-matches-betting-probe",
+      "slug": "spain-world-cup-matches-flagged-betting-watchdog",
+      "title": "Two of Spain's World Cup matches flagged in betting integrity report",
+      "statusBefore": "published",
+      "words": 523,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-07-24-klopp-germany-coach",
       "slug": "jurgen-klopp-appointed-germany-head-coach",
@@ -3283,6 +3339,44 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-07-24-bnei-herzliya-brewton",
+      "slug": "bnei-herzliya-sign-guard-dj-brewton",
+      "title": "Bnei Herzliya sign well-travelled American guard DJ Brewton",
+      "statusBefore": "published",
+      "words": 295,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-07-24-klopp-germany-family-warning",
+      "slug": "klopp-warns-he-will-quit-germany-job-if-media-targets-family",
+      "title": "Klopp warns he will quit as Germany coach if media targets his family",
+      "statusBefore": "published",
+      "words": 481,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-07-24-spain-world-cup-matches-betting-probe",
+      "slug": "spain-world-cup-matches-flagged-betting-watchdog",
+      "title": "Two of Spain's World Cup matches flagged in betting integrity report",
+      "statusBefore": "published",
+      "words": 523,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-07-24-klopp-germany-coach",
       "slug": "jurgen-klopp-appointed-germany-head-coach",

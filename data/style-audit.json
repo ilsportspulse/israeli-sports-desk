@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T11:28:30.049Z",
+  "generatedAt": "2026-07-24T12:59:59.894Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 293,
+    "publishedArticles": 296,
     "wordCount": {
       "minimum": 237,
       "maximum": 1070,
       "median": 469,
-      "average": 484
+      "average": 483.5
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 7,
-      "7": 54,
+      "7": 55,
       "8": 78,
-      "9": 74,
-      "10": 54,
+      "9": 75,
+      "10": 55,
       "11": 14,
       "12": 2,
       "13": 3,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.266,
+    "dominantParagraphShare": 0.264,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 7,
     "analysisBelowTarget": 4,
@@ -410,6 +410,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-24-bnei-herzliya-brewton",
+      "slug": "bnei-herzliya-sign-guard-dj-brewton",
+      "title": "Bnei Herzliya sign well-travelled American guard DJ Brewton",
+      "kind": "news",
+      "words": 297,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 61,
+        "average": 42.4
+      },
+      "sentenceWords": {
+        "shortest": 38,
+        "longest": 171,
+        "average": 74.3
+      },
+      "lexicalDiversity": 0.63,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-24-klopp-germany-family-warning",
+      "slug": "klopp-warns-he-will-quit-germany-job-if-media-targets-family",
+      "title": "Klopp warns he will quit as Germany coach if media targets his family",
+      "kind": "article",
+      "words": 478,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 65,
+        "average": 47.8
+      },
+      "sentenceWords": {
+        "shortest": 20,
+        "longest": 80,
+        "average": 36.8
+      },
+      "lexicalDiversity": 0.609,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-24-spain-world-cup-matches-betting-probe",
+      "slug": "spain-world-cup-matches-flagged-betting-watchdog",
+      "title": "Two of Spain's World Cup matches flagged in betting integrity report",
+      "kind": "news",
+      "words": 517,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 83,
+        "average": 57.4
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 63,
+        "average": 28.7
+      },
+      "lexicalDiversity": 0.588,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-07-24-klopp-germany-coach",
       "slug": "jurgen-klopp-appointed-germany-head-coach",
