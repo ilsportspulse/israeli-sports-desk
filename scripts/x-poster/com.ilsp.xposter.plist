@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.ilsp.xposter</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/patrickvandenbroek/.local/bin/node</string>
+    <string>/Users/patrickvandenbroek/ilsp/project/israeli-sports-desk/scripts/x-auto-post.mjs</string>
+  </array>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/patrickvandenbroek/ilsp/project/israeli-sports-desk</string>
+
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/Users/patrickvandenbroek/.local/bin:/usr/local/bin:/usr/bin:/bin</string>
+    <key>X_MAX_PER_RUN</key>
+    <string>4</string>
+    <key>X_MAX_PER_DAY</key>
+    <string>20</string>
+    <key>X_MIN_GAP_SEC</key>
+    <string>60</string>
+  </dict>
+
+  <!-- Every 30 minutes -->
+  <key>StartInterval</key>
+  <integer>1800</integer>
+
+  <key>RunAtLoad</key>
+  <true/>
+
+  <key>StandardOutPath</key>
+  <string>/Users/patrickvandenbroek/.ilsp-x-launchd.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/patrickvandenbroek/.ilsp-x-launchd.err.log</string>
+</dict>
+</plist>
