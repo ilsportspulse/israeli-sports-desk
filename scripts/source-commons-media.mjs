@@ -1127,7 +1127,7 @@ if (!dryRun) {
       const hay = `${article.title} ${article.dek || ""}`.toLowerCase();
       const v = /haifa/.test(hay) ? venues.sammyofer : venues.bloomfield;
       if (!v) continue;
-      media[article.id] = { src: v.src, alt: v.alt, caption: "Israeli football — file photo.", credit: v.credit, creditUrl: v.creditUrl, license: v.license, fallback: true };
+      media[article.id] = { src: v.src, alt: v.alt, caption: "Israeli football — file photo.", credit: v.credit, creditUrl: v.creditUrl, license: v.license, licenseUrl: v.licenseUrl, fallback: true };
       console.log(`Local venue fallback for ${article.id}: ${v.src}`);
     }
   } catch (error) {
