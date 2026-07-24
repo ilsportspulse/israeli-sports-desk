@@ -1114,6 +1114,27 @@ for (const [index, article] of articles.entries()) {
   await wait(dryRun ? 250 : downloaded ? 3000 : 0);
 }
 
+// LOCAL venue fallback (no network): guarantee Israeli-football cards never stay
+// blank, even when Commons rate-limits the live sourcing above. Uses the stadium
+// photos pre-downloaded into public/media/fallback (config/fallback-venues.json).
+if (!dryRun) {
+  try {
+    const venues = JSON.parse(await readFile(path.join(root, "config/fallback-venues.json"), "utf8"));
+    for (const article of articles) {
+      if ((article.status ?? "published") !== "published") continue;
+      if (media[article.id]?.src) continue;
+      if (!/israeli football/i.test(article.category || "")) continue;
+      const hay = `${article.title} ${article.dek || ""}`.toLowerCase();
+      const v = /haifa/.test(hay) ? venues.sammyofer : venues.bloomfield;
+      if (!v) continue;
+      media[article.id] = { src: v.src, alt: v.alt, caption: "Israeli football — file photo.", credit: v.credit, creditUrl: v.creditUrl, license: v.license, fallback: true };
+      console.log(`Local venue fallback for ${article.id}: ${v.src}`);
+    }
+  } catch (error) {
+    console.warn(`Local venue fallback skipped: ${error.message}`);
+  }
+}
+
 if (!dryRun) await writeFile(path.join(root, "data/article-media.json"), `${JSON.stringify(media, null, 2)}\n`);
 await writeFile(path.join(root, "data/media-selection-report.json"), `${JSON.stringify({ selections, failures }, null, 2)}\n`);
 process.stdout.write(`${JSON.stringify({ selected: selections.length, failures: failures.length, dryRun })}\n`);

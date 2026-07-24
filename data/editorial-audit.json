@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T08:44:24.996Z",
+  "generatedAt": "2026-07-24T09:33:52.004Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -50,6 +50,20 @@
       "paragraphs": 8,
       "facts": 7,
       "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-24-hapoel-rishon-lezion-youth-academy",
+      "slug": "hapoel-rishon-lezion-youth-academy-investment",
+      "title": "Hapoel Rishon LeZion bets on youth as it rebuilds for the future",
+      "statusBefore": "published",
+      "words": 342,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 2,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -3250,7 +3264,9 @@
       "facts": 6,
       "verificationSources": 2,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-2026-07-24-world-climbing-suspension-vote-cancelled",

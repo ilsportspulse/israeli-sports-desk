@@ -96,8 +96,12 @@ test("every curated story image is licensed, real and unique", async () => {
 
   await Promise.all(images.map(({ image }) => access(new URL(`../public${image.src}`, import.meta.url))));
 
-  const srcs = images.map(({ image }) => image.src);
-  const urls = images.map(({ image }) => image.creditUrl);
+  // Curated venue/club fallback photos (asset.fallback) are intentionally shared
+  // across a club's stories — a repeated real stadium beats a blank card — so they
+  // are exempt from the uniqueness rule; only genuine per-story photos must be unique.
+  const unique = images.filter(({ image }) => !image.fallback);
+  const srcs = unique.map(({ image }) => image.src);
+  const urls = unique.map(({ image }) => image.creditUrl);
   assert.equal(new Set(srcs).size, srcs.length, "duplicate local story image found");
   assert.equal(new Set(urls).size, urls.length, "duplicate source image found");
 });
