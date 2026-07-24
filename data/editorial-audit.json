@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T21:53:25.301Z",
+  "generatedAt": "2026-07-24T23:40:53.624Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,58 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 441,
-    "publishedBefore": 323,
-    "cleanPublished": 323,
+    "totalArticles": 445,
+    "publishedBefore": 307,
+    "cleanPublished": 307,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 323,
-    "reviewAfter": 118
+    "publishedAfter": 307,
+    "reviewAfter": 138
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-20260724-david-musis-fau-move",
+      "slug": "david-musis-israeli-basketball-talent-heads-to-florida-atlantic",
+      "title": "Israeli basketball prospect David Musis set for move to Florida Atlantic",
+      "statusBefore": "review",
+      "words": 483,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260724-kevin-kampl-gardener",
+      "slug": "kevin-kampl-bundesliga-retirement-mallorca-farm",
+      "title": "Bundesliga star Kevin Kampl trades the pitch for a Mallorca vegetable farm after family tragedy",
+      "statusBefore": "published",
+      "words": 432,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-24-alex-garcia-bauru-contract-47",
+      "slug": "ex-maccabi-tel-aviv-alex-garcia-bauru-contract-until-47",
+      "title": "Ex-Maccabi Tel Aviv guard Alex Garcia signs on to play until at least 47",
+      "statusBefore": "published",
+      "words": 500,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
     {
       "id": "live-2026-07-24-volpato-cocaine-test",
       "slug": "volpato-cocaine-positive-roadside-test-sydney",
@@ -173,7 +215,7 @@
       "id": "live-20260724-lebron-james-76ers-eastern-conference",
       "slug": "lebron-james-76ers-reshapes-eastern-conference",
       "title": "LeBron James joins the 76ers, reshaping the balance of power in the East",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 712,
       "paragraphs": 10,
       "facts": 6,
@@ -188,7 +230,7 @@
       "id": "live-20260724-pogacar-alpe-dhuez-record",
       "slug": "pogacar-smashes-alpe-dhuez-record-tour-de-france",
       "title": "Pogačar smashes 30-year-old Alpe d'Huez record on stage 19",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 450,
       "paragraphs": 10,
       "facts": 7,
@@ -202,7 +244,7 @@
       "id": "live-20260724-lebron-james-business-empire",
       "slug": "lebron-james-1-7-billion-business-empire",
       "title": "LeBron James has earned $1.7 billion since turning pro, ONE reports",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 450,
       "paragraphs": 8,
       "facts": 7,
@@ -405,7 +447,7 @@
       "id": "live-2026-07-24-spain-world-cup-matches-betting-probe",
       "slug": "spain-world-cup-matches-flagged-betting-watchdog",
       "title": "Two of Spain's World Cup matches flagged in betting integrity report",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 523,
       "paragraphs": 9,
       "facts": 6,
@@ -490,7 +532,7 @@
       "id": "live-2026-07-24-volpato-cocaine-licence",
       "slug": "cristian-volpato-cocaine-test-licence-suspended-sydney",
       "title": "Socceroos winger Cristian Volpato loses licence after alleged positive cocaine test",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 382,
       "paragraphs": 8,
       "facts": 7,
@@ -875,7 +917,7 @@
       "id": "live-20260723-barkat-iron-lady-kangwa",
       "slug": "alona-barkat-iron-lady-kangwa-transfer-standoff",
       "title": "Israeli football's 'Iron Lady' won't blink in the Kangwa transfer stand-off",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 644,
       "paragraphs": 9,
       "facts": 6,
@@ -1282,7 +1324,7 @@
       "id": "live-2026-07-22-lundberg-maccabi-extension",
       "slug": "iffe-lundberg-maccabi-tel-aviv-contract-extension",
       "title": "Lundberg agrees new multi-year deal to stay at Maccabi Tel Aviv",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 354,
       "paragraphs": 7,
       "facts": 6,
@@ -1503,7 +1545,7 @@
       "id": "live-20260722-lonwijk-haifa-injury-history",
       "slug": "nigel-lonwijk-maccabi-haifa-injury-history",
       "title": "Maccabi Haifa's next defensive target comes with a fitness question mark",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 588,
       "paragraphs": 10,
       "facts": 6,
@@ -1517,7 +1559,7 @@
       "id": "live-20260722-lonwijk-maccabi-haifa-signing",
       "slug": "nigel-lonwijk-maccabi-haifa-arrival",
       "title": "Maccabi Haifa's defensive reinforcement lands: Nigel Lonwijk arrives in Israel",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 333,
       "paragraphs": 8,
       "facts": 6,
@@ -1575,7 +1617,7 @@
       "id": "live-20260722-pedro-amador-hapoel-beer-sheva",
       "slug": "pedro-amador-hapoel-beer-sheva-transfer-close",
       "title": "Portuguese left-back Pedro Amador closing in on Hapoel Beer Sheva move",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 365,
       "paragraphs": 7,
       "facts": 6,
@@ -1972,7 +2014,7 @@
       "id": "live-2026-07-21-aek-withdraws-kangwa-offer",
       "slug": "aek-athens-withdraws-kings-kangwa-offer",
       "title": "AEK Athens pulls out of Kings Kangwa deal after Beer Sheva refuse to rest him for Vikingur",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 445,
       "paragraphs": 9,
       "facts": 6,
@@ -2229,7 +2271,7 @@
       "id": "live-20260721-omri-glazer-maccabi-haifa",
       "slug": "omri-glazer-lands-in-israel-maccabi-haifa-return",
       "title": "Omri Glazer lands in Israel to seal Maccabi Haifa return",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 422,
       "paragraphs": 9,
       "facts": 8,
@@ -3672,6 +3714,46 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-2026-07-24-lebron-james-76ers-pay-cut",
+      "slug": "lebron-james-takes-veteran-minimum-to-join-76ers",
+      "title": "LeBron James takes a fraction of his old salary to sign with the 76ers",
+      "statusBefore": "published",
+      "words": 413,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260724-kevin-kampl-gardener",
+      "slug": "kevin-kampl-bundesliga-retirement-mallorca-farm",
+      "title": "Bundesliga star Kevin Kampl trades the pitch for a Mallorca vegetable farm after family tragedy",
+      "statusBefore": "published",
+      "words": 432,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-24-alex-garcia-bauru-contract-47",
+      "slug": "ex-maccabi-tel-aviv-alex-garcia-bauru-contract-until-47",
+      "title": "Ex-Maccabi Tel Aviv guard Alex Garcia signs on to play until at least 47",
+      "statusBefore": "published",
+      "words": 500,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
       "id": "live-2026-07-24-volpato-cocaine-test",
       "slug": "volpato-cocaine-positive-roadside-test-sydney",
       "title": "World Cup midfielder Volpato tests positive for cocaine in Sydney roadside stop",
@@ -3740,18 +3822,6 @@
       "warnings": []
     },
     {
-      "id": "live-20260724-lebron-76ers-shock-reaction",
-      "slug": "lebron-james-signs-76ers-nba-reactions",
-      "title": "NBA stunned as LeBron James signs with the Philadelphia 76ers",
-      "statusBefore": "published",
-      "words": 481,
-      "paragraphs": 9,
-      "facts": 7,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": []
-    },
-    {
       "id": "live-2026-07-24-jean-silva-knockout-episode-50",
       "slug": "jean-silva-knockout-podcast-ilai-brazili-menora",
       "title": "UFC's Jean Silva guests on Israeli MMA podcast Knockout ahead of Menora corner duty",
@@ -3760,18 +3830,6 @@
       "paragraphs": 9,
       "facts": 6,
       "verificationSources": 3,
-      "blockers": [],
-      "warnings": []
-    },
-    {
-      "id": "live-2026-07-24-lebron-james-76ers",
-      "slug": "lebron-james-signs-76ers-lebron-day",
-      "title": "LeBron James signs with the 76ers as Pennsylvania declares 'LeBron James Day'",
-      "statusBefore": "published",
-      "words": 490,
-      "paragraphs": 10,
-      "facts": 8,
-      "verificationSources": 4,
       "blockers": [],
       "warnings": []
     },
@@ -3828,50 +3886,6 @@
       "warnings": [
         "media:no-action-or-competition-context-detected",
         "voice:publisher-attribution-heavy:2"
-      ]
-    },
-    {
-      "id": "live-20260724-lebron-james-76ers-eastern-conference",
-      "slug": "lebron-james-76ers-reshapes-eastern-conference",
-      "title": "LeBron James joins the 76ers, reshaping the balance of power in the East",
-      "statusBefore": "published",
-      "words": 712,
-      "paragraphs": 10,
-      "facts": 6,
-      "verificationSources": 5,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline",
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-20260724-pogacar-alpe-dhuez-record",
-      "slug": "pogacar-smashes-alpe-dhuez-record-tour-de-france",
-      "title": "Pogačar smashes 30-year-old Alpe d'Huez record on stage 19",
-      "statusBefore": "published",
-      "words": 450,
-      "paragraphs": 10,
-      "facts": 7,
-      "verificationSources": 5,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-20260724-lebron-james-business-empire",
-      "slug": "lebron-james-1-7-billion-business-empire",
-      "title": "LeBron James has earned $1.7 billion since turning pro, ONE reports",
-      "statusBefore": "published",
-      "words": 450,
-      "paragraphs": 8,
-      "facts": 7,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline",
-        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -4068,20 +4082,6 @@
       ]
     },
     {
-      "id": "live-2026-07-24-spain-world-cup-matches-betting-probe",
-      "slug": "spain-world-cup-matches-flagged-betting-watchdog",
-      "title": "Two of Spain's World Cup matches flagged in betting integrity report",
-      "statusBefore": "published",
-      "words": 523,
-      "paragraphs": 9,
-      "facts": 6,
-      "verificationSources": 5,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
       "id": "live-2026-07-24-klopp-germany-coach",
       "slug": "jurgen-klopp-appointed-germany-head-coach",
       "title": "Jürgen Klopp returns to the touchline as new Germany head coach",
@@ -4136,20 +4136,6 @@
       ]
     },
     {
-      "id": "live-2026-07-24-volpato-cocaine-licence",
-      "slug": "cristian-volpato-cocaine-test-licence-suspended-sydney",
-      "title": "Socceroos winger Cristian Volpato loses licence after alleged positive cocaine test",
-      "statusBefore": "published",
-      "words": 382,
-      "paragraphs": 8,
-      "facts": 7,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
       "id": "live-2026-07-24-hapoel-rishon-lezion-youth-academy",
       "slug": "hapoel-rishon-lezion-youth-academy-investment",
       "title": "Hapoel Rishon LeZion bets on youth as it rebuilds for the future",
@@ -4176,18 +4162,6 @@
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
-    },
-    {
-      "id": "live-2026-07-24-beitar-jerusalem-historic-away-win-larnaca",
-      "slug": "beitar-jerusalem-historic-away-win-aek-larnaca",
-      "title": "Beitar Jerusalem's win at AEK Larnaca is only their sixth European away victory ever",
-      "statusBefore": "published",
-      "words": 429,
-      "paragraphs": 8,
-      "facts": 7,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": []
     },
     {
       "id": "live-20260724-hezonja-nba-lebron-wait",
@@ -4469,18 +4443,6 @@
       "warnings": []
     },
     {
-      "id": "live-2026-07-23-carapaz-wins-tour-stage-18",
-      "slug": "carapaz-solo-attack-wins-tour-de-france-stage-18",
-      "title": "Carapaz strikes late to win Tour de France stage 18 in the Alps",
-      "statusBefore": "published",
-      "words": 367,
-      "paragraphs": 9,
-      "facts": 7,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": []
-    },
-    {
       "id": "live-20260723-olise-boateng-villa",
       "slug": "olise-must-leave-boateng-villa-munich",
       "title": "Olise told to vacate Boateng's Munich villa by end of August",
@@ -4544,21 +4506,6 @@
       "verificationSources": 6,
       "blockers": [],
       "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-20260723-barkat-iron-lady-kangwa",
-      "slug": "alona-barkat-iron-lady-kangwa-transfer-standoff",
-      "title": "Israeli football's 'Iron Lady' won't blink in the Kangwa transfer stand-off",
-      "statusBefore": "published",
-      "words": 644,
-      "paragraphs": 9,
-      "facts": 6,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline",
         "media:no-action-or-competition-context-detected"
       ]
     },
@@ -4866,18 +4813,6 @@
       "warnings": []
     },
     {
-      "id": "live-20260722-manor-solomon-tottenham-preseason",
-      "slug": "manor-solomon-tottenham-preseason-lineup-surprise-return",
-      "title": "Manor Solomon handed surprise start in Tottenham's pre-season opener",
-      "statusBefore": "published",
-      "words": 489,
-      "paragraphs": 10,
-      "facts": 6,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": []
-    },
-    {
       "id": "live-2026-07-22-maccabi-haifa-value-ranking",
       "slug": "maccabi-haifa-most-valuable-club-ligat-haal-rankings",
       "title": "Maccabi Haifa rated Israel's most valuable club in new Ligat Ha'al rankings",
@@ -4962,22 +4897,6 @@
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-07-22-lundberg-maccabi-extension",
-      "slug": "iffe-lundberg-maccabi-tel-aviv-contract-extension",
-      "title": "Lundberg agrees new multi-year deal to stay at Maccabi Tel Aviv",
-      "statusBefore": "published",
-      "words": 354,
-      "paragraphs": 7,
-      "facts": 6,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline",
-        "media:no-action-or-competition-context-detected",
-        "voice:publisher-attribution-heavy:2"
       ]
     },
     {
@@ -5103,20 +5022,6 @@
       ]
     },
     {
-      "id": "live-20260722-lonwijk-haifa-injury-history",
-      "slug": "nigel-lonwijk-maccabi-haifa-injury-history",
-      "title": "Maccabi Haifa's next defensive target comes with a fitness question mark",
-      "statusBefore": "published",
-      "words": 588,
-      "paragraphs": 10,
-      "facts": 6,
-      "verificationSources": 5,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline"
-      ]
-    },
-    {
       "id": "live-20260722-levien-maccabi-euroleague-seat",
       "slug": "jason-levien-maccabi-euroleague-board-seat",
       "title": "Jason Levien set to take Maccabi Tel Aviv's seat on the EuroLeague board",
@@ -5127,22 +5032,6 @@
       "verificationSources": 4,
       "blockers": [],
       "warnings": []
-    },
-    {
-      "id": "live-20260722-lonwijk-maccabi-haifa-signing",
-      "slug": "nigel-lonwijk-maccabi-haifa-arrival",
-      "title": "Maccabi Haifa's defensive reinforcement lands: Nigel Lonwijk arrives in Israel",
-      "statusBefore": "published",
-      "words": 333,
-      "paragraphs": 8,
-      "facts": 6,
-      "verificationSources": 2,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline",
-        "media:no-action-or-competition-context-detected",
-        "voice:publisher-attribution-heavy:2"
-      ]
     },
     {
       "id": "live-20260722-ivic-maccabi-bonus-shock",
@@ -5187,37 +5076,11 @@
       ]
     },
     {
-      "id": "live-20260722-pedro-amador-hapoel-beer-sheva",
-      "slug": "pedro-amador-hapoel-beer-sheva-transfer-close",
-      "title": "Portuguese left-back Pedro Amador closing in on Hapoel Beer Sheva move",
-      "statusBefore": "published",
-      "words": 365,
-      "paragraphs": 7,
-      "facts": 6,
-      "verificationSources": 5,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
       "id": "live-2026-07-22-neymar-poker-santos",
       "slug": "neymar-poker-table-santos-recovery-backlash",
       "title": "Neymar trades the pitch for the poker table while Santos fly to Venezuela",
       "statusBefore": "published",
       "words": 492,
-      "paragraphs": 8,
-      "facts": 6,
-      "verificationSources": 5,
-      "blockers": [],
-      "warnings": []
-    },
-    {
-      "id": "live-2026-07-22-maccabi-tlv-sheriff-training-headache",
-      "slug": "maccabi-tel-aviv-varela-asante-blitz-training-sheriff-tiraspol",
-      "title": "Varela, Asante and Blitz back in full training as Miller weighs selection puzzle before Sheriff Tiraspol",
-      "statusBefore": "published",
-      "words": 448,
       "paragraphs": 8,
       "facts": 6,
       "verificationSources": 5,
@@ -5377,18 +5240,6 @@
       "warnings": [
         "voice:stock-editorial-phrase-detected"
       ]
-    },
-    {
-      "id": "live-2026-07-21-ibrahimovic-paredes-headbutt",
-      "slug": "ibrahimovic-headbutt-paredes-world-cup-final-brawl",
-      "title": "Ibrahimović's parting shot: \"I'd have headbutted Paredes\" over final brawl",
-      "statusBefore": "published",
-      "words": 464,
-      "paragraphs": 9,
-      "facts": 7,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": []
     },
     {
       "id": "live-2026-07-21-ronaldo-portugal-retirement-wales",
@@ -5593,21 +5444,6 @@
       "verificationSources": 8,
       "blockers": [],
       "warnings": []
-    },
-    {
-      "id": "live-2026-07-21-aek-withdraws-kangwa-offer",
-      "slug": "aek-athens-withdraws-kings-kangwa-offer",
-      "title": "AEK Athens pulls out of Kings Kangwa deal after Beer Sheva refuse to rest him for Vikingur",
-      "statusBefore": "published",
-      "words": 445,
-      "paragraphs": 9,
-      "facts": 6,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected",
-        "voice:publisher-attribution-heavy:2"
-      ]
     },
     {
       "id": "live-20260721-argentina-world-cup-final-brawl-fifa-probe",
@@ -5903,20 +5739,6 @@
       "verificationSources": 5,
       "blockers": [],
       "warnings": []
-    },
-    {
-      "id": "live-20260721-omri-glazer-maccabi-haifa",
-      "slug": "omri-glazer-lands-in-israel-maccabi-haifa-return",
-      "title": "Omri Glazer lands in Israel to seal Maccabi Haifa return",
-      "statusBefore": "published",
-      "words": 422,
-      "paragraphs": 9,
-      "facts": 8,
-      "verificationSources": 8,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
     },
     {
       "id": "live-2026-07-21-enzo-fernandez-red-card-silence",

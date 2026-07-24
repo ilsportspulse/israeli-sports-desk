@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T21:53:25.502Z",
+  "generatedAt": "2026-07-24T23:40:53.908Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 323,
+    "publishedArticles": 307,
     "wordCount": {
       "minimum": 237,
       "maximum": 1070,
-      "median": 464,
-      "average": 477.6
+      "median": 466,
+      "average": 478.2
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 9,
-      "7": 59,
-      "8": 83,
-      "9": 83,
-      "10": 62,
+      "7": 57,
+      "8": 80,
+      "9": 76,
+      "10": 58,
       "11": 15,
       "12": 2,
       "13": 3,
@@ -33,11 +33,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.257,
+    "dominantParagraphShare": 0.261,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 9,
     "analysisBelowTarget": 4,
-    "articlesWithStyleFlags": 19
+    "articlesWithStyleFlags": 17
   },
   "flagged": [
     {
@@ -61,29 +61,6 @@
       "publisherAttributions": 1,
       "flags": [
         "below-editorial-target:272/280"
-      ]
-    },
-    {
-      "id": "live-20260724-lebron-james-business-empire",
-      "slug": "lebron-james-1-7-billion-business-empire",
-      "title": "LeBron James has earned $1.7 billion since turning pro, ONE reports",
-      "kind": "explainer",
-      "words": 448,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 43,
-        "longest": 73,
-        "average": 56
-      },
-      "sentenceWords": {
-        "shortest": 4,
-        "longest": 55,
-        "average": 28
-      },
-      "lexicalDiversity": 0.578,
-      "publisherAttributions": 0,
-      "flags": [
-        "below-editorial-target:448/500"
       ]
     },
     {
@@ -219,29 +196,6 @@
         "average": 36.2
       },
       "lexicalDiversity": 0.547,
-      "publisherAttributions": 2,
-      "flags": [
-        "publisher-attribution-heavy:2"
-      ]
-    },
-    {
-      "id": "live-2026-07-22-lundberg-maccabi-extension",
-      "slug": "iffe-lundberg-maccabi-tel-aviv-contract-extension",
-      "title": "Lundberg agrees new multi-year deal to stay at Maccabi Tel Aviv",
-      "kind": "news",
-      "words": 353,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 27,
-        "longest": 65,
-        "average": 50.4
-      },
-      "sentenceWords": {
-        "shortest": 4,
-        "longest": 46,
-        "average": 27.2
-      },
-      "lexicalDiversity": 0.589,
       "publisherAttributions": 2,
       "flags": [
         "publisher-attribution-heavy:2"
@@ -480,6 +434,69 @@
   ],
   "clean": [
     {
+      "id": "live-2026-07-24-lebron-james-76ers-pay-cut",
+      "slug": "lebron-james-takes-veteran-minimum-to-join-76ers",
+      "title": "LeBron James takes a fraction of his old salary to sign with the 76ers",
+      "kind": "article",
+      "words": 413,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 75,
+        "average": 51.6
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 80,
+        "average": 29.5
+      },
+      "lexicalDiversity": 0.586,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260724-kevin-kampl-gardener",
+      "slug": "kevin-kampl-bundesliga-retirement-mallorca-farm",
+      "title": "Bundesliga star Kevin Kampl trades the pitch for a Mallorca vegetable farm after family tragedy",
+      "kind": "article",
+      "words": 433,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 24,
+        "longest": 66,
+        "average": 43.3
+      },
+      "sentenceWords": {
+        "shortest": 16,
+        "longest": 110,
+        "average": 39.4
+      },
+      "lexicalDiversity": 0.614,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-24-alex-garcia-bauru-contract-47",
+      "slug": "ex-maccabi-tel-aviv-alex-garcia-bauru-contract-until-47",
+      "title": "Ex-Maccabi Tel Aviv guard Alex Garcia signs on to play until at least 47",
+      "kind": "news",
+      "words": 502,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 49,
+        "longest": 82,
+        "average": 62.8
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 53,
+        "average": 31.4
+      },
+      "lexicalDiversity": 0.562,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
       "id": "live-2026-07-24-volpato-cocaine-test",
       "slug": "volpato-cocaine-positive-roadside-test-sydney",
       "title": "World Cup midfielder Volpato tests positive for cocaine in Sydney roadside stop",
@@ -564,27 +581,6 @@
       "flags": []
     },
     {
-      "id": "live-20260724-lebron-76ers-shock-reaction",
-      "slug": "lebron-james-signs-76ers-nba-reactions",
-      "title": "NBA stunned as LeBron James signs with the Philadelphia 76ers",
-      "kind": "news",
-      "words": 476,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 44,
-        "longest": 61,
-        "average": 52.9
-      },
-      "sentenceWords": {
-        "shortest": 5,
-        "longest": 51,
-        "average": 31.7
-      },
-      "lexicalDiversity": 0.624,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
       "id": "live-2026-07-24-jean-silva-knockout-episode-50",
       "slug": "jean-silva-knockout-podcast-ilai-brazili-menora",
       "title": "UFC's Jean Silva guests on Israeli MMA podcast Knockout ahead of Menora corner duty",
@@ -603,27 +599,6 @@
       },
       "lexicalDiversity": 0.575,
       "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-07-24-lebron-james-76ers",
-      "slug": "lebron-james-signs-76ers-lebron-day",
-      "title": "LeBron James signs with the 76ers as Pennsylvania declares 'LeBron James Day'",
-      "kind": "news",
-      "words": 488,
-      "paragraphs": 10,
-      "paragraphWords": {
-        "shortest": 38,
-        "longest": 66,
-        "average": 48.8
-      },
-      "sentenceWords": {
-        "shortest": 1,
-        "longest": 57,
-        "average": 24.4
-      },
-      "lexicalDiversity": 0.561,
-      "publisherAttributions": 1,
       "flags": []
     },
     {
@@ -708,48 +683,6 @@
       },
       "lexicalDiversity": 0.569,
       "publisherAttributions": 1,
-      "flags": []
-    },
-    {
-      "id": "live-20260724-lebron-james-76ers-eastern-conference",
-      "slug": "lebron-james-76ers-reshapes-eastern-conference",
-      "title": "LeBron James joins the 76ers, reshaping the balance of power in the East",
-      "kind": "analysis",
-      "words": 711,
-      "paragraphs": 10,
-      "paragraphWords": {
-        "shortest": 44,
-        "longest": 98,
-        "average": 71.1
-      },
-      "sentenceWords": {
-        "shortest": 6,
-        "longest": 79,
-        "average": 28.4
-      },
-      "lexicalDiversity": 0.502,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260724-pogacar-alpe-dhuez-record",
-      "slug": "pogacar-smashes-alpe-dhuez-record-tour-de-france",
-      "title": "Pogačar smashes 30-year-old Alpe d'Huez record on stage 19",
-      "kind": "news",
-      "words": 454,
-      "paragraphs": 10,
-      "paragraphWords": {
-        "shortest": 33,
-        "longest": 63,
-        "average": 45.4
-      },
-      "sentenceWords": {
-        "shortest": 15,
-        "longest": 45,
-        "average": 28.4
-      },
-      "lexicalDiversity": 0.619,
-      "publisherAttributions": 0,
       "flags": []
     },
     {
@@ -1026,27 +959,6 @@
       "flags": []
     },
     {
-      "id": "live-2026-07-24-spain-world-cup-matches-betting-probe",
-      "slug": "spain-world-cup-matches-flagged-betting-watchdog",
-      "title": "Two of Spain's World Cup matches flagged in betting integrity report",
-      "kind": "news",
-      "words": 517,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 35,
-        "longest": 83,
-        "average": 57.4
-      },
-      "sentenceWords": {
-        "shortest": 6,
-        "longest": 63,
-        "average": 28.7
-      },
-      "lexicalDiversity": 0.588,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
       "id": "live-2026-07-24-klopp-germany-coach",
       "slug": "jurgen-klopp-appointed-germany-head-coach",
       "title": "Jürgen Klopp returns to the touchline as new Germany head coach",
@@ -1131,27 +1043,6 @@
       "flags": []
     },
     {
-      "id": "live-2026-07-24-volpato-cocaine-licence",
-      "slug": "cristian-volpato-cocaine-test-licence-suspended-sydney",
-      "title": "Socceroos winger Cristian Volpato loses licence after alleged positive cocaine test",
-      "kind": "news",
-      "words": 383,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 36,
-        "longest": 64,
-        "average": 47.9
-      },
-      "sentenceWords": {
-        "shortest": 7,
-        "longest": 42,
-        "average": 25.5
-      },
-      "lexicalDiversity": 0.561,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
       "id": "live-2026-07-24-hapoel-rishon-lezion-youth-academy",
       "slug": "hapoel-rishon-lezion-youth-academy-investment",
       "title": "Hapoel Rishon LeZion bets on youth as it rebuilds for the future",
@@ -1190,27 +1081,6 @@
         "average": 27.2
       },
       "lexicalDiversity": 0.584,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-07-24-beitar-jerusalem-historic-away-win-larnaca",
-      "slug": "beitar-jerusalem-historic-away-win-aek-larnaca",
-      "title": "Beitar Jerusalem's win at AEK Larnaca is only their sixth European away victory ever",
-      "kind": "article",
-      "words": 432,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 48,
-        "longest": 63,
-        "average": 54
-      },
-      "sentenceWords": {
-        "shortest": 11,
-        "longest": 51,
-        "average": 30.9
-      },
-      "lexicalDiversity": 0.604,
       "publisherAttributions": 0,
       "flags": []
     },
@@ -1614,27 +1484,6 @@
       "flags": []
     },
     {
-      "id": "live-2026-07-23-carapaz-wins-tour-stage-18",
-      "slug": "carapaz-solo-attack-wins-tour-de-france-stage-18",
-      "title": "Carapaz strikes late to win Tour de France stage 18 in the Alps",
-      "kind": "news",
-      "words": 371,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 25,
-        "longest": 63,
-        "average": 41.2
-      },
-      "sentenceWords": {
-        "shortest": 7,
-        "longest": 57,
-        "average": 28.5
-      },
-      "lexicalDiversity": 0.62,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
       "id": "live-20260723-olise-boateng-villa",
       "slug": "olise-must-leave-boateng-villa-munich",
       "title": "Olise told to vacate Boateng's Munich villa by end of August",
@@ -1736,27 +1585,6 @@
         "average": 35
       },
       "lexicalDiversity": 0.615,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260723-barkat-iron-lady-kangwa",
-      "slug": "alona-barkat-iron-lady-kangwa-transfer-standoff",
-      "title": "Israeli football's 'Iron Lady' won't blink in the Kangwa transfer stand-off",
-      "kind": "article",
-      "words": 643,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 52,
-        "longest": 90,
-        "average": 71.4
-      },
-      "sentenceWords": {
-        "shortest": 6,
-        "longest": 59,
-        "average": 30.6
-      },
-      "lexicalDiversity": 0.538,
       "publisherAttributions": 0,
       "flags": []
     },
@@ -2160,27 +1988,6 @@
       "flags": []
     },
     {
-      "id": "live-20260722-manor-solomon-tottenham-preseason",
-      "slug": "manor-solomon-tottenham-preseason-lineup-surprise-return",
-      "title": "Manor Solomon handed surprise start in Tottenham's pre-season opener",
-      "kind": "news",
-      "words": 485,
-      "paragraphs": 10,
-      "paragraphWords": {
-        "shortest": 35,
-        "longest": 72,
-        "average": 48.5
-      },
-      "sentenceWords": {
-        "shortest": 4,
-        "longest": 68,
-        "average": 28.5
-      },
-      "lexicalDiversity": 0.565,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
       "id": "live-2026-07-22-maccabi-haifa-value-ranking",
       "slug": "maccabi-haifa-most-valuable-club-ligat-haal-rankings",
       "title": "Maccabi Haifa rated Israel's most valuable club in new Ligat Ha'al rankings",
@@ -2496,27 +2303,6 @@
       "flags": []
     },
     {
-      "id": "live-20260722-lonwijk-haifa-injury-history",
-      "slug": "nigel-lonwijk-maccabi-haifa-injury-history",
-      "title": "Maccabi Haifa's next defensive target comes with a fitness question mark",
-      "kind": "article",
-      "words": 581,
-      "paragraphs": 10,
-      "paragraphWords": {
-        "shortest": 45,
-        "longest": 73,
-        "average": 58.1
-      },
-      "sentenceWords": {
-        "shortest": 4,
-        "longest": 50,
-        "average": 27.7
-      },
-      "lexicalDiversity": 0.551,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
       "id": "live-20260722-levien-maccabi-euroleague-seat",
       "slug": "jason-levien-maccabi-euroleague-board-seat",
       "title": "Jason Levien set to take Maccabi Tel Aviv's seat on the EuroLeague board",
@@ -2535,27 +2321,6 @@
       },
       "lexicalDiversity": 0.585,
       "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260722-lonwijk-maccabi-haifa-signing",
-      "slug": "nigel-lonwijk-maccabi-haifa-arrival",
-      "title": "Maccabi Haifa's defensive reinforcement lands: Nigel Lonwijk arrives in Israel",
-      "kind": "news",
-      "words": 333,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 30,
-        "longest": 57,
-        "average": 41.6
-      },
-      "sentenceWords": {
-        "shortest": 20,
-        "longest": 50,
-        "average": 33.3
-      },
-      "lexicalDiversity": 0.607,
-      "publisherAttributions": 1,
       "flags": []
     },
     {
@@ -2622,27 +2387,6 @@
       "flags": []
     },
     {
-      "id": "live-20260722-pedro-amador-hapoel-beer-sheva",
-      "slug": "pedro-amador-hapoel-beer-sheva-transfer-close",
-      "title": "Portuguese left-back Pedro Amador closing in on Hapoel Beer Sheva move",
-      "kind": "news",
-      "words": 366,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 39,
-        "longest": 64,
-        "average": 52.3
-      },
-      "sentenceWords": {
-        "shortest": 8,
-        "longest": 54,
-        "average": 26.1
-      },
-      "lexicalDiversity": 0.607,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
       "id": "live-2026-07-22-neymar-poker-santos",
       "slug": "neymar-poker-table-santos-recovery-backlash",
       "title": "Neymar trades the pitch for the poker table while Santos fly to Venezuela",
@@ -2661,27 +2405,6 @@
       },
       "lexicalDiversity": 0.55,
       "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-07-22-maccabi-tlv-sheriff-training-headache",
-      "slug": "maccabi-tel-aviv-varela-asante-blitz-training-sheriff-tiraspol",
-      "title": "Varela, Asante and Blitz back in full training as Miller weighs selection puzzle before Sheriff Tiraspol",
-      "kind": "news",
-      "words": 446,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 37,
-        "longest": 72,
-        "average": 55.8
-      },
-      "sentenceWords": {
-        "shortest": 17,
-        "longest": 42,
-        "average": 29.7
-      },
-      "lexicalDiversity": 0.599,
-      "publisherAttributions": 1,
       "flags": []
     },
     {
@@ -2892,27 +2615,6 @@
       },
       "lexicalDiversity": 0.494,
       "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-07-21-ibrahimovic-paredes-headbutt",
-      "slug": "ibrahimovic-headbutt-paredes-world-cup-final-brawl",
-      "title": "Ibrahimović's parting shot: \"I'd have headbutted Paredes\" over final brawl",
-      "kind": "news",
-      "words": 459,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 33,
-        "longest": 67,
-        "average": 51
-      },
-      "sentenceWords": {
-        "shortest": 5,
-        "longest": 95,
-        "average": 32.8
-      },
-      "lexicalDiversity": 0.562,
-      "publisherAttributions": 1,
       "flags": []
     },
     {
@@ -3207,27 +2909,6 @@
       },
       "lexicalDiversity": 0.51,
       "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-07-21-aek-withdraws-kangwa-offer",
-      "slug": "aek-athens-withdraws-kings-kangwa-offer",
-      "title": "AEK Athens pulls out of Kings Kangwa deal after Beer Sheva refuse to rest him for Vikingur",
-      "kind": "news",
-      "words": 445,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 25,
-        "longest": 63,
-        "average": 49.4
-      },
-      "sentenceWords": {
-        "shortest": 10,
-        "longest": 56,
-        "average": 26.2
-      },
-      "lexicalDiversity": 0.562,
-      "publisherAttributions": 1,
       "flags": []
     },
     {
@@ -3626,27 +3307,6 @@
         "average": 33.1
       },
       "lexicalDiversity": 0.656,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260721-omri-glazer-maccabi-haifa",
-      "slug": "omri-glazer-lands-in-israel-maccabi-haifa-return",
-      "title": "Omri Glazer lands in Israel to seal Maccabi Haifa return",
-      "kind": "news",
-      "words": 424,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 32,
-        "longest": 71,
-        "average": 47.1
-      },
-      "sentenceWords": {
-        "shortest": 6,
-        "longest": 44,
-        "average": 26.5
-      },
-      "lexicalDiversity": 0.566,
       "publisherAttributions": 0,
       "flags": []
     },

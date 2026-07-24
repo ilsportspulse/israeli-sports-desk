@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-24T21:53:25Z",
-    "validUntil": "2026-07-25T09:53:25Z",
+    "checkedAt": "2026-07-24T23:40:53Z",
+    "validUntil": "2026-07-25T11:40:53Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 121,
+        "maxAgeHours": 123,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-07-24-volpato-cocaine-test",
+        "articleId": "live-2026-07-24-lebron-james-76ers-pay-cut",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 129,
+        "maxAgeHours": 130,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260724-thiem-registers-footballer",
+        "articleId": "live-20260724-kevin-kampl-gardener",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 139,
+        "maxAgeHours": 141,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-07-24-orian-goren-barcelona-debut",
+        "articleId": "live-2026-07-24-alex-garcia-bauru-contract-47",
         "maxAgeHours": 24,
         "requires": []
       }
