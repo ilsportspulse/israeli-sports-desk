@@ -978,26 +978,29 @@ function isTeamOrMatchStory(article) {
 function subjectFallbackFor(article, isUsed) {
   const haystack = `${article.title ?? ""} ${article.dek ?? ""} ${article.category ?? ""}`.toLowerCase();
   const venueOnly = !isTeamOrMatchStory(article);
+  const sport = (article.category || "").toLowerCase();
+  const genericKey = /basket/.test(haystack) || /basket/.test(sport) ? "israeli-basketball" : "israeli-football";
+  const pageFor = (title) => {
+    const p = subjectFallbackPages.get(title);
+    return p && free(p) ? p : null;
+  };
   for (const [key, primaryRe, contextRe] of SUBJECT_MATCHERS) {
     if (!subjectPools[key]) continue;
     if (!primaryRe.test(haystack)) continue;
     if (contextRe && !contextRe.test(haystack)) continue;
-    // Club pool first; for person/topic stories keep only venue-safe files.
+    const genericVenue = (subjectPools[genericKey] || []).filter(isVenueSafe);
+    // Tier 1 — an UNUSED club file (person/topic stories keep venue-safe only, so a
+    // single face never reads as the article's subject).
     const clubFiles = venueOnly ? subjectPools[key].filter(isVenueSafe) : subjectPools[key];
-    for (const title of clubFiles) {
-      const page = subjectFallbackPages.get(title);
-      if (page && free(page) && !isUsed(page)) return page;
-    }
-    // For a person/topic story with no venue-safe club file, fall through to the
-    // generic per-sport venue pool (stadiums/arenas) rather than force a face.
-    if (venueOnly) {
-      const sport = (article.category || "").toLowerCase();
-      const generic = /basket/.test(haystack) || /basket/.test(sport) ? "israeli-basketball" : "israeli-football";
-      for (const title of (subjectPools[generic] || []).filter(isVenueSafe)) {
-        const page = subjectFallbackPages.get(title);
-        if (page && free(page) && !isUsed(page)) return page;
-      }
-    }
+    for (const title of clubFiles) { const p = pageFor(title); if (p && !isUsed(p)) return p; }
+    // Tier 2 — an UNUSED generic venue file (stadium/arena) for any story.
+    for (const title of genericVenue) { const p = pageFor(title); if (p && !isUsed(p)) return p; }
+    // Tier 3 — REUSE a venue-safe club/generic file rather than leave the card blank.
+    // A stadium/crest/fans photo repeated across a club's stories beats an empty
+    // visual and can never be mistaken for a specific person. Marked `fallback` by
+    // the caller so it is exempt from the downstream uniqueness dedupe.
+    const reusable = [...subjectPools[key].filter(isVenueSafe), ...genericVenue];
+    for (const title of reusable) { const p = pageFor(title); if (p) return p; }
     return null;
   }
   return null;
@@ -1073,10 +1076,12 @@ for (const [index, article] of articles.entries()) {
     } catch {
       selected = undefined;
     }
+    let isFallback = false;
     if (!selected) {
       const isUsed = (page) => used.has(page.pageid) || usedUrls.has(page.imageinfo?.[0]?.descriptionurl);
       selected = subjectFallbackFor(article, isUsed);
       if (selected) {
+        isFallback = true;
         console.log(`Subject fallback for ${article.id}: ${selected.title}`);
       }
     }
@@ -1084,6 +1089,9 @@ for (const [index, article] of articles.entries()) {
     used.add(selected.pageid);
     usedUrls.add(selected.imageinfo?.[0]?.descriptionurl);
     const result = toAsset(article, selected);
+    // Curated venue/club fallbacks may intentionally repeat across a club's stories,
+    // so mark them exempt from the uniqueness dedupe (a repeated stadium beats a blank).
+    if (isFallback) result.fallback = true;
     if (!dryRun) {
       // Overwrite the file unless it is already the SAME image (same source URL).
       // We only reach here for stories being (re)sourced, so a file left at this
