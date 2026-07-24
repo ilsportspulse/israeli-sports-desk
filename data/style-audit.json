@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T09:33:52.095Z",
+  "generatedAt": "2026-07-24T11:28:30.049Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 290,
+    "publishedArticles": 293,
     "wordCount": {
       "minimum": 237,
       "maximum": 1070,
       "median": 469,
-      "average": 483.9
+      "average": 484
     },
     "paragraphDistribution": {
       "5": 1,
@@ -24,8 +24,8 @@
       "7": 54,
       "8": 78,
       "9": 74,
-      "10": 52,
-      "11": 13,
+      "10": 54,
+      "11": 14,
       "12": 2,
       "13": 3,
       "14": 2,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.269,
+    "dominantParagraphShare": 0.266,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 7,
     "analysisBelowTarget": 4,
@@ -410,6 +410,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-24-klopp-germany-coach",
+      "slug": "jurgen-klopp-appointed-germany-head-coach",
+      "title": "Jürgen Klopp returns to the touchline as new Germany head coach",
+      "kind": "news",
+      "words": 441,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 26,
+        "longest": 56,
+        "average": 44.1
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 75,
+        "average": 36.8
+      },
+      "lexicalDiversity": 0.615,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-24-lonnie-walker-real-madrid",
+      "slug": "real-madrid-talks-lonnie-walker-maccabi-tel-aviv",
+      "title": "Real Madrid open talks to sign Lonnie Walker away from Maccabi Tel Aviv",
+      "kind": "news",
+      "words": 414,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 25,
+        "longest": 66,
+        "average": 41.4
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 44,
+        "average": 27.6
+      },
+      "lexicalDiversity": 0.572,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260724-refaelov-pushed-bachar-contract",
+      "slug": "refaelov-pushed-bachar-new-contract-maccabi-haifa",
+      "title": "Refaelov: 'I was one of those who pushed for Bachar to sign a new deal'",
+      "kind": "news",
+      "words": 651,
+      "paragraphs": 11,
+      "paragraphWords": {
+        "shortest": 43,
+        "longest": 91,
+        "average": 59.2
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 78,
+        "average": 38.3
+      },
+      "lexicalDiversity": 0.568,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-07-24-world-cup-match-fixing-alerts",
       "slug": "seven-yellow-alerts-world-cup-betting-integrity",

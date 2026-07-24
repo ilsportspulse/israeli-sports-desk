@@ -1,5 +1,79 @@
 [
   {
+    "ts": "2026-07-24T11:21:13.887Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 8,
+    "published": 3,
+    "review": 3,
+    "skipped": 2,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "ironi-tiberias-opens-season-without-coach-six-players",
+        "title": "Ironi Tiberias open season without coach and six players amid banned-infusions case",
+        "confidence": 0.82,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Spellings of Gal Meatuq and Samir Farhoud, and the exact tally implied by the source headline (\"six players\"), could not be independently cross-checked name-by-name beyond the ONE report and secondary Hebrew coverage of the wider infusions case."
+      },
+      {
+        "slug": "hapoel-holon-signs-guard-drew-thelwell",
+        "title": "Hapoel Holon sign American-Jamaican guard Drew Thelwell",
+        "confidence": 0.82,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Contract length and financial terms not disclosed in the source report."
+      },
+      {
+        "slug": "dolev-haziza-maccabi-haifa-farewell-maccabi-netanya",
+        "title": "Dolev Haziza bids emotional farewell to Maccabi Haifa after seven-year 'crazy journey'",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "refaelov-pushed-bachar-new-contract-maccabi-haifa",
+        "title": "Refaelov: 'I was one of those who pushed for Bachar to sign a new deal'",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "gordon-brothers-gfn1-press-conference-tel-aviv",
+        "title": "Gordon brothers say they never expected their own fight promotion to grow this big",
+        "confidence": 0.82,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Kibedy/Kibdei Gordon's name is spelled inconsistently across sources; the bout order for Monday's card was still described by organisers as subject to change ahead of the event."
+      },
+      {
+        "slug": "real-madrid-talks-lonnie-walker-maccabi-tel-aviv",
+        "title": "Real Madrid open talks to sign Lonnie Walker away from Maccabi Tel Aviv",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "maccabi-haifa-bachar-refaelov-derby-preview",
+        "title": "Bachar says Maccabi Haifa's badge \"speaks for itself\" ahead of Haifa derby opener",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "jurgen-klopp-appointed-germany-head-coach",
+        "title": "Jürgen Klopp returns to the touchline as new Germany head coach",
+        "confidence": 0.92,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-07-24T07:24:12.726Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
