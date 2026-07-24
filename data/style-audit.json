@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T23:46:33.210Z",
+  "generatedAt": "2026-07-24T01:51:09.349Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 282,
+    "publishedArticles": 278,
     "wordCount": {
       "minimum": 237,
       "maximum": 1070,
-      "median": 469,
-      "average": 483.9
+      "median": 469.5,
+      "average": 485.8
     },
     "paragraphDistribution": {
       "5": 1,
-      "6": 9,
-      "7": 55,
+      "6": 7,
+      "7": 54,
       "8": 72,
       "9": 72,
-      "10": 49,
+      "10": 48,
       "11": 13,
       "12": 2,
       "13": 3,
@@ -33,9 +33,9 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.255,
+    "dominantParagraphShare": 0.259,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 9,
+    "exactSixParagraphArticles": 7,
     "analysisBelowTarget": 4,
     "articlesWithStyleFlags": 16
   },
@@ -537,27 +537,6 @@
       "flags": []
     },
     {
-      "id": "live-20260723-belic-injury-maccabi",
-      "slug": "belic-injured-substitute-maccabi-sheriff-tiraspol",
-      "title": "Belić's Return Lasts Eight Minutes as Maccabi Rout Sheriff Tiraspol 5-0",
-      "kind": "news",
-      "words": 305,
-      "paragraphs": 6,
-      "paragraphWords": {
-        "shortest": 41,
-        "longest": 62,
-        "average": 50.8
-      },
-      "sentenceWords": {
-        "shortest": 7,
-        "longest": 48,
-        "average": 27.7
-      },
-      "lexicalDiversity": 0.685,
-      "publisherAttributions": 1,
-      "flags": []
-    },
-    {
       "id": "live-20260723-gloukh-first-goal-ajax-vojvodina",
       "slug": "oscar-gloukh-first-goal-ajax-vojvodina-conference-league",
       "title": "Gloukh Opens His Season's Account as Ajax Rout Vojvodina 4-1",
@@ -597,27 +576,6 @@
       },
       "lexicalDiversity": 0.582,
       "publisherAttributions": 1,
-      "flags": []
-    },
-    {
-      "id": "live-20260723-maccabi-sheriff-tiraspol-rout",
-      "slug": "maccabi-tel-aviv-sheriff-tiraspol-europa-league-5-0",
-      "title": "Maccabi Tel Aviv Thrash Sheriff Tiraspol 5-0 to Open European Campaign",
-      "kind": "news",
-      "words": 351,
-      "paragraphs": 10,
-      "paragraphWords": {
-        "shortest": 22,
-        "longest": 51,
-        "average": 35.1
-      },
-      "sentenceWords": {
-        "shortest": 8,
-        "longest": 101,
-        "average": 39
-      },
-      "lexicalDiversity": 0.595,
-      "publisherAttributions": 0,
       "flags": []
     },
     {
@@ -702,27 +660,6 @@
       },
       "lexicalDiversity": 0.585,
       "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260723-beitar-larnaca-conference-league",
-      "slug": "beitar-jerusalem-aek-larnaca-conference-league-first-leg",
-      "title": "Beitar Held Scoreless Through First Half of European Opener in Larnaca",
-      "kind": "news",
-      "words": 384,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 41,
-        "longest": 81,
-        "average": 54.9
-      },
-      "sentenceWords": {
-        "shortest": 11,
-        "longest": 47,
-        "average": 32
-      },
-      "lexicalDiversity": 0.573,
-      "publisherAttributions": 1,
       "flags": []
     },
     {
@@ -2277,27 +2214,6 @@
       },
       "lexicalDiversity": 0.576,
       "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-07-21-vikingur-hapoel-beer-sheva-cl-qualifier",
-      "slug": "vikingur-reykjavik-hapoel-beer-sheva-champions-league-qualifier-live",
-      "title": "Hapoel Be'er Sheva Held Scoreless in Reykjavik as Champions League Qualifier Nears Half-Time",
-      "kind": "news",
-      "words": 355,
-      "paragraphs": 6,
-      "paragraphWords": {
-        "shortest": 39,
-        "longest": 74,
-        "average": 59.2
-      },
-      "sentenceWords": {
-        "shortest": 6,
-        "longest": 56,
-        "average": 27.3
-      },
-      "lexicalDiversity": 0.634,
-      "publisherAttributions": 1,
       "flags": []
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T23:46:32.928Z",
+  "generatedAt": "2026-07-24T01:51:09.257Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -18,12 +18,12 @@
   },
   "summary": {
     "totalArticles": 380,
-    "publishedBefore": 282,
-    "cleanPublished": 282,
+    "publishedBefore": 278,
+    "cleanPublished": 278,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 282,
-    "reviewAfter": 98
+    "publishedAfter": 278,
+    "reviewAfter": 102
   },
   "blockedPublished": [],
   "warnings": [
@@ -74,7 +74,7 @@
       "id": "live-20260723-belic-injury-maccabi",
       "slug": "belic-injured-substitute-maccabi-sheriff-tiraspol",
       "title": "Belić's Return Lasts Eight Minutes as Maccabi Rout Sheriff Tiraspol 5-0",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 307,
       "paragraphs": 6,
       "facts": 6,
@@ -204,7 +204,7 @@
       "id": "live-20260723-beitar-larnaca-conference-league",
       "slug": "beitar-jerusalem-aek-larnaca-conference-league-first-leg",
       "title": "Beitar Held Scoreless Through First Half of European Opener in Larnaca",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 382,
       "paragraphs": 7,
       "facts": 6,
@@ -3163,20 +3163,6 @@
       ]
     },
     {
-      "id": "live-20260723-belic-injury-maccabi",
-      "slug": "belic-injured-substitute-maccabi-sheriff-tiraspol",
-      "title": "Belić's Return Lasts Eight Minutes as Maccabi Rout Sheriff Tiraspol 5-0",
-      "statusBefore": "published",
-      "words": 307,
-      "paragraphs": 6,
-      "facts": 6,
-      "verificationSources": 5,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
       "id": "live-2026-07-23-hapoel-ludogorets-flare-stoppage",
       "slug": "hapoel-tel-aviv-ludogorets-flare-stoppage",
       "title": "Flares Halt Hapoel Tel Aviv's Long-Awaited European Return",
@@ -3218,18 +3204,6 @@
       "warnings": [
         "presentation:outlet-name-in-headline"
       ]
-    },
-    {
-      "id": "live-20260723-maccabi-sheriff-tiraspol-rout",
-      "slug": "maccabi-tel-aviv-sheriff-tiraspol-europa-league-5-0",
-      "title": "Maccabi Tel Aviv Thrash Sheriff Tiraspol 5-0 to Open European Campaign",
-      "statusBefore": "published",
-      "words": 352,
-      "paragraphs": 10,
-      "facts": 5,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": []
     },
     {
       "id": "live-20260723-beitar-larnaca-clean-sheet",
@@ -3298,20 +3272,6 @@
       "verificationSources": 4,
       "blockers": [],
       "warnings": []
-    },
-    {
-      "id": "live-20260723-beitar-larnaca-conference-league",
-      "slug": "beitar-jerusalem-aek-larnaca-conference-league-first-leg",
-      "title": "Beitar Held Scoreless Through First Half of European Opener in Larnaca",
-      "statusBefore": "published",
-      "words": 382,
-      "paragraphs": 7,
-      "facts": 6,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline"
-      ]
     },
     {
       "id": "live-2026-07-23-carapaz-wins-tour-stage-18",
@@ -4393,18 +4353,6 @@
       "words": 403,
       "paragraphs": 8,
       "facts": 7,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": []
-    },
-    {
-      "id": "live-2026-07-21-vikingur-hapoel-beer-sheva-cl-qualifier",
-      "slug": "vikingur-reykjavik-hapoel-beer-sheva-champions-league-qualifier-live",
-      "title": "Hapoel Be'er Sheva Held Scoreless in Reykjavik as Champions League Qualifier Nears Half-Time",
-      "statusBefore": "published",
-      "words": 356,
-      "paragraphs": 6,
-      "facts": 6,
       "verificationSources": 4,
       "blockers": [],
       "warnings": []

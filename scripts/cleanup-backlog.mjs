@@ -103,4 +103,15 @@ for (const r of rows) console.log(`  - [${r.reason}] ${r.title}`);
 if (!DRY) {
   await writeFile(file, JSON.stringify(data, null, 2) + "\n", "utf8");
   console.log("Saved data/articles.json.");
+  // Stored translations must resolve to a PUBLISHED article (enforced by tests), so
+  // drop any translation whose canonical article we just demoted to review.
+  const tPath = path.join(root, "data/content-translations.json");
+  const t = JSON.parse(await readFile(tPath, "utf8"));
+  const stillPublished = new Set(list.filter((a) => (a.status ?? "published") === "published").map((a) => a.id));
+  const before = t.translations.length;
+  t.translations = t.translations.filter((x) => stillPublished.has(x.articleId));
+  if (t.translations.length !== before) {
+    await writeFile(tPath, JSON.stringify(t, null, 2) + "\n", "utf8");
+    console.log(`Pruned ${before - t.translations.length} translation(s) for demoted stories.`);
+  }
 }
