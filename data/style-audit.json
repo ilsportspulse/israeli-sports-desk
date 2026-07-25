@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T21:17:17.933Z",
+  "generatedAt": "2026-07-25T22:11:08.752Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 352,
+    "publishedArticles": 356,
     "wordCount": {
       "minimum": 237,
       "maximum": 1070,
-      "median": 457.5,
-      "average": 470.7
+      "median": 455.5,
+      "average": 470.3
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 10,
       "7": 63,
-      "8": 94,
-      "9": 84,
-      "10": 70,
+      "8": 95,
+      "9": 86,
+      "10": 71,
       "11": 19,
       "12": 2,
       "13": 3,
@@ -37,7 +37,7 @@
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 10,
     "analysisBelowTarget": 4,
-    "articlesWithStyleFlags": 20
+    "articlesWithStyleFlags": 21
   },
   "flagged": [
     {
@@ -61,6 +61,29 @@
       "publisherAttributions": 2,
       "flags": [
         "stock-phrase:statement-of-intent",
+        "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-07-25-zamir-netanya-move-disappointment",
+      "slug": "zamir-disappointed-netanya-move-collapsed-hapoel-jerusalem",
+      "title": "Zamir admits disappointment as Netanya move collapsed, pledges commitment to Hapoel Jerusalem",
+      "kind": "news",
+      "words": 454,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 42,
+        "longest": 74,
+        "average": 56.8
+      },
+      "sentenceWords": {
+        "shortest": 19,
+        "longest": 146,
+        "average": 56.8
+      },
+      "lexicalDiversity": 0.584,
+      "publisherAttributions": 2,
+      "flags": [
         "publisher-attribution-heavy:2"
       ]
     },
@@ -503,6 +526,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260725-ankalaev-guskov-tko",
+      "slug": "ankalaev-tko-guskov-ufc-abu-dhabi",
+      "title": "Ankalaev overpowers Guskov with fifth-round TKO in Abu Dhabi return",
+      "kind": "news",
+      "words": 426,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 66,
+        "average": 47.3
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 53,
+        "average": 26.6
+      },
+      "lexicalDiversity": 0.58,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-25-barcelona-kroupi-target",
+      "slug": "barcelona-eye-kroupi-after-alvarez-stalls",
+      "title": "Barcelona turn to Bournemouth's Eli Junior Kroupi as Alvarez pursuit stalls, ONE reports",
+      "kind": "news",
+      "words": 453,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 66,
+        "average": 50.3
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 55,
+        "average": 32.4
+      },
+      "lexicalDiversity": 0.603,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-25-juzang-fenerbahce-basketball-talks",
+      "slug": "juzang-fenerbahce-advanced-talks",
+      "title": "Fenerbahçe closes in on Johnny Juzang as Maccabi Tel Aviv also circled the guard",
+      "kind": "news",
+      "words": 379,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 22,
+        "longest": 69,
+        "average": 37.9
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 43,
+        "average": 23.7
+      },
+      "lexicalDiversity": 0.641,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260725-belic-foot-fracture-maccabi",
       "slug": "maccabi-tel-aviv-belic-foot-fracture-three-months",

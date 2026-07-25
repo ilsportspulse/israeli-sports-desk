@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-25T21:17:17Z",
-    "validUntil": "2026-07-26T09:17:17Z",
+    "checkedAt": "2026-07-25T22:11:08Z",
+    "validUntil": "2026-07-26T10:11:08Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 144,
+        "maxAgeHours": 145,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260725-belic-foot-fracture-maccabi",
+        "articleId": "live-20260725-ankalaev-guskov-tko",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 152,
+        "maxAgeHours": 153,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-07-25-abuhatzira-maccabi-netanya-toto-cup",
+        "articleId": "live-2026-07-25-zamir-netanya-move-disappointment",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 162,
+        "maxAgeHours": 163,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-07-25-tiberias-sakhnin-toto-comeback",
+        "articleId": "live-2026-07-25-barcelona-kroupi-target",
         "maxAgeHours": 24,
         "requires": []
       }

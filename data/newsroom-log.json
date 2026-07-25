@@ -1,5 +1,76 @@
 [
   {
+    "ts": "2026-07-25T22:03:24.117Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 8,
+    "published": 4,
+    "review": 1,
+    "skipped": 3,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "hapoel-tel-aviv-eugene-german-signing",
+        "title": "Hapoel Tel Aviv closing in on guard Eugene German after Motley's exit",
+        "confidence": 0.8,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Deal not yet finalized — both ONE and Sport5 describe advanced negotiations, not a signed contract, and any deal may be a short-term contract rather than for the full season."
+      },
+      {
+        "slug": "juzang-fenerbahce-advanced-talks",
+        "title": "Fenerbahçe closes in on Johnny Juzang as Maccabi Tel Aviv also circled the guard",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "barcelona-eye-kroupi-after-alvarez-stalls",
+        "title": "Barcelona turn to Bournemouth's Eli Junior Kroupi as Alvarez pursuit stalls, ONE reports",
+        "confidence": 0.78,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "zamir-disappointed-netanya-move-collapsed-hapoel-jerusalem",
+        "title": "Zamir admits disappointment as Netanya move collapsed, pledges commitment to Hapoel Jerusalem",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "ankalaev-tko-guskov-ufc-abu-dhabi",
+        "title": "Ankalaev overpowers Guskov with fifth-round TKO in Abu Dhabi return",
+        "confidence": 0.9,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "tiberias-sakhnin-toto-cup-hudeda-suspension-comeback",
+        "title": "Tiberias battle past Sakhnin in Toto Cup as assistant backs suspended Hudeda",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "bakhar-maccabi-haifa-new-players-better-team-derby-reaction",
+        "title": "Bakhar says new arrivals will make Maccabi Haifa stronger after derby defeat",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "hapoel-jerusalem-signs-david-roddy-mcgregor-fight-vegas",
+        "title": "Hapoel Jerusalem land David Roddy after a Las Vegas fight night helped seal the deal",
+        "decision": "duplicate"
+      }
+    ]
+  },
+  {
     "ts": "2026-07-25T21:09:02.893Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -3242,59 +3313,6 @@
       {
         "slug": "summerville-snubs-man-united-for-al-hilal-move",
         "title": "Man United Miss Out as World Cup Star Summerville Set for Shock Al-Hilal Move",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-07-21T23:41:15.322Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 4,
-    "review": 0,
-    "skipped": 1,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "trump-wants-infantino-un-secretary-general",
-        "title": "Report: Trump Wants FIFA's Infantino as Next UN Secretary-General",
-        "confidence": 0.72,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "ronaldo-portugal-retirement-date-wales-alvalade",
-        "title": "Report: Ronaldo's Portugal career set to end against Wales on September 24",
-        "confidence": 0.6,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "toto-world-cup-2026-record-revenue",
-        "title": "Despite Awkward Kickoff Times, Toto Posts Record World Cup Revenue",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "ibrahimovic-headbutt-paredes-world-cup-final-brawl",
-        "title": "Ibrahimović's Parting Shot: \"I'd Have Headbutted Paredes\" Over Final Brawl",
-        "confidence": 0.92,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "scaloni-dismisses-messi-viral-speech-future-uncertain",
-        "title": "Scaloni Brushes Off Messi's Viral Locker-Room Video, Says Stars Will Now 'Rethink' Their Futures",
         "confidence": 0.85,
         "gate": "pass",
         "decision": "published",
