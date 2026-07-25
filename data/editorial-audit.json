@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T12:58:22.216Z",
+  "generatedAt": "2026-07-25T14:34:19.494Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,88 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 482,
-    "publishedBefore": 335,
-    "cleanPublished": 335,
+    "totalArticles": 488,
+    "publishedBefore": 338,
+    "cleanPublished": 338,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 335,
-    "reviewAfter": 147
+    "publishedAfter": 338,
+    "reviewAfter": 150
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-2026-07-25-hapoel-katamon-jerusalem-european-win",
+      "slug": "hapoel-katamon-jerusalem-first-european-win-buducnost",
+      "title": "Hapoel Katamon Jerusalem seal historic first European win",
+      "statusBefore": "review",
+      "words": 360,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-25-lazio-stav-lemkin-bid",
+      "slug": "lazio-report-bid-stav-lemkin-twente",
+      "title": "Lazio reportedly preparing offer for Israeli defender Stav Lemkin",
+      "statusBefore": "published",
+      "words": 284,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-25-arsenal-vinicius-junior-interest",
+      "slug": "arsenal-eye-audacious-move-for-vinicius-junior",
+      "title": "Arsenal weigh audacious move for Real Madrid's Vinícius Júnior",
+      "statusBefore": "published",
+      "words": 456,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-07-25-man-city-diomande-transfer-race",
+      "slug": "man-city-enters-diomande-transfer-race",
+      "title": "Manchester City join scramble for RB Leipzig's Yan Diomande",
+      "statusBefore": "published",
+      "words": 308,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-25-liel-abada-charlotte-substitution-pattern",
+      "slug": "liel-abada-charlotte-substitution-pattern",
+      "title": "Ninety minutes of frustration: the bind trapping Liel Abada in Charlotte",
+      "statusBefore": "published",
+      "words": 558,
+      "paragraphs": 10,
+      "facts": 9,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
     {
       "id": "live-20260725-kucoin-uae-team-emirates-crypto-sponsorship",
       "slug": "kucoin-crypto-exchange-uae-team-emirates-tour-de-france",
@@ -67,6 +139,20 @@
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-25-stav-lemkin-lazio-transfer-interest",
+      "slug": "stav-lemkin-lazio-transfer-interest",
+      "title": "Report: Lazio eye Israel defender Stav Lemkin as Twente stay in doubt",
+      "statusBefore": "published",
+      "words": 423,
+      "paragraphs": 8,
+      "facts": 8,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
     },
@@ -191,7 +277,7 @@
       "id": "live-2026-07-25-diomande-real-madrid-leipzig-bid",
       "slug": "diomande-real-madrid-leipzig-bid-rejected",
       "title": "Real Madrid's €100 million bid for Diomande rejected by Leipzig",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 418,
       "paragraphs": 8,
       "facts": 7,
@@ -4063,6 +4149,64 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-2026-07-25-lazio-stav-lemkin-bid",
+      "slug": "lazio-report-bid-stav-lemkin-twente",
+      "title": "Lazio reportedly preparing offer for Israeli defender Stav Lemkin",
+      "statusBefore": "published",
+      "words": 284,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-25-arsenal-vinicius-junior-interest",
+      "slug": "arsenal-eye-audacious-move-for-vinicius-junior",
+      "title": "Arsenal weigh audacious move for Real Madrid's Vinícius Júnior",
+      "statusBefore": "published",
+      "words": 456,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-07-25-man-city-diomande-transfer-race",
+      "slug": "man-city-enters-diomande-transfer-race",
+      "title": "Manchester City join scramble for RB Leipzig's Yan Diomande",
+      "statusBefore": "published",
+      "words": 308,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-25-liel-abada-charlotte-substitution-pattern",
+      "slug": "liel-abada-charlotte-substitution-pattern",
+      "title": "Ninety minutes of frustration: the bind trapping Liel Abada in Charlotte",
+      "statusBefore": "published",
+      "words": 558,
+      "paragraphs": 10,
+      "facts": 9,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
       "id": "live-20260725-kucoin-uae-team-emirates-crypto-sponsorship",
       "slug": "kucoin-crypto-exchange-uae-team-emirates-tour-de-france",
       "title": "KuCoin becomes exclusive crypto partner of Pogačar's UAE Team Emirates at the Tour de France",
@@ -4139,7 +4283,9 @@
       "facts": 8,
       "verificationSources": 3,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-2026-07-25-hapoel-jerusalem-first-euro-win",
@@ -4291,20 +4437,6 @@
       "words": 415,
       "paragraphs": 10,
       "facts": 6,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-07-25-diomande-real-madrid-leipzig-bid",
-      "slug": "diomande-real-madrid-leipzig-bid-rejected",
-      "title": "Real Madrid's €100 million bid for Diomande rejected by Leipzig",
-      "statusBefore": "published",
-      "words": 418,
-      "paragraphs": 8,
-      "facts": 7,
       "verificationSources": 4,
       "blockers": [],
       "warnings": [

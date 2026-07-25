@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T12:58:22.397Z",
+  "generatedAt": "2026-07-25T14:34:19.764Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 335,
+    "publishedArticles": 338,
     "wordCount": {
       "minimum": 237,
       "maximum": 1070,
-      "median": 462,
-      "average": 474.9
+      "median": 461.5,
+      "average": 474.1
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 9,
       "7": 61,
-      "8": 90,
+      "8": 91,
       "9": 82,
-      "10": 63,
+      "10": 65,
       "11": 18,
       "12": 2,
       "13": 3,
@@ -481,6 +481,90 @@
   ],
   "clean": [
     {
+      "id": "live-2026-07-25-lazio-stav-lemkin-bid",
+      "slug": "lazio-report-bid-stav-lemkin-twente",
+      "title": "Lazio reportedly preparing offer for Israeli defender Stav Lemkin",
+      "kind": "news",
+      "words": 285,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 27,
+        "longest": 46,
+        "average": 35.6
+      },
+      "sentenceWords": {
+        "shortest": 17,
+        "longest": 46,
+        "average": 31.7
+      },
+      "lexicalDiversity": 0.635,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-25-arsenal-vinicius-junior-interest",
+      "slug": "arsenal-eye-audacious-move-for-vinicius-junior",
+      "title": "Arsenal weigh audacious move for Real Madrid's Vinícius Júnior",
+      "kind": "news",
+      "words": 452,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 69,
+        "average": 45.2
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 42,
+        "average": 30.1
+      },
+      "lexicalDiversity": 0.608,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-25-man-city-diomande-transfer-race",
+      "slug": "man-city-enters-diomande-transfer-race",
+      "title": "Manchester City join scramble for RB Leipzig's Yan Diomande",
+      "kind": "news",
+      "words": 308,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 26,
+        "longest": 49,
+        "average": 38.5
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 44,
+        "average": 34.2
+      },
+      "lexicalDiversity": 0.659,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-25-liel-abada-charlotte-substitution-pattern",
+      "slug": "liel-abada-charlotte-substitution-pattern",
+      "title": "Ninety minutes of frustration: the bind trapping Liel Abada in Charlotte",
+      "kind": "article",
+      "words": 553,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 102,
+        "average": 55.3
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 61,
+        "average": 32.5
+      },
+      "lexicalDiversity": 0.546,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
       "id": "live-20260725-kucoin-uae-team-emirates-crypto-sponsorship",
       "slug": "kucoin-crypto-exchange-uae-team-emirates-tour-de-france",
       "title": "KuCoin becomes exclusive crypto partner of Pogačar's UAE Team Emirates at the Tour de France",
@@ -835,27 +919,6 @@
       },
       "lexicalDiversity": 0.611,
       "publisherAttributions": 1,
-      "flags": []
-    },
-    {
-      "id": "live-2026-07-25-diomande-real-madrid-leipzig-bid",
-      "slug": "diomande-real-madrid-leipzig-bid-rejected",
-      "title": "Real Madrid's €100 million bid for Diomande rejected by Leipzig",
-      "kind": "news",
-      "words": 415,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 31,
-        "longest": 73,
-        "average": 51.9
-      },
-      "sentenceWords": {
-        "shortest": 5,
-        "longest": 47,
-        "average": 27.7
-      },
-      "lexicalDiversity": 0.576,
-      "publisherAttributions": 0,
       "flags": []
     },
     {

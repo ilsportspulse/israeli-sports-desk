@@ -1,45 +1,51 @@
 {
   "selections": [
     {
-      "articleId": "live-20260725-kucoin-uae-team-emirates-crypto-sponsorship",
-      "article": "KuCoin becomes exclusive crypto partner of Pogačar's UAE Team Emirates at the Tour de France",
-      "file": "File:Tadej Pogačar.jpg",
-      "license": "CC BY 4.0"
-    },
-    {
-      "articleId": "live-2026-07-25-haifa-derby-toto-cup-odds",
-      "article": "Maccabi Haifa heavily favored as Toto Cup derby odds are published",
-      "file": "File:PikiWiki Israel 59475 sami ofer stadium.jpg",
-      "license": "CC BY 2.5"
-    },
-    {
-      "articleId": "live-2026-07-25-hapoel-tel-aviv-final-four-mandate",
-      "article": "Money, depth and madness: Hapoel Tel Aviv must reach the Final Four",
-      "file": "File:Ofer Yanai.jpg",
+      "articleId": "live-2026-07-25-hapoel-katamon-jerusalem-european-win",
+      "article": "Hapoel Katamon Jerusalem seal historic first European win",
+      "file": "File:דרבי.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-2026-07-25-hapoel-jerusalem-first-euro-win",
-      "article": "Hapoel Jerusalem claim first-ever European win with victory over Budućnost",
-      "file": "File:Teddy Kollek Stadium - Outside.JPG",
-      "license": "Public domain"
+      "articleId": "live-2026-07-25-lazio-stav-lemkin-bid",
+      "article": "Lazio reportedly preparing offer for Israeli defender Stav Lemkin",
+      "file": "File:De Grolsch Veste Enschede 2019.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-2026-07-25-arsenal-vinicius-junior-target",
+      "article": "Arsenal set sights on Real Madrid's Vinícius Júnior for audacious move",
+      "file": "File:Vinicius Jr 2021.jpg",
+      "license": "CC BY 3.0"
+    },
+    {
+      "articleId": "live-2026-07-25-man-city-diomande-transfer-race",
+      "article": "Manchester City join scramble for RB Leipzig's Yan Diomande",
+      "file": "File:Yan Diomande Cote D'Ivoire v Ecuador 14 June 2026-153.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-2026-07-25-stav-lemkin-lazio-transfer-interest",
+      "article": "Report: Lazio eye Israel defender Stav Lemkin as Twente stay in doubt",
+      "file": "File:Stav Lemkin.jpg",
+      "license": "CC0"
     }
   ],
   "failures": [
     {
+      "id": "live-2026-07-25-arsenal-vinicius-junior-interest",
+      "title": "Arsenal weigh audacious move for Real Madrid's Vinícius Júnior",
+      "error": "image download 429 after retries"
+    },
+    {
+      "id": "live-2026-07-25-liel-abada-charlotte-substitution-pattern",
+      "title": "Ninety minutes of frustration: the bind trapping Liel Abada in Charlotte",
+      "error": "image download 429 after retries"
+    },
+    {
       "id": "live-2026-07-25-lebron-james-76ers-decision",
       "title": "LeBron James picks the 76ers in his most 'Decision'-like move since 2010",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
-    },
-    {
-      "id": "live-2026-07-25-nitai-gigi-maccabi-netanya",
-      "title": "Defender Nitai Gigi returns to Maccabi Netanya on a long-term youth deal",
-      "error": "image download 429 after retries"
-    },
-    {
-      "id": "live-2026-07-25-stav-lemkin-lazio-transfer-interest",
-      "title": "Report: Lazio eye Israel defender Stav Lemkin as Twente stay in doubt",
-      "error": "image download 429 after retries"
     },
     {
       "id": "live-2026-07-25-israel-greece-u18-basketball-half-time-held",
