@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T12:05:29.312Z",
+  "generatedAt": "2026-07-25T12:58:22.397Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,21 +11,21 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 328,
+    "publishedArticles": 335,
     "wordCount": {
       "minimum": 237,
       "maximum": 1070,
-      "median": 463.5,
-      "average": 476.7
+      "median": 462,
+      "average": 474.9
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 9,
-      "7": 58,
-      "8": 87,
+      "7": 61,
+      "8": 90,
       "9": 82,
       "10": 63,
-      "11": 17,
+      "11": 18,
       "12": 2,
       "13": 3,
       "14": 2,
@@ -33,11 +33,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.265,
+    "dominantParagraphShare": 0.269,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 9,
     "analysisBelowTarget": 4,
-    "articlesWithStyleFlags": 18
+    "articlesWithStyleFlags": 19
   },
   "flagged": [
     {
@@ -62,6 +62,29 @@
       "flags": [
         "stock-phrase:statement-of-intent",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-07-25-nitai-gigi-maccabi-netanya",
+      "slug": "nitai-gigi-returns-maccabi-netanya-youth-contract",
+      "title": "Defender Nitai Gigi returns to Maccabi Netanya on a long-term youth deal",
+      "kind": "news",
+      "words": 245,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 13,
+        "longest": 52,
+        "average": 35
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 41,
+        "average": 24.5
+      },
+      "lexicalDiversity": 0.649,
+      "publisherAttributions": 1,
+      "flags": [
+        "below-editorial-target:245/280"
       ]
     },
     {
@@ -457,6 +480,132 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260725-kucoin-uae-team-emirates-crypto-sponsorship",
+      "slug": "kucoin-crypto-exchange-uae-team-emirates-tour-de-france",
+      "title": "KuCoin becomes exclusive crypto partner of Pogačar's UAE Team Emirates at the Tour de France",
+      "kind": "article",
+      "words": 314,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 58,
+        "average": 39.3
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 82,
+        "average": 39.3
+      },
+      "lexicalDiversity": 0.631,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-25-haifa-derby-toto-cup-odds",
+      "slug": "haifa-derby-toto-cup-betting-odds-maccabi-favored",
+      "title": "Maccabi Haifa heavily favored as Toto Cup derby odds are published",
+      "kind": "article",
+      "words": 358,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 63,
+        "average": 51.1
+      },
+      "sentenceWords": {
+        "shortest": 14,
+        "longest": 46,
+        "average": 29.8
+      },
+      "lexicalDiversity": 0.556,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-25-lebron-james-76ers-decision",
+      "slug": "lebron-james-picks-76ers-last-decision",
+      "title": "LeBron James picks the 76ers in his most 'Decision'-like move since 2010",
+      "kind": "news",
+      "words": 548,
+      "paragraphs": 11,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 89,
+        "average": 49.8
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 47,
+        "average": 27.4
+      },
+      "lexicalDiversity": 0.535,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-25-hapoel-tel-aviv-final-four-mandate",
+      "slug": "hapoel-tel-aviv-euroleague-final-four-mandate",
+      "title": "Money, depth and madness: Hapoel Tel Aviv must reach the Final Four",
+      "kind": "article",
+      "words": 487,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 41,
+        "longest": 90,
+        "average": 60.9
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 47,
+        "average": 30.4
+      },
+      "lexicalDiversity": 0.583,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-25-stav-lemkin-lazio-transfer-interest",
+      "slug": "stav-lemkin-lazio-transfer-interest",
+      "title": "Report: Lazio eye Israel defender Stav Lemkin as Twente stay in doubt",
+      "kind": "article",
+      "words": 423,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 32,
+        "longest": 74,
+        "average": 52.9
+      },
+      "sentenceWords": {
+        "shortest": 13,
+        "longest": 45,
+        "average": 30.2
+      },
+      "lexicalDiversity": 0.598,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-25-hapoel-jerusalem-first-euro-win",
+      "slug": "hapoel-jerusalem-first-european-win-buducnost",
+      "title": "Hapoel Jerusalem claim first-ever European win with victory over Budućnost",
+      "kind": "article",
+      "words": 347,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 71,
+        "average": 49.6
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 47,
+        "average": 28.9
+      },
+      "lexicalDiversity": 0.585,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260725-real-madrid-diomande-transfer",
       "slug": "real-madrid-diomande-transfer-fee-olise",

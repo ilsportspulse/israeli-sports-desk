@@ -1,5 +1,82 @@
 [
   {
+    "ts": "2026-07-25T12:52:38.827Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 8,
+    "published": 7,
+    "review": 0,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "hapoel-jerusalem-first-european-win-buducnost",
+        "title": "Hapoel Jerusalem claim first-ever European win with victory over Budućnost",
+        "confidence": 0.88,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "stav-lemkin-lazio-transfer-interest",
+        "title": "Report: Lazio eye Israel defender Stav Lemkin as Twente stay in doubt",
+        "confidence": 0.75,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "hapoel-tel-aviv-euroleague-final-four-mandate",
+        "title": "Money, depth and madness: Hapoel Tel Aviv must reach the Final Four",
+        "confidence": 0.75,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "nitai-gigi-returns-maccabi-netanya-youth-contract",
+        "title": "Defender Nitai Gigi returns to Maccabi Netanya on a long-term youth deal",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "lebron-james-picks-76ers-last-decision",
+        "title": "LeBron James picks the 76ers in his most 'Decision'-like move since 2010",
+        "confidence": 0.92,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "haifa-derby-toto-cup-betting-odds-maccabi-favored",
+        "title": "Maccabi Haifa heavily favored as Toto Cup derby odds are published",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "kings-kangwa-panathinaikos-tactical-upgrade",
+        "title": "Greek press sees Kings Kangwa as the creative spark Panathinaikos needed",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "kucoin-crypto-exchange-uae-team-emirates-tour-de-france",
+        "title": "KuCoin becomes exclusive crypto partner of Pogačar's UAE Team Emirates at the Tour de France",
+        "confidence": 0.88,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-07-25T11:58:30.203Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -3143,67 +3220,6 @@
         "gate": "pass",
         "decision": "published",
         "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-07-21T10:15:01.381Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 6,
-    "published": 1,
-    "review": 4,
-    "skipped": 1,
-    "gates": {
-      "confidenceMin": 0.92,
-      "namecheckMin": 0.9,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "hapoel-beer-sheva-vikingur-reykjavik-champions-league-preview",
-        "title": "Israeli champions Hapoel Be'er Sheva open Champions League bid against unbeaten Víkingur",
-        "confidence": 0.9,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "below gate thresholds"
-      },
-      {
-        "slug": "haifa-municipality-hapoel-haifa-190000-shekel-debt-claim",
-        "title": "Haifa council says Hapoel Haifa owes it 190,000 shekels, threatens training base",
-        "confidence": 0.58,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "The central figure — a 190,000-shekel debt claim by Haifa Municipality against Hapoel Haifa — is reported only by One; a second independent named outlet could not be found within the search budget to corroborate that specific sum, though the club's broader financial distress (the separate 1.485m-shekel Histadrut judgment, the derby timing) is multi-sourced. Treat the municipal figure as attributed to a single source pending wider confirmation."
-      },
-      {
-        "slug": "spain-crown-mbappe-record-football-americanization-world-cup-2026",
-        "title": "Spain's Crown, Mbappé's Record and Football's American Makeover",
-        "confidence": 0.94,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "michael-olise-paternity-child-support-dispute",
-        "title": "Olise Denies Involvement With Secret Daughter as Child-Support Dispute Goes Public",
-        "confidence": 0.8,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "This is a personal/legal dispute reported only through the mother's account and a rebuttal statement from Olise's lawyers; no court filing, DNA report or settlement document is public. Outlets differ on the exact child-support figures offered and on the spelling of the mother's surname (Zaunbrecher vs. Zounbrecher)."
-      },
-      {
-        "slug": "israel-basketball-american-alumni-chase-europe-return",
-        "title": "Israeli Basketball's American Alumni Are Chasing Their Way Back to Europe",
-        "confidence": 0.74,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Source article's specific Olympiacos per-game figures for Nathan Mensah could not be corroborated exactly (independent stat sites show 2 EuroLeague appearances and 6 Greek League games at 5.2 pts/4.0 reb, not the figures implied by the source); those independently verified numbers were used instead. No EuroLeague/EuroCup signing is confirmed for any player named — this is a market-interest/trend story, not a completed-transfer report."
-      },
-      {
-        "slug": "toto-record-world-cup-betting-revenue-despite-odd-hours",
-        "title": "Toto Posts Record World Cup Betting Revenue Despite Awkward Kickoff Times",
-        "decision": "duplicate"
       }
     ]
   }
