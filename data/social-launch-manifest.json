@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-24T23:52:50Z",
-    "validUntil": "2026-07-25T11:52:50Z",
+    "checkedAt": "2026-07-25T01:21:21Z",
+    "validUntil": "2026-07-25T13:21:21Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 123,
+        "maxAgeHours": 124,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-07-24-nwaiwu-sakhnin-fulham",
+        "articleId": "live-20260725-pogacar-alpe-dhuez-record",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 131,
+        "maxAgeHours": 132,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260724-tambedou-hapoel-flop-levadia",
+        "articleId": "archive-20260725-ramat-gan-3-june-1964-the-asian-cup-that",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 141,
+        "maxAgeHours": 142,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-07-24-lebron-james-76ers-pay-cut",
+        "articleId": "live-2026-07-24-nwaiwu-sakhnin-fulham",
         "maxAgeHours": 24,
         "requires": []
       }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T00:14:59.290Z",
+  "generatedAt": "2026-07-25T01:21:22.685Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,19 +11,19 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 310,
+    "publishedArticles": 312,
     "wordCount": {
       "minimum": 237,
       "maximum": 1070,
       "median": 465.5,
-      "average": 478.2
+      "average": 478.7
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 8,
       "7": 58,
       "8": 81,
-      "9": 76,
+      "9": 78,
       "10": 60,
       "11": 15,
       "12": 2,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.261,
+    "dominantParagraphShare": 0.26,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 8,
     "analysisBelowTarget": 4,
@@ -433,6 +433,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260725-pogacar-alpe-dhuez-record",
+      "slug": "pogacar-shatters-alpe-dhuez-record-tour-de-france",
+      "title": "Pogačar shatters 30-year-old Alpe d'Huez record at the Tour de France",
+      "kind": "article",
+      "words": 397,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 29,
+        "longest": 64,
+        "average": 44.1
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 57,
+        "average": 30.5
+      },
+      "lexicalDiversity": 0.645,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "archive-20260725-ramat-gan-3-june-1964-the-asian-cup-that",
+      "slug": "ramat-gan-3-june-1964-the-asian-cup-that-israel-won-and-could-never-de",
+      "title": "Ramat Gan, 3 June 1964: The Asian Cup that Israel won and could never defend",
+      "kind": "explainer",
+      "words": 706,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 50,
+        "longest": 111,
+        "average": 78.4
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 74,
+        "average": 28.2
+      },
+      "lexicalDiversity": 0.531,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-07-24-nwaiwu-sakhnin-fulham",
       "slug": "nwaiwu-sakhnin-trial-fulham-transfer",
