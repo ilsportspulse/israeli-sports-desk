@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-25T09:13:48Z",
-    "validUntil": "2026-07-25T21:13:48Z",
+    "checkedAt": "2026-07-25T10:40:06Z",
+    "validUntil": "2026-07-25T22:40:06Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 132,
+        "maxAgeHours": 134,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260725-vozinha-colo-colo",
+        "articleId": "live-2026-07-25-lebron-james-76ers-challenges",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 140,
+        "maxAgeHours": 141,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-07-25-gloukh-ajax-now-or-never",
+        "articleId": "live-20260725-manchester-united-new-stadium",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 150,
+        "maxAgeHours": 152,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-07-25-diomande-real-madrid-leipzig-bid",
+        "articleId": "live-2026-07-25-sinner-djokovic-montreal-withdrawal",
         "maxAgeHours": 24,
         "requires": []
       }

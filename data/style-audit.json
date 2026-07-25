@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T09:13:49.455Z",
+  "generatedAt": "2026-07-25T10:40:06.715Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,21 +11,21 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 319,
+    "publishedArticles": 324,
     "wordCount": {
       "minimum": 237,
       "maximum": 1070,
-      "median": 464,
-      "average": 477.3
+      "median": 464.5,
+      "average": 478
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 8,
       "7": 58,
-      "8": 84,
-      "9": 80,
-      "10": 62,
-      "11": 15,
+      "8": 85,
+      "9": 81,
+      "10": 63,
+      "11": 17,
       "12": 2,
       "13": 3,
       "14": 2,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.263,
+    "dominantParagraphShare": 0.262,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 8,
     "analysisBelowTarget": 4,
@@ -457,6 +457,111 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-25-lebron-james-76ers-challenges",
+      "slug": "lebron-james-76ers-challenges-ahead",
+      "title": "Not just a championship: the challenges awaiting LeBron James in Philadelphia",
+      "kind": "article",
+      "words": 641,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 49,
+        "longest": 89,
+        "average": 64.1
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 50,
+        "average": 25.6
+      },
+      "lexicalDiversity": 0.574,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260725-manchester-united-new-stadium",
+      "slug": "manchester-united-new-stadium-100000-seats-2-billion-pounds",
+      "title": "Manchester United plot a £2 billion, 100,000-seat stadium to replace Old Trafford",
+      "kind": "article",
+      "words": 670,
+      "paragraphs": 11,
+      "paragraphWords": {
+        "shortest": 43,
+        "longest": 101,
+        "average": 60.9
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 67,
+        "average": 35.3
+      },
+      "lexicalDiversity": 0.56,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-25-merida-umag-atp-title",
+      "slug": "daniel-merida-first-atp-title-umag",
+      "title": "Daniel Mérida wins maiden ATP title after years he could not afford a coach",
+      "kind": "article",
+      "words": 396,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 39,
+        "longest": 57,
+        "average": 49.5
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 102,
+        "average": 44
+      },
+      "lexicalDiversity": 0.616,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-25-sinner-djokovic-montreal-withdrawal",
+      "slug": "sinner-djokovic-withdraw-montreal-masters",
+      "title": "Sinner and Djokovic pull out of Montreal Masters ahead of US Open",
+      "kind": "news",
+      "words": 394,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 29,
+        "longest": 92,
+        "average": 43.8
+      },
+      "sentenceWords": {
+        "shortest": 29,
+        "longest": 75,
+        "average": 43.8
+      },
+      "lexicalDiversity": 0.624,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260725-beer-sheva-ventura-exit-fears",
+      "slug": "beer-sheva-ventura-exit-fears",
+      "title": "Beer Sheva fear Ventura exit after Kangwa's sale to Panathinaikos",
+      "kind": "news",
+      "words": 491,
+      "paragraphs": 11,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 62,
+        "average": 44.6
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 51,
+        "average": 30.7
+      },
+      "lexicalDiversity": 0.568,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260725-vozinha-colo-colo",
       "slug": "vozinha-cape-verde-goalkeeper-colo-colo-chile",
