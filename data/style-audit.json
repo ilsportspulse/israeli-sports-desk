@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T10:40:06.715Z",
+  "generatedAt": "2026-07-25T12:05:29.312Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,19 +11,19 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 324,
+    "publishedArticles": 328,
     "wordCount": {
       "minimum": 237,
       "maximum": 1070,
-      "median": 464.5,
-      "average": 478
+      "median": 463.5,
+      "average": 476.7
     },
     "paragraphDistribution": {
       "5": 1,
-      "6": 8,
+      "6": 9,
       "7": 58,
-      "8": 85,
-      "9": 81,
+      "8": 87,
+      "9": 82,
       "10": 63,
       "11": 17,
       "12": 2,
@@ -33,9 +33,9 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.262,
+    "dominantParagraphShare": 0.265,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 8,
+    "exactSixParagraphArticles": 9,
     "analysisBelowTarget": 4,
     "articlesWithStyleFlags": 18
   },
@@ -457,6 +457,90 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260725-real-madrid-diomande-transfer",
+      "slug": "real-madrid-diomande-transfer-fee-olise",
+      "title": "Real Madrid pivot from Olise to Diomande as Leipzig fee nears €120m",
+      "kind": "article",
+      "words": 371,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 29,
+        "longest": 68,
+        "average": 46.4
+      },
+      "sentenceWords": {
+        "shortest": 15,
+        "longest": 51,
+        "average": 30.9
+      },
+      "lexicalDiversity": 0.598,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-25-orian-goren-barcelona-debut",
+      "slug": "orian-goren-barcelona-first-team-debut-praise",
+      "title": "Spanish press praise Orian Goren after Israeli teenager's Barcelona debut",
+      "kind": "article",
+      "words": 363,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 77,
+        "average": 60.5
+      },
+      "sentenceWords": {
+        "shortest": 19,
+        "longest": 58,
+        "average": 36.3
+      },
+      "lexicalDiversity": 0.639,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-25-daniel-peretz-wrist-splint",
+      "slug": "daniel-peretz-wrist-splint-not-dramatic",
+      "title": "Daniel Peretz plays down dramatic-looking wrist splint after Southampton win",
+      "kind": "news",
+      "words": 319,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 32,
+        "longest": 49,
+        "average": 39.9
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 48,
+        "average": 35.4
+      },
+      "lexicalDiversity": 0.618,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-25-rodri-real-madrid-personal-terms",
+      "slug": "rodri-real-madrid-personal-terms-fee-standoff",
+      "title": "Rodri agrees personal terms with Real Madrid, but a fee standoff with Manchester City remains",
+      "kind": "news",
+      "words": 440,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 39,
+        "longest": 63,
+        "average": 48.9
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 48,
+        "average": 31.4
+      },
+      "lexicalDiversity": 0.602,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-07-25-lebron-james-76ers-challenges",
       "slug": "lebron-james-76ers-challenges-ahead",

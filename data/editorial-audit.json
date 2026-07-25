@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T10:40:06.471Z",
+  "generatedAt": "2026-07-25T12:05:28.969Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,77 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 470,
-    "publishedBefore": 324,
-    "cleanPublished": 324,
+    "totalArticles": 475,
+    "publishedBefore": 328,
+    "cleanPublished": 328,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 324,
-    "reviewAfter": 146
+    "publishedAfter": 328,
+    "reviewAfter": 147
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-20260725-real-madrid-diomande-transfer",
+      "slug": "real-madrid-diomande-transfer-fee-olise",
+      "title": "Real Madrid pivot from Olise to Diomande as Leipzig fee nears €120m",
+      "statusBefore": "published",
+      "words": 371,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-25-orian-goren-barcelona-debut",
+      "slug": "orian-goren-barcelona-first-team-debut-praise",
+      "title": "Spanish press praise Orian Goren after Israeli teenager's Barcelona debut",
+      "statusBefore": "published",
+      "words": 363,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-25-daniel-peretz-wrist-splint",
+      "slug": "daniel-peretz-wrist-splint-not-dramatic",
+      "title": "Daniel Peretz plays down dramatic-looking wrist splint after Southampton win",
+      "statusBefore": "published",
+      "words": 319,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-07-25-israel-greece-u18-basketball-half-time-held",
+      "slug": "israel-greece-u18-basketball-half-time-held",
+      "title": "Israel U18 trail Greece at the break in EuroBasket opener",
+      "statusBefore": "review",
+      "words": 110,
+      "paragraphs": 2,
+      "facts": 5,
+      "verificationSources": 1,
+      "blockers": [
+        "copy-depth:110/220-words",
+        "structure:2/5-paragraphs"
+      ],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
     {
       "id": "live-2026-07-25-muscle-growth-light-weight-reps",
       "slug": "can-light-weights-high-reps-build-muscle",
@@ -3958,6 +4019,62 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-20260725-real-madrid-diomande-transfer",
+      "slug": "real-madrid-diomande-transfer-fee-olise",
+      "title": "Real Madrid pivot from Olise to Diomande as Leipzig fee nears €120m",
+      "statusBefore": "published",
+      "words": 371,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-25-orian-goren-barcelona-debut",
+      "slug": "orian-goren-barcelona-first-team-debut-praise",
+      "title": "Spanish press praise Orian Goren after Israeli teenager's Barcelona debut",
+      "statusBefore": "published",
+      "words": 363,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-25-daniel-peretz-wrist-splint",
+      "slug": "daniel-peretz-wrist-splint-not-dramatic",
+      "title": "Daniel Peretz plays down dramatic-looking wrist splint after Southampton win",
+      "statusBefore": "published",
+      "words": 319,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-07-25-rodri-real-madrid-personal-terms",
+      "slug": "rodri-real-madrid-personal-terms-fee-standoff",
+      "title": "Rodri agrees personal terms with Real Madrid, but a fee standoff with Manchester City remains",
+      "statusBefore": "published",
+      "words": 443,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-2026-07-25-lebron-james-76ers-challenges",
       "slug": "lebron-james-76ers-challenges-ahead",

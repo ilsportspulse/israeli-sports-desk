@@ -1,5 +1,76 @@
 [
   {
+    "ts": "2026-07-25T11:58:30.203Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 8,
+    "published": 4,
+    "review": 1,
+    "skipped": 3,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "israel-greece-u18-basketball-half-time-held",
+        "title": "Israel U18 trail Greece at the break in EuroBasket opener",
+        "confidence": 0,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "match in progress — wait for full time"
+      },
+      {
+        "slug": "rodri-real-madrid-personal-terms-fee-standoff",
+        "title": "Rodri agrees personal terms with Real Madrid, but a fee standoff with Manchester City remains",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "lebron-james-philadelphia-most-lebron-like-decision",
+        "title": "Why LeBron James's move to Philadelphia may be his most honest decision yet",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "daniel-peretz-wrist-splint-not-dramatic",
+        "title": "Daniel Peretz plays down dramatic-looking wrist splint after Southampton win",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "haifa-derby-toto-cup-odds-maccabi-favourites",
+        "title": "Maccabi Haifa strong favourites as odds published for Toto Cup derby with Hapoel Haifa",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "orian-goren-barcelona-first-team-debut-praise",
+        "title": "Spanish press praise Orian Goren after Israeli teenager's Barcelona debut",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "kings-kangwa-panathinaikos-transfer-hapoel-beer-sheva",
+        "title": "Kings Kangwa set for Panathinaikos in €4.5m deal after Hapoel Be'er Sheva heroics",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "real-madrid-diomande-transfer-fee-olise",
+        "title": "Real Madrid pivot from Olise to Diomande as Leipzig fee nears €120m",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-07-25T10:33:22.880Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -3133,77 +3204,6 @@
         "slug": "toto-record-world-cup-betting-revenue-despite-odd-hours",
         "title": "Toto Posts Record World Cup Betting Revenue Despite Awkward Kickoff Times",
         "decision": "duplicate"
-      }
-    ]
-  },
-  {
-    "ts": "2026-07-21T09:42:39.174Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 8,
-    "published": 0,
-    "review": 5,
-    "skipped": 3,
-    "gates": {
-      "confidenceMin": 0.92,
-      "namecheckMin": 0.9,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "toto-world-cup-2026-betting-record",
-        "title": "Despite the Small Hours, Israel's Toto Says It Had Its Biggest-Ever World Cup",
-        "confidence": 0.5,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Toto's headline post-tournament figures — the ~700m-shekel total, the 18%/36% growth claims, the 34.4m-shekel single-day record, the 32.65m/18.9m/18.7m/13.2m per-match breakdown and the online-user growth numbers — come from the Council for the Regulation of Sports Betting's own account as reported by the Israeli sports site One, and could not be corroborated against a second independent outlet within this reporting window. What is independently verified: Toto's pre-tournament forecast of 623m shekels (406m at stations/217m online), the expanded 104-match/48-team format, the World Cup final result (Spain 1-0 Argentina) and semi-final pairings (Spain-France, Argentina-England), and Toto's leadership (chairman Shabtai Tzur, CEO Meir Bardogo). Treat the specific post-tournament revenue figures as the organization's self-reported account pending confirmation elsewhere."
-      },
-      {
-        "slug": "dolev-haziza-agrees-maccabi-netanya-deal",
-        "title": "Haziza Agrees Terms to Join Maccabi Netanya, Ending Seven Years at Haifa",
-        "confidence": 0.83,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Personal terms are reported as agreed by multiple independent Hebrew outlets, but the formal signing and club unveiling had not occurred as of publication, pending the end of the Tisha B'Av fast; treat as an advanced/imminent deal rather than a completed transfer."
-      },
-      {
-        "url": "https://www.one.co.il/Article/528708.html",
-        "decision": "error",
-        "reason": "Command failed: claude -p You are the copy desk for Israel Sports Pulse (English-language Israeli sports newsroom).\nDraft ONE article from this source: https://www.one.co.il/Article/528708.html\n(reported title: \"אני מצפה שכל שחקן שייקרא לנבחרת, יתייצב\" - ONE)\n\nUse web search to read the source and to verify every fact against independent sources.\nHARD EDITORIAL GATES — obey exactly:\n- Never invent facts, quotes, results, names or numbers. If you cannot verify something from the source, omit it.\n- Verify every material fact against at least TWO independent, named sources; list them all in verificationSources.\n- A final score is publishable ONLY if at least two independent outlets explicitly report the match as full-time, and the goal events sum exactly to the score. Otherwise report it as in-progress or hold (set confidence below 0.92 and explain in warning).\n- Verify every person/team name transliteration against an official/registry record (Transfermarkt / Wikipedia / league / World Athletics) and record it in nameChecks.\n- SCOPE — we cover BOTH Israeli sport AND major world sport:\n    • Israeli stories (Israeli competition, athlete or team) → desk \"israel\". This is our core; prioritise it.\n    • GENUINELY SIGNIFICANT international sport → desk \"international\", and this is WELCOME with NO Israeli angle: the World Cup and its aftermath (results, managerial sackings/appointments, retirements, fallout), the big European leagues and continental cups, major transfers, the NBA, Grand Slams, Grand Tours, athletics, F1, and major championships/events. Cover these properly and keep them fresh — our International corner must reflect what is actually happening in world sport right now.\n    • Only truly trivial, purely local-foreign filler with no wider significance should be held — set confidence 0 and warning \"not newsworthy\". A big, real world-sport story is NOT to be held for \"no Israeli angle\".\n- No publisher names in title or dek; at most once in the body; never on the international desk.\n- RICH MEDIA (encouraged): when a genuinely relevant, REAL and verifiable clip or post exists, embed it — it makes the article richer. Include \"video\" for a real YouTube video (set youtubeId to the exact 11-character id from a working youtube.com/watch?v= or youtu.be/ URL you actually found, plus title, channel, sourceUrl) and/or \"officialSocialPost\" for an official club/athlete/federation post on X or Instagram (platform \"twitter\" or \"instagram\", the exact post/tweet id, url, title, account). ONLY include one you have actually seen and verified via web search — NEVER guess, invent or approximate an id or url. If you cannot verify a real one, omit the field entirely. Prefer official accounts and official highlight channels.\n- VOICE: write like a real, experienced human sports journalist for a quality broadsheet — never a template or a robot, never amateurish. Let the STORY and the depth of your reporting dictate the length: a tight news item may be 5-7 paragraphs, a well-researched story or analysis 10-16. Length must be flexible BOTH ways — shorter when the story is small, longer when genuine research (background, context, history, standings, quotes) earns it. NEVER pad, repeat or restate to reach a length; every paragraph must add new information and stay readable — keep paragraphs short (roughly 2-4 sentences), never dense walls of text that tire the reader. Vary paragraph length and sentence rhythm; open with a genuine, specific news hook (not a formula); avoid any repeated fixed structure. Between 5 and 18 paragraphs — pick what the story truly needs, and make different articles read differently.\n- Set confidence (0-1) honestly. Set warning to \"\" only if every core fact is multi-source consistent and nothing is uncertain.\n- IMAGE (MANDATORY, and treated as seriously as the facts): research an accurate photo for THIS exact story and return commonsQuery plus commonsCandidates — 2 to 4 REAL Wikimedia Commons files, ranked most-relevant first. For EACH candidate you MUST, via web search on commons.wikimedia.org: (1) confirm the file page actually exists and is a JPEG photograph (not a logo, flag, map, diagram or artwork), (2) confirm a reusable licence (CC BY, CC BY-SA, CC0 or public domain) and record it, and (3) CONFIRM IT DEPICTS THE RIGHT SUBJECT — the specific person, club, venue or competition in the story. Beware NAMESAKES and wrong context: e.g. for basketball's David Roddy do NOT return a US Air Force serviceman of the same name; check the file's description/categories confirm the correct sport, club and person. Priority of subject: the named athlete/player themselves → their current club or national team → the exact stadium/arena → the competition or trophy. A stadium or club photo is fine as an honest file photo; an unrelated or wrong-person image is a serious failure. If you CANNOT verify at least one correctly-identified image, return commonsCandidates as an empty array [] and say so in warning — the story will be held rather than published with a wrong photo. NEVER invent, guess or approximate a file name.\n\nFixed fields: publishedAt/updatedAt = \"2026-07-21T09:42:39.174Z\", theme = \"night-pitch\", pick a sensible category (e.g. \"Israeli Football\", \"Israeli Basketball\", \"Israelis Abroad\", \"Israeli Olympic Sport\", \"World Football\") and desk. Make id start with \"live-\" + date + a short slug, and a descriptive kebab slug with no publisher names.\n\nFields required in the JSON object: id, slug, title, dek, category, desk (\"israel\" or \"international\"), kind, storyForm, publishedAt, updatedAt, readMinutes (number), source {name,url}, verificationSources [{label,url}], body (array of 5-18 strings; the natural length for THIS story — shorter or longer as the reporting earns, never padded, never a fixed count), facts (array of >=5 strings), theme, homepagePriority (number), homepageReason, dedupeKey, aiDisclosure, nameChecks [{hebrew,english,verificationUrl,confidence}], confidence (0-1 number), warning (string, \"\" if none), commonsQuery, commonsCandidates [{title,creditUrl,credit,license}] (REQUIRED: 2-4 web-verified, correctly-identified Commons photos as described above, or [] if none can be verified — the story is then held rather than shown with a wrong image). OPTIONAL rich media (include ONLY if you verified a real one, else omit): video {title,channel,youtubeId,sourceUrl} for a real YouTube clip, officialSocialPost {title,account,platform (\"twitter\"|\"instagram\"),url,postId} for a real official X/Instagram post.\n\nWork efficiently: do at most 5 web searches to gather and cross-check the essential facts, then stop researching and write. If you cannot verify enough to meet the gates within that budget, still emit the object with an honest low confidence and a warning rather than searching endlessly.\n\nOutput ONLY the raw JSON object as your final message — no prose, no code fences. --output-format json --model claude-sonnet-5 --allowedTools WebSearch,WebFetch --permission-mode default --max-turns 40\nWarning: no stdin data received in 3s, proceeding without it. If piping from a slow command, redirect stdin explicitly: < /dev/null to skip, or wait longer.\n"
-      },
-      {
-        "url": "https://www.one.co.il/Article/528711.html",
-        "decision": "skipped",
-        "reason": "no valid article emitted"
-      },
-      {
-        "slug": "hapoel-beer-sheva-champions-league-vikingur-reykjavik-preview",
-        "title": "Southern dream: Be'er Sheva chase a first Champions League breakthrough in Reykjavík",
-        "confidence": 0.86,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Kings Kangwa's move to AEK Athens is reported as an advanced negotiation/interest with a stated €4m bid, not a confirmed completed transfer; treated as unresolved in the text. The exact neutral venue for the July 28 second leg was not yet confirmed in available sources."
-      },
-      {
-        "slug": "cj-elleby-signs-hapoel-haemek-ligat-haal",
-        "title": "Beer Sheva's leading scorer C.J. Elleby signs with Hapoel HaEmek",
-        "confidence": 0.85,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Rebound/assist averages differ slightly between the ONE source (5.4 rpg/3.8 apg) and independently corroborated stats sites (6.9 rpg/3.9 apg, matching on points at 18.1); the corroborated figures were used. Some supporting-cast name spellings (coach, captain) are best-effort transliterations from Hebrew sport press, not registry-verified."
-      },
-      {
-        "slug": "aek-ultimatum-kangwa-hapoel-beer-sheva-champions-league",
-        "title": "AEK's warning to Be'er Sheva: play Kangwa tonight and the transfer collapses",
-        "confidence": 0.74,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "The transfer is not yet finalized; the exact fee varies across Israeli reports (€3.5m-€4m range) rather than one confirmed figure, and the outcome hinges on tonight's still-undecided Be'er Sheva team-sheet — treat as a developing story, not a completed deal."
-      },
-      {
-        "url": "https://www.sport5.co.il/articles.aspx?FolderID=416&docID=553886",
-        "decision": "error",
-        "reason": "Command failed: claude -p You are the copy desk for Israel Sports Pulse (English-language Israeli sports newsroom).\nDraft ONE article from this source: https://www.sport5.co.il/articles.aspx?FolderID=416&docID=553886\n(reported title: עמוס פרישמן בביקורת חריפה: \"החלון היה מביש\" - ערוץ הספורט)\n\nUse web search to read the source and to verify every fact against independent sources.\nHARD EDITORIAL GATES — obey exactly:\n- Never invent facts, quotes, results, names or numbers. If you cannot verify something from the source, omit it.\n- Verify every material fact against at least TWO independent, named sources; list them all in verificationSources.\n- A final score is publishable ONLY if at least two independent outlets explicitly report the match as full-time, and the goal events sum exactly to the score. Otherwise report it as in-progress or hold (set confidence below 0.92 and explain in warning).\n- Verify every person/team name transliteration against an official/registry record (Transfermarkt / Wikipedia / league / World Athletics) and record it in nameChecks.\n- SCOPE — we cover BOTH Israeli sport AND major world sport:\n    • Israeli stories (Israeli competition, athlete or team) → desk \"israel\". This is our core; prioritise it.\n    • GENUINELY SIGNIFICANT international sport → desk \"international\", and this is WELCOME with NO Israeli angle: the World Cup and its aftermath (results, managerial sackings/appointments, retirements, fallout), the big European leagues and continental cups, major transfers, the NBA, Grand Slams, Grand Tours, athletics, F1, and major championships/events. Cover these properly and keep them fresh — our International corner must reflect what is actually happening in world sport right now.\n    • Only truly trivial, purely local-foreign filler with no wider significance should be held — set confidence 0 and warning \"not newsworthy\". A big, real world-sport story is NOT to be held for \"no Israeli angle\".\n- No publisher names in title or dek; at most once in the body; never on the international desk.\n- RICH MEDIA (encouraged): when a genuinely relevant, REAL and verifiable clip or post exists, embed it — it makes the article richer. Include \"video\" for a real YouTube video (set youtubeId to the exact 11-character id from a working youtube.com/watch?v= or youtu.be/ URL you actually found, plus title, channel, sourceUrl) and/or \"officialSocialPost\" for an official club/athlete/federation post on X or Instagram (platform \"twitter\" or \"instagram\", the exact post/tweet id, url, title, account). ONLY include one you have actually seen and verified via web search — NEVER guess, invent or approximate an id or url. If you cannot verify a real one, omit the field entirely. Prefer official accounts and official highlight channels.\n- VOICE: write like a real, experienced human sports journalist for a quality broadsheet — never a template or a robot, never amateurish. Let the STORY and the depth of your reporting dictate the length: a tight news item may be 5-7 paragraphs, a well-researched story or analysis 10-16. Length must be flexible BOTH ways — shorter when the story is small, longer when genuine research (background, context, history, standings, quotes) earns it. NEVER pad, repeat or restate to reach a length; every paragraph must add new information and stay readable — keep paragraphs short (roughly 2-4 sentences), never dense walls of text that tire the reader. Vary paragraph length and sentence rhythm; open with a genuine, specific news hook (not a formula); avoid any repeated fixed structure. Between 5 and 18 paragraphs — pick what the story truly needs, and make different articles read differently.\n- Set confidence (0-1) honestly. Set warning to \"\" only if every core fact is multi-source consistent and nothing is uncertain.\n- IMAGE (MANDATORY, and treated as seriously as the facts): research an accurate photo for THIS exact story and return commonsQuery plus commonsCandidates — 2 to 4 REAL Wikimedia Commons files, ranked most-relevant first. For EACH candidate you MUST, via web search on commons.wikimedia.org: (1) confirm the file page actually exists and is a JPEG photograph (not a logo, flag, map, diagram or artwork), (2) confirm a reusable licence (CC BY, CC BY-SA, CC0 or public domain) and record it, and (3) CONFIRM IT DEPICTS THE RIGHT SUBJECT — the specific person, club, venue or competition in the story. Beware NAMESAKES and wrong context: e.g. for basketball's David Roddy do NOT return a US Air Force serviceman of the same name; check the file's description/categories confirm the correct sport, club and person. Priority of subject: the named athlete/player themselves → their current club or national team → the exact stadium/arena → the competition or trophy. A stadium or club photo is fine as an honest file photo; an unrelated or wrong-person image is a serious failure. If you CANNOT verify at least one correctly-identified image, return commonsCandidates as an empty array [] and say so in warning — the story will be held rather than published with a wrong photo. NEVER invent, guess or approximate a file name.\n\nFixed fields: publishedAt/updatedAt = \"2026-07-21T09:42:39.174Z\", theme = \"night-pitch\", pick a sensible category (e.g. \"Israeli Football\", \"Israeli Basketball\", \"Israelis Abroad\", \"Israeli Olympic Sport\", \"World Football\") and desk. Make id start with \"live-\" + date + a short slug, and a descriptive kebab slug with no publisher names.\n\nFields required in the JSON object: id, slug, title, dek, category, desk (\"israel\" or \"international\"), kind, storyForm, publishedAt, updatedAt, readMinutes (number), source {name,url}, verificationSources [{label,url}], body (array of 5-18 strings; the natural length for THIS story — shorter or longer as the reporting earns, never padded, never a fixed count), facts (array of >=5 strings), theme, homepagePriority (number), homepageReason, dedupeKey, aiDisclosure, nameChecks [{hebrew,english,verificationUrl,confidence}], confidence (0-1 number), warning (string, \"\" if none), commonsQuery, commonsCandidates [{title,creditUrl,credit,license}] (REQUIRED: 2-4 web-verified, correctly-identified Commons photos as described above, or [] if none can be verified — the story is then held rather than shown with a wrong image). OPTIONAL rich media (include ONLY if you verified a real one, else omit): video {title,channel,youtubeId,sourceUrl} for a real YouTube clip, officialSocialPost {title,account,platform (\"twitter\"|\"instagram\"),url,postId} for a real official X/Instagram post.\n\nWork efficiently: do at most 5 web searches to gather and cross-check the essential facts, then stop researching and write. If you cannot verify enough to meet the gates within that budget, still emit the object with an honest low confidence and a warning rather than searching endlessly.\n\nOutput ONLY the raw JSON object as your final message — no prose, no code fences. --output-format json --model claude-sonnet-5 --allowedTools WebSearch,WebFetch --permission-mode default --max-turns 40\nWarning: no stdin data received in 3s, proceeding without it. If piping from a slow command, redirect stdin explicitly: < /dev/null to skip, or wait longer.\n"
       }
     ]
   }

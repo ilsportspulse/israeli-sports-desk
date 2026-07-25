@@ -1,31 +1,42 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-07-25-lebron-james-76ers-challenges",
-      "article": "Not just a championship: the challenges awaiting LeBron James in Philadelphia",
-      "file": "File:LeBron James and Joel Embiid, Olympic Games 2024.jpg",
+      "articleId": "live-20260725-real-madrid-diomande-transfer",
+      "article": "Real Madrid pivot from Olise to Diomande as Leipzig fee nears €120m",
+      "file": "File:Estadio Santiago Bernabéu Madrid.jpg",
+      "license": "CC BY 4.0"
+    },
+    {
+      "articleId": "live-2026-07-25-orian-goren-barcelona-debut",
+      "article": "Spanish press praise Orian Goren after Israeli teenager's Barcelona debut",
+      "file": "File:Hans-Dieter Flick during a press conference in April 2025 at FC Barcelona.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-20260725-manchester-united-new-stadium",
-      "article": "Manchester United plot a £2 billion, 100,000-seat stadium to replace Old Trafford",
-      "file": "File:Manchester United Old Trafford.jpg",
-      "license": "CC BY-SA 3.0 de"
+      "articleId": "live-2026-07-25-daniel-peretz-wrist-splint",
+      "article": "Daniel Peretz plays down dramatic-looking wrist splint after Southampton win",
+      "file": "File:2025-08-05 Daniel Peretz HSV 1.jpg",
+      "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-2026-07-25-sinner-djokovic-montreal-withdrawal",
-      "article": "Sinner and Djokovic pull out of Montreal Masters ahead of US Open",
-      "file": "File:Jannik Sinner.jpg",
-      "license": "CC0"
+      "articleId": "live-2026-07-25-rodri-real-madrid-personal-terms",
+      "article": "Rodri agrees personal terms with Real Madrid, but a fee standoff with Manchester City remains",
+      "file": "File:Santiago Bernabéu Stadium, September 2014 08.JPG",
+      "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-2026-07-25-messi-brazilian-roots-study",
-      "article": "Study claims Messi has Brazilian roots through great-great-grandfather",
-      "file": "File:Lionel Andrés Messi Cuccittini.jpg",
+      "articleId": "live-2026-07-25-merida-umag-atp-title",
+      "article": "Daniel Mérida wins maiden ATP title after years he could not afford a coach",
+      "file": "File:Tzipora Obziler Israel tennis championship 2008.jpg",
       "license": "CC BY-SA 3.0"
     }
   ],
   "failures": [
+    {
+      "id": "live-2026-07-25-israel-greece-u18-basketball-half-time-held",
+      "title": "Israel U18 trail Greece at the break in EuroBasket opener",
+      "error": "image download 429 after retries"
+    },
     {
       "id": "live-20260725-pedrao-groin-tear-haifa-derby",
       "title": "More misfortune for Pedrão as groin tear rules him out of Haifa derby",
@@ -35,16 +46,6 @@
       "id": "live-2026-07-25-muscle-growth-light-weight-reps",
       "title": "Can you build real muscle with light weights and lots of reps?",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
-    },
-    {
-      "id": "live-2026-07-25-merida-umag-atp-title",
-      "title": "Daniel Mérida wins maiden ATP title after years he could not afford a coach",
-      "error": "image download 429 after retries"
-    },
-    {
-      "id": "live-20260725-beer-sheva-ventura-exit-fears",
-      "title": "Beer Sheva fear Ventura exit after Kangwa's sale to Panathinaikos",
-      "error": "image download 429 after retries"
     },
     {
       "id": "live-2026-07-25-roei-zahavi-paulesti-signing",
