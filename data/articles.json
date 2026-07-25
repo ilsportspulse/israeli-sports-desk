@@ -1,5 +1,589 @@
 [
   {
+    "id": "live-2026-07-25-yarmakov-maccabi-haifa-metalist-sale",
+    "slug": "maccabi-haifa-sell-yarmakov-metalist-kharkiv",
+    "title": "Maccabi Haifa sell goalkeeper Georgi Yarmakov to Metalist Kharkiv",
+    "dek": "The Ukrainian-Israeli goalkeeper leaves Sami Ofer Stadium in a deal reported at around €2.8 million, with Omri Glazer already signed as his replacement.",
+    "category": "Israeli Football",
+    "desk": "israel",
+    "kind": "report",
+    "storyForm": "news",
+    "publishedAt": "2026-07-25T18:47:33.753Z",
+    "updatedAt": "2026-07-25T18:47:33.753Z",
+    "readMinutes": 3,
+    "source": {
+      "name": "Sport5",
+      "url": "https://www.sport5.co.il/articles.aspx?FolderID=64&docID=551184"
+    },
+    "verificationSources": [
+      {
+        "label": "Sport5 — רשמית: גיאורגי ירמקוב נמכר, זה הסכום שתרוויח מכבי חיפה",
+        "url": "https://www.sport5.co.il/articles.aspx?FolderID=64&docID=551184"
+      },
+      {
+        "label": "Walla Sport — עסקת ירמקוב נסגרת, כיוף מתנדנד: מי יהיו השוערים של מכבי חיפה",
+        "url": "https://sports.walla.co.il/item/3850917"
+      },
+      {
+        "label": "Haaretz — מכבי חיפה החתימה את עומרי גלזר לשלוש שנים",
+        "url": "https://www.haaretz.co.il/sport/israel-soccer/2026-07-21/ty-article/0000019f-84e3-d490-a59f-a7f7f0880000"
+      }
+    ],
+    "body": [
+      "Maccabi Haifa have sold goalkeeper Georgi Yarmakov to Ukrainian side Metalist Kharkiv, Sport5 reported, bringing to a close a transfer saga that ran through much of the summer.",
+      "The outlet put the fee at around €2.8 million, with the total climbing toward €3 million once add-on clauses are triggered — a hefty return on the roughly €100,000 Haifa paid to sign the 24-year-old from Oleksandriia back in the summer of 2024.",
+      "Yarmakov, born in Kyiv and from a Ukrainian Jewish family that later settled in Holon, came through Shakhtar Donetsk's academy before loan and permanent spells at Oleksandriia. He made his Israeli Premier League debut for Haifa only last August, but quickly became a fixture between the posts.",
+      "He started 37 league matches for Maccabi Haifa last season and kept 12 clean sheets, establishing himself as one of the club's standout performers even as speculation over his future grew.",
+      "According to Walla Sport, Yarmakov made clear he wanted to leave and did not rule out a return to Ukrainian football, with talks between the two clubs progressing steadily before Metalist's offer was accepted.",
+      "Haifa had already moved to cover the position, confirming goalkeeper Omri Glazer on a three-year deal after his return from Red Star Belgrade. The 30-year-old previously won the title with Haifa in the 2020/21 season.",
+      "\"I always felt I had another chapter to write here, and today I'm happy to come back and close the circle,\" Glazer said after signing, according to Haaretz. \"I'm excited to wear the green shirt again, return to Sami Ofer, meet the green crowd, and give everything in every training session and every game for the club.\"",
+      "With Yarmakov's exit and Glazer installed as first choice, Haifa have also been working the market for goalkeeping depth, with reports linking them to Maccabi Netanya's Omer Niron as a potential number two.",
+      "For Yarmakov, the move represents a homecoming of sorts to Ukrainian football, where he was previously part of the country's Olympic squad at the Paris 2024 Games, and a fresh chapter after two seasons in Israel that raised his profile considerably."
+    ],
+    "facts": [
+      "Maccabi Haifa have agreed to sell goalkeeper Georgi Yarmakov to Metalist Kharkiv, per Sport5.",
+      "The reported fee is approximately €2.8 million, potentially rising toward €3 million with add-ons.",
+      "Yarmakov, 24, was signed by Haifa from Oleksandriia in summer 2024 for around €100,000.",
+      "He made 37 league appearances and recorded 12 clean sheets for Maccabi Haifa last season.",
+      "Omri Glazer has signed a three-year contract with Maccabi Haifa as Yarmakov's replacement, returning from Red Star Belgrade.",
+      "Glazer previously won the Israeli championship with Maccabi Haifa in the 2020/21 season.",
+      "Yarmakov came through Shakhtar Donetsk's academy and was part of Ukraine's Olympic squad at Paris 2024."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 4,
+    "homepageReason": "Notable Israeli Premier League transfer news involving an outgoing starting goalkeeper and a high-profile returning replacement.",
+    "dedupeKey": "maccabihaifa-yarmakov-transfer-metalist-2026-07",
+    "aiDisclosure": "This article was drafted by an AI copy desk assistant from Sport5's report, cross-checked against Walla Sport and Haaretz.",
+    "nameChecks": [
+      {
+        "hebrew": "גאורגי ירמקוב",
+        "english": "Georgi Yarmakov",
+        "verificationUrl": "https://he.wikipedia.org/wiki/%D7%92%D7%90%D7%95%D7%A8%D7%92%D7%99_%D7%99%D7%A8%D7%9E%D7%A7%D7%95%D7%91",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "עומרי גלזר",
+        "english": "Omri Glazer",
+        "verificationUrl": "https://www.haaretz.co.il/sport/israel-soccer/2026-07-21/ty-article/0000019f-84e3-d490-a59f-a7f7f0880000",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "מטאליסט חארקוב",
+        "english": "Metalist Kharkiv",
+        "verificationUrl": "https://en.wikipedia.org/wiki/FC_Metalist_Kharkiv",
+        "confidence": 0.85
+      },
+      {
+        "hebrew": "מכבי חיפה",
+        "english": "Maccabi Haifa",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Maccabi_Haifa_F.C.",
+        "confidence": 0.95
+      }
+    ],
+    "confidence": 0.85,
+    "warning": "dup same-event (8: maccabi,haifa,goalkeeper,metalist,kharkiv,ukrainian)",
+    "commonsQuery": "Maccabi Haifa F.C. Sami Ofer Stadium",
+    "commonsCandidates": [
+      {
+        "title": "File:Sammy Ofer Stadium panorama.JPG",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Sammy_Ofer_Stadium_panorama.JPG",
+        "credit": "Assaf Yekuel (Shefshef)",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:Bayern Munich vs Maccabi Haifa (4136140709).jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Bayern_Munich_vs_Maccabi_Haifa_(4136140709).jpg",
+        "credit": "Grzegorz Jereczek",
+        "license": "CC BY-SA 2.0"
+      }
+    ],
+    "status": "review"
+  },
+  {
+    "id": "live-2026-07-25-haifa-derby-object-thrown-zuparic",
+    "slug": "haifa-derby-object-thrown-zuparic",
+    "title": "Object thrown from stands hits Hapoel Haifa's Zuparic in fiery Haifa derby",
+    "dek": "Yaad Gonen's early brace put Hapoel Haifa 2-0 up at Sammy Ofer Stadium, but wild celebrations, a red card for a Hapoel coach and cups thrown onto the pitch overshadowed the football before half time.",
+    "category": "Israeli Football",
+    "desk": "israel",
+    "kind": "news",
+    "storyForm": "developing",
+    "publishedAt": "2026-07-25T18:47:33.753Z",
+    "updatedAt": "2026-07-25T18:47:33.753Z",
+    "readMinutes": 3,
+    "source": {
+      "name": "Sport5",
+      "url": "https://www.sport5.co.il/articles.aspx?FolderID=282&docID=554332"
+    },
+    "verificationSources": [
+      {
+        "label": "Sport5",
+        "url": "https://www.sport5.co.il/articles.aspx?FolderID=282&docID=554332"
+      },
+      {
+        "label": "Sport5 play-by-play",
+        "url": "https://playbyplay.sport5.co.il/?GameID=150635&FLNum=163"
+      },
+      {
+        "label": "Ynet live game",
+        "url": "https://livegame.ynet.co.il/games/528997"
+      }
+    ],
+    "body": [
+      "The Haifa derby lived up to its reputation for needle on Saturday, as an object thrown from the stands at Sammy Ofer Stadium struck Hapoel Haifa's Dario Zuparic during the opening round of the Toto Cup.",
+      "Hapoel had raced into a 2-0 lead through a Yaad Gonen brace, the winger scoring in the 30th and 33rd minutes to stun the home crowd early in the contest.",
+      "Gonen's celebrations after both goals were aimed squarely at the Maccabi Haifa end, according to Sport5, and the needle escalated further when referee Gal Leibovich sent off Hapoel goalkeeping coach Itai Zilpha following furious protests from the Maccabi bench.",
+      "The atmosphere boiled over again in the 38th minute, when cups thrown from the stands rained onto the pitch and struck Zuparic, who went down and required treatment before play could continue.",
+      "The Sammy Ofer Stadium announcer intervened directly, warning Maccabi Haifa supporters to stop throwing objects onto the field, Sport5 reported. Play resumed once Zuparic was able to continue.",
+      "This was the first meeting of the season between the two Haifa clubs, and derby matches between them have a long history of spilling over into confrontations both on the pitch and in the stands.",
+      "The match was still being played when this report was compiled, with Hapoel's early advantage yet to be tested by a Maccabi response after the interval."
+    ],
+    "facts": [
+      "Toto Cup, first round, Haifa derby: Maccabi Haifa vs Hapoel Haifa at Sammy Ofer Stadium, 25 July 2026.",
+      "Hapoel Haifa led 2-0 through a Yaad Gonen brace, scored in the 30th and 33rd minutes.",
+      "Gonen's goal celebrations were directed toward the Maccabi Haifa supporters' section, angering home fans.",
+      "Referee Gal Leibovich sent off Hapoel goalkeeping coach Itai Zilpha after Maccabi protests, per Sport5.",
+      "In the 38th minute, cups thrown from the stands struck Hapoel defender Dario Zuparic, who needed treatment.",
+      "The stadium announcer warned Maccabi Haifa fans to stop throwing objects onto the pitch.",
+      "Play resumed after treatment; the match was still in progress at the time of this report."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 0,
+    "homepageReason": "Held — the match was still being played (second half under way) when researched, with no confirmed full-time score; must not run as a live/in-progress update per newsroom policy.",
+    "dedupeKey": "toto-cup-haifa-derby-2026-07-25",
+    "aiDisclosure": "Drafted by AI from Sport5 reporting and cross-checked live match data; held pending full-time confirmation.",
+    "nameChecks": [
+      {
+        "hebrew": "יעד גונן",
+        "english": "Yaad Gonen",
+        "verificationUrl": "https://livegame.ynet.co.il/games/528997",
+        "confidence": 0.7
+      },
+      {
+        "hebrew": "דריו ז'ופריץ'",
+        "english": "Dario Zuparic (Župarić)",
+        "verificationUrl": "https://www.sofascore.com/football/player/dario-zuparic/137090",
+        "confidence": 0.85
+      },
+      {
+        "hebrew": "איתי זילפה",
+        "english": "Itai Zilpha",
+        "verificationUrl": "https://www.sport5.co.il/articles.aspx?FolderID=282&docID=554332",
+        "confidence": 0.55
+      },
+      {
+        "hebrew": "גל לייבוביץ'",
+        "english": "Gal Leibovich",
+        "verificationUrl": "https://www.sport5.co.il/articles.aspx?FolderID=282&docID=554332",
+        "confidence": 0.55
+      }
+    ],
+    "confidence": 0,
+    "warning": "match in progress — wait for full time",
+    "commonsQuery": "Dario Zuparic footballer Rijeka Salzburg; Sammy Ofer Stadium Haifa",
+    "commonsCandidates": [
+      {
+        "title": "File:FC Salzburg gegen HNK Rijeka (CL-Qualifikation 3. Runde 26. Juli 2017) 25.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:FC_Salzburg_gegen_HNK_Rijeka_(CL-Qualifikation_3._Runde_26._Juli_2017)_25.jpg",
+        "credit": "Werner100359 / Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:Sammy Ofer Stadium panorama.JPG",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Sammy_Ofer_Stadium_panorama.JPG",
+        "credit": "Assaf Yekuel (Shefshef) / Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:PikiWiki Israel 59475 sami ofer stadium.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:PikiWiki_Israel_59475_sami_ofer_stadium.jpg",
+        "credit": "Nadav Barkai / PikiWiki Israel",
+        "license": "CC BY 2.5"
+      }
+    ],
+    "status": "review"
+  },
+  {
+    "id": "live-20260725-gonen-haifa-derby-halftime-hold",
+    "slug": "gonen-maccabi-haifa-academy-hapoel-derby-lead",
+    "title": "Yad Gonen, raised at Maccabi Haifa, torments his old club in derby first half",
+    "dek": "The 20-year-old forward scored and helped force an own goal as Hapoel Haifa led Maccabi Haifa 2-0 at the break in the season-opening Toto Cup derby — but the final score could not be confirmed.",
+    "category": "Israeli Football",
+    "desk": "israel",
+    "kind": "article",
+    "storyForm": "news",
+    "publishedAt": "2026-07-25T18:47:33.753Z",
+    "updatedAt": "2026-07-25T18:47:33.753Z",
+    "readMinutes": 3,
+    "source": {
+      "name": "Sport5",
+      "url": "https://www.sport5.co.il/articles.aspx?FolderID=282&docID=554334"
+    },
+    "verificationSources": [
+      {
+        "label": "Sport5 (source article)",
+        "url": "https://www.sport5.co.il/articles.aspx?FolderID=282&docID=554334"
+      },
+      {
+        "label": "Sport5 play-by-play, Maccabi Haifa v Hapoel Haifa",
+        "url": "https://playbyplay.sport5.co.il/?GameID=150635&FLNum=163"
+      },
+      {
+        "label": "Ynet live game centre",
+        "url": "https://livegame.ynet.co.il/games/528997"
+      },
+      {
+        "label": "Sport5 player profile, Yad Gonen",
+        "url": "https://www.sport5.co.il/Player/1632/49171/%D7%99%D7%A2%D7%93-%D7%92%D7%95%D7%A0%D7%9F"
+      }
+    ],
+    "body": [
+      "Yad Gonen gave Hapoel Haifa fans a glimpse of why the club has been building around him, scoring and setting up a second goal as Hapoel led fierce rivals Maccabi Haifa 2-0 at half-time in Saturday's Haifa derby, the season-opening fixture of the 2026/27 Toto Cup at Sammy Ofer Stadium.",
+      "Gonen, 20, is a product of Maccabi Haifa's own youth academy who moved across the city to Hapoel Haifa — and it was against his boyhood club that he produced what Sport5 called one of the best individual first-half performances on the pitch, opening the scoring before a Maccabi defender turned the ball into his own net to make it 2-0.",
+      "\"Hapoel Haifa went up 2-0 over Maccabi,\" Sport5 reported of the first half, describing Gonen as central to the derby's early momentum after breaking through the Hapoel first team this pre-season.",
+      "The forward had impressed in training camp and at youth international level before this campaign, and Hapoel's coaching staff have talked openly about wanting to hand him a bigger role this season. A big afternoon against the club that once let him go would only sharpen that narrative.",
+      "However, Sport5's report covers only the opening 45 minutes of the derby, and this newsroom could not independently confirm the full-time result. Subsequent coverage of the same fixture found elsewhere was inconsistent about how the match ultimately finished, with some accounts suggesting Maccabi Haifa recovered in the second half.",
+      "Because the final score cannot yet be verified with confidence, we are holding a full match report until the result is confirmed beyond doubt. Yad Gonen's derby moment, and its context for both Haifa clubs' season openers, will be the subject of a fuller report once the full-time picture is clear."
+    ],
+    "facts": [
+      "Yad Gonen, 20, is a forward who came through Maccabi Haifa's youth academy before moving to Hapoel Haifa.",
+      "Gonen scored to put Hapoel Haifa ahead in the first half of the Haifa derby, the 2026/27 Toto Cup season opener, played at Sammy Ofer Stadium on July 25, 2026.",
+      "A Maccabi Haifa defender turned the ball into his own net shortly afterwards, making it 2-0 to Hapoel Haifa at half-time.",
+      "Sport5's source article explicitly describes only the first half of the match and does not state a confirmed final score.",
+      "Other coverage of the same fixture found in verification was inconsistent about the eventual result, so the full-time score could not be confirmed."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 0,
+    "homepageReason": "Held pending confirmation of the full-time derby result; source only covers the first half.",
+    "dedupeKey": "haifa-derby-toto-2026-07-25",
+    "aiDisclosure": "This article was drafted by an automated newsroom system from verified source reporting and held pending full-time confirmation.",
+    "nameChecks": [
+      {
+        "hebrew": "יעד גונן",
+        "english": "Yad Gonen",
+        "verificationUrl": "https://www.sport5.co.il/Player/1632/49171/%D7%99%D7%A2%D7%93-%D7%92%D7%95%D7%A0%D7%9F",
+        "confidence": 0.6
+      }
+    ],
+    "confidence": 0,
+    "warning": "match in progress — wait for full time. The Sport5 source explicitly covers only the first half ('Hapoel Haifa went up 2-0 over Maccabi' in the opening 45 minutes) and does not give a final score; other coverage of the same fixture was inconsistent about the eventual result, so this cannot run as a match report until the full-time score is confirmed.",
+    "commonsQuery": "Sammy Ofer Stadium Haifa",
+    "commonsCandidates": [
+      {
+        "title": "File:Sammy Ofer Stadium panorama.JPG",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Sammy_Ofer_Stadium_panorama.JPG",
+        "credit": "Assaf Yekuel (Shefshef)",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:Sammy Ofer Stadium01.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Sammy_Ofer_Stadium01.jpg",
+        "credit": "Little Savage",
+        "license": "Public domain"
+      }
+    ],
+    "status": "review"
+  },
+  {
+    "id": "live-20260725-israel-u16-girls-water-polo-south-africa",
+    "slug": "israel-u16-girls-water-polo-open-worlds-win-south-africa",
+    "title": "Israel's under-16 girls open water polo world championship with big win over South Africa",
+    "dek": "Trailing early in Zagreb, the young Israeli water polo team rallied to beat South Africa 12-7 in their World Championship opener, with Yahali Rokach and Ori Grodman scoring three goals apiece.",
+    "category": "Israeli Olympic Sport",
+    "desk": "israel",
+    "kind": "article",
+    "storyForm": "news",
+    "publishedAt": "2026-07-25T18:47:33.753Z",
+    "updatedAt": "2026-07-25T18:47:33.753Z",
+    "readMinutes": 3,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/529035.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/529035.html"
+      },
+      {
+        "label": "Ynet",
+        "url": "https://www.ynet.co.il/sport/article/bjyaw8gbge"
+      },
+      {
+        "label": "Sport5",
+        "url": "https://www.sport5.co.il/articles.aspx?FolderID=413&docID=554315"
+      },
+      {
+        "label": "World Aquatics",
+        "url": "https://www.worldaquatics.com/competitions/5138/world-aquatics-women-s-u16-water-polo-championships-2026"
+      }
+    ],
+    "body": [
+      "Israel's under-16 girls water polo team opened the World Aquatics Women's U16 Championship in Zagreb with a statement result, beating South Africa 12-7 to launch the tournament on a high.",
+      "It did not start smoothly. Israel conceded the first two goals of the match and looked rattled before settling, then reeling off five unanswered goals to seize control.",
+      "By the break Israel led 6-4, and the young team pulled away further in the third quarter, outscoring South Africa 4-1 to open up a 10-5 cushion it would not relinquish before the final whistle sealed the 12-7 win.",
+      "The scoring was spread across the squad. Yahali Rokach and Ori Grodman each found the net three times, Yara Huvino Garcia added two, and Tamara Salmon-Michaeli, Inbar Yanko, Alma Tauber and Tamar Orchan all scored once.",
+      "Rokach's performance earned her Player of the Match honours in Israel's opening outing of the championship.",
+      "\"The excitement was evident at the start, and then once the girls composed themselves they showed they're the stronger side,\" head coach Idan Kaftori said afterwards. \"Tomorrow we have a very tough match against Hungary, one of the gold medal contenders.\"",
+      "Israel's Water Polo Association chair, Rona Freund-Amitzur, called it \"a wonderful victory that gives the players confidence right at the opening of the World Championship.\"",
+      "Association CEO Dana Tartzki-Gatoa said the result was \"an excellent start to a significant summer for Israeli water polo,\" adding that the team \"showed character and demonstrated real ability.\"",
+      "The championship, the first of two World Aquatics under-16 events being staged in the Croatian capital this summer, is being played at Zagreb's Mladost aquatics complex from July 25 to 31, with the boys' edition to follow in August at the same venue.",
+      "Israel returns to the pool on Sunday to face Hungary, a considerably sterner test as the young team looks to build on its opening statement."
+    ],
+    "facts": [
+      "Israel's under-16 girls water polo team beat South Africa 12-7 in the opening match of the World Aquatics Women's U16 Water Polo Championships in Zagreb, Croatia.",
+      "Israel trailed 0-2 early before scoring five unanswered goals to lead 6-4 at halftime.",
+      "Israel extended the lead to 10-5 after a 4-1 third quarter before closing out the 12-7 win.",
+      "Yahali Rokach and Ori Grodman each scored three goals; Rokach was named Player of the Match.",
+      "Yara Huvino Garcia scored twice, with Tamara Salmon-Michaeli, Inbar Yanko, Alma Tauber and Tamar Orchan each adding one goal.",
+      "Israel next faces Hungary, described by the coach as a gold-medal contender.",
+      "The tournament runs July 25-31, 2026, at Zagreb's Mladost aquatics complex."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 5,
+    "homepageReason": "Israeli youth national team delivers a strong opening win at a world championship",
+    "dedupeKey": "wwpc-u16-2026-israel-southafrica-zagreb",
+    "aiDisclosure": "Drafted by an AI news assistant from verified source reporting; reviewed against multiple independent outlets before publication.",
+    "nameChecks": [
+      {
+        "hebrew": "אורי גרודמן",
+        "english": "Ori Grodman",
+        "verificationUrl": "https://www.sport5.co.il/articles.aspx?FolderID=413&docID=554315",
+        "confidence": 0.85
+      },
+      {
+        "hebrew": "יהלי רוקח",
+        "english": "Yahali Rokach",
+        "verificationUrl": "https://www.sport5.co.il/articles.aspx?FolderID=413&docID=554315",
+        "confidence": 0.85
+      },
+      {
+        "hebrew": "יארה הוינו גרסיה",
+        "english": "Yara Huvino Garcia",
+        "verificationUrl": "https://www.one.co.il/Article/529035.html",
+        "confidence": 0.75
+      },
+      {
+        "hebrew": "עידן כפתורי",
+        "english": "Idan Kaftori",
+        "verificationUrl": "https://carmelist.co.il/עידן-כפתורי-מונה-לתפקיד-המנהל-המקצועי/",
+        "confidence": 0.85
+      },
+      {
+        "hebrew": "רונה פרוינד-עמיצור",
+        "english": "Rona Freund-Amitzur",
+        "verificationUrl": "https://www.one.co.il/Article/473800.html",
+        "confidence": 0.85
+      },
+      {
+        "hebrew": "דנה טרטצקי-גתוע",
+        "english": "Dana Tartzki-Gatoa",
+        "verificationUrl": "https://sports.walla.co.il/item/3734343",
+        "confidence": 0.8
+      }
+    ],
+    "confidence": 0.88,
+    "warning": "",
+    "commonsQuery": "Mladost pool Zagreb water polo venue",
+    "commonsCandidates": [
+      {
+        "title": "File:Bazeni Mladost Zagreb.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Bazeni_Mladost_Zagreb.jpg",
+        "credit": "Suradnik13 / Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:Kazan 2015 - Water polo - Men - Gold medal match - 042.JPG",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Kazan_2015_-_Water_polo_-_Men_-_Gold_medal_match_-_042.JPG",
+        "credit": "Oleg Bkhambri (Voltmetro) / Wikimedia Commons",
+        "license": "CC0 1.0"
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "live-2026-07-25-bnei-yehuda-ze-flores",
+    "slug": "bnei-yehuda-sign-brazilian-winger-ze-flores",
+    "title": "Bnei Yehuda sign Brazilian winger Zé Flores from Sheriff Tiraspol",
+    "dek": "The 27-year-old joins on a one-year deal with club options for two more seasons after two productive years with the Moldovan champions, ONE reports.",
+    "category": "Israeli Football",
+    "desk": "israel",
+    "kind": "news",
+    "storyForm": "brief",
+    "publishedAt": "2026-07-25T18:47:33.753Z",
+    "updatedAt": "2026-07-25T18:47:33.753Z",
+    "readMinutes": 3,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/529036.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/529036.html"
+      },
+      {
+        "label": "Transfermarkt player profile",
+        "url": "https://www.transfermarkt.us/hugo-goncalves-flores/profil/spieler/936167"
+      }
+    ],
+    "body": [
+      "Bnei Yehuda have gone shopping in Moldova, confirming the signing of Brazilian winger Zé Flores from league champions Sheriff Tiraspol, ONE reported on Saturday.",
+      "The 27-year-old, born in Rio de Janeiro, has put pen to paper on a one-year contract that carries club options for two further seasons, according to the report. His move was brokered by agents Tamir Azizov and Kfir M. of the A.G Pro Agency.",
+      "Flores arrives with a solid pedigree in Moldova. ONE reports he spent two seasons at Sheriff Tiraspol after earlier spells in Italy and Lithuania, establishing himself as a regular attacking threat on the flank for the Tiraspol club.",
+      "Last season was his best yet: 11 goals from the wing as Sheriff won the Moldovan Cup. He had already featured for the club four times in the fledgling 2026/27 campaign — two Europa League qualifying ties and two league fixtures — before the move to Israel was finalised.",
+      "He now joins a Bnei Yehuda side rebuilding in Liga Leumit, Israel's second tier, where the Tel Aviv club reached the upper playoff bracket last season and will hope fresh attacking options can fire a push back toward the top flight.",
+      "\"I'm very excited to join Bnei Yehuda,\" Flores said, according to ONE. \"From the first moment I felt the club's strong desire to bring me and their trust in me... I'm already waiting to wear the orange shirt.\" He cited the club's history and passionate fanbase as factors in choosing the move."
+    ],
+    "facts": [
+      "Bnei Yehuda have signed Brazilian winger Zé Flores from Sheriff Tiraspol, per ONE.",
+      "Flores, 27, is from Rio de Janeiro and previously played in Italy and Lithuania.",
+      "He spent two seasons at Sheriff Tiraspol, scoring 11 goals last season as the club won the Moldovan Cup.",
+      "He played four matches for Sheriff in the 2026/27 season (two Europa League qualifiers, two league games) before the transfer.",
+      "The contract is for one season with club options for two additional years.",
+      "His agents are Tamir Azizov and Kfir M. of A.G Pro Agency.",
+      "Bnei Yehuda currently play in Liga Leumit, Israel's second-tier league."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 5,
+    "homepageReason": "Notable foreign signing for a prominent second-tier Israeli club ahead of the new season.",
+    "dedupeKey": "bnei-yehuda-signs-ze-flores-2026-07",
+    "aiDisclosure": "Drafted by an AI copy desk from a single verified source (ONE) with independent cross-checks against Transfermarkt player data.",
+    "nameChecks": [
+      {
+        "hebrew": "ז'ה פלורס",
+        "english": "Zé Flores",
+        "verificationUrl": "https://www.transfermarkt.us/hugo-goncalves-flores/profil/spieler/936167",
+        "confidence": 0.85
+      },
+      {
+        "hebrew": "בני יהודה",
+        "english": "Bnei Yehuda",
+        "verificationUrl": "https://he.wikipedia.org/wiki/%D7%91%D7%A0%D7%99_%D7%99%D7%94%D7%95%D7%93%D7%94_%D7%AA%D7%9C_%D7%90%D7%91%D7%99%D7%91",
+        "confidence": 0.97
+      },
+      {
+        "hebrew": "שריף טירספול",
+        "english": "Sheriff Tiraspol",
+        "verificationUrl": "https://en.wikipedia.org/wiki/FC_Sheriff_Tiraspol",
+        "confidence": 0.97
+      }
+    ],
+    "confidence": 0.85,
+    "warning": "Transfer fee, if any, was not disclosed in the source report.",
+    "commonsQuery": "Bnei Yehuda Tel Aviv F.C. Sheriff Tiraspol stadium",
+    "commonsCandidates": [
+      {
+        "title": "File:Bnei Yehuda fans.JPG",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Bnei_Yehuda_fans.JPG",
+        "credit": "Botend / Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:Tiraspol Sheriff Stadion.JPG",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Tiraspol_Sheriff_Stadion.JPG",
+        "credit": "Julian Nyča / Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:Bnei Yehuda Tel Aviv F.C. DSC04906 (5987039388).jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Bnei_Yehuda_Tel_Aviv_F.C._DSC04906_(5987039388).jpg",
+        "credit": "Yaffa Phillips / Wikimedia Commons",
+        "license": "CC BY-SA 2.0"
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "live-20260725-khalaili-assist-union-lille",
+    "slug": "khalaili-assist-union-saint-gilloise-lille-friendly",
+    "title": "Khalaili back in action with an assist as Union Saint-Gilloise edge Lille",
+    "dek": "The Israeli winger, whose blockbuster move to Inter Milan collapsed over a failed medical, made an instant impact off the bench in a pre-season friendly in Brussels.",
+    "category": "Israelis Abroad",
+    "desk": "israel",
+    "kind": "article",
+    "storyForm": "news",
+    "publishedAt": "2026-07-25T18:47:33.753Z",
+    "updatedAt": "2026-07-25T18:47:33.753Z",
+    "readMinutes": 3,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/529037.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/529037.html"
+      },
+      {
+        "label": "Walla Sport",
+        "url": "https://sports.walla.co.il/item/3836950"
+      },
+      {
+        "label": "Sport1 (Maariv)",
+        "url": "https://sport1.maariv.co.il/israeli-soccer/israelis-abroad/article/1421029/"
+      },
+      {
+        "label": "livefoot.fr match report",
+        "url": "https://www.livefoot.fr/direct/matchs-amicaux-clubs-3-international/match-union-saint-gilloise-vs-lille-647ed7ee"
+      }
+    ],
+    "body": [
+      "Anan Khalaili was back on a football pitch on Saturday for the first time since his headline-grabbing move to Inter Milan fell apart, and he needed only a few minutes to make his mark. The Israeli winger came off the bench for Union Saint-Gilloise and teed up the goal that beat Lille 2-1 in a pre-season friendly at Stade Joseph Marien in Brussels.",
+      "Louis Patris had put the Belgian champions ahead in the 25th minute before Lille, reduced to ten men after Saad Boussadia was sent off just after the half-hour, equalised through Gaëtan Perrin midway through the second half. Union SG restored their lead soon after, and this time an Israeli boot was involved in the build-up.",
+      "Khalaili was introduced in the 72nd minute and within two minutes had set up Besfort Zeneli for what proved the winning goal, ONE reported. It was a low-key stage for the 21-year-old's comeback — a summer friendly rather than a competitive fixture — but a significant one given the turbulent few weeks he has just had.",
+      "Khalaili had appeared set to complete a move to Inter Milan after the Serie A club reportedly beat Napoli to an agreement with Union Saint-Gilloise. According to Israeli reports, the transfer collapsed at the medical stage after Italy's Olympic committee, CONI, withheld the fitness clearance he needed to be registered — a rare and unusual reason for a deal of that size to fall through.",
+      "With Inter out of the picture, attention has swung back to Napoli, who Israeli outlets report have already reached an agreement with Khalaili on personal terms and are now negotiating with Union Saint-Gilloise over a fee. The Belgian club is said to be holding out for around €25 million, while Napoli's offer stands at roughly €18 million plus add-ons.",
+      "Khalaili joined Union Saint-Gilloise from Maccabi Haifa in the summer of 2024 for around €7.5 million and has since become one of the most sought-after Israeli players in Europe, helping the Belgian side to the league title and, this past season, the Belgian Cup.",
+      "For now, with his next club still unresolved, Saturday's outing offered a reminder of why so many clubs are chasing his signature — and gave Union Saint-Gilloise's coaching staff a timely reassurance ahead of the new season that their prized winger remains sharp, whoever ends up paying for him."
+    ],
+    "facts": [
+      "Union Saint-Gilloise beat Lille 2-1 in a pre-season friendly on July 25, 2026, at Stade Joseph Marien in Brussels.",
+      "Louis Patris scored for Union SG in the 25th minute; Gaëtan Perrin equalised for Lille after Saad Boussadia's 32nd-minute red card; Besfort Zeneli scored the winner.",
+      "Anan Khalaili came on as a substitute in the 72nd minute and set up Zeneli's winning goal.",
+      "Khalaili's proposed transfer to Inter Milan reportedly collapsed after Italy's Olympic committee (CONI) withheld medical clearance.",
+      "Napoli are now in talks with Union Saint-Gilloise over a fee for Khalaili, reportedly offering around €18m plus bonuses against the club's €25m asking price.",
+      "Khalaili joined Union Saint-Gilloise from Maccabi Haifa in summer 2024 for roughly €7.5 million and has since won the Belgian league title and Belgian Cup with the club."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 5,
+    "homepageReason": "Fresh update on one of Israel's most closely watched players abroad, tying his on-field return to a live, high-value transfer saga involving Inter Milan and Napoli.",
+    "dedupeKey": "usg-lille-friendly-2026-07-25",
+    "aiDisclosure": "Drafted by an AI copy desk from verified reporting; reviewed against multiple independent sources before publication.",
+    "nameChecks": [
+      {
+        "hebrew": "ענאן חלאילי",
+        "english": "Anan Khalaili",
+        "verificationUrl": "https://commons.wikimedia.org/wiki/File:Anan_Khalaili_Union_2025.jpg",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "אוניון סן ז'ילואז",
+        "english": "Union Saint-Gilloise",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Royale_Union_Saint-Gilloise",
+        "confidence": 0.95
+      }
+    ],
+    "confidence": 0.85,
+    "warning": "",
+    "commonsQuery": "Anan Khalaili Union Saint-Gilloise footballer",
+    "commonsCandidates": [
+      {
+        "title": "File:Anan Khalaili Union 2025.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Anan_Khalaili_Union_2025.jpg",
+        "credit": "Sidney.Cortez / Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:Stade Joseph Marien.JPG",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Stade_Joseph_Marien.JPG",
+        "credit": "Martijn Mureau (MM1912) / Wikimedia Commons",
+        "license": "CC BY 4.0"
+      }
+    ],
+    "status": "published"
+  },
+  {
     "id": "live-2026-07-25-tveria-sakhnin-live-update-held",
     "slug": "tveria-bnei-sakhnin-live-update-held",
     "title": "Ironi Tveria host Bnei Sakhnin, still goalless early on",

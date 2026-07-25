@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T17:56:01.181Z",
+  "generatedAt": "2026-07-25T18:54:22.684Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 344,
+    "publishedArticles": 347,
     "wordCount": {
       "minimum": 237,
       "maximum": 1070,
-      "median": 460.5,
-      "average": 473.3
+      "median": 460,
+      "average": 471.9
     },
     "paragraphDistribution": {
       "5": 1,
-      "6": 9,
-      "7": 61,
+      "6": 10,
+      "7": 62,
       "8": 92,
       "9": 82,
-      "10": 69,
+      "10": 70,
       "11": 19,
       "12": 2,
       "13": 3,
@@ -33,11 +33,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.267,
+    "dominantParagraphShare": 0.265,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 9,
+    "exactSixParagraphArticles": 10,
     "analysisBelowTarget": 4,
-    "articlesWithStyleFlags": 19
+    "articlesWithStyleFlags": 20
   },
   "flagged": [
     {
@@ -62,6 +62,29 @@
       "flags": [
         "stock-phrase:statement-of-intent",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-07-25-bnei-yehuda-ze-flores",
+      "slug": "bnei-yehuda-sign-brazilian-winger-ze-flores",
+      "title": "Bnei Yehuda sign Brazilian winger Zé Flores from Sheriff Tiraspol",
+      "kind": "news",
+      "words": 248,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 24,
+        "longest": 52,
+        "average": 41.3
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 71,
+        "average": 27.6
+      },
+      "lexicalDiversity": 0.641,
+      "publisherAttributions": 1,
+      "flags": [
+        "below-editorial-target:248/280"
       ]
     },
     {
@@ -480,6 +503,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260725-israel-u16-girls-water-polo-south-africa",
+      "slug": "israel-u16-girls-water-polo-open-worlds-win-south-africa",
+      "title": "Israel's under-16 girls open water polo world championship with big win over South Africa",
+      "kind": "article",
+      "words": 312,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 16,
+        "longest": 43,
+        "average": 31.2
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 154,
+        "average": 39
+      },
+      "lexicalDiversity": 0.628,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260725-khalaili-assist-union-lille",
+      "slug": "khalaili-assist-union-saint-gilloise-lille-friendly",
+      "title": "Khalaili back in action with an assist as Union Saint-Gilloise edge Lille",
+      "kind": "article",
+      "words": 388,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 45,
+        "longest": 64,
+        "average": 55.4
+      },
+      "sentenceWords": {
+        "shortest": 18,
+        "longest": 48,
+        "average": 32.3
+      },
+      "lexicalDiversity": 0.572,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-07-25-goni-naor-maccabi-haifa-derby-recall",
       "slug": "goni-naor-recalled-maccabi-haifa-squad-haifa-derby",

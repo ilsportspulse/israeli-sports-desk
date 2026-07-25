@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-25T17:56:00Z",
-    "validUntil": "2026-07-26T05:56:00Z",
+    "checkedAt": "2026-07-25T18:54:22Z",
+    "validUntil": "2026-07-26T06:54:22Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 141,
+        "maxAgeHours": 142,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-07-25-goni-naor-maccabi-haifa-derby-recall",
+        "articleId": "live-20260725-israel-u16-girls-water-polo-south-africa",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 149,
+        "maxAgeHours": 150,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-07-25-carapaz-alpe-dhuez-pogacar-fifth-title",
+        "articleId": "live-2026-07-25-bnei-yehuda-ze-flores",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 159,
+        "maxAgeHours": 160,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-07-25-norris-hungary-pole",
+        "articleId": "live-20260725-khalaili-assist-union-lille",
         "maxAgeHours": 24,
         "requires": []
       }

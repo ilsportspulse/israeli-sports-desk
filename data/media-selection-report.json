@@ -1,13 +1,40 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-07-25-israel-u18-greece-eurobasket",
-      "article": "Israel's U18s edge past Greece in overtime to open EuroBasket campaign",
-      "file": "File:Israel v Serbia at EuroBasket in Prague (52338524317).jpg",
-      "license": "CC BY 2.0"
+      "articleId": "live-2026-07-25-haifa-derby-object-thrown-zuparic",
+      "article": "Object thrown from stands hits Hapoel Haifa's Zuparic in fiery Haifa derby",
+      "file": "File:FC Salzburg gegen HNK Rijeka (CL-Qualifikation 3. Runde 26. Juli 2017) 25.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-20260725-israel-u16-girls-water-polo-south-africa",
+      "article": "Israel's under-16 girls open water polo world championship with big win over South Africa",
+      "file": "File:Kazan 2015 - Water polo - Men - Gold medal match - 042.JPG",
+      "license": "CC0"
+    },
+    {
+      "articleId": "live-20260725-khalaili-assist-union-lille",
+      "article": "Khalaili back in action with an assist as Union Saint-Gilloise edge Lille",
+      "file": "File:Stade Joseph Marien.JPG",
+      "license": "CC BY 4.0"
     }
   ],
   "failures": [
+    {
+      "id": "live-2026-07-25-yarmakov-maccabi-haifa-metalist-sale",
+      "title": "Maccabi Haifa sell goalkeeper Georgi Yarmakov to Metalist Kharkiv",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-20260725-gonen-haifa-derby-halftime-hold",
+      "title": "Yad Gonen, raised at Maccabi Haifa, torments his old club in derby first half",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-2026-07-25-bnei-yehuda-ze-flores",
+      "title": "Bnei Yehuda sign Brazilian winger Zé Flores from Sheriff Tiraspol",
+      "error": "image download 429 after retries"
+    },
     {
       "id": "live-2026-07-25-tveria-sakhnin-live-update-held",
       "title": "Ironi Tveria host Bnei Sakhnin, still goalless early on",
