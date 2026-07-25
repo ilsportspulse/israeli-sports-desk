@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T01:21:22.685Z",
+  "generatedAt": "2026-07-25T04:40:49.488Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 312,
+    "publishedArticles": 314,
     "wordCount": {
       "minimum": 237,
       "maximum": 1070,
-      "median": 465.5,
-      "average": 478.7
+      "median": 464.5,
+      "average": 478.2
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 8,
       "7": 58,
-      "8": 81,
+      "8": 82,
       "9": 78,
-      "10": 60,
+      "10": 61,
       "11": 15,
       "12": 2,
       "13": 3,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.26,
+    "dominantParagraphShare": 0.261,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 8,
     "analysisBelowTarget": 4,
@@ -433,6 +433,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-25-trump-lebron-racist-jordan",
+      "slug": "trump-lebron-james-racist-michael-jordan",
+      "title": "Trump calls LeBron James 'maybe a racist' as he prefers Michael Jordan",
+      "kind": "news",
+      "words": 411,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 68,
+        "average": 41.1
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 66,
+        "average": 31.6
+      },
+      "lexicalDiversity": 0.589,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-25-lonnie-walker-real-madrid-report",
+      "slug": "lonnie-walker-close-to-real-madrid-spanish-reports",
+      "title": "Spanish reports: Lonnie Walker closing in on Real Madrid move after single Maccabi season",
+      "kind": "news",
+      "words": 384,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 29,
+        "longest": 72,
+        "average": 48
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 42,
+        "average": 24
+      },
+      "lexicalDiversity": 0.583,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260725-pogacar-alpe-dhuez-record",
       "slug": "pogacar-shatters-alpe-dhuez-record-tour-de-france",

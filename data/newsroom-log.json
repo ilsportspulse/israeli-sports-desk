@@ -1,5 +1,70 @@
 [
   {
+    "ts": "2026-07-25T04:35:13.597Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 8,
+    "published": 2,
+    "review": 1,
+    "skipped": 5,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "messi-brazilian-roots-genealogy-study",
+        "title": "Study claims Messi has Brazilian roots through great-great-grandfather",
+        "confidence": 0.78,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "This is a private historian's genealogical claim relayed by Brazilian and Israeli media, not an official record, and Messi's family has not commented."
+      },
+      {
+        "slug": "lonnie-walker-close-to-real-madrid-spanish-reports",
+        "title": "Spanish reports: Lonnie Walker closing in on Real Madrid move after single Maccabi season",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "trump-lebron-james-racist-michael-jordan",
+        "title": "Trump calls LeBron James 'maybe a racist' as he prefers Michael Jordan",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "orian-goren-sport-praise-barcelona-debut-duplicate",
+        "title": "Spanish press praise Goren for his Barcelona debut cameo",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "kings-kangwa-panathinaikos-transfer",
+        "title": "Kings Kangwa completes big-money move from Beer Sheva to Panathinaikos",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "real-madrid-100m-bid-yan-diomande-leipzig",
+        "title": "Real Madrid table €100m bid for RB Leipzig winger Yan Diomande",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "dolev-haziza-signs-maccabi-netanya",
+        "title": "Dolev Haziza signs two-year deal with Maccabi Netanya after leaving Haifa",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "lonnie-walker-real-madrid-interest-maccabi-tel-aviv",
+        "title": "Real Madrid reportedly reopen pursuit of Maccabi Tel Aviv guard Lonnie Walker",
+        "decision": "duplicate"
+      }
+    ]
+  },
+  {
     "ts": "2026-07-25T01:17:15.423Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -3049,30 +3114,6 @@
         "gate": "hold",
         "decision": "review",
         "reason": "Core match facts (fixture, dates, venue, 12-year gap, fan-travel numbers, Toto Cup result) are corroborated across at least two independent outlets. The direct player quotes about nerves/focus and the specific injury list (Kurin, Benyamini) come only from the source article and could not be independently corroborated within the research budget; transliteration of 'Roy Kurin' is uncertain (one soccerway record spells it 'Korine')."
-      }
-    ]
-  },
-  {
-    "ts": "2026-07-21T06:57:22.159Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 1,
-    "published": 0,
-    "review": 1,
-    "skipped": 0,
-    "gates": {
-      "confidenceMin": 0.92,
-      "namecheckMin": 0.9,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "hapoel-beer-sheva-vikingur-reykjavik-champions-league-kangwa",
-        "title": "Kangwa set to start as champions Beer Sheva open Champions League bid in Reykjavik",
-        "confidence": 0.87,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "The source article described Kangwa's expected defensive-line role and pairing in a way that could not be independently verified; two independent registries (Wikipedia, match-preview lineups) confirm him as a midfielder, so the article describes his role that way rather than repeating an unverifiable back-line pairing. The coach's name transliteration (Kozuch/Kuziak) also varies between the Hebrew source and English coverage and could not be pinned down with full certainty."
       }
     ]
   }

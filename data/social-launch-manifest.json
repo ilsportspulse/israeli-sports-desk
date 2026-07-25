@@ -146,49 +146,49 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-25T01:21:21Z",
-    "validUntil": "2026-07-25T13:21:21Z",
+    "checkedAt": "2026-07-25T04:40:48Z",
+    "validUntil": "2026-07-25T16:40:48Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 124,
+        "maxAgeHours": 128,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260725-pogacar-alpe-dhuez-record",
+        "articleId": "live-2026-07-25-trump-lebron-racist-jordan",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 132,
+        "maxAgeHours": 135,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "archive-20260725-ramat-gan-3-june-1964-the-asian-cup-that",
+        "articleId": "live-2026-07-25-lonnie-walker-real-madrid-report",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 142,
+        "maxAgeHours": 146,
         "requires": [
           "column"
         ]
       },
       {
         "role": "archive",
-        "articleId": "archive-20260724-athens-25-august-2004-the-race-that-gave",
+        "articleId": "archive-20260725-ramat-gan-3-june-1964-the-asian-cup-that",
         "maxAgeHours": 53,
         "requires": [
           "historical-feature"
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-07-24-nwaiwu-sakhnin-fulham",
+        "articleId": "live-20260725-pogacar-alpe-dhuez-record",
         "maxAgeHours": 24,
         "requires": []
       }
