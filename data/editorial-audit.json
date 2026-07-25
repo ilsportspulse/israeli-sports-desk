@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T20:12:00.073Z",
+  "generatedAt": "2026-07-25T21:17:17.542Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,30 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 517,
-    "publishedBefore": 349,
-    "cleanPublished": 349,
+    "totalArticles": 521,
+    "publishedBefore": 352,
+    "cleanPublished": 352,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 349,
-    "reviewAfter": 168
+    "publishedAfter": 352,
+    "reviewAfter": 169
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-2026-07-25-tiberias-sakhnin-toto-comeback",
+      "slug": "ironi-tiberias-comeback-sakhnin-toto-cup",
+      "title": "Ironi Tiberias fight back to beat Sakhnin in Toto Cup opener amid scandal turmoil",
+      "statusBefore": "published",
+      "words": 425,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-07-25-abuhatzira-netanya-toto-cup-teen-goal",
       "slug": "yarin-abuhatzira-teen-scores-maccabi-netanya-toto-cup",
@@ -4365,6 +4379,44 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-20260725-belic-foot-fracture-maccabi",
+      "slug": "maccabi-tel-aviv-belic-foot-fracture-three-months",
+      "title": "Maccabi Tel Aviv fear three-month absence for Belić after foot fracture",
+      "statusBefore": "published",
+      "words": 341,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-07-25-abuhatzira-maccabi-netanya-toto-cup",
+      "slug": "abuhatzira-youngest-scorer-maccabi-netanya-toto-cup",
+      "title": "Maccabi Netanya's 16-year-old Abuhatzira becomes youngest scorer in Toto Cup history",
+      "statusBefore": "published",
+      "words": 377,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-07-25-tiberias-sakhnin-toto-comeback",
+      "slug": "ironi-tiberias-comeback-sakhnin-toto-cup",
+      "title": "Ironi Tiberias fight back to beat Sakhnin in Toto Cup opener amid scandal turmoil",
+      "statusBefore": "published",
+      "words": 425,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260725-maccabi-tel-aviv-walker-replacements",
       "slug": "maccabi-tel-aviv-eye-young-milton-replace-walker",
