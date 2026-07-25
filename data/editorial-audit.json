@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T16:57:20.540Z",
+  "generatedAt": "2026-07-25T17:56:00.906Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 502,
+    "totalArticles": 506,
     "publishedBefore": 344,
     "cleanPublished": 344,
     "blockedPublished": 0,
     "demoted": 0,
     "publishedAfter": 344,
-    "reviewAfter": 158
+    "reviewAfter": 162
   },
   "blockedPublished": [],
   "warnings": [
@@ -124,6 +124,7 @@
       "verificationSources": 3,
       "blockers": [],
       "warnings": [
+        "media:no-action-or-competition-context-detected",
         "voice:publisher-attribution-heavy:2"
       ]
     },

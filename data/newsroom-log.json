@@ -1,5 +1,73 @@
 [
   {
+    "ts": "2026-07-25T17:49:51.535Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 8,
+    "published": 0,
+    "review": 4,
+    "skipped": 4,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "maccabi-haifa-hapoel-haifa-toto-cup-derby-in-progress",
+        "title": "Haifa derby underway in Toto Cup opener, Maccabi Haifa and Hapoel Haifa level early",
+        "confidence": 0,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "match in progress — wait for full time"
+      },
+      {
+        "slug": "hapoel-petah-tikva-maccabi-petah-tikva-toto-cup-derby-held",
+        "title": "Petah Tikva derby: match in progress, report withheld",
+        "confidence": 0,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "match in progress — wait for full time"
+      },
+      {
+        "slug": "netanya-jerusalem-toto-cup-in-progress",
+        "title": "Hapoel Jerusalem lead Maccabi Netanya early in Toto Cup opener — match in progress",
+        "confidence": 0,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "match in progress — wait for full time"
+      },
+      {
+        "slug": "tveria-bnei-sakhnin-live-update-held",
+        "title": "Ironi Tveria host Bnei Sakhnin, still goalless early on",
+        "confidence": 0,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "match in progress — wait for full time"
+      },
+      {
+        "url": "https://www.one.co.il/Article/529035.html",
+        "decision": "skipped",
+        "reason": "no valid article emitted"
+      },
+      {
+        "slug": "ester-sokler-lands-israel-sign-maccabi-tel-aviv",
+        "title": "Ester Sokler set to land in Israel to sign for Maccabi Tel Aviv",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "yermakov-metalist-fee-confirmed",
+        "title": "Sport5 details the final numbers in Yermakov's move from Maccabi Haifa to Metalist",
+        "decision": "duplicate"
+      },
+      {
+        "url": "https://www.sport5.co.il/articles.aspx?FolderID=378&docID=554294",
+        "decision": "skipped",
+        "reason": "no valid article emitted"
+      }
+    ]
+  },
+  {
     "ts": "2026-07-25T16:50:55.636Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -3198,54 +3266,6 @@
         "slug": "ronaldo-likes-post-accusing-fifa-favoring-argentina",
         "title": "Ronaldo Likes Instagram Post Accusing FIFA of Rigging World Cup for Argentina",
         "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-07-21T17:58:44.461Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 4,
-    "published": 2,
-    "review": 2,
-    "skipped": 0,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "bnei-yehuda-marks-12-years-since-nitzan-shirazis-death",
-        "title": "Bnei Yehuda Pause for Nitzan Shirazi, 12 Years After His Death",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "ms-dimona-youth-team-wins-shfela-league-title",
-        "title": "Best Attack, Best Defence: M.S. Dimona's Youth Side Sweeps to a Shfela League Title",
-        "confidence": 0.8,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "No accurately identified, licence-clear Commons photo of this specific youth team, its exact venue, or a verified current M.S. Dimona club photo could be confirmed within the research budget; the story should run without a photo or with a generic Dimona city/stadium file only if independently re-verified."
-      },
-      {
-        "slug": "shuki-nagar-named-professional-director-beer-yaakov",
-        "title": "Shuki Nagar Named Professional Director at Maccabi Amit Be'er Ya'akov",
-        "confidence": 0.8,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Single-source (ONE) for the appointment itself and the supporting quote and staff names; club-side names transliterated from the source only, not independently registry-verified. No accurate, verifiable Wikimedia Commons photo of Shuki Nagar or of Be'er Ya'akov's own football ground could be confirmed within the research budget — an unrelated same-name stadium (Turner Stadium, Be'er Sheva) was ruled out — so no image is included."
-      },
-      {
-        "slug": "argentina-spain-finalissima-rematch-november-qatar",
-        "title": "Argentina and Spain Reportedly Closing In on a November Finalissima Rematch in Qatar",
-        "confidence": 0.6,
         "gate": "pass",
         "decision": "published",
         "reason": ""

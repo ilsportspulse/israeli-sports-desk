@@ -1,5 +1,242 @@
 [
   {
+    "id": "live-2026-07-25-tveria-sakhnin-live-update-held",
+    "slug": "tveria-bnei-sakhnin-live-update-held",
+    "title": "Ironi Tveria host Bnei Sakhnin, still goalless early on",
+    "dek": "The source report is a live, minute-by-minute update from early in the match — not a final result, so this story is being held.",
+    "category": "Israeli Football",
+    "desk": "israel",
+    "kind": "report",
+    "storyForm": "news",
+    "publishedAt": "2026-07-25T17:49:51.535Z",
+    "updatedAt": "2026-07-25T17:49:51.535Z",
+    "readMinutes": 1,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/529004.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE — דקה 16: טבריה - בני סכנין 0:0",
+        "url": "https://www.one.co.il/Article/529004.html"
+      }
+    ],
+    "body": [
+      "ONE's live coverage of the match between Ironi Tiberias and Bnei Sakhnin showed the score still level at 0-0 after 16 minutes of play, according to the outlet's minute-by-minute report.",
+      "Because the source article is an in-progress, minute-by-minute live update rather than a full-time report, this cannot yet be published as a completed match story under our editorial standards.",
+      "A full report will follow once the match has finished and the final score can be confirmed."
+    ],
+    "facts": [
+      "ONE published a live minute-by-minute report on a match between Ironi Tiberias and Bnei Sakhnin.",
+      "The report is timestamped at the 16th minute of play.",
+      "The score at that point was 0-0.",
+      "The source article is explicitly a live in-game update, not a final/full-time report.",
+      "No final result is available from this source at the time of drafting."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 0,
+    "homepageReason": "Held: match was still in progress at the time of the source report; publishing a half-time or in-game score would violate full-time-only editorial policy.",
+    "dedupeKey": "ita-tveria-bnei-sakhnin-2026-07-25",
+    "aiDisclosure": "This draft was compiled by an AI copy desk assistant from a single live source and held pending full-time confirmation.",
+    "nameChecks": [
+      {
+        "hebrew": "עירוני טבריה",
+        "english": "Ironi Tiberias",
+        "verificationUrl": "https://tiberias-fc.co.il/",
+        "confidence": 0.7
+      },
+      {
+        "hebrew": "בני סכנין",
+        "english": "Bnei Sakhnin",
+        "verificationUrl": "https://commons.wikimedia.org/wiki/Category:Bnei_Sakhnin_F.C.",
+        "confidence": 0.9
+      }
+    ],
+    "confidence": 0,
+    "warning": "match in progress — wait for full time",
+    "commonsQuery": "Bnei Sakhnin F.C. OR Ironi Tiberias football match photo",
+    "commonsCandidates": [],
+    "status": "review"
+  },
+  {
+    "id": "live-2026-07-25-netanya-jerusalem-toto-cup-in-progress",
+    "slug": "netanya-jerusalem-toto-cup-in-progress",
+    "title": "Hapoel Jerusalem lead Maccabi Netanya early in Toto Cup opener — match in progress",
+    "dek": "Bassem Zaror's early goal has Hapoel Jerusalem ahead 1-0 inside the first quarter-hour, but the game is still being played and no final result can be reported yet.",
+    "category": "Israeli Football",
+    "desk": "israel",
+    "kind": "report",
+    "storyForm": "news",
+    "publishedAt": "2026-07-25T17:49:51.535Z",
+    "updatedAt": "2026-07-25T17:49:51.535Z",
+    "readMinutes": 1,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/529008.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE (one.co.il) live match page",
+        "url": "https://www.one.co.il/Article/529008.html"
+      }
+    ],
+    "body": [
+      "This story cannot be published: the source is a live, in-progress match update from the 13th minute of a Toto Cup Round 1 fixture between Maccabi Netanya and Hapoel Jerusalem, with Hapoel Jerusalem leading 0:1 (goal by Bassem Zaror in the 10th minute).",
+      "Editorial policy requires full-time confirmation before any match report is published, so this item is held pending the final score."
+    ],
+    "facts": [
+      "Source article is a live update from minute 13 of the match",
+      "Score at the time of the report: Maccabi Netanya 0-1 Hapoel Jerusalem",
+      "Goalscorer reported: Bassem Zaror for Hapoel Jerusalem, in the 10th minute",
+      "Competition: Toto Cup, Round 1, 2026/27 season opener",
+      "The match had not concluded at the time the source article was published"
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 0,
+    "homepageReason": "Held: source reports an in-progress match at minute 13, not a final result; editorial gate requires full-time confirmation before publication.",
+    "dedupeKey": "toto-cup-2026-27-maccabinetanya-hapoeljerusalem-r1",
+    "aiDisclosure": "Draft prepared by an AI copy desk assistant from a single sourced report; held pending full-time confirmation before any publication.",
+    "nameChecks": [
+      {
+        "hebrew": "מכבי נתניה",
+        "english": "Maccabi Netanya",
+        "verificationUrl": "https://www.one.co.il/Article/529008.html",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "הפועל ירושלים",
+        "english": "Hapoel Jerusalem",
+        "verificationUrl": "https://www.one.co.il/Article/529008.html",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "בסאם זרור",
+        "english": "Bassem Zaror",
+        "verificationUrl": "https://www.one.co.il/Article/529008.html",
+        "confidence": 0.6
+      }
+    ],
+    "confidence": 0,
+    "warning": "match in progress — wait for full time",
+    "commonsQuery": "",
+    "commonsCandidates": [],
+    "status": "review"
+  },
+  {
+    "id": "live-2026-07-25-hapoel-pt-maccabi-pt-held",
+    "slug": "hapoel-petah-tikva-maccabi-petah-tikva-toto-cup-derby-held",
+    "title": "Petah Tikva derby: match in progress, report withheld",
+    "dek": "Hapoel Petah Tikva and Maccabi Petah Tikva were level at 0:0 early in their Toto Cup derby, but the game had not finished at the time of writing.",
+    "category": "Israeli Football",
+    "desk": "israel",
+    "kind": "news",
+    "storyForm": "short",
+    "publishedAt": "2026-07-25T17:49:51.535Z",
+    "updatedAt": "2026-07-25T17:49:51.535Z",
+    "readMinutes": 1,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/528998.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE - live match update, minute 13",
+        "url": "https://www.one.co.il/Article/528998.html"
+      }
+    ],
+    "body": [
+      "This article is being held pending the final result.",
+      "The source, ONE, published a live update from the 13th minute of a Toto Cup Round 1 derby between Hapoel Petah Tikva and Maccabi Petah Tikva, with the score at 0:0 at that point in the match.",
+      "Per editorial policy, match reports are published only once a game has finished and the full-time score can be confirmed. A report will follow once the final whistle has been blown and the result verified."
+    ],
+    "facts": [
+      "Source published a live update at the 13th minute of the match",
+      "Score at that point was Hapoel Petah Tikva 0-0 Maccabi Petah Tikva",
+      "Match is a Toto Cup Round 1 fixture, described as the Petah Tikva derby",
+      "The derby was reported to be returning after more than two years",
+      "Maccabi Petah Tikva is newly promoted; Hapoel Petah Tikva is coached by Omer Peretz"
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 0,
+    "homepageReason": "Held: match still in progress at time of source publication; full-time score not yet available.",
+    "dedupeKey": "toto-cup-2026-hapoel-pt-maccabi-pt-r1",
+    "aiDisclosure": "This article was drafted by an AI system from a single reported source and held pending full-time confirmation.",
+    "nameChecks": [
+      {
+        "hebrew": "הפועל פתח תקווה",
+        "english": "Hapoel Petah Tikva",
+        "verificationUrl": "https://www.one.co.il/Article/528998.html",
+        "confidence": 0.6
+      },
+      {
+        "hebrew": "מכבי פתח תקווה",
+        "english": "Maccabi Petah Tikva",
+        "verificationUrl": "https://www.one.co.il/Article/528998.html",
+        "confidence": 0.6
+      }
+    ],
+    "confidence": 0,
+    "warning": "match in progress — wait for full time",
+    "commonsQuery": "",
+    "commonsCandidates": [],
+    "status": "review"
+  },
+  {
+    "id": "live-2026-07-25-maccabi-haifa-hapoel-haifa-toto-cup-held",
+    "slug": "maccabi-haifa-hapoel-haifa-toto-cup-derby-in-progress",
+    "title": "Haifa derby underway in Toto Cup opener, Maccabi Haifa and Hapoel Haifa level early",
+    "dek": "The source report is a live minute-by-minute update from the 13th minute with the score still 0:0 — full-time result not yet available.",
+    "category": "Israeli Football",
+    "desk": "israel",
+    "kind": "report",
+    "storyForm": "news",
+    "publishedAt": "2026-07-25T17:49:51.535Z",
+    "updatedAt": "2026-07-25T17:49:51.535Z",
+    "readMinutes": 1,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/528997.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE (one.co.il) live match page",
+        "url": "https://www.one.co.il/Article/528997.html"
+      }
+    ],
+    "body": [],
+    "facts": [
+      "The source article is a live, minute-by-minute in-progress update, not a full-time report.",
+      "As of the report, Maccabi Haifa and Hapoel Haifa are level 0-0 in the 13th minute.",
+      "The match is Round 1 of the Toto Cup, the opening round of the 2026/27 Israeli football season, described as the first Haifa derby of the season.",
+      "The article notes Maccabi Haifa won the sides' most recent league meeting 2-0, and have won five of the last ten derbies.",
+      "Editorial policy requires waiting for the confirmed full-time score before publishing a match report."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 0,
+    "homepageReason": "Held: match was still in progress (13th minute, 0-0) at time of drafting; not eligible for publication until full-time result is known.",
+    "dedupeKey": "toto-cup-2026-27-r1-maccabihaifa-hapoelhaifa",
+    "aiDisclosure": "Drafted by an AI copy desk assistant from a single Israeli source (ONE); held pending full-time confirmation per editorial policy.",
+    "nameChecks": [
+      {
+        "hebrew": "מכבי חיפה",
+        "english": "Maccabi Haifa",
+        "verificationUrl": "https://www.one.co.il/Article/528997.html",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "הפועל חיפה",
+        "english": "Hapoel Haifa",
+        "verificationUrl": "https://www.one.co.il/Article/528997.html",
+        "confidence": 0.9
+      }
+    ],
+    "confidence": 0,
+    "warning": "match in progress — wait for full time",
+    "commonsQuery": "",
+    "commonsCandidates": [],
+    "status": "review"
+  },
+  {
     "id": "live-2026-07-25-goni-naor-maccabi-haifa-derby-recall",
     "slug": "goni-naor-recalled-maccabi-haifa-squad-haifa-derby",
     "title": "Left out of preseason camp, Goni Naor recalled to Maccabi Haifa squad for Haifa derby",
