@@ -1,56 +1,68 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-07-25-hapoel-katamon-jerusalem-european-win",
-      "article": "Hapoel Katamon Jerusalem seal historic first European win",
-      "file": "File:דרבי.jpg",
+      "articleId": "live-20260725-hapoel-tel-aviv-francisco-market-watch",
+      "article": "Hapoel Tel Aviv keeping tabs on Sylvain Francisco as Villeurbanne's finances unravel",
+      "file": "File:Sylvain Francisco 3 BC Žalgiris EuroLeague 20250117 (1).jpg",
+      "license": "CC BY 4.0"
+    },
+    {
+      "articleId": "live-2026-07-25-israel-u16-water-polo-south-africa",
+      "article": "Israel's under-16 water polo team open the World Championship with a win over South Africa",
+      "file": "File:Melbourne 2007 - Women's Water Polo 1.jpg",
+      "license": "CC BY 2.0"
+    },
+    {
+      "articleId": "live-2026-07-25-xavi-simons-barcelona-exit",
+      "article": "Xavi Simons breaks silence on Barcelona exit: 'They didn't believe in me'",
+      "file": "File:2023-10-04 Fußball, Männer, UEFA Champions League, RB Leipzig - Manchester City FC 1DX 2672 (Xavi Simons).jpg",
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-2026-07-25-lazio-stav-lemkin-bid",
-      "article": "Lazio reportedly preparing offer for Israeli defender Stav Lemkin",
-      "file": "File:De Grolsch Veste Enschede 2019.jpg",
+      "articleId": "live-20260725-lee-kangin-atletico-return-psg-rodri",
+      "article": "Lee Kang-in completes Atlético Madrid return as PSG eye Rodri",
+      "file": "File:FC Salzburg gegen Paris Saint-Germain UEFA Champions League 78 (Lee Kang-in).jpg",
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-2026-07-25-arsenal-vinicius-junior-target",
-      "article": "Arsenal set sights on Real Madrid's Vinícius Júnior for audacious move",
-      "file": "File:Vinicius Jr 2021.jpg",
-      "license": "CC BY 3.0"
-    },
-    {
-      "articleId": "live-2026-07-25-man-city-diomande-transfer-race",
-      "article": "Manchester City join scramble for RB Leipzig's Yan Diomande",
-      "file": "File:Yan Diomande Cote D'Ivoire v Ecuador 14 June 2026-153.jpg",
-      "license": "CC BY-SA 4.0"
-    },
-    {
-      "articleId": "live-2026-07-25-stav-lemkin-lazio-transfer-interest",
-      "article": "Report: Lazio eye Israel defender Stav Lemkin as Twente stay in doubt",
-      "file": "File:Stav Lemkin.jpg",
+      "articleId": "live-2026-07-25-arsenal-vinicius-junior-interest",
+      "article": "Arsenal weigh audacious move for Real Madrid's Vinícius Júnior",
+      "file": "File:Vinicius Junior (2025).jpg",
       "license": "CC0"
+    },
+    {
+      "articleId": "live-2026-07-25-liel-abada-charlotte-substitution-pattern",
+      "article": "Ninety minutes of frustration: the bind trapping Liel Abada in Charlotte",
+      "file": "File:Liel Abada (cropped).jpg",
+      "license": "CC0"
+    },
+    {
+      "articleId": "live-2026-07-25-israel-greece-u18-basketball-half-time-held",
+      "article": "Israel U18 trail Greece at the break in EuroBasket opener",
+      "file": "File:Nokia Arena - Israel vs Montenegro - August 2012.JPG",
+      "license": "CC BY-SA 3.0"
     }
   ],
   "failures": [
     {
-      "id": "live-2026-07-25-arsenal-vinicius-junior-interest",
-      "title": "Arsenal weigh audacious move for Real Madrid's Vinícius Júnior",
+      "id": "live-2026-07-25-kangwa-panathinaikos-move",
+      "title": "Hapoel Beer Sheva confirm Kings Kangwa's move to Panathinaikos",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-2026-07-25-israel-u18-greece-eurobasket",
+      "title": "Israel's U18s edge past Greece in overtime to open EuroBasket campaign",
       "error": "image download 429 after retries"
     },
     {
-      "id": "live-2026-07-25-liel-abada-charlotte-substitution-pattern",
-      "title": "Ninety minutes of frustration: the bind trapping Liel Abada in Charlotte",
-      "error": "image download 429 after retries"
+      "id": "live-2026-07-25-maccabi-haifa-derby-lineup",
+      "title": "Mordechai and Levi handed derby debuts as Glazer captains Maccabi Haifa",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {
       "id": "live-2026-07-25-lebron-james-76ers-decision",
       "title": "LeBron James picks the 76ers in his most 'Decision'-like move since 2010",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
-    },
-    {
-      "id": "live-2026-07-25-israel-greece-u18-basketball-half-time-held",
-      "title": "Israel U18 trail Greece at the break in EuroBasket opener",
-      "error": "image download 429 after retries"
     },
     {
       "id": "live-20260725-pedrao-groin-tear-haifa-derby",

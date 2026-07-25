@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T14:34:19.764Z",
+  "generatedAt": "2026-07-25T16:02:23.075Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 338,
+    "publishedArticles": 341,
     "wordCount": {
       "minimum": 237,
       "maximum": 1070,
-      "median": 461.5,
-      "average": 474.1
+      "median": 461,
+      "average": 473.8
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 9,
       "7": 61,
       "8": 91,
-      "9": 82,
-      "10": 65,
+      "9": 83,
+      "10": 67,
       "11": 18,
       "12": 2,
       "13": 3,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.269,
+    "dominantParagraphShare": 0.267,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 9,
     "analysisBelowTarget": 4,
@@ -480,6 +480,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-25-kangwa-panathinaikos-move",
+      "slug": "hapoel-beer-sheva-kangwa-panathinaikos-transfer",
+      "title": "Hapoel Beer Sheva confirm Kings Kangwa's move to Panathinaikos",
+      "kind": "news",
+      "words": 396,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 48,
+        "average": 39.6
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 44,
+        "average": 30.5
+      },
+      "lexicalDiversity": 0.641,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-25-xavi-simons-barcelona-exit",
+      "slug": "xavi-simons-barcelona-exit-interview",
+      "title": "Xavi Simons breaks silence on Barcelona exit: 'They didn't believe in me'",
+      "kind": "article",
+      "words": 519,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 41,
+        "longest": 65,
+        "average": 51.9
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 133,
+        "average": 39.9
+      },
+      "lexicalDiversity": 0.551,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260725-lee-kangin-atletico-return-psg-rodri",
+      "slug": "lee-kangin-atletico-madrid-return-psg-rodri-interest",
+      "title": "Lee Kang-in completes Atlético Madrid return as PSG eye Rodri",
+      "kind": "news",
+      "words": 399,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 66,
+        "average": 44.3
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 53,
+        "average": 33.3
+      },
+      "lexicalDiversity": 0.612,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-07-25-lazio-stav-lemkin-bid",
       "slug": "lazio-report-bid-stav-lemkin-twente",
