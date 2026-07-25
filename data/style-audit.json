@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T18:54:22.684Z",
+  "generatedAt": "2026-07-25T20:12:00.364Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,18 +11,18 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 347,
+    "publishedArticles": 349,
     "wordCount": {
       "minimum": 237,
       "maximum": 1070,
-      "median": 460,
-      "average": 471.9
+      "median": 459,
+      "average": 471.5
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 10,
-      "7": 62,
-      "8": 92,
+      "7": 63,
+      "8": 93,
       "9": 82,
       "10": 70,
       "11": 19,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.265,
+    "dominantParagraphShare": 0.266,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 10,
     "analysisBelowTarget": 4,
@@ -503,6 +503,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260725-maccabi-tel-aviv-walker-replacements",
+      "slug": "maccabi-tel-aviv-eye-young-milton-replace-walker",
+      "title": "Maccabi Tel Aviv eye Jahmir Young and Shake Milton to replace Lonnie Walker",
+      "kind": "article",
+      "words": 431,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 72,
+        "average": 53.9
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 70,
+        "average": 30.8
+      },
+      "lexicalDiversity": 0.601,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-25-bayern-olise-real-madrid-rebuttal",
+      "slug": "bayern-munich-shut-down-real-madrid-talk-olise",
+      "title": "Bayern Munich shut down Real Madrid talk over Michael Olise",
+      "kind": "news",
+      "words": 373,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 71,
+        "average": 53.3
+      },
+      "sentenceWords": {
+        "shortest": 13,
+        "longest": 78,
+        "average": 31.1
+      },
+      "lexicalDiversity": 0.598,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260725-israel-u16-girls-water-polo-south-africa",
       "slug": "israel-u16-girls-water-polo-open-worlds-win-south-africa",

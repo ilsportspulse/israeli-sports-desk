@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T18:54:22.479Z",
+  "generatedAt": "2026-07-25T20:12:00.073Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,87 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 512,
-    "publishedBefore": 347,
-    "cleanPublished": 347,
+    "totalArticles": 517,
+    "publishedBefore": 349,
+    "cleanPublished": 349,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 347,
-    "reviewAfter": 165
+    "publishedAfter": 349,
+    "reviewAfter": 168
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-2026-07-25-abuhatzira-netanya-toto-cup-teen-goal",
+      "slug": "yarin-abuhatzira-teen-scores-maccabi-netanya-toto-cup",
+      "title": "Netanya open season with 3-1 win over Jerusalem as 15-year-old Abuhatzira scores",
+      "statusBefore": "review",
+      "words": 365,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260725-maccabi-tel-aviv-walker-replacements",
+      "slug": "maccabi-tel-aviv-eye-young-milton-replace-walker",
+      "title": "Maccabi Tel Aviv eye Jahmir Young and Shake Milton to replace Lonnie Walker",
+      "statusBefore": "published",
+      "words": 426,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-07-25-bayern-olise-real-madrid-rebuttal",
+      "slug": "bayern-munich-shut-down-real-madrid-talk-olise",
+      "title": "Bayern Munich shut down Real Madrid talk over Michael Olise",
+      "statusBefore": "published",
+      "words": 373,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-25-blitz-foot-fracture-maccabi",
+      "slug": "christian-blitz-foot-fracture-maccabi-tel-aviv",
+      "title": "Christian Blitz suffers foot fracture, faces lengthy spell out for Maccabi Tel Aviv",
+      "statusBefore": "review",
+      "words": 367,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-20260725-bachar-maccabi-haifa-derby-reaction",
+      "slug": "bachar-maccabi-haifa-derby-reaction-toto-cup",
+      "title": "Bachar vows Maccabi Haifa will sharpen up after Toto Cup derby defeat to Hapoel Haifa",
+      "statusBefore": "review",
+      "words": 390,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-07-25-haifa-derby-object-thrown-zuparic",
       "slug": "haifa-derby-object-thrown-zuparic",
@@ -4294,6 +4365,35 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-20260725-maccabi-tel-aviv-walker-replacements",
+      "slug": "maccabi-tel-aviv-eye-young-milton-replace-walker",
+      "title": "Maccabi Tel Aviv eye Jahmir Young and Shake Milton to replace Lonnie Walker",
+      "statusBefore": "published",
+      "words": 426,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-07-25-bayern-olise-real-madrid-rebuttal",
+      "slug": "bayern-munich-shut-down-real-madrid-talk-olise",
+      "title": "Bayern Munich shut down Real Madrid talk over Michael Olise",
+      "statusBefore": "published",
+      "words": 373,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260725-israel-u16-girls-water-polo-south-africa",
       "slug": "israel-u16-girls-water-polo-open-worlds-win-south-africa",
