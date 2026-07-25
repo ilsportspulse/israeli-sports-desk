@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T04:40:49.176Z",
+  "generatedAt": "2026-07-25T09:13:49.113Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,88 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 457,
-    "publishedBefore": 314,
-    "cleanPublished": 314,
+    "totalArticles": 463,
+    "publishedBefore": 319,
+    "cleanPublished": 319,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 314,
-    "reviewAfter": 143
+    "publishedAfter": 319,
+    "reviewAfter": 144
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-2026-07-25-gloukh-ajax-now-or-never",
+      "slug": "oscar-gloukh-ajax-now-or-never-moment-michel",
+      "title": "\"Now or never\": Gloukh's moment of truth at Ajax",
+      "statusBefore": "published",
+      "words": 415,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-25-roei-zahavi-paulesti-signing",
+      "slug": "roei-zahavi-signs-cs-paulesti-romania",
+      "title": "Israeli defender Roei Zahavi joins Romanian third-tier club Păulești",
+      "statusBefore": "review",
+      "words": 271,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-07-25-diomande-real-madrid-leipzig-bid",
+      "slug": "diomande-real-madrid-leipzig-bid-rejected",
+      "title": "Real Madrid's €100 million bid for Diomande rejected by Leipzig",
+      "statusBefore": "published",
+      "words": 418,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-25-barca-diomande-gordon",
+      "slug": "barcelona-gave-up-diomande-signed-gordon-instead",
+      "title": "How Barcelona walked away from Diomande and signed Gordon instead",
+      "statusBefore": "published",
+      "words": 477,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-25-ziv-arie-petah-tikva-derby",
+      "slug": "ziv-arie-petah-tikva-derby-toto-cup-debut",
+      "title": "Ziv Arie: a Petah Tikva derby is never just another game, even in the Toto Cup",
+      "statusBefore": "published",
+      "words": 328,
+      "paragraphs": 8,
+      "facts": 8,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2",
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
     {
       "id": "live-2026-07-25-trump-lebron-racist-jordan",
       "slug": "trump-lebron-james-racist-michael-jordan",
@@ -3857,6 +3929,76 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-20260725-vozinha-colo-colo",
+      "slug": "vozinha-cape-verde-goalkeeper-colo-colo-chile",
+      "title": "Vozinha, the World Cup's viral goalkeeper, agrees move to Chile's Colo-Colo",
+      "statusBefore": "published",
+      "words": 496,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-07-25-gloukh-ajax-now-or-never",
+      "slug": "oscar-gloukh-ajax-now-or-never-moment-michel",
+      "title": "\"Now or never\": Gloukh's moment of truth at Ajax",
+      "statusBefore": "published",
+      "words": 415,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-25-diomande-real-madrid-leipzig-bid",
+      "slug": "diomande-real-madrid-leipzig-bid-rejected",
+      "title": "Real Madrid's €100 million bid for Diomande rejected by Leipzig",
+      "statusBefore": "published",
+      "words": 418,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-25-barca-diomande-gordon",
+      "slug": "barcelona-gave-up-diomande-signed-gordon-instead",
+      "title": "How Barcelona walked away from Diomande and signed Gordon instead",
+      "statusBefore": "published",
+      "words": 477,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-25-ziv-arie-petah-tikva-derby",
+      "slug": "ziv-arie-petah-tikva-derby-toto-cup-debut",
+      "title": "Ziv Arie: a Petah Tikva derby is never just another game, even in the Toto Cup",
+      "statusBefore": "published",
+      "words": 328,
+      "paragraphs": 8,
+      "facts": 8,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2",
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
     {
       "id": "live-2026-07-25-trump-lebron-racist-jordan",
       "slug": "trump-lebron-james-racist-michael-jordan",

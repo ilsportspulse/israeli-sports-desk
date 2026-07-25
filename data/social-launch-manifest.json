@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-25T04:40:48Z",
-    "validUntil": "2026-07-25T16:40:48Z",
+    "checkedAt": "2026-07-25T09:13:48Z",
+    "validUntil": "2026-07-25T21:13:48Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 128,
+        "maxAgeHours": 132,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-07-25-trump-lebron-racist-jordan",
+        "articleId": "live-20260725-vozinha-colo-colo",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 135,
+        "maxAgeHours": 140,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-07-25-lonnie-walker-real-madrid-report",
+        "articleId": "live-2026-07-25-gloukh-ajax-now-or-never",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 146,
+        "maxAgeHours": 150,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260725-pogacar-alpe-dhuez-record",
+        "articleId": "live-2026-07-25-diomande-real-madrid-leipzig-bid",
         "maxAgeHours": 24,
         "requires": []
       }

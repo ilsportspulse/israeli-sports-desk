@@ -1,5 +1,79 @@
 [
   {
+    "ts": "2026-07-25T09:07:39.473Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 8,
+    "published": 5,
+    "review": 1,
+    "skipped": 2,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "ziv-arie-petah-tikva-derby-toto-cup-debut",
+        "title": "Ziv Arie: a Petah Tikva derby is never just another game, even in the Toto Cup",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "pedrao-groin-tear-rules-out-maccabi-haifa-derby",
+        "title": "Pedrão ruled out of Haifa derby after shock groin tear",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "barcelona-gave-up-diomande-signed-gordon-instead",
+        "title": "How Barcelona walked away from Diomande and signed Gordon instead",
+        "confidence": 0.75,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "diomande-real-madrid-leipzig-bid-rejected",
+        "title": "Real Madrid's €100 million bid for Diomande rejected by Leipzig",
+        "confidence": 0.75,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "roei-zahavi-signs-cs-paulesti-romania",
+        "title": "Israeli defender Roei Zahavi joins Romanian third-tier club Păulești",
+        "confidence": 0.78,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "No reusable, correctly-identified Wikimedia Commons photo of Roei Zahavi, Beitar Haifa or CS Păulești could be verified as a match for this story; image candidates omitted."
+      },
+      {
+        "slug": "oscar-gloukh-ajax-now-or-never-moment-michel",
+        "title": "\"Now or never\": Gloukh's moment of truth at Ajax",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "vozinha-cape-verde-goalkeeper-colo-colo-chile",
+        "title": "Vozinha, the World Cup's viral goalkeeper, agrees move to Chile's Colo-Colo",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "why-philadelphia-is-the-most-lebron-decision",
+        "title": "Why Philadelphia is the most LeBron James decision of all",
+        "decision": "duplicate"
+      }
+    ]
+  },
+  {
     "ts": "2026-07-25T04:35:13.597Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -3090,30 +3164,6 @@
         "gate": "pass",
         "decision": "published",
         "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-07-21T07:26:00.430Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 1,
-    "published": 0,
-    "review": 1,
-    "skipped": 0,
-    "gates": {
-      "confidenceMin": 0.92,
-      "namecheckMin": 0.9,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "hapoel-tel-aviv-hungary-ludogorets-conference-league",
-        "title": "Butterflies and a 12-year wait: Hapoel Tel Aviv lands in Hungary for Europe's return",
-        "confidence": 0.83,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Core match facts (fixture, dates, venue, 12-year gap, fan-travel numbers, Toto Cup result) are corroborated across at least two independent outlets. The direct player quotes about nerves/focus and the specific injury list (Kurin, Benyamini) come only from the source article and could not be independently corroborated within the research budget; transliteration of 'Roy Kurin' is uncertain (one soccerway record spells it 'Korine')."
       }
     ]
   }

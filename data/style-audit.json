@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T04:40:49.488Z",
+  "generatedAt": "2026-07-25T09:13:49.455Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 314,
+    "publishedArticles": 319,
     "wordCount": {
       "minimum": 237,
       "maximum": 1070,
-      "median": 464.5,
-      "average": 478.2
+      "median": 464,
+      "average": 477.3
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 8,
       "7": 58,
-      "8": 82,
-      "9": 78,
-      "10": 61,
+      "8": 84,
+      "9": 80,
+      "10": 62,
       "11": 15,
       "12": 2,
       "13": 3,
@@ -33,13 +33,37 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.261,
+    "dominantParagraphShare": 0.263,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 8,
     "analysisBelowTarget": 4,
-    "articlesWithStyleFlags": 17
+    "articlesWithStyleFlags": 18
   },
   "flagged": [
+    {
+      "id": "live-2026-07-25-ziv-arie-petah-tikva-derby",
+      "slug": "ziv-arie-petah-tikva-derby-toto-cup-debut",
+      "title": "Ziv Arie: a Petah Tikva derby is never just another game, even in the Toto Cup",
+      "kind": "news",
+      "words": 328,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 28,
+        "longest": 54,
+        "average": 41
+      },
+      "sentenceWords": {
+        "shortest": 16,
+        "longest": 97,
+        "average": 32.8
+      },
+      "lexicalDiversity": 0.595,
+      "publisherAttributions": 2,
+      "flags": [
+        "stock-phrase:statement-of-intent",
+        "publisher-attribution-heavy:2"
+      ]
+    },
     {
       "id": "live-20260724-israel-u16-girls-water-polo-worlds-zagreb",
       "slug": "israel-u16-girls-water-polo-open-world-championship-zagreb",
@@ -433,6 +457,90 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260725-vozinha-colo-colo",
+      "slug": "vozinha-cape-verde-goalkeeper-colo-colo-chile",
+      "title": "Vozinha, the World Cup's viral goalkeeper, agrees move to Chile's Colo-Colo",
+      "kind": "article",
+      "words": 495,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 38,
+        "longest": 67,
+        "average": 55
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 57,
+        "average": 33
+      },
+      "lexicalDiversity": 0.56,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-25-gloukh-ajax-now-or-never",
+      "slug": "oscar-gloukh-ajax-now-or-never-moment-michel",
+      "title": "\"Now or never\": Gloukh's moment of truth at Ajax",
+      "kind": "article",
+      "words": 416,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 24,
+        "longest": 56,
+        "average": 41.6
+      },
+      "sentenceWords": {
+        "shortest": 23,
+        "longest": 84,
+        "average": 41.6
+      },
+      "lexicalDiversity": 0.611,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-25-diomande-real-madrid-leipzig-bid",
+      "slug": "diomande-real-madrid-leipzig-bid-rejected",
+      "title": "Real Madrid's €100 million bid for Diomande rejected by Leipzig",
+      "kind": "news",
+      "words": 415,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 73,
+        "average": 51.9
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 47,
+        "average": 27.7
+      },
+      "lexicalDiversity": 0.576,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-25-barca-diomande-gordon",
+      "slug": "barcelona-gave-up-diomande-signed-gordon-instead",
+      "title": "How Barcelona walked away from Diomande and signed Gordon instead",
+      "kind": "article",
+      "words": 475,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 40,
+        "longest": 68,
+        "average": 52.8
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 55,
+        "average": 33.9
+      },
+      "lexicalDiversity": 0.623,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-07-25-trump-lebron-racist-jordan",
       "slug": "trump-lebron-james-racist-michael-jordan",
