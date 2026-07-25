@@ -1,9 +1,11 @@
-import Link from "next/link";
-
 import { BrandLockup } from "@/components/brand";
 import { ArrowIcon, HomeIcon } from "@/components/icons";
+import { LanguageSwitcher } from "@/components/language-switcher";
+import { LocalizedLink as Link } from "@/components/localized-link";
 import { StoryVisual } from "@/components/story-visual";
 import { formatArticleDate } from "@/lib/articles";
+import { translator } from "@/lib/i18n/ui";
+import { defaultLocale, type LocaleCode } from "@/lib/locales";
 import { getArticlePhoto } from "@/lib/media";
 import type { PublicArticleSummary } from "@/lib/types";
 
@@ -12,23 +14,28 @@ type StoryIndexProps = {
   title: string;
   introduction: string;
   articles: PublicArticleSummary[];
+  locale?: LocaleCode;
 };
 
-export function StoryIndex({ eyebrow, title, introduction, articles }: StoryIndexProps) {
+export function StoryIndex({ eyebrow, title, introduction, articles, locale = defaultLocale }: StoryIndexProps) {
+  const tr = translator(locale);
   return (
     <div className="story-index-page">
       <header className="article-header story-index-header">
         <div className="page-width article-nav">
-          <Link href="/" className="brand-lockup" aria-label="Israel Sports Pulse home">
+          <Link href="/" className="brand-lockup" aria-label={`${"Israel Sports Pulse"} — ${tr("nav.home")}`}>
             <BrandLockup />
           </Link>
-          <nav className="story-index-nav" aria-label="Story archive">
-            <Link href="/stories">All stories</Link>
-            <Link href="/archive">Retro</Link>
-            <Link href="/columns">Columns</Link>
-            <Link href="/scores">Match Center</Link>
+          <nav className="story-index-nav" aria-label={tr("aria.storyArchive")}>
+            <Link href="/stories">{tr("nav.allStories")}</Link>
+            <Link href="/archive">{tr("nav.archive")}</Link>
+            <Link href="/columns">{tr("nav.columns")}</Link>
+            <Link href="/scores">{tr("nav.matchCenter")}</Link>
           </nav>
-          <Link href="/" className="article-back"><HomeIcon size={16} /> Back to the desk</Link>
+          <div className="story-index-nav-actions">
+            <LanguageSwitcher label={tr("label.language")} />
+            <Link href="/" className="article-back"><HomeIcon size={16} /> {tr("label.backToDesk")}</Link>
+          </div>
         </div>
       </header>
 
@@ -38,7 +45,7 @@ export function StoryIndex({ eyebrow, title, introduction, articles }: StoryInde
             <span className="eyebrow">{eyebrow}</span>
             <h1>{title}</h1>
             <p>{introduction}</p>
-            <strong>{articles.length} {articles.length === 1 ? "story" : "stories"}</strong>
+            <strong>{articles.length} {articles.length === 1 ? tr("label.story") : tr("label.stories")}</strong>
           </div>
         </section>
 
@@ -49,12 +56,12 @@ export function StoryIndex({ eyebrow, title, introduction, articles }: StoryInde
               <div className="story-index-copy">
                 <div className="story-index-meta">
                   <span>{article.category}</span>
-                  <span>{article.kind === "analysis" ? "Column" : article.kind}</span>
-                  <time dateTime={article.publishedAt}>{formatArticleDate(article.publishedAt, true)}</time>
+                  <span>{article.kind === "analysis" ? tr("label.column") : article.kind}</span>
+                  <time dateTime={article.publishedAt}>{formatArticleDate(article.publishedAt, true, locale)}</time>
                 </div>
                 <h2>{article.title}</h2>
                 <p>{article.dek}</p>
-                <span className="story-index-read">Read story <ArrowIcon size={17} /></span>
+                <span className="story-index-read">{tr("action.readStory")} <ArrowIcon size={17} /></span>
               </div>
             </Link>
           ))}

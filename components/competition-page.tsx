@@ -1,14 +1,17 @@
 import { ArrowIcon, HomeIcon, TableIcon } from "@/components/icons";
+import { LanguageSwitcher } from "@/components/language-switcher";
 import { LocalizedLink as Link } from "@/components/localized-link";
 import { TeamCrest } from "@/components/team-crest";
+import { t, translator } from "@/lib/i18n/ui";
 import type { Competition } from "@/lib/competitions";
+import { defaultLocale, type LocaleCode } from "@/lib/locales";
 import type { ScoreEvent } from "@/lib/sports-data";
 
 type CompetitionLink = { slug: string; name: string; sport: string };
 
-function kickoff(value?: string | null) {
-  if (!value) return "TBC";
-  return new Intl.DateTimeFormat("en-GB", {
+function kickoff(value: string | null | undefined, locale: LocaleCode) {
+  if (!value) return t(locale, "label.tbc");
+  return new Intl.DateTimeFormat(locale === defaultLocale ? "en-GB" : locale, {
     timeZone: "Asia/Jerusalem",
     weekday: "short",
     day: "numeric",
@@ -18,7 +21,7 @@ function kickoff(value?: string | null) {
   }).format(new Date(value));
 }
 
-function MatchRow({ event }: { event: ScoreEvent }) {
+function MatchRow({ event, locale }: { event: ScoreEvent; locale: LocaleCode }) {
   const isLive = event.status === "LIVE";
   const isFt = event.status === "FT";
   const home = event.homeScore ?? null;
@@ -26,7 +29,7 @@ function MatchRow({ event }: { event: ScoreEvent }) {
   const settled = isFt && home !== null && away !== null;
   const homeWin = settled && home > away;
   const awayWin = settled && away > home;
-  const status = isLive ? { cls: "live", text: event.clock || "LIVE" } : isFt ? { cls: "ft", text: event.clock ?? "FT" } : { cls: "up", text: kickoff(event.startTime) };
+  const status = isLive ? { cls: "live", text: event.clock || "LIVE" } : isFt ? { cls: "ft", text: event.clock ?? "FT" } : { cls: "up", text: kickoff(event.startTime, locale) };
 
   return (
     <Link href={event.articleSlug ? `/article/${event.articleSlug}` : "/scores"} className="cmatch-row">
@@ -52,11 +55,14 @@ export function CompetitionPage({
   competition,
   competitions = [],
   activeSlug,
+  locale = defaultLocale,
 }: {
   competition: Competition;
   competitions?: CompetitionLink[];
   activeSlug?: string;
+  locale?: LocaleCode;
 }) {
+  const tr = translator(locale);
   const { name, sport, season, live, upcoming, recent, table, articles } = competition;
   const current = activeSlug ?? competition.slug;
   const matches = [...live, ...upcoming, ...recent].slice(0, 12);
@@ -69,8 +75,11 @@ export function CompetitionPage({
       <header className="comp-hero">
         <div className="page-width">
           <div className="comp-hero-nav">
-            <Link href="/scores" className="comp-crumb">{sport || "Sport"} · Israel</Link>
-            <Link href="/" className="comp-back"><HomeIcon size={16} /> Home</Link>
+            <Link href="/scores" className="comp-crumb">{sport || tr("label.sport")} · {tr("nav.israel")}</Link>
+            <div className="comp-hero-nav-actions">
+              <LanguageSwitcher label={tr("label.language")} />
+              <Link href="/" className="comp-back"><HomeIcon size={16} /> {tr("nav.home")}</Link>
+            </div>
           </div>
           <div className="comp-hero-title">
             <span className="comp-hero-badge">{leagueBadge ? <TeamCrest name={name} logo={leagueBadge} /> : badge}</span>
@@ -80,33 +89,33 @@ export function CompetitionPage({
             </div>
           </div>
           {competitions.length > 1 ? (
-            <nav className="comp-switch" aria-label="Switch competition">
+            <nav className="comp-switch" aria-label={tr("aria.switchCompetition")}>
               {competitions.map((c) => (
                 <Link key={c.slug} href={`/competition/${c.slug}`} className={c.slug === current ? "on" : ""}>{c.name}</Link>
               ))}
             </nav>
           ) : null}
-          <nav className="comp-hero-tabs" aria-label="Competition sections">
-            <a className="on" href="#overview">Overview</a>
-            <a href="#matches">Matches</a>
-            <a href="#standings">Standings</a>
-            <a href="#stats">Stats</a>
+          <nav className="comp-hero-tabs" aria-label={tr("aria.competitionSections")}>
+            <a className="on" href="#overview">{tr("comp.overview")}</a>
+            <a href="#matches">{tr("comp.matches")}</a>
+            <a href="#standings">{tr("comp.standings")}</a>
+            <a href="#stats">{tr("comp.stats")}</a>
           </nav>
         </div>
       </header>
 
       <main className="page-width comp-layout" id="overview">
         <div className="comp-main">
-          <div className="hero-heading" id="matches"><span className="hero-heading-bar" /><h2>Live &amp; upcoming</h2></div>
+          <div className="hero-heading" id="matches"><span className="hero-heading-bar" /><h2>{tr("label.liveUpcoming")}</h2></div>
           {matches.length ? (
-            <div className="card comp-matches">{matches.map((e) => <MatchRow key={e.id} event={e} />)}</div>
+            <div className="card comp-matches">{matches.map((e) => <MatchRow key={e.id} event={e} locale={locale} />)}</div>
           ) : (
-            <div className="card comp-empty"><TableIcon size={22} /><strong>No matches scheduled right now</strong><span>Fixtures appear here as soon as the data feed lists them.</span></div>
+            <div className="card comp-empty"><TableIcon size={22} /><strong>{tr("comp.noMatches")}</strong><span>{tr("comp.noMatchesSub")}</span></div>
           )}
 
           {articles.length ? (
             <>
-              <div className="hero-heading"><span className="hero-heading-bar" /><h2>Latest from this competition</h2></div>
+              <div className="hero-heading"><span className="hero-heading-bar" /><h2>{tr("comp.latestFrom")}</h2></div>
               <div className="card comp-news">
                 {articles.map((a) => (
                   <Link key={a.id} href={`/article/${a.slug}`} className="comp-news-row">
@@ -120,10 +129,10 @@ export function CompetitionPage({
         </div>
 
         <aside className="comp-aside" id="standings">
-          <div className="hero-heading"><span className="hero-heading-bar" /><h2>Standings</h2></div>
+          <div className="hero-heading"><span className="hero-heading-bar" /><h2>{tr("comp.standings")}</h2></div>
           {table.length ? (
             <div className="card comp-table">
-              <div className="ctable-head"><span>#</span><span>Team</span><span>P</span><span>GD</span><span>Pts</span></div>
+              <div className="ctable-head"><span>#</span><span>{tr("comp.team")}</span><span>P</span><span>GD</span><span>Pts</span></div>
               {table.map((row) => (
                 <div key={`${row.position}-${row.team}`} className="ctable-row">
                   <span className="ct-pos">{row.position}</span>
@@ -135,17 +144,17 @@ export function CompetitionPage({
               ))}
             </div>
           ) : (
-            <div className="card comp-empty"><strong>Table not published</strong><span>The standings appear when the licensed feed supplies them.</span></div>
+            <div className="card comp-empty"><strong>{tr("comp.tableUnavailable")}</strong><span>{tr("comp.tableUnavailableSub")}</span></div>
           )}
         </aside>
       </main>
 
       <section className="page-width comp-stats" id="stats">
-        <div className="hero-heading"><span className="hero-heading-bar" /><h2>Season stats</h2></div>
+        <div className="hero-heading"><span className="hero-heading-bar" /><h2>{tr("comp.seasonStats")}</h2></div>
         <div className="comp-stats-grid">
-          <div className="card comp-empty tall"><strong>Top scorers</strong><span>Goal, assist and discipline leaders populate automatically when the licensed stats feed supplies them — never estimated by ILSP.</span></div>
-          <div className="card comp-empty tall"><strong>Assists</strong><span>Awaiting the licensed player-stats feed for this competition.</span></div>
-          <div className="card comp-empty tall"><strong>Records &amp; more</strong><span>Clean sheets, cards and xG will be shown here when available.</span></div>
+          <div className="card comp-empty tall"><strong>{tr("comp.topScorers")}</strong><span>{tr("comp.topScorersSub")}</span></div>
+          <div className="card comp-empty tall"><strong>{tr("comp.assists")}</strong><span>{tr("comp.assistsSub")}</span></div>
+          <div className="card comp-empty tall"><strong>{tr("comp.records")}</strong><span>{tr("comp.recordsSub")}</span></div>
         </div>
       </section>
     </div>

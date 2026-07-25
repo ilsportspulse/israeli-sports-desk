@@ -5,7 +5,7 @@ import { useEffect, useMemo, useState } from "react";
 import { LocalizedLink as Link } from "@/components/localized-link";
 import { LanguageSwitcher } from "@/components/language-switcher";
 import { defaultLocale, type LocaleCode } from "@/lib/locales";
-import { translator, type UiKey } from "@/lib/i18n/ui";
+import { t, translator, type UiKey } from "@/lib/i18n/ui";
 import { BrandLockup, BrandMark } from "@/components/brand";
 import { siteConfig } from "@/config/site";
 import {
@@ -36,7 +36,7 @@ type NewsroomProps = {
   locale?: LocaleCode;
 };
 
-const mainNav: { key: UiKey; href: string; label?: string }[] = [
+const mainNav: { key: UiKey; href: string }[] = [
   { key: "nav.home", href: "/" },
   { key: "nav.israeliSport", href: "/#latest" },
   { key: "nav.internationalSport", href: "/#international" },
@@ -44,12 +44,12 @@ const mainNav: { key: UiKey; href: string; label?: string }[] = [
   { key: "nav.columns", href: "/#columns" },
   { key: "nav.quiz", href: "/#daily-quiz" },
   { key: "nav.about", href: "/about" },
-  { key: "nav.about", href: "/partners", label: "Partners" },
+  { key: "nav.partners", href: "/partners" },
 ];
 
-function formatKickoff(value?: string | null) {
-  if (!value) return "TBC";
-  return new Intl.DateTimeFormat("en-GB", {
+function formatKickoff(value: string | null | undefined, locale: LocaleCode) {
+  if (!value) return t(locale, "label.tbc");
+  return new Intl.DateTimeFormat(locale === defaultLocale ? "en-GB" : locale, {
     timeZone: "Asia/Jerusalem",
     weekday: "short",
     day: "numeric",
@@ -72,7 +72,7 @@ function competitionLabel(event: ScoreEvent): string {
     .trim() || event.sport;
 }
 
-function ScoreStripItem({ event }: { event: ScoreEvent }) {
+function ScoreStripItem({ event, locale }: { event: ScoreEvent; locale: LocaleCode }) {
   const isLive = event.status === "LIVE";
   const isFt = event.status === "FT";
   const home = event.homeScore ?? null;
@@ -80,7 +80,7 @@ function ScoreStripItem({ event }: { event: ScoreEvent }) {
   const settled = isFt && home !== null && away !== null;
   const homeWon = settled && home !== null && away !== null && home > away;
   const awayWon = settled && home !== null && away !== null && away > home;
-  const statusText = isLive ? `LIVE${event.clock ? ` · ${event.clock}` : ""}` : isFt ? "FT" : formatKickoff(event.startTime);
+  const statusText = isLive ? `LIVE${event.clock ? ` · ${event.clock}` : ""}` : isFt ? "FT" : formatKickoff(event.startTime, locale);
   const statusClass = isLive ? "live" : isFt ? "ft" : "up";
   const icon = SPORT_ICON[(event.sport || "").toLowerCase()] ?? "•";
   return (
@@ -103,11 +103,11 @@ function ScoreStripItem({ event }: { event: ScoreEvent }) {
   );
 }
 
-function ArticleMeta({ article, inverse = false }: { article: PublicArticleSummary; inverse?: boolean }) {
+function ArticleMeta({ article, inverse = false, locale }: { article: PublicArticleSummary; inverse?: boolean; locale: LocaleCode }) {
   const materiallyUpdated = Boolean(article.featured && article.updatedAt && article.updatedAt !== article.publishedAt);
   return (
     <div className={`article-meta${inverse ? " inverse" : ""}`}>
-      <span>{materiallyUpdated ? "Updated " : ""}{formatArticleDate(materiallyUpdated ? article.updatedAt! : article.publishedAt, true)}</span>
+      <span>{materiallyUpdated ? `${t(locale, "label.updated")} ` : ""}{formatArticleDate(materiallyUpdated ? article.updatedAt! : article.publishedAt, true, locale)}</span>
     </div>
   );
 }
@@ -301,7 +301,7 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
         <div className="score-strip" aria-label={tr("label.liveScores")}>
           <div className="page-width score-strip-inner">
             <span className="sb-label"><span className="status-dot" />{tr("label.liveUpcoming")}</span>
-            {railGroups.flatMap((group) => group.events).map((event) => <ScoreStripItem key={event.id} event={event} />)}
+            {railGroups.flatMap((group) => group.events).map((event) => <ScoreStripItem key={event.id} event={event} locale={locale} />)}
             <Link href="/scores" className="sb-more">{tr("nav.scores")} <ArrowIcon size={13} /></Link>
           </div>
         </div>
@@ -310,19 +310,19 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
         <div className="page-width header-main">
           <button
             className="icon-button mobile-menu-button"
-            aria-label="Open menu"
+            aria-label={tr("action.openMenu")}
             aria-expanded={menuOpen}
             onClick={() => setMenuOpen(true)}
           >
             <MenuIcon />
           </button>
-          <Link href="/" className="brand-lockup" aria-label={`${siteConfig.name} home`}>
+          <Link href="/" className="brand-lockup" aria-label={`${siteConfig.name} — ${tr("nav.home")}`}>
             <BrandLockup />
           </Link>
-          <nav className="desktop-nav" aria-label="Main navigation">
+          <nav className="desktop-nav" aria-label={tr("aria.mainNav")}>
             {mainNav.map((item, index) => (
-              <Link key={item.key} href={item.href} className={index === 0 ? "active" : ""}>
-                {item.label ?? tr(item.key)}
+              <Link key={item.href} href={item.href} className={index === 0 ? "active" : ""}>
+                {tr(item.key)}
               </Link>
             ))}
           </nav>
@@ -342,9 +342,9 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
         <div className="news-ticker">
           <div className="page-width ticker-inner">
             <strong>
-              <BoltIcon size={15} /> Latest
+              <BoltIcon size={15} /> {tr("label.latest")}
             </strong>
-            <div className="ticker-window" role="region" aria-label="Latest headlines">
+            <div className="ticker-window" role="region" aria-label={tr("label.latestHeadlines")}>
               <div className="ticker-track">
               {[...tickerStories, ...tickerStories].map((article, index) => (
                 <Link
@@ -364,17 +364,17 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
 
       {menuOpen ? (
         <div className="mobile-drawer-backdrop" onClick={() => setMenuOpen(false)}>
-          <aside className="mobile-drawer" onClick={(event) => event.stopPropagation()} aria-label="Mobile menu">
+          <aside className="mobile-drawer" onClick={(event) => event.stopPropagation()} aria-label={tr("aria.mobileMenu")}>
             <div className="drawer-heading">
               <BrandMark small />
-              <button className="icon-button" aria-label="Close menu" onClick={() => setMenuOpen(false)}>
+              <button className="icon-button" aria-label={tr("action.closeMenu")} onClick={() => setMenuOpen(false)}>
                 <CloseIcon />
               </button>
             </div>
             <nav>
               {mainNav.map((item) => (
-                <Link key={item.key} href={item.href} onClick={() => setMenuOpen(false)}>
-                  {item.label ?? tr(item.key)} <ArrowIcon size={18} />
+                <Link key={item.href} href={item.href} onClick={() => setMenuOpen(false)}>
+                  {tr(item.key)} <ArrowIcon size={18} />
                 </Link>
               ))}
               <Link href="/scores" onClick={() => setMenuOpen(false)}>
@@ -387,20 +387,20 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
       ) : null}
 
       {searchOpen ? (
-        <div className="search-layer" role="dialog" aria-modal="true" aria-label="Search stories">
+        <div className="search-layer" role="dialog" aria-modal="true" aria-label={tr("aria.searchDialog")}>
           <div className="search-panel">
             <div className="search-panel-head">
               <div>
-                <span>Search the desk</span>
-                <h2>What are you following?</h2>
+                <span>{tr("search.eyebrow")}</span>
+                <h2>{tr("search.title")}</h2>
               </div>
-              <button className="icon-button" aria-label="Close search" onClick={() => setSearchOpen(false)}>
+              <button className="icon-button" aria-label={tr("action.closeSearch")} onClick={() => setSearchOpen(false)}>
                 <CloseIcon />
               </button>
             </div>
             <label className="search-field">
               <SearchIcon />
-              <input autoFocus value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Team, player or competition…" />
+              <input autoFocus value={query} onChange={(event) => setQuery(event.target.value)} placeholder={tr("search.placeholder")} />
             </label>
             <div className="search-results">
               {(query ? filtered : articles.slice(0, 5)).slice(0, 8).map((article) => (
@@ -431,7 +431,7 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
               <div className="ts-lead-copy">
                 <h1>{featured.title}</h1>
                 <p>{featured.dek}</p>
-                <ArticleMeta article={featured} inverse />
+                <ArticleMeta article={featured} inverse locale={locale} />
               </div>
             </Link>
             <div className="ts-cards">
@@ -446,7 +446,7 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
           </div>
         </section>
 
-        <section className="page-width desk-tabs-row" aria-label="Choose desk">
+        <section className="page-width desk-tabs-row" aria-label={tr("aria.chooseDesk")}>
           <div className="desk-tabs" role="tablist">
             <button
               role="tab"
@@ -454,7 +454,7 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
               className={activeDesk === "israeli" ? "active" : ""}
               onClick={() => { setActiveDesk("israeli"); setActiveCategory("All"); }}
             >
-              Israeli sport
+              {tr("tab.israeliSport")}
             </button>
             <button
               role="tab"
@@ -462,13 +462,13 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
               className={activeDesk === "international" ? "active" : ""}
               onClick={() => { setActiveDesk("international"); setActiveCategory("All"); }}
             >
-              International
+              {tr("nav.international")}
             </button>
           </div>
         </section>
 
         {activeDesk === "israeli" ? (
-        <section className="page-width filter-row" aria-label="Filter stories">
+        <section className="page-width filter-row" aria-label={tr("aria.filterStories")}>
           <div className="filter-scroll">
             {categories.map((category) => (
               <button
@@ -487,12 +487,12 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
           <div>
             <div className="section-heading">
               <div>
-                <span className="eyebrow">The latest</span>
-                <h2>{activeDesk === "international" ? "The world\u2019s biggest games" : activeCategory === "All" ? "Across Israeli sport" : activeCategory}</h2>
+                <span className="eyebrow">{tr("section.theLatest")}</span>
+                <h2>{activeDesk === "international" ? tr("section.biggestGames") : activeCategory === "All" ? tr("section.acrossIsraeliSport") : activeCategory}</h2>
               </div>
               <div className="section-heading-actions">
-                <span className="section-count">{latestStories.length} stories</span>
-                <Link href="/stories" className="section-index-link">Browse every story <ArrowIcon size={16} /></Link>
+                <span className="section-count">{latestStories.length} {tr("label.stories")}</span>
+                <Link href="/stories" className="section-index-link">{tr("action.browseEvery")} <ArrowIcon size={16} /></Link>
               </div>
             </div>
             <div className="latest-list">
@@ -506,11 +506,11 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
                         <span className={`kind-badge kind-${article.kind}`}>
                           {article.category}
                         </span>
-                        <span>{article.kind === "analysis" ? "Column" : article.kind}</span>
+                        <span>{article.kind === "analysis" ? tr("label.column") : article.kind}</span>
                       </div>
                       <h3>{article.title}</h3>
                       <p>{article.dek}</p>
-                      <ArticleMeta article={article} />
+                      <ArticleMeta article={article} locale={locale} />
                     </div>
                     <ArrowIcon className="latest-arrow" />
                   </Link>
@@ -521,8 +521,8 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
             <div className="trending-card">
               <div className="section-heading compact">
                 <div>
-                  <span className="eyebrow">Now</span>
-                  <h2>Most followed</h2>
+                  <span className="eyebrow">{tr("label.now")}</span>
+                  <h2>{tr("section.mostFollowed")}</h2>
                 </div>
               </div>
               <ol>
@@ -531,7 +531,7 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
                     <span>{String(index + 1).padStart(2, "0")}</span>
                     <Link href={`/article/${article.slug}`}>
                       <strong>{article.title}</strong>
-                      <small>{article.category} · {article.featured && article.updatedAt && article.updatedAt !== article.publishedAt ? "Updated " : ""}{formatArticleDate(article.featured && article.updatedAt ? article.updatedAt : article.publishedAt, true)}</small>
+                      <small>{article.category} · {article.featured && article.updatedAt && article.updatedAt !== article.publishedAt ? `${tr("label.updated")} ` : ""}{formatArticleDate(article.featured && article.updatedAt ? article.updatedAt : article.publishedAt, true, locale)}</small>
                     </Link>
                   </li>
                 ))}
@@ -546,7 +546,7 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
               <div className="ts-head">
                 <span className="hero-heading-bar" />
                 <h2>{tr("nav.archive")}</h2>
-                <Link href="/archive" className="ts-more">All {tr("nav.archive")} <ArrowIcon size={15} /></Link>
+                <Link href="/archive" className="ts-more">{tr("section.allArchive")} <ArrowIcon size={15} /></Link>
               </div>
               <Link href={`/article/${archiveFeature.slug}`} className="ts-lead">
                 <div className="ts-lead-img">
@@ -574,11 +574,11 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
         ) : null}
 
         {international.length ? (
-          <section className="topstories-block intl-block light-block" id="international" aria-label={`${tr("nav.international")} corner`}>
+          <section className="topstories-block intl-block light-block" id="international" aria-label={tr("section.intlCorner")}>
             <div className="page-width">
               <div className="ts-head">
                 <span className="hero-heading-bar" />
-                <h2>{tr("nav.international")} corner</h2>
+                <h2>{tr("section.intlCorner")}</h2>
                 <Link href="/stories" className="ts-more">{tr("nav.allStories")} <ArrowIcon size={15} /></Link>
               </div>
               <Link href={`/article/${international[0].slug}`} className="ts-lead">
@@ -589,7 +589,7 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
                 <div className="ts-lead-copy">
                   <h1>{international[0].title}</h1>
                   <p>{international[0].dek}</p>
-                  <ArticleMeta article={international[0]} inverse />
+                  <ArticleMeta article={international[0]} inverse locale={locale} />
                 </div>
               </Link>
               {international.length > 1 ? (
@@ -608,11 +608,11 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
         ) : null}
 
         {international.length > 5 ? (
-          <section className="page-width intl-latest-section" aria-label="More international">
+          <section className="page-width intl-latest-section" aria-label={tr("aria.moreInternational")}>
             <div className="section-heading">
               <div>
                 <span className="eyebrow">{tr("nav.international")}</span>
-                <h2>More from around the world</h2>
+                <h2>{tr("section.moreWorld")}</h2>
               </div>
               <Link href="/stories" className="section-index-link">{tr("nav.allStories")} <ArrowIcon size={16} /></Link>
             </div>
@@ -623,11 +623,11 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
                   <div className="latest-story-copy">
                     <div className="latest-story-topline">
                       <span className={`kind-badge kind-${article.kind}`}>{article.category}</span>
-                      <span>{article.kind === "analysis" ? "Column" : article.kind}</span>
+                      <span>{article.kind === "analysis" ? tr("label.column") : article.kind}</span>
                     </div>
                     <h3>{article.title}</h3>
                     <p>{article.dek}</p>
-                    <ArticleMeta article={article} />
+                    <ArticleMeta article={article} locale={locale} />
                   </div>
                   <ArrowIcon className="latest-arrow" />
                 </Link>
@@ -642,29 +642,29 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
               <div>
                 <span className="ai-orb"><BoltIcon /></span>
                 <div>
-                  <span className="eyebrow inverse">ILSP Columns</span>
-                  <h2>Arguments worth having</h2>
+                  <span className="eyebrow inverse">{tr("section.ilspColumns")}</span>
+                  <h2>{tr("columns.heading")}</h2>
                 </div>
               </div>
-              <p>Tactical context, sharp arguments and the Israeli angle behind the day’s biggest decisions.</p>
+              <p>{tr("columns.blurb")}</p>
             </div>
             <div className="ai-grid">
               {analysisStories.slice(0, 3).map((article) => (
                 <Link key={article.id} href={`/article/${article.slug}`} className="ai-story">
                   <div className="ai-story-img">
                     <StoryVisual theme={article.theme} label={article.category} image={getArticlePhoto(article)} />
-                    <span className="ai-story-tag">Column</span>
+                    <span className="ai-story-tag">{tr("label.column")}</span>
                   </div>
                   <div className="ai-story-body">
                     <span className="ai-label">{article.category}</span>
                     <h3>{article.title}</h3>
                     <p>{article.dek}</p>
-                    <span className="ai-read">Read column <ArrowIcon size={17} /></span>
+                    <span className="ai-read">{tr("action.readColumn")} <ArrowIcon size={17} /></span>
                   </div>
                 </Link>
               ))}
             </div>
-            <Link href="/columns" className="ai-all-link">View every ILSP column <ArrowIcon size={17} /></Link>
+            <Link href="/columns" className="ai-all-link">{tr("action.viewAllColumns")} <ArrowIcon size={17} /></Link>
           </div>
         </section>
 
@@ -675,14 +675,14 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
 
         <section className="page-width newsletter-section">
           <div>
-            <span className="eyebrow">The morning read</span>
-            <h2>Israeli sport, translated into context.</h2>
-            <p>A crisp English briefing with the scores, decisive moments and what happens next.</p>
+            <span className="eyebrow">{tr("newsletter.eyebrow")}</span>
+            <h2>{tr("newsletter.title")}</h2>
+            <p>{tr("newsletter.blurb")}</p>
           </div>
           <form onSubmit={(event) => event.preventDefault()}>
-            <label className="sr-only" htmlFor="newsletter-email">Email address</label>
-            <input id="newsletter-email" type="email" placeholder="you@example.com" />
-            <button type="submit">Join the list <ArrowIcon size={17} /></button>
+            <label className="sr-only" htmlFor="newsletter-email">{tr("newsletter.emailLabel")}</label>
+            <input id="newsletter-email" type="email" placeholder={tr("newsletter.placeholder")} />
+            <button type="submit">{tr("newsletter.cta")} <ArrowIcon size={17} /></button>
           </form>
         </section>
       </main>
@@ -696,35 +696,35 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
             <p>{siteConfig.description}</p>
           </div>
           <div>
-            <strong>Coverage</strong>
-            <Link href="/#latest">Israeli football</Link>
-            <Link href="/#latest">Basketball</Link>
-            <Link href="/#international">International</Link>
+            <strong>{tr("footer.coverage")}</strong>
+            <Link href="/#latest">{tr("nav.football")}</Link>
+            <Link href="/#latest">{tr("nav.basketball")}</Link>
+            <Link href="/#international">{tr("nav.international")}</Link>
           </div>
           <div>
-            <strong>Data</strong>
-            <Link href="/scores">Live scores</Link>
-            <Link href="/scores?tab=fixtures">Fixtures</Link>
-            <Link href="/scores?tab=tables">Tables</Link>
+            <strong>{tr("footer.data")}</strong>
+            <Link href="/scores">{tr("label.liveScores")}</Link>
+            <Link href="/scores?tab=fixtures">{tr("label.fixtures")}</Link>
+            <Link href="/scores?tab=tables">{tr("label.tables")}</Link>
           </div>
           <div>
-            <strong>Explore</strong>
-            <Link href="/stories">All stories</Link>
-            <Link href="/archive">From the Archive</Link>
-            <Link href="/columns">Columns</Link>
-            <Link href="/article/gloukh-not-gloch-name-desk">Name desk</Link>
-            <Link href="/about">Why ILSP exists</Link>
+            <strong>{tr("footer.explore")}</strong>
+            <Link href="/stories">{tr("nav.allStories")}</Link>
+            <Link href="/archive">{tr("label.fromArchive")}</Link>
+            <Link href="/columns">{tr("nav.columns")}</Link>
+            <Link href="/article/gloukh-not-gloch-name-desk">{tr("footer.nameDesk")}</Link>
+            <Link href="/about">{tr("footer.whyIlsp")}</Link>
           </div>
         </div>
         <div className="page-width footer-bottom">
           <span>© 2026 {siteConfig.name}.</span>
-          <nav aria-label="Editorial and legal policies">
-            <Link href="/corrections">Corrections</Link>
-            <Link href="/privacy">Privacy</Link>
-            <Link href="/terms">Terms</Link>
-            <Link href="/commercial-independence">Commercial independence</Link>
+          <nav aria-label={tr("aria.legalPolicies")}>
+            <Link href="/corrections">{tr("label.corrections")}</Link>
+            <Link href="/privacy">{tr("footer.privacy")}</Link>
+            <Link href="/terms">{tr("footer.terms")}</Link>
+            <Link href="/commercial-independence">{tr("footer.commercial")}</Link>
           </nav>
-          <span>Israeli sport in English.</span>
+          <span>{tr("footer.tagline")}</span>
         </div>
       </footer>
 

@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 
 import {
@@ -23,9 +23,23 @@ function rememberLocale(locale: LocaleCode) {
 
 export function LanguageSwitcher({ label = "Language" }: { label?: string }) {
   const pathname = usePathname() || "/";
+  const router = useRouter();
   const current = localeFromPathname(pathname);
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
+
+  // Server components read the locale from the URL prefix (via middleware), and the
+  // middleware rewrites /fr -> / so a plain soft navigation reuses the cached English
+  // RSC tree. router.refresh() invalidates that cache and re-renders the route on the
+  // server for the new locale — so the page switches language live, without a manual
+  // reload. We still render a real <a href> for SEO/hreflang and middle-click.
+  function switchTo(code: LocaleCode) {
+    rememberLocale(code);
+    setOpen(false);
+    if (code === current) return;
+    router.push(pathForLocale(pathname, code));
+    router.refresh();
+  }
 
   useEffect(() => {
     if (!open) return;
@@ -59,9 +73,9 @@ export function LanguageSwitcher({ label = "Language" }: { label?: string }) {
                 href={pathForLocale(pathname, locale.code)}
                 hrefLang={locale.code}
                 className={locale.code === current ? "active" : ""}
-                onClick={() => {
-                  rememberLocale(locale.code);
-                  setOpen(false);
+                onClick={(event) => {
+                  event.preventDefault();
+                  switchTo(locale.code);
                 }}
               >
                 <span>{locale.nativeLabel}</span>

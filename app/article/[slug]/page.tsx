@@ -136,7 +136,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: base },
+        { "@type": "ListItem", position: 1, name: tr("nav.home"), item: base },
         { "@type": "ListItem", position: 2, name: article.category, item: `${base}/stories` },
         { "@type": "ListItem", position: 3, name: article.title, item: articleUrl },
       ],
@@ -147,8 +147,8 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
     <div className="article-page">
       {previewing && (
         <div style={{ background: "#b45309", color: "#fff", textAlign: "center", padding: "8px 16px", fontSize: 14, fontWeight: 600, position: "sticky", top: 0, zIndex: 50 }}>
-          Preview — this article is in review and not visible to the public.{" "}
-          <a href={`/admin/articles/${article.id}`} style={{ color: "#fff", textDecoration: "underline" }}>Back to editor</a>
+          {tr("article.previewBanner")}{" "}
+          <a href={`/admin/articles/${article.id}`} style={{ color: "#fff", textDecoration: "underline" }}>{tr("article.backToEditor")}</a>
         </div>
       )}
       <header className="article-header">
@@ -168,7 +168,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
         <article>
           <header className="article-hero">
             <div className="page-width article-hero-inner">
-              <span className="article-category">{article.kind === "analysis" ? "Column · " : ""}{displayCategory}</span>
+              <span className="article-category">{article.kind === "analysis" ? `${tr("label.column")} · ` : ""}{displayCategory}</span>
               {article.matchRecap ? <MatchScoreline recap={article.matchRecap} variant="article" /> : null}
               {article.basketballRecap ? <BasketballScoreline recap={article.basketballRecap} variant="article" /> : null}
               <h1 className={article.matchRecap || article.basketballRecap ? "winner-headline" : undefined} style={article.matchRecap ? getWinnerStyle(article.matchRecap) : article.basketballRecap ? getBasketballWinnerStyle(article.basketballRecap) : undefined}>{displayTitle}</h1>
@@ -176,11 +176,11 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
               <div className="article-source-line">
                 <span>{article.kind === "analysis" ? tr("byline.column") : article.category === "From the Archive" ? tr("byline.historyDesk") : tr("byline.sportsDesk")}</span>
                 <i />
-                <span>{formatArticleDate(article.publishedAt)}</span>
+                <span>{formatArticleDate(article.publishedAt, false, locale)}</span>
                 {article.updatedAt && article.updatedAt !== article.publishedAt ? (
                   <>
                     <i />
-                    <span>{tr("label.updated")} {formatArticleDate(article.updatedAt)}</span>
+                    <span>{tr("label.updated")} {formatArticleDate(article.updatedAt, false, locale)}</span>
                   </>
                 ) : null}
               </div>
@@ -191,9 +191,9 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
             {article.officialSocialPost ? (
               <section className="article-social-feature" aria-label={article.officialSocialPost.title}>
                 <div className="article-social-head">
-                  <span>Official club reveal</span>
+                  <span>{tr("article.officialReveal")}</span>
                   <strong>{article.officialSocialPost.title}</strong>
-                  <small>Published by {article.officialSocialPost.account}</small>
+                  <small>{tr("article.publishedBy")} {article.officialSocialPost.account}</small>
                 </div>
                 <iframe
                   src={article.officialSocialPost.platform === "instagram"
@@ -204,7 +204,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
                   referrerPolicy="strict-origin-when-cross-origin"
                   allowFullScreen
                 />
-                <a href={article.officialSocialPost.url} target="_blank" rel="noreferrer">Open the official launch post <ExternalIcon size={13} /></a>
+                <a href={article.officialSocialPost.url} target="_blank" rel="noreferrer">{tr("article.openLaunchPost")} <ExternalIcon size={13} /></a>
               </section>
             ) : (
               <>
@@ -215,7 +215,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
                 <div className="article-image-credit">
                   <span>{displayImageCaption}</span>
                   <span>
-                    {image.license === "Original editorial artwork" ? "Visual: " : "Photo: "}<a href={image.creditUrl} target="_blank" rel="noreferrer">{image.credit}</a>
+                    {image.license === "Original editorial artwork" ? tr("label.visual") : tr("label.photo")}<a href={image.creditUrl} target="_blank" rel="noreferrer">{image.credit}</a>
                     {" · "}<a href={image.licenseUrl} target="_blank" rel="noreferrer">{image.license}</a>
                   </span>
                 </div>
@@ -241,7 +241,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
                 )}
                 {article.video ? (
                   <section className="article-video">
-                    <div className="article-video-head"><span>Watch the archive</span><strong>{article.video.title}</strong><small>Uploaded by {article.video.channel}</small></div>
+                    <div className="article-video-head"><span>{tr("article.watchArchive")}</span><strong>{article.video.title}</strong><small>{tr("article.uploadedBy")} {article.video.channel}</small></div>
                     <div className="article-video-frame">
                       <iframe
                         src={`https://www.youtube-nocookie.com/embed/${article.video.youtubeId}`}
@@ -252,7 +252,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
                         allowFullScreen
                       />
                     </div>
-                    <a href={article.video.sourceUrl} target="_blank" rel="noreferrer">Open on YouTube <ExternalIcon size={13} /></a>
+                    <a href={article.video.sourceUrl} target="_blank" rel="noreferrer">{tr("article.openYoutube")} <ExternalIcon size={13} /></a>
                   </section>
                 ) : null}
                 {displayBody.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}

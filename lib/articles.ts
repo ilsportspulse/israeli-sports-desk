@@ -1,4 +1,5 @@
 import articlesJson from "@/data/articles.json";
+import { contentTimezone, defaultLocale, getLocaleDefinition, type LocaleCode } from "@/lib/locales";
 import type { Article, PublicArticle, PublicArticleSummary } from "@/lib/types";
 
 const articles = articlesJson as Article[];
@@ -90,9 +91,9 @@ export function getCategories() {
   return Array.from(new Set(articles.map((article) => article.category)));
 }
 
-export function formatArticleDate(value: string, compact = false) {
-  return new Intl.DateTimeFormat("en-GB", {
-    timeZone: "Asia/Jerusalem",
+export function formatArticleDate(value: string, compact = false, locale: LocaleCode = defaultLocale) {
+  return new Intl.DateTimeFormat(getLocaleDefinition(locale).bcp47, {
+    timeZone: contentTimezone,
     day: "numeric",
     month: compact ? "short" : "long",
     year: compact ? undefined : "numeric",
