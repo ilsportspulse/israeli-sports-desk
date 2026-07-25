@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T22:11:08.445Z",
+  "generatedAt": "2026-07-25T23:10:45.539Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,44 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 526,
-    "publishedBefore": 356,
-    "cleanPublished": 356,
+    "totalArticles": 528,
+    "publishedBefore": 357,
+    "cleanPublished": 357,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 356,
-    "reviewAfter": 170
+    "publishedAfter": 357,
+    "reviewAfter": 171
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-20260725-sokler-maccabi-tel-aviv",
+      "slug": "ester-sokler-lands-in-israel-ahead-of-maccabi-tel-aviv-move",
+      "title": "Ester Sokler set to land in Israel ahead of Maccabi Tel Aviv signing",
+      "statusBefore": "published",
+      "words": 404,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:3"
+      ]
+    },
+    {
+      "id": "live-2026-07-25-raphaelov-bachar-maccabi-haifa-project",
+      "slug": "raphaelov-bachar-maccabi-haifa-project-derby-defeat",
+      "title": "Doubts grow over Raphaelov and Bachar's rebuild at Maccabi Haifa after derby defeat",
+      "statusBefore": "review",
+      "words": 432,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:3"
+      ]
+    },
     {
       "id": "live-20260725-ankalaev-guskov-tko",
       "slug": "ankalaev-tko-guskov-ufc-abu-dhabi",
@@ -4449,6 +4477,20 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-20260725-sokler-maccabi-tel-aviv",
+      "slug": "ester-sokler-lands-in-israel-ahead-of-maccabi-tel-aviv-move",
+      "title": "Ester Sokler set to land in Israel ahead of Maccabi Tel Aviv signing",
+      "statusBefore": "published",
+      "words": 404,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:3"
+      ]
+    },
     {
       "id": "live-20260725-ankalaev-guskov-tko",
       "slug": "ankalaev-tko-guskov-ufc-abu-dhabi",

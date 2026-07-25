@@ -1,31 +1,16 @@
 {
-  "selections": [
-    {
-      "articleId": "live-20260725-ankalaev-guskov-tko",
-      "article": "Ankalaev overpowers Guskov with fifth-round TKO in Abu Dhabi return",
-      "file": "File:Magomed Ankalaev at UFC Fight Night 136 in Moscow, Russia.jpg",
-      "license": "CC BY 3.0"
-    },
-    {
-      "articleId": "live-2026-07-25-zamir-netanya-move-disappointment",
-      "article": "Zamir admits disappointment as Netanya move collapsed, pledges commitment to Hapoel Jerusalem",
-      "file": "File:PikiWiki Israel 33575 Netanya Stadium.JPG",
-      "license": "CC BY 2.5"
-    },
-    {
-      "articleId": "live-2026-07-25-barcelona-kroupi-target",
-      "article": "Barcelona turn to Bournemouth's Eli Junior Kroupi as Alvarez pursuit stalls, ONE reports",
-      "file": "File:Eli Junior Kroupi.jpg",
-      "license": "CC BY-SA 4.0"
-    },
-    {
-      "articleId": "live-2026-07-25-juzang-fenerbahce-basketball-talks",
-      "article": "Fenerbahçe closes in on Johnny Juzang as Maccabi Tel Aviv also circled the guard",
-      "file": "File:Johnny Juzang Anton Watson.jpg",
-      "license": "CC BY 2.0"
-    }
-  ],
+  "selections": [],
   "failures": [
+    {
+      "id": "live-20260725-sokler-maccabi-tel-aviv",
+      "title": "Ester Sokler set to land in Israel ahead of Maccabi Tel Aviv signing",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-2026-07-25-raphaelov-bachar-maccabi-haifa-project",
+      "title": "Doubts grow over Raphaelov and Bachar's rebuild at Maccabi Haifa after derby defeat",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
     {
       "id": "live-2026-07-25-hapoel-tel-aviv-eugene-german",
       "title": "Hapoel Tel Aviv closing in on guard Eugene German after Motley's exit",

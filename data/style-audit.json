@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T22:11:08.752Z",
+  "generatedAt": "2026-07-25T23:10:45.749Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,19 +11,19 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 356,
+    "publishedArticles": 357,
     "wordCount": {
       "minimum": 237,
       "maximum": 1070,
-      "median": 455.5,
-      "average": 470.3
+      "median": 455,
+      "average": 470.1
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 10,
       "7": 63,
       "8": 95,
-      "9": 86,
+      "9": 87,
       "10": 71,
       "11": 19,
       "12": 2,
@@ -33,11 +33,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.267,
+    "dominantParagraphShare": 0.266,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 10,
     "analysisBelowTarget": 4,
-    "articlesWithStyleFlags": 21
+    "articlesWithStyleFlags": 22
   },
   "flagged": [
     {
@@ -61,6 +61,29 @@
       "publisherAttributions": 2,
       "flags": [
         "stock-phrase:statement-of-intent",
+        "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260725-sokler-maccabi-tel-aviv",
+      "slug": "ester-sokler-lands-in-israel-ahead-of-maccabi-tel-aviv-move",
+      "title": "Ester Sokler set to land in Israel ahead of Maccabi Tel Aviv signing",
+      "kind": "news",
+      "words": 403,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 40,
+        "longest": 55,
+        "average": 44.8
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 41,
+        "average": 25.2
+      },
+      "lexicalDiversity": 0.598,
+      "publisherAttributions": 2,
+      "flags": [
         "publisher-attribution-heavy:2"
       ]
     },
