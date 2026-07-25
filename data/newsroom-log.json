@@ -1,5 +1,82 @@
 [
   {
+    "ts": "2026-07-25T16:50:55.636Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 8,
+    "published": 4,
+    "review": 3,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "petah-tikva-derby-toto-cup-lineups",
+        "title": "Peretz picks David and Mazal as Hapoel host Maccabi in Petah Tikva derby return",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "ganem-tiberias-attack-abu-abed-sakhnin-defense-toto-cup",
+        "title": "Ganem leads a threadbare Tiberias attack as Sakhnin visit for the Toto Cup opener",
+        "confidence": 0.82,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Tiberias's coach and five players are only provisionally suspended in the ongoing infusions case; no final ruling or conviction has been issued."
+      },
+      {
+        "slug": "yermakov-leaves-maccabi-haifa-for-metalist-kharkiv",
+        "title": "Maccabi Haifa confirm Yermakov's exit as Metalist Kharkiv move nears",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "robi-shapira-haifa-youth-b-gulf-league-title",
+        "title": "Robi Shapira Haifa's youth B side crowned Gulf League champions in a double-title season",
+        "confidence": 0.8,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "below gate thresholds"
+      },
+      {
+        "slug": "norris-pole-hungarian-grand-prix-2026",
+        "title": "World champion Norris snatches Hungarian GP pole from Hamilton by 0.012 seconds",
+        "confidence": 0.9,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "carapaz-wins-alpe-dhuez-pogacar-nears-fifth-tour-title",
+        "title": "Carapaz conquers Alpe d'Huez as Pogačar closes in on record-equalling fifth Tour title",
+        "confidence": 0.9,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "eugene-german-hapoel-tel-aviv-signing",
+        "title": "Eugene German closing in on short-term deal with Hapoel Tel Aviv",
+        "confidence": 0.75,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Deal reported as imminent and exclusive by Sport5 but not yet officially confirmed by Hapoel Tel Aviv; exact contract length not finalized."
+      },
+      {
+        "slug": "goni-naor-recalled-maccabi-haifa-squad-haifa-derby",
+        "title": "Left out of preseason camp, Goni Naor recalled to Maccabi Haifa squad for Haifa derby",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-07-25T15:55:30.368Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -3169,70 +3246,6 @@
         "slug": "argentina-spain-finalissima-rematch-november-qatar",
         "title": "Argentina and Spain Reportedly Closing In on a November Finalissima Rematch in Qatar",
         "confidence": 0.6,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-07-21T16:14:12.613Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 6,
-    "published": 4,
-    "review": 2,
-    "skipped": 0,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "aek-athens-withdraws-kangwa-offer-beersheba-champions-league",
-        "title": "AEK Athens Pull Offer for Beersheba's Kangwa After Club Refuses to Rest Him for Vikingur Tie",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "or-poni-hapoel-hadera-youth-transfer",
-        "title": "Playoff Hero Or Poni Leaves Nahalal Yizrael for Hapoel Hadera's Youth Ranks",
-        "confidence": 0.82,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Single-sourced to ONE's interview with the player; the coaches named (Idan Weitzman, Osher Gal) and Shahar Poni's new role are not independently corroborated beyond that article. No correctly-identified, licensable Wikimedia Commons photo of Poni, Nahalal Yizrael or Hapoel Hadera's youth setup could be verified, so no image is attached."
-      },
-      {
-        "slug": "maccabi-haifa-hapoel-kfar-saba-preseason-friendly-2-0",
-        "title": "Grimberg and Mordechai on target as Maccabi Haifa lead Hapoel Kfar Saba 2-0 in preseason friendly",
-        "confidence": 0.75,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "argentina-spain-world-cup-final-brawl-fifa-investigation",
-        "title": "FIFA opens investigation into Argentina after ugly brawl at World Cup final",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "messi-cryptic-tunnel-speech-fifa-conspiracy-claims",
-        "title": "Messi's cryptic tunnel speech before World Cup final fuels conspiracy claims against FIFA",
-        "confidence": 0.75,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "The FIFA conspiracy allegations (Infantino/UEFA deal, referee bias, foul/card disparity, broadcast bias) rest on a single Argentine journalist's claims as reported by ONE, with no evidence produced and no response yet from FIFA, UEFA, RFEF or AFA — treat as an unverified claim, not an established fact. The match result, awards and referee appointment are independently confirmed."
-      },
-      {
-        "slug": "aek-athens-withdraws-kings-kangwa-offer",
-        "title": "AEK Athens Pulls Out of Kings Kangwa Deal After Beer Sheva Refuse to Rest Him for Vikingur",
-        "confidence": 0.78,
         "gate": "pass",
         "decision": "published",
         "reason": ""

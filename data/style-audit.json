@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T16:02:23.075Z",
+  "generatedAt": "2026-07-25T16:57:20.881Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,21 +11,21 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 341,
+    "publishedArticles": 344,
     "wordCount": {
       "minimum": 237,
       "maximum": 1070,
-      "median": 461,
-      "average": 473.8
+      "median": 460.5,
+      "average": 473.3
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 9,
       "7": 61,
-      "8": 91,
-      "9": 83,
-      "10": 67,
-      "11": 18,
+      "8": 92,
+      "9": 82,
+      "10": 69,
+      "11": 19,
       "12": 2,
       "13": 3,
       "14": 2,
@@ -480,6 +480,90 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-25-goni-naor-maccabi-haifa-derby-recall",
+      "slug": "goni-naor-recalled-maccabi-haifa-squad-haifa-derby",
+      "title": "Left out of preseason camp, Goni Naor recalled to Maccabi Haifa squad for Haifa derby",
+      "kind": "news",
+      "words": 345,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 26,
+        "longest": 59,
+        "average": 43.1
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 53,
+        "average": 28.8
+      },
+      "lexicalDiversity": 0.597,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-25-carapaz-alpe-dhuez-pogacar-fifth-title",
+      "slug": "carapaz-wins-alpe-dhuez-pogacar-nears-fifth-tour-title",
+      "title": "Carapaz conquers Alpe d'Huez as Pogačar closes in on record-equalling fifth Tour title",
+      "kind": "article",
+      "words": 502,
+      "paragraphs": 11,
+      "paragraphWords": {
+        "shortest": 28,
+        "longest": 65,
+        "average": 45.6
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 48,
+        "average": 38.6
+      },
+      "lexicalDiversity": 0.55,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-25-norris-hungary-pole",
+      "slug": "norris-pole-hungarian-grand-prix-2026",
+      "title": "World champion Norris snatches Hungarian GP pole from Hamilton by 0.012 seconds",
+      "kind": "article",
+      "words": 360,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 27,
+        "longest": 48,
+        "average": 36
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 48,
+        "average": 32.7
+      },
+      "lexicalDiversity": 0.622,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-25-yermakov-leaves-haifa-metalist",
+      "slug": "yermakov-leaves-maccabi-haifa-for-metalist-kharkiv",
+      "title": "Maccabi Haifa confirm Yermakov's exit as Metalist Kharkiv move nears",
+      "kind": "news",
+      "words": 426,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 25,
+        "longest": 60,
+        "average": 42.6
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 56,
+        "average": 26.6
+      },
+      "lexicalDiversity": 0.589,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-07-25-kangwa-panathinaikos-move",
       "slug": "hapoel-beer-sheva-kangwa-panathinaikos-transfer",
@@ -1044,27 +1128,6 @@
         "average": 24
       },
       "lexicalDiversity": 0.583,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260725-pogacar-alpe-dhuez-record",
-      "slug": "pogacar-shatters-alpe-dhuez-record-tour-de-france",
-      "title": "Pogačar shatters 30-year-old Alpe d'Huez record at the Tour de France",
-      "kind": "article",
-      "words": 397,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 29,
-        "longest": 64,
-        "average": 44.1
-      },
-      "sentenceWords": {
-        "shortest": 10,
-        "longest": 57,
-        "average": 30.5
-      },
-      "lexicalDiversity": 0.645,
       "publisherAttributions": 0,
       "flags": []
     },

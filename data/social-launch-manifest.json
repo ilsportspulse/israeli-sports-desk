@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-25T16:02:22Z",
-    "validUntil": "2026-07-26T04:02:22Z",
+    "checkedAt": "2026-07-25T16:57:20Z",
+    "validUntil": "2026-07-26T04:57:20Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 139,
+        "maxAgeHours": 140,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-07-25-kangwa-panathinaikos-move",
+        "articleId": "live-2026-07-25-goni-naor-maccabi-haifa-derby-recall",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 147,
+        "maxAgeHours": 148,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-07-25-xavi-simons-barcelona-exit",
+        "articleId": "live-2026-07-25-carapaz-alpe-dhuez-pogacar-fifth-title",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 157,
+        "maxAgeHours": 158,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260725-lee-kangin-atletico-return-psg-rodri",
+        "articleId": "live-2026-07-25-norris-hungary-pole",
         "maxAgeHours": 24,
         "requires": []
       }
