@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T11:09:02.577Z",
+  "generatedAt": "2026-07-26T12:04:53.009Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,19 +11,19 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 373,
+    "publishedArticles": 375,
     "wordCount": {
       "minimum": 232,
       "maximum": 1070,
       "median": 455,
-      "average": 468
+      "average": 467.3
     },
     "paragraphDistribution": {
       "5": 1,
-      "6": 12,
+      "6": 13,
       "7": 63,
       "8": 101,
-      "9": 91,
+      "9": 92,
       "10": 73,
       "11": 21,
       "12": 2,
@@ -33,11 +33,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.271,
+    "dominantParagraphShare": 0.269,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 12,
+    "exactSixParagraphArticles": 13,
     "analysisBelowTarget": 4,
-    "articlesWithStyleFlags": 27
+    "articlesWithStyleFlags": 29
   },
   "flagged": [
     {
@@ -62,6 +62,52 @@
       "flags": [
         "stock-phrase:statement-of-intent",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-07-26-israel-swimmers-european-championships-paris",
+      "slug": "israel-swimmers-european-championships-paris-finals-goal",
+      "title": "Israeli swimmers eye finals as biggest-ever squad heads to European Championships",
+      "kind": "article",
+      "words": 411,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 59,
+        "average": 45.7
+      },
+      "sentenceWords": {
+        "shortest": 16,
+        "longest": 62,
+        "average": 37.4
+      },
+      "lexicalDiversity": 0.601,
+      "publisherAttributions": 2,
+      "flags": [
+        "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260726-mk-kfar-saba-tal-banash-renewal",
+      "slug": "mk-kfar-saba-tal-banash-renewal",
+      "title": "M.K. Kfar Saba tie down ever-present defender Tal Banash for another season",
+      "kind": "news",
+      "words": 274,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 55,
+        "average": 45.7
+      },
+      "sentenceWords": {
+        "shortest": 2,
+        "longest": 53,
+        "average": 30.4
+      },
+      "lexicalDiversity": 0.646,
+      "publisherAttributions": 0,
+      "flags": [
+        "below-editorial-target:274/280"
       ]
     },
     {

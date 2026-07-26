@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T11:09:02.248Z",
+  "generatedAt": "2026-07-26T12:04:52.703Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,73 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 554,
-    "publishedBefore": 373,
-    "cleanPublished": 373,
+    "totalArticles": 559,
+    "publishedBefore": 375,
+    "cleanPublished": 375,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 373,
-    "reviewAfter": 181
+    "publishedAfter": 375,
+    "reviewAfter": 184
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-2026-07-26-israel-swimmers-european-championships-paris",
+      "slug": "israel-swimmers-european-championships-paris-finals-goal",
+      "title": "Israeli swimmers eye finals as biggest-ever squad heads to European Championships",
+      "statusBefore": "published",
+      "words": 412,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-07-26-tiberias-houdda-vidraro-testimony-clash",
+      "slug": "ironi-tiberias-vidraro-contradicts-houdda-infusions-testimony",
+      "title": "Fitness coach Vidraro contradicts Houdda's account in Tiberias infusions affair",
+      "statusBefore": "review",
+      "words": 399,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260726-sherif-kiouf-father-glazer-yermakov",
+      "slug": "sherif-kiouf-father-defends-son-glazer-yermakov",
+      "title": "Sherif Kiouf's father: my son is no worse than Glazer or Yermakov",
+      "statusBefore": "review",
+      "words": 478,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-07-26-haziza-maccabi-netanya-haifa-exit",
+      "slug": "haziza-surprised-maccabi-haifa-exit-signs-netanya",
+      "title": "Haziza surprised by Haifa exit, agent says he expected to finish his career there",
+      "statusBefore": "review",
+      "words": 496,
+      "paragraphs": 11,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:3"
+      ]
+    },
     {
       "id": "live-2026-07-26-chuli-kiryat-ata-tyus-hapoel-haifa",
       "slug": "chuli-signs-kiryat-ata-tyus-hapoel-haifa-talks",
@@ -98,6 +155,20 @@
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260726-baltaksa-full-training-vikingur",
+      "slug": "baltaksa-full-training-vikingur-return-leg",
+      "title": "Baltaksa returns to full training, on track to face Víkingur",
+      "statusBefore": "review",
+      "words": 390,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
     },
@@ -4756,6 +4827,32 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-07-26-israel-swimmers-european-championships-paris",
+      "slug": "israel-swimmers-european-championships-paris-finals-goal",
+      "title": "Israeli swimmers eye finals as biggest-ever squad heads to European Championships",
+      "statusBefore": "published",
+      "words": 412,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260726-mk-kfar-saba-tal-banash-renewal",
+      "slug": "mk-kfar-saba-tal-banash-renewal",
+      "title": "M.K. Kfar Saba tie down ever-present defender Tal Banash for another season",
+      "statusBefore": "published",
+      "words": 272,
+      "paragraphs": 6,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-2026-07-26-lofton-hapoel-jerusalem",
       "slug": "kenny-lofton-jr-hapoel-jerusalem-signing",

@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-26T11:09:01Z",
-    "validUntil": "2026-07-26T23:09:01Z",
+    "checkedAt": "2026-07-26T12:04:52Z",
+    "validUntil": "2026-07-27T00:04:52Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 158,
+        "maxAgeHours": 159,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-07-26-lofton-hapoel-jerusalem",
+        "articleId": "live-2026-07-26-israel-swimmers-european-championships-paris",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 166,
+        "maxAgeHours": 167,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260726-hapoel-jerusalem-lofton-jr",
+        "articleId": "live-20260726-mk-kfar-saba-tal-banash-renewal",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 176,
+        "maxAgeHours": 177,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-07-26-elmishli-galil-elyon-extension",
+        "articleId": "live-2026-07-26-lofton-hapoel-jerusalem",
         "maxAgeHours": 24,
         "requires": []
       }

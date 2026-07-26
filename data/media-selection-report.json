@@ -1,31 +1,40 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-07-26-chuli-kiryat-ata-tyus-hapoel-haifa",
-      "article": "Chuli joins Kiryat Ata as Tyus edges toward a Hapoel Haifa move",
-      "file": "File:Alex Tyus 9 Maccabi Tel Aviv B.C. EuroLeague 20180320.jpg",
+      "articleId": "live-2026-07-26-israel-swimmers-european-championships-paris",
+      "article": "Israeli swimmers eye finals as biggest-ever squad heads to European Championships",
+      "file": "File:Reuven Rivlin gives his blessing to the Israeli Olympic and Paralympic delegations to the 2020 Tokyo Summer Olympics Games, June 2021 (GPODBG 3738).jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "articleId": "live-20260726-mk-kfar-saba-tal-banash-renewal",
+      "article": "M.K. Kfar Saba tie down ever-present defender Tal Banash for another season",
+      "file": "File:Levita Stadium1.jpg",
+      "license": "Public domain"
+    },
+    {
+      "articleId": "live-20260726-baltaksa-full-training-vikingur",
+      "article": "Baltaksa returns to full training, on track to face Víkingur",
+      "file": "File:FC Red Bull Salzburg gegen FK Austria Wien (2023-08-13) 69.jpg",
       "license": "CC BY-SA 4.0"
-    },
-    {
-      "articleId": "live-20260726-pirlo-italy-appointment-frozen",
-      "article": "Pirlo's appointment as Italy coach frozen over Russian betting sponsorship",
-      "file": "File:Andrea Pirlo NYCFC.JPG",
-      "license": "CC BY-SA 4.0"
-    },
-    {
-      "articleId": "live-2026-07-26-lofton-hapoel-jerusalem",
-      "article": "Hapoel Jerusalem land NBA forward Kenny Lofton Jr. after big-money chase",
-      "file": "File:Pais Arena Jerusalem-1 (15633135490).jpg",
-      "license": "CC BY 2.0"
-    },
-    {
-      "articleId": "live-2026-07-26-vinicius-arsenal-real-madrid",
-      "article": "Vinicius Jr wants to stay at Real Madrid despite Arsenal interest",
-      "file": "File:Vinícius Júnior (cropped).jpg",
-      "license": "CC BY-SA 2.0"
     }
   ],
   "failures": [
+    {
+      "id": "live-2026-07-26-tiberias-houdda-vidraro-testimony-clash",
+      "title": "Fitness coach Vidraro contradicts Houdda's account in Tiberias infusions affair",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-20260726-sherif-kiouf-father-glazer-yermakov",
+      "title": "Sherif Kiouf's father: my son is no worse than Glazer or Yermakov",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-2026-07-26-haziza-maccabi-netanya-haifa-exit",
+      "title": "Haziza surprised by Haifa exit, agent says he expected to finish his career there",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
     {
       "id": "live-2026-07-26-sichat-hayom-live-broadcast",
       "title": "ONE invites viewers to join its live daily sports talk show",
@@ -34,11 +43,6 @@
     {
       "id": "live-2026-07-26-basketball-naturalized-player-cooling-off",
       "title": "Clubs demand cooling-off period before naturalized internationals count as Israeli in league",
-      "error": "image download 429 after retries"
-    },
-    {
-      "id": "live-20260726-baltaksa-full-training-vikingur",
-      "title": "Baltaksa returns to full training, on track to face Víkingur",
       "error": "image download 429 after retries"
     },
     {
