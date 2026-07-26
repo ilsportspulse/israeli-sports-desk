@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T09:11:22.200Z",
+  "generatedAt": "2026-07-26T11:09:02.248Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,90 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 548,
-    "publishedBefore": 372,
-    "cleanPublished": 372,
+    "totalArticles": 554,
+    "publishedBefore": 373,
+    "cleanPublished": 373,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 372,
-    "reviewAfter": 176
+    "publishedAfter": 373,
+    "reviewAfter": 181
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-2026-07-26-chuli-kiryat-ata-tyus-hapoel-haifa",
+      "slug": "chuli-signs-kiryat-ata-tyus-hapoel-haifa-talks",
+      "title": "Chuli joins Kiryat Ata as Tyus edges toward a Hapoel Haifa move",
+      "statusBefore": "review",
+      "words": 341,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260726-pirlo-italy-appointment-frozen",
+      "slug": "pirlo-italy-coach-appointment-frozen-russian-betting-ties",
+      "title": "Pirlo's appointment as Italy coach frozen over Russian betting sponsorship",
+      "statusBefore": "review",
+      "words": 505,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-07-26-sichat-hayom-live-broadcast",
+      "slug": "one-sichat-hayom-live-studio-show-invite",
+      "title": "ONE invites viewers to join its live daily sports talk show",
+      "statusBefore": "review",
+      "words": 210,
+      "paragraphs": 5,
+      "facts": 6,
+      "verificationSources": 1,
+      "blockers": [
+        "copy-depth:210/220-words"
+      ],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-07-26-basketball-naturalized-player-cooling-off",
+      "slug": "basketball-naturalized-player-cooling-off",
+      "title": "Clubs demand cooling-off period before naturalized internationals count as Israeli in league",
+      "statusBefore": "review",
+      "words": 481,
+      "paragraphs": 10,
+      "facts": 5,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-07-26-lofton-hapoel-jerusalem",
+      "slug": "kenny-lofton-jr-hapoel-jerusalem-signing",
+      "title": "Hapoel Jerusalem land NBA forward Kenny Lofton Jr. after big-money chase",
+      "statusBefore": "published",
+      "words": 540,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-07-26-salah-besiktas-agent-standoff",
       "slug": "salah-agrees-besiktas-move-agent-standoff",
@@ -96,7 +170,8 @@
       "verificationSources": 3,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -4682,6 +4757,21 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-2026-07-26-lofton-hapoel-jerusalem",
+      "slug": "kenny-lofton-jr-hapoel-jerusalem-signing",
+      "title": "Hapoel Jerusalem land NBA forward Kenny Lofton Jr. after big-money chase",
+      "statusBefore": "published",
+      "words": 540,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-20260726-hapoel-jerusalem-lofton-jr",
       "slug": "hapoel-jerusalem-sign-kenny-lofton-jr",
       "title": "Hapoel Jerusalem sign former NBA forward Kenny Lofton Jr.",
@@ -4747,7 +4837,8 @@
       "verificationSources": 3,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {

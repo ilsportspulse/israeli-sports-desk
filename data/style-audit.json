@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T09:11:22.512Z",
+  "generatedAt": "2026-07-26T11:09:02.577Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 372,
+    "publishedArticles": 373,
     "wordCount": {
       "minimum": 232,
       "maximum": 1070,
       "median": 455,
-      "average": 467.7
+      "average": 468
     },
     "paragraphDistribution": {
       "5": 1,
@@ -24,7 +24,7 @@
       "7": 63,
       "8": 101,
       "9": 91,
-      "10": 72,
+      "10": 73,
       "11": 21,
       "12": 2,
       "13": 3,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.272,
+    "dominantParagraphShare": 0.271,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 12,
     "analysisBelowTarget": 4,
@@ -664,6 +664,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-26-lofton-hapoel-jerusalem",
+      "slug": "kenny-lofton-jr-hapoel-jerusalem-signing",
+      "title": "Hapoel Jerusalem land NBA forward Kenny Lofton Jr. after big-money chase",
+      "kind": "news",
+      "words": 548,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 40,
+        "longest": 76,
+        "average": 54.8
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 55,
+        "average": 27.4
+      },
+      "lexicalDiversity": 0.582,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-20260726-hapoel-jerusalem-lofton-jr",
       "slug": "hapoel-jerusalem-sign-kenny-lofton-jr",
