@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T20:53:04.745Z",
+  "generatedAt": "2026-07-26T21:57:04.874Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,59 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 600,
-    "publishedBefore": 399,
-    "cleanPublished": 399,
+    "totalArticles": 603,
+    "publishedBefore": 401,
+    "cleanPublished": 401,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 399,
-    "reviewAfter": 201
+    "publishedAfter": 401,
+    "reviewAfter": 202
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-20260726-david-moses-basketball-prospect",
+      "slug": "david-moses-israeli-basketball-prodigy-eurobasket-u18",
+      "title": "David Moses, Israeli basketball's next big thing, delivers at Europe's under-18 championship",
+      "statusBefore": "review",
+      "words": 858,
+      "paragraphs": 12,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-26-infantino-leaked-letter-argentina",
+      "slug": "infantino-leaked-letter-praises-argentina-amid-fifa-probe",
+      "title": "Leaked Infantino letter praised Argentina's \"professionalism\" as FIFA probes final brawl",
+      "statusBefore": "published",
+      "words": 518,
+      "paragraphs": 12,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260726-lyles-us-100m-title",
+      "slug": "noah-lyles-wins-third-us-100m-title-979",
+      "title": "Still the fastest: Noah Lyles wins third US 100m title in 9.79 seconds",
+      "statusBefore": "published",
+      "words": 275,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260726-hezonja-cavaliers-pay-cut",
       "slug": "hezonja-pay-cut-cavaliers-nba-return",
@@ -51,6 +94,20 @@
       "paragraphs": 11,
       "facts": 7,
       "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260726-paquito-navarro-padel-shot",
+      "slug": "paquito-navarro-controversial-net-shot-ibiza-exhibition",
+      "title": "Legal or not? Paquito Navarro's net-straddling winner splits the padel world",
+      "statusBefore": "published",
+      "words": 364,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 4,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -5173,6 +5230,34 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-2026-07-26-infantino-leaked-letter-argentina",
+      "slug": "infantino-leaked-letter-praises-argentina-amid-fifa-probe",
+      "title": "Leaked Infantino letter praised Argentina's \"professionalism\" as FIFA probes final brawl",
+      "statusBefore": "published",
+      "words": 518,
+      "paragraphs": 12,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260726-lyles-us-100m-title",
+      "slug": "noah-lyles-wins-third-us-100m-title-979",
+      "title": "Still the fastest: Noah Lyles wins third US 100m title in 9.79 seconds",
+      "statusBefore": "published",
+      "words": 275,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-20260726-hezonja-cavaliers-pay-cut",
       "slug": "hezonja-pay-cut-cavaliers-nba-return",
       "title": "Hezonja gives up a bigger Real Madrid pay day to chase his NBA return with Cleveland",
@@ -5211,7 +5296,9 @@
       "facts": 7,
       "verificationSources": 4,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-20260726-abu-fani-red-star-derby",

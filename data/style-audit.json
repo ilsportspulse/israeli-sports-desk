@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T20:53:05.035Z",
+  "generatedAt": "2026-07-26T21:57:05.228Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,33 +11,33 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 399,
+    "publishedArticles": 401,
     "wordCount": {
       "minimum": 232,
       "maximum": 1070,
       "median": 453,
-      "average": 465
+      "average": 464.7
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 14,
       "7": 68,
-      "8": 106,
+      "8": 107,
       "9": 99,
       "10": 77,
       "11": 22,
-      "12": 2,
+      "12": 3,
       "13": 4,
       "14": 2,
       "16": 1,
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.266,
+    "dominantParagraphShare": 0.267,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 14,
     "analysisBelowTarget": 4,
-    "articlesWithStyleFlags": 32
+    "articlesWithStyleFlags": 33
   },
   "flagged": [
     {
@@ -62,6 +62,29 @@
       "flags": [
         "stock-phrase:statement-of-intent",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260726-lyles-us-100m-title",
+      "slug": "noah-lyles-wins-third-us-100m-title-979",
+      "title": "Still the fastest: Noah Lyles wins third US 100m title in 9.79 seconds",
+      "kind": "article",
+      "words": 279,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 24,
+        "longest": 41,
+        "average": 34.9
+      },
+      "sentenceWords": {
+        "shortest": 13,
+        "longest": 64,
+        "average": 34.9
+      },
+      "lexicalDiversity": 0.62,
+      "publisherAttributions": 0,
+      "flags": [
+        "below-editorial-target:279/280"
       ]
     },
     {
@@ -779,6 +802,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-26-infantino-leaked-letter-argentina",
+      "slug": "infantino-leaked-letter-praises-argentina-amid-fifa-probe",
+      "title": "Leaked Infantino letter praised Argentina's \"professionalism\" as FIFA probes final brawl",
+      "kind": "news",
+      "words": 518,
+      "paragraphs": 12,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 55,
+        "average": 43.2
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 70,
+        "average": 34.5
+      },
+      "lexicalDiversity": 0.61,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260726-hezonja-cavaliers-pay-cut",
       "slug": "hezonja-pay-cut-cavaliers-nba-return",
