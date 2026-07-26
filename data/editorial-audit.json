@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T00:13:31.138Z",
+  "generatedAt": "2026-07-26T03:59:52.320Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,30 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 530,
-    "publishedBefore": 359,
-    "cleanPublished": 359,
+    "totalArticles": 533,
+    "publishedBefore": 361,
+    "cleanPublished": 361,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 359,
-    "reviewAfter": 171
+    "publishedAfter": 361,
+    "reviewAfter": 172
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-20260726-yarin-abuhatzira-contract",
+      "slug": "yarin-abuhatzira-maccabi-netanya-new-contract",
+      "title": "Teenage prodigy Yarin Abuhatzira set to sign new Maccabi Netanya contract this week",
+      "statusBefore": "published",
+      "words": 458,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
     {
       "id": "live-20260726-ze-flores-bnei-yehuda-signing",
       "slug": "ze-flores-signs-for-bnei-yehuda",
@@ -4491,6 +4505,32 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-20260726-yarin-abuhatzira-contract",
+      "slug": "yarin-abuhatzira-maccabi-netanya-new-contract",
+      "title": "Teenage prodigy Yarin Abuhatzira set to sign new Maccabi Netanya contract this week",
+      "statusBefore": "published",
+      "words": 458,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-07-26-shavit-mazal-hapoel-petah-tikva-contract",
+      "slug": "shavit-mazal-hapoel-petah-tikva-new-contract-talks",
+      "title": "Hapoel Petah Tikva and Shavit Mazal advance talks on upgraded contract",
+      "statusBefore": "published",
+      "words": 232,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-20260726-ze-flores-bnei-yehuda-signing",
       "slug": "ze-flores-signs-for-bnei-yehuda",

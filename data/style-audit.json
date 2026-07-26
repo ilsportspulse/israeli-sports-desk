@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T00:13:31.434Z",
+  "generatedAt": "2026-07-26T03:59:52.599Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,19 +11,19 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 359,
+    "publishedArticles": 361,
     "wordCount": {
-      "minimum": 237,
+      "minimum": 232,
       "maximum": 1070,
       "median": 455,
-      "average": 469.4
+      "average": 468.7
     },
     "paragraphDistribution": {
       "5": 1,
-      "6": 10,
+      "6": 11,
       "7": 63,
       "8": 97,
-      "9": 87,
+      "9": 88,
       "10": 71,
       "11": 19,
       "12": 2,
@@ -33,11 +33,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.27,
+    "dominantParagraphShare": 0.269,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 10,
+    "exactSixParagraphArticles": 11,
     "analysisBelowTarget": 4,
-    "articlesWithStyleFlags": 24
+    "articlesWithStyleFlags": 25
   },
   "flagged": [
     {
@@ -62,6 +62,29 @@
       "flags": [
         "stock-phrase:statement-of-intent",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-07-26-shavit-mazal-hapoel-petah-tikva-contract",
+      "slug": "shavit-mazal-hapoel-petah-tikva-new-contract-talks",
+      "title": "Hapoel Petah Tikva and Shavit Mazal advance talks on upgraded contract",
+      "kind": "news",
+      "words": 232,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 23,
+        "longest": 47,
+        "average": 38.7
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 44,
+        "average": 33.1
+      },
+      "lexicalDiversity": 0.681,
+      "publisherAttributions": 0,
+      "flags": [
+        "below-editorial-target:232/280"
       ]
     },
     {
@@ -595,6 +618,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260726-yarin-abuhatzira-contract",
+      "slug": "yarin-abuhatzira-maccabi-netanya-new-contract",
+      "title": "Teenage prodigy Yarin Abuhatzira set to sign new Maccabi Netanya contract this week",
+      "kind": "news",
+      "words": 455,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 38,
+        "longest": 64,
+        "average": 50.6
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 53,
+        "average": 30.3
+      },
+      "lexicalDiversity": 0.576,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260725-ankalaev-guskov-tko",
       "slug": "ankalaev-tko-guskov-ufc-abu-dhabi",

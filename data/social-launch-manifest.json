@@ -146,49 +146,49 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-26T00:13:30Z",
-    "validUntil": "2026-07-26T12:13:30Z",
+    "checkedAt": "2026-07-26T03:59:52Z",
+    "validUntil": "2026-07-26T15:59:52Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 147,
+        "maxAgeHours": 151,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260726-ze-flores-bnei-yehuda-signing",
+        "articleId": "live-20260726-yarin-abuhatzira-contract",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 155,
+        "maxAgeHours": 159,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "archive-20260726-abu-dhabi-28-october-2018-the-night-hati",
+        "articleId": "live-20260726-ze-flores-bnei-yehuda-signing",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 165,
+        "maxAgeHours": 169,
         "requires": [
           "column"
         ]
       },
       {
         "role": "archive",
-        "articleId": "archive-20260725-ramat-gan-3-june-1964-the-asian-cup-that",
+        "articleId": "archive-20260726-abu-dhabi-28-october-2018-the-night-hati",
         "maxAgeHours": 53,
         "requires": [
           "historical-feature"
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260725-sokler-maccabi-tel-aviv",
+        "articleId": "live-20260725-ankalaev-guskov-tko",
         "maxAgeHours": 24,
         "requires": []
       }
