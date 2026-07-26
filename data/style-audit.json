@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T22:57:32.103Z",
+  "generatedAt": "2026-07-26T23:58:29.310Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,29 +11,29 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 403,
+    "publishedArticles": 406,
     "wordCount": {
       "minimum": 232,
       "maximum": 1070,
       "median": 453,
-      "average": 465.8
+      "average": 465.7
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 14,
       "7": 68,
       "8": 107,
-      "9": 99,
-      "10": 78,
+      "9": 100,
+      "10": 79,
       "11": 22,
-      "12": 4,
+      "12": 5,
       "13": 4,
       "14": 2,
       "16": 1,
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.266,
+    "dominantParagraphShare": 0.264,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 14,
     "analysisBelowTarget": 4,
@@ -802,6 +802,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-26-sanchez-vicario-vanished-fortune",
+      "slug": "sanchez-vicario-ex-husband-41-million-fraud-verdict",
+      "title": "Sanchez Vicario says her $41 million fortune vanished under ex-husband's watch",
+      "kind": "article",
+      "words": 440,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 56,
+        "average": 44
+      },
+      "sentenceWords": {
+        "shortest": 15,
+        "longest": 56,
+        "average": 31.4
+      },
+      "lexicalDiversity": 0.548,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-26-olaf-tufte-obituary",
+      "slug": "norway-mourns-olaf-tufte-olympic-rowing-legend-dies-50",
+      "title": "Norway mourns as Olympic rowing great Olaf Tufte dies at 50",
+      "kind": "news",
+      "words": 436,
+      "paragraphs": 12,
+      "paragraphWords": {
+        "shortest": 11,
+        "longest": 49,
+        "average": 36.3
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 73,
+        "average": 24.2
+      },
+      "lexicalDiversity": 0.569,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260726-israel-u18-basketball-world-cup-path",
+      "slug": "israel-u18-basketball-france-win-world-cup-path",
+      "title": "Israel's U18 team crush France to set up a shot at a second straight World Cup",
+      "kind": "article",
+      "words": 461,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 65,
+        "average": 51.2
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 49,
+        "average": 28.8
+      },
+      "lexicalDiversity": 0.588,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-20260726-la28-olympics-rare-glimpse",
       "slug": "la-2028-olympics-preparations-rare-glimpse-israeli-delegation",

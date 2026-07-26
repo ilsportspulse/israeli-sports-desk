@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-26T22:57:31Z",
-    "validUntil": "2026-07-27T10:57:31Z",
+    "checkedAt": "2026-07-26T23:58:28Z",
+    "validUntil": "2026-07-27T11:58:28Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 170,
+        "maxAgeHours": 171,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260726-la28-olympics-rare-glimpse",
+        "articleId": "live-2026-07-26-sanchez-vicario-vanished-fortune",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 178,
+        "maxAgeHours": 179,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-07-26-messi-retirement-club-network",
+        "articleId": "live-20260726-israel-u18-basketball-world-cup-path",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 188,
+        "maxAgeHours": 189,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-07-26-infantino-leaked-letter-argentina",
+        "articleId": "live-20260726-la28-olympics-rare-glimpse",
         "maxAgeHours": 24,
         "requires": []
       }

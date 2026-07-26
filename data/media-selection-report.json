@@ -1,25 +1,41 @@
 {
   "selections": [
     {
-      "articleId": "live-20260726-la28-olympics-rare-glimpse",
-      "article": "Inside LA 2028: Israel's Olympic officials get a rare look at the Games taking shape",
-      "file": "File:Los Angeles Memorial Coliseum.JPG",
+      "articleId": "live-2026-07-26-sanchez-vicario-vanished-fortune",
+      "article": "Sanchez Vicario says her $41 million fortune vanished under ex-husband's watch",
+      "file": "File:Arantxa Sánchez Vicario Australian Open 2016.jpg",
+      "license": "CC BY 2.0"
+    },
+    {
+      "articleId": "live-20260726-israel-girls-water-polo-worlds-open",
+      "article": "Israel's under-16 girls storm back to beat South Africa in water polo World Championship opener",
+      "file": "File:Great Britain's Hannah Edwards scores cross cage v Israel.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-20260726-footvolley-world-championship-bronze",
+      "article": "Israeli duo Ben Yishai and Liberman claim bronze at the footvolley world championship",
+      "file": "File:Footvolley World Cup - Mundial de Futevolei - PU1JFC.jpg",
       "license": "CC BY-SA 3.0"
     },
     {
-      "articleId": "live-2026-07-26-messi-retirement-club-network",
-      "article": "Inside Messi's blueprint for life after football: a network of clubs, not one",
-      "file": "File:Lionel Messi NE Revolution Inter Miami 7.9.25-178.jpg",
-      "license": "CC BY-SA 4.0"
-    },
-    {
-      "articleId": "live-20260726-bees-halt-bahia-final",
-      "article": "Bee swarm halts Brazilian youth final as players hit the deck",
-      "file": "File:Joia da Princesa.jpg",
-      "license": "CC BY-SA 4.0"
+      "articleId": "live-20260726-israel-u18-basketball-world-cup-path",
+      "article": "Israel's U18 team crush France to set up a shot at a second straight World Cup",
+      "file": "File:PalaTrento1.JPG",
+      "license": "Public domain"
     }
   ],
   "failures": [
+    {
+      "id": "live-2026-07-26-olaf-tufte-obituary",
+      "title": "Norway mourns as Olympic rowing great Olaf Tufte dies at 50",
+      "error": "image download 429 after retries"
+    },
+    {
+      "id": "live-20260726-israel-u18-basketball-beat-france",
+      "title": "Israel's U18 side overpower France to seize control of Group A in Trento",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
     {
       "id": "live-2026-07-26-matan-ivri-orienteer-runner-olympics",
       "title": "From orienteering champion to Israeli record-breaker, Matan Ivri plots his course to the Olympics",
