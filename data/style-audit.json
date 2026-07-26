@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T15:03:01.894Z",
+  "generatedAt": "2026-07-26T16:24:25.576Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,11 +11,11 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 379,
+    "publishedArticles": 382,
     "wordCount": {
       "minimum": 232,
       "maximum": 1070,
-      "median": 454,
+      "median": 453.5,
       "average": 466.7
     },
     "paragraphDistribution": {
@@ -23,8 +23,8 @@
       "6": 13,
       "7": 64,
       "8": 101,
-      "9": 93,
-      "10": 75,
+      "9": 95,
+      "10": 76,
       "11": 21,
       "12": 2,
       "13": 3,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.266,
+    "dominantParagraphShare": 0.264,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 13,
     "analysisBelowTarget": 4,
@@ -733,6 +733,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-26-endrick-roma-martin-milan",
+      "slug": "endrick-roma-loan-gerard-martin-milan-rejected",
+      "title": "Roma weigh loan move for Endrick as Milan's bid for Gerard Martín is rejected",
+      "kind": "article",
+      "words": 410,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 28,
+        "longest": 67,
+        "average": 45.6
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 54,
+        "average": 34.2
+      },
+      "lexicalDiversity": 0.624,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-26-messi-de-paul-allstar-rest",
+      "slug": "messi-de-paul-excused-mls-all-star-game-no-punishment",
+      "title": "Messi and De Paul excused from MLS All-Star Game, no punishment this time",
+      "kind": "article",
+      "words": 559,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 28,
+        "longest": 70,
+        "average": 55.9
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 82,
+        "average": 34.9
+      },
+      "lexicalDiversity": 0.565,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-26-real-madrid-diomande-five-year-deal",
+      "slug": "real-madrid-agree-terms-yan-diomande-five-year-deal",
+      "title": "Real Madrid agree personal terms with Yan Diomande on five-year deal",
+      "kind": "news",
+      "words": 405,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 66,
+        "average": 45
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 50,
+        "average": 36.8
+      },
+      "lexicalDiversity": 0.63,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-07-26-hapoel-haifa-gonen-not-for-sale",
       "slug": "hapoel-haifa-owner-gonen-not-for-sale",
