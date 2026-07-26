@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T12:04:53.009Z",
+  "generatedAt": "2026-07-26T13:38:57.094Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 375,
+    "publishedArticles": 379,
     "wordCount": {
       "minimum": 232,
       "maximum": 1070,
-      "median": 455,
-      "average": 467.3
+      "median": 454,
+      "average": 466.7
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 13,
-      "7": 63,
+      "7": 64,
       "8": 101,
-      "9": 92,
-      "10": 73,
+      "9": 93,
+      "10": 75,
       "11": 21,
       "12": 2,
       "13": 3,
@@ -33,11 +33,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.269,
+    "dominantParagraphShare": 0.266,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 13,
     "analysisBelowTarget": 4,
-    "articlesWithStyleFlags": 29
+    "articlesWithStyleFlags": 30
   },
   "flagged": [
     {
@@ -61,6 +61,29 @@
       "publisherAttributions": 2,
       "flags": [
         "stock-phrase:statement-of-intent",
+        "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-07-26-barcola-psg-contract-refusal",
+      "slug": "barcola-psg-contract-refusal-liverpool",
+      "title": "Barcola turns down new PSG deal, opening the door for Liverpool",
+      "kind": "news",
+      "words": 434,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 38,
+        "longest": 81,
+        "average": 62
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 45,
+        "average": 28.9
+      },
+      "lexicalDiversity": 0.585,
+      "publisherAttributions": 2,
+      "flags": [
         "publisher-attribution-heavy:2"
       ]
     },
@@ -710,6 +733,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-26-hapoel-haifa-gonen-not-for-sale",
+      "slug": "hapoel-haifa-owner-gonen-not-for-sale",
+      "title": "Hapoel Haifa reject offers for Gonen after derby-winning wondergoal, says owner Katz",
+      "kind": "news",
+      "words": 342,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 49,
+        "average": 38
+      },
+      "sentenceWords": {
+        "shortest": 31,
+        "longest": 77,
+        "average": 48.9
+      },
+      "lexicalDiversity": 0.585,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-26-hezonja-cavs-warriors-interest",
+      "slug": "cavaliers-warriors-mario-hezonja-nba-return",
+      "title": "Cavaliers and Warriors turn to Mario Hezonja after LeBron picks 76ers",
+      "kind": "news",
+      "words": 433,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 58,
+        "average": 43.3
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 38,
+        "average": 28.9
+      },
+      "lexicalDiversity": 0.594,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-26-petit-kane-ballon-dor-critique",
+      "slug": "petit-kane-ballon-dor-critique",
+      "title": "Petit says Kane 'disappeared' when it mattered, ruling him out of the Ballon d'Or race",
+      "kind": "news",
+      "words": 452,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 61,
+        "average": 45.2
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 96,
+        "average": 28.3
+      },
+      "lexicalDiversity": 0.575,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-07-26-lofton-hapoel-jerusalem",
       "slug": "kenny-lofton-jr-hapoel-jerusalem-signing",
