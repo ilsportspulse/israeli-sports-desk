@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T17:26:28.768Z",
+  "generatedAt": "2026-07-26T18:27:56.728Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,23 +11,23 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 386,
+    "publishedArticles": 390,
     "wordCount": {
       "minimum": 232,
       "maximum": 1070,
       "median": 453,
-      "average": 466.3
+      "average": 466.9
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 13,
       "7": 64,
-      "8": 103,
-      "9": 96,
+      "8": 104,
+      "9": 98,
       "10": 77,
       "11": 21,
       "12": 2,
-      "13": 3,
+      "13": 4,
       "14": 2,
       "16": 1,
       "17": 3
@@ -756,6 +756,90 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-26-arsenal-vinicius-wage-offer",
+      "slug": "arsenal-record-wage-vinicius-junior-real-madrid",
+      "title": "Arsenal ready record-breaking wage to prise Vinicius Junior away from Real Madrid",
+      "kind": "news",
+      "words": 514,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 75,
+        "average": 57.1
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 59,
+        "average": 30.2
+      },
+      "lexicalDiversity": 0.57,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-26-dani-olmo-ayala-apology",
+      "slug": "dani-olmo-rejects-ayala-apology-world-cup-final-punch",
+      "title": "Dani Olmo rejects Roberto Ayala's apology over World Cup final punch",
+      "kind": "news",
+      "words": 453,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 62,
+        "average": 50.3
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 99,
+        "average": 34.8
+      },
+      "lexicalDiversity": 0.574,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-26-pogacar-fifth-tour-de-france",
+      "slug": "pogacar-wins-fifth-tour-de-france-title",
+      "title": "Pogačar seals fifth Tour de France title as van der Poel wins Paris finale",
+      "kind": "article",
+      "words": 660,
+      "paragraphs": 13,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 78,
+        "average": 50.8
+      },
+      "sentenceWords": {
+        "shortest": 15,
+        "longest": 84,
+        "average": 36.7
+      },
+      "lexicalDiversity": 0.553,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260726-haaland-real-madrid-eikrem",
+      "slug": "haaland-molde-teammate-real-madrid-prediction",
+      "title": "Haaland's former Molde teammate predicts he will eventually join Real Madrid",
+      "kind": "news",
+      "words": 452,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 94,
+        "average": 56.5
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 169,
+        "average": 56.5
+      },
+      "lexicalDiversity": 0.566,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260726-aharonovich-bakhar-critique",
       "slug": "itzik-aharonovich-barak-bakhar-maccabi-haifa-critique",

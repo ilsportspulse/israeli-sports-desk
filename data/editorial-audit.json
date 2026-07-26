@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T17:26:28.484Z",
+  "generatedAt": "2026-07-26T18:27:56.432Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,74 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 580,
-    "publishedBefore": 386,
-    "cleanPublished": 386,
+    "totalArticles": 586,
+    "publishedBefore": 390,
+    "cleanPublished": 390,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 386,
-    "reviewAfter": 194
+    "publishedAfter": 390,
+    "reviewAfter": 196
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-2026-07-26-arsenal-vinicius-wage-offer",
+      "slug": "arsenal-record-wage-vinicius-junior-real-madrid",
+      "title": "Arsenal ready record-breaking wage to prise Vinicius Junior away from Real Madrid",
+      "statusBefore": "published",
+      "words": 516,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-26-dani-olmo-ayala-apology",
+      "slug": "dani-olmo-rejects-ayala-apology-world-cup-final-punch",
+      "title": "Dani Olmo rejects Roberto Ayala's apology over World Cup final punch",
+      "statusBefore": "published",
+      "words": 448,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-26-pogacar-fifth-tour-de-france",
+      "slug": "pogacar-wins-fifth-tour-de-france-title",
+      "title": "Pogačar seals fifth Tour de France title as van der Poel wins Paris finale",
+      "statusBefore": "published",
+      "words": 659,
+      "paragraphs": 13,
+      "facts": 8,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-26-maldini-pirlo-resignation-threat",
+      "slug": "maldini-considers-resigning-italy-pirlo-appointment-stalls",
+      "title": "Maldini could quit as Italy technical director if Pirlo appointment collapses, ONE reports",
+      "statusBefore": "review",
+      "words": 519,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260726-gordon-lineker-gfn1-preview",
       "slug": "ahavat-gordon-vows-to-topple-lineker-gfn1",
@@ -4984,6 +5042,61 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-07-26-arsenal-vinicius-wage-offer",
+      "slug": "arsenal-record-wage-vinicius-junior-real-madrid",
+      "title": "Arsenal ready record-breaking wage to prise Vinicius Junior away from Real Madrid",
+      "statusBefore": "published",
+      "words": 516,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-26-dani-olmo-ayala-apology",
+      "slug": "dani-olmo-rejects-ayala-apology-world-cup-final-punch",
+      "title": "Dani Olmo rejects Roberto Ayala's apology over World Cup final punch",
+      "statusBefore": "published",
+      "words": 448,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-26-pogacar-fifth-tour-de-france",
+      "slug": "pogacar-wins-fifth-tour-de-france-title",
+      "title": "Pogačar seals fifth Tour de France title as van der Poel wins Paris finale",
+      "statusBefore": "published",
+      "words": 659,
+      "paragraphs": 13,
+      "facts": 8,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260726-haaland-real-madrid-eikrem",
+      "slug": "haaland-molde-teammate-real-madrid-prediction",
+      "title": "Haaland's former Molde teammate predicts he will eventually join Real Madrid",
+      "statusBefore": "published",
+      "words": 454,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-20260726-aharonovich-bakhar-critique",
       "slug": "itzik-aharonovich-barak-bakhar-maccabi-haifa-critique",
