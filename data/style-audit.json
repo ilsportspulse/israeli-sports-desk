@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T16:24:25.576Z",
+  "generatedAt": "2026-07-26T17:26:28.768Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 382,
+    "publishedArticles": 386,
     "wordCount": {
       "minimum": 232,
       "maximum": 1070,
-      "median": 453.5,
-      "average": 466.7
+      "median": 453,
+      "average": 466.3
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 13,
       "7": 64,
-      "8": 101,
-      "9": 95,
-      "10": 76,
+      "8": 103,
+      "9": 96,
+      "10": 77,
       "11": 21,
       "12": 2,
       "13": 3,
@@ -33,11 +33,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.264,
+    "dominantParagraphShare": 0.267,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 13,
     "analysisBelowTarget": 4,
-    "articlesWithStyleFlags": 30
+    "articlesWithStyleFlags": 31
   },
   "flagged": [
     {
@@ -62,6 +62,29 @@
       "flags": [
         "stock-phrase:statement-of-intent",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260726-gordon-lineker-gfn1-preview",
+      "slug": "ahavat-gordon-vows-to-topple-lineker-gfn1",
+      "title": "Ahavat Gordon vows to topple former world champion Lineker at Tel Aviv debut card",
+      "kind": "news",
+      "words": 435,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 79,
+        "average": 54.4
+      },
+      "sentenceWords": {
+        "shortest": 2,
+        "longest": 62,
+        "average": 31.1
+      },
+      "lexicalDiversity": 0.57,
+      "publisherAttributions": 0,
+      "flags": [
+        "stock-phrase:statement-of-intent"
       ]
     },
     {
@@ -733,6 +756,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260726-aharonovich-bakhar-critique",
+      "slug": "itzik-aharonovich-barak-bakhar-maccabi-haifa-critique",
+      "title": "Itzik Aharonovich: 'Everything begins and ends with Barak Bakhar' at Maccabi Haifa",
+      "kind": "news",
+      "words": 461,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 74,
+        "average": 51.2
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 85,
+        "average": 35.5
+      },
+      "lexicalDiversity": 0.59,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-26-maccabi-sokler-signing",
+      "slug": "maccabi-tel-aviv-sign-ester-sokler-slovenian-striker",
+      "title": "Maccabi Tel Aviv complete €1m signing of Šeško's Slovenian 'neighbour', Ester Sokler",
+      "kind": "article",
+      "words": 412,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 24,
+        "longest": 58,
+        "average": 41.2
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 111,
+        "average": 27.5
+      },
+      "lexicalDiversity": 0.624,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-26-hapoel-yanai-oturu-naturalization-row",
+      "slug": "hapoel-yanai-oturu-naturalization-row",
+      "title": "Hapoel Tel Aviv owner accuses basketball federation of playing politics with Oturu naturalization",
+      "kind": "news",
+      "words": 423,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 32,
+        "longest": 78,
+        "average": 52.9
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 74,
+        "average": 32.5
+      },
+      "lexicalDiversity": 0.593,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-07-26-endrick-roma-martin-milan",
       "slug": "endrick-roma-loan-gerard-martin-milan-rejected",
