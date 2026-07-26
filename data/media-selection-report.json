@@ -1,19 +1,51 @@
 {
-  "selections": [],
+  "selections": [
+    {
+      "articleId": "live-20260726-al-hilal-mock-roma-summerville",
+      "article": "Al-Hilal troll Roma with 'all roads lead to Riyadh' jab after winning Summerville transfer race",
+      "file": "File:Crysencio Summerville July 2019.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-2026-07-26-tiberias-sakhnin-toto-cup",
+      "article": "Ironi Tiberias scrape past Sakhnin in Toto Cup opener, but admit: 'it can't continue like this'",
+      "file": "File:במדי סכנין.jpg",
+      "license": "CC0"
+    },
+    {
+      "articleId": "live-2026-07-26-buzorgui-umm-al-fahm",
+      "article": "From the far north: Yishai Buzorgui signs with Hapoel Umm al-Fahm",
+      "file": "File:Al-Salam Stadium - Umm al-Fahm.JPG",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-2026-07-26-de-la-fuente-blush-world-cup",
+      "article": "De la Fuente says the World Cup belongs to a 'wonderful' Spain, not to him",
+      "file": "File:Luis de la Fuente France v Spain 7.24.26-036.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-20260726-ferran-torres-barcelona-psg",
+      "article": "Barcelona fear losing World Cup hero Ferran Torres as PSG circle",
+      "file": "File:Ferran Torres France v Spain 7.24.26-229.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-2026-07-26-neymar-poker-brace-chapecoense",
+      "article": "Neymar answers poker critics with a brace and a card-dealing celebration",
+      "file": "File:Neymar - Santos b&w.jpg",
+      "license": "CC BY-SA 2.0"
+    }
+  ],
   "failures": [
     {
-      "id": "live-20260726-yarin-abuhatzira-contract",
-      "title": "Teenage prodigy Yarin Abuhatzira set to sign new Maccabi Netanya contract this week",
-      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+      "id": "live-20260726-chelsea-rogers-transfer",
+      "title": "Chelsea beat Arsenal to Morgan Rogers in British transfer record",
+      "error": "image download 429 after retries"
     },
     {
       "id": "live-2026-07-26-maccabi-pt-league-readiness",
       "title": "Maccabi Petah Tikva vow to be ready for the league despite Toto Cup derby defeat",
-      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
-    },
-    {
-      "id": "live-2026-07-26-shavit-mazal-hapoel-petah-tikva-contract",
-      "title": "Hapoel Petah Tikva and Shavit Mazal advance talks on upgraded contract",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T03:59:52.320Z",
+  "generatedAt": "2026-07-26T06:48:53.571Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,90 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 533,
-    "publishedBefore": 361,
-    "cleanPublished": 361,
+    "totalArticles": 540,
+    "publishedBefore": 366,
+    "cleanPublished": 366,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 361,
-    "reviewAfter": 172
+    "publishedAfter": 366,
+    "reviewAfter": 174
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-2026-07-26-tiberias-sakhnin-toto-cup",
+      "slug": "ironi-tiberias-sakhnin-toto-cup-crisis",
+      "title": "Ironi Tiberias scrape past Sakhnin in Toto Cup opener, but admit: 'it can't continue like this'",
+      "statusBefore": "review",
+      "words": 554,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:4"
+      ]
+    },
+    {
+      "id": "live-20260726-chelsea-rogers-transfer",
+      "slug": "chelsea-beat-arsenal-morgan-rogers-record-transfer",
+      "title": "Chelsea beat Arsenal to Morgan Rogers in British transfer record",
+      "statusBefore": "published",
+      "words": 411,
+      "paragraphs": 11,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:3"
+      ]
+    },
+    {
+      "id": "live-2026-07-26-de-la-fuente-blush-world-cup",
+      "slug": "de-la-fuente-blush-world-cup-spain",
+      "title": "De la Fuente says the World Cup belongs to a 'wonderful' Spain, not to him",
+      "statusBefore": "published",
+      "words": 560,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260726-ferran-torres-barcelona-psg",
+      "slug": "ferran-torres-barcelona-contract-fears-psg-interest",
+      "title": "Barcelona fear losing World Cup hero Ferran Torres as PSG circle",
+      "statusBefore": "published",
+      "words": 547,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-26-neymar-poker-brace-chapecoense",
+      "slug": "neymar-poker-celebration-brace-santos-chapecoense",
+      "title": "Neymar answers poker critics with a brace and a card-dealing celebration",
+      "statusBefore": "published",
+      "words": 481,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260726-yarin-abuhatzira-contract",
       "slug": "yarin-abuhatzira-maccabi-netanya-new-contract",
@@ -4505,6 +4579,77 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-20260726-al-hilal-mock-roma-summerville",
+      "slug": "al-hilal-mock-roma-summerville-transfer-video",
+      "title": "Al-Hilal troll Roma with 'all roads lead to Riyadh' jab after winning Summerville transfer race",
+      "statusBefore": "published",
+      "words": 358,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260726-chelsea-rogers-transfer",
+      "slug": "chelsea-beat-arsenal-morgan-rogers-record-transfer",
+      "title": "Chelsea beat Arsenal to Morgan Rogers in British transfer record",
+      "statusBefore": "published",
+      "words": 411,
+      "paragraphs": 11,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:3"
+      ]
+    },
+    {
+      "id": "live-2026-07-26-de-la-fuente-blush-world-cup",
+      "slug": "de-la-fuente-blush-world-cup-spain",
+      "title": "De la Fuente says the World Cup belongs to a 'wonderful' Spain, not to him",
+      "statusBefore": "published",
+      "words": 560,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260726-ferran-torres-barcelona-psg",
+      "slug": "ferran-torres-barcelona-contract-fears-psg-interest",
+      "title": "Barcelona fear losing World Cup hero Ferran Torres as PSG circle",
+      "statusBefore": "published",
+      "words": 547,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-26-neymar-poker-brace-chapecoense",
+      "slug": "neymar-poker-celebration-brace-santos-chapecoense",
+      "title": "Neymar answers poker critics with a brace and a card-dealing celebration",
+      "statusBefore": "published",
+      "words": 481,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260726-yarin-abuhatzira-contract",
       "slug": "yarin-abuhatzira-maccabi-netanya-new-contract",

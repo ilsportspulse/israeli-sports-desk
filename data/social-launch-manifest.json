@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-26T03:59:52Z",
-    "validUntil": "2026-07-26T15:59:52Z",
+    "checkedAt": "2026-07-26T06:48:53Z",
+    "validUntil": "2026-07-26T18:48:53Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 151,
+        "maxAgeHours": 154,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260726-yarin-abuhatzira-contract",
+        "articleId": "live-20260726-al-hilal-mock-roma-summerville",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 159,
+        "maxAgeHours": 162,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260726-ze-flores-bnei-yehuda-signing",
+        "articleId": "live-2026-07-26-de-la-fuente-blush-world-cup",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 169,
+        "maxAgeHours": 172,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260725-ankalaev-guskov-tko",
+        "articleId": "live-20260726-ferran-torres-barcelona-psg",
         "maxAgeHours": 24,
         "requires": []
       }
