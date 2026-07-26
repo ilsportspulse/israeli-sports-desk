@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T13:38:56.793Z",
+  "generatedAt": "2026-07-26T15:03:01.559Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,44 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 566,
+    "totalArticles": 569,
     "publishedBefore": 379,
     "cleanPublished": 379,
     "blockedPublished": 0,
     "demoted": 0,
     "publishedAfter": 379,
-    "reviewAfter": 187
+    "reviewAfter": 190
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-2026-07-26-abuhatzira-cohen-first-senior-goals",
+      "slug": "abuhatzira-cohen-first-senior-goals-toto-cup",
+      "title": "Abuhatzira and Cohen mark first senior goals on Toto Cup opening weekend",
+      "statusBefore": "review",
+      "words": 372,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260726-maccabi-tel-aviv-bankruptcy-warning",
+      "slug": "maccabi-tel-aviv-bankruptcy-warning-shtilman",
+      "title": "Ousted investor warns Maccabi Tel Aviv could face bankruptcy",
+      "statusBefore": "review",
+      "words": 530,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260726-kfar-saba-solel-afula-yifrach",
       "slug": "hapoel-kfar-saba-sign-solel-hapoel-afula-add-yifrach",
@@ -182,7 +210,8 @@
       "verificationSources": 4,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
