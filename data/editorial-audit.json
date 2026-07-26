@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T21:57:04.874Z",
+  "generatedAt": "2026-07-26T22:57:31.872Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,44 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 603,
-    "publishedBefore": 401,
-    "cleanPublished": 401,
+    "totalArticles": 606,
+    "publishedBefore": 403,
+    "cleanPublished": 403,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 401,
-    "reviewAfter": 202
+    "publishedAfter": 403,
+    "reviewAfter": 203
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-20260726-la28-olympics-rare-glimpse",
+      "slug": "la-2028-olympics-preparations-rare-glimpse-israeli-delegation",
+      "title": "Inside LA 2028: Israel's Olympic officials get a rare look at the Games taking shape",
+      "statusBefore": "published",
+      "words": 701,
+      "paragraphs": 12,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-26-messi-retirement-club-network",
+      "slug": "messi-post-retirement-football-network-plan",
+      "title": "Inside Messi's blueprint for life after football: a network of clubs, not one",
+      "statusBefore": "published",
+      "words": 689,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260726-david-moses-basketball-prospect",
       "slug": "david-moses-israeli-basketball-prodigy-eurobasket-u18",
@@ -5229,6 +5257,34 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-20260726-la28-olympics-rare-glimpse",
+      "slug": "la-2028-olympics-preparations-rare-glimpse-israeli-delegation",
+      "title": "Inside LA 2028: Israel's Olympic officials get a rare look at the Games taking shape",
+      "statusBefore": "published",
+      "words": 701,
+      "paragraphs": 12,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-26-messi-retirement-club-network",
+      "slug": "messi-post-retirement-football-network-plan",
+      "title": "Inside Messi's blueprint for life after football: a network of clubs, not one",
+      "statusBefore": "published",
+      "words": 689,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-07-26-infantino-leaked-letter-argentina",
       "slug": "infantino-leaked-letter-praises-argentina-amid-fifa-probe",

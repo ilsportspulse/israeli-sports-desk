@@ -1,40 +1,34 @@
 {
   "selections": [
     {
-      "articleId": "live-20260726-david-moses-basketball-prospect",
-      "article": "David Moses, Israeli basketball's next big thing, delivers at Europe's under-18 championship",
-      "file": "File:עודד שעשוע במדי רמהש.jpg",
+      "articleId": "live-20260726-la28-olympics-rare-glimpse",
+      "article": "Inside LA 2028: Israel's Olympic officials get a rare look at the Games taking shape",
+      "file": "File:Los Angeles Memorial Coliseum.JPG",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "articleId": "live-2026-07-26-messi-retirement-club-network",
+      "article": "Inside Messi's blueprint for life after football: a network of clubs, not one",
+      "file": "File:Lionel Messi NE Revolution Inter Miami 7.9.25-178.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-2026-07-26-infantino-leaked-letter-argentina",
-      "article": "Leaked Infantino letter praised Argentina's \"professionalism\" as FIFA probes final brawl",
-      "file": "File:Leandro Paredes Argentina v Egypt 7 July 2026-048.jpg",
-      "license": "CC BY-SA 4.0"
-    },
-    {
-      "articleId": "live-20260726-lyles-us-100m-title",
-      "article": "Still the fastest: Noah Lyles wins third US 100m title in 9.79 seconds",
-      "file": "File:Noah Lyles (USA).jpg",
-      "license": "CC BY 2.0"
-    },
-    {
-      "articleId": "live-20260726-paquito-navarro-padel-shot",
-      "article": "Legal or not? Paquito Navarro's net-straddling winner splits the padel world",
-      "file": "File:Paquito Navarro.jpg",
+      "articleId": "live-20260726-bees-halt-bahia-final",
+      "article": "Bee swarm halts Brazilian youth final as players hit the deck",
+      "file": "File:Joia da Princesa.jpg",
       "license": "CC BY-SA 4.0"
     }
   ],
   "failures": [
     {
-      "id": "live-20260726-pogacar-fifth-tour-de-france-title",
-      "title": "Pogačar completes fifth Tour de France title to match cycling's all-time record",
+      "id": "live-2026-07-26-matan-ivri-orienteer-runner-olympics",
+      "title": "From orienteering champion to Israeli record-breaker, Matan Ivri plots his course to the Olympics",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {
-      "id": "live-20260726-bees-halt-bahia-final",
-      "title": "Bee swarm halts Brazilian youth final as players hit the deck",
-      "error": "image download 429 after retries"
+      "id": "live-20260726-pogacar-fifth-tour-de-france-title",
+      "title": "Pogačar completes fifth Tour de France title to match cycling's all-time record",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {
       "id": "live-2026-07-26-israel-u18-basketball-france-win",

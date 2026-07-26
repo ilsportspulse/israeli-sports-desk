@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T21:57:05.228Z",
+  "generatedAt": "2026-07-26T22:57:32.103Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 401,
+    "publishedArticles": 403,
     "wordCount": {
       "minimum": 232,
       "maximum": 1070,
       "median": 453,
-      "average": 464.7
+      "average": 465.8
     },
     "paragraphDistribution": {
       "5": 1,
@@ -24,16 +24,16 @@
       "7": 68,
       "8": 107,
       "9": 99,
-      "10": 77,
+      "10": 78,
       "11": 22,
-      "12": 3,
+      "12": 4,
       "13": 4,
       "14": 2,
       "16": 1,
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.267,
+    "dominantParagraphShare": 0.266,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 14,
     "analysisBelowTarget": 4,
@@ -802,6 +802,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260726-la28-olympics-rare-glimpse",
+      "slug": "la-2028-olympics-preparations-rare-glimpse-israeli-delegation",
+      "title": "Inside LA 2028: Israel's Olympic officials get a rare look at the Games taking shape",
+      "kind": "report",
+      "words": 697,
+      "paragraphs": 12,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 80,
+        "average": 58.1
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 55,
+        "average": 30.3
+      },
+      "lexicalDiversity": 0.512,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-26-messi-retirement-club-network",
+      "slug": "messi-post-retirement-football-network-plan",
+      "title": "Inside Messi's blueprint for life after football: a network of clubs, not one",
+      "kind": "article",
+      "words": 685,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 51,
+        "longest": 86,
+        "average": 68.5
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 59,
+        "average": 29.8
+      },
+      "lexicalDiversity": 0.561,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-07-26-infantino-leaked-letter-argentina",
       "slug": "infantino-leaked-letter-praises-argentina-amid-fifa-probe",
