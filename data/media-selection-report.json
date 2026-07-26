@@ -1,11 +1,19 @@
 {
-  "selections": [],
-  "failures": [
+  "selections": [
     {
-      "id": "live-20260725-sokler-maccabi-tel-aviv",
-      "title": "Ester Sokler set to land in Israel ahead of Maccabi Tel Aviv signing",
-      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+      "articleId": "live-20260726-ze-flores-bnei-yehuda-signing",
+      "article": "Brazilian winger Zé Flores signs for Bnei Yehuda after Sheriff Tiraspol spell",
+      "file": "File:Bnei Yehuda Tel Aviv F.C. DSC04908 (5986481337).jpg",
+      "license": "CC BY-SA 2.0"
     },
+    {
+      "articleId": "archive-20260726-abu-dhabi-28-october-2018-the-night-hati",
+      "article": "Abu Dhabi, 28 October 2018: The night Hatikvah finally played in the Gulf",
+      "file": "File:Tatalashvili (GEO) vs Muki (ISR) at the gold final of the 2015 European Games.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "failures": [
     {
       "id": "live-2026-07-25-raphaelov-bachar-maccabi-haifa-project",
       "title": "Doubts grow over Raphaelov and Bachar's rebuild at Maccabi Haifa after derby defeat",

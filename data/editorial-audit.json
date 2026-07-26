@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T23:10:45.539Z",
+  "generatedAt": "2026-07-26T00:13:31.138Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,30 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 528,
-    "publishedBefore": 357,
-    "cleanPublished": 357,
+    "totalArticles": 530,
+    "publishedBefore": 359,
+    "cleanPublished": 359,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 357,
+    "publishedAfter": 359,
     "reviewAfter": 171
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-20260726-ze-flores-bnei-yehuda-signing",
+      "slug": "ze-flores-signs-for-bnei-yehuda",
+      "title": "Brazilian winger Zé Flores signs for Bnei Yehuda after Sheriff Tiraspol spell",
+      "statusBefore": "published",
+      "words": 238,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260725-sokler-maccabi-tel-aviv",
       "slug": "ester-sokler-lands-in-israel-ahead-of-maccabi-tel-aviv-move",
@@ -4477,6 +4491,32 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-20260726-ze-flores-bnei-yehuda-signing",
+      "slug": "ze-flores-signs-for-bnei-yehuda",
+      "title": "Brazilian winger Zé Flores signs for Bnei Yehuda after Sheriff Tiraspol spell",
+      "statusBefore": "published",
+      "words": 238,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "archive-20260726-abu-dhabi-28-october-2018-the-night-hati",
+      "slug": "abu-dhabi-28-october-2018-the-night-hatikvah-finally-played-in-the-gul",
+      "title": "Abu Dhabi, 28 October 2018: The night Hatikvah finally played in the Gulf",
+      "statusBefore": "published",
+      "words": 476,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-20260725-sokler-maccabi-tel-aviv",
       "slug": "ester-sokler-lands-in-israel-ahead-of-maccabi-tel-aviv-move",

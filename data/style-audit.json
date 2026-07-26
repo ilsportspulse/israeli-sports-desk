@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T23:10:45.749Z",
+  "generatedAt": "2026-07-26T00:13:31.434Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,18 +11,18 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 357,
+    "publishedArticles": 359,
     "wordCount": {
       "minimum": 237,
       "maximum": 1070,
       "median": 455,
-      "average": 470.1
+      "average": 469.4
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 10,
       "7": 63,
-      "8": 95,
+      "8": 97,
       "9": 87,
       "10": 71,
       "11": 19,
@@ -33,11 +33,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.266,
+    "dominantParagraphShare": 0.27,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 10,
     "analysisBelowTarget": 4,
-    "articlesWithStyleFlags": 22
+    "articlesWithStyleFlags": 24
   },
   "flagged": [
     {
@@ -62,6 +62,52 @@
       "flags": [
         "stock-phrase:statement-of-intent",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260726-ze-flores-bnei-yehuda-signing",
+      "slug": "ze-flores-signs-for-bnei-yehuda",
+      "title": "Brazilian winger Zé Flores signs for Bnei Yehuda after Sheriff Tiraspol spell",
+      "kind": "news",
+      "words": 237,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 21,
+        "longest": 35,
+        "average": 29.6
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 90,
+        "average": 33.9
+      },
+      "lexicalDiversity": 0.646,
+      "publisherAttributions": 1,
+      "flags": [
+        "below-editorial-target:237/280"
+      ]
+    },
+    {
+      "id": "archive-20260726-abu-dhabi-28-october-2018-the-night-hati",
+      "slug": "abu-dhabi-28-october-2018-the-night-hatikvah-finally-played-in-the-gul",
+      "title": "Abu Dhabi, 28 October 2018: The night Hatikvah finally played in the Gulf",
+      "kind": "explainer",
+      "words": 470,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 86,
+        "average": 58.8
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 55,
+        "average": 27.6
+      },
+      "lexicalDiversity": 0.545,
+      "publisherAttributions": 0,
+      "flags": [
+        "below-editorial-target:470/500"
       ]
     },
     {
