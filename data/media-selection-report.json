@@ -1,45 +1,54 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-07-26-arsenal-vinicius-wage-offer",
-      "article": "Arsenal ready record-breaking wage to prise Vinicius Junior away from Real Madrid",
-      "file": "File:Mikel Arteta (cropped).jpg",
-      "license": "CC BY 2.0"
-    },
-    {
-      "articleId": "live-2026-07-26-dani-olmo-ayala-apology",
-      "article": "Dani Olmo rejects Roberto Ayala's apology over World Cup final punch",
-      "file": "File:Dani Olmo France v Spain 7.24.26-089.jpg",
+      "articleId": "live-20260726-kleber-hapoel-tel-aviv",
+      "article": "Hapoel Tel Aviv eye another NBA big man in Maxi Kleber, Sport5 reports",
+      "file": "File:Maximilian Kleber 2019.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-2026-07-26-pogacar-fifth-tour-de-france",
-      "article": "Pogačar seals fifth Tour de France title as van der Poel wins Paris finale",
-      "file": "File:Tadej Pogacar - Meilleur jeune du Tour de France 2023.jpg",
+      "articleId": "live-20260726-hapoel-tel-aviv-maxi-kleber-interest",
+      "article": "Hapoel Tel Aviv register interest in free agent big man Maxi Kleber",
+      "file": "File:EuroBasket Qualifier Austria vs Germany, 13 August 2014 - 031.JPG",
+      "license": "CC BY-SA 3.0 at"
+    },
+    {
+      "articleId": "live-2026-07-26-europe-free-agent-market",
+      "article": "Salah, Vlahović and Alaba head a glut of big-name free agents still hunting for clubs",
+      "file": "File:Mohamed Salah 2018.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "articleId": "live-20260726-haaland-real-madrid-eikrem",
+      "article": "Haaland's former Molde teammate predicts he will eventually join Real Madrid",
+      "file": "File:Erling Haaland 2023 (fullcropped-v2).jpg",
       "license": "CC BY-SA 4.0"
-    },
-    {
-      "articleId": "live-2026-07-26-maldini-pirlo-resignation-threat",
-      "article": "Maldini could quit as Italy technical director if Pirlo appointment collapses, ONE reports",
-      "file": "File:Paolo Maldini press conference in Tehran (cropped).jpg",
-      "license": "CC BY 4.0"
-    },
-    {
-      "articleId": "live-20260726-lemkin-twente-peace",
-      "article": "Stav Lemkin: it was hard to find a quiet place — in Holland you can live",
-      "file": "File:De Grolsch Veste - main stand.jpg",
-      "license": "CC BY 2.0"
     }
   ],
   "failures": [
     {
-      "id": "live-2026-07-26-arsenal-vinicius-contract",
-      "title": "Arsenal prepare record contract to test Real Madrid's grip on Vinicius Junior",
+      "id": "live-2026-07-26-israel-u18-basketball-france-win",
+      "title": "Israel's U18 basketball team beats France as Zilberstein hails their athleticism",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-2026-07-26-hapoel-emek-ran-solomon-guard",
+      "title": "Hapoel Emek sign young guard Ran Solomon in return to the top flight",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-2026-07-26-vildoza-partizan-belgrade-not-maccabi",
+      "title": "Vildoza turns down Maccabi Tel Aviv, signs with Partizan Belgrade",
       "error": "image download 429 after retries"
     },
     {
-      "id": "live-20260726-haaland-real-madrid-eikrem",
-      "title": "Haaland's former Molde teammate predicts he will eventually join Real Madrid",
+      "id": "live-20260726-abu-fani-red-star-hleihel-gangwon",
+      "title": "Abu Fani shines in Red Star Belgrade win as Hleihel scores again for Gangwon",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-2026-07-26-arsenal-vinicius-contract",
+      "title": "Arsenal prepare record contract to test Real Madrid's grip on Vinicius Junior",
       "error": "image download 429 after retries"
     },
     {

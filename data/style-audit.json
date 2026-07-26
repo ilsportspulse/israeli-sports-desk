@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T18:27:56.728Z",
+  "generatedAt": "2026-07-26T19:50:23.062Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,18 +11,18 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 390,
+    "publishedArticles": 395,
     "wordCount": {
       "minimum": 232,
       "maximum": 1070,
       "median": 453,
-      "average": 466.9
+      "average": 465.5
     },
     "paragraphDistribution": {
       "5": 1,
-      "6": 13,
-      "7": 64,
-      "8": 104,
+      "6": 14,
+      "7": 67,
+      "8": 105,
       "9": 98,
       "10": 77,
       "11": 21,
@@ -33,11 +33,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.267,
+    "dominantParagraphShare": 0.266,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 13,
+    "exactSixParagraphArticles": 14,
     "analysisBelowTarget": 4,
-    "articlesWithStyleFlags": 31
+    "articlesWithStyleFlags": 32
   },
   "flagged": [
     {
@@ -62,6 +62,29 @@
       "flags": [
         "stock-phrase:statement-of-intent",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-07-26-hapoel-emek-ran-solomon-guard",
+      "slug": "hapoel-emek-sign-guard-ran-solomon",
+      "title": "Hapoel Emek sign young guard Ran Solomon in return to the top flight",
+      "kind": "news",
+      "words": 241,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 27,
+        "longest": 50,
+        "average": 40.2
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 126,
+        "average": 48.2
+      },
+      "lexicalDiversity": 0.606,
+      "publisherAttributions": 0,
+      "flags": [
+        "below-editorial-target:241/280"
       ]
     },
     {
@@ -756,6 +779,90 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260726-kleber-hapoel-tel-aviv",
+      "slug": "maxi-kleber-hapoel-tel-aviv-candidate",
+      "title": "Hapoel Tel Aviv eye another NBA big man in Maxi Kleber, Sport5 reports",
+      "kind": "news",
+      "words": 336,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 32,
+        "longest": 61,
+        "average": 48
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 43,
+        "average": 28
+      },
+      "lexicalDiversity": 0.655,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-26-israel-u18-basketball-france-win",
+      "slug": "israel-u18-basketball-beat-france-zilberstein-athletic-talent",
+      "title": "Israel's U18 basketball team beats France as Zilberstein hails their athleticism",
+      "kind": "news",
+      "words": 376,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 40,
+        "longest": 75,
+        "average": 53.7
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 103,
+        "average": 41.8
+      },
+      "lexicalDiversity": 0.601,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-26-vildoza-partizan-belgrade-not-maccabi",
+      "slug": "vildoza-partizan-belgrade-not-maccabi-tel-aviv",
+      "title": "Vildoza turns down Maccabi Tel Aviv, signs with Partizan Belgrade",
+      "kind": "news",
+      "words": 319,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 69,
+        "average": 45.6
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 44,
+        "average": 24.5
+      },
+      "lexicalDiversity": 0.592,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-26-europe-free-agent-market",
+      "slug": "veteran-stars-still-searching-for-clubs-summer-2026",
+      "title": "Salah, Vlahović and Alaba head a glut of big-name free agents still hunting for clubs",
+      "kind": "news",
+      "words": 533,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 43,
+        "longest": 93,
+        "average": 66.6
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 43,
+        "average": 25.4
+      },
+      "lexicalDiversity": 0.598,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-07-26-arsenal-vinicius-wage-offer",
       "slug": "arsenal-record-wage-vinicius-junior-real-madrid",

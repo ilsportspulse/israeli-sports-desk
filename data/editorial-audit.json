@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T18:27:56.432Z",
+  "generatedAt": "2026-07-26T19:50:22.769Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,74 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 586,
-    "publishedBefore": 390,
-    "cleanPublished": 390,
+    "totalArticles": 593,
+    "publishedBefore": 395,
+    "cleanPublished": 395,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 390,
-    "reviewAfter": 196
+    "publishedAfter": 395,
+    "reviewAfter": 198
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-20260726-kleber-hapoel-tel-aviv",
+      "slug": "maxi-kleber-hapoel-tel-aviv-candidate",
+      "title": "Hapoel Tel Aviv eye another NBA big man in Maxi Kleber, Sport5 reports",
+      "statusBefore": "published",
+      "words": 334,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260726-hapoel-tel-aviv-maxi-kleber-interest",
+      "slug": "hapoel-tel-aviv-eye-maxi-kleber-free-agency",
+      "title": "Hapoel Tel Aviv register interest in free agent big man Maxi Kleber",
+      "statusBefore": "review",
+      "words": 334,
+      "paragraphs": 6,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260726-abu-fani-red-star-hleihel-gangwon",
+      "slug": "abu-fani-red-star-belgrade-win-hleihel-gangwon-goal",
+      "title": "Abu Fani shines in Red Star Belgrade win as Hleihel scores again for Gangwon",
+      "statusBefore": "review",
+      "words": 325,
+      "paragraphs": 7,
+      "facts": 5,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-07-26-europe-free-agent-market",
+      "slug": "veteran-stars-still-searching-for-clubs-summer-2026",
+      "title": "Salah, Vlahović and Alaba head a glut of big-name free agents still hunting for clubs",
+      "statusBefore": "published",
+      "words": 534,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-07-26-arsenal-vinicius-wage-offer",
       "slug": "arsenal-record-wage-vinicius-junior-real-madrid",
@@ -5042,6 +5100,72 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-20260726-kleber-hapoel-tel-aviv",
+      "slug": "maxi-kleber-hapoel-tel-aviv-candidate",
+      "title": "Hapoel Tel Aviv eye another NBA big man in Maxi Kleber, Sport5 reports",
+      "statusBefore": "published",
+      "words": 334,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-26-israel-u18-basketball-france-win",
+      "slug": "israel-u18-basketball-beat-france-zilberstein-athletic-talent",
+      "title": "Israel's U18 basketball team beats France as Zilberstein hails their athleticism",
+      "statusBefore": "published",
+      "words": 380,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-07-26-hapoel-emek-ran-solomon-guard",
+      "slug": "hapoel-emek-sign-guard-ran-solomon",
+      "title": "Hapoel Emek sign young guard Ran Solomon in return to the top flight",
+      "statusBefore": "published",
+      "words": 239,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-07-26-vildoza-partizan-belgrade-not-maccabi",
+      "slug": "vildoza-partizan-belgrade-not-maccabi-tel-aviv",
+      "title": "Vildoza turns down Maccabi Tel Aviv, signs with Partizan Belgrade",
+      "statusBefore": "published",
+      "words": 319,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-07-26-europe-free-agent-market",
+      "slug": "veteran-stars-still-searching-for-clubs-summer-2026",
+      "title": "Salah, Vlahović and Alaba head a glut of big-name free agents still hunting for clubs",
+      "statusBefore": "published",
+      "words": 534,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-07-26-arsenal-vinicius-wage-offer",
       "slug": "arsenal-record-wage-vinicius-junior-real-madrid",
