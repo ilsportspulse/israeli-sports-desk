@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T06:48:53.571Z",
+  "generatedAt": "2026-07-26T09:11:22.200Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,117 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 540,
-    "publishedBefore": 366,
-    "cleanPublished": 366,
+    "totalArticles": 548,
+    "publishedBefore": 372,
+    "cleanPublished": 372,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 366,
-    "reviewAfter": 174
+    "publishedAfter": 372,
+    "reviewAfter": 176
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-2026-07-26-salah-besiktas-agent-standoff",
+      "slug": "salah-agrees-besiktas-move-agent-standoff",
+      "title": "Salah has agreed to join Beşiktaş — but his agent hasn't",
+      "statusBefore": "review",
+      "words": 361,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260726-hapoel-jerusalem-lofton-jr",
+      "slug": "hapoel-jerusalem-sign-kenny-lofton-jr",
+      "title": "Hapoel Jerusalem sign former NBA forward Kenny Lofton Jr.",
+      "statusBefore": "published",
+      "words": 390,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-26-elmishli-galil-elyon-extension",
+      "slug": "yoav-elmishli-hapoel-galil-elyon-extension",
+      "title": "Young guard Yoav Elmishli signs three-year extension with Hapoel Galil Elyon",
+      "statusBefore": "published",
+      "words": 248,
+      "paragraphs": 6,
+      "facts": 5,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260726-messi-fan-poll-world-cup",
+      "slug": "fans-vote-messi-best-player-2026-world-cup",
+      "title": "Fans crown Messi player of the World Cup, ahead of Mbappé and Golden Ball winner Rodri",
+      "statusBefore": "published",
+      "words": 410,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-07-26-vinicius-arsenal-real-madrid",
+      "slug": "vinicius-junior-arsenal-real-madrid-stay",
+      "title": "Vinicius Jr wants to stay at Real Madrid despite Arsenal interest",
+      "statusBefore": "published",
+      "words": 361,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-07-26-avi-nimni-son-hapoel-kfar-shalem",
+      "slug": "avi-nimni-son-amit-signs-hapoel-kfar-shalem",
+      "title": "Avi Nimni's son moves up a level with Hapoel Kfar Shalem",
+      "statusBefore": "review",
+      "words": 315,
+      "paragraphs": 6,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-26-klopp-germany-head-coach",
+      "slug": "klopp-begins-germany-job",
+      "title": "Klopp begins the job all of Germany has been waiting for",
+      "statusBefore": "published",
+      "words": 551,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-07-26-tiberias-sakhnin-toto-cup",
       "slug": "ironi-tiberias-sakhnin-toto-cup-crisis",
@@ -54,6 +155,7 @@
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
         "voice:publisher-attribution-heavy:3"
       ]
     },
@@ -4580,6 +4682,89 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-20260726-hapoel-jerusalem-lofton-jr",
+      "slug": "hapoel-jerusalem-sign-kenny-lofton-jr",
+      "title": "Hapoel Jerusalem sign former NBA forward Kenny Lofton Jr.",
+      "statusBefore": "published",
+      "words": 390,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-26-elmishli-galil-elyon-extension",
+      "slug": "yoav-elmishli-hapoel-galil-elyon-extension",
+      "title": "Young guard Yoav Elmishli signs three-year extension with Hapoel Galil Elyon",
+      "statusBefore": "published",
+      "words": 248,
+      "paragraphs": 6,
+      "facts": 5,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-26-tiberias-intimidation-claim",
+      "slug": "ironi-tiberias-investigation-intimidation-campaign",
+      "title": "Ironi Tiberias doubles down, says federation probe has become 'a campaign of intimidation'",
+      "statusBefore": "published",
+      "words": 493,
+      "paragraphs": 11,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260726-messi-fan-poll-world-cup",
+      "slug": "fans-vote-messi-best-player-2026-world-cup",
+      "title": "Fans crown Messi player of the World Cup, ahead of Mbappé and Golden Ball winner Rodri",
+      "statusBefore": "published",
+      "words": 410,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-07-26-vinicius-arsenal-real-madrid",
+      "slug": "vinicius-junior-arsenal-real-madrid-stay",
+      "title": "Vinicius Jr wants to stay at Real Madrid despite Arsenal interest",
+      "statusBefore": "published",
+      "words": 361,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-07-26-klopp-germany-head-coach",
+      "slug": "klopp-begins-germany-job",
+      "title": "Klopp begins the job all of Germany has been waiting for",
+      "statusBefore": "published",
+      "words": 551,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-20260726-al-hilal-mock-roma-summerville",
       "slug": "al-hilal-mock-roma-summerville-transfer-video",
       "title": "Al-Hilal troll Roma with 'all roads lead to Riyadh' jab after winning Summerville transfer race",
@@ -4603,6 +4788,7 @@
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
         "voice:publisher-attribution-heavy:3"
       ]
     },

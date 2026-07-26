@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T06:48:53.932Z",
+  "generatedAt": "2026-07-26T09:11:22.512Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,21 +11,21 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 366,
+    "publishedArticles": 372,
     "wordCount": {
       "minimum": 232,
       "maximum": 1070,
       "median": 455,
-      "average": 468.7
+      "average": 467.7
     },
     "paragraphDistribution": {
       "5": 1,
-      "6": 11,
+      "6": 12,
       "7": 63,
-      "8": 99,
-      "9": 89,
+      "8": 101,
+      "9": 91,
       "10": 72,
-      "11": 20,
+      "11": 21,
       "12": 2,
       "13": 3,
       "14": 2,
@@ -33,11 +33,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.27,
+    "dominantParagraphShare": 0.272,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 11,
+    "exactSixParagraphArticles": 12,
     "analysisBelowTarget": 4,
-    "articlesWithStyleFlags": 26
+    "articlesWithStyleFlags": 27
   },
   "flagged": [
     {
@@ -62,6 +62,29 @@
       "flags": [
         "stock-phrase:statement-of-intent",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-07-26-elmishli-galil-elyon-extension",
+      "slug": "yoav-elmishli-hapoel-galil-elyon-extension",
+      "title": "Young guard Yoav Elmishli signs three-year extension with Hapoel Galil Elyon",
+      "kind": "news",
+      "words": 250,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 28,
+        "longest": 60,
+        "average": 41.7
+      },
+      "sentenceWords": {
+        "shortest": 25,
+        "longest": 52,
+        "average": 35.7
+      },
+      "lexicalDiversity": 0.668,
+      "publisherAttributions": 0,
+      "flags": [
+        "below-editorial-target:250/280"
       ]
     },
     {
@@ -641,6 +664,111 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260726-hapoel-jerusalem-lofton-jr",
+      "slug": "hapoel-jerusalem-sign-kenny-lofton-jr",
+      "title": "Hapoel Jerusalem sign former NBA forward Kenny Lofton Jr.",
+      "kind": "news",
+      "words": 399,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 32,
+        "longest": 59,
+        "average": 44.3
+      },
+      "sentenceWords": {
+        "shortest": 20,
+        "longest": 78,
+        "average": 36.3
+      },
+      "lexicalDiversity": 0.589,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-26-tiberias-intimidation-claim",
+      "slug": "ironi-tiberias-investigation-intimidation-campaign",
+      "title": "Ironi Tiberias doubles down, says federation probe has become 'a campaign of intimidation'",
+      "kind": "article",
+      "words": 495,
+      "paragraphs": 11,
+      "paragraphWords": {
+        "shortest": 29,
+        "longest": 59,
+        "average": 45
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 95,
+        "average": 35.4
+      },
+      "lexicalDiversity": 0.594,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260726-messi-fan-poll-world-cup",
+      "slug": "fans-vote-messi-best-player-2026-world-cup",
+      "title": "Fans crown Messi player of the World Cup, ahead of Mbappé and Golden Ball winner Rodri",
+      "kind": "article",
+      "words": 406,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 40,
+        "longest": 65,
+        "average": 50.8
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 49,
+        "average": 31.2
+      },
+      "lexicalDiversity": 0.53,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-26-vinicius-arsenal-real-madrid",
+      "slug": "vinicius-junior-arsenal-real-madrid-stay",
+      "title": "Vinicius Jr wants to stay at Real Madrid despite Arsenal interest",
+      "kind": "news",
+      "words": 356,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 27,
+        "longest": 74,
+        "average": 44.5
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 57,
+        "average": 29.7
+      },
+      "lexicalDiversity": 0.615,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-26-klopp-germany-head-coach",
+      "slug": "klopp-begins-germany-job",
+      "title": "Klopp begins the job all of Germany has been waiting for",
+      "kind": "article",
+      "words": 551,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 43,
+        "longest": 77,
+        "average": 61.2
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 48,
+        "average": 29
+      },
+      "lexicalDiversity": 0.552,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260726-al-hilal-mock-roma-summerville",
       "slug": "al-hilal-mock-roma-summerville-transfer-video",

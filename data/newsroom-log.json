@@ -1,5 +1,85 @@
 [
   {
+    "ts": "2026-07-26T09:05:05.724Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 8,
+    "published": 6,
+    "review": 2,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "klopp-begins-germany-job",
+        "title": "Klopp begins the job all of Germany has been waiting for",
+        "confidence": 0.9,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "avi-nimni-son-amit-signs-hapoel-kfar-shalem",
+        "title": "Avi Nimni's son moves up a level with Hapoel Kfar Shalem",
+        "confidence": 0.8,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Son's given name and playing position are as reported by ONE and not yet independently corroborated elsewhere; debut timing is described as expected, not club-confirmed."
+      },
+      {
+        "slug": "vinicius-junior-arsenal-real-madrid-stay",
+        "title": "Vinicius Jr wants to stay at Real Madrid despite Arsenal interest",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "fans-vote-messi-best-player-2026-world-cup",
+        "title": "Fans crown Messi player of the World Cup, ahead of Mbappé and Golden Ball winner Rodri",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "ironi-tiberias-investigation-intimidation-campaign",
+        "title": "Ironi Tiberias doubles down, says federation probe has become 'a campaign of intimidation'",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "yoav-elmishli-hapoel-galil-elyon-extension",
+        "title": "Young guard Yoav Elmishli signs three-year extension with Hapoel Galil Elyon",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "hapoel-jerusalem-sign-kenny-lofton-jr",
+        "title": "Hapoel Jerusalem sign former NBA forward Kenny Lofton Jr.",
+        "confidence": 0.9,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "salah-agrees-besiktas-move-agent-standoff",
+        "title": "Salah has agreed to join Beşiktaş — but his agent hasn't",
+        "confidence": 0.8,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Commission figures vary slightly by outlet (€7.5m vs €8.4m opening demand) and the deal was not finalized as of publication — this is a clear transfer report, not a confirmed signing."
+      }
+    ]
+  },
+  {
     "ts": "2026-07-26T06:40:16.863Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -3289,70 +3369,6 @@
         "slug": "monza-approach-maccabi-tel-aviv-defender-tyrese-asante",
         "title": "Monza reportedly approach Maccabi Tel Aviv over defender Tyrese Asante",
         "confidence": 0.78,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-07-22T12:10:31.080Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 6,
-    "published": 4,
-    "review": 2,
-    "skipped": 0,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "brazili-blasts-almeida-over-weight-miss-ahead-of-tel-aviv-main-event",
-        "title": "Brazili accuses Almeida of exploiting his 'willingness to fight' after Brazilian misses weight by 15kg",
-        "confidence": 0.78,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Almeida's exact identity/UFC record and the precise current weight gap are per Brazili's own account as relayed by ONE; not independently confirmed by an official weigh-in yet."
-      },
-      {
-        "slug": "israel-youth-swimming-championship-age-records",
-        "title": "14 Age-Group Records Fall at Israel's Youth Swimming Championship",
-        "confidence": 0.8,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "below gate thresholds"
-      },
-      {
-        "slug": "pedro-amador-hapoel-beer-sheva-transfer-close",
-        "title": "Portuguese Left-Back Pedro Amador Closing In on Hapoel Beer Sheva Move",
-        "confidence": 0.78,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "nigel-lonwijk-maccabi-haifa-eissat-replacement",
-        "title": "Maccabi Haifa Turn to Wolves Loanee Nigel Lonwijk to Replace Eissat at the Back",
-        "confidence": 0.75,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "uefa-blocks-var-mistaken-identity-rule-for-diving-calls",
-        "title": "UEFA Won't Let VAR Use World Cup's 'Mistaken Identity' Rule to Overturn Diving Calls",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "ivic-maccabi-tel-aviv-bonus-interview",
-        "title": "Ivić: \"I Was Shocked by the Bonus at Maccabi Tel Aviv\"",
-        "confidence": 0.83,
         "gate": "pass",
         "decision": "published",
         "reason": ""
