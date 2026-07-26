@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T19:50:23.062Z",
+  "generatedAt": "2026-07-26T20:53:05.035Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,21 +11,21 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 395,
+    "publishedArticles": 399,
     "wordCount": {
       "minimum": 232,
       "maximum": 1070,
       "median": 453,
-      "average": 465.5
+      "average": 465
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 14,
-      "7": 67,
-      "8": 105,
-      "9": 98,
+      "7": 68,
+      "8": 106,
+      "9": 99,
       "10": 77,
-      "11": 21,
+      "11": 22,
       "12": 2,
       "13": 4,
       "14": 2,
@@ -780,6 +780,111 @@
   ],
   "clean": [
     {
+      "id": "live-20260726-hezonja-cavaliers-pay-cut",
+      "slug": "hezonja-pay-cut-cavaliers-nba-return",
+      "title": "Hezonja gives up a bigger Real Madrid pay day to chase his NBA return with Cleveland",
+      "kind": "news",
+      "words": 474,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 32,
+        "longest": 68,
+        "average": 52.7
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 61,
+        "average": 27.9
+      },
+      "lexicalDiversity": 0.54,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260726-israel-u18-basketball-hot-start",
+      "slug": "israel-u18-basketball-team-hot-start-eurobasket-2026",
+      "title": "Israel's U18 team stuns Greece and beats France to open EuroBasket 2-0",
+      "kind": "news",
+      "words": 571,
+      "paragraphs": 11,
+      "paragraphWords": {
+        "shortest": 29,
+        "longest": 82,
+        "average": 51.9
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 50,
+        "average": 30.1
+      },
+      "lexicalDiversity": 0.518,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260726-paquito-navarro-padel-shot",
+      "slug": "paquito-navarro-controversial-net-shot-ibiza-exhibition",
+      "title": "Legal or not? Paquito Navarro's net-straddling winner splits the padel world",
+      "kind": "news",
+      "words": 361,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 43,
+        "longest": 60,
+        "average": 51.6
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 53,
+        "average": 32.8
+      },
+      "lexicalDiversity": 0.609,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260726-abu-fani-red-star-derby",
+      "slug": "abu-fani-61-minutes-red-star-belgrade-derby-win",
+      "title": "Abu Fani gets 61 minutes as Red Star Belgrade win Eternal Derby",
+      "kind": "article",
+      "words": 285,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 28,
+        "longest": 56,
+        "average": 40.7
+      },
+      "sentenceWords": {
+        "shortest": 15,
+        "longest": 36,
+        "average": 28.5
+      },
+      "lexicalDiversity": 0.611,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260726-bees-halt-bahia-final",
+      "slug": "bees-halt-bahia-fluminense-feira-final",
+      "title": "Bee swarm halts Brazilian youth final as players hit the deck",
+      "kind": "news",
+      "words": 342,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 28,
+        "longest": 63,
+        "average": 42.8
+      },
+      "sentenceWords": {
+        "shortest": 21,
+        "longest": 43,
+        "average": 31.1
+      },
+      "lexicalDiversity": 0.617,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
       "id": "live-20260726-kleber-hapoel-tel-aviv",
       "slug": "maxi-kleber-hapoel-tel-aviv-candidate",
       "title": "Hapoel Tel Aviv eye another NBA big man in Maxi Kleber, Sport5 reports",
@@ -798,27 +903,6 @@
       },
       "lexicalDiversity": 0.655,
       "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-07-26-israel-u18-basketball-france-win",
-      "slug": "israel-u18-basketball-beat-france-zilberstein-athletic-talent",
-      "title": "Israel's U18 basketball team beats France as Zilberstein hails their athleticism",
-      "kind": "news",
-      "words": 376,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 40,
-        "longest": 75,
-        "average": 53.7
-      },
-      "sentenceWords": {
-        "shortest": 7,
-        "longest": 103,
-        "average": 41.8
-      },
-      "lexicalDiversity": 0.601,
-      "publisherAttributions": 1,
       "flags": []
     },
     {

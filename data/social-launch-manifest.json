@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-26T19:50:22Z",
-    "validUntil": "2026-07-27T07:50:22Z",
+    "checkedAt": "2026-07-26T20:53:04Z",
+    "validUntil": "2026-07-27T08:53:04Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 167,
+        "maxAgeHours": 168,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260726-kleber-hapoel-tel-aviv",
+        "articleId": "live-20260726-hezonja-cavaliers-pay-cut",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 175,
+        "maxAgeHours": 176,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-07-26-europe-free-agent-market",
+        "articleId": "live-20260726-israel-u18-basketball-hot-start",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 185,
+        "maxAgeHours": 186,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-07-26-arsenal-vinicius-wage-offer",
+        "articleId": "live-20260726-abu-fani-red-star-derby",
         "maxAgeHours": 24,
         "requires": []
       }
