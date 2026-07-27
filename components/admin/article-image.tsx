@@ -40,7 +40,7 @@ export function ArticleImageCard({ articleId }: { articleId: string }) {
   useEffect(() => () => { if (filePreview) URL.revokeObjectURL(filePreview); }, [filePreview]);
 
   async function upload() {
-    if (!file || (!entry && !upAlt.trim())) return;
+    if (!file) return;
     setBusy(true); setMsg(null);
     try {
       const fd = new FormData();
