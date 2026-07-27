@@ -83,26 +83,34 @@ async function commitBase64ToGitHub(rel: string, base64: string, message: string
     "X-GitHub-Api-Version": "2022-11-28",
   };
 
-  // Fetch the current blob sha (required to update an existing file).
-  let sha: string | undefined;
-  const current = await fetch(`${api}?ref=${branch}`, { headers, cache: "no-store" });
-  if (current.ok) {
-    const json = (await current.json()) as { sha?: string };
-    sha = json.sha;
-  }
+  // Commit with retry: while a newsroom cycle is pushing, the blob sha or
+  // branch head can move between our read and write, which GitHub rejects
+  // (409/422). Refetching the sha and retrying with backoff makes backoffice
+  // saves reliable instead of surfacing "GitHub commit failed" to the editor.
+  let lastError = "";
+  for (let attempt = 0; attempt < 4; attempt += 1) {
+    let sha: string | undefined;
+    const current = await fetch(`${api}?ref=${branch}`, { headers, cache: "no-store" });
+    if (current.ok) {
+      const json = (await current.json()) as { sha?: string };
+      sha = json.sha;
+    }
 
-  const body = {
-    message,
-    content: base64,
-    branch,
-    sha,
-    // Commit author must map to a GitHub account or Vercel blocks the deploy.
-    committer: { name: "fmgaming-core", email: "230560160+fmgaming-core@users.noreply.github.com" },
-    author: { name: "fmgaming-core", email: "230560160+fmgaming-core@users.noreply.github.com" },
-  };
+    const body = {
+      message,
+      content: base64,
+      branch,
+      sha,
+      // Commit author must map to a GitHub account or Vercel blocks the deploy.
+      committer: { name: "fmgaming-core", email: "230560160+fmgaming-core@users.noreply.github.com" },
+      author: { name: "fmgaming-core", email: "230560160+fmgaming-core@users.noreply.github.com" },
+    };
 
-  const res = await fetch(api, { method: "PUT", headers, body: JSON.stringify(body) });
-  if (!res.ok) {
-    throw new Error(`GitHub commit failed for ${rel}: ${res.status} ${await res.text()}`);
+    const res = await fetch(api, { method: "PUT", headers, body: JSON.stringify(body) });
+    if (res.ok) return;
+    lastError = `${res.status} ${await res.text()}`;
+    if (res.status !== 409 && res.status !== 422) break;
+    await new Promise((resolve) => setTimeout(resolve, 1200 * (attempt + 1)));
   }
+  throw new Error(`GitHub commit failed for ${rel}: ${lastError}`);
 }

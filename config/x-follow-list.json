@@ -57,6 +57,66 @@
    "confidence": 0.95
   },
   {
+   "group": "israeli-media",
+   "name": "Ynetnews (EN)",
+   "handle": "@ynetnews",
+   "confidence": 0.9
+  },
+  {
+   "group": "israeli-media",
+   "name": "N12 News",
+   "handle": "@N12News",
+   "confidence": 0.85
+  },
+  {
+   "group": "israeli-media",
+   "name": "Kan News",
+   "handle": "@kann_news",
+   "confidence": 0.85
+  },
+  {
+   "group": "israeli-media",
+   "name": "i24NEWS English",
+   "handle": "@i24NEWS_EN",
+   "confidence": 0.85
+  },
+  {
+   "group": "israeli-media",
+   "name": "Galei Tzahal (GLZ)",
+   "handle": "@GLZRadio",
+   "confidence": 0.8
+  },
+  {
+   "group": "israeli-media",
+   "name": "Ynet (HE)",
+   "handle": "@ynet",
+   "confidence": 0.97
+  },
+  {
+   "group": "israeli-media",
+   "name": "Maariv",
+   "handle": "@MaarivOnline",
+   "confidence": 0.95
+  },
+  {
+   "group": "israeli-media",
+   "name": "Channel 14 / Now 14",
+   "handle": "@Now14Israel",
+   "confidence": 0.9
+  },
+  {
+   "group": "israeli-media",
+   "name": "Channel 13 News",
+   "handle": "@newsisrael13",
+   "confidence": 0.95
+  },
+  {
+   "group": "israeli-media",
+   "name": "i24NEWS Hebrew (Ch.15)",
+   "handle": "@i24NEWS_HE",
+   "confidence": 0.8
+  },
+  {
    "group": "israeli-clubs",
    "name": "Maccabi Tel Aviv FC",
    "handle": "@MaccabiTLVFC",
@@ -553,66 +613,6 @@
    "name": "NFL",
    "handle": "@NFL",
    "confidence": 1
-  },
-  {
-   "group": "israeli-media",
-   "name": "Ynetnews (EN)",
-   "handle": "@ynetnews",
-   "confidence": 0.9
-  },
-  {
-   "group": "israeli-media",
-   "name": "N12 News",
-   "handle": "@N12News",
-   "confidence": 0.85
-  },
-  {
-   "group": "israeli-media",
-   "name": "Kan News",
-   "handle": "@kann_news",
-   "confidence": 0.85
-  },
-  {
-   "group": "israeli-media",
-   "name": "i24NEWS English",
-   "handle": "@i24NEWS_EN",
-   "confidence": 0.85
-  },
-  {
-   "group": "israeli-media",
-   "name": "Galei Tzahal (GLZ)",
-   "handle": "@GLZRadio",
-   "confidence": 0.8
-  },
-  {
-   "group": "israeli-media",
-   "name": "Ynet (HE)",
-   "handle": "@ynet",
-   "confidence": 0.97
-  },
-  {
-   "group": "israeli-media",
-   "name": "Maariv",
-   "handle": "@MaarivOnline",
-   "confidence": 0.95
-  },
-  {
-   "group": "israeli-media",
-   "name": "Channel 14 / Now 14",
-   "handle": "@Now14Israel",
-   "confidence": 0.9
-  },
-  {
-   "group": "israeli-media",
-   "name": "Channel 13 News",
-   "handle": "@newsisrael13",
-   "confidence": 0.95
-  },
-  {
-   "group": "israeli-media",
-   "name": "i24NEWS Hebrew (Ch.15)",
-   "handle": "@i24NEWS_HE",
-   "confidence": 0.8
   }
  ],
  "hold": [

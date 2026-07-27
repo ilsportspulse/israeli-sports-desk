@@ -136,6 +136,39 @@ export function IsraeliNewsWatcher({ initial, locale = defaultLocale }: { initia
 // pauses on hover; links jump out to X or down to the full wall.
 export function NewsWatchRail({ items, locale = defaultLocale }: { items: SocialWatchItem[]; locale?: LocaleCode }) {
   const tr = translator(locale);
+  const scrollerRef = useRef<HTMLDivElement | null>(null);
+  const pausedRef = useRef(false);
+
+  // JS-driven auto-scroll instead of a CSS marquee, so the reader can also
+  // wheel/drag through the feed manually; auto-advance pauses on interaction
+  // and resumes two seconds after the last touch. The list is rendered twice
+  // for a seamless loop. Reduced-motion users get a plain scrollable list.
+  useEffect(() => {
+    const el = scrollerRef.current;
+    if (!el || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    let resumeTimer: number | undefined;
+    const pause = () => {
+      pausedRef.current = true;
+      window.clearTimeout(resumeTimer);
+      resumeTimer = window.setTimeout(() => { pausedRef.current = false; }, 2000);
+    };
+    el.addEventListener("wheel", pause, { passive: true });
+    el.addEventListener("touchstart", pause, { passive: true });
+    el.addEventListener("pointerenter", pause);
+    const id = window.setInterval(() => {
+      if (pausedRef.current) return;
+      const half = el.scrollHeight / 2;
+      el.scrollTop = el.scrollTop >= half ? el.scrollTop - half + 1 : el.scrollTop + 1;
+    }, 40);
+    return () => {
+      window.clearInterval(id);
+      window.clearTimeout(resumeTimer);
+      el.removeEventListener("wheel", pause);
+      el.removeEventListener("touchstart", pause);
+      el.removeEventListener("pointerenter", pause);
+    };
+  }, [items.length]);
+
   if (!items.length) return null;
   return (
     <div className="trending-card sw-rail">
@@ -145,7 +178,7 @@ export function NewsWatchRail({ items, locale = defaultLocale }: { items: Social
           <h2>{tr("social.heading")}</h2>
         </div>
       </div>
-      <div className="sw-ticker sw-ticker-light">
+      <div className="sw-ticker sw-ticker-light sw-ticker-scroll" ref={scrollerRef}>
         <div className="sw-ticker-track">
           {[...items, ...items].map((item, i) => (
             <a key={`${item.url}-${i}`} href={item.url} target="_blank" rel="noopener noreferrer" className="sw-tick">

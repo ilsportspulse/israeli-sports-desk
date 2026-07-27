@@ -1569,3 +1569,7 @@ html { scroll-behavior: smooth; }
 .sw-ticker-light .sw-tick:hover { background: rgba(18,87,241,.06); }
 [data-theme="dark"] .sw-ticker-light .sw-tick-text { color: #dbe5f2; }
 [data-theme="dark"] .sw-ticker-light .sw-tick:hover { background: rgba(255,255,255,.05); }
+/* Scrollbare ticker: JS stuurt de auto-scroll; handmatig scrollen kan altijd */
+.sw-ticker-scroll { overflow-y: auto; scrollbar-width: none; }
+.sw-ticker-scroll::-webkit-scrollbar { display: none; }
+.sw-ticker-scroll .sw-ticker-track { animation: none; }

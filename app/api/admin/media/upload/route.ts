@@ -45,13 +45,15 @@ export async function POST(req: NextRequest) {
 
   const key = (form.get("key")?.toString() ?? "").trim();
   if (!key) return NextResponse.json({ error: "Key is required (article id, or any unique library name)." }, { status: 400 });
-  const replace = form.get("replace")?.toString() === "1";
-  if (!replace && (await getMedia(key))) {
-    return NextResponse.json({ error: `"${key}" already has an image — edit or delete it first.` }, { status: 409 });
-  }
+  // Uploading to a key that already has an image REPLACES it — that is what an
+  // editor attaching a new photo means. The previous entry's attribution is
+  // reused as fallback so a quick swap never fails on missing fields.
+  const previous = await getMedia(key);
 
-  const alt = (form.get("alt")?.toString() ?? "").trim();
-  if (!alt) return NextResponse.json({ error: "Alt text is required." }, { status: 400 });
+  const alt = (form.get("alt")?.toString() ?? "").trim()
+    || previous?.alt
+    || key.replace(/^live-|^archive-|^column-/, "").replace(/\d{4}-?\d{2}-?\d{2}-?/, "").replace(/-/g, " ").trim()
+    || "Story image";
   const caption = (form.get("caption")?.toString() ?? "").trim();
   const captionIssue = caption ? validateCaption(caption) : null;
   if (captionIssue) return NextResponse.json({ error: captionIssue }, { status: 400 });
@@ -68,10 +70,10 @@ export async function POST(req: NextRequest) {
     src: rel.replace(/^public/, ""),
     alt,
     caption,
-    credit: (form.get("credit")?.toString() ?? "").trim() || "Israel Sports Pulse",
-    creditUrl: (form.get("creditUrl")?.toString() ?? "").trim() || "https://ilsportspulse.com",
-    license: (form.get("license")?.toString() ?? "").trim() || "All rights reserved",
-    licenseUrl: (form.get("licenseUrl")?.toString() ?? "").trim() || "",
+    credit: (form.get("credit")?.toString() ?? "").trim() || previous?.credit || "Israel Sports Pulse",
+    creditUrl: (form.get("creditUrl")?.toString() ?? "").trim() || `https://ilsportspulse.com/#${Date.now()}`,
+    license: (form.get("license")?.toString() ?? "").trim() || previous?.license || "All rights reserved",
+    licenseUrl: (form.get("licenseUrl")?.toString() ?? "").trim() || previous?.licenseUrl || "",
   };
   const entry = await addMedia(key, asset, session.sub);
   await recordAudit({ actor: session.sub, action: "media.upload", summary: `Uploaded ${asset.src} as ${key}` });

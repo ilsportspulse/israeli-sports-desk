@@ -1,0 +1,6 @@
+{"ts":"2026-07-27T22:53:47.153Z","actor":"patrick","action":"auth.login.fail","summary":"Failed login"}
+{"ts":"2026-07-27T22:54:33.156Z","actor":"admin","action":"auth.login.fail","summary":"Failed login"}
+{"ts":"2026-07-27T22:55:23.886Z","actor":"admin","action":"auth.login","summary":"Signed in"}
+{"ts":"2026-07-27T22:55:24.630Z","actor":"admin","action":"media.upload","summary":"Uploaded /uploads/1785192924627-test-upload.jpg as live-20260727-ahavat-gordon-beats-lineker-gfn2"}
+{"ts":"2026-07-27T22:55:24.645Z","actor":"admin","action":"media.delete","target":"live-20260727-ahavat-gordon-beats-lineker-gfn2","summary":"Deleted media live-20260727-ahavat-gordon-beats-lineker-gfn2"}
+{"ts":"2026-07-27T22:55:24.660Z","actor":"admin","action":"media.upload","summary":"Uploaded /uploads/1785192924657-test-upload2.jpg as live-20260727-ahavat-gordon-beats-lineker-gfn2"}
