@@ -1055,6 +1055,13 @@ for (const [index, article] of articles.entries()) {
       // both. Fall back to deriving "File:<name>" from a commons.wikimedia.org URL.
       const candidateFiles = (article.commonsCandidates ?? [])
         .map((candidate) => {
+          // Models return a Commons candidate as an object ({title|file|url|creditUrl})
+          // or as a plain "File:..." name / file-page URL string; accept all forms.
+          if (typeof candidate === "string") {
+            if (/^File:/i.test(candidate)) return candidate;
+            const match = candidate.match(/\/wiki\/(File:[^?#]+)/i);
+            return match ? decodeURIComponent(match[1]) : null;
+          }
           const named = candidate.title ?? candidate.file;
           if (typeof named === "string" && /^File:/i.test(named)) return named;
           const url = candidate.creditUrl ?? candidate.url ?? "";

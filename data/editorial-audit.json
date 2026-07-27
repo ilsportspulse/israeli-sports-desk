@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T23:58:28.991Z",
+  "generatedAt": "2026-07-27T07:43:22.962Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,12 +17,12 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 612,
-    "publishedBefore": 406,
-    "cleanPublished": 406,
+    "totalArticles": 613,
+    "publishedBefore": 407,
+    "cleanPublished": 407,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 406,
+    "publishedAfter": 407,
     "reviewAfter": 206
   },
   "blockedPublished": [],
@@ -5299,6 +5299,18 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "archive-20260727-nicosia-29-october-2002-the-night-haifa-",
+      "slug": "nicosia-29-october-2002-the-night-haifa-humbled-manchester-united",
+      "title": "Nicosia, 29 October 2002: the night Haifa humbled Manchester United",
+      "statusBefore": "published",
+      "words": 747,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 8,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-2026-07-26-sanchez-vicario-vanished-fortune",
       "slug": "sanchez-vicario-ex-husband-41-million-fraud-verdict",

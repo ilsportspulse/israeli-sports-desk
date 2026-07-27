@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T23:58:29.310Z",
+  "generatedAt": "2026-07-27T07:43:23.074Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,19 +11,19 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 406,
+    "publishedArticles": 407,
     "wordCount": {
       "minimum": 232,
       "maximum": 1070,
       "median": 453,
-      "average": 465.7
+      "average": 466.3
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 14,
       "7": 68,
       "8": 107,
-      "9": 100,
+      "9": 101,
       "10": 79,
       "11": 22,
       "12": 5,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.264,
+    "dominantParagraphShare": 0.263,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 14,
     "analysisBelowTarget": 4,
@@ -802,6 +802,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "archive-20260727-nicosia-29-october-2002-the-night-haifa-",
+      "slug": "nicosia-29-october-2002-the-night-haifa-humbled-manchester-united",
+      "title": "Nicosia, 29 October 2002: the night Haifa humbled Manchester United",
+      "kind": "explainer",
+      "words": 739,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 57,
+        "longest": 105,
+        "average": 82.1
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 46,
+        "average": 25.5
+      },
+      "lexicalDiversity": 0.53,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-07-26-sanchez-vicario-vanished-fortune",
       "slug": "sanchez-vicario-ex-husband-41-million-fraud-verdict",

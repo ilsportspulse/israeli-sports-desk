@@ -24,7 +24,7 @@ const ARTICLES = path.join(root, "data", "articles.json");
 const QUIZ = path.join(root, "data", "daily-quiz.json");
 
 const MODEL = process.env.ANTHROPIC_MODEL ?? "claude-sonnet-5";
-const TIMEOUT_MS = Number(process.env.DAILY_TIMEOUT_MS ?? String(6 * 60 * 1000));
+const TIMEOUT_MS = Number(process.env.DAILY_TIMEOUT_MS ?? String(12 * 60 * 1000));
 const apiKey = process.env.ANTHROPIC_API_KEY;
 const MODE = process.env.DAILY_MODE ?? (apiKey && !process.env.CLAUDE_CODE_OAUTH_TOKEN ? "api" : "cli");
 
@@ -262,9 +262,6 @@ export async function runDailyFeatures(nowIso) {
   const results = {};
   let articles = readJson(ARTICLES, []);
 
-  if (!only || only === "quiz") {
-    try { results.quiz = await ensureQuiz(articles, now); } catch (e) { results.quiz = { error: e.message?.split("\n")[0] }; }
-  }
   // Each of retro/column/tour is a slow, research-heavy AI call. Running all three
   // every cycle blew past the 30-minute job window. Instead run AT MOST ONE of them
   // per cycle — the first that isn't done today — so the load spreads across the
@@ -291,7 +288,24 @@ export async function runDailyFeatures(nowIso) {
   }
   if (additions.length) {
     articles = readJson(ARTICLES, articles); // re-read in case it changed
-    writeJson(ARTICLES, [...additions, ...articles]);
+    articles = [...additions, ...articles];
+    writeJson(ARTICLES, articles);
+  }
+
+  // The quiz runs LAST and only once today's archive feature exists: the quality
+  // gate treats quiz + "From the Archive" as one package keyed to the quiz date.
+  // Writing today's quiz while the Retro call failed (e.g. a CLI timeout) left a
+  // half-package that fail-closed every subsequent cycle; keeping yesterday's
+  // complete pair live is gate-green until Retro succeeds. DAILY_ONLY=quiz keeps
+  // the manual escape hatch unconditional.
+  if (!only || only === "quiz") {
+    const today = todayIso(now);
+    const hasRetroToday = articles.some((a) => a.category === "From the Archive" && (a.publishedAt ?? "").slice(0, 10) === today);
+    if (hasRetroToday || only === "quiz") {
+      try { results.quiz = await ensureQuiz(articles, now); } catch (e) { results.quiz = { error: e.message?.split("\n")[0] }; }
+    } else {
+      results.quiz = { held: "waiting for today's archive feature so the daily package stays complete" };
+    }
   }
   return results;
 }
