@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T22:49:15.383Z",
+  "generatedAt": "2026-07-27T22:56:15.743Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,19 +11,19 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 420,
+    "publishedArticles": 422,
     "wordCount": {
       "minimum": 231,
       "maximum": 1070,
-      "median": 453.5,
-      "average": 467.8
+      "median": 453,
+      "average": 467.3
     },
     "paragraphDistribution": {
       "5": 2,
       "6": 15,
       "7": 67,
-      "8": 111,
-      "9": 104,
+      "8": 112,
+      "9": 105,
       "10": 82,
       "11": 23,
       "12": 6,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.264,
+    "dominantParagraphShare": 0.265,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 15,
     "analysisBelowTarget": 4,
@@ -1032,6 +1032,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-27-barzilay-ufc-push",
+      "slug": "ilay-barzilay-defeats-lucas-almeida-ufc-push",
+      "title": "Ilay Barzilay bags the biggest win of his career and edges closer to the UFC",
+      "kind": "news",
+      "words": 316,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 21,
+        "longest": 54,
+        "average": 39.5
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 54,
+        "average": 28.7
+      },
+      "lexicalDiversity": 0.608,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260727-padel-sydney-opera-house",
+      "slug": "padel-invitational-sydney-opera-house-2026",
+      "title": "Sydney Opera House to host inaugural Padel Invitational with Pat Rafter",
+      "kind": "news",
+      "words": 393,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 56,
+        "average": 43.7
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 88,
+        "average": 35.7
+      },
+      "lexicalDiversity": 0.573,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-07-27-psg-diomande-inflated-fee",
       "slug": "psg-pulls-out-diomande-real-madrid-transfer",
