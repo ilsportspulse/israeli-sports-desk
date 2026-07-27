@@ -134,6 +134,25 @@ export function IsraeliNewsWatcher({ initial, locale = defaultLocale }: { initia
 // Compact light-theme rail for the top of the page: replaces the static
 // "Most followed" list with the country's live pulse. Pure CSS auto-scroll,
 // pauses on hover; links jump out to X or down to the full wall.
+// Recognisable Israeli outlet identities for the rail — display name plus a
+// brand accent, so the wall reads like a newsstand instead of a list of handles.
+const OUTLETS: Record<string, { name: string; color: string }> = {
+  "@ynetnews": { name: "Ynet", color: "#d9232e" },
+  "@ynetalerts": { name: "Ynet", color: "#d9232e" },
+  "@jerusalem_post": { name: "The Jerusalem Post", color: "#1a5dab" },
+  "@haaretzcom": { name: "Haaretz", color: "#0b67c2" },
+  "@timesofisrael": { name: "Times of Israel", color: "#2a6fb0" },
+  "@i24news_he": { name: "i24NEWS", color: "#e4002b" },
+  "@i24news_en": { name: "i24NEWS", color: "#e4002b" },
+  "@maarivonline": { name: "Maariv", color: "#c8102e" },
+  "@n12news": { name: "N12", color: "#e87722" },
+  "@kann_news": { name: "Kan", color: "#6f2c91" },
+  "@now14israel": { name: "Channel 14", color: "#0e7a3d" },
+  "@glzradio": { name: "Galei Tzahal", color: "#4a6741" },
+};
+const outletOf = (handle: string) =>
+  OUTLETS[handle.toLowerCase()] ?? { name: handle, color: "var(--accent, #2563eb)" };
+
 export function NewsWatchRail({ items, locale = defaultLocale }: { items: SocialWatchItem[]; locale?: LocaleCode }) {
   const tr = translator(locale);
   const scrollerRef = useRef<HTMLDivElement | null>(null);
@@ -180,13 +199,27 @@ export function NewsWatchRail({ items, locale = defaultLocale }: { items: Social
       </div>
       <div className="sw-ticker sw-ticker-light sw-ticker-scroll" ref={scrollerRef}>
         <div className="sw-ticker-track">
-          {[...items, ...items].map((item, i) => (
-            <a key={`${item.url}-${i}`} href={item.url} target="_blank" rel="noopener noreferrer" className="sw-tick">
-              <span className="sw-handle">{item.handle}</span>
-              <span className="sw-tick-text" dir="auto">{item.text.length > 90 ? `${item.text.slice(0, 87)}…` : item.text}</span>
-              <time dateTime={item.postedAt}>{formatArticleDate(item.postedAt, true, locale)}</time>
-            </a>
-          ))}
+          {[...items, ...items].map((item, i) => {
+            const outlet = outletOf(item.handle);
+            return (
+              <div key={`${item.url}-${i}`} className="sw-tick-wrap" style={{ borderLeftColor: outlet.color }}>
+                <a href={item.url} target="_blank" rel="noopener noreferrer" className="sw-tick">
+                  <span className="sw-tick-main">
+                    <span className="sw-handle" style={{ color: outlet.color }}>{outlet.name}</span>
+                    <span className="sw-tick-text" dir="auto">{item.text.length > 120 ? `${item.text.slice(0, 117)}…` : item.text}</span>
+                    <time dateTime={item.postedAt}>{formatArticleDate(item.postedAt, true, locale)}</time>
+                  </span>
+                  {item.photoUrl && (
+                    /* eslint-disable-next-line @next/next/no-img-element -- external X CDN thumb */
+                    <img src={item.photoUrl} alt="" loading="lazy" className="sw-tick-thumb" />
+                  )}
+                </a>
+                {item.relatedSlug && (
+                  <Link href={`/story/${item.relatedSlug}`} className="sw-tick-related">{tr("social.readStory")} →</Link>
+                )}
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>

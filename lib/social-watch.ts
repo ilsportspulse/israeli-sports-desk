@@ -45,6 +45,9 @@ const cleanText = (raw: string) =>
     .replace(/\S*(?:utm_\w+=|FolderID=|docID=|\.aspx|\.co\.il\/|\.com\/|\.net\/)\S*/g, " ")
     .replace(/(?:^|\s)(?:-->|>|\.\.\.|…)(?=\s|$)/g, " ")
     .replace(/\s+/g, " ")
+    .trim()
+    // Reporter-attribution tails ("… : @Est_Davis_") are X-internal noise.
+    .replace(/[\s:•|–—-]*@\w+\s*$/, "")
     .trim();
 
 
@@ -60,7 +63,7 @@ const tokensOf = (text: string) =>
       .filter((w) => w.length >= 4 && !GENERIC.has(w)),
   );
 
-export function getSocialWatchItems(limit = 8): SocialWatchItem[] {
+export function getSocialWatchItems(limit = 36): SocialWatchItem[] {
   let signals: Array<Record<string, string>> = [];
   try {
     const doc = JSON.parse(
@@ -73,7 +76,7 @@ export function getSocialWatchItems(limit = 8): SocialWatchItem[] {
 
   const inWindow = signals
     .filter((s) => s.text && s.url && s.postedAt)
-    .filter((s) => Date.now() - new Date(s.postedAt).getTime() < 48 * 60 * 60 * 1000)
+    .filter((s) => Date.now() - new Date(s.postedAt).getTime() < 72 * 60 * 60 * 1000)
     // A link-only or hashtag-only post has nothing to quote.
     .filter((s) => cleanText(s.text).replace(/#[^\s#]+/g, "").trim().length >= 30 || Boolean(s.photoUrl));
   const fresh = inWindow
@@ -85,13 +88,15 @@ export function getSocialWatchItems(limit = 8): SocialWatchItem[] {
     .slice(0, 150)
     .map((a) => ({ slug: a.slug, title: a.title, toks: tokensOf(`${a.title} ${a.dek ?? ""}`) }));
 
+  // Two passes: first capped per account for variety, then — if the pool is
+  // still short of the limit — a fill pass that relaxes the cap, so the wall
+  // stays full even on days when only a few outlets are loud.
   const seenHandles = new Map<string, number>();
+  const seenUrls = new Set<string>();
   const items: SocialWatchItem[] = [];
-  for (const s of fresh) {
-    if (items.length >= limit) break;
-    // At most two posts per account keeps the wall varied.
-    const per = seenHandles.get(s.handle) ?? 0;
-    if (per >= 2) continue;
+  const addItem = (s: Record<string, string>) => {
+    if (seenUrls.has(s.url)) return;
+    seenUrls.add(s.url);
     const toks = tokensOf(s.text);
     let related: { slug: string; title: string } | undefined;
     let best = 0;
@@ -114,7 +119,19 @@ export function getSocialWatchItems(limit = 8): SocialWatchItem[] {
       relatedSlug: related?.slug,
       relatedTitle: related?.title,
     });
-    seenHandles.set(s.handle, per + 1);
+    seenHandles.set(s.handle, (seenHandles.get(s.handle) ?? 0) + 1);
+  };
+
+  for (const s of fresh) {
+    if (items.length >= limit) break;
+    if ((seenHandles.get(s.handle) ?? 0) >= 4) continue;
+    addItem(s);
+  }
+  if (items.length < limit) {
+    for (const s of fresh) {
+      if (items.length >= limit) break;
+      addItem(s);
+    }
   }
   return items;
 }

@@ -1573,3 +1573,12 @@ html { scroll-behavior: smooth; }
 .sw-ticker-scroll { overflow-y: auto; scrollbar-width: none; }
 .sw-ticker-scroll::-webkit-scrollbar { display: none; }
 .sw-ticker-scroll .sw-ticker-track { animation: none; }
+/* Newsstand-kaarten in de rail: outlet-accentbalk links, foto-thumb rechts */
+.sw-tick-wrap { border-left: 3px solid transparent; border-bottom: 1px solid var(--line, #edf1f6); }
+.sw-tick-wrap .sw-tick { flex-direction: row; gap: 10px; align-items: flex-start; border-bottom: none; }
+.sw-tick-main { display: flex; flex-direction: column; gap: 3px; flex: 1; min-width: 0; }
+.sw-tick-thumb { width: 58px; height: 58px; flex: none; border-radius: 8px; object-fit: cover; background: #e8ecf3; }
+.sw-tick-related { display: block; padding: 0 16px 10px; margin-top: -4px; font-size: 12px; font-weight: 700; color: var(--accent, #1257f1); text-decoration: none; }
+.sw-tick-related:hover { text-decoration: underline; }
+[data-theme="dark"] .sw-tick-wrap { border-bottom-color: rgba(255,255,255,.07); }
+[data-theme="dark"] .sw-tick-thumb { background: rgba(255,255,255,.08); }
