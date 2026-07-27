@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T17:34:24.268Z",
+  "generatedAt": "2026-07-27T19:18:20.757Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 430,
+    "publishedArticles": 435,
     "wordCount": {
       "minimum": 231,
       "maximum": 1070,
-      "median": 451.5,
-      "average": 462.9
+      "median": 451,
+      "average": 462.3
     },
     "paragraphDistribution": {
-      "5": 1,
+      "5": 2,
       "6": 15,
-      "7": 69,
+      "7": 70,
       "8": 119,
-      "9": 105,
-      "10": 83,
+      "9": 107,
+      "10": 84,
       "11": 22,
       "12": 6,
       "13": 4,
@@ -33,11 +33,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.277,
+    "dominantParagraphShare": 0.274,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 15,
     "analysisBelowTarget": 4,
-    "articlesWithStyleFlags": 42
+    "articlesWithStyleFlags": 44
   },
   "flagged": [
     {
@@ -62,6 +62,52 @@
       "flags": [
         "stock-phrase:statement-of-intent",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260727-kangwa-katz-aek-rejection",
+      "slug": "nir-katz-rejects-aek-athens-kings-kangwa-panathinaikos",
+      "title": "Beersheba's Nir Katz: \"I'm not giving him to you, not even for 10 million euro\"",
+      "kind": "news",
+      "words": 483,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 42,
+        "longest": 77,
+        "average": 53.7
+      },
+      "sentenceWords": {
+        "shortest": 3,
+        "longest": 64,
+        "average": 25.4
+      },
+      "lexicalDiversity": 0.58,
+      "publisherAttributions": 2,
+      "flags": [
+        "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-07-27-schneiderman-eilat-basketball",
+      "slug": "yuval-schneiderman-signs-hapoel-ironi-eilat",
+      "title": "Point guard Yuval Schneiderman signs with Hapoel Ironi Eilat",
+      "kind": "article",
+      "words": 271,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 13,
+        "longest": 64,
+        "average": 38.7
+      },
+      "sentenceWords": {
+        "shortest": 13,
+        "longest": 64,
+        "average": 38.7
+      },
+      "lexicalDiversity": 0.646,
+      "publisherAttributions": 1,
+      "flags": [
+        "below-editorial-target:271/280"
       ]
     },
     {
@@ -1009,6 +1055,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260727-hapoel-petah-tikva-youth-attack",
+      "slug": "hapoel-petah-tikva-youth-signs-azoulai-kostaki",
+      "title": "Hapoel Petah Tikva strengthen their Youth A attack with two prolific teenage scorers",
+      "kind": "news",
+      "words": 324,
+      "paragraphs": 5,
+      "paragraphWords": {
+        "shortest": 51,
+        "longest": 86,
+        "average": 64.8
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 59,
+        "average": 32.4
+      },
+      "lexicalDiversity": 0.599,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-27-maldini-leonardo-resign-figc",
+      "slug": "maldini-leonardo-resign-italy-technical-director-pirlo",
+      "title": "Maldini and Leonardo quit Italian federation roles over Pirlo saga",
+      "kind": "article",
+      "words": 448,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 66,
+        "average": 49.8
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 44,
+        "average": 28
+      },
+      "lexicalDiversity": 0.609,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-27-ginat-hapoel-contract-extension",
+      "slug": "hapoel-tel-aviv-ginat-contract-extension-retire",
+      "title": "Hapoel is my home, I want to retire here, says Ginat after new deal",
+      "kind": "news",
+      "words": 560,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 86,
+        "average": 56
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 137,
+        "average": 37.3
+      },
+      "lexicalDiversity": 0.53,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-07-27-asencio-marseille-welbeck-chelsea",
       "slug": "asencio-marseille-loan-welbeck-chelsea-interest",

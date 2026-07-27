@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T17:34:23.953Z",
+  "generatedAt": "2026-07-27T19:18:20.400Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,75 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 648,
-    "publishedBefore": 430,
-    "cleanPublished": 430,
+    "totalArticles": 655,
+    "publishedBefore": 435,
+    "cleanPublished": 435,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 430,
-    "reviewAfter": 218
+    "publishedAfter": 435,
+    "reviewAfter": 220
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-20260727-israel-u16-handball-rout-mexico",
+      "slug": "israel-u16-handball-rout-mexico-zagreb",
+      "title": "Israel's under-16 handball team crush Mexico 19-3 at the world championship",
+      "statusBefore": "review",
+      "words": 375,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2",
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "live-20260727-hapoel-petah-tikva-youth-attack",
+      "slug": "hapoel-petah-tikva-youth-signs-azoulai-kostaki",
+      "title": "Hapoel Petah Tikva strengthen their Youth A attack with two prolific teenage scorers",
+      "statusBefore": "published",
+      "words": 327,
+      "paragraphs": 5,
+      "facts": 6,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260727-kangwa-katz-aek-rejection",
+      "slug": "nir-katz-rejects-aek-athens-kings-kangwa-panathinaikos",
+      "title": "Beersheba's Nir Katz: \"I'm not giving him to you, not even for 10 million euro\"",
+      "statusBefore": "published",
+      "words": 484,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:3"
+      ]
+    },
+    {
+      "id": "live-20260727-nachmias-ludogorets-hapoel-tel-aviv",
+      "slug": "nachmias-full-90-ludogorets-hapoel-tel-aviv-return-leg",
+      "title": "Nachmias goes the full 90 as Ludogorets stay top before Hapoel Tel Aviv return leg",
+      "statusBefore": "review",
+      "words": 387,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
     {
       "id": "live-20260727-gordon-brothers-gfn1-tel-aviv",
       "slug": "gordon-brothers-gfn-1-tel-aviv-preview",
@@ -138,6 +197,20 @@
       "warnings": [
         "presentation:outlet-name-in-headline",
         "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260727-kuzma-mamdani-netanyahu",
+      "slug": "kyle-kuzma-slams-zohran-mamdani-netanyahu-video",
+      "title": "Kyle Kuzma blasts NYC mayor Zohran Mamdani over viral Netanyahu video",
+      "statusBefore": "published",
+      "words": 422,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -5692,6 +5765,71 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-20260727-hapoel-petah-tikva-youth-attack",
+      "slug": "hapoel-petah-tikva-youth-signs-azoulai-kostaki",
+      "title": "Hapoel Petah Tikva strengthen their Youth A attack with two prolific teenage scorers",
+      "statusBefore": "published",
+      "words": 327,
+      "paragraphs": 5,
+      "facts": 6,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260727-kangwa-katz-aek-rejection",
+      "slug": "nir-katz-rejects-aek-athens-kings-kangwa-panathinaikos",
+      "title": "Beersheba's Nir Katz: \"I'm not giving him to you, not even for 10 million euro\"",
+      "statusBefore": "published",
+      "words": 484,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:3"
+      ]
+    },
+    {
+      "id": "live-2026-07-27-maldini-leonardo-resign-figc",
+      "slug": "maldini-leonardo-resign-italy-technical-director-pirlo",
+      "title": "Maldini and Leonardo quit Italian federation roles over Pirlo saga",
+      "statusBefore": "published",
+      "words": 448,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-07-27-ginat-hapoel-contract-extension",
+      "slug": "hapoel-tel-aviv-ginat-contract-extension-retire",
+      "title": "Hapoel is my home, I want to retire here, says Ginat after new deal",
+      "statusBefore": "published",
+      "words": 554,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-07-27-schneiderman-eilat-basketball",
+      "slug": "yuval-schneiderman-signs-hapoel-ironi-eilat",
+      "title": "Point guard Yuval Schneiderman signs with Hapoel Ironi Eilat",
+      "statusBefore": "published",
+      "words": 266,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": []
+    },
+    {
       "id": "live-2026-07-27-asencio-marseille-welbeck-chelsea",
       "slug": "asencio-marseille-loan-welbeck-chelsea-interest",
       "title": "Real Madrid ready to loan out Asencio to Marseille as Chelsea explore Welbeck return",
@@ -5783,7 +5921,9 @@
       "facts": 7,
       "verificationSources": 4,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-2026-07-27-ander-herrera-returns-real-zaragoza",

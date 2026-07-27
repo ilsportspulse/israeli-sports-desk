@@ -1,25 +1,52 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-07-27-asencio-marseille-welbeck-chelsea",
-      "article": "Real Madrid ready to loan out Asencio to Marseille as Chelsea explore Welbeck return",
-      "file": "File:Raul-Asencio-Real-Madrid-2025.jpg",
+      "articleId": "live-20260727-israel-u16-handball-rout-mexico",
+      "article": "Israel's under-16 handball team crush Mexico 19-3 at the world championship",
+      "file": "File:20141206 1413 PORISR 6057.jpg",
+      "license": "CC BY-SA 3.0 at"
+    },
+    {
+      "articleId": "live-20260727-hapoel-petah-tikva-youth-attack",
+      "article": "Hapoel Petah Tikva strengthen their Youth A attack with two prolific teenage scorers",
+      "file": "File:HaMoshava Stadium (13).jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "articleId": "live-2026-07-27-maldini-leonardo-resign-figc",
+      "article": "Maldini and Leonardo quit Italian federation roles over Pirlo saga",
+      "file": "File:Paolo Maldini AC Milan Technical director 2018.jpg",
+      "license": "CC BY 3.0"
+    },
+    {
+      "articleId": "live-20260727-nachmias-ludogorets-hapoel-tel-aviv",
+      "article": "Nachmias goes the full 90 as Ludogorets stay top before Hapoel Tel Aviv return leg",
+      "file": "File:Supporters Hapoel Tel Aviv.JPG",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "articleId": "live-20260727-kuzma-mamdani-netanyahu",
+      "article": "Kyle Kuzma blasts NYC mayor Zohran Mamdani over viral Netanyahu video",
+      "file": "File:Kyle Kuzma (51815879993).jpg",
       "license": "CC BY-SA 2.0"
-    },
-    {
-      "articleId": "live-2026-07-27-peretz-southampton-easy-decision",
-      "article": "Daniel Peretz on his Southampton move: 'It was an easy decision'",
-      "file": "File:Daniel Peretz 2022 (cropped).jpg",
-      "license": "CC BY-SA 4.0"
-    },
-    {
-      "articleId": "live-2026-07-27-kiryat-shmona-mordechai-ceremony",
-      "article": "Kiryat Shmona to postpone Yair Mordechai ceremony until league clash with Haifa",
-      "file": "File:Kiryat Shemona stadium.jpg",
-      "license": "CC BY-SA 4.0"
     }
   ],
   "failures": [
+    {
+      "id": "live-20260727-kangwa-katz-aek-rejection",
+      "title": "Beersheba's Nir Katz: \"I'm not giving him to you, not even for 10 million euro\"",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-2026-07-27-ginat-hapoel-contract-extension",
+      "title": "Hapoel is my home, I want to retire here, says Ginat after new deal",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-2026-07-27-schneiderman-eilat-basketball",
+      "title": "Point guard Yuval Schneiderman signs with Hapoel Ironi Eilat",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
     {
       "id": "live-20260727-gordon-brothers-gfn1-tel-aviv",
       "title": "Three Gordon brothers to fight on the same card as Tel Aviv hosts Israel's biggest combat sports night",
@@ -39,11 +66,6 @@
       "id": "live-2026-07-27-manor-solomon-leeds-interest",
       "title": "Leeds urged to move for Manor Solomon at £20m after another eye-catching Spurs cameo",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
-    },
-    {
-      "id": "live-20260727-kuzma-mamdani-netanyahu",
-      "title": "Kyle Kuzma blasts NYC mayor Zohran Mamdani over viral Netanyahu video",
-      "error": "image download 429 after retries"
     },
     {
       "id": "live-2026-07-27-israel-u18-basketball-perfect-group-stage",

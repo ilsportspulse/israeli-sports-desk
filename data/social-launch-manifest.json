@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-27T17:34:23Z",
-    "validUntil": "2026-07-28T05:34:23Z",
+    "checkedAt": "2026-07-27T19:18:20Z",
+    "validUntil": "2026-07-28T07:18:20Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 189,
+        "maxAgeHours": 190,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-07-27-asencio-marseille-welbeck-chelsea",
+        "articleId": "live-20260727-hapoel-petah-tikva-youth-attack",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 196,
+        "maxAgeHours": 198,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-07-27-peretz-southampton-easy-decision",
+        "articleId": "live-20260727-kangwa-katz-aek-rejection",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 207,
+        "maxAgeHours": 208,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-07-27-kiryat-shmona-mordechai-ceremony",
+        "articleId": "live-2026-07-27-maldini-leonardo-resign-figc",
         "maxAgeHours": 24,
         "requires": []
       }
