@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-27T19:18:20Z",
-    "validUntil": "2026-07-28T07:18:20Z",
+    "checkedAt": "2026-07-27T20:59:53Z",
+    "validUntil": "2026-07-28T08:59:53Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 190,
+        "maxAgeHours": 192,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260727-hapoel-petah-tikva-youth-attack",
+        "articleId": "live-2026-07-27-vincic-retires-world-cup-final-referee",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 198,
+        "maxAgeHours": 200,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260727-kangwa-katz-aek-rejection",
+        "articleId": "live-20260727-nimni-maccabi-winger-defender",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 208,
+        "maxAgeHours": 210,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-07-27-maldini-leonardo-resign-figc",
+        "articleId": "column-20260727-ginat-2030-strategy",
         "maxAgeHours": 24,
         "requires": []
       }

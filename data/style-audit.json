@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T20:37:28.556Z",
+  "generatedAt": "2026-07-27T20:59:53.782Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,19 +11,19 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 435,
+    "publishedArticles": 438,
     "wordCount": {
       "minimum": 231,
       "maximum": 1070,
-      "median": 452,
-      "average": 463.8
+      "median": 450.5,
+      "average": 463.3
     },
     "paragraphDistribution": {
       "5": 2,
-      "6": 15,
+      "6": 16,
       "7": 70,
       "8": 119,
-      "9": 107,
+      "9": 109,
       "10": 83,
       "11": 23,
       "12": 6,
@@ -33,9 +33,9 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.274,
+    "dominantParagraphShare": 0.272,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 15,
+    "exactSixParagraphArticles": 16,
     "analysisBelowTarget": 4,
     "articlesWithStyleFlags": 44
   },
@@ -1055,6 +1055,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-27-vincic-retires-world-cup-final-referee",
+      "slug": "world-cup-final-referee-slavko-vincic-retires",
+      "title": "World Cup final referee Slavko Vinčić announces retirement",
+      "kind": "news",
+      "words": 364,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 53,
+        "average": 40.4
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 63,
+        "average": 33.1
+      },
+      "lexicalDiversity": 0.58,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260727-nimni-maccabi-winger-defender",
+      "slug": "avi-nimni-maccabi-tel-aviv-winger-defender-needs",
+      "title": "Avi Nimni: Maccabi Tel Aviv still need a winger and a defender",
+      "kind": "news",
+      "words": 412,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 60,
+        "average": 45.8
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 75,
+        "average": 34.3
+      },
+      "lexicalDiversity": 0.6,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-27-kivdei-gordon-ko-quinones",
+      "slug": "kivdei-gordon-ko-jose-alberto-quinones-tel-aviv",
+      "title": "Kivdei Gordon opens family's Tel Aviv card with 45-second knockout",
+      "kind": "news",
+      "words": 375,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 54,
+        "longest": 70,
+        "average": 62.5
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 54,
+        "average": 28.8
+      },
+      "lexicalDiversity": 0.616,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "column-20260727-ginat-2030-strategy",
       "slug": "ginat-2030-hapoel-tel-aviv-strategy-column",

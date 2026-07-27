@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T20:37:28.441Z",
+  "generatedAt": "2026-07-27T20:59:53.430Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,58 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 656,
-    "publishedBefore": 435,
-    "cleanPublished": 435,
+    "totalArticles": 661,
+    "publishedBefore": 438,
+    "cleanPublished": 438,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 435,
-    "reviewAfter": 221
+    "publishedAfter": 438,
+    "reviewAfter": 223
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-2026-07-27-vincic-retires-world-cup-final-referee",
+      "slug": "world-cup-final-referee-slavko-vincic-retires",
+      "title": "World Cup final referee Slavko Vinčić announces retirement",
+      "statusBefore": "published",
+      "words": 364,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260727-nimni-maccabi-winger-defender",
+      "slug": "avi-nimni-maccabi-tel-aviv-winger-defender-needs",
+      "title": "Avi Nimni: Maccabi Tel Aviv still need a winger and a defender",
+      "statusBefore": "published",
+      "words": 412,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-07-27-bnei-sakhnin-loai-halaf",
+      "slug": "bnei-sakhnin-sign-forward-loai-halaf",
+      "title": "Bnei Sakhnin sign forward Loai Halaf on a two-year deal from Maccabi Netanya",
+      "statusBefore": "review",
+      "words": 223,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
     {
       "id": "live-20260727-israel-u16-handball-rout-mexico",
       "slug": "israel-u16-handball-rout-mexico-zagreb",
@@ -5808,6 +5850,46 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-07-27-vincic-retires-world-cup-final-referee",
+      "slug": "world-cup-final-referee-slavko-vincic-retires",
+      "title": "World Cup final referee Slavko Vinčić announces retirement",
+      "statusBefore": "published",
+      "words": 364,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260727-nimni-maccabi-winger-defender",
+      "slug": "avi-nimni-maccabi-tel-aviv-winger-defender-needs",
+      "title": "Avi Nimni: Maccabi Tel Aviv still need a winger and a defender",
+      "statusBefore": "published",
+      "words": 412,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-07-27-kivdei-gordon-ko-quinones",
+      "slug": "kivdei-gordon-ko-jose-alberto-quinones-tel-aviv",
+      "title": "Kivdei Gordon opens family's Tel Aviv card with 45-second knockout",
+      "statusBefore": "published",
+      "words": 379,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "column-20260727-ginat-2030-strategy",
       "slug": "ginat-2030-hapoel-tel-aviv-strategy-column",
