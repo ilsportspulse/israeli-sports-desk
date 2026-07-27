@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-28T01:05:00+03:00",
+ "updatedAt": "2026-07-28T02:20:00+03:00",
  "policy": "volg alleen geverifieerde officiele accounts; batches van max ~35/dag; hold-lijst pas na extra verificatie",
  "accounts": [
   {
@@ -259,6 +259,264 @@
    "name": "Josh Halickman (Sports Rabbi)",
    "handle": "@thesportsrabbi",
    "confidence": 0.9
+  },
+  {
+   "group": "israeli-players",
+   "name": "Manor Solomon",
+   "handle": "@Manorsolomon",
+   "confidence": 0.95
+  },
+  {
+   "group": "israeli-players",
+   "name": "Daniel Peretz",
+   "handle": "@danielperetz__",
+   "confidence": 0.75
+  },
+  {
+   "group": "world-clubs",
+   "name": "Real Madrid EN",
+   "handle": "@realmadriden",
+   "confidence": 0.95
+  },
+  {
+   "group": "world-clubs",
+   "name": "FC Barcelona",
+   "handle": "@FCBarcelona",
+   "confidence": 1
+  },
+  {
+   "group": "world-clubs",
+   "name": "Manchester United",
+   "handle": "@ManUtd",
+   "confidence": 1
+  },
+  {
+   "group": "world-clubs",
+   "name": "Manchester City",
+   "handle": "@ManCity",
+   "confidence": 1
+  },
+  {
+   "group": "world-clubs",
+   "name": "Liverpool FC",
+   "handle": "@LFC",
+   "confidence": 1
+  },
+  {
+   "group": "world-clubs",
+   "name": "Arsenal",
+   "handle": "@Arsenal",
+   "confidence": 1
+  },
+  {
+   "group": "world-clubs",
+   "name": "Chelsea FC",
+   "handle": "@ChelseaFC",
+   "confidence": 1
+  },
+  {
+   "group": "world-clubs",
+   "name": "Tottenham Hotspur",
+   "handle": "@SpursOfficial",
+   "confidence": 1
+  },
+  {
+   "group": "world-clubs",
+   "name": "FC Bayern EN",
+   "handle": "@FCBayernEN",
+   "confidence": 0.9
+  },
+  {
+   "group": "world-clubs",
+   "name": "PSG English",
+   "handle": "@PSG_English",
+   "confidence": 0.9
+  },
+  {
+   "group": "world-clubs",
+   "name": "AFC Ajax",
+   "handle": "@AFCAjax",
+   "confidence": 1
+  },
+  {
+   "group": "world-clubs",
+   "name": "Union Saint-Gilloise",
+   "handle": "@UnionStGilloise",
+   "confidence": 0.95
+  },
+  {
+   "group": "world-clubs",
+   "name": "Ferencvarosi TC",
+   "handle": "@Fradi_HU",
+   "confidence": 0.95
+  },
+  {
+   "group": "world-clubs",
+   "name": "Southampton FC",
+   "handle": "@SouthamptonFC",
+   "confidence": 0.95
+  },
+  {
+   "group": "world-clubs",
+   "name": "Charlotte FC",
+   "handle": "@CharlotteFC",
+   "confidence": 0.95
+  },
+  {
+   "group": "world-clubs",
+   "name": "D.C. United",
+   "handle": "@dcunited",
+   "confidence": 0.8
+  },
+  {
+   "group": "competitions",
+   "name": "Serie A EN",
+   "handle": "@SerieA_EN",
+   "confidence": 0.95
+  },
+  {
+   "group": "competitions",
+   "name": "Bundesliga EN",
+   "handle": "@Bundesliga_EN",
+   "confidence": 0.9
+  },
+  {
+   "group": "competitions",
+   "name": "Ligue 1 EN",
+   "handle": "@Ligue1_ENG",
+   "confidence": 0.95
+  },
+  {
+   "group": "competitions",
+   "name": "Europa League",
+   "handle": "@EuropaLeague",
+   "confidence": 1
+  },
+  {
+   "group": "competitions",
+   "name": "Conference League",
+   "handle": "@Conf_League",
+   "confidence": 0.75
+  },
+  {
+   "group": "competitions",
+   "name": "FIBA",
+   "handle": "@FIBA",
+   "confidence": 0.95
+  },
+  {
+   "group": "competitions",
+   "name": "FIBA EuroBasket",
+   "handle": "@EuroBasket",
+   "confidence": 0.95
+  },
+  {
+   "group": "competitions",
+   "name": "ATP Tour",
+   "handle": "@atptour",
+   "confidence": 1
+  },
+  {
+   "group": "competitions",
+   "name": "WTA",
+   "handle": "@WTA",
+   "confidence": 1
+  },
+  {
+   "group": "competitions",
+   "name": "Tour de France",
+   "handle": "@LeTour",
+   "confidence": 1
+  },
+  {
+   "group": "competitions",
+   "name": "Olympics",
+   "handle": "@Olympics",
+   "confidence": 1
+  },
+  {
+   "group": "competitions",
+   "name": "Paralympics",
+   "handle": "@Paralympics",
+   "confidence": 0.95
+  },
+  {
+   "group": "competitions",
+   "name": "MLS",
+   "handle": "@MLS",
+   "confidence": 0.95
+  },
+  {
+   "group": "competitions",
+   "name": "Eredivisie",
+   "handle": "@eredivisie",
+   "confidence": 0.8
+  },
+  {
+   "group": "world-media-insiders",
+   "name": "The Athletic",
+   "handle": "@TheAthletic",
+   "confidence": 1
+  },
+  {
+   "group": "world-media-insiders",
+   "name": "Bleacher Report",
+   "handle": "@BleacherReport",
+   "confidence": 1
+  },
+  {
+   "group": "world-media-insiders",
+   "name": "ESPN NBA",
+   "handle": "@ESPNNBA",
+   "confidence": 0.9
+  },
+  {
+   "group": "world-media-insiders",
+   "name": "MARCA in English",
+   "handle": "@MARCAinENGLISH",
+   "confidence": 0.95
+  },
+  {
+   "group": "world-media-insiders",
+   "name": "L'Equipe",
+   "handle": "@lequipe",
+   "confidence": 0.9
+  },
+  {
+   "group": "world-media-insiders",
+   "name": "Guardian Sport",
+   "handle": "@guardian_sport",
+   "confidence": 0.9
+  },
+  {
+   "group": "world-media-insiders",
+   "name": "Telegraph Football",
+   "handle": "@TeleFootball",
+   "confidence": 0.95
+  },
+  {
+   "group": "world-media-insiders",
+   "name": "Times Sport",
+   "handle": "@TimesSport",
+   "confidence": 0.9
+  },
+  {
+   "group": "world-media-insiders",
+   "name": "Gianluca Di Marzio",
+   "handle": "@DiMarzio",
+   "confidence": 0.95
+  },
+  {
+   "group": "world-media-insiders",
+   "name": "Florian Plettenberg",
+   "handle": "@Plettigoal",
+   "confidence": 0.95
+  },
+  {
+   "group": "israeli-extras",
+   "name": "Maccabi USA",
+   "handle": "@MaccabiUSA",
+   "confidence": 0.8
   }
  ],
  "hold": [
@@ -275,6 +533,13 @@
    "handle": "@hptfc1926",
    "confidence": 0.65,
    "note": "officialiteit niet volledig bevestigd"
+  },
+  {
+   "group": "israeli-extras",
+   "name": "Israel Tennis Association",
+   "handle": "@Israel_Tennis",
+   "confidence": 0.65,
+   "note": "zeer kleine/onzekere activiteit"
   }
  ],
  "noXPresence": [
