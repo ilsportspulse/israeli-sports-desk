@@ -39,7 +39,16 @@ export default async function ReviewQueuePage() {
                         <b style={{ color: "var(--a-ink)" }}>Held because:</b> {reasons.join("; ")}
                       </div>
                     )}
-                    <div className="row-meta" style={{ marginTop: 8 }}>/{a.slug} · source: {a.source?.name || "—"}</div>
+                    <div className="row-meta" style={{ marginTop: 8 }}>/{a.slug} · source: {a.source?.name || "—"}{typeof a.confidence === "number" ? ` · confidence ${a.confidence.toFixed(2)}` : ""}</div>
+                    {a.warning ? (
+                      <div style={{ marginTop: 6, fontSize: 12.5, lineHeight: 1.45, color: "#92400e", background: "#fef3c7", border: "1px solid #fde68a", borderRadius: 7, padding: "6px 10px" }}>
+                        <strong>Waarom in review:</strong> {a.warning}
+                      </div>
+                    ) : (
+                      <div style={{ marginTop: 6, fontSize: 12.5, color: "var(--a-muted)" }}>
+                        Geen expliciete reden — held onder de toenmalige publicatielat{typeof a.confidence === "number" ? ` (confidence ${a.confidence.toFixed(2)} < 0.92)` : ""}.
+                      </div>
+                    )}
                   </div>
                   <div style={{ display: "flex", flexDirection: "column", gap: 8, alignItems: "flex-end" }}>
                     <ArticleRowActions id={a.id} status="review" slug={a.slug} compact />
