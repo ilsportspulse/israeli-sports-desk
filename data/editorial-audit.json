@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T12:43:12.241Z",
+  "generatedAt": "2026-07-27T15:50:40.670Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,102 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 634,
-    "publishedBefore": 421,
-    "cleanPublished": 421,
+    "totalArticles": 642,
+    "publishedBefore": 426,
+    "cleanPublished": 426,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 421,
-    "reviewAfter": 213
+    "publishedAfter": 426,
+    "reviewAfter": 216
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-2026-07-27-abuhatzira-netanya-women-coach",
+      "slug": "shimon-abuhatzira-netanya-women-coach",
+      "title": "Shimon Abuhatzira named coach of Maccabi Netanya's women's team",
+      "statusBefore": "published",
+      "words": 352,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260727-maccabi-zoho-sponsorship",
+      "slug": "maccabi-tel-aviv-zoho-technology-sponsorship",
+      "title": "Maccabi Tel Aviv basketball club signs three-year sponsorship deal with Zoho",
+      "statusBefore": "published",
+      "words": 341,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-27-manor-solomon-leeds-interest",
+      "slug": "manor-solomon-leeds-transfer-interest",
+      "title": "Leeds urged to move for Manor Solomon at £20m after another eye-catching Spurs cameo",
+      "statusBefore": "review",
+      "words": 325,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-07-27-ander-herrera-returns-real-zaragoza",
+      "slug": "ander-herrera-returns-real-zaragoza-boyhood-club",
+      "title": "Following Cazorla's path, Ander Herrera goes home to Real Zaragoza",
+      "statusBefore": "published",
+      "words": 470,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-07-27-premier-league-goalkeeper-timewasting-rule",
+      "slug": "premier-league-goalkeeper-timewasting-rule-2026-27",
+      "title": "Premier League moves to close the goalkeeper injury loophole",
+      "statusBefore": "published",
+      "words": 600,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-27-gordon-brothers-fight-night",
+      "slug": "gordon-brothers-fight-night-tel-aviv",
+      "title": "Gordon brothers make history with triple debut as Ahavat Gordon takes on John Lineker",
+      "statusBefore": "review",
+      "words": 280,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-07-27-israel-austria-u18-eurobasket",
       "slug": "israel-austria-u18-eurobasket-third-quarter-live",
@@ -71,6 +157,20 @@
       "blockers": [],
       "warnings": [
         "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-27-eric-garcia-champions-league-ambition",
+      "slug": "eric-garcia-champions-league-next-goal-barcelona",
+      "title": "Eric García: winning the Champions League with Barcelona is next",
+      "statusBefore": "published",
+      "words": 377,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -5522,6 +5622,74 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-2026-07-27-abuhatzira-netanya-women-coach",
+      "slug": "shimon-abuhatzira-netanya-women-coach",
+      "title": "Shimon Abuhatzira named coach of Maccabi Netanya's women's team",
+      "statusBefore": "published",
+      "words": 352,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260727-maccabi-zoho-sponsorship",
+      "slug": "maccabi-tel-aviv-zoho-technology-sponsorship",
+      "title": "Maccabi Tel Aviv basketball club signs three-year sponsorship deal with Zoho",
+      "statusBefore": "published",
+      "words": 341,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260727-kuzma-mamdani-netanyahu",
+      "slug": "kyle-kuzma-slams-zohran-mamdani-netanyahu-video",
+      "title": "Kyle Kuzma blasts NYC mayor Zohran Mamdani over viral Netanyahu video",
+      "statusBefore": "published",
+      "words": 422,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-07-27-ander-herrera-returns-real-zaragoza",
+      "slug": "ander-herrera-returns-real-zaragoza-boyhood-club",
+      "title": "Following Cazorla's path, Ander Herrera goes home to Real Zaragoza",
+      "statusBefore": "published",
+      "words": 470,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-07-27-premier-league-goalkeeper-timewasting-rule",
+      "slug": "premier-league-goalkeeper-timewasting-rule-2026-27",
+      "title": "Premier League moves to close the goalkeeper injury loophole",
+      "statusBefore": "published",
+      "words": 600,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-20260727-orian-goren-barcelona-dna",
       "slug": "orian-goren-israel-coach-compares-dna-xavi-iniesta-pedri",
       "title": "Israel youth coach: Orian Goren's \"DNA\" resembles Xavi, Iniesta and Pedri",
@@ -5572,7 +5740,9 @@
       "facts": 7,
       "verificationSources": 3,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-2026-07-27-tiberias-infusion-scandal-response",

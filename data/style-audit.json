@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T12:43:12.640Z",
+  "generatedAt": "2026-07-27T15:50:41.038Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,19 +11,19 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 421,
+    "publishedArticles": 426,
     "wordCount": {
       "minimum": 231,
       "maximum": 1070,
       "median": 452,
-      "average": 464.1
+      "average": 463.7
     },
     "paragraphDistribution": {
       "5": 1,
-      "6": 14,
+      "6": 15,
       "7": 68,
-      "8": 115,
-      "9": 103,
+      "8": 118,
+      "9": 104,
       "10": 82,
       "11": 22,
       "12": 6,
@@ -33,11 +33,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.273,
+    "dominantParagraphShare": 0.277,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 14,
+    "exactSixParagraphArticles": 15,
     "analysisBelowTarget": 4,
-    "articlesWithStyleFlags": 40
+    "articlesWithStyleFlags": 41
   },
   "flagged": [
     {
@@ -61,6 +61,29 @@
       "publisherAttributions": 2,
       "flags": [
         "stock-phrase:statement-of-intent",
+        "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-07-27-ander-herrera-returns-real-zaragoza",
+      "slug": "ander-herrera-returns-real-zaragoza-boyhood-club",
+      "title": "Following Cazorla's path, Ander Herrera goes home to Real Zaragoza",
+      "kind": "article",
+      "words": 470,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 44,
+        "longest": 62,
+        "average": 52.2
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 72,
+        "average": 33.6
+      },
+      "lexicalDiversity": 0.568,
+      "publisherAttributions": 2,
+      "flags": [
         "publisher-attribution-heavy:2"
       ]
     },
@@ -963,6 +986,90 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-27-abuhatzira-netanya-women-coach",
+      "slug": "shimon-abuhatzira-netanya-women-coach",
+      "title": "Shimon Abuhatzira named coach of Maccabi Netanya's women's team",
+      "kind": "news",
+      "words": 352,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 20,
+        "longest": 109,
+        "average": 58.7
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 46,
+        "average": 27.1
+      },
+      "lexicalDiversity": 0.594,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260727-maccabi-zoho-sponsorship",
+      "slug": "maccabi-tel-aviv-zoho-technology-sponsorship",
+      "title": "Maccabi Tel Aviv basketball club signs three-year sponsorship deal with Zoho",
+      "kind": "news",
+      "words": 338,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 22,
+        "longest": 59,
+        "average": 42.3
+      },
+      "sentenceWords": {
+        "shortest": 20,
+        "longest": 111,
+        "average": 42.3
+      },
+      "lexicalDiversity": 0.612,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260727-kuzma-mamdani-netanyahu",
+      "slug": "kyle-kuzma-slams-zohran-mamdani-netanyahu-video",
+      "title": "Kyle Kuzma blasts NYC mayor Zohran Mamdani over viral Netanyahu video",
+      "kind": "news",
+      "words": 425,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 41,
+        "longest": 86,
+        "average": 53.1
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 48,
+        "average": 28.3
+      },
+      "lexicalDiversity": 0.628,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-27-premier-league-goalkeeper-timewasting-rule",
+      "slug": "premier-league-goalkeeper-timewasting-rule-2026-27",
+      "title": "Premier League moves to close the goalkeeper injury loophole",
+      "kind": "news",
+      "words": 593,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 38,
+        "longest": 111,
+        "average": 74.1
+      },
+      "sentenceWords": {
+        "shortest": 20,
+        "longest": 76,
+        "average": 39.5
+      },
+      "lexicalDiversity": 0.577,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-07-27-kangwa-hapoel-beer-sheva-hall-of-fame",
       "slug": "kings-kangwa-hapoel-beer-sheva-hall-of-fame-induction",
