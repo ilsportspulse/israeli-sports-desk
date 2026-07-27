@@ -17,6 +17,7 @@ export function ArticleImageCard({ articleId }: { articleId: string }) {
   const [busy, setBusy] = useState(false);
 
   const [file, setFile] = useState<File | null>(null);
+  const [justUploaded, setJustUploaded] = useState<string | null>(null);
   const [upAlt, setUpAlt] = useState("");
   const [upCredit, setUpCredit] = useState("");
 
@@ -53,8 +54,11 @@ export function ArticleImageCard({ articleId }: { articleId: string }) {
       if (!res.ok) { setMsg({ kind: "err", text: data.error || "Upload failed." }); return; }
       setMsg({
         kind: "ok",
-        text: data.deferred ? "Uploaded — live with the deploy that just started (±1 min)." : "Uploaded.",
+        text: data.deferred
+          ? "✅ Je nieuwe foto is opgeslagen en vervangt de oude — binnen ±1 minuut zichtbaar op de site. Hieronder zie je hem alvast."
+          : "✅ Uploaded en direct actief.",
       });
+      if (file) setJustUploaded(URL.createObjectURL(file));
       setFile(null); setUpAlt(""); setUpCredit("");
       load();
     } finally { setBusy(false); }
@@ -116,9 +120,20 @@ export function ArticleImageCard({ articleId }: { articleId: string }) {
 
       {entry ? (
         <>
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={entry.src} alt={entry.alt}
-            style={{ width: "100%", height: 180, objectFit: "cover", objectPosition: entry.focalPoint ? `${entry.focalPoint.x}% ${entry.focalPoint.y}%` : "center", borderRadius: 8, marginBottom: 10, background: "#eee" }} />
+          {justUploaded ? (
+            <div style={{ position: "relative", marginBottom: 10 }}>
+              {/* eslint-disable-next-line @next/next/no-img-element -- lokale preview van de zojuist geüploade foto */}
+              <img src={justUploaded} alt="Zojuist geüpload"
+                style={{ width: "100%", height: 180, objectFit: "cover", borderRadius: 8, background: "#eee", outline: "3px solid #16a34a" }} />
+              <span style={{ position: "absolute", top: 8, left: 8, background: "#16a34a", color: "#fff", fontSize: 11, fontWeight: 700, padding: "3px 10px", borderRadius: 99 }}>
+                NIEUW — live binnen ±1 min
+              </span>
+            </div>
+          ) : (
+            /* eslint-disable-next-line @next/next/no-img-element */
+            <img src={entry.src} alt={entry.alt}
+              style={{ width: "100%", height: 180, objectFit: "cover", objectPosition: entry.focalPoint ? `${entry.focalPoint.x}% ${entry.focalPoint.y}%` : "center", borderRadius: 8, marginBottom: 10, background: "#eee" }} />
+          )}
           <div className="field-row two">
             <div className="field"><label>Alt text</label>
               <input type="text" value={form.alt ?? ""} onChange={(e) => set("alt", e.target.value)} /></div>

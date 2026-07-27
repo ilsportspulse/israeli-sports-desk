@@ -70,7 +70,7 @@ export async function POST(req: NextRequest) {
     src: rel.replace(/^public/, ""),
     alt,
     caption,
-    credit: (form.get("credit")?.toString() ?? "").trim() || previous?.credit || "Israel Sports Pulse",
+    credit: (form.get("credit")?.toString() ?? "").trim() || previous?.credit || "X.com",
     creditUrl: (form.get("creditUrl")?.toString() ?? "").trim() || `https://ilsportspulse.com/#${Date.now()}`,
     license: (form.get("license")?.toString() ?? "").trim() || previous?.license || "All rights reserved",
     licenseUrl: (form.get("licenseUrl")?.toString() ?? "").trim() || previous?.licenseUrl || "",
