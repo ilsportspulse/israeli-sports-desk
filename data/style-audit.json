@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T15:50:41.038Z",
+  "generatedAt": "2026-07-27T17:34:24.268Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 426,
+    "publishedArticles": 430,
     "wordCount": {
       "minimum": 231,
       "maximum": 1070,
-      "median": 452,
-      "average": 463.7
+      "median": 451.5,
+      "average": 462.9
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 15,
-      "7": 68,
-      "8": 118,
-      "9": 104,
-      "10": 82,
+      "7": 69,
+      "8": 119,
+      "9": 105,
+      "10": 83,
       "11": 22,
       "12": 6,
       "13": 4,
@@ -37,7 +37,7 @@
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 15,
     "analysisBelowTarget": 4,
-    "articlesWithStyleFlags": 41
+    "articlesWithStyleFlags": 42
   },
   "flagged": [
     {
@@ -61,6 +61,29 @@
       "publisherAttributions": 2,
       "flags": [
         "stock-phrase:statement-of-intent",
+        "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-07-27-peretz-southampton-easy-decision",
+      "slug": "daniel-peretz-southampton-easy-decision",
+      "title": "Daniel Peretz on his Southampton move: 'It was an easy decision'",
+      "kind": "news",
+      "words": 413,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 96,
+        "average": 59
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 74,
+        "average": 34.4
+      },
+      "lexicalDiversity": 0.584,
+      "publisherAttributions": 2,
+      "flags": [
         "publisher-attribution-heavy:2"
       ]
     },
@@ -986,6 +1009,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-27-asencio-marseille-welbeck-chelsea",
+      "slug": "asencio-marseille-loan-welbeck-chelsea-interest",
+      "title": "Real Madrid ready to loan out Asencio to Marseille as Chelsea explore Welbeck return",
+      "kind": "news",
+      "words": 365,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 55,
+        "average": 40.6
+      },
+      "sentenceWords": {
+        "shortest": 19,
+        "longest": 45,
+        "average": 36.5
+      },
+      "lexicalDiversity": 0.627,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-27-ginat-hapoel-extension",
+      "slug": "tomer-ginat-extends-hapoel-tel-aviv-contract-2030",
+      "title": "Tomer Ginat extends Hapoel Tel Aviv contract through 2030",
+      "kind": "news",
+      "words": 374,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 21,
+        "longest": 50,
+        "average": 37.4
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 144,
+        "average": 41.6
+      },
+      "lexicalDiversity": 0.586,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-27-kiryat-shmona-mordechai-ceremony",
+      "slug": "kiryat-shmona-postpones-mordechai-ceremony-haifa-toto-cup",
+      "title": "Kiryat Shmona to postpone Yair Mordechai ceremony until league clash with Haifa",
+      "kind": "news",
+      "words": 320,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 45,
+        "average": 40
+      },
+      "sentenceWords": {
+        "shortest": 16,
+        "longest": 45,
+        "average": 35.6
+      },
+      "lexicalDiversity": 0.572,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-07-27-abuhatzira-netanya-women-coach",
       "slug": "shimon-abuhatzira-netanya-women-coach",

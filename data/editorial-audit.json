@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T15:50:40.670Z",
+  "generatedAt": "2026-07-27T17:34:23.953Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,86 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 642,
-    "publishedBefore": 426,
-    "cleanPublished": 426,
+    "totalArticles": 648,
+    "publishedBefore": 430,
+    "cleanPublished": 430,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 426,
-    "reviewAfter": 216
+    "publishedAfter": 430,
+    "reviewAfter": 218
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-20260727-gordon-brothers-gfn1-tel-aviv",
+      "slug": "gordon-brothers-gfn-1-tel-aviv-preview",
+      "title": "Three Gordon brothers to fight on the same card as Tel Aviv hosts Israel's biggest combat sports night",
+      "statusBefore": "review",
+      "words": 598,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-07-27-asencio-marseille-welbeck-chelsea",
+      "slug": "asencio-marseille-loan-welbeck-chelsea-interest",
+      "title": "Real Madrid ready to loan out Asencio to Marseille as Chelsea explore Welbeck return",
+      "statusBefore": "published",
+      "words": 368,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-27-avraham-klein-shield-honor",
+      "slug": "israel-football-players-organization-honors-avraham-klein",
+      "title": "Israeli players' organization honors legendary referee Avraham Klein",
+      "statusBefore": "review",
+      "words": 456,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-07-27-peretz-southampton-easy-decision",
+      "slug": "daniel-peretz-southampton-easy-decision",
+      "title": "Daniel Peretz on his Southampton move: 'It was an easy decision'",
+      "statusBefore": "published",
+      "words": 413,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:3"
+      ]
+    },
+    {
+      "id": "live-2026-07-27-kiryat-shmona-mordechai-ceremony",
+      "slug": "kiryat-shmona-postpones-mordechai-ceremony-haifa-toto-cup",
+      "title": "Kiryat Shmona to postpone Yair Mordechai ceremony until league clash with Haifa",
+      "statusBefore": "published",
+      "words": 319,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
     {
       "id": "live-2026-07-27-abuhatzira-netanya-women-coach",
       "slug": "shimon-abuhatzira-netanya-women-coach",
@@ -5621,6 +5691,60 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-07-27-asencio-marseille-welbeck-chelsea",
+      "slug": "asencio-marseille-loan-welbeck-chelsea-interest",
+      "title": "Real Madrid ready to loan out Asencio to Marseille as Chelsea explore Welbeck return",
+      "statusBefore": "published",
+      "words": 368,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-27-ginat-hapoel-extension",
+      "slug": "tomer-ginat-extends-hapoel-tel-aviv-contract-2030",
+      "title": "Tomer Ginat extends Hapoel Tel Aviv contract through 2030",
+      "statusBefore": "published",
+      "words": 368,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-07-27-peretz-southampton-easy-decision",
+      "slug": "daniel-peretz-southampton-easy-decision",
+      "title": "Daniel Peretz on his Southampton move: 'It was an easy decision'",
+      "statusBefore": "published",
+      "words": 413,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:3"
+      ]
+    },
+    {
+      "id": "live-2026-07-27-kiryat-shmona-mordechai-ceremony",
+      "slug": "kiryat-shmona-postpones-mordechai-ceremony-haifa-toto-cup",
+      "title": "Kiryat Shmona to postpone Yair Mordechai ceremony until league clash with Haifa",
+      "statusBefore": "published",
+      "words": 319,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
     {
       "id": "live-2026-07-27-abuhatzira-netanya-women-coach",
       "slug": "shimon-abuhatzira-netanya-women-coach",
