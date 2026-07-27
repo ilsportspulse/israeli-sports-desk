@@ -117,6 +117,9 @@ Every completed item needs evidence: a working file, tested code, a rendered ass
 - The promoted Super Cup report passed a factual freshness audit against FotMob and Flashscore (3–1 Maccabi Tel Aviv confirmed with matching scorers and red card); two residual preview-tense facts were moved to post-match tense and no reader-facing error was found.
 - All time-boxed evidence was refreshed in this session: the 41-scenario responsive matrix (rerun after publication), the mobile responsive proxy proof (new expiry 14:59 Asia/Jerusalem on 18 July), the 12-hour social current-story snapshot and the 24-hour governance browser record, with the paired frozen-clock tests updated to the new evidence times.
 
+- 27 July: the autonomous newsroom locked itself out overnight — the Retro archive call timed out twice on the 6-minute CLI limit while the day's quiz had already been written, so the quiz+archive package gate fail-closed every cycle and nothing published after 02:58. Fixed in fe8a40b: the quiz now only takes a new date once that day's archive feature exists (a Retro failure keeps yesterday's complete package live instead of blocking news), the research-call timeout was raised to 12 minutes, image sourcing accepts plain-string Commons candidates, and a fully verified Nicosia 2002 (Haifa 3-0 Manchester United) archive feature was published directly. Verification run 106 passed and the live site resumed publishing the same morning.
+- Known open issue for the owner: www.ilsportspulse.com is not configured — DNS points it to a non-Vercel host (217.21.190.175) and the Vercel project only carries the apex domain, so the www URL refuses connections. Fix needs two owner-gated account changes: add www.ilsportspulse.com (redirect to apex) in Vercel and point the www record at Vercel in the registrar's DNS.
+
 ## Owner decisions still required
 
 - Final domain purchase and registrar account.
