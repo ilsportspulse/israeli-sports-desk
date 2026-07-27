@@ -146,14 +146,14 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-27T08:08:21Z",
-    "validUntil": "2026-07-27T20:08:21Z",
+    "checkedAt": "2026-07-27T09:18:16Z",
+    "validUntil": "2026-07-27T21:18:16Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 179,
+        "maxAgeHours": 180,
         "requires": [
           "matchRecap"
         ]
@@ -167,21 +167,21 @@
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 187,
+        "maxAgeHours": 188,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-07-27-lecce-banda-awol",
+        "articleId": "live-2026-07-27-yinai-oturu-naturalization-dispute",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 197,
+        "maxAgeHours": 198,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-07-26-sanchez-vicario-vanished-fortune",
+        "articleId": "live-2026-07-27-lecce-banda-awol",
         "maxAgeHours": 24,
         "requires": []
       }

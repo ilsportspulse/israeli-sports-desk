@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T08:08:21.901Z",
+  "generatedAt": "2026-07-27T09:18:17.287Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,18 +11,18 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 411,
+    "publishedArticles": 412,
     "wordCount": {
-      "minimum": 232,
+      "minimum": 231,
       "maximum": 1070,
       "median": 452,
-      "average": 465.6
+      "average": 465
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 14,
       "7": 68,
-      "8": 110,
+      "8": 111,
       "9": 101,
       "10": 80,
       "11": 22,
@@ -33,11 +33,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.268,
+    "dominantParagraphShare": 0.269,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 14,
     "analysisBelowTarget": 4,
-    "articlesWithStyleFlags": 35
+    "articlesWithStyleFlags": 36
   },
   "flagged": [
     {
@@ -62,6 +62,29 @@
       "flags": [
         "stock-phrase:statement-of-intent",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260727-maccabi-rishon-kuta",
+      "slug": "maccabi-rishon-lezion-signs-nathan-kuta",
+      "title": "Maccabi Rishon LeZion strengthen frontcourt with Nathan Kuta signing",
+      "kind": "news",
+      "words": 231,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 12,
+        "longest": 38,
+        "average": 28.9
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 67,
+        "average": 33
+      },
+      "lexicalDiversity": 0.688,
+      "publisherAttributions": 0,
+      "flags": [
+        "below-editorial-target:231/280"
       ]
     },
     {
