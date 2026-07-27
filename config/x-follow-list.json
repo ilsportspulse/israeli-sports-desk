@@ -1,0 +1,288 @@
+{
+ "updatedAt": "2026-07-28T01:05:00+03:00",
+ "policy": "volg alleen geverifieerde officiele accounts; batches van max ~35/dag; hold-lijst pas na extra verificatie",
+ "accounts": [
+  {
+   "group": "israeli-media",
+   "name": "ONE",
+   "handle": "@ONE_CO_IL",
+   "confidence": 0.95
+  },
+  {
+   "group": "israeli-media",
+   "name": "Sport 5",
+   "handle": "@sport5il",
+   "confidence": 0.95
+  },
+  {
+   "group": "israeli-media",
+   "name": "Walla Sport",
+   "handle": "@WallaSport",
+   "confidence": 0.75
+  },
+  {
+   "group": "israeli-media",
+   "name": "Ynet Sport",
+   "handle": "@ynetsport",
+   "confidence": 0.9
+  },
+  {
+   "group": "israeli-media",
+   "name": "Sport1 / Maariv",
+   "handle": "@Sport1_Sport2",
+   "confidence": 0.8
+  },
+  {
+   "group": "israeli-media",
+   "name": "Haaretz (EN)",
+   "handle": "@haaretzcom",
+   "confidence": 0.95
+  },
+  {
+   "group": "israeli-media",
+   "name": "Israel Hayom (EN)",
+   "handle": "@IsraelHayomEng",
+   "confidence": 0.9
+  },
+  {
+   "group": "israeli-media",
+   "name": "The Times of Israel",
+   "handle": "@TimesofIsrael",
+   "confidence": 0.98
+  },
+  {
+   "group": "israeli-media",
+   "name": "The Jerusalem Post",
+   "handle": "@Jerusalem_Post",
+   "confidence": 0.95
+  },
+  {
+   "group": "israeli-clubs",
+   "name": "Maccabi Tel Aviv FC",
+   "handle": "@MaccabiTLVFC",
+   "confidence": 0.98
+  },
+  {
+   "group": "israeli-clubs",
+   "name": "Maccabi Haifa FC",
+   "handle": "@mhfootballclub",
+   "confidence": 0.95
+  },
+  {
+   "group": "israeli-clubs",
+   "name": "Hapoel Be'er Sheva",
+   "handle": "@HBS_FC",
+   "confidence": 0.9
+  },
+  {
+   "group": "israeli-clubs",
+   "name": "Beitar Jerusalem",
+   "handle": "@fcbeitar",
+   "confidence": 0.9
+  },
+  {
+   "group": "israeli-clubs",
+   "name": "Hapoel Tel Aviv FC",
+   "handle": "@HapoelTelAvivFC",
+   "confidence": 0.95
+  },
+  {
+   "group": "israeli-clubs",
+   "name": "Maccabi Netanya",
+   "handle": "@Fcmn_il",
+   "confidence": 0.7
+  },
+  {
+   "group": "israeli-clubs",
+   "name": "Hapoel Haifa",
+   "handle": "@HapoelHaifaFC",
+   "confidence": 0.8
+  },
+  {
+   "group": "israeli-clubs",
+   "name": "Hapoel Jerusalem FC",
+   "handle": "@HapoelJLMfc",
+   "confidence": 0.9
+  },
+  {
+   "group": "israeli-basketball-federations",
+   "name": "Maccabi Tel Aviv BC",
+   "handle": "@MaccabiTLVBC",
+   "confidence": 0.95
+  },
+  {
+   "group": "israeli-basketball-federations",
+   "name": "Hapoel Tel Aviv BC",
+   "handle": "@HapoelTLVBC",
+   "confidence": 0.9
+  },
+  {
+   "group": "israeli-basketball-federations",
+   "name": "Hapoel Jerusalem BC",
+   "handle": "@JerusalemBasket",
+   "confidence": 0.9
+  },
+  {
+   "group": "israeli-basketball-federations",
+   "name": "Israel Football Association",
+   "handle": "@ISRAELFA",
+   "confidence": 0.95
+  },
+  {
+   "group": "israeli-basketball-federations",
+   "name": "Winner League",
+   "handle": "@WinnerLeague",
+   "confidence": 0.9
+  },
+  {
+   "group": "israeli-basketball-federations",
+   "name": "Olympic Committee of Israel",
+   "handle": "@Olympic_Israel",
+   "confidence": 0.9
+  },
+  {
+   "group": "world",
+   "name": "BBC Sport",
+   "handle": "@BBCSport",
+   "confidence": 0.98
+  },
+  {
+   "group": "world",
+   "name": "ESPN",
+   "handle": "@espn",
+   "confidence": 0.98
+  },
+  {
+   "group": "world",
+   "name": "ESPN FC",
+   "handle": "@ESPNFC",
+   "confidence": 0.98
+  },
+  {
+   "group": "world",
+   "name": "Sky Sports News",
+   "handle": "@SkySportsNews",
+   "confidence": 0.98
+  },
+  {
+   "group": "world",
+   "name": "Sky Sports Football",
+   "handle": "@SkyFootball",
+   "confidence": 0.98
+  },
+  {
+   "group": "world",
+   "name": "The Athletic FC",
+   "handle": "@TheAthleticFC",
+   "confidence": 0.95
+  },
+  {
+   "group": "world",
+   "name": "Reuters Sports",
+   "handle": "@ReutersSports",
+   "confidence": 0.8
+  },
+  {
+   "group": "world",
+   "name": "UEFA",
+   "handle": "@UEFA",
+   "confidence": 0.95
+  },
+  {
+   "group": "world",
+   "name": "FIFA World Cup",
+   "handle": "@FIFAWorldCup",
+   "confidence": 0.98
+  },
+  {
+   "group": "world",
+   "name": "UEFA Champions League",
+   "handle": "@ChampionsLeague",
+   "confidence": 0.98
+  },
+  {
+   "group": "world",
+   "name": "EuroLeague Basketball",
+   "handle": "@EuroLeague",
+   "confidence": 0.95
+  },
+  {
+   "group": "world",
+   "name": "BKT EuroCup",
+   "handle": "@EuroCup",
+   "confidence": 0.9
+  },
+  {
+   "group": "world",
+   "name": "NBA",
+   "handle": "@NBA",
+   "confidence": 0.98
+  },
+  {
+   "group": "world",
+   "name": "Premier League",
+   "handle": "@premierleague",
+   "confidence": 0.98
+  },
+  {
+   "group": "world",
+   "name": "LaLiga EN",
+   "handle": "@LaLigaEN",
+   "confidence": 0.95
+  },
+  {
+   "group": "insiders",
+   "name": "Fabrizio Romano",
+   "handle": "@FabrizioRomano",
+   "confidence": 0.98
+  },
+  {
+   "group": "insiders",
+   "name": "David Ornstein",
+   "handle": "@David_Ornstein",
+   "confidence": 0.95
+  },
+  {
+   "group": "insiders",
+   "name": "Shams Charania",
+   "handle": "@ShamsCharania",
+   "confidence": 0.95
+  },
+  {
+   "group": "insiders",
+   "name": "Uri Levy (BabaGol)",
+   "handle": "@levyninho",
+   "confidence": 0.85
+  },
+  {
+   "group": "insiders",
+   "name": "Josh Halickman (Sports Rabbi)",
+   "handle": "@thesportsrabbi",
+   "confidence": 0.9
+  }
+ ],
+ "hold": [
+  {
+   "group": "israeli-clubs",
+   "name": "Bnei Sakhnin",
+   "handle": "@Ubneisakhnin",
+   "confidence": 0.5,
+   "note": "officialiteit onduidelijk; club zit primair op Instagram"
+  },
+  {
+   "group": "israeli-clubs",
+   "name": "Hapoel Petah Tikva",
+   "handle": "@hptfc1926",
+   "confidence": 0.65,
+   "note": "officialiteit niet volledig bevestigd"
+  }
+ ],
+ "noXPresence": [
+  "Eurosport global (alleen regionale accounts)",
+  "Ironi Kiryat Shmona",
+  "Maccabi Bnei Reineh",
+  "Ironi Tiberias",
+  "Hapoel Hadera",
+  "Israel national team (valt onder @ISRAELFA)"
+ ]
+}
