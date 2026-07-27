@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T09:18:17.287Z",
+  "generatedAt": "2026-07-27T10:04:37.278Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,33 +11,33 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 412,
+    "publishedArticles": 417,
     "wordCount": {
       "minimum": 231,
       "maximum": 1070,
       "median": 452,
-      "average": 465
+      "average": 464.4
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 14,
       "7": 68,
-      "8": 111,
-      "9": 101,
+      "8": 113,
+      "9": 103,
       "10": 80,
       "11": 22,
-      "12": 5,
+      "12": 6,
       "13": 4,
       "14": 2,
       "16": 1,
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.269,
+    "dominantParagraphShare": 0.271,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 14,
     "analysisBelowTarget": 4,
-    "articlesWithStyleFlags": 36
+    "articlesWithStyleFlags": 38
   },
   "flagged": [
     {
@@ -61,6 +61,52 @@
       "publisherAttributions": 2,
       "flags": [
         "stock-phrase:statement-of-intent",
+        "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260727-lundberg-maccabi-contract",
+      "slug": "iffe-lundberg-signs-new-maccabi-tel-aviv-contract",
+      "title": "Iffe Lundberg signs new contract with Maccabi Tel Aviv",
+      "kind": "news",
+      "words": 368,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 20,
+        "longest": 54,
+        "average": 40.9
+      },
+      "sentenceWords": {
+        "shortest": 20,
+        "longest": 62,
+        "average": 33.5
+      },
+      "lexicalDiversity": 0.59,
+      "publisherAttributions": 2,
+      "flags": [
+        "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260727-hemed-brighton-assistant-coach-candidate",
+      "slug": "tomer-hemed-brighton-assistant-coach-candidate",
+      "title": "Tomer Hemed emerges as candidate for Brighton assistant coach role",
+      "kind": "news",
+      "words": 440,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 46,
+        "longest": 63,
+        "average": 55
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 47,
+        "average": 31.4
+      },
+      "lexicalDiversity": 0.598,
+      "publisherAttributions": 2,
+      "flags": [
         "publisher-attribution-heavy:2"
       ]
     },
@@ -871,6 +917,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-27-tiberias-infusion-scandal-response",
+      "slug": "ironi-tiberias-infusion-scandal-indictment-response",
+      "title": "Ironi Tiberias hits back at infusion-scandal charge sheet, calls it 'riddled with speculation'",
+      "kind": "news",
+      "words": 480,
+      "paragraphs": 12,
+      "paragraphWords": {
+        "shortest": 29,
+        "longest": 61,
+        "average": 40
+      },
+      "sentenceWords": {
+        "shortest": 29,
+        "longest": 97,
+        "average": 48
+      },
+      "lexicalDiversity": 0.581,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260727-hapoel-haifa-tiberias-preview",
+      "slug": "hapoel-haifa-dibah-defence-tiberias-toto-cup",
+      "title": "Dibah returns to defence as Hapoel Haifa rotate for Tiberias test",
+      "kind": "article",
+      "words": 352,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 23,
+        "longest": 61,
+        "average": 44
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 76,
+        "average": 39.1
+      },
+      "lexicalDiversity": 0.614,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260727-orian-goren-barcelona-england-camp",
+      "slug": "orian-goren-barcelona-england-training-camp",
+      "title": "Israeli teenager Orian Goren joins Barcelona's senior squad for England training camp",
+      "kind": "news",
+      "words": 416,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 39,
+        "longest": 52,
+        "average": 46.2
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 50,
+        "average": 32
+      },
+      "lexicalDiversity": 0.584,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-07-27-hapoel-jerusalem-ahoud-loan",
       "slug": "hapoel-jerusalem-itay-ahoud-loan-interest",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T09:18:16.876Z",
+  "generatedAt": "2026-07-27T10:04:36.789Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,62 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 623,
-    "publishedBefore": 412,
-    "cleanPublished": 412,
+    "totalArticles": 629,
+    "publishedBefore": 417,
+    "cleanPublished": 417,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 412,
-    "reviewAfter": 211
+    "publishedAfter": 417,
+    "reviewAfter": 212
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-20260727-lundberg-maccabi-contract",
+      "slug": "iffe-lundberg-signs-new-maccabi-tel-aviv-contract",
+      "title": "Iffe Lundberg signs new contract with Maccabi Tel Aviv",
+      "statusBefore": "published",
+      "words": 363,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260727-hemed-brighton-assistant-coach-candidate",
+      "slug": "tomer-hemed-brighton-assistant-coach-candidate",
+      "title": "Tomer Hemed emerges as candidate for Brighton assistant coach role",
+      "statusBefore": "published",
+      "words": 442,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:3"
+      ]
+    },
+    {
+      "id": "live-20260727-orian-goren-barcelona-england-camp",
+      "slug": "orian-goren-barcelona-england-training-camp",
+      "title": "Israeli teenager Orian Goren joins Barcelona's senior squad for England training camp",
+      "statusBefore": "published",
+      "words": 418,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260727-israel-lebanon-shooting-committee",
       "slug": "israeli-shooting-chief-lebanese-official-issf-committee",
@@ -5415,6 +5461,76 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-07-27-tiberias-infusion-scandal-response",
+      "slug": "ironi-tiberias-infusion-scandal-indictment-response",
+      "title": "Ironi Tiberias hits back at infusion-scandal charge sheet, calls it 'riddled with speculation'",
+      "statusBefore": "published",
+      "words": 484,
+      "paragraphs": 12,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260727-lundberg-maccabi-contract",
+      "slug": "iffe-lundberg-signs-new-maccabi-tel-aviv-contract",
+      "title": "Iffe Lundberg signs new contract with Maccabi Tel Aviv",
+      "statusBefore": "published",
+      "words": 363,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260727-hemed-brighton-assistant-coach-candidate",
+      "slug": "tomer-hemed-brighton-assistant-coach-candidate",
+      "title": "Tomer Hemed emerges as candidate for Brighton assistant coach role",
+      "statusBefore": "published",
+      "words": 442,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:3"
+      ]
+    },
+    {
+      "id": "live-20260727-hapoel-haifa-tiberias-preview",
+      "slug": "hapoel-haifa-dibah-defence-tiberias-toto-cup",
+      "title": "Dibah returns to defence as Hapoel Haifa rotate for Tiberias test",
+      "statusBefore": "published",
+      "words": 351,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260727-orian-goren-barcelona-england-camp",
+      "slug": "orian-goren-barcelona-england-training-camp",
+      "title": "Israeli teenager Orian Goren joins Barcelona's senior squad for England training camp",
+      "statusBefore": "published",
+      "words": 418,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260727-maccabi-rishon-kuta",
       "slug": "maccabi-rishon-lezion-signs-nathan-kuta",
