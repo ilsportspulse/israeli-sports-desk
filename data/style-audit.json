@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T07:43:23.074Z",
+  "generatedAt": "2026-07-27T08:08:21.901Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 407,
+    "publishedArticles": 411,
     "wordCount": {
       "minimum": 232,
       "maximum": 1070,
-      "median": 453,
-      "average": 466.3
+      "median": 452,
+      "average": 465.6
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 14,
       "7": 68,
-      "8": 107,
+      "8": 110,
       "9": 101,
-      "10": 79,
+      "10": 80,
       "11": 22,
       "12": 5,
       "13": 4,
@@ -33,11 +33,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.263,
+    "dominantParagraphShare": 0.268,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 14,
     "analysisBelowTarget": 4,
-    "articlesWithStyleFlags": 33
+    "articlesWithStyleFlags": 35
   },
   "flagged": [
     {
@@ -61,6 +61,52 @@
       "publisherAttributions": 2,
       "flags": [
         "stock-phrase:statement-of-intent",
+        "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-07-27-lecce-banda-awol",
+      "slug": "banda-goes-missing-lecce-maccabi-petah-tikva-stake",
+      "title": "Lecce winger Banda goes silent as club warns he 'will pay the consequences'",
+      "kind": "news",
+      "words": 372,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 73,
+        "average": 46.5
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 68,
+        "average": 28.6
+      },
+      "lexicalDiversity": 0.594,
+      "publisherAttributions": 2,
+      "flags": [
+        "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-07-27-courtois-injury-ready",
+      "slug": "courtois-quad-injury-recovery-ready-for-preseason",
+      "title": "Courtois says he is pain-free and ready after World Cup injury scare",
+      "kind": "news",
+      "words": 359,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 68,
+        "average": 44.9
+      },
+      "sentenceWords": {
+        "shortest": 14,
+        "longest": 78,
+        "average": 39.9
+      },
+      "lexicalDiversity": 0.616,
+      "publisherAttributions": 2,
+      "flags": [
         "publisher-attribution-heavy:2"
       ]
     },
@@ -802,6 +848,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-27-hapoel-jerusalem-ahoud-loan",
+      "slug": "hapoel-jerusalem-itay-ahoud-loan-interest",
+      "title": "Hapoel Jerusalem eye Maccabi Haifa midfielder Itay Ahoud on loan",
+      "kind": "news",
+      "words": 395,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 65,
+        "average": 49.4
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 49,
+        "average": 26.3
+      },
+      "lexicalDiversity": 0.582,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-27-yinai-oturu-naturalization-dispute",
+      "slug": "yinai-oturu-naturalization-dispute-israel-basketball",
+      "title": "Basketball association rejects Yinai's account of Oturu naturalization saga",
+      "kind": "news",
+      "words": 435,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 54,
+        "average": 43.5
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 44,
+        "average": 29
+      },
+      "lexicalDiversity": 0.602,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "archive-20260727-nicosia-29-october-2002-the-night-haifa-",
       "slug": "nicosia-29-october-2002-the-night-haifa-humbled-manchester-united",

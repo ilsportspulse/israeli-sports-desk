@@ -146,49 +146,49 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-26T23:58:28Z",
-    "validUntil": "2026-07-27T11:58:28Z",
+    "checkedAt": "2026-07-27T08:08:21Z",
+    "validUntil": "2026-07-27T20:08:21Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 171,
+        "maxAgeHours": 179,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-07-26-sanchez-vicario-vanished-fortune",
+        "articleId": "live-2026-07-27-hapoel-jerusalem-ahoud-loan",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 179,
+        "maxAgeHours": 187,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260726-israel-u18-basketball-world-cup-path",
+        "articleId": "live-2026-07-27-lecce-banda-awol",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 189,
+        "maxAgeHours": 197,
         "requires": [
           "column"
         ]
       },
       {
         "role": "archive",
-        "articleId": "archive-20260726-abu-dhabi-28-october-2018-the-night-hati",
+        "articleId": "archive-20260727-nicosia-29-october-2002-the-night-haifa-",
         "maxAgeHours": 53,
         "requires": [
           "historical-feature"
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260726-la28-olympics-rare-glimpse",
+        "articleId": "live-2026-07-26-sanchez-vicario-vanished-fortune",
         "maxAgeHours": 24,
         "requires": []
       }
