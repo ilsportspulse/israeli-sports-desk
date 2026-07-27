@@ -5,6 +5,7 @@ import { getLocalizedArticleSummaryCopy } from "@/lib/localized-articles";
 import { getDailyQuiz } from "@/lib/quiz";
 import { getRequestLocale } from "@/lib/request-locale";
 import { getScoreCentreData } from "@/lib/sports-data";
+import { getSocialWatchItems } from "@/lib/social-watch";
 import type { PublicArticleSummary } from "@/lib/types";
 
 export const dynamic = "force-dynamic";
@@ -45,6 +46,7 @@ export default async function HomePage() {
   return (
     <Newsroom
       articles={localized}
+      socialWatch={getSocialWatchItems()}
       scores={scores}
       quiz={getDailyQuiz()}
       categoryOrder={categoryOrder}

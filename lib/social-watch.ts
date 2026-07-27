@@ -68,7 +68,7 @@ export function getSocialWatchItems(limit = 8): SocialWatchItem[] {
     let best = 0;
     for (const a of articles) {
       let shared = 0;
-      for (const t of toks) if (a.toks.has(t)) shared++;
+      toks.forEach((t) => { if (a.toks.has(t)) shared++; });
       if (shared > best && shared >= 2) {
         best = shared;
         related = { slug: a.slug, title: a.title };

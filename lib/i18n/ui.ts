@@ -84,6 +84,10 @@ export type UiKey =
   | "section.intlCorner"
   | "section.moreWorld"
   | "section.ilspColumns"
+  | "social.heading"
+  | "social.blurb"
+  | "social.viewPost"
+  | "social.readStory"
   | "columns.heading"
   | "columns.blurb"
   | "label.column"
@@ -216,6 +220,10 @@ const en: Dictionary = {
   "section.intlCorner": "International corner",
   "section.moreWorld": "More from around the world",
   "section.ilspColumns": "ILSP Columns",
+  "social.heading": "Social Media Watcher",
+  "social.blurb": "The sharpest posts from the clubs, insiders and newsrooms we track — straight from the source, linked to the full story.",
+  "social.viewPost": "View post on X",
+  "social.readStory": "Read the story",
   "columns.heading": "Arguments worth having",
   "columns.blurb": "Tactical context, sharp arguments and the Israeli angle behind the day’s biggest decisions.",
   "label.column": "Column",
@@ -347,6 +355,10 @@ const fr: Dictionary = {
   "section.intlCorner": "Coin international",
   "section.moreWorld": "Plus d’actualités du monde",
   "section.ilspColumns": "Chroniques ILSP",
+  "social.heading": "Social Media Watcher",
+  "social.blurb": "Les publications marquantes des clubs, initiés et rédactions que nous suivons — à la source, reliées à l’article complet.",
+  "social.viewPost": "Voir le post sur X",
+  "social.readStory": "Lire l’article",
   "columns.heading": "Des débats qui comptent",
   "columns.blurb": "Contexte tactique, arguments tranchés et l’angle israélien derrière les grandes décisions du jour.",
   "label.column": "Chronique",
@@ -478,6 +490,10 @@ const es: Dictionary = {
   "section.intlCorner": "Rincón internacional",
   "section.moreWorld": "Más noticias del mundo",
   "section.ilspColumns": "Columnas ILSP",
+  "social.heading": "Social Media Watcher",
+  "social.blurb": "Las publicaciones más destacadas de los clubes, insiders y redacciones que seguimos — directas de la fuente, enlazadas a la historia completa.",
+  "social.viewPost": "Ver el post en X",
+  "social.readStory": "Leer la historia",
   "columns.heading": "Debates que merecen la pena",
   "columns.blurb": "Contexto táctico, argumentos afilados y el ángulo israelí tras las grandes decisiones del día.",
   "label.column": "Columna",

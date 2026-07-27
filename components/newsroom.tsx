@@ -22,6 +22,7 @@ import { DailyQuiz } from "@/components/daily-quiz";
 import { StoryVisual } from "@/components/story-visual";
 import { TeamCrest } from "@/components/team-crest";
 import { formatArticleDate } from "@/lib/articles";
+import type { SocialWatchItem } from "@/lib/social-watch";
 import { getArticlePhoto } from "@/lib/media";
 import type { DailyQuiz as DailyQuizData } from "@/lib/quiz";
 import { competitionPriority } from "@/lib/competition-priority";
@@ -34,6 +35,7 @@ type NewsroomProps = {
   quiz: DailyQuizData;
   categoryOrder?: string[];
   locale?: LocaleCode;
+  socialWatch?: SocialWatchItem[];
 };
 
 const mainNav: { key: UiKey; href: string }[] = [
@@ -112,7 +114,7 @@ function ArticleMeta({ article, inverse = false, locale }: { article: PublicArti
   );
 }
 
-export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defaultLocale }: NewsroomProps) {
+export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defaultLocale, socialWatch = [] }: NewsroomProps) {
   const tr = translator(locale);
   const [activeCategory, setActiveCategory] = useState("All");
   const [activeDesk, setActiveDesk] = useState<"israeli" | "international">("israeli");
@@ -667,6 +669,35 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
             <Link href="/columns" className="ai-all-link">{tr("action.viewAllColumns")} <ArrowIcon size={17} /></Link>
           </div>
         </section>
+
+        {socialWatch.length ? (
+          <section className="topstories-block sw-block" id="social-watch" aria-label={tr("social.heading")}>
+            <div className="page-width">
+              <div className="ts-head">
+                <span className="hero-heading-bar" />
+                <h2>{tr("social.heading")}</h2>
+              </div>
+              <p className="sw-blurb">{tr("social.blurb")}</p>
+              <div className="sw-grid">
+                {socialWatch.map((item) => (
+                  <article key={item.url} className="sw-card">
+                    <header>
+                      <span className="sw-handle">{item.handle}</span>
+                      <time dateTime={item.postedAt}>{formatArticleDate(item.postedAt, true, locale)}</time>
+                    </header>
+                    <blockquote>{item.text}</blockquote>
+                    <footer>
+                      <a href={item.url} target="_blank" rel="noopener noreferrer">{tr("social.viewPost")} <ArrowIcon size={14} /></a>
+                      {item.relatedSlug ? (
+                        <Link href={`/article/${item.relatedSlug}`}>{tr("social.readStory")} <ArrowIcon size={14} /></Link>
+                      ) : null}
+                    </footer>
+                  </article>
+                ))}
+              </div>
+            </div>
+          </section>
+        ) : null}
 
         <div className="page-width quiz-section-wrap">
           <DailyQuiz quiz={quiz} />
