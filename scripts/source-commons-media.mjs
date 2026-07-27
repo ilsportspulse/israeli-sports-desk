@@ -914,7 +914,14 @@ if (!dryRun) await mkdir(outputDirectory, { recursive: true });
 // Only pre-fetch the preferred files for the stories we are actually sourcing this
 // run, so an incremental run makes a handful of calls instead of ~130 (the cause of
 // Commons 429 rate-limiting when many single-article runs each prefetched them all).
-const preferredPages = await fetchFiles(articles.map((article) => preferredFiles[article.id]).filter(Boolean));
+// A Commons hiccup here (429/timeout) must not kill the whole run — with an
+// empty prefetch the per-article loop still tries candidates, subject fallbacks
+// and the sport photo bank, so stories are never left imageless by one API error.
+const preferredPages = await fetchFiles(articles.map((article) => preferredFiles[article.id]).filter(Boolean))
+  .catch((error) => {
+    console.warn(`Preferred-file prefetch failed (continuing without): ${error.message}`);
+    return new Map();
+  });
 
 // ---------------------------------------------------------------------------
 // Subject-level curated fallbacks (config/subject-fallback-images.json).
