@@ -174,6 +174,8 @@ export type Article = {
   aiDisclosure?: string;
   status?: "published" | "review";
   reviewReasons?: string[];
+  confidence?: number;
+  warning?: string;
 };
 
 export type PublicArticle = Omit<
@@ -185,6 +187,8 @@ export type PublicArticle = Omit<
   | "aiDisclosure"
   | "status"
   | "reviewReasons"
+  | "confidence"
+  | "warning"
 >;
 
 export type PublicArticleSummary = Pick<
