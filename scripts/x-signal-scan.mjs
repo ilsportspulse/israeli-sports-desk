@@ -163,6 +163,17 @@ if (!collected.size) process.exit(0);
 
 const token = githubToken();
 if (!token) { log("No GitHub token from keychain — signals not uploaded."); process.exit(0); }
+// Never commit while a newsroom run is active or queued: a contents-API commit
+// mid-run makes that run's final push fail (non-fast-forward). Signals simply
+// wait for the next half-hourly slot.
+try {
+  const runs = await fetch(
+    `https://api.github.com/repos/${REPO}/actions/runs?per_page=5`,
+    { headers: { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json" } },
+  ).then((r) => r.json());
+  const active = (runs.workflow_runs ?? []).some((r) => !r.conclusion);
+  if (active) { log("Newsroom run active — deferring signal upload to next slot."); process.exit(0); }
+} catch { /* if the check fails, proceed; 409-retry still protects the write */ }
 const { sha, signals: existing } = await fetchCurrent(token);
 const byUrl = new Map(existing.map((s) => [s.url, s]));
 let added = 0;
