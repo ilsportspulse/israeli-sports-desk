@@ -14,9 +14,34 @@ export type SocialWatchItem = {
   postedAt: string;
   text: string;
   url: string;
+  photoUrl?: string;
   relatedSlug?: string;
   relatedTitle?: string;
 };
+
+// Israeli News Social Watcher: the wall carries ISRAELI voices only — verified
+// Israeli outlets (Hebrew and English, all topics, owner's direction 28 Jul),
+// clubs, federations and Israeli players. World clubs/stars/competitions stay
+// signal-only for the newsroom; this section is the country's pulse.
+const DISPLAY_GROUPS = new Set([
+  "israeli-media",
+  "israeli-clubs",
+  "israeli-basketball-federations",
+  "israeli-players",
+  "israeli-extras",
+]);
+
+// Strip link noise for display; the card links to the post itself. X renders
+// long links with soft breaks ("https:// sport5.co.il/…"), so the protocol and
+// its continuation are removed separately, plus tracking/query fragments.
+const cleanText = (raw: string) =>
+  raw
+    .replace(/https?:\/\/\s*\S+/g, " ")
+    .replace(/\S*(?:utm_\w+=|FolderID=|docID=|\.aspx|\.co\.il\/|\.com\/|\.net\/)\S*/g, " ")
+    .replace(/(?:^|\s)(?:-->|>|\.\.\.|…)(?=\s|$)/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+
 
 const GENERIC = new Set(
   "the and for with from after says said this that will have been more about their against club team match game league season contract deal sign transfer coach player official statement today tonight news breaking here exclusive story report".split(/\s+/),
@@ -41,16 +66,15 @@ export function getSocialWatchItems(limit = 8): SocialWatchItem[] {
     return [];
   }
 
-  const fresh = signals
+  const inWindow = signals
     .filter((s) => s.text && s.url && s.postedAt)
     .filter((s) => Date.now() - new Date(s.postedAt).getTime() < 48 * 60 * 60 * 1000)
-    // Quote-worthy voices first: clubs, federations and insiders speak; media
-    // headlines only fill remaining slots.
-    .sort((a, b) => {
-      const rank = (g?: string) =>
-        g === "israeli-clubs" || g === "israeli-basketball-federations" ? 0 : g === "insiders" ? 1 : 2;
-      return rank(a.group) - rank(b.group) || +new Date(b.postedAt) - +new Date(a.postedAt);
-    });
+    // A link-only or hashtag-only post has nothing to quote.
+    .filter((s) => cleanText(s.text).length >= 30 || Boolean(s.photoUrl));
+  const fresh = inWindow
+    .filter((s) => DISPLAY_GROUPS.has(s.group ?? ""))
+    // A news wall reads newest-first; the per-handle cap below keeps it varied.
+    .sort((a, b) => +new Date(b.postedAt) - +new Date(a.postedAt));
 
   const articles = getPublicArticleSummaries()
     .slice(0, 150)
@@ -74,12 +98,14 @@ export function getSocialWatchItems(limit = 8): SocialWatchItem[] {
         related = { slug: a.slug, title: a.title };
       }
     }
+    const display = cleanText(s.text);
     items.push({
       handle: s.handle,
       group: s.group ?? "world",
       postedAt: s.postedAt,
-      text: s.text.length > 240 ? `${s.text.slice(0, 237)}…` : s.text,
+      text: display.length > 220 ? `${display.slice(0, 217)}…` : display,
       url: s.url,
+      photoUrl: s.photoUrl || undefined,
       relatedSlug: related?.slug,
       relatedTitle: related?.title,
     });

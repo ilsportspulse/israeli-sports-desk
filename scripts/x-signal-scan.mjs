@@ -117,11 +117,13 @@ try {
         const link = timeEl?.closest("a")?.getAttribute("href") ?? "";
         const textEl = el.querySelector('[data-testid="tweetText"]');
         const isRepost = Boolean(el.querySelector('[data-testid="socialContext"]'));
+        const photo = el.querySelector('[data-testid="tweetPhoto"] img');
         out.push({
           link,
           datetime: timeEl?.getAttribute("datetime") ?? "",
           text: textEl?.innerText ?? "",
           isRepost,
+          photoUrl: photo?.getAttribute("src") ?? "",
         });
       }
       return out;
@@ -143,6 +145,7 @@ try {
           postedAt: new Date(at).toISOString(),
           seenAt: new Date().toISOString(),
           text: t.text.replace(/\s+/g, " ").trim().slice(0, 500),
+          photoUrl: t.photoUrl || undefined,
         });
       }
     }

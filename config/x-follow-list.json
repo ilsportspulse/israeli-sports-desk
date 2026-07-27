@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-28T02:20:00+03:00",
+ "updatedAt": "2026-07-28T02:55:00+03:00",
  "policy": "volg alleen geverifieerde officiele accounts; batches van max ~35/dag; hold-lijst pas na extra verificatie",
  "accounts": [
   {
@@ -516,6 +516,72 @@
    "group": "israeli-extras",
    "name": "Maccabi USA",
    "handle": "@MaccabiUSA",
+   "confidence": 0.8
+  },
+  {
+   "group": "world-stars",
+   "name": "Cristiano Ronaldo",
+   "handle": "@Cristiano",
+   "confidence": 1
+  },
+  {
+   "group": "world-stars",
+   "name": "Kylian Mbappé",
+   "handle": "@KMbappe",
+   "confidence": 1
+  },
+  {
+   "group": "world-stars",
+   "name": "LeBron James",
+   "handle": "@KingJames",
+   "confidence": 1
+  },
+  {
+   "group": "world-stars",
+   "name": "Neymar Jr",
+   "handle": "@neymarjr",
+   "confidence": 1
+  },
+  {
+   "group": "competitions",
+   "name": "NHL",
+   "handle": "@NHL",
+   "confidence": 1
+  },
+  {
+   "group": "competitions",
+   "name": "NFL",
+   "handle": "@NFL",
+   "confidence": 1
+  },
+  {
+   "group": "israeli-media",
+   "name": "Ynetnews (EN)",
+   "handle": "@ynetnews",
+   "confidence": 0.9
+  },
+  {
+   "group": "israeli-media",
+   "name": "N12 News",
+   "handle": "@N12News",
+   "confidence": 0.85
+  },
+  {
+   "group": "israeli-media",
+   "name": "Kan News",
+   "handle": "@kann_news",
+   "confidence": 0.85
+  },
+  {
+   "group": "israeli-media",
+   "name": "i24NEWS English",
+   "handle": "@i24NEWS_EN",
+   "confidence": 0.85
+  },
+  {
+   "group": "israeli-media",
+   "name": "Galei Tzahal (GLZ)",
+   "handle": "@GLZRadio",
    "confidence": 0.8
   }
  ],

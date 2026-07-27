@@ -86,6 +86,12 @@ export type UiKey =
   | "section.ilspColumns"
   | "social.heading"
   | "social.blurb"
+  | "social.live"
+  | "social.filterAll"
+  | "social.filterSport"
+  | "social.filterNews"
+  | "social.filterVoices"
+  | "social.newPosts"
   | "social.viewPost"
   | "social.readStory"
   | "columns.heading"
@@ -220,8 +226,14 @@ const en: Dictionary = {
   "section.intlCorner": "International corner",
   "section.moreWorld": "More from around the world",
   "section.ilspColumns": "ILSP Columns",
-  "social.heading": "Social Media Watcher",
-  "social.blurb": "The sharpest posts from the clubs, insiders and newsrooms we track — straight from the source, linked to the full story.",
+  "social.heading": "Israeli News Watcher",
+  "social.blurb": "The pulse of Israel right now — verified posts from Israeli newsrooms, clubs and athletes, in Hebrew and English, straight from the source.",
+  "social.live": "Live",
+  "social.filterAll": "All",
+  "social.filterSport": "Sport",
+  "social.filterNews": "News",
+  "social.filterVoices": "Clubs & players",
+  "social.newPosts": "new posts",
   "social.viewPost": "View post on X",
   "social.readStory": "Read the story",
   "columns.heading": "Arguments worth having",
@@ -355,8 +367,14 @@ const fr: Dictionary = {
   "section.intlCorner": "Coin international",
   "section.moreWorld": "Plus d’actualités du monde",
   "section.ilspColumns": "Chroniques ILSP",
-  "social.heading": "Social Media Watcher",
-  "social.blurb": "Les publications marquantes des clubs, initiés et rédactions que nous suivons — à la source, reliées à l’article complet.",
+  "social.heading": "Israeli News Watcher",
+  "social.blurb": "Le pouls d’Israël en direct — publications vérifiées des rédactions, clubs et athlètes israéliens, en hébreu et en anglais, à la source.",
+  "social.live": "En direct",
+  "social.filterAll": "Tout",
+  "social.filterSport": "Sport",
+  "social.filterNews": "Actualités",
+  "social.filterVoices": "Clubs & joueurs",
+  "social.newPosts": "nouveaux posts",
   "social.viewPost": "Voir le post sur X",
   "social.readStory": "Lire l’article",
   "columns.heading": "Des débats qui comptent",
@@ -490,8 +508,14 @@ const es: Dictionary = {
   "section.intlCorner": "Rincón internacional",
   "section.moreWorld": "Más noticias del mundo",
   "section.ilspColumns": "Columnas ILSP",
-  "social.heading": "Social Media Watcher",
-  "social.blurb": "Las publicaciones más destacadas de los clubes, insiders y redacciones que seguimos — directas de la fuente, enlazadas a la historia completa.",
+  "social.heading": "Israeli News Watcher",
+  "social.blurb": "El pulso de Israel en directo — publicaciones verificadas de redacciones, clubes y atletas israelíes, en hebreo y en inglés, directas de la fuente.",
+  "social.live": "En directo",
+  "social.filterAll": "Todo",
+  "social.filterSport": "Deporte",
+  "social.filterNews": "Noticias",
+  "social.filterVoices": "Clubes y jugadores",
+  "social.newPosts": "posts nuevos",
   "social.viewPost": "Ver el post en X",
   "social.readStory": "Leer la historia",
   "columns.heading": "Debates que merecen la pena",

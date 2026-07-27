@@ -23,6 +23,7 @@ import { StoryVisual } from "@/components/story-visual";
 import { TeamCrest } from "@/components/team-crest";
 import { formatArticleDate } from "@/lib/articles";
 import type { SocialWatchItem } from "@/lib/social-watch";
+import { IsraeliNewsWatcher, NewsWatchRail } from "@/components/israeli-news-watcher";
 import { getArticlePhoto } from "@/lib/media";
 import type { DailyQuiz as DailyQuizData } from "@/lib/quiz";
 import { competitionPriority } from "@/lib/competition-priority";
@@ -520,27 +521,33 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
             </div>
           </div>
           <aside className="trending-column">
-            <div className="trending-card">
-              <div className="section-heading compact">
-                <div>
-                  <span className="eyebrow">{tr("label.now")}</span>
-                  <h2>{tr("section.mostFollowed")}</h2>
+            {socialWatch.length ? (
+              <NewsWatchRail items={socialWatch} locale={locale} />
+            ) : (
+              <div className="trending-card">
+                <div className="section-heading compact">
+                  <div>
+                    <span className="eyebrow">{tr("label.now")}</span>
+                    <h2>{tr("section.mostFollowed")}</h2>
+                  </div>
                 </div>
+                <ol>
+                  {trending.map((article, index) => (
+                    <li key={article.id}>
+                      <span>{String(index + 1).padStart(2, "0")}</span>
+                      <Link href={`/article/${article.slug}`}>
+                        <strong>{article.title}</strong>
+                        <small>{article.category} · {article.featured && article.updatedAt && article.updatedAt !== article.publishedAt ? `${tr("label.updated")} ` : ""}{formatArticleDate(article.featured && article.updatedAt ? article.updatedAt : article.publishedAt, true, locale)}</small>
+                      </Link>
+                    </li>
+                  ))}
+                </ol>
               </div>
-              <ol>
-                {trending.map((article, index) => (
-                  <li key={article.id}>
-                    <span>{String(index + 1).padStart(2, "0")}</span>
-                    <Link href={`/article/${article.slug}`}>
-                      <strong>{article.title}</strong>
-                      <small>{article.category} · {article.featured && article.updatedAt && article.updatedAt !== article.publishedAt ? `${tr("label.updated")} ` : ""}{formatArticleDate(article.featured && article.updatedAt ? article.updatedAt : article.publishedAt, true, locale)}</small>
-                    </Link>
-                  </li>
-                ))}
-              </ol>
-            </div>
+            )}
           </aside>
         </section>
+
+        {socialWatch.length ? <IsraeliNewsWatcher initial={socialWatch} locale={locale} /> : null}
 
         {archiveFeature ? (
           <section className="topstories-block retro-block" id="archive" aria-label={tr("nav.archive")}>
@@ -670,34 +677,6 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
           </div>
         </section>
 
-        {socialWatch.length ? (
-          <section className="topstories-block sw-block" id="social-watch" aria-label={tr("social.heading")}>
-            <div className="page-width">
-              <div className="ts-head">
-                <span className="hero-heading-bar" />
-                <h2>{tr("social.heading")}</h2>
-              </div>
-              <p className="sw-blurb">{tr("social.blurb")}</p>
-              <div className="sw-grid">
-                {socialWatch.map((item) => (
-                  <article key={item.url} className="sw-card">
-                    <header>
-                      <span className="sw-handle">{item.handle}</span>
-                      <time dateTime={item.postedAt}>{formatArticleDate(item.postedAt, true, locale)}</time>
-                    </header>
-                    <blockquote>{item.text}</blockquote>
-                    <footer>
-                      <a href={item.url} target="_blank" rel="noopener noreferrer">{tr("social.viewPost")} <ArrowIcon size={14} /></a>
-                      {item.relatedSlug ? (
-                        <Link href={`/article/${item.relatedSlug}`}>{tr("social.readStory")} <ArrowIcon size={14} /></Link>
-                      ) : null}
-                    </footer>
-                  </article>
-                ))}
-              </div>
-            </div>
-          </section>
-        ) : null}
 
         <div className="page-width quiz-section-wrap">
           <DailyQuiz quiz={quiz} />
