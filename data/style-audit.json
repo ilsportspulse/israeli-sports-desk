@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T10:04:37.278Z",
+  "generatedAt": "2026-07-27T12:43:12.640Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 417,
+    "publishedArticles": 421,
     "wordCount": {
       "minimum": 231,
       "maximum": 1070,
       "median": 452,
-      "average": 464.4
+      "average": 464.1
     },
     "paragraphDistribution": {
       "5": 1,
       "6": 14,
       "7": 68,
-      "8": 113,
+      "8": 115,
       "9": 103,
-      "10": 80,
+      "10": 82,
       "11": 22,
       "12": 6,
       "13": 4,
@@ -33,11 +33,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.271,
+    "dominantParagraphShare": 0.273,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 14,
     "analysisBelowTarget": 4,
-    "articlesWithStyleFlags": 38
+    "articlesWithStyleFlags": 40
   },
   "flagged": [
     {
@@ -62,6 +62,52 @@
       "flags": [
         "stock-phrase:statement-of-intent",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260727-orian-goren-barcelona-dna",
+      "slug": "orian-goren-israel-coach-compares-dna-xavi-iniesta-pedri",
+      "title": "Israel youth coach: Orian Goren's \"DNA\" resembles Xavi, Iniesta and Pedri",
+      "kind": "news",
+      "words": 547,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 42,
+        "longest": 70,
+        "average": 54.7
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 99,
+        "average": 36.5
+      },
+      "lexicalDiversity": 0.554,
+      "publisherAttributions": 2,
+      "flags": [
+        "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260727-frishman-yanay-corruption-row",
+      "slug": "israel-basketball-frishman-yanay-corruption-row",
+      "title": "Israel basketball chief to club owner: if we're corrupt, go to the police",
+      "kind": "news",
+      "words": 517,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 43,
+        "longest": 68,
+        "average": 51.7
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 69,
+        "average": 36.9
+      },
+      "lexicalDiversity": 0.571,
+      "publisherAttributions": 0,
+      "flags": [
+        "stock-phrase:remains-to-be-seen"
       ]
     },
     {
@@ -917,6 +963,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-27-kangwa-hapoel-beer-sheva-hall-of-fame",
+      "slug": "kings-kangwa-hapoel-beer-sheva-hall-of-fame-induction",
+      "title": "Kangwa inducted into Hapoel Beer Sheva's hall of fame as Panathinaikos move nears",
+      "kind": "news",
+      "words": 295,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 48,
+        "average": 36.9
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 59,
+        "average": 32.8
+      },
+      "lexicalDiversity": 0.61,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-27-eric-garcia-champions-league-ambition",
+      "slug": "eric-garcia-champions-league-next-goal-barcelona",
+      "title": "Eric García: winning the Champions League with Barcelona is next",
+      "kind": "article",
+      "words": 375,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 32,
+        "longest": 59,
+        "average": 46.9
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 67,
+        "average": 37.5
+      },
+      "lexicalDiversity": 0.581,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-07-27-tiberias-infusion-scandal-response",
       "slug": "ironi-tiberias-infusion-scandal-indictment-response",
