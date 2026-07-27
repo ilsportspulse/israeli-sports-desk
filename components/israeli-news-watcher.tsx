@@ -14,14 +14,12 @@ import type { SocialWatchItem } from "@/lib/social-watch";
 // minute and slides fresh posts in behind a "+N new" pill so reading is never
 // interrupted mid-scroll.
 
-type Filter = "all" | "sport" | "news" | "voices";
+type Filter = "all" | "news" | "voices";
 
-const SPORT_MEDIA = new Set(["@one_co_il", "@sport5il", "@sport1_sport2", "@wallasport"]);
 
 function filterOf(item: SocialWatchItem): Exclude<Filter, "all"> {
   const g = item.group ?? "";
   if (g === "israeli-clubs" || g === "israeli-basketball-federations" || g === "israeli-players") return "voices";
-  if (SPORT_MEDIA.has(item.handle.toLowerCase())) return "sport";
   return "news";
 }
 
@@ -72,7 +70,6 @@ export function IsraeliNewsWatcher({ initial, locale = defaultLocale }: { initia
 
   const chips: { key: Filter; label: string }[] = [
     { key: "all", label: tr("social.filterAll") },
-    { key: "sport", label: tr("social.filterSport") },
     { key: "news", label: tr("social.filterNews") },
     { key: "voices", label: tr("social.filterVoices") },
   ];

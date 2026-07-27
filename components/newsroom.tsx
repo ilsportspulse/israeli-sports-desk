@@ -118,7 +118,7 @@ function ArticleMeta({ article, inverse = false, locale }: { article: PublicArti
 export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defaultLocale, socialWatch = [] }: NewsroomProps) {
   const tr = translator(locale);
   const [activeCategory, setActiveCategory] = useState("All");
-  const [activeDesk, setActiveDesk] = useState<"israeli" | "international">("israeli");
+  const [activeDesk] = useState<"israeli" | "international">("israeli");
   const [menuOpen, setMenuOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const [query, setQuery] = useState("");
@@ -449,26 +449,6 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
           </div>
         </section>
 
-        <section className="page-width desk-tabs-row" aria-label={tr("aria.chooseDesk")}>
-          <div className="desk-tabs" role="tablist">
-            <button
-              role="tab"
-              aria-selected={activeDesk === "israeli"}
-              className={activeDesk === "israeli" ? "active" : ""}
-              onClick={() => { setActiveDesk("israeli"); setActiveCategory("All"); }}
-            >
-              {tr("tab.israeliSport")}
-            </button>
-            <button
-              role="tab"
-              aria-selected={activeDesk === "international"}
-              className={activeDesk === "international" ? "active" : ""}
-              onClick={() => { setActiveDesk("international"); setActiveCategory("All"); }}
-            >
-              {tr("nav.international")}
-            </button>
-          </div>
-        </section>
 
         {activeDesk === "israeli" ? (
         <section className="page-width filter-row" aria-label={tr("aria.filterStories")}>

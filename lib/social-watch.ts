@@ -31,6 +31,11 @@ const DISPLAY_GROUPS = new Set([
   "israeli-extras",
 ]);
 
+// ILSP delivers the sport itself — sport-media posts would only duplicate our
+// own coverage, so those outlets stay newsroom-signal-only. Club and player
+// voices remain: those are primary sources, not competing coverage.
+const SPORT_MEDIA_EXCLUDE = new Set(["@one_co_il", "@sport5il", "@sport1_sport2", "@wallasport", "@thesportsrabbi"]);
+
 // Strip link noise for display; the card links to the post itself. X renders
 // long links with soft breaks ("https:// sport5.co.il/…"), so the protocol and
 // its continuation are removed separately, plus tracking/query fragments.
@@ -70,9 +75,9 @@ export function getSocialWatchItems(limit = 8): SocialWatchItem[] {
     .filter((s) => s.text && s.url && s.postedAt)
     .filter((s) => Date.now() - new Date(s.postedAt).getTime() < 48 * 60 * 60 * 1000)
     // A link-only or hashtag-only post has nothing to quote.
-    .filter((s) => cleanText(s.text).length >= 30 || Boolean(s.photoUrl));
+    .filter((s) => cleanText(s.text).replace(/#[^\s#]+/g, "").trim().length >= 30 || Boolean(s.photoUrl));
   const fresh = inWindow
-    .filter((s) => DISPLAY_GROUPS.has(s.group ?? ""))
+    .filter((s) => DISPLAY_GROUPS.has(s.group ?? "") && !SPORT_MEDIA_EXCLUDE.has(s.handle.toLowerCase()))
     // A news wall reads newest-first; the per-handle cap below keeps it varied.
     .sort((a, b) => +new Date(b.postedAt) - +new Date(a.postedAt));
 

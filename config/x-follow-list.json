@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-07-28T02:55:00+03:00",
+ "updatedAt": "2026-07-28T04:15:00+03:00",
  "policy": "volg alleen geverifieerde officiele accounts; batches van max ~35/dag; hold-lijst pas na extra verificatie",
  "accounts": [
   {
@@ -582,6 +582,36 @@
    "group": "israeli-media",
    "name": "Galei Tzahal (GLZ)",
    "handle": "@GLZRadio",
+   "confidence": 0.8
+  },
+  {
+   "group": "israeli-media",
+   "name": "Ynet (HE)",
+   "handle": "@ynet",
+   "confidence": 0.97
+  },
+  {
+   "group": "israeli-media",
+   "name": "Maariv",
+   "handle": "@MaarivOnline",
+   "confidence": 0.95
+  },
+  {
+   "group": "israeli-media",
+   "name": "Channel 14 / Now 14",
+   "handle": "@Now14Israel",
+   "confidence": 0.9
+  },
+  {
+   "group": "israeli-media",
+   "name": "Channel 13 News",
+   "handle": "@newsisrael13",
+   "confidence": 0.95
+  },
+  {
+   "group": "israeli-media",
+   "name": "i24NEWS Hebrew (Ch.15)",
+   "handle": "@i24NEWS_HE",
    "confidence": 0.8
   }
  ],
