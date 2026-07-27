@@ -168,7 +168,7 @@ export function ArticleImageCard({ articleId }: { articleId: string }) {
       <div className="field-row"><div className="field"><label>Credit (blank = {entry?.credit ? "keep current" : "Israel Sports Pulse"})</label>
         <input type="text" value={upCredit} onChange={(e) => setUpCredit(e.target.value)} /></div></div>
       <div className="save-bar">
-        <button className="btn primary" onClick={upload} disabled={busy || !file || (!entry && !upAlt.trim())}>
+        <button className="btn primary" onClick={upload} disabled={busy || !file}>
           {busy ? "Working…" : entry ? "Replace image" : "Upload image"}
         </button>
         <button className="btn" onClick={openPicker} disabled={busy}>Choose from library…</button>
