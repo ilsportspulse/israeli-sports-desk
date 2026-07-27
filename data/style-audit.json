@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T19:18:20.757Z",
+  "generatedAt": "2026-07-27T20:37:28.556Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -15,8 +15,8 @@
     "wordCount": {
       "minimum": 231,
       "maximum": 1070,
-      "median": 451,
-      "average": 462.3
+      "median": 452,
+      "average": 463.8
     },
     "paragraphDistribution": {
       "5": 2,
@@ -24,8 +24,8 @@
       "7": 70,
       "8": 119,
       "9": 107,
-      "10": 84,
-      "11": 22,
+      "10": 83,
+      "11": 23,
       "12": 6,
       "13": 4,
       "14": 2,
@@ -1056,6 +1056,27 @@
   ],
   "clean": [
     {
+      "id": "column-20260727-ginat-2030-strategy",
+      "slug": "ginat-2030-hapoel-tel-aviv-strategy-column",
+      "title": "Ginat to 2030 is not sentiment. It is Hapoel Tel Aviv's whole strategy in one signature",
+      "kind": "analysis",
+      "words": 1024,
+      "paragraphs": 11,
+      "paragraphWords": {
+        "shortest": 78,
+        "longest": 128,
+        "average": 93.1
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 55,
+        "average": 22.8
+      },
+      "lexicalDiversity": 0.48,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
       "id": "live-20260727-hapoel-petah-tikva-youth-attack",
       "slug": "hapoel-petah-tikva-youth-signs-azoulai-kostaki",
       "title": "Hapoel Petah Tikva strengthen their Youth A attack with two prolific teenage scorers",
@@ -1136,27 +1157,6 @@
         "average": 36.5
       },
       "lexicalDiversity": 0.627,
-      "publisherAttributions": 1,
-      "flags": []
-    },
-    {
-      "id": "live-2026-07-27-ginat-hapoel-extension",
-      "slug": "tomer-ginat-extends-hapoel-tel-aviv-contract-2030",
-      "title": "Tomer Ginat extends Hapoel Tel Aviv contract through 2030",
-      "kind": "news",
-      "words": 374,
-      "paragraphs": 10,
-      "paragraphWords": {
-        "shortest": 21,
-        "longest": 50,
-        "average": 37.4
-      },
-      "sentenceWords": {
-        "shortest": 12,
-        "longest": 144,
-        "average": 41.6
-      },
-      "lexicalDiversity": 0.586,
       "publisherAttributions": 1,
       "flags": []
     },
