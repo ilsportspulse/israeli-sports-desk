@@ -1,11 +1,34 @@
 {
   "selections": [
     {
-      "articleId": "live-20260727-ahavat-gordon-beats-lineker-gfn2",
-      "article": "Ahavat Gordon outlasts John Lineker, then tells Kaminski: get to work on GFN 2",
-      "file": "File:PikiWiki Israel 32494 Architecture of Israel.JPG",
-      "license": "CC BY 2.5"
+      "articleId": "live-2026-07-27-bruninho-self-belief-fernandez",
+      "article": "Ex-Karpaty coach: Bruninho is special, but he doesn't believe in himself yet",
+      "file": "File:GiuseppeMeazzaNeazzurro.jpg",
+      "license": "CC BY 2.0"
+    },
+    {
+      "articleId": "live-2026-07-27-hapoel-maccabi-euroleague-odds",
+      "article": "Hapoel far outrank Maccabi in bookmakers' EuroLeague title odds",
+      "file": "File:Flickr - Government Press Office (GPO) - Hapoel Tel Aviv vs. Maccabi Tel Aviv.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "articleId": "live-2026-07-27-ironi-tiberias-injections-indictment",
+      "article": "Ironi Tiberias face \"most serious indictment ever\" over unsupervised player infusions",
+      "file": "File:SM Caen Tifo 15 ans du MNK.jpg",
+      "license": "CC BY-SA 3.0"
     }
   ],
-  "failures": []
+  "failures": [
+    {
+      "id": "live-20260727-kibedy-gordon-knockout-quinones",
+      "title": "Kibedy Gordon flattens former UFC fighter Quiñones in under a minute",
+      "error": "image download 429 after retries"
+    },
+    {
+      "id": "live-2026-07-27-seatbelt-safety-explainer",
+      "title": "Not a sports story — ONE seatbelt safety explainer held from publication",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    }
+  ]
 }

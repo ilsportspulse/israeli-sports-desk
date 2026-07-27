@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T22:56:15.743Z",
+  "generatedAt": "2026-07-27T23:28:14.066Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 422,
+    "publishedArticles": 424,
     "wordCount": {
       "minimum": 231,
       "maximum": 1070,
-      "median": 453,
+      "median": 453.5,
       "average": 467.3
     },
     "paragraphDistribution": {
       "5": 2,
-      "6": 15,
-      "7": 67,
+      "6": 14,
+      "7": 68,
       "8": 112,
-      "9": 105,
-      "10": 82,
+      "9": 106,
+      "10": 83,
       "11": 23,
       "12": 6,
       "13": 4,
@@ -33,9 +33,9 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.265,
+    "dominantParagraphShare": 0.264,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 15,
+    "exactSixParagraphArticles": 14,
     "analysisBelowTarget": 4,
     "articlesWithStyleFlags": 43
   },
@@ -1033,6 +1033,69 @@
   ],
   "clean": [
     {
+      "id": "live-2026-07-27-bruninho-self-belief-fernandez",
+      "slug": "bruninho-maccabi-haifa-self-belief-fernandez",
+      "title": "Ex-Karpaty coach: Bruninho is special, but he doesn't believe in himself yet",
+      "kind": "news",
+      "words": 477,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 32,
+        "longest": 56,
+        "average": 47.7
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 74,
+        "average": 34.1
+      },
+      "lexicalDiversity": 0.564,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-27-hapoel-maccabi-euroleague-odds",
+      "slug": "hapoel-maccabi-euroleague-2026-27-title-odds",
+      "title": "Hapoel far outrank Maccabi in bookmakers' EuroLeague title odds",
+      "kind": "news",
+      "words": 456,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 20,
+        "longest": 81,
+        "average": 50.7
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 60,
+        "average": 30.4
+      },
+      "lexicalDiversity": 0.583,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260727-kibedy-gordon-knockout-quinones",
+      "slug": "kibedy-gordon-knockout-quinones-gfn1",
+      "title": "Kibedy Gordon flattens former UFC fighter Quiñones in under a minute",
+      "kind": "news",
+      "words": 403,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 49,
+        "longest": 62,
+        "average": 57.6
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 47,
+        "average": 23.7
+      },
+      "lexicalDiversity": 0.588,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
       "id": "live-2026-07-27-barzilay-ufc-push",
       "slug": "ilay-barzilay-defeats-lucas-almeida-ufc-push",
       "title": "Ilay Barzilay bags the biggest win of his career and edges closer to the UFC",
@@ -1177,27 +1240,6 @@
       },
       "lexicalDiversity": 0.6,
       "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-07-27-kivdei-gordon-ko-quinones",
-      "slug": "kivdei-gordon-ko-jose-alberto-quinones-tel-aviv",
-      "title": "Kivdei Gordon opens family's Tel Aviv card with 45-second knockout",
-      "kind": "news",
-      "words": 375,
-      "paragraphs": 6,
-      "paragraphWords": {
-        "shortest": 54,
-        "longest": 70,
-        "average": 62.5
-      },
-      "sentenceWords": {
-        "shortest": 4,
-        "longest": 54,
-        "average": 28.8
-      },
-      "lexicalDiversity": 0.616,
-      "publisherAttributions": 1,
       "flags": []
     },
     {

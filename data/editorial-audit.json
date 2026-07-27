@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T22:56:15.245Z",
+  "generatedAt": "2026-07-27T23:28:13.676Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,45 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 673,
-    "publishedBefore": 422,
-    "cleanPublished": 422,
+    "totalArticles": 676,
+    "publishedBefore": 424,
+    "cleanPublished": 424,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 422,
-    "reviewAfter": 251
+    "publishedAfter": 424,
+    "reviewAfter": 252
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-2026-07-27-bruninho-self-belief-fernandez",
+      "slug": "bruninho-maccabi-haifa-self-belief-fernandez",
+      "title": "Ex-Karpaty coach: Bruninho is special, but he doesn't believe in himself yet",
+      "statusBefore": "published",
+      "words": 478,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-27-hapoel-maccabi-euroleague-odds",
+      "slug": "hapoel-maccabi-euroleague-2026-27-title-odds",
+      "title": "Hapoel far outrank Maccabi in bookmakers' EuroLeague title odds",
+      "statusBefore": "published",
+      "words": 444,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
     {
       "id": "live-2026-07-27-barzilay-ufc-push",
       "slug": "ilay-barzilay-defeats-lucas-almeida-ufc-push",
@@ -42,14 +71,14 @@
       ]
     },
     {
-      "id": "live-20260727-real-madrid-rodri-bid",
-      "slug": "real-madrid-rodri-transfer-bid",
-      "title": "Real Madrid submit opening offer for Rodri worth up to €60m",
-      "statusBefore": "published",
-      "words": 368,
+      "id": "live-2026-07-27-ironi-tiberias-injections-indictment",
+      "slug": "ironi-tiberias-injections-indictment-lawyer-defends-50ml",
+      "title": "Ironi Tiberias face \"most serious indictment ever\" over unsupervised player infusions",
+      "statusBefore": "review",
+      "words": 495,
       "paragraphs": 10,
-      "facts": 6,
-      "verificationSources": 4,
+      "facts": 7,
+      "verificationSources": 5,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -78,6 +107,20 @@
       "paragraphs": 10,
       "facts": 7,
       "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-27-ahavat-hashem-gordon-beats-lineker",
+      "slug": "ahavat-hashem-gordon-beats-john-lineker-gfn-1",
+      "title": "Ahavat Hashem Gordon edges John Lineker to stay unbeaten in Tel Aviv main event",
+      "statusBefore": "published",
+      "words": 480,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 5,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -185,7 +228,7 @@
       "id": "live-2026-07-27-kivdei-gordon-ko-quinones",
       "slug": "kivdei-gordon-ko-jose-alberto-quinones-tel-aviv",
       "title": "Kivdei Gordon opens family's Tel Aviv card with 45-second knockout",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 379,
       "paragraphs": 6,
       "facts": 6,
@@ -6324,6 +6367,47 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-2026-07-27-bruninho-self-belief-fernandez",
+      "slug": "bruninho-maccabi-haifa-self-belief-fernandez",
+      "title": "Ex-Karpaty coach: Bruninho is special, but he doesn't believe in himself yet",
+      "statusBefore": "published",
+      "words": 478,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-27-hapoel-maccabi-euroleague-odds",
+      "slug": "hapoel-maccabi-euroleague-2026-27-title-odds",
+      "title": "Hapoel far outrank Maccabi in bookmakers' EuroLeague title odds",
+      "statusBefore": "published",
+      "words": 444,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260727-kibedy-gordon-knockout-quinones",
+      "slug": "kibedy-gordon-knockout-quinones-gfn1",
+      "title": "Kibedy Gordon flattens former UFC fighter Quiñones in under a minute",
+      "statusBefore": "published",
+      "words": 405,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
       "id": "live-2026-07-27-barzilay-ufc-push",
       "slug": "ilay-barzilay-defeats-lucas-almeida-ufc-push",
       "title": "Ilay Barzilay bags the biggest win of his career and edges closer to the UFC",
@@ -6371,9 +6455,7 @@
       "facts": 6,
       "verificationSources": 4,
       "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
+      "warnings": []
     },
     {
       "id": "live-2026-07-27-ahavat-hashem-gordon-beats-lineker",
@@ -6385,7 +6467,9 @@
       "facts": 7,
       "verificationSources": 5,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-2026-07-27-tiberias-court-schedule",
@@ -6427,20 +6511,6 @@
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline"
-      ]
-    },
-    {
-      "id": "live-2026-07-27-kivdei-gordon-ko-quinones",
-      "slug": "kivdei-gordon-ko-jose-alberto-quinones-tel-aviv",
-      "title": "Kivdei Gordon opens family's Tel Aviv card with 45-second knockout",
-      "statusBefore": "published",
-      "words": 379,
-      "paragraphs": 6,
-      "facts": 6,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
       ]
     },
     {
