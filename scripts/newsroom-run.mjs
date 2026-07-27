@@ -466,6 +466,22 @@ async function main() {
     // loop (see the image step below); stories that still cannot be matched to a
     // unique image are held there, so nothing publishes without its own photo.
     article.status = gated && AUTO_PUBLISH ? "published" : "review";
+    // A story sourced from an X signal carries its own primary evidence: the
+    // official post. Attach it as the article's social embed (rights-safe embed
+    // route) so the REAL photo of the actual subject shows inside the article —
+    // the drafter may have found a better one; never overwrite that.
+    if (candidate.viaXSignal && !article.officialSocialPost) {
+      const postId = candidate.url.match(/\/status\/(\d+)/)?.[1];
+      if (postId) {
+        article.officialSocialPost = {
+          title: article.title,
+          account: (candidate.source ?? "").replace(/^X\s+/, ""),
+          platform: "twitter",
+          url: candidate.url,
+          postId,
+        };
+      }
+    }
     if (!article.warning) article.warning = "";
     if (!article.nameChecks) article.nameChecks = [];
 

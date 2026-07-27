@@ -975,6 +975,32 @@ function isTeamOrMatchStory(article) {
   return /\bvs\b|\bv\.?\b|\bbeat\b|\bdraw\b|\bdefeat|\bhold\b|\bwin\b|\bloss\b|preview|kick.?off|full.?time|matchday|fixture|clash|derby|qualif/.test(h);
 }
 
+let sportBank = null;
+async function sportBankFallbackFor(article) {
+  try {
+    if (!sportBank) {
+      const cfg = JSON.parse(await readFile(path.join(root, "config/sport-photo-bank.json"), "utf8"));
+      sportBank = cfg;
+    }
+    const key = sportBank.categoryMap[article.category];
+    if (!key) return null;
+    const options = sportBank.bank.filter((b) => b.category === key);
+    if (!options.length) return null;
+    // Deterministic rotation by article id keeps variety without randomness.
+    let hash = 0;
+    for (const ch of article.id) hash = (hash * 31 + ch.charCodeAt(0)) >>> 0;
+    const ordered = [...options.slice(hash % options.length), ...options.slice(0, hash % options.length)];
+    const pages = await fetchFiles(ordered.map((o) => o.title));
+    for (const o of ordered) {
+      const page = pages.get(o.title);
+      if (page) return page;
+    }
+    return null;
+  } catch {
+    return null;
+  }
+}
+
 function subjectFallbackFor(article, isUsed) {
   const haystack = `${article.title ?? ""} ${article.dek ?? ""} ${article.category ?? ""}`.toLowerCase();
   const venueOnly = !isTeamOrMatchStory(article);
@@ -1090,6 +1116,19 @@ for (const [index, article] of articles.entries()) {
       if (selected) {
         isFallback = true;
         console.log(`Subject fallback for ${article.id}: ${selected.title}`);
+      }
+    }
+    if (!selected) {
+      // Last resort: the spectacular sport-level photo bank (config/
+      // sport-photo-bank.json) — a real, licensed action photo of the story's
+      // SPORT. Guarantees no story ever ships with a bare category tile
+      // (owner requirement, 28 Jul). Rotates by article id for variety;
+      // fallback:true exempts these from the uniqueness dedupe.
+      const page = await sportBankFallbackFor(article);
+      if (page) {
+        selected = page;
+        isFallback = true;
+        console.log(`Sport-bank fallback for ${article.id}: ${selected.title}`);
       }
     }
     if (!selected) throw new Error("no AI-verified, curated or subject-fallback image for this story — held for review");
