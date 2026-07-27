@@ -146,8 +146,8 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-27T22:30:47Z",
-    "validUntil": "2026-07-28T10:30:47Z",
+    "checkedAt": "2026-07-27T22:49:14Z",
+    "validUntil": "2026-07-28T10:49:14Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
@@ -160,21 +160,21 @@
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-07-27-tiberias-court-schedule",
+        "articleId": "live-2026-07-27-psg-diomande-inflated-fee",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 201,
+        "maxAgeHours": 202,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260727-ahavat-gordon-beats-lineker-gfn2",
+        "articleId": "live-20260727-real-madrid-rodri-bid",
         "maxAgeHours": 24,
         "requires": []
       },
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-07-27-vincic-retires-world-cup-final-referee",
+        "articleId": "live-2026-07-27-ahavat-hashem-gordon-beats-lineker",
         "maxAgeHours": 24,
         "requires": []
       }

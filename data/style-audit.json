@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T22:30:48.079Z",
+  "generatedAt": "2026-07-27T22:49:15.383Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 418,
+    "publishedArticles": 420,
     "wordCount": {
       "minimum": 231,
       "maximum": 1070,
       "median": 453.5,
-      "average": 468.1
+      "average": 467.8
     },
     "paragraphDistribution": {
       "5": 2,
       "6": 15,
       "7": 67,
-      "8": 112,
+      "8": 111,
       "9": 104,
-      "10": 79,
+      "10": 82,
       "11": 23,
       "12": 6,
       "13": 4,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.268,
+    "dominantParagraphShare": 0.264,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 15,
     "analysisBelowTarget": 4,
@@ -1033,23 +1033,65 @@
   ],
   "clean": [
     {
-      "id": "live-20260727-ahavat-gordon-beats-lineker-gfn2",
-      "slug": "ahavat-gordon-beats-lineker-calls-for-gfn-2",
-      "title": "Ahavat Gordon outlasts John Lineker, then tells Kaminski: get to work on GFN 2",
+      "id": "live-2026-07-27-psg-diomande-inflated-fee",
+      "slug": "psg-pulls-out-diomande-real-madrid-transfer",
+      "title": "PSG walk away from Diomandé chase, blast \"completely inflated\" fee as Real Madrid move in",
       "kind": "news",
-      "words": 448,
-      "paragraphs": 8,
+      "words": 434,
+      "paragraphs": 10,
       "paragraphWords": {
-        "shortest": 45,
-        "longest": 70,
-        "average": 56
+        "shortest": 34,
+        "longest": 53,
+        "average": 43.4
       },
       "sentenceWords": {
-        "shortest": 4,
-        "longest": 45,
-        "average": 24.9
+        "shortest": 10,
+        "longest": 100,
+        "average": 36.2
       },
-      "lexicalDiversity": 0.551,
+      "lexicalDiversity": 0.636,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260727-real-madrid-rodri-bid",
+      "slug": "real-madrid-rodri-transfer-bid",
+      "title": "Real Madrid submit opening offer for Rodri worth up to €60m",
+      "kind": "article",
+      "words": 364,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 41,
+        "average": 36.4
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 40,
+        "average": 28
+      },
+      "lexicalDiversity": 0.599,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-27-ahavat-hashem-gordon-beats-lineker",
+      "slug": "ahavat-hashem-gordon-beats-john-lineker-gfn-1",
+      "title": "Ahavat Hashem Gordon edges John Lineker to stay unbeaten in Tel Aviv main event",
+      "kind": "report",
+      "words": 476,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 73,
+        "average": 47.6
+      },
+      "sentenceWords": {
+        "shortest": 3,
+        "longest": 56,
+        "average": 29.8
+      },
+      "lexicalDiversity": 0.559,
       "publisherAttributions": 1,
       "flags": []
     },

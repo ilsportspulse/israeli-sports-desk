@@ -1,11 +1,40 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-07-25-muscle-growth-light-weight-reps",
-      "article": "Can you build real muscle with light weights and lots of reps?",
-      "file": "File:Women 100 m hurdles French Athletics Championships 2013 t160030.jpg",
-      "license": "CC BY 3.0"
+      "articleId": "live-2026-07-27-psg-diomande-inflated-fee",
+      "article": "PSG walk away from Diomandé chase, blast \"completely inflated\" fee as Real Madrid move in",
+      "file": "File:2026 FIFA World Cup, Germany v Ivory Coast players.jpg",
+      "license": "CC BY 4.0"
+    },
+    {
+      "articleId": "live-20260727-real-madrid-rodri-bid",
+      "article": "Real Madrid submit opening offer for Rodri worth up to €60m",
+      "file": "File:GiuseppeMeazzaNeazzurro.jpg",
+      "license": "CC BY 2.0"
+    },
+    {
+      "articleId": "live-2026-07-27-tiberias-conduct-criticism",
+      "article": "Israeli FA spokesman: Tiberias's conduct in doping case 'among the most disgraceful I've seen'",
+      "file": "File:GiuseppeMeazzaNeazzurro.jpg",
+      "license": "CC BY 2.0"
+    },
+    {
+      "articleId": "live-2026-07-27-ahavat-hashem-gordon-beats-lineker",
+      "article": "Ahavat Hashem Gordon edges John Lineker to stay unbeaten in Tel Aviv main event",
+      "file": "File:Muay Thai Boxer (Unsplash).jpg",
+      "license": "CC0"
     }
   ],
-  "failures": []
+  "failures": [
+    {
+      "id": "live-2026-07-27-maccabi-haifa-bataille-tsunami",
+      "title": "Bataille returns to full training as Tsunami primed for Maccabi Haifa debut start",
+      "error": "image download 429 after retries"
+    },
+    {
+      "id": "live-2026-07-27-seatbelt-safety-explainer",
+      "title": "Not a sports story — ONE seatbelt safety explainer held from publication",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    }
+  ]
 }
