@@ -13,6 +13,8 @@ import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
+import { actionClassOf, canonicalEventKey, personTokensOf } from "./event-key.mjs";
+
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DRY = process.argv.includes("--dry");
 
@@ -63,11 +65,13 @@ const tokensOf = (a) => new Set(
 const dayOf = (a) => String(a.publishedAt ?? "").slice(0, 10);
 const fullness = (a) => (a.facts?.length ?? 0) * 3 + (a.body?.length ?? 0) + (a.confidence ?? 0);
 
-// 2a) exact dedupeKey collisions (always a duplicate)
+// 2a) dedupeKey collisions (always a duplicate). Keys are canonicalised — order
+// and incidental numbers/years stripped — so "…-extension-2030" vs "…-extension-2026"
+// for the same signing still collide (the miss that let the Ginat pair through).
 const byKey = new Map();
 for (const a of published) {
   if (demoted.has(a.id)) continue;
-  const k = (a.dedupeKey || "").trim().toLowerCase();
+  const k = canonicalEventKey(a.dedupeKey);
   if (!k) continue;
   if (!byKey.has(k)) byKey.set(k, []);
   byKey.get(k).push(a);
@@ -126,6 +130,43 @@ for (const group of byDay2.values()) {
         demoted.set(loser.id, `dup same-event (${sh.length}: ${sh.slice(0, 6).join(",")})`);
       }
     }
+  }
+}
+
+// 2d) PERSON + ACTION duplicates. The token-overlap passes above need many shared
+// words; two write-ups of one signing can share only the player's name plus club
+// context and still be the same event. Within a ±3-day window, stories that share
+// a person token (capitalised, non-club) AND the same action class (contract /
+// transfer / injury / exit / appointment) AND at least 3 distinctive tokens overall
+// are one event — keep the fullest. The triple condition keeps namesakes at other
+// clubs (shared surname, different context) safely apart.
+const remaining2 = published.filter((a) => !demoted.has(a.id));
+const meta = new Map(remaining2.map((a) => [a.id, {
+  persons: personTokensOf(a.title),
+  action: actionClassOf(`${a.title ?? ""} ${a.dek ?? ""}`),
+  toks: tokensOf(a),
+  t: new Date(a.publishedAt ?? 0).getTime(),
+}]));
+for (let i = 0; i < remaining2.length; i++) {
+  for (let j = i + 1; j < remaining2.length; j++) {
+    const a = remaining2[i], b = remaining2[j];
+    if (demoted.has(a.id) || demoted.has(b.id)) continue;
+    const A = meta.get(a.id), B = meta.get(b.id);
+    if (!A.action || A.action !== B.action) continue;
+    if (Math.abs(A.t - B.t) > 3 * 24 * 60 * 60 * 1000) continue;
+    let person = 0;
+    for (const p of A.persons) if (B.persons.has(p)) person++;
+    if (!person) continue;
+    // Context requirement: besides the person, the two stories must share at
+    // least two distinctive scene tokens (club, city, counterpart). A world star
+    // generates several genuinely different stories in one week (a transfer
+    // rumour, a housing quirk, an award poll); same-name-same-class alone
+    // over-merges those. Same event ⇒ same scene ⇒ shared context tokens.
+    let sharedOthers = 0;
+    for (const t of A.toks) if (B.toks.has(t) && !A.persons.has(t) && !B.persons.has(t)) sharedOthers++;
+    if (sharedOthers < 2) continue;
+    const loser = fullness(a) >= fullness(b) ? b : a;
+    demoted.set(loser.id, `dup person+action (${A.action}, ${person} person + ${sharedOthers} context tokens)`);
   }
 }
 

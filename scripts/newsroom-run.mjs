@@ -14,6 +14,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 import { runDailyFeatures } from "./daily-features.mjs";
+import { actionClassOf, canonicalEventKey, contextTokensOf, personTokensOf } from "./event-key.mjs";
 import { submitIndexNow } from "./ping-indexnow.mjs";
 import { postTweet, xCredsFromEnv } from "./lib/x-post.mjs";
 
@@ -344,7 +345,40 @@ async function main() {
     }
   }
 
-  const candidates = (report.candidates ?? []).slice(0, effectiveMax);
+  let candidates = (report.candidates ?? []).slice(0, effectiveMax);
+
+  // X-signal candidates: fresh posts from the curated follow list, harvested on
+  // the iMac (scripts/x-signal-scan.mjs) into data/x-signals.json. Signals are
+  // discovery only — each becomes a normal candidate and must clear the same
+  // drafting, verification and dedup gates; the tweet text is context for the
+  // researcher, never copy for the site. Capped so RSS discovery keeps priority.
+  try {
+    const xdoc = await readJson("data/x-signals.json").catch(() => null);
+    if (xdoc?.signals?.length) {
+      const ledger = await readJson("data/discovery-ledger.json").catch(() => ({ items: [] }));
+      const known = new Set((ledger.items ?? []).map((i) => i.url));
+      const freshCut = Date.now() - 12 * 60 * 60 * 1000;
+      const xCandidates = xdoc.signals
+        .filter((s) => new Date(s.postedAt).getTime() >= freshCut && !known.has(s.url))
+        // Israeli sources and clubs lead; world feeds only when volume allows.
+        .sort((a, b) => (a.group?.startsWith("israeli") ? 0 : 1) - (b.group?.startsWith("israeli") ? 0 : 1))
+        .slice(0, Math.max(0, Math.min(4, effectiveMax - candidates.length + 2)))
+        .map((s) => ({
+          source: `X ${s.handle}`,
+          url: s.url,
+          title: s.text,
+          publishedAt: s.postedAt,
+          viaXSignal: true,
+        }));
+      if (xCandidates.length) {
+        console.log(`X signals: adding ${xCandidates.length} candidate(s) from the curated timeline.`);
+        candidates = [...candidates, ...xCandidates].slice(0, Math.max(effectiveMax, candidates.length));
+      }
+    }
+  } catch (error) {
+    console.warn(`X-signal intake failed (non-fatal): ${error.message}`);
+  }
+
   if (!candidates.length) {
     console.log("No candidates this cycle.");
     return;
@@ -352,7 +386,33 @@ async function main() {
 
   const data = await readJson("data/articles.json");
   const articles = Array.isArray(data) ? data : data.articles;
-  const seen = new Set(articles.flatMap((a) => [norm(a.id), norm(a.slug), norm(a.dedupeKey)]));
+  const seen = new Set(articles.flatMap((a) => [norm(a.id), norm(a.slug), norm(a.dedupeKey), canonicalEventKey(a.dedupeKey)]));
+  // Person+action fingerprints of the recent feed: a new draft naming the same
+  // person with the same action class (contract/transfer/injury/exit/appointment)
+  // inside a week is the same event, whatever key or phrasing the model chose.
+  const recentCutoff = Date.now() - 7 * 24 * 60 * 60 * 1000;
+  const recentEventPrints = articles
+    .filter((a) => (a.status ?? "published") === "published" && new Date(a.publishedAt ?? 0).getTime() >= recentCutoff)
+    .map((a) => ({ persons: personTokensOf(a.title), action: actionClassOf(`${a.title ?? ""} ${a.dek ?? ""}`), toks: contextTokensOf(a), slug: a.slug }))
+    .filter((p) => p.action && p.persons.size);
+  const matchesRecentEvent = (article) => {
+    const action = actionClassOf(`${article.title ?? ""} ${article.dek ?? ""}`);
+    if (!action) return null;
+    const persons = personTokensOf(article.title);
+    const toks = contextTokensOf(article);
+    for (const p of recentEventPrints) {
+      if (p.action !== action) continue;
+      let person = false;
+      for (const name of persons) if (p.persons.has(name)) { person = true; break; }
+      if (!person) continue;
+      // Same scene too: at least two shared non-person context tokens, so a
+      // star's genuinely different stories in the same week stay separate.
+      let sharedOthers = 0;
+      for (const t of toks) if (p.toks.has(t) && !persons.has(t) && !p.persons.has(t)) sharedOthers++;
+      if (sharedOthers >= 2) return p.slug;
+    }
+    return null;
+  };
 
   const todayIso = new Date().toISOString();
   let published = 0;
@@ -386,9 +446,17 @@ async function main() {
       skipped += 1;
       continue;
     }
-    if (seen.has(norm(article.id)) || seen.has(norm(article.slug)) || (article.dedupeKey && seen.has(norm(article.dedupeKey)))) {
+    if (seen.has(norm(article.id)) || seen.has(norm(article.slug))
+      || (article.dedupeKey && (seen.has(norm(article.dedupeKey)) || seen.has(canonicalEventKey(article.dedupeKey))))) {
       console.log(`Skip duplicate: ${article.slug}`);
       decisions.push({ slug: article.slug, title: article.title, decision: "duplicate" });
+      skipped += 1;
+      continue;
+    }
+    const sameEventAs = matchesRecentEvent(article);
+    if (sameEventAs) {
+      console.log(`Skip duplicate (person+action matches /article/${sameEventAs}): ${article.slug}`);
+      decisions.push({ slug: article.slug, title: article.title, decision: "duplicate", reason: `same event as ${sameEventAs}` });
       skipped += 1;
       continue;
     }
@@ -439,6 +507,29 @@ async function main() {
   // published something. Daily features (Retro/column/Tour) are published by
   // runDailyFeatures and would otherwise skip both sourcing and the imageless-demote
   // guard, leaving a published story with no image and failing the "own image" test.
+  // Record processed X-signal URLs in the discovery ledger so the same tweet is
+  // never re-drafted in later cycles (whatever its outcome this cycle).
+  try {
+    const xHandled = candidates.filter((c) => c.viaXSignal);
+    if (xHandled.length) {
+      const ledger = await readJson("data/discovery-ledger.json").catch(() => ({ items: [] }));
+      const now = new Date().toISOString();
+      const knownNow = new Set((ledger.items ?? []).map((i) => i.url));
+      for (const c of xHandled) {
+        if (knownNow.has(c.url)) continue;
+        ledger.items = [...(ledger.items ?? []), {
+          url: c.url, canonicalUrl: c.url, source: c.source, title: (c.title ?? "").slice(0, 140),
+          publishedAt: c.publishedAt ?? "", firstSeenAt: now, lastSeenAt: now, seenCount: 1,
+          disposition: "x-signal-processed",
+        }].slice(-10000);
+      }
+      ledger.updatedAt = now;
+      await writeJson("data/discovery-ledger.json", ledger);
+    }
+  } catch (error) {
+    console.warn(`X-signal ledger update failed (non-fatal): ${error.message}`);
+  }
+
   if (gates.sourceImages !== false) {
     try {
       execSync("node scripts/source-commons-media.mjs", { cwd: root, stdio: "inherit" });

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T20:59:53.782Z",
+  "generatedAt": "2026-07-27T21:25:29.153Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 438,
+    "publishedArticles": 416,
     "wordCount": {
       "minimum": 231,
       "maximum": 1070,
-      "median": 450.5,
-      "average": 463.3
+      "median": 454.5,
+      "average": 468.3
     },
     "paragraphDistribution": {
       "5": 2,
-      "6": 16,
-      "7": 70,
-      "8": 119,
-      "9": 109,
-      "10": 83,
+      "6": 15,
+      "7": 67,
+      "8": 111,
+      "9": 103,
+      "10": 79,
       "11": 23,
       "12": 6,
       "13": 4,
@@ -33,11 +33,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.272,
+    "dominantParagraphShare": 0.267,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 16,
+    "exactSixParagraphArticles": 15,
     "analysisBelowTarget": 4,
-    "articlesWithStyleFlags": 44
+    "articlesWithStyleFlags": 42
   },
   "flagged": [
     {
@@ -617,29 +617,6 @@
       ]
     },
     {
-      "id": "live-2026-07-25-bnei-yehuda-ze-flores",
-      "slug": "bnei-yehuda-sign-brazilian-winger-ze-flores",
-      "title": "Bnei Yehuda sign Brazilian winger Zé Flores from Sheriff Tiraspol",
-      "kind": "news",
-      "words": 248,
-      "paragraphs": 6,
-      "paragraphWords": {
-        "shortest": 24,
-        "longest": 52,
-        "average": 41.3
-      },
-      "sentenceWords": {
-        "shortest": 8,
-        "longest": 71,
-        "average": 27.6
-      },
-      "lexicalDiversity": 0.641,
-      "publisherAttributions": 1,
-      "flags": [
-        "below-editorial-target:248/280"
-      ]
-    },
-    {
       "id": "live-2026-07-25-nitai-gigi-maccabi-netanya",
       "slug": "nitai-gigi-returns-maccabi-netanya-youth-contract",
       "title": "Defender Nitai Gigi returns to Maccabi Netanya on a long-term youth deal",
@@ -775,29 +752,6 @@
       "publisherAttributions": 1,
       "flags": [
         "below-editorial-target:579/650"
-      ]
-    },
-    {
-      "id": "live-2026-07-23-mbappe-olise-real-madrid",
-      "slug": "mbappe-lobbying-olise-real-madrid-transfer",
-      "title": "Mbappé reportedly lobbying Olise to join him at Real Madrid",
-      "kind": "news",
-      "words": 491,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 41,
-        "longest": 63,
-        "average": 54.6
-      },
-      "sentenceWords": {
-        "shortest": 7,
-        "longest": 51,
-        "average": 30.7
-      },
-      "lexicalDiversity": 0.56,
-      "publisherAttributions": 0,
-      "flags": [
-        "stock-phrase:remains-to-be-seen"
       ]
     },
     {
@@ -1326,27 +1280,6 @@
       },
       "lexicalDiversity": 0.577,
       "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-07-27-kangwa-hapoel-beer-sheva-hall-of-fame",
-      "slug": "kings-kangwa-hapoel-beer-sheva-hall-of-fame-induction",
-      "title": "Kangwa inducted into Hapoel Beer Sheva's hall of fame as Panathinaikos move nears",
-      "kind": "news",
-      "words": 295,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 31,
-        "longest": 48,
-        "average": 36.9
-      },
-      "sentenceWords": {
-        "shortest": 10,
-        "longest": 59,
-        "average": 32.8
-      },
-      "lexicalDiversity": 0.61,
-      "publisherAttributions": 1,
       "flags": []
     },
     {
@@ -1896,27 +1829,6 @@
       "flags": []
     },
     {
-      "id": "live-2026-07-26-maccabi-sokler-signing",
-      "slug": "maccabi-tel-aviv-sign-ester-sokler-slovenian-striker",
-      "title": "Maccabi Tel Aviv complete €1m signing of Šeško's Slovenian 'neighbour', Ester Sokler",
-      "kind": "article",
-      "words": 412,
-      "paragraphs": 10,
-      "paragraphWords": {
-        "shortest": 24,
-        "longest": 58,
-        "average": 41.2
-      },
-      "sentenceWords": {
-        "shortest": 5,
-        "longest": 111,
-        "average": 27.5
-      },
-      "lexicalDiversity": 0.624,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
       "id": "live-2026-07-26-hapoel-yanai-oturu-naturalization-row",
       "slug": "hapoel-yanai-oturu-naturalization-row",
       "title": "Hapoel Tel Aviv owner accuses basketball federation of playing politics with Oturu naturalization",
@@ -2144,27 +2056,6 @@
         "average": 31.2
       },
       "lexicalDiversity": 0.53,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-07-26-vinicius-arsenal-real-madrid",
-      "slug": "vinicius-junior-arsenal-real-madrid-stay",
-      "title": "Vinicius Jr wants to stay at Real Madrid despite Arsenal interest",
-      "kind": "news",
-      "words": 356,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 27,
-        "longest": 74,
-        "average": 44.5
-      },
-      "sentenceWords": {
-        "shortest": 6,
-        "longest": 57,
-        "average": 29.7
-      },
-      "lexicalDiversity": 0.615,
       "publisherAttributions": 0,
       "flags": []
     },
@@ -2484,27 +2375,6 @@
       "flags": []
     },
     {
-      "id": "live-20260725-khalaili-assist-union-lille",
-      "slug": "khalaili-assist-union-saint-gilloise-lille-friendly",
-      "title": "Khalaili back in action with an assist as Union Saint-Gilloise edge Lille",
-      "kind": "article",
-      "words": 388,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 45,
-        "longest": 64,
-        "average": 55.4
-      },
-      "sentenceWords": {
-        "shortest": 18,
-        "longest": 48,
-        "average": 32.3
-      },
-      "lexicalDiversity": 0.572,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
       "id": "live-2026-07-25-goni-naor-maccabi-haifa-derby-recall",
       "slug": "goni-naor-recalled-maccabi-haifa-squad-haifa-derby",
       "title": "Left out of preseason camp, Goni Naor recalled to Maccabi Haifa squad for Haifa derby",
@@ -2589,27 +2459,6 @@
       "flags": []
     },
     {
-      "id": "live-2026-07-25-kangwa-panathinaikos-move",
-      "slug": "hapoel-beer-sheva-kangwa-panathinaikos-transfer",
-      "title": "Hapoel Beer Sheva confirm Kings Kangwa's move to Panathinaikos",
-      "kind": "news",
-      "words": 396,
-      "paragraphs": 10,
-      "paragraphWords": {
-        "shortest": 30,
-        "longest": 48,
-        "average": 39.6
-      },
-      "sentenceWords": {
-        "shortest": 6,
-        "longest": 44,
-        "average": 30.5
-      },
-      "lexicalDiversity": 0.641,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
       "id": "live-2026-07-25-xavi-simons-barcelona-exit",
       "slug": "xavi-simons-barcelona-exit-interview",
       "title": "Xavi Simons breaks silence on Barcelona exit: 'They didn't believe in me'",
@@ -2652,27 +2501,6 @@
       "flags": []
     },
     {
-      "id": "live-2026-07-25-lazio-stav-lemkin-bid",
-      "slug": "lazio-report-bid-stav-lemkin-twente",
-      "title": "Lazio reportedly preparing offer for Israeli defender Stav Lemkin",
-      "kind": "news",
-      "words": 285,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 27,
-        "longest": 46,
-        "average": 35.6
-      },
-      "sentenceWords": {
-        "shortest": 17,
-        "longest": 46,
-        "average": 31.7
-      },
-      "lexicalDiversity": 0.635,
-      "publisherAttributions": 1,
-      "flags": []
-    },
-    {
       "id": "live-2026-07-25-arsenal-vinicius-junior-interest",
       "slug": "arsenal-eye-audacious-move-for-vinicius-junior",
       "title": "Arsenal weigh audacious move for Real Madrid's Vinícius Júnior",
@@ -2690,27 +2518,6 @@
         "average": 30.1
       },
       "lexicalDiversity": 0.608,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-07-25-man-city-diomande-transfer-race",
-      "slug": "man-city-enters-diomande-transfer-race",
-      "title": "Manchester City join scramble for RB Leipzig's Yan Diomande",
-      "kind": "news",
-      "words": 308,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 26,
-        "longest": 49,
-        "average": 38.5
-      },
-      "sentenceWords": {
-        "shortest": 6,
-        "longest": 44,
-        "average": 34.2
-      },
-      "lexicalDiversity": 0.659,
       "publisherAttributions": 0,
       "flags": []
     },
@@ -3114,27 +2921,6 @@
       "flags": []
     },
     {
-      "id": "live-2026-07-25-trump-lebron-racist-jordan",
-      "slug": "trump-lebron-james-racist-michael-jordan",
-      "title": "Trump calls LeBron James 'maybe a racist' as he prefers Michael Jordan",
-      "kind": "news",
-      "words": 411,
-      "paragraphs": 10,
-      "paragraphWords": {
-        "shortest": 31,
-        "longest": 68,
-        "average": 41.1
-      },
-      "sentenceWords": {
-        "shortest": 4,
-        "longest": 66,
-        "average": 31.6
-      },
-      "lexicalDiversity": 0.589,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
       "id": "live-2026-07-25-lonnie-walker-real-madrid-report",
       "slug": "lonnie-walker-close-to-real-madrid-spanish-reports",
       "title": "Spanish reports: Lonnie Walker closing in on Real Madrid move after single Maccabi season",
@@ -3408,27 +3194,6 @@
       "flags": []
     },
     {
-      "id": "live-20260724-chelsea-lacroix-inter-romero",
-      "slug": "lacroix-completes-chelsea-medical-as-inter-open-romero-talks",
-      "title": "Lacroix undergoes Chelsea medical as Inter open talks for Tottenham's Romero",
-      "kind": "news",
-      "words": 379,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 33,
-        "longest": 48,
-        "average": 42.1
-      },
-      "sentenceWords": {
-        "shortest": 8,
-        "longest": 59,
-        "average": 29.2
-      },
-      "lexicalDiversity": 0.628,
-      "publisherAttributions": 1,
-      "flags": []
-    },
-    {
       "id": "tour-20260724-poga-ar-shatters-pantani-s-alpe-d-huez-r",
       "slug": "poga-ar-shatters-pantani-s-alpe-d-huez-record-to-seal-tour-de-france-s",
       "title": "Pogačar shatters Pantani's Alpe d'Huez record to seal Tour de France stranglehold",
@@ -3471,27 +3236,6 @@
       "flags": []
     },
     {
-      "id": "live-2026-07-24-maresca-unveiled-city",
-      "slug": "maresca-unveiled-manchester-city-rodri-real-madrid",
-      "title": "Maresca faces the media at Manchester City: 'Every manager would want Rodri'",
-      "kind": "news",
-      "words": 443,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 44,
-        "longest": 71,
-        "average": 55.4
-      },
-      "sentenceWords": {
-        "shortest": 6,
-        "longest": 104,
-        "average": 40.3
-      },
-      "lexicalDiversity": 0.569,
-      "publisherAttributions": 1,
-      "flags": []
-    },
-    {
       "id": "live-2026-07-24-eli-ohana-likud-politics",
       "slug": "eli-ohana-breaks-silence-netanyahu-likud",
       "title": "Eli Ohana breaks his silence on reports Netanyahu wants him on the Likud list",
@@ -3509,27 +3253,6 @@
         "average": 36.9
       },
       "lexicalDiversity": 0.552,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260724-kings-kangwa-panathinaikos-transfer",
-      "slug": "kings-kangwa-panathinaikos-transfer-beer-sheva",
-      "title": "Kangwa set to triple his wages in €4.5m Panathinaikos move from Beer Sheva",
-      "kind": "news",
-      "words": 396,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 31,
-        "longest": 64,
-        "average": 49.5
-      },
-      "sentenceWords": {
-        "shortest": 7,
-        "longest": 54,
-        "average": 26.4
-      },
-      "lexicalDiversity": 0.616,
       "publisherAttributions": 0,
       "flags": []
     },
@@ -3573,27 +3296,6 @@
       },
       "lexicalDiversity": 0.586,
       "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-07-24-kangwa-panathinaikos-farewell",
-      "slug": "kings-kangwa-panathinaikos-thanks-fans",
-      "title": "Kangwa thanks Panathinaikos fans, vows to repay their faith after Beer Sheva exit",
-      "kind": "news",
-      "words": 309,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 32,
-        "longest": 56,
-        "average": 44.1
-      },
-      "sentenceWords": {
-        "shortest": 18,
-        "longest": 146,
-        "average": 51.5
-      },
-      "lexicalDiversity": 0.605,
-      "publisherAttributions": 1,
       "flags": []
     },
     {
@@ -3912,48 +3614,6 @@
       "flags": []
     },
     {
-      "id": "live-20260724-maccabi-haifa-lonwijk-signing",
-      "slug": "maccabi-haifa-sign-nigel-lonwijk",
-      "title": "Maccabi Haifa land Wolves defender Nigel Lonwijk on a three-year deal",
-      "kind": "news",
-      "words": 333,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 32,
-        "longest": 55,
-        "average": 41.6
-      },
-      "sentenceWords": {
-        "shortest": 17,
-        "longest": 49,
-        "average": 30.3
-      },
-      "lexicalDiversity": 0.655,
-      "publisherAttributions": 1,
-      "flags": []
-    },
-    {
-      "id": "live-20260724-dolev-haziza-maccabi-netanya",
-      "slug": "dolev-haziza-signs-maccabi-netanya",
-      "title": "Dolev Haziza set to sign for Maccabi Netanya, ending six-year Haifa stay",
-      "kind": "news",
-      "words": 342,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 34,
-        "longest": 52,
-        "average": 42.8
-      },
-      "sentenceWords": {
-        "shortest": 13,
-        "longest": 45,
-        "average": 31.1
-      },
-      "lexicalDiversity": 0.635,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
       "id": "live-2026-07-24-maccabi-tel-aviv-thrash-sheriff-tiraspol",
       "slug": "maccabi-tel-aviv-thrash-sheriff-tiraspol-europa-league",
       "title": "Maccabi Tel Aviv stun Sheriff Tiraspol 5-0 to open European campaign",
@@ -3972,27 +3632,6 @@
       },
       "lexicalDiversity": 0.61,
       "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-07-24-lonwijk-tsunami-haifa-derby",
-      "slug": "maccabi-haifa-lonwijk-first-training-tsunami-derby-squad",
-      "title": "Maccabi Haifa give Lonwijk first taste of training as Tsunami is named for the derby",
-      "kind": "news",
-      "words": 412,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 27,
-        "longest": 77,
-        "average": 45.8
-      },
-      "sentenceWords": {
-        "shortest": 7,
-        "longest": 48,
-        "average": 29.4
-      },
-      "lexicalDiversity": 0.629,
-      "publisherAttributions": 1,
       "flags": []
     },
     {
@@ -4248,27 +3887,6 @@
       "flags": []
     },
     {
-      "id": "live-20260723-khalaili-training-return",
-      "slug": "khalaili-back-training-99-games-interview",
-      "title": "Khalaili breaks silence after failed Inter move: 'I've played 99 games, finished almost all of them'",
-      "kind": "news",
-      "words": 401,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 24,
-        "longest": 79,
-        "average": 44.6
-      },
-      "sentenceWords": {
-        "shortest": 8,
-        "longest": 78,
-        "average": 28.6
-      },
-      "lexicalDiversity": 0.601,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
       "id": "live-20260723-de-jong-knee-injury-commitment",
       "slug": "frenkie-de-jong-knee-injury-barcelona-commitment",
       "title": "De Jong pushes back on doubts over his Barcelona commitment after World Cup knee blow",
@@ -4286,27 +3904,6 @@
         "average": 33.7
       },
       "lexicalDiversity": 0.585,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260723-olise-boateng-villa",
-      "slug": "olise-must-leave-boateng-villa-munich",
-      "title": "Olise told to vacate Boateng's Munich villa by end of August",
-      "kind": "news",
-      "words": 344,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 31,
-        "longest": 68,
-        "average": 49.1
-      },
-      "sentenceWords": {
-        "shortest": 10,
-        "longest": 49,
-        "average": 31.3
-      },
-      "lexicalDiversity": 0.599,
       "publisherAttributions": 0,
       "flags": []
     },
@@ -4812,27 +4409,6 @@
       },
       "lexicalDiversity": 0.602,
       "publisherAttributions": 1,
-      "flags": []
-    },
-    {
-      "id": "live-2026-07-22-rodri-real-madrid-kroos-successor",
-      "slug": "rodri-real-madrid-interest-kroos-successor",
-      "title": "Real Madrid eye Rodri as Kroos's long-term successor",
-      "kind": "news",
-      "words": 430,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 34,
-        "longest": 63,
-        "average": 47.8
-      },
-      "sentenceWords": {
-        "shortest": 5,
-        "longest": 53,
-        "average": 28.7
-      },
-      "lexicalDiversity": 0.535,
-      "publisherAttributions": 0,
       "flags": []
     },
     {
@@ -5571,27 +5147,6 @@
       "flags": []
     },
     {
-      "id": "live-20260721-morgan-rogers-chelsea-record-transfer",
-      "slug": "morgan-rogers-chelsea-record-transfer",
-      "title": "Chelsea complete British transfer-record signing of Morgan Rogers",
-      "kind": "news",
-      "words": 365,
-      "paragraphs": 10,
-      "paragraphWords": {
-        "shortest": 30,
-        "longest": 48,
-        "average": 36.5
-      },
-      "sentenceWords": {
-        "shortest": 30,
-        "longest": 77,
-        "average": 40.6
-      },
-      "lexicalDiversity": 0.63,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
       "id": "live-20260721-ronaldo-fifa-argentina-instagram-like",
       "slug": "ronaldo-likes-post-accusing-fifa-favoring-argentina",
       "title": "Ronaldo Likes Instagram Post Accusing FIFA of Rigging World Cup for Argentina",
@@ -6008,27 +5563,6 @@
         "average": 29.2
       },
       "lexicalDiversity": 0.576,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-07-21-haziza-netanya-deal",
-      "slug": "dolev-haziza-agrees-maccabi-netanya-deal",
-      "title": "Haziza agrees terms to join Maccabi Netanya, ending seven years at Haifa",
-      "kind": "news",
-      "words": 347,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 29,
-        "longest": 47,
-        "average": 38.6
-      },
-      "sentenceWords": {
-        "shortest": 7,
-        "longest": 45,
-        "average": 24.8
-      },
-      "lexicalDiversity": 0.657,
       "publisherAttributions": 0,
       "flags": []
     },
