@@ -550,6 +550,13 @@ async function autoPostToX(publishedArticles) {
   if (!publishedArticles.length) return;
   const social = await readJson("data/social.json").catch(() => null);
   if (!social || !social.autoPostOnPublish || !social.enabled?.x) return;
+  // apiPosting=false pins X distribution to the working channel: the local
+  // browser-profile poster (scripts/x-auto-post.mjs via launchd on the iMac).
+  // The X_* API secrets in Actions were never authorized, so posting from the
+  // cloud cycle only produced Unauthorized noise — and if the keys ever DID
+  // start working, the two channels would double-post. Flip the flag in
+  // data/social.json only when API posting is deliberately taken over.
+  if (social.apiPosting === false) { console.log("X auto-post: skipped (apiPosting disabled; local poster owns the channel)."); return; }
   const creds = xCredsFromEnv();
   if (!creds) { console.log("X auto-post: skipped (X_* keys not set)."); return; }
 
