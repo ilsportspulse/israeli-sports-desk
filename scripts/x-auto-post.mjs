@@ -131,7 +131,7 @@ async function postOne(page, text, link) {
     throw new Error("NOT_LOGGED_IN");
   }
 
-  const editor = page.locator('[data-testid="tweetTextarea_0"]');
+  const editor = page.locator('[data-testid="tweetTextarea_0"]').first();
   await editor.waitFor({ state: "visible", timeout: 20000 });
 
   // Wait for the Post button to become enabled (link-preview card must finish loading).

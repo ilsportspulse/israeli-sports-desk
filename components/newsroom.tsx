@@ -23,7 +23,7 @@ import { StoryVisual } from "@/components/story-visual";
 import { TeamCrest } from "@/components/team-crest";
 import { formatArticleDate } from "@/lib/articles";
 import type { SocialWatchItem } from "@/lib/social-watch";
-import { IsraeliNewsWatcher, NewsWatchRail } from "@/components/israeli-news-watcher";
+import { NewsWatchRail } from "@/components/israeli-news-watcher";
 import { getArticlePhoto } from "@/lib/media";
 import type { DailyQuiz as DailyQuizData } from "@/lib/quiz";
 import { competitionPriority } from "@/lib/competition-priority";
@@ -526,8 +526,6 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
             )}
           </aside>
         </section>
-
-        {socialWatch.length ? <IsraeliNewsWatcher initial={socialWatch} locale={locale} /> : null}
 
         {archiveFeature ? (
           <section className="topstories-block retro-block" id="archive" aria-label={tr("nav.archive")}>
