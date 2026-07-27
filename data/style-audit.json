@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T23:28:14.066Z",
+  "generatedAt": "2026-07-27T23:53:45.256Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,7 +11,7 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 424,
+    "publishedArticles": 426,
     "wordCount": {
       "minimum": 231,
       "maximum": 1070,
@@ -21,11 +21,11 @@
     "paragraphDistribution": {
       "5": 2,
       "6": 14,
-      "7": 68,
+      "7": 69,
       "8": 112,
       "9": 106,
       "10": 83,
-      "11": 23,
+      "11": 24,
       "12": 6,
       "13": 4,
       "14": 2,
@@ -33,11 +33,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.264,
+    "dominantParagraphShare": 0.263,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 14,
     "analysisBelowTarget": 4,
-    "articlesWithStyleFlags": 43
+    "articlesWithStyleFlags": 44
   },
   "flagged": [
     {
@@ -62,6 +62,29 @@
       "flags": [
         "stock-phrase:statement-of-intent",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-07-27-adam-ramsay-peaty-commonwealth-bronze",
+      "slug": "adam-ramsay-peaty-questions-training-after-commonwealth-bronze",
+      "title": "Adam Ramsay-Peaty questions it all after bitter Commonwealth bronze",
+      "kind": "news",
+      "words": 586,
+      "paragraphs": 11,
+      "paragraphWords": {
+        "shortest": 38,
+        "longest": 69,
+        "average": 53.3
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 109,
+        "average": 48.8
+      },
+      "lexicalDiversity": 0.538,
+      "publisherAttributions": 0,
+      "flags": [
+        "stock-phrase:what-comes-next"
       ]
     },
     {
@@ -1032,6 +1055,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-27-beer-sheva-night-race-skazi",
+      "slug": "beer-sheva-night-race-new-routes-skazi-party",
+      "title": "Beer Sheva's night race returns with reworked routes and a Skazi finish-line party",
+      "kind": "news",
+      "words": 313,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 52,
+        "average": 44.7
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 45,
+        "average": 28.5
+      },
+      "lexicalDiversity": 0.652,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-07-27-bruninho-self-belief-fernandez",
       "slug": "bruninho-maccabi-haifa-self-belief-fernandez",

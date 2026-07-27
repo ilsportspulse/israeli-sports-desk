@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-27T23:28:13Z",
-    "validUntil": "2026-07-28T11:28:13Z",
+    "checkedAt": "2026-07-27T23:53:44Z",
+    "validUntil": "2026-07-28T11:53:44Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 194,
+        "maxAgeHours": 195,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-07-27-bruninho-self-belief-fernandez",
+        "articleId": "live-2026-07-27-beer-sheva-night-race-skazi",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 202,
+        "maxAgeHours": 203,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-07-27-hapoel-maccabi-euroleague-odds",
+        "articleId": "live-2026-07-27-adam-ramsay-peaty-commonwealth-bronze",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 212,
+        "maxAgeHours": 213,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260727-padel-sydney-opera-house",
+        "articleId": "live-2026-07-27-bruninho-self-belief-fernandez",
         "maxAgeHours": 24,
         "requires": []
       }
