@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T21:25:29.039Z",
+  "generatedAt": "2026-07-27T22:30:47.634Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,72 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 661,
-    "publishedBefore": 416,
-    "cleanPublished": 416,
+    "totalArticles": 665,
+    "publishedBefore": 418,
+    "cleanPublished": 418,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 416,
-    "reviewAfter": 245
+    "publishedAfter": 418,
+    "reviewAfter": 247
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-2026-07-27-tiberias-infusions-indictment",
+      "slug": "ironi-tiberias-infusions-scandal-indictment",
+      "title": "Ironi Tiberias to stand trial as football association charges club over banned infusions",
+      "statusBefore": "review",
+      "words": 465,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-27-seatbelt-safety-explainer",
+      "slug": "seatbelt-safety-highway-crash-explainer",
+      "title": "Not a sports story — ONE seatbelt safety explainer held from publication",
+      "statusBefore": "review",
+      "words": 246,
+      "paragraphs": 8,
+      "facts": 5,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-07-27-tiberias-court-schedule",
+      "slug": "tiberias-disciplinary-court-no-schedule-exceptions",
+      "title": "No exceptions to the timetable, presiding judge warns in Tiberias infusions case",
+      "statusBefore": "published",
+      "words": 386,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260727-ahavat-gordon-beats-lineker-gfn2",
+      "slug": "ahavat-gordon-beats-lineker-calls-for-gfn-2",
+      "title": "Ahavat Gordon outlasts John Lineker, then tells Kaminski: get to work on GFN 2",
+      "statusBefore": "published",
+      "words": 449,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-07-27-vincic-retires-world-cup-final-referee",
       "slug": "world-cup-final-referee-slavko-vincic-retires",
@@ -5850,6 +5906,34 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-07-27-tiberias-court-schedule",
+      "slug": "tiberias-disciplinary-court-no-schedule-exceptions",
+      "title": "No exceptions to the timetable, presiding judge warns in Tiberias infusions case",
+      "statusBefore": "published",
+      "words": 386,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260727-ahavat-gordon-beats-lineker-gfn2",
+      "slug": "ahavat-gordon-beats-lineker-calls-for-gfn-2",
+      "title": "Ahavat Gordon outlasts John Lineker, then tells Kaminski: get to work on GFN 2",
+      "statusBefore": "published",
+      "words": 449,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-07-27-vincic-retires-world-cup-final-referee",
       "slug": "world-cup-final-referee-slavko-vincic-retires",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T21:25:29.153Z",
+  "generatedAt": "2026-07-27T22:30:48.079Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,19 +11,19 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 416,
+    "publishedArticles": 418,
     "wordCount": {
       "minimum": 231,
       "maximum": 1070,
-      "median": 454.5,
-      "average": 468.3
+      "median": 453.5,
+      "average": 468.1
     },
     "paragraphDistribution": {
       "5": 2,
       "6": 15,
       "7": 67,
-      "8": 111,
-      "9": 103,
+      "8": 112,
+      "9": 104,
       "10": 79,
       "11": 23,
       "12": 6,
@@ -33,11 +33,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.267,
+    "dominantParagraphShare": 0.268,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 15,
     "analysisBelowTarget": 4,
-    "articlesWithStyleFlags": 42
+    "articlesWithStyleFlags": 43
   },
   "flagged": [
     {
@@ -61,6 +61,29 @@
       "publisherAttributions": 2,
       "flags": [
         "stock-phrase:statement-of-intent",
+        "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-07-27-tiberias-court-schedule",
+      "slug": "tiberias-disciplinary-court-no-schedule-exceptions",
+      "title": "No exceptions to the timetable, presiding judge warns in Tiberias infusions case",
+      "kind": "news",
+      "words": 383,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 29,
+        "longest": 57,
+        "average": 42.6
+      },
+      "sentenceWords": {
+        "shortest": 16,
+        "longest": 67,
+        "average": 38.3
+      },
+      "lexicalDiversity": 0.634,
+      "publisherAttributions": 2,
+      "flags": [
         "publisher-attribution-heavy:2"
       ]
     },
@@ -1009,6 +1032,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260727-ahavat-gordon-beats-lineker-gfn2",
+      "slug": "ahavat-gordon-beats-lineker-calls-for-gfn-2",
+      "title": "Ahavat Gordon outlasts John Lineker, then tells Kaminski: get to work on GFN 2",
+      "kind": "news",
+      "words": 448,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 45,
+        "longest": 70,
+        "average": 56
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 45,
+        "average": 24.9
+      },
+      "lexicalDiversity": 0.551,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-07-27-vincic-retires-world-cup-final-referee",
       "slug": "world-cup-final-referee-slavko-vincic-retires",
