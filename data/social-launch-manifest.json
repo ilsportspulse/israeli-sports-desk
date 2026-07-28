@@ -146,21 +146,21 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-28T22:05:22Z",
-    "validUntil": "2026-07-29T10:05:22Z",
+    "checkedAt": "2026-07-28T22:33:33Z",
+    "validUntil": "2026-07-29T10:33:33Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 217,
+        "maxAgeHours": 218,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-07-28-maccabi-haifa-toto-cup-chances",
+        "articleId": "live-2026-07-28-fadida-tiberias-talks",
         "maxAgeHours": 48,
         "requires": []
       },
@@ -174,14 +174,14 @@
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260728-kiryat-shmona-maccabi-haifa-toto-0-3",
+        "articleId": "live-2026-07-28-maccabi-haifa-toto-cup-chances",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 235,
+        "maxAgeHours": 236,
         "requires": [
           "column"
         ]

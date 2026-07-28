@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T22:05:22.666Z",
+  "generatedAt": "2026-07-28T22:33:33.431Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,59 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 769,
-    "publishedBefore": 470,
-    "cleanPublished": 470,
+    "totalArticles": 774,
+    "publishedBefore": 471,
+    "cleanPublished": 471,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 470,
-    "reviewAfter": 299
+    "publishedAfter": 471,
+    "reviewAfter": 303
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-2026-07-28-fadida-tiberias-talks",
+      "slug": "saar-fadida-advanced-talks-ironi-tiberias",
+      "title": "Sa'ar Fadida closes in on move to Ironi Tiberias",
+      "statusBefore": "published",
+      "words": 274,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-28-gordon-rival-carmel-market-theft",
+      "slug": "gordon-rival-caught-stealing-carmel-market",
+      "title": "Fighter beaten by Ruach HaShem Gordon caught stealing from Carmel Market shop",
+      "statusBefore": "review",
+      "words": 351,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-28-tdf-wrap-podcast-pogacar",
+      "slug": "tour-de-france-2026-wrap-podcast-pogacar-fifth-title",
+      "title": "Pogačar's record-tying fifth Tour de France win dissected on Israeli cycling podcast",
+      "statusBefore": "review",
+      "words": 418,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
     {
       "id": "live-2026-07-28-maccabi-haifa-toto-cup-chances",
       "slug": "maccabi-haifa-toto-cup-chances-analysis",
@@ -59,7 +102,7 @@
       "id": "live-2026-07-28-bachar-recalculate-course",
       "slug": "barak-bachar-maccabi-haifa-course-correction",
       "title": "Barak Bachar needs to recalculate his course at Maccabi Haifa before it's too late",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 439,
       "paragraphs": 8,
       "facts": 6,
@@ -616,6 +659,20 @@
       ]
     },
     {
+      "id": "live-2026-07-28-israeli-player-fund-row",
+      "slug": "israeli-player-fund-distribution-football-basketball-row",
+      "title": "Football clubs cry foul as sports ministry's 140m shekel 'Israeli player' fund favours basketball",
+      "statusBefore": "published",
+      "words": 441,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-2026-07-28-abu-farchi-price-tag",
       "slug": "maccabi-tel-aviv-abu-farchi-price-tag",
       "title": "Maccabi Tel Aviv set a €7m price tag on rising forward Abu Farchi",
@@ -627,6 +684,20 @@
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260728-khalaili-nottingham-forest-bid",
+      "slug": "khalaili-nottingham-forest-bid-rejected",
+      "title": "Nottingham Forest's €20m offer for Khalaili turned down by Union Saint-Gilloise",
+      "statusBefore": "published",
+      "words": 394,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
     },
@@ -767,6 +838,20 @@
       "words": 523,
       "paragraphs": 9,
       "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-28-real-madrid-diomande-new-messi",
+      "slug": "real-madrid-diomande-new-messi-leganes-video",
+      "title": "The day Leganés' owner told his coach: \"We have the new Messi\"",
+      "statusBefore": "published",
+      "words": 600,
+      "paragraphs": 9,
+      "facts": 6,
       "verificationSources": 5,
       "blockers": [],
       "warnings": [
@@ -1015,7 +1100,8 @@
       "verificationSources": 5,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -7353,9 +7439,38 @@
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
+    },
+    {
+      "id": "live-20260728-kiryat-shmona-maccabi-haifa-toto-0-3",
+      "slug": "kiryat-shmona-3-0-maccabi-haifa-toto-cup-collapse",
+      "title": "Kiryat Shmona 3–0 Maccabi Haifa: booed off after a second Toto Cup collapse in a week",
+      "statusBefore": "published",
+      "words": 372,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-07-28-fadida-tiberias-talks",
+      "slug": "saar-fadida-advanced-talks-ironi-tiberias",
+      "title": "Sa'ar Fadida closes in on move to Ironi Tiberias",
+      "statusBefore": "published",
+      "words": 274,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-07-28-maccabi-haifa-toto-cup-chances",
       "slug": "maccabi-haifa-toto-cup-chances-analysis",
@@ -7367,21 +7482,6 @@
       "verificationSources": 4,
       "blockers": [],
       "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-07-28-bachar-recalculate-course",
-      "slug": "barak-bachar-maccabi-haifa-course-correction",
-      "title": "Barak Bachar needs to recalculate his course at Maccabi Haifa before it's too late",
-      "statusBefore": "published",
-      "words": 439,
-      "paragraphs": 8,
-      "facts": 6,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline",
         "media:no-action-or-competition-context-detected"
       ]
     },
@@ -7782,7 +7882,9 @@
       "facts": 7,
       "verificationSources": 1,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-20260728-khalaili-nottingham-forest-bid",
@@ -7794,7 +7896,9 @@
       "facts": 6,
       "verificationSources": 3,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-2026-07-28-shviro-badji-tiberias-haifa-toto-cup",
@@ -7951,7 +8055,9 @@
       "facts": 6,
       "verificationSources": 5,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-20260728-pirlo-son-italy-coach-mancini-conte",
@@ -8132,7 +8238,8 @@
       "verificationSources": 5,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -13591,6 +13698,20 @@
       "paragraphs": 8,
       "facts": 6,
       "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260728-kiryat-shmona-maccabi-haifa-toto-0-3",
+      "slug": "kiryat-shmona-3-0-maccabi-haifa-toto-cup-collapse",
+      "title": "Kiryat Shmona 3–0 Maccabi Haifa: booed off after a second Toto Cup collapse in a week",
+      "statusBefore": "published",
+      "words": 372,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
