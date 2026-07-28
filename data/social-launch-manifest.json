@@ -146,14 +146,14 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-28T22:53:57Z",
-    "validUntil": "2026-07-29T10:53:57Z",
+    "checkedAt": "2026-07-28T23:42:22Z",
+    "validUntil": "2026-07-29T11:42:22Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 218,
+        "maxAgeHours": 219,
         "requires": [
           "matchRecap"
         ]
@@ -181,7 +181,7 @@
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 236,
+        "maxAgeHours": 237,
         "requires": [
           "column"
         ]
