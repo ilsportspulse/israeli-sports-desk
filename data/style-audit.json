@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T16:43:50.780Z",
+  "generatedAt": "2026-07-28T17:59:38.734Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,18 +11,18 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 454,
+    "publishedArticles": 456,
     "wordCount": {
       "minimum": 231,
       "maximum": 1070,
       "median": 452,
-      "average": 464.1
+      "average": 463.5
     },
     "paragraphDistribution": {
       "5": 2,
       "6": 13,
-      "7": 73,
-      "8": 122,
+      "7": 74,
+      "8": 123,
       "9": 117,
       "10": 87,
       "11": 24,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.269,
+    "dominantParagraphShare": 0.27,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 13,
     "analysisBelowTarget": 4,
@@ -1124,6 +1124,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-28-beersheva-vikingur-grass-preview",
+      "slug": "hapoel-beer-sheva-vikingur-second-leg-preview",
+      "title": "Kozuk banks on grass pitch as Hapoel Beer Sheva chase Champions League comeback",
+      "kind": "news",
+      "words": 341,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 22,
+        "longest": 78,
+        "average": 48.7
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 78,
+        "average": 28.4
+      },
+      "lexicalDiversity": 0.601,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260728-omri-glazer-knee-injury",
+      "slug": "omri-glazer-knee-injury-toto-cup-kiryat-shmona",
+      "title": "Omri Glazer in tears as knee injury mars his Maccabi Haifa return",
+      "kind": "news",
+      "words": 319,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 54,
+        "average": 39.9
+      },
+      "sentenceWords": {
+        "shortest": 3,
+        "longest": 39,
+        "average": 26.6
+      },
+      "lexicalDiversity": 0.633,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-07-28-maccabi-haifa-debuts-tsunami-bruninho",
       "slug": "maccabi-haifa-tsunami-bruninho-debut-kiryat-shmona",
