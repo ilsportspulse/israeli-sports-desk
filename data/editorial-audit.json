@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T00:35:01.296Z",
+  "generatedAt": "2026-07-28T01:01:58.179Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,30 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 682,
-    "publishedBefore": 429,
-    "cleanPublished": 429,
+    "totalArticles": 683,
+    "publishedBefore": 418,
+    "cleanPublished": 418,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 429,
-    "reviewAfter": 253
+    "publishedAfter": 418,
+    "reviewAfter": 265
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "archive-20260728-assago-18-may-2014-the-overtime-night-ma",
+      "slug": "assago-18-may-2014-the-overtime-night-maccabi-stunned-real-madrid",
+      "title": "Assago, 18 May 2014: The Overtime Night Maccabi Stunned Real Madrid",
+      "statusBefore": "published",
+      "words": 674,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260728-chelsea-veteran-reboot",
       "slug": "chelsea-veteran-signings-welbeck-henderson-xabi-alonso",
@@ -59,7 +73,7 @@
       "id": "live-20260728-kibedy-gordon-ufc-message",
       "slug": "kibedy-gordon-sends-message-to-ufc-after-tel-aviv-ko",
       "title": "Kibedy Gordon knocks out former UFC fighter, then calls out Dana White",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 446,
       "paragraphs": 8,
       "facts": 6,
@@ -146,7 +160,7 @@
       "id": "live-20260727-kibedy-gordon-knockout-quinones",
       "slug": "kibedy-gordon-knockout-quinones-gfn1",
       "title": "Kibedy Gordon flattens former UFC fighter Quiñones in under a minute",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 405,
       "paragraphs": 7,
       "facts": 6,
@@ -1237,7 +1251,7 @@
       "id": "live-20260726-gordon-lineker-gfn1-preview",
       "slug": "ahavat-gordon-vows-to-topple-lineker-gfn1",
       "title": "Ahavat Gordon vows to topple former world champion Lineker at Tel Aviv debut card",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 439,
       "paragraphs": 8,
       "facts": 7,
@@ -2315,7 +2329,7 @@
       "id": "live-2026-07-25-orian-goren-barcelona-debut",
       "slug": "orian-goren-barcelona-first-team-debut-praise",
       "title": "Spanish press praise Orian Goren after Israeli teenager's Barcelona debut",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 363,
       "paragraphs": 6,
       "facts": 6,
@@ -4352,7 +4366,7 @@
       "id": "live-2026-07-22-ceferin-world-cup-final-boycott",
       "slug": "ceferin-world-cup-final-boycott-trump-balogun",
       "title": "UEFA's Čeferin boycotts World Cup final over FIFA's handling of Trump-Balogun affair",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 556,
       "paragraphs": 10,
       "facts": 7,
@@ -4537,7 +4551,7 @@
       "id": "live-2026-07-21-infantino-message-argentina-world-cup-final",
       "slug": "infantino-message-argentina-world-cup-final",
       "title": "Infantino praises Argentina's \"unforgettable\" run despite chaotic World Cup final",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 408,
       "paragraphs": 9,
       "facts": 7,
@@ -4736,7 +4750,7 @@
       "id": "live-20260721-argentina-world-cup-final-brawl-fifa-probe",
       "slug": "argentina-spain-world-cup-final-brawl-fifa-investigation",
       "title": "FIFA opens investigation into Argentina after ugly brawl at World Cup final",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 449,
       "paragraphs": 10,
       "facts": 8,
@@ -6160,7 +6174,7 @@
       "id": "live-20260715-saraf-wolf-brooklyn-sacramento",
       "slug": "saraf-wolf-brooklyn-beat-sacramento-summer-league",
       "title": "Saraf’s two-way efficiency drives Brooklyn’s 32-point Summer League win",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 484,
       "paragraphs": 9,
       "facts": 7,
@@ -6440,7 +6454,7 @@
       "id": "live-20260719-israel-u20-handball-world-championship",
       "slug": "israel-u20-handball-beat-croatia-world-championship-qualification-first-in-21-years",
       "title": "Israel's under-20s beat Croatia 36:31 to end a 21-year wait for a World Championship place",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 487,
       "paragraphs": 7,
       "facts": 6,
@@ -6467,6 +6481,20 @@
   ],
   "cleanPublished": [
     {
+      "id": "archive-20260728-assago-18-may-2014-the-overtime-night-ma",
+      "slug": "assago-18-may-2014-the-overtime-night-maccabi-stunned-real-madrid",
+      "title": "Assago, 18 May 2014: The Overtime Night Maccabi Stunned Real Madrid",
+      "statusBefore": "published",
+      "words": 674,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-20260728-chelsea-veteran-reboot",
       "slug": "chelsea-veteran-signings-welbeck-henderson-xabi-alonso",
       "title": "Chelsea's 180-degree turn: Xabi Alonso eyes Danny Welbeck and Jordan Henderson",
@@ -6489,20 +6517,6 @@
       "paragraphs": 7,
       "facts": 6,
       "verificationSources": 2,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-20260728-kibedy-gordon-ufc-message",
-      "slug": "kibedy-gordon-sends-message-to-ufc-after-tel-aviv-ko",
-      "title": "Kibedy Gordon knocks out former UFC fighter, then calls out Dana White",
-      "statusBefore": "published",
-      "words": 446,
-      "paragraphs": 8,
-      "facts": 6,
-      "verificationSources": 4,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -6564,20 +6578,6 @@
       "blockers": [],
       "warnings": [
         "voice:publisher-attribution-heavy:2"
-      ]
-    },
-    {
-      "id": "live-20260727-kibedy-gordon-knockout-quinones",
-      "slug": "kibedy-gordon-knockout-quinones-gfn1",
-      "title": "Kibedy Gordon flattens former UFC fighter Quiñones in under a minute",
-      "statusBefore": "published",
-      "words": 405,
-      "paragraphs": 7,
-      "facts": 6,
-      "verificationSources": 5,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -7358,22 +7358,6 @@
       "warnings": []
     },
     {
-      "id": "live-20260726-gordon-lineker-gfn1-preview",
-      "slug": "ahavat-gordon-vows-to-topple-lineker-gfn1",
-      "title": "Ahavat Gordon vows to topple former world champion Lineker at Tel Aviv debut card",
-      "statusBefore": "published",
-      "words": 439,
-      "paragraphs": 8,
-      "facts": 7,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline",
-        "media:no-action-or-competition-context-detected",
-        "voice:stock-editorial-phrase-detected"
-      ]
-    },
-    {
       "id": "live-2026-07-26-hapoel-yanai-oturu-naturalization-row",
       "slug": "hapoel-yanai-oturu-naturalization-row",
       "title": "Hapoel Tel Aviv owner accuses basketball federation of playing politics with Oturu naturalization",
@@ -8078,20 +8062,6 @@
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline",
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-07-25-orian-goren-barcelona-debut",
-      "slug": "orian-goren-barcelona-first-team-debut-praise",
-      "title": "Spanish press praise Orian Goren after Israeli teenager's Barcelona debut",
-      "statusBefore": "published",
-      "words": 363,
-      "paragraphs": 6,
-      "facts": 6,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
     },
@@ -9548,20 +9518,6 @@
       ]
     },
     {
-      "id": "live-2026-07-22-ceferin-world-cup-final-boycott",
-      "slug": "ceferin-world-cup-final-boycott-trump-balogun",
-      "title": "UEFA's Čeferin boycotts World Cup final over FIFA's handling of Trump-Balogun affair",
-      "statusBefore": "published",
-      "words": 556,
-      "paragraphs": 10,
-      "facts": 7,
-      "verificationSources": 5,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
       "id": "live-20260722-buzelis-avdija-mentor",
       "slug": "bulls-buzelis-seeks-avdija-mentorship-attacking-rim",
       "title": "Bulls Rookie Star Buzelis Wants Avdija's Blueprint for Attacking the Rim",
@@ -9731,20 +9687,6 @@
       ]
     },
     {
-      "id": "live-2026-07-21-infantino-message-argentina-world-cup-final",
-      "slug": "infantino-message-argentina-world-cup-final",
-      "title": "Infantino praises Argentina's \"unforgettable\" run despite chaotic World Cup final",
-      "statusBefore": "published",
-      "words": 408,
-      "paragraphs": 9,
-      "facts": 7,
-      "verificationSources": 5,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
       "id": "live-20260721-kangwa-vikingur-aek-equalizer",
       "slug": "kangwa-champions-league-equalizer-vikingur-aek-transfer",
       "title": "Kangwa levels for Hapoel in Iceland but barely celebrates amid AEK transfer talks",
@@ -9877,20 +9819,6 @@
       "verificationSources": 8,
       "blockers": [],
       "warnings": []
-    },
-    {
-      "id": "live-20260721-argentina-world-cup-final-brawl-fifa-probe",
-      "slug": "argentina-spain-world-cup-final-brawl-fifa-investigation",
-      "title": "FIFA opens investigation into Argentina after ugly brawl at World Cup final",
-      "statusBefore": "published",
-      "words": 449,
-      "paragraphs": 10,
-      "facts": 8,
-      "verificationSources": 5,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
     },
     {
       "id": "live-20260721-maccabi-haifa-kfar-saba-friendly",
@@ -10212,18 +10140,6 @@
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
-    },
-    {
-      "id": "live-2026-07-20-messi-world-cup-final-reaction",
-      "slug": "messi-world-cup-final-reaction-pain-enormous",
-      "title": "Messi: 'The pain is enormous' after World Cup final heartbreak",
-      "statusBefore": "published",
-      "words": 384,
-      "paragraphs": 7,
-      "facts": 7,
-      "verificationSources": 6,
-      "blockers": [],
-      "warnings": []
     },
     {
       "id": "live-2026-07-20-fifa-2030-64-teams",
@@ -11230,20 +11146,6 @@
       "warnings": []
     },
     {
-      "id": "live-20260715-saraf-wolf-brooklyn-sacramento",
-      "slug": "saraf-wolf-brooklyn-beat-sacramento-summer-league",
-      "title": "Saraf’s two-way efficiency drives Brooklyn’s 32-point Summer League win",
-      "statusBefore": "published",
-      "words": 484,
-      "paragraphs": 9,
-      "facts": 7,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
       "id": "live-20260715-kawhi-toronto-trade-hold",
       "slug": "silver-kawhi-leonard-toronto-trade-investigation",
       "title": "Silver sets summer target as Leonard’s Toronto return remains frozen",
@@ -11536,18 +11438,6 @@
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
-    },
-    {
-      "id": "live-20260717-israel-u20-iceland-handball",
-      "slug": "israel-u20-handball-iceland-35-23-m20-ehf-euro-placement",
-      "title": "Israel's under-20s swept aside 35:23 by Iceland with a World Championship place still on the line",
-      "statusBefore": "published",
-      "words": 430,
-      "paragraphs": 8,
-      "facts": 6,
-      "verificationSources": 5,
-      "blockers": [],
-      "warnings": []
     },
     {
       "id": "live-20260717-maccabi-ta-youth-oretzki-kadosh",
@@ -12032,18 +11922,6 @@
       ]
     },
     {
-      "id": "live-20260719-france-england-bronze",
-      "slug": "england-france-6-4-world-cup-third-place-bronze",
-      "title": "England win a ten-goal epic 6-4 as Saka hat-trick claims World Cup bronze",
-      "statusBefore": "published",
-      "words": 513,
-      "paragraphs": 10,
-      "facts": 6,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": []
-    },
-    {
       "id": "column-20260719-second-wave-youth-basketball",
       "slug": "israel-youth-basketball-second-wave-column",
       "title": "Israel's second basketball wave is real — and ninth place is still ninth place",
@@ -12116,20 +11994,6 @@
       "paragraphs": 9,
       "facts": 6,
       "verificationSources": 2,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-20260719-israel-u20-handball-world-championship",
-      "slug": "israel-u20-handball-beat-croatia-world-championship-qualification-first-in-21-years",
-      "title": "Israel's under-20s beat Croatia 36:31 to end a 21-year wait for a World Championship place",
-      "statusBefore": "published",
-      "words": 487,
-      "paragraphs": 7,
-      "facts": 6,
-      "verificationSources": 3,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"

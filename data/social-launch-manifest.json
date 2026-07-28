@@ -146,8 +146,8 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-28T00:35:01Z",
-    "validUntil": "2026-07-28T12:35:01Z",
+    "checkedAt": "2026-07-28T01:01:57Z",
+    "validUntil": "2026-07-28T13:01:57Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
@@ -160,21 +160,21 @@
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260728-chelsea-veteran-reboot",
+        "articleId": "archive-20260728-assago-18-may-2014-the-overtime-night-ma",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 203,
+        "maxAgeHours": 204,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-07-28-gfn1-vaseline-prefight-ritual",
+        "articleId": "live-20260728-chelsea-veteran-reboot",
         "maxAgeHours": 24,
         "requires": []
       },
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260727-real-madrid-rodri-bid",
+        "articleId": "live-2026-07-28-gfn1-vaseline-prefight-ritual",
         "maxAgeHours": 24,
         "requires": []
       }

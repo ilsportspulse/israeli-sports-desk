@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T00:35:01.616Z",
+  "generatedAt": "2026-07-28T01:01:58.603Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 429,
+    "publishedArticles": 418,
     "wordCount": {
       "minimum": 231,
       "maximum": 1070,
-      "median": 453,
-      "average": 467
+      "median": 455,
+      "average": 468.1
     },
     "paragraphDistribution": {
       "5": 2,
-      "6": 14,
-      "7": 70,
-      "8": 113,
-      "9": 107,
-      "10": 83,
+      "6": 13,
+      "7": 67,
+      "8": 111,
+      "9": 105,
+      "10": 80,
       "11": 24,
       "12": 6,
       "13": 4,
@@ -33,11 +33,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.263,
+    "dominantParagraphShare": 0.266,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 14,
+    "exactSixParagraphArticles": 13,
     "analysisBelowTarget": 4,
-    "articlesWithStyleFlags": 44
+    "articlesWithStyleFlags": 43
   },
   "flagged": [
     {
@@ -407,29 +407,6 @@
       "publisherAttributions": 0,
       "flags": [
         "below-editorial-target:241/280"
-      ]
-    },
-    {
-      "id": "live-20260726-gordon-lineker-gfn1-preview",
-      "slug": "ahavat-gordon-vows-to-topple-lineker-gfn1",
-      "title": "Ahavat Gordon vows to topple former world champion Lineker at Tel Aviv debut card",
-      "kind": "news",
-      "words": 435,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 33,
-        "longest": 79,
-        "average": 54.4
-      },
-      "sentenceWords": {
-        "shortest": 2,
-        "longest": 62,
-        "average": 31.1
-      },
-      "lexicalDiversity": 0.57,
-      "publisherAttributions": 0,
-      "flags": [
-        "stock-phrase:statement-of-intent"
       ]
     },
     {
@@ -1056,6 +1033,27 @@
   ],
   "clean": [
     {
+      "id": "archive-20260728-assago-18-may-2014-the-overtime-night-ma",
+      "slug": "assago-18-may-2014-the-overtime-night-maccabi-stunned-real-madrid",
+      "title": "Assago, 18 May 2014: The Overtime Night Maccabi Stunned Real Madrid",
+      "kind": "explainer",
+      "words": 669,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 44,
+        "longest": 106,
+        "average": 83.6
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 63,
+        "average": 30.4
+      },
+      "lexicalDiversity": 0.559,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
       "id": "live-20260728-chelsea-veteran-reboot",
       "slug": "chelsea-veteran-signings-welbeck-henderson-xabi-alonso",
       "title": "Chelsea's 180-degree turn: Xabi Alonso eyes Danny Welbeck and Jordan Henderson",
@@ -1095,27 +1093,6 @@
       },
       "lexicalDiversity": 0.595,
       "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260728-kibedy-gordon-ufc-message",
-      "slug": "kibedy-gordon-sends-message-to-ufc-after-tel-aviv-ko",
-      "title": "Kibedy Gordon knocks out former UFC fighter, then calls out Dana White",
-      "kind": "article",
-      "words": 446,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 51,
-        "longest": 60,
-        "average": 55.8
-      },
-      "sentenceWords": {
-        "shortest": 6,
-        "longest": 86,
-        "average": 29.7
-      },
-      "lexicalDiversity": 0.614,
-      "publisherAttributions": 1,
       "flags": []
     },
     {
@@ -1179,27 +1156,6 @@
       },
       "lexicalDiversity": 0.583,
       "publisherAttributions": 1,
-      "flags": []
-    },
-    {
-      "id": "live-20260727-kibedy-gordon-knockout-quinones",
-      "slug": "kibedy-gordon-knockout-quinones-gfn1",
-      "title": "Kibedy Gordon flattens former UFC fighter Quiñones in under a minute",
-      "kind": "news",
-      "words": 403,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 49,
-        "longest": 62,
-        "average": 57.6
-      },
-      "sentenceWords": {
-        "shortest": 7,
-        "longest": 47,
-        "average": 23.7
-      },
-      "lexicalDiversity": 0.588,
-      "publisherAttributions": 0,
       "flags": []
     },
     {
@@ -2963,27 +2919,6 @@
         "average": 30.9
       },
       "lexicalDiversity": 0.598,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-07-25-orian-goren-barcelona-debut",
-      "slug": "orian-goren-barcelona-first-team-debut-praise",
-      "title": "Spanish press praise Orian Goren after Israeli teenager's Barcelona debut",
-      "kind": "article",
-      "words": 363,
-      "paragraphs": 6,
-      "paragraphWords": {
-        "shortest": 35,
-        "longest": 77,
-        "average": 60.5
-      },
-      "sentenceWords": {
-        "shortest": 19,
-        "longest": 58,
-        "average": 36.3
-      },
-      "lexicalDiversity": 0.639,
       "publisherAttributions": 0,
       "flags": []
     },
@@ -5088,27 +5023,6 @@
       "flags": []
     },
     {
-      "id": "live-2026-07-22-ceferin-world-cup-final-boycott",
-      "slug": "ceferin-world-cup-final-boycott-trump-balogun",
-      "title": "UEFA's Čeferin boycotts World Cup final over FIFA's handling of Trump-Balogun affair",
-      "kind": "news",
-      "words": 550,
-      "paragraphs": 10,
-      "paragraphWords": {
-        "shortest": 35,
-        "longest": 71,
-        "average": 55
-      },
-      "sentenceWords": {
-        "shortest": 11,
-        "longest": 75,
-        "average": 30.6
-      },
-      "lexicalDiversity": 0.575,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
       "id": "live-20260722-buzelis-avdija-mentor",
       "slug": "bulls-buzelis-seeks-avdija-mentorship-attacking-rim",
       "title": "Bulls Rookie Star Buzelis Wants Avdija's Blueprint for Attacking the Rim",
@@ -5340,27 +5254,6 @@
       "flags": []
     },
     {
-      "id": "live-2026-07-21-infantino-message-argentina-world-cup-final",
-      "slug": "infantino-message-argentina-world-cup-final",
-      "title": "Infantino praises Argentina's \"unforgettable\" run despite chaotic World Cup final",
-      "kind": "news",
-      "words": 408,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 31,
-        "longest": 65,
-        "average": 45.3
-      },
-      "sentenceWords": {
-        "shortest": 4,
-        "longest": 61,
-        "average": 34
-      },
-      "lexicalDiversity": 0.588,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
       "id": "live-20260721-kangwa-vikingur-aek-equalizer",
       "slug": "kangwa-champions-league-equalizer-vikingur-aek-transfer",
       "title": "Kangwa levels for Hapoel in Iceland but barely celebrates amid AEK transfer talks",
@@ -5546,27 +5439,6 @@
         "average": 34.5
       },
       "lexicalDiversity": 0.51,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260721-argentina-world-cup-final-brawl-fifa-probe",
-      "slug": "argentina-spain-world-cup-final-brawl-fifa-investigation",
-      "title": "FIFA opens investigation into Argentina after ugly brawl at World Cup final",
-      "kind": "news",
-      "words": 448,
-      "paragraphs": 10,
-      "paragraphWords": {
-        "shortest": 32,
-        "longest": 63,
-        "average": 44.8
-      },
-      "sentenceWords": {
-        "shortest": 13,
-        "longest": 50,
-        "average": 34.5
-      },
-      "lexicalDiversity": 0.627,
       "publisherAttributions": 0,
       "flags": []
     },
@@ -6008,27 +5880,6 @@
         "average": 35
       },
       "lexicalDiversity": 0.61,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-07-20-messi-world-cup-final-reaction",
-      "slug": "messi-world-cup-final-reaction-pain-enormous",
-      "title": "Messi: 'The pain is enormous' after World Cup final heartbreak",
-      "kind": "news",
-      "words": 384,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 49,
-        "longest": 60,
-        "average": 54.9
-      },
-      "sentenceWords": {
-        "shortest": 7,
-        "longest": 98,
-        "average": 29.5
-      },
-      "lexicalDiversity": 0.609,
       "publisherAttributions": 0,
       "flags": []
     },
@@ -7650,27 +7501,6 @@
       "flags": []
     },
     {
-      "id": "live-20260715-saraf-wolf-brooklyn-sacramento",
-      "slug": "saraf-wolf-brooklyn-beat-sacramento-summer-league",
-      "title": "Saraf’s two-way efficiency drives Brooklyn’s 32-point Summer League win",
-      "kind": "news",
-      "words": 490,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 23,
-        "longest": 73,
-        "average": 54.4
-      },
-      "sentenceWords": {
-        "shortest": 6,
-        "longest": 33,
-        "average": 23.3
-      },
-      "lexicalDiversity": 0.584,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
       "id": "live-20260715-kawhi-toronto-trade-hold",
       "slug": "silver-kawhi-leonard-toronto-trade-investigation",
       "title": "Silver sets summer target as Leonard’s Toronto return remains frozen",
@@ -8108,27 +7938,6 @@
         "average": 24.8
       },
       "lexicalDiversity": 0.556,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260717-israel-u20-iceland-handball",
-      "slug": "israel-u20-handball-iceland-35-23-m20-ehf-euro-placement",
-      "title": "Israel's under-20s swept aside 35:23 by Iceland with a World Championship place still on the line",
-      "kind": "news",
-      "words": 438,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 36,
-        "longest": 77,
-        "average": 54.8
-      },
-      "sentenceWords": {
-        "shortest": 4,
-        "longest": 64,
-        "average": 23.1
-      },
-      "lexicalDiversity": 0.621,
       "publisherAttributions": 0,
       "flags": []
     },
@@ -8952,27 +8761,6 @@
       "flags": []
     },
     {
-      "id": "live-20260719-france-england-bronze",
-      "slug": "england-france-6-4-world-cup-third-place-bronze",
-      "title": "England win a ten-goal epic 6-4 as Saka hat-trick claims World Cup bronze",
-      "kind": "news",
-      "words": 507,
-      "paragraphs": 10,
-      "paragraphWords": {
-        "shortest": 24,
-        "longest": 74,
-        "average": 50.7
-      },
-      "sentenceWords": {
-        "shortest": 7,
-        "longest": 46,
-        "average": 26.7
-      },
-      "lexicalDiversity": 0.546,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
       "id": "column-20260719-second-wave-youth-basketball",
       "slug": "israel-youth-basketball-second-wave-column",
       "title": "Israel's second basketball wave is real — and ninth place is still ninth place",
@@ -9095,27 +8883,6 @@
         "average": 26.8
       },
       "lexicalDiversity": 0.536,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260719-israel-u20-handball-world-championship",
-      "slug": "israel-u20-handball-beat-croatia-world-championship-qualification-first-in-21-years",
-      "title": "Israel's under-20s beat Croatia 36:31 to end a 21-year wait for a World Championship place",
-      "kind": "news",
-      "words": 492,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 49,
-        "longest": 86,
-        "average": 70.3
-      },
-      "sentenceWords": {
-        "shortest": 6,
-        "longest": 41,
-        "average": 23.4
-      },
-      "lexicalDiversity": 0.622,
       "publisherAttributions": 0,
       "flags": []
     },
