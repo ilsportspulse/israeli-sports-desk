@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T08:40:34.621Z",
+  "generatedAt": "2026-07-28T09:00:26.070Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,60 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 705,
-    "publishedBefore": 434,
-    "cleanPublished": 434,
+    "totalArticles": 708,
+    "publishedBefore": 436,
+    "cleanPublished": 436,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 434,
-    "reviewAfter": 271
+    "publishedAfter": 436,
+    "reviewAfter": 272
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-20260728-israel-u18-handball-euro-opener",
+      "slug": "israel-u18-handball-opens-european-championship-croatia",
+      "title": "Israel's youth handball team opens its first European Championship against Croatia",
+      "statusBefore": "published",
+      "words": 363,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260728-blitz-foot-surgery-batumi-fans",
+      "slug": "blitz-foot-surgery-maccabi-fans-batumi",
+      "title": "Blitz to have foot surgery as more than 1,000 Maccabi fans head to Batumi",
+      "statusBefore": "published",
+      "words": 483,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260728-israel-equestrian-worlds-delegation",
+      "slug": "israel-six-pairs-equestrian-world-championships-aachen",
+      "title": "Israel to send six rider-horse pairs to equestrian world championships in Aachen",
+      "statusBefore": "review",
+      "words": 352,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260728-barcelona-rodri-race",
       "slug": "barcelona-enters-rodri-transfer-race",
@@ -6667,6 +6711,35 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-20260728-israel-u18-handball-euro-opener",
+      "slug": "israel-u18-handball-opens-european-championship-croatia",
+      "title": "Israel's youth handball team opens its first European Championship against Croatia",
+      "statusBefore": "published",
+      "words": 363,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260728-blitz-foot-surgery-batumi-fans",
+      "slug": "blitz-foot-surgery-maccabi-fans-batumi",
+      "title": "Blitz to have foot surgery as more than 1,000 Maccabi fans head to Batumi",
+      "statusBefore": "published",
+      "words": 483,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
     {
       "id": "live-20260728-barcelona-rodri-race",
       "slug": "barcelona-enters-rodri-transfer-race",
