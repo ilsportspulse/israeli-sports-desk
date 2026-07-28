@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-28T12:28:51Z",
-    "validUntil": "2026-07-29T00:28:51Z",
+    "checkedAt": "2026-07-28T14:23:21Z",
+    "validUntil": "2026-07-29T02:23:21Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 207,
+        "maxAgeHours": 209,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-07-28-kibedy-gordon-gfn-ufc",
+        "articleId": "live-2026-07-28-hapoel-haifa-elias-signing",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 215,
+        "maxAgeHours": 217,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260728-lewandowski-barcelona-200-million-loss",
+        "articleId": "live-2026-07-28-beitar-jerusalem-bucharest-hotel-welcome",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 225,
+        "maxAgeHours": 227,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260728-yan-diomande-ronaldo-shoes",
+        "articleId": "live-2026-07-28-womens-basketball-funding-distortion",
         "maxAgeHours": 24,
         "requires": []
       }
