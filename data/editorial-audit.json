@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T07:33:22.376Z",
+  "generatedAt": "2026-07-28T08:00:29.846Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,44 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 695,
-    "publishedBefore": 425,
-    "cleanPublished": 425,
+    "totalArticles": 701,
+    "publishedBefore": 430,
+    "cleanPublished": 430,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 425,
-    "reviewAfter": 270
+    "publishedAfter": 430,
+    "reviewAfter": 271
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-20260728-halaili-tsunami-haifa-toto-cup",
+      "slug": "halaili-keeps-place-wanderson-tsunami-maccabi-haifa",
+      "title": "Halaili keeps Maccabi Haifa's faith as Wanderson Tsunami joins the squad picture",
+      "statusBefore": "published",
+      "words": 378,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-28-real-madrid-diomande-new-messi",
+      "slug": "real-madrid-diomande-new-messi-leganes-video",
+      "title": "The day Leganés' owner told his coach: \"We have the new Messi\"",
+      "statusBefore": "published",
+      "words": 600,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260728-hapoel-beer-sheva-kozuk-vikingur-lineup",
       "slug": "hapoel-beer-sheva-kozuk-plans-changes-vikingur-return-leg",
@@ -6611,6 +6639,70 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-20260728-halaili-tsunami-haifa-toto-cup",
+      "slug": "halaili-keeps-place-wanderson-tsunami-maccabi-haifa",
+      "title": "Halaili keeps Maccabi Haifa's faith as Wanderson Tsunami joins the squad picture",
+      "statusBefore": "published",
+      "words": 378,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260728-debrecen-eyes-salman",
+      "slug": "hungarian-club-debrecen-eyes-bnei-sakhnin-forward-salman",
+      "title": "Hungarian side Debrecen chase Bnei Sakhnin's Salman as forward eyes pay rise",
+      "statusBefore": "published",
+      "words": 308,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-07-28-japonica-arson-suspect-beitar-owner",
+      "slug": "suspect-arrested-arson-japonica-givatayim-beitar-owner",
+      "title": "Suspect arrested over arson at Givatayim restaurant owned by Beitar Jerusalem's chairman",
+      "statusBefore": "published",
+      "words": 263,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-07-28-belgium-var-alternative-fvs",
+      "slug": "belgium-second-division-var-alternative-fvs-coach-challenges",
+      "title": "Belgium's second tier to let coaches challenge referees instead of using full VAR",
+      "statusBefore": "published",
+      "words": 502,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-07-28-real-madrid-diomande-new-messi",
+      "slug": "real-madrid-diomande-new-messi-leganes-video",
+      "title": "The day Leganés' owner told his coach: \"We have the new Messi\"",
+      "statusBefore": "published",
+      "words": 600,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260728-pirlo-son-italy-coach-mancini-conte",
       "slug": "pirlo-son-defends-father-italy-coach-mancini-conte",

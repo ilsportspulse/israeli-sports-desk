@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T07:33:22.684Z",
+  "generatedAt": "2026-07-28T08:00:30.058Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,19 +11,19 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 425,
+    "publishedArticles": 430,
     "wordCount": {
       "minimum": 231,
       "maximum": 1070,
-      "median": 455,
-      "average": 467.7
+      "median": 454.5,
+      "average": 467
     },
     "paragraphDistribution": {
       "5": 2,
       "6": 13,
-      "7": 68,
-      "8": 113,
-      "9": 107,
+      "7": 70,
+      "8": 114,
+      "9": 109,
       "10": 82,
       "11": 24,
       "12": 6,
@@ -33,11 +33,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.266,
+    "dominantParagraphShare": 0.265,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 13,
     "analysisBelowTarget": 4,
-    "articlesWithStyleFlags": 44
+    "articlesWithStyleFlags": 45
   },
   "flagged": [
     {
@@ -62,6 +62,29 @@
       "flags": [
         "stock-phrase:statement-of-intent",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-07-28-japonica-arson-suspect-beitar-owner",
+      "slug": "suspect-arrested-arson-japonica-givatayim-beitar-owner",
+      "title": "Suspect arrested over arson at Givatayim restaurant owned by Beitar Jerusalem's chairman",
+      "kind": "news",
+      "words": 263,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 25,
+        "longest": 50,
+        "average": 37.6
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 38,
+        "average": 26.3
+      },
+      "lexicalDiversity": 0.639,
+      "publisherAttributions": 0,
+      "flags": [
+        "below-editorial-target:263/280"
       ]
     },
     {
@@ -1055,6 +1078,90 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260728-halaili-tsunami-haifa-toto-cup",
+      "slug": "halaili-keeps-place-wanderson-tsunami-maccabi-haifa",
+      "title": "Halaili keeps Maccabi Haifa's faith as Wanderson Tsunami joins the squad picture",
+      "kind": "article",
+      "words": 379,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 78,
+        "average": 47.4
+      },
+      "sentenceWords": {
+        "shortest": 16,
+        "longest": 54,
+        "average": 37.9
+      },
+      "lexicalDiversity": 0.641,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260728-debrecen-eyes-salman",
+      "slug": "hungarian-club-debrecen-eyes-bnei-sakhnin-forward-salman",
+      "title": "Hungarian side Debrecen chase Bnei Sakhnin's Salman as forward eyes pay rise",
+      "kind": "article",
+      "words": 305,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 54,
+        "average": 43.6
+      },
+      "sentenceWords": {
+        "shortest": 18,
+        "longest": 49,
+        "average": 33.9
+      },
+      "lexicalDiversity": 0.63,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-28-belgium-var-alternative-fvs",
+      "slug": "belgium-second-division-var-alternative-fvs-coach-challenges",
+      "title": "Belgium's second tier to let coaches challenge referees instead of using full VAR",
+      "kind": "article",
+      "words": 499,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 39,
+        "longest": 82,
+        "average": 55.4
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 55,
+        "average": 27.7
+      },
+      "lexicalDiversity": 0.559,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-28-real-madrid-diomande-new-messi",
+      "slug": "real-madrid-diomande-new-messi-leganes-video",
+      "title": "The day Leganés' owner told his coach: \"We have the new Messi\"",
+      "kind": "article",
+      "words": 590,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 45,
+        "longest": 80,
+        "average": 65.6
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 85,
+        "average": 31.1
+      },
+      "lexicalDiversity": 0.542,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260728-pirlo-son-italy-coach-mancini-conte",
       "slug": "pirlo-son-defends-father-italy-coach-mancini-conte",
