@@ -146,28 +146,28 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-28T10:29:29Z",
-    "validUntil": "2026-07-28T22:29:29Z",
+    "checkedAt": "2026-07-28T10:59:42Z",
+    "validUntil": "2026-07-28T22:59:42Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 205,
+        "maxAgeHours": 206,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-07-28-israeli-player-fund-row",
+        "articleId": "live-20260728-omer-katz-maccabi-haifa-candidate",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 213,
+        "maxAgeHours": 214,
         "requires": [
           "basketballRecap"
         ]
@@ -181,7 +181,7 @@
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 223,
+        "maxAgeHours": 224,
         "requires": [
           "column"
         ]

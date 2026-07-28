@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T10:29:30.062Z",
+  "generatedAt": "2026-07-28T10:59:43.250Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,17 +11,17 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 440,
+    "publishedArticles": 442,
     "wordCount": {
       "minimum": 231,
       "maximum": 1070,
-      "median": 453,
-      "average": 465.5
+      "median": 452.5,
+      "average": 465
     },
     "paragraphDistribution": {
       "5": 2,
       "6": 13,
-      "7": 70,
+      "7": 72,
       "8": 119,
       "9": 111,
       "10": 85,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.27,
+    "dominantParagraphShare": 0.269,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 13,
     "analysisBelowTarget": 4,
@@ -1102,6 +1102,27 @@
   ],
   "clean": [
     {
+      "id": "live-20260728-omer-katz-maccabi-haifa-candidate",
+      "slug": "omer-katz-emerges-maccabi-haifa-goalkeeper-target",
+      "title": "Maccabi Haifa weigh free move for Hapoel Petah Tikva goalkeeper Omer Katz",
+      "kind": "news",
+      "words": 294,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 50,
+        "average": 42
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 50,
+        "average": 26.7
+      },
+      "lexicalDiversity": 0.619,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
       "id": "live-2026-07-28-israeli-player-fund-row",
       "slug": "israeli-player-fund-distribution-football-basketball-row",
       "title": "Football clubs cry foul as sports ministry's 140m shekel 'Israeli player' fund favours basketball",
@@ -1624,6 +1645,27 @@
       },
       "lexicalDiversity": 0.583,
       "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260727-kibedy-gordon-knockout-quinones",
+      "slug": "kibedy-gordon-knockout-quinones-gfn1",
+      "title": "Kibedy Gordon flattens former UFC fighter Quiñones in under a minute",
+      "kind": "news",
+      "words": 403,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 49,
+        "longest": 62,
+        "average": 57.6
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 47,
+        "average": 23.7
+      },
+      "lexicalDiversity": 0.588,
+      "publisherAttributions": 0,
       "flags": []
     },
     {
