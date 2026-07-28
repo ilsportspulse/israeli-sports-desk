@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T22:33:33.431Z",
+  "generatedAt": "2026-07-28T22:53:57.522Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,31 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 774,
+    "totalArticles": 775,
     "publishedBefore": 471,
     "cleanPublished": 471,
     "blockedPublished": 0,
     "demoted": 0,
     "publishedAfter": 471,
-    "reviewAfter": 303
+    "reviewAfter": 304
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-2026-07-28-niv-gabai-efficiency-numbers",
+      "slug": "niv-gabai-efficiency-numbers-kiryat-shmona",
+      "title": "Every 48.5 minutes, a goal: the numbers behind Niv Gabai's fast start",
+      "statusBefore": "published",
+      "words": 383,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
     {
       "id": "live-2026-07-28-fadida-tiberias-talks",
       "slug": "saar-fadida-advanced-talks-ironi-tiberias",
@@ -74,7 +89,7 @@
       "id": "live-2026-07-28-maccabi-haifa-toto-cup-chances",
       "slug": "maccabi-haifa-toto-cup-chances-analysis",
       "title": "Maccabi Haifa's Toto Cup hopes narrow to the slimmest of margins",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 513,
       "paragraphs": 9,
       "facts": 7,
@@ -3041,6 +3056,20 @@
       ]
     },
     {
+      "id": "live-2026-07-25-norris-hungary-pole",
+      "slug": "norris-pole-hungarian-grand-prix-2026",
+      "title": "World champion Norris snatches Hungarian GP pole from Hamilton by 0.012 seconds",
+      "statusBefore": "published",
+      "words": 354,
+      "paragraphs": 10,
+      "facts": 8,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-20260725-robi-shapira-haifa-youth-b-gulf-league",
       "slug": "robi-shapira-haifa-youth-b-gulf-league-title",
       "title": "Robi Shapira Haifa's youth B side crowned Gulf League champions in a double-title season",
@@ -5526,7 +5555,7 @@
     {
       "id": "live-20260721-kangwa-vikingur-aek-equalizer",
       "slug": "kangwa-champions-league-equalizer-vikingur-aek-transfer",
-      "title": "Kangwa levels for Hapoel in Iceland but barely celebrates amid AEK transfer talks",
+      "title": "Víkingur 1–1 Hapoel Beer Sheva: Kangwa levels in Iceland but barely celebrates",
       "statusBefore": "published",
       "words": 491,
       "paragraphs": 9,
@@ -7457,6 +7486,21 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-2026-07-28-niv-gabai-efficiency-numbers",
+      "slug": "niv-gabai-efficiency-numbers-kiryat-shmona",
+      "title": "Every 48.5 minutes, a goal: the numbers behind Niv Gabai's fast start",
+      "statusBefore": "published",
+      "words": 383,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
       "id": "live-2026-07-28-fadida-tiberias-talks",
       "slug": "saar-fadida-advanced-talks-ironi-tiberias",
       "title": "Sa'ar Fadida closes in on move to Ironi Tiberias",
@@ -7468,20 +7512,6 @@
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline",
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-07-28-maccabi-haifa-toto-cup-chances",
-      "slug": "maccabi-haifa-toto-cup-chances-analysis",
-      "title": "Maccabi Haifa's Toto Cup hopes narrow to the slimmest of margins",
-      "statusBefore": "published",
-      "words": 513,
-      "paragraphs": 9,
-      "facts": 7,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
     },
@@ -9574,7 +9604,9 @@
       "facts": 8,
       "verificationSources": 4,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-2026-07-25-yermakov-leaves-haifa-metalist",
@@ -10540,7 +10572,7 @@
     {
       "id": "live-20260723-beitar-larnaca-clean-sheet",
       "slug": "beitar-jerusalem-clean-sheet-win-aek-larnaca-conference-league",
-      "title": "Beitar Jerusalem take slender lead to Europe after Carabalí's free-kick sinks ten-man Larnaca",
+      "title": "AEK Larnaca 0–1 Beitar Jerusalem: Carabalí strike gives slender Conference League lead",
       "statusBefore": "published",
       "words": 442,
       "paragraphs": 9,
@@ -11379,7 +11411,7 @@
     {
       "id": "live-20260721-kangwa-vikingur-aek-equalizer",
       "slug": "kangwa-champions-league-equalizer-vikingur-aek-transfer",
-      "title": "Kangwa levels for Hapoel in Iceland but barely celebrates amid AEK transfer talks",
+      "title": "Víkingur 1–1 Hapoel Beer Sheva: Kangwa levels in Iceland but barely celebrates",
       "statusBefore": "published",
       "words": 491,
       "paragraphs": 9,

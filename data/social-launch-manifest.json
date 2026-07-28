@@ -146,8 +146,8 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-28T22:33:33Z",
-    "validUntil": "2026-07-29T10:33:33Z",
+    "checkedAt": "2026-07-28T22:53:57Z",
+    "validUntil": "2026-07-29T10:53:57Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
@@ -160,21 +160,21 @@
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-07-28-fadida-tiberias-talks",
+        "articleId": "live-2026-07-28-niv-gabai-efficiency-numbers",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 225,
+        "maxAgeHours": 226,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260728-kiryat-shmona-maccabi-haifa-toto-0-3",
+        "articleId": "live-2026-07-28-fadida-tiberias-talks",
         "maxAgeHours": 24,
         "requires": []
       },
