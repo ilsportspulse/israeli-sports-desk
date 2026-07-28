@@ -1,5 +1,73 @@
 [
   {
+    "ts": "2026-07-28T09:25:45.965Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 8,
+    "published": 3,
+    "review": 0,
+    "skipped": 5,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "nottingham-forest-20-million-bid-anan-khalaili",
+        "title": "Nottingham Forest bid around €20m for Israeli winger Anan Khalaili",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "zidane-officially-appointed-france-national-team-coach",
+        "title": "Zidane appointed France's new head coach, succeeding Deschamps",
+        "confidence": 0.9,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "shviro-badji-set-to-start-tiberias-toto-cup-haifa",
+        "title": "Shviro and Badji set to start for Tiberias in Toto Cup trip to Haifa",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "yan-diomande-tragedy-ronaldo-real-madrid",
+        "title": "The tragedy behind Yan Diomande, the teenager chasing Ronaldo's shoes at Real Madrid",
+        "decision": "duplicate",
+        "reason": "same event as real-madrid-agree-terms-yan-diomande-five-year-deal"
+      },
+      {
+        "slug": "vinicius-junior-real-madrid-sale-ultimatum",
+        "title": "Vinicius Junior must be sold this summer without a signed deal, says Cañizares",
+        "decision": "duplicate",
+        "reason": "same event as arsenal-record-wage-vinicius-junior-real-madrid"
+      },
+      {
+        "slug": "psg-fireworks-jab-real-madrid-diomande-pursuit",
+        "title": "PSG accuse Real Madrid of arriving \"with fireworks\" as they pull out of Diomandé chase",
+        "decision": "duplicate",
+        "reason": "same event as psg-pulls-out-diomande-real-madrid-transfer"
+      },
+      {
+        "slug": "hapoel-tel-aviv-ginat-contract-extension-yanai-promise",
+        "title": "Hapoel Tel Aviv owner promises Tomer Ginat he will retire as champion of Israel and Europe",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "nottingham-forest-20m-bid-anan-khalaili",
+        "title": "Nottingham Forest offer €20m for Anan Khalaili after Inter medical collapse",
+        "decision": "duplicate"
+      }
+    ]
+  },
+  {
     "ts": "2026-07-28T08:54:22.497Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -3417,83 +3485,6 @@
         "gate": "pass",
         "decision": "published",
         "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-07-25T10:33:22.880Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 8,
-    "published": 5,
-    "review": 2,
-    "skipped": 1,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "beer-sheva-ventura-exit-fears",
-        "title": "Beer Sheva fear Ventura exit after Kangwa's sale to Panathinaikos",
-        "confidence": 0.8,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "sinner-djokovic-withdraw-montreal-masters",
-        "title": "Sinner and Djokovic pull out of Montreal Masters ahead of US Open",
-        "confidence": 0.88,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "daniel-merida-first-atp-title-umag",
-        "title": "Daniel Mérida wins maiden ATP title after years he could not afford a coach",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "manchester-united-new-stadium-100000-seats-2-billion-pounds",
-        "title": "Manchester United plot a £2 billion, 100,000-seat stadium to replace Old Trafford",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "lebron-james-76ers-challenges-ahead",
-        "title": "Not just a championship: the challenges awaiting LeBron James in Philadelphia",
-        "confidence": 0.9,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "can-light-weights-high-reps-build-muscle",
-        "title": "Can you build real muscle with light weights and lots of reps?",
-        "confidence": 0,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "not newsworthy — this is a generic fitness/training explainer with no competition, athlete, team or news event; does not fit the Israeli or international sports-news desk scope, so it is held rather than published."
-      },
-      {
-        "slug": "pedrao-groin-tear-rules-out-haifa-derby-opener",
-        "title": "More misfortune for Pedrão as groin tear rules him out of Haifa derby",
-        "confidence": 0.87,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Club has not given a firm return timeline for Pedrão's rehabilitation."
-      },
-      {
-        "slug": "lebron-james-signs-with-76ers-pay-cut",
-        "title": "LeBron James takes a 90 percent pay cut to chase a title with the 76ers",
-        "decision": "duplicate"
       }
     ]
   }

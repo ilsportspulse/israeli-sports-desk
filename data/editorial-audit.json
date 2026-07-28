@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T09:00:26.070Z",
+  "generatedAt": "2026-07-28T09:31:00.225Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,58 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 708,
-    "publishedBefore": 436,
-    "cleanPublished": 436,
+    "totalArticles": 711,
+    "publishedBefore": 439,
+    "cleanPublished": 439,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 436,
+    "publishedAfter": 439,
     "reviewAfter": 272
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-2026-07-28-shviro-badji-tiberias-haifa-toto-cup",
+      "slug": "shviro-badji-set-to-start-tiberias-toto-cup-haifa",
+      "title": "Shviro and Badji set to start for Tiberias in Toto Cup trip to Haifa",
+      "statusBefore": "published",
+      "words": 365,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-07-28-zidane-france-coach",
+      "slug": "zidane-officially-appointed-france-national-team-coach",
+      "title": "Zidane appointed France's new head coach, succeeding Deschamps",
+      "statusBefore": "published",
+      "words": 469,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260728-forest-bid-khalaili",
+      "slug": "nottingham-forest-20-million-bid-anan-khalaili",
+      "title": "Nottingham Forest bid around €20m for Israeli winger Anan Khalaili",
+      "statusBefore": "published",
+      "words": 331,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
     {
       "id": "live-20260728-israel-u18-handball-euro-opener",
       "slug": "israel-u18-handball-opens-european-championship-croatia",
@@ -122,6 +164,20 @@
       "paragraphs": 8,
       "facts": 6,
       "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260728-tiberias-barzel-warning-letter",
+      "slug": "ironi-tiberias-lawyer-accuses-ifa-spokesman-judge-executioner",
+      "title": "Ironi Tiberias lawyer accuses IFA spokesman of acting as 'judge and executioner'",
+      "statusBefore": "review",
+      "words": 523,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -6711,6 +6767,48 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-07-28-shviro-badji-tiberias-haifa-toto-cup",
+      "slug": "shviro-badji-set-to-start-tiberias-toto-cup-haifa",
+      "title": "Shviro and Badji set to start for Tiberias in Toto Cup trip to Haifa",
+      "statusBefore": "published",
+      "words": 365,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-07-28-zidane-france-coach",
+      "slug": "zidane-officially-appointed-france-national-team-coach",
+      "title": "Zidane appointed France's new head coach, succeeding Deschamps",
+      "statusBefore": "published",
+      "words": 469,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260728-forest-bid-khalaili",
+      "slug": "nottingham-forest-20-million-bid-anan-khalaili",
+      "title": "Nottingham Forest bid around €20m for Israeli winger Anan Khalaili",
+      "statusBefore": "published",
+      "words": 331,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
     {
       "id": "live-20260728-israel-u18-handball-euro-opener",
       "slug": "israel-u18-handball-opens-european-championship-croatia",

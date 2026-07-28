@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T09:00:26.385Z",
+  "generatedAt": "2026-07-28T09:31:00.551Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 436,
+    "publishedArticles": 439,
     "wordCount": {
       "minimum": 231,
       "maximum": 1070,
       "median": 453,
-      "average": 465.9
+      "average": 465.4
     },
     "paragraphDistribution": {
       "5": 2,
       "6": 13,
       "7": 70,
-      "8": 118,
-      "9": 110,
-      "10": 83,
+      "8": 119,
+      "9": 111,
+      "10": 84,
       "11": 24,
       "12": 6,
       "13": 4,
@@ -1101,6 +1101,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-28-shviro-badji-tiberias-haifa-toto-cup",
+      "slug": "shviro-badji-set-to-start-tiberias-toto-cup-haifa",
+      "title": "Shviro and Badji set to start for Tiberias in Toto Cup trip to Haifa",
+      "kind": "article",
+      "words": 366,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 74,
+        "average": 45.8
+      },
+      "sentenceWords": {
+        "shortest": 15,
+        "longest": 53,
+        "average": 33.3
+      },
+      "lexicalDiversity": 0.593,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-28-zidane-france-coach",
+      "slug": "zidane-officially-appointed-france-national-team-coach",
+      "title": "Zidane appointed France's new head coach, succeeding Deschamps",
+      "kind": "news",
+      "words": 469,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 41,
+        "longest": 56,
+        "average": 46.9
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 101,
+        "average": 36.1
+      },
+      "lexicalDiversity": 0.588,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260728-forest-bid-khalaili",
+      "slug": "nottingham-forest-20-million-bid-anan-khalaili",
+      "title": "Nottingham Forest bid around €20m for Israeli winger Anan Khalaili",
+      "kind": "news",
+      "words": 330,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 24,
+        "longest": 55,
+        "average": 36.7
+      },
+      "sentenceWords": {
+        "shortest": 13,
+        "longest": 43,
+        "average": 30
+      },
+      "lexicalDiversity": 0.63,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260728-israel-u18-handball-euro-opener",
       "slug": "israel-u18-handball-opens-european-championship-croatia",
