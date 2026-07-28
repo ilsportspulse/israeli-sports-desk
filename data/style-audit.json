@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T21:48:36.639Z",
+  "generatedAt": "2026-07-28T22:05:22.894Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,7 +11,7 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 468,
+    "publishedArticles": 470,
     "wordCount": {
       "minimum": 231,
       "maximum": 1070,
@@ -22,8 +22,8 @@
       "5": 2,
       "6": 13,
       "7": 78,
-      "8": 127,
-      "9": 120,
+      "8": 128,
+      "9": 121,
       "10": 87,
       "11": 24,
       "12": 7,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.271,
+    "dominantParagraphShare": 0.272,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 13,
     "analysisBelowTarget": 4,
@@ -1147,6 +1147,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-28-maccabi-haifa-toto-cup-chances",
+      "slug": "maccabi-haifa-toto-cup-chances-analysis",
+      "title": "Maccabi Haifa's Toto Cup hopes narrow to the slimmest of margins",
+      "kind": "article",
+      "words": 512,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 42,
+        "longest": 72,
+        "average": 56.9
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 51,
+        "average": 26.9
+      },
+      "lexicalDiversity": 0.539,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-28-bachar-recalculate-course",
+      "slug": "barak-bachar-maccabi-haifa-course-correction",
+      "title": "Barak Bachar needs to recalculate his course at Maccabi Haifa before it's too late",
+      "kind": "news",
+      "words": 441,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 42,
+        "longest": 69,
+        "average": 55.1
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 90,
+        "average": 33.9
+      },
+      "lexicalDiversity": 0.646,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-20260728-zagreb-thun-comeback",
       "slug": "dinamo-zagreb-comeback-thun-champions-league-qualifying",

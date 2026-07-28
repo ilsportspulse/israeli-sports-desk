@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T21:48:36.316Z",
+  "generatedAt": "2026-07-28T22:05:22.666Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,59 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 766,
-    "publishedBefore": 468,
-    "cleanPublished": 468,
+    "totalArticles": 769,
+    "publishedBefore": 470,
+    "cleanPublished": 470,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 468,
-    "reviewAfter": 298
+    "publishedAfter": 470,
+    "reviewAfter": 299
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-2026-07-28-maccabi-haifa-toto-cup-chances",
+      "slug": "maccabi-haifa-toto-cup-chances-analysis",
+      "title": "Maccabi Haifa's Toto Cup hopes narrow to the slimmest of margins",
+      "statusBefore": "published",
+      "words": 513,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260728-kiryat-shmona-thrash-haifa-toto-cup",
+      "slug": "kiryat-shmona-thrash-maccabi-haifa-toto-cup",
+      "title": "Ironi Kiryat Shmona stun Maccabi Haifa 3-0 in Toto Cup rout",
+      "statusBefore": "review",
+      "words": 333,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-28-bachar-recalculate-course",
+      "slug": "barak-bachar-maccabi-haifa-course-correction",
+      "title": "Barak Bachar needs to recalculate his course at Maccabi Haifa before it's too late",
+      "statusBefore": "published",
+      "words": 439,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260728-zagreb-thun-comeback",
       "slug": "dinamo-zagreb-comeback-thun-champions-league-qualifying",
@@ -53,6 +96,20 @@
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260728-rodri-back-surgery-fit-for-season",
+      "slug": "rodri-back-surgery-fit-for-season",
+      "title": "Rodri undergoes minor back surgery, City confirm he'll be fit for season opener",
+      "statusBefore": "published",
+      "words": 388,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
     },
@@ -570,20 +627,6 @@
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline",
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-20260728-khalaili-nottingham-forest-bid",
-      "slug": "khalaili-nottingham-forest-bid-rejected",
-      "title": "Nottingham Forest's €20m offer for Khalaili turned down by Union Saint-Gilloise",
-      "statusBefore": "published",
-      "words": 394,
-      "paragraphs": 9,
-      "facts": 6,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
     },
@@ -7314,6 +7357,35 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-2026-07-28-maccabi-haifa-toto-cup-chances",
+      "slug": "maccabi-haifa-toto-cup-chances-analysis",
+      "title": "Maccabi Haifa's Toto Cup hopes narrow to the slimmest of margins",
+      "statusBefore": "published",
+      "words": 513,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-28-bachar-recalculate-course",
+      "slug": "barak-bachar-maccabi-haifa-course-correction",
+      "title": "Barak Bachar needs to recalculate his course at Maccabi Haifa before it's too late",
+      "statusBefore": "published",
+      "words": 439,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-20260728-zagreb-thun-comeback",
       "slug": "dinamo-zagreb-comeback-thun-champions-league-qualifying",
       "title": "Dinamo Zagreb complete stunning comeback to eliminate Thun in Champions League qualifying",
@@ -7352,7 +7424,9 @@
       "facts": 6,
       "verificationSources": 3,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-20260728-shake-milton-hapoel-jerusalem",
@@ -7720,9 +7794,7 @@
       "facts": 6,
       "verificationSources": 3,
       "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
+      "warnings": []
     },
     {
       "id": "live-2026-07-28-shviro-badji-tiberias-haifa-toto-cup",
