@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T17:59:38.412Z",
+  "generatedAt": "2026-07-28T19:19:35.088Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,88 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 750,
-    "publishedBefore": 456,
-    "cleanPublished": 456,
+    "totalArticles": 757,
+    "publishedBefore": 461,
+    "cleanPublished": 461,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 456,
-    "reviewAfter": 294
+    "publishedAfter": 461,
+    "reviewAfter": 296
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-2026-07-28-tiberias-coach-search",
+      "slug": "ironi-tiberias-temporary-coach-search",
+      "title": "Ironi Tiberias search for stand-in coach as Drapić's name emerges",
+      "statusBefore": "review",
+      "words": 337,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-28-danieli-ramat-hasharon-mitchell-shomron",
+      "slug": "danieli-ramat-hasharon-mitchell-shomron-signings",
+      "title": "Danieli joins Ramat Hasharon on loan as Shomron sign American center Mitchell",
+      "statusBefore": "review",
+      "words": 299,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-07-28-mancini-italy-ranieri",
+      "slug": "mancini-returns-italy-coach-ranieri-technical-director",
+      "title": "Mancini returns to coach Italy, with Ranieri alongside him",
+      "statusBefore": "published",
+      "words": 492,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-28-ifab-embolo-red-card-ruling",
+      "slug": "ifab-embolo-red-card-argentina-ruling",
+      "title": "IFAB confirms Embolo should not have been sent off against Argentina",
+      "statusBefore": "published",
+      "words": 418,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-28-cucurella-tattoo-coach",
+      "slug": "cucurella-tattoos-coach-de-la-fuente-face",
+      "title": "Cucurella keeps his word, tattoos Spain coach de la Fuente's face",
+      "statusBefore": "published",
+      "words": 343,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-07-28-piumi-kiryat-malachi",
       "slug": "rotem-piumi-joins-maccabi-kiryat-malachi",
@@ -66,7 +138,8 @@
       "verificationSources": 4,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -7149,6 +7222,73 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-07-28-iyiola-adebayo-west-ham-pizza",
+      "slug": "iyiola-adebayo-west-ham-academy-pizza-delivery-story",
+      "title": "From West Ham captain to pizza courier: the story of Iyiola Adebayo",
+      "statusBefore": "published",
+      "words": 454,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-07-28-mancini-italy-ranieri",
+      "slug": "mancini-returns-italy-coach-ranieri-technical-director",
+      "title": "Mancini returns to coach Italy, with Ranieri alongside him",
+      "statusBefore": "published",
+      "words": 492,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-28-ifab-embolo-red-card-ruling",
+      "slug": "ifab-embolo-red-card-argentina-ruling",
+      "title": "IFAB confirms Embolo should not have been sent off against Argentina",
+      "statusBefore": "published",
+      "words": 418,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-28-cucurella-tattoo-coach",
+      "slug": "cucurella-tattoos-coach-de-la-fuente-face",
+      "title": "Cucurella keeps his word, tattoos Spain coach de la Fuente's face",
+      "statusBefore": "published",
+      "words": 343,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260728-moshkovitch-hapoel-galil-elyon",
+      "slug": "moshkovitch-returns-hapoel-upper-galilee",
+      "title": "Itay Moshkovitch returns to Hapoel Upper Galilee for a second stint",
+      "statusBefore": "published",
+      "words": 313,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-2026-07-28-beersheva-vikingur-grass-preview",
       "slug": "hapoel-beer-sheva-vikingur-second-leg-preview",

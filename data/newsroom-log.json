@@ -1,5 +1,83 @@
 [
   {
+    "ts": "2026-07-28T19:13:06.728Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 8,
+    "published": 5,
+    "review": 2,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "moshkovitch-returns-hapoel-upper-galilee",
+        "title": "Itay Moshkovitch returns to Hapoel Upper Galilee for a second stint",
+        "confidence": 0.78,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "rodri-back-surgery-fit-for-city-season-opener",
+        "title": "Rodri undergoes back surgery, expected fit for Manchester City's season opener",
+        "decision": "duplicate",
+        "reason": "same event as rodri-back-surgery-man-city-future-uncertain"
+      },
+      {
+        "slug": "cucurella-tattoos-coach-de-la-fuente-face",
+        "title": "Cucurella keeps his word, tattoos Spain coach de la Fuente's face",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "ifab-embolo-red-card-argentina-ruling",
+        "title": "IFAB confirms Embolo should not have been sent off against Argentina",
+        "confidence": 0.9,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "mancini-returns-italy-coach-ranieri-technical-director",
+        "title": "Mancini returns to coach Italy, with Ranieri alongside him",
+        "confidence": 0.92,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "iyiola-adebayo-west-ham-academy-pizza-delivery-story",
+        "title": "From West Ham captain to pizza courier: the story of Iyiola Adebayo",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "danieli-ramat-hasharon-mitchell-shomron-signings",
+        "title": "Danieli joins Ramat Hasharon on loan as Shomron sign American center Mitchell",
+        "confidence": 0.78,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "below gate thresholds"
+      },
+      {
+        "slug": "ironi-tiberias-temporary-coach-search",
+        "title": "Ironi Tiberias search for stand-in coach as Drapić's name emerges",
+        "confidence": 0.78,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Drapić is reported only as a candidate under consideration — no coaching appointment has been confirmed."
+      }
+    ]
+  },
+  {
     "ts": "2026-07-28T17:53:17.851Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -3391,77 +3469,6 @@
         "gate": "pass",
         "decision": "published",
         "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-07-25T22:03:24.117Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 8,
-    "published": 4,
-    "review": 1,
-    "skipped": 3,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "hapoel-tel-aviv-eugene-german-signing",
-        "title": "Hapoel Tel Aviv closing in on guard Eugene German after Motley's exit",
-        "confidence": 0.8,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Deal not yet finalized — both ONE and Sport5 describe advanced negotiations, not a signed contract, and any deal may be a short-term contract rather than for the full season."
-      },
-      {
-        "slug": "juzang-fenerbahce-advanced-talks",
-        "title": "Fenerbahçe closes in on Johnny Juzang as Maccabi Tel Aviv also circled the guard",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "barcelona-eye-kroupi-after-alvarez-stalls",
-        "title": "Barcelona turn to Bournemouth's Eli Junior Kroupi as Alvarez pursuit stalls, ONE reports",
-        "confidence": 0.78,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "zamir-disappointed-netanya-move-collapsed-hapoel-jerusalem",
-        "title": "Zamir admits disappointment as Netanya move collapsed, pledges commitment to Hapoel Jerusalem",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "ankalaev-tko-guskov-ufc-abu-dhabi",
-        "title": "Ankalaev overpowers Guskov with fifth-round TKO in Abu Dhabi return",
-        "confidence": 0.9,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "tiberias-sakhnin-toto-cup-hudeda-suspension-comeback",
-        "title": "Tiberias battle past Sakhnin in Toto Cup as assistant backs suspended Hudeda",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "bakhar-maccabi-haifa-new-players-better-team-derby-reaction",
-        "title": "Bakhar says new arrivals will make Maccabi Haifa stronger after derby defeat",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "hapoel-jerusalem-signs-david-roddy-mcgregor-fight-vegas",
-        "title": "Hapoel Jerusalem land David Roddy after a Las Vegas fight night helped seal the deal",
-        "decision": "duplicate"
       }
     ]
   }

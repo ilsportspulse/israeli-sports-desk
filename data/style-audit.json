@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T17:59:38.734Z",
+  "generatedAt": "2026-07-28T19:19:35.432Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,19 +11,19 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 456,
+    "publishedArticles": 461,
     "wordCount": {
       "minimum": 231,
       "maximum": 1070,
       "median": 452,
-      "average": 463.5
+      "average": 462.8
     },
     "paragraphDistribution": {
       "5": 2,
       "6": 13,
-      "7": 74,
-      "8": 123,
-      "9": 117,
+      "7": 75,
+      "8": 124,
+      "9": 120,
       "10": 87,
       "11": 24,
       "12": 6,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.27,
+    "dominantParagraphShare": 0.269,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 13,
     "analysisBelowTarget": 4,
@@ -1124,6 +1124,111 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-28-iyiola-adebayo-west-ham-pizza",
+      "slug": "iyiola-adebayo-west-ham-academy-pizza-delivery-story",
+      "title": "From West Ham captain to pizza courier: the story of Iyiola Adebayo",
+      "kind": "article",
+      "words": 454,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 41,
+        "longest": 66,
+        "average": 50.4
+      },
+      "sentenceWords": {
+        "shortest": 2,
+        "longest": 53,
+        "average": 28.4
+      },
+      "lexicalDiversity": 0.551,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-28-mancini-italy-ranieri",
+      "slug": "mancini-returns-italy-coach-ranieri-technical-director",
+      "title": "Mancini returns to coach Italy, with Ranieri alongside him",
+      "kind": "news",
+      "words": 490,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 42,
+        "longest": 72,
+        "average": 54.4
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 57,
+        "average": 25.8
+      },
+      "lexicalDiversity": 0.555,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-28-ifab-embolo-red-card-ruling",
+      "slug": "ifab-embolo-red-card-argentina-ruling",
+      "title": "IFAB confirms Embolo should not have been sent off against Argentina",
+      "kind": "news",
+      "words": 414,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 23,
+        "longest": 66,
+        "average": 46
+      },
+      "sentenceWords": {
+        "shortest": 13,
+        "longest": 61,
+        "average": 29.6
+      },
+      "lexicalDiversity": 0.546,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-28-cucurella-tattoo-coach",
+      "slug": "cucurella-tattoos-coach-de-la-fuente-face",
+      "title": "Cucurella keeps his word, tattoos Spain coach de la Fuente's face",
+      "kind": "article",
+      "words": 342,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 59,
+        "average": 42.8
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 41,
+        "average": 24.4
+      },
+      "lexicalDiversity": 0.626,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260728-moshkovitch-hapoel-galil-elyon",
+      "slug": "moshkovitch-returns-hapoel-upper-galilee",
+      "title": "Itay Moshkovitch returns to Hapoel Upper Galilee for a second stint",
+      "kind": "news",
+      "words": 316,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 29,
+        "longest": 69,
+        "average": 45.1
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 80,
+        "average": 45.1
+      },
+      "lexicalDiversity": 0.604,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-07-28-beersheva-vikingur-grass-preview",
       "slug": "hapoel-beer-sheva-vikingur-second-leg-preview",

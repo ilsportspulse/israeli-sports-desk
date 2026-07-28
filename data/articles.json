@@ -1,5 +1,704 @@
 [
   {
+    "id": "live-2026-07-28-tiberias-coach-search",
+    "slug": "ironi-tiberias-temporary-coach-search",
+    "title": "Ironi Tiberias search for stand-in coach as Drapić's name emerges",
+    "dek": "The Galilee club need a caretaker after head coach Eliran Chuda's suspension in a banned-infusions case, and out-of-work manager Slobodan Drapić has been floated as a candidate, ONE reports.",
+    "category": "Israeli Football",
+    "desk": "israel",
+    "kind": "news",
+    "storyForm": "brief",
+    "publishedAt": "2026-07-28T19:13:06.728Z",
+    "updatedAt": "2026-07-28T19:13:06.728Z",
+    "readMinutes": 3,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/529246.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/529246.html"
+      },
+      {
+        "label": "Haaretz — Tiberias coach and players suspended in infusions case",
+        "url": "https://www.haaretz.co.il/sport/israel-soccer/2026-07-05/ty-article/0000019f-3397-d746-adff-ffdfe0b70000"
+      },
+      {
+        "label": "Mako/N12 — Ironi Tiberias coach and five players suspended",
+        "url": "https://www.mako.co.il/news-sport/israel_soccer-2026_q3/Article-037491c39333f91026.htm"
+      },
+      {
+        "label": "Wikipedia — Slobodan Drapić",
+        "url": "https://he.wikipedia.org/wiki/%D7%A1%D7%9C%D7%95%D7%91%D7%95%D7%93%D7%90%D7%9F_%D7%93%D7%A8%D7%90%D7%A4%D7%99%D7%A5'"
+      }
+    ],
+    "body": [
+      "Ironi Tiberias are looking for a stand-in head coach, and the name doing the rounds is a familiar one in Israeli football: Slobodan Drapić, according to a report from ONE.",
+      "The Galilee club find themselves in an unusual bind. Head coach Eliran Chuda was provisionally suspended earlier this month by Israel's National Anti-Doping Agency, one of several figures at the club caught up in a case centred on intravenous infusions allegedly given to players before a match against Ashdod.",
+      "The complaint that triggered the case came from Ashdod, who alleged Tiberias players received more than 100cc of saline infusions before facing them. Tiberias have disputed any wrongdoing, arguing the substance was legal and administered within World Anti-Doping Agency limits, while prosecutors are reportedly seeking sanctions ranging from lengthy suspensions to a lifetime expulsion for some of those implicated.",
+      "That has left the club needing a coach in a hurry, and the succession plan is awkward. Assistant Moti Krispiel does not hold the Pro licence required to take permanent charge of a Ligat Ha'al team, so youth-team coach Morris Ozen has stepped in as a stopgap. ONE reports the club regards that arrangement as unsustainable beyond the very short term.",
+      "The preferred solution, according to the report, is to bring in an experienced coach on a temporary contract to bridge the gap until Chuda's case is resolved and, potentially, he is able to return.",
+      "Drapić fits that profile. The Serbian-born Israeli has been out of work since Maccabi Bnei Reineh dismissed him last year, the latest stop in a well-travelled career that has taken in two spells at Beitar Jerusalem, plus stints at Maccabi Netanya, Ironi Kiryat Shmona, Hapoel Tel Aviv and Maccabi Sakhnin.",
+      "Tiberias' coaching vacancy is just one of several problems facing the club this summer as they prepare for the new season, with the Toto Cup group stage already under way. No appointment had been made as of ONE's report, and for now Drapić remains a name in the frame rather than a confirmed candidate."
+    ],
+    "facts": [
+      "Ironi Tiberias are searching for a temporary head coach.",
+      "Head coach Eliran Chuda has been provisionally suspended by Israel's National Anti-Doping Agency over alleged banned intravenous infusions given to players before a match against Ashdod.",
+      "Assistant coach Moti Krispiel cannot take permanent charge because he lacks the Pro coaching licence required in Ligat Ha'al.",
+      "Youth-team coach Morris Ozen has been filling in as a stopgap, which the club views as unsustainable.",
+      "Serbian-born Israeli manager Slobodan Drapić, unemployed since his 2025 dismissal by Maccabi Bnei Reineh, has emerged as a candidate for the caretaker role, per ONE.",
+      "Ironi Tiberias play in Israel's top flight (Ligat Ha'al) and are currently in the Toto Cup group stage."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 42,
+    "homepageReason": "An unconfirmed coaching-search report at a Ligat Ha'al club — of domestic interest but no result, transfer or appointment has been confirmed.",
+    "dedupeKey": "ironi-tiberias-caretaker-coach-search-2026-07",
+    "aiDisclosure": "Drafted by AI from ONE's reporting; corroborated against Hebrew-language coverage of the club's anti-doping suspension case and background sourcing on Slobodan Drapić's coaching career.",
+    "nameChecks": [
+      {
+        "hebrew": "עירוני טבריה",
+        "english": "Ironi Tiberias",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Ironi_Tiberias_F.C.",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "סלובודן דראפיץ'",
+        "english": "Slobodan Drapić",
+        "verificationUrl": "https://he.wikipedia.org/wiki/%D7%A1%D7%9C%D7%95%D7%91%D7%95%D7%93%D7%90%D7%9F_%D7%93%D7%A8%D7%90%D7%A4%D7%99%D7%A5'",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "אלירן חודדה",
+        "english": "Eliran Chuda",
+        "verificationUrl": "https://www.mako.co.il/news-sport/israel_soccer-2026_q3/Article-037491c39333f91026.htm",
+        "confidence": 0.6
+      },
+      {
+        "hebrew": "מוטי קריספיל",
+        "english": "Moti Krispiel",
+        "verificationUrl": "https://www.one.co.il/Article/529246.html",
+        "confidence": 0.55
+      },
+      {
+        "hebrew": "מוריס אוזן",
+        "english": "Morris Ozen",
+        "verificationUrl": "https://www.one.co.il/Article/529246.html",
+        "confidence": 0.55
+      },
+      {
+        "hebrew": "מכבי בני ריינה",
+        "english": "Maccabi Bnei Reineh",
+        "verificationUrl": "https://he.wikipedia.org/wiki/%D7%A1%D7%9C%D7%95%D7%91%D7%95%D7%93%D7%90%D7%9F_%D7%93%D7%A8%D7%90%D7%A4%D7%99%D7%A5'",
+        "confidence": 0.85
+      }
+    ],
+    "confidence": 0.78,
+    "warning": "Drapić is reported only as a candidate under consideration — no coaching appointment has been confirmed.",
+    "commonsQuery": "Slobodan Drapić Ironi Tiberias football",
+    "commonsCandidates": [
+      {
+        "title": "File:Slobodan Drapić.JPG",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Slobodan_Drapi%C4%87.JPG",
+        "credit": "Botend, Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:Tiberias Municipal Football Stadium10.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Tiberias_Municipal_Football_Stadium10.jpg",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 3.0"
+      }
+    ],
+    "status": "review"
+  },
+  {
+    "id": "live-2026-07-28-danieli-ramat-hasharon-mitchell-shomron",
+    "slug": "danieli-ramat-hasharon-mitchell-shomron-signings",
+    "title": "Danieli joins Ramat Hasharon on loan as Shomron sign American center Mitchell",
+    "dek": "Alon Danieli moves to Ramat Hasharon on loan from Nes Ziona, while Elitzur Shomron bolster their frontcourt with NCAA forward-center McKay Mitchell, ONE reports.",
+    "category": "Israeli Basketball",
+    "desk": "israel",
+    "kind": "article",
+    "storyForm": "news",
+    "publishedAt": "2026-07-28T19:13:06.728Z",
+    "updatedAt": "2026-07-28T19:13:06.728Z",
+    "readMinutes": 2,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/529247.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/529247.html"
+      },
+      {
+        "label": "IBBA player profile — Alon Danieli",
+        "url": "https://ibasketball.co.il/player/3869c6845ad40cf7-90582771/"
+      },
+      {
+        "label": "Sports Rabbi — Danieli's three-year Nes Ziona deal",
+        "url": "https://sportsrabbi.com/%D7%90%D7%97%D7%93-%D7%9E%D7%94%D7%A6%D7%A2%D7%99%D7%A8%D7%99%D7%9D-%D7%94%D7%9E%D7%95%D7%9B%D7%A9%D7%A8%D7%99%D7%9D-%D7%A9%D7%99%D7%A9-%D7%9C%D7%9B%D7%93%D7%95%D7%A8%D7%A1%D7%9C-%D7%94%D7%99%D7%A9/"
+      },
+      {
+        "label": "Wikipedia — Elitzur Shomron",
+        "url": "https://en.wikipedia.org/wiki/Elitzur_Shomron"
+      }
+    ],
+    "body": [
+      "A.S. Ramat HaSharon has added young guard-forward Alon Danieli on loan for the coming National League season, one of a string of squad-building moves confirmed by ONE on Tuesday as Israel's second tier begins to take shape ahead of pre-season.",
+      "Danieli's parent club is Ironi Nes Ziona, where the 19-year-old signed a three-year contract as a graduate of the club's youth system. He spent last season out on loan at Ashdod and now switches to Ramat HaSharon for the 2026-27 campaign, again away from his home club.",
+      "The forward has already worn the national colours at multiple age groups. He played for Israel's U-19 side at last year's World Championship, and started every match for Israel's reserve squad at this summer's European Championship, underlining the growing reputation that made him a three-year signing at Nes Ziona in the first place.",
+      "Elsewhere in the same round of transfer news, Elitzur Shomron have brought in an American frontcourt player, forward-center McKay Mitchell, according to ONE.",
+      "Mitchell, who is from Washington D.C. and stands 206cm, arrives with a well-travelled NCAA Division I résumé, having played for Maryland, Rhode Island and Arkansas. He reached the Sweet 16 with the Razorbacks in 2023 and averaged 7.7 points and 5.4 rebounds per game across his college career, before most recently playing professionally in Mexico.",
+      "The Brukhin-based club, runners-up in the 2023 Israeli Basketball National League Cup, are looking to add size and rebounding to their frontline for the new season.",
+      "ONE's report also touched on other National League movement, including guard Austin Tilman and center Omer Sade closing in on moves to Elitzur Ashkelon, and forward Oz Levy signing with Elitzur Netanya after averaging 10.7 points and 3.6 rebounds for Ashkelon last season — part of a broader reshuffle across the division's rosters this summer."
+    ],
+    "facts": [
+      "Alon Danieli has joined A.S. Ramat HaSharon on loan for the 2026-27 National League season.",
+      "Danieli's parent club is Ironi Nes Ziona, where he signed a three-year contract as a youth product.",
+      "He was on loan at Ashdod last season before this new loan move to Ramat HaSharon.",
+      "Danieli played for Israel's U-19 team at last year's World Championship and started every match for Israel's reserve side at this summer's European Championship.",
+      "Elitzur Shomron have signed American forward-center McKay Mitchell.",
+      "Mitchell is 206cm and played NCAA Division I basketball at Maryland, Rhode Island and Arkansas, reaching the Sweet 16 with Arkansas in 2023.",
+      "Mitchell most recently played professionally in Mexico before joining Shomron."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 56,
+    "homepageReason": "Routine Israeli National League basketball transfer news — pre-season squad-building moves at two clubs, not a headline result.",
+    "dedupeKey": "libb-2026-27-preseason-danieli-ramathasharon-mitchell-shomron",
+    "aiDisclosure": "This article was compiled by an AI copy desk from verified source reporting, with facts cross-checked against independent sources where available.",
+    "nameChecks": [
+      {
+        "hebrew": "אלון דניאלי",
+        "english": "Alon Danieli",
+        "verificationUrl": "https://ibasketball.co.il/player/3869c6845ad40cf7-90582771/",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "רמת השרון",
+        "english": "A.S. Ramat HaSharon",
+        "verificationUrl": "https://en.wikipedia.org/wiki/A.S._Ramat_HaSharon",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "השומרון / אליצור השומרון",
+        "english": "Elitzur Shomron",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Elitzur_Shomron",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "מקיי מיטשל",
+        "english": "McKay Mitchell",
+        "verificationUrl": "https://www.one.co.il/Article/529247.html",
+        "confidence": 0.65
+      },
+      {
+        "hebrew": "נס ציונה",
+        "english": "Ironi Nes Ziona",
+        "verificationUrl": "https://ibasketball.co.il/team/2534-%D7%94%D7%A4%D7%95%D7%A2%D7%9C-%D7%A0%D7%A1-%D7%A6%D7%99%D7%95%D7%A0%D7%94/",
+        "confidence": 0.85
+      }
+    ],
+    "confidence": 0.78,
+    "warning": "",
+    "commonsQuery": "A.S. Ramat HaSharon basketball",
+    "commonsCandidates": [
+      {
+        "title": "File:רמת השרון במשחק נגד הפועל חיפה 2016.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:%D7%A8%D7%9E%D7%AA_%D7%94%D7%A9%D7%A8%D7%95%D7%9F_%D7%91%D7%9E%D7%A9%D7%97%D7%A7_%D7%A0%D7%92%D7%93_%D7%94%D7%A4%D7%95%D7%A2%D7%9C_%D7%97%D7%99%D7%A4%D7%94_2016.jpg",
+        "credit": "Elad221 / Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:עודד שעשוע במדי רמהש.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:%D7%A2%D7%95%D7%93%D7%93_%D7%A9%D7%A2%D7%A9%D7%95%D7%A2_%D7%91%D7%9E%D7%93%D7%99_%D7%A8%D7%9E%D7%94%D7%A9.jpg",
+        "credit": "Elad221 / Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "status": "review"
+  },
+  {
+    "id": "live-2026-07-28-iyiola-adebayo-west-ham-pizza",
+    "slug": "iyiola-adebayo-west-ham-academy-pizza-delivery-story",
+    "title": "From West Ham captain to pizza courier: the story of Iyiola Adebayo",
+    "dek": "Released by West Ham at 16 after a serious shoulder injury, a once-promising academy captain ended up delivering pizzas for Domino's before finding a new path through a players' welfare programme.",
+    "category": "World Football",
+    "desk": "international",
+    "kind": "article",
+    "storyForm": "feature",
+    "publishedAt": "2026-07-28T19:13:06.728Z",
+    "updatedAt": "2026-07-28T19:13:06.728Z",
+    "readMinutes": 4,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/529249.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/529249.html"
+      },
+      {
+        "label": "AOL (Premier League Futures programme)",
+        "url": "https://www.aol.co.uk/articles/premier-league-futures-programme-helping-070031000.html"
+      }
+    ],
+    "body": [
+      "Six months. That is how long it took Iyiola Adebayo to go from captaining West Ham United's youth side to delivering pizzas for Domino's just to make ends meet, a fall from a promising academy career that ONE has revisited as part of a wider look at how football deals with the players it discards.",
+      "Adebayo joined West Ham's academy at the age of eight, entering the same production line that had already turned out Rio Ferdinand, Joe Cole and Declan Rice. He was talented enough to be handed a development scholarship ahead of the rest of his age group, a marker the club reserves for its most promising prospects.",
+      "The trajectory changed in his very first year on scholarship terms, when a dislocated shoulder derailed his progress. He still managed appearances for West Ham's under-21 and under-23 sides and wore the captain's armband for the youth team, but at 16, and while still not fully recovered from his injury, he was released.",
+      "What followed was a familiar but brutal cycle for released academy players: trials at other clubs while operating, by his own estimate, at only \"probably 50-60% of what I was capable of\" because of the lingering injury. Nothing came of them.",
+      "\"Sometimes I didn't want to be there, I wanted to go home. It was very difficult,\" Adebayo has said of that period, describing how deeply his sense of self had been tied up in being a West Ham player. To get by, he took a part-time job delivering pizzas for Domino's.",
+      "The turning point came through the Premier League Futures programme, launched in 2017 to support players released between the ages of 18 and 24, as well as academy prospects under 16 who are let go without a professional contract. Adebayo was initially reluctant to take part, but a former head of education at West Ham pointed him toward it, and he eventually engaged with the scheme.",
+      "Now 23, Adebayo is completing a sponsored degree in football business and marketing at the University Campus of Football Business. He has also begun delivering mental health and lifestyle workshops to current academy players through Sporting Chance, the welfare charity founded by former Arsenal captain Tony Adams.",
+      "His plan is to move into player care within a club before transitioning to the business or commercial side of the sport, a route that keeps him inside the game he grew up in without needing a professional contract to justify it.",
+      "It is a story ONE frames as a reminder of English football's brutal release rate at academy level, and of the small but growing infrastructure, in programmes like Premier League Futures and charities like Sporting Chance, built to catch the players who fall through."
+    ],
+    "facts": [
+      "Iyiola Adebayo joined West Ham United's academy at age eight, the same pathway that produced Rio Ferdinand, Joe Cole and Declan Rice.",
+      "He was awarded an early development scholarship ahead of his peers.",
+      "A dislocated shoulder in his first year on scholarship terms disrupted his progress.",
+      "He captained West Ham's youth team before being released at 16, while still not fully recovered from injury.",
+      "After his release he worked part-time delivering pizzas for Domino's.",
+      "He joined the Premier League Futures programme, launched in 2017 for released academy players.",
+      "He is now studying football business and marketing and runs mental health workshops for academy players through the Sporting Chance charity."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 32,
+    "homepageReason": "Human-interest feature on a former West Ham academy player and football's release culture; no Israeli angle and no live sporting result, so it sits in the lifestyle/feature tier.",
+    "dedupeKey": "iyiola-adebayo-west-ham-academy-release-feature-2026",
+    "aiDisclosure": "Drafted by an AI copy desk assistant from the cited source reporting.",
+    "nameChecks": [
+      {
+        "hebrew": "אייולה אדבאיו",
+        "english": "Iyiola Adebayo",
+        "verificationUrl": "https://www.skysports.com/football/player/172128/iyiola-adebayo",
+        "confidence": 0.85
+      }
+    ],
+    "confidence": 0.85,
+    "warning": "",
+    "commonsQuery": "West Ham London Stadium",
+    "commonsCandidates": [
+      {
+        "title": "File:West Ham London Stadium Panorama.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:West_Ham_London_Stadium_Panorama.jpg",
+        "credit": "Louis (Flickr user 112702625@N04)",
+        "license": "CC BY 2.0"
+      },
+      {
+        "title": "File:London Olympic Stadium West Ham.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:London_Olympic_Stadium_West_Ham.jpg",
+        "credit": "Arne Müseler (www.arne-mueseler.com)",
+        "license": "CC BY-SA 3.0 DE"
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "live-2026-07-28-mancini-italy-ranieri",
+    "slug": "mancini-returns-italy-coach-ranieri-technical-director",
+    "title": "Mancini returns to coach Italy, with Ranieri alongside him",
+    "dek": "The Euro 2020-winning coach is back for a second spell in charge of the Azzurri, with Claudio Ranieri installed as technical director after a chaotic search that saw Paolo Maldini quit within weeks.",
+    "category": "World Football",
+    "desk": "international",
+    "kind": "news",
+    "storyForm": "news",
+    "publishedAt": "2026-07-28T19:13:06.728Z",
+    "updatedAt": "2026-07-28T19:13:06.728Z",
+    "readMinutes": 4,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/529250.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/529250.html"
+      },
+      {
+        "label": "ESPN",
+        "url": "https://www.espn.com/soccer/story/_/id/49469345/roberto-mancini-tapped-manage-italy-federation-chief"
+      },
+      {
+        "label": "ANSA",
+        "url": "https://www.ansa.it/sito/notizie/sport/calcio/2026/07/28/roberto-mancini-e-il-nuovo-ct-claudio-ranieri-direttore-tecnico.-lannuncio-di-malago_7fa1c4cf-409f-46d0-9902-f391fdd8548e.html"
+      },
+      {
+        "label": "CNN",
+        "url": "https://www.cnn.com/2026/07/28/sport/roberto-mancini-italy-manager-world-cup"
+      }
+    ],
+    "body": [
+      "Roberto Mancini is coming back to finish a job he never wanted to leave unfinished. Italy's football federation confirmed on Tuesday that the 61-year-old will return for a second spell as national team coach, with Claudio Ranieri installed alongside him as technical director, ONE reports.",
+      "FIGC president Giovanni Malagò announced the appointments at a press conference, ending weeks of turmoil over who would try to drag the Azzurri back to a World Cup they have now missed three tournaments running. \"I believed it was right for Roberto Mancini to become head coach of the Italy national team, for a number of reasons. I take full responsibility for this decision,\" Malagò said, according to reports from the announcement.",
+      "Mancini needs no introduction to Italian fans. He led the national team to European Championship glory at Euro 2020, one of the great redemption stories in Italian football after the Azzurri had failed to even qualify for the 2018 World Cup. He walked away from the job in August 2023 to take over Saudi Arabia's national team, a lucrative move that ended in mutual separation last year.",
+      "He returns to a federation in disarray. Gabriele Gravina resigned as FIGC president in April after Italy's World Cup qualifying campaign collapsed with a defeat to Bosnia and Herzegovina — the third straight cycle in which the four-time champions have failed to reach the tournament. Malagò was elected his successor in June.",
+      "The search for a new coach then descended into chaos of its own. Paolo Maldini and Leonardo were brought in to oversee the process but lasted barely 16 days before resigning, after pushing hard for Andrea Pirlo to get the job. Malagò blocked Pirlo's candidacy over an undisclosed commercial tie to a Russian betting company that neither he nor the federation's technical leadership had been aware of, ONE reports.",
+      "Before turning to Mancini, Italian football's leadership had also made a run at Pep Guardiola. Maldini and Leonardo reportedly flew to Barcelona with a full project proposal for the Manchester City manager, only for Guardiola to turn it down for personal reasons.",
+      "That left Mancini, a coach with an actual trophy on his Italy CV, as the obvious fallback — and Ranieri, 74, as the calming presence the federation wanted next to him. Ranieri will serve as technical director and president of Club Italia, effectively taking on the administrative and organisational side of the operation while Mancini focuses on the pitch.",
+      "Both men have reportedly already signalled they are willing to work within the federation's financial constraints as they take on the job, a notable gesture given the fallout from the Maldini-Leonardo episode and the wider mess Italian football finds itself trying to clean up.",
+      "Mancini and Ranieri were due to be presented together at a press conference, with the immediate task in front of them unenviable: rebuilding a national team that has now spent a decade on the outside of world football's biggest stage looking in."
+    ],
+    "facts": [
+      "Roberto Mancini has been reappointed as Italy's national team coach for a second spell.",
+      "Claudio Ranieri, 74, has been named FIGC technical director and president of Club Italia.",
+      "FIGC president Giovanni Malagò announced the appointments at a press conference on Tuesday, July 28, 2026.",
+      "Mancini previously coached Italy to victory at Euro 2020 before leaving in August 2023 to take charge of Saudi Arabia.",
+      "Gabriele Gravina resigned as FIGC president in April 2026 after Italy failed to qualify for the World Cup, losing to Bosnia and Herzegovina.",
+      "Paolo Maldini and Leonardo resigned after 16 days in charge of the federation's technical leadership, after their push for Andrea Pirlo as coach was blocked over his ties to a Russian betting company.",
+      "Italian football leadership had previously tried to hire Pep Guardiola, who declined for personal reasons.",
+      "Italy have missed the last three World Cups."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 80,
+    "homepageReason": "Major managerial news for a World Cup-winning football nation, capping weeks of federation chaos — significant world football story even without an Israeli angle.",
+    "dedupeKey": "italy-mancini-ranieri-appointment-2026-07-28",
+    "aiDisclosure": "Drafted by an AI copy desk assistant from the cited source reporting, verified against independent outlets before publication.",
+    "nameChecks": [
+      {
+        "hebrew": "מנצ'יני",
+        "english": "Roberto Mancini",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Roberto_Mancini",
+        "confidence": 0.98
+      },
+      {
+        "hebrew": "ראניירי",
+        "english": "Claudio Ranieri",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Claudio_Ranieri",
+        "confidence": 0.98
+      },
+      {
+        "hebrew": "מלאגו",
+        "english": "Giovanni Malagò",
+        "verificationUrl": "https://www.ansa.it/sito/notizie/sport/calcio/2026/07/28/roberto-mancini-e-il-nuovo-ct-claudio-ranieri-direttore-tecnico.-lannuncio-di-malago_7fa1c4cf-409f-46d0-9902-f391fdd8548e.html",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "מלדיני",
+        "english": "Paolo Maldini",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Paolo_Maldini",
+        "confidence": 0.95
+      }
+    ],
+    "confidence": 0.92,
+    "warning": "",
+    "commonsQuery": "Roberto Mancini Italy national team coach",
+    "commonsCandidates": [
+      {
+        "title": "File:Roberto mancini in 2021.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Roberto_mancini_in_2021.jpg",
+        "credit": "Biser Todorov via Wikimedia Commons",
+        "license": "CC BY 4.0"
+      },
+      {
+        "title": "File:Claudio Ranieri Inter (cropped).jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Claudio_Ranieri_Inter_(cropped).jpg",
+        "credit": "Vladimir Mayorov / soccer.ru via Wikimedia Commons",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "title": "File:Roberto Mancini 2021.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Roberto_Mancini_2021.jpg",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY 4.0"
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "live-2026-07-28-ifab-embolo-red-card-ruling",
+    "slug": "ifab-embolo-red-card-argentina-ruling",
+    "title": "IFAB confirms Embolo should not have been sent off against Argentina",
+    "dek": "Football's law-making body says the VAR review that turned a yellow card for Argentina's Leandro Paredes into a match-changing red for Switzerland's Breel Embolo misapplied the mistaken-identity protocol.",
+    "category": "World Football",
+    "desk": "international",
+    "kind": "news",
+    "storyForm": "article",
+    "publishedAt": "2026-07-28T19:13:06.728Z",
+    "updatedAt": "2026-07-28T19:13:06.728Z",
+    "readMinutes": 3,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/529252.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/529252.html"
+      },
+      {
+        "label": "ESPN",
+        "url": "https://www.espn.com/soccer/story/_/id/49468627/ifab-var-process-red-card-switzerland-embolo-vs-argentina-wrong"
+      },
+      {
+        "label": "CNN",
+        "url": "https://www.cnn.com/2026/07/28/sport/breel-embolo-red-card-decision-world-cup-ifab"
+      },
+      {
+        "label": "Al Jazeera",
+        "url": "https://www.aljazeera.com/sports/2026/7/12/what-was-the-mistaken-identity-red-card-shown-in-argentina-vs-switzerland"
+      },
+      {
+        "label": "Ynet",
+        "url": "https://www.ynet.co.il/sport/worldsoccer/article/h1sf27isml"
+      }
+    ],
+    "body": [
+      "IFAB, football's law-making panel, has confirmed what Switzerland suspected all along: Breel Embolo should never have been sent off against Argentina in the World Cup quarter-final that ended their tournament.",
+      "The clarification, published Monday, addresses one of the most contentious refereeing moments of the entire 2026 World Cup — a VAR intervention that swapped a yellow card from one player to another and, in doing so, changed the identity of the offence itself.",
+      "The incident happened in the 72nd minute of the July 11 quarter-final in extra time territory of the tournament's knockout stage, moments after Switzerland had drawn level at 1-1. Embolo went down under a challenge from Argentina's Leandro Paredes, and the referee initially cautioned Paredes for the foul.",
+      "VAR officials then called the referee to the pitchside monitor, but not to confirm the caution — instead they flagged what they described as a case of mistaken identity. On review, the officials decided Paredes had committed no foul at all, and that Embolo had in fact dived. The yellow card was switched to Embolo for simulation, his second of the match, and he was sent off.",
+      "Argentina went on to win 3-1 after extra time, eliminating Switzerland from the World Cup with a man advantage for the closing stages.",
+      "IFAB's clarification, aimed at referees rather than at overturning the result, states plainly that the mistaken-identity review protocol was used incorrectly. \"A yellow card, which is not a second yellow card, can only be reviewed to identify the player who committed a predetermined offence — the offence itself cannot be examined or changed,\" the board said, according to reporting on the ruling.",
+      "In practice, that means VAR was entitled only to correct who was cautioned for the original foul call, not to reclassify the incident as simulation and pin an entirely different offence on a different player. By doing both, the review overstepped what the mistaken-identity mechanism was designed for.",
+      "IFAB did note that widening the protocol to specifically cover diving and simulation cases has been discussed positively, but stressed any such change would require the board's formal rulebook review and approval process before it could be introduced — it cannot be applied retroactively or on the fly.",
+      "The finding will offer little practical comfort to Switzerland, whose World Cup run ended that night in Argentina's favor regardless of the ruling. But it adds Embolo's case to the small list of VAR decisions a governing body has since acknowledged, in its own words, got the law wrong."
+    ],
+    "facts": [
+      "Breel Embolo was sent off in the 72nd minute of Switzerland's World Cup quarter-final against Argentina on July 11, 2026, after VAR overturned a yellow card originally shown to Argentina's Leandro Paredes.",
+      "Argentina won the match 3-1 after extra time, eliminating Switzerland from the tournament.",
+      "IFAB published a clarification on Monday, July 27, 2026, stating the second yellow card shown to Embolo for simulation should not have been given.",
+      "IFAB said the VAR mistaken-identity protocol can only be used to identify the correct player who committed a specific offence, not to reclassify the nature of the offence itself.",
+      "IFAB noted a proposal to extend the mistaken-identity protocol to cover diving and simulation cases was received positively but requires its formal rulebook review process before any change can take effect.",
+      "The ruling does not alter the match result; Argentina's progression in the World Cup stands."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 78,
+    "homepageReason": "Major World Cup controversy resolved by football's rule-making body, involving a high-profile quarter-final elimination.",
+    "dedupeKey": "wc2026-qf-argentina-switzerland-embolo-ifab-ruling",
+    "aiDisclosure": "This article was drafted by an AI copy desk from verified reporting and cross-checked against multiple independent outlets.",
+    "nameChecks": [
+      {
+        "hebrew": "בריל אמבולו",
+        "english": "Breel Embolo",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Breel_Embolo",
+        "confidence": 0.92
+      },
+      {
+        "hebrew": "לאנדרו פארדס",
+        "english": "Leandro Paredes",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Leandro_Paredes",
+        "confidence": 0.9
+      }
+    ],
+    "confidence": 0.9,
+    "warning": "",
+    "commonsQuery": "Breel Embolo Switzerland footballer",
+    "commonsCandidates": [
+      {
+        "title": "File:Breel Embolo 2018.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Breel_Embolo_2018.jpg",
+        "credit": "Elena Rybakova / soccer.ru via Wikimedia Commons",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "title": "File:Wales-Switzerland match at Euro 2020 in Baku 5.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Wales-Switzerland_match_at_Euro_2020_in_Baku_5.jpg",
+        "credit": "Vugar Amrullayev / Presidential Press and Information Office of Azerbaijan via Wikimedia Commons",
+        "license": "CC BY 4.0"
+      },
+      {
+        "title": "File:Leandro Paredes (PSG).jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Leandro_Paredes_(PSG).jpg",
+        "credit": "Liondartois via Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "live-2026-07-28-cucurella-tattoo-coach",
+    "slug": "cucurella-tattoos-coach-de-la-fuente-face",
+    "title": "Cucurella keeps his word, tattoos Spain coach de la Fuente's face",
+    "dek": "The Real Madrid left-back vowed before the World Cup final that he would ink his national team coach onto his skin if Spain won it all — and he has, ONE reports.",
+    "category": "World Football",
+    "desk": "international",
+    "kind": "article",
+    "storyForm": "feature",
+    "publishedAt": "2026-07-28T19:13:06.728Z",
+    "updatedAt": "2026-07-28T19:13:06.728Z",
+    "readMinutes": 3,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/529253.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/529253.html"
+      },
+      {
+        "label": "Sport1-Maariv",
+        "url": "https://sport1.maariv.co.il/mundial-2026/article/1902519/"
+      },
+      {
+        "label": "Sport5",
+        "url": "https://www.sport5.co.il/articles.aspx?FolderID=5166&docID=552766"
+      },
+      {
+        "label": "Haaretz (World Cup final result)",
+        "url": "https://www.haaretz.co.il/sport/world-cup/2026-07-19/ty-article-game/0000019f-7b81-d723-af9f-fbf39da40000"
+      },
+      {
+        "label": "Walla Sport (Real Madrid transfer)",
+        "url": "https://sports.walla.co.il/item/3845877"
+      }
+    ],
+    "body": [
+      "Marc Cucurella does not make promises lightly. Before Spain's World Cup final against Argentina, the left-back told Fox Sports he would get \"a small tattoo\" of national team coach Luis de la Fuente's face if La Roja lifted the trophy. ONE reports that he has now followed through.",
+      "Cucurella revealed the finished piece on social media in the days after the final, honouring a pledge he made half-jokingly but clearly meant to keep. The portrait was done by Ganga, a tattoo artist whose past clients include LeBron James and Georgina Rodríguez.",
+      "At the time he made the promise, Cucurella was cagey about exactly where the tattoo would go, saying only that it needed to be visible enough that people would notice and ask about it. \"I still don't know where and when. I need to think about it well and see where to put it,\" he said before the final.",
+      "De la Fuente, for his part, reacted with amusement when told his players were promising to have his face permanently inked onto their bodies, joking that his squad are people who keep their word — a line that has aged well.",
+      "The gesture caps a remarkable summer for Spain. Fran Torres scored in the 106th minute as Spain beat Argentina 1-0 after extra time in New Jersey on July 19 to win their second World Cup, 16 years after their first in 2010.",
+      "The triumph also completed a rare double: Spain became the first nation to hold both the men's and women's World Cups at the same time, on the back of a 38-game unbeaten run.",
+      "Cucurella was one of the standout performers of Spain's campaign, and his next assignment is a fresh one. He completed a summer move from Chelsea to Real Madrid, in a deal reported at around €60 million (€55m plus add-ons), signing a contract through 2032.",
+      "He is expected to link up with Real Madrid's pre-season squad shortly, joining fellow new arrivals Ibrahima Konaté, Denzel Dumfries and Bernardo Silva as Los Blancos reshape their squad for the season ahead."
+    ],
+    "facts": [
+      "Marc Cucurella got a tattoo of Spain coach Luis de la Fuente's face, fulfilling a promise he made before the World Cup final, ONE reports.",
+      "Spain beat Argentina 1-0 after extra time in the World Cup final in New Jersey on July 19, 2026, with Fran Torres scoring the winner in the 106th minute.",
+      "It was Spain's second World Cup title, 16 years after their first in 2010, completed on a 38-game unbeaten run.",
+      "Cucurella told Fox Sports before the tournament he would get a small, visible tattoo of de la Fuente's face if Spain won it all.",
+      "The tattoo was done by artist Ganga, whose past clients include LeBron James and Georgina Rodríguez.",
+      "Cucurella completed a summer transfer from Chelsea to Real Madrid for a reported fee of around €60 million, signing until 2032."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 45,
+    "homepageReason": "Feel-good World Cup postscript from Spain's title-winning left-back — a human-interest follow-up, not a fresh Israeli or breaking result.",
+    "dedupeKey": "cucurella-tattoo-de-la-fuente-promise-2026",
+    "aiDisclosure": "Drafted by an AI copy desk from verified source reporting (ONE, Sport1-Maariv, Sport5, Haaretz, Walla Sport); reviewed before publication.",
+    "nameChecks": [
+      {
+        "hebrew": "מארק קוקורייה",
+        "english": "Marc Cucurella",
+        "verificationUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%90%D7%A8%D7%A7_%D7%A7%D7%95%D7%A7%D7%95%D7%A8%D7%99%D7%99%D7%94",
+        "confidence": 0.97
+      },
+      {
+        "hebrew": "לואיס דה לה פואנטה",
+        "english": "Luis de la Fuente",
+        "verificationUrl": "https://www.one.co.il/Article/529253.html",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "פראן טורס",
+        "english": "Fran Torres",
+        "verificationUrl": "https://www.haaretz.co.il/sport/world-cup/2026-07-19/ty-article-game/0000019f-7b81-d723-af9f-fbf39da40000",
+        "confidence": 0.9
+      }
+    ],
+    "confidence": 0.85,
+    "warning": "",
+    "commonsQuery": "Marc Cucurella Spain footballer",
+    "commonsCandidates": [
+      {
+        "title": "File:Marc Cucurella France v Spain 7.24.26-149 (cropped).jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Marc_Cucurella_France_v_Spain_7.24.26-149_(cropped).jpg",
+        "credit": "Bryan Berlin / WikiPortraits, via Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:Marc Cucurella 20042025 (1).jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Marc_Cucurella_20042025_(1).jpg",
+        "credit": "Via Wikimedia Commons",
+        "license": "CC0 1.0"
+      },
+      {
+        "title": "File:Marc Cucurella.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Marc_Cucurella.jpg",
+        "credit": "Via Wikimedia Commons",
+        "license": "CC BY-SA 3.0 / GFDL"
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "live-20260728-moshkovitch-hapoel-galil-elyon",
+    "slug": "moshkovitch-returns-hapoel-upper-galilee",
+    "title": "Itay Moshkovitch returns to Hapoel Upper Galilee for a second stint",
+    "dek": "The 26-year-old guard is back at the club he represented in 2022/23, filling the backcourt spot left by Yuval Sznajderman's move to Hapoel Eilat.",
+    "category": "Israeli Basketball",
+    "desk": "israel",
+    "kind": "news",
+    "storyForm": "brief",
+    "publishedAt": "2026-07-28T19:13:06.728Z",
+    "updatedAt": "2026-07-28T19:13:06.728Z",
+    "readMinutes": 3,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/529256.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE - source article",
+        "url": "https://www.one.co.il/Article/529256.html"
+      },
+      {
+        "label": "ONE - Sznajderman signs with Hapoel Upper Galilee, October 2025",
+        "url": "https://www.one.co.il/Article/504473.html"
+      },
+      {
+        "label": "Walla Sport - Moshkovitch signs with Ironi Nes Ziona, July 2025",
+        "url": "https://sports.walla.co.il/item/3766856"
+      },
+      {
+        "label": "Hebrew Wikipedia - Itay Moshkovitch",
+        "url": "https://he.wikipedia.org/wiki/איתי_מושקוביץ"
+      }
+    ],
+    "body": [
+      "Hapoel Upper Galilee have found their answer to a hole in the backcourt, confirming on Tuesday that guard Itay Moshkovitch has signed with the club for a second stint, ONE reports.",
+      "Moshkovitch, 26, previously wore the club's colours during the 2022/23 season. His return fills the gap left by Yuval Sznajderman, who has departed the Galilee for Hapoel Eilat.",
+      "\"His return represents far more than just another signing,\" the club said in a statement carried by ONE. \"It symbolises continuity, a genuine connection to our club's values and belief in the path we're building together. We are confident that his heart, fighting spirit and character will help us throughout the season.\"",
+      "The statement continued: \"Itay already knows the club, the fans and the unique spirit of the Galilee, and now he returns with more experience, greater confidence and the same commitment to give everything on the court in every game.\"",
+      "According to ONE, Moshkovitch arrives from Elitzur Netanya, where he averaged 7.5 points, 2.4 assists and 2.7 rebounds a game last season. Other Israeli outlets, including a July 2025 announcement from Ironi Nes Ziona, had listed that club as his most recent destination for the 2025/26 campaign — a discrepancy in his exact last stop that this outlet could not fully resolve from the available reporting.",
+      "Whichever club he is arriving from, Moshkovitch's career has been a well-travelled one for a player still only 26: spells with Elitzur Netanya, Hapoel Upper Galilee, Hapoel Haifa and Maccabi Ramat Gan have all featured since he broke through as a National League standout in his early twenties.",
+      "Hapoel Upper Galilee, based at the Heichal HaPais in Kiryat Shmona and drawing support from across the Galilee panhandle, are shaping their roster for the coming Israeli Premier League season with a mix of continuity and fresh faces — and in Moshkovitch's case, a bit of both at once."
+    ],
+    "facts": [
+      "Itay Moshkovitch, 26, has signed with Hapoel Upper Galilee for a second stint at the club, per ONE.",
+      "He previously played for Hapoel Upper Galilee during the 2022/23 season.",
+      "He replaces Yuval Sznajderman, who has left the club for Hapoel Eilat.",
+      "ONE reports his last-season numbers as 7.5 points, 2.4 assists and 2.7 rebounds per game, attributed to Elitzur Netanya.",
+      "Other reporting places Moshkovitch at Ironi Nes Ziona for the 2025/26 season, creating an unresolved discrepancy over his most recent club.",
+      "Hapoel Upper Galilee compete in Israel's top-flight basketball league and are based in the Galilee panhandle region."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 55,
+    "homepageReason": "Routine top-flight basketball roster move — a depth signing and quote-driven club announcement, not a marquee transfer or result.",
+    "dedupeKey": "hapoel-galil-elyon-moshkovitch-signing-2026",
+    "aiDisclosure": "Drafted by an AI copy desk from the cited source reporting, with facts cross-checked against independent outlets before publication.",
+    "nameChecks": [
+      {
+        "hebrew": "איתי מושקוביץ'",
+        "english": "Itay Moshkovitch",
+        "verificationUrl": "https://he.wikipedia.org/wiki/איתי_מושקוביץ",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "יובל שניידרמן",
+        "english": "Yuval Sznajderman",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Yuval_Sznajderman",
+        "confidence": 0.8
+      },
+      {
+        "hebrew": "הפועל גליל עליון",
+        "english": "Hapoel Upper Galilee (Hapoel Galil Elyon)",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Hapoel_Galil_Elyon",
+        "confidence": 0.9
+      }
+    ],
+    "confidence": 0.78,
+    "warning": "ONE attributes Moshkovitch's last-season stats to Elitzur Netanya, but a July 2025 Ironi Nes Ziona club announcement had him signed there for 2025/26 — a discrepancy over his most recent club that could not be fully resolved; noted transparently in the copy. No reusable, correctly-identified Wikimedia Commons photo of Moshkovitch or the club could be verified, so no image is attached.",
+    "commonsQuery": "Itay Moshkovitch basketball Hapoel Galil Elyon",
+    "commonsCandidates": [],
+    "status": "published"
+  },
+  {
     "id": "live-2026-07-28-piumi-kiryat-malachi",
     "slug": "rotem-piumi-joins-maccabi-kiryat-malachi",
     "title": "Rotem Piumi to begin senior career at Maccabi Kiryat Malachi",
