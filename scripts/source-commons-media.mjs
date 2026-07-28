@@ -1157,7 +1157,9 @@ for (const [index, article] of articles.entries()) {
     const result = toAsset(article, selected);
     // Curated venue/club fallbacks may intentionally repeat across a club's stories,
     // so mark them exempt from the uniqueness dedupe (a repeated stadium beats a blank).
-    if (isFallback) result.fallback = true;
+    // De vlag moet op het ASSET staan (dat is wat in article-media.json belandt);
+    // op `result` ging hij verloren en telden bankfoto's mee in de uniciteitstest.
+    if (isFallback) result.asset.fallback = true;
     if (!dryRun) {
       // Overwrite the file unless it is already the SAME image (same source URL).
       // We only reach here for stories being (re)sourced, so a file left at this
