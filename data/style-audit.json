@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T08:00:30.058Z",
+  "generatedAt": "2026-07-28T08:40:34.882Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 430,
+    "publishedArticles": 434,
     "wordCount": {
       "minimum": 231,
       "maximum": 1070,
-      "median": 454.5,
-      "average": 467
+      "median": 453,
+      "average": 466.1
     },
     "paragraphDistribution": {
       "5": 2,
       "6": 13,
       "7": 70,
-      "8": 114,
+      "8": 117,
       "9": 109,
-      "10": 82,
+      "10": 83,
       "11": 24,
       "12": 6,
       "13": 4,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.265,
+    "dominantParagraphShare": 0.27,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 13,
     "analysisBelowTarget": 4,
@@ -1078,6 +1078,90 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260728-barcelona-rodri-race",
+      "slug": "barcelona-enters-rodri-transfer-race",
+      "title": "Barcelona enter the race for Rodri as Real Madrid appear close to a deal",
+      "kind": "article",
+      "words": 383,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 71,
+        "average": 47.9
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 88,
+        "average": 38.3
+      },
+      "lexicalDiversity": 0.614,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-28-beitar-jerusalem-fans-larnaca",
+      "slug": "beitar-jerusalem-3000-fans-aek-larnaca-conference-league",
+      "title": "More than 3,000 fans to accompany Beitar Jerusalem for Larnaca return leg in Romania",
+      "kind": "article",
+      "words": 286,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 21,
+        "longest": 47,
+        "average": 35.8
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 47,
+        "average": 28.6
+      },
+      "lexicalDiversity": 0.671,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260728-israel-u18-eurobasket-stats",
+      "slug": "israel-u18-basketball-team-tops-stats-eurobasket-2026",
+      "title": "Israel's under-18 team rank among Europe's most efficient scorers at EuroBasket",
+      "kind": "article",
+      "words": 451,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 61,
+        "average": 45.1
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 51,
+        "average": 34.7
+      },
+      "lexicalDiversity": 0.543,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-28-avi-yechiel-hapoel-ramat-gan-owner",
+      "slug": "avi-yechiel-completes-hapoel-ramat-gan-takeover",
+      "title": "Avi Yechiel completes takeover of Hapoel Ramat Gan",
+      "kind": "news",
+      "words": 355,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 58,
+        "average": 44.4
+      },
+      "sentenceWords": {
+        "shortest": 16,
+        "longest": 85,
+        "average": 44.4
+      },
+      "lexicalDiversity": 0.603,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-20260728-halaili-tsunami-haifa-toto-cup",
       "slug": "halaili-keeps-place-wanderson-tsunami-maccabi-haifa",

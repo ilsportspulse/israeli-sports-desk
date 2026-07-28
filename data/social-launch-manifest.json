@@ -146,21 +146,21 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-28T08:00:29Z",
-    "validUntil": "2026-07-28T20:00:29Z",
+    "checkedAt": "2026-07-28T08:40:34Z",
+    "validUntil": "2026-07-28T20:40:34Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 203,
+        "maxAgeHours": 204,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260728-halaili-tsunami-haifa-toto-cup",
+        "articleId": "live-20260728-barcelona-rodri-race",
         "maxAgeHours": 48,
         "requires": []
       },
@@ -174,14 +174,14 @@
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260728-debrecen-eyes-salman",
+        "articleId": "live-2026-07-28-beitar-jerusalem-fans-larnaca",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 221,
+        "maxAgeHours": 222,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-07-28-japonica-arson-suspect-beitar-owner",
+        "articleId": "live-2026-07-28-avi-yechiel-hapoel-ramat-gan-owner",
         "maxAgeHours": 24,
         "requires": []
       }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T08:00:29.846Z",
+  "generatedAt": "2026-07-28T08:40:34.621Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,58 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 701,
-    "publishedBefore": 430,
-    "cleanPublished": 430,
+    "totalArticles": 705,
+    "publishedBefore": 434,
+    "cleanPublished": 434,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 430,
+    "publishedAfter": 434,
     "reviewAfter": 271
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-20260728-barcelona-rodri-race",
+      "slug": "barcelona-enters-rodri-transfer-race",
+      "title": "Barcelona enter the race for Rodri as Real Madrid appear close to a deal",
+      "statusBefore": "published",
+      "words": 383,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-28-beitar-jerusalem-fans-larnaca",
+      "slug": "beitar-jerusalem-3000-fans-aek-larnaca-conference-league",
+      "title": "More than 3,000 fans to accompany Beitar Jerusalem for Larnaca return leg in Romania",
+      "statusBefore": "published",
+      "words": 281,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-28-avi-yechiel-hapoel-ramat-gan-owner",
+      "slug": "avi-yechiel-completes-hapoel-ramat-gan-takeover",
+      "title": "Avi Yechiel completes takeover of Hapoel Ramat Gan",
+      "statusBefore": "published",
+      "words": 353,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
     {
       "id": "live-20260728-halaili-tsunami-haifa-toto-cup",
       "slug": "halaili-keeps-place-wanderson-tsunami-maccabi-haifa",
@@ -36,20 +78,6 @@
       "paragraphs": 8,
       "facts": 6,
       "verificationSources": 3,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-07-28-real-madrid-diomande-new-messi",
-      "slug": "real-madrid-diomande-new-messi-leganes-video",
-      "title": "The day Leganés' owner told his coach: \"We have the new Messi\"",
-      "statusBefore": "published",
-      "words": 600,
-      "paragraphs": 9,
-      "facts": 6,
-      "verificationSources": 5,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -6640,6 +6668,60 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-20260728-barcelona-rodri-race",
+      "slug": "barcelona-enters-rodri-transfer-race",
+      "title": "Barcelona enter the race for Rodri as Real Madrid appear close to a deal",
+      "statusBefore": "published",
+      "words": 383,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-28-beitar-jerusalem-fans-larnaca",
+      "slug": "beitar-jerusalem-3000-fans-aek-larnaca-conference-league",
+      "title": "More than 3,000 fans to accompany Beitar Jerusalem for Larnaca return leg in Romania",
+      "statusBefore": "published",
+      "words": 281,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260728-israel-u18-eurobasket-stats",
+      "slug": "israel-u18-basketball-team-tops-stats-eurobasket-2026",
+      "title": "Israel's under-18 team rank among Europe's most efficient scorers at EuroBasket",
+      "statusBefore": "published",
+      "words": 444,
+      "paragraphs": 10,
+      "facts": 8,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-07-28-avi-yechiel-hapoel-ramat-gan-owner",
+      "slug": "avi-yechiel-completes-hapoel-ramat-gan-takeover",
+      "title": "Avi Yechiel completes takeover of Hapoel Ramat Gan",
+      "statusBefore": "published",
+      "words": 353,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
       "id": "live-20260728-halaili-tsunami-haifa-toto-cup",
       "slug": "halaili-keeps-place-wanderson-tsunami-maccabi-haifa",
       "title": "Halaili keeps Maccabi Haifa's faith as Wanderson Tsunami joins the squad picture",
@@ -6699,9 +6781,7 @@
       "facts": 6,
       "verificationSources": 5,
       "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
+      "warnings": []
     },
     {
       "id": "live-20260728-pirlo-son-italy-coach-mancini-conte",
