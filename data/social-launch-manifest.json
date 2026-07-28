@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-28T19:19:34Z",
-    "validUntil": "2026-07-29T07:19:34Z",
+    "checkedAt": "2026-07-28T20:32:32Z",
+    "validUntil": "2026-07-29T08:32:32Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 214,
+        "maxAgeHours": 216,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-07-28-iyiola-adebayo-west-ham-pizza",
+        "articleId": "live-20260728-shake-milton-hapoel-jerusalem",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 222,
+        "maxAgeHours": 223,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-07-28-mancini-italy-ranieri",
+        "articleId": "live-2026-07-28-hapoel-haifa-torgeman-tiberias-toto-cup",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 232,
+        "maxAgeHours": 234,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-07-28-ifab-embolo-red-card-ruling",
+        "articleId": "live-2026-07-28-andrade-loan-search",
         "maxAgeHours": 24,
         "requires": []
       }

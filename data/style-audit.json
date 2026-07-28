@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T19:19:35.432Z",
+  "generatedAt": "2026-07-28T20:32:32.680Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,18 +11,18 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 461,
+    "publishedArticles": 465,
     "wordCount": {
       "minimum": 231,
       "maximum": 1070,
       "median": 452,
-      "average": 462.8
+      "average": 462.4
     },
     "paragraphDistribution": {
       "5": 2,
       "6": 13,
-      "7": 75,
-      "8": 124,
+      "7": 78,
+      "8": 125,
       "9": 120,
       "10": 87,
       "11": 24,
@@ -37,7 +37,7 @@
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 13,
     "analysisBelowTarget": 4,
-    "articlesWithStyleFlags": 47
+    "articlesWithStyleFlags": 48
   },
   "flagged": [
     {
@@ -62,6 +62,29 @@
       "flags": [
         "stock-phrase:statement-of-intent",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260728-shake-milton-hapoel-jerusalem",
+      "slug": "shake-milton-hapoel-jerusalem-contract",
+      "title": "Shake Milton agrees deal with Hapoel Jerusalem worth $1m a year",
+      "kind": "news",
+      "words": 466,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 46,
+        "longest": 98,
+        "average": 66.6
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 50,
+        "average": 29.1
+      },
+      "lexicalDiversity": 0.575,
+      "publisherAttributions": 1,
+      "flags": [
+        "stock-phrase:statement-of-intent"
       ]
     },
     {
@@ -1124,6 +1147,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260728-feingold-green-card",
+      "slug": "ilay-feingold-green-card-new-england-revolution",
+      "title": "Green card frees up international slot for Ilay Feingold at New England Revolution",
+      "kind": "news",
+      "words": 380,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 46,
+        "longest": 69,
+        "average": 54.3
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 48,
+        "average": 29.2
+      },
+      "lexicalDiversity": 0.579,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-28-hapoel-haifa-torgeman-tiberias-toto-cup",
+      "slug": "hapoel-haifa-torgeman-brace-sinks-tiberias-toto-cup",
+      "title": "Hapoel Haifa's Silvas tempers optimism after Torgeman brace sees off Tiberias",
+      "kind": "news",
+      "words": 363,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 41,
+        "longest": 65,
+        "average": 51.9
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 65,
+        "average": 36.3
+      },
+      "lexicalDiversity": 0.636,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-28-andrade-loan-search",
+      "slug": "maccabi-tel-aviv-andrade-loan-search",
+      "title": "A loan, not necessarily with an option: Maccabi Tel Aviv plot Kervin Andrade's next move",
+      "kind": "news",
+      "words": 436,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 40,
+        "longest": 79,
+        "average": 54.5
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 55,
+        "average": 29.1
+      },
+      "lexicalDiversity": 0.562,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-07-28-iyiola-adebayo-west-ham-pizza",
       "slug": "iyiola-adebayo-west-ham-academy-pizza-delivery-story",
