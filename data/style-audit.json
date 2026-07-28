@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T23:53:45.256Z",
+  "generatedAt": "2026-07-28T00:35:01.616Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,19 +11,19 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 426,
+    "publishedArticles": 429,
     "wordCount": {
       "minimum": 231,
       "maximum": 1070,
-      "median": 453.5,
-      "average": 467.3
+      "median": 453,
+      "average": 467
     },
     "paragraphDistribution": {
       "5": 2,
       "6": 14,
-      "7": 69,
-      "8": 112,
-      "9": 106,
+      "7": 70,
+      "8": 113,
+      "9": 107,
       "10": 83,
       "11": 24,
       "12": 6,
@@ -1055,6 +1055,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260728-chelsea-veteran-reboot",
+      "slug": "chelsea-veteran-signings-welbeck-henderson-xabi-alonso",
+      "title": "Chelsea's 180-degree turn: Xabi Alonso eyes Danny Welbeck and Jordan Henderson",
+      "kind": "news",
+      "words": 466,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 41,
+        "longest": 61,
+        "average": 51.8
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 77,
+        "average": 31.1
+      },
+      "lexicalDiversity": 0.582,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-28-gfn1-vaseline-prefight-ritual",
+      "slug": "why-fighters-smeared-vaseline-on-their-faces-gfn1",
+      "title": "Why fighters smeared Vaseline on their faces before GFN 1",
+      "kind": "news",
+      "words": 380,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 38,
+        "longest": 70,
+        "average": 54.3
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 49,
+        "average": 27.1
+      },
+      "lexicalDiversity": 0.595,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260728-kibedy-gordon-ufc-message",
+      "slug": "kibedy-gordon-sends-message-to-ufc-after-tel-aviv-ko",
+      "title": "Kibedy Gordon knocks out former UFC fighter, then calls out Dana White",
+      "kind": "article",
+      "words": 446,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 51,
+        "longest": 60,
+        "average": 55.8
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 86,
+        "average": 29.7
+      },
+      "lexicalDiversity": 0.614,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-07-27-beer-sheva-night-race-skazi",
       "slug": "beer-sheva-night-race-new-routes-skazi-party",
