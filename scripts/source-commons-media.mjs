@@ -907,6 +907,19 @@ const media = { ...previousMedia };
 // a distinct local file and source URL per published story), not just within this run.
 const usedUrls = new Set(Object.values(previousMedia).map((asset) => asset.creditUrl).filter(Boolean));
 const free = (page) => Boolean(page) && !used.has(page.pageid) && !usedUrls.has(page.imageinfo?.[0]?.descriptionurl);
+// A current-news story must never carry an archival-era photo (owner escalation
+// 28 Jul: a decades-old GPO derby shot landed on a 2026 title-odds story).
+// Files dated before 2005 — by EXIF, filename year or known archive source —
+// are only allowed on archive/retro content.
+const VINTAGE_MARKERS = /government press office|\bgpo\b|fortepan|bundesarchiv|nationaal archief/i;
+const vintageFor = (article, page) => {
+  if ((article.category ?? "") === "From the Archive" || /archive|retro/i.test(article.id ?? "")) return false;
+  const meta = page?.imageinfo?.[0]?.extmetadata ?? {};
+  const dated = `${meta.DateTimeOriginal?.value ?? ""}`.match(/\b(18|19|20)\d{2}\b/);
+  if (dated && Number(dated[0]) < 2005) return true;
+  const yearInTitle = (page?.title ?? "").match(/\b(19[0-9]{2}|200[0-4])\b/);
+  return VINTAGE_MARKERS.test(`${page?.title ?? ""} ${meta.ImageDescription?.value ?? ""}`) || Boolean(yearInTitle);
+};
 const selections = [];
 const failures = [];
 
@@ -1106,19 +1119,19 @@ for (const [index, article] of articles.entries()) {
         const candidatePages = await fetchFiles(candidateFiles);
         for (const title of candidateFiles) {
           const page = candidatePages.get(title);
-          if (page && free(page)) { selected = page; break; }
+          if (page && free(page) && !vintageFor(article, page)) { selected = page; break; }
         }
       }
       if (!selected && curated) {
         const page = preferredPages.get(preferredFiles[article.id]);
-        if (page && free(page)) selected = page;
+        if (page && free(page) && !vintageFor(article, page)) selected = page;
       }
     } catch {
       selected = undefined;
     }
     let isFallback = false;
     if (!selected) {
-      const isUsed = (page) => used.has(page.pageid) || usedUrls.has(page.imageinfo?.[0]?.descriptionurl);
+      const isUsed = (page) => used.has(page.pageid) || usedUrls.has(page.imageinfo?.[0]?.descriptionurl) || vintageFor(article, page);
       selected = subjectFallbackFor(article, isUsed);
       if (selected) {
         isFallback = true;
