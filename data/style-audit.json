@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T10:02:26.302Z",
+  "generatedAt": "2026-07-28T10:29:30.062Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,7 +11,7 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 439,
+    "publishedArticles": 440,
     "wordCount": {
       "minimum": 231,
       "maximum": 1070,
@@ -24,7 +24,7 @@
       "7": 70,
       "8": 119,
       "9": 111,
-      "10": 84,
+      "10": 85,
       "11": 24,
       "12": 6,
       "13": 4,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.271,
+    "dominantParagraphShare": 0.27,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 13,
     "analysisBelowTarget": 4,
@@ -1101,6 +1101,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-28-israeli-player-fund-row",
+      "slug": "israeli-player-fund-distribution-football-basketball-row",
+      "title": "Football clubs cry foul as sports ministry's 140m shekel 'Israeli player' fund favours basketball",
+      "kind": "article",
+      "words": 448,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 64,
+        "average": 44.8
+      },
+      "sentenceWords": {
+        "shortest": 17,
+        "longest": 46,
+        "average": 34.5
+      },
+      "lexicalDiversity": 0.533,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-20260728-khalaili-nottingham-forest-bid",
       "slug": "khalaili-nottingham-forest-bid-rejected",

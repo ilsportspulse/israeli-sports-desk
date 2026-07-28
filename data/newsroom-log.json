@@ -1,5 +1,69 @@
 [
   {
+    "ts": "2026-07-28T10:24:14.330Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 8,
+    "published": 1,
+    "review": 1,
+    "skipped": 6,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "israeli-player-fund-distribution-football-basketball-row",
+        "title": "Football clubs cry foul as sports ministry's 140m shekel 'Israeli player' fund favours basketball",
+        "confidence": 0.78,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "hapoel-haifa-yaad-gonen-future-sale-rights",
+        "title": "Who really stands to profit if Hapoel Haifa sell breakout star Yaad Gonen?",
+        "confidence": 0.8,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Ownership split and settlement details are reported by ONE alone; no transfer is currently agreed, only the theoretical economics of a future sale."
+      },
+      {
+        "slug": "sports-talk-show-teases-khalaili-future-already-settled",
+        "title": "ONE's live talk show teases Khalaili's next move — a question already answered elsewhere",
+        "decision": "duplicate",
+        "reason": "same event as khalaili-nottingham-forest-bid-rejected"
+      },
+      {
+        "slug": "yan-diomande-real-madrid-sister-roxane-tragedy",
+        "title": "The teenager chasing Ronaldo's shoes at Real Madrid is carrying a tragedy with him",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "vinicius-real-madrid-sale-warning-canizares",
+        "title": "Real Madrid must sell Vinicius this summer without a signed deal, says Cañizares",
+        "decision": "duplicate",
+        "reason": "same event as arsenal-record-wage-vinicius-junior-real-madrid"
+      },
+      {
+        "url": "https://www.one.co.il/Article/529196.html",
+        "decision": "skipped",
+        "reason": "no valid article emitted"
+      },
+      {
+        "slug": "hapoel-tel-aviv-owner-vows-ginat-champion-israel-europe",
+        "title": "Hapoel Tel Aviv owner vows Tomer Ginat will retire as champion of Israel and Europe",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "zidane-unveiled-as-france-head-coach",
+        "title": "Zidane unveiled as France head coach on four-year deal",
+        "decision": "duplicate"
+      }
+    ]
+  },
+  {
     "ts": "2026-07-28T09:56:29.408Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -3400,83 +3464,6 @@
         "gate": "hold",
         "decision": "review",
         "reason": "No verified, correctly-identified photograph of Hapoel Katamon Jerusalem's women's team, this match or Budućnost Podgorica could be confirmed on Wikimedia Commons; the team's actual home ground is Emeq HaArazim, Jerusalem, not the Teddy Stadium images available on Commons, so the image is withheld rather than risk a wrong photo."
-      }
-    ]
-  },
-  {
-    "ts": "2026-07-25T12:52:38.827Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 8,
-    "published": 7,
-    "review": 0,
-    "skipped": 1,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "hapoel-jerusalem-first-european-win-buducnost",
-        "title": "Hapoel Jerusalem claim first-ever European win with victory over Budućnost",
-        "confidence": 0.88,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "stav-lemkin-lazio-transfer-interest",
-        "title": "Report: Lazio eye Israel defender Stav Lemkin as Twente stay in doubt",
-        "confidence": 0.75,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "hapoel-tel-aviv-euroleague-final-four-mandate",
-        "title": "Money, depth and madness: Hapoel Tel Aviv must reach the Final Four",
-        "confidence": 0.75,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "nitai-gigi-returns-maccabi-netanya-youth-contract",
-        "title": "Defender Nitai Gigi returns to Maccabi Netanya on a long-term youth deal",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "lebron-james-picks-76ers-last-decision",
-        "title": "LeBron James picks the 76ers in his most 'Decision'-like move since 2010",
-        "confidence": 0.92,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "haifa-derby-toto-cup-betting-odds-maccabi-favored",
-        "title": "Maccabi Haifa heavily favored as Toto Cup derby odds are published",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "kings-kangwa-panathinaikos-tactical-upgrade",
-        "title": "Greek press sees Kings Kangwa as the creative spark Panathinaikos needed",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "kucoin-crypto-exchange-uae-team-emirates-tour-de-france",
-        "title": "KuCoin becomes exclusive crypto partner of Pogačar's UAE Team Emirates at the Tour de France",
-        "confidence": 0.88,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
       }
     ]
   }

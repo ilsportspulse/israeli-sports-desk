@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T10:02:25.976Z",
+  "generatedAt": "2026-07-28T10:29:29.753Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,44 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 713,
-    "publishedBefore": 439,
-    "cleanPublished": 439,
+    "totalArticles": 715,
+    "publishedBefore": 440,
+    "cleanPublished": 440,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 439,
-    "reviewAfter": 274
+    "publishedAfter": 440,
+    "reviewAfter": 275
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-2026-07-28-gonen-sale-rights",
+      "slug": "hapoel-haifa-yaad-gonen-future-sale-rights",
+      "title": "Who really stands to profit if Hapoel Haifa sell breakout star Yaad Gonen?",
+      "statusBefore": "review",
+      "words": 393,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-28-israeli-player-fund-row",
+      "slug": "israeli-player-fund-distribution-football-basketball-row",
+      "title": "Football clubs cry foul as sports ministry's 140m shekel 'Israeli player' fund favours basketball",
+      "statusBefore": "published",
+      "words": 441,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-07-28-abu-farchi-price-tag",
       "slug": "maccabi-tel-aviv-abu-farchi-price-tag",
@@ -95,7 +123,8 @@
       "verificationSources": 4,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -6781,6 +6810,20 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-07-28-israeli-player-fund-row",
+      "slug": "israeli-player-fund-distribution-football-basketball-row",
+      "title": "Football clubs cry foul as sports ministry's 140m shekel 'Israeli player' fund favours basketball",
+      "statusBefore": "published",
+      "words": 441,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260728-khalaili-nottingham-forest-bid",
       "slug": "khalaili-nottingham-forest-bid-rejected",

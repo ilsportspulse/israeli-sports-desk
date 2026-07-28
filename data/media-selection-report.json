@@ -1,16 +1,28 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-07-28-abu-farchi-price-tag",
-      "article": "Maccabi Tel Aviv set a €7m price tag on rising forward Abu Farchi",
+      "articleId": "live-2026-07-28-gonen-sale-rights",
+      "article": "Who really stands to profit if Hapoel Haifa sell breakout star Yaad Gonen?",
+      "file": "File:GiuseppeMeazzaNeazzurro.jpg",
+      "license": "CC BY 2.0"
+    },
+    {
+      "articleId": "live-2026-07-28-israeli-player-fund-row",
+      "article": "Football clubs cry foul as sports ministry's 140m shekel 'Israeli player' fund favours basketball",
       "file": "File:SM Caen Tifo 15 ans du MNK.jpg",
       "license": "CC BY-SA 3.0"
     },
     {
-      "articleId": "live-20260728-khalaili-nottingham-forest-bid",
-      "article": "Nottingham Forest's €20m offer for Khalaili turned down by Union Saint-Gilloise",
+      "articleId": "live-20260728-forest-bid-khalaili",
+      "article": "Nottingham Forest bid around €20m for Israeli winger Anan Khalaili",
       "file": "File:GiuseppeMeazzaNeazzurro.jpg",
       "license": "CC BY 2.0"
+    },
+    {
+      "articleId": "live-2026-07-28-beitar-jerusalem-fans-larnaca",
+      "article": "More than 3,000 fans to accompany Beitar Jerusalem for Larnaca return leg in Romania",
+      "file": "File:SM Caen Tifo 15 ans du MNK.jpg",
+      "license": "CC BY-SA 3.0"
     },
     {
       "articleId": "live-20260728-debrecen-eyes-salman",
@@ -23,14 +35,15 @@
       "article": "The day Leganés' owner told his coach: \"We have the new Messi\"",
       "file": "File:SM Caen Tifo 15 ans du MNK.jpg",
       "license": "CC BY-SA 3.0"
+    },
+    {
+      "articleId": "live-2026-07-27-bruninho-self-belief-fernandez",
+      "article": "Ex-Karpaty coach: Bruninho is special, but he doesn't believe in himself yet",
+      "file": "File:GiuseppeMeazzaNeazzurro.jpg",
+      "license": "CC BY 2.0"
     }
   ],
   "failures": [
-    {
-      "id": "live-20260728-forest-bid-khalaili",
-      "title": "Nottingham Forest bid around €20m for Israeli winger Anan Khalaili",
-      "error": "image download 429 after retries"
-    },
     {
       "id": "live-2026-07-27-seatbelt-safety-explainer",
       "title": "Not a sports story — ONE seatbelt safety explainer held from publication",
