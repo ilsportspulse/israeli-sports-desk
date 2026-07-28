@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T11:36:28.441Z",
+  "generatedAt": "2026-07-28T11:59:32.333Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,19 +11,19 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 446,
+    "publishedArticles": 447,
     "wordCount": {
       "minimum": 231,
       "maximum": 1070,
       "median": 453,
-      "average": 464.9
+      "average": 464.8
     },
     "paragraphDistribution": {
       "5": 2,
       "6": 13,
       "7": 73,
       "8": 119,
-      "9": 113,
+      "9": 114,
       "10": 86,
       "11": 24,
       "12": 6,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.267,
+    "dominantParagraphShare": 0.266,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 13,
     "analysisBelowTarget": 4,
@@ -1124,6 +1124,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260728-lewandowski-barcelona-200-million-loss",
+      "slug": "lewandowski-barcelona-gamble-200-million-euros",
+      "title": "Lewandowski's Barcelona gamble cost him €200 million, agent Pini Zahavi reveals",
+      "kind": "article",
+      "words": 394,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 27,
+        "longest": 57,
+        "average": 43.8
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 59,
+        "average": 32.8
+      },
+      "lexicalDiversity": 0.609,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-20260728-yan-diomande-ronaldo-shoes",
       "slug": "yan-diomande-real-madrid-tragedy-ronaldo",

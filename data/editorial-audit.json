@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T11:36:28.124Z",
+  "generatedAt": "2026-07-28T11:59:32.022Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,44 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 723,
-    "publishedBefore": 446,
-    "cleanPublished": 446,
+    "totalArticles": 728,
+    "publishedBefore": 447,
+    "cleanPublished": 447,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 446,
-    "reviewAfter": 277
+    "publishedAfter": 447,
+    "reviewAfter": 281
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-20260728-vakselmen-ukraine-hapoel-jerusalem",
+      "slug": "michael-vakselmen-hapoel-jerusalem-ukraine-interest",
+      "title": "Hapoel Jerusalem's 16-year-old defender leans towards Ukraine over Israel",
+      "statusBefore": "review",
+      "words": 480,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-07-28-shay-elias-hapoel-haifa",
+      "slug": "shay-elias-signs-hapoel-haifa",
+      "title": "Hapoel Haifa sign midfielder Shay Elias after title-winning spell in Be'er Sheva",
+      "statusBefore": "review",
+      "words": 241,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
     {
       "id": "live-20260728-yan-diomande-ronaldo-shoes",
       "slug": "yan-diomande-real-madrid-tragedy-ronaldo",
@@ -82,6 +110,7 @@
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
         "voice:stock-editorial-phrase-detected"
       ]
     },
@@ -6899,6 +6928,18 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-20260728-lewandowski-barcelona-200-million-loss",
+      "slug": "lewandowski-barcelona-gamble-200-million-euros",
+      "title": "Lewandowski's Barcelona gamble cost him €200 million, agent Pini Zahavi reveals",
+      "statusBefore": "published",
+      "words": 395,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
       "id": "live-20260728-yan-diomande-ronaldo-shoes",
       "slug": "yan-diomande-real-madrid-tragedy-ronaldo",
       "title": "The teenager chasing Ronaldo's shoes at the Bernabéu carries a private tragedy behind him",
@@ -6937,6 +6978,7 @@
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
         "voice:stock-editorial-phrase-detected"
       ]
     },

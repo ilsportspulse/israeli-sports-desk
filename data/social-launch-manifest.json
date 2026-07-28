@@ -146,8 +146,8 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-28T11:36:27Z",
-    "validUntil": "2026-07-28T23:36:27Z",
+    "checkedAt": "2026-07-28T11:59:31Z",
+    "validUntil": "2026-07-28T23:59:31Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
@@ -160,21 +160,21 @@
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260728-yan-diomande-ronaldo-shoes",
+        "articleId": "live-20260728-lewandowski-barcelona-200-million-loss",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 214,
+        "maxAgeHours": 215,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-07-28-bnei-herzliya-akonis-title-maccabi",
+        "articleId": "live-20260728-yan-diomande-ronaldo-shoes",
         "maxAgeHours": 24,
         "requires": []
       },
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-07-28-dor-gabay-wounded-soldier-exhibition",
+        "articleId": "live-2026-07-28-bnei-herzliya-akonis-title-maccabi",
         "maxAgeHours": 24,
         "requires": []
       }
