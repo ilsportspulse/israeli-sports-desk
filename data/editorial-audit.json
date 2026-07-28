@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T20:32:32.353Z",
+  "generatedAt": "2026-07-28T21:48:36.316Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,60 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 762,
-    "publishedBefore": 465,
-    "cleanPublished": 465,
+    "totalArticles": 766,
+    "publishedBefore": 468,
+    "cleanPublished": 468,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 465,
-    "reviewAfter": 297
+    "publishedAfter": 468,
+    "reviewAfter": 298
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-20260728-zagreb-thun-comeback",
+      "slug": "dinamo-zagreb-comeback-thun-champions-league-qualifying",
+      "title": "Dinamo Zagreb complete stunning comeback to eliminate Thun in Champions League qualifying",
+      "statusBefore": "published",
+      "words": 489,
+      "paragraphs": 12,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260728-panathinaikos-sylvain-francisco-offer",
+      "slug": "panathinaikos-offer-sylvain-francisco-asvel-financial-crisis",
+      "title": "Panathinaikos lodge offer for Sylvain Francisco as ASVEL's finances unravel",
+      "statusBefore": "published",
+      "words": 448,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260728-moldovan-fighter-carmel-market-theft",
+      "slug": "moldovan-fighter-filmed-stealing-carmel-market-before-gordon-loss",
+      "title": "Shock: Moldovan fighter filmed stealing from a Tel Aviv shop before losing to Ruach Hashem Gordon",
+      "statusBefore": "review",
+      "words": 405,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260728-shake-milton-hapoel-jerusalem",
       "slug": "shake-milton-hapoel-jerusalem-contract",
@@ -55,7 +99,8 @@
       "verificationSources": 4,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -7269,6 +7314,47 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-20260728-zagreb-thun-comeback",
+      "slug": "dinamo-zagreb-comeback-thun-champions-league-qualifying",
+      "title": "Dinamo Zagreb complete stunning comeback to eliminate Thun in Champions League qualifying",
+      "statusBefore": "published",
+      "words": 489,
+      "paragraphs": 12,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260728-panathinaikos-sylvain-francisco-offer",
+      "slug": "panathinaikos-offer-sylvain-francisco-asvel-financial-crisis",
+      "title": "Panathinaikos lodge offer for Sylvain Francisco as ASVEL's finances unravel",
+      "statusBefore": "published",
+      "words": 448,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260728-rodri-back-surgery-fit-for-season",
+      "slug": "rodri-back-surgery-fit-for-season",
+      "title": "Rodri undergoes minor back surgery, City confirm he'll be fit for season opener",
+      "statusBefore": "published",
+      "words": 388,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
       "id": "live-20260728-shake-milton-hapoel-jerusalem",
       "slug": "shake-milton-hapoel-jerusalem-contract",
       "title": "Shake Milton agrees deal with Hapoel Jerusalem worth $1m a year",
@@ -7296,7 +7382,8 @@
       "verificationSources": 4,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {

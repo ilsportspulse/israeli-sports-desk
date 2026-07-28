@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T20:32:32.680Z",
+  "generatedAt": "2026-07-28T21:48:36.639Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,29 +11,29 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 465,
+    "publishedArticles": 468,
     "wordCount": {
       "minimum": 231,
       "maximum": 1070,
-      "median": 452,
-      "average": 462.4
+      "median": 451.5,
+      "average": 462.3
     },
     "paragraphDistribution": {
       "5": 2,
       "6": 13,
       "7": 78,
-      "8": 125,
+      "8": 127,
       "9": 120,
       "10": 87,
       "11": 24,
-      "12": 6,
+      "12": 7,
       "13": 4,
       "14": 2,
       "16": 1,
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.269,
+    "dominantParagraphShare": 0.271,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 13,
     "analysisBelowTarget": 4,
@@ -1147,6 +1147,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260728-zagreb-thun-comeback",
+      "slug": "dinamo-zagreb-comeback-thun-champions-league-qualifying",
+      "title": "Dinamo Zagreb complete stunning comeback to eliminate Thun in Champions League qualifying",
+      "kind": "match-report",
+      "words": 485,
+      "paragraphs": 12,
+      "paragraphWords": {
+        "shortest": 29,
+        "longest": 49,
+        "average": 40.4
+      },
+      "sentenceWords": {
+        "shortest": 16,
+        "longest": 49,
+        "average": 37.3
+      },
+      "lexicalDiversity": 0.561,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260728-panathinaikos-sylvain-francisco-offer",
+      "slug": "panathinaikos-offer-sylvain-francisco-asvel-financial-crisis",
+      "title": "Panathinaikos lodge offer for Sylvain Francisco as ASVEL's finances unravel",
+      "kind": "news",
+      "words": 448,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 44,
+        "longest": 71,
+        "average": 56
+      },
+      "sentenceWords": {
+        "shortest": 3,
+        "longest": 41,
+        "average": 23.6
+      },
+      "lexicalDiversity": 0.594,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260728-rodri-back-surgery-fit-for-season",
+      "slug": "rodri-back-surgery-fit-for-season",
+      "title": "Rodri undergoes minor back surgery, City confirm he'll be fit for season opener",
+      "kind": "news",
+      "words": 388,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 73,
+        "average": 48.5
+      },
+      "sentenceWords": {
+        "shortest": 14,
+        "longest": 62,
+        "average": 32.3
+      },
+      "lexicalDiversity": 0.595,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260728-feingold-green-card",
       "slug": "ilay-feingold-green-card-new-england-revolution",
