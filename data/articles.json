@@ -332,7 +332,7 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "",
+    "warning": "Same event as the full match report live-20260728-kiryat-shmona-maccabi-haifa-toto-0-3 (Bachar quotes are included there). Held automatically.",
     "commonsQuery": "Barak Bakhar Maccabi Haifa coach",
     "commonsCandidates": [
       {
@@ -348,7 +348,10 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "published"
+    "status": "review",
+    "reviewReasons": [
+      "duplicate-of:live-20260728-kiryat-shmona-maccabi-haifa-toto-0-3"
+    ]
   },
   {
     "id": "live-20260728-zagreb-thun-comeback",
