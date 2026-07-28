@@ -13,7 +13,7 @@
     "scheduler": "node scripts/scheduler.mjs",
     "media:sync": "node scripts/source-commons-media.mjs",
     "media:audit": "node scripts/source-commons-media.mjs --dry-run",
-    "test": "node --test tests/*.test.mjs",
+    "test": "node --test tests/*.test.mjs && node scripts/ci-self-push.mjs",
     "audit": "node scripts/editorial-audit.mjs && node scripts/style-audit.mjs",
     "translate": "node scripts/translate-articles.mjs",
     "backup": "node scripts/export-backup.mjs",
