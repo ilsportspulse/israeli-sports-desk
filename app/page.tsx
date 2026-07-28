@@ -7,10 +7,13 @@ import { getRequestLocale } from "@/lib/request-locale";
 import { getScoreCentreData } from "@/lib/sports-data";
 import { getSocialWatchItems } from "@/lib/social-watch";
 import type { PublicArticleSummary } from "@/lib/types";
+import { pageAlternates } from "@/lib/seo-alternates";
 
 export const dynamic = "force-dynamic";
 
-export const metadata = { alternates: { canonical: "/" } };
+export function generateMetadata() {
+  return { alternates: pageAlternates("/") };
+}
 
 export default async function HomePage() {
   const locale = getRequestLocale();

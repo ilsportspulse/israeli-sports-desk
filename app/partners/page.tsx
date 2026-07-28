@@ -8,6 +8,7 @@ import { PartnerContactForm } from "@/components/partner-contact-form";
 import { translator } from "@/lib/i18n/ui";
 import { getRequestLocale } from "@/lib/request-locale";
 import type { LocaleCode } from "@/lib/locales";
+import { pageAlternates } from "@/lib/seo-alternates";
 
 type PartnersCopy = {
   metaTitle: string;
@@ -103,7 +104,7 @@ const COPY: Record<LocaleCode, PartnersCopy> = {
 
 export function generateMetadata(): Metadata {
   const copy = COPY[getRequestLocale()] ?? COPY.en;
-  return { title: copy.metaTitle, description: copy.metaDescription };
+  return { alternates: pageAlternates("/partners"), title: copy.metaTitle, description: copy.metaDescription };
 }
 
 const WAY_ICONS = [<TrophyIcon size={20} key="t" />, <GlobeIcon size={20} key="g" />, <CheckIcon size={20} key="c" />];

@@ -7,6 +7,7 @@ import { competitionPriority } from "@/lib/competition-priority";
 import { getCompetition, listCompetitions } from "@/lib/competitions";
 import { getRequestLocale } from "@/lib/request-locale";
 import { getScoreCentreData } from "@/lib/sports-data";
+import { pageAlternates } from "@/lib/seo-alternates";
 
 export const dynamic = "force-dynamic";
 
@@ -17,7 +18,7 @@ const SCORES_TITLE: Record<string, string> = {
 };
 
 export function generateMetadata(): Metadata {
-  return { title: SCORES_TITLE[getRequestLocale()] ?? SCORES_TITLE.en };
+  return { alternates: pageAlternates("/scores"), title: SCORES_TITLE[getRequestLocale()] ?? SCORES_TITLE.en };
 }
 
 // Scores lands directly on the Israeli Premier League hub (results, live &

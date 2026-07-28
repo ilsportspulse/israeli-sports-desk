@@ -215,7 +215,7 @@ export function NewsWatchRail({ items, locale = defaultLocale }: { items: Social
                   )}
                 </a>
                 {item.relatedSlug && (
-                  <Link href={`/story/${item.relatedSlug}`} className="sw-tick-related">{tr("social.readStory")} →</Link>
+                  <Link href={`/article/${item.relatedSlug}`} className="sw-tick-related">{tr("social.readStory")} →</Link>
                 )}
               </div>
             );

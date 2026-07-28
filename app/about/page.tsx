@@ -7,6 +7,7 @@ import { LocalizedLink as Link } from "@/components/localized-link";
 import { translator } from "@/lib/i18n/ui";
 import { getRequestLocale } from "@/lib/request-locale";
 import type { LocaleCode } from "@/lib/locales";
+import { pageAlternates } from "@/lib/seo-alternates";
 
 type AboutCopy = {
   metaTitle: string;
@@ -154,7 +155,7 @@ const COPY: Record<LocaleCode, AboutCopy> = {
 
 export function generateMetadata(): Metadata {
   const copy = COPY[getRequestLocale()] ?? COPY.en;
-  return { title: copy.metaTitle, description: copy.metaDescription };
+  return { alternates: pageAlternates("/about"), title: copy.metaTitle, description: copy.metaDescription };
 }
 
 const VALUE_ICONS = [<CheckIcon size={20} key="c" />, <GlobeIcon size={20} key="g" />, <BoltIcon size={20} key="b" />, <TableIcon size={20} key="t" />];

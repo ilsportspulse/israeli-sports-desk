@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { GovernancePage } from "@/components/governance-page";
 import { getRequestLocale } from "@/lib/request-locale";
 import type { LocaleCode } from "@/lib/locales";
+import { pageAlternates } from "@/lib/seo-alternates";
 
 type PolicyCopy = {
   metaTitle: string;
@@ -130,7 +131,7 @@ const COPY: Record<LocaleCode, PolicyCopy> = {
 
 export function generateMetadata(): Metadata {
   const copy = COPY[getRequestLocale()] ?? COPY.en;
-  return { title: copy.metaTitle, description: copy.metaDescription };
+  return { alternates: pageAlternates("/privacy"), title: copy.metaTitle, description: copy.metaDescription };
 }
 
 export default function PrivacyPage() {

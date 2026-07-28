@@ -4,6 +4,7 @@ import { StoryIndex } from "@/components/story-index";
 import { getPublicArticleSummaries } from "@/lib/articles";
 import { getLocalizedArticleSummaryCopy } from "@/lib/localized-articles";
 import { getRequestLocale } from "@/lib/request-locale";
+import { pageAlternates } from "@/lib/seo-alternates";
 
 const COPY: Record<string, { title: string; description: string; eyebrow: string; heading: string; intro: string }> = {
   en: {
@@ -31,7 +32,7 @@ const COPY: Record<string, { title: string; description: string; eyebrow: string
 
 export function generateMetadata(): Metadata {
   const copy = COPY[getRequestLocale()] ?? COPY.en;
-  return { title: copy.title, description: copy.description };
+  return { alternates: pageAlternates("/archive"), title: copy.title, description: copy.description };
 }
 
 export default function ArchivePage() {

@@ -4,6 +4,7 @@ import Image from "next/image";
 import styles from "./brand.module.css";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/brand" },
   title: "Brand system — Israel Sports Pulse",
   description: "Internal approved identity for Israel Sports Pulse.",
   robots: { index: false, follow: false },
