@@ -911,6 +911,47 @@ const free = (page) => Boolean(page) && !used.has(page.pageid) && !usedUrls.has(
 // 28 Jul: a decades-old GPO derby shot landed on a 2026 title-odds story).
 // Files dated before 2005 — by EXIF, filename year or known archive source —
 // are only allowed on archive/retro content.
+// Woorden die in titels naar clubs/plaatsen verwijzen — een hoofdlettergreep
+// hiermee is geen persoonsnaam.
+const NAME_STOPWORDS = new Set("Maccabi Hapoel Ironi Beitar Bnei Tel Aviv Haifa Jerusalem Shmona Kiryat Sakhnin Tiberias Netanya Israel Israeli Toto Cup League Liga Ligat United City Real Madrid Barcelona Union Saint Gilloise Nottingham Forest EuroLeague NBA UEFA FIFA Champions Europa Conference World Group Round FC AFC The".split(/\s+/));
+
+// Volledige persoonsnamen (2+ opeenvolgende hoofdletterwoorden) uit een titel.
+const personNamesOf = (title) => {
+  const tokens = (title ?? "").split(/[^A-Za-zÀ-ÖØ-öø-ÿ'’-]+/).filter(Boolean);
+  const names = [];
+  let run = [];
+  for (const t of tokens) {
+    if (/^[A-ZÀ-Ö]/.test(t) && t.length >= 2 && !NAME_STOPWORDS.has(t)) run.push(t);
+    else { if (run.length >= 2) names.push(run.join(" ")); run = []; }
+  }
+  if (run.length >= 2) names.push(run.join(" "));
+  return names;
+};
+
+// Commons-zoektier op BESTANDSNAAM: alleen files waarvan de titel de volledige
+// persoonsnaam bevat komen in aanmerking — plus de bestaande poorten
+// (uniek, niet vintage, minimaal 500px breed).
+async function personTitleSearch(article, names) {
+  for (const name of names) {
+    try {
+      const params = new URLSearchParams({ action: "query", list: "search", srnamespace: "6", srlimit: "12", format: "json", srsearch: `intitle:"${name}"` });
+      const response = await fetch(`${api}?${params}`, { headers: { "user-agent": userAgent } });
+      if (!response.ok) continue;
+      const hits = ((await response.json()).query?.search ?? [])
+        .map((h) => h.title)
+        .filter((t) => t.toLowerCase().includes(name.toLowerCase()) && /\.(jpe?g|png)$/i.test(t));
+      if (!hits.length) continue;
+      const pages = await fetchFiles(hits);
+      for (const title of hits) {
+        const page = pages.get(title);
+        const width = page?.imageinfo?.[0]?.width ?? 0;
+        if (page && free(page) && !vintageFor(article, page) && width >= 500) return page;
+      }
+    } catch { /* volgende naam proberen */ }
+  }
+  return undefined;
+}
+
 const VINTAGE_MARKERS = /government press office|\bgpo\b|fortepan|bundesarchiv|nationaal archief/i;
 const vintageFor = (article, page) => {
   if ((article.category ?? "") === "From the Archive" || /archive|retro/i.test(article.id ?? "")) return false;
@@ -1129,8 +1170,18 @@ for (const [index, article] of articles.entries()) {
     } catch {
       selected = undefined;
     }
+    // OWNER RULE (29 jul): a story about a PERSON shows that person — never a
+    // stadium, crest or atmosphere shot. When the drafted candidates fail, keep
+    // SEARCHING: Commons title-match on the person's name is a strong signal
+    // (the filename literally names them), so it cannot repeat the old
+    // blind-keyword mismatches.
+    const storyPersons = personNamesOf(article.title);
+    if (!selected && storyPersons.length) {
+      selected = await personTitleSearch(article, storyPersons);
+      if (selected) console.log(`Person title-match for ${article.id}: ${selected.title}`);
+    }
     let isFallback = false;
-    if (!selected) {
+    if (!selected && !storyPersons.length) {
       const isUsed = (page) => used.has(page.pageid) || usedUrls.has(page.imageinfo?.[0]?.descriptionurl) || vintageFor(article, page);
       selected = subjectFallbackFor(article, isUsed);
       if (selected) {
@@ -1138,7 +1189,7 @@ for (const [index, article] of articles.entries()) {
         console.log(`Subject fallback for ${article.id}: ${selected.title}`);
       }
     }
-    if (!selected) {
+    if (!selected && !storyPersons.length) {
       // Last resort: the spectacular sport-level photo bank (config/
       // sport-photo-bank.json) — a real, licensed action photo of the story's
       // SPORT. Guarantees no story ever ships with a bare category tile

@@ -425,7 +425,7 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "",
+    "warning": "Covered by the full match report live-20260728-kiryat-shmona-maccabi-haifa-toto-0-3 (standings/hopes are in its closing section). Held automatically.",
     "commonsQuery": "Sammy Ofer Stadium Maccabi Haifa",
     "commonsCandidates": [
       {
@@ -441,7 +441,10 @@
         "license": "CC BY 2.5"
       }
     ],
-    "status": "published"
+    "status": "review",
+    "reviewReasons": [
+      "duplicate-of:live-20260728-kiryat-shmona-maccabi-haifa-toto-0-3"
+    ]
   },
   {
     "id": "live-20260728-kiryat-shmona-thrash-haifa-toto-cup",
@@ -1302,24 +1305,8 @@
     "warning": "Sport5 reports personal terms are agreed, but Hapoel Jerusalem have not yet issued an official unveiling of the signing.",
     "commonsQuery": "Shake Milton basketball player photograph",
     "commonsCandidates": [
-      {
-        "title": "File:Shake Milton (cropped).jpg",
-        "creditUrl": "https://commons.wikimedia.org/wiki/File:Shake_Milton_(cropped).jpg",
-        "credit": "Michael Barera / Shakeydeal33, Wikimedia Commons",
-        "license": "CC BY-SA 4.0"
-      },
-      {
-        "title": "File:Jerusalem Arena, October 2016 01.jpg",
-        "creditUrl": "https://commons.wikimedia.org/wiki/File:Jerusalem_Arena,_October_2016_01.jpg",
-        "credit": "Little Savage, Wikimedia Commons",
-        "license": "CC BY-SA 4.0"
-      },
-      {
-        "title": "File:Pais Arena Jerusalem-1 (15633135490).jpg",
-        "creditUrl": "https://commons.wikimedia.org/wiki/File:Pais_Arena_Jerusalem-1_(15633135490).jpg",
-        "credit": "Wikimedia Commons",
-        "license": "CC BY 2.0"
-      }
+      "File:Shake Milton 2 KK Partizan Euroleague 20260225 (3) (cropped).jpg",
+      "File:Shake Milton 2 KK Partizan Euroleague 20260225 (1).jpg"
     ],
     "status": "published"
   },
@@ -6242,18 +6229,8 @@
     "warning": "Fee breakdown and Nottingham Forest's interest are reported (via The Athletic/Sport5) but not yet confirmed by either club.",
     "commonsQuery": "Anan Khalaili Union Saint-Gilloise footballer",
     "commonsCandidates": [
-      {
-        "title": "File:Anan Khalaili RUSG 2026.jpg",
-        "creditUrl": "https://commons.wikimedia.org/wiki/File:Anan_Khalaili_RUSG_2026.jpg",
-        "credit": "Sidney.Cortez",
-        "license": "CC BY-SA 4.0"
-      },
-      {
-        "title": "File:Anan Khalaili Union 2025.jpg",
-        "creditUrl": "https://commons.wikimedia.org/wiki/File:Anan_Khalaili_Union_2025.jpg",
-        "credit": "Sidney.Cortez",
-        "license": "CC BY-SA 4.0"
-      }
+      "File:Anan Khalaili RUSG 2026.jpg",
+      "File:Anan Khalaili Union 2025.jpg"
     ],
     "status": "published"
   },
@@ -26919,24 +26896,8 @@
     "warning": "Neither Young nor Milton is confirmed as a Maccabi Tel Aviv signing — Sport5 frames both only as options the club is weighing, and Walker's exit itself is still a reported/expected split rather than an announced one.",
     "commonsQuery": "Lonnie Walker IV Shake Milton Maccabi Tel Aviv basketball guard",
     "commonsCandidates": [
-      {
-        "title": "File:Lonnie_Walker_2023.jpg",
-        "creditUrl": "https://commons.wikimedia.org/wiki/File:Lonnie_Walker_2023.jpg",
-        "credit": "ReaganHoang10 via Wikimedia Commons",
-        "license": "CC BY-SA 4.0"
-      },
-      {
-        "title": "File:Shake Milton 2 KK Partizan Euroleague 20260225 (2).jpg",
-        "creditUrl": "https://commons.wikimedia.org/wiki/File:Shake_Milton_2_KK_Partizan_Euroleague_20260225_(2).jpg",
-        "credit": "Zafer via Wikimedia Commons",
-        "license": "CC BY 4.0"
-      },
-      {
-        "title": "File:Yad_Eliyahu_Arena_at_night.JPG",
-        "creditUrl": "https://commons.wikimedia.org/wiki/File:Yad_Eliyahu_Arena_at_night.JPG",
-        "credit": "Shmuliko via Wikimedia Commons",
-        "license": "CC BY-SA 3.0"
-      }
+      "File:Shake Milton 2 KK Partizan Euroleague 20260225 (3) (cropped).jpg",
+      "File:Shake Milton 2 KK Partizan Euroleague 20260225 (1).jpg"
     ],
     "status": "published"
   },
@@ -28521,24 +28482,8 @@
     "warning": "",
     "commonsQuery": "Lando Norris Formula 1 McLaren driver",
     "commonsCandidates": [
-      {
-        "title": "File:Lando Norris,Chinese GP 2024 Race.jpg",
-        "creditUrl": "https://commons.wikimedia.org/wiki/File:Lando_Norris,Chinese_GP_2024_Race.jpg",
-        "credit": "Liauzh",
-        "license": "CC BY-SA 4.0"
-      },
-      {
-        "title": "File:Lando Norris,Chinese GP 2024.jpg",
-        "creditUrl": "https://commons.wikimedia.org/wiki/File:Lando_Norris,Chinese_GP_2024.jpg",
-        "credit": "Liauzh",
-        "license": "CC BY-SA 4.0"
-      },
-      {
-        "title": "File:Lando Norris Formula 1 Driver (49379469418) (cropped).jpg",
-        "creditUrl": "https://commons.wikimedia.org/wiki/File:Lando_Norris_Formula_1_Driver_(49379469418)_(cropped).jpg",
-        "credit": "David Merrett",
-        "license": "CC BY 2.0"
-      }
+      "File:2026 Chinese GP - McLaren - Lando Norris - Qualifying.jpg",
+      "File:Lando Norris at the Melbourne Walk during the 2026 Australian Grand Prix (028A7962).jpg"
     ],
     "status": "published"
   },
@@ -42539,7 +42484,7 @@
   {
     "id": "live-20260723-beitar-larnaca-clean-sheet",
     "slug": "beitar-jerusalem-clean-sheet-win-aek-larnaca-conference-league",
-    "title": "Beitar Jerusalem take slender lead to Europe after Carabalí's free-kick sinks ten-man Larnaca",
+    "title": "AEK Larnaca 0–1 Beitar Jerusalem: Carabalí strike gives slender Conference League lead",
     "dek": "A rare goal from centre-back Brayan Carabalí gave new coach Almog Cohen a winning start in Europe, as Beitar Jerusalem beat AEK Larnaca 1-0 away in the Conference League second qualifying round.",
     "category": "Israeli Football",
     "desk": "israel",
@@ -53965,7 +53910,7 @@
   {
     "id": "live-20260721-kangwa-vikingur-aek-equalizer",
     "slug": "kangwa-champions-league-equalizer-vikingur-aek-transfer",
-    "title": "Kangwa levels for Hapoel in Iceland but barely celebrates amid AEK transfer talks",
+    "title": "Víkingur 1–1 Hapoel Beer Sheva: Kangwa levels in Iceland but barely celebrates",
     "dek": "The Zambian forward salvaged a 1-1 draw for Hapoel Beer Sheva at Víkingur Reykjavík in the Champions League, and his muted reaction was read in Athens as another sign of how close he already is to joining AEK.",
     "category": "Israeli Football",
     "desk": "israel",
