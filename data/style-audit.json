@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T01:01:58.603Z",
+  "generatedAt": "2026-07-28T01:21:46.354Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,19 +11,19 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 418,
+    "publishedArticles": 419,
     "wordCount": {
       "minimum": 231,
       "maximum": 1070,
       "median": 455,
-      "average": 468.1
+      "average": 467.9
     },
     "paragraphDistribution": {
       "5": 2,
       "6": 13,
       "7": 67,
       "8": 111,
-      "9": 105,
+      "9": 106,
       "10": 80,
       "11": 24,
       "12": 6,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.266,
+    "dominantParagraphShare": 0.265,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 13,
     "analysisBelowTarget": 4,
@@ -1032,6 +1032,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-28-hapoel-blatt-talks-resume",
+      "slug": "hapoel-tel-aviv-tamir-blatt-contract-talks-resume",
+      "title": "Hapoel Tel Aviv and Tamir Blatt revive contract talks after ten-day pause",
+      "kind": "news",
+      "words": 396,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 20,
+        "longest": 59,
+        "average": 44
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 48,
+        "average": 30.5
+      },
+      "lexicalDiversity": 0.629,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "archive-20260728-assago-18-may-2014-the-overtime-night-ma",
       "slug": "assago-18-may-2014-the-overtime-night-maccabi-stunned-real-madrid",

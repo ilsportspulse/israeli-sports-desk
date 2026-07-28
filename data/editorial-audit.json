@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T01:01:58.179Z",
+  "generatedAt": "2026-07-28T01:21:45.931Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,31 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 683,
-    "publishedBefore": 418,
-    "cleanPublished": 418,
+    "totalArticles": 684,
+    "publishedBefore": 419,
+    "cleanPublished": 419,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 418,
+    "publishedAfter": 419,
     "reviewAfter": 265
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-2026-07-28-hapoel-blatt-talks-resume",
+      "slug": "hapoel-tel-aviv-tamir-blatt-contract-talks-resume",
+      "title": "Hapoel Tel Aviv and Tamir Blatt revive contract talks after ten-day pause",
+      "statusBefore": "published",
+      "words": 394,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "archive-20260728-assago-18-may-2014-the-overtime-night-ma",
       "slug": "assago-18-may-2014-the-overtime-night-maccabi-stunned-real-madrid",
@@ -6480,6 +6495,21 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-07-28-hapoel-blatt-talks-resume",
+      "slug": "hapoel-tel-aviv-tamir-blatt-contract-talks-resume",
+      "title": "Hapoel Tel Aviv and Tamir Blatt revive contract talks after ten-day pause",
+      "statusBefore": "published",
+      "words": 394,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "archive-20260728-assago-18-may-2014-the-overtime-night-ma",
       "slug": "assago-18-may-2014-the-overtime-night-maccabi-stunned-real-madrid",
