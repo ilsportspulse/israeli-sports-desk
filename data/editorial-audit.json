@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T09:31:00.225Z",
+  "generatedAt": "2026-07-28T10:02:25.976Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,45 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 711,
+    "totalArticles": 713,
     "publishedBefore": 439,
     "cleanPublished": 439,
     "blockedPublished": 0,
     "demoted": 0,
     "publishedAfter": 439,
-    "reviewAfter": 272
+    "reviewAfter": 274
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-2026-07-28-abu-farchi-price-tag",
+      "slug": "maccabi-tel-aviv-abu-farchi-price-tag",
+      "title": "Maccabi Tel Aviv set a €7m price tag on rising forward Abu Farchi",
+      "statusBefore": "review",
+      "words": 393,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260728-khalaili-nottingham-forest-bid",
+      "slug": "khalaili-nottingham-forest-bid-rejected",
+      "title": "Nottingham Forest's €20m offer for Khalaili turned down by Union Saint-Gilloise",
+      "statusBefore": "published",
+      "words": 394,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-07-28-shviro-badji-tiberias-haifa-toto-cup",
       "slug": "shviro-badji-set-to-start-tiberias-toto-cup-haifa",
@@ -59,7 +88,7 @@
       "id": "live-20260728-forest-bid-khalaili",
       "slug": "nottingham-forest-20-million-bid-anan-khalaili",
       "title": "Nottingham Forest bid around €20m for Israeli winger Anan Khalaili",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 331,
       "paragraphs": 9,
       "facts": 6,
@@ -122,20 +151,6 @@
       "paragraphs": 8,
       "facts": 6,
       "verificationSources": 5,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-07-28-beitar-jerusalem-fans-larnaca",
-      "slug": "beitar-jerusalem-3000-fans-aek-larnaca-conference-league",
-      "title": "More than 3,000 fans to accompany Beitar Jerusalem for Larnaca return leg in Romania",
-      "statusBefore": "published",
-      "words": 281,
-      "paragraphs": 8,
-      "facts": 7,
-      "verificationSources": 3,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -425,8 +440,7 @@
       "verificationSources": 5,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline",
-        "media:no-action-or-competition-context-detected"
+        "presentation:outlet-name-in-headline"
       ]
     },
     {
@@ -6768,6 +6782,20 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-20260728-khalaili-nottingham-forest-bid",
+      "slug": "khalaili-nottingham-forest-bid-rejected",
+      "title": "Nottingham Forest's €20m offer for Khalaili turned down by Union Saint-Gilloise",
+      "statusBefore": "published",
+      "words": 394,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-2026-07-28-shviro-badji-tiberias-haifa-toto-cup",
       "slug": "shviro-badji-set-to-start-tiberias-toto-cup-haifa",
       "title": "Shviro and Badji set to start for Tiberias in Toto Cup trip to Haifa",
@@ -6793,20 +6821,6 @@
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-20260728-forest-bid-khalaili",
-      "slug": "nottingham-forest-20-million-bid-anan-khalaili",
-      "title": "Nottingham Forest bid around €20m for Israeli winger Anan Khalaili",
-      "statusBefore": "published",
-      "words": 331,
-      "paragraphs": 9,
-      "facts": 6,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline"
       ]
     },
     {
@@ -6862,9 +6876,7 @@
       "facts": 7,
       "verificationSources": 3,
       "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
+      "warnings": []
     },
     {
       "id": "live-20260728-israel-u18-eurobasket-stats",
@@ -7133,8 +7145,7 @@
       "verificationSources": 5,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline",
-        "media:no-action-or-competition-context-detected"
+        "presentation:outlet-name-in-headline"
       ]
     },
     {

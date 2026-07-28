@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T09:31:00.551Z",
+  "generatedAt": "2026-07-28T10:02:26.302Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -16,7 +16,7 @@
       "minimum": 231,
       "maximum": 1070,
       "median": 453,
-      "average": 465.4
+      "average": 465.5
     },
     "paragraphDistribution": {
       "5": 2,
@@ -1102,6 +1102,27 @@
   ],
   "clean": [
     {
+      "id": "live-20260728-khalaili-nottingham-forest-bid",
+      "slug": "khalaili-nottingham-forest-bid-rejected",
+      "title": "Nottingham Forest's €20m offer for Khalaili turned down by Union Saint-Gilloise",
+      "kind": "article",
+      "words": 394,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 26,
+        "longest": 62,
+        "average": 43.8
+      },
+      "sentenceWords": {
+        "shortest": 15,
+        "longest": 51,
+        "average": 30.3
+      },
+      "lexicalDiversity": 0.65,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
       "id": "live-2026-07-28-shviro-badji-tiberias-haifa-toto-cup",
       "slug": "shviro-badji-set-to-start-tiberias-toto-cup-haifa",
       "title": "Shviro and Badji set to start for Tiberias in Toto Cup trip to Haifa",
@@ -1140,27 +1161,6 @@
         "average": 36.1
       },
       "lexicalDiversity": 0.588,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260728-forest-bid-khalaili",
-      "slug": "nottingham-forest-20-million-bid-anan-khalaili",
-      "title": "Nottingham Forest bid around €20m for Israeli winger Anan Khalaili",
-      "kind": "news",
-      "words": 330,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 24,
-        "longest": 55,
-        "average": 36.7
-      },
-      "sentenceWords": {
-        "shortest": 13,
-        "longest": 43,
-        "average": 30
-      },
-      "lexicalDiversity": 0.63,
       "publisherAttributions": 0,
       "flags": []
     },

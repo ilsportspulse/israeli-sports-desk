@@ -146,8 +146,8 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-28T09:30:59Z",
-    "validUntil": "2026-07-28T21:30:59Z",
+    "checkedAt": "2026-07-28T10:02:25Z",
+    "validUntil": "2026-07-28T22:02:25Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
@@ -160,21 +160,21 @@
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-07-28-shviro-badji-tiberias-haifa-toto-cup",
+        "articleId": "live-20260728-khalaili-nottingham-forest-bid",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 212,
+        "maxAgeHours": 213,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-07-28-zidane-france-coach",
+        "articleId": "live-2026-07-28-shviro-badji-tiberias-haifa-toto-cup",
         "maxAgeHours": 24,
         "requires": []
       },
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260728-israel-u18-handball-euro-opener",
+        "articleId": "live-2026-07-28-zidane-france-coach",
         "maxAgeHours": 24,
         "requires": []
       }

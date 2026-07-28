@@ -1,33 +1,34 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-07-28-shviro-badji-tiberias-haifa-toto-cup",
-      "article": "Shviro and Badji set to start for Tiberias in Toto Cup trip to Haifa",
+      "articleId": "live-2026-07-28-abu-farchi-price-tag",
+      "article": "Maccabi Tel Aviv set a €7m price tag on rising forward Abu Farchi",
+      "file": "File:SM Caen Tifo 15 ans du MNK.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "articleId": "live-20260728-khalaili-nottingham-forest-bid",
+      "article": "Nottingham Forest's €20m offer for Khalaili turned down by Union Saint-Gilloise",
+      "file": "File:GiuseppeMeazzaNeazzurro.jpg",
+      "license": "CC BY 2.0"
+    },
+    {
+      "articleId": "live-20260728-debrecen-eyes-salman",
+      "article": "Hungarian side Debrecen chase Bnei Sakhnin's Salman as forward eyes pay rise",
       "file": "File:Mecz piłkarski Wisła Kraków - Zagłębie Sosnwoiec, 28 października 2022, Pożegnanie Stadionu Ludowego, KP.jpg",
       "license": "CC BY 4.0"
     },
     {
-      "articleId": "live-2026-07-28-zidane-france-coach",
-      "article": "Zidane appointed France's new head coach, succeeding Deschamps",
-      "file": "File:Zinedine Zidane 2018.jpg",
+      "articleId": "live-2026-07-28-real-madrid-diomande-new-messi",
+      "article": "The day Leganés' owner told his coach: \"We have the new Messi\"",
+      "file": "File:SM Caen Tifo 15 ans du MNK.jpg",
       "license": "CC BY-SA 3.0"
-    },
-    {
-      "articleId": "live-20260728-tiberias-barzel-warning-letter",
-      "article": "Ironi Tiberias lawyer accuses IFA spokesman of acting as 'judge and executioner'",
-      "file": "File:GiuseppeMeazzaNeazzurro.jpg",
-      "license": "CC BY 2.0"
     }
   ],
   "failures": [
     {
       "id": "live-20260728-forest-bid-khalaili",
       "title": "Nottingham Forest bid around €20m for Israeli winger Anan Khalaili",
-      "error": "image download 429 after retries"
-    },
-    {
-      "id": "live-2026-07-28-real-madrid-diomande-new-messi",
-      "title": "The day Leganés' owner told his coach: \"We have the new Messi\"",
       "error": "image download 429 after retries"
     },
     {
