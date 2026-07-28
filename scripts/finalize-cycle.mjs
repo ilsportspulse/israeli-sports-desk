@@ -27,17 +27,18 @@ const published = articles
   .filter((article) => article.status !== "review")
   .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
 const now = Date.now();
-const tenHoursAgo = now - 10 * 60 * 60 * 1000;
+const fortyEightHoursAgo = now - 48 * 60 * 60 * 1000;
 const freshnessTime = (article) => new Date(article.featured ? article.updatedAt ?? article.publishedAt : article.publishedAt).getTime();
+// Mirrors the homepage's editorial lead score (components/newsroom.tsx): clamped
+// 0-100 news value, decay of 2 points/hour after a 6-hour grace, pin wins.
+const leadScore = (article) => {
+  const value = Math.min(100, Math.max(0, article.homepagePriority ?? 50));
+  const ageHours = Math.max(0, (now - freshnessTime(article)) / 3_600_000);
+  return (article.featured ? 1000 : 0) + value + (article.desk === "israel" ? 15 : 0) - Math.max(0, ageHours - 6) * 2;
+};
 const freshLeads = published
-  .filter((article) => article.kind !== "analysis" && article.category !== "From the Archive" && freshnessTime(article) >= tenHoursAgo)
-  .sort((a, b) => {
-    const ageA = Math.max(0, (now - freshnessTime(a)) / 3_600_000);
-    const ageB = Math.max(0, (now - freshnessTime(b)) / 3_600_000);
-    const scoreA = (a.homepagePriority ?? 50) + Math.max(0, 10 - ageA) * 2;
-    const scoreB = (b.homepagePriority ?? 50) + Math.max(0, 10 - ageB) * 2;
-    return scoreB - scoreA || freshnessTime(b) - freshnessTime(a);
-  });
+  .filter((article) => article.kind !== "analysis" && article.category !== "From the Archive" && (article.featured || freshnessTime(article) >= fortyEightHoursAgo))
+  .sort((a, b) => leadScore(b) - leadScore(a) || freshnessTime(b) - freshnessTime(a));
 const lead = freshLeads[0] ?? published.find((article) => article.kind !== "analysis" && article.category !== "From the Archive") ?? published[0];
 const archive = published.find((article) => article.category === "From the Archive");
 const international = published.find((article) => article.desk === "international" || article.desk === "world");
@@ -47,7 +48,7 @@ const missingMedia = promoted
   .filter((article) => !articleMedia[article.id] && !article.image)
   .map((article) => article.id);
 const findings = [];
-if (!freshLeads.length) findings.push("No published non-analysis report is less than 10 hours old; the homepage is using the latest verified report rather than promoting an unverified candidate.");
+if (!freshLeads.length) findings.push("No published non-analysis report is recent enough for the lead window; the homepage is using the latest verified report rather than promoting an unverified candidate.");
 if (missingMedia.length) findings.push(`${missingMedia.length} promoted item(s) rely on a generic fallback image and require media review.`);
 if (!findings.length) findings.push("No automated homepage integrity fault detected in the promoted set.");
 

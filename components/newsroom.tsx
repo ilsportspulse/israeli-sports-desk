@@ -143,6 +143,7 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
   }
 
   const tenHoursAgo = Date.now() - 10 * 60 * 60 * 1000;
+  const fortyEightHoursAgo = Date.now() - 48 * 60 * 60 * 1000;
   const freshnessTime = (article: PublicArticleSummary) =>
     new Date(article.featured ? article.updatedAt ?? article.publishedAt : article.publishedAt).getTime();
   // The lead/top-stories block is ISRAELI news first — the whole point of an Israeli
@@ -153,16 +154,18 @@ export function Newsroom({ articles, scores, quiz, categoryOrder, locale = defau
     article.kind !== "analysis" &&
     article.category !== "From the Archive" &&
     (article.desk === "israel" || (article.homepagePriority ?? 50) >= 85);
+  // Editorial lead score: news value (the 0-100 editorial scale; legacy values
+  // outside it are clamped) + Israeli boost, decaying 2 points/hour after a
+  // 6-hour grace. A big result can lead ~1.5 days; a quote can never outlast
+  // fresher real news. An editor pin (featured) always wins.
+  const leadScore = (article: PublicArticleSummary) => {
+    const value = Math.min(100, Math.max(0, article.homepagePriority ?? 50));
+    const ageHours = Math.max(0, (Date.now() - freshnessTime(article)) / 3_600_000);
+    return (article.featured ? 1000 : 0) + value + (article.desk === "israel" ? 15 : 0) - Math.max(0, ageHours - 6) * 2;
+  };
   const leadPool = articles
-    .filter((article) => isHeadlineWorthy(article) && freshnessTime(article) >= tenHoursAgo)
-    .sort((a, b) => {
-      const ageA = Math.max(0, (Date.now() - freshnessTime(a)) / 3_600_000);
-      const ageB = Math.max(0, (Date.now() - freshnessTime(b)) / 3_600_000);
-      // Israeli stories get a headline boost so home-grown news leads the page.
-      const scoreA = (a.homepagePriority ?? 50) + (a.desk === "israel" ? 20 : 0) + Math.max(0, 10 - ageA) * 2;
-      const scoreB = (b.homepagePriority ?? 50) + (b.desk === "israel" ? 20 : 0) + Math.max(0, 10 - ageB) * 2;
-      return scoreB - scoreA || freshnessTime(b) - freshnessTime(a);
-    })
+    .filter((article) => isHeadlineWorthy(article) && (article.featured || freshnessTime(article) >= fortyEightHoursAgo))
+    .sort((a, b) => leadScore(b) - leadScore(a) || freshnessTime(b) - freshnessTime(a))
     .slice(0, 4);
   const featured = leadPool[0] ?? articles.find(isHeadlineWorthy) ?? articles.find((a) => a.desk === "israel") ?? articles[0];
   const standardStories = articles.filter((article) => article.id !== featured.id && isHeadlineWorthy(article));
