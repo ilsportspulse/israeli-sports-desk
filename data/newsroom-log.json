@@ -1,5 +1,76 @@
 [
   {
+    "ts": "2026-07-28T12:23:32.494Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 8,
+    "published": 1,
+    "review": 3,
+    "skipped": 4,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "joao-pedro-hat-trick-chelsea-western-sydney-friendly",
+        "title": "João Pedro's nine-minute hat-trick gives Xabi Alonso a wild winning start at Chelsea",
+        "confidence": 0.85,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "below gate thresholds"
+      },
+      {
+        "slug": "ahavat-hashem-gordon-defeats-john-lineker-gfn1-tel-aviv",
+        "title": "Golden Boy Gordon outpoints former UFC champion Lineker as Tel Aviv erupts",
+        "decision": "duplicate",
+        "reason": "same event as ahavat-hashem-gordon-beats-john-lineker-gfn-1"
+      },
+      {
+        "slug": "maccabi-haifa-not-complacent-just-unprepared-bachar-erred-derby",
+        "title": "Maccabi Haifa were not complacent, just unprepared, and Bachar erred, says ONE pundit",
+        "confidence": 0.78,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Player-name transliterations (e.g. Noam Steinman, Iad Khalili, Nissan Kaniyas) are based on single-source Hebrew media spellings and could vary slightly from official club romanizations."
+      },
+      {
+        "slug": "maccabi-herzliya-sign-apeh-ben-nesher-returns",
+        "title": "Maccabi Herzliya sign striker Emmanuel Apeh, goalkeeper Sean Ben Nesher set to return",
+        "confidence": 0.8,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Single-source squad-news report (ONE); contract terms and fees were not disclosed."
+      },
+      {
+        "slug": "maccabi-haifa-kiryat-shmona-toto-cup-preview",
+        "title": "Maccabi Haifa favourites to end winless run against Kiryat Shmona in Toto Cup",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "kibedy-gordon-gfn-more-events-ufc-ambition",
+        "title": "Kibedy Gordon wants more GFN nights — but admits the pressure is intense",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "canizares-vinicius-real-madrid-sale-ultimatum-no-signed-deal",
+        "title": "Cañizares says Real Madrid must sell Vinícius this summer if there is no signed deal",
+        "decision": "duplicate",
+        "reason": "same event as arsenal-eye-audacious-move-for-vinicius-junior"
+      },
+      {
+        "slug": "psg-walk-away-yan-diomande-real-madrid-fireworks",
+        "title": "PSG walk away from Yan Diomande chase, accuse Real Madrid of a 'heist'",
+        "decision": "duplicate",
+        "reason": "same event as real-madrid-agree-terms-yan-diomande-five-year-deal"
+      }
+    ]
+  },
+  {
     "ts": "2026-07-28T11:52:24.058Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -3380,74 +3451,6 @@
         "gate": "pass",
         "decision": "published",
         "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-07-25T17:49:51.535Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 8,
-    "published": 0,
-    "review": 4,
-    "skipped": 4,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "maccabi-haifa-hapoel-haifa-toto-cup-derby-in-progress",
-        "title": "Haifa derby underway in Toto Cup opener, Maccabi Haifa and Hapoel Haifa level early",
-        "confidence": 0,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "match in progress — wait for full time"
-      },
-      {
-        "slug": "hapoel-petah-tikva-maccabi-petah-tikva-toto-cup-derby-held",
-        "title": "Petah Tikva derby: match in progress, report withheld",
-        "confidence": 0,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "match in progress — wait for full time"
-      },
-      {
-        "slug": "netanya-jerusalem-toto-cup-in-progress",
-        "title": "Hapoel Jerusalem lead Maccabi Netanya early in Toto Cup opener — match in progress",
-        "confidence": 0,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "match in progress — wait for full time"
-      },
-      {
-        "slug": "tveria-bnei-sakhnin-live-update-held",
-        "title": "Ironi Tveria host Bnei Sakhnin, still goalless early on",
-        "confidence": 0,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "match in progress — wait for full time"
-      },
-      {
-        "url": "https://www.one.co.il/Article/529035.html",
-        "decision": "skipped",
-        "reason": "no valid article emitted"
-      },
-      {
-        "slug": "ester-sokler-lands-israel-sign-maccabi-tel-aviv",
-        "title": "Ester Sokler set to land in Israel to sign for Maccabi Tel Aviv",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "yermakov-metalist-fee-confirmed",
-        "title": "Sport5 details the final numbers in Yermakov's move from Maccabi Haifa to Metalist",
-        "decision": "duplicate"
-      },
-      {
-        "url": "https://www.sport5.co.il/articles.aspx?FolderID=378&docID=554294",
-        "decision": "skipped",
-        "reason": "no valid article emitted"
       }
     ]
   }

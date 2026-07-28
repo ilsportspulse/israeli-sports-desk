@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T11:59:32.333Z",
+  "generatedAt": "2026-07-28T12:28:51.910Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,18 +11,18 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 447,
+    "publishedArticles": 448,
     "wordCount": {
       "minimum": 231,
       "maximum": 1070,
-      "median": 453,
-      "average": 464.8
+      "median": 452.5,
+      "average": 464.5
     },
     "paragraphDistribution": {
       "5": 2,
       "6": 13,
       "7": 73,
-      "8": 119,
+      "8": 120,
       "9": 114,
       "10": 86,
       "11": 24,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.266,
+    "dominantParagraphShare": 0.268,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 13,
     "analysisBelowTarget": 4,
@@ -1124,6 +1124,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-28-kibedy-gordon-gfn-ufc",
+      "slug": "kibedy-gordon-gfn-more-events-ufc-ambition",
+      "title": "Kibedy Gordon wants more GFN nights — but admits the pressure is intense",
+      "kind": "news",
+      "words": 351,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 23,
+        "longest": 59,
+        "average": 43.9
+      },
+      "sentenceWords": {
+        "shortest": 15,
+        "longest": 54,
+        "average": 29.3
+      },
+      "lexicalDiversity": 0.575,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260728-lewandowski-barcelona-200-million-loss",
       "slug": "lewandowski-barcelona-gamble-200-million-euros",

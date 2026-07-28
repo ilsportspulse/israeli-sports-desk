@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T11:59:32.022Z",
+  "generatedAt": "2026-07-28T12:28:51.560Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,58 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 728,
-    "publishedBefore": 447,
-    "cleanPublished": 447,
+    "totalArticles": 732,
+    "publishedBefore": 448,
+    "cleanPublished": 448,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 447,
-    "reviewAfter": 281
+    "publishedAfter": 448,
+    "reviewAfter": 284
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-2026-07-28-kibedy-gordon-gfn-ufc",
+      "slug": "kibedy-gordon-gfn-more-events-ufc-ambition",
+      "title": "Kibedy Gordon wants more GFN nights — but admits the pressure is intense",
+      "statusBefore": "published",
+      "words": 353,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-28-maccabi-herzliya-apeh-ben-nesher-signings",
+      "slug": "maccabi-herzliya-sign-apeh-ben-nesher-returns",
+      "title": "Maccabi Herzliya sign striker Emmanuel Apeh, goalkeeper Sean Ben Nesher set to return",
+      "statusBefore": "review",
+      "words": 412,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-28-maccabi-haifa-bachar-derby-defeat-analysis",
+      "slug": "maccabi-haifa-not-complacent-just-unprepared-bachar-erred-derby",
+      "title": "Maccabi Haifa were not complacent, just unprepared, and Bachar erred, says ONE pundit",
+      "statusBefore": "review",
+      "words": 478,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
     {
       "id": "live-20260728-vakselmen-ukraine-hapoel-jerusalem",
       "slug": "michael-vakselmen-hapoel-jerusalem-ukraine-interest",
@@ -6927,6 +6969,20 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-07-28-kibedy-gordon-gfn-ufc",
+      "slug": "kibedy-gordon-gfn-more-events-ufc-ambition",
+      "title": "Kibedy Gordon wants more GFN nights — but admits the pressure is intense",
+      "statusBefore": "published",
+      "words": 353,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260728-lewandowski-barcelona-200-million-loss",
       "slug": "lewandowski-barcelona-gamble-200-million-euros",
