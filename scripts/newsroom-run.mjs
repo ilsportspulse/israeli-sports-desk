@@ -294,6 +294,40 @@ async function main() {
     console.log("Newsroom is turned OFF in backoffice settings — skipping this cycle.");
     return;
   }
+
+  // Cadence gate (owner 29 Jul, credit-saving): the workflow may fire often
+  // (GitHub cron + iMac dispatcher), but the expensive Claude drafting only runs
+  // at allowed slots. We derive the last REAL run from the newest "Autonomous
+  // newsroom cycle" commit (persists across the ephemeral CI checkout; a gated
+  // no-op run makes no commit, so it never advances the clock). Config lives in
+  // data/cycle-schedule.json — fully backoffice-editable, nothing hardcoded.
+  try {
+    const sched = await readJson("data/cycle-schedule.json").catch(() => null);
+    if (sched && !process.env.FORCE_CYCLE) {
+      const tz = sched.timezone ?? "Asia/Jerusalem";
+      const now = new Date();
+      const hour = Number(new Intl.DateTimeFormat("en-GB", { timeZone: tz, hour: "2-digit", hour12: false }).format(now));
+      const isNight = hour >= (sched.nightStartHour ?? 0) && hour < (sched.nightEndHour ?? 7);
+      let minGap = isNight ? (sched.nightMinGapMinutes ?? 120) : (sched.dayMinGapMinutes ?? 60);
+      // Temporary throttle window (e.g. "sleep cheap until tomorrow 14:00").
+      if (sched.throttleUntil && now < new Date(sched.throttleUntil)) {
+        minGap = Math.max(minGap, sched.throttleMinGapMinutes ?? 600);
+      }
+      let lastIso = null;
+      try {
+        lastIso = execSync('git log -1 --format=%cI --grep="Autonomous newsroom cycle"', { cwd: root, encoding: "utf8" }).trim();
+      } catch { /* geen git-historie (lokaal) → poort open */ }
+      if (lastIso) {
+        const gapMin = (now.getTime() - new Date(lastIso).getTime()) / 60000;
+        if (gapMin < minGap) {
+          console.log(`Cadence gate: last cycle ${Math.round(gapMin)} min ago, need ${minGap} (${isNight ? "night" : "day"}${sched.throttleUntil && now < new Date(sched.throttleUntil) ? ", throttled" : ""}) — skipping to save credits.`);
+          return;
+        }
+      }
+    }
+  } catch (error) {
+    console.warn(`Cadence gate check failed (running anyway): ${error.message}`);
+  }
   const CONFIDENCE_MIN = typeof gates.confidenceThreshold === "number" ? gates.confidenceThreshold : 0.55;
   const NAMECHECK_MIN = typeof gates.namecheckThreshold === "number" ? gates.namecheckThreshold : 0.75;
   const AUTO_PUBLISH = gates.autoPublish === true;

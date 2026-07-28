@@ -1,0 +1,10 @@
+{
+  "note": "Cadans-planning (eigenaar 29 jul, credit-besparing). De cyclus draait alleen als de tijd sinds de vorige echte run >= de minGap voor dat tijdsblok is. nachts 4 runs (elke ~2u tussen 00-07 IL), overdag 1x/uur. throttleUntil = tijdelijke adempauze.",
+  "timezone": "Asia/Jerusalem",
+  "nightStartHour": 0,
+  "nightEndHour": 7,
+  "nightMinGapMinutes": 105,
+  "dayMinGapMinutes": 55,
+  "throttleUntil": "2026-07-29T11:00:00Z",
+  "throttleMinGapMinutes": 600
+}
