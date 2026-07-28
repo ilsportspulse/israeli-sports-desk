@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T02:00:45.226Z",
+  "generatedAt": "2026-07-28T02:35:06.552Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,46 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 687,
-    "publishedBefore": 420,
-    "cleanPublished": 420,
+    "totalArticles": 689,
+    "publishedBefore": 421,
+    "cleanPublished": 421,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 420,
-    "reviewAfter": 267
+    "publishedAfter": 421,
+    "reviewAfter": 268
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-20260728-hapoel-haifa-sardal-twist",
+      "slug": "hapoel-haifa-sardal-contract-twist",
+      "title": "Father's claim adds a twist to Liran Sardal's Hapoel Haifa exit saga",
+      "statusBefore": "review",
+      "words": 450,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-07-28-gordon-brothers-gfn1",
+      "slug": "gordon-brothers-gfn1-tel-aviv-future",
+      "title": "Three Gordon brothers win on the same historic night in Tel Aviv",
+      "statusBefore": "published",
+      "words": 517,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
     {
       "id": "live-2026-07-28-zidane-france-four-tournaments",
       "slug": "zidane-france-coach-eight-year-deal-four-tournaments",
@@ -6537,6 +6567,21 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-07-28-gordon-brothers-gfn1",
+      "slug": "gordon-brothers-gfn1-tel-aviv-future",
+      "title": "Three Gordon brothers win on the same historic night in Tel Aviv",
+      "statusBefore": "published",
+      "words": 517,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
     {
       "id": "live-2026-07-28-israel-u18-basketball-denmark-r16",
       "slug": "israel-u18-basketball-eurobasket-denmark-round-of-16",

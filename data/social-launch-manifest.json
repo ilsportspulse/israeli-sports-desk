@@ -146,21 +146,21 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-28T02:00:44Z",
-    "validUntil": "2026-07-28T14:00:44Z",
+    "checkedAt": "2026-07-28T02:35:06Z",
+    "validUntil": "2026-07-28T14:35:06Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 197,
+        "maxAgeHours": 198,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-07-28-israel-u18-basketball-denmark-r16",
+        "articleId": "live-2026-07-28-gordon-brothers-gfn1",
         "maxAgeHours": 48,
         "requires": []
       },
@@ -174,14 +174,14 @@
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-07-28-hapoel-blatt-talks-resume",
+        "articleId": "live-2026-07-28-israel-u18-basketball-denmark-r16",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 215,
+        "maxAgeHours": 216,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260728-chelsea-veteran-reboot",
+        "articleId": "live-2026-07-28-hapoel-blatt-talks-resume",
         "maxAgeHours": 24,
         "requires": []
       }

@@ -1,5 +1,69 @@
 [
   {
+    "ts": "2026-07-28T02:29:37.223Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 8,
+    "published": 1,
+    "review": 1,
+    "skipped": 6,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "yanai-vows-ginat-will-retire-champion-israel-europe",
+        "title": "Hapoel Tel Aviv owner vows Ginat will retire as champion of Israel and Europe",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "ahavat-gordon-survives-lineker-power-gfn1-tel-aviv",
+        "title": "Ahavat Hashem Gordon survives John Lineker's power to win GFN 1 headliner in Tel Aviv",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "held-duplicate-loai-halaf-bnei-sakhnin",
+        "title": "",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "yuval-shneiderman-signs-hapoel-eilat",
+        "title": "Guard Yuval Shneiderman signs with Hapoel Eilat for top-flight return",
+        "decision": "duplicate",
+        "reason": "same event as yuval-schneiderman-signs-hapoel-ironi-eilat"
+      },
+      {
+        "slug": "gordon-brothers-gfn1-tel-aviv-future",
+        "title": "Three Gordon brothers win on the same historic night in Tel Aviv",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "kings-kangwa-aek-athens-deal-collapse-panathinaikos",
+        "title": "Not even for 10 million euros: how Kings Kangwa's move to AEK Athens blew up",
+        "decision": "duplicate",
+        "reason": "same event as kangwa-champions-league-equalizer-vikingur-aek-transfer"
+      },
+      {
+        "slug": "hapoel-haifa-sardal-contract-twist",
+        "title": "Father's claim adds a twist to Liran Sardal's Hapoel Haifa exit saga",
+        "confidence": 0.78,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Contract outcome remains genuinely unresolved — the club and the player's father give conflicting accounts of whether reduced terms were already accepted; treat as a developing situation."
+      },
+      {
+        "slug": "ahavat-hashem-gordon-beats-lineker-gfn1-tel-aviv",
+        "title": "Ahavat Hashem Gordon survives brutal decision over John Lineker to headline GFN 1 in Tel Aviv",
+        "decision": "duplicate"
+      }
+    ]
+  },
+  {
     "ts": "2026-07-28T01:55:26.701Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -3394,74 +3458,6 @@
         "slug": "hapoel-beer-sheva-kangwa-panathinaikos-fee",
         "title": "Hapoel Beer Sheva set to land €4m as Kangwa completes move to Panathinaikos",
         "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-07-24T23:34:32.916Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 8,
-    "published": 4,
-    "review": 0,
-    "skipped": 4,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "dolev-haziza-signs-two-year-deal-maccabi-netanya",
-        "title": "Dolev Haziza leaves Maccabi Haifa to sign two-year deal at Maccabi Netanya",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "ex-maccabi-tel-aviv-alex-garcia-bauru-contract-until-47",
-        "title": "Ex-Maccabi Tel Aviv guard Alex Garcia signs on to play until at least 47",
-        "confidence": 0.75,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "orian-goren-barcelona-first-team-debut-europa-friendly",
-        "title": "Orian Goren, 17, makes his Barcelona debut in preseason win over Europa",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "kevin-kampl-bundesliga-retirement-mallorca-farm",
-        "title": "Bundesliga star Kevin Kampl trades the pitch for a Mallorca vegetable farm after family tragedy",
-        "confidence": 0.88,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "pogacar-alpe-dhuez-record-pantani",
-        "title": "Pogačar shatters Pantani's Alpe d'Huez record with fifth stage win",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "lebron-james-takes-veteran-minimum-to-join-76ers",
-        "title": "LeBron James takes a fraction of his old salary to sign with the 76ers",
-        "confidence": 0.92,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "kings-kangwa-farewell-hapoel-beer-sheva-panathinaikos",
-        "title": "Kangwa bids farewell to Beersheba as Panathinaikos move nears",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "david-musis-israeli-basketball-talent-heads-to-florida-atlantic",
-        "title": "Israeli basketball prospect David Musis set for move to Florida Atlantic",
-        "confidence": 0.78,
         "gate": "pass",
         "decision": "published",
         "reason": ""
