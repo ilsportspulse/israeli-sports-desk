@@ -261,7 +261,7 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "MMA record cited as 8-2 (Sport5/Sherdog); Gordon's own Instagram lists 7-2 - minor discrepancy between trackers on an undisputed detail.",
+    "warning": "Duplicate: same KO (Kibedy Gordon vs Quinones, GFN 1) already published as live-20260727-kibedy-gordon-knockout-quinones. Held automatically.",
     "commonsQuery": "Menora Mivtachim Arena Tel Aviv",
     "commonsCandidates": [
       {
@@ -283,7 +283,10 @@
         "license": "CC BY 3.0"
       }
     ],
-    "status": "published"
+    "status": "review",
+    "reviewReasons": [
+      "duplicate-of:live-20260727-kibedy-gordon-knockout-quinones"
+    ]
   },
   {
     "id": "live-2026-07-27-gordon-brothers-gfn1-lineker",

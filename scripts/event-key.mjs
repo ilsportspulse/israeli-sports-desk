@@ -31,6 +31,11 @@ const ACTION_CLASSES = [
   ["injury", /\b(injur\w+|surgery|sidelined|ruled out|out for)\b/i],
   ["exit", /\b(leav\w+|exits?|departs?|released|sacked|fired|resigns?|retir\w+)\b/i],
   ["appointment", /\b(named|appointed|takes over|new (?:coach|manager|boss))\b/i],
+  // One fight/match outcome told twice ("flattens" vs "knocks out", 28 Jul
+  // Kibedy Gordon dup). Same person + this class + shared context (opponent,
+  // event) within days = one story; different opponents share no context, so
+  // routine weekly results never collide.
+  ["result-win", /\b(knock(?:s|ed)?(?:[ -]?out)?|ko\b|flatten\w*|stoppage|submission|tko|beats?|defeats?|edges|outpoints?|wins? (?:by|over|against))\b/i],
 ];
 
 export function actionClassOf(text) {
