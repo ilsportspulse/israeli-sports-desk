@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T10:59:42.923Z",
+  "generatedAt": "2026-07-28T11:36:28.124Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,88 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 717,
-    "publishedBefore": 442,
-    "cleanPublished": 442,
+    "totalArticles": 723,
+    "publishedBefore": 446,
+    "cleanPublished": 446,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 442,
-    "reviewAfter": 275
+    "publishedAfter": 446,
+    "reviewAfter": 277
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-20260728-yan-diomande-ronaldo-shoes",
+      "slug": "yan-diomande-real-madrid-tragedy-ronaldo",
+      "title": "The teenager chasing Ronaldo's shoes at the Bernabéu carries a private tragedy behind him",
+      "statusBefore": "published",
+      "words": 569,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260728-tiberias-lawyer-ifa-spokesman-complaint",
+      "slug": "tiberias-lawyer-ifa-spokesman-complaint",
+      "title": "Tiberias lawyer says IFA spokesman is announcing the verdict before the hearing",
+      "statusBefore": "review",
+      "words": 418,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-28-shichat-hayom-promo",
+      "slug": "one-shichat-hayom-live-show-promo",
+      "title": "ONE plugs today's live episode of its sports talk show Shichat Hayom",
+      "statusBefore": "review",
+      "words": 285,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-07-28-uefa-var-reform",
+      "slug": "uefa-var-reform-clear-and-obvious-errors",
+      "title": "Uefa moves to scale back VAR and hand authority back to referees",
+      "statusBefore": "published",
+      "words": 492,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-28-dor-gabay-wounded-soldier-exhibition",
+      "slug": "wounded-golani-soldier-dor-gabay-exhibition-bout-gfn",
+      "title": "Wounded Golani soldier steps into the ring at GFN 1 to inspire other injured troops",
+      "statusBefore": "published",
+      "words": 330,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-07-28-sakhnin-eye-hatuel",
       "slug": "bnei-sakhnin-weigh-free-agent-rotem-hatuel",
@@ -54,8 +126,7 @@
       "verificationSources": 3,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline",
-        "media:no-action-or-competition-context-detected"
+        "presentation:outlet-name-in-headline"
       ]
     },
     {
@@ -6828,6 +6899,62 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-20260728-yan-diomande-ronaldo-shoes",
+      "slug": "yan-diomande-real-madrid-tragedy-ronaldo",
+      "title": "The teenager chasing Ronaldo's shoes at the Bernabéu carries a private tragedy behind him",
+      "statusBefore": "published",
+      "words": 569,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-28-bnei-herzliya-akonis-title-maccabi",
+      "slug": "bnei-herzliya-akonis-title-maccabi-naturalization-dispute",
+      "title": "Bnei Herzliya chief hits back: 'We took a title from the big Maccabi, something Hapoel couldn't do'",
+      "statusBefore": "published",
+      "words": 462,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-07-28-uefa-var-reform",
+      "slug": "uefa-var-reform-clear-and-obvious-errors",
+      "title": "Uefa moves to scale back VAR and hand authority back to referees",
+      "statusBefore": "published",
+      "words": 492,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-28-dor-gabay-wounded-soldier-exhibition",
+      "slug": "wounded-golani-soldier-dor-gabay-exhibition-bout-gfn",
+      "title": "Wounded Golani soldier steps into the ring at GFN 1 to inspire other injured troops",
+      "statusBefore": "published",
+      "words": 330,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-20260728-omer-katz-maccabi-haifa-candidate",
       "slug": "omer-katz-emerges-maccabi-haifa-goalkeeper-target",
       "title": "Maccabi Haifa weigh free move for Hapoel Petah Tikva goalkeeper Omer Katz",
@@ -6838,8 +6965,7 @@
       "verificationSources": 3,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline",
-        "media:no-action-or-competition-context-detected"
+        "presentation:outlet-name-in-headline"
       ]
     },
     {

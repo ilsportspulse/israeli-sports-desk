@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T10:59:43.250Z",
+  "generatedAt": "2026-07-28T11:36:28.441Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 442,
+    "publishedArticles": 446,
     "wordCount": {
       "minimum": 231,
       "maximum": 1070,
-      "median": 452.5,
-      "average": 465
+      "median": 453,
+      "average": 464.9
     },
     "paragraphDistribution": {
       "5": 2,
       "6": 13,
-      "7": 72,
+      "7": 73,
       "8": 119,
-      "9": 111,
-      "10": 85,
+      "9": 113,
+      "10": 86,
       "11": 24,
       "12": 6,
       "13": 4,
@@ -33,11 +33,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.269,
+    "dominantParagraphShare": 0.267,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 13,
     "analysisBelowTarget": 4,
-    "articlesWithStyleFlags": 46
+    "articlesWithStyleFlags": 47
   },
   "flagged": [
     {
@@ -62,6 +62,29 @@
       "flags": [
         "stock-phrase:statement-of-intent",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-07-28-uefa-var-reform",
+      "slug": "uefa-var-reform-clear-and-obvious-errors",
+      "title": "Uefa moves to scale back VAR and hand authority back to referees",
+      "kind": "news",
+      "words": 489,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 39,
+        "longest": 71,
+        "average": 54.3
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 56,
+        "average": 34.9
+      },
+      "lexicalDiversity": 0.579,
+      "publisherAttributions": 0,
+      "flags": [
+        "stock-phrase:remains-to-be-seen"
       ]
     },
     {
@@ -1101,6 +1124,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260728-yan-diomande-ronaldo-shoes",
+      "slug": "yan-diomande-real-madrid-tragedy-ronaldo",
+      "title": "The teenager chasing Ronaldo's shoes at the Bernabéu carries a private tragedy behind him",
+      "kind": "article",
+      "words": 562,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 40,
+        "longest": 71,
+        "average": 56.2
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 55,
+        "average": 29.6
+      },
+      "lexicalDiversity": 0.591,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-28-bnei-herzliya-akonis-title-maccabi",
+      "slug": "bnei-herzliya-akonis-title-maccabi-naturalization-dispute",
+      "title": "Bnei Herzliya chief hits back: 'We took a title from the big Maccabi, something Hapoel couldn't do'",
+      "kind": "news",
+      "words": 462,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 32,
+        "longest": 70,
+        "average": 51.3
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 74,
+        "average": 33
+      },
+      "lexicalDiversity": 0.554,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-28-dor-gabay-wounded-soldier-exhibition",
+      "slug": "wounded-golani-soldier-dor-gabay-exhibition-bout-gfn",
+      "title": "Wounded Golani soldier steps into the ring at GFN 1 to inspire other injured troops",
+      "kind": "story",
+      "words": 330,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 29,
+        "longest": 63,
+        "average": 47.1
+      },
+      "sentenceWords": {
+        "shortest": 16,
+        "longest": 67,
+        "average": 30
+      },
+      "lexicalDiversity": 0.576,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-20260728-omer-katz-maccabi-haifa-candidate",
       "slug": "omer-katz-emerges-maccabi-haifa-goalkeeper-target",

@@ -146,21 +146,21 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-28T10:59:42Z",
-    "validUntil": "2026-07-28T22:59:42Z",
+    "checkedAt": "2026-07-28T11:36:27Z",
+    "validUntil": "2026-07-28T23:36:27Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 206,
+        "maxAgeHours": 207,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260728-omer-katz-maccabi-haifa-candidate",
+        "articleId": "live-20260728-yan-diomande-ronaldo-shoes",
         "maxAgeHours": 48,
         "requires": []
       },
@@ -174,14 +174,14 @@
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260728-khalaili-nottingham-forest-bid",
+        "articleId": "live-2026-07-28-bnei-herzliya-akonis-title-maccabi",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 224,
+        "maxAgeHours": 225,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-07-28-shviro-badji-tiberias-haifa-toto-cup",
+        "articleId": "live-2026-07-28-dor-gabay-wounded-soldier-exhibition",
         "maxAgeHours": 24,
         "requires": []
       }
