@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T02:35:06.889Z",
+  "generatedAt": "2026-07-28T07:33:22.684Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 421,
+    "publishedArticles": 425,
     "wordCount": {
       "minimum": 231,
       "maximum": 1070,
       "median": 455,
-      "average": 467.9
+      "average": 467.7
     },
     "paragraphDistribution": {
       "5": 2,
       "6": 13,
-      "7": 67,
-      "8": 112,
+      "7": 68,
+      "8": 113,
       "9": 107,
-      "10": 80,
+      "10": 82,
       "11": 24,
       "12": 6,
       "13": 4,
@@ -1055,6 +1055,90 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260728-pirlo-son-italy-coach-mancini-conte",
+      "slug": "pirlo-son-defends-father-italy-coach-mancini-conte",
+      "title": "Pirlo's son hits back as Italy's coaching search turns to Mancini and Conte",
+      "kind": "article",
+      "words": 501,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 27,
+        "longest": 82,
+        "average": 50.1
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 160,
+        "average": 41.8
+      },
+      "lexicalDiversity": 0.565,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-28-abu-farhi-torino-genoa-scouting",
+      "slug": "torino-genoa-scouting-maccabi-tel-aviv-abu-farhi",
+      "title": "Torino and Genoa keep close watch on Maccabi Tel Aviv's Sayed Abu Farhi",
+      "kind": "news",
+      "words": 410,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 62,
+        "average": 51.3
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 61,
+        "average": 31.5
+      },
+      "lexicalDiversity": 0.605,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260728-commanders-ben-steele-fired",
+      "slug": "commanders-fire-tight-ends-coach-ben-steele-eve-of-camp",
+      "title": "Commanders fire tight ends coach Ben Steele on the eve of training camp after DUI arrest",
+      "kind": "news",
+      "words": 334,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 27,
+        "longest": 65,
+        "average": 47.7
+      },
+      "sentenceWords": {
+        "shortest": 25,
+        "longest": 102,
+        "average": 47.7
+      },
+      "lexicalDiversity": 0.617,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-28-mourinho-real-madrid-squad-puzzle",
+      "slug": "mourinho-real-madrid-squad-puzzle-next-stage",
+      "title": "Puzzle still incomplete: Mourinho weighs Real Madrid's next moves",
+      "kind": "article",
+      "words": 555,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 43,
+        "longest": 69,
+        "average": 55.5
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 48,
+        "average": 24.1
+      },
+      "lexicalDiversity": 0.571,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-07-28-israel-u18-basketball-denmark-r16",
       "slug": "israel-u18-basketball-eurobasket-denmark-round-of-16",

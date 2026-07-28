@@ -1,19 +1,41 @@
 {
   "selections": [
     {
-      "articleId": "live-20260728-hapoel-haifa-sardal-twist",
-      "article": "Father's claim adds a twist to Liran Sardal's Hapoel Haifa exit saga",
-      "file": "File:Liran Serdal - 27 January 2016.JPG",
+      "articleId": "live-20260728-hapoel-beer-sheva-kozuk-vikingur-lineup",
+      "article": "Kozuk weighs lineup changes for Hapoel Beer Sheva's Vikingur return leg",
+      "file": "File:Champions Square 2.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-2026-07-28-gordon-brothers-gfn1",
-      "article": "Three Gordon brothers win on the same historic night in Tel Aviv",
-      "file": "File:Friday night lights with MMA Fight Night 160610-M-XY415-420.jpg",
-      "license": "Public domain"
+      "articleId": "live-20260728-pirlo-son-italy-coach-mancini-conte",
+      "article": "Pirlo's son hits back as Italy's coaching search turns to Mancini and Conte",
+      "file": "File:Roberto mancini in 2021.jpg",
+      "license": "CC BY 4.0"
+    },
+    {
+      "articleId": "live-20260728-commanders-ben-steele-fired",
+      "article": "Commanders fire tight ends coach Ben Steele on the eve of training camp after DUI arrest",
+      "file": "File:Atlanta Falcons at Washington Commanders 2024 21.jpg",
+      "license": "CC0"
+    },
+    {
+      "articleId": "live-2026-07-28-mourinho-real-madrid-squad-puzzle",
+      "article": "Puzzle still incomplete: Mourinho weighs Real Madrid's next moves",
+      "file": "File:José Mourinho.jpg",
+      "license": "CC BY-SA 3.0"
     }
   ],
   "failures": [
+    {
+      "id": "live-2026-07-28-abu-farhi-torino-genoa-scouting",
+      "title": "Torino and Genoa keep close watch on Maccabi Tel Aviv's Sayed Abu Farhi",
+      "error": "image download 429 after retries"
+    },
+    {
+      "id": "live-2026-07-28-hapoel-tirat-carmel-youth-buildout",
+      "title": "Hapoel Tirat Carmel build their Liga Alef push around homegrown youngsters",
+      "error": "image download 429 after retries"
+    },
     {
       "id": "live-2026-07-27-seatbelt-safety-explainer",
       "title": "Not a sports story — ONE seatbelt safety explainer held from publication",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T02:35:06.552Z",
+  "generatedAt": "2026-07-28T07:33:22.376Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,60 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 689,
-    "publishedBefore": 421,
-    "cleanPublished": 421,
+    "totalArticles": 695,
+    "publishedBefore": 425,
+    "cleanPublished": 425,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 421,
-    "reviewAfter": 268
+    "publishedAfter": 425,
+    "reviewAfter": 270
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-20260728-hapoel-beer-sheva-kozuk-vikingur-lineup",
+      "slug": "hapoel-beer-sheva-kozuk-plans-changes-vikingur-return-leg",
+      "title": "Kozuk weighs lineup changes for Hapoel Beer Sheva's Vikingur return leg",
+      "statusBefore": "review",
+      "words": 421,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-07-28-abu-farhi-torino-genoa-scouting",
+      "slug": "torino-genoa-scouting-maccabi-tel-aviv-abu-farhi",
+      "title": "Torino and Genoa keep close watch on Maccabi Tel Aviv's Sayed Abu Farhi",
+      "statusBefore": "published",
+      "words": 410,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-07-28-mourinho-real-madrid-squad-puzzle",
+      "slug": "mourinho-real-madrid-squad-puzzle-next-stage",
+      "title": "Puzzle still incomplete: Mourinho weighs Real Madrid's next moves",
+      "statusBefore": "published",
+      "words": 558,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260728-hapoel-haifa-sardal-twist",
       "slug": "hapoel-haifa-sardal-contract-twist",
@@ -6567,6 +6611,59 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-20260728-pirlo-son-italy-coach-mancini-conte",
+      "slug": "pirlo-son-defends-father-italy-coach-mancini-conte",
+      "title": "Pirlo's son hits back as Italy's coaching search turns to Mancini and Conte",
+      "statusBefore": "published",
+      "words": 503,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-07-28-abu-farhi-torino-genoa-scouting",
+      "slug": "torino-genoa-scouting-maccabi-tel-aviv-abu-farhi",
+      "title": "Torino and Genoa keep close watch on Maccabi Tel Aviv's Sayed Abu Farhi",
+      "statusBefore": "published",
+      "words": 410,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-20260728-commanders-ben-steele-fired",
+      "slug": "commanders-fire-tight-ends-coach-ben-steele-eve-of-camp",
+      "title": "Commanders fire tight ends coach Ben Steele on the eve of training camp after DUI arrest",
+      "statusBefore": "published",
+      "words": 334,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-07-28-mourinho-real-madrid-squad-puzzle",
+      "slug": "mourinho-real-madrid-squad-puzzle-next-stage",
+      "title": "Puzzle still incomplete: Mourinho weighs Real Madrid's next moves",
+      "statusBefore": "published",
+      "words": 558,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-07-28-gordon-brothers-gfn1",
       "slug": "gordon-brothers-gfn1-tel-aviv-future",
