@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T01:21:46.354Z",
+  "generatedAt": "2026-07-28T02:00:45.596Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,18 +11,18 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 419,
+    "publishedArticles": 420,
     "wordCount": {
       "minimum": 231,
       "maximum": 1070,
-      "median": 455,
-      "average": 467.9
+      "median": 454.5,
+      "average": 467.8
     },
     "paragraphDistribution": {
       "5": 2,
       "6": 13,
       "7": 67,
-      "8": 111,
+      "8": 112,
       "9": 106,
       "10": 80,
       "11": 24,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.265,
+    "dominantParagraphShare": 0.267,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 13,
     "analysisBelowTarget": 4,
@@ -1032,6 +1032,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-28-israel-u18-basketball-denmark-r16",
+      "slug": "israel-u18-basketball-eurobasket-denmark-round-of-16",
+      "title": "Israel's under-18s go 3-0 in Italy and draw Denmark in bid to rewrite basketball history",
+      "kind": "news",
+      "words": 432,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 43,
+        "longest": 64,
+        "average": 54
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 58,
+        "average": 30.9
+      },
+      "lexicalDiversity": 0.604,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-07-28-hapoel-blatt-talks-resume",
       "slug": "hapoel-tel-aviv-tamir-blatt-contract-talks-resume",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T01:21:45.931Z",
+  "generatedAt": "2026-07-28T02:00:45.226Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,58 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 684,
-    "publishedBefore": 419,
-    "cleanPublished": 419,
+    "totalArticles": 687,
+    "publishedBefore": 420,
+    "cleanPublished": 420,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 419,
-    "reviewAfter": 265
+    "publishedAfter": 420,
+    "reviewAfter": 267
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-2026-07-28-zidane-france-four-tournaments",
+      "slug": "zidane-france-coach-eight-year-deal-four-tournaments",
+      "title": "Zidane pushes for four-tournament, eight-year deal as France's new coach",
+      "statusBefore": "review",
+      "words": 406,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-07-28-israel-u18-basketball-denmark-r16",
+      "slug": "israel-u18-basketball-eurobasket-denmark-round-of-16",
+      "title": "Israel's under-18s go 3-0 in Italy and draw Denmark in bid to rewrite basketball history",
+      "statusBefore": "published",
+      "words": 432,
+      "paragraphs": 8,
+      "facts": 9,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260728-ruach-gordon-wins-judges-decision",
+      "slug": "ruach-hashem-gordon-judges-decision-win-gfn",
+      "title": "Ruach Hashem Gordon grinds out points win as brothers' promotion debuts in Tel Aviv",
+      "statusBefore": "review",
+      "words": 470,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-07-28-hapoel-blatt-talks-resume",
       "slug": "hapoel-tel-aviv-tamir-blatt-contract-talks-resume",
@@ -6495,6 +6537,20 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-07-28-israel-u18-basketball-denmark-r16",
+      "slug": "israel-u18-basketball-eurobasket-denmark-round-of-16",
+      "title": "Israel's under-18s go 3-0 in Italy and draw Denmark in bid to rewrite basketball history",
+      "statusBefore": "published",
+      "words": 432,
+      "paragraphs": 8,
+      "facts": 9,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-07-28-hapoel-blatt-talks-resume",
       "slug": "hapoel-tel-aviv-tamir-blatt-contract-talks-resume",
