@@ -157,6 +157,11 @@ for (let i = 0; i < remaining2.length; i++) {
     let person = 0;
     for (const p of A.persons) if (B.persons.has(p)) person++;
     if (!person) continue;
+    // A shared SURNAME alone is not the same person: the Gordon brothers each
+    // won on the same Tel Aviv card (28 Jul) and were falsely merged. For
+    // result-class events, demand at least two shared person tokens (first AND
+    // last name) before treating two victories as one story.
+    if (A.action === "result-win" && person < 2) continue;
     // Context requirement: besides the person, the two stories must share at
     // least two distinctive scene tokens (club, city, counterpart). A world star
     // generates several genuinely different stories in one week (a transfer

@@ -1,0 +1,35 @@
+{
+  "note": "Privé-monitoringlijsten (28 jul): stille bron-coverage naar de duizenden. De build-script verifieert elk handle op X en slaat niet-bestaande over; dagelijkse batches. Uitbreiding gebeurt via oogsten van leden uit publieke lijsten (x-list-harvest).",
+  "lists": [
+    {
+      "name": "IL Media Watch",
+      "description": "Israeli media, Hebrew and English",
+      "seed": ["ONE_CO_IL", "sport5il", "WallaSport", "ynetsport", "Sport1_Sport2", "haaretzcom", "IsraelHayomEng", "TimesofIsrael", "Jerusalem_Post", "ynetnews", "N12News", "kann_news", "i24NEWS_EN", "i24NEWS_HE", "GLZRadio", "ynet", "MaarivOnline", "Now14Israel", "newsisrael13", "ynetalerts", "JerusalemPost_", "haaretz_hebrew", "TheSportsRabbi", "JewishPress", "JTAnews", "jdforward", "kann_11", "reshet13sport"]
+    },
+    {
+      "name": "IL Clubs & Federations",
+      "description": "Israeli clubs and governing bodies, all sports",
+      "seed": ["MaccabiTLVFC", "mhfootballclub", "HBS_FC", "fcbeitar", "HapoelTelAvivFC", "Fcmn_il", "HapoelHaifaFC", "HapoelJLMfc", "MaccabiTLVBC", "HapoelTLVBC", "MaccabiHaifaFC", "IsraelFA", "IBBAisrael", "Israel_FA", "MacTAbasket", "HapoelJerusalem", "bneisakhninfc", "ashdodfc", "MSAshdodFC", "IroniKiryatShmona", "HapoelBeerShevaFC"]
+    },
+    {
+      "name": "World Media & Insiders",
+      "description": "Global sports media and transfer insiders",
+      "seed": ["BBCSport", "SkySportsNews", "espn", "ESPNFC", "TheAthletic", "guardian_sport", "MailSport", "marca", "mundodeportivo", "diarioas", "Gazzetta_it", "lequipe", "kicker", "BILD_Sport", "Eurosport", "DAZN_DE", "TNTSportsUK", "CBSSportsGolazo", "brfootball", "OptaJoe", "FabrizioRomano", "David_Ornstein", "ShamsCharania", "JeffPassan", "AdamSchefter", "sportsiel", "TeleFoot_chaine", "SkySportDE", "footmercato", "DiMarzio", "relevo", "romeovsworld"]
+    },
+    {
+      "name": "World Football",
+      "description": "Top clubs, leagues and federations",
+      "seed": ["realmadriden", "FCBarcelona", "ManUtd", "ManCity", "LFC", "Arsenal", "ChelseaFC", "SpursOfficial", "juventusfcen", "acmilan", "Inter_en", "FCBayernEN", "BlackYellow", "PSG_English", "atletienglish", "SevillaFC_ENG", "SLBenfica_en", "FCPorto", "Sporting_CP", "Ajax", "Feyenoord", "PSV", "ClubBrugge", "RSCAnderlecht", "OM_English", "AsRomaEN", "SSCNapoliES", "LazioOfficial", "GalatasaraySK", "Fenerbahce_EN", "Besiktas_EN", "OlympiacosFC", "PAOK_FC", "premierleague", "LaLigaEN", "SerieA_EN", "Bundesliga_EN", "Ligue1UberEats", "ChampionsLeague", "EuropaLeague", "europacnfleague", "FIFAWorldCup", "FIFAcom", "UEFA", "CAF_Online", "Concacaf", "AFC_Media", "fifacom_es"]
+    },
+    {
+      "name": "World Basketball & US Sports",
+      "description": "NBA, EuroLeague, US leagues",
+      "seed": ["NBA", "EuroLeague", "FIBA", "FIBAWC", "Lakers", "warriors", "celtics", "chicagobulls", "nyknicks", "BrooklynNets", "sixers", "MiamiHEAT", "Bucks", "cavs", "Pacers", "DetroitPistons", "Raptors", "ATLHawks", "OrlandoMagic", "WashWizards", "hornets", "dallasmavs", "HoustonRockets", "memgrizz", "PelicansNBA", "spurs", "nuggets", "Timberwolves", "okcthunder", "trailblazers", "utahjazz", "Suns", "SacramentoKings", "LAClippers", "NFL", "NHL", "MLB", "MaccabiBC", "PartizanBC", "kkcrvenazvezda", "RMBaloncesto", "FCBbasket", "PanathinaikosBC", "Olympiacos_BC", "AnadoluEfesSK", "FenerbahceBasket"]
+    },
+    {
+      "name": "Combat, Tennis & More",
+      "description": "MMA, boxing, tennis, athletics, Olympic sports",
+      "seed": ["ufc", "danawhite", "ONEChampionship", "PFLMMA", "BellatorMMA", "MMAFighting", "MMAjunkie", "arielhelwani", "atptour", "WTA", "ITFTennis", "Wimbledon", "rolandgarros", "usopen", "AustralianOpen", "WorldAthletics", "Olympics", "Paralympics", "FINAofficial", "UWW", "IJF_Official", "swimswamnews", "insidethegames"]
+    }
+  ]
+}

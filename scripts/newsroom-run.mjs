@@ -402,9 +402,12 @@ async function main() {
     const toks = contextTokensOf(article);
     for (const p of recentEventPrints) {
       if (p.action !== action) continue;
-      let person = false;
-      for (const name of persons) if (p.persons.has(name)) { person = true; break; }
+      let person = 0;
+      for (const name of persons) if (p.persons.has(name)) person++;
       if (!person) continue;
+      // Shared surname ≠ same person (the Gordon brothers both won on one Tel
+      // Aviv card): result-class events need first AND last name in common.
+      if (action === "result-win" && person < 2) continue;
       // Same scene too: at least two shared non-person context tokens, so a
       // star's genuinely different stories in the same week stay separate.
       let sharedOthers = 0;
