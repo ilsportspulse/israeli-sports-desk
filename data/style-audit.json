@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T14:23:22.026Z",
+  "generatedAt": "2026-07-28T16:43:50.780Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 452,
+    "publishedArticles": 454,
     "wordCount": {
       "minimum": 231,
       "maximum": 1070,
       "median": 452,
-      "average": 464.3
+      "average": 464.1
     },
     "paragraphDistribution": {
       "5": 2,
       "6": 13,
       "7": 73,
-      "8": 121,
+      "8": 122,
       "9": 117,
-      "10": 86,
+      "10": 87,
       "11": 24,
       "12": 6,
       "13": 4,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.268,
+    "dominantParagraphShare": 0.269,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 13,
     "analysisBelowTarget": 4,
@@ -1125,6 +1125,69 @@
   ],
   "clean": [
     {
+      "id": "live-2026-07-28-maccabi-haifa-debuts-tsunami-bruninho",
+      "slug": "maccabi-haifa-tsunami-bruninho-debut-kiryat-shmona",
+      "title": "Tsunami and Bruninho handed full debuts as Maccabi Haifa chase a Toto Cup response",
+      "kind": "news",
+      "words": 427,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 28,
+        "longest": 56,
+        "average": 42.7
+      },
+      "sentenceWords": {
+        "shortest": 20,
+        "longest": 50,
+        "average": 32.8
+      },
+      "lexicalDiversity": 0.593,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-28-gvardiol-city-henderson-chelsea",
+      "slug": "gvardiol-city-contract-henderson-chelsea-transfer",
+      "title": "Gvardiol extends Manchester City contract as Henderson closes in on Chelsea",
+      "kind": "news",
+      "words": 440,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 44,
+        "longest": 76,
+        "average": 55
+      },
+      "sentenceWords": {
+        "shortest": 22,
+        "longest": 54,
+        "average": 36.7
+      },
+      "lexicalDiversity": 0.591,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-28-maccabi-netanya-open-training",
+      "slug": "maccabi-netanya-open-training-session-fans",
+      "title": "Thousands turn out as Maccabi Netanya hold open training session",
+      "kind": "article",
+      "words": 363,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 55,
+        "average": 45.4
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 52,
+        "average": 30.3
+      },
+      "lexicalDiversity": 0.603,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
       "id": "live-2026-07-28-hapoel-haifa-elias-signing",
       "slug": "hapoel-haifa-elias-signing-joint-decision-players",
       "title": "Elias signing at Hapoel Haifa was a joint call with players, says owner Katz",
@@ -1520,27 +1583,6 @@
         "average": 44.4
       },
       "lexicalDiversity": 0.603,
-      "publisherAttributions": 1,
-      "flags": []
-    },
-    {
-      "id": "live-20260728-halaili-tsunami-haifa-toto-cup",
-      "slug": "halaili-keeps-place-wanderson-tsunami-maccabi-haifa",
-      "title": "Halaili keeps Maccabi Haifa's faith as Wanderson Tsunami joins the squad picture",
-      "kind": "article",
-      "words": 379,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 33,
-        "longest": 78,
-        "average": 47.4
-      },
-      "sentenceWords": {
-        "shortest": 16,
-        "longest": 54,
-        "average": 37.9
-      },
-      "lexicalDiversity": 0.641,
       "publisherAttributions": 1,
       "flags": []
     },

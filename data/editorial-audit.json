@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T14:23:21.708Z",
+  "generatedAt": "2026-07-28T16:43:50.460Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,62 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 737,
-    "publishedBefore": 452,
-    "cleanPublished": 452,
+    "totalArticles": 742,
+    "publishedBefore": 454,
+    "cleanPublished": 454,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 452,
-    "reviewAfter": 285
+    "publishedAfter": 454,
+    "reviewAfter": 288
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-2026-07-28-gvardiol-city-henderson-chelsea",
+      "slug": "gvardiol-city-contract-henderson-chelsea-transfer",
+      "title": "Gvardiol extends Manchester City contract as Henderson closes in on Chelsea",
+      "statusBefore": "published",
+      "words": 443,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-28-graba-kiryat-shmona-youth-transfer",
+      "slug": "mohammad-graba-leaves-maccabi-haifa-academy-kiryat-shmona",
+      "title": "Winger Mohammad Graba leaves Maccabi Haifa academy for Kiryat Shmona",
+      "statusBefore": "review",
+      "words": 265,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-20260728-real-madrid-leganes-preseason-friendly",
+      "slug": "real-madrid-leganes-preseason-friendly-in-progress",
+      "title": "Real Madrid host Leganés in Mourinho's first preseason friendly",
+      "statusBefore": "review",
+      "words": 85,
+      "paragraphs": 3,
+      "facts": 5,
+      "verificationSources": 1,
+      "blockers": [
+        "copy-depth:85/220-words",
+        "structure:3/5-paragraphs"
+      ],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-07-28-hapoel-haifa-elias-signing",
       "slug": "hapoel-haifa-elias-signing-joint-decision-players",
@@ -406,7 +452,7 @@
       "id": "live-20260728-halaili-tsunami-haifa-toto-cup",
       "slug": "halaili-keeps-place-wanderson-tsunami-maccabi-haifa",
       "title": "Halaili keeps Maccabi Haifa's faith as Wanderson Tsunami joins the squad picture",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 378,
       "paragraphs": 8,
       "facts": 6,
@@ -7014,6 +7060,44 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-2026-07-28-maccabi-haifa-debuts-tsunami-bruninho",
+      "slug": "maccabi-haifa-tsunami-bruninho-debut-kiryat-shmona",
+      "title": "Tsunami and Bruninho handed full debuts as Maccabi Haifa chase a Toto Cup response",
+      "statusBefore": "published",
+      "words": 426,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-07-28-gvardiol-city-henderson-chelsea",
+      "slug": "gvardiol-city-contract-henderson-chelsea-transfer",
+      "title": "Gvardiol extends Manchester City contract as Henderson closes in on Chelsea",
+      "statusBefore": "published",
+      "words": 443,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-28-maccabi-netanya-open-training",
+      "slug": "maccabi-netanya-open-training-session-fans",
+      "title": "Thousands turn out as Maccabi Netanya hold open training session",
+      "statusBefore": "published",
+      "words": 363,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
       "id": "live-2026-07-28-hapoel-haifa-elias-signing",
       "slug": "hapoel-haifa-elias-signing-joint-decision-players",
       "title": "Elias signing at Hapoel Haifa was a joint call with players, says owner Katz",
@@ -7298,20 +7382,6 @@
       "blockers": [],
       "warnings": [
         "voice:publisher-attribution-heavy:2"
-      ]
-    },
-    {
-      "id": "live-20260728-halaili-tsunami-haifa-toto-cup",
-      "slug": "halaili-keeps-place-wanderson-tsunami-maccabi-haifa",
-      "title": "Halaili keeps Maccabi Haifa's faith as Wanderson Tsunami joins the squad picture",
-      "statusBefore": "published",
-      "words": 378,
-      "paragraphs": 8,
-      "facts": 6,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
       ]
     },
     {

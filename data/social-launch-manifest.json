@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-28T14:23:21Z",
-    "validUntil": "2026-07-29T02:23:21Z",
+    "checkedAt": "2026-07-28T16:43:50Z",
+    "validUntil": "2026-07-29T04:43:50Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 209,
+        "maxAgeHours": 212,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-07-28-hapoel-haifa-elias-signing",
+        "articleId": "live-2026-07-28-maccabi-haifa-debuts-tsunami-bruninho",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 217,
+        "maxAgeHours": 219,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-07-28-beitar-jerusalem-bucharest-hotel-welcome",
+        "articleId": "live-2026-07-28-gvardiol-city-henderson-chelsea",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 227,
+        "maxAgeHours": 230,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-07-28-womens-basketball-funding-distortion",
+        "articleId": "live-2026-07-28-maccabi-netanya-open-training",
         "maxAgeHours": 24,
         "requires": []
       }
