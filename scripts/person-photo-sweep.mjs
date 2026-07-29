@@ -32,12 +32,60 @@ const usedUrls = new Set(Object.values(media).map((m) => m.creditUrl));
 const targets = JSON.parse(readFileSync(process.env.SWEEP_INPUT ?? "/tmp/ilsp-suspects.json", "utf8"));
 const byId = new Map(articles.map((a) => [a.id, a]));
 
-let replaced = 0, unmatched = [];
+// X-signalen: matchfoto's van de betrokken persoon/wedstrijd. Voor Israëlische
+// spelers zonder Commons-portret is de relevante foto de foto van hun eigen
+// moment op X (Sport5/ONE/Sport1) — dat is de foto die BIJ het verhaal hoort.
+const xSignals = (() => {
+  try { return JSON.parse(readFileSync(path.join(root, "data/x-signals.json"), "utf8")).signals ?? []; }
+  catch { return []; }
+})();
+// Simpele Hebreeuwse achternaam-hints per verhaal ontbreken; we matchen op de
+// Latijnse tokens die ook in de tweettekst kunnen staan én op reeds-gekoppelde
+// officialSocialPost. Alleen tweets MET photoUrl tellen.
+const xPhotoFor = (article, names) => {
+  if (article.officialSocialPost?.url) {
+    const s = xSignals.find((x) => x.url === article.officialSocialPost.url && x.photoUrl);
+    if (s) return { url: s.photoUrl, post: s.url, handle: s.handle };
+  }
+  const toks = names.flatMap((n) => n.split(" ")).filter((t) => t.length >= 4);
+  for (const s of xSignals) {
+    if (!s.photoUrl) continue;
+    const hay = (s.text ?? "").toLowerCase();
+    if (toks.some((t) => hay.includes(t.toLowerCase()))) return { url: s.photoUrl, post: s.url, handle: s.handle };
+  }
+  return null;
+};
+
+let replaced = 0, xReplaced = 0, unmatched = [];
 for (const id of targets) {
   const article = byId.get(id);
   if (!article) continue;
   const names = namesOf(article.title);
   let done = false;
+  // Tier 0: relevante X-matchfoto (gratis, altijd on-topic).
+  const xp = names.length ? xPhotoFor(article, names) : null;
+  if (xp && !usedUrls.has(xp.post)) {
+    try {
+      const res = await fetch(`${xp.url}${xp.url.includes("?") ? "&" : "?"}name=large`, { headers: UA });
+      if (res.ok) {
+        const slugFile = `${article.slug}.jpg`;
+        await pipeline(res.body, createWriteStream(path.join(root, "public/media/stories", slugFile)));
+        media[id] = {
+          src: `/media/stories/${slugFile}`,
+          alt: names[0],
+          caption: `${names[0]}. ${xp.handle} via X.`,
+          credit: `${xp.handle} via X`, creditUrl: xp.post,
+          license: "Publisher photo, linked to the original post", licenseUrl: xp.post,
+          changes: "Resized; the full frame is on the original post.",
+        };
+        usedUrls.add(xp.post);
+        console.log(`✓X ${id} → ${xp.handle}`);
+        xReplaced += 1; replaced += 1; done = true;
+        await new Promise((r) => setTimeout(r, 800));
+        continue;
+      }
+    } catch { /* val terug op Commons */ }
+  }
   for (const name of names) {
     if (done) break;
     try {
@@ -79,7 +127,7 @@ for (const id of targets) {
         replaced += 1; done = true;
         break;
       }
-      await new Promise((r) => setTimeout(r, 2600));
+      await new Promise((r) => setTimeout(r, 4200));
     } catch (error) { console.log(`? ${id}: ${error.message.slice(0, 60)}`); }
   }
   if (!done) unmatched.push(id);
