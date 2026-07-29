@@ -1,37 +1,46 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-07-29-elad-brown-rishon-lezion-budget",
-      "article": "\"I aspire to the very top\" — but Rishon LeZion's new coach admits he can't match Bnei Yehuda's budget",
-      "file": "File:Haberfeld Stadium08.jpg",
-      "license": "CC BY-SA 3.0"
-    },
-    {
-      "articleId": "live-2026-07-29-uefa-fifa-forward-enterprise-emergency-meeting",
-      "article": "UEFA's 55 federations to hold emergency meeting over FIFA's World Cup investment plan",
-      "file": "File:FIFA-Headquarter.jpg",
-      "license": "CC BY-SA 3.0"
-    },
-    {
-      "articleId": "live-2026-07-29-ifa-development-plan-new-season",
-      "article": "Israel Football Association lays out development plan for new season",
-      "file": "File:Election Of Ghana Football Association Executives 26.jpg",
+      "articleId": "live-2026-07-29-hapoel-jerusalem-eurocup-belgrade",
+      "article": "Hapoel Jerusalem to play EuroCup home games in Belgrade again this season",
+      "file": "File:Élan béarnais-Hapoel Jerusalem 2019-11-12.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-2026-07-29-israel-youth-handball-croatia-euro-loss",
-      "article": "Croatia 33-29 Israel: youth handball team fall in European Championship opener despite leading for 45 minutes",
-      "file": "File:Hala Aleksandar Nikolić.jpg",
+      "articleId": "live-2026-07-29-mollaei-muki-netanya-reunion",
+      "article": "Mollaei tells Sagi Muki: \"Israel was presented to me as one that murders people\"",
+      "file": "File:Sagi Muki 1.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-20260729-kalmenson-ashdod-tiberias-doping-dispute",
-      "article": "Tiberias owner Kalmenson: Ashdod's legal bid to return to the top flight is \"doomed to fail\"",
-      "file": "File:Yod alef2.JPG",
+      "articleId": "live-2026-07-29-hapoel-ramat-gan-petah-tikva-toto-cup-preview",
+      "article": "Falkoshchenko and Oli start as Hapoel Ramat Gan begin top-flight return against Hapoel Petah Tikva",
+      "file": "File:Rooster. Gallus gallus domesticus. Zoological Center of Tel Aviv-Ramat Gan. Israel. 02.jpg",
       "license": "CC BY-SA 3.0"
+    },
+    {
+      "articleId": "live-2026-07-29-daniel-darzi-loan-hapoel-kfar-saba",
+      "article": "Daniel Darzi joins Hapoel Kfar Saba on season-long loan from Maccabi Haifa",
+      "file": "File:Levita Stadium9.jpg",
+      "license": "Public domain"
     }
   ],
   "failures": [
+    {
+      "id": "live-2026-07-29-ariel-bardugo-baqa-al-gharbiyye",
+      "title": "Goalkeeper Ariel Bardugo stays in Liga Alef North, switches to Hapoel Baqa al-Gharbiyye",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-20260729-liverpool-barcola-bid",
+      "title": "Liverpool prepare offer worth more than €120m for PSG's Bradley Barcola",
+      "error": "image download 429 after retries"
+    },
+    {
+      "id": "live-2026-07-29-yarin-gavri-tzeirei-tamra",
+      "title": "Yarin Gavri joins Tzeirei Tamra ahead of club's second Liga Alef North season",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
     {
       "id": "live-20260729-gfn1-lasry-producer-interview",
       "title": "GFN 1 producer Moti Lasry: \"my goal is to build the biggest event in Israel\"",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T15:07:08.526Z",
+  "generatedAt": "2026-07-29T16:59:29.035Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,59 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 785,
-    "publishedBefore": 477,
-    "cleanPublished": 477,
+    "totalArticles": 792,
+    "publishedBefore": 480,
+    "cleanPublished": 480,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 477,
-    "reviewAfter": 308
+    "publishedAfter": 480,
+    "reviewAfter": 312
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-2026-07-29-mollaei-muki-netanya-reunion",
+      "slug": "mollaei-muki-netanya-judo-reunion",
+      "title": "Mollaei tells Sagi Muki: \"Israel was presented to me as one that murders people\"",
+      "statusBefore": "published",
+      "words": 419,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:3"
+      ]
+    },
+    {
+      "id": "live-20260729-liverpool-barcola-bid",
+      "slug": "liverpool-prepares-huge-bid-barcola",
+      "title": "Liverpool prepare offer worth more than €120m for PSG's Bradley Barcola",
+      "statusBefore": "published",
+      "words": 315,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-07-29-hapoel-ramat-gan-petah-tikva-toto-cup-preview",
+      "slug": "hapoel-ramat-gan-hapoel-petah-tikva-toto-cup-preview",
+      "title": "Falkoshchenko and Oli start as Hapoel Ramat Gan begin top-flight return against Hapoel Petah Tikva",
+      "statusBefore": "review",
+      "words": 387,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260729-gfn1-lasry-producer-interview",
       "slug": "gfn1-producer-moti-lasry-next-event-january",
@@ -7599,6 +7642,47 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-07-29-hapoel-jerusalem-eurocup-belgrade",
+      "slug": "hapoel-jerusalem-eurocup-home-games-belgrade",
+      "title": "Hapoel Jerusalem to play EuroCup home games in Belgrade again this season",
+      "statusBefore": "published",
+      "words": 318,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-07-29-mollaei-muki-netanya-reunion",
+      "slug": "mollaei-muki-netanya-judo-reunion",
+      "title": "Mollaei tells Sagi Muki: \"Israel was presented to me as one that murders people\"",
+      "statusBefore": "published",
+      "words": 419,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:3"
+      ]
+    },
+    {
+      "id": "live-20260729-liverpool-barcola-bid",
+      "slug": "liverpool-prepares-huge-bid-barcola",
+      "title": "Liverpool prepare offer worth more than €120m for PSG's Bradley Barcola",
+      "statusBefore": "published",
+      "words": 315,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
     {
       "id": "live-2026-07-29-elad-brown-rishon-lezion-budget",
       "slug": "elad-brown-hapoel-rishon-lezion-budget-ambition",

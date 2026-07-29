@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T15:07:08.857Z",
+  "generatedAt": "2026-07-29T16:59:29.369Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,18 +11,18 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 477,
+    "publishedArticles": 480,
     "wordCount": {
       "minimum": 231,
       "maximum": 1070,
-      "median": 451,
-      "average": 461.7
+      "median": 449.5,
+      "average": 461
     },
     "paragraphDistribution": {
       "5": 2,
-      "6": 13,
+      "6": 14,
       "7": 80,
-      "8": 131,
+      "8": 133,
       "9": 121,
       "10": 88,
       "11": 25,
@@ -33,11 +33,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.275,
+    "dominantParagraphShare": 0.277,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 13,
+    "exactSixParagraphArticles": 14,
     "analysisBelowTarget": 4,
-    "articlesWithStyleFlags": 49
+    "articlesWithStyleFlags": 50
   },
   "flagged": [
     {
@@ -61,6 +61,29 @@
       "publisherAttributions": 2,
       "flags": [
         "stock-phrase:statement-of-intent",
+        "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-07-29-mollaei-muki-netanya-reunion",
+      "slug": "mollaei-muki-netanya-judo-reunion",
+      "title": "Mollaei tells Sagi Muki: \"Israel was presented to me as one that murders people\"",
+      "kind": "article",
+      "words": 415,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 71,
+        "average": 51.9
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 170,
+        "average": 59.3
+      },
+      "lexicalDiversity": 0.566,
+      "publisherAttributions": 2,
+      "flags": [
         "publisher-attribution-heavy:2"
       ]
     },
@@ -1170,6 +1193,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-29-hapoel-jerusalem-eurocup-belgrade",
+      "slug": "hapoel-jerusalem-eurocup-home-games-belgrade",
+      "title": "Hapoel Jerusalem to play EuroCup home games in Belgrade again this season",
+      "kind": "news",
+      "words": 313,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 39,
+        "longest": 73,
+        "average": 52.2
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 55,
+        "average": 28.5
+      },
+      "lexicalDiversity": 0.61,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260729-liverpool-barcola-bid",
+      "slug": "liverpool-prepares-huge-bid-barcola",
+      "title": "Liverpool prepare offer worth more than €120m for PSG's Bradley Barcola",
+      "kind": "news",
+      "words": 311,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 27,
+        "longest": 50,
+        "average": 38.9
+      },
+      "sentenceWords": {
+        "shortest": 21,
+        "longest": 45,
+        "average": 34.6
+      },
+      "lexicalDiversity": 0.63,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-07-29-elad-brown-rishon-lezion-budget",
       "slug": "elad-brown-hapoel-rishon-lezion-budget-ambition",

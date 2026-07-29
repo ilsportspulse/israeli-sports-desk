@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-29T15:07:08Z",
-    "validUntil": "2026-07-30T03:07:08Z",
+    "checkedAt": "2026-07-29T16:59:28Z",
+    "validUntil": "2026-07-30T04:59:28Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 234,
+        "maxAgeHours": 236,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-07-29-elad-brown-rishon-lezion-budget",
+        "articleId": "live-2026-07-29-hapoel-jerusalem-eurocup-belgrade",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 242,
+        "maxAgeHours": 244,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-07-29-uefa-fifa-forward-enterprise-emergency-meeting",
+        "articleId": "live-2026-07-29-mollaei-muki-netanya-reunion",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 252,
+        "maxAgeHours": 254,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260729-kalmenson-ashdod-tiberias-doping-dispute",
+        "articleId": "live-2026-07-29-elad-brown-rishon-lezion-budget",
         "maxAgeHours": 24,
         "requires": []
       }
