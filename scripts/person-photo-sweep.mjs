@@ -157,53 +157,13 @@ for (const id of targets) {
     } catch { /* val terug op Commons-tier */ }
   }
 
-  // fetchFiles is nodig in Tier 1; het bestaat al verderop in de scope niet, dus
-  // definieer een lokale helper als hij ontbreekt.
-  for (const name of names) {
-    if (done) break;
-    try {
-      const params = new URLSearchParams({ action: "query", list: "search", srnamespace: "6", srlimit: "12", format: "json", maxlag: "5", srsearch: `intitle:"${name}"` });
-      const hits = (((await (await fetch(`${api}?${params}`, { headers: UA })).json()).query ?? {}).search ?? [])
-        .map((h) => h.title)
-        .filter((t) => t.toLowerCase().includes(name.toLowerCase()) && /\.(jpe?g|png)$/i.test(t));
-      if (!hits.length) continue;
-      const ip = new URLSearchParams({ action: "query", prop: "imageinfo", iiprop: "url|size|extmetadata|mime", format: "json", titles: hits.join("|") });
-      const pages = Object.values((((await (await fetch(`${api}?${ip}`, { headers: UA })).json()).query ?? {}).pages ?? {}));
-      for (const title of hits) {
-        const page = pages.find((p) => p.title === title);
-        const ii = page?.imageinfo?.[0];
-        if (!ii || ii.width < MIN_W) continue;
-        if (usedUrls.has(ii.descriptionurl)) continue;
-        const meta = ii.extmetadata ?? {};
-        if (VINTAGE.test(`${title} ${meta.DateTimeOriginal?.value ?? ""} ${meta.ImageDescription?.value ?? ""}`)) continue;
-        const license = (meta.LicenseShortName?.value ?? "").trim();
-        if (!license || /copyright|non-free/i.test(license)) continue;
-        const slugFile = `${article.slug}.jpg`;
-        const out = path.join(root, "public/media/stories", slugFile);
-        const res = await fetch(ii.url.replace(/^http:/, "https:"), { headers: UA });
-        if (!res.ok) continue;
-        await pipeline(res.body, createWriteStream(out));
-        const artist = (meta.Artist?.value ?? "").replace(/<[^>]+>/g, "").trim() || "Wikimedia Commons";
-        media[id] = {
-          src: `/media/stories/${slugFile}`,
-          alt: `${name}`,
-          caption: `${name}. File photograph.`,
-          credit: `${artist} / Wikimedia Commons`,
-          creditUrl: ii.descriptionurl,
-          license,
-          licenseUrl: (meta.LicenseUrl?.value ?? "https://commons.wikimedia.org/wiki/Commons:Licensing").trim(),
-          changes: "Resized and colour-treated; the full frame is preserved in the site layout.",
-          width: ii.width, height: ii.height,
-        };
-        usedUrls.add(ii.descriptionurl);
-        console.log(`✓ ${id} → ${title}`);
-        replaced += 1; done = true;
-        break;
-      }
-      await new Promise((r) => setTimeout(r, 4200));
-    } catch (error) { console.log(`? ${id}: ${error.message.slice(0, 60)}`); }
-  }
+  // De brede Commons intitle-zoektocht is BEWUST GESCHRAPT (29 jul): hij matchte
+  // op losse naamtokens en leverde verkeerde gezichten (een "de Jong"-gedenksteen,
+  // een "Grazer AK"-stadion, naamgenoten, coaches). Alleen Wikipedia-portret
+  // (tier 1) en X-matchfoto (tier 0) zijn betrouwbaar — die zijn per definitie
+  // de juiste persoon of het juiste moment. Rest → onbeslist, gericht handwerk.
   if (!done) unmatched.push(id);
+  await new Promise((r) => setTimeout(r, 400));
 }
 writeFileSync(path.join(root, "data/article-media.json"), `${JSON.stringify(media, null, 2)}\n`);
 writeFileSync("/tmp/ilsp-unmatched.json", JSON.stringify(unmatched, null, 1));
