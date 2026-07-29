@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T13:07:00.509Z",
+  "generatedAt": "2026-07-29T14:29:29.305Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,21 +11,21 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 473,
+    "publishedArticles": 477,
     "wordCount": {
       "minimum": 231,
       "maximum": 1070,
       "median": 451,
-      "average": 462
+      "average": 461.7
     },
     "paragraphDistribution": {
       "5": 2,
       "6": 13,
       "7": 80,
-      "8": 130,
-      "9": 120,
-      "10": 87,
-      "11": 24,
+      "8": 131,
+      "9": 121,
+      "10": 88,
+      "11": 25,
       "12": 7,
       "13": 4,
       "14": 2,
@@ -1170,6 +1170,90 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-29-elad-brown-rishon-lezion-budget",
+      "slug": "elad-brown-hapoel-rishon-lezion-budget-ambition",
+      "title": "\"I aspire to the very top\" — but Rishon LeZion's new coach admits he can't match Bnei Yehuda's budget",
+      "kind": "article",
+      "words": 431,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 73,
+        "average": 53.9
+      },
+      "sentenceWords": {
+        "shortest": 26,
+        "longest": 58,
+        "average": 35.9
+      },
+      "lexicalDiversity": 0.58,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-29-uefa-fifa-forward-enterprise-emergency-meeting",
+      "slug": "uefa-55-federations-emergency-meeting-fifa-forward-enterprise",
+      "title": "UEFA's 55 federations to hold emergency meeting over FIFA's World Cup investment plan",
+      "kind": "news",
+      "words": 533,
+      "paragraphs": 11,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 66,
+        "average": 48.5
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 105,
+        "average": 35.5
+      },
+      "lexicalDiversity": 0.542,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-29-pochettino-usmnt-contract-extension",
+      "slug": "pochettino-usmnt-contract-extension-2030",
+      "title": "Pochettino closing in on new USMNT contract through 2030, ONE reports",
+      "kind": "news",
+      "words": 383,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 49,
+        "average": 38.3
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 128,
+        "average": 38.3
+      },
+      "lexicalDiversity": 0.59,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260729-kalmenson-ashdod-tiberias-doping-dispute",
+      "slug": "kalmenson-slams-ashdod-legal-bid-return-top-flight",
+      "title": "Tiberias owner Kalmenson: Ashdod's legal bid to return to the top flight is \"doomed to fail\"",
+      "kind": "article",
+      "words": 393,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 50,
+        "average": 43.7
+      },
+      "sentenceWords": {
+        "shortest": 37,
+        "longest": 132,
+        "average": 65.5
+      },
+      "lexicalDiversity": 0.616,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-07-29-tiberias-relegation-demand",
       "slug": "tiberias-minimum-punishment-relegation-ashdod-lawyer",

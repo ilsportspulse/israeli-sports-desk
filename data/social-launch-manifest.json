@@ -146,49 +146,49 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-29T13:06:59Z",
-    "validUntil": "2026-07-30T01:06:59Z",
+    "checkedAt": "2026-07-29T14:29:28Z",
+    "validUntil": "2026-07-30T02:29:28Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 232,
+        "maxAgeHours": 233,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-07-29-tiberias-relegation-demand",
+        "articleId": "live-2026-07-29-elad-brown-rishon-lezion-budget",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 240,
+        "maxAgeHours": 241,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "archive-20260729-rio-de-janeiro-12-august-2016-the-bow-th",
+        "articleId": "live-2026-07-29-uefa-fifa-forward-enterprise-emergency-meeting",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 250,
+        "maxAgeHours": 251,
         "requires": [
           "column"
         ]
       },
       {
         "role": "archive",
-        "articleId": "archive-20260728-assago-18-may-2014-the-overtime-night-ma",
+        "articleId": "archive-20260729-rio-de-janeiro-12-august-2016-the-bow-th",
         "maxAgeHours": 53,
         "requires": [
           "historical-feature"
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-07-28-niv-gabai-efficiency-numbers",
+        "articleId": "live-20260729-kalmenson-ashdod-tiberias-doping-dispute",
         "maxAgeHours": 24,
         "requires": []
       }

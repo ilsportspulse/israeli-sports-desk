@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T13:07:00.186Z",
+  "generatedAt": "2026-07-29T14:29:28.966Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,86 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 778,
-    "publishedBefore": 473,
-    "cleanPublished": 473,
+    "totalArticles": 785,
+    "publishedBefore": 477,
+    "cleanPublished": 477,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 473,
-    "reviewAfter": 305
+    "publishedAfter": 477,
+    "reviewAfter": 308
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-20260729-gfn1-lasry-producer-interview",
+      "slug": "gfn1-producer-moti-lasry-next-event-january",
+      "title": "GFN 1 producer Moti Lasry: \"my goal is to build the biggest event in Israel\"",
+      "statusBefore": "review",
+      "words": 472,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-07-29-uefa-fifa-forward-enterprise-emergency-meeting",
+      "slug": "uefa-55-federations-emergency-meeting-fifa-forward-enterprise",
+      "title": "UEFA's 55 federations to hold emergency meeting over FIFA's World Cup investment plan",
+      "statusBefore": "published",
+      "words": 537,
+      "paragraphs": 11,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-29-ifa-development-plan-new-season",
+      "slug": "israel-football-association-development-plan-new-season",
+      "title": "Israel Football Association lays out development plan for new season",
+      "statusBefore": "review",
+      "words": 486,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-29-israel-youth-handball-croatia-euro-loss",
+      "slug": "israel-youth-handball-croatia-euro-loss",
+      "title": "Croatia 33-29 Israel: youth handball team fall in European Championship opener despite leading for 45 minutes",
+      "statusBefore": "review",
+      "words": 313,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-29-pochettino-usmnt-contract-extension",
+      "slug": "pochettino-usmnt-contract-extension-2030",
+      "title": "Pochettino closing in on new USMNT contract through 2030, ONE reports",
+      "statusBefore": "published",
+      "words": 382,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
     {
       "id": "live-2026-07-29-tiberias-relegation-demand",
       "slug": "tiberias-minimum-punishment-relegation-ashdod-lawyer",
@@ -7529,6 +7599,58 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-07-29-elad-brown-rishon-lezion-budget",
+      "slug": "elad-brown-hapoel-rishon-lezion-budget-ambition",
+      "title": "\"I aspire to the very top\" — but Rishon LeZion's new coach admits he can't match Bnei Yehuda's budget",
+      "statusBefore": "published",
+      "words": 435,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-07-29-uefa-fifa-forward-enterprise-emergency-meeting",
+      "slug": "uefa-55-federations-emergency-meeting-fifa-forward-enterprise",
+      "title": "UEFA's 55 federations to hold emergency meeting over FIFA's World Cup investment plan",
+      "statusBefore": "published",
+      "words": 537,
+      "paragraphs": 11,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-29-pochettino-usmnt-contract-extension",
+      "slug": "pochettino-usmnt-contract-extension-2030",
+      "title": "Pochettino closing in on new USMNT contract through 2030, ONE reports",
+      "statusBefore": "published",
+      "words": 382,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-20260729-kalmenson-ashdod-tiberias-doping-dispute",
+      "slug": "kalmenson-slams-ashdod-legal-bid-return-top-flight",
+      "title": "Tiberias owner Kalmenson: Ashdod's legal bid to return to the top flight is \"doomed to fail\"",
+      "statusBefore": "published",
+      "words": 388,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-2026-07-29-tiberias-relegation-demand",
       "slug": "tiberias-minimum-punishment-relegation-ashdod-lawyer",

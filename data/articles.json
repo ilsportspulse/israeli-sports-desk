@@ -1,5 +1,765 @@
 [
   {
+    "id": "live-2026-07-29-elad-brown-rishon-lezion-budget",
+    "slug": "elad-brown-hapoel-rishon-lezion-budget-ambition",
+    "title": "\"I aspire to the very top\" — but Rishon LeZion's new coach admits he can't match Bnei Yehuda's budget",
+    "dek": "Elad Brown, freshly installed at Hapoel Rishon LeZion after five years reviving Maccabi Herzliya, says his squad's spending power trails Liga Leumit's traditional heavyweights even as he targets a return to the top flight.",
+    "category": "Israeli Football",
+    "desk": "israel",
+    "kind": "article",
+    "storyForm": "news",
+    "publishedAt": "2026-07-29T14:24:14.785Z",
+    "updatedAt": "2026-07-29T14:24:14.785Z",
+    "readMinutes": 3,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/529311.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE — interview with Elad Brown",
+        "url": "https://www.one.co.il/Article/529311.html"
+      },
+      {
+        "label": "Walla Sport — Brown appointed Rishon LeZion coach",
+        "url": "https://sports.walla.co.il/item/3841289"
+      },
+      {
+        "label": "BE106 — club announcement of Brown's appointment",
+        "url": "https://www.be106.net/231/143379"
+      }
+    ],
+    "body": [
+      "Elad Brown has barely had time to unpack at Hapoel Rishon LeZion, but the new coach is already being candid about where his club stands financially in Liga Leumit — and it isn't near the top.",
+      "In an interview with ONE ahead of the new season, Brown said he wants to aim as high as possible but acknowledged the gap in resources between his squad and the division's better-funded clubs. \"I aspire to the highest possible, but proportionally we're not like Bnei Yehuda, Bnei Reina or Ashdod — we're not close to there,\" he said.",
+      "Asked about player salaries at his new club, Brown was careful not to put a figure on it but made clear the ceiling is modest by the league's standards. \"It's good, but it doesn't approach Liga Leumit's biggest earners,\" he said.",
+      "Brown, 45, was confirmed as Rishon LeZion's coach in late May, taking over from David Marton on a one-year deal and working through agent Adam Kidan. The move ended a five-year spell at Maccabi Herzliya, where he took the club from Liga Alef into the National League's upper playoff bracket and, this past season, came within touching distance of promotion to Ligat Ha'al before falling short.",
+      "That near-miss with Herzliya, he said, is exactly why he is wary of setting hard targets for Rishon LeZion this early. \"I don't know yet, it's too early to say. With Herzliya, as an example, nobody counted us in and we were still in contention going into the final round — so talking about expectations now isn't right,\" Brown said. \"As a coach I aspire to get there. Whether it happens, I don't know.\"",
+      "The rebuilding job in front of him is substantial: only two players have been retained from last season's Rishon LeZion squad, meaning Brown is essentially assembling a new team from scratch heading into pre-season.",
+      "He identified two specific gaps still to fill — a further central defender expected to arrive later in the window, and an additional creative midfielder to help link play. Stylistically, he wants a team built on effort and intensity rather than reputation. \"A team that fights, runs, tries to play attractive football and hopefully rises eventually,\" is how he described his ambition for the group.",
+      "Rishon LeZion have been outside Ligat Ha'al for 15 consecutive seasons, and Brown's appointment was framed by the club as the start of an effort to end that drought. His comments this week suggest he sees the project as a longer rebuild rather than a one-season sprint, even as bigger-spending rivals like Bnei Yehuda set the pace in the division."
+    ],
+    "facts": [
+      "Elad Brown, 45, was appointed head coach of Hapoel Rishon LeZion (Liga Leumit) in late May 2026, succeeding David Marton on a one-year deal.",
+      "Brown told ONE his squad's budget does not match Liga Leumit clubs such as Bnei Yehuda, Bnei Reina and Ashdod.",
+      "Brown previously spent five seasons as Maccabi Herzliya's coach, taking the club from Liga Alef into the National League's upper playoff bracket and narrowly missing promotion to Ligat Ha'al last season.",
+      "Only two players remain from Rishon LeZion's squad of the previous campaign, per Brown's account.",
+      "Brown says the squad still needs an additional central defender and a creative midfielder before the season starts.",
+      "Hapoel Rishon LeZion have not played in Israel's top flight, Ligat Ha'al, for 15 consecutive seasons."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 42,
+    "homepageReason": "A pre-season coach interview and quotes piece on a second-tier Israeli club — real but modest news value.",
+    "dedupeKey": "hapoel-rishon-lezion-elad-brown-budget-interview-2026",
+    "aiDisclosure": "Drafted by an AI copy desk assistant from a single Hebrew-language source (ONE), cross-checked against Walla Sport and club announcement coverage for names, dates and career history.",
+    "nameChecks": [
+      {
+        "hebrew": "אלעד בראון",
+        "english": "Elad Brown",
+        "verificationUrl": "https://sports.walla.co.il/item/3841289",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "הפועל ראשון לציון",
+        "english": "Hapoel Rishon LeZion",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Hapoel_Rishon_LeZion_F.C.",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "בני יהודה",
+        "english": "Bnei Yehuda",
+        "verificationUrl": "https://he.wikipedia.org/wiki/%D7%91%D7%A0%D7%99_%D7%99%D7%94%D7%95%D7%93%D7%94_%D7%AA%D7%9C_%D7%90%D7%91%D7%99%D7%91",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "בני ריינה",
+        "english": "Bnei Reina",
+        "verificationUrl": "https://www.one.co.il/Article/529311.html",
+        "confidence": 0.75
+      },
+      {
+        "hebrew": "מכבי הרצליה",
+        "english": "Maccabi Herzliya",
+        "verificationUrl": "https://sports.walla.co.il/item/3841289",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "דוד מרטון",
+        "english": "David Marton",
+        "verificationUrl": "https://www.one.co.il/Article/521073.html",
+        "confidence": 0.75
+      },
+      {
+        "hebrew": "אדם קידן",
+        "english": "Adam Kidan",
+        "verificationUrl": "https://www.be106.net/231/143379",
+        "confidence": 0.8
+      }
+    ],
+    "confidence": 0.8,
+    "warning": "",
+    "commonsQuery": "Haberfeld Stadium Rishon LeZion",
+    "commonsCandidates": [
+      {
+        "title": "File:Haberfeld_Stadium08.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Haberfeld_Stadium08.jpg",
+        "credit": "Little Savage / Wikimedia Commons",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "title": "File:RLZ_Haberfeld_Stadium_aerial_view_august_2013.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:RLZ_Haberfeld_Stadium_aerial_view_august_2013.jpg",
+        "credit": "Neukoln (WikiAir Israel) / Wikimedia Commons",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "title": "File:Haberfeld_Stadium.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Haberfeld_Stadium.jpg",
+        "credit": "Avi1111 (dr. avishai teicher) / Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "live-20260729-gfn1-lasry-producer-interview",
+    "slug": "gfn1-producer-moti-lasry-next-event-january",
+    "title": "GFN 1 producer Moti Lasry: \"my goal is to build the biggest event in Israel\"",
+    "dek": "Days after a sold-out 11,000-strong fight night put Israeli combat sports on the world map, producer Moti Lasry tells ONE that a sequel is coming around January — with interest already arriving from Miami and France.",
+    "category": "World Combat Sports",
+    "desk": "israel",
+    "kind": "article",
+    "storyForm": "news",
+    "publishedAt": "2026-07-29T14:24:14.785Z",
+    "updatedAt": "2026-07-29T14:24:14.785Z",
+    "readMinutes": 4,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/529303.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE - producer interview",
+        "url": "https://www.one.co.il/Article/529303.html"
+      },
+      {
+        "label": "MMAmania - GFN 1 main event result",
+        "url": "https://www.mmamania.com/latest-news/460604/highlights-brick-fisted-john-lineker-loses-gfn-1-israel-vs-the-world-main-event-fight"
+      },
+      {
+        "label": "Yahoo Sports - GFN 1 fight card, date and venue",
+        "url": "https://sports.yahoo.com/articles/gfn-1-israel-vs-world-010642388.html"
+      }
+    ],
+    "body": [
+      "Two days after the Menora Mivtachim Arena in Tel Aviv shook to the biggest combat-sports night Israel has staged, the man who built it from scratch is already talking about the next one. Moti Lasry, the producer behind GFN 1: Israel vs. the World, told ONE he expects a follow-up event around January — and that the ambition now is nothing less than the largest event in the country.",
+      "GFN 1 sold out Menora Mivtachim Arena on July 27 with three Israeli brothers, Ahavat Hashem, Ruach Hashem and Kibedy Gordon, each fighting a different international opponent on the same card under Muay Thai rules. In the headline bout, Ahavat Hashem Gordon beat Brazilian veteran and former ONE Championship bantamweight title challenger John Lineker by unanimous decision in front of roughly 11,000 fans, a result that drew coverage from MMA outlets well beyond Israel.",
+      "Lasry, whose background is largely in mainstream event production rather than combat sports, does not pretend the operation was smooth. \"It's the craziest project we've done, because we barely know how to do this,\" he told ONE, describing a crash course in flying in international fighters, coordinating broadcast logistics and filling an arena for a sport with a limited track record of drawing crowds in Israel.",
+      "The numbers he gave ONE illustrate the scale of the gamble. Production alone cost roughly 2.5 million shekels, he said, with close to 400 suppliers involved in pulling the night together, on top of travel and accommodation for fighters brought in from Brazil, Moldova, Mexico and elsewhere.",
+      "Lasry also pointed to a community element to the event: around 2,000 tickets, he said, were distributed free to orphans and to wounded Israelis. It is the kind of detail promoters often use to soften the commercial edge of a big-ticket production, but paired with a sold-out arena it points to an event that reached well beyond a hardcore fight crowd.",
+      "Not every story from the build-up was flattering. Lasry recounted an incident in which a fighter was accused of stealing pickles worth 275 shekels from a vendor. According to his account, the fighter apologized and cried when confronted, saying he had wanted a souvenir from Israel; Lasry says he covered the cost himself rather than let it escalate.",
+      "Looking ahead, Lasry was unambiguous about his intentions. \"My goal is to build the biggest event in Israel,\" he told ONE, adding that GFN has already fielded outside interest in taking the concept abroad, with offers from Miami and France to stage similar nights.",
+      "For now, the next Israeli date is pencilled in for around January, Lasry said, with no opponents or venue confirmed. Given the international attention GFN 1 pulled toward Tel Aviv, in a discipline that rarely gets a mainstream Israeli platform, the sequel will be watched closely both at home and by promoters abroad."
+    ],
+    "facts": [
+      "GFN 1: Israel vs. the World was held on July 27, 2026 at Menora Mivtachim Arena in Tel Aviv, drawing a sold-out crowd of roughly 11,000.",
+      "Ahavat Hashem Gordon beat Brazilian fighter and former ONE Championship title challenger John Lineker by unanimous decision in the Muay Thai main event; brothers Ruach Hashem and Kibedy Gordon also fought international opponents on the card.",
+      "Producer Moti Lasry told ONE the production cost roughly 2.5 million shekels and involved close to 400 suppliers.",
+      "Lasry said about 2,000 tickets were given free to orphans and wounded Israelis.",
+      "Lasry told ONE he expects a follow-up event around January, with the stated goal of building \"the biggest event in Israel,\" and said GFN has received interest from Miami and France.",
+      "Lasry recounted a fighter apologizing after being accused of stealing 275 shekels' worth of pickles during the event build-up."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 46,
+    "homepageReason": "Producer interview unpacking the economics and expansion plans behind a sold-out, internationally covered Tel Aviv fight night — strong context piece, not a live result.",
+    "dedupeKey": "gfn1-lasry-producer-interview-2026-07",
+    "aiDisclosure": "Drafted by an AI copy desk from the cited ONE interview and independently verified background sources; not written by a human reporter.",
+    "nameChecks": [
+      {
+        "hebrew": "מוטי לסרי",
+        "english": "Moti Lasry",
+        "verificationUrl": "https://www.one.co.il/Article/529303.html",
+        "confidence": 0.85
+      },
+      {
+        "hebrew": "אהבת השם גורדון",
+        "english": "Ahavat Hashem Gordon",
+        "verificationUrl": "https://www.mmamania.com/latest-news/460604/highlights-brick-fisted-john-lineker-loses-gfn-1-israel-vs-the-world-main-event-fight",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "רוח השם גורדון",
+        "english": "Ruach Hashem Gordon",
+        "verificationUrl": "https://millions.co/gordonfightnights/news/israeli-brothers-gordon-headline-historic-triple-main-event-gfn-1-facing-global-vg49t2",
+        "confidence": 0.85
+      },
+      {
+        "hebrew": "כבדי גורדון",
+        "english": "Kibedy Gordon",
+        "verificationUrl": "https://www.yardbarker.com/mma/articles/gfn_1_fight_card_lineker_vs_gordon_heads_israel_event/s1_17349_44090962",
+        "confidence": 0.65
+      }
+    ],
+    "confidence": 0.85,
+    "warning": "Cost, supplier, ticket-donation and future-event figures are as stated by producer Moti Lasry to ONE and not independently audited.",
+    "commonsQuery": "Menora Mivtachim Arena Tel Aviv",
+    "commonsCandidates": [
+      {
+        "title": "File:NokiaArena-TelAviv.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:NokiaArena-TelAviv.jpg",
+        "credit": "Utrecht1 / Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:Nokia Arena 01.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Nokia_Arena_01.jpg",
+        "credit": "Little Savage / Wikimedia Commons",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "title": "File:Nokia Arena from above.JPG",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Nokia_Arena_from_above.JPG",
+        "credit": "Tamar HaYardeni, derivative by דוד שי / Wikimedia Commons",
+        "license": "Attribution (free use with credit)"
+      }
+    ],
+    "status": "review"
+  },
+  {
+    "id": "live-2026-07-29-uefa-fifa-forward-enterprise-emergency-meeting",
+    "slug": "uefa-55-federations-emergency-meeting-fifa-forward-enterprise",
+    "title": "UEFA's 55 federations to hold emergency meeting over FIFA's World Cup investment plan",
+    "dek": "European football's governing body says Gianni Infantino's plan to sell stakes in a new commercial arm crosses \"a red line,\" as a fan group demands his resignation.",
+    "category": "World Football",
+    "desk": "international",
+    "kind": "news",
+    "storyForm": "report",
+    "publishedAt": "2026-07-29T14:24:14.785Z",
+    "updatedAt": "2026-07-29T14:24:14.785Z",
+    "readMinutes": 4,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/529328.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/529328.html"
+      },
+      {
+        "label": "Sky Sports",
+        "url": "https://www.skysports.com/football/news/11095/13567829/world-cup-uefa-hit-out-at-fifa-and-gianni-infantino-amid-plans-to-sell-minority-stakes-linked-to-competition"
+      },
+      {
+        "label": "Reuters via The Star",
+        "url": "https://www.thestar.com.my/sport/football/2026/07/29/soccer-uefa-to-hold-emergency-meeting-with-members-over-fifa-private-investment-plan-bbc-reports"
+      },
+      {
+        "label": "Inside World Football",
+        "url": "https://www.insideworldfootball.com/2026/07/29/uefa-says-infantino-plan-crosses-a-red-line-and-world-cup-is-not-fifas-to-sell"
+      }
+    ],
+    "body": [
+      "UEFA is pulling all 55 of its member federations into an emergency virtual meeting this week, alarmed by a FIFA plan to sell outside investors a stake in a new commercial vehicle built to run the World Cup and its other flagship events.",
+      "The proposal, first reported internationally and covered by ONE, centres on a subsidiary FIFA is calling FIFA Forward Enterprise. It would bundle broadcasting, sponsorship, ticketing and licensing rights together with tournament operations, then sell minority, non-controlling stakes to private investors.",
+      "According to reporting on the plan, FIFA has pitched an initial equity valuation of roughly $20 billion for the new entity, with an eye on raising as much as $4.2 billion from outside capital later this year. Thrive Capital, the firm led by Josh Kushner, has emerged as the investor group expected to lead the deal, with JP Morgan advising.",
+      "FIFA's pitch to its member associations is financial: the governing body says the arrangement would push football development funding beyond $10 billion, with grants of roughly $40 million flowing to each of its 211 member federations, ONE reports.",
+      "UEFA is not buying the framing. In a statement quoted by ONE, the European body said \"the soul and governance of football are not assets to trade\" — a line echoed in wider reporting, where UEFA has also said the plan \"crosses a line that football's governing institutions should never cross\" and insisted \"none of us are the owners of football, it is not FIFA's to sell.\"",
+      "The fan advocacy group FSE went further, with ONE quoting its demand for accountability at the top of the game: \"The World Cup is not for sale, enough with this farce\" — language that amounts to a call for FIFA president Gianni Infantino to step down.",
+      "UEFA, under president Aleksander Čeferin, has now summoned its full membership — all 55 national federations across Europe — to an emergency session this week to hash out a common response, rather than let individual associations react piecemeal to a plan they say they learned about largely through the press rather than official FIFA channels.",
+      "Other confederations have voiced similar frustration. CONCACAF and the AFC in Asia have both said they found out about the equity-sale proposal through media reports rather than direct communication from Zurich, adding to the sense that Infantino moved on this without building consensus first.",
+      "It is not the first time UEFA has used the threat of collective action to check an Infantino initiative. FIFA shelved its plan for a biennial World Cup back in 2021 after facing down a similar wall of European opposition, and reporting around this week's meeting suggests a boycott threat is being discussed again as leverage, though no formal decision has been taken.",
+      "FIFA maintains that any restructuring of this scale would still need sign-off from its member associations and its ruling Council before it could proceed — meaning this week's UEFA gathering is as much about shaping that eventual vote as it is about registering protest.",
+      "For now, the story is a governance fight rather than a settled outcome: FIFA has not walked back the proposal, and UEFA has not confirmed what form its pushback will take once its 55 members compare notes."
+    ],
+    "facts": [
+      "FIFA has proposed a new commercial subsidiary, FIFA Forward Enterprise, to run and monetise its events including the World Cup.",
+      "The plan values the new entity at roughly $20 billion and would sell outside investors a stake worth up to $4.2 billion.",
+      "UEFA's 55 member federations are holding an emergency virtual meeting this week to agree a joint response.",
+      "UEFA says the plan \"crosses a red line\" and that football's soul and governance \"are not assets to trade.\"",
+      "Fan group FSE has demanded accountability, saying \"the World Cup is not for sale, enough with this farce.\"",
+      "FIFA argues the plan would lift development funding past $10 billion, with about $40 million earmarked for each of its 211 member federations.",
+      "CONCACAF and the AFC have separately said they learned of the equity-sale plan through media reports rather than official FIFA channels."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 80,
+    "homepageReason": "Major world football governance story: UEFA's 55 member federations are moving to confront FIFA over a $20bn World Cup investment plan, with fan groups calling for Infantino to resign.",
+    "dedupeKey": "fifa-forward-enterprise-uefa-emergency-meeting-2026-07",
+    "aiDisclosure": "Drafted by Israel Sports Pulse's AI copy desk from ONE's Hebrew-language report, cross-checked against Sky Sports, Reuters and Inside World Football coverage of the same story.",
+    "nameChecks": [
+      {
+        "hebrew": "ג'אני אינפנטינו",
+        "english": "Gianni Infantino",
+        "verificationUrl": "https://commons.wikimedia.org/wiki/File:Gianni_Infantino_-_55062516828.jpg",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "אלכסנדר צ'פרין",
+        "english": "Aleksander Čeferin",
+        "verificationUrl": "https://www.uefa.com/",
+        "confidence": 0.9
+      }
+    ],
+    "confidence": 0.85,
+    "warning": "",
+    "commonsQuery": "Gianni Infantino FIFA president",
+    "commonsCandidates": [
+      {
+        "title": "File:Gianni Infantino - 55062516828.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Gianni_Infantino_-_55062516828.jpg",
+        "credit": "Ricardo Stuckert / PR",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:Gianni Infantino, President of FIFA (52390379929).jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Gianni_Infantino,_President_of_FIFA_(52390379929).jpg",
+        "credit": "Loris von Siebenthal / WTO",
+        "license": "CC BY-SA 2.0"
+      },
+      {
+        "title": "File:FIFA-Headquarter.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:FIFA-Headquarter.jpg",
+        "credit": "MCaviglia (digimen.ch)",
+        "license": "CC BY-SA 3.0"
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "live-2026-07-29-ifa-development-plan-new-season",
+    "slug": "israel-football-association-development-plan-new-season",
+    "title": "Israel Football Association lays out development plan for new season",
+    "dek": "Federation technical staff briefed club youth directors in Shefayim on a new development league, an analytics push and a scouting pilot aimed at reaching players wherever they are.",
+    "category": "Israeli Football",
+    "desk": "israel",
+    "kind": "article",
+    "storyForm": "news",
+    "publishedAt": "2026-07-29T14:24:14.785Z",
+    "updatedAt": "2026-07-29T14:24:14.785Z",
+    "readMinutes": 3,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/529329.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE — ההתאחדות חשפה את תוכנית הפיתוח לעונה החדשה",
+        "url": "https://www.one.co.il/Article/529329.html"
+      },
+      {
+        "label": "Ynet — יריב טפר מונה למנכ\"ל ההתאחדות לכדורגל",
+        "url": "https://www.ynet.co.il/sport/israelisoccer/article/skszzmfy1l"
+      }
+    ],
+    "body": [
+      "The Israel Football Association's technical department gathered the professional directors of Israeli clubs' youth departments at the National Team House in Shefayim this week to lay out its development programme for the coming season, ONE reports — a rare sit-down between the federation's coaching hierarchy and the people who run academy football on the ground.",
+      "Federation CEO Yariv Tefer, who took over the administrative side of the association last August after more than two decades inside the organisation, opened the meeting by stressing that dialogue between the technical department and the clubs, rather than instructions handed down from above, is what will move Israeli youth football forward.",
+      "The bulk of the presentation came from Boni Ginzburg, technical director of Israel's youth national teams, who set out roughly half a dozen priorities for the season ahead: a new development league, a fresh cycle at the football academy, a UEFA-designed project for \"late developers\" — players who mature technically or physically later than their peers — a programme to advance football in Arab communities, expanded coach education and a dedicated goalkeepers' project within the national-team pathway.",
+      "\"Youth club departments are our most important partners,\" Ginzburg told the room, according to ONE. \"Staying connected to the field and sharing knowledge is what will develop Israeli football professionally.\"",
+      "On the data side, Adam David, the federation's head of technology and analytics, unveiled IFAnalytics, a new system for processing players' performance data, and described joint projects with clubs on physiological monitoring aimed at addressing the so-called relative age effect — the well-known bias toward players born earlier in the selection year — across the youth divisions.",
+      "Scouting chief Moshe Sinai and his assistant, Idan Genot, outlined upgraded methods for identifying talent for the development centres, the academy and the youth national teams, and previewed a pilot scheme called \"Reaching Every Player Everywhere,\" which will let staff share video of prospects from Israel and abroad through a dedicated platform.",
+      "Noa Greenberg Drori, head of the federation's medical department, presented a monitoring partnership with VALD, the athlete-testing technology group already used elsewhere in the federation's operations, that will build individual physiological profiles for players and pass professional recommendations on to their clubs. Grant Slobin gave further detail on the testing protocols involved, while Eli Sudai, the academy's professional director, closed the technical presentations with plans for its next intake and closer coordination with clubs even after players move on from the programme.",
+      "From the clubs' side, Itai Mordechai, professional director of Maccabi Haifa's youth department, welcomed the session. \"An important and meaningful day,\" he said. \"The professional ideas and work processes presented here will strengthen cooperation between the federation's technical department and the clubs.\"",
+      "The presentation, as reported, did not include a budget figure or a firm start date for the new development league or the academy's next cycle — detail likely to follow as pre-season preparations continue ahead of the 2026/27 campaign."
+    ],
+    "facts": [
+      "The Israel Football Association's technical department held a briefing for club youth-department directors at the National Team House in Shefayim, presenting its development plan for the new season.",
+      "Federation CEO Yariv Tefer, appointed in August 2025, opened the meeting by stressing dialogue between the technical department and clubs.",
+      "Boni Ginzburg, technical director of Israel's youth national teams, outlined new initiatives including a development league, a new academy cycle, a UEFA late-developers project, an Arab football advancement programme, coach education and a goalkeepers' project.",
+      "Adam David, the federation's head of technology and analytics, presented a new system called IFAnalytics and physiological-data collaborations with clubs targeting the relative age effect.",
+      "Scouting chief Moshe Sinai and assistant Idan Genot previewed a pilot project, 'Reaching Every Player Everywhere,' to share video of domestic and international prospects.",
+      "Medical department head Noa Greenberg Drori presented a monitoring partnership with VALD to build individual athlete profiles for clubs; Grant Slobin detailed testing protocols.",
+      "Academy professional director Eli Sudai and Maccabi Haifa youth director Itai Mordechai also spoke; no budget or start dates were given for the new initiatives."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 45,
+    "homepageReason": "An institutional development-plan presser with useful context for Israeli youth football, but no match result, transfer or confirmed timetable — routine federation news rather than a marquee story.",
+    "dedupeKey": "ifa-development-plan-2026-27-season",
+    "aiDisclosure": "Drafted by an AI copy desk from ONE's reporting on the Israel Football Association's technical department briefing, cross-checked against independent reporting on the federation's leadership before publication.",
+    "nameChecks": [
+      {
+        "hebrew": "יריב טפר",
+        "english": "Yariv Tefer",
+        "verificationUrl": "https://www.ynet.co.il/sport/israelisoccer/article/skszzmfy1l",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "בוני גינצבורג",
+        "english": "Boni Ginzburg",
+        "verificationUrl": "https://www.one.co.il/Article/529329.html",
+        "confidence": 0.75
+      },
+      {
+        "hebrew": "אדם דיויד",
+        "english": "Adam David",
+        "verificationUrl": "https://www.linkedin.com/in/adam-david-a10baa133/",
+        "confidence": 0.8
+      },
+      {
+        "hebrew": "משה סיני",
+        "english": "Moshe Sinai",
+        "verificationUrl": "https://www.one.co.il/Article/529329.html",
+        "confidence": 0.7
+      },
+      {
+        "hebrew": "עידן גנות",
+        "english": "Idan Genot",
+        "verificationUrl": "https://www.one.co.il/Article/529329.html",
+        "confidence": 0.6
+      },
+      {
+        "hebrew": "נועה גרינברג דרורי",
+        "english": "Noa Greenberg Drori",
+        "verificationUrl": "https://www.one.co.il/Article/529329.html",
+        "confidence": 0.7
+      },
+      {
+        "hebrew": "אלי סודאי",
+        "english": "Eli Sudai",
+        "verificationUrl": "https://www.one.co.il/Article/529329.html",
+        "confidence": 0.7
+      },
+      {
+        "hebrew": "איתי מרדכי",
+        "english": "Itai Mordechai",
+        "verificationUrl": "https://www.one.co.il/Article/529329.html",
+        "confidence": 0.7
+      }
+    ],
+    "confidence": 0.78,
+    "warning": "No accurate, correctly-identified Wikimedia Commons photograph of this specific meeting, its Shefayim venue, or the named officials could be verified — image gate not met, so the story should run without a bespoke photo (or be held) pending a verified image, e.g. from the federation's own channels.",
+    "commonsQuery": "Israel Football Association youth development Shefayim",
+    "commonsCandidates": [],
+    "status": "review"
+  },
+  {
+    "id": "live-2026-07-29-israel-youth-handball-croatia-euro-loss",
+    "slug": "israel-youth-handball-croatia-euro-loss",
+    "title": "Croatia 33-29 Israel: youth handball team fall in European Championship opener despite leading for 45 minutes",
+    "dek": "Yonatan Flach's 14 goals were not enough to hold off a late Croatian surge as Israel's under-18 side opened the Belgrade tournament with a narrow collapse.",
+    "category": "Israeli Handball",
+    "desk": "israel",
+    "kind": "article",
+    "storyForm": "match_report",
+    "publishedAt": "2026-07-29T14:24:14.785Z",
+    "updatedAt": "2026-07-29T14:24:14.785Z",
+    "readMinutes": 3,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/529330.html"
+    },
+    "verificationSources": [
+      {
+        "label": "EHF EURO - M18 EHF EURO 2026 official competition page (Croatia 33-29 Israel result)",
+        "url": "https://www.eurohandball.com/en/competitions/younger-age-competitions/men/m18-ehf-euro-2026/"
+      },
+      {
+        "label": "Wikipedia - 2026 European Men's U-18 Handball Championship",
+        "url": "https://en.wikipedia.org/wiki/2026_European_Men%27s_U-18_Handball_Championship"
+      }
+    ],
+    "body": [
+      "Israel's under-18 handball team opened its European Championship campaign in Belgrade with heartbreak on Wednesday, leading for most of the match before fading to a 33-29 defeat to Croatia, ONE reported.",
+      "The game, the first of Group C at the M18 EHF EURO 2026, is being staged across three Belgrade venues from July 29 to August 9, with 24 nations competing for places at next year's IHF Men's Youth World Championship. Israel shares the group with Croatia, Czechia and Portugal.",
+      "For long spells it looked like Israel might spring the upset. Captain Yonatan Flach, the top scorer of the qualifying campaign, set the tone again, finishing the night with 14 goals and providing the score that decided the first half.",
+      "A goal at the buzzer from Flach put Israel two goals clear, 17-15, at the interval, capping a first half in which the Israeli side, coached by Dor Russo and Assaf Sitton, matched the more fancied Croatians blow for blow.",
+      "The contest tightened further after the break, with the sides level at 22-22 midway through the second half. That was as good as it got for Israel: Croatia found another gear in the 45th minute and grabbed their first lead of the match.",
+      "Israel refused to fold. A goal from Noam Levi pulled the gap back to a single point, 30-29, with the finish still in the balance, but Croatia's superior physicality in the closing stages proved decisive.",
+      "Croatia pulled clear in the final minutes to seal a 33-29 win, according to ONE's report.",
+      "Behind Flach, Rom Tuvias and Gav Dagni each scored four for Israel, with Roei Ganel, Tomer Michalis and Ido Malul contributing two apiece and Levi adding his one crucial strike.",
+      "Israel will look to open its account in the tournament on Thursday against the Czech Republic, with a Group C campaign already needing a response after the opening setback."
+    ],
+    "facts": [
+      "Croatia beat Israel's under-18 men's handball team 33-29 in their opening Group C match of the M18 EHF EURO 2026 in Belgrade, Serbia, on July 29, 2026.",
+      "Israel led 17-15 at half-time after a buzzer-beating goal from captain Yonatan Flach, who finished as Israel's top scorer with 14 goals.",
+      "The sides were tied 22-22 with about 17 minutes remaining before Croatia took their first lead of the match in the 45th minute.",
+      "Israel closed to within one goal at 30-29 through a Noam Levi goal before Croatia pulled away to win 33-29.",
+      "Israel's under-18 side is coached by Dor Russo and Assaf Sitton.",
+      "The tournament, hosted across Belgrade venues from July 29 to August 9, 2026, serves as a qualifying event for the 2027 IHF Men's Youth (U19) World Championship; Israel's group also includes Czechia and Portugal.",
+      "Israel are next scheduled to face the Czech Republic in their second Group C match."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 55,
+    "homepageReason": "Israeli national youth team result at a European championship, but an opening-match defeat rather than a win — solid interest for the handball/Olympic-sport section without headline-level weight.",
+    "dedupeKey": "handball-m18-euro2026-israel-croatia-2026-07-29",
+    "aiDisclosure": "Drafted by an AI copy desk from ONE's report, cross-checked against the official EHF EURO competition site and Wikipedia for the score, venue and competition context.",
+    "nameChecks": [
+      {
+        "hebrew": "יונתן פלח",
+        "english": "Yonatan Flach",
+        "verificationUrl": "https://www.one.co.il/Article/529330.html",
+        "confidence": 0.7
+      },
+      {
+        "hebrew": "דור רוסו",
+        "english": "Dor Russo",
+        "verificationUrl": "https://www.one.co.il/Article/529330.html",
+        "confidence": 0.7
+      },
+      {
+        "hebrew": "אסף סיטון",
+        "english": "Assaf Sitton",
+        "verificationUrl": "https://www.one.co.il/Article/529330.html",
+        "confidence": 0.6
+      },
+      {
+        "hebrew": "רום טוביאס",
+        "english": "Rom Tuvias",
+        "verificationUrl": "https://www.one.co.il/Article/529330.html",
+        "confidence": 0.55
+      },
+      {
+        "hebrew": "גב דגני",
+        "english": "Gav Dagni",
+        "verificationUrl": "https://www.one.co.il/Article/529330.html",
+        "confidence": 0.55
+      },
+      {
+        "hebrew": "רועי גנאל",
+        "english": "Roei Ganel",
+        "verificationUrl": "https://www.one.co.il/Article/529330.html",
+        "confidence": 0.55
+      },
+      {
+        "hebrew": "תומר מיכליס",
+        "english": "Tomer Michalis",
+        "verificationUrl": "https://www.one.co.il/Article/529330.html",
+        "confidence": 0.55
+      },
+      {
+        "hebrew": "עידו מלול",
+        "english": "Ido Malul",
+        "verificationUrl": "https://www.one.co.il/Article/529330.html",
+        "confidence": 0.55
+      },
+      {
+        "hebrew": "נועם לוי",
+        "english": "Noam Levi",
+        "verificationUrl": "https://www.one.co.il/Article/529330.html",
+        "confidence": 0.6
+      }
+    ],
+    "confidence": 0.85,
+    "warning": "Player-name transliterations follow ONE's report; no official Latin-script EHF roster for Israel's under-18 squad was found to cross-check individual spellings.",
+    "commonsQuery": "Aleksandar Nikolić Hall Belgrade arena",
+    "commonsCandidates": [
+      {
+        "title": "File:Hala Aleksandar Nikolić.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Hala_Aleksandar_Nikoli%C4%87.jpg",
+        "credit": "Miljan Simonović / Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:Hala Pionir Beograd.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Hala_Pionir_Beograd.jpg",
+        "credit": "SmirnofLeary / Wikimedia Commons",
+        "license": "CC BY-SA 3.0 RS / GFDL"
+      },
+      {
+        "title": "File:Hala Pionir - panoramio.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Hala_Pionir_-_panoramio.jpg",
+        "credit": "Mister No / Wikimedia Commons (via Panoramio)",
+        "license": "CC BY 3.0"
+      }
+    ],
+    "status": "review"
+  },
+  {
+    "id": "live-2026-07-29-pochettino-usmnt-contract-extension",
+    "slug": "pochettino-usmnt-contract-extension-2030",
+    "title": "Pochettino closing in on new USMNT contract through 2030, ONE reports",
+    "dek": "The Argentine coach is in advanced talks to extend his stay with the United States men's national team for a second World Cup cycle, despite a bruising round-of-16 exit to Belgium.",
+    "category": "World Football",
+    "desk": "international",
+    "kind": "news",
+    "storyForm": "report",
+    "publishedAt": "2026-07-29T14:24:14.785Z",
+    "updatedAt": "2026-07-29T14:24:14.785Z",
+    "readMinutes": 3,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/529331.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/529331.html"
+      },
+      {
+        "label": "ESPN",
+        "url": "https://www.espn.com/soccer/story/_/id/49188769/mauricio-pochettino-positive-talks-new-usmnt-contract-sources"
+      },
+      {
+        "label": "Fox News",
+        "url": "https://www.foxnews.com/sports/sources-usmnt-deal-mauricio-pochettino-nearing-completion.amp"
+      },
+      {
+        "label": "Front Row Soccer",
+        "url": "https://www.frontrowsoccer.com/2026/07/16/theyre-still-talking-about-u-s-soccer-extending-pochettinos-contract/"
+      }
+    ],
+    "body": [
+      "Mauricio Pochettino is closing in on a new contract to remain head coach of the United States men's national team through the 2030 World Cup, ONE reports, with the Argentine and US Soccer said to be in advanced talks over a second four-year cycle together.",
+      "Pochettino's original deal was tied to the 2026 World Cup cycle, and both sides had agreed to shelve any decision on his future until after the tournament US Soccer co-hosted this summer alongside Mexico and Canada.",
+      "The Americans topped their group on home soil and won a knockout-round match for the first time in a decade, a genuine marker of progress under Pochettino since his appointment in September 2024.",
+      "The run ended painfully, however, with a 4-1 defeat to Belgium in the round of 16 that exposed how far the squad still has to travel before it can be considered a serious contender on the biggest stage.",
+      "That uneven finish has not derailed the negotiations. US Soccer CEO and secretary general JT Batson said the federation remains fully engaged in extending Pochettino's stay, describing the talks as active and forward-looking.",
+      "\"We are in active talks with Mauricio and his team about the future,\" Batson said, according to reports cited by ONE. \"We all share the belief that the best days of American soccer are still ahead.\"",
+      "Pochettino himself struck a similarly upbeat tone in the aftermath of the Belgium loss, signalling he was open to staying on rather than using the World Cup exit as a natural exit point of his own.",
+      "\"We have built a very good relationship, I am happy here,\" he said, pointing to the bond he has forged with US Soccer's staff and players over the past two years.",
+      "The main uncertainty hanging over the renewal is European interest. Pochettino has been repeatedly linked with vacancies in the Premier League and with AC Milan during his USMNT tenure, and any concrete offer from a major club could still complicate a deal that both sides otherwise appear to want.",
+      "For now, though, the direction of travel points toward continuity: a coach who delivered a first knockout win in ten years and the framework of a squad U.S. Soccer believes can peak by the time the 2030 World Cup arrives in Spain, Portugal and Morocco."
+    ],
+    "facts": [
+      "ONE reports Pochettino and US Soccer are in advanced talks over a new four-year contract running through the 2030 World Cup.",
+      "His existing contract was tied to the 2026 World Cup cycle.",
+      "The US won their group and claimed their first World Cup knockout-stage win in a decade before losing 4-1 to Belgium in the round of 16.",
+      "US Soccer CEO JT Batson confirmed the federation is in active talks with Pochettino and his staff about the future.",
+      "Pochettino has said he is happy in the role and wants to continue, despite past links to Premier League clubs and AC Milan.",
+      "Pochettino was appointed USMNT head coach in September 2024."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 56,
+    "homepageReason": "Significant world-football story on the USMNT coach's future after a home World Cup, but still an unfinalised contract report rather than a confirmed result.",
+    "dedupeKey": "usmnt-pochettino-contract-extension-2026",
+    "aiDisclosure": "Drafted by an AI newsroom assistant from ONE's reporting, cross-checked against ESPN, Fox News and Front Row Soccer coverage of the same negotiations.",
+    "nameChecks": [
+      {
+        "hebrew": "פוצ'טינו",
+        "english": "Mauricio Pochettino",
+        "verificationUrl": "https://www.ussoccer.com/coaches/mauricio-pochettino",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "ג'יי טי בטסון",
+        "english": "JT Batson",
+        "verificationUrl": "https://www.espn.com/soccer/story/_/id/49188769/mauricio-pochettino-positive-talks-new-usmnt-contract-sources",
+        "confidence": 0.85
+      }
+    ],
+    "confidence": 0.8,
+    "warning": "Contract extension is reported as close but not yet officially signed or announced by US Soccer.",
+    "commonsQuery": "Mauricio Pochettino USMNT 2026",
+    "commonsCandidates": [
+      {
+        "title": "File:Mauricio Pochettino USMNT v Belgium Mar 28 2026-55.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Mauricio_Pochettino_USMNT_v_Belgium_Mar_28_2026-55.jpg",
+        "credit": "Bryan Berlin (Berlination), WikiPortraits",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:Mauricio Pochettino, 2025 CONCACAF Gold Cup.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Mauricio_Pochettino,_2025_CONCACAF_Gold_Cup.jpg",
+        "credit": "reepers_hellcat, uploaded by Hameltion",
+        "license": "CC BY 4.0"
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "live-20260729-kalmenson-ashdod-tiberias-doping-dispute",
+    "slug": "kalmenson-slams-ashdod-legal-bid-return-top-flight",
+    "title": "Tiberias owner Kalmenson: Ashdod's legal bid to return to the top flight is \"doomed to fail\"",
+    "dek": "Aryeh Kalmenson hit back at MS Ashdod's attempt to use a doping indictment against Ironi Tiberias to reverse its relegation, insisting the two clubs finished eight points apart on merit.",
+    "category": "Israeli Football",
+    "desk": "israel",
+    "kind": "article",
+    "storyForm": "news",
+    "publishedAt": "2026-07-29T14:24:14.785Z",
+    "updatedAt": "2026-07-29T14:24:14.785Z",
+    "readMinutes": 4,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/529334.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE - \"ניסיונות נואלים\": קלמנזון במתקפה על אשדוד",
+        "url": "https://www.one.co.il/Article/529334.html"
+      },
+      {
+        "label": "ONE - אשדוד דורשת להצטרף להליך נגד טבריה",
+        "url": "https://www.one.co.il/Article/529296.html"
+      },
+      {
+        "label": "Wikipedia - 2025–26 Israeli Premier League final standings",
+        "url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Israeli_Premier_League"
+      },
+      {
+        "label": "Haaretz - עירוני טבריה הועמדה לדין על שימוש בחומרים אסורים",
+        "url": "https://www.haaretz.co.il/sport/israel-soccer/2026-07-27/ty-article/0000019f-a30f-dcf3-a9df-a71fc5ac0000"
+      }
+    ],
+    "body": [
+      "Aryeh Kalmenson, the owner of Ironi Tiberias, has launched a sharp public attack on MS Ashdod, accusing the relegated club of trying to claw its way back into Israel's top flight through the courts rather than on the pitch.",
+      "\"The attempts by MS Ashdod to return to the top league through legal means, after failing to do so sportingly, are doomed to fail,\" Kalmenson said, according to ONE. \"It's regrettable to see these futile attempts to use legal proceedings for an entirely unsporting outcome.\"",
+      "The dispute centres on an indictment filed by the Israeli Football Association against Tiberias over allegations that club staff administered intravenous saline treatments to players in excess of permitted volumes ahead of a lower-table playoff match against Ashdod last season, and then attempted to obstruct the ensuing investigation.",
+      "Ashdod has since petitioned the disciplinary tribunal to join those proceedings as an interested party, demanding an accelerated timetable and immediate interim measures before the 2026/27 season kicks off - arguing that any eventual sanction against Tiberias would otherwise be \"emptied of meaning due to the passage of time.\"",
+      "Kalmenson rejected any link between the new indictment and Ashdod's relegation. \"The claims in the indictment have no connection to MS Ashdod's loss to Tiberias, and ultimately the gap between the teams at season's end stood at eight points in Tiberias' favour,\" he said.",
+      "That gap is borne out in the final 2025/26 table: Tiberias finished ninth in the relegation round with 36 points, while Ashdod ended 13th with 28, sending Ashdod down to Liga Leumit alongside Maccabi Bnei Reineh.",
+      "Notably, Tiberias reached that final tally despite already absorbing an eight-point deduction of its own this season, imposed after a separate, settled case over irregular player contracts that also carried a further six-point penalty for 2026/27 and a 500,000-shekel fine.",
+      "Kalmenson did not stop at the legal substance of Ashdod's push. \"MS Ashdod's attempts to influence decision-makers through an aggressive media campaign will not succeed,\" he said, accusing the club of waging a public-relations battle alongside its courtroom effort.",
+      "The case now sits with the Israeli FA's disciplinary court, which must weigh Ashdod's request to fast-track a ruling against the season's looming start - a timeline that could determine whether Tiberias opens 2026/27 in the Premier League or facing fresh sanctions that reopen the relegation question entirely."
+    ],
+    "facts": [
+      "Aryeh Kalmenson, owner of Ironi Tiberias, said MS Ashdod's legal effort to return to Israel's top flight is \"doomed to fail.\"",
+      "MS Ashdod was relegated to Liga Leumit after finishing 13th in the 2025/26 Israeli Premier League relegation round with 28 points.",
+      "Ironi Tiberias avoided relegation, finishing ninth with 36 points - an eight-point gap Kalmenson cited directly.",
+      "The Israeli FA has indicted Tiberias over alleged excess intravenous saline treatments given to players before a playoff match against Ashdod last season.",
+      "Ashdod has asked the disciplinary tribunal to join the proceedings as an interested party and to rule on an accelerated timetable before the 2026/27 season begins.",
+      "Tiberias had already absorbed an eight-point deduction this season plus a further six-point penalty for 2026/27 and a 500,000-shekel fine in a separate, earlier settled case."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 48,
+    "homepageReason": "A sharp, on-the-record attack from a club owner in an active Israeli FA disciplinary dispute with relegation stakes - solid interest but a quotes/reaction story, not a confirmed result.",
+    "dedupeKey": "ironi-tiberias-ashdod-doping-relegation-dispute-2026",
+    "aiDisclosure": "Drafted by an AI copy desk from a single verified Israeli source (ONE), cross-checked against Haaretz, Sport1/Maariv and league standings data.",
+    "nameChecks": [
+      {
+        "hebrew": "אריה קלמנזון",
+        "english": "Aryeh Kalmenson",
+        "verificationUrl": "https://www.israelhayom.co.il/sport/israeli-soccer/article/20543152",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "עירוני טבריה",
+        "english": "Ironi Tiberias",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Ironi_Tiberias_F.C.",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "מ.ס אשדוד",
+        "english": "MS Ashdod / F.C. Ashdod",
+        "verificationUrl": "https://en.wikipedia.org/wiki/F.C._Ashdod",
+        "confidence": 0.95
+      }
+    ],
+    "confidence": 0.85,
+    "warning": "",
+    "commonsQuery": "Ironi Tiberias stadium Ashdod Yud-Alef Stadium",
+    "commonsCandidates": [
+      {
+        "title": "File:Tiberias_Municipal_Football_Stadium10.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Tiberias_Municipal_Football_Stadium10.jpg",
+        "credit": "Moti Bodek",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "title": "File:Yud-Alef_Stadium_2023.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Yud-Alef_Stadium_2023.jpg",
+        "credit": "Nizzan Cohen",
+        "license": "CC BY 4.0"
+      },
+      {
+        "title": "File:Yod_alef2.JPG",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Yod_alef2.JPG",
+        "credit": "Yaakov2",
+        "license": "CC BY-SA 3.0"
+      }
+    ],
+    "status": "published"
+  },
+  {
     "id": "live-2026-07-29-tiberias-relegation-demand",
     "slug": "tiberias-minimum-punishment-relegation-ashdod-lawyer",
     "title": "Ashdod's lawyer: minimum punishment for Tiberias must be relegation",
