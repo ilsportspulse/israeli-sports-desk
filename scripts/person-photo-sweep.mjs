@@ -10,7 +10,32 @@ import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const api = "https://commons.wikimedia.org/w/api.php";
-const UA = { "user-agent": "IsraelSportsPulse/1.0 (editorial photo sweep)" };
+// Wikimedia vereist een beschrijvende UA mét contact, anders 429/403.
+const UA = { "user-agent": "IsraelSportsPulseBot/1.0 (https://ilsportspulse.com; editorial@ilsportspulse.com) photo-sourcing" };
+
+// Wikipedia/Wikidata leadfoto voor een persoon. Israëlische spelers hebben vaak
+// GEEN Commons-bestand op hun Engelse naam maar WEL een Hebreeuws (of Engels)
+// Wikipedia-artikel met een leadfoto (pageimage, staat op Commons, dus vrij).
+// Zoekt per naam op he. en en.wikipedia; geeft de Commons-bestandsnaam terug.
+async function wikiLeadPhoto(name) {
+  for (const lang of ["he", "en"]) {
+    try {
+      const search = new URLSearchParams({ action: "query", list: "search", srsearch: name, srlimit: "3", format: "json", origin: "*" });
+      const hits = (((await (await fetch(`https://${lang}.wikipedia.org/w/api.php?${search}`, { headers: UA })).json()).query ?? {}).search ?? []).map((h) => h.title);
+      await new Promise((r) => setTimeout(r, 1500));
+      for (const title of hits) {
+        const q = new URLSearchParams({ action: "query", titles: title, prop: "pageimages", piprop: "original|name", format: "json", redirects: "1" });
+        const pages = Object.values((((await (await fetch(`https://${lang}.wikipedia.org/w/api.php?${q}`, { headers: UA })).json()).query ?? {}).pages ?? {}));
+        await new Promise((r) => setTimeout(r, 1500));
+        for (const p of pages) {
+          const file = p.pageimage ? `File:${p.pageimage}` : null;
+          if (file) return file;
+        }
+      }
+    } catch { /* volgende taal */ }
+  }
+  return null;
+}
 const MIN_W = 500;
 const VINTAGE = /government press office|\bgpo\b|fortepan|bundesarchiv|nationaal archief|\b(19[0-9]{2}|200[0-4])\b/i;
 const STOP = new Set("Maccabi Hapoel Ironi Beitar Bnei Tel Aviv Haifa Jerusalem Shmona Kiryat Sakhnin Tiberias Netanya Israel Israeli Toto Cup League Liga Ligat United City Real Madrid Barcelona Union Saint Gilloise Nottingham Forest EuroLeague NBA UEFA FIFA Champions Europa Conference World Group Round FC AFC The Golden Ball European Championships Abu Dhabi".split(/\s+/));
@@ -25,6 +50,18 @@ const namesOf = (title) => {
   if (run.length >= 2) names.push(run.join(" "));
   return names;
 };
+
+// Haalt imageinfo (url, maat, licentie) voor Commons-bestandstitels op.
+async function fetchFiles(titles) {
+  const map = new Map();
+  if (!titles.length) return map;
+  const q = new URLSearchParams({ action: "query", prop: "imageinfo", iiprop: "url|size|extmetadata|mime", format: "json", titles: titles.join("|") });
+  try {
+    const pages = Object.values((((await (await fetch(`${api}?${q}`, { headers: UA })).json()).query ?? {}).pages ?? {}));
+    for (const p of pages) map.set(p.title, p);
+  } catch { /* leeg terug */ }
+  return map;
+}
 
 const articles = JSON.parse(readFileSync(path.join(root, "data/articles.json"), "utf8"));
 const media = JSON.parse(readFileSync(path.join(root, "data/article-media.json"), "utf8"));
@@ -86,6 +123,42 @@ for (const id of targets) {
       }
     } catch { /* val terug op Commons */ }
   }
+  // Tier 1: Wikipedia/Wikidata leadfoto (he. + en.) — dé plek waar Israëlische
+  // spelers hun portret hebben, ook als er geen Commons-treffer op de Engelse
+  // naam is. Zoekt eerst hier vóór de brede Commons-zoektocht (die vogels ving).
+  for (const name of names) {
+    if (done) break;
+    try {
+      const file = await wikiLeadPhoto(name);
+      if (!file) continue;
+      const pages = await fetchFiles([file]);
+      const page = pages.get(file);
+      const ii = page?.imageinfo?.[0];
+      if (!ii || ii.width < MIN_W || usedUrls.has(ii.descriptionurl)) continue;
+      const meta = ii.extmetadata ?? {};
+      if (VINTAGE.test(`${file} ${meta.DateTimeOriginal?.value ?? ""}`)) continue;
+      const license = (meta.LicenseShortName?.value ?? "").trim();
+      if (!license || /copyright|non-free/i.test(license)) continue;
+      const slugFile = `${article.slug}.jpg`;
+      const res = await fetch(ii.url.replace(/^http:/, "https:"), { headers: UA });
+      if (!res.ok) continue;
+      await pipeline(res.body, createWriteStream(path.join(root, "public/media/stories", slugFile)));
+      const artist = (meta.Artist?.value ?? "").replace(/<[^>]+>/g, "").trim() || "Wikimedia Commons";
+      media[id] = {
+        src: `/media/stories/${slugFile}`, alt: name, caption: `${name}. File photograph.`,
+        credit: `${artist} / Wikimedia Commons`, creditUrl: ii.descriptionurl, license,
+        licenseUrl: (meta.LicenseUrl?.value ?? "https://commons.wikimedia.org/wiki/Commons:Licensing").trim(),
+        changes: "Resized and colour-treated; the full frame is preserved in the site layout.",
+        width: ii.width, height: ii.height,
+      };
+      usedUrls.add(ii.descriptionurl);
+      console.log(`✓W ${id} → ${file}`);
+      replaced += 1; done = true;
+    } catch { /* val terug op Commons-tier */ }
+  }
+
+  // fetchFiles is nodig in Tier 1; het bestaat al verderop in de scope niet, dus
+  // definieer een lokale helper als hij ontbreekt.
   for (const name of names) {
     if (done) break;
     try {
