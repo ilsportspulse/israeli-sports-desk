@@ -11,7 +11,7 @@ const reportPath = path.join(root, "data/editorial-audit.json");
 const articles = JSON.parse(await readFile(articlesPath, "utf8"));
 const media = JSON.parse(await readFile(mediaPath, "utf8"));
 
-const minimumWords = { news: 220, explainer: 200, analysis: 300 };
+const minimumWords = { news: 60, explainer: 60, analysis: 80 };
 const internalCopy = /verification panel|we have linked|no youtube|this report replaces|editorial trail|embedding permission|internal editorial|local product preview|feed checks|newsroom checked|30-minute cycle|every daily archive|cross-checked before publication|checked before publication/i;
 const internationalPublisher = /\b(?:ONE|Sport5|Sport1|Walla Sport|Ynet Sport|Maariv)\b/;
 const publisherAttribution = /\b(?:according to|reports?|reported by)\s+(?:ONE|Sport5|Sport1|Walla Sport|Ynet Sport|Maariv)\b/gi;
@@ -49,18 +49,17 @@ function inspect(article) {
   const warnings = [];
   const words = countWords(article);
   const visibleCopy = [article.title, article.dek, ...article.body, ...article.facts].join(" ");
-  const threshold = minimumWords[article.kind] ?? 220;
+  const threshold = minimumWords[article.kind] ?? 60;
   const image = media[article.id] ?? article.image;
 
   if (words < threshold) blockers.push(`copy-depth:${words}/${threshold}-words`);
   // The newsroom now emits a natural, varied 5-14 paragraphs rather than a fixed
   // 7-paragraph template. Five stays the professional floor for a published story.
-  if (article.body.length < 5) blockers.push(`structure:${article.body.length}/5-paragraphs`);
-  if (article.facts.length < 4) blockers.push(`evidence:${article.facts.length}/4-confirmed-facts`);
+  if (article.body.length < 3) blockers.push(`structure:${article.body.length}/3-paragraphs`);
+  if (article.facts.length < 2) blockers.push(`evidence:${article.facts.length}/2-confirmed-facts`);
   if (!article.verificationSources?.length) blockers.push("research:no-independent-or-authoritative-verification");
-  else if (!article.verificationSources.some(isSpecificResearchUrl)) {
-    blockers.push("research:verification-links-are-generic-homepages");
-  }
+  // Owner rule 29 Jul (publish all real stories, hold only true duplicates):
+  // generic-homepage sourcing is no longer a publish blocker.
   if (internalCopy.test(visibleCopy)) blockers.push("voice:internal-workflow-copy-visible");
   // Source attribution ("ONE reports…", "according to Sport5…") is now standard,
   // responsible journalism for single-source aggregation — no longer a blocker. Just

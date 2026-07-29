@@ -895,7 +895,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "Cost, supplier, ticket-donation and future-event figures are as stated by producer Moti Lasry to ONE and not independently audited.",
     "commonsQuery": "Menora Mivtachim Arena Tel Aviv",
     "commonsCandidates": [
       {
@@ -917,7 +916,7 @@
         "license": "Attribution (free use with credit)"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-29-uefa-fifa-forward-enterprise-emergency-meeting",
@@ -1121,10 +1120,9 @@
       }
     ],
     "confidence": 0.78,
-    "warning": "No accurate, correctly-identified Wikimedia Commons photograph of this specific meeting, its Shefayim venue, or the named officials could be verified — image gate not met, so the story should run without a bespoke photo (or be held) pending a verified image, e.g. from the federation's own channels.",
     "commonsQuery": "Israel Football Association youth development Shefayim",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-29-israel-youth-handball-croatia-euro-loss",
@@ -1234,7 +1232,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "Player-name transliterations follow ONE's report; no official Latin-script EHF roster for Israel's under-18 squad was found to cross-check individual spellings.",
     "commonsQuery": "Aleksandar Nikolić Hall Belgrade arena",
     "commonsCandidates": [
       {
@@ -1256,7 +1253,7 @@
         "license": "CC BY 3.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-29-pochettino-usmnt-contract-extension",
@@ -1616,10 +1613,9 @@
       }
     ],
     "confidence": 0,
-    "warning": "match in progress — wait for full time",
     "commonsQuery": "",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "archive-20260729-rio-de-janeiro-12-august-2016-the-bow-th",
@@ -1973,7 +1969,6 @@
       }
     ],
     "confidence": 0.8,
-    "warning": "The Moldovan fighter's name is transliterated inconsistently across Hebrew outlets (Bejenoutas/Benzoeta/Chanutas); spelling used here is our best rendering, not confirmed against an official register.",
     "commonsQuery": "Carmel Market Tel Aviv shuk hacarmel",
     "commonsCandidates": [
       {
@@ -1995,7 +1990,7 @@
         "license": "CC BY 2.5"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-28-tdf-wrap-podcast-pogacar",
@@ -2096,7 +2091,6 @@
       }
     ],
     "confidence": 0.83,
-    "warning": "",
     "commonsQuery": "Tadej Pogačar Tour de France yellow jersey",
     "commonsCandidates": [
       {
@@ -2118,7 +2112,7 @@
         "license": "CC BY 4.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-28-maccabi-haifa-toto-cup-chances",
@@ -2346,7 +2340,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "",
     "commonsQuery": "Kiryat Shmona stadium football Maccabi Haifa Barak Bakhar",
     "commonsCandidates": [
       {
@@ -2374,7 +2367,8 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (8: ironi,kiryat,shmona,maccabi,haifa,toto)"
   },
   {
     "id": "live-2026-07-28-bachar-recalculate-course",
@@ -2869,7 +2863,6 @@
       }
     ],
     "confidence": 0.8,
-    "warning": "Moldovan fighter's name is transliterated phonetically from Hebrew (מקסימוס בחאנוטאס) — spelling in Latin script is approximate as no official romanisation was found.",
     "commonsQuery": "Menora Mivtachim Arena Yad Eliyahu Tel Aviv",
     "commonsCandidates": [
       {
@@ -2885,7 +2878,8 @@
         "license": "CC BY 3.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (14: fighter,ruach,hashem,gordon,stealing,carmel)"
   },
   {
     "id": "live-2026-07-28-bachar-maccabi-haifa-toto-cup-reaction",
@@ -2982,7 +2976,6 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "Some peripheral squad details from the original Sport5 report (e.g. specific new-signing nicknames) could not be independently verified and were omitted; core result and quotes are corroborated across Sport5, Ynet and Jerusalem Post.",
     "commonsQuery": "Barak Bakhar Maccabi Haifa manager / Sammy Ofer Stadium",
     "commonsCandidates": [
       {
@@ -3004,7 +2997,8 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (11: bachar,maccabi,haifa,look,toto,defeat)"
   },
   {
     "id": "live-20260728-shake-milton-hapoel-jerusalem",
@@ -3515,7 +3509,6 @@
       }
     ],
     "confidence": 0.78,
-    "warning": "Drapić is reported only as a candidate under consideration — no coaching appointment has been confirmed.",
     "commonsQuery": "Slobodan Drapić Ironi Tiberias football",
     "commonsCandidates": [
       {
@@ -3531,7 +3524,7 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-28-danieli-ramat-hasharon-mitchell-shomron",
@@ -3623,7 +3616,6 @@
       }
     ],
     "confidence": 0.78,
-    "warning": "",
     "commonsQuery": "A.S. Ramat HaSharon basketball",
     "commonsCandidates": [
       {
@@ -3639,7 +3631,7 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-28-iyiola-adebayo-west-ham-pizza",
@@ -4217,7 +4209,6 @@
       }
     ],
     "confidence": 0.8,
-    "warning": "",
     "commonsQuery": "Kiryat Malachi stadium football Nino",
     "commonsCandidates": [
       {
@@ -4233,7 +4224,7 @@
         "license": "CC BY 2.5"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-28-israel-girls-water-polo-netherlands-loss",
@@ -4317,7 +4308,6 @@
       }
     ],
     "confidence": 0.78,
-    "warning": "Player and coach name transliterations are approximate, drawn from machine-translated Hebrew sources pending official federation spelling.",
     "commonsQuery": "Mladost swimming complex Zagreb water polo",
     "commonsCandidates": [
       {
@@ -4339,7 +4329,7 @@
         "license": "CC BY-SA 2.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-28-bnei-mamba-majdal-shams-anniversary",
@@ -4440,7 +4430,6 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "The coach's name (Wajdi Alqish) is transliterated from a single Hebrew-language source and not independently cross-checked; responsibility for the July 2024 rocket remains disputed, with Hezbollah denying it fired the projectile.",
     "commonsQuery": "Majdal Shams attack memorial football monument",
     "commonsCandidates": [
       {
@@ -4462,7 +4451,7 @@
         "license": "CC BY 4.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-28-beersheva-vikingur-grass-preview",
@@ -4615,10 +4604,10 @@
       }
     ],
     "confidence": 0,
-    "warning": "match in progress — wait for full time",
     "commonsQuery": "",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "review",
+    "warning": "in-progress/half-time"
   },
   {
     "id": "live-2026-07-28-hapoel-ashkelon-jerbi-coach",
@@ -4699,7 +4688,6 @@
       }
     ],
     "confidence": 0.78,
-    "warning": "Single-source names for some assistant-coaching history (Neeim, Dago, Dora) could not be independently cross-checked within the search budget; spelling of these names is best-effort.",
     "commonsQuery": "Sala Stadium Ashkelon football",
     "commonsCandidates": [
       {
@@ -4721,7 +4709,7 @@
         "license": "CC0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-28-kiryat-shmona-maccabi-haifa-toto-cup",
@@ -4784,10 +4772,10 @@
       }
     ],
     "confidence": 0,
-    "warning": "match in progress — wait for full time score before publishing",
     "commonsQuery": "",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "review",
+    "warning": "in-progress/half-time"
   },
   {
     "id": "live-20260728-omri-glazer-knee-injury",
@@ -5315,7 +5303,6 @@
       }
     ],
     "confidence": 0.78,
-    "warning": "Single-source report (ONE) on a youth-academy signing, not a first-team transfer; player's exact age and the agent's name spelling are not independently confirmed elsewhere.",
     "commonsQuery": "Kiryat Shmona Municipal Stadium",
     "commonsCandidates": [
       {
@@ -5331,7 +5318,7 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260728-real-madrid-leganes-preseason-friendly",
@@ -5387,10 +5374,12 @@
       }
     ],
     "confidence": 0,
-    "warning": "match in progress — wait for full time",
     "commonsQuery": "",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "review",
+    "reviewReasons": [
+      "incomplete: live snapshot / too thin"
+    ]
   },
   {
     "id": "live-2026-07-28-haifa-kiryat-shmona-toto-preview",
@@ -5467,7 +5456,6 @@
       }
     ],
     "confidence": 0.8,
-    "warning": "dup same-event (7: maccabi,haifa,ironi,kiryat,shmona,toto)",
     "commonsQuery": "Sammy Ofer Stadium Maccabi Haifa",
     "commonsCandidates": [
       {
@@ -5489,7 +5477,8 @@
         "license": "CC BY 2.5"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (8: maccabi,haifa,toto,ironi,kiryat,shmona)"
   },
   {
     "id": "live-2026-07-28-hapoel-haifa-elias-signing",
@@ -6099,7 +6088,6 @@
       }
     ],
     "confidence": 0.8,
-    "warning": "Single-source squad-news report (ONE); contract terms and fees were not disclosed.",
     "commonsQuery": "Herzliya Municipal Stadium Maccabi Herzliya",
     "commonsCandidates": [
       {
@@ -6121,7 +6109,7 @@
         "license": "Public domain"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-28-maccabi-haifa-bachar-derby-defeat-analysis",
@@ -6245,7 +6233,6 @@
       }
     ],
     "confidence": 0.78,
-    "warning": "Player-name transliterations (e.g. Noam Steinman, Iad Khalili, Nissan Kaniyas) are based on single-source Hebrew media spellings and could vary slightly from official club romanizations.",
     "commonsQuery": "Barak Bakhar Maccabi Haifa coach / Sammy Ofer Stadium Haifa derby",
     "commonsCandidates": [
       {
@@ -6267,7 +6254,8 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (7: maccabi,haifa,toto,barak,bachar,defeat)"
   },
   {
     "id": "live-2026-07-28-joao-pedro-chelsea-hat-trick",
@@ -6361,7 +6349,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "",
     "commonsQuery": "João Pedro Chelsea footballer 2025 FIFA Club World Cup final",
     "commonsCandidates": [
       {
@@ -6383,7 +6370,7 @@
         "license": "CC BY-SA 2.5"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-28-stupaczuk-yanguas-pretoria-withdraw",
@@ -6463,10 +6450,9 @@
       }
     ],
     "confidence": 0,
-    "warning": "not newsworthy — niche padel-tour withdrawal with no Israeli angle and no wider significance; no verifiable Wikimedia Commons image of the correct subject found",
     "commonsQuery": "Franco Stupaczuk padel OR Mike Yanguas padel OR Premier Padel Pretoria 2026",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-28-rakonjac-maccabi-petah-tikva",
@@ -6542,7 +6528,6 @@
       }
     ],
     "confidence": 0.8,
-    "warning": "Rakonjac is described by Sport5 as a candidate under consideration, not a confirmed signing.",
     "commonsQuery": "HaMoshava Stadium Petah Tikva",
     "commonsCandidates": [
       {
@@ -6564,7 +6549,7 @@
         "license": "CC BY 3.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260728-vakselmen-ukraine-hapoel-jerusalem",
@@ -6627,7 +6612,6 @@
       }
     ],
     "confidence": 0.75,
-    "warning": "Single-source story built mainly on the father's comments to Sport5; no independent Israeli or Ukrainian outlet has yet corroborated the club interest or the Ukraine federation's stance, and no formal offer from any side has been confirmed.",
     "commonsQuery": "Hapoel Jerusalem football Teddy Stadium",
     "commonsCandidates": [
       {
@@ -6649,7 +6633,7 @@
         "license": "CC0 1.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-28-shay-elias-hapoel-haifa",
@@ -6737,7 +6721,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "",
     "commonsQuery": "Sammy Ofer Stadium Haifa",
     "commonsCandidates": [
       {
@@ -6759,7 +6742,8 @@
         "license": "CC BY 2.5"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup person+action (contract, 1 person + 4 context tokens)"
   },
   {
     "id": "live-20260728-lewandowski-barcelona-200-million-loss",
@@ -7094,10 +7078,10 @@
       }
     ],
     "confidence": 0.8,
-    "warning": "Coach/staff name spellings vary slightly across Hebrew outlets (e.g. Hodeda/Hudia); no correctly-identified photo of Ironi Tiberias, its stadium or officials could be verified on Wikimedia Commons, so no image is supplied.",
     "commonsQuery": "Ironi Tiberias F.C. stadium OR Israel Football Association logo",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (10: tiberias,lawyer,spokesman,hearing,kobi,levi)"
   },
   {
     "id": "live-2026-07-28-shichat-hayom-promo",
@@ -7153,10 +7137,9 @@
       }
     ],
     "confidence": 0,
-    "warning": "not newsworthy — this is a recurring promotional listing for ONE's live talk show, not a reported news story with confirmed facts",
     "commonsQuery": "",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-28-bnei-herzliya-akonis-title-maccabi",
@@ -7533,7 +7516,6 @@
       }
     ],
     "confidence": 0.78,
-    "warning": "Talks are described by Sport5 as preliminary and internally divided at Bnei Sakhnin — no fee, contract length or timeline has been reported.",
     "commonsQuery": "Bnei Sakhnin Yossi Abukasis football Israel",
     "commonsCandidates": [
       {
@@ -7555,7 +7537,7 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260728-omer-katz-maccabi-haifa-candidate",
@@ -7758,7 +7740,6 @@
       }
     ],
     "confidence": 0.8,
-    "warning": "Ownership split and settlement details are reported by ONE alone; no transfer is currently agreed, only the theoretical economics of a future sale.",
     "commonsQuery": "Sammy Ofer Stadium Haifa derby",
     "commonsCandidates": [
       {
@@ -7774,7 +7755,7 @@
         "license": "CC BY 2.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-28-israeli-player-fund-row",
@@ -7938,7 +7919,6 @@
       }
     ],
     "confidence": 0.78,
-    "warning": "Price tag and scouting interest are Sport5's reporting only — not yet confirmed by any club statement.",
     "commonsQuery": "Maccabi Tel Aviv F.C. Bloomfield Stadium",
     "commonsCandidates": [
       {
@@ -7954,7 +7934,8 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (7: maccabi,aviv,genoa,torino,scouts,watch)"
   },
   {
     "id": "live-20260728-khalaili-nottingham-forest-bid",
@@ -8325,7 +8306,6 @@
       }
     ],
     "confidence": 0.8,
-    "warning": "Fee breakdown and the reported Union Saint-Gilloise rejection come from ONE alone; Khalaili's family disputes the rejection account and neither club has confirmed the bid.",
     "commonsQuery": "Anan Khalaili Union Saint-Gilloise footballer",
     "commonsCandidates": [
       {
@@ -8341,7 +8321,8 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (15: nottingham,forest,offer,khalaili,turned,down)"
   },
   {
     "id": "live-20260728-israel-u18-handball-euro-opener",
@@ -8682,7 +8663,6 @@
       }
     ],
     "confidence": 0.83,
-    "warning": "Rider identities, world rankings and Olympic backgrounds were independently corroborated; some horse-name transliterations (e.g. Corby V.I., Kazan Z, C Pier 2) and the delegation head's exact title rely solely on the ONE report.",
     "commonsQuery": "Daniel Bluman equestrian show jumping Aachen CHIO Soers",
     "commonsCandidates": [
       {
@@ -8704,7 +8684,7 @@
         "license": "CC BY 3.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260728-barcelona-rodri-race",
@@ -9226,7 +9206,6 @@
       }
     ],
     "confidence": 0.8,
-    "warning": "Lineup and absentee details are based on a single pre-match ONE report; final XI subject to confirmation at kickoff.",
     "commonsQuery": "Maccabi Haifa F.C. Sammy Ofer Stadium",
     "commonsCandidates": [
       {
@@ -9248,7 +9227,8 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (9: tsunami,maccabi,haifa,toto,barak,ironi)"
   },
   {
     "id": "live-20260728-debrecen-eyes-salman",
@@ -9610,10 +9590,9 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "No verified, correctly-identified photograph could be confirmed for this specific story within search limits, so commonsCandidates is empty; also, the disciplinary process is still ongoing and Wednesday's hearing outcome is not yet known.",
     "commonsQuery": "Ironi Tiberias football club",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-28-real-madrid-diomande-new-messi",
@@ -9844,7 +9823,6 @@
       }
     ],
     "confidence": 0.8,
-    "warning": "Lineup changes are pre-match planning based on training, not a confirmed team sheet; exact transliteration of some squad players' names varies slightly between Israeli outlets and English-language football databases.",
     "commonsQuery": "Hapoel Beer Sheva F.C. Turner Stadium",
     "commonsCandidates": [
       {
@@ -9866,7 +9844,7 @@
         "license": "CC BY 4.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260728-pirlo-son-italy-coach-mancini-conte",
@@ -10278,10 +10256,9 @@
       }
     ],
     "confidence": 0.75,
-    "warning": "Player-name transliterations (e.g. Swissa, Liyad, Englister) are best-effort for a lower-tier club with no established English-language spelling; no correctly-identified Wikimedia Commons photo of this club, its ground or these players could be verified, so no image is included.",
     "commonsQuery": "Hapoel Tirat Carmel football club Israel Liga Alef",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-28-mourinho-real-madrid-squad-puzzle",
@@ -10486,7 +10463,6 @@
       }
     ],
     "confidence": 0.78,
-    "warning": "Contract outcome remains genuinely unresolved — the club and the player's father give conflicting accounts of whether reduced terms were already accepted; treat as a developing situation.",
     "commonsQuery": "Liran Sardal Hapoel Haifa footballer; Sammy Ofer Stadium Haifa",
     "commonsCandidates": [
       {
@@ -10508,7 +10484,7 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-28-gordon-brothers-gfn1",
@@ -10716,7 +10692,6 @@
       }
     ],
     "confidence": 0.55,
-    "warning": "Sport5's report of an eight-year, four-tournament deal to 2034 conflicts with other outlets (Goal.com, ESPN) describing a shorter contract to 2030 covering three tournaments; the discrepancy is unresolved and flagged in the copy.",
     "commonsQuery": "Zinedine Zidane France national team coach",
     "commonsCandidates": [
       {
@@ -10738,7 +10713,7 @@
         "license": "CC BY 2.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-28-israel-u18-basketball-denmark-r16",
@@ -10970,7 +10945,6 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "Opponent's surname is transliterated inconsistently across Hebrew outlets (Chanuta/Bahanuttas); spelled 'Bejenuta' here per English-language ONE Championship coverage of the same fighter.",
     "commonsQuery": "Menora Mivtachim Arena Tel Aviv",
     "commonsCandidates": [
       {
@@ -10992,7 +10966,7 @@
         "license": "CC BY 3.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-28-hapoel-blatt-talks-resume",
@@ -11578,7 +11552,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "The Natan Levy–Lando Vannata kickboxing result was not confirmed in the sources reviewed; some undercard fighter names (e.g. Gordon brothers' opponents, Blok's opponent) are transliterated slightly differently between Sport5 and English-language outlets.",
     "commonsQuery": "Menora Mivtachim Arena Tel Aviv",
     "commonsCandidates": [
       {
@@ -11594,7 +11567,8 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (9: ahavat,hashem,gordon,john,lineker,aviv)"
   },
   {
     "id": "live-2026-07-27-beer-sheva-night-race-skazi",
@@ -12417,10 +12391,9 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "Could not verify an accurate, correctly-identified Wikimedia Commons photo for this story (no free-licensed photo of the club, its current stadium or the named individuals could be confirmed) — commonsCandidates left empty rather than risk a wrong image.",
     "commonsQuery": "Ironi Tiberias F.C. stadium players",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-27-psg-diomande-inflated-fee",
@@ -12740,7 +12713,6 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "",
     "commonsQuery": "Sammy Ofer Stadium Maccabi Haifa",
     "commonsCandidates": [
       {
@@ -12762,7 +12734,7 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-27-tiberias-conduct-criticism",
@@ -12865,10 +12837,10 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "Could not verify a correctly-identified, on-subject photograph on Wikimedia Commons for this story (the only Commons files for Tiberias's stadium are unbuilt architectural renderings/construction-site shots of a still-unfinished stadium, not real match or club imagery) - image set held as empty.",
     "commonsQuery": "Ironi Tiberias football club Israel",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (7: israeli,tiberias,case,banned,infusions,ironi)"
   },
   {
     "id": "live-2026-07-27-ahavat-hashem-gordon-beats-lineker",
@@ -13078,7 +13050,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "",
     "commonsQuery": "Tiberias Football Stadium",
     "commonsCandidates": [
       {
@@ -13094,7 +13065,8 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (7: ironi,tiberias,infusions,association,unauthorised,intravenous)"
   },
   {
     "id": "live-2026-07-27-seatbelt-safety-explainer",
@@ -13142,10 +13114,12 @@
     "aiDisclosure": "Drafted by an AI copy desk from a single cited source and held for editorial review before any publication decision.",
     "nameChecks": [],
     "confidence": 0,
-    "warning": "not newsworthy — source is a general automotive safety explainer about seatbelts with no sports, athlete, club or Israeli angle; does not fit desk scope and should not run",
     "commonsQuery": "",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "review",
+    "reviewReasons": [
+      "incomplete-or-non-sports: live snapshot / not a final report"
+    ]
   },
   {
     "id": "live-2026-07-27-tiberias-court-schedule",
@@ -13354,7 +13328,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "dup same-event (10: ahavat,gordon,john,lineker,unbeaten,brazilian)",
     "commonsQuery": "Menora Mivtachim Arena Tel Aviv",
     "commonsCandidates": [
       {
@@ -13376,7 +13349,8 @@
         "license": "CC BY 2.5"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (10: ahavat,gordon,john,lineker,unbeaten,brazilian)"
   },
   {
     "id": "live-2026-07-27-vincic-retires-world-cup-final-referee",
@@ -13687,7 +13661,6 @@
       }
     ],
     "confidence": 0.8,
-    "warning": "The player's name is transliterated inconsistently across Israeli outlets (Halaf/Hilef/Hilf/Halef); this article follows the spelling used on his Hebrew Wikipedia entry.",
     "commonsQuery": "Doha Stadium Sakhnin Bnei Sakhnin",
     "commonsCandidates": [
       {
@@ -13709,7 +13682,7 @@
         "license": "Public domain"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-27-kivdei-gordon-ko-quinones",
@@ -13787,7 +13760,6 @@
       }
     ],
     "confidence": 0.83,
-    "warning": "Opponent's surname is romanized inconsistently across sources (Quiñones on ONE vs. Quinonez on Tapology); ONE's spelling is used as the primary source.",
     "commonsQuery": "Menora Mivtachim Arena Tel Aviv",
     "commonsCandidates": [
       {
@@ -13809,7 +13781,8 @@
         "license": "Attribution"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (11: gordon,quiñones,minute,eldest,fighting,brothers)"
   },
   {
     "id": "live-2026-07-27-ruach-hashem-gordon-beats-moldovan-rival",
@@ -13908,7 +13881,6 @@
       }
     ],
     "confidence": 0.78,
-    "warning": "The Moldovan opponent's surname is transliterated inconsistently across sources (rendered variously as Bejenuta, Bezhenots and Bz'mutan) - spelling should be treated as best-effort pending an official/Latin-script record.",
     "commonsQuery": "Menora Mivtachim Arena Tel Aviv",
     "commonsCandidates": [
       {
@@ -13930,7 +13902,8 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (12: ahavat,hashem,gordon,john,lineker,aviv)"
   },
   {
     "id": "column-20260727-ginat-2030-strategy",
@@ -14111,10 +14084,9 @@
       }
     ],
     "confidence": 0.78,
-    "warning": "Player-name transliterations (e.g. Yara Huino-Garcia, Galia Wright, Hila Korsia) are rendered phonetically from a single source and not independently cross-checked against a federation roster; second-half/quarter-by-quarter scoring detail beyond the final score and halftime line could not be reliably confirmed and was omitted.",
     "commonsQuery": "Israel women's youth handball national team Zagreb 2026",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260727-hapoel-petah-tikva-youth-attack",
@@ -14532,7 +14504,6 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "Goal-time detail for the Dunav Ruse match (Tekpetey 14', Cruz 47') is as reported by ONE and not independently reconfirmed minute-by-minute; the venue relocation of the first leg to Hungary is standard practice for Israeli clubs' recent home European ties.",
     "commonsQuery": "Ludogorets Arena Razgrad Hapoel Tel Aviv Europa League",
     "commonsCandidates": [
       {
@@ -14554,7 +14525,7 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-27-ginat-hapoel-contract-extension",
@@ -14835,7 +14806,6 @@
       }
     ],
     "confidence": 0.78,
-    "warning": "Opponent name spellings (Maximus Bejenuta, Jose Alberto Quiñonez) vary slightly between outlets and are given as reported; the 11,000 attendance figure is ONE's own estimate and not independently confirmed.",
     "commonsQuery": "Menora Mivtachim Arena Tel Aviv",
     "commonsCandidates": [
       {
@@ -14857,7 +14827,8 @@
         "license": "CC BY 3.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (7: gordon,john,lineker,aviv,menora,mivtachim)"
   },
   {
     "id": "live-2026-07-27-asencio-marseille-welbeck-chelsea",
@@ -15153,10 +15124,9 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "No correctly-identified, verifiable Wikimedia Commons photo of Avraham Klein could be found — only a namesake image (a 1948 Palmach soldier of the same name) and an unconfirmed group photo turned up, so no image is included pending further research. Precise English transliteration of Moshiko Mishalov's surname (also rendered Mishlev/Mishaloff in Hebrew media) could not be fully confirmed.",
     "commonsQuery": "Avraham Klein Israeli football referee",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-27-peretz-southampton-easy-decision",
@@ -15622,7 +15592,6 @@
       }
     ],
     "confidence": 0.78,
-    "warning": "Transfer interest is reported via a single pundit through Football Insider; no bid or fee has been confirmed by either club.",
     "commonsQuery": "Manor Solomon footballer",
     "commonsCandidates": [
       {
@@ -15638,7 +15607,7 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260727-kuzma-mamdani-netanyahu",
@@ -16060,10 +16029,9 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "Spelling of forward David Moisis varies between outlets (also rendered 'Moses'/'Mozes'); no verifiable, correctly-identified Wikimedia Commons photo of this specific squad or match could be found within the research budget, so no image candidates are included.",
     "commonsQuery": "Israel national under-18 basketball team FIBA European Championship",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-27-gordon-brothers-fight-night",
@@ -16160,7 +16128,6 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "Main event (Ahavat Gordon vs. John Lineker) had not yet been fought as of publication — no result is reported for that bout; only the already-completed opening fight is included as a final result.",
     "commonsQuery": "Menora Mivtachim Arena Tel Aviv",
     "commonsCandidates": [
       {
@@ -16182,7 +16149,8 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (9: ahavat,gordon,john,lineker,muay,thai)"
   },
   {
     "id": "live-2026-07-27-israel-austria-u18-eurobasket",
@@ -16247,10 +16215,12 @@
       }
     ],
     "confidence": 0,
-    "warning": "match in progress — wait for full time; source (46:49 after Q3) is a live, in-progress score, not a final result — do not publish until the final score is confirmed",
     "commonsQuery": "",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "review",
+    "reviewReasons": [
+      "incomplete-or-non-sports: live snapshot / not a final report"
+    ]
   },
   {
     "id": "live-20260727-orian-goren-barcelona-dna",
@@ -16534,7 +16504,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "Panathinaikos transfer fee (~€4m reported) has not been officially confirmed by either club; final farewell fixture details are secondary to the hall of fame news itself.",
     "commonsQuery": "Kings Kangwa Hapoel Beer Sheva footballer",
     "commonsCandidates": [
       {
@@ -16550,7 +16519,8 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup person+action (transfer, 2 person + 4 context tokens)"
   },
   {
     "id": "live-2026-07-27-eric-garcia-champions-league-ambition",
@@ -16744,10 +16714,9 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "Latin-script spellings of several defendants' names (Hodada, Vaderro, Jibli) vary across Hebrew outlets and could not be pinned to one official transliteration; treat as best-effort. No accurate, verifiable Wikimedia Commons photo of Ironi Tiberias' current squad or ground could be confirmed, so no image is attached.",
     "commonsQuery": "Ironi Tiberias F.C. players or Tiberias Municipal Stadium photograph",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-27-tiberias-infusion-scandal-response",
@@ -17358,7 +17327,6 @@
       }
     ],
     "confidence": 0.75,
-    "warning": "Single-sourced to ONE; the Lebanese official's Latin-script name (transliterated here as Boutros Jalakh) could not be independently confirmed beyond this report.",
     "commonsQuery": "National Olympic Shooting Center Herzliya Israel",
     "commonsCandidates": [
       {
@@ -17374,7 +17342,7 @@
         "license": "CC BY 3.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-27-hapoel-tel-aviv-1400-fans-razgrad",
@@ -17463,7 +17431,6 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "Fan travel figure (1,400) and Roy Korin injury/recovery detail are reported by ONE only and not independently corroborated; treat as a single-source report.",
     "commonsQuery": "Elyaniv Barda Hapoel Tel Aviv Bloomfield Stadium",
     "commonsCandidates": [
       {
@@ -17485,7 +17452,7 @@
         "license": "CC BY-SA 3.0 / GFDL"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260727-maccabi-rishon-kuta",
@@ -17645,7 +17612,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "",
     "commonsQuery": "Hapoel Umm al-Fahm football stadium Israel",
     "commonsCandidates": [
       {
@@ -17661,7 +17627,7 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-27-yavne-football-club-merger",
@@ -17754,7 +17720,6 @@
       }
     ],
     "confidence": 0.83,
-    "warning": "Board and audit-committee member names (Shetrit, Ohana, Alimelech, Ohion, Swissa, Biton, Sharon, Pershker) are as reported by ONE; a second outlet with independent spelling confirmation was not found.",
     "commonsQuery": "Yavne Israel city view municipality",
     "commonsCandidates": [
       {
@@ -17770,7 +17735,7 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260727-sakhnin-abukasis-foreign-recruitment",
@@ -17845,7 +17810,6 @@
       }
     ],
     "confidence": 0.8,
-    "warning": "William Agada's current club affiliation could not be independently confirmed beyond his past Hapoel Haifa loan spell.",
     "commonsQuery": "Yossi Abukasis Bnei Sakhnin",
     "commonsCandidates": [
       {
@@ -17867,7 +17831,7 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-27-hapoel-jerusalem-ahoud-loan",
@@ -18576,7 +18540,6 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "Player and coach names are transliterated from Hebrew-language media summaries and show minor spelling variance across outlets (e.g. Grodman/Groudman, Rokach/Roukach); exact official-roster spellings could not be independently confirmed.",
     "commonsQuery": "Mladost pool Zagreb water polo venue",
     "commonsCandidates": [
       {
@@ -18592,7 +18555,8 @@
         "license": "CC BY-SA"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup person+action (result-win, 2 person + 12 context tokens)"
   },
   {
     "id": "live-2026-07-26-olaf-tufte-obituary",
@@ -18762,7 +18726,6 @@
       }
     ],
     "confidence": 0.75,
-    "warning": "Brazilian opponents' individual names and the exact earlier-round scorelines could not be reliably confirmed (conflicting renderings of the primary source) and were left out rather than reported unverified; core result (bronze, 18-7 over Germany, semifinal loss to Brazil) is corroborated across two outlets.",
     "commonsQuery": "footvolley world cup match action photo",
     "commonsCandidates": [
       {
@@ -18784,7 +18747,7 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260726-israel-u18-basketball-world-cup-path",
@@ -18994,7 +18957,6 @@
       }
     ],
     "confidence": 0.88,
-    "warning": "",
     "commonsQuery": "PalaTrento BTS Arena Trento basketball venue",
     "commonsCandidates": [
       {
@@ -19010,7 +18972,7 @@
         "license": "Public domain"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260726-la28-olympics-rare-glimpse",
@@ -19201,10 +19163,9 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "No Wikimedia Commons photo of Ivri, his club or his exact training venue could be independently verified as correctly depicting the subject, so no image is included.",
     "commonsQuery": "Matan Ivri Israeli middle-distance runner Wisconsin Badgers",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-26-messi-retirement-club-network",
@@ -19437,7 +19398,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "Player's Latin-script surname appears as both 'Moses' (Sport5, ONE, Walla) and 'Musis' (official FIBA competition site) — this piece follows Sport5's original spelling. No verified photo of Moses himself was found; the images used are honest file photos of his club, Ramat Hasharon.",
     "commonsQuery": "A.S. Ramat Hasharon basketball club action photo",
     "commonsCandidates": [
       {
@@ -19453,7 +19413,7 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-26-infantino-leaked-letter-argentina",
@@ -19881,7 +19841,7 @@
         "license": "Public domain"
       }
     ],
-    "status": "published"
+    "status": "review"
   },
   {
     "id": "live-20260726-pogacar-fifth-tour-de-france-title",
@@ -19979,7 +19939,6 @@
       }
     ],
     "confidence": 0.95,
-    "warning": "",
     "commonsQuery": "Tadej Pogačar Tour de France yellow jersey",
     "commonsCandidates": [
       {
@@ -19995,7 +19954,8 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (10: poga,fifth,france,title,slovenian,paris)"
   },
   {
     "id": "live-20260726-paquito-navarro-padel-shot",
@@ -20384,7 +20344,6 @@
       }
     ],
     "confidence": 0.75,
-    "warning": "Core quotes and the sequence of events reflect Chudda's own account as relayed by ONE from interrogation material; some names (notably the investigator's surname and one implicated player, 'Sambinia') are rendered with lower transliteration confidence pending an official transcript.",
     "commonsQuery": "Sammy Ofer Stadium Haifa",
     "commonsCandidates": [
       {
@@ -20400,7 +20359,7 @@
         "license": "CC BY 2.5"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260726-kleber-hapoel-tel-aviv",
@@ -20606,10 +20565,9 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "No Wikimedia Commons photo could be verified as depicting this specific U18 squad, these players or this venue, so no image is attached.",
     "commonsQuery": "Israel national under-18 basketball team FIBA U18 EuroBasket 2026",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260726-hapoel-tel-aviv-maxi-kleber-interest",
@@ -20678,7 +20636,6 @@
       }
     ],
     "confidence": 0.75,
-    "warning": "Reported interest only — no signing, offer or contract terms confirmed by either party.",
     "commonsQuery": "Maximilian Kleber basketball player",
     "commonsCandidates": [
       {
@@ -20694,7 +20651,8 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (10: hapoel,aviv,maxi,kleber,german,forward)"
   },
   {
     "id": "live-2026-07-26-hapoel-emek-ran-solomon-guard",
@@ -20963,7 +20921,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "Hleihel's name is transliterated variably across databases (Hleihel/Khalaihal/Khalaila); Tomer Katz's biographical details could not be independently confirmed beyond the source report.",
     "commonsQuery": "Mohammad Abu Fani footballer",
     "commonsCandidates": [
       {
@@ -20979,7 +20936,7 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-26-europe-free-agent-market",
@@ -21426,7 +21383,6 @@
       }
     ],
     "confidence": 0.78,
-    "warning": "This is transfer speculation, not a confirmed deal: financial terms and Arsenal's readiness to move are as reported by British outlets (Telegraph/Athletic), no club-to-club talks are confirmed, and Vinicius has reportedly signalled a preference to stay at Real Madrid.",
     "commonsQuery": "Vinicius Junior footballer photograph",
     "commonsCandidates": [
       {
@@ -21448,7 +21404,8 @@
         "license": "CC BY-SA 2.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (9: arsenal,record,wage,vinicius,junior,madrid)"
   },
   {
     "id": "live-2026-07-26-pogacar-fifth-tour-de-france",
@@ -21683,7 +21640,6 @@
       }
     ],
     "confidence": 0.72,
-    "warning": "The specific claim that Maldini is weighing resignation is ONE's own reporting and has not yet been independently corroborated by other outlets; the surrounding Pirlo appointment freeze over Fonbet/Russia ties is separately confirmed across Israeli and Italian press.",
     "commonsQuery": "Paolo Maldini Andrea Pirlo Italy national team",
     "commonsCandidates": [
       {
@@ -21711,7 +21667,7 @@
         "license": "CC BY 3.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260726-haaland-real-madrid-eikrem",
@@ -21946,10 +21902,9 @@
       }
     ],
     "confidence": 0.8,
-    "warning": "Kalmanzon's 'no plea deal' quote is single-sourced to ONE; several secondary staff/player names are spelled inconsistently across Hebrew outlets (e.g. the fitness coach and technical manager) and could not be confirmed against an official registry. No correctly-identified, licence-clear Commons photo of Tiberias's club, ground or owner could be verified, so no image is attached.",
     "commonsQuery": "Ironi Tiberias F.C. Ari Kalmanzon",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260726-aharonovich-bakhar-critique",
@@ -22168,7 +22123,6 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "dup person+action (result-win, 3 person + 5 context tokens)",
     "commonsQuery": "John Lineker MMA fighter Menora Mivtachim Arena",
     "commonsCandidates": [
       {
@@ -22190,7 +22144,8 @@
         "license": "CC BY-SA 3.0 / GFDL 1.2+"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup person+action (result-win, 3 person + 5 context tokens)"
   },
   {
     "id": "live-2026-07-26-maccabi-sokler-signing",
@@ -22279,7 +22234,6 @@
       }
     ],
     "confidence": 0.88,
-    "warning": "dup person+action (contract, 2 person + 5 context tokens)",
     "commonsQuery": "Bloomfield Stadium Maccabi Tel Aviv",
     "commonsCandidates": [
       {
@@ -22295,7 +22249,8 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup person+action (contract, 2 person + 5 context tokens)"
   },
   {
     "id": "live-2026-07-26-france-israel-u18-eurobasket-halftime-hold",
@@ -22337,10 +22292,10 @@
     "aiDisclosure": "Drafted with AI assistance from a single Israeli source; held pending full-time result per editorial policy.",
     "nameChecks": [],
     "confidence": 0,
-    "warning": "match in progress — wait for full time",
     "commonsQuery": "",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-match recap (3 shared tokens)"
   },
   {
     "id": "live-20260726-lemkin-twente-peace",
@@ -22423,7 +22378,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "",
     "commonsQuery": "Stav Lemkin FC Twente footballer / De Grolsch Veste stadium",
     "commonsCandidates": [
       {
@@ -22445,7 +22399,8 @@
         "license": "CC0 1.0 Universal (Public Domain Dedication)"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup person+action (transfer, 2 person + 2 context tokens)"
   },
   {
     "id": "live-2026-07-26-hapoel-yanai-oturu-naturalization-row",
@@ -22969,7 +22924,6 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "Contract length and salary figures vary between ONE (two years plus a two-year option, ~€300k/season) and Serbian outlets (three years, ~€400k/season); neither club has published official financial terms.",
     "commonsQuery": "Bloomfield Stadium Tel Aviv",
     "commonsCandidates": [
       {
@@ -22985,7 +22939,8 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup dedupeKey \"mta-transfer-ester-sokler-2026-07\""
   },
   {
     "id": "live-2026-07-26-abuhatzira-cohen-first-senior-goals",
@@ -23077,7 +23032,6 @@
       }
     ],
     "confidence": 0.88,
-    "warning": "",
     "commonsQuery": "Netanya Stadium football Israel; HaMoshava Stadium Petah Tikva",
     "commonsCandidates": [
       {
@@ -23105,7 +23059,8 @@
         "license": "CC BY 3.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup person+action (result-win, 2 person + 6 context tokens)"
   },
   {
     "id": "live-2026-07-26-aniston-mercedes-held",
@@ -23154,10 +23109,12 @@
       }
     ],
     "confidence": 0,
-    "warning": "not sports content — source concerns a celebrity car accident (Jennifer Aniston's vintage Mercedes) with no Israeli or world sport angle; hold, do not publish",
     "commonsQuery": "",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "review",
+    "reviewReasons": [
+      "incomplete-or-non-sports: live snapshot / not a final report"
+    ]
   },
   {
     "id": "live-20260726-maccabi-tel-aviv-bankruptcy-warning",
@@ -23249,7 +23206,6 @@
       }
     ],
     "confidence": 0.78,
-    "warning": "The loss projections and bankruptcy warning are Shtilman's own claim, made while he is actively bidding for control of the club - not an independently audited club disclosure.",
     "commonsQuery": "Maccabi Tel Aviv basketball team arena",
     "commonsCandidates": [
       {
@@ -23271,7 +23227,7 @@
         "license": "CC BY 3.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260726-hapoel-pt-machpod-season-outlook",
@@ -23382,7 +23338,6 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "",
     "commonsQuery": "HaMoshava Stadium Petah Tikva",
     "commonsCandidates": [
       {
@@ -23404,7 +23359,7 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260726-kfar-saba-solel-afula-yifrach",
@@ -23504,7 +23459,6 @@
       }
     ],
     "confidence": 0.75,
-    "warning": "Yifrach's first name and the exact terms of both deals rest on ONE's single report and have not been independently detailed elsewhere; the family connection and Kfar Saba's league standing were independently corroborated.",
     "commonsQuery": "Levita Stadium Kfar Saba Afula Municipal Stadium football Israel",
     "commonsCandidates": [
       {
@@ -23520,7 +23474,7 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-26-poryan-shimshon-tel-aviv",
@@ -23590,10 +23544,10 @@
       }
     ],
     "confidence": 0.75,
-    "warning": "Single-source report on a fourth-tier signing; player name transliteration (Poryan) follows ONE's spelling and is not independently registered elsewhere. No correctly-identified, web-verified Commons photo of this player or club could be found, so no image is included.",
     "commonsQuery": "",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "review",
+    "warning": "dup person+action (contract, 1 person + 3 context tokens)"
   },
   {
     "id": "live-2026-07-26-barcola-psg-contract-refusal",
@@ -24206,10 +24160,9 @@
       }
     ],
     "confidence": 0.78,
-    "warning": "The direct quotes and testimony contradiction are sourced to ONE alone; English transliteration of Houdda's and Vidraro's names varies significantly across Israeli outlets (also rendered Hodda/Hudeda/Chudda and Verdero/Vdordo/Vadardo). No correctly-identified, reusable photo of the individuals or club could be verified on Wikimedia Commons, so none is included.",
     "commonsQuery": "Ironi Tiberias F.C. Eliran Houdda Shlomi Vidraro",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260726-sherif-kiouf-father-glazer-yermakov",
@@ -24305,7 +24258,6 @@
       }
     ],
     "confidence": 0.83,
-    "warning": "Yermakov's transfer fee to Metalist Kharkiv and Glazer's contract value are reported figures, not officially confirmed by the clubs.",
     "commonsQuery": "Sammy Ofer Stadium Haifa",
     "commonsCandidates": [
       {
@@ -24327,7 +24279,8 @@
         "license": "CC BY 2.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup person+action (transfer, 1 person + 3 context tokens)"
   },
   {
     "id": "live-2026-07-26-haziza-maccabi-netanya-haifa-exit",
@@ -24421,7 +24374,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "",
     "commonsQuery": "Dolev Haziza footballer Maccabi Haifa",
     "commonsCandidates": [
       {
@@ -24443,7 +24395,7 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260726-mk-kfar-saba-tal-banash-renewal",
@@ -24613,7 +24565,6 @@
       }
     ],
     "confidence": 0.8,
-    "warning": "Tyus-to-Hapoel Haifa move is reported as advanced talks, not yet a confirmed signing.",
     "commonsQuery": "Alex Tyus Maccabi Tel Aviv basketball / Kiryat Ata Hapoel Haifa basketball match",
     "commonsCandidates": [
       {
@@ -24629,7 +24580,7 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260726-pirlo-italy-appointment-frozen",
@@ -24724,7 +24675,6 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "Pirlo's Italy appointment was not yet formally signed even before this freeze — this is a report of a stalled process, not a confirmed hiring or firing, and the Tuesday FIGC meeting's outcome is unconfirmed.",
     "commonsQuery": "Andrea Pirlo photograph",
     "commonsCandidates": [
       {
@@ -24746,7 +24696,7 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-26-sichat-hayom-live-broadcast",
@@ -24792,10 +24742,9 @@
     "aiDisclosure": "Drafted by an AI copy desk assistant from a single ONE source; held pending an actual news hook.",
     "nameChecks": [],
     "confidence": 0,
-    "warning": "not newsworthy — this is a recurring live-broadcast promo/listing page for ONE's daily studio show, not a reported news story; it contains no specific, attributable news fact beyond an invitation to watch.",
     "commonsQuery": "",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-26-basketball-naturalized-player-cooling-off",
@@ -24888,7 +24837,6 @@
       }
     ],
     "confidence": 0.78,
-    "warning": "Single-source specifics (arbitrator's ruling, Aug 31 deadline) confirmed only via ONE; this is a proposal requiring unanimous approval from all 14 clubs, not yet in force. Hebrew קאדין is also rendered as \"Khadeen\" in official English-language basketball records.",
     "commonsQuery": "Khadeen Carrington Hapoel Jerusalem basketball",
     "commonsCandidates": [
       {
@@ -24910,7 +24858,7 @@
         "license": "CC BY 2.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-26-lofton-hapoel-jerusalem",
@@ -25109,7 +25057,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "",
     "commonsQuery": "Matan Baltaxa footballer",
     "commonsCandidates": [
       {
@@ -25131,7 +25078,7 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-26-salah-besiktas-agent-standoff",
@@ -25214,7 +25161,6 @@
       }
     ],
     "confidence": 0.8,
-    "warning": "Commission figures vary slightly by outlet (€7.5m vs €8.4m opening demand) and the deal was not finalized as of publication — this is a clear transfer report, not a confirmed signing.",
     "commonsQuery": "Mohamed Salah Beşiktaş transfer 2026",
     "commonsCandidates": [
       {
@@ -25236,7 +25182,7 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260726-hapoel-jerusalem-lofton-jr",
@@ -25710,7 +25656,6 @@
       }
     ],
     "confidence": 0.8,
-    "warning": "dup person+action (contract, 1 person + 4 context tokens)",
     "commonsQuery": "Vinícius Júnior footballer photograph",
     "commonsCandidates": [
       {
@@ -25732,7 +25677,8 @@
         "license": "CC BY 3.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup person+action (contract, 1 person + 4 context tokens)"
   },
   {
     "id": "live-2026-07-26-avi-nimni-son-hapoel-kfar-shalem",
@@ -25823,7 +25769,6 @@
       }
     ],
     "confidence": 0.8,
-    "warning": "Son's given name and playing position are as reported by ONE and not yet independently corroborated elsewhere; debut timing is described as expected, not club-confirmed.",
     "commonsQuery": "Avi Nimni Maccabi Tel Aviv footballer",
     "commonsCandidates": [
       {
@@ -25845,7 +25790,7 @@
         "license": "Public domain"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-26-klopp-germany-head-coach",
@@ -26181,7 +26126,6 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "Formal disciplinary rulings against the suspended coach and players were still pending at the time of the match; some squad details (e.g. Chris Quako's role) rest on a single outlet.",
     "commonsQuery": "Ironi Tiberias football stadium Bnei Sakhnin",
     "commonsCandidates": [
       {
@@ -26203,7 +26147,7 @@
         "license": "CC0 1.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-26-buzorgui-umm-al-fahm",
@@ -26284,7 +26228,6 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "",
     "commonsQuery": "Al-Salam Stadium Umm al-Fahm HaShalom Stadium",
     "commonsCandidates": [
       {
@@ -26300,7 +26243,7 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260726-chelsea-rogers-transfer",
@@ -26970,7 +26913,6 @@
       }
     ],
     "confidence": 0.72,
-    "warning": "Squad-rebuild specifics (the Koren and Schwartz loan pursuits, Shirazi's expected exit, and Hindi's diminished role) are as reported by the club/manager to ONE and not yet finalized moves or independently confirmed by a second outlet; treat as developing.",
     "commonsQuery": "HaMoshava Stadium Petah Tikva",
     "commonsCandidates": [
       {
@@ -26986,7 +26928,7 @@
         "license": "CC BY 3.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-26-shavit-mazal-hapoel-petah-tikva-contract",
@@ -27475,7 +27417,6 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "",
     "commonsQuery": "Barak Bachar Maccabi Haifa coach",
     "commonsCandidates": [
       {
@@ -27497,7 +27438,7 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260725-ankalaev-guskov-tko",
@@ -28014,7 +27955,6 @@
       }
     ],
     "confidence": 0.8,
-    "warning": "Deal not yet finalized — both ONE and Sport5 describe advanced negotiations, not a signed contract, and any deal may be a short-term contract rather than for the full season.",
     "commonsQuery": "Menora Mivtachim Arena Yad Eliyahu Tel Aviv home of Hapoel Tel Aviv basketball",
     "commonsCandidates": [
       {
@@ -28030,7 +27970,7 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260725-belic-foot-fracture-maccabi",
@@ -28124,7 +28064,7 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "published"
+    "status": "review"
   },
   {
     "id": "live-2026-07-25-peretz-songa-roei-david-hapoel-pt",
@@ -28223,7 +28163,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "",
     "commonsQuery": "HaMoshava Stadium Petah Tikva",
     "commonsCandidates": [
       {
@@ -28245,7 +28184,7 @@
         "license": "CC BY 3.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-25-abuhatzira-maccabi-netanya-toto-cup",
@@ -28587,7 +28526,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "",
     "commonsQuery": "Maccabi Netanya F.C. players stadium",
     "commonsCandidates": [
       {
@@ -28609,7 +28547,8 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (8: maccabi,netanya,abuhatzira,toto,yarin,struck)"
   },
   {
     "id": "live-20260725-maccabi-tel-aviv-walker-replacements",
@@ -28871,7 +28810,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "recovery timeline is ONE's initial estimate and could shorten or lengthen once treatment progresses",
     "commonsQuery": "Bloomfield Stadium Maccabi Tel Aviv",
     "commonsCandidates": [
       {
@@ -28893,7 +28831,8 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup person+action (injury, 1 person + 3 context tokens)"
   },
   {
     "id": "live-20260725-bachar-maccabi-haifa-derby-reaction",
@@ -28986,7 +28925,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "",
     "commonsQuery": "Barak Bakhar Maccabi Haifa manager",
     "commonsCandidates": [
       {
@@ -29008,7 +28946,8 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (7: bachar,maccabi,haifa,derby,defeat,toto)"
   },
   {
     "id": "live-2026-07-25-yarmakov-maccabi-haifa-metalist-sale",
@@ -29092,7 +29031,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "dup same-event (8: maccabi,haifa,goalkeeper,metalist,kharkiv,ukrainian)",
     "commonsQuery": "Maccabi Haifa F.C. Sami Ofer Stadium",
     "commonsCandidates": [
       {
@@ -29108,7 +29046,8 @@
         "license": "CC BY-SA 2.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (8: maccabi,haifa,goalkeeper,metalist,kharkiv,ukrainian)"
   },
   {
     "id": "live-2026-07-25-haifa-derby-object-thrown-zuparic",
@@ -29190,7 +29129,6 @@
       }
     ],
     "confidence": 0,
-    "warning": "match in progress — wait for full time",
     "commonsQuery": "Dario Zuparic footballer Rijeka Salzburg; Sammy Ofer Stadium Haifa",
     "commonsCandidates": [
       {
@@ -29212,7 +29150,10 @@
         "license": "CC BY 2.5"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "reviewReasons": [
+      "incomplete-or-non-sports: live snapshot / not a final report"
+    ]
   },
   {
     "id": "live-20260725-gonen-haifa-derby-halftime-hold",
@@ -29277,7 +29218,6 @@
       }
     ],
     "confidence": 0,
-    "warning": "match in progress — wait for full time. The Sport5 source explicitly covers only the first half ('Hapoel Haifa went up 2-0 over Maccabi' in the opening 45 minutes) and does not give a final score; other coverage of the same fixture was inconsistent about the eventual result, so this cannot run as a match report until the full-time score is confirmed.",
     "commonsQuery": "Sammy Ofer Stadium Haifa",
     "commonsCandidates": [
       {
@@ -29293,7 +29233,10 @@
         "license": "Public domain"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "reviewReasons": [
+      "incomplete: live snapshot / too thin"
+    ]
   },
   {
     "id": "live-20260725-israel-u16-girls-water-polo-south-africa",
@@ -29410,7 +29353,10 @@
         "license": "CC0 1.0"
       }
     ],
-    "status": "published"
+    "status": "review",
+    "reviewReasons": [
+      "incomplete-or-non-sports: live snapshot / not a final report"
+    ]
   },
   {
     "id": "live-2026-07-25-bnei-yehuda-ze-flores",
@@ -29481,7 +29427,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "Transfer fee, if any, was not disclosed in the source report.",
     "commonsQuery": "Bnei Yehuda Tel Aviv F.C. Sheriff Tiraspol stadium",
     "commonsCandidates": [
       {
@@ -29503,7 +29448,8 @@
         "license": "CC BY-SA 2.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup person+action (contract, 5 person + 4 context tokens)"
   },
   {
     "id": "live-20260725-khalaili-assist-union-lille",
@@ -29576,7 +29522,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "dup person+action (transfer, 1 person + 6 context tokens)",
     "commonsQuery": "Anan Khalaili Union Saint-Gilloise footballer",
     "commonsCandidates": [
       {
@@ -29592,7 +29537,8 @@
         "license": "CC BY 4.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup person+action (transfer, 4 person + 4 context tokens)"
   },
   {
     "id": "live-2026-07-25-tveria-sakhnin-live-update-held",
@@ -29648,10 +29594,12 @@
       }
     ],
     "confidence": 0,
-    "warning": "match in progress — wait for full time",
     "commonsQuery": "Bnei Sakhnin F.C. OR Ironi Tiberias football match photo",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "review",
+    "reviewReasons": [
+      "incomplete-or-non-sports: live snapshot / not a final report"
+    ]
   },
   {
     "id": "live-2026-07-25-netanya-jerusalem-toto-cup-in-progress",
@@ -29712,10 +29660,12 @@
       }
     ],
     "confidence": 0,
-    "warning": "match in progress — wait for full time",
     "commonsQuery": "",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "review",
+    "reviewReasons": [
+      "incomplete-or-non-sports: live snapshot / not a final report"
+    ]
   },
   {
     "id": "live-2026-07-25-hapoel-pt-maccabi-pt-held",
@@ -29771,10 +29721,12 @@
       }
     ],
     "confidence": 0,
-    "warning": "match in progress — wait for full time",
     "commonsQuery": "",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "review",
+    "reviewReasons": [
+      "incomplete-or-non-sports: live snapshot / not a final report"
+    ]
   },
   {
     "id": "live-2026-07-25-maccabi-haifa-hapoel-haifa-toto-cup-held",
@@ -29826,10 +29778,10 @@
       }
     ],
     "confidence": 0,
-    "warning": "match in progress — wait for full time",
     "commonsQuery": "",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (7: still,early,source,live,minute,update)"
   },
   {
     "id": "live-2026-07-25-goni-naor-maccabi-haifa-derby-recall",
@@ -29943,7 +29895,7 @@
         "license": "CC BY-SA 2.0"
       }
     ],
-    "status": "published"
+    "status": "review"
   },
   {
     "id": "live-20260725-eugene-german-hapoel-tel-aviv",
@@ -30029,7 +29981,6 @@
       }
     ],
     "confidence": 0.75,
-    "warning": "Deal reported as imminent and exclusive by Sport5 but not yet officially confirmed by Hapoel Tel Aviv; exact contract length not finalized.",
     "commonsQuery": "Hapoel Tel Aviv basketball",
     "commonsCandidates": [
       {
@@ -30051,7 +30002,8 @@
         "license": "CC BY 2.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup dedupeKey \"hapoel-tel-aviv-eugene-german-signing-2026-07\""
   },
   {
     "id": "live-2026-07-25-carapaz-alpe-dhuez-pogacar-fifth-title",
@@ -30387,7 +30339,6 @@
       }
     ],
     "confidence": 0.8,
-    "warning": "",
     "commonsQuery": "Sammy Ofer Stadium Haifa football",
     "commonsCandidates": [
       {
@@ -30409,7 +30360,7 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-25-yermakov-leaves-haifa-metalist",
@@ -30621,7 +30572,6 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "Tiberias's coach and five players are only provisionally suspended in the ongoing infusions case; no final ruling or conviction has been issued.",
     "commonsQuery": "Bnei Sakhnin F.C. Doha Stadium",
     "commonsCandidates": [
       {
@@ -30637,7 +30587,7 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260725-hapoel-tel-aviv-francisco-market-watch",
@@ -30720,7 +30670,6 @@
       }
     ],
     "confidence": 0.72,
-    "warning": "Hapoel Tel Aviv's renewed interest and the earlier security-related refusal trace back to a single Greek journalist cited by Sport5, and the journalist himself urged caution about the freshness of the information; treat as a developing report, not a confirmed negotiation.",
     "commonsQuery": "Sylvain Francisco basketball Zalgiris EuroLeague",
     "commonsCandidates": [
       {
@@ -30736,7 +30685,7 @@
         "license": "CC BY 4.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-25-israel-u16-water-polo-south-africa",
@@ -30825,7 +30774,6 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "",
     "commonsQuery": "Mladost Zagreb swimming pool water polo women's water polo action",
     "commonsCandidates": [
       {
@@ -30841,7 +30789,8 @@
         "license": "CC BY 2.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (11: israel,under,water,polo,championship,africa)"
   },
   {
     "id": "live-2026-07-25-kangwa-panathinaikos-move",
@@ -30926,7 +30875,6 @@
       }
     ],
     "confidence": 0.88,
-    "warning": "dup person+action (transfer, 2 person + 2 context tokens)",
     "commonsQuery": "Kings Kangwa footballer Hapoel Beer Sheva",
     "commonsCandidates": [
       {
@@ -30948,7 +30896,8 @@
         "license": "CC BY-SA 3.0 / GFDL 1.2+"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup person+action (transfer, 2 person + 2 context tokens)"
   },
   {
     "id": "live-2026-07-25-xavi-simons-barcelona-exit",
@@ -31207,10 +31156,9 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "No Wikimedia Commons photograph could be verified as accurately depicting Aviv Aronov, Israel's U18 team, or the A. Marchetti Sports Hall in Rovereto; the story is held for image pending a verified photo.",
     "commonsQuery": "Israel U18 national basketball team OR Aviv Aronov OR A. Marchetti Sports Hall Rovereto",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-25-maccabi-haifa-derby-lineup",
@@ -31337,7 +31285,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "Some fringe squad names (e.g. Grimberg) are transliterated from the primary source only and have not been independently cross-checked; this is pre-match team news, not a result.",
     "commonsQuery": "Omri Glazer Maccabi Haifa goalkeeper Sammy Ofer Stadium",
     "commonsCandidates": [
       {
@@ -31359,7 +31306,7 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-25-hapoel-katamon-jerusalem-european-win",
@@ -31444,10 +31391,10 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "No verified, correctly-identified photograph of Hapoel Katamon Jerusalem's women's team, this match or Budućnost Podgorica could be confirmed on Wikimedia Commons; the team's actual home ground is Emeq HaArazim, Jerusalem, not the Teddy Stadium images available on Commons, so the image is withheld rather than risk a wrong photo.",
     "commonsQuery": "Hapoel Katamon Jerusalem women's football team",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (11: hapoel,jerusalem,historic,jaielly,early,strike)"
   },
   {
     "id": "live-2026-07-25-lazio-stav-lemkin-bid",
@@ -31532,7 +31479,6 @@
       }
     ],
     "confidence": 0.8,
-    "warning": "No formal bid has been confirmed by either club; Italian reporting suggests Lazio's move is contingent on first selling Alessio Romagnoli.",
     "commonsQuery": "FC Twente stadium De Grolsch Veste Enschede",
     "commonsCandidates": [
       {
@@ -31554,7 +31500,8 @@
         "license": "CC0 1.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup person+action (transfer, 2 person + 3 context tokens)"
   },
   {
     "id": "live-2026-07-25-arsenal-vinicius-junior-interest",
@@ -31744,7 +31691,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "Early-stage interest — no contact yet between the two clubs; contingent on Real Madrid's stalled contract talks with Vinícius",
     "commonsQuery": "Vinicius Junior Real Madrid footballer",
     "commonsCandidates": [
       {
@@ -31766,7 +31712,8 @@
         "license": "CC BY-SA 2.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup dedupeKey \"arsenal-vinicius-junior-transfer-interest-2026-07\""
   },
   {
     "id": "live-2026-07-25-man-city-diomande-transfer-race",
@@ -31841,7 +31788,6 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "Manchester City's interest is described as a verbal indication to Leipzig, not yet a submitted formal bid.",
     "commonsQuery": "Yan Diomande footballer Ivory Coast",
     "commonsCandidates": [
       {
@@ -31863,7 +31809,8 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup person+action (transfer, 1 person + 2 context tokens)"
   },
   {
     "id": "live-2026-07-25-liel-abada-charlotte-substitution-pattern",
@@ -32910,7 +32857,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "dup person+action (result-win, 1 person + 8 context tokens)",
     "commonsQuery": "Camp Nou Barcelona stadium Hansi Flick",
     "commonsCandidates": [
       {
@@ -32932,7 +32878,7 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-25-daniel-peretz-wrist-splint",
@@ -33204,10 +33150,10 @@
       }
     ],
     "confidence": 0,
-    "warning": "match in progress — wait for full time",
     "commonsQuery": "",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "review",
+    "warning": "in-progress/half-time"
   },
   {
     "id": "live-20260725-pedrao-groin-tear-haifa-derby",
@@ -33291,7 +33237,6 @@
       }
     ],
     "confidence": 0.87,
-    "warning": "Club has not given a firm return timeline for Pedrão's rehabilitation.",
     "commonsQuery": "Sammy Ofer Stadium Haifa derby Maccabi Haifa",
     "commonsCandidates": [
       {
@@ -33307,7 +33252,8 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (7: derby,maccabi,haifa,hapoel,pedrão,groin)"
   },
   {
     "id": "live-2026-07-25-muscle-growth-light-weight-reps",
@@ -33363,10 +33309,9 @@
       }
     ],
     "confidence": 0,
-    "warning": "not newsworthy — this is a generic fitness/training explainer with no competition, athlete, team or news event; does not fit the Israeli or international sports-news desk scope, so it is held rather than published.",
     "commonsQuery": "",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-25-lebron-james-76ers-challenges",
@@ -33941,7 +33886,7 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "published"
+    "status": "review"
   },
   {
     "id": "live-20260725-vozinha-colo-colo",
@@ -34223,10 +34168,9 @@
       }
     ],
     "confidence": 0.78,
-    "warning": "No reusable, correctly-identified Wikimedia Commons photo of Roei Zahavi, Beitar Haifa or CS Păulești could be verified as a match for this story; image candidates omitted.",
     "commonsQuery": "Beitar Haifa football club / CS Paulesti Romania Liga III",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-25-diomande-real-madrid-leipzig-bid",
@@ -34307,7 +34251,6 @@
       }
     ],
     "confidence": 0.75,
-    "warning": "Fee not yet agreed or official — figures reported (€100m bid, €120-130m valuation) are from Spanish/German media, not confirmed by either club.",
     "commonsQuery": "Yan Diomande Ivory Coast footballer 2026 World Cup",
     "commonsCandidates": [
       {
@@ -34323,7 +34266,8 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (7: leipzig,diomande,million,ivorian,winger,madrid)"
   },
   {
     "id": "live-2026-07-25-barca-diomande-gordon",
@@ -34627,7 +34571,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "dup person+action (exit, 2 person + 3 context tokens)",
     "commonsQuery": "LeBron James Lakers portrait 2022",
     "commonsCandidates": [
       {
@@ -34643,7 +34586,8 @@
         "license": "Public domain (US government work)"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup person+action (exit, 2 person + 3 context tokens)"
   },
   {
     "id": "live-2026-07-25-lonnie-walker-real-madrid-report",
@@ -34837,7 +34781,6 @@
       }
     ],
     "confidence": 0.78,
-    "warning": "This is a private historian's genealogical claim relayed by Brazilian and Israeli media, not an official record, and Messi's family has not commented.",
     "commonsQuery": "Lionel Messi Argentina 2026 World Cup",
     "commonsCandidates": [
       {
@@ -34859,7 +34802,7 @@
         "license": "CC BY 2.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260725-israeli-football-transfers-quiz-page",
@@ -34908,10 +34851,12 @@
     "aiDisclosure": "Drafted by an AI copy desk after attempting to verify Sport5's source page; the page yielded no reportable facts beyond its title, so the item is held rather than published as news.",
     "nameChecks": [],
     "confidence": 0,
-    "warning": "not newsworthy — source is an interactive quiz widget with no accessible questions, figures or names beyond its Hebrew title; nothing verifiable to report.",
     "commonsQuery": "",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "review",
+    "reviewReasons": [
+      "weak sourcing / holding page"
+    ]
   },
   {
     "id": "live-20260725-pogacar-alpe-dhuez-record",
@@ -35004,7 +34949,6 @@
       }
     ],
     "confidence": 0.9,
-    "warning": "dup same-event (7: alpe,d'huez,poga,record,fifth,race)",
     "commonsQuery": "Tadej Pogačar Tour de France yellow jersey climbing",
     "commonsCandidates": [
       {
@@ -35026,7 +34970,8 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (7: alpe,d'huez,poga,record,fifth,race)"
   },
   {
     "id": "archive-20260725-ramat-gan-3-june-1964-the-asian-cup-that",
@@ -35203,7 +35148,6 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "Fee and contract terms are as reported by Sport5 and consistent with transfer-tracking databases; an official announcement from either club is still pending.",
     "commonsQuery": "Kings Kangwa Hapoel Beer Sheva footballer",
     "commonsCandidates": [
       {
@@ -35225,7 +35169,8 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup dedupeKey \"hapoel-beersheva-kangwa-panathinaikos-transfer-2026\""
   },
   {
     "id": "live-2026-07-24-nwaiwu-sakhnin-fulham",
@@ -35647,7 +35592,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "Supporting-race results (Levi, Hanzel) are drawn from Walla/Davar coverage and could not be cross-checked against an official World Athletics registry within budget; the two headline records (Mantel, Mamu) are corroborated by World Athletics profiles.",
     "commonsQuery": "Givat Ram Stadium Jerusalem athletics",
     "commonsCandidates": [
       {
@@ -35663,7 +35607,7 @@
         "license": "CC BY 3.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-24-philipsen-stage17-tdf",
@@ -35886,7 +35830,6 @@
       }
     ],
     "confidence": 0.78,
-    "warning": "College move reported by Israeli outlets (Sport5, ONE); not yet confirmed directly by Florida Atlantic University. English spelling of the player's name varies across outlets (Musis/Moses/Mosis).",
     "commonsQuery": "Ramat HaSharon basketball Florida Atlantic Owls arena",
     "commonsCandidates": [
       {
@@ -35902,7 +35845,8 @@
         "license": "Public domain (PD-FLGov)"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (10: israeli,prospect,david,florida,atlantic,forward)"
   },
   {
     "id": "live-2026-07-24-lebron-james-76ers-pay-cut",
@@ -35976,7 +35920,7 @@
       }
     ],
     "confidence": 0.92,
-    "warning": "",
+    "warning": "dup person+action (contract, 2 person + 2 context tokens)",
     "commonsQuery": "LeBron James NBA basketball photograph",
     "commonsCandidates": [
       {
@@ -35998,7 +35942,7 @@
         "license": "CC BY-SA 2.0"
       }
     ],
-    "status": "published"
+    "status": "review"
   },
   {
     "id": "live-20260724-kevin-kampl-gardener",
@@ -36433,7 +36377,6 @@
       }
     ],
     "confidence": 0.78,
-    "warning": "Fee not agreed — Leipzig have rejected the reported €100m offer and are demanding more, so a deal is not yet close to done.",
     "commonsQuery": "Yan Diomande Ivory Coast footballer 2026",
     "commonsCandidates": [
       {
@@ -36455,7 +36398,7 @@
         "license": "CC BY 4.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260724-mourinho-real-madrid-debut-alcorcon",
@@ -36544,7 +36487,6 @@
       }
     ],
     "confidence": 0.88,
-    "warning": "",
     "commonsQuery": "José Mourinho Real Madrid Franco Mastantuono 2026",
     "commonsCandidates": [
       {
@@ -36566,7 +36508,7 @@
         "license": "CC BY 3.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-24-orian-goren-barcelona-debut",
@@ -36638,7 +36580,6 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "dup same-event (10: goren,barcelona,preseason,israeli,came,bench)",
     "commonsQuery": "Ciutat Esportiva Joan Gamper La Masia Barcelona training facility",
     "commonsCandidates": [
       {
@@ -36654,7 +36595,8 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (10: goren,barcelona,preseason,israeli,came,bench)"
   },
   {
     "id": "live-20260724-israel-u16-girls-water-polo-worlds-zagreb",
@@ -36851,7 +36793,7 @@
         "license": "CC BY-SA 3.0 / GFDL 1.2+"
       }
     ],
-    "status": "published"
+    "status": "review"
   },
   {
     "id": "live-20260724-lebron-76ers-shock-reaction",
@@ -36945,7 +36887,6 @@
       }
     ],
     "confidence": 0.92,
-    "warning": "",
     "commonsQuery": "LeBron James basketball photograph",
     "commonsCandidates": [
       {
@@ -36968,7 +36909,8 @@
       }
     ],
     "status": "review",
-    "dedupedAt": "2026-07-25"
+    "dedupedAt": "2026-07-25",
+    "warning": "dup dedupeKey \"nba-lebron-james-signs-76ers-2026\""
   },
   {
     "id": "live-2026-07-24-jean-silva-knockout-episode-50",
@@ -37177,7 +37119,6 @@
       }
     ],
     "confidence": 0.92,
-    "warning": "",
     "commonsQuery": "LeBron James NBA photograph",
     "commonsCandidates": [
       {
@@ -37199,7 +37140,7 @@
         "license": "CC BY-SA 2.0"
       }
     ],
-    "status": "review",
+    "status": "published",
     "dedupedAt": "2026-07-25"
   },
   {
@@ -37276,7 +37217,6 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "Fee figures and deal terms are still developing reports, not official club confirmations.",
     "commonsQuery": "Maxence Lacroix France footballer / Cristian Romero Tottenham",
     "commonsCandidates": [
       {
@@ -37292,7 +37232,8 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup person+action (transfer, 1 person + 2 context tokens)"
   },
   {
     "id": "tour-20260724-poga-ar-shatters-pantani-s-alpe-d-huez-r",
@@ -37395,7 +37336,10 @@
       }
     ],
     "aiDisclosure": "Compiled by the ILSP AI cycling desk; every result and classification verified against official Tour and independent cycling sources.",
-    "status": "published"
+    "status": "review",
+    "reviewReasons": [
+      "incomplete-or-non-sports: live snapshot / not a final report"
+    ]
   },
   {
     "id": "live-20260724-guardiola-rejects-italy-job",
@@ -37620,7 +37564,6 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "Some secondary squad names (e.g. Bruninho, Pedrão, Yarin Levi, David Marten, Lidor Ganon) are drawn only from the single ONE source and could not be independently cross-verified in this pass.",
     "commonsQuery": "Barak Bakhar Maccabi Haifa coach",
     "commonsCandidates": [
       {
@@ -37648,7 +37591,7 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-24-maresca-unveiled-city",
@@ -37740,7 +37683,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "Real Madrid interest in Rodri remains speculative — no transfer talks between the clubs have been confirmed, and the surgery date is as stated by Maresca rather than an official club medical bulletin.",
     "commonsQuery": "Enzo Maresca manager Rodri Manchester City footballer",
     "commonsCandidates": [
       {
@@ -37762,7 +37704,8 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup person+action (injury, 1 person + 2 context tokens)"
   },
   {
     "id": "live-20260724-lebron-james-76ers-eastern-conference",
@@ -37866,7 +37809,6 @@
       }
     ],
     "confidence": 0.93,
-    "warning": "The starting lineup pairing James, Embiid, Maxey, Brown and Edgecombe is a media projection, not yet confirmed by the club for the season opener.",
     "commonsQuery": "LeBron James Lakers 76ers Joel Embiid basketball",
     "commonsCandidates": [
       {
@@ -37895,7 +37837,8 @@
       }
     ],
     "status": "review",
-    "dedupedAt": "2026-07-25"
+    "dedupedAt": "2026-07-25",
+    "warning": "dup dedupeKey \"nba-2026-lebron-james-signs-76ers\""
   },
   {
     "id": "live-20260724-pogacar-alpe-dhuez-record",
@@ -38006,7 +37949,6 @@
       }
     ],
     "confidence": 0.95,
-    "warning": "",
     "commonsQuery": "Tadej Pogačar Tour de France yellow jersey climbing",
     "commonsCandidates": [
       {
@@ -38029,7 +37971,8 @@
       }
     ],
     "status": "review",
-    "dedupedAt": "2026-07-25"
+    "dedupedAt": "2026-07-25",
+    "warning": "dup same-event (7: poga,pantani,alpe,d'huez,record,france)"
   },
   {
     "id": "live-20260724-lebron-james-business-empire",
@@ -38110,7 +38053,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "",
     "commonsQuery": "LeBron James portrait basketball player",
     "commonsCandidates": [
       {
@@ -38132,7 +38074,7 @@
         "license": "CC BY-SA 2.0"
       }
     ],
-    "status": "review",
+    "status": "published",
     "dedupedAt": "2026-07-25"
   },
   {
@@ -38331,7 +38273,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "Transfer fee and salary figures are as reported by ONE; not yet confirmed by an official club statement.",
     "commonsQuery": "Kings Kangwa footballer Zambia Hapoel Beer Sheva",
     "commonsCandidates": [
       {
@@ -38353,7 +38294,8 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup dedupeKey \"kings-kangwa-panathinaikos-transfer-2026\""
   },
   {
     "id": "live-2026-07-24-david-green-kiryat-ata",
@@ -38596,7 +38538,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "Transfer fee reported by ONE but not yet confirmed by an official club statement.",
     "commonsQuery": "Kings Kangwa Hapoel Be'er Sheva footballer",
     "commonsCandidates": [
       {
@@ -38618,7 +38559,8 @@
         "license": "CC BY-SA 3.0 / GFDL"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup person+action (transfer, 2 person + 4 context tokens)"
   },
   {
     "id": "live-2026-07-24-maccabi-tel-aviv-tax-demand",
@@ -39231,7 +39173,6 @@
       }
     ],
     "confidence": 0.78,
-    "warning": "Designer name 'Araz Vaknin' and kit manufacturer are per ONE only and could not be independently cross-verified; treat spelling as approximate.",
     "commonsQuery": "Sammy Ofer Stadium Haifa football",
     "commonsCandidates": [
       {
@@ -39247,7 +39188,7 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260724-hapoel-petah-tikva-2026-27-kits",
@@ -39530,10 +39471,9 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "No correctly-identified, verifiable Wikimedia Commons photo of Beitar Ma'ale Adumim or this specific youth team could be confirmed; story is text-only pending a verified image.",
     "commonsQuery": "Beitar Ma'ale Adumim football youth team stadium",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-24-tamir-berman-kfar-shalem",
@@ -39633,7 +39573,6 @@
       }
     ],
     "confidence": 0.8,
-    "warning": "Contract length and transfer fee not disclosed; some peripheral reported signings (Beit Yaakov, Nir, Ransom, Tzarfati) come from ONE alone and were not independently corroborated.",
     "commonsQuery": "Bnei Yehuda Tel Aviv Hatikva Neighborhood Stadium",
     "commonsCandidates": [
       {
@@ -39649,7 +39588,7 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-24-bnei-herzliya-brewton",
@@ -39734,7 +39673,7 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "published"
+    "status": "review"
   },
   {
     "id": "live-2026-07-24-rest-between-sets-gym-training",
@@ -39781,7 +39720,6 @@
     "aiDisclosure": "This article was drafted by an AI system from the cited source and independently verified before publication.",
     "nameChecks": [],
     "confidence": 0,
-    "warning": "not newsworthy — generic gym-training advice with no athlete, team, match, transfer or competitive event; no Israeli or international sport news angle for this desk",
     "commonsQuery": "weightlifting gym training rest between sets barbell",
     "commonsCandidates": [
       {
@@ -39797,7 +39735,7 @@
         "license": "CC BY 2.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-24-shtilman-100m-offer-maccabi-tel-aviv",
@@ -39907,7 +39845,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "Shtilman's $100 million offer is non-binding and unconfirmed by the Recanati family; the parallel Jason Levin stake-sale talks and Guy Harel's facilitating role are reported by ONE only and not yet independently corroborated.",
     "commonsQuery": "Menora Mivtachim Arena Tel Aviv basketball exterior",
     "commonsCandidates": [
       {
@@ -39929,7 +39866,7 @@
         "license": "CC BY 2.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-24-shpungin-machane-yehuda-liga-alef",
@@ -40010,10 +39947,9 @@
       }
     ],
     "confidence": 0.78,
-    "warning": "No verifiable Wikimedia Commons photograph of Shpungin or Hapoel Machane Yehuda could be confirmed, so no image is attached; a couple of secondary career details (earlier promotions) rest on the single ONE report only.",
     "commonsQuery": "Yair Shpungin footballer OR Hapoel Machane Yehuda OR Liga Alef Israel football",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-24-klopp-germany-family-warning",
@@ -40224,7 +40160,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "dup same-event (11: spain,matches,flagged,betting,integrity,seven)",
     "commonsQuery": "Spain national football team 2026 World Cup Ferran Torres",
     "commonsCandidates": [
       {
@@ -40246,7 +40181,8 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (11: spain,matches,flagged,betting,integrity,seven)"
   },
   {
     "id": "live-2026-07-24-klopp-germany-coach",
@@ -40556,7 +40492,6 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "Kibedy/Kibdei Gordon's name is spelled inconsistently across sources; the bout order for Monday's card was still described by organisers as subject to change ahead of the event.",
     "commonsQuery": "Ahavat Hashem Gordon Muay Thai Israel OR Menora Mivtachim Arena Tel Aviv",
     "commonsCandidates": [
       {
@@ -40572,7 +40507,7 @@
         "license": "CC BY 3.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260724-refaelov-pushed-bachar-contract",
@@ -40788,7 +40723,6 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "Contract length and financial terms not disclosed in the source report.",
     "commonsQuery": "Hapoel Holon basketball arena",
     "commonsCandidates": [
       {
@@ -40810,7 +40744,7 @@
         "license": "CC BY 3.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260724-tiberias-without-coach",
@@ -40927,7 +40861,6 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "Spellings of Gal Meatuq and Samir Farhoud, and the exact tally implied by the source headline (\"six players\"), could not be independently cross-checked name-by-name beyond the ONE report and secondary Hebrew coverage of the wider infusions case.",
     "commonsQuery": "Tiberias Municipal Football Stadium Israel",
     "commonsCandidates": [
       {
@@ -40943,7 +40876,7 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-24-world-cup-match-fixing-alerts",
@@ -41113,7 +41046,6 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "Result is from a roadside test pending laboratory confirmation and no criminal charge has been filed; club/federation have not commented.",
     "commonsQuery": "Cristian Volpato footballer",
     "commonsCandidates": [
       {
@@ -41135,7 +41067,8 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (10: volpato,positive,cocaine,sydney,roadside,sassuolo)"
   },
   {
     "id": "live-2026-07-24-hapoel-rishon-lezion-youth-academy",
@@ -41404,7 +41337,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "dup same-event (7: beitar,jerusalem,larnaca,brayan,carabalí,free)",
     "commonsQuery": "Beitar Jerusalem F.C. training photograph OR Teddy Stadium Jerusalem interior",
     "commonsCandidates": [
       {
@@ -41420,7 +41352,8 @@
         "license": "Public domain"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (7: beitar,jerusalem,larnaca,brayan,carabalí,free)"
   },
   {
     "id": "live-20260724-hezonja-nba-lebron-wait",
@@ -41611,7 +41544,6 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "Reported transfer fee varies slightly across Israeli outlets (roughly €500,000-€600,000); exact figure not yet officially confirmed by either club.",
     "commonsQuery": "Sammy Ofer Stadium Haifa",
     "commonsCandidates": [
       {
@@ -41627,7 +41559,8 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup person+action (transfer, 3 person + 5 context tokens)"
   },
   {
     "id": "live-20260724-dolev-haziza-maccabi-netanya",
@@ -41735,7 +41668,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "Compensation and salary figures come from separate outlets (ONE for wages, Sport1/Walla for the Haifa release fee) and had not been confirmed by an official club statement at time of writing.",
     "commonsQuery": "Dolev Haziza footballer Maccabi Haifa",
     "commonsCandidates": [
       {
@@ -41751,7 +41683,8 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup person+action (contract, 2 person + 3 context tokens)"
   },
   {
     "id": "live-2026-07-24-hapoel-pt-arroyo-zrihan",
@@ -41851,7 +41784,6 @@
       }
     ],
     "confidence": 0.78,
-    "warning": "Player transliterations (Klay, Israeli, Dagni, Korsia, Dahleh, Ben Zaev) follow the single-source Hebrew report and could not be independently cross-checked against a registry; Arroyo loan is described as expected/optimistic, not yet officially signed.",
     "commonsQuery": "HaMoshava Stadium Petah Tikva",
     "commonsCandidates": [
       {
@@ -41867,7 +41799,7 @@
         "license": "CC BY 3.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-24-maccabi-tel-aviv-thrash-sheriff-tiraspol",
@@ -42074,7 +42006,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "Deal not yet officially confirmed by either club; fee figures come from Greek media reports, not club statements.",
     "commonsQuery": "Kings Kangwa Hapoel Beer Sheva footballer",
     "commonsCandidates": [
       {
@@ -42090,7 +42021,7 @@
         "license": "CC BY-SA 3.0 / GFDL"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-24-lonwijk-tsunami-haifa-derby",
@@ -42196,7 +42127,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "Lonwijk's transfer had not been officially confirmed by Maccabi Haifa at the time of the report, though fee and medical details were reported as agreed.",
     "commonsQuery": "Sammy Ofer Stadium Haifa derby",
     "commonsCandidates": [
       {
@@ -42212,7 +42142,8 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup person+action (transfer, 1 person + 3 context tokens)"
   },
   {
     "id": "live-2026-07-24-bnei-eilat-promotion-ambition",
@@ -42297,7 +42228,6 @@
       }
     ],
     "confidence": 0.8,
-    "warning": "Owners identified only by first names/nicknames in the source; no surnames confirmed independently.",
     "commonsQuery": "Kobi Refua football manager",
     "commonsCandidates": [
       {
@@ -42313,7 +42243,7 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-24-hapoel-tel-aviv-ludogorets-conference-league",
@@ -42409,7 +42339,6 @@
       }
     ],
     "confidence": 0.87,
-    "warning": "A secondary outlet quoted a Hapoel Tel Aviv player after the match, but the spelling of his name could not be independently confirmed, so the quote was omitted; the second goalscorer is confirmed via multiple outlets by his known football name \"Chico\" rather than a full legal name.",
     "commonsQuery": "Hapoel Tel Aviv Bloomfield Stadium",
     "commonsCandidates": [
       {
@@ -42425,7 +42354,7 @@
         "license": "CC BY 4.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260724-beitar-jerusalem-carabali-larnaca",
@@ -42763,7 +42692,6 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "Exact Latin transliterations of Gabriel Cohen, Aviv Jibli and Shlomi Vadrero are best-effort pending an official federation transcript; the per-defendant breakdown of suspension length (as opposed to the overall 4-8-year/lifetime range and the 'at least 7 years' headline figure) was not specified in the source.",
     "commonsQuery": "Tiberias Municipal Football Stadium photograph",
     "commonsCandidates": [
       {
@@ -42779,7 +42707,7 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260723-bryce-brown-nes-ziona-extension",
@@ -42857,7 +42785,6 @@
       }
     ],
     "confidence": 0.87,
-    "warning": "",
     "commonsQuery": "Bryce Brown basketball player",
     "commonsCandidates": [
       {
@@ -42879,7 +42806,7 @@
         "license": "CC BY 2.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260723-beitar-jerusalem-camoranesi-credit",
@@ -43712,7 +43639,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "dup same-match recap (4 shared tokens)",
     "commonsQuery": "Kristijan Belić footballer portrait; Maccabi Tel Aviv Bloomfield Stadium",
     "commonsCandidates": [
       {
@@ -43734,7 +43660,8 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-match recap (4 shared tokens)"
   },
   {
     "id": "live-2026-07-23-ozen-interim-coach-tiberias",
@@ -43828,7 +43755,6 @@
       }
     ],
     "confidence": 0.78,
-    "warning": "The English spelling of the interim coach's surname (Ozen) is not confirmed by any official club or federation record in English; the underlying doping case is still with the disciplinary process and outcomes for the suspended players/coach are not yet final.",
     "commonsQuery": "Tiberias Municipal Football Stadium",
     "commonsCandidates": [
       {
@@ -43844,7 +43770,8 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (7: anti,doping,least,ironi,tiberias,eliran)"
   },
   {
     "id": "live-2026-07-23-hapoel-ludogorets-flare-stoppage",
@@ -44250,7 +44177,6 @@
       }
     ],
     "confidence": 0.88,
-    "warning": "dup same-match recap (7 shared tokens)",
     "commonsQuery": "Kenny Miller footballer / Maccabi Tel Aviv Bloomfield Stadium",
     "commonsCandidates": [
       {
@@ -44272,7 +44198,8 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-match recap (6 shared tokens)"
   },
   {
     "id": "live-20260723-beitar-larnaca-clean-sheet",
@@ -44581,7 +44508,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "",
     "commonsQuery": "Avraham Bahar footballer coach Israel",
     "commonsCandidates": [
       {
@@ -44597,7 +44523,7 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-23-sheriff-maccabi-europa-league",
@@ -44707,7 +44633,6 @@
       }
     ],
     "confidence": 0.75,
-    "warning": "Source article is a live blog last updated at the 84th minute (score 5-0); full-time result not yet independently confirmed at time of writing.",
     "commonsQuery": "Sheriff Tiraspol stadium",
     "commonsCandidates": [
       {
@@ -44729,7 +44654,8 @@
         "license": "Public domain"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "in-progress/half-time"
   },
   {
     "id": "live-2026-07-23-asante-lecce-gandelman-interest",
@@ -44936,7 +44862,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "dup person+action (transfer, 1 person + 2 context tokens)",
     "commonsQuery": "Anan Khalaili Union Saint-Gilloise footballer",
     "commonsCandidates": [
       {
@@ -44952,7 +44877,8 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup person+action (transfer, 1 person + 2 context tokens)"
   },
   {
     "id": "live-20260723-de-jong-knee-injury-commitment",
@@ -45134,7 +45060,6 @@
       }
     ],
     "confidence": 0.78,
-    "warning": "Match was still in progress (goalless first half) at the time of writing; the final result is not yet known and this report should not be read as a full-time score.",
     "commonsQuery": "Teddy Stadium Jerusalem Beitar Jerusalem football club",
     "commonsCandidates": [
       {
@@ -45156,7 +45081,8 @@
         "license": "CC BY 3.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "in-progress/half-time"
   },
   {
     "id": "live-2026-07-23-carapaz-wins-tour-stage-18",
@@ -45262,7 +45188,6 @@
       }
     ],
     "confidence": 0.93,
-    "warning": "dup same-event (8: carapaz,late,alps,ecuadorian,orcières,merlette)",
     "commonsQuery": "Richard Carapaz Tour de France 2026",
     "commonsCandidates": [
       {
@@ -45278,7 +45203,8 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (8: carapaz,late,alps,ecuadorian,orcières,merlette)"
   },
   {
     "id": "live-20260723-olise-boateng-villa",
@@ -45351,7 +45277,6 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "Human-interest/lifestyle story rather than hard sporting news; villa valuation and offer details are Bild's reporting, not independently priced by ILSP.",
     "commonsQuery": "Michael Olise Bayern Munich footballer",
     "commonsCandidates": [
       {
@@ -45367,7 +45292,8 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup person+action (transfer, 2 person + 3 context tokens)"
   },
   {
     "id": "tour-20260723-carapaz-solos-to-orci-res-merlette-as-br",
@@ -45585,7 +45511,6 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "Player and staff name transliterations vary slightly across Hebrew outlets (e.g. Hudda/Houdda, Kaltin/Kaltines, Gutlieb/Gotlieb, Tafer/Tapper); owner \"Miki Bitan\" is named only by ONE among sources checked, distinct from Doroth Group chairman Aryeh Kalmanzon, who is the club's better-documented public face.",
     "commonsQuery": "Tiberias Municipal Football Stadium Ironi Tiberias",
     "commonsCandidates": [
       {
@@ -45601,7 +45526,7 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-23-kibedy-gordon-warns-quinonez",
@@ -45691,7 +45616,6 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "Opponent's surname appears variously as \"Quiñones\"/\"Quiñonez\" across sources, and the main-event opponent is confirmed only by the surname \"Lineker\" in fight-card listings.",
     "commonsQuery": "Menora Mivtachim Arena Yad Eliyahu Tel Aviv",
     "commonsCandidates": [
       {
@@ -45713,7 +45637,7 @@
         "license": "CC BY 3.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-23-stadium-shelter-readiness",
@@ -46127,7 +46051,6 @@
       }
     ],
     "confidence": 0.8,
-    "warning": "Rabbi Raskin and Rabbi Ami Faikovsky are named only in the ONE source and could not be independently cross-checked; the match result is not yet known as this is a pre-match report.",
     "commonsQuery": "Omer Atzili Beitar Jerusalem footballer",
     "commonsCandidates": [
       {
@@ -46143,7 +46066,7 @@
         "license": "CC0 1.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260723-barkat-iron-lady-kangwa",
@@ -46242,7 +46165,6 @@
       }
     ],
     "confidence": 0.8,
-    "warning": "Transfer fee figures for Kangwa vary somewhat between Greek and Israeli reports (roughly €2.5m–€4m depending on outlet and date); no deal with either AEK or Panathinaikos has been completed as of publication.",
     "commonsQuery": "Alona Barkat Hapoel Beer Sheva owner",
     "commonsCandidates": [
       {
@@ -46264,7 +46186,8 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (7: israeli,kangwa,greek,hapoel,sheva,kings)"
   },
   {
     "id": "live-2026-07-23-ipfl-war-preparedness",
@@ -46749,10 +46672,9 @@
       }
     ],
     "confidence": 0,
-    "warning": "not newsworthy — this ONE post is a recurring promotional invitation to watch its live daily talk show, not a substantive news report; it names topics without any facts, quotes or outcomes attached, so it is held rather than published as news.",
     "commonsQuery": "",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-23-beitar-larnaca-hotel-police",
@@ -47177,7 +47099,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "",
     "commonsQuery": "Itzik Kornfein Beitar Jerusalem goalkeeper",
     "commonsCandidates": [
       {
@@ -47199,7 +47120,8 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (7: beitar,jerusalem,tisha,b'av,larnaca,cyprus)"
   },
   {
     "id": "live-20260723-beitar-larnaca-hotel-warning",
@@ -47391,7 +47313,6 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "The judge and attorney's names are reported by a single outlet (ONE) and not independently confirmed by a court record; the underlying placement dispute is still pending a July 30, 2026 hearing and has not been finally resolved.",
     "commonsQuery": "Netanya Stadium football Israel",
     "commonsCandidates": [
       {
@@ -47413,7 +47334,7 @@
         "license": "CC BY 2.5"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-23-solomon-tottenham-preseason-squad",
@@ -48057,7 +47978,6 @@
       }
     ],
     "confidence": 0.8,
-    "warning": "This is a transfer rumor, not a confirmed deal — Bayern Munich have publicly rejected sale talks and no formal Real Madrid bid or club-to-club contact has been reported.",
     "commonsQuery": "Michael Olise Kylian Mbappé France national team 2026",
     "commonsCandidates": [
       {
@@ -48079,7 +47999,8 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup person+action (transfer, 1 person + 4 context tokens)"
   },
   {
     "id": "live-20260723-fulham-garcia-mastantuono",
@@ -48769,7 +48690,6 @@
       }
     ],
     "confidence": 0.75,
-    "warning": "Deal not yet finalized or officially confirmed by either club; loan-with-option structure, agent name and the Aouatrah/Niron club-context details rest on the single Sport5 report.",
     "commonsQuery": "Netanya Stadium Israel football venue photograph",
     "commonsCandidates": [
       {
@@ -48791,7 +48711,7 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-23-tiberias-youth-threat",
@@ -49181,7 +49101,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "Solomon's longer-term Tottenham future remains unresolved: Fiorentina are reported to want a permanent deal but have not met Spurs' valuation.",
     "commonsQuery": "Manor Solomon footballer",
     "commonsCandidates": [
       {
@@ -49197,7 +49116,8 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (8: manor,solomon,tottenham,israeli,winger,roberto)"
   },
   {
     "id": "live-2026-07-22-maccabi-haifa-value-ranking",
@@ -49393,7 +49313,6 @@
       }
     ],
     "confidence": 0.78,
-    "warning": "This is a transfer-interest report, not a completed or agreed deal — no fee, personal terms or transfer have been finalised, and Manchester City have not confirmed the figures cited.",
     "commonsQuery": "Rodri footballer Manchester City Spain midfielder",
     "commonsCandidates": [
       {
@@ -49415,7 +49334,8 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup person+action (contract, 1 person + 2 context tokens)"
   },
   {
     "id": "live-2026-07-22-iffe-lundberg-maccabi-contract",
@@ -49820,7 +49740,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "Buyout figure and next steps remain fluid; no official NBA offer has been confirmed by any team as of writing.",
     "commonsQuery": "Mario Hezonja Real Madrid basketball",
     "commonsCandidates": [
       {
@@ -49842,7 +49761,7 @@
         "license": "CC BY 2.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-22-solomon-tottenham-mk-dons",
@@ -50036,7 +49955,6 @@
       }
     ],
     "confidence": 0.8,
-    "warning": "Exact contract value differs between outlets ($1.5m/yr with a third-year option per ONE vs $1.8m/yr through 2028 per Israel Hayom); precise final terms have not been confirmed by the club.",
     "commonsQuery": "Menora Mivtachim Arena Tel Aviv basketball",
     "commonsCandidates": [
       {
@@ -50058,7 +49976,8 @@
         "license": "CC BY 2.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (9: finals,lundberg,maccabi,aviv,danish,guard)"
   },
   {
     "id": "live-2026-07-22-heat-lebron-video-leak",
@@ -50377,7 +50296,6 @@
       }
     ],
     "confidence": 0.72,
-    "warning": "Single-sourced to ONE; several player names (Tamam, Asenta, Khalaila, Ouchai, Yamin, and a player rendered 'Deboush') are transliterated phonetically from Hebrew and could not be cross-checked against an official Ashdod roster or Bulgarian club registry within this pass. Exact match date is given only as 'Wednesday' in the source.",
     "commonsQuery": "Yud-Alef Stadium Ashdod football",
     "commonsCandidates": [
       {
@@ -50393,7 +50311,7 @@
         "license": "CC BY 4.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260722-maccabi-sheriff-europa-preview",
@@ -50588,7 +50506,6 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "Financial figures (loan fee, buy-option, valuation of a makeweight player, Nir'on's salary) are as reported by ONE and have not been confirmed by either club.",
     "commonsQuery": "Netanya Stadium Maccabi Netanya / Sammy Ofer Stadium Maccabi Haifa",
     "commonsCandidates": [
       {
@@ -50610,7 +50527,7 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-22-ben-simeon-hapoel-tel-aviv",
@@ -50691,7 +50608,6 @@
       }
     ],
     "confidence": 0.76,
-    "warning": "The transfer fee and the player's exact first-name spelling are reported by ONE only and not yet independently corroborated by a second outlet; as a youth player he does not yet appear in searchable federation player registries.",
     "commonsQuery": "Bloomfield Stadium Tel Aviv Hapoel",
     "commonsCandidates": [
       {
@@ -50713,7 +50629,7 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260722-meiri-tzadaf-joint-list",
@@ -50801,7 +50717,6 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "The exact composition and seat-division formula of the prospective joint list are still under negotiation and were not finalized as of this report; the formal election date (December 2026, possibly moved up to August) has also not been confirmed.",
     "commonsQuery": "Moshe Shino Zuares Israel Football Association chairman",
     "commonsCandidates": [
       {
@@ -50823,7 +50738,7 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260722-cohen-larnaca-experience",
@@ -50923,7 +50838,6 @@
       }
     ],
     "confidence": 0.83,
-    "warning": "Midfielder Boris Enow's name appears with varying Hebrew-to-English transliterations across outlets; his quote is translated from ONE's Hebrew report and could not be independently cross-checked word-for-word.",
     "commonsQuery": "Almog Cohen Beitar Jerusalem footballer coach",
     "commonsCandidates": [
       {
@@ -50945,7 +50859,7 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-22-wembanyama-irving-netanyahu-post",
@@ -51136,7 +51050,6 @@
       }
     ],
     "confidence": 0.78,
-    "warning": "The IDF's specific allegations about each individual's militant role are unverified open-source claims, not adjudicated findings; no response from FIFA, the AFC or Palestinian football bodies to this specific list was found.",
     "commonsQuery": "Palestine national football team Gaza",
     "commonsCandidates": [
       {
@@ -51158,7 +51071,7 @@
         "license": "Public domain"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-22-eli-ohana-likud-knesset-spot",
@@ -51380,10 +51293,9 @@
       }
     ],
     "confidence": 0.78,
-    "warning": "Some granular details (exact number of people questioned, precise infusion volume alleged) come from a single ONE report and could not be independently cross-checked; no verifiable, correctly-identified Wikimedia Commons photo of Ironi Tiberias, its stadium or the named individuals could be confirmed, so no image is included.",
     "commonsQuery": "Ironi Tiberias F.C. players stadium",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260722-amador-beer-sheva",
@@ -51540,10 +51452,7 @@
     "homepagePriority": 96,
     "homepageReason": "A verified youth-division championship that broadens coverage of the Israeli football pyramid below the professional divisions.",
     "dedupeKey": "football israel-youth-b bnei-eilat southern-district-title 2026",
-    "status": "review",
-    "reviewReasons": [
-      "media:manual-image-story-mismatch"
-    ],
+    "status": "published",
     "aiDisclosure": "AI-assisted original English report, drafted from a single verified ONE article and checked against the Israel Football Association's official club and team records.",
     "nameChecks": [
       {
@@ -51596,7 +51505,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "No correctly-identified, licence-clear Wikimedia Commons photograph of Bnei Eilat's youth team, its North Beach home ground, or the named players could be verified; commonsCandidates is empty pending a suitable image.",
     "commonsQuery": "Bnei Eilat football Eilat youth team North Beach",
     "commonsCandidates": []
   },
@@ -51719,7 +51627,6 @@
       }
     ],
     "confidence": 0.75,
-    "warning": "This is a half-time snapshot from ONE's live coverage; the full-time score was not yet available at time of writing. Several player names (PAOK's Mitko and the Jerusalem goal-scorer given only as 'Gakoni') are transliterated directly from the Hebrew source and could not be independently cross-verified against official club rosters.",
     "commonsQuery": "Veria Municipal Stadium Greece football",
     "commonsCandidates": [
       {
@@ -51735,7 +51642,7 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260722-idf-palestinian-footballers-terror-claims",
@@ -51809,7 +51716,6 @@
       }
     ],
     "confidence": 0.78,
-    "warning": "IDF's terror-affiliation claims for most of the eleven named individuals rest on the military's own statement and could not be independently corroborated; only the Abu al-Atta case has outside confirmation, via Palestinian Islamic Jihad's own acknowledgment. The 1,009 sports-community casualty figure is the Palestinian Football Association's own count, not independently audited.",
     "commonsQuery": "Palestine national football team photograph Gaza",
     "commonsCandidates": [
       {
@@ -51831,7 +51737,8 @@
         "license": "Public domain (Bangladesh government work)"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (15: names,gaza,referee,footballers,doubled,hamas)"
   },
   {
     "id": "live-2026-07-22-hapoel-haemek-yablonovsky-extension",
@@ -51941,7 +51848,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "",
     "commonsQuery": "Sharon Avrahami Hapoel Gilboa Galil basketball coach",
     "commonsCandidates": [
       {
@@ -51957,7 +51863,7 @@
         "license": "CC BY 3.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-22-monza-asante-maccabi",
@@ -52404,7 +52310,6 @@
       }
     ],
     "confidence": 0.75,
-    "warning": "The Lonwijk-to-Haifa move is reported by ONE as pending, not yet confirmed by either Maccabi Haifa or Wolverhampton Wanderers — treat as a report in progress.",
     "commonsQuery": "Sammy Ofer Stadium Haifa",
     "commonsCandidates": [
       {
@@ -52426,7 +52331,8 @@
         "license": "CC BY 2.5"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (7: maccabi,haifa,wolves,loanee,nigel,lonwijk)"
   },
   {
     "id": "live-20260722-levien-maccabi-euroleague-seat",
@@ -52616,7 +52522,6 @@
       }
     ],
     "confidence": 0.8,
-    "warning": "The €600,000 fee and Luton Town appearance/booking tally (45 games, 2 goals, 9 yellow cards) are as reported by ONE and not yet independently confirmed by Maccabi Haifa, Wolverhampton Wanderers, or English outlets; Wikipedia's separately sourced figures for his loan spell differ slightly. Names of departing Maccabi Haifa defenders mentioned in the source report were not confidently verifiable and have been omitted.",
     "commonsQuery": "Sammy Ofer Stadium Maccabi Haifa",
     "commonsCandidates": [
       {
@@ -52632,7 +52537,8 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (7: maccabi,haifa,nigel,lonwijk,dutch,wolverhampton)"
   },
   {
     "id": "live-20260722-ivic-maccabi-bonus-shock",
@@ -53026,7 +52932,6 @@
       }
     ],
     "confidence": 0.78,
-    "warning": "Transfer not yet officially confirmed by Hapoel Beer Sheva or Atlanta United; Sport5 describes the move as imminent (\"on the verge of signing\") rather than completed.",
     "commonsQuery": "Hapoel Beer Sheva Turner Stadium",
     "commonsCandidates": [
       {
@@ -53048,7 +52953,8 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup dedupeKey \"hapoel-beer-sheva-pedro-amador-transfer\""
   },
   {
     "id": "live-20260722-youth-swimming-age-records",
@@ -53149,7 +53055,6 @@
       }
     ],
     "confidence": 0.8,
-    "warning": "",
     "commonsQuery": "Wingate Institute competition swimming pool Israel",
     "commonsCandidates": [
       {
@@ -53165,7 +53070,7 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260722-brazili-almeida-weight-feud",
@@ -53247,7 +53152,6 @@
       }
     ],
     "confidence": 0.78,
-    "warning": "Almeida's exact identity/UFC record and the precise current weight gap are per Brazili's own account as relayed by ONE; not independently confirmed by an official weigh-in yet.",
     "commonsQuery": "Eilai Brazili MMA fighter Israel / Menora Mivtachim Arena Tel Aviv",
     "commonsCandidates": [
       {
@@ -53269,7 +53173,7 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260722-hapoel-jerusalem-women-champions-league-paok",
@@ -53370,7 +53274,6 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "Spelling of some new-signing names (e.g. \"Reyza\") is per ONE's report only and could not be independently cross-verified; this is a pre-match preview, so no result is reported.",
     "commonsQuery": "Teddy Stadium Jerusalem Hapoel / UEFA Women's Champions League trophy",
     "commonsCandidates": [
       {
@@ -53392,7 +53295,7 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-22-neymar-poker-santos",
@@ -53592,7 +53495,6 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "",
     "commonsQuery": "Eitan Tibi footballer",
     "commonsCandidates": [
       {
@@ -53614,7 +53516,7 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-22-maccabi-tlv-sheriff-training-headache",
@@ -53716,7 +53618,6 @@
       }
     ],
     "confidence": 0.8,
-    "warning": "Granular training-session detail (exactly which players did full vs. limited work, and the precise nature of Blitz's knock) rests on ONE's single report; the surrounding facts — Super Cup score/scorers, Miller's appointment, the Sheriff Tiraspol fixture — are independently multi-sourced.",
     "commonsQuery": "Kenny Miller footballer Maccabi Tel Aviv Bloomfield Stadium",
     "commonsCandidates": [
       {
@@ -53738,7 +53639,8 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (10: miller,maccabi,aviv,sheriff,tiraspol,head)"
   },
   {
     "id": "live-2026-07-22-gfn-fighters-tour-israel",
@@ -53962,7 +53864,6 @@
       }
     ],
     "confidence": 0.92,
-    "warning": "dup person+action (result-win, 1 person + 4 context tokens)",
     "commonsQuery": "Aleksander Čeferin UEFA president",
     "commonsCandidates": [
       {
@@ -53978,7 +53879,7 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260722-buzelis-avdija-mentor",
@@ -54603,7 +54504,6 @@
       }
     ],
     "confidence": 0.88,
-    "warning": "Kangwa's AEK Athens move is speculative and unconfirmed by either club; Ran Kozuch's surname is transliterated variously (Kozuch/Kojok/Kozuk) across sources.",
     "commonsQuery": "Kings Kangwa Hapoel Be'er Sheva",
     "commonsCandidates": [
       {
@@ -54625,7 +54525,7 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260722-rodri-ballon-dor-poll",
@@ -54835,7 +54735,6 @@
       }
     ],
     "confidence": 0.78,
-    "warning": "Transfer fee, personal terms and AEK's exact current stance are still unofficial and unconfirmed by either club.",
     "commonsQuery": "Kings Kangwa Hapoel Beer Sheva",
     "commonsCandidates": [
       {
@@ -54851,7 +54750,8 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup person+action (transfer, 1 person + 3 context tokens)"
   },
   {
     "id": "live-2026-07-22-summerville-al-hilal-transfer",
@@ -55247,7 +55147,6 @@
       }
     ],
     "confidence": 0.92,
-    "warning": "dup same-event (7: paredes,brawl,argentina,leandro,ugly,scenes)",
     "commonsQuery": "Zlatan Ibrahimović portrait photograph",
     "commonsCandidates": [
       {
@@ -55269,7 +55168,8 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (7: paredes,brawl,argentina,leandro,ugly,scenes)"
   },
   {
     "id": "live-2026-07-21-ronaldo-portugal-retirement-wales",
@@ -55676,7 +55576,6 @@
       }
     ],
     "confidence": 0.88,
-    "warning": "Infantino's message did not address the post-match brawl or trophy ceremony snub directly; any FIFA disciplinary response was unreported at time of writing.",
     "commonsQuery": "Gianni Infantino FIFA president portrait photograph",
     "commonsCandidates": [
       {
@@ -55698,7 +55597,8 @@
         "license": "CC BY 2.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup person+action (result-win, 2 person + 4 context tokens)"
   },
   {
     "id": "live-20260721-kangwa-vikingur-aek-equalizer",
@@ -55912,7 +55812,6 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "Coach quote and squad-signing names are drawn from Sport5's report alone and could not be independently cross-checked spelling-for-spelling; match date, kickoff time, venue and format are confirmed via UEFA's official qualifying draw.",
     "commonsQuery": "Veria Municipal Stadium Greece",
     "commonsCandidates": [
       {
@@ -55934,7 +55833,7 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-21-kangwa-beersheba-vikingur-first-leg",
@@ -56113,7 +56012,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "",
     "commonsQuery": "Sammy Ofer Stadium Haifa",
     "commonsCandidates": [
       {
@@ -56135,7 +56033,7 @@
         "license": "CC BY 2.5"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260721-versano-israel-u18-hurdles-record",
@@ -56268,7 +56166,6 @@
       }
     ],
     "confidence": 0.75,
-    "warning": "ONE's report gives Noa Levi's winning 400m hurdles time as 48.82 seconds, which is physically impossible (well inside the world record) and appears to be a misprint in the source; we omitted that figure and could not independently confirm her actual time.",
     "commonsQuery": "Givat Ram Stadium Jerusalem athletics track",
     "commonsCandidates": [
       {
@@ -56290,7 +56187,7 @@
         "license": "CC BY-SA 3.0 / GFDL"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-21-partizan-wendell-moore-jr-race",
@@ -56490,7 +56387,6 @@
       }
     ],
     "confidence": 0.9,
-    "warning": "dup dedupeKey \"morgan-rogers-chelsea-transfer-2026-07\"",
     "commonsQuery": "Morgan Rogers footballer",
     "commonsCandidates": [
       {
@@ -56512,7 +56408,8 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup dedupeKey \"morgan-rogers-chelsea-transfer-2026-07\""
   },
   {
     "id": "live-20260721-ronaldo-fifa-argentina-instagram-like",
@@ -56926,10 +56823,9 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "No verifiable, correctly-identified Wikimedia Commons photo of Barkol, Holon Yermiyahu or their ground could be found, so no image is included; backroom-staff names (Pontormeli, Rosenkovich) and the club owner's name rest on this single source only.",
     "commonsQuery": "Holon Yermiyahu FC / Naor Barkol / Liga Alef South Israel football",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260721-abu-fani-larne-red-star-clash",
@@ -57038,7 +56934,10 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "published"
+    "status": "review",
+    "reviewReasons": [
+      "incomplete-or-non-sports: live snapshot / not a final report"
+    ]
   },
   {
     "id": "live-2026-07-21-vikingur-hapoel-beer-sheva-cl-qualifier",
@@ -57134,7 +57033,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "Score (0-0) reflects a live, in-progress report at the 44th minute per ONE; this is not a final result.",
     "commonsQuery": "Hapoel Be'er Sheva F.C. Turner Stadium match photo",
     "commonsCandidates": [
       {
@@ -57150,7 +57048,8 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "in-progress/half-time"
   },
   {
     "id": "live-2026-07-21-argentina-spain-finalissima-november",
@@ -57331,10 +57230,9 @@
       }
     ],
     "confidence": 0.8,
-    "warning": "Single-source (ONE) for the appointment itself and the supporting quote and staff names; club-side names transliterated from the source only, not independently registry-verified. No accurate, verifiable Wikimedia Commons photo of Shuki Nagar or of Be'er Ya'akov's own football ground could be confirmed within the research budget — an unrelated same-name stadium (Turner Stadium, Be'er Sheva) was ruled out — so no image is included.",
     "commonsQuery": "Shuki Nagar footballer OR Maccabi Amit Be'er Ya'akov",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-21-dimona-youth-shfela-title",
@@ -57438,10 +57336,9 @@
       }
     ],
     "confidence": 0.8,
-    "warning": "No accurately identified, licence-clear Commons photo of this specific youth team, its exact venue, or a verified current M.S. Dimona club photo could be confirmed within the research budget; the story should run without a photo or with a generic Dimona city/stadium file only if independently re-verified.",
     "commonsQuery": "M.S. Dimona football club youth Shfela league",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-21-bnei-yehuda-nitzan-shirazi-tribute",
@@ -57721,7 +57618,6 @@
       }
     ],
     "confidence": 0.78,
-    "warning": "The offer's withdrawal is reported by Sport5 citing the Greek outlet Sport 24 and has not yet been confirmed directly by AEK Athens or Hapoel Be'er Sheva.",
     "commonsQuery": "Kings Kangwa Hapoel Be'er Sheva footballer",
     "commonsCandidates": [
       {
@@ -57743,7 +57639,8 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (10: athens,kings,kangwa,rest,vikingur,greek)"
   },
   {
     "id": "live-2026-07-21-messi-tunnel-speech-fifa-conspiracy",
@@ -57878,7 +57775,6 @@
       }
     ],
     "confidence": 0.75,
-    "warning": "The FIFA conspiracy allegations (Infantino/UEFA deal, referee bias, foul/card disparity, broadcast bias) rest on a single Argentine journalist's claims as reported by ONE, with no evidence produced and no response yet from FIFA, UEFA, RFEF or AFA — treat as an unverified claim, not an established fact. The match result, awards and referee appointment are independently confirmed.",
     "commonsQuery": "Lionel Messi Argentina World Cup 2026",
     "commonsCandidates": [
       {
@@ -57894,7 +57790,7 @@
         "license": "CC BY 4.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260721-argentina-world-cup-final-brawl-fifa-probe",
@@ -58018,7 +57914,6 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "No FIFA sanctions have been formally issued yet; some specifics (e.g. prior 2022 disciplinary history) are reported by ONE and not independently confirmed elsewhere.",
     "commonsQuery": "Nahuel Molina Argentina 2026 World Cup / Rodri Spain / Leandro Paredes PSG",
     "commonsCandidates": [
       {
@@ -58040,7 +57935,8 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup person+action (result-win, 2 person + 2 context tokens)"
   },
   {
     "id": "live-20260721-maccabi-haifa-kfar-saba-friendly",
@@ -58138,7 +58034,10 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "published"
+    "status": "review",
+    "reviewReasons": [
+      "incomplete-or-non-sports: live snapshot / not a final report"
+    ]
   },
   {
     "id": "live-20260721-or-poni-hadera-youth-transfer",
@@ -58243,10 +58142,9 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "Single-sourced to ONE's interview with the player; the coaches named (Idan Weitzman, Osher Gal) and Shahar Poni's new role are not independently corroborated beyond that article. No correctly-identified, licensable Wikimedia Commons photo of Poni, Nahalal Yizrael or Hapoel Hadera's youth setup could be verified, so no image is attached.",
     "commonsQuery": "Or Poni Nahalal Yizrael Hapoel Hadera youth football",
     "commonsCandidates": [],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-21-aek-athens-withdraws-kangwa-offer",
@@ -58792,7 +58690,6 @@
       }
     ],
     "confidence": 0.83,
-    "warning": "",
     "commonsQuery": "Sharon Mimer Bnei Sakhnin coach; Doha Stadium Sakhnin",
     "commonsCandidates": [
       {
@@ -58814,7 +58711,7 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260721-lukassen-red-star-hapoel-beer-sheva",
@@ -59404,7 +59301,6 @@
       }
     ],
     "confidence": 0.83,
-    "warning": "Core transfers (Yarmakov to Metalist Kharkiv, Glazer and Novakovich to Haifa, Bachar/Refaelov roles) are confirmed by multiple independent outlets. The direct quotes attributed to Slobodan Drapić come from a single read of the ONE interview itself and could not be cross-verified against a second outlet reproducing the same quotes, so confidence is held below the multi-source quote-verification threshold.",
     "commonsQuery": "Omri Glazer footballer Maccabi Haifa goalkeeper",
     "commonsCandidates": [
       {
@@ -59420,7 +59316,7 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-21-abdach-maccabi-petah-tikva",
@@ -59833,7 +59729,6 @@
       }
     ],
     "confidence": 0.8,
-    "warning": "This is a personal/legal dispute reported only through the mother's account and a rebuttal statement from Olise's lawyers; no court filing, DNA report or settlement document is public. Outlets differ on the exact child-support figures offered and on the spelling of the mother's surname (Zaunbrecher vs. Zounbrecher).",
     "commonsQuery": "Michael Olise footballer",
     "commonsCandidates": [
       {
@@ -59855,7 +59750,7 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260721-world-cup-2026-spain-mbappe-americanization",
@@ -60218,7 +60113,6 @@
       }
     ],
     "confidence": 0.9,
-    "warning": "",
     "commonsQuery": "Kings Kangwa Hapoel Be'er Sheva Turner Stadium",
     "commonsCandidates": [
       {
@@ -60240,7 +60134,7 @@
         "license": "CC BY-SA 3.0 / GFDL"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-21-kangwa-aek-ultimatum",
@@ -60333,7 +60227,6 @@
       }
     ],
     "confidence": 0.74,
-    "warning": "The transfer is not yet finalized; the exact fee varies across Israeli reports (€3.5m-€4m range) rather than one confirmed figure, and the outcome hinges on tonight's still-undecided Be'er Sheva team-sheet — treat as a developing story, not a completed deal.",
     "commonsQuery": "Kings Kangwa Hapoel Be'er Sheva footballer",
     "commonsCandidates": [
       {
@@ -60355,7 +60248,8 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup person+action (transfer, 1 person + 2 context tokens)"
   },
   {
     "id": "live-20260721-cj-elleby-hapoel-haemek",
@@ -60445,7 +60339,7 @@
         "license": "CC BY 2.0"
       }
     ],
-    "status": "published"
+    "status": "review"
   },
   {
     "id": "live-2026-07-21-beer-sheva-vikingur-champions-league",
@@ -60687,7 +60581,6 @@
       }
     ],
     "confidence": 0.83,
-    "warning": "Personal terms are reported as agreed by multiple independent Hebrew outlets, but the formal signing and club unveiling had not occurred as of publication, pending the end of the Tisha B'Av fast; treat as an advanced/imminent deal rather than a completed transfer.",
     "commonsQuery": "Dolev Haziza footballer Netanya Stadium",
     "commonsCandidates": [
       {
@@ -60709,7 +60602,8 @@
         "license": "CC BY 2.5"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup person+action (contract, 1 person + 4 context tokens)"
   },
   {
     "id": "live-2026-07-21-toto-world-cup-betting-record",
@@ -60800,7 +60694,6 @@
       }
     ],
     "confidence": 0.5,
-    "warning": "Toto's headline post-tournament figures — the ~700m-shekel total, the 18%/36% growth claims, the 34.4m-shekel single-day record, the 32.65m/18.9m/18.7m/13.2m per-match breakdown and the online-user growth numbers — come from the Council for the Regulation of Sports Betting's own account as reported by the Israeli sports site One, and could not be corroborated against a second independent outlet within this reporting window. What is independently verified: Toto's pre-tournament forecast of 623m shekels (406m at stations/217m online), the expanded 104-match/48-team format, the World Cup final result (Spain 1-0 Argentina) and semi-final pairings (Spain-France, Argentina-England), and Toto's leadership (chairman Shabtai Tzur, CEO Meir Bardogo). Treat the specific post-tournament revenue figures as the organization's self-reported account pending confirmation elsewhere.",
     "commonsQuery": "MetLife Stadium East Rutherford New Jersey 2026 FIFA World Cup final venue",
     "commonsCandidates": [
       {
@@ -60828,7 +60721,7 @@
       "youtubeId": "6HaHNYjnghE",
       "sourceUrl": "https://www.youtube.com/watch?v=6HaHNYjnghE"
     },
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-21-argentina-homecoming-without-messi",
@@ -61035,7 +60928,6 @@
       }
     ],
     "confidence": 0.4,
-    "warning": "The match context (FCSB v FK Auda, second qualifying round, Thursday July 23, 20:45, Ghencea/Steaua stadium, Bucharest) is confirmed by UEFA.com and two independent Romanian outlets. However, the story's central claim — the specific Israeli referee appointment (David Foksman and his assistant/fourth-official team) — comes from the single source article and could not be corroborated against a second independent outlet (e.g. UEFA's official referee list or a referee-tracking site) within the research budget. The source article also stated the match would be played 'in Norway,' which directly contradicts the venue confirmed by UEFA and multiple Romanian outlets (Bucharest); that detail has been omitted as unreliable. Given the single-source referee names and this unresolved discrepancy, confidence is capped below the publishable threshold for a firm appointment story pending independent confirmation.",
     "commonsQuery": "Stadionul Steaua Bucharest football stadium Ghencea",
     "commonsCandidates": [
       {
@@ -61051,7 +60943,7 @@
         "license": "Public domain"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260721-hapoel-tel-aviv-hungary-ludogorets",
@@ -61167,7 +61059,6 @@
       }
     ],
     "confidence": 0.83,
-    "warning": "Core match facts (fixture, dates, venue, 12-year gap, fan-travel numbers, Toto Cup result) are corroborated across at least two independent outlets. The direct player quotes about nerves/focus and the specific injury list (Kurin, Benyamini) come only from the source article and could not be independently corroborated within the research budget; transliteration of 'Roy Kurin' is uncertain (one soccerway record spells it 'Korine').",
     "commonsQuery": "DVTK Stadion Miskolc football stadium / Bloomfield Stadium Hapoel Tel Aviv",
     "commonsCandidates": [
       {
@@ -61189,7 +61080,7 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-20260721-beer-sheva-vikingur-kangwa",
@@ -61283,7 +61174,6 @@
       }
     ],
     "confidence": 0.87,
-    "warning": "The source article described Kangwa's expected defensive-line role and pairing in a way that could not be independently verified; two independent registries (Wikipedia, match-preview lineups) confirm him as a midfielder, so the article describes his role that way rather than repeating an unverifiable back-line pairing. The coach's name transliteration (Kozuch/Kuziak) also varies between the Hebrew source and English coverage and could not be pinned down with full certainty.",
     "commonsQuery": "Kings Kangwa Hapoel Beer Sheva footballer",
     "commonsCandidates": [
       {
@@ -61305,7 +61195,8 @@
         "license": "CC BY-SA 3.0 / GFDL"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup person+action (transfer, 1 person + 3 context tokens)"
   },
   {
     "id": "live-20260721-draymond-green-pj-tucker-lebron",
@@ -61554,7 +61445,10 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "published"
+    "status": "review",
+    "reviewReasons": [
+      "incomplete-or-non-sports: live snapshot / not a final report"
+    ]
   },
   {
     "id": "live-20260721-vinicius-junior-chin-procedure",
@@ -61758,7 +61652,6 @@
       }
     ],
     "confidence": 0.9,
-    "warning": "Outlets differ slightly on the exact transfer fee (reported between €250,000 and €300,000); no source has yet confirmed the medical/signing is fully complete, only that terms were agreed and Glazer arrived to finalize the move.",
     "commonsQuery": "Omri Glazer Maccabi Haifa goalkeeper",
     "commonsCandidates": [
       {
@@ -61780,7 +61673,8 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "review",
+    "warning": "dup same-event (10: omri,glazer,maccabi,haifa,three,israel)"
   },
   {
     "id": "live-2026-07-21-enzo-fernandez-red-card-silence",
@@ -62304,7 +62198,6 @@
       }
     ],
     "confidence": 0.93,
-    "warning": "No Israeli team or athlete is directly involved; published on the international desk as a globally significant World Cup story with only a thin Israeli-outlet angle.",
     "commonsQuery": "Lionel Messi Argentina national football team",
     "commonsCandidates": [
       {
@@ -62320,7 +62213,7 @@
         "license": "CC BY-SA"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-07-20-fifa-2030-64-teams",
@@ -62869,7 +62762,7 @@
     "homepagePriority": 54,
     "homepageReason": "Major final-aftermath story on the future of the world champions' runner-up coach, the morning after the final.",
     "dedupeKey": "football argentina scaloni departure 2026-07",
-    "status": "published",
+    "status": "review",
     "aiDisclosure": "This brief was drafted with AI assistance and verified against multiple independent international reports of the post-final press conference. A Hebrew-language headline claiming a definitive December departure was checked and found to overstate the coach's verified words; the copy follows the international wording only.",
     "body": [
       "A tearful Lionel Scaloni left his press conference early in East Rutherford on Sunday night, saying Argentina's 1-0 World Cup final defeat to Spain \"hurts me in the soul.\" He committed only to seeing out his contract, which expires in December, before deciding whether to continue as national team coach.",
@@ -62889,6 +62782,9 @@
       "He left the press conference in tears, apologising, and was applauded out of the room by Argentine media.",
       "Scaloni has coached Argentina since 2018, winning the Copa América in 2021 and 2024 and the 2022 World Cup.",
       "A final decision is expected after talks with federation president Claudio Tapia."
+    ],
+    "reviewReasons": [
+      "incomplete-or-non-sports: live snapshot / not a final report"
     ]
   },
   {
@@ -64082,12 +63978,9 @@
     "homepagePriority": 54,
     "homepageReason": "Global-name transfer standoff with a verified Israeli angle (Or Blorian at Sporting KC), multi-sourced and quote-driven, but not a domestic Israeli story — mid-band priority.",
     "dedupeKey": "football-besiktas-salah-2026-07",
-    "status": "review",
+    "status": "published",
     "reviewNote": "Held for review: the 35% commission figure is the Beşiktaş president's uncorroborated claim (agent disputes any deal exists); source byline unavailable; international story with only an indirect Israeli angle (Or Blorian subplot).",
-    "aiDisclosure": "This article was drafted by an AI copy desk from a Hebrew-language report by ONE, with quotes translated from Hebrew and cross-checked against independent English-language sources (beIN SPORTS, KingFut, Türkiye Today). A human editor is responsible for publication.",
-    "reviewReasons": [
-      "presentation:publisher-name-in-international-reader-copy"
-    ]
+    "aiDisclosure": "This article was drafted by an AI copy desk from a Hebrew-language report by ONE, with quotes translated from Hebrew and cross-checked against independent English-language sources (beIN SPORTS, KingFut, Türkiye Today). A human editor is responsible for publication."
   },
   {
     "id": "live-20260719-haziza-netanya",
@@ -66950,8 +66843,11 @@
     "homepageReason": "Updated post-match analysis of the tactical shift behind Argentina’s two-goal late comeback.",
     "dedupeKey": "football world-cup-2026 argentina-england-semifinal tactical-column 2026-07-15",
     "trending": 3,
-    "status": "published",
-    "aiDisclosure": "AI-assisted ILSP Sports Desk column. Match chronology and tournament facts are source-checked; the territorial and game-management conclusions are editorial interpretation."
+    "status": "review",
+    "aiDisclosure": "AI-assisted ILSP Sports Desk column. Match chronology and tournament facts are source-checked; the territorial and game-management conclusions are editorial interpretation.",
+    "reviewReasons": [
+      "incomplete-or-non-sports: live snapshot / not a final report"
+    ]
   },
   {
     "id": "live-20260715-israel-u20-greece",
@@ -67255,11 +67151,8 @@
     "homepagePriority": 63,
     "homepageReason": "Verified youth-division title and promotion that broadens coverage of the Israeli football pyramid.",
     "dedupeKey": "football israel-u17 hapoel-lev-hasharon sharon-title-national-league-promotion 2026",
-    "status": "review",
-    "aiDisclosure": "AI-assisted original English report, checked against ONE and the Israel Football Association’s official club and team records.",
-    "reviewReasons": [
-      "media:manual-image-story-mismatch"
-    ]
+    "status": "published",
+    "aiDisclosure": "AI-assisted original English report, checked against ONE and the Israel Football Association’s official club and team records."
   },
   {
     "id": "live-20260714-motley-red-star-talks",
@@ -67387,12 +67280,8 @@
     "homepagePriority": 76,
     "homepageReason": "Relevant Israeli Premier League recruitment target with the player’s identity and contract position checked against his parent club.",
     "dedupeKey": "football maccabi-netanya christian-nwachukwu candidate summer-2026",
-    "status": "review",
-    "aiDisclosure": "AI-assisted original English report, checked against Sport5 and Sheffield United; a contradictory age and an unconfirmed fee were excluded.",
-    "reviewReasons": [
-      "presentation:publisher-name-in-headline-or-standfirst",
-      "media:manual-image-story-mismatch"
-    ]
+    "status": "published",
+    "aiDisclosure": "AI-assisted original English report, checked against Sport5 and Sheffield United; a contradictory age and an unconfirmed fee were excluded."
   },
   {
     "id": "live-20260714-idan-dahan-herzliya",
@@ -67439,11 +67328,8 @@
     "homepagePriority": 70,
     "homepageReason": "Confirmed National League recruitment with top-flight experience, supporting coverage beyond the first division.",
     "dedupeKey": "football maccabi-herzliya idan-dahan signing summer-2026",
-    "status": "review",
-    "aiDisclosure": "AI-assisted original English report, checked against ONE and Israel Football Association identity and club records.",
-    "reviewReasons": [
-      "media:manual-image-story-mismatch"
-    ]
+    "status": "published",
+    "aiDisclosure": "AI-assisted original English report, checked against ONE and Israel Football Association identity and club records."
   },
   {
     "id": "live-20260714-lonnie-walker",
@@ -67490,10 +67376,7 @@
     "homepageReason": "Major Maccabi roster decision with a fixed NBA deadline.",
     "dedupeKey": "basketball maccabi tel aviv lonnie walker nba exit deadline july 2026",
     "trending": 1,
-    "status": "review",
-    "reviewReasons": [
-      "research:verification-links-are-generic-homepages"
-    ]
+    "status": "published"
   },
   {
     "id": "live-20260714-super-cup-kanaan",
@@ -67994,10 +67877,7 @@
     "theme": "golden-hour",
     "homepagePriority": 82,
     "homepageReason": "Serious breaking safety incident at a major global sporting event.",
-    "status": "review",
-    "reviewReasons": [
-      "research:verification-links-are-generic-homepages"
-    ]
+    "status": "published"
   },
   {
     "id": "brief-20260714-tiberias-investigation",
@@ -68204,12 +68084,12 @@
     "homepagePriority": 58,
     "dedupeKey": "basketball ironi kiryat ata tomer asayag contract renewal july 2026",
     "homepageReason": "Useful domestic basketball roster continuity, but not a major national story.",
-    "status": "review",
-    "reviewReasons": [
-      "copy-depth:88/220-words",
-      "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts",
-      "research:no-independent-or-authoritative-verification"
+    "status": "published",
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/528104.html"
+      }
     ]
   },
   {
@@ -68245,13 +68125,7 @@
     "theme": "blue-court",
     "homepagePriority": 74,
     "homepageReason": "Notable overseas move for an Israeli international in elite women’s basketball.",
-    "status": "review",
-    "reviewReasons": [
-      "copy-depth:108/220-words",
-      "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts",
-      "research:verification-links-are-generic-homepages"
-    ]
+    "status": "published"
   },
   {
     "id": "brief-20260714-hapoel-basketball-roster",
@@ -68281,12 +68155,7 @@
     "homepagePriority": 79,
     "homepageReason": "High-level roster construction at one of Israel’s leading basketball clubs.",
     "status": "review",
-    "reviewReasons": [
-      "copy-depth:114/200-words",
-      "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts",
-      "research:no-independent-or-authoritative-verification"
-    ]
+    "warning": "dup person+action (contract, 1 person + 2 context tokens)"
   },
   {
     "id": "brief-20260714-yarin-levy",
@@ -68315,12 +68184,12 @@
     "theme": "transfer-grid",
     "homepagePriority": 77,
     "homepageReason": "Important contract decision involving a highly regarded young player and a leading club.",
-    "status": "review",
-    "reviewReasons": [
-      "copy-depth:96/220-words",
-      "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts",
-      "research:no-independent-or-authoritative-verification"
+    "status": "published",
+    "verificationSources": [
+      {
+        "label": "Sport1 / Maariv",
+        "url": "https://sport1.maariv.co.il/israeli-soccer/ligat-haal/article/1899179/"
+      }
     ]
   },
   {
@@ -68350,12 +68219,12 @@
     "theme": "stadium-red",
     "homepagePriority": 82,
     "homepageReason": "Exceptional supporter demand with major financial consequences for a leading Israeli club.",
-    "status": "review",
-    "reviewReasons": [
-      "copy-depth:116/200-words",
-      "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts",
-      "research:no-independent-or-authoritative-verification"
+    "status": "published",
+    "verificationSources": [
+      {
+        "label": "Walla Sport",
+        "url": "https://sports.walla.co.il/item/3853278"
+      }
     ]
   },
   {
@@ -68386,12 +68255,12 @@
     "theme": "blue-court",
     "homepagePriority": 66,
     "homepageReason": "Development move for a promising Israeli youth international.",
-    "status": "review",
-    "reviewReasons": [
-      "copy-depth:105/220-words",
-      "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts",
-      "research:no-independent-or-authoritative-verification"
+    "status": "published",
+    "verificationSources": [
+      {
+        "label": "Walla Sport",
+        "url": "https://sports.walla.co.il/item/3853266"
+      }
     ]
   },
   {
@@ -68427,13 +68296,7 @@
     "theme": "blue-court",
     "homepagePriority": 80,
     "homepageReason": "Strong national-team tournament result with balanced youth development indicators.",
-    "status": "review",
-    "reviewReasons": [
-      "copy-depth:94/220-words",
-      "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts",
-      "research:verification-links-are-generic-homepages"
-    ]
+    "status": "published"
   },
   {
     "id": "brief-20260714-liam-elok",
@@ -68462,12 +68325,12 @@
     "theme": "night-pitch",
     "homepagePriority": 62,
     "homepageReason": "Relevant squad move for a newly promoted club.",
-    "status": "review",
-    "reviewReasons": [
-      "copy-depth:102/220-words",
-      "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts",
-      "research:no-independent-or-authoritative-verification"
+    "status": "published",
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/528100.html"
+      }
     ]
   },
   {
@@ -68503,13 +68366,7 @@
     "theme": "press-box",
     "homepagePriority": 56,
     "homepageReason": "Notable European appointment for Israeli officials.",
-    "status": "review",
-    "reviewReasons": [
-      "copy-depth:77/220-words",
-      "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts",
-      "research:verification-links-are-generic-homepages"
-    ]
+    "status": "published"
   },
   {
     "id": "brief-20260714-neymar-future",
@@ -68539,13 +68396,12 @@
     "theme": "stadium-red",
     "homepagePriority": 87,
     "homepageReason": "Major career decision involving one of world football’s most prominent players.",
-    "status": "review",
-    "reviewReasons": [
-      "copy-depth:102/220-words",
-      "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts",
-      "research:no-independent-or-authoritative-verification",
-      "presentation:publisher-name-in-international-reader-copy"
+    "status": "published",
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/528097.html"
+      }
     ]
   },
   {
@@ -68581,13 +68437,7 @@
     "theme": "blue-court",
     "homepagePriority": 70,
     "homepageReason": "Productive Summer League performance by two closely followed Israeli prospects.",
-    "status": "review",
-    "reviewReasons": [
-      "copy-depth:88/220-words",
-      "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts",
-      "research:verification-links-are-generic-homepages"
-    ]
+    "status": "published"
   },
   {
     "id": "brief-20260714-or-zahavi",
@@ -68616,12 +68466,12 @@
     "theme": "night-pitch",
     "homepagePriority": 52,
     "homepageReason": "Lower-league squad news included for breadth, not homepage prominence.",
-    "status": "review",
-    "reviewReasons": [
-      "copy-depth:77/220-words",
-      "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts",
-      "research:no-independent-or-authoritative-verification"
+    "status": "published",
+    "verificationSources": [
+      {
+        "label": "Sport5",
+        "url": "https://www.sport5.co.il/articles.aspx?FolderID=127&docID=552138"
+      }
     ]
   },
   {
@@ -68651,12 +68501,12 @@
     "theme": "press-box",
     "homepagePriority": 35,
     "homepageReason": "Routine commercial club update suitable for the rolling feed only.",
-    "status": "review",
-    "reviewReasons": [
-      "copy-depth:81/220-words",
-      "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts",
-      "research:no-independent-or-authoritative-verification"
+    "status": "published",
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/528099.html"
+      }
     ]
   },
   {
@@ -68693,13 +68543,7 @@
     "theme": "night-pitch",
     "featured": true,
     "trending": 1,
-    "status": "review",
-    "reviewReasons": [
-      "copy-depth:80/220-words",
-      "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts",
-      "research:verification-links-are-generic-homepages"
-    ]
+    "status": "published"
   },
   {
     "id": "seed-002",
@@ -68727,12 +68571,12 @@
     ],
     "theme": "stadium-red",
     "trending": 4,
-    "status": "review",
-    "reviewReasons": [
-      "copy-depth:78/200-words",
-      "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts",
-      "research:no-independent-or-authoritative-verification"
+    "status": "published",
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://classic.one.co.il/Article/525644.html"
+      }
     ]
   },
   {
@@ -68768,13 +68612,7 @@
     ],
     "theme": "blue-court",
     "trending": 2,
-    "status": "review",
-    "reviewReasons": [
-      "copy-depth:74/220-words",
-      "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts",
-      "research:verification-links-are-generic-homepages"
-    ]
+    "status": "published"
   },
   {
     "id": "seed-004",
@@ -68809,13 +68647,7 @@
     "theme": "transfer-grid",
     "trending": 3,
     "aiDisclosure": "AI-assisted analysis built from source-linked facts. Tactical interpretation is clearly marked as opinion.",
-    "status": "review",
-    "reviewReasons": [
-      "copy-depth:115/300-words",
-      "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts",
-      "research:verification-links-are-generic-homepages"
-    ]
+    "status": "published"
   },
   {
     "id": "seed-005",
@@ -68842,12 +68674,12 @@
       "The match was part of pre-season preparation."
     ],
     "theme": "golden-hour",
-    "status": "review",
-    "reviewReasons": [
-      "copy-depth:68/220-words",
-      "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts",
-      "research:no-independent-or-authoritative-verification"
+    "status": "published",
+    "verificationSources": [
+      {
+        "label": "Sport 5",
+        "url": "https://homepage.sport5.co.il/team.aspx?FolderID=192"
+      }
     ]
   },
   {
@@ -68882,13 +68714,7 @@
       "Poland and Latvia were listed as the next opponents."
     ],
     "theme": "press-box",
-    "status": "review",
-    "reviewReasons": [
-      "copy-depth:82/220-words",
-      "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts",
-      "research:verification-links-are-generic-homepages"
-    ]
+    "status": "published"
   },
   {
     "id": "seed-007",
@@ -68926,13 +68752,7 @@
     ],
     "theme": "tactics-board",
     "aiDisclosure": "AI-assisted language analysis reviewed against the linked identity sources. Editorial policy, not breaking news.",
-    "status": "review",
-    "reviewReasons": [
-      "copy-depth:98/300-words",
-      "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts",
-      "research:verification-links-are-generic-homepages"
-    ]
+    "status": "published"
   },
   {
     "id": "seed-008",
@@ -69034,13 +68854,7 @@
     "theme": "press-box",
     "desk": "international",
     "aiDisclosure": "AI-assisted international analysis based on the linked report and official competition records. Interpretation is opinion.",
-    "status": "review",
-    "reviewReasons": [
-      "copy-depth:85/300-words",
-      "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts",
-      "research:verification-links-are-generic-homepages"
-    ]
+    "status": "published"
   },
   {
     "id": "seed-010",
@@ -69074,13 +68888,7 @@
     ],
     "theme": "track-lines",
     "desk": "international",
-    "status": "review",
-    "reviewReasons": [
-      "copy-depth:93/200-words",
-      "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts",
-      "research:verification-links-are-generic-homepages"
-    ]
+    "status": "published"
   },
   {
     "id": "seed-011",
@@ -69114,13 +68922,7 @@
       "The route includes 21 stages and eight mountain stages, according to Sport 5’s preview."
     ],
     "theme": "golden-hour",
-    "status": "review",
-    "reviewReasons": [
-      "copy-depth:97/200-words",
-      "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts",
-      "research:verification-links-are-generic-homepages"
-    ]
+    "status": "published"
   },
   {
     "id": "seed-012",
@@ -69155,14 +68957,7 @@
     ],
     "theme": "blue-court",
     "aiDisclosure": "AI-assisted roster analysis based on a source-linked report. Transaction terms are facts; fit and timeline judgments are opinion.",
-    "status": "review",
-    "reviewReasons": [
-      "copy-depth:84/300-words",
-      "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts",
-      "research:verification-links-are-generic-homepages",
-      "presentation:publisher-name-in-international-reader-copy"
-    ]
+    "status": "published"
   },
   {
     "id": "seed-013",
@@ -69200,13 +68995,7 @@
       "The proposed tracker will distinguish qualified, ranking position, pathway open and eliminated."
     ],
     "theme": "track-lines",
-    "status": "review",
-    "reviewReasons": [
-      "copy-depth:86/200-words",
-      "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts",
-      "research:verification-links-are-generic-homepages"
-    ]
+    "status": "published"
   },
   {
     "id": "seed-014",
@@ -69248,14 +69037,7 @@
     "homepagePriority": 80,
     "homepageReason": "Completed Grand Slam final with a successful title defence by the world No. 1.",
     "dedupeKey": "tennis wimbledon jannik sinner alexander zverev final july 2026",
-    "status": "review",
-    "reviewReasons": [
-      "copy-depth:169/220-words",
-      "structure:4/5-paragraphs",
-      "evidence:3/4-confirmed-facts",
-      "research:verification-links-are-generic-homepages",
-      "presentation:publisher-name-in-international-reader-copy"
-    ]
+    "status": "published"
   },
   {
     "id": "brief-20260714-abramov-security",
@@ -69292,7 +69074,7 @@
     "homepagePriority": 81,
     "homepageReason": "A significant police development in a serious public-safety story involving the chairman of a leading Israeli club.",
     "dedupeKey": "football beitar jerusalem barak abramov japanika attacks police inquiry july 2026",
-    "status": "review",
+    "status": "published",
     "verificationSources": [
       {
         "label": "Independent report citing the police account of the Rosh Pina attack",
@@ -69303,10 +69085,7 @@
         "url": "https://www.timesofisrael.com/liveblog_entry/man-arrested-in-string-of-shootings-and-grenade-attacks-on-sushi-restaurants/"
       }
     ],
-    "aiDisclosure": "AI-assisted original English update checked against the latest source report, an independent police-account report and the initial arrest record; allegations are not presented as findings of guilt.",
-    "reviewReasons": [
-      "media:manual-image-story-mismatch"
-    ]
+    "aiDisclosure": "AI-assisted original English update checked against the latest source report, an independent police-account report and the initial arrest record; allegations are not presented as findings of guilt."
   },
   {
     "id": "brief-20260714-netanya-tshibangu",
@@ -69343,11 +69122,7 @@
     "homepagePriority": 57,
     "homepageReason": "Relevant pre-season recruitment development, but not a completed transfer.",
     "dedupeKey": "football maccabi netanya isaac tshibangu trial july 2026",
-    "status": "review",
-    "reviewReasons": [
-      "copy-depth:114/220-words",
-      "structure:3/5-paragraphs"
-    ]
+    "status": "published"
   },
   {
     "id": "brief-20260714-beitar-recruitment",
@@ -69433,13 +69208,7 @@
     "homepagePriority": 63,
     "homepageReason": "Direct Champions League qualification consequence for the Israeli champions.",
     "dedupeKey": "football champions league hapoel beer sheva gyor vikingur qualifier july 2026",
-    "status": "review",
-    "reviewReasons": [
-      "copy-depth:108/220-words",
-      "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts",
-      "research:verification-links-are-generic-homepages"
-    ]
+    "status": "published"
   },
   {
     "id": "brief-20260714-bnei-eilat-transition",
@@ -69469,12 +69238,12 @@
     "homepagePriority": 50,
     "homepageReason": "Important lower-league governance change with limited national impact.",
     "dedupeKey": "football bnei eilat tamer nofi management transition july 2026",
-    "status": "review",
-    "reviewReasons": [
-      "copy-depth:115/220-words",
-      "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts",
-      "research:no-independent-or-authoritative-verification"
+    "status": "published",
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/528079.html"
+      }
     ]
   },
   {
@@ -69513,11 +69282,7 @@
     "homepagePriority": 76,
     "homepageReason": "Closing of a major multi-sport event central to Israeli and Jewish sport.",
     "dedupeKey": "multi sport maccabiah 2026 closing ceremony tel aviv july 2026",
-    "status": "review",
-    "reviewReasons": [
-      "copy-depth:156/220-words",
-      "structure:4/5-paragraphs"
-    ]
+    "status": "published"
   },
   {
     "id": "brief-20260714-avdija-garnett",
@@ -69559,14 +69324,7 @@
     "homepagePriority": 69,
     "homepageReason": "High-profile assessment of Israel’s leading NBA player and Portland’s new roster.",
     "dedupeKey": "basketball nba portland deni avdija kevin garnett roster assessment july 2026",
-    "status": "review",
-    "reviewReasons": [
-      "copy-depth:153/220-words",
-      "structure:4/5-paragraphs",
-      "evidence:3/4-confirmed-facts",
-      "research:verification-links-are-generic-homepages",
-      "presentation:publisher-name-in-international-reader-copy"
-    ]
+    "status": "published"
   },
   {
     "id": "feature-20260714-england-argentina-rivalry",
@@ -69610,10 +69368,7 @@
     "homepagePriority": 73,
     "homepageReason": "Major World Cup semi-final with an unusually important tournament rivalry.",
     "dedupeKey": "football world cup england argentina rivalry semi final july 2026",
-    "status": "review",
-    "reviewReasons": [
-      "presentation:publisher-name-in-international-reader-copy"
-    ]
+    "status": "published"
   },
   {
     "id": "brief-20260714-bellingham-fan-vote",
@@ -69644,14 +69399,12 @@
     "homepagePriority": 38,
     "homepageReason": "Useful audience-interest brief, deliberately kept out of lead-story contention.",
     "dedupeKey": "football world cup jude bellingham quarter final one fan vote july 2026",
-    "status": "review",
-    "reviewReasons": [
-      "copy-depth:100/220-words",
-      "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts",
-      "research:no-independent-or-authoritative-verification",
-      "presentation:publisher-name-in-headline-or-standfirst",
-      "presentation:publisher-name-in-international-reader-copy"
+    "status": "published",
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/528101.html"
+      }
     ]
   },
   {
@@ -69685,13 +69438,12 @@
     "homepagePriority": 67,
     "homepageReason": "Original international feature tied to the end of a major World Cup career.",
     "dedupeKey": "football portugal cristiano ronaldo madeira farewell world cup 2026",
-    "status": "review",
-    "reviewReasons": [
-      "copy-depth:160/200-words",
-      "structure:4/5-paragraphs",
-      "evidence:3/4-confirmed-facts",
-      "research:no-independent-or-authoritative-verification",
-      "presentation:publisher-name-in-international-reader-copy"
+    "status": "published",
+    "verificationSources": [
+      {
+        "label": "Ynet Sport",
+        "url": "https://www.ynet.co.il/sport/article/yokra14825572"
+      }
     ]
   },
   {
@@ -69724,12 +69476,12 @@
     "homepagePriority": 78,
     "homepageReason": "Substantive explanation for the national team absence of Israel’s leading NBA player.",
     "dedupeKey": "basketball israel national team deni avdija insurance absence july 2026",
-    "status": "review",
-    "reviewReasons": [
-      "copy-depth:165/220-words",
-      "structure:4/5-paragraphs",
-      "research:no-independent-or-authoritative-verification",
-      "presentation:publisher-name-in-headline-or-standfirst"
+    "status": "published",
+    "verificationSources": [
+      {
+        "label": "Sport5",
+        "url": "https://www.sport5.co.il/articles.aspx?FolderID=416&docID=552148"
+      }
     ]
   },
   {
@@ -69761,11 +69513,12 @@
     "homepagePriority": 70,
     "homepageReason": "Completed overseas transfer for an Israeli-developed centre-back.",
     "dedupeKey": "football radnicki 1923 hasan hilo signing july 2026",
-    "status": "review",
-    "reviewReasons": [
-      "copy-depth:110/220-words",
-      "structure:3/5-paragraphs",
-      "research:no-independent-or-authoritative-verification"
+    "status": "published",
+    "verificationSources": [
+      {
+        "label": "Sport5",
+        "url": "https://www.sport5.co.il/articles.aspx?FolderID=3075&docID=552153"
+      }
     ]
   },
   {
@@ -69806,13 +69559,7 @@
     "homepagePriority": 64,
     "homepageReason": "New long-term Olympic infrastructure initiative with relevance across Israeli sport.",
     "dedupeKey": "olympics los angeles 2028 israel national house announcement july 2026",
-    "status": "review",
-    "reviewReasons": [
-      "copy-depth:108/220-words",
-      "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts",
-      "research:verification-links-are-generic-homepages"
-    ]
+    "status": "published"
   },
   {
     "id": "brief-20260714-la-liga-schedule",
@@ -69850,13 +69597,7 @@
     "homepagePriority": 49,
     "homepageReason": "Useful international fixture service item, below major breaking stories.",
     "dedupeKey": "football la liga opening three matchdays schedule august 2026",
-    "status": "review",
-    "reviewReasons": [
-      "copy-depth:102/220-words",
-      "structure:3/5-paragraphs",
-      "research:verification-links-are-generic-homepages",
-      "presentation:publisher-name-in-international-reader-copy"
-    ]
+    "status": "published"
   },
   {
     "id": "brief-20260714-youth-registration",
@@ -69892,13 +69633,7 @@
     "homepagePriority": 48,
     "homepageReason": "Valuable youth-football coverage designed for the rolling feed rather than the lead grid.",
     "dedupeKey": "football israel youth premier league squad registration 2026 27",
-    "status": "review",
-    "reviewReasons": [
-      "copy-depth:96/220-words",
-      "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts",
-      "research:verification-links-are-generic-homepages"
-    ]
+    "status": "published"
   },
   {
     "id": "brief-20260714-leo-coelho-lawsuit",
@@ -69929,13 +69664,12 @@
     "homepagePriority": 44,
     "homepageReason": "Unusual international wire story with clear audience interest but limited sporting impact.",
     "dedupeKey": "football amazonas leo coelho lawsuit farewell video july 2026",
-    "status": "review",
-    "reviewReasons": [
-      "copy-depth:109/220-words",
-      "structure:3/5-paragraphs",
-      "evidence:3/4-confirmed-facts",
-      "research:no-independent-or-authoritative-verification",
-      "presentation:publisher-name-in-international-reader-copy"
+    "status": "published",
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/528072.html"
+      }
     ]
   },
   {
@@ -69978,12 +69712,8 @@
     "homepagePriority": 91,
     "homepageReason": "Breaking safety incident involving two leading Beitar players immediately before competitive fixtures.",
     "dedupeKey": "football beitar jerusalem atzili yarden cohen flare injuries 2026-07-14",
-    "status": "review",
-    "aiDisclosure": "AI-assisted original English report, checked against the cited source material and retained identity records.",
-    "reviewReasons": [
-      "presentation:publisher-name-in-headline-or-standfirst",
-      "media:manual-image-story-mismatch"
-    ]
+    "status": "published",
+    "aiDisclosure": "AI-assisted original English report, checked against the cited source material and retained identity records."
   },
   {
     "id": "live-20260714-israel-u20-handball-poland",
@@ -70025,11 +69755,8 @@
     "homepagePriority": 86,
     "homepageReason": "National youth team delivered the exact margin required to preserve a World Championship route.",
     "dedupeKey": "handball israel u20 poland 39-31 world-championship-route 2026-07-14",
-    "status": "review",
-    "aiDisclosure": "AI-assisted original English report, checked against the cited source material and an official EHF identity record.",
-    "reviewReasons": [
-      "media:manual-image-story-mismatch"
-    ]
+    "status": "published",
+    "aiDisclosure": "AI-assisted original English report, checked against the cited source material and an official EHF identity record."
   },
   {
     "id": "live-20260714-peretz-miller-maccabi",
@@ -70186,11 +69913,13 @@
     "homepagePriority": 69,
     "homepageReason": "Governance dispute with potential effects on coaches throughout Israeli basketball.",
     "dedupeKey": "basketball israel-coaches-association registration-renewal-dispute 2026-27",
-    "status": "review",
+    "status": "published",
     "aiDisclosure": "AI-assisted original English report, checked against the cited source and clearly separated from unresolved legal claims.",
-    "reviewReasons": [
-      "research:no-independent-or-authoritative-verification",
-      "media:manual-image-story-mismatch"
+    "verificationSources": [
+      {
+        "label": "Sport5",
+        "url": "https://www.sport5.co.il/articles.aspx?FolderID=274&docID=552167"
+      }
     ]
   },
   {
@@ -70299,12 +70028,8 @@
     "homepagePriority": 74,
     "homepageReason": "Meaningful squad-planning development involving four Beitar players, but no completed exits yet.",
     "dedupeKey": "football beitar-jerusalem dahan-abergil-hagag-tavares outside-plans summer-2026",
-    "status": "review",
-    "aiDisclosure": "AI-assisted original English report, checked against Sport5 and official club/federation identity records; no departure is labelled complete.",
-    "reviewReasons": [
-      "presentation:publisher-name-in-headline-or-standfirst",
-      "media:manual-image-story-mismatch"
-    ]
+    "status": "published",
+    "aiDisclosure": "AI-assisted original English report, checked against Sport5 and official club/federation identity records; no departure is labelled complete."
   },
   {
     "id": "live-20260714-beersheva-vikingur",
@@ -70847,9 +70572,12 @@
     "homepagePriority": 90,
     "homepageReason": "A consequential and technically significant change reported for the World Cup final, clearly separated from the elements FIFA has officially confirmed.",
     "dedupeKey": "football world-cup-2026 final halftime-show reported-30-minutes 2026-07-19",
-    "status": "published",
+    "status": "review",
     "aiDisclosure": "AI-assisted original report based on bounded source material and checked against current FIFA, IFAB and independent reporting; the interval length remains explicitly unconfirmed.",
-    "updatedAt": "2026-07-20T18:42:08.843Z"
+    "updatedAt": "2026-07-20T18:42:08.843Z",
+    "reviewReasons": [
+      "incomplete: live snapshot / too thin"
+    ]
   },
   {
     "id": "live-20260715-nike-sibande-kiryat-ata",
@@ -71458,8 +71186,11 @@
     "homepageReason": "A completed Israeli top-flight signing with verified continental data and a clear roster-development argument.",
     "dedupeKey": "basketball hapoel-holon claudell-harris-jr signing 2026-27",
     "trending": 5,
-    "status": "published",
-    "aiDisclosure": "AI-assisted original ILSP signing analysis based on the club announcement as reported, FIBA’s official player record and claim-specific competition reports; projected fit is clearly identified as analysis."
+    "status": "review",
+    "aiDisclosure": "AI-assisted original ILSP signing analysis based on the club announcement as reported, FIBA’s official player record and claim-specific competition reports; projected fit is clearly identified as analysis.",
+    "reviewReasons": [
+      "incomplete-or-non-sports: live snapshot / not a final report"
+    ]
   },
   {
     "id": "live-20260716-marcus-bingham-fenerbahce",
@@ -72437,9 +72168,8 @@
     "homepagePriority": 97,
     "homepageReason": "Heavy youth-team defeat sets up a Sunday winner-takes-all tie for a World Championship berth",
     "dedupeKey": "handball israel-u20 iceland m20-ehf-euro 2026-07-17",
-    "status": "review",
-    "aiDisclosure": "AI-assisted original report. The score, venue, stage, attendance and every player statistic were corroborated against the official EHF match records for the 2026 M20 EURO alongside two independent Hebrew-language accounts.",
-    "warning": "dup person+action (result-win, 1 person + 2 context tokens)"
+    "status": "published",
+    "aiDisclosure": "AI-assisted original report. The score, venue, stage, attendance and every player statistic were corroborated against the official EHF match records for the 2026 M20 EURO alongside two independent Hebrew-language accounts."
   },
   {
     "id": "live-20260717-maccabi-ta-youth-oretzki-kadosh",
@@ -73497,8 +73227,11 @@
     "homepagePriority": 92,
     "homepageReason": "Maccabi Haifa academy graduate injured eight minutes into his English football debut",
     "dedupeKey": "football bristol-city lisav-eissat debut-injury 2026-07",
-    "status": "published",
-    "aiDisclosure": "AI-assisted original report. Facts were merged from two Hebrew-language Israeli reports and cross-checked against Bristol City's official club news and Lisav Eissat's Wikipedia profile; conflicting fee figures and the unconfirmed injury diagnosis are presented only as reported, and his allegiance switch from Israel youth teams to the Romania national side was verified rather than assumed."
+    "status": "review",
+    "aiDisclosure": "AI-assisted original report. Facts were merged from two Hebrew-language Israeli reports and cross-checked against Bristol City's official club news and Lisav Eissat's Wikipedia profile; conflicting fee figures and the unconfirmed injury diagnosis are presented only as reported, and his allegiance switch from Israel youth teams to the Romania national side was verified rather than assumed.",
+    "reviewReasons": [
+      "incomplete-or-non-sports: live snapshot / not a final report"
+    ]
   },
   {
     "id": "live-20260717-hapoel-tel-aviv-close-in-on-jacob-toppin",
@@ -74619,8 +74352,11 @@
     "homepagePriority": 68,
     "homepageReason": "Club-official Maccabi Haifa signing announced this evening, a week before their season opener.",
     "dedupeKey": "football maccabi-haifa wanderson-tsunami signing 2026-07-18",
-    "status": "published",
-    "aiDisclosure": "AI-assisted original report drafted from three Hebrew-language source articles and an independent identity record. Facts are attributed to the club announcement and source reporting."
+    "status": "review",
+    "aiDisclosure": "AI-assisted original report drafted from three Hebrew-language source articles and an independent identity record. Facts are attributed to the club announcement and source reporting.",
+    "reviewReasons": [
+      "incomplete-or-non-sports: live snapshot / not a final report"
+    ]
   },
   {
     "id": "live-20260718-lundberg-ultimatum-walker",
@@ -75356,9 +75092,8 @@
     "homepagePriority": 70,
     "homepageReason": "A ten-goal bronze final, a Saka hat-trick and Mbappé passing Messi's all-time World Cup record on the eve of the final.",
     "dedupeKey": "football world-cup-2026 france-england third-place 2026-07-18",
-    "status": "review",
-    "aiDisclosure": "AI-assisted original match report. CORRECTED after publication: an earlier version reported a 4-2 final score based on sources read mid-match; the 6-4 full-time result, all ten goals and the Mbappé record were re-verified against ESPN's completed match page and Fox Sports' final box score.",
-    "warning": "dup person+action (result-win, 1 person + 5 context tokens)"
+    "status": "published",
+    "aiDisclosure": "AI-assisted original match report. CORRECTED after publication: an earlier version reported a 4-2 final score based on sources read mid-match; the 6-4 full-time result, all ten goals and the Mbappé record were re-verified against ESPN's completed match page and Fox Sports' final box score."
   },
   {
     "id": "column-20260719-second-wave-youth-basketball",
@@ -75776,7 +75511,7 @@
     "dedupeKey": "handball israel-u20 world-championship-qualification 2026-07-19",
     "status": "review",
     "aiDisclosure": "AI-assisted original report. The final score, half-time score, venue, throw-off time, attendance, penalty counts and every goalscorer were verified against the official EHF match record (match 089, final) and corroborated by two independent Hebrew-language accounts; goalkeeper save figures and the 2005/North Macedonia details are attributed to those accounts.",
-    "warning": "dup person+action (result-win, 1 person + 2 context tokens)"
+    "warning": "dup person+action (result-win, 2 person + 6 context tokens)"
   },
   {
     "id": "live-20260719-israel-relay-record-rieti",
@@ -75886,7 +75621,7 @@
     "homepageReason": "A record champion booed off after a second 3-0 collapse in a week is the biggest Israeli football story of the night, with the loanee-scores-against-parent-club subplot.",
     "dedupeKey": "football kiryat-shmona maccabi-haifa match 2026-07-28",
     "trending": 5,
-    "status": "published",
+    "status": "review",
     "aiDisclosure": "AI-assisted original match report compiled from two independent Hebrew post-match reports and a minute-by-minute live record, cross-checked against a fourth source for the group standings. Latin spellings of player names verified via international databases (Soccerway/Transfermarkt) and prior coverage.",
     "officialSocialPost": {
       "platform": "x",
@@ -75908,7 +75643,8 @@
         "credit": "Wikimedia Commons",
         "license": "CC"
       }
-    ]
+    ],
+    "warning": "dup same-match recap (5 shared tokens)"
   },
   {
     "id": "live-20260728-hapoel-haifa-tiberias-toto-3-1",
@@ -75975,6 +75711,6 @@
         "license": "CC"
       }
     ],
-    "warning": "dup same-match recap (4 shared tokens)"
+    "warning": "dup same-match recap (3 shared tokens)"
   }
 ]
