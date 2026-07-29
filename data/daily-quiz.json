@@ -1,67 +1,67 @@
 {
-  "date": "2026-07-28",
+  "date": "2026-07-29",
   "title": "The Daily Five",
-  "dek": "Five questions from this week's biggest stories in Israeli sport — from a Euroleague overtime classic to a Tel Aviv night of Muay Thai knockouts.",
+  "dek": "Five questions from this week's verified ILSP stories — judo history, hoops signings and a rough week for Maccabi Haifa.",
   "questions": [
     {
-      "question": "What was the final score, after overtime, when Maccabi Tel Aviv beat Real Madrid in the 2014 Euroleague Final in Assago?",
+      "question": "At Rio 2016, whom did Or Sasson defeat in the round of 32 on his way to a judo bronze medal — the bout that made headlines when his opponent refused to shake his hand?",
       "answers": [
-        "98-86",
-        "92-85",
-        "68-67",
-        "73-73"
+        "Islam El Shehaby (EGY)",
+        "Teddy Riner (FRA)",
+        "Alex García Mendoza (CUB)",
+        "Yarden Gerbi (ISR)"
       ],
       "correctIndex": 0,
-      "explanation": "Maccabi won 98-86 after overtime on 18 May 2014, with the score locked at 73-73 after regulation and Maccabi having beaten CSKA Moscow 68-67 in the semi-final two days earlier.",
-      "sourceUrl": "https://www.timesofisrael.com/maccabi-tel-aviv-win-euroleague-final-98-86/"
+      "explanation": "Sasson beat Egypt's Islam El Shehaby in the round of 32; El Shehaby then refused to shake his hand and was later reprimanded by the IOC.",
+      "sourceUrl": "https://www.timesofisrael.com/or-sassson-wins-israels-second-judo-bronze-at-rio-games/"
     },
     {
-      "question": "Per odds reported by Sport5, what are Hapoel Tel Aviv's odds to win the 2026/27 EuroLeague title?",
+      "question": "Which club has NBA veteran Shake Milton agreed to join on a one-year, $1 million contract?",
       "answers": [
-        "4.00",
-        "8.00",
-        "12.00",
-        "34.00"
-      ],
-      "correctIndex": 2,
-      "explanation": "Hapoel Tel Aviv are priced at 12.00, the fifth-best odds in the field, while Panathinaikos are favourites at 4.00 and cross-city rivals Maccabi Tel Aviv sit at 34.00.",
-      "sourceUrl": "https://www.sport5.co.il/articles.aspx?FolderID=405&docID=554562"
-    },
-    {
-      "question": "How much is Real Madrid's opening offer for Manchester City's Rodri reportedly worth, per ONE?",
-      "answers": [
-        "€20 million",
-        "€50-60 million",
-        "€80 million",
-        "€100-120 million"
-      ],
-      "correctIndex": 1,
-      "explanation": "ONE reported Real Madrid's opening bid at €50-60 million, below Manchester City's reported €80 million valuation of Rodri.",
-      "sourceUrl": "https://www.one.co.il/Article/529127.html"
-    },
-    {
-      "question": "Who won gold in the men's 100m breaststroke final at the 2026 Commonwealth Games, ahead of Adam Ramsay-Peaty's bronze?",
-      "answers": [
-        "Sam Williamson",
-        "Filip Nowacki",
-        "Gordon Ramsay",
-        "Holly Ramsay"
+        "Hapoel Jerusalem",
+        "Maccabi Tel Aviv",
+        "Partizan Belgrade",
+        "Žalgiris Kaunas"
       ],
       "correctIndex": 0,
-      "explanation": "Australia's Sam Williamson won gold in 59.17 and Jersey's Filip Nowacki took silver in 59.34, ahead of Adam Ramsay-Peaty's bronze in 59.65; Holly Ramsay, his wife, is the daughter of chef Gordon Ramsay.",
-      "sourceUrl": "https://www.shvoong.co.il/%D7%9E%D7%94-%D7%94%D7%98%D7%A2%D7%9D-%D7%91%D7%9B%D7%9C-%D7%94%D7%9E%D7%98%D7%A8%D7%99%D7%9D-%D7%91-530-%D7%91%D7%91%D7%95%D7%A7%D7%A8-%D7%90%D7%93%D7%9D-%D7%A4%D7%99%D7%98%D7%99-%D7%94%D7%AA/212798/"
+      "explanation": "Milton agreed personal terms with Hapoel Jerusalem after being cut loose by Partizan Belgrade, which had activated an opt-out clause.",
+      "sourceUrl": "https://www.sport5.co.il/articles.aspx?FolderID=274&docID=554667"
     },
     {
-      "question": "Which fighter did Kibedy Gordon knock out in under a minute at GFN 1 in Tel Aviv?",
+      "question": "On his first appearance on loan for Ironi Kiryat Shmona, in which minute did Niv Gabai score against his parent club Maccabi Haifa?",
       "answers": [
-        "José Alberto Quiñones",
-        "John Lineker",
-        "Lucas Almeida",
-        "Maximus Bejenuta"
+        "7th minute",
+        "23rd minute",
+        "33rd minute",
+        "76th minute"
       ],
       "correctIndex": 0,
-      "explanation": "Kibedy Gordon knocked out former UFC bantamweight José Alberto Quiñones in under a minute in their Muay Thai bout at GFN 1 on 27 July 2026.",
-      "sourceUrl": "https://www.sport5.co.il/articles.aspx?FolderID=11342&docID=554566"
+      "explanation": "Gabai scored in the 7th minute as Kiryat Shmona beat Maccabi Haifa 3-0 in the Toto Cup.",
+      "sourceUrl": "https://www.sport5.co.il/articles.aspx?FolderID=282&docID=554653"
+    },
+    {
+      "question": "What status change freed up an international roster slot for Ilay Feingold at New England Revolution?",
+      "answers": [
+        "He was granted a US green card",
+        "He signed a new US work visa",
+        "He became a naturalized US citizen",
+        "He was loaned to a US developmental side"
+      ],
+      "correctIndex": 0,
+      "explanation": "As a permanent resident holding a green card, Feingold no longer occupies an international slot under MLS rules.",
+      "sourceUrl": "https://www.sport5.co.il/articles.aspx?FolderID=11355&docID=554668"
+    },
+    {
+      "question": "Maccabi Haifa's 3-0 Toto Cup loss to Kiryat Shmona was their second such defeat in a week — who else beat them 3-0, in the Haifa derby?",
+      "answers": [
+        "Hapoel Haifa",
+        "Ironi Tiberias",
+        "Maccabi Tel Aviv",
+        "Beitar Jerusalem"
+      ],
+      "correctIndex": 0,
+      "explanation": "Maccabi Haifa lost the Haifa derby to Hapoel Haifa 3-0 before suffering the identical scoreline against Kiryat Shmona in the Toto Cup.",
+      "sourceUrl": "https://www.one.co.il/Article/529211.html"
     }
   ]
 }

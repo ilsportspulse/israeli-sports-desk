@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-29T10:08:31Z",
-    "validUntil": "2026-07-29T22:08:31Z",
+    "checkedAt": "2026-07-29T11:30:01Z",
+    "validUntil": "2026-07-29T23:30:01Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 229,
+        "maxAgeHours": 231,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-07-28-niv-gabai-efficiency-numbers",
+        "articleId": "live-2026-07-29-tiberias-relegation-demand",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 237,
+        "maxAgeHours": 238,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-07-28-fadida-tiberias-talks",
+        "articleId": "archive-20260729-rio-de-janeiro-12-august-2016-the-bow-th",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 247,
+        "maxAgeHours": 249,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260728-zagreb-thun-comeback",
+        "articleId": "live-2026-07-28-niv-gabai-efficiency-numbers",
         "maxAgeHours": 24,
         "requires": []
       }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T10:08:31.879Z",
+  "generatedAt": "2026-07-29T11:30:01.643Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,18 +11,18 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 471,
+    "publishedArticles": 473,
     "wordCount": {
       "minimum": 231,
       "maximum": 1070,
       "median": 451,
-      "average": 461.5
+      "average": 462
     },
     "paragraphDistribution": {
       "5": 2,
       "6": 13,
       "7": 80,
-      "8": 128,
+      "8": 130,
       "9": 120,
       "10": 87,
       "11": 24,
@@ -33,7 +33,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.272,
+    "dominantParagraphShare": 0.275,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 13,
     "analysisBelowTarget": 4,
@@ -1170,6 +1170,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-29-tiberias-relegation-demand",
+      "slug": "tiberias-minimum-punishment-relegation-ashdod-lawyer",
+      "title": "Ashdod's lawyer: minimum punishment for Tiberias must be relegation",
+      "kind": "article",
+      "words": 497,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 83,
+        "average": 62.1
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 66,
+        "average": 31.1
+      },
+      "lexicalDiversity": 0.559,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "archive-20260729-rio-de-janeiro-12-august-2016-the-bow-th",
+      "slug": "rio-de-janeiro-12-august-2016-the-bow-that-never-came-and-the-bronze-t",
+      "title": "Rio de Janeiro, 12 August 2016: The bow that never came, and the bronze that did",
+      "kind": "explainer",
+      "words": 662,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 65,
+        "longest": 99,
+        "average": 82.8
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 55,
+        "average": 23.6
+      },
+      "lexicalDiversity": 0.506,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-07-28-niv-gabai-efficiency-numbers",
       "slug": "niv-gabai-efficiency-numbers-kiryat-shmona",

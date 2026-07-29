@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T10:08:31.557Z",
+  "generatedAt": "2026-07-29T11:30:01.317Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,16 +17,60 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 775,
-    "publishedBefore": 471,
-    "cleanPublished": 471,
+    "totalArticles": 778,
+    "publishedBefore": 473,
+    "cleanPublished": 473,
     "blockedPublished": 0,
     "demoted": 0,
-    "publishedAfter": 471,
-    "reviewAfter": 304
+    "publishedAfter": 473,
+    "reviewAfter": 305
   },
   "blockedPublished": [],
   "warnings": [
+    {
+      "id": "live-2026-07-29-tiberias-relegation-demand",
+      "slug": "tiberias-minimum-punishment-relegation-ashdod-lawyer",
+      "title": "Ashdod's lawyer: minimum punishment for Tiberias must be relegation",
+      "statusBefore": "published",
+      "words": 497,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260729-israel-denmark-u18-eurobasket-round-of-16",
+      "slug": "israel-denmark-u18-eurobasket-round-of-16",
+      "title": "Israel face Denmark in U18 EuroBasket round of 16 in Trento",
+      "statusBefore": "review",
+      "words": 159,
+      "paragraphs": 5,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [
+        "copy-depth:159/220-words"
+      ],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "archive-20260729-rio-de-janeiro-12-august-2016-the-bow-th",
+      "slug": "rio-de-janeiro-12-august-2016-the-bow-that-never-came-and-the-bronze-t",
+      "title": "Rio de Janeiro, 12 August 2016: The bow that never came, and the bronze that did",
+      "statusBefore": "published",
+      "words": 666,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-07-28-niv-gabai-efficiency-numbers",
       "slug": "niv-gabai-efficiency-numbers-kiryat-shmona",
@@ -7485,6 +7529,34 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-07-29-tiberias-relegation-demand",
+      "slug": "tiberias-minimum-punishment-relegation-ashdod-lawyer",
+      "title": "Ashdod's lawyer: minimum punishment for Tiberias must be relegation",
+      "statusBefore": "published",
+      "words": 497,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "archive-20260729-rio-de-janeiro-12-august-2016-the-bow-th",
+      "slug": "rio-de-janeiro-12-august-2016-the-bow-that-never-came-and-the-bronze-t",
+      "title": "Rio de Janeiro, 12 August 2016: The bow that never came, and the bronze that did",
+      "statusBefore": "published",
+      "words": 666,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-07-28-niv-gabai-efficiency-numbers",
       "slug": "niv-gabai-efficiency-numbers-kiryat-shmona",
