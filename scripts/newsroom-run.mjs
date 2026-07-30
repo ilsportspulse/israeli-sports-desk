@@ -15,6 +15,7 @@ import { fileURLToPath } from "node:url";
 
 import { runDailyFeatures } from "./daily-features.mjs";
 import { actionClassOf, canonicalEventKey, contextTokensOf, personTokensOf } from "./event-key.mjs";
+import { titleSimilarity } from "./newsroom-core.mjs";
 import { submitIndexNow } from "./ping-indexnow.mjs";
 import { postTweet, xCredsFromEnv } from "./lib/x-post.mjs";
 
@@ -658,6 +659,29 @@ async function main() {
     } catch {
       console.warn("Translation step did not finish this cycle; newest stories will be caught up next cycle.");
     }
+  }
+
+  // Near-duplicate headline guard (30 Jul): the "publish all" policy can let two
+  // drafts of the SAME event go live (e.g. the Hapoel TA flares stoppage, drafted
+  // twice 28 min apart). The content-integrity test hard-fails on title similarity
+  // >= 0.72, which crashed the cycle. Mirror that check here and demote the thinner
+  // one to review so the pair never reaches the test.
+  try {
+    const live = articles.filter((a) => (a.status ?? "published") !== "review");
+    const wc = (a) => (a.body ?? []).join(" ").split(/\s+/).filter(Boolean).length;
+    for (let i = 0; i < live.length; i += 1) {
+      for (let j = i + 1; j < live.length; j += 1) {
+        if ((live[i].status ?? "published") === "review" || (live[j].status ?? "published") === "review") continue;
+        if (titleSimilarity(live[i].title, live[j].title) < 0.72) continue;
+        const loser = wc(live[i]) >= wc(live[j]) ? live[j] : live[i];
+        loser.status = "review";
+        loser.reviewReasons = [`near-duplicate headline of /article/${(wc(live[i]) >= wc(live[j]) ? live[i] : live[j]).slug}`];
+        console.log(`Demoted near-duplicate headline: ${loser.slug}`);
+      }
+    }
+    await writeJson("data/articles.json", articles);
+  } catch (error) {
+    console.warn(`Near-duplicate headline guard failed (non-fatal): ${error.message}`);
   }
 
   // Monitoring log for the backoffice: newest cycle first, keep the last 50.
