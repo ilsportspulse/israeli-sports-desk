@@ -601,6 +601,22 @@ async function main() {
       const seenSrc = new Set();
       const seenUrl = new Set();
       let dropped = 0;
+      // Never let a published story carry an image whose OWN caption/alt admits it
+      // doesn't depict the subject — that both looks wrong to readers and hard-fails
+      // the content-integrity test (which crashed the cycle repeatedly, 30 Jul).
+      // Strip such entries so the story falls back to a clean category visual.
+      const MISMATCH = /does not depict|not shown|not represented as visible|illustrating.*not identified|generic image|image mismatch|does not show/i;
+      let mismatchStripped = 0;
+      for (const article of articles) {
+        if ((article.status ?? "published") === "review") continue;
+        const asset = media[article.id];
+        if (!asset) continue;
+        if (MISMATCH.test(`${asset.caption ?? ""} ${asset.alt ?? ""}`)) {
+          delete media[article.id];
+          mismatchStripped += 1;
+        }
+      }
+      if (mismatchStripped) console.log(`Stripped ${mismatchStripped} mismatch-caption image(s) from published stories.`);
       for (const article of articles) {
         if ((article.status ?? "published") === "review") continue;
         const asset = media[article.id];
@@ -616,7 +632,7 @@ async function main() {
           seenUrl.add(asset.creditUrl);
         }
       }
-      if (dropped) {
+      if (dropped || mismatchStripped) {
         console.log(`Dropped ${dropped} duplicate image entr(ies); those stories use their category visual.`);
         await writeJson("data/article-media.json", media);
       }
