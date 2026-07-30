@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T21:11:14.384Z",
+  "generatedAt": "2026-07-30T22:08:33.618Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,15 +11,15 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 675,
+    "publishedArticles": 677,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 426,
-      "average": 426.1
+      "average": 425.1
     },
     "paragraphDistribution": {
-      "3": 33,
+      "3": 35,
       "4": 6,
       "5": 9,
       "6": 34,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.255,
+    "dominantParagraphShare": 0.254,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 34,
     "analysisBelowTarget": 8,
-    "articlesWithStyleFlags": 127
+    "articlesWithStyleFlags": 129
   },
   "flagged": [
     {
@@ -2969,6 +2969,52 @@
       "publisherAttributions": 0,
       "flags": [
         "below-editorial-target:157/280"
+      ]
+    },
+    {
+      "id": "result-2026-07-29-hapoel-be-er-vikingur-reykjavik",
+      "slug": "hapoel-be-er-2-0-vikingur-reykjavik-champions-league-qualifying",
+      "title": "Hapoel Be'er 2–0 Vikingur Reykjavik: Champions League qualifying",
+      "kind": "news",
+      "words": 95,
+      "paragraphs": 3,
+      "paragraphWords": {
+        "shortest": 23,
+        "longest": 39,
+        "average": 31.7
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 23,
+        "average": 15.8
+      },
+      "lexicalDiversity": 0.705,
+      "publisherAttributions": 0,
+      "flags": [
+        "below-editorial-target:95/280"
+      ]
+    },
+    {
+      "id": "result-2026-07-30-maccabi-tel-aviv-sheriff-tiraspol",
+      "slug": "maccabi-tel-aviv-1-0-sheriff-tiraspol-europa-league-qualifying",
+      "title": "Maccabi Tel-Aviv 1–0 Sheriff Tiraspol: Europa League qualifying",
+      "kind": "news",
+      "words": 92,
+      "paragraphs": 3,
+      "paragraphWords": {
+        "shortest": 20,
+        "longest": 39,
+        "average": 30.7
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 23,
+        "average": 15.3
+      },
+      "lexicalDiversity": 0.696,
+      "publisherAttributions": 0,
+      "flags": [
+        "below-editorial-target:92/280"
       ]
     }
   ],

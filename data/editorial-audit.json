@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T21:11:13.987Z",
+  "generatedAt": "2026-07-30T22:08:33.193Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,12 +17,12 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 836,
-    "publishedBefore": 675,
-    "cleanPublished": 667,
+    "totalArticles": 838,
+    "publishedBefore": 677,
+    "cleanPublished": 669,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 675,
+    "publishedAfter": 677,
     "reviewAfter": 161
   },
   "blockedPublished": [
@@ -17018,6 +17018,30 @@
       "paragraphs": 4,
       "facts": 5,
       "verificationSources": 2,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "result-2026-07-29-hapoel-be-er-vikingur-reykjavik",
+      "slug": "hapoel-be-er-2-0-vikingur-reykjavik-champions-league-qualifying",
+      "title": "Hapoel Be'er 2–0 Vikingur Reykjavik: Champions League qualifying",
+      "statusBefore": "published",
+      "words": 93,
+      "paragraphs": 3,
+      "facts": 3,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "result-2026-07-30-maccabi-tel-aviv-sheriff-tiraspol",
+      "slug": "maccabi-tel-aviv-1-0-sheriff-tiraspol-europa-league-qualifying",
+      "title": "Maccabi Tel-Aviv 1–0 Sheriff Tiraspol: Europa League qualifying",
+      "statusBefore": "published",
+      "words": 90,
+      "paragraphs": 3,
+      "facts": 3,
+      "verificationSources": 1,
       "blockers": [],
       "warnings": []
     }
