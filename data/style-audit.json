@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T15:10:57.016Z",
+  "generatedAt": "2026-07-30T16:30:30.878Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 665,
+    "publishedArticles": 670,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 428,
-      "average": 427.2
+      "median": 427,
+      "average": 426.9
     },
     "paragraphDistribution": {
       "3": 33,
       "4": 5,
       "5": 8,
       "6": 34,
-      "7": 99,
-      "8": 169,
+      "7": 101,
+      "8": 172,
       "9": 150,
       "10": 117,
       "11": 30,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.254,
+    "dominantParagraphShare": 0.257,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 34,
     "analysisBelowTarget": 8,
-    "articlesWithStyleFlags": 125
+    "articlesWithStyleFlags": 126
   },
   "flagged": [
     {
@@ -232,6 +232,29 @@
       "flags": [
         "below-editorial-target:84/650",
         "analysis-structure:3/5-paragraphs"
+      ]
+    },
+    {
+      "id": "live-2026-07-30-uefa-boycott-fifa-world-cup",
+      "slug": "uefa-boycott-fifa-world-cup-privatization",
+      "title": "UEFA members vote to boycott FIFA competitions over World Cup privatization plan",
+      "kind": "news",
+      "words": 352,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 54,
+        "average": 44
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 143,
+        "average": 50.3
+      },
+      "lexicalDiversity": 0.625,
+      "publisherAttributions": 0,
+      "flags": [
+        "stock-phrase:remains-to-be-seen"
       ]
     },
     {
@@ -2927,6 +2950,90 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-30-lebron-james-espn-last-dance-documentary-76ers",
+      "slug": "lebron-james-espn-last-dance-documentary-76ers",
+      "title": "LeBron James nears deal with ESPN for his own \"Last Dance\" documentary",
+      "kind": "news",
+      "words": 417,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 46,
+        "longest": 76,
+        "average": 59.6
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 73,
+        "average": 32.1
+      },
+      "lexicalDiversity": 0.592,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-30-kalvin-phillips-guardiola-fallout",
+      "slug": "kalvin-phillips-never-recovered-guardiola-comments",
+      "title": "Kalvin Phillips never recovered from Guardiola's comments — and now he's back at Sheffield United",
+      "kind": "news",
+      "words": 479,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 48,
+        "longest": 86,
+        "average": 59.9
+      },
+      "sentenceWords": {
+        "shortest": 13,
+        "longest": 63,
+        "average": 31.9
+      },
+      "lexicalDiversity": 0.58,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-30-nba-middle-east-preseason-cancelled",
+      "slug": "nba-scraps-middle-east-preseason-games-us-iran",
+      "title": "NBA scraps Middle East preseason games amid US-Iran tensions",
+      "kind": "news",
+      "words": 353,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 57,
+        "average": 44.1
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 45,
+        "average": 29.4
+      },
+      "lexicalDiversity": 0.598,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-30-rani-belaga-loan-hapoel-galil-elyon",
+      "slug": "rani-belaga-loan-hapoel-galil-elyon",
+      "title": "Hapoel Jerusalem loan rising guard Rani Belaga to Hapoel Galil Elyon",
+      "kind": "news",
+      "words": 292,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 54,
+        "average": 41.7
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 42,
+        "average": 29.2
+      },
+      "lexicalDiversity": 0.603,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-07-30-sakhnin-sign-kabara",
       "slug": "bnei-sakhnin-sign-dimitri-kabara-salman-contract-upgrade",

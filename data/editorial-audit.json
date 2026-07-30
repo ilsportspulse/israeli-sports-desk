@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T15:10:56.626Z",
+  "generatedAt": "2026-07-30T16:30:30.452Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 815,
-    "publishedBefore": 665,
-    "cleanPublished": 657,
+    "totalArticles": 823,
+    "publishedBefore": 670,
+    "cleanPublished": 662,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 665,
-    "reviewAfter": 150
+    "publishedAfter": 670,
+    "reviewAfter": 153
   },
   "blockedPublished": [
     {
@@ -38,7 +38,9 @@
       "blockers": [
         "media:manual-image-story-mismatch"
       ],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-20260714-netanya-nwachukwu",
@@ -154,6 +156,80 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-2026-07-30-lebron-james-espn-last-dance-documentary-76ers",
+      "slug": "lebron-james-espn-last-dance-documentary-76ers",
+      "title": "LeBron James nears deal with ESPN for his own \"Last Dance\" documentary",
+      "statusBefore": "published",
+      "words": 421,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-07-30-hapoel-ussishkin-committee-hearing",
+      "slug": "hapoel-ussishkin-tel-aviv-court-hearing-committee-no-decision",
+      "title": "Hapoel Ussishkin board dispute rolls on as Tel Aviv court hearing ends without a ruling",
+      "statusBefore": "review",
+      "words": 339,
+      "paragraphs": 7,
+      "facts": 8,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-30-uefa-boycott-fifa-world-cup",
+      "slug": "uefa-boycott-fifa-world-cup-privatization",
+      "title": "UEFA members vote to boycott FIFA competitions over World Cup privatization plan",
+      "statusBefore": "published",
+      "words": 351,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-30-yermakov-leaves-haifa-metallist-kharkiv",
+      "slug": "yermakov-leaves-haifa-metallist-kharkiv-warm-feelings",
+      "title": "Yermakov leaves Maccabi Haifa for Metallist Kharkiv, says he'll never rule out a return",
+      "statusBefore": "review",
+      "words": 355,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-07-30-maccabi-sheriff-leg2-halftime",
+      "slug": "maccabi-tel-aviv-sheriff-tiraspol-second-leg-in-progress",
+      "title": "Maccabi Tel Aviv and Sheriff Tiraspol goalless at the break in Europa League second leg",
+      "statusBefore": "review",
+      "words": 185,
+      "paragraphs": 5,
+      "facts": 6,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-07-30-sakhnin-sign-kabara",
       "slug": "bnei-sakhnin-sign-dimitri-kabara-salman-contract-upgrade",
@@ -6706,6 +6782,22 @@
       ]
     },
     {
+      "id": "live-20260714-lev-hasharon-u17-promotion",
+      "slug": "hapoel-lev-hasharon-u17-national-league-promotion",
+      "title": "Hapoel Lev Hasharon U17s step up after winning Sharon division",
+      "statusBefore": "published",
+      "words": 324,
+      "paragraphs": 6,
+      "facts": 5,
+      "verificationSources": 2,
+      "blockers": [
+        "media:manual-image-story-mismatch"
+      ],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-20260714-motley-red-star-talks",
       "slug": "red-star-talks-hapoel-tel-aviv-johnathan-motley",
       "title": "Motley joins Red Star after Hapoel farewell",
@@ -7784,6 +7876,74 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-07-30-lebron-james-espn-last-dance-documentary-76ers",
+      "slug": "lebron-james-espn-last-dance-documentary-76ers",
+      "title": "LeBron James nears deal with ESPN for his own \"Last Dance\" documentary",
+      "statusBefore": "published",
+      "words": 421,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-07-30-kalvin-phillips-guardiola-fallout",
+      "slug": "kalvin-phillips-never-recovered-guardiola-comments",
+      "title": "Kalvin Phillips never recovered from Guardiola's comments — and now he's back at Sheffield United",
+      "statusBefore": "published",
+      "words": 481,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-07-30-uefa-boycott-fifa-world-cup",
+      "slug": "uefa-boycott-fifa-world-cup-privatization",
+      "title": "UEFA members vote to boycott FIFA competitions over World Cup privatization plan",
+      "statusBefore": "published",
+      "words": 351,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-30-nba-middle-east-preseason-cancelled",
+      "slug": "nba-scraps-middle-east-preseason-games-us-iran",
+      "title": "NBA scraps Middle East preseason games amid US-Iran tensions",
+      "statusBefore": "published",
+      "words": 353,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-07-30-rani-belaga-loan-hapoel-galil-elyon",
+      "slug": "rani-belaga-loan-hapoel-galil-elyon",
+      "title": "Hapoel Jerusalem loan rising guard Rani Belaga to Hapoel Galil Elyon",
+      "statusBefore": "published",
+      "words": 288,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-2026-07-30-sakhnin-sign-kabara",
       "slug": "bnei-sakhnin-sign-dimitri-kabara-salman-contract-upgrade",

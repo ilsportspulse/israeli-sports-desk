@@ -1,22 +1,41 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-07-30-sakhnin-sign-kabara",
-      "article": "Bnei Sakhnin complete signing of free-agent defender Kabara as Salman eyes contract upgrade",
-      "file": "File:SM Caen Tifo 15 ans du MNK.jpg",
-      "license": "CC BY-SA 3.0"
+      "articleId": "live-2026-07-30-lebron-james-espn-last-dance-documentary-76ers",
+      "article": "LeBron James nears deal with ESPN for his own \"Last Dance\" documentary",
+      "file": "File:LeBron James (32264991443) (cropped).jpg",
+      "license": "CC BY-SA 2.0"
     },
     {
-      "articleId": "live-2026-07-30-vincic-breaks-silence-messi-sportingly",
-      "article": "World Cup final referee Vinčić breaks silence: \"Messi behaved sportingly\"",
-      "file": "File:Lionel Messi Argentina v Spain 19 July 2026-070.jpg",
+      "articleId": "live-2026-07-30-hapoel-ussishkin-committee-hearing",
+      "article": "Hapoel Ussishkin board dispute rolls on as Tel Aviv court hearing ends without a ruling",
+      "file": "File:Ofer Yanai (cropped).jpg",
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-20260730-beitar-jerusalem-fans-ploiesti",
-      "article": "Beitar Jerusalem fans flock to Ploiești for Conference League decider against AEK Larnaca",
-      "file": "File:Ilie Oana Stadium.jpg",
+      "articleId": "live-2026-07-30-uefa-boycott-fifa-world-cup",
+      "article": "UEFA members vote to boycott FIFA competitions over World Cup privatization plan",
+      "file": "File:Aleksander Čeferin 2017.jpg",
       "license": "CC BY-SA 3.0"
+    },
+    {
+      "articleId": "live-2026-07-30-rani-belaga-loan-hapoel-galil-elyon",
+      "article": "Hapoel Jerusalem loan rising guard Rani Belaga to Hapoel Galil Elyon",
+      "file": "File:Hapoel Jerusalem Basketball.jpg",
+      "license": "CC BY 3.0"
+    },
+    {
+      "articleId": "live-2026-07-30-maccabi-sheriff-leg2-halftime",
+      "article": "Maccabi Tel Aviv and Sheriff Tiraspol goalless at the break in Europa League second leg",
+      "file": "File:Sheriff Tiraspol with the 2009 CIS Cup title..JPG",
+      "license": "CC BY-SA 1.0"
+    },
+    {
+      "articleId": "live-20260714-lev-hasharon-u17-promotion",
+      "article": "Hapoel Lev Hasharon U17s step up after winning Sharon division",
+      "query": "Israel youth football match",
+      "file": "File:Logo lev hasharon.jpg",
+      "license": "CC0"
     },
     {
       "articleId": "live-20260714-basketball-coaches-registration",
@@ -27,6 +46,21 @@
     }
   ],
   "failures": [
+    {
+      "id": "live-2026-07-30-kalvin-phillips-guardiola-fallout",
+      "title": "Kalvin Phillips never recovered from Guardiola's comments — and now he's back at Sheffield United",
+      "error": "image download 429 after retries"
+    },
+    {
+      "id": "live-2026-07-30-nba-middle-east-preseason-cancelled",
+      "title": "NBA scraps Middle East preseason games amid US-Iran tensions",
+      "error": "image download 429 after retries"
+    },
+    {
+      "id": "live-2026-07-30-yermakov-leaves-haifa-metallist-kharkiv",
+      "title": "Yermakov leaves Maccabi Haifa for Metallist Kharkiv, says he'll never rule out a return",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
     {
       "id": "live-2026-07-30-ben-yechezkel-yermiyahu-holon",
       "title": "Ben Yechezkel drops to Liga Alef, signs for Yermiyahu Holon",
@@ -70,11 +104,6 @@
     {
       "id": "live-20260722-bnei-eilat-youth-b-champions",
       "title": "Bnei Eilat's Youth B Side Go Unbeaten to Win Southern District Title",
-      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
-    },
-    {
-      "id": "live-20260714-lev-hasharon-u17-promotion",
-      "title": "Hapoel Lev Hasharon U17s step up after winning Sharon division",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     }
   ]
