@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T13:08:05.779Z",
+  "generatedAt": "2026-07-30T14:20:03.885Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 662,
+    "publishedArticles": 665,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 427.5,
-      "average": 426.9
+      "median": 428,
+      "average": 427.2
     },
     "paragraphDistribution": {
       "3": 33,
@@ -24,9 +24,9 @@
       "5": 8,
       "6": 34,
       "7": 99,
-      "8": 168,
-      "9": 149,
-      "10": 116,
+      "8": 169,
+      "9": 150,
+      "10": 117,
       "11": 30,
       "12": 10,
       "13": 4,
@@ -2927,6 +2927,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-30-sakhnin-sign-kabara",
+      "slug": "bnei-sakhnin-sign-dimitri-kabara-salman-contract-upgrade",
+      "title": "Bnei Sakhnin complete signing of free-agent defender Kabara as Salman eyes contract upgrade",
+      "kind": "news",
+      "words": 437,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 27,
+        "longest": 60,
+        "average": 43.7
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 47,
+        "average": 27.3
+      },
+      "lexicalDiversity": 0.595,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-30-vincic-breaks-silence-messi-sportingly",
+      "slug": "vincic-breaks-silence-messi-sportingly-world-cup-final",
+      "title": "World Cup final referee Vinčić breaks silence: \"Messi behaved sportingly\"",
+      "kind": "news",
+      "words": 402,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 42,
+        "longest": 60,
+        "average": 50.3
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 73,
+        "average": 30.9
+      },
+      "lexicalDiversity": 0.56,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "archive-20260730-tokyo-1-august-2021-the-tie-break-that-m",
+      "slug": "tokyo-1-august-2021-the-tie-break-that-made-artem-dolgopyat-israel-s-s",
+      "title": "Tokyo, 1 August 2021: The Tie-Break That Made Artem Dolgopyat Israel's Second Olympic Champion",
+      "kind": "explainer",
+      "words": 641,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 59,
+        "longest": 97,
+        "average": 71.2
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 73,
+        "average": 32.1
+      },
+      "lexicalDiversity": 0.512,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-07-30-beitar-moyyal-flares-warning-larnaca",
       "slug": "beitar-jerusalem-moyyal-warns-fans-flares-larnaca",
