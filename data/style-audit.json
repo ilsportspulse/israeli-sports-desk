@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T18:59:18.998Z",
+  "generatedAt": "2026-07-30T19:14:50.867Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,21 +11,21 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 672,
+    "publishedArticles": 674,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 427,
-      "average": 426.9
+      "median": 426.5,
+      "average": 426.7
     },
     "paragraphDistribution": {
       "3": 33,
       "4": 5,
       "5": 8,
       "6": 34,
-      "7": 101,
+      "7": 102,
       "8": 173,
-      "9": 150,
+      "9": 151,
       "10": 118,
       "11": 30,
       "12": 10,
@@ -2928,65 +2928,44 @@
   ],
   "clean": [
     {
-      "id": "live-2026-07-30-uefa-fifa-boycott-confederations",
-      "slug": "uefa-fifa-boycott-confederations-world-cup-private-equity",
-      "title": "UEFA votes to boycott FIFA over World Cup private equity plan, and other confederations may follow",
+      "id": "live-2026-07-30-confederations-may-join-uefa-fifa-boycott",
+      "slug": "confederations-may-join-uefa-fifa-boycott",
+      "title": "More confederations could side with UEFA against FIFA",
       "kind": "news",
-      "words": 563,
-      "paragraphs": 10,
+      "words": 411,
+      "paragraphs": 9,
       "paragraphWords": {
-        "shortest": 37,
-        "longest": 75,
-        "average": 56.3
+        "shortest": 31,
+        "longest": 66,
+        "average": 45.7
       },
       "sentenceWords": {
-        "shortest": 10,
-        "longest": 111,
-        "average": 40.2
+        "shortest": 8,
+        "longest": 49,
+        "average": 29.4
       },
-      "lexicalDiversity": 0.551,
-      "publisherAttributions": 1,
+      "lexicalDiversity": 0.613,
+      "publisherAttributions": 0,
       "flags": []
     },
     {
-      "id": "live-2026-07-30-maccabi-tel-aviv-batumi-third-round",
-      "slug": "maccabi-tel-aviv-host-third-round-opener-batumi",
-      "title": "Maccabi Tel Aviv complete Sheriff sweep, will host next Europa League round in Batumi",
+      "id": "live-2026-07-30-maccabi-tel-aviv-host-europa-league-q3-batumi",
+      "slug": "maccabi-tel-aviv-host-europa-league-third-qualifying-round-batumi",
+      "title": "Maccabi Tel Aviv to host Europa League third-round opener in Batumi after 6-0 rout of Sheriff Tiraspol",
       "kind": "news",
-      "words": 338,
-      "paragraphs": 8,
+      "words": 341,
+      "paragraphs": 7,
       "paragraphWords": {
-        "shortest": 36,
+        "shortest": 30,
+        "longest": 71,
+        "average": 48.7
+      },
+      "sentenceWords": {
+        "shortest": 4,
         "longest": 58,
-        "average": 42.3
+        "average": 28.4
       },
-      "sentenceWords": {
-        "shortest": 13,
-        "longest": 46,
-        "average": 28.2
-      },
-      "lexicalDiversity": 0.541,
-      "publisherAttributions": 1,
-      "flags": []
-    },
-    {
-      "id": "live-2026-07-30-hapoel-tel-aviv-fans-halt-ludogorets-return-leg-with-flares",
-      "slug": "hapoel-tel-aviv-fans-flares-halt-ludogorets-conference-league-return-leg",
-      "title": "Hapoel Tel Aviv fans halt Conference League return leg in Bulgaria with flares — again",
-      "kind": "news",
-      "words": 329,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 27,
-        "longest": 48,
-        "average": 41.1
-      },
-      "sentenceWords": {
-        "shortest": 27,
-        "longest": 48,
-        "average": 41.1
-      },
-      "lexicalDiversity": 0.593,
+      "lexicalDiversity": 0.554,
       "publisherAttributions": 0,
       "flags": []
     },
@@ -14411,6 +14390,69 @@
         "average": 26.5
       },
       "lexicalDiversity": 0.632,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-30-uefa-fifa-boycott-confederations",
+      "slug": "uefa-fifa-boycott-confederations-world-cup-private-equity",
+      "title": "UEFA votes to boycott FIFA over World Cup private equity plan, and other confederations may follow",
+      "kind": "news",
+      "words": 563,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 75,
+        "average": 56.3
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 111,
+        "average": 40.2
+      },
+      "lexicalDiversity": 0.551,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-30-maccabi-tel-aviv-batumi-third-round",
+      "slug": "maccabi-tel-aviv-host-third-round-opener-batumi",
+      "title": "Maccabi Tel Aviv complete Sheriff sweep, will host next Europa League round in Batumi",
+      "kind": "news",
+      "words": 338,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 58,
+        "average": 42.3
+      },
+      "sentenceWords": {
+        "shortest": 13,
+        "longest": 46,
+        "average": 28.2
+      },
+      "lexicalDiversity": 0.541,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-30-hapoel-tel-aviv-fans-halt-ludogorets-return-leg-with-flares",
+      "slug": "hapoel-tel-aviv-fans-flares-halt-ludogorets-conference-league-return-leg",
+      "title": "Hapoel Tel Aviv fans halt Conference League return leg in Bulgaria with flares — again",
+      "kind": "news",
+      "words": 329,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 27,
+        "longest": 48,
+        "average": 41.1
+      },
+      "sentenceWords": {
+        "shortest": 27,
+        "longest": 48,
+        "average": 41.1
+      },
+      "lexicalDiversity": 0.593,
       "publisherAttributions": 0,
       "flags": []
     }
