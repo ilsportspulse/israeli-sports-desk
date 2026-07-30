@@ -343,6 +343,20 @@ async function main() {
   }
   console.log(`Gates — confidence>=${CONFIDENCE_MIN}, namecheck>=${NAMECHECK_MIN}, autoPublish=${AUTO_PUBLISH}`);
 
+  // 0a. RESULTS WATCHER (owner rule 31 Jul): every finished match involving an
+  // Israeli team, in every sport, must be on the site right after full time. This
+  // runs FIRST, before any AI drafting, and publishes an accurate result flash for
+  // any Israeli-team match ESPN reports as finished that we do not yet cover — so a
+  // result is never left waiting on the source-driven feed. Fully non-fatal.
+  if (gates.resultsWatcher !== false) {
+    try {
+      const { runResultsWatcher } = await import("./results-watcher.mjs");
+      await runResultsWatcher({});
+    } catch (error) {
+      console.warn(`Results watcher failed (non-fatal): ${error.message}`);
+    }
+  }
+
   // 0b. Daily recurring features (Retro article, fresh quiz, ILSP column and the
   // Tour de France beat). Each self-gates to once per day, so on the 30-minute
   // schedule only the first cycle of the day produces them. Wrapped so a failure

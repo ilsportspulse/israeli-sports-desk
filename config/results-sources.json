@@ -1,0 +1,15 @@
+{
+  "note": "ESPN scoreboard-endpoints die de results-watcher elke cyclus afgaat voor afgeronde wedstrijden met een Israëlisch team (alle sporten, domestic + Europees). ESPN is actueel (FT binnen minuten). Voeg endpoints toe naarmate seizoenen/competities starten. sport = ESPN sport-pad; league = ESPN league-code.",
+  "endpoints": [
+    { "sport": "soccer", "league": "isr.1", "label": "Ligat ha'Al" },
+    { "sport": "soccer", "league": "isr.2", "label": "Liga Leumit" },
+    { "sport": "soccer", "league": "uefa.champions_qual", "label": "Champions League qualifying" },
+    { "sport": "soccer", "league": "uefa.champions", "label": "Champions League" },
+    { "sport": "soccer", "league": "uefa.europa_qual", "label": "Europa League qualifying" },
+    { "sport": "soccer", "league": "uefa.europa", "label": "Europa League" },
+    { "sport": "soccer", "league": "uefa.europa.conf_qual", "label": "Conference League qualifying" },
+    { "sport": "soccer", "league": "uefa.europa.conf", "label": "Conference League" },
+    { "sport": "basketball", "league": "euroleague", "label": "EuroLeague" }
+  ],
+  "israeliTeamPattern": "maccabi|hapoel|beitar|bnei sakhnin|bnei reineh|ironi kiryat|kiryat shmona|ashdod|netanya|holon|herzliya|rishon|petah tikva|\\bisrael\\b|\\bisraeli\\b"
+}
