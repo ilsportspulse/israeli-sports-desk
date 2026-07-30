@@ -9,8 +9,11 @@ import { writeFileSync } from "node:fs";
 
 if (process.env.GITHUB_ACTIONS !== "true") process.exit(0);
 
-const git = (...args) => execFileSync("git", args, { encoding: "utf8" });
-const tryGit = (...args) => spawnSync("git", args, { encoding: "utf8" });
+// 256 MB buffer: data/article-media.json is groter dan de standaard 1 MB, dus
+// `git show :N:data/article-media.json` gaf ENOBUFS → cyclus-crash → faalmails.
+const BUF = { encoding: "utf8", maxBuffer: 256 * 1024 * 1024 };
+const git = (...args) => execFileSync("git", args, BUF);
+const tryGit = (...args) => spawnSync("git", args, BUF);
 
 if (!git("status", "--porcelain").trim()) { console.log("[self-push] Geen nieuwe content."); process.exit(0); }
 
