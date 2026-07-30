@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T11:09:04.146Z",
+  "generatedAt": "2026-07-30T12:19:39.096Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 805,
-    "publishedBefore": 659,
-    "cleanPublished": 651,
+    "totalArticles": 811,
+    "publishedBefore": 662,
+    "cleanPublished": 654,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 659,
-    "reviewAfter": 146
+    "publishedAfter": 662,
+    "reviewAfter": 149
   },
   "blockedPublished": [
     {
@@ -155,6 +155,52 @@
   ],
   "warnings": [
     {
+      "id": "live-2026-07-30-israel-u18-girls-basketball-division-b-tulcea",
+      "slug": "israel-u18-girls-basketball-division-b-tulcea",
+      "title": "Israel's U18 girls open bid to escape basketball's Division B in Romania",
+      "statusBefore": "review",
+      "words": 346,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-30-beitar-moyyal-flares-warning-larnaca",
+      "slug": "beitar-jerusalem-moyyal-warns-fans-flares-larnaca",
+      "title": "Moyyal warns Beitar fans: flares against Larnaca could hurt the team",
+      "statusBefore": "published",
+      "words": 424,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-30-israel-slovenia-u18-eurobasket-qf-in-progress",
+      "slug": "israel-slovenia-u18-eurobasket-quarterfinal-in-progress",
+      "title": "Israel hold narrow lead over Slovenia in U18 Eurobasket quarter-final — game still in progress",
+      "statusBefore": "review",
+      "words": 18,
+      "paragraphs": 1,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [
+        "copy-depth:18/60-words",
+        "structure:1/3-paragraphs"
+      ],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-20260730-tomer-haren-hapoel-ramat-gan",
       "slug": "tomer-haren-hapoel-ramat-gan-signing",
       "title": "Tomer Haren signs for Hapoel Ramat Gan as Omer Nir'on deal edges closer",
@@ -177,6 +223,20 @@
       "paragraphs": 9,
       "facts": 7,
       "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-30-maccabi-tel-aviv-communications-vp-departs",
+      "slug": "maccabi-tel-aviv-communications-vp-roey-gladstone-departs",
+      "title": "Maccabi Tel Aviv communications VP Roey Gladstone to step down after nine years",
+      "statusBefore": "published",
+      "words": 268,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -7696,6 +7756,44 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-2026-07-30-beitar-moyyal-flares-warning-larnaca",
+      "slug": "beitar-jerusalem-moyyal-warns-fans-flares-larnaca",
+      "title": "Moyyal warns Beitar fans: flares against Larnaca could hurt the team",
+      "statusBefore": "published",
+      "words": 424,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260730-mourinho-asencio-injury-real-madrid",
+      "slug": "mourinho-real-madrid-asencio-injury-rectus-femoris",
+      "title": "Mourinho suffers first injury blow at Real Madrid as Asencio is ruled out for weeks",
+      "statusBefore": "published",
+      "words": 331,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-07-30-steinberg-arena-standards",
+      "slug": "steinberg-israeli-basketball-arena-standards-interview",
+      "title": "Basketball chief Steinberg: 'A team unworthy of the league won't be here'",
+      "statusBefore": "published",
+      "words": 461,
+      "paragraphs": 10,
+      "facts": 8,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
       "id": "live-2026-07-30-israeli-basketball-referees-strike-threat-lawsuits",
       "slug": "israeli-basketball-referees-strike-threat-lawsuits",
       "title": "Israeli basketball referees threaten to boycott new season over surge in personal lawsuits",
@@ -7717,7 +7815,9 @@
       "facts": 6,
       "verificationSources": 3,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-20260730-ahronovich-maccabi-haifa-radio-outburst",

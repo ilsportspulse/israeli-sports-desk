@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-30T11:09:03Z",
-    "validUntil": "2026-07-30T23:09:03Z",
+    "checkedAt": "2026-07-30T12:19:38Z",
+    "validUntil": "2026-07-31T00:19:38Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 254,
+        "maxAgeHours": 255,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-07-30-israeli-basketball-referees-strike-threat-lawsuits",
+        "articleId": "live-2026-07-30-beitar-moyyal-flares-warning-larnaca",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 262,
+        "maxAgeHours": 263,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260730-ahronovich-maccabi-haifa-radio-outburst",
+        "articleId": "live-20260730-mourinho-asencio-injury-real-madrid",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 272,
+        "maxAgeHours": 273,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-07-30-milan-deny-franco-baresi-death-rumours",
+        "articleId": "live-2026-07-30-steinberg-arena-standards",
         "maxAgeHours": 24,
         "requires": []
       }

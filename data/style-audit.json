@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T11:09:04.530Z",
+  "generatedAt": "2026-07-30T12:19:39.496Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 659,
+    "publishedArticles": 662,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 428,
-      "average": 427
+      "median": 427.5,
+      "average": 426.9
     },
     "paragraphDistribution": {
       "3": 33,
@@ -24,9 +24,9 @@
       "5": 8,
       "6": 34,
       "7": 99,
-      "8": 167,
-      "9": 148,
-      "10": 115,
+      "8": 168,
+      "9": 149,
+      "10": 116,
       "11": 30,
       "12": 10,
       "13": 4,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.253,
+    "dominantParagraphShare": 0.254,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 34,
     "analysisBelowTarget": 8,
@@ -2927,6 +2927,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-30-beitar-moyyal-flares-warning-larnaca",
+      "slug": "beitar-jerusalem-moyyal-warns-fans-flares-larnaca",
+      "title": "Moyyal warns Beitar fans: flares against Larnaca could hurt the team",
+      "kind": "news",
+      "words": 425,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 61,
+        "average": 47.2
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 60,
+        "average": 35.4
+      },
+      "lexicalDiversity": 0.612,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260730-mourinho-asencio-injury-real-madrid",
+      "slug": "mourinho-real-madrid-asencio-injury-rectus-femoris",
+      "title": "Mourinho suffers first injury blow at Real Madrid as Asencio is ruled out for weeks",
+      "kind": "news",
+      "words": 332,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 32,
+        "longest": 51,
+        "average": 41.5
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 42,
+        "average": 27.7
+      },
+      "lexicalDiversity": 0.627,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-30-steinberg-arena-standards",
+      "slug": "steinberg-israeli-basketball-arena-standards-interview",
+      "title": "Basketball chief Steinberg: 'A team unworthy of the league won't be here'",
+      "kind": "article",
+      "words": 459,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 61,
+        "average": 45.9
+      },
+      "sentenceWords": {
+        "shortest": 23,
+        "longest": 64,
+        "average": 41.7
+      },
+      "lexicalDiversity": 0.599,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-07-30-israeli-basketball-referees-strike-threat-lawsuits",
       "slug": "israeli-basketball-referees-strike-threat-lawsuits",
