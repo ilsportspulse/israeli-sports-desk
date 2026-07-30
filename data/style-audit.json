@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T04:07:37.588Z",
+  "generatedAt": "2026-07-30T06:28:44.781Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,11 +11,11 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 651,
+    "publishedArticles": 656,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 427,
+      "median": 427.5,
       "average": 427.1
     },
     "paragraphDistribution": {
@@ -23,8 +23,8 @@
       "4": 5,
       "5": 8,
       "6": 34,
-      "7": 97,
-      "8": 162,
+      "7": 98,
+      "8": 166,
       "9": 147,
       "10": 115,
       "11": 30,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.249,
+    "dominantParagraphShare": 0.253,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 34,
     "analysisBelowTarget": 8,
@@ -2881,6 +2881,111 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-30-milan-deny-franco-baresi-death-rumours",
+      "slug": "milan-deny-franco-baresi-death-rumours",
+      "title": "AC Milan deny false rumours of Franco Baresi's death, say club great is 'going through a difficult period'",
+      "kind": "news",
+      "words": 348,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 32,
+        "longest": 71,
+        "average": 49.7
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 49,
+        "average": 26.8
+      },
+      "lexicalDiversity": 0.629,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260730-adeyemi-barcelona-yamal-not-afraid",
+      "slug": "adeyemi-barcelona-lamine-yamal-not-afraid",
+      "title": "Adeyemi: I'm not afraid of Lamine Yamal or anyone else",
+      "kind": "article",
+      "words": 412,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 40,
+        "longest": 57,
+        "average": 51.5
+      },
+      "sentenceWords": {
+        "shortest": 23,
+        "longest": 156,
+        "average": 68.7
+      },
+      "lexicalDiversity": 0.604,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-30-aek-larnaca-beitar-jerusalem-preview",
+      "slug": "aek-larnaca-beitar-jerusalem-conference-league-second-leg-preview",
+      "title": "AEK Larnaca chase first-ever European comeback against Beitar Jerusalem",
+      "kind": "article",
+      "words": 485,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 84,
+        "average": 60.6
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 96,
+        "average": 37.3
+      },
+      "lexicalDiversity": 0.61,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260730-israeli-clubs-second-leg-europe-preview",
+      "slug": "maccabi-beitar-hapoel-tel-aviv-second-leg-europe-odds-preview",
+      "title": "Maccabi, Beitar and Hapoel Tel Aviv all favourites to advance in Europe on Thursday night",
+      "kind": "match-preview",
+      "words": 432,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 72,
+        "average": 54
+      },
+      "sentenceWords": {
+        "shortest": 18,
+        "longest": 54,
+        "average": 36
+      },
+      "lexicalDiversity": 0.558,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-30-miller-maccabi-sheriff-second-leg",
+      "slug": "kenny-miller-maccabi-tel-aviv-sheriff-tiraspol-second-leg-message",
+      "title": "Miller tells Maccabi Tel Aviv players to build a run of good performances before Sheriff return leg",
+      "kind": "news",
+      "words": 463,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 76,
+        "average": 57.9
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 84,
+        "average": 33.1
+      },
+      "lexicalDiversity": 0.616,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-07-29-hapoel-jerusalem-eurocup-belgrade",
       "slug": "hapoel-jerusalem-eurocup-home-games-belgrade",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T04:07:37.200Z",
+  "generatedAt": "2026-07-30T06:28:44.395Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 792,
-    "publishedBefore": 651,
-    "cleanPublished": 643,
+    "totalArticles": 799,
+    "publishedBefore": 656,
+    "cleanPublished": 648,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 651,
-    "reviewAfter": 141
+    "publishedAfter": 656,
+    "reviewAfter": 143
   },
   "blockedPublished": [
     {
@@ -115,7 +115,9 @@
       "blockers": [
         "media:manual-image-story-mismatch"
       ],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-20260714-basketball-coaches-registration",
@@ -153,6 +155,62 @@
   ],
   "warnings": [
     {
+      "id": "live-2026-07-30-milan-deny-franco-baresi-death-rumours",
+      "slug": "milan-deny-franco-baresi-death-rumours",
+      "title": "AC Milan deny false rumours of Franco Baresi's death, say club great is 'going through a difficult period'",
+      "statusBefore": "published",
+      "words": 348,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260730-adeyemi-barcelona-yamal-not-afraid",
+      "slug": "adeyemi-barcelona-lamine-yamal-not-afraid",
+      "title": "Adeyemi: I'm not afraid of Lamine Yamal or anyone else",
+      "statusBefore": "published",
+      "words": 413,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-30-miller-maccabi-sheriff-second-leg",
+      "slug": "kenny-miller-maccabi-tel-aviv-sheriff-tiraspol-second-leg-message",
+      "title": "Miller tells Maccabi Tel Aviv players to build a run of good performances before Sheriff return leg",
+      "statusBefore": "published",
+      "words": 465,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260730-red-star-beer-sheva-preview-moot",
+      "slug": "red-star-belgrade-beer-sheva-clash-moot-vikingur-eliminate",
+      "title": "Serbian preview of a Red Star Belgrade–Beer Sheva Champions League tie is now moot",
+      "statusBefore": "review",
+      "words": 281,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
       "id": "live-2026-07-29-mollaei-muki-netanya-reunion",
       "slug": "mollaei-muki-netanya-judo-reunion",
       "title": "Mollaei tells Sagi Muki: \"Israel was presented to me as one that murders people\"",
@@ -178,7 +236,8 @@
       "verificationSources": 4,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -7166,6 +7225,22 @@
       ]
     },
     {
+      "id": "live-20260714-israel-u20-handball-poland",
+      "slug": "israel-u20-handball-beat-poland-eight-goals-world-championship-route",
+      "title": "Israel U20 handball beat Poland by eight to keep world route open",
+      "statusBefore": "published",
+      "words": 372,
+      "paragraphs": 6,
+      "facts": 5,
+      "verificationSources": 1,
+      "blockers": [
+        "media:manual-image-story-mismatch"
+      ],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-20260714-peretz-miller-maccabi",
       "slug": "dor-peretz-commits-maccabi-kenny-miller-promises-reinforcements",
       "title": "Peretz commits to Maccabi as Miller promises reinforcements",
@@ -7565,6 +7640,72 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-2026-07-30-milan-deny-franco-baresi-death-rumours",
+      "slug": "milan-deny-franco-baresi-death-rumours",
+      "title": "AC Milan deny false rumours of Franco Baresi's death, say club great is 'going through a difficult period'",
+      "statusBefore": "published",
+      "words": 348,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260730-adeyemi-barcelona-yamal-not-afraid",
+      "slug": "adeyemi-barcelona-lamine-yamal-not-afraid",
+      "title": "Adeyemi: I'm not afraid of Lamine Yamal or anyone else",
+      "statusBefore": "published",
+      "words": 413,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-30-aek-larnaca-beitar-jerusalem-preview",
+      "slug": "aek-larnaca-beitar-jerusalem-conference-league-second-leg-preview",
+      "title": "AEK Larnaca chase first-ever European comeback against Beitar Jerusalem",
+      "statusBefore": "published",
+      "words": 488,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260730-israeli-clubs-second-leg-europe-preview",
+      "slug": "maccabi-beitar-hapoel-tel-aviv-second-leg-europe-odds-preview",
+      "title": "Maccabi, Beitar and Hapoel Tel Aviv all favourites to advance in Europe on Thursday night",
+      "statusBefore": "published",
+      "words": 428,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-07-30-miller-maccabi-sheriff-second-leg",
+      "slug": "kenny-miller-maccabi-tel-aviv-sheriff-tiraspol-second-leg-message",
+      "title": "Miller tells Maccabi Tel Aviv players to build a run of good performances before Sheriff return leg",
+      "statusBefore": "published",
+      "words": 465,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-2026-07-29-hapoel-jerusalem-eurocup-belgrade",
       "slug": "hapoel-jerusalem-eurocup-home-games-belgrade",
       "title": "Hapoel Jerusalem to play EuroCup home games in Belgrade again this season",
@@ -7602,7 +7743,8 @@
       "verificationSources": 4,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
