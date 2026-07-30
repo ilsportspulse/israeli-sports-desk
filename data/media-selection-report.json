@@ -1,40 +1,40 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-07-30-confederations-may-join-uefa-fifa-boycott",
-      "article": "More confederations could side with UEFA against FIFA",
+      "articleId": "live-2026-07-30-uefa-fifa-boycott-confederations",
+      "article": "UEFA votes to boycott FIFA over World Cup private equity plan, and other confederations may follow",
       "file": "File:Siège UEFA Nyon (Suisse).JPG",
       "license": "CC BY-SA 3.0"
     },
     {
-      "articleId": "live-2026-07-30-beitar-jerusalem-aek-larnaca-conference-league-second-leg",
-      "article": "Beitar Jerusalem trail AEK Larnaca at half-time in Conference League second leg — story held pending full time",
-      "file": "File:Spartak Moscow vs. AEK Larnaca.jpg",
-      "license": "CC BY-SA 3.0"
+      "articleId": "live-2026-07-30-elitzur-netanya-hapoel-haifa-basketball-signings",
+      "article": "Elitzur Netanya add Gabe Dabo and Tal Feld as Amit Alon joins Hapoel Haifa",
+      "file": "File:אריאל אייזיק במדי אליצור נתניה 2024.jpg",
+      "license": "CC0"
     },
     {
-      "articleId": "live-2026-07-30-maccabi-tel-aviv-host-europa-league-q3-batumi",
-      "article": "Maccabi Tel Aviv to host Europa League third-round opener in Batumi after 6-0 rout of Sheriff Tiraspol",
-      "file": "File:Starium of Sheriff Tiraspol inside.JPG",
-      "license": "CC BY-SA 3.0"
+      "articleId": "live-2026-07-30-maccabi-tel-aviv-batumi-third-round",
+      "article": "Maccabi Tel Aviv complete Sheriff sweep, will host next Europa League round in Batumi",
+      "file": "File:Bloomfield Stadium, January 2022 - 01.jpg",
+      "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-2026-07-30-ludogorets-hapoel-tel-aviv-halftime-hold",
-      "article": "Ludogorets and Hapoel Tel Aviv goalless at half-time in Conference League second leg",
-      "file": "File:GiuseppeMeazzaNeazzurro.jpg",
-      "license": "CC BY 2.0"
-    },
-    {
-      "articleId": "live-2026-07-30-hapoel-tel-aviv-ludogorets-pyro-stoppage",
-      "article": "Flares halt Hapoel Tel Aviv's Conference League return leg in Bulgaria",
-      "file": "File:BloomfieldStadium.jpg",
-      "license": "CC BY-SA 3.0"
+      "articleId": "live-2026-07-30-hapoel-tel-aviv-fans-halt-ludogorets-return-leg-with-flares",
+      "article": "Hapoel Tel Aviv fans halt Conference League return leg in Bulgaria with flares — again",
+      "file": "File:Ludogorets Razgrad-Cska Sofia.jpg",
+      "license": "CC BY-SA 4.0"
     },
     {
       "articleId": "live-2026-07-30-nba-middle-east-preseason-cancelled",
       "article": "NBA scraps Middle East preseason games amid US-Iran tensions",
       "file": "File:Capital One Arena - Washington, D.C.jpg",
       "license": "CC BY 4.0"
+    },
+    {
+      "articleId": "archive-20260730-tokyo-1-august-2021-the-tie-break-that-m",
+      "article": "Tokyo, 1 August 2021: The Tie-Break That Made Artem Dolgopyat Israel's Second Olympic Champion",
+      "file": "File:Artyom Dolgopyat (ISR) 2021.jpg",
+      "license": "CC BY-SA 4.0"
     },
     {
       "articleId": "live-20260714-basketball-coaches-registration",
@@ -46,9 +46,14 @@
   ],
   "failures": [
     {
-      "id": "live-2026-07-30-ahi-nazareth-alfredo-taha-rabah-injury",
-      "title": "Ahi Nazareth sign forward Alfredo and Taha as new man Rabah breaks hand in car crash",
-      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+      "id": "live-2026-07-30-beitar-jerusalem-aek-larnaca-conference-league-second-leg",
+      "title": "Beitar Jerusalem host AEK Larnaca with Conference League progress on the line",
+      "error": "image download 429 after retries"
+    },
+    {
+      "id": "live-2026-07-30-ludogorets-hapoel-tel-aviv-conference-league",
+      "title": "Hapoel Tel Aviv chase Conference League progress away to Ludogorets",
+      "error": "image download 429 after retries"
     },
     {
       "id": "live-2026-07-30-kalvin-phillips-guardiola-fallout",
@@ -64,11 +69,6 @@
       "id": "live-2026-07-30-ben-yechezkel-yermiyahu-holon",
       "title": "Ben Yechezkel drops to Liga Alef, signs for Yermiyahu Holon",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
-    },
-    {
-      "id": "archive-20260730-tokyo-1-august-2021-the-tie-break-that-m",
-      "title": "Tokyo, 1 August 2021: The Tie-Break That Made Artem Dolgopyat Israel's Second Olympic Champion",
-      "error": "image download 429 after retries"
     },
     {
       "id": "live-20260730-red-star-beer-sheva-preview-moot",

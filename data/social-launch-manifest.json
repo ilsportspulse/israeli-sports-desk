@@ -146,8 +146,8 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-30T18:30:26Z",
-    "validUntil": "2026-07-31T06:30:26Z",
+    "checkedAt": "2026-07-30T18:59:18Z",
+    "validUntil": "2026-07-31T06:59:18Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
@@ -160,21 +160,21 @@
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-07-30-confederations-may-join-uefa-fifa-boycott",
+        "articleId": "live-2026-07-30-uefa-fifa-boycott-confederations",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 269,
+        "maxAgeHours": 270,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-07-30-maccabi-tel-aviv-host-europa-league-q3-batumi",
+        "articleId": "live-2026-07-30-maccabi-tel-aviv-batumi-third-round",
         "maxAgeHours": 24,
         "requires": []
       },
@@ -188,7 +188,7 @@
       },
       {
         "role": "archive",
-        "articleId": "archive-20260729-rio-de-janeiro-12-august-2016-the-bow-th",
+        "articleId": "archive-20260730-tokyo-1-august-2021-the-tie-break-that-m",
         "maxAgeHours": 53,
         "requires": [
           "historical-feature"
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-07-30-hapoel-tel-aviv-ludogorets-pyro-stoppage",
+        "articleId": "live-2026-07-30-hapoel-tel-aviv-fans-halt-ludogorets-return-leg-with-flares",
         "maxAgeHours": 24,
         "requires": []
       }

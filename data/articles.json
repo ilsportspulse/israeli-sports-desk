@@ -207,15 +207,15 @@
   },
   {
     "id": "live-2026-07-30-beitar-jerusalem-aek-larnaca-conference-league-second-leg",
-    "slug": "beitar-jerusalem-aek-larnaca-conference-league-second-leg-half-time",
-    "title": "Beitar Jerusalem trail AEK Larnaca at half-time in Conference League second leg — story held pending full time",
-    "dek": "The source report covers a match still in progress; publication is held until the final whistle.",
+    "slug": "beitar-jerusalem-aek-larnaca-conference-league-second-leg",
+    "title": "Beitar Jerusalem host AEK Larnaca with Conference League progress on the line",
+    "dek": "The source report is a half-time update from Beitar's Conference League second-leg qualifier against AEK Larnaca — the match was still in progress at time of writing, so no result can be confirmed yet.",
     "category": "Israeli Football",
     "desk": "israel",
-    "kind": "article",
-    "storyForm": "news",
-    "publishedAt": "2026-07-30T18:23:07.956Z",
-    "updatedAt": "2026-07-30T18:23:07.956Z",
+    "kind": "news",
+    "storyForm": "brief",
+    "publishedAt": "2026-07-30T18:51:54.025Z",
+    "updatedAt": "2026-07-30T18:51:54.025Z",
     "readMinutes": 1,
     "source": {
       "name": "ONE",
@@ -223,32 +223,29 @@
     },
     "verificationSources": [
       {
-        "label": "ONE match report (in progress)",
+        "label": "ONE (one.co.il)",
         "url": "https://www.one.co.il/Article/529453.html"
       },
       {
-        "label": "UEFA.com fixture page",
-        "url": "https://www.uefa.com/uefaconferenceleague/match/2048760--aek-larnaca-vs-beitar/"
+        "label": "Israel Hayom live blog",
+        "url": "https://www.israelhayom.co.il/sport/israeli-soccer/article/21096391"
       }
     ],
     "body": [
-      "The ONE source article for this draft (Article/529453) is a live, in-progress update from the second qualifying round return leg between Beitar Jerusalem and AEK Larnaca in the UEFA Conference League, played on July 30, 2026.",
-      "As of the source report, AEK Larnaca lead 1-0 at half-time after converting a penalty in the first half; Beitar, who won the first leg 1-0 in Cyprus, had chances of their own including a shot that struck the crossbar.",
-      "Per editorial policy, match reports are published only once a game has finished and the final full-time score is confirmed. Because this fixture was still being played at time of drafting, no article has been produced.",
-      "This placeholder is being held rather than published; confidence is set to 0 and no homepage priority applies until the final result is verified."
+      "Beitar Jerusalem were held to a 1:1 draw at half-time by AEK Larnaca in the second leg of their UEFA Conference League second qualifying round tie, according to a live update from ONE, with the Jerusalem side leading the overall tie thanks to a 1-0 first-leg win in Cyprus."
     ],
     "facts": [
-      "Source article covers the second leg of a Conference League second qualifying round tie between Beitar Jerusalem and AEK Larnaca on July 30, 2026",
-      "The match was at half-time in the source report, with AEK Larnaca leading 1-0 via a first-half penalty",
-      "Beitar Jerusalem won the first leg in Cyprus 1-0 on July 23, 2026",
-      "The story cannot be published as a match report because the game was not yet finished at time of drafting",
-      "House editorial rules require full-time confirmation before any match report is published"
+      "Source is a half-time (מחצית) live report, not a full-time match report.",
+      "Beitar Jerusalem won the first leg 1-0 in Larnaca, Cyprus, with Brayan Carabali scoring a free-kick in the 77th minute.",
+      "The second leg was played on 30 July 2026, with Beitar playing as the home side at a neutral venue (reported as Ploiești, Romania).",
+      "ONE reported the half-time score of the second leg as 1:1.",
+      "No independent source has yet confirmed a full-time score for the second leg at the time of writing."
     ],
     "theme": "night-pitch",
     "homepagePriority": 0,
-    "homepageReason": "Held — match in progress, not eligible for publication until full time.",
-    "dedupeKey": "conf-league-q2-beitarjerusalem-aeklarnaca-2026-07-30",
-    "aiDisclosure": "Draft prepared by an AI copy desk assistant from a single source; automatically held pending full-time confirmation per editorial policy.",
+    "homepageReason": "Held: this is a half-time/in-progress update, not a completed match report. Editorial gates require full-time confirmation before publishing.",
+    "dedupeKey": "ecl-q2-beitarjerusalem-aeklarnaca-2026-07-30",
+    "aiDisclosure": "Drafted by an AI copy desk assistant from a single Israeli-outlet source; held pending full-time confirmation.",
     "nameChecks": [
       {
         "hebrew": "בית\"ר ירושלים",
@@ -964,7 +961,7 @@
       }
     ],
     "confidence": 0.88,
-    "warning": "dup same-event (10: uefa,fifa,members,boycott,competitions,gianni)",
+    "warning": "dup same-event (8: uefa,boycott,fifa,private,plan,competitions)",
     "commonsQuery": "Gianni Infantino FIFA president / Aleksander Čeferin UEFA president",
     "commonsCandidates": [
       {
@@ -79471,5 +79468,495 @@
       }
     ],
     "warning": "dup same-match recap (3 shared tokens)"
+  },
+  {
+    "id": "live-2026-07-30-uefa-fifa-boycott-confederations",
+    "slug": "uefa-fifa-boycott-confederations-world-cup-private-equity",
+    "title": "UEFA votes to boycott FIFA over World Cup private equity plan, and other confederations may follow",
+    "dek": "UEFA's 55 member federations voted unanimously to sit out FIFA competitions, including the World Cup, over Gianni Infantino's plan to sell a stake in football's commercial rights — and Asia and Africa are now weighing whether to join the revolt.",
+    "category": "World Football",
+    "desk": "international",
+    "kind": "news",
+    "storyForm": "article",
+    "publishedAt": "2026-07-30T18:51:54.025Z",
+    "updatedAt": "2026-07-30T18:51:54.025Z",
+    "readMinutes": 5,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/529450.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/529450.html"
+      },
+      {
+        "label": "Al Jazeera",
+        "url": "https://www.aljazeera.com/sports/2026/7/30/uefa-members-agree-fifa-boycott-if-world-cup-plans-pursued"
+      },
+      {
+        "label": "Sky Sports",
+        "url": "https://www.skysports.com/football/news/11095/13568511/uefa-will-boycott-fifa-tournaments-if-gianni-infantino-continues-with-plans-to-sell-off-stake-in-world-cup"
+      },
+      {
+        "label": "CNN",
+        "url": "https://www.cnn.com/2026/07/30/sport/uefa-boycott-fifa-competitions-world-cup"
+      },
+      {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/sports/soccer/uefa-boycotts-fifa-competitions-gianni-infantinos-20-billion-plan-sell-rcna590051"
+      }
+    ],
+    "body": [
+      "In an unprecedented show of unity, UEFA's 55 member federations voted unanimously on Thursday to boycott FIFA's competitions, including the World Cup, unless FIFA president Gianni Infantino abandons his plan to sell a stake in football's global showcase to private investors. ONE reports that other confederations are now weighing whether to line up alongside European football's governing body against Infantino.",
+      "The trigger is a proposal, revealed this week, to spin off FIFA's commercial operations into a new entity valued at roughly €17.5 billion ($20 billion), with a minority stake to be sold to outside investors reportedly including American financier Josh Kushner and the bank JPMorgan.",
+      "FIFA has offered its 211 member federations as much as $40 million each to sign off on the plan by a September 19 deadline, part of a $10 billion incentive package due to become available from January 2027. Federations that reject the proposal would instead share a far smaller $2.7 billion pool, roughly $10 million apiece, underlining how directly Infantino has tied the money to compliance.",
+      "UEFA's response, issued after an emergency virtual meeting of all 55 associations, was blunt. \"No UEFA national teams will participate in any FIFA competition for so long as these proposals remain alive, unless this proposal has been abandoned in its entirety and binding assurances have been given that FIFA will never again open its governance or competitions to private ownership,\" the confederation said, adding: \"Some things are simply too important to sell.\"",
+      "It is the first time a FIFA confederation has moved to boycott the World Cup itself, and the scale of the vote, unanimous across all 55 members, was designed to signal that Infantino cannot simply wait out European resistance.",
+      "According to ONE, that question now hangs over the rest of world football: whether Asia, Africa and the Americas follow Europe's lead. The Asian Football Confederation has already sent the clearest signal. AFC president Sheikh Salman bin Ebrahim Al-Khalifa wrote to his 47 member federations branding FIFA's failure to consult member associations \"totally unacceptable,\" and warned that Infantino's plan \"will not succeed without the support of all the confederations, which is not the case now.\"",
+      "CONCACAF, the governing body for North and Central America and the Caribbean, added its own rebuke, saying it was \"deeply concerned by the lack of due process\" after the plan's details were shared publicly before any discussion with member federations. It has not, however, indicated it is ready to join a boycott.",
+      "The Confederation of African Football is due to convene its executive committee next week specifically to evaluate the proposal, a meeting that could determine whether Infantino ends up facing organised resistance from three confederations rather than one.",
+      "The dispute lands roughly a year before FIFA's next presidential election and adds to years of friction between Infantino and UEFA over calendar congestion, the expanded Club World Cup and the enlarged 48-team World Cup format. A confederation-wide boycott, if it held, would strip any private investor's stake of much of its value, since a World Cup without European teams is close to unthinkable commercially.",
+      "For now, the Israel Football Association's national team and clubs are implicated only as one of UEFA's 55 members, but the outcome of the standoff will help decide which FIFA tournaments, the World Cup among them, Israel and every other UEFA nation are able to enter in the years ahead."
+    ],
+    "facts": [
+      "UEFA's 55 member federations voted unanimously on July 30, 2026 to boycott FIFA competitions, including the World Cup, unless FIFA drops its plan to sell a stake in its commercial operations to private investors",
+      "The plan, pushed by FIFA president Gianni Infantino, would create a new commercial entity valued at roughly €17.5 billion ($20 billion), with a minority stake sold to investors reportedly including Josh Kushner and JPMorgan",
+      "FIFA offered member federations up to $40 million each to accept the plan by a September 19, 2026 deadline, part of a $10 billion incentive package from January 2027; federations that reject it would share a smaller $2.7 billion pool instead",
+      "AFC president Sheikh Salman bin Ebrahim Al-Khalifa called FIFA's lack of consultation \"totally unacceptable\" in a letter to the AFC's 47 members, saying the plan needs the backing of all six confederations to succeed",
+      "CONCACAF said it was \"deeply concerned by the lack of due process\" but has not committed to a boycott",
+      "The Confederation of African Football's executive committee is due to meet next week to evaluate the proposal",
+      "It is the first time a FIFA confederation has voted to boycott the World Cup itself"
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 78,
+    "homepageReason": "Major FIFA governance crisis: UEFA's unprecedented boycott vote against the World Cup private equity plan, with other confederations now weighing whether to follow — a significant world football story with implications for every UEFA nation, Israel included.",
+    "dedupeKey": "fifa-uefa-boycott-world-cup-private-equity-2026-07-30",
+    "aiDisclosure": "Drafted by an AI copy desk assistant from the cited source reporting; independently verified against multiple outlets before publication.",
+    "nameChecks": [
+      {
+        "hebrew": "ג'אני אינפנטינו",
+        "english": "Gianni Infantino",
+        "verificationUrl": "https://www.aljazeera.com/sports/2026/7/30/uefa-members-agree-fifa-boycott-if-world-cup-plans-pursued",
+        "confidence": 0.98
+      },
+      {
+        "hebrew": "השייח' סלמאן בן איברהים אלח'ליפה",
+        "english": "Sheikh Salman bin Ebrahim Al-Khalifa",
+        "verificationUrl": "https://www.skysports.com/football/news/11095/13568511/uefa-will-boycott-fifa-tournaments-if-gianni-infantino-continues-with-plans-to-sell-off-stake-in-world-cup",
+        "confidence": 0.9
+      }
+    ],
+    "confidence": 0.92,
+    "warning": "",
+    "commonsQuery": "Gianni Infantino FIFA president photograph",
+    "commonsCandidates": [
+      {
+        "title": "File:Gianni Infantino - 55062516828.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Gianni_Infantino_-_55062516828.jpg",
+        "credit": "Ricardo Stuckert/PR",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:Gianni Infantino, President of FIFA (52390379929).jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Gianni_Infantino,_President_of_FIFA_(52390379929).jpg",
+        "credit": "Loris von Siebenthal / WTO",
+        "license": "CC BY-SA 2.0"
+      },
+      {
+        "title": "File:Siège UEFA Nyon (Suisse).JPG",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Si%C3%A8ge_UEFA_Nyon_(Suisse).JPG",
+        "credit": "Florian Pépellin",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "title": "File:FIFA-Headquarter.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:FIFA-Headquarter.jpg",
+        "credit": "MCaviglia",
+        "license": "CC BY-SA 3.0"
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "live-2026-07-30-elitzur-netanya-hapoel-haifa-basketball-signings",
+    "slug": "elitzur-netanya-hapoel-haifa-basketball-signings",
+    "title": "Elitzur Netanya add Gabe Dabo and Tal Feld as Amit Alon joins Hapoel Haifa",
+    "dek": "Two Israeli basketball clubs strengthen their rosters for the new season, with Netanya landing a pair of new faces and Haifa recruiting a guard from Maccabi Ramat Gan.",
+    "category": "Israeli Basketball",
+    "desk": "israel",
+    "kind": "news",
+    "storyForm": "brief",
+    "publishedAt": "2026-07-30T18:51:54.025Z",
+    "updatedAt": "2026-07-30T18:51:54.025Z",
+    "readMinutes": 3,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/529449.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE - חיזוק כפול לנתניה, עמית אלון בהפועל חיפה",
+        "url": "https://www.one.co.il/Article/529449.html"
+      },
+      {
+        "label": "basket.co.il - Amit Alon player profile",
+        "url": "https://basket.co.il/player.asp?PlayerId=12280"
+      }
+    ],
+    "body": [
+      "Israeli basketball's pre-season shuffle continued this week with two clubs announcing fresh reinforcements, according to a report from ONE: Elitzur Netanya have brought in a pair of new signings, while Hapoel Haifa have added a guard from Maccabi Ramat Gan.",
+      "Netanya moved for guard Gabe Dabo, 30, who joins from Maccabi Rishon LeZion. Head coach Amit Sheraf described the 1.91m guard as a versatile player capable of filling multiple roles in the backcourt and praised his defensive qualities, according to ONE.",
+      "The club also secured forward Tal Feld, 24, who arrives from Maccabi Rehovot. The 1.95m forward averaged 13.5 points per game last season, numbers that suggest he should slot straight into Netanya's rotation as a scoring option.",
+      "Across the country in Haifa, Hapoel Haifa announced the signing of guard Amit Alon, 26, from Maccabi Ramat Gan. The 1.81m Alon began his career in Maccabi Haifa's youth ranks before senior spells with Maccabi Haifa, A.S. Ramat HaSharon and, most recently, Maccabi Ramat Gan, where he featured across last season.",
+      "Hapoel Haifa head coach Sharon Drucker said he was pleased to welcome Alon to the club, ONE reported, as the Haifa outfit continues to shape its squad ahead of the new campaign.",
+      "None of the clubs disclosed contract lengths or financial terms for the moves. Together, the signings reflect the kind of squad-building activity now under way across Israel's second-tier basketball scene as teams prepare for the season ahead."
+    ],
+    "facts": [
+      "Elitzur Netanya have signed guard Gabe Dabo, 30, from Maccabi Rishon LeZion.",
+      "Netanya have also added forward Tal Feld, 24, from Maccabi Rehovot, who averaged 13.5 points per game last season.",
+      "Hapoel Haifa have signed guard Amit Alon, 26, from Maccabi Ramat Gan.",
+      "Netanya head coach Amit Sheraf described Dabo as a versatile, defensively strong guard.",
+      "Hapoel Haifa head coach Sharon Drucker welcomed Alon to the club.",
+      "Alon previously played for Maccabi Haifa, A.S. Ramat HaSharon and Maccabi Ramat Gan.",
+      "The moves were reported by ONE (one.co.il)."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 60,
+    "homepageReason": "Routine but confirmed pre-season roster news for two Israeli basketball clubs.",
+    "dedupeKey": "elitzur-netanya-hapoel-haifa-basketball-signings-2026-07-30",
+    "aiDisclosure": "Drafted by an AI copy desk from a single ONE report, cross-checked against basket.co.il player records.",
+    "nameChecks": [
+      {
+        "hebrew": "עמית אלון",
+        "english": "Amit Alon",
+        "verificationUrl": "https://basket.co.il/player.asp?PlayerId=12280",
+        "confidence": 0.85
+      },
+      {
+        "hebrew": "גאבה דאבו",
+        "english": "Gabe Dabo",
+        "verificationUrl": "https://www.one.co.il/Article/529449.html",
+        "confidence": 0.7
+      },
+      {
+        "hebrew": "טל פלד",
+        "english": "Tal Feld",
+        "verificationUrl": "https://www.one.co.il/Article/529449.html",
+        "confidence": 0.7
+      },
+      {
+        "hebrew": "אמית שרף",
+        "english": "Amit Sheraf",
+        "verificationUrl": "https://www.one.co.il/Article/529449.html",
+        "confidence": 0.65
+      },
+      {
+        "hebrew": "שרון דרוקר",
+        "english": "Sharon Drucker",
+        "verificationUrl": "https://www.one.co.il/Article/529449.html",
+        "confidence": 0.7
+      },
+      {
+        "hebrew": "אליצור נתניה",
+        "english": "Elitzur Netanya",
+        "verificationUrl": "https://commons.wikimedia.org/wiki/Category:Barak_Netanya",
+        "confidence": 0.85
+      },
+      {
+        "hebrew": "הפועל חיפה",
+        "english": "Hapoel Haifa",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Hapoel_Haifa_B.C.",
+        "confidence": 0.9
+      }
+    ],
+    "confidence": 0.8,
+    "warning": "Contract length and financial terms not disclosed by the source.",
+    "commonsQuery": "Elitzur Netanya Hapoel Haifa basketball",
+    "commonsCandidates": [
+      {
+        "title": "File:אריאל אייזיק במדי אליצור נתניה 2024.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:%D7%90%D7%A8%D7%99%D7%90%D7%9C_%D7%90%D7%99%D7%99%D7%96%D7%99%D7%A7_%D7%91%D7%9E%D7%93%D7%99_%D7%90%D7%9C%D7%99%D7%A6%D7%95%D7%A8_%D7%A0%D7%AA%D7%A0%D7%99%D7%94_2024.jpg",
+        "credit": "Dor The Wolf via Wikimedia Commons",
+        "license": "CC0 1.0"
+      },
+      {
+        "title": "File:Romema Arena.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Romema_Arena.jpg",
+        "credit": "Orrling via Wikimedia Commons",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "title": "File:Natanya warm up.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Natanya_warm_up.jpg",
+        "credit": "Botend via Wikimedia Commons",
+        "license": "CC BY-SA 3.0"
+      }
+    ],
+    "status": "review"
+  },
+  {
+    "id": "live-2026-07-30-maccabi-tel-aviv-batumi-third-round",
+    "slug": "maccabi-tel-aviv-host-third-round-opener-batumi",
+    "title": "Maccabi Tel Aviv complete Sheriff sweep, will host next Europa League round in Batumi",
+    "dek": "A 6-0 aggregate win over Sheriff Tiraspol leaves the Israeli champions one tie from the Europa League play-off round, with their opening leg again staged in Georgia rather than at home.",
+    "category": "Israeli Football",
+    "desk": "israel",
+    "kind": "news",
+    "storyForm": "brief",
+    "publishedAt": "2026-07-30T18:51:54.025Z",
+    "updatedAt": "2026-07-30T18:51:54.025Z",
+    "readMinutes": 3,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/529454.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/529454.html"
+      },
+      {
+        "label": "Haaretz",
+        "url": "https://www.haaretz.co.il/sport/israel-soccer/2026-07-23/ty-article/0000019f-9039-db22-a5df-f53bc0090000"
+      },
+      {
+        "label": "Walla Sport",
+        "url": "https://sports.walla.co.il/item/3855598"
+      }
+    ],
+    "body": [
+      "Maccabi Tel Aviv have wrapped up their second-round Europa League qualifying tie against Sheriff Tiraspol in emphatic fashion, completing a 6-0 aggregate victory that ONE reports leaves the Israeli champions just one round from the competition's play-off stage.",
+      "The tie was effectively settled a week earlier, when Maccabi thrashed Sheriff 5-0 away from home. Thursday's return leg, played by Maccabi as the nominal home side, added to that lead to seal the rout on aggregate.",
+      "As has become the pattern for Israeli clubs in continental competition, Maccabi's \"home\" fixture was not played in Tel Aviv. The club staged the game in Batumi, Georgia, at the same venue it has used for other UEFA ties this season.",
+      "According to ONE, Maccabi now knows where — though not yet against whom — they will play the first leg of the third qualifying round. The club will fly back to Batumi for that opening fixture on Thursday, August 6.",
+      "Their opponent will be either CSKA Sofia of Bulgaria or Qarabag of Azerbaijan. The two sides drew 0-0 in the first leg of their own tie in Baku, with the return match in Sofia taking place the same evening ONE published its report, meaning the identity of Maccabi's next rival was still unresolved at the time of writing.",
+      "Whichever side progresses, ONE reports Maccabi will travel to Azerbaijan or Bulgaria for the second leg on Thursday, August 13, with the winner of that tie advancing to the Europa League play-off round in late August.",
+      "A third qualifying round exit would not end Maccabi's European campaign outright — sides eliminated at this stage in the Europa League typically drop into Conference League qualifying — but reaching the play-off round would keep alive the prospect of Europa League group-stage football deep into the year.",
+      "For now, the headline is a job well done against Sheriff: a comfortable passage that keeps Maccabi's European summer on track, even as the continued need to play home European fixtures on neutral ground in Georgia remains part of the club's reality this season."
+    ],
+    "facts": [
+      "Maccabi Tel Aviv beat Sheriff Tiraspol 6-0 on aggregate in the UEFA Europa League second qualifying round.",
+      "The first leg finished 5-0 to Maccabi away from home; the return leg was played by Maccabi as home side.",
+      "Maccabi's home leg was staged in Batumi, Georgia rather than in Israel.",
+      "Maccabi's third qualifying round first leg (home) is scheduled for Thursday, August 6, again in Batumi.",
+      "The second leg is scheduled for Thursday, August 13, away in either Azerbaijan or Bulgaria.",
+      "Maccabi's third-round opponent will be the winner of CSKA Sofia vs Qarabag, a tie level 0-0 after the first leg at the time of the ONE report."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 86,
+    "homepageReason": "Israeli club advancing in European qualifying and locking in scheduling for the next round is a strong, positive Israeli football story with a continental angle.",
+    "dedupeKey": "uel-2026-q3-maccabitelaviv-batumi-preview",
+    "aiDisclosure": "Drafted by an AI copy desk from a single sourced report, cross-checked against independent Israeli outlets before publication.",
+    "nameChecks": [
+      {
+        "hebrew": "מכבי תל אביב",
+        "english": "Maccabi Tel Aviv",
+        "verificationUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%9B%D7%91%D7%99_%D7%AA%D7%9C_%D7%90%D7%91%D7%99%D7%91_%D7%91%D7%9E%D7%A4%D7%A2%D7%9C%D7%99%D7%9D_%D7%94%D7%91%D7%99%D7%9F-%D7%9C%D7%90%D7%95%D7%9E%D7%99%D7%99%D7%9D",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "שריף טירספול",
+        "english": "Sheriff Tiraspol",
+        "verificationUrl": "https://www.haaretz.co.il/sport/israel-soccer/2026-07-23/ty-article/0000019f-9039-db22-a5df-f53bc0090000",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "צסק\"א סופיה",
+        "english": "CSKA Sofia",
+        "verificationUrl": "https://www.espn.com/soccer/match/_/gameId/401896233/cska-sofia-fk-qarabag",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "קרבאח",
+        "english": "Qarabag",
+        "verificationUrl": "https://www.espn.com/soccer/match/_/gameId/401896233/cska-sofia-fk-qarabag",
+        "confidence": 0.9
+      }
+    ],
+    "confidence": 0.83,
+    "warning": "Third-round opponent (CSKA Sofia or Qarabag) was undecided at the time the ONE report was published; the second leg of that tie was still to be completed.",
+    "commonsQuery": "Bloomfield Stadium Tel Aviv photograph",
+    "commonsCandidates": [
+      {
+        "title": "File:Bloomfield Stadium in Tel Aviv-Yafo 03.JPG",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Bloomfield_Stadium_in_Tel_Aviv-Yafo_03.JPG",
+        "credit": "Assaf Yekuel (Shefshef)",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "title": "File:Bloomfield Stadium in Tel Aviv-Yafo 01.JPG",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Bloomfield_Stadium_in_Tel_Aviv-Yafo_01.JPG",
+        "credit": "Assaf Yekuel (Shefshef)",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "title": "File:Bloomfield Stadium, January 2022 - 01.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Bloomfield_Stadium,_January_2022_-_01.jpg",
+        "credit": "Little Savage",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "live-2026-07-30-ludogorets-hapoel-tel-aviv-conference-league",
+    "slug": "ludogorets-hapoel-tel-aviv-conference-league-qualifier",
+    "title": "Hapoel Tel Aviv chase Conference League progress away to Ludogorets",
+    "dek": "Hapoel lead 2-0 on aggregate as the second-leg qualifier in Razgrad remains in progress — held pending full time.",
+    "category": "Israeli Football",
+    "desk": "israel",
+    "kind": "match-report",
+    "storyForm": "news",
+    "publishedAt": "2026-07-30T18:51:54.025Z",
+    "updatedAt": "2026-07-30T18:51:54.025Z",
+    "readMinutes": 1,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/529403.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE (one.co.il)",
+        "url": "https://www.one.co.il/Article/529403.html"
+      },
+      {
+        "label": "Sofascore live match page",
+        "url": "https://www.sofascore.com/football/match/ludogorets-hapoel-tel-aviv/WhcsPBr"
+      }
+    ],
+    "body": [
+      "This story cannot run yet. The ONE report is a live, in-progress update from the second leg of Hapoel Tel Aviv's UEFA Conference League second qualifying-round tie away to Ludogorets in Razgrad, Bulgaria, showing Ludogorets ahead 1-0 on the night after Boateng's 16th-minute goal, with Hapoel still holding a 2-0 aggregate lead from the first leg in Miskolc.",
+      "Editorial policy requires a confirmed full-time score before a match report is published. This draft is held until the final whistle."
+    ],
+    "facts": [
+      "Match is the second leg of a UEFA Conference League second qualifying-round tie",
+      "Hapoel Tel Aviv won the first leg 2-0 (Miskolc, 23 July 2026), goals from Omri Altman and Chico",
+      "Ludogorets led 1-0 on the night as of minute 28/43 per the ONE live update, Boateng scoring in the 16th minute",
+      "Hapoel goalkeeper Assef Tzur saved a penalty during the second leg per ONE",
+      "Second leg played at Huvepharma Arena, Razgrad, Bulgaria, 30 July 2026"
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 0,
+    "homepageReason": "Held: match in progress, no confirmed final score yet",
+    "dedupeKey": "conf-league-q2-ludogorets-hapoeltelaviv-2026-07-30",
+    "aiDisclosure": "Draft prepared by an AI copy desk assistant from the cited source(s); held pending full-time confirmation before publication.",
+    "nameChecks": [
+      {
+        "hebrew": "הפועל תל אביב",
+        "english": "Hapoel Tel Aviv",
+        "verificationUrl": "https://www.uefa.com/uefaconferenceleague/match/2048802--ludogorets-vs-h-tel-aviv/",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "אסף צור",
+        "english": "Assef Tzur",
+        "verificationUrl": "https://www.one.co.il/Article/529403.html",
+        "confidence": 0.6
+      }
+    ],
+    "confidence": 0,
+    "warning": "match in progress — wait for full time",
+    "commonsQuery": "",
+    "commonsCandidates": [],
+    "status": "review"
+  },
+  {
+    "id": "live-2026-07-30-hapoel-tel-aviv-fans-halt-ludogorets-return-leg-with-flares",
+    "slug": "hapoel-tel-aviv-fans-flares-halt-ludogorets-conference-league-return-leg",
+    "title": "Hapoel Tel Aviv fans halt Conference League return leg in Bulgaria with flares — again",
+    "dek": "Play was stopped for six minutes early in the second qualifying-round return leg against Ludogorets after Hapoel Tel Aviv supporters set off smoke grenades and flares — the second such stoppage in the tie in a week.",
+    "category": "Israeli Football",
+    "desk": "israel",
+    "kind": "news",
+    "storyForm": "brief",
+    "publishedAt": "2026-07-30T18:51:54.025Z",
+    "updatedAt": "2026-07-30T18:51:54.025Z",
+    "readMinutes": 3,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/529456.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE — match stopped by pyrotechnics",
+        "url": "https://www.one.co.il/Article/529456.html"
+      },
+      {
+        "label": "Haaretz — first-leg report, Hapoel Tel Aviv 2-0 Ludogorets",
+        "url": "https://www.haaretz.co.il/sport/israel-soccer/2026-07-23/ty-article/0000019f-908d-db22-a5df-f59f10500000"
+      },
+      {
+        "label": "Sofascore — Ludogorets vs Hapoel Tel Aviv, Huvepharma Arena, kickoff 18:00 UTC",
+        "url": "https://www.sofascore.com/football/match/ludogorets-hapoel-tel-aviv/WhcsPBr"
+      }
+    ],
+    "body": [
+      "For the second time in a week, Hapoel Tel Aviv's own supporters brought the whistle to a Conference League tie against Ludogorets Razgrad — this time in Bulgaria, where the referee was forced to suspend the return leg just two-and-a-half minutes after kick-off.",
+      "ONE reports that travelling Hapoel fans set off a barrage of smoke grenades and flares inside the away section at the Huvepharma Arena, filling the stands and part of the pitch with thick smoke that left the officials with little choice but to stop play until visibility cleared.",
+      "The stoppage lasted around six minutes before the match was able to restart, with no reported injuries or further disruption once play resumed, according to the report.",
+      "It is a repeat of what happened in the first leg in Hungary last week, when a similar pyrotechnic display by Hapoel supporters — the club's fans are known as 'the Reds' — held up that match for roughly five minutes early on.",
+      "Hapoel Tel Aviv had made a memorable return to European competition after a 12-year absence in that first meeting, winning 2-0 through goals from Omri Altman and Chico to take a commanding lead into the second leg.",
+      "Because of ongoing security arrangements affecting Israeli clubs' home European fixtures, that first leg was staged away from Israel, in Hungary, rather than at Hapoel's own ground — with the return fixture instead played at Ludogorets' regular home in Razgrad.",
+      "Back-to-back pyrotechnic incidents in the same tie are the kind of pattern UEFA disciplinary panels tend to notice, and Hapoel Tel Aviv could face scrutiny — and potentially a fine or restrictions on away allocations for future European fixtures — once match delegates file their reports from both legs.",
+      "ONE's report did not include the state of play on the pitch at the time of writing; the second leg was still under way when this article was published, with Hapoel Tel Aviv's 2-0 aggregate lead from the first leg giving them the advantage heading into Thursday's game."
+    ],
+    "facts": [
+      "The Conference League second qualifying-round return leg between Ludogorets Razgrad and Hapoel Tel Aviv was halted about two and a half minutes after kick-off.",
+      "Hapoel Tel Aviv supporters set off smoke grenades and flares that filled the stands and pitch with smoke, per ONE.",
+      "The stoppage lasted approximately six minutes before play resumed.",
+      "It was the second such pyrotechnics-related stoppage involving Hapoel Tel Aviv fans in the same two-legged tie, after a roughly five-minute halt in the first leg.",
+      "Hapoel Tel Aviv won the first leg 2-0, with goals from Omri Altman and Chico, marking the club's return to European competition after 12 years.",
+      "The return leg is being played at Ludogorets' Huvepharma Arena in Razgrad, Bulgaria."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 58,
+    "homepageReason": "Notable disciplinary/crowd-trouble angle involving an Israeli club in an active European tie, but not a confirmed result and not yet season-defining.",
+    "dedupeKey": "uecl-q2-hapoel-tel-aviv-ludogorets-2026-pyro-second-leg",
+    "aiDisclosure": "Drafted by an AI copy desk assistant from a single verified source (ONE), cross-checked against independent Israeli outlets for background facts; no facts invented.",
+    "nameChecks": [
+      {
+        "hebrew": "הפועל תל אביב",
+        "english": "Hapoel Tel Aviv",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Hapoel_Tel_Aviv_F.C.",
+        "confidence": 0.98
+      },
+      {
+        "hebrew": "לודוגורץ ראזגרד",
+        "english": "Ludogorets Razgrad",
+        "verificationUrl": "https://en.wikipedia.org/wiki/PFC_Ludogorets_Razgrad",
+        "confidence": 0.97
+      },
+      {
+        "hebrew": "עומרי אלטמן",
+        "english": "Omri Altman",
+        "verificationUrl": "https://www.haaretz.co.il/sport/israel-soccer/2026-07-23/ty-article/0000019f-908d-db22-a5df-f59f10500000",
+        "confidence": 0.85
+      }
+    ],
+    "confidence": 0.82,
+    "warning": "Second leg was still in progress at time of publication — no score is reported; only the concluded pyrotechnics stoppage is covered.",
+    "commonsQuery": "Hapoel Tel Aviv ultras supporters / Ludogorets Arena Razgrad stadium",
+    "commonsCandidates": [
+      {
+        "title": "File:Fußballanhänger(Ultras Hapoel Tel Aviv).JPG",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Fu%C3%9Fballanh%C3%A4nger(Ultras_Hapoel_Tel_Aviv).JPG",
+        "credit": "Werner100359 / Wikimedia Commons",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "title": "File:Ludogorets Arena.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Ludogorets_Arena.jpg",
+        "credit": "Tsonpen / Wikimedia Commons",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "title": "File:Ludogorets Razgrad-Cska Sofia.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Ludogorets_Razgrad-Cska_Sofia.jpg",
+        "credit": "Juju13620 / Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "status": "published"
   }
 ]

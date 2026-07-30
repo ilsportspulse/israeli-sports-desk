@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T18:30:27.153Z",
+  "generatedAt": "2026-07-30T18:59:18.591Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -157,13 +157,13 @@
   ],
   "warnings": [
     {
-      "id": "live-2026-07-30-confederations-may-join-uefa-fifa-boycott",
-      "slug": "confederations-may-join-uefa-fifa-boycott",
-      "title": "More confederations could side with UEFA against FIFA",
+      "id": "live-2026-07-30-uefa-fifa-boycott-confederations",
+      "slug": "uefa-fifa-boycott-confederations-world-cup-private-equity",
+      "title": "UEFA votes to boycott FIFA over World Cup private equity plan, and other confederations may follow",
       "statusBefore": "published",
-      "words": 413,
-      "paragraphs": 9,
-      "facts": 6,
+      "words": 561,
+      "paragraphs": 10,
+      "facts": 7,
       "verificationSources": 5,
       "blockers": [],
       "warnings": [
@@ -171,45 +171,18 @@
       ]
     },
     {
-      "id": "live-2026-07-30-beitar-jerusalem-aek-larnaca-conference-league-second-leg",
-      "slug": "beitar-jerusalem-aek-larnaca-conference-league-second-leg-half-time",
-      "title": "Beitar Jerusalem trail AEK Larnaca at half-time in Conference League second leg — story held pending full time",
+      "id": "live-2026-07-30-elitzur-netanya-hapoel-haifa-basketball-signings",
+      "slug": "elitzur-netanya-hapoel-haifa-basketball-signings",
+      "title": "Elitzur Netanya add Gabe Dabo and Tal Feld as Amit Alon joins Hapoel Haifa",
       "statusBefore": "review",
-      "words": 136,
-      "paragraphs": 4,
-      "facts": 5,
+      "words": 238,
+      "paragraphs": 6,
+      "facts": 7,
       "verificationSources": 2,
       "blockers": [],
       "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-07-30-ludogorets-hapoel-tel-aviv-halftime-hold",
-      "slug": "ludogorets-hapoel-tel-aviv-conference-league-second-leg-halftime",
-      "title": "Ludogorets and Hapoel Tel Aviv goalless at half-time in Conference League second leg",
-      "statusBefore": "review",
-      "words": 180,
-      "paragraphs": 5,
-      "facts": 5,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-07-30-hapoel-tel-aviv-ludogorets-pyro-stoppage",
-      "slug": "hapoel-tel-aviv-ludogorets-pyrotechnics-match-stopped",
-      "title": "Flares halt Hapoel Tel Aviv's Conference League return leg in Bulgaria",
-      "statusBefore": "published",
-      "words": 293,
-      "paragraphs": 7,
-      "facts": 7,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
       ]
     },
     {
@@ -324,6 +297,20 @@
       "paragraphs": 8,
       "facts": 6,
       "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "archive-20260730-tokyo-1-august-2021-the-tie-break-that-m",
+      "slug": "tokyo-1-august-2021-the-tie-break-that-made-artem-dolgopyat-israel-s-s",
+      "title": "Tokyo, 1 August 2021: The Tie-Break That Made Artem Dolgopyat Israel's Second Olympic Champion",
+      "statusBefore": "published",
+      "words": 645,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 5,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -7947,13 +7934,13 @@
   ],
   "cleanPublished": [
     {
-      "id": "live-2026-07-30-confederations-may-join-uefa-fifa-boycott",
-      "slug": "confederations-may-join-uefa-fifa-boycott",
-      "title": "More confederations could side with UEFA against FIFA",
+      "id": "live-2026-07-30-uefa-fifa-boycott-confederations",
+      "slug": "uefa-fifa-boycott-confederations-world-cup-private-equity",
+      "title": "UEFA votes to boycott FIFA over World Cup private equity plan, and other confederations may follow",
       "statusBefore": "published",
-      "words": 413,
-      "paragraphs": 9,
-      "facts": 6,
+      "words": 561,
+      "paragraphs": 10,
+      "facts": 7,
       "verificationSources": 5,
       "blockers": [],
       "warnings": [
@@ -7961,30 +7948,28 @@
       ]
     },
     {
-      "id": "live-2026-07-30-maccabi-tel-aviv-host-europa-league-q3-batumi",
-      "slug": "maccabi-tel-aviv-host-europa-league-third-qualifying-round-batumi",
-      "title": "Maccabi Tel Aviv to host Europa League third-round opener in Batumi after 6-0 rout of Sheriff Tiraspol",
+      "id": "live-2026-07-30-maccabi-tel-aviv-batumi-third-round",
+      "slug": "maccabi-tel-aviv-host-third-round-opener-batumi",
+      "title": "Maccabi Tel Aviv complete Sheriff sweep, will host next Europa League round in Batumi",
       "statusBefore": "published",
-      "words": 346,
-      "paragraphs": 7,
+      "words": 342,
+      "paragraphs": 8,
       "facts": 6,
-      "verificationSources": 4,
+      "verificationSources": 3,
       "blockers": [],
       "warnings": []
     },
     {
-      "id": "live-2026-07-30-hapoel-tel-aviv-ludogorets-pyro-stoppage",
-      "slug": "hapoel-tel-aviv-ludogorets-pyrotechnics-match-stopped",
-      "title": "Flares halt Hapoel Tel Aviv's Conference League return leg in Bulgaria",
+      "id": "live-2026-07-30-hapoel-tel-aviv-fans-halt-ludogorets-return-leg-with-flares",
+      "slug": "hapoel-tel-aviv-fans-flares-halt-ludogorets-conference-league-return-leg",
+      "title": "Hapoel Tel Aviv fans halt Conference League return leg in Bulgaria with flares — again",
       "statusBefore": "published",
-      "words": 293,
-      "paragraphs": 7,
-      "facts": 7,
+      "words": 335,
+      "paragraphs": 8,
+      "facts": 6,
       "verificationSources": 3,
       "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
+      "warnings": []
     },
     {
       "id": "live-2026-07-30-lebron-james-espn-last-dance-documentary-76ers",
@@ -8079,7 +8064,9 @@
       "facts": 6,
       "verificationSources": 5,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-2026-07-30-beitar-moyyal-flares-warning-larnaca",
