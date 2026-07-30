@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T07:07:51.715Z",
+  "generatedAt": "2026-07-30T10:57:10.294Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,21 +11,21 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 656,
+    "publishedArticles": 659,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 427.5,
-      "average": 427.1
+      "median": 428,
+      "average": 427
     },
     "paragraphDistribution": {
       "3": 33,
       "4": 5,
       "5": 8,
       "6": 34,
-      "7": 98,
-      "8": 166,
-      "9": 147,
+      "7": 99,
+      "8": 167,
+      "9": 148,
       "10": 115,
       "11": 30,
       "12": 10,
@@ -39,7 +39,7 @@
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 34,
     "analysisBelowTarget": 8,
-    "articlesWithStyleFlags": 123
+    "articlesWithStyleFlags": 125
   },
   "flagged": [
     {
@@ -232,6 +232,52 @@
       "flags": [
         "below-editorial-target:84/650",
         "analysis-structure:3/5-paragraphs"
+      ]
+    },
+    {
+      "id": "live-2026-07-30-maccabi-tel-aviv-communications-vp-departs",
+      "slug": "maccabi-tel-aviv-communications-vp-roey-gladstone-departs",
+      "title": "Maccabi Tel Aviv communications VP Roey Gladstone to step down after nine years",
+      "kind": "news",
+      "words": 268,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 18,
+        "longest": 60,
+        "average": 38.3
+      },
+      "sentenceWords": {
+        "shortest": 18,
+        "longest": 60,
+        "average": 33.5
+      },
+      "lexicalDiversity": 0.575,
+      "publisherAttributions": 1,
+      "flags": [
+        "below-editorial-target:268/280"
+      ]
+    },
+    {
+      "id": "live-20260730-ahronovich-maccabi-haifa-radio-outburst",
+      "slug": "ahronovich-maccabi-haifa-radio-outburst-interview",
+      "title": "Haifa radio voice Itzik Ahronovich hits back at critics: 'Maccabi Haifa is my life, I take it to heart'",
+      "kind": "news",
+      "words": 467,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 25,
+        "longest": 86,
+        "average": 58.4
+      },
+      "sentenceWords": {
+        "shortest": 25,
+        "longest": 87,
+        "average": 38.9
+      },
+      "lexicalDiversity": 0.546,
+      "publisherAttributions": 2,
+      "flags": [
+        "publisher-attribution-heavy:2"
       ]
     },
     {
@@ -2881,6 +2927,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-30-israeli-basketball-referees-strike-threat-lawsuits",
+      "slug": "israeli-basketball-referees-strike-threat-lawsuits",
+      "title": "Israeli basketball referees threaten to boycott new season over surge in personal lawsuits",
+      "kind": "news",
+      "words": 518,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 50,
+        "longest": 82,
+        "average": 57.6
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 55,
+        "average": 32.4
+      },
+      "lexicalDiversity": 0.569,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-07-30-milan-deny-franco-baresi-death-rumours",
       "slug": "milan-deny-franco-baresi-death-rumours",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T07:07:51.334Z",
+  "generatedAt": "2026-07-30T10:57:09.888Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 799,
-    "publishedBefore": 656,
-    "cleanPublished": 648,
+    "totalArticles": 805,
+    "publishedBefore": 659,
+    "cleanPublished": 651,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 656,
-    "reviewAfter": 143
+    "publishedAfter": 659,
+    "reviewAfter": 146
   },
   "blockedPublished": [
     {
@@ -155,6 +155,48 @@
   ],
   "warnings": [
     {
+      "id": "live-20260730-tomer-haren-hapoel-ramat-gan",
+      "slug": "tomer-haren-hapoel-ramat-gan-signing",
+      "title": "Tomer Haren signs for Hapoel Ramat Gan as Omer Nir'on deal edges closer",
+      "statusBefore": "review",
+      "words": 280,
+      "paragraphs": 8,
+      "facts": 5,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-07-30-hapoel-tel-aviv-ludogorets-barda-warning",
+      "slug": "hapoel-tel-aviv-ludogorets-barda-one-goal-warning",
+      "title": "Barda warns Hapoel Tel Aviv against complacency with Ludogorets tie in the balance",
+      "statusBefore": "review",
+      "words": 406,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260730-ahronovich-maccabi-haifa-radio-outburst",
+      "slug": "ahronovich-maccabi-haifa-radio-outburst-interview",
+      "title": "Haifa radio voice Itzik Ahronovich hits back at critics: 'Maccabi Haifa is my life, I take it to heart'",
+      "statusBefore": "published",
+      "words": 470,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
       "id": "live-2026-07-30-milan-deny-franco-baresi-death-rumours",
       "slug": "milan-deny-franco-baresi-death-rumours",
       "title": "AC Milan deny false rumours of Franco Baresi's death, say club great is 'going through a difficult period'",
@@ -177,6 +219,20 @@
       "paragraphs": 8,
       "facts": 7,
       "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-30-hapoel-ramat-gan-squad-building",
+      "slug": "hapoel-ramat-gan-toto-cup-win-schwartz-niron-transfer-targets",
+      "title": "Hapoel Ramat Gan open with 2-1 comeback win, but club says squad 'still needs to strengthen'",
+      "statusBefore": "review",
+      "words": 468,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -7639,6 +7695,44 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-07-30-israeli-basketball-referees-strike-threat-lawsuits",
+      "slug": "israeli-basketball-referees-strike-threat-lawsuits",
+      "title": "Israeli basketball referees threaten to boycott new season over surge in personal lawsuits",
+      "statusBefore": "published",
+      "words": 516,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-07-30-maccabi-tel-aviv-communications-vp-departs",
+      "slug": "maccabi-tel-aviv-communications-vp-roey-gladstone-departs",
+      "title": "Maccabi Tel Aviv communications VP Roey Gladstone to step down after nine years",
+      "statusBefore": "published",
+      "words": 268,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260730-ahronovich-maccabi-haifa-radio-outburst",
+      "slug": "ahronovich-maccabi-haifa-radio-outburst-interview",
+      "title": "Haifa radio voice Itzik Ahronovich hits back at critics: 'Maccabi Haifa is my life, I take it to heart'",
+      "statusBefore": "published",
+      "words": 470,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
     {
       "id": "live-2026-07-30-milan-deny-franco-baresi-death-rumours",
       "slug": "milan-deny-franco-baresi-death-rumours",
