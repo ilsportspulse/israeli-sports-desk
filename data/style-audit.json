@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T20:08:26.592Z",
+  "generatedAt": "2026-07-30T21:08:23.839Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 674,
+    "publishedArticles": 675,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 426.5,
-      "average": 426.7
+      "median": 426,
+      "average": 426.1
     },
     "paragraphDistribution": {
       "3": 33,
-      "4": 5,
-      "5": 8,
+      "4": 6,
+      "5": 9,
       "6": 34,
       "7": 102,
-      "8": 173,
+      "8": 172,
       "9": 151,
       "10": 118,
       "11": 30,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.257,
+    "dominantParagraphShare": 0.255,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 34,
     "analysisBelowTarget": 8,
-    "articlesWithStyleFlags": 125
+    "articlesWithStyleFlags": 127
   },
   "flagged": [
     {
@@ -2923,6 +2923,52 @@
       "publisherAttributions": 0,
       "flags": [
         "below-editorial-target:647/650"
+      ]
+    },
+    {
+      "id": "live-20260730-ludogorets-hapoel-tel-aviv-2-2-boateng",
+      "slug": "ludogorets-2-2-hapoel-tel-aviv-boateng-brace-conference-league",
+      "title": "Ludogorets 2–2 Hapoel Tel Aviv: Boateng double sends Hapoel through 4–2",
+      "kind": "news",
+      "words": 179,
+      "paragraphs": 5,
+      "paragraphWords": {
+        "shortest": 27,
+        "longest": 47,
+        "average": 35.8
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 42,
+        "average": 25.6
+      },
+      "lexicalDiversity": 0.648,
+      "publisherAttributions": 0,
+      "flags": [
+        "below-editorial-target:179/280"
+      ]
+    },
+    {
+      "id": "live-20260730-beitar-aek-larnaca-shootout",
+      "slug": "beitar-jerusalem-aek-larnaca-penalty-shootout-conference-league",
+      "title": "Beitar Jerusalem edge AEK Larnaca on penalties to reach the next round",
+      "kind": "news",
+      "words": 157,
+      "paragraphs": 4,
+      "paragraphWords": {
+        "shortest": 29,
+        "longest": 60,
+        "average": 39.3
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 39,
+        "average": 26.2
+      },
+      "lexicalDiversity": 0.662,
+      "publisherAttributions": 0,
+      "flags": [
+        "below-editorial-target:157/280"
       ]
     }
   ],
@@ -14433,27 +14479,6 @@
       },
       "lexicalDiversity": 0.541,
       "publisherAttributions": 1,
-      "flags": []
-    },
-    {
-      "id": "live-2026-07-30-hapoel-tel-aviv-fans-halt-ludogorets-return-leg-with-flares",
-      "slug": "hapoel-tel-aviv-fans-flares-halt-ludogorets-conference-league-return-leg",
-      "title": "Hapoel Tel Aviv fans halt Conference League return leg in Bulgaria with flares — again",
-      "kind": "news",
-      "words": 329,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 27,
-        "longest": 48,
-        "average": 41.1
-      },
-      "sentenceWords": {
-        "shortest": 27,
-        "longest": 48,
-        "average": 41.1
-      },
-      "lexicalDiversity": 0.593,
-      "publisherAttributions": 0,
       "flags": []
     }
   ]
