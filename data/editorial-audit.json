@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T17:08:11.295Z",
+  "generatedAt": "2026-07-30T18:30:27.153Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 823,
-    "publishedBefore": 670,
-    "cleanPublished": 662,
+    "totalArticles": 829,
+    "publishedBefore": 672,
+    "cleanPublished": 664,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 670,
-    "reviewAfter": 153
+    "publishedAfter": 672,
+    "reviewAfter": 157
   },
   "blockedPublished": [
     {
@@ -157,6 +157,62 @@
   ],
   "warnings": [
     {
+      "id": "live-2026-07-30-confederations-may-join-uefa-fifa-boycott",
+      "slug": "confederations-may-join-uefa-fifa-boycott",
+      "title": "More confederations could side with UEFA against FIFA",
+      "statusBefore": "published",
+      "words": 413,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-30-beitar-jerusalem-aek-larnaca-conference-league-second-leg",
+      "slug": "beitar-jerusalem-aek-larnaca-conference-league-second-leg-half-time",
+      "title": "Beitar Jerusalem trail AEK Larnaca at half-time in Conference League second leg — story held pending full time",
+      "statusBefore": "review",
+      "words": 136,
+      "paragraphs": 4,
+      "facts": 5,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-30-ludogorets-hapoel-tel-aviv-halftime-hold",
+      "slug": "ludogorets-hapoel-tel-aviv-conference-league-second-leg-halftime",
+      "title": "Ludogorets and Hapoel Tel Aviv goalless at half-time in Conference League second leg",
+      "statusBefore": "review",
+      "words": 180,
+      "paragraphs": 5,
+      "facts": 5,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-30-hapoel-tel-aviv-ludogorets-pyro-stoppage",
+      "slug": "hapoel-tel-aviv-ludogorets-pyrotechnics-match-stopped",
+      "title": "Flares halt Hapoel Tel Aviv's Conference League return leg in Bulgaria",
+      "statusBefore": "published",
+      "words": 293,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-2026-07-30-lebron-james-espn-last-dance-documentary-76ers",
       "slug": "lebron-james-espn-last-dance-documentary-76ers",
       "title": "LeBron James nears deal with ESPN for his own \"Last Dance\" documentary",
@@ -190,7 +246,7 @@
       "id": "live-2026-07-30-uefa-boycott-fifa-world-cup",
       "slug": "uefa-boycott-fifa-world-cup-privatization",
       "title": "UEFA members vote to boycott FIFA competitions over World Cup privatization plan",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 351,
       "paragraphs": 8,
       "facts": 6,
@@ -200,6 +256,20 @@
         "presentation:outlet-name-in-headline",
         "media:no-action-or-competition-context-detected",
         "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-30-nba-middle-east-preseason-cancelled",
+      "slug": "nba-scraps-middle-east-preseason-games-us-iran",
+      "title": "NBA scraps Middle East preseason games amid US-Iran tensions",
+      "statusBefore": "published",
+      "words": 353,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -7877,6 +7947,46 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-2026-07-30-confederations-may-join-uefa-fifa-boycott",
+      "slug": "confederations-may-join-uefa-fifa-boycott",
+      "title": "More confederations could side with UEFA against FIFA",
+      "statusBefore": "published",
+      "words": 413,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-30-maccabi-tel-aviv-host-europa-league-q3-batumi",
+      "slug": "maccabi-tel-aviv-host-europa-league-third-qualifying-round-batumi",
+      "title": "Maccabi Tel Aviv to host Europa League third-round opener in Batumi after 6-0 rout of Sheriff Tiraspol",
+      "statusBefore": "published",
+      "words": 346,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-07-30-hapoel-tel-aviv-ludogorets-pyro-stoppage",
+      "slug": "hapoel-tel-aviv-ludogorets-pyrotechnics-match-stopped",
+      "title": "Flares halt Hapoel Tel Aviv's Conference League return leg in Bulgaria",
+      "statusBefore": "published",
+      "words": 293,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-2026-07-30-lebron-james-espn-last-dance-documentary-76ers",
       "slug": "lebron-james-espn-last-dance-documentary-76ers",
       "title": "LeBron James nears deal with ESPN for his own \"Last Dance\" documentary",
@@ -7905,22 +8015,6 @@
       "warnings": []
     },
     {
-      "id": "live-2026-07-30-uefa-boycott-fifa-world-cup",
-      "slug": "uefa-boycott-fifa-world-cup-privatization",
-      "title": "UEFA members vote to boycott FIFA competitions over World Cup privatization plan",
-      "statusBefore": "published",
-      "words": 351,
-      "paragraphs": 8,
-      "facts": 6,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline",
-        "media:no-action-or-competition-context-detected",
-        "voice:stock-editorial-phrase-detected"
-      ]
-    },
-    {
       "id": "live-2026-07-30-nba-middle-east-preseason-cancelled",
       "slug": "nba-scraps-middle-east-preseason-games-us-iran",
       "title": "NBA scraps Middle East preseason games amid US-Iran tensions",
@@ -7930,7 +8024,9 @@
       "facts": 7,
       "verificationSources": 3,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-2026-07-30-rani-belaga-loan-hapoel-galil-elyon",

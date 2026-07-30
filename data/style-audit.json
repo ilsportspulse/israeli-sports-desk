@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T17:08:11.699Z",
+  "generatedAt": "2026-07-30T18:30:27.552Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,21 +11,21 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 670,
+    "publishedArticles": 672,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 427,
-      "average": 426.9
+      "median": 426.5,
+      "average": 426.6
     },
     "paragraphDistribution": {
       "3": 33,
       "4": 5,
       "5": 8,
       "6": 34,
-      "7": 101,
-      "8": 172,
-      "9": 150,
+      "7": 103,
+      "8": 171,
+      "9": 151,
       "10": 117,
       "11": 30,
       "12": 10,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.257,
+    "dominantParagraphShare": 0.254,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 34,
     "analysisBelowTarget": 8,
-    "articlesWithStyleFlags": 126
+    "articlesWithStyleFlags": 125
   },
   "flagged": [
     {
@@ -232,29 +232,6 @@
       "flags": [
         "below-editorial-target:84/650",
         "analysis-structure:3/5-paragraphs"
-      ]
-    },
-    {
-      "id": "live-2026-07-30-uefa-boycott-fifa-world-cup",
-      "slug": "uefa-boycott-fifa-world-cup-privatization",
-      "title": "UEFA members vote to boycott FIFA competitions over World Cup privatization plan",
-      "kind": "news",
-      "words": 352,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 35,
-        "longest": 54,
-        "average": 44
-      },
-      "sentenceWords": {
-        "shortest": 7,
-        "longest": 143,
-        "average": 50.3
-      },
-      "lexicalDiversity": 0.625,
-      "publisherAttributions": 0,
-      "flags": [
-        "stock-phrase:remains-to-be-seen"
       ]
     },
     {
@@ -2950,6 +2927,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-30-confederations-may-join-uefa-fifa-boycott",
+      "slug": "confederations-may-join-uefa-fifa-boycott",
+      "title": "More confederations could side with UEFA against FIFA",
+      "kind": "news",
+      "words": 411,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 66,
+        "average": 45.7
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 49,
+        "average": 29.4
+      },
+      "lexicalDiversity": 0.613,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-30-maccabi-tel-aviv-host-europa-league-q3-batumi",
+      "slug": "maccabi-tel-aviv-host-europa-league-third-qualifying-round-batumi",
+      "title": "Maccabi Tel Aviv to host Europa League third-round opener in Batumi after 6-0 rout of Sheriff Tiraspol",
+      "kind": "news",
+      "words": 341,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 71,
+        "average": 48.7
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 58,
+        "average": 28.4
+      },
+      "lexicalDiversity": 0.554,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-30-hapoel-tel-aviv-ludogorets-pyro-stoppage",
+      "slug": "hapoel-tel-aviv-ludogorets-pyrotechnics-match-stopped",
+      "title": "Flares halt Hapoel Tel Aviv's Conference League return leg in Bulgaria",
+      "kind": "news",
+      "words": 291,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 32,
+        "longest": 61,
+        "average": 41.6
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 46,
+        "average": 29.1
+      },
+      "lexicalDiversity": 0.619,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-07-30-lebron-james-espn-last-dance-documentary-76ers",
       "slug": "lebron-james-espn-last-dance-documentary-76ers",
