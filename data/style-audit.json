@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T15:09:35.696Z",
+  "generatedAt": "2026-07-31T16:22:28.029Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,7 +11,7 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 691,
+    "publishedArticles": 693,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
@@ -25,7 +25,7 @@
       "6": 34,
       "7": 104,
       "8": 177,
-      "9": 155,
+      "9": 157,
       "10": 121,
       "11": 30,
       "12": 11,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.256,
+    "dominantParagraphShare": 0.255,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 34,
     "analysisBelowTarget": 8,
@@ -3042,6 +3042,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-31-galil-elyon-camp-ashdod-wahab-signings",
+      "slug": "galil-elyon-sign-maurice-camp-ashdod-add-qudus-wahab",
+      "title": "Galil Elyon bring back forward Maurice Camp, Ashdod add French-league center Qudus Wahab",
+      "kind": "news",
+      "words": 395,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 61,
+        "average": 43.9
+      },
+      "sentenceWords": {
+        "shortest": 23,
+        "longest": 61,
+        "average": 39.5
+      },
+      "lexicalDiversity": 0.597,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260731-mudryk-cleared-doping-ban-comeback",
+      "slug": "mudryk-cleared-return-chelsea-doping-ban-resolved",
+      "title": "Mudryk cleared to return to football as Chelsea doping saga ends",
+      "kind": "news",
+      "words": 428,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 29,
+        "longest": 62,
+        "average": 47.6
+      },
+      "sentenceWords": {
+        "shortest": 14,
+        "longest": 89,
+        "average": 42.8
+      },
+      "lexicalDiversity": 0.586,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260731-tottenham-de-zerbi-237m-transfer-spree",
       "slug": "de-zerbi-tottenham-237m-transfer-spree-not-finished",

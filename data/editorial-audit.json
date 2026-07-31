@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T15:09:35.279Z",
+  "generatedAt": "2026-07-31T16:22:27.582Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 861,
-    "publishedBefore": 691,
-    "cleanPublished": 683,
+    "totalArticles": 866,
+    "publishedBefore": 693,
+    "cleanPublished": 685,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 691,
-    "reviewAfter": 170
+    "publishedAfter": 693,
+    "reviewAfter": 173
   },
   "blockedPublished": [
     {
@@ -157,6 +157,48 @@
   ],
   "warnings": [
     {
+      "id": "live-2026-07-31-galil-elyon-camp-ashdod-wahab-signings",
+      "slug": "galil-elyon-sign-maurice-camp-ashdod-add-qudus-wahab",
+      "title": "Galil Elyon bring back forward Maurice Camp, Ashdod add French-league center Qudus Wahab",
+      "statusBefore": "published",
+      "words": 389,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-31-maccabi-ein-mahel-boys-b-yizrael-title-hold",
+      "slug": "maccabi-ein-mahel-boys-b-yizrael-district-title",
+      "title": "Maccabi Ein Mahel crowned Yizrael district boys' B champions",
+      "statusBefore": "review",
+      "words": 118,
+      "paragraphs": 4,
+      "facts": 6,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-20260731-ofri-boaron-ms-tira-signing",
+      "slug": "ofri-boaron-signs-for-ms-tira",
+      "title": "Goalkeeper Ofri Boaron leaves Hapoel Tirat Carmel to sign for M.S. Tira",
+      "statusBefore": "review",
+      "words": 265,
+      "paragraphs": 6,
+      "facts": 5,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
       "id": "live-20260731-tottenham-de-zerbi-237m-transfer-spree",
       "slug": "de-zerbi-tottenham-237m-transfer-spree-not-finished",
       "title": "De Zerbi says Tottenham's £237m spending spree is 'not finished' as Savinho chase continues",
@@ -210,6 +252,20 @@
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-31-austria-wien-beitar-jerusalem-preview",
+      "slug": "austria-wien-empire-beitar-jerusalem-conference-league",
+      "title": "Beitar draw Austria Wien, Austrian football's fallen empire, in Conference League play-off",
+      "statusBefore": "review",
+      "words": 488,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
     },
@@ -8236,6 +8292,32 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-07-31-galil-elyon-camp-ashdod-wahab-signings",
+      "slug": "galil-elyon-sign-maurice-camp-ashdod-add-qudus-wahab",
+      "title": "Galil Elyon bring back forward Maurice Camp, Ashdod add French-league center Qudus Wahab",
+      "statusBefore": "published",
+      "words": 389,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260731-mudryk-cleared-doping-ban-comeback",
+      "slug": "mudryk-cleared-return-chelsea-doping-ban-resolved",
+      "title": "Mudryk cleared to return to football as Chelsea doping saga ends",
+      "statusBefore": "published",
+      "words": 429,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-20260731-tottenham-de-zerbi-237m-transfer-spree",
       "slug": "de-zerbi-tottenham-237m-transfer-spree-not-finished",
