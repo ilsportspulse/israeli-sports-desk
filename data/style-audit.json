@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T03:08:31.257Z",
+  "generatedAt": "2026-07-31T04:22:51.113Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -15,18 +15,18 @@
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 426,
-      "average": 425.1
+      "median": 427,
+      "average": 426.1
     },
     "paragraphDistribution": {
-      "3": 35,
+      "3": 34,
       "4": 6,
       "5": 9,
       "6": 34,
       "7": 102,
-      "8": 172,
-      "9": 151,
-      "10": 118,
+      "8": 173,
+      "9": 150,
+      "10": 119,
       "11": 30,
       "12": 10,
       "13": 4,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.254,
+    "dominantParagraphShare": 0.256,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 34,
     "analysisBelowTarget": 8,
@@ -232,6 +232,29 @@
       "flags": [
         "below-editorial-target:84/650",
         "analysis-structure:3/5-paragraphs"
+      ]
+    },
+    {
+      "id": "live-20260731-hapoel-tel-aviv-ceo-hearing-frozen",
+      "slug": "hapoel-tel-aviv-ceo-hearing-frozen-chason-vacation",
+      "title": "Hapoel Tel Aviv freezes CEO hearing until chairman returns from vacation",
+      "kind": "news",
+      "words": 312,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 52,
+        "average": 44.6
+      },
+      "sentenceWords": {
+        "shortest": 23,
+        "longest": 49,
+        "average": 34.7
+      },
+      "lexicalDiversity": 0.583,
+      "publisherAttributions": 2,
+      "flags": [
+        "publisher-attribution-heavy:2"
       ]
     },
     {
@@ -2993,72 +3016,49 @@
       "flags": [
         "below-editorial-target:95/280"
       ]
-    },
-    {
-      "id": "result-2026-07-30-maccabi-tel-aviv-sheriff-tiraspol",
-      "slug": "maccabi-tel-aviv-1-0-sheriff-tiraspol-europa-league-qualifying",
-      "title": "Maccabi Tel-Aviv 1–0 Sheriff Tiraspol: Europa League qualifying",
-      "kind": "news",
-      "words": 92,
-      "paragraphs": 3,
-      "paragraphWords": {
-        "shortest": 20,
-        "longest": 39,
-        "average": 30.7
-      },
-      "sentenceWords": {
-        "shortest": 6,
-        "longest": 23,
-        "average": 15.3
-      },
-      "lexicalDiversity": 0.696,
-      "publisherAttributions": 0,
-      "flags": [
-        "below-editorial-target:92/280"
-      ]
     }
   ],
   "clean": [
     {
-      "id": "live-2026-07-30-confederations-may-join-uefa-fifa-boycott",
-      "slug": "confederations-may-join-uefa-fifa-boycott",
-      "title": "More confederations could side with UEFA against FIFA",
+      "id": "live-20260731-maccabi-tel-aviv-cska-sofia-stakes",
+      "slug": "maccabi-tel-aviv-cska-sofia-europa-league-stakes",
+      "title": "Maccabi Tel Aviv on alert as Sofia clash becomes the fight for Europe",
       "kind": "news",
-      "words": 411,
-      "paragraphs": 9,
+      "words": 471,
+      "paragraphs": 8,
       "paragraphWords": {
-        "shortest": 31,
-        "longest": 66,
-        "average": 45.7
+        "shortest": 43,
+        "longest": 78,
+        "average": 58.9
       },
       "sentenceWords": {
-        "shortest": 8,
+        "shortest": 7,
         "longest": 49,
-        "average": 29.4
+        "average": 27.7
       },
-      "lexicalDiversity": 0.613,
+      "lexicalDiversity": 0.597,
       "publisherAttributions": 0,
       "flags": []
     },
     {
-      "id": "live-2026-07-30-maccabi-tel-aviv-host-europa-league-q3-batumi",
-      "slug": "maccabi-tel-aviv-host-europa-league-third-qualifying-round-batumi",
-      "title": "Maccabi Tel Aviv to host Europa League third-round opener in Batumi after 6-0 rout of Sheriff Tiraspol",
-      "kind": "news",
-      "words": 341,
-      "paragraphs": 7,
+      "id": "live-2026-07-31-portland-blazers-alpha-hierarchy",
+      "slug": "portland-trail-blazers-avdija-lillard-morant-star-hierarchy",
+      "title": "Avdija, Lillard and Morant: Portland's star glut leaves one question before title contention",
+      "kind": "article",
+      "words": 692,
+      "paragraphs": 10,
       "paragraphWords": {
-        "shortest": 30,
-        "longest": 71,
-        "average": 48.7
+        "shortest": 43,
+        "longest": 98,
+        "average": 69.2
       },
       "sentenceWords": {
-        "shortest": 4,
-        "longest": 58,
-        "average": 28.4
+        "shortest": 6,
+        "longest": 53,
+        "average": 26.6
       },
-      "lexicalDiversity": 0.554,
-      "publisherAttributions": 0,
+      "lexicalDiversity": 0.538,
+      "publisherAttributions": 1,
       "flags": []
     },
     {

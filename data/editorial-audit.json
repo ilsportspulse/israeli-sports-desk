@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T03:08:30.836Z",
+  "generatedAt": "2026-07-31T04:22:50.711Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 838,
+    "totalArticles": 843,
     "publishedBefore": 677,
     "cleanPublished": 669,
     "blockedPublished": 8,
     "demoted": 0,
     "publishedAfter": 677,
-    "reviewAfter": 161
+    "reviewAfter": 166
   },
   "blockedPublished": [
     {
@@ -157,10 +157,40 @@
   ],
   "warnings": [
     {
+      "id": "live-20260731-hapoel-tel-aviv-ceo-hearing-frozen",
+      "slug": "hapoel-tel-aviv-ceo-hearing-frozen-chason-vacation",
+      "title": "Hapoel Tel Aviv freezes CEO hearing until chairman returns from vacation",
+      "statusBefore": "published",
+      "words": 311,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-07-31-portland-blazers-alpha-hierarchy",
+      "slug": "portland-trail-blazers-avdija-lillard-morant-star-hierarchy",
+      "title": "Avdija, Lillard and Morant: Portland's star glut leaves one question before title contention",
+      "statusBefore": "published",
+      "words": 692,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-2026-07-30-confederations-may-join-uefa-fifa-boycott",
       "slug": "confederations-may-join-uefa-fifa-boycott",
       "title": "More confederations could side with UEFA against FIFA",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 413,
       "paragraphs": 9,
       "facts": 6,
@@ -8007,30 +8037,46 @@
   ],
   "cleanPublished": [
     {
-      "id": "live-2026-07-30-confederations-may-join-uefa-fifa-boycott",
-      "slug": "confederations-may-join-uefa-fifa-boycott",
-      "title": "More confederations could side with UEFA against FIFA",
+      "id": "live-20260731-hapoel-tel-aviv-ceo-hearing-frozen",
+      "slug": "hapoel-tel-aviv-ceo-hearing-frozen-chason-vacation",
+      "title": "Hapoel Tel Aviv freezes CEO hearing until chairman returns from vacation",
       "statusBefore": "published",
-      "words": 413,
-      "paragraphs": 9,
-      "facts": 6,
-      "verificationSources": 5,
+      "words": 311,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 3,
       "blockers": [],
       "warnings": [
-        "media:no-action-or-competition-context-detected"
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
       ]
     },
     {
-      "id": "live-2026-07-30-maccabi-tel-aviv-host-europa-league-q3-batumi",
-      "slug": "maccabi-tel-aviv-host-europa-league-third-qualifying-round-batumi",
-      "title": "Maccabi Tel Aviv to host Europa League third-round opener in Batumi after 6-0 rout of Sheriff Tiraspol",
+      "id": "live-20260731-maccabi-tel-aviv-cska-sofia-stakes",
+      "slug": "maccabi-tel-aviv-cska-sofia-europa-league-stakes",
+      "title": "Maccabi Tel Aviv on alert as Sofia clash becomes the fight for Europe",
       "statusBefore": "published",
-      "words": 346,
-      "paragraphs": 7,
+      "words": 476,
+      "paragraphs": 8,
       "facts": 6,
-      "verificationSources": 4,
+      "verificationSources": 5,
       "blockers": [],
       "warnings": []
+    },
+    {
+      "id": "live-2026-07-31-portland-blazers-alpha-hierarchy",
+      "slug": "portland-trail-blazers-avdija-lillard-morant-star-hierarchy",
+      "title": "Avdija, Lillard and Morant: Portland's star glut leaves one question before title contention",
+      "statusBefore": "published",
+      "words": 692,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-2026-07-30-lebron-james-espn-last-dance-documentary-76ers",
@@ -17027,18 +17073,6 @@
       "title": "Hapoel Be'er 2–0 Vikingur Reykjavik: Champions League qualifying",
       "statusBefore": "published",
       "words": 93,
-      "paragraphs": 3,
-      "facts": 3,
-      "verificationSources": 1,
-      "blockers": [],
-      "warnings": []
-    },
-    {
-      "id": "result-2026-07-30-maccabi-tel-aviv-sheriff-tiraspol",
-      "slug": "maccabi-tel-aviv-1-0-sheriff-tiraspol-europa-league-qualifying",
-      "title": "Maccabi Tel-Aviv 1–0 Sheriff Tiraspol: Europa League qualifying",
-      "statusBefore": "published",
-      "words": 90,
       "paragraphs": 3,
       "facts": 3,
       "verificationSources": 1,
