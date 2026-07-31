@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-31T17:09:14Z",
-    "validUntil": "2026-08-01T05:09:14Z",
+    "checkedAt": "2026-07-31T18:22:27Z",
+    "validUntil": "2026-08-01T06:22:27Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 284,
+        "maxAgeHours": 285,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-07-31-galil-elyon-camp-ashdod-wahab-signings",
+        "articleId": "live-2026-07-31-llorente-ferran-torres-ibiza-masculinity",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 292,
+        "maxAgeHours": 293,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260731-mudryk-cleared-doping-ban-comeback",
+        "articleId": "live-20260731-uefa-freezes-maccabi-tel-aviv-ticket-sales-cska-sofia",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 302,
+        "maxAgeHours": 303,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260731-tottenham-de-zerbi-237m-transfer-spree",
+        "articleId": "live-2026-07-31-galil-elyon-camp-ashdod-wahab-signings",
         "maxAgeHours": 24,
         "requires": []
       }

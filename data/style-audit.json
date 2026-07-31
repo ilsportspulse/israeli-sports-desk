@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T17:09:15.324Z",
+  "generatedAt": "2026-07-31T18:22:28.111Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 693,
+    "publishedArticles": 696,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 427,
-      "average": 426.7
+      "median": 426.5,
+      "average": 426.5
     },
     "paragraphDistribution": {
       "3": 34,
@@ -24,9 +24,9 @@
       "5": 9,
       "6": 34,
       "7": 104,
-      "8": 177,
+      "8": 179,
       "9": 157,
-      "10": 121,
+      "10": 122,
       "11": 30,
       "12": 11,
       "13": 4,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.255,
+    "dominantParagraphShare": 0.257,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 34,
     "analysisBelowTarget": 8,
@@ -3042,6 +3042,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-31-llorente-ferran-torres-ibiza-masculinity",
+      "slug": "marcos-llorente-ferran-torres-ibiza-photos-response",
+      "title": "Llorente breaks silence on viral Ibiza photos with World Cup winner Ferran Torres",
+      "kind": "article",
+      "words": 351,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 29,
+        "longest": 60,
+        "average": 43.9
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 70,
+        "average": 31.9
+      },
+      "lexicalDiversity": 0.644,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-31-carlos-espi-real-madrid",
+      "slug": "carlos-espi-real-madrid-quiet-summer-transfer",
+      "title": "Real Madrid complete surprise deal for Levante striker Carlos Espí",
+      "kind": "news",
+      "words": 465,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 40,
+        "longest": 57,
+        "average": 46.5
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 49,
+        "average": 31
+      },
+      "lexicalDiversity": 0.604,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260731-uefa-freezes-maccabi-tel-aviv-ticket-sales-cska-sofia",
+      "slug": "uefa-freezes-maccabi-tel-aviv-ticket-sales-cska-sofia",
+      "title": "UEFA orders Maccabi Tel Aviv to freeze ticket sales for CSKA Sofia tie amid pyrotechnics probe",
+      "kind": "news",
+      "words": 336,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 24,
+        "longest": 62,
+        "average": 42
+      },
+      "sentenceWords": {
+        "shortest": 15,
+        "longest": 71,
+        "average": 33.6
+      },
+      "lexicalDiversity": 0.589,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-07-31-galil-elyon-camp-ashdod-wahab-signings",
       "slug": "galil-elyon-sign-maurice-camp-ashdod-add-qudus-wahab",
