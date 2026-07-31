@@ -146,49 +146,49 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-31T08:08:45Z",
-    "validUntil": "2026-07-31T20:08:45Z",
+    "checkedAt": "2026-07-31T09:32:26Z",
+    "validUntil": "2026-07-31T21:32:26Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 275,
+        "maxAgeHours": 277,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260731-barcelona-alvarez-points-deduction-threat",
+        "articleId": "live-2026-07-31-casemiro-messi-dream-inter-miami",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 283,
+        "maxAgeHours": 284,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "archive-20260731-melbourne-26-january-2008-the-final-that",
+        "articleId": "live-2026-07-31-maccabi-tel-aviv-theis-bacot-frontcourt",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 293,
+        "maxAgeHours": 295,
         "requires": [
           "column"
         ]
       },
       {
         "role": "archive",
-        "articleId": "archive-20260730-tokyo-1-august-2021-the-tie-break-that-m",
+        "articleId": "archive-20260731-melbourne-26-january-2008-the-final-that",
         "maxAgeHours": 53,
         "requires": [
           "historical-feature"
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260731-hapoel-tel-aviv-ceo-hearing-frozen",
+        "articleId": "live-2026-07-31-curtis-jones-liverpool-clash",
         "maxAgeHours": 24,
         "requires": []
       }

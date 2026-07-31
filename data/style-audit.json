@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T08:08:46.644Z",
+  "generatedAt": "2026-07-31T09:32:27.635Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,11 +11,11 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 679,
+    "publishedArticles": 683,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 427,
+      "median": 426,
       "average": 426.4
     },
     "paragraphDistribution": {
@@ -24,9 +24,9 @@
       "5": 9,
       "6": 34,
       "7": 102,
-      "8": 173,
-      "9": 152,
-      "10": 119,
+      "8": 175,
+      "9": 153,
+      "10": 120,
       "11": 30,
       "12": 10,
       "13": 4,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.255,
+    "dominantParagraphShare": 0.256,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 34,
     "analysisBelowTarget": 8,
-    "articlesWithStyleFlags": 129
+    "articlesWithStyleFlags": 130
   },
   "flagged": [
     {
@@ -232,6 +232,29 @@
       "flags": [
         "below-editorial-target:84/650",
         "analysis-structure:3/5-paragraphs"
+      ]
+    },
+    {
+      "id": "live-20260731-lookman-atletico-heir-simeone",
+      "slug": "ademola-lookman-atletico-madrid-new-leader-simeone",
+      "title": "Lookman is shaping up as Atlético Madrid's answer to life after Griezmann",
+      "kind": "news",
+      "words": 535,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 39,
+        "longest": 67,
+        "average": 53.5
+      },
+      "sentenceWords": {
+        "shortest": 3,
+        "longest": 52,
+        "average": 28.2
+      },
+      "lexicalDiversity": 0.596,
+      "publisherAttributions": 2,
+      "flags": [
+        "publisher-attribution-heavy:2"
       ]
     },
     {
@@ -3019,6 +3042,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-31-casemiro-messi-dream-inter-miami",
+      "slug": "casemiro-messi-dream-inter-miami",
+      "title": "Casemiro: my dream was always to play alongside Leo Messi",
+      "kind": "news",
+      "words": 361,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 29,
+        "longest": 62,
+        "average": 45.1
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 153,
+        "average": 60.2
+      },
+      "lexicalDiversity": 0.562,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-31-maccabi-tel-aviv-theis-bacot-frontcourt",
+      "slug": "maccabi-tel-aviv-theis-bacot-frontcourt-rebuild",
+      "title": "Maccabi Tel Aviv close in on Daniel Theis as Armando Bacot deal also nears",
+      "kind": "news",
+      "words": 394,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 68,
+        "average": 49.3
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 39,
+        "average": 24.6
+      },
+      "lexicalDiversity": 0.612,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-31-curtis-jones-liverpool-clash",
+      "slug": "curtis-jones-szoboszlai-liverpool-dressing-room-clash",
+      "title": "Curtis Jones clashes with Szoboszlai as Liverpool's pre-season harmony cracks",
+      "kind": "news",
+      "words": 421,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 39,
+        "longest": 58,
+        "average": 46.8
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 50,
+        "average": 26.3
+      },
+      "lexicalDiversity": 0.613,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260731-barcelona-alvarez-points-deduction-threat",
       "slug": "barcelona-alvarez-points-deduction-threat",

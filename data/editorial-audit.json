@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T08:08:46.223Z",
+  "generatedAt": "2026-07-31T09:32:27.223Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,12 +17,12 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 846,
-    "publishedBefore": 679,
-    "cleanPublished": 671,
+    "totalArticles": 850,
+    "publishedBefore": 683,
+    "cleanPublished": 675,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 679,
+    "publishedAfter": 683,
     "reviewAfter": 167
   },
   "blockedPublished": [
@@ -156,6 +156,50 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-2026-07-31-maccabi-tel-aviv-theis-bacot-frontcourt",
+      "slug": "maccabi-tel-aviv-theis-bacot-frontcourt-rebuild",
+      "title": "Maccabi Tel Aviv close in on Daniel Theis as Armando Bacot deal also nears",
+      "statusBefore": "published",
+      "words": 386,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-31-curtis-jones-liverpool-clash",
+      "slug": "curtis-jones-szoboszlai-liverpool-dressing-room-clash",
+      "title": "Curtis Jones clashes with Szoboszlai as Liverpool's pre-season harmony cracks",
+      "statusBefore": "published",
+      "words": 425,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260731-lookman-atletico-heir-simeone",
+      "slug": "ademola-lookman-atletico-madrid-new-leader-simeone",
+      "title": "Lookman is shaping up as Atlético Madrid's answer to life after Griezmann",
+      "statusBefore": "published",
+      "words": 540,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
     {
       "id": "live-20260731-barcelona-alvarez-points-deduction-threat",
       "slug": "barcelona-alvarez-points-deduction-threat",
@@ -8064,6 +8108,62 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-07-31-casemiro-messi-dream-inter-miami",
+      "slug": "casemiro-messi-dream-inter-miami",
+      "title": "Casemiro: my dream was always to play alongside Leo Messi",
+      "statusBefore": "published",
+      "words": 361,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-07-31-maccabi-tel-aviv-theis-bacot-frontcourt",
+      "slug": "maccabi-tel-aviv-theis-bacot-frontcourt-rebuild",
+      "title": "Maccabi Tel Aviv close in on Daniel Theis as Armando Bacot deal also nears",
+      "statusBefore": "published",
+      "words": 386,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-31-curtis-jones-liverpool-clash",
+      "slug": "curtis-jones-szoboszlai-liverpool-dressing-room-clash",
+      "title": "Curtis Jones clashes with Szoboszlai as Liverpool's pre-season harmony cracks",
+      "statusBefore": "published",
+      "words": 425,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260731-lookman-atletico-heir-simeone",
+      "slug": "ademola-lookman-atletico-madrid-new-leader-simeone",
+      "title": "Lookman is shaping up as Atlético Madrid's answer to life after Griezmann",
+      "statusBefore": "published",
+      "words": 540,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
     {
       "id": "live-20260731-barcelona-alvarez-points-deduction-threat",
       "slug": "barcelona-alvarez-points-deduction-threat",
