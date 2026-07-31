@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T18:40:30.492Z",
+  "generatedAt": "2026-07-31T20:09:05.651Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 696,
+    "publishedArticles": 700,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 426,
-      "average": 426.5
+      "average": 426.3
     },
     "paragraphDistribution": {
       "3": 34,
@@ -24,9 +24,9 @@
       "5": 9,
       "6": 34,
       "7": 105,
-      "8": 178,
+      "8": 180,
       "9": 158,
-      "10": 121,
+      "10": 123,
       "11": 30,
       "12": 11,
       "13": 4,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.256,
+    "dominantParagraphShare": 0.257,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 34,
     "analysisBelowTarget": 8,
@@ -3043,66 +3043,108 @@
   ],
   "clean": [
     {
-      "id": "live-2026-07-31-hezonja-cavaliers-nba-return",
-      "slug": "hezonja-cavaliers-nba-return",
-      "title": "Hezonja snubs Hapoel Tel Aviv to complete NBA return with Cleveland Cavaliers",
+      "id": "live-2026-07-31-infantino-fifa-crisis-uefa-boycott",
+      "slug": "infantino-fifa-crisis-uefa-boycott-world-cup",
+      "title": "Uefa threatens World Cup boycott as pressure mounts on Fifa's Gianni Infantino",
       "kind": "news",
-      "words": 395,
+      "words": 518,
       "paragraphs": 9,
       "paragraphWords": {
-        "shortest": 35,
-        "longest": 53,
+        "shortest": 34,
+        "longest": 75,
+        "average": 57.6
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 57,
+        "average": 32.4
+      },
+      "lexicalDiversity": 0.573,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-31-barcelona-sign-bisiwu",
+      "slug": "barcelona-sign-jesse-bisiwu-five-year-deal",
+      "title": "Barcelona sign Belgian teenager Jesse Bisiwu on five-year deal",
+      "kind": "article",
+      "words": 287,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 24,
+        "longest": 56,
+        "average": 35.9
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 45,
+        "average": 26.1
+      },
+      "lexicalDiversity": 0.669,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-31-bellingham-special-guest-birmingham-barcelona",
+      "slug": "bellingham-special-guest-birmingham-barcelona",
+      "title": "Special guest: why Jude Bellingham returned to St Andrew's for Barcelona's visit",
+      "kind": "article",
+      "words": 401,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 24,
+        "longest": 50,
+        "average": 40.1
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 47,
+        "average": 36.5
+      },
+      "lexicalDiversity": 0.631,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-31-llorente-ferran-torres-ibiza-masculinity",
+      "slug": "marcos-llorente-ferran-torres-ibiza-photos-response",
+      "title": "Llorente breaks silence on viral Ibiza photos with World Cup winner Ferran Torres",
+      "kind": "article",
+      "words": 351,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 29,
+        "longest": 60,
         "average": 43.9
       },
       "sentenceWords": {
         "shortest": 9,
-        "longest": 40,
-        "average": 28.2
+        "longest": 70,
+        "average": 31.9
       },
-      "lexicalDiversity": 0.562,
-      "publisherAttributions": 1,
-      "flags": []
-    },
-    {
-      "id": "live-2026-07-31-uefa-orders-maccabi-tel-aviv-to-freeze-cska-sofia-ticket-sales",
-      "slug": "uefa-orders-maccabi-tel-aviv-freeze-cska-sofia-ticket-sales",
-      "title": "UEFA orders Maccabi Tel Aviv to freeze ticket sales for CSKA Sofia tie after Sheriff pyro probe",
-      "kind": "news",
-      "words": 389,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 39,
-        "longest": 54,
-        "average": 48.6
-      },
-      "sentenceWords": {
-        "shortest": 15,
-        "longest": 54,
-        "average": 32.4
-      },
-      "lexicalDiversity": 0.542,
+      "lexicalDiversity": 0.644,
       "publisherAttributions": 0,
       "flags": []
     },
     {
-      "id": "live-2026-07-31-israel-duet-10th-technical-artistic-swimming-europeans",
-      "slug": "konin-mazor-10th-technical-duet-european-aquatics-championships",
-      "title": "Konin and Mazor finish 10th in technical duet at European Aquatics Championships",
-      "kind": "article",
-      "words": 393,
-      "paragraphs": 7,
+      "id": "live-2026-07-31-carlos-espi-real-madrid",
+      "slug": "carlos-espi-real-madrid-quiet-summer-transfer",
+      "title": "Real Madrid complete surprise deal for Levante striker Carlos Espí",
+      "kind": "news",
+      "words": 465,
+      "paragraphs": 10,
       "paragraphWords": {
-        "shortest": 43,
-        "longest": 68,
-        "average": 56.1
+        "shortest": 40,
+        "longest": 57,
+        "average": 46.5
       },
       "sentenceWords": {
         "shortest": 10,
-        "longest": 48,
-        "average": 30.2
+        "longest": 49,
+        "average": 31
       },
-      "lexicalDiversity": 0.57,
-      "publisherAttributions": 0,
+      "lexicalDiversity": 0.604,
+      "publisherAttributions": 1,
       "flags": []
     },
     {
@@ -3249,27 +3291,6 @@
         "average": 23.8
       },
       "lexicalDiversity": 0.584,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-07-31-cordeiro-resigns-fifa-adviser-infantino-protest",
-      "slug": "cordeiro-resigns-fifa-adviser-infantino-world-cup-privatization-protest",
-      "title": "Fifa adviser Cordeiro quits in protest at Infantino's World Cup sell-off plan",
-      "kind": "news",
-      "words": 444,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 42,
-        "longest": 58,
-        "average": 49.3
-      },
-      "sentenceWords": {
-        "shortest": 5,
-        "longest": 53,
-        "average": 29.6
-      },
-      "lexicalDiversity": 0.595,
       "publisherAttributions": 0,
       "flags": []
     },
@@ -14926,6 +14947,69 @@
       },
       "lexicalDiversity": 0.541,
       "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-31-hezonja-cavaliers-nba-return",
+      "slug": "hezonja-cavaliers-nba-return",
+      "title": "Hezonja snubs Hapoel Tel Aviv to complete NBA return with Cleveland Cavaliers",
+      "kind": "news",
+      "words": 395,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 53,
+        "average": 43.9
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 40,
+        "average": 28.2
+      },
+      "lexicalDiversity": 0.562,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-31-uefa-orders-maccabi-tel-aviv-to-freeze-cska-sofia-ticket-sales",
+      "slug": "uefa-orders-maccabi-tel-aviv-freeze-cska-sofia-ticket-sales",
+      "title": "UEFA orders Maccabi Tel Aviv to freeze ticket sales for CSKA Sofia tie after Sheriff pyro probe",
+      "kind": "news",
+      "words": 389,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 39,
+        "longest": 54,
+        "average": 48.6
+      },
+      "sentenceWords": {
+        "shortest": 15,
+        "longest": 54,
+        "average": 32.4
+      },
+      "lexicalDiversity": 0.542,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-31-israel-duet-10th-technical-artistic-swimming-europeans",
+      "slug": "konin-mazor-10th-technical-duet-european-aquatics-championships",
+      "title": "Konin and Mazor finish 10th in technical duet at European Aquatics Championships",
+      "kind": "article",
+      "words": 393,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 43,
+        "longest": 68,
+        "average": 56.1
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 48,
+        "average": 30.2
+      },
+      "lexicalDiversity": 0.57,
+      "publisherAttributions": 0,
       "flags": []
     }
   ]
