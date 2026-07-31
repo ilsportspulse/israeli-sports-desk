@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T05:08:26.630Z",
+  "generatedAt": "2026-07-31T06:30:04.877Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 677,
+    "publishedArticles": 679,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 427,
-      "average": 426.1
+      "average": 426.4
     },
     "paragraphDistribution": {
       "3": 34,
@@ -25,7 +25,7 @@
       "6": 34,
       "7": 102,
       "8": 173,
-      "9": 150,
+      "9": 152,
       "10": 119,
       "11": 30,
       "12": 10,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.256,
+    "dominantParagraphShare": 0.255,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 34,
     "analysisBelowTarget": 8,
@@ -3019,6 +3019,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260731-barcelona-alvarez-points-deduction-threat",
+      "slug": "barcelona-alvarez-points-deduction-threat",
+      "title": "Barcelona could face points deduction as Spanish federation opens Álvarez tampering probe",
+      "kind": "report",
+      "words": 370,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 59,
+        "average": 41.1
+      },
+      "sentenceWords": {
+        "shortest": 20,
+        "longest": 67,
+        "average": 37
+      },
+      "lexicalDiversity": 0.592,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "archive-20260731-melbourne-26-january-2008-the-final-that",
+      "slug": "melbourne-26-january-2008-the-final-that-made-andyoni-israel-s-first-g",
+      "title": "Melbourne, 26 January 2008: The Final That Made 'Andyoni' Israel's First Grand Slam Champions",
+      "kind": "explainer",
+      "words": 706,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 95,
+        "average": 78.4
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 68,
+        "average": 29.4
+      },
+      "lexicalDiversity": 0.5,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260731-maccabi-tel-aviv-cska-sofia-stakes",
       "slug": "maccabi-tel-aviv-cska-sofia-europa-league-stakes",

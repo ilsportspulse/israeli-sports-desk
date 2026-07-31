@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T05:08:26.350Z",
+  "generatedAt": "2026-07-31T06:30:04.425Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 843,
-    "publishedBefore": 677,
-    "cleanPublished": 669,
+    "totalArticles": 846,
+    "publishedBefore": 679,
+    "cleanPublished": 671,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 677,
-    "reviewAfter": 166
+    "publishedAfter": 679,
+    "reviewAfter": 167
   },
   "blockedPublished": [
     {
@@ -156,6 +156,34 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-20260731-barcelona-alvarez-points-deduction-threat",
+      "slug": "barcelona-alvarez-points-deduction-threat",
+      "title": "Barcelona could face points deduction as Spanish federation opens Álvarez tampering probe",
+      "statusBefore": "published",
+      "words": 372,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "archive-20260731-melbourne-26-january-2008-the-final-that",
+      "slug": "melbourne-26-january-2008-the-final-that-made-andyoni-israel-s-first-g",
+      "title": "Melbourne, 26 January 2008: The Final That Made 'Andyoni' Israel's First Grand Slam Champions",
+      "statusBefore": "published",
+      "words": 703,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260731-hapoel-tel-aviv-ceo-hearing-frozen",
       "slug": "hapoel-tel-aviv-ceo-hearing-frozen-chason-vacation",
@@ -8036,6 +8064,34 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-20260731-barcelona-alvarez-points-deduction-threat",
+      "slug": "barcelona-alvarez-points-deduction-threat",
+      "title": "Barcelona could face points deduction as Spanish federation opens Álvarez tampering probe",
+      "statusBefore": "published",
+      "words": 372,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "archive-20260731-melbourne-26-january-2008-the-final-that",
+      "slug": "melbourne-26-january-2008-the-final-that-made-andyoni-israel-s-first-g",
+      "title": "Melbourne, 26 January 2008: The Final That Made 'Andyoni' Israel's First Grand Slam Champions",
+      "statusBefore": "published",
+      "words": 703,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260731-hapoel-tel-aviv-ceo-hearing-frozen",
       "slug": "hapoel-tel-aviv-ceo-hearing-frozen-chason-vacation",

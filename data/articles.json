@@ -1,5 +1,335 @@
 [
   {
+    "id": "live-20260731-barcelona-alvarez-points-deduction-threat",
+    "slug": "barcelona-alvarez-points-deduction-threat",
+    "title": "Barcelona could face points deduction as Spanish federation opens Álvarez tampering probe",
+    "dek": "The Royal Spanish Football Federation has launched disciplinary proceedings against Barcelona after Atlético Madrid accused the club of illegally courting Julián Álvarez, with a three-point La Liga deduction among the sanctions on the table.",
+    "category": "World Football",
+    "desk": "international",
+    "kind": "report",
+    "storyForm": "disciplinary-report",
+    "publishedAt": "2026-07-31T06:22:31.542Z",
+    "updatedAt": "2026-07-31T06:22:31.542Z",
+    "readMinutes": 4,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/529478.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/529478.html"
+      },
+      {
+        "label": "beIN Sports",
+        "url": "https://www.beinsports.com/en-us/soccer/la-liga/articles/the-severe-sanctions-facing-juli%C3%A1n-%C3%A1lvarez-and-barcelona-following-atl%C3%A9tico-de-madrid-s-complaint-2026-07-30"
+      },
+      {
+        "label": "Goal.com",
+        "url": "https://www.goal.com/en/lists/after-atletico-s-complaint-barcelona-and-alvarez-face-harsh-sanctions/blt2524370566c2a254"
+      },
+      {
+        "label": "Yahoo Sports",
+        "url": "https://sports.yahoo.com/articles/over-juli-n-lvarez-rfef-144500889.html"
+      }
+    ],
+    "body": [
+      "Barcelona are facing the threat of a three-point deduction in La Liga after Spain's football federation opened a formal disciplinary investigation into the club's pursuit of Atlético Madrid striker Julián Álvarez, ONE reports.",
+      "The Royal Spanish Football Federation (RFEF) launched the extraordinary proceedings under its disciplinary code after Atlético lodged an official complaint accusing Barcelona of making repeated, unauthorised contact with Álvarez over several months in an attempt to lure him away from the club.",
+      "Atlético went public with its grievance, describing Barcelona's conduct as harassment and taking the complaint to both the Spanish federation and FIFA. The Madrid club argues the approaches came while Álvarez remained firmly under contract, which runs until the summer of 2030.",
+      "The saga gained fresh fuel when Álvarez himself spoke publicly during Argentina's 2026 World Cup campaign, saying on June 22 that he wanted to \"fulfil his dream\" — remarks widely read in Spain as an acknowledgement of Barcelona's interest.",
+      "According to ONE, the sanctions available to the RFEF against Barcelona under Section 93 of its disciplinary code are severe: a deduction of three points in next season's La Liga table, partial or full closure of the club's facilities for a number of matches, a ban on registering new players for one or more transfer windows, and financial fines.",
+      "Álvarez himself is not shielded from the process. The RFEF could suspend him for anywhere between one month and two years, with a minimum four-match ban should he be found to have breached the rules, and he could also be ordered to compensate Atlético for the period he is unable to play.",
+      "The case will now proceed through Spain's extraordinary disciplinary procedure, with Barcelona and Atlético each submitting written arguments before a disciplinary instructor rules on whether the regulations were actually broken.",
+      "Crucially, the opening of an investigation does not mean sanctions are inevitable — Barcelona have been formally notified and will get the chance to mount a defence before any verdict is reached.",
+      "Still, the scale of the potential punishment is striking for a club already navigating tight financial fair play constraints under La Liga's spending rules, and it adds a fresh layer of tension to a transfer pursuit that Atlético insists crossed a clear line."
+    ],
+    "facts": [
+      "The RFEF has opened disciplinary proceedings against Barcelona over its pursuit of Atlético Madrid's Julián Álvarez.",
+      "Barcelona could be docked three points in the next La Liga table if found guilty, among other sanctions.",
+      "Other possible sanctions for Barcelona include partial or full closure of club facilities and a ban on registering new players for one or more transfer windows.",
+      "Álvarez could be suspended for between one month and two years, with a minimum four-match ban, and ordered to compensate Atlético Madrid.",
+      "Álvarez remains under contract with Atlético Madrid until the summer of 2030.",
+      "Atlético Madrid filed its complaint with the Spanish federation and FIFA after alleging months of unauthorised contact by Barcelona.",
+      "Both clubs will submit written arguments to a disciplinary instructor before any ruling is made."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 74,
+    "homepageReason": "Major disciplinary threat against a superstar club (Barcelona) involving a high-profile World Cup-winning striker, with real sporting sanctions including a points deduction on the table.",
+    "dedupeKey": "football barcelona atletico-madrid julian-alvarez rfef-disciplinary-proceedings 2026-07",
+    "aiDisclosure": "AI-assisted ILSP Sports Desk report. Facts on the RFEF proceedings and potential sanctions are drawn from ONE and cross-checked against beIN Sports, Goal.com and Yahoo Sports reporting.",
+    "nameChecks": [
+      {
+        "hebrew": "ברצלונה",
+        "english": "Barcelona",
+        "verificationUrl": "https://www.beinsports.com/en-us/soccer/la-liga/articles/the-severe-sanctions-facing-juli%C3%A1n-%C3%A1lvarez-and-barcelona-following-atl%C3%A9tico-de-madrid-s-complaint-2026-07-30",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "חוליאן אלווארס",
+        "english": "Julián Álvarez",
+        "verificationUrl": "https://commons.wikimedia.org/wiki/Category:Juli%C3%A1n_%C3%81lvarez_(footballer)",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "אטלטיקו מדריד",
+        "english": "Atlético Madrid",
+        "verificationUrl": "https://en.atleticodemadrid.com/jugadores/julian-alvarez-2025-2026-2",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "ההתאחדות הספרדית לכדורגל",
+        "english": "Royal Spanish Football Federation (RFEF)",
+        "verificationUrl": "https://www.moroccoworldnews.com/2026/07/332125/rfef-launches-formal-investigation-into-barcelona-over-julian-alvarez-pursuit/",
+        "confidence": 0.9
+      }
+    ],
+    "confidence": 0.85,
+    "warning": "Investigation is at an early stage — no sanctions have been imposed and the case could still be closed without punishment.",
+    "commonsQuery": "Julián Álvarez Atlético Madrid Camp Nou Barcelona",
+    "commonsCandidates": [
+      {
+        "title": "File:Julián Álvarez, FC Salzburg vs. Atletico Madrid (2025-01-29 UEFA Championsleague) 72 (cropped).jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Juli%C3%A1n_%C3%81lvarez,_FC_Salzburg_vs._Atletico_Madrid_(2025-01-29_UEFA_Championsleague)_72_(cropped).jpg",
+        "credit": "Werner100359",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:Camp Nou FC Barcelona.JPG",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Camp_Nou_FC_Barcelona.JPG",
+        "credit": "Darz Mol",
+        "license": "CC BY-SA 3.0"
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "live-2026-07-31-beitar-jerusalem-decade-symmetry",
+    "slug": "beitar-jerusalem-decade-symmetry-larnaca-omonia",
+    "title": "Beitar Jerusalem beat AEK Larnaca 4-3 on penalties, replaying their 2016 escape almost move for move",
+    "dek": "A 1-0 win in Cyprus, a 3-2 collapse at home and a nervy shootout — a decade after eliminating Omonia Nicosia the exact same way, Beitar Jerusalem lived through it all again in the Conference League.",
+    "category": "Israeli Football",
+    "desk": "israel",
+    "kind": "news",
+    "storyForm": "analysis",
+    "publishedAt": "2026-07-31T06:22:31.542Z",
+    "updatedAt": "2026-07-31T06:22:31.542Z",
+    "readMinutes": 4,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/529485.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE — match report on the Larnaca tie",
+        "url": "https://www.one.co.il/Article/529453.html"
+      },
+      {
+        "label": "Ynet — Beitar Jerusalem eliminate Larnaca",
+        "url": "https://www.ynet.co.il/sport/article/one529453"
+      },
+      {
+        "label": "Walla Sport — Beitar win 0-1 away at Larnaca",
+        "url": "https://sports.walla.co.il/item/3855684"
+      },
+      {
+        "label": "Sport1/Maariv — Beitar beat Larnaca on penalties",
+        "url": "https://sport1.maariv.co.il/israeli-soccer/article/1912851/"
+      },
+      {
+        "label": "ESPN — Beitar 1-0 Omonia, first leg, July 14, 2016",
+        "url": "https://www.espn.com/soccer/report?gameId=458452"
+      },
+      {
+        "label": "Transfermarkt — Omonia Nicosia vs Beitar Jerusalem, July 21, 2016",
+        "url": "https://www.transfermarkt.co.uk/omonia-nikosia_beitar-jerusalem/aufstellung/spielbericht/2711540"
+      }
+    ],
+    "body": [
+      "Beitar Jerusalem needed a penalty shootout and two saves from Miguel Silva to see off AEK Larnaca in Conference League qualifying this week — and for anyone who has followed the club long enough, the whole tie played out like a rerun of a European night from exactly ten years earlier.",
+      "The numbers line up almost too neatly. In the first leg in Cyprus, Beitar won 1-0 away. In the return leg at Teddy Stadium, they lost 3-2 after extra time. The aggregate finished level at 3-3, and Beitar went through anyway — this time on penalties, 4-3, after Silva denied two Larnaca kicks.",
+      "Omer Atzili was at the heart of it in normal time, winning and converting a penalty to make it 1-1 on the night before halftime, then producing a stunning strike from outside the box in the 87th minute to put Beitar 2-2 and, briefly, back in front on aggregate. Silva then erred in stoppage time, allowing Larnaca to snatch a third goal in the 92nd minute and force extra time, before Beitar's goalkeeper redeemed himself in the shootout.",
+      "Manager Almog Cohen's side had already shown they could win away in Cyprus without conceding, a rarity for an Israeli club on the road in Europe. Losing the home leg by the same 3-2 scoreline they once suffered against a different Cypriot opponent, a decade to the summer, is the detail that gives the story its edge.",
+      "That earlier tie came in July 2016, against Omonia Nicosia in Europa League qualifying. Beitar won the first leg 1-0 at home, then lost 3-2 away in Nicosia — an aggregate score, 3-3, identical to this year's. Back then, away goals still decided ties level on aggregate, and Beitar's two goals scored in Cyprus were enough to send them through over Omonia's none scored in Jerusalem.",
+      "According to ONE, the scorers in that 2016 defeat that somehow still counted as progress were Amir Agayev and Killian Sheridan, the latter a forward who had earlier played for Hapoel Ironi Kiryat Shmona. UEFA has since scrapped the away-goals rule altogether, which is exactly why this year's identical aggregate needed a shootout rather than a countback.",
+      "It is a coincidence rather than a pattern with any deeper meaning — different opponents, different competition names, a different rulebook — but it is still a striking one for a club whose European qualifying campaigns are rarely straightforward. Both ties involved Cypriot opposition, both were built on an away win followed by a home defeat by an identical scoreline, and both ended with Beitar's name in the next round's draw.",
+      "For this season's squad, the more immediate takeaway is simpler: a difficult two-legged tie is behind them, and Beitar remain alive in the Conference League qualifying rounds heading into August."
+    ],
+    "facts": [
+      "Beitar Jerusalem beat AEK Larnaca 4-3 on penalties after a 3-3 aggregate draw in Conference League qualifying, with Miguel Silva saving two spot-kicks.",
+      "Beitar won the first leg in Cyprus 1-0 (Larnaca 0-1 Beitar).",
+      "Beitar lost the home second leg 3-2 after extra time, with Omer Atzili scoring twice — a penalty and a strike from outside the box in the 87th minute.",
+      "Miguel Silva's error allowed Larnaca to score a stoppage-time third goal in the second leg, forcing extra time before the shootout.",
+      "A decade earlier, in July 2016, Beitar beat Omonia Nicosia 1-0 at home in the first leg of a Europa League qualifier, then lost 3-2 away — an identical 3-3 aggregate, with Beitar advancing on the since-abolished away-goals rule.",
+      "ONE reports the 2016 second-leg scorers for Beitar were Amir Agayev and Killian Sheridan, the latter formerly of Hapoel Ironi Kiryat Shmona."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 90,
+    "homepageReason": "Confirmed Israeli European qualification win via penalty shootout, paired with a genuinely striking historical symmetry angle.",
+    "dedupeKey": "conf-league-q-beitarjerusalem-aeklarnaca-2026-agg",
+    "aiDisclosure": "Drafted by an AI copy desk assistant from verified Israeli sports reporting (ONE, Ynet, Walla, Israel Hayom, Sport1) and cross-checked historical match data; reviewed before publication.",
+    "nameChecks": [
+      {
+        "hebrew": "בית\"ר ירושלים",
+        "english": "Beitar Jerusalem",
+        "verificationUrl": "https://www.one.co.il/Article/529453.html",
+        "confidence": 0.98
+      },
+      {
+        "hebrew": "עומר אצילי",
+        "english": "Omer Atzili",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Omer_Atzili",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "אלמוג כהן",
+        "english": "Almog Cohen",
+        "verificationUrl": "https://sport1.maariv.co.il/israeli-soccer/article/1912851/",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "מיגל סילבה",
+        "english": "Miguel Silva",
+        "verificationUrl": "https://sports.walla.co.il/item/3857249",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "א.א.ק לרנקה",
+        "english": "AEK Larnaca",
+        "verificationUrl": "https://www.uefa.com/uefaconferenceleague/match/2048809--beitar-vs-aek-larnaca/",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "אומוניה ניקוסיה",
+        "english": "Omonia Nicosia",
+        "verificationUrl": "https://www.espn.com/soccer/report?gameId=458452",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "כיליאן שרידן",
+        "english": "Killian Sheridan",
+        "verificationUrl": "https://www.one.co.il/Article/529485.html",
+        "confidence": 0.7
+      },
+      {
+        "hebrew": "אמיר אגייב",
+        "english": "Amir Agayev",
+        "verificationUrl": "https://www.one.co.il/Article/529485.html",
+        "confidence": 0.7
+      }
+    ],
+    "confidence": 0.85,
+    "warning": "",
+    "commonsQuery": "Omer Atzili Beitar Jerusalem Teddy Stadium",
+    "commonsCandidates": [
+      {
+        "title": "File:Omer Atzili.JPG",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Omer_Atzili.JPG",
+        "credit": "Botend / Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:Teddy Kollek Stadium.JPG",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Teddy_Kollek_Stadium.JPG",
+        "credit": "Maor X / Wikimedia Commons",
+        "license": "CC BY-SA 3.0"
+      }
+    ],
+    "status": "review"
+  },
+  {
+    "id": "archive-20260731-melbourne-26-january-2008-the-final-that",
+    "slug": "melbourne-26-january-2008-the-final-that-made-andyoni-israel-s-first-g",
+    "title": "Melbourne, 26 January 2008: The Final That Made 'Andyoni' Israel's First Grand Slam Champions",
+    "dek": "On a scorching Saturday at Rod Laver Arena, Jonathan Erlich and Andy Ram beat France's Arnaud Clément and Michaël Llodra to win the Australian Open men's doubles title — the first Grand Slam trophy ever lifted by an all-Israeli pair.",
+    "category": "From the Archive",
+    "desk": "israel",
+    "kind": "explainer",
+    "storyForm": "historical-feature",
+    "publishedAt": "2026-07-31T06:08:45.494Z",
+    "updatedAt": "2026-07-31T06:08:45.494Z",
+    "readMinutes": 4,
+    "source": {
+      "name": "Haaretz",
+      "url": "https://www.haaretz.com/2008-01-26/ty-article/israeli-duo-of-ram-erlich-win-australian-open-doubles-title/0000017f-e877-dc91-a17f-fcff1f5e0000"
+    },
+    "verificationSources": [
+      {
+        "label": "Wikipedia — 2008 Australian Open – Men's doubles",
+        "url": "https://en.wikipedia.org/wiki/2008_Australian_Open_%E2%80%93_Men%27s_doubles"
+      },
+      {
+        "label": "Haaretz — Israeli Duo of Ram, Erlich Win Australian Open Doubles Title",
+        "url": "https://www.haaretz.com/2008-01-26/ty-article/israeli-duo-of-ram-erlich-win-australian-open-doubles-title/0000017f-e877-dc91-a17f-fcff1f5e0000"
+      },
+      {
+        "label": "International Jewish Sports Hall of Fame — Jonathan \"Yoni\" Erlich",
+        "url": "https://jewishsportshof.org/listings/jonathan-yoni-erlich/"
+      },
+      {
+        "label": "Eurosport — Israel defeat Russia (Davis Cup, 2009)",
+        "url": "https://www.eurosport.com/tennis/davis-cup/2009/israel-defeat-russia_sto1998741/story.shtml"
+      },
+      {
+        "label": "Wikipedia — Andy Ram",
+        "url": "https://en.wikipedia.org/wiki/Andy_Ram"
+      }
+    ],
+    "body": [
+      "Rod Laver Arena empties out fast once the marquee singles matches finish, but on the evening of Saturday, 26 January 2008, a knot of Israeli flags stayed pressed against the railings. Down on court, two players who had spent a decade grinding through Challenger towns and Tuesday-afternoon doubles slots were serving out the biggest match of their careers. When Jonathan Erlich's final backhand volley dropped away from Arnaud Clément, he and Andy Ram had won 7–5, 7–6(4) — and Israel, for the first time, had a Grand Slam champion built entirely at home.",
+      "It sounds like a modest thing to call the men's doubles final a country's defining tennis moment, but for Israel it was exactly that. Ram had already won two Grand Slam mixed-doubles titles, at Wimbledon in 2006 with Vera Zvonareva and at the French Open in 2007 with Nathalie Dechy — proof he belonged at the top of the sport. What Melbourne gave Israel that Erlich's and Ram's other titles could not was a trophy shared by two Israelis, won as an Israeli team, under an Israeli flag raised twice.",
+      "Both men had arrived in Israel as small children of Latin American immigrant families. Erlich was born in Buenos Aires in April 1977 and moved with his parents to Haifa before his first birthday. Ram was born in Montevideo, Uruguay, in April 1980, and his family settled in Jerusalem when he was five, which is where he first picked up a racket. Years later the two met through Israel's Wingate Institute tennis program and began partnering on tour, eventually becoming so inseparable in Israeli sports pages that they were simply known as \"Andyoni.\"",
+      "Their breakthrough had come five years earlier, at Wimbledon in 2003, where Erlich and Ram reached the men's doubles semifinals — the first time any Israeli had gone that deep into a Grand Slam draw in any discipline. It cost them nothing in ambition; if anything it convinced them doubles was where they could win majors, even if the majors themselves stayed just out of reach for years afterward.",
+      "Melbourne in January 2008 finally delivered it. Seeded eighth, Erlich and Ram opened the tournament with an unusual first-round assignment: an all-Israeli derby against Dudi Sela and Harel Levy, which they won in straight sets. They then beat Scott Lipsky and David Martin, outlasted the Czech pairing of František Čermák and Lukáš Dlouhý, and downed Marc Gicquel and Fabrice Santoro in the semifinal to reach a final against the seventh-seeded French duo of Clément and Llodra — themselves former Davis Cup stalwarts and no easy final-round obstacle.",
+      "The final swung on small margins. Erlich and Ram took the first set 7–5, then had to survive a tighter second set that went to a tiebreak, closing it out 7–4 to seal the match 7–5, 7–6(4). It was, as Israeli and international press noted at the time, the first Grand Slam trophy ever won by an all-Israeli doubles team — a distinction that, for all of Israel's individual Grand Slam success in mixed and singles play since, still stands.",
+      "The Melbourne title also marked the peak of Erlich and Ram individually: in July 2008, only months after the final, both men reached a career-high doubles ranking of world No. 5, the highest either would ever attain.",
+      "Their partnership kept paying off for Israeli tennis well beyond Melbourne. In September 2009, Erlich and Ram won the decisive doubles rubber as Israel stunned Russia 3–0 in a Davis Cup World Group quarterfinal in Tel Aviv, beating Marat Safin and Igor Kunitsyn in five sets after Harel Levy and Dudi Sela had already won both opening singles. It sent Israel into its first and, to date, only Davis Cup World Group semifinal.",
+      "Erlich played on tour until 2022, closing out a career built almost entirely on doubles craft rather than singles firepower; Ram retired in 2014. Between them they turned a nickname into a genuine Israeli sporting institution. But it is the Melbourne afternoon in January 2008 that remains the reference point — the moment two sons of immigrant families, raised on Israeli hard courts, put an Israeli team's name on a Grand Slam trophy for the only time in the country's history."
+    ],
+    "facts": [
+      "On 26 January 2008, Jonathan Erlich and Andy Ram defeated Arnaud Clément and Michaël Llodra 7–5, 7–6(4) to win the Australian Open men's doubles title — the first Grand Slam title won by an all-Israeli pair.",
+      "Erlich and Ram, seeded 8th, beat fellow Israelis Dudi Sela and Harel Levy in the first round of that tournament.",
+      "Both players reached a career-high doubles ranking of world No. 5 in July 2008.",
+      "Erlich and Ram reached the Wimbledon men's doubles semifinals in 2003, the first Israelis to reach a Grand Slam semifinal in any discipline.",
+      "Erlich was born in Buenos Aires in 1977 and moved to Haifa as an infant; Ram was born in Montevideo, Uruguay, in 1980 and moved to Jerusalem at age five.",
+      "In September 2009, Erlich and Ram won the clinching doubles rubber as Israel beat Russia 3–0 in a Davis Cup World Group quarterfinal in Tel Aviv, sending Israel to its only Davis Cup World Group semifinal."
+    ],
+    "theme": "night-pitch",
+    "commonsQuery": "Jonathan Erlich Andy Ram Israeli tennis doubles",
+    "commonsCandidates": [
+      {
+        "file": "File:ErlichRam.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:ErlichRam.jpg",
+        "why": "Photo of Jonathan Erlich and Andy Ram playing a doubles match together in 2008 (Gerry Weber Open), the same year as the Australian Open title; CC BY-SA 3.0."
+      },
+      {
+        "file": "File:Andyoni 1.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Andyoni_1.jpg",
+        "why": "Photo of 'Andyoni' — Erlich and Ram together at the 2006 US Open; public domain."
+      },
+      {
+        "file": "File:Jonathan Erlich (ISR) (9640613774).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Jonathan_Erlich_(ISR)_(9640613774).jpg",
+        "why": "Solo photo of Jonathan Erlich at the 2013 US Open; CC BY-SA 2.0."
+      },
+      {
+        "file": "File:Andy Ram (9054446488).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Andy_Ram_(9054446488).jpg",
+        "why": "Solo photo of Andy Ram at the 2013 Queen's Club Championships; CC BY-SA 2.0."
+      }
+    ],
+    "archiveDate": "2008-01-26",
+    "archiveDisplay": {
+      "home": "Jonathan Erlich & Andy Ram (ISR)",
+      "away": "Arnaud Clément & Michaël Llodra (FRA)",
+      "score": "7–5, 7–6(4)",
+      "dateLine": "Melbourne, 26 January 2008",
+      "year": "2008"
+    },
+    "aiDisclosure": "Researched and written by the ILSP AI history desk; every fact verified against independent sources.",
+    "status": "published"
+  },
+  {
     "id": "live-20260731-hapoel-tel-aviv-ceo-hearing-frozen",
     "slug": "hapoel-tel-aviv-ceo-hearing-frozen-chason-vacation",
     "title": "Hapoel Tel Aviv freezes CEO hearing until chairman returns from vacation",
