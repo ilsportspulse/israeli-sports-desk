@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T11:08:53.350Z",
+  "generatedAt": "2026-07-31T12:24:56.667Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 683,
+    "publishedArticles": 687,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 426,
-      "average": 426.4
+      "median": 427,
+      "average": 426.8
     },
     "paragraphDistribution": {
       "3": 34,
@@ -24,11 +24,11 @@
       "5": 9,
       "6": 34,
       "7": 102,
-      "8": 175,
-      "9": 153,
-      "10": 120,
+      "8": 176,
+      "9": 154,
+      "10": 121,
       "11": 30,
-      "12": 10,
+      "12": 11,
       "13": 4,
       "14": 2,
       "16": 1,
@@ -3042,6 +3042,90 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-07-31-arsenal-bruno-guimaraes-transfer",
+      "slug": "arsenal-closing-in-bruno-guimaraes-transfer",
+      "title": "Arsenal closing in on €90m deal for Bruno Guimarães",
+      "kind": "news",
+      "words": 380,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 63,
+        "average": 47.5
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 36,
+        "average": 23.8
+      },
+      "lexicalDiversity": 0.584,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-31-cordeiro-resigns-fifa-adviser-infantino-protest",
+      "slug": "cordeiro-resigns-fifa-adviser-infantino-world-cup-privatization-protest",
+      "title": "Fifa adviser Cordeiro quits in protest at Infantino's World Cup sell-off plan",
+      "kind": "news",
+      "words": 444,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 42,
+        "longest": 58,
+        "average": 49.3
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 53,
+        "average": 29.6
+      },
+      "lexicalDiversity": 0.595,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-31-ter-stegen-ajax-brentford-sangare-record",
+      "slug": "ter-stegen-ajax-loan-brentford-record-sangare-transfer",
+      "title": "Ter Stegen closes in on Ajax loan as Brentford smash transfer record for Sangaré",
+      "kind": "news",
+      "words": 488,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 66,
+        "average": 48.8
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 51,
+        "average": 30.5
+      },
+      "lexicalDiversity": 0.605,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-31-franco-baresi-tributes",
+      "slug": "franco-baresi-tributes-maldini-milan-legend-dies",
+      "title": "Maldini leads tributes to Franco Baresi: 'What will we do without our captain?'",
+      "kind": "news",
+      "words": 667,
+      "paragraphs": 12,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 97,
+        "average": 55.6
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 115,
+        "average": 35.1
+      },
+      "lexicalDiversity": 0.537,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-07-31-casemiro-messi-dream-inter-miami",
       "slug": "casemiro-messi-dream-inter-miami",

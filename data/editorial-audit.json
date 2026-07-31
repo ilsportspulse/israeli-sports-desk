@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T11:08:52.946Z",
+  "generatedAt": "2026-07-31T12:24:56.268Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 850,
-    "publishedBefore": 683,
-    "cleanPublished": 675,
+    "totalArticles": 855,
+    "publishedBefore": 687,
+    "cleanPublished": 679,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 683,
-    "reviewAfter": 167
+    "publishedAfter": 687,
+    "reviewAfter": 168
   },
   "blockedPublished": [
     {
@@ -156,6 +156,77 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-2026-07-31-arsenal-bruno-guimaraes-transfer",
+      "slug": "arsenal-closing-in-bruno-guimaraes-transfer",
+      "title": "Arsenal closing in on €90m deal for Bruno Guimarães",
+      "statusBefore": "published",
+      "words": 380,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-07-31-cordeiro-resigns-fifa-adviser-infantino-protest",
+      "slug": "cordeiro-resigns-fifa-adviser-infantino-world-cup-privatization-protest",
+      "title": "Fifa adviser Cordeiro quits in protest at Infantino's World Cup sell-off plan",
+      "statusBefore": "published",
+      "words": 445,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-31-ter-stegen-ajax-brentford-sangare-record",
+      "slug": "ter-stegen-ajax-loan-brentford-record-sangare-transfer",
+      "title": "Ter Stegen closes in on Ajax loan as Brentford smash transfer record for Sangaré",
+      "statusBefore": "published",
+      "words": 491,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-31-adar-ratner-meniscus-tear",
+      "slug": "adar-ratner-meniscus-tear-maccabi-petah-tikva",
+      "title": "Maccabi Petah Tikva dealt blow as Adar Ratner is found to have torn meniscus",
+      "statusBefore": "review",
+      "words": 296,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-07-31-franco-baresi-tributes",
+      "slug": "franco-baresi-tributes-maldini-milan-legend-dies",
+      "title": "Maldini leads tributes to Franco Baresi: 'What will we do without our captain?'",
+      "statusBefore": "published",
+      "words": 667,
+      "paragraphs": 12,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-07-31-maccabi-tel-aviv-theis-bacot-frontcourt",
       "slug": "maccabi-tel-aviv-theis-bacot-frontcourt-rebuild",
@@ -8108,6 +8179,63 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-07-31-arsenal-bruno-guimaraes-transfer",
+      "slug": "arsenal-closing-in-bruno-guimaraes-transfer",
+      "title": "Arsenal closing in on €90m deal for Bruno Guimarães",
+      "statusBefore": "published",
+      "words": 380,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-07-31-cordeiro-resigns-fifa-adviser-infantino-protest",
+      "slug": "cordeiro-resigns-fifa-adviser-infantino-world-cup-privatization-protest",
+      "title": "Fifa adviser Cordeiro quits in protest at Infantino's World Cup sell-off plan",
+      "statusBefore": "published",
+      "words": 445,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-31-ter-stegen-ajax-brentford-sangare-record",
+      "slug": "ter-stegen-ajax-loan-brentford-record-sangare-transfer",
+      "title": "Ter Stegen closes in on Ajax loan as Brentford smash transfer record for Sangaré",
+      "statusBefore": "published",
+      "words": 491,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-31-franco-baresi-tributes",
+      "slug": "franco-baresi-tributes-maldini-milan-legend-dies",
+      "title": "Maldini leads tributes to Franco Baresi: 'What will we do without our captain?'",
+      "statusBefore": "published",
+      "words": 667,
+      "paragraphs": 12,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-07-31-casemiro-messi-dream-inter-miami",
       "slug": "casemiro-messi-dream-inter-miami",

@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-31T11:08:52Z",
-    "validUntil": "2026-07-31T23:08:52Z",
+    "checkedAt": "2026-07-31T12:24:55Z",
+    "validUntil": "2026-08-01T00:24:55Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 278,
+        "maxAgeHours": 279,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-07-31-casemiro-messi-dream-inter-miami",
+        "articleId": "live-2026-07-31-arsenal-bruno-guimaraes-transfer",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 286,
+        "maxAgeHours": 287,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-07-31-maccabi-tel-aviv-theis-bacot-frontcourt",
+        "articleId": "live-2026-07-31-cordeiro-resigns-fifa-adviser-infantino-protest",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 296,
+        "maxAgeHours": 297,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-07-31-curtis-jones-liverpool-clash",
+        "articleId": "live-2026-07-31-ter-stegen-ajax-brentford-sangare-record",
         "maxAgeHours": 24,
         "requires": []
       }
