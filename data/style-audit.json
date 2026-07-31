@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T13:08:52.678Z",
+  "generatedAt": "2026-07-31T14:31:50.758Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,21 +11,21 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 687,
+    "publishedArticles": 691,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 427,
-      "average": 426.8
+      "average": 426.7
     },
     "paragraphDistribution": {
       "3": 34,
       "4": 6,
       "5": 9,
       "6": 34,
-      "7": 102,
-      "8": 176,
-      "9": 154,
+      "7": 104,
+      "8": 177,
+      "9": 155,
       "10": 121,
       "11": 30,
       "12": 11,
@@ -3042,6 +3042,90 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260731-tottenham-de-zerbi-237m-transfer-spree",
+      "slug": "de-zerbi-tottenham-237m-transfer-spree-not-finished",
+      "title": "De Zerbi says Tottenham's £237m spending spree is 'not finished' as Savinho chase continues",
+      "kind": "article",
+      "words": 462,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 76,
+        "average": 57.8
+      },
+      "sentenceWords": {
+        "shortest": 3,
+        "longest": 58,
+        "average": 28.9
+      },
+      "lexicalDiversity": 0.582,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260731-bayern-hoeness-mocks-olise-real-madrid-rumours",
+      "slug": "bayern-hoeness-mocks-olise-real-madrid-rumours",
+      "title": "Even China's emperor wouldn't get Bayern talking about Olise, says Hoeneß",
+      "kind": "news",
+      "words": 302,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 32,
+        "longest": 58,
+        "average": 43.1
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 88,
+        "average": 37.8
+      },
+      "lexicalDiversity": 0.675,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260731-hapoel-haifa-jayden-braaf-trial",
+      "slug": "hapoel-haifa-trial-jayden-braaf",
+      "title": "Hapoel Haifa to give former Manchester City winger Jayden Braaf a trial",
+      "kind": "news",
+      "words": 336,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 41,
+        "longest": 55,
+        "average": 48
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 51,
+        "average": 30.5
+      },
+      "lexicalDiversity": 0.58,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-31-beitar-austria-wien-preview",
+      "slug": "beitar-jerusalem-austria-wien-conference-league-preview",
+      "title": "Beitar Jerusalem are a level above us, admits Austria Wien's Ranftl before Conference League qualifier",
+      "kind": "article",
+      "words": 547,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 39,
+        "longest": 81,
+        "average": 60.8
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 112,
+        "average": 39.1
+      },
+      "lexicalDiversity": 0.572,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-07-31-arsenal-bruno-guimaraes-transfer",
       "slug": "arsenal-closing-in-bruno-guimaraes-transfer",

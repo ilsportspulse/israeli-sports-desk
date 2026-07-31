@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T13:08:52.284Z",
+  "generatedAt": "2026-07-31T14:31:50.348Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 855,
-    "publishedBefore": 687,
-    "cleanPublished": 679,
+    "totalArticles": 861,
+    "publishedBefore": 691,
+    "cleanPublished": 683,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 687,
-    "reviewAfter": 168
+    "publishedAfter": 691,
+    "reviewAfter": 170
   },
   "blockedPublished": [
     {
@@ -156,6 +156,63 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-20260731-tottenham-de-zerbi-237m-transfer-spree",
+      "slug": "de-zerbi-tottenham-237m-transfer-spree-not-finished",
+      "title": "De Zerbi says Tottenham's £237m spending spree is 'not finished' as Savinho chase continues",
+      "statusBefore": "published",
+      "words": 465,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260731-bayern-hoeness-mocks-olise-real-madrid-rumours",
+      "slug": "bayern-hoeness-mocks-olise-real-madrid-rumours",
+      "title": "Even China's emperor wouldn't get Bayern talking about Olise, says Hoeneß",
+      "statusBefore": "published",
+      "words": 304,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260731-hapoel-haifa-jayden-braaf-trial",
+      "slug": "hapoel-haifa-trial-jayden-braaf",
+      "title": "Hapoel Haifa to give former Manchester City winger Jayden Braaf a trial",
+      "statusBefore": "published",
+      "words": 336,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-07-31-israel-switzerland-girls-basketball-in-progress",
+      "slug": "israel-switzerland-girls-basketball-european-championship-division-b",
+      "title": "Israel's under-18 girls face Switzerland as European basketball qualifier gets under way in Romania",
+      "statusBefore": "review",
+      "words": 215,
+      "paragraphs": 5,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-07-31-arsenal-bruno-guimaraes-transfer",
       "slug": "arsenal-closing-in-bruno-guimaraes-transfer",
@@ -8179,6 +8236,60 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-20260731-tottenham-de-zerbi-237m-transfer-spree",
+      "slug": "de-zerbi-tottenham-237m-transfer-spree-not-finished",
+      "title": "De Zerbi says Tottenham's £237m spending spree is 'not finished' as Savinho chase continues",
+      "statusBefore": "published",
+      "words": 465,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260731-bayern-hoeness-mocks-olise-real-madrid-rumours",
+      "slug": "bayern-hoeness-mocks-olise-real-madrid-rumours",
+      "title": "Even China's emperor wouldn't get Bayern talking about Olise, says Hoeneß",
+      "statusBefore": "published",
+      "words": 304,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260731-hapoel-haifa-jayden-braaf-trial",
+      "slug": "hapoel-haifa-trial-jayden-braaf",
+      "title": "Hapoel Haifa to give former Manchester City winger Jayden Braaf a trial",
+      "statusBefore": "published",
+      "words": 336,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-07-31-beitar-austria-wien-preview",
+      "slug": "beitar-jerusalem-austria-wien-conference-league-preview",
+      "title": "Beitar Jerusalem are a level above us, admits Austria Wien's Ranftl before Conference League qualifier",
+      "statusBefore": "published",
+      "words": 551,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-2026-07-31-arsenal-bruno-guimaraes-transfer",
       "slug": "arsenal-closing-in-bruno-guimaraes-transfer",

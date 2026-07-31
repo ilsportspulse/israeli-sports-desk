@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-07-31T13:08:51Z",
-    "validUntil": "2026-08-01T01:08:51Z",
+    "checkedAt": "2026-07-31T14:31:50Z",
+    "validUntil": "2026-08-01T02:31:50Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 280,
+        "maxAgeHours": 282,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-07-31-arsenal-bruno-guimaraes-transfer",
+        "articleId": "live-20260731-tottenham-de-zerbi-237m-transfer-spree",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 288,
+        "maxAgeHours": 289,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-07-31-cordeiro-resigns-fifa-adviser-infantino-protest",
+        "articleId": "live-20260731-bayern-hoeness-mocks-olise-real-madrid-rumours",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 298,
+        "maxAgeHours": 300,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-07-31-ter-stegen-ajax-brentford-sangare-record",
+        "articleId": "live-20260731-hapoel-haifa-jayden-braaf-trial",
         "maxAgeHours": 24,
         "requires": []
       }
