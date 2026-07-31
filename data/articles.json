@@ -83608,5 +83608,414 @@
     "aiDisclosure": "Automated result flash generated at full time from ESPN's match data (final score, competition and, where available, scorers). Expanded and cross-checked in follow-up coverage.",
     "commonsQuery": "Maccabi Tel-Aviv football",
     "warning": "dup same-match recap (4 shared tokens)"
+  },
+  {
+    "id": "live-2026-07-31-hezonja-cavaliers-nba-return",
+    "slug": "hezonja-cavaliers-nba-return",
+    "title": "Hezonja snubs Hapoel Tel Aviv to complete NBA return with Cleveland Cavaliers",
+    "dek": "The Croatian forward, a EuroLeague champion with Real Madrid and this season's Liga ACB MVP, turned down an Israeli suitor and several European clubs to sign a one-year deal with the Cavaliers.",
+    "category": "World Basketball",
+    "desk": "international",
+    "kind": "news",
+    "storyForm": "standard",
+    "publishedAt": "2026-07-31T18:32:59.867Z",
+    "updatedAt": "2026-07-31T18:32:59.867Z",
+    "readMinutes": 4,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/529529.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/529529.html"
+      },
+      {
+        "label": "NBA.com official release",
+        "url": "https://www.nba.com/cavaliers/news/releases-mario-hezonja-260731"
+      },
+      {
+        "label": "ESPN",
+        "url": "https://www.espn.com/nba/story/_/id/49456228/cavs-former-lottery-pick-mario-hezonja-agree-1-year-deal"
+      },
+      {
+        "label": "Eurohoops",
+        "url": "https://www.eurohoops.net/en/nba-news/1995504/the-cleveland-cavaliers-complete-the-signing-of-mario-hezonja-to-a-one-year-contract/"
+      },
+      {
+        "label": "Israel Hayom",
+        "url": "https://www.israelhayom.co.il/sport/world-basketball/article/21052837"
+      }
+    ],
+    "body": [
+      "Mario Hezonja is going back to the NBA, and Hapoel Tel Aviv is left to wonder what might have been. ONE reports that the Croatian forward has signed with the Cleveland Cavaliers, ending a chase for his signature that had also drawn one of Israel's biggest clubs.",
+      "The deal is a one-year contract worth a reported $2.8 million, according to ONE and confirmed independently by ESPN and the Cavaliers' own release on Friday. It caps a saga that dragged through most of July, with Real Madrid initially reluctant to release him from a long-term contract that ran through 2029.",
+      "Hezonja, 31, last played in the NBA in the 2019-20 season with the Portland Trail Blazers, having also worn the uniforms of the Orlando Magic and New York Knicks after Orlando took him fifth overall in the star-studded 2015 draft. His return ends a six-year absence from the league.",
+      "In Europe, he built one of the more compelling second acts in recent EuroLeague history. He won the continental title with Real Madrid in 2023 and was named Liga Endesa's regular-season MVP this year, numbers that made his NBA comeback a genuine basketball story rather than a nostalgic footnote.",
+      "To get to Cleveland, ONE reports he had to exercise an exit clause in his Real Madrid contract, a process that reportedly grew complicated before the two sides settled terms and cleared his path to the NBA.",
+      "He did not lack for suitors closer to home. ONE and Israeli outlets including Israel Hayom reported that Hapoel Tel Aviv had been chasing Hezonja as the marquee addition to strengthen their roster for the coming EuroLeague campaign, only for the Croatian to prioritize his NBA return instead.",
+      "ONE also reports that he turned down offers from several other EuroLeague clubs along the way, with returning to what he has called the best league in the world cited as the deciding factor throughout the process.",
+      "For Cleveland, a team that reached the playoffs with genuine title aspirations, Hezonja arrives as an experienced floor-spacer and versatile wing option, the kind of depth piece contenders look to add on modest, one-year money.",
+      "The move closes the book on one of this summer's more closely watched free-agency subplots in both the NBA and EuroLeague, and it means Hapoel Tel Aviv will need to look elsewhere for the marquee reinforcement it had been chasing."
+    ],
+    "facts": [
+      "Mario Hezonja has signed a one-year, reportedly $2.8 million contract with the Cleveland Cavaliers.",
+      "The 31-year-old Croatian forward returns to the NBA after leaving in 2020, having played for the Orlando Magic, New York Knicks and Portland Trail Blazers.",
+      "Orlando selected Hezonja fifth overall in the 2015 NBA draft.",
+      "He won the EuroLeague championship with Real Madrid in 2023 and was named this season's Liga Endesa (ACB) regular-season MVP.",
+      "He exercised an exit clause in a Real Madrid contract that had run through 2029 in order to facilitate his NBA return.",
+      "Israeli club Hapoel Tel Aviv had reportedly pursued Hezonja as a marquee signing for the coming EuroLeague season before he opted for the NBA instead.",
+      "He also turned down offers from several other EuroLeague clubs to sign with Cleveland."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 66,
+    "homepageReason": "Notable NBA return for a recent EuroLeague champion and reigning ACB MVP, sharpened for our audience by Hapoel Tel Aviv's failed pursuit of him over the summer.",
+    "dedupeKey": "nba-hezonja-cavaliers-signing-2026-07",
+    "aiDisclosure": "Drafted with AI assistance from Israel Sports Pulse's copy desk, verified against the cited source reporting before publication.",
+    "nameChecks": [
+      {
+        "hebrew": "מריו הזוניה",
+        "english": "Mario Hezonja",
+        "verificationUrl": "https://www.one.co.il/Article/529529.html",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "הפועל תל אביב",
+        "english": "Hapoel Tel Aviv",
+        "verificationUrl": "https://www.israelhayom.co.il/sport/world-basketball/article/21052837",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "קליבלנד קאבלירס",
+        "english": "Cleveland Cavaliers",
+        "verificationUrl": "https://www.nba.com/cavaliers/news/releases-mario-hezonja-260731",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "ריאל מדריד",
+        "english": "Real Madrid",
+        "verificationUrl": "https://www.espn.com/nba/story/_/id/49456228/cavs-former-lottery-pick-mario-hezonja-agree-1-year-deal",
+        "confidence": 0.9
+      }
+    ],
+    "confidence": 0.85,
+    "warning": "",
+    "commonsQuery": "Mario Hezonja Real Madrid basketball 2026",
+    "commonsCandidates": [
+      {
+        "title": "File:Mario Hezonja 11 Real Madrid Baloncesto Euroleague 20260409 (4).jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Mario_Hezonja_11_Real_Madrid_Baloncesto_Euroleague_20260409_(4).jpg",
+        "credit": "Zafer / WikiPortraits",
+        "license": "CC BY 4.0"
+      },
+      {
+        "title": "File:Mario Hezonja, Bojan Bogdanovic (33236676916).jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Mario_Hezonja,_Bojan_Bogdanovic_(33236676916).jpg",
+        "credit": "Keith Allison",
+        "license": "CC BY-SA 2.0"
+      },
+      {
+        "title": "File:Rocket Mortgage FieldHouse (2).jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Rocket_Mortgage_FieldHouse_(2).jpg",
+        "credit": "Cards84664",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "live-2026-07-31-uefa-orders-maccabi-tel-aviv-to-freeze-cska-sofia-ticket-sales",
+    "slug": "uefa-orders-maccabi-tel-aviv-freeze-cska-sofia-ticket-sales",
+    "title": "UEFA orders Maccabi Tel Aviv to freeze ticket sales for CSKA Sofia tie after Sheriff pyro probe",
+    "dek": "European football's governing body has told the club to halt sales for its Europa League third qualifying round opener while it investigates the use of pyrotechnics against Sheriff Tiraspol.",
+    "category": "Israeli Football",
+    "desk": "israel",
+    "kind": "news",
+    "storyForm": "news",
+    "publishedAt": "2026-07-31T18:32:59.867Z",
+    "updatedAt": "2026-07-31T18:32:59.867Z",
+    "readMinutes": 3,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/529530.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE - אופ\"א למכבי ת\"א: השהו את מכירת הכרטיסים",
+        "url": "https://www.one.co.il/Article/529530.html"
+      },
+      {
+        "label": "Maccabi Tel Aviv FC - UEFA draw Maccabi's next opponents",
+        "url": "https://www.maccabi-tlv.co.il/en/2026/07/uefa-draw-maccabis-next-opponents/"
+      },
+      {
+        "label": "ESPN - Maccabi Tel-Aviv 1-0 Sheriff, July 30 2026 final score",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401896229/sheriff-tiraspol-maccabi-tel-aviv"
+      }
+    ],
+    "body": [
+      "Maccabi Tel Aviv have been told by UEFA to immediately suspend ticket sales for their opening leg against CSKA Sofia in the Europa League's third qualifying round, ONE reported on Friday, after the governing body opened a disciplinary case against the club over pyrotechnics let off during the win over Sheriff Tiraspol.",
+      "According to the report, UEFA instructed Maccabi to freeze sales for the CSKA Sofia fixture \"until completion of the disciplinary process and a decision on the matter.\" The club has not been given a timeline for when, or whether, the freeze will be lifted.",
+      "The proceeding stems from the use of pyrotechnic devices by supporters during Maccabi's home leg against Sheriff Tiraspol in the second qualifying round. Maccabi's European \"home\" fixtures are currently being staged away from Israel, and the Sheriff second leg — like the upcoming CSKA Sofia tie — was not played at Bloomfield Stadium in Tel Aviv.",
+      "Maccabi Tel Aviv said in response that the club is cooperating fully with UEFA and will update supporters as soon as authorisation to resume sales is granted, ONE reported. There has been no word yet on a potential fine or further sporting sanction beyond the sales freeze.",
+      "The disciplinary cloud comes despite a routine passage into the third round on the pitch. Maccabi thrashed Sheriff Tiraspol 5-0 away in Moldova on July 23, then closed out the tie 1-0 at home on July 30 through a Roy Revivo free-kick, completing a 6-0 aggregate win.",
+      "That result sets up a third qualifying round meeting with CSKA Sofia, who reached this stage by beating Azerbaijan's Qarabag on penalties. The first leg is scheduled for Thursday, August 6, at 19:00 at the Batumi Stadium in Georgia, with the return leg in Sofia a week later on August 13.",
+      "Maccabi's use of a neutral Georgian venue for European home matches, and the club's recent history of UEFA sanctions over fan conduct — including a suspended ticket ban tied to incidents in Stuttgart last December — means the CSKA Sofia case will be watched closely by both the club and its supporters in the days ahead.",
+      "For now, fans hoping to travel to or watch the third qualifying round opener are left waiting on UEFA, with Maccabi able to do little more than await the outcome of the disciplinary process before it can reopen sales."
+    ],
+    "facts": [
+      "UEFA ordered Maccabi Tel Aviv to suspend ticket sales for its Europa League third qualifying round first leg against CSKA Sofia.",
+      "The disciplinary case was opened over pyrotechnics used by Maccabi supporters during the home leg against Sheriff Tiraspol.",
+      "Maccabi beat Sheriff Tiraspol 6-0 on aggregate (5-0 away on July 23, 1-0 at home on July 30) to reach the third qualifying round.",
+      "Roy Revivo scored the only goal of the second leg against Sheriff Tiraspol via a first-half free-kick.",
+      "The CSKA Sofia first leg is scheduled for Thursday, August 6, 2026 at 19:00 at Batumi Stadium in Georgia, Maccabi's neutral venue for European home games.",
+      "The return leg against CSKA Sofia in Bulgaria is scheduled for August 13, 2026.",
+      "Maccabi Tel Aviv said it is cooperating fully with UEFA and will update fans once ticket sale authorisation is granted."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 63,
+    "homepageReason": "Routine but newsworthy Israeli club administrative story tied to a live UEFA disciplinary process ahead of a European qualifying tie.",
+    "dedupeKey": "maccabitelaviv-cskasofia-ticket-suspension-2026",
+    "aiDisclosure": "This article was drafted by an AI news assistant from a single reliable Israeli source (ONE) and independently verified against club and results data before publication.",
+    "nameChecks": [
+      {
+        "hebrew": "מכבי תל אביב",
+        "english": "Maccabi Tel Aviv",
+        "verificationUrl": "https://www.maccabi-tlv.co.il/en/",
+        "confidence": 0.98
+      },
+      {
+        "hebrew": "צסק\"א סופיה",
+        "english": "CSKA Sofia",
+        "verificationUrl": "https://en.wikipedia.org/wiki/PFC_CSKA_Sofia",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "שריף טירספול",
+        "english": "Sheriff Tiraspol",
+        "verificationUrl": "https://www.espn.com/soccer/match/_/gameId/401896229/sheriff-tiraspol-maccabi-tel-aviv",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "רועי רביבו",
+        "english": "Roy Revivo",
+        "verificationUrl": "https://sportsrabbi.com/en/maccabi-tel-aviv-downs-sheriff-tiraspol-to-advance-in-europa-league-qualifying/",
+        "confidence": 0.85
+      }
+    ],
+    "confidence": 0.85,
+    "warning": "UEFA has not yet announced the outcome of the disciplinary process or confirmed when/if the ticket sale freeze will be lifted.",
+    "commonsQuery": "Bloomfield Stadium Tel Aviv",
+    "commonsCandidates": [
+      {
+        "title": "File:Bloomfield Stadium, January 2022 - 42.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Bloomfield_Stadium,_January_2022_-_42.jpg",
+        "credit": "Little Savage / Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:Bloomfield Stadium in Tel Aviv-Yafo 04.JPG",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Bloomfield_Stadium_in_Tel_Aviv-Yafo_04.JPG",
+        "credit": "Assaf Yekuel (Shefshef) / Wikimedia Commons",
+        "license": "CC BY-SA 3.0"
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "live-20260731-hapoel-nof-hagalil-youth-promotion",
+    "slug": "hapoel-nof-hagalil-nearim-a-ligat-haal-promotion",
+    "title": "Hapoel Nof HaGalil beat Kfar Yona 6-1 to complete historic youth promotion",
+    "dek": "Coach Islam Kanaan's Ne'arim A side finish two points clear of Hapoel Haifa atop the Northern Division, sending a Nof HaGalil boys' team into Ligat Ha'Al for the first time in the club's history.",
+    "category": "Israeli Youth Sport",
+    "desk": "israel",
+    "kind": "report",
+    "storyForm": "youth-development-report",
+    "publishedAt": "2026-07-31T18:32:59.867Z",
+    "updatedAt": "2026-07-31T18:32:59.867Z",
+    "readMinutes": 4,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/529532.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/529532.html"
+      },
+      {
+        "label": "JuniorLeague.co.il",
+        "url": "https://www.juniorleague.co.il/%D7%94%D7%99%D7%A9%D7%92-%D7%92%D7%93%D7%95%D7%9C-%D7%A0%D7%95%D7%A3-%D7%94%D7%92%D7%9C%D7%99%D7%9C-%D7%91%D7%9C%D7%99%D7%92%D7%AA-%D7%94%D7%A2%D7%9C/"
+      }
+    ],
+    "body": [
+      "Hapoel Nof HaGalil's Ne'arim A side wrote a new page in the club's youth history on May 24, thrashing Kfar Yona 6-1 in a title-decider that confirmed the Northern District championship and, with it, a maiden promotion to Ligat Ha'Al Noar, Israel's top-flight youth division, ONE reported.",
+      "The margin was emphatic and the credits were shared: six different players got on the scoresheet. Adi Huri, Liron Vedro and Nevo Levi found the net in the first half, and Ilai David, Uri Monosterski and Adi Khatib added further goals after the break, according to the report.",
+      "It capped a season in which Nof HaGalil led the Northern Division from start to finish, finishing 18-1-4 and edging out Hapoel Haifa by two points in a race that went to the final round.",
+      "The attacking numbers back up the eye test: 72 goals scored, tied for the most in the division, against 25 conceded, the third-best defensive record among the Northern group's clubs, ONE reported.",
+      "Liron Vedro topped the club's scoring charts with 13 goals for the season, with Adi Huri next on 11. Further down the team sheet, midfielder Nevo Levi chipped in three, while defender Bartov added two despite managing type 1 diabetes throughout the campaign, per the report.",
+      "Coach Islam Kanaan, who doubles as the club's professional director, pointed to the group's temperament rather than raw talent as the deciding factor. \"The mental aspect made the difference,\" he said, according to ONE, citing the players' \"self-commitment, psychological maturity and social cohesion.\"",
+      "That cohesion was tested well before a ball was kicked in anger this season. ONE reported that the squad trained independently through a lengthy, war-related suspension of league football, before later travelling to a bonding tournament in Barcelona to help knit the group together.",
+      "The achievement carries added weight locally: the squad draws on both Arab and Jewish players from the mixed city of Nof HaGalil, formerly Nazareth Illit, and the promotion is the first time a Nof HaGalil boys' team has reached the top flight - the club's separate Noar (older youth) side last managed it back in 2018/19.",
+      "Ofra Bartov, who heads the club's administrative department for the age group, was also credited by ONE for the off-field work that underpinned the campaign."
+    ],
+    "facts": [
+      "Hapoel Nof HaGalil's Ne'arim A (Under-17) team won the Northern District title in Israel's national youth football league.",
+      "The title was sealed with a 6-1 win over Kfar Yona on May 24, 2026, with six different goalscorers, per ONE.",
+      "Season record: 18 wins, 1 draw, 4 losses; 72 goals scored (tied for the division's most) and 25 conceded (third-best defense), per ONE.",
+      "Nof HaGalil finished two points ahead of second-placed Hapoel Haifa.",
+      "Top scorers were Liron Vedro (13 goals) and Adi Huri (11 goals), per ONE.",
+      "It is the first time a Nof HaGalil boys' (Ne'arim) team has been promoted to Ligat Ha'Al; the club's Noar team last did so in 2018/19.",
+      "Coach Islam Kanaan credited the squad's mental resilience and social cohesion, per ONE."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 52,
+    "homepageReason": "A genuine, well-sourced feel-good story - a first-ever top-flight promotion for the club's boys' team - but it remains youth-academy football with no senior or national-team angle, so it sits in the mid-tier rather than as a headline result.",
+    "dedupeKey": "hapoel-nof-hagalil-nearim-a-ligat-haal-promotion-2026",
+    "aiDisclosure": "Draft prepared by an AI copy desk assistant from ONE's report, cross-checked against JuniorLeague.co.il's account of the same promotion for editorial review before publication.",
+    "nameChecks": [
+      {
+        "hebrew": "הפועל נוף הגליל",
+        "english": "Hapoel Nof HaGalil",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Hapoel_Nof_HaGalil_F.C.",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "אסלאם כנעאן",
+        "english": "Islam Kanaan",
+        "verificationUrl": "https://www.one.co.il/Article/529532.html",
+        "confidence": 0.75
+      },
+      {
+        "hebrew": "לירון וידרו",
+        "english": "Liron Vedro",
+        "verificationUrl": "https://www.juniorleague.co.il/%D7%94%D7%99%D7%A9%D7%92-%D7%92%D7%93%D7%95%D7%9C-%D7%A0%D7%95%D7%A3-%D7%94%D7%92%D7%9C%D7%99%D7%9C-%D7%91%D7%9C%D7%99%D7%92%D7%AA-%D7%94%D7%A2%D7%9C/",
+        "confidence": 0.6
+      },
+      {
+        "hebrew": "עדי חורי",
+        "english": "Adi Huri",
+        "verificationUrl": "https://www.juniorleague.co.il/%D7%94%D7%99%D7%A9%D7%92-%D7%92%D7%93%D7%95%D7%9C-%D7%A0%D7%95%D7%A3-%D7%94%D7%92%D7%9C%D7%99%D7%9C-%D7%91%D7%9C%D7%99%D7%92%D7%AA-%D7%94%D7%A2%D7%9C/",
+        "confidence": 0.6
+      },
+      {
+        "hebrew": "נבו לוי",
+        "english": "Nevo Levi",
+        "verificationUrl": "https://www.one.co.il/Article/529532.html",
+        "confidence": 0.65
+      },
+      {
+        "hebrew": "כפר יונה",
+        "english": "Kfar Yona",
+        "verificationUrl": "https://www.juniorleague.co.il/%D7%94%D7%99%D7%A9%D7%92-%D7%92%D7%93%D7%95%D7%9C-%D7%A0%D7%95%D7%A3-%D7%94%D7%92%D7%9C%D7%99%D7%9C-%D7%91%D7%9C%D7%99%D7%92%D7%AA-%D7%94%D7%A2%D7%9C/",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "הפועל חיפה",
+        "english": "Hapoel Haifa",
+        "verificationUrl": "https://www.one.co.il/Article/529532.html",
+        "confidence": 0.9
+      }
+    ],
+    "confidence": 0.78,
+    "warning": "Single primary source (ONE), cross-checked against JuniorLeague.co.il for the score, date and coach quote; several secondary squad names (e.g. Bartov, Ilai David, Uri Monosterski, Adi Khatib) rest on a machine-read pass and could not be independently confirmed against an official club roster for exact transliteration.",
+    "commonsQuery": "Green Stadium Nof HaGalil Nazareth Illit football",
+    "commonsCandidates": [
+      {
+        "title": "File:Green Stadium01.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Green_Stadium01.jpg",
+        "credit": "Little Savage, via Wikimedia Commons",
+        "license": "Public domain"
+      },
+      {
+        "title": "File:Green Stadium02.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Green_Stadium02.jpg",
+        "credit": "Little Savage, via Wikimedia Commons",
+        "license": "Public domain"
+      }
+    ],
+    "status": "review"
+  },
+  {
+    "id": "live-2026-07-31-israel-duet-10th-technical-artistic-swimming-europeans",
+    "slug": "konin-mazor-10th-technical-duet-european-aquatics-championships",
+    "title": "Konin and Mazor finish 10th in technical duet at European Aquatics Championships",
+    "dek": "The Israeli pair produced a clean, penalty-free routine on the opening day in Paris and also advanced to Saturday's free duet final.",
+    "category": "Israeli Olympic Sport",
+    "desk": "israel",
+    "kind": "article",
+    "storyForm": "news",
+    "publishedAt": "2026-07-31T18:32:59.867Z",
+    "updatedAt": "2026-07-31T18:32:59.867Z",
+    "readMinutes": 3,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/529533.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/529533.html"
+      },
+      {
+        "label": "Wikipedia — Artistic swimming at the 2026 European Aquatics Championships, women's duet technical routine results",
+        "url": "https://en.wikipedia.org/wiki/Artistic_swimming_at_the_2026_European_Aquatics_Championships_%E2%80%93_Women's_duet_technical_routine"
+      }
+    ],
+    "body": [
+      "Israel's artistic swimming duet opened the European Aquatics Championships in Paris with its best kind of statement: a routine with nothing to correct. Katy Konin and Aya Mazor finished 10th in the women's technical duet final on Friday, scoring 260.6284 points in a routine that ONE described as executed cleanly, without penalties or falls, despite carrying genuinely difficult elements.",
+      "The result placed the Israeli pair ahead of Georgia, Switzerland, Turkey and Bulgaria in a 19-nation field, with the gold going to Greece's Anna-Maria and Eirini-Marina Alexandri (311.4308), ahead of a Russian-flagged neutral-athletes duet and Great Britain's Kate Shortman and Isabelle Thorpe.",
+      "Konin, who swims for Hapoel Jerusalem, and Mazor, of Elah Matzeret Batya, were not done for the day. In the free duet preliminaries they scored 245.0557 points for 11th place, enough to book their spot in Saturday evening's free duet final — a second final in two events on the opening day of the meet.",
+      "ONE noted it marked the first time the duo had put together a fully clean technical routine at this level, landing the higher-difficulty elements without the deductions that have cost Israeli swimmers in the past. That kind of execution is what separates mid-table finishes from the medal contenders in a sport where difficulty scores mean little if the judges spot a wobble.",
+      "The championships opened Friday at the Olympic Aquatics Centre in Saint-Denis, the venue built for the 2024 Paris Games, and run through August 16 across swimming, diving, water polo, open water and artistic swimming disciplines, with 22 member federations sending artistic swimmers to compete for 11 European titles.",
+      "Israeli artistic swimming has been building toward moments like this. Shelly Bobritsky and Ariel Nassee delivered the country's best-ever Olympic finish in the discipline, 11th in the duet at Paris 2024, and Konin and Mazor themselves were part of the Israeli team that reached the free routine final at the 2023 European Games. A top-10 continental finish for the newer pairing suggests that depth is not a one-off.",
+      "Saturday's free duet final will be the next test, against a field that includes several of the same technical-final rivals Israel has just outscored. For now, though, the clean sheet in the technical routine is the headline: no falls, no penalties, and a climb past half the continent's artistic swimming powers on the opening day in Paris."
+    ],
+    "facts": [
+      "Katy Konin and Aya Mazor finished 10th in the women's duet technical routine final at the 2026 European Aquatics Championships in Paris, scoring 260.6284 points.",
+      "ONE reported the Israeli duo produced a clean, penalty-free technical routine with high-difficulty elements — described as a first for the pair at this level.",
+      "Israel finished ahead of Georgia, Switzerland, Turkey and Bulgaria in the 19-nation technical duet final; Greece won gold with 311.4308 points.",
+      "Konin and Mazor also placed 11th in the free duet preliminaries with 245.0557 points, qualifying for the free duet final scheduled for Saturday evening.",
+      "The artistic swimming events opened July 31, 2026, at the Olympic Aquatics Centre in Saint-Denis, part of the 2026 European Aquatics Championships running through August 16.",
+      "Konin competes for Hapoel Jerusalem and Mazor for Elah Matzeret Batya, per ONE.",
+      "Israel's best-ever Olympic finish in artistic swimming duet is 11th, achieved by Shelly Bobritsky and Ariel Nassee at the Paris 2024 Games."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 90,
+    "homepageReason": "Confirmed, positive Israeli national-team result at a major continental championship — a top-10 finish with a clean technical routine and a further final still to come.",
+    "dedupeKey": "euro-aquatics-2026-artistic-swimming-israel-duet-technical",
+    "aiDisclosure": "Drafted by an AI copy desk from ONE's reporting; the scoreline and placement were independently cross-checked against the official competition results before publication.",
+    "nameChecks": [
+      {
+        "hebrew": "קתי קונין",
+        "english": "Katy Konin",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Artistic_swimming_at_the_2026_European_Aquatics_Championships_%E2%80%93_Women's_duet_technical_routine",
+        "confidence": 0.75
+      },
+      {
+        "hebrew": "איה מזור",
+        "english": "Aya Mazor",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Artistic_swimming_at_the_2026_European_Aquatics_Championships_%E2%80%93_Women's_duet_technical_routine",
+        "confidence": 0.9
+      }
+    ],
+    "confidence": 0.88,
+    "warning": "Wikipedia's competition record lists Konin's name as 'Catherine Kunin' — a plausible transliteration variant of the same swimmer named 'Katy Konin' by ONE and the Israeli Olympic Committee; the underlying score and placement match exactly across both sources.",
+    "commonsQuery": "Saint-Denis Olympic Aquatics Centre Paris artistic swimming venue",
+    "commonsCandidates": [
+      {
+        "title": "Piscine publique, centre aquatique olympique, Saint-Denis.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Piscine_publique,_centre_aquatique_olympique,_Saint-Denis.jpg",
+        "credit": "Florent Abel / Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "CAO St-Denis - Travaux -Vue générale SDF, passerelle, CAO - PANO 20230920 160409(1).jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:CAO_St-Denis_-_Travaux_-Vue_g%C3%A9n%C3%A9rale_SDF,_passerelle,_CAO_-_PANO_20230920_160409(1).jpg",
+        "credit": "Claude villetaneuse / Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "status": "published"
   }
 ]

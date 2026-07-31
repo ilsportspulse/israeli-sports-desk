@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T18:22:28.111Z",
+  "generatedAt": "2026-07-31T18:40:30.492Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -15,7 +15,7 @@
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 426.5,
+      "median": 426,
       "average": 426.5
     },
     "paragraphDistribution": {
@@ -23,10 +23,10 @@
       "4": 6,
       "5": 9,
       "6": 34,
-      "7": 104,
-      "8": 179,
-      "9": 157,
-      "10": 122,
+      "7": 105,
+      "8": 178,
+      "9": 158,
+      "10": 121,
       "11": 30,
       "12": 11,
       "13": 4,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.257,
+    "dominantParagraphShare": 0.256,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 34,
     "analysisBelowTarget": 8,
@@ -3043,65 +3043,65 @@
   ],
   "clean": [
     {
-      "id": "live-2026-07-31-llorente-ferran-torres-ibiza-masculinity",
-      "slug": "marcos-llorente-ferran-torres-ibiza-photos-response",
-      "title": "Llorente breaks silence on viral Ibiza photos with World Cup winner Ferran Torres",
-      "kind": "article",
-      "words": 351,
-      "paragraphs": 8,
+      "id": "live-2026-07-31-hezonja-cavaliers-nba-return",
+      "slug": "hezonja-cavaliers-nba-return",
+      "title": "Hezonja snubs Hapoel Tel Aviv to complete NBA return with Cleveland Cavaliers",
+      "kind": "news",
+      "words": 395,
+      "paragraphs": 9,
       "paragraphWords": {
-        "shortest": 29,
-        "longest": 60,
+        "shortest": 35,
+        "longest": 53,
         "average": 43.9
       },
       "sentenceWords": {
         "shortest": 9,
-        "longest": 70,
-        "average": 31.9
+        "longest": 40,
+        "average": 28.2
       },
-      "lexicalDiversity": 0.644,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-07-31-carlos-espi-real-madrid",
-      "slug": "carlos-espi-real-madrid-quiet-summer-transfer",
-      "title": "Real Madrid complete surprise deal for Levante striker Carlos Espí",
-      "kind": "news",
-      "words": 465,
-      "paragraphs": 10,
-      "paragraphWords": {
-        "shortest": 40,
-        "longest": 57,
-        "average": 46.5
-      },
-      "sentenceWords": {
-        "shortest": 10,
-        "longest": 49,
-        "average": 31
-      },
-      "lexicalDiversity": 0.604,
+      "lexicalDiversity": 0.562,
       "publisherAttributions": 1,
       "flags": []
     },
     {
-      "id": "live-20260731-uefa-freezes-maccabi-tel-aviv-ticket-sales-cska-sofia",
-      "slug": "uefa-freezes-maccabi-tel-aviv-ticket-sales-cska-sofia",
-      "title": "UEFA orders Maccabi Tel Aviv to freeze ticket sales for CSKA Sofia tie amid pyrotechnics probe",
+      "id": "live-2026-07-31-uefa-orders-maccabi-tel-aviv-to-freeze-cska-sofia-ticket-sales",
+      "slug": "uefa-orders-maccabi-tel-aviv-freeze-cska-sofia-ticket-sales",
+      "title": "UEFA orders Maccabi Tel Aviv to freeze ticket sales for CSKA Sofia tie after Sheriff pyro probe",
       "kind": "news",
-      "words": 336,
+      "words": 389,
       "paragraphs": 8,
       "paragraphWords": {
-        "shortest": 24,
-        "longest": 62,
-        "average": 42
+        "shortest": 39,
+        "longest": 54,
+        "average": 48.6
       },
       "sentenceWords": {
         "shortest": 15,
-        "longest": 71,
-        "average": 33.6
+        "longest": 54,
+        "average": 32.4
       },
-      "lexicalDiversity": 0.589,
+      "lexicalDiversity": 0.542,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-07-31-israel-duet-10th-technical-artistic-swimming-europeans",
+      "slug": "konin-mazor-10th-technical-duet-european-aquatics-championships",
+      "title": "Konin and Mazor finish 10th in technical duet at European Aquatics Championships",
+      "kind": "article",
+      "words": 393,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 43,
+        "longest": 68,
+        "average": 56.1
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 48,
+        "average": 30.2
+      },
+      "lexicalDiversity": 0.57,
       "publisherAttributions": 0,
       "flags": []
     },

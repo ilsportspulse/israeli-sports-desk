@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T18:22:27.706Z",
+  "generatedAt": "2026-07-31T18:40:30.084Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -157,31 +157,45 @@
   ],
   "warnings": [
     {
-      "id": "live-2026-07-31-llorente-ferran-torres-ibiza-masculinity",
-      "slug": "marcos-llorente-ferran-torres-ibiza-photos-response",
-      "title": "Llorente breaks silence on viral Ibiza photos with World Cup winner Ferran Torres",
+      "id": "live-2026-07-31-hezonja-cavaliers-nba-return",
+      "slug": "hezonja-cavaliers-nba-return",
+      "title": "Hezonja snubs Hapoel Tel Aviv to complete NBA return with Cleveland Cavaliers",
       "statusBefore": "published",
-      "words": 354,
-      "paragraphs": 8,
+      "words": 394,
+      "paragraphs": 9,
       "facts": 7,
-      "verificationSources": 4,
+      "verificationSources": 5,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
     },
     {
-      "id": "live-2026-07-31-kiryat-shmona-toto-cup-tiberias-preview",
-      "slug": "kiryat-shmona-toto-cup-tiberias-preview",
-      "title": "Kiryat Shmona rout Maccabi Haifa 3-0, then refuse to get carried away before Tiberias test",
-      "statusBefore": "review",
-      "words": 464,
+      "id": "live-2026-07-31-uefa-orders-maccabi-tel-aviv-to-freeze-cska-sofia-ticket-sales",
+      "slug": "uefa-orders-maccabi-tel-aviv-freeze-cska-sofia-ticket-sales",
+      "title": "UEFA orders Maccabi Tel Aviv to freeze ticket sales for CSKA Sofia tie after Sheriff pyro probe",
+      "statusBefore": "published",
+      "words": 392,
       "paragraphs": 8,
       "facts": 7,
-      "verificationSources": 5,
+      "verificationSources": 3,
       "blockers": [],
       "warnings": [
-        "voice:publisher-attribution-heavy:3"
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-31-israel-duet-10th-technical-artistic-swimming-europeans",
+      "slug": "konin-mazor-10th-technical-duet-european-aquatics-championships",
+      "title": "Konin and Mazor finish 10th in technical duet at European Aquatics Championships",
+      "statusBefore": "published",
+      "words": 391,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -209,7 +223,8 @@
       "verificationSources": 1,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -8321,42 +8336,46 @@
   ],
   "cleanPublished": [
     {
-      "id": "live-2026-07-31-llorente-ferran-torres-ibiza-masculinity",
-      "slug": "marcos-llorente-ferran-torres-ibiza-photos-response",
-      "title": "Llorente breaks silence on viral Ibiza photos with World Cup winner Ferran Torres",
+      "id": "live-2026-07-31-hezonja-cavaliers-nba-return",
+      "slug": "hezonja-cavaliers-nba-return",
+      "title": "Hezonja snubs Hapoel Tel Aviv to complete NBA return with Cleveland Cavaliers",
       "statusBefore": "published",
-      "words": 354,
-      "paragraphs": 8,
+      "words": 394,
+      "paragraphs": 9,
       "facts": 7,
-      "verificationSources": 4,
+      "verificationSources": 5,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
     },
     {
-      "id": "live-2026-07-31-carlos-espi-real-madrid",
-      "slug": "carlos-espi-real-madrid-quiet-summer-transfer",
-      "title": "Real Madrid complete surprise deal for Levante striker Carlos Espí",
+      "id": "live-2026-07-31-uefa-orders-maccabi-tel-aviv-to-freeze-cska-sofia-ticket-sales",
+      "slug": "uefa-orders-maccabi-tel-aviv-freeze-cska-sofia-ticket-sales",
+      "title": "UEFA orders Maccabi Tel Aviv to freeze ticket sales for CSKA Sofia tie after Sheriff pyro probe",
       "statusBefore": "published",
-      "words": 464,
-      "paragraphs": 10,
-      "facts": 7,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": []
-    },
-    {
-      "id": "live-20260731-uefa-freezes-maccabi-tel-aviv-ticket-sales-cska-sofia",
-      "slug": "uefa-freezes-maccabi-tel-aviv-ticket-sales-cska-sofia",
-      "title": "UEFA orders Maccabi Tel Aviv to freeze ticket sales for CSKA Sofia tie amid pyrotechnics probe",
-      "statusBefore": "published",
-      "words": 337,
+      "words": 392,
       "paragraphs": 8,
-      "facts": 6,
+      "facts": 7,
       "verificationSources": 3,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-31-israel-duet-10th-technical-artistic-swimming-europeans",
+      "slug": "konin-mazor-10th-technical-duet-european-aquatics-championships",
+      "title": "Konin and Mazor finish 10th in technical duet at European Aquatics Championships",
+      "statusBefore": "published",
+      "words": 391,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-2026-07-31-galil-elyon-camp-ashdod-wahab-signings",
