@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T14:26:31.182Z",
+  "generatedAt": "2026-08-01T15:18:58.728Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 723,
+    "publishedArticles": 726,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 426,
-      "average": 427
+      "average": 426.9
     },
     "paragraphDistribution": {
       "3": 34,
@@ -24,8 +24,8 @@
       "5": 10,
       "6": 35,
       "7": 105,
-      "8": 189,
-      "9": 163,
+      "8": 190,
+      "9": 165,
       "10": 128,
       "11": 31,
       "12": 12,
@@ -35,37 +35,13 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.261,
+    "dominantParagraphShare": 0.262,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 35,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 133
+    "articlesWithStyleFlags": 134
   },
   "flagged": [
-    {
-      "id": "live-2026-08-01-yonatan-cohen-winner-bangkok-united-chiangmai",
-      "slug": "yonatan-cohen-winning-goal-bangkok-united-chiangmai-friendly",
-      "title": "Yonatan Cohen scores winner as Bangkok United edge Chiangmai in pre-season friendly",
-      "kind": "article",
-      "words": 204,
-      "paragraphs": 5,
-      "paragraphWords": {
-        "shortest": 33,
-        "longest": 55,
-        "average": 40.8
-      },
-      "sentenceWords": {
-        "shortest": 26,
-        "longest": 45,
-        "average": 34
-      },
-      "lexicalDiversity": 0.711,
-      "publisherAttributions": 2,
-      "flags": [
-        "below-editorial-target:204/280",
-        "publisher-attribution-heavy:2"
-      ]
-    },
     {
       "id": "live-20260727-israel-u16-handball-rout-mexico",
       "slug": "israel-u16-handball-rout-mexico-zagreb",
@@ -256,6 +232,53 @@
       "flags": [
         "below-editorial-target:84/650",
         "analysis-structure:3/5-paragraphs"
+      ]
+    },
+    {
+      "id": "live-2026-08-01-yonatan-cohen-winner-bangkok-united-chiangmai",
+      "slug": "yonatan-cohen-winning-goal-bangkok-united-chiangmai-friendly",
+      "title": "Yonatan Cohen scores winner as Bangkok United edge Chiangmai in pre-season friendly",
+      "kind": "article",
+      "words": 204,
+      "paragraphs": 5,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 55,
+        "average": 40.8
+      },
+      "sentenceWords": {
+        "shortest": 26,
+        "longest": 45,
+        "average": 34
+      },
+      "lexicalDiversity": 0.711,
+      "publisherAttributions": 2,
+      "flags": [
+        "below-editorial-target:204/280",
+        "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260801-hadera-abdach-compensation-cut",
+      "slug": "arbitrator-slashes-hapoel-hadera-training-fee-abdach",
+      "title": "Arbitrator reverses himself, slashes Hapoel Hadera's training fee for defender Abdach by more than half",
+      "kind": "news",
+      "words": 427,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 81,
+        "average": 47.4
+      },
+      "sentenceWords": {
+        "shortest": 1,
+        "longest": 49,
+        "average": 28.5
+      },
+      "lexicalDiversity": 0.588,
+      "publisherAttributions": 2,
+      "flags": [
+        "publisher-attribution-heavy:2"
       ]
     },
     {
@@ -3113,65 +3136,44 @@
   ],
   "clean": [
     {
-      "id": "live-2026-08-01-monaco-basket-excluded-french-league",
-      "slug": "monaco-basketball-excluded-french-league-financial-crisis",
-      "title": "Monaco basketball excluded from French league after financial collapse",
+      "id": "live-2026-08-01-trabzonspor-salah-fulham-pitarch",
+      "slug": "trabzonspor-mohamed-salah-offer-thiago-pitarch-fulham",
+      "title": "Trabzonspor make audacious move for Salah as Pitarch nears Fulham switch",
       "kind": "news",
-      "words": 492,
-      "paragraphs": 10,
+      "words": 419,
+      "paragraphs": 9,
       "paragraphWords": {
-        "shortest": 42,
-        "longest": 66,
-        "average": 49.2
+        "shortest": 25,
+        "longest": 68,
+        "average": 46.6
       },
       "sentenceWords": {
-        "shortest": 23,
-        "longest": 50,
-        "average": 37.8
+        "shortest": 7,
+        "longest": 59,
+        "average": 34.9
       },
-      "lexicalDiversity": 0.565,
+      "lexicalDiversity": 0.582,
       "publisherAttributions": 0,
       "flags": []
     },
     {
-      "id": "live-2026-08-01-manor-solomon-tottenham-chelsea-assist",
-      "slug": "manor-solomon-assist-tottenham-chelsea-not-used-enough",
-      "title": "Solomon sets up Tonali as Tottenham beat Chelsea 2-1, but Spurs 'don't use him enough'",
+      "id": "live-2026-08-01-us-open-record-ticket-prices",
+      "slug": "us-open-record-ticket-prices-2026",
+      "title": "More than $20,000 a ticket: US Open prices hit record highs",
       "kind": "news",
-      "words": 468,
-      "paragraphs": 10,
-      "paragraphWords": {
-        "shortest": 32,
-        "longest": 71,
-        "average": 46.8
-      },
-      "sentenceWords": {
-        "shortest": 7,
-        "longest": 71,
-        "average": 29.3
-      },
-      "lexicalDiversity": 0.6,
-      "publisherAttributions": 1,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-01-us-open-ticket-prices-record",
-      "slug": "us-open-2026-ticket-prices-record-high",
-      "title": "US Open final tickets top $20,000 as tournament's money machine hits new highs",
-      "kind": "news",
-      "words": 365,
+      "words": 406,
       "paragraphs": 8,
       "paragraphWords": {
-        "shortest": 38,
-        "longest": 58,
-        "average": 45.6
+        "shortest": 39,
+        "longest": 69,
+        "average": 50.8
       },
       "sentenceWords": {
-        "shortest": 10,
-        "longest": 48,
-        "average": 33.2
+        "shortest": 6,
+        "longest": 50,
+        "average": 27.1
       },
-      "lexicalDiversity": 0.597,
+      "lexicalDiversity": 0.601,
       "publisherAttributions": 0,
       "flags": []
     },
@@ -15500,6 +15502,69 @@
       },
       "lexicalDiversity": 0.538,
       "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-01-monaco-basket-excluded-french-league",
+      "slug": "monaco-basketball-excluded-french-league-financial-crisis",
+      "title": "Monaco basketball excluded from French league after financial collapse",
+      "kind": "news",
+      "words": 492,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 42,
+        "longest": 66,
+        "average": 49.2
+      },
+      "sentenceWords": {
+        "shortest": 23,
+        "longest": 50,
+        "average": 37.8
+      },
+      "lexicalDiversity": 0.565,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-01-manor-solomon-tottenham-chelsea-assist",
+      "slug": "manor-solomon-assist-tottenham-chelsea-not-used-enough",
+      "title": "Solomon sets up Tonali as Tottenham beat Chelsea 2-1, but Spurs 'don't use him enough'",
+      "kind": "news",
+      "words": 468,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 32,
+        "longest": 71,
+        "average": 46.8
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 71,
+        "average": 29.3
+      },
+      "lexicalDiversity": 0.6,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-01-us-open-ticket-prices-record",
+      "slug": "us-open-2026-ticket-prices-record-high",
+      "title": "US Open final tickets top $20,000 as tournament's money machine hits new highs",
+      "kind": "news",
+      "words": 365,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 38,
+        "longest": 58,
+        "average": 45.6
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 48,
+        "average": 33.2
+      },
+      "lexicalDiversity": 0.597,
+      "publisherAttributions": 0,
       "flags": []
     }
   ]

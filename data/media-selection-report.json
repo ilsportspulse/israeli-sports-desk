@@ -1,28 +1,28 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-08-01-monaco-basket-excluded-french-league",
-      "article": "Monaco basketball excluded from French league after financial collapse",
-      "file": "File:Élan béarnais-AS Monaco 2018-05-26.jpg",
-      "license": "CC BY-SA 4.0"
-    },
-    {
-      "articleId": "live-2026-08-01-manor-solomon-tottenham-chelsea-assist",
-      "article": "Solomon sets up Tonali as Tottenham beat Chelsea 2-1, but Spurs 'don't use him enough'",
-      "file": "File:SM Caen Tifo 15 ans du MNK.jpg",
-      "license": "CC BY-SA 3.0"
-    },
-    {
-      "articleId": "live-2026-08-01-us-open-ticket-prices-record",
-      "article": "US Open final tickets top $20,000 as tournament's money machine hits new highs",
-      "file": "File:Arthur Ashe Stadium with the roof closed (32938595438).jpg",
+      "articleId": "live-2026-08-01-trabzonspor-salah-fulham-pitarch",
+      "article": "Trabzonspor make audacious move for Salah as Pitarch nears Fulham switch",
+      "file": "File:Álvaro Arbeloa (50121545757) (cropped).jpg",
       "license": "CC BY-SA 2.0"
     },
     {
-      "articleId": "live-2026-08-01-yonatan-cohen-winner-bangkok-united-chiangmai",
-      "article": "Yonatan Cohen scores winner as Bangkok United edge Chiangmai in pre-season friendly",
-      "file": "File:Yonatan Cohen Pisa.jpg",
+      "articleId": "live-20260801-man-city-inter-hongkong-penalties",
+      "article": "Inter beat Manchester City 3-1 on penalties as Maresca's reign begins with defeat",
+      "file": "File:Antoine Semenyo England v Ghana 23 June 2026-209.jpg",
       "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-20260801-hadera-abdach-compensation-cut",
+      "article": "Arbitrator reverses himself, slashes Hapoel Hadera's training fee for defender Abdach by more than half",
+      "file": "File:שחקני הפועל חדרה 2019.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-2026-08-01-us-open-record-ticket-prices",
+      "article": "More than $20,000 a ticket: US Open prices hit record highs",
+      "file": "File:US OPEN 2019 (48667665777).jpg",
+      "license": "CC BY 2.0"
     },
     {
       "articleId": "live-20260714-basketball-coaches-registration",
@@ -33,6 +33,11 @@
     }
   ],
   "failures": [
+    {
+      "id": "live-20260801-manutd-atletico-snapdragon-cup",
+      "title": "Manchester United 2-1 Atletico Madrid: Mbeumo double completes Snapdragon Cup comeback",
+      "error": "image download 429 after retries"
+    },
     {
       "id": "live-2026-07-31-beitar-jerusalem-decade-symmetry",
       "title": "Beitar Jerusalem beat AEK Larnaca 4-3 on penalties, replaying their 2016 escape almost move for move",
