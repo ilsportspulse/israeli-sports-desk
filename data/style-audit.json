@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T04:09:38.976Z",
+  "generatedAt": "2026-08-01T05:31:26.404Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 702,
+    "publishedArticles": 706,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 426,
-      "average": 426.3
+      "average": 426.6
     },
     "paragraphDistribution": {
       "3": 34,
@@ -24,10 +24,10 @@
       "5": 9,
       "6": 34,
       "7": 105,
-      "8": 180,
-      "9": 159,
-      "10": 124,
-      "11": 30,
+      "8": 181,
+      "9": 160,
+      "10": 125,
+      "11": 31,
       "12": 11,
       "13": 4,
       "14": 2,
@@ -3042,6 +3042,90 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-01-fifa-scraps-world-cup-privatization-plan",
+      "slug": "fifa-scraps-world-cup-privatization-plan",
+      "title": "FIFA scraps World Cup privatization plan after confederation revolt",
+      "kind": "news",
+      "words": 431,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 27,
+        "longest": 63,
+        "average": 47.9
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 112,
+        "average": 47.9
+      },
+      "lexicalDiversity": 0.555,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260801-vinicius-arsenal-personal-terms",
+      "slug": "vinicius-junior-arsenal-personal-terms-agreement",
+      "title": "Vinícius Júnior agrees personal terms with Arsenal, ONE reports",
+      "kind": "news",
+      "words": 638,
+      "paragraphs": 11,
+      "paragraphWords": {
+        "shortest": 50,
+        "longest": 66,
+        "average": 58
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 63,
+        "average": 31.9
+      },
+      "lexicalDiversity": 0.516,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-01-mastantuono-real-madrid-loan",
+      "slug": "mastantuono-set-to-leave-real-madrid-on-loan",
+      "title": "Mastantuono set to leave Real Madrid on loan after underwhelming debut season",
+      "kind": "news",
+      "words": 340,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 57,
+        "average": 42.5
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 51,
+        "average": 24.3
+      },
+      "lexicalDiversity": 0.582,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-01-flick-not-dreaming-focused-on-players",
+      "slug": "flick-not-dreaming-focused-on-current-barcelona-squad",
+      "title": "Flick: I'm not dreaming, I'm focused on the players I have",
+      "kind": "article",
+      "words": 493,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 32,
+        "longest": 74,
+        "average": 49.3
+      },
+      "sentenceWords": {
+        "shortest": 13,
+        "longest": 76,
+        "average": 41.1
+      },
+      "lexicalDiversity": 0.58,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260801-khalaili-union-saint-gilloise-super-cup",
       "slug": "union-saint-gilloise-beat-club-brugge-belgian-super-cup-khalaili-penalty",
