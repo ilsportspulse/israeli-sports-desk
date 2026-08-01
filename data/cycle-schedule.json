@@ -3,6 +3,6 @@
   "timezone": "Asia/Jerusalem",
   "nightStartHour": 0,
   "nightEndHour": 7,
-  "nightMinGapMinutes": 1,
-  "dayMinGapMinutes": 1
+  "nightMinGapMinutes": 45,
+  "dayMinGapMinutes": 30
 }
