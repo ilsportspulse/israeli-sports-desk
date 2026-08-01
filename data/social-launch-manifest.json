@@ -146,21 +146,21 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-01T19:46:35Z",
-    "validUntil": "2026-08-02T07:46:35Z",
+    "checkedAt": "2026-08-01T20:41:24Z",
+    "validUntil": "2026-08-02T08:41:24Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 311,
+        "maxAgeHours": 312,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-01-hapoel-tel-aviv-nick-richards-target",
+        "articleId": "live-2026-08-01-eugene-german-hapoel-tel-aviv",
         "maxAgeHours": 48,
         "requires": []
       },
@@ -174,14 +174,14 @@
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260801-real-madrid-fiorentina-mourinho-debut",
+        "articleId": "live-2026-08-01-barda-kiryat-shmona-stadium-demand",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 329,
+        "maxAgeHours": 330,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-01-trabzonspor-salah-fulham-pitarch",
+        "articleId": "live-2026-08-01-hapoel-tel-aviv-nick-richards-target",
         "maxAgeHours": 24,
         "requires": []
       }

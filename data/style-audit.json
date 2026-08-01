@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T19:46:36.226Z",
+  "generatedAt": "2026-08-01T20:41:25.015Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 729,
+    "publishedArticles": 732,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 426,
-      "average": 426.9
+      "median": 425.5,
+      "average": 426.6
     },
     "paragraphDistribution": {
       "3": 34,
@@ -24,8 +24,8 @@
       "5": 10,
       "6": 35,
       "7": 106,
-      "8": 191,
-      "9": 165,
+      "8": 193,
+      "9": 166,
       "10": 128,
       "11": 32,
       "12": 12,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.262,
+    "dominantParagraphShare": 0.264,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 35,
     "analysisBelowTarget": 9,
@@ -3135,6 +3135,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-01-eugene-german-hapoel-tel-aviv",
+      "slug": "eugene-german-signs-hapoel-tel-aviv",
+      "title": "Hapoel Tel Aviv sign American guard Eugene German",
+      "kind": "article",
+      "words": 335,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 28,
+        "longest": 61,
+        "average": 41.9
+      },
+      "sentenceWords": {
+        "shortest": 32,
+        "longest": 132,
+        "average": 55.8
+      },
+      "lexicalDiversity": 0.618,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-01-barda-kiryat-shmona-stadium-demand",
+      "slug": "barda-kiryat-shmona-home-stadium-demand",
+      "title": "Kiryat Shmona beat Tiberias 1-0 as Barda demands action on home stadium saga",
+      "kind": "match-report",
+      "words": 376,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 23,
+        "longest": 62,
+        "average": 41.8
+      },
+      "sentenceWords": {
+        "shortest": 20,
+        "longest": 75,
+        "average": 37.6
+      },
+      "lexicalDiversity": 0.598,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260801-arsenal-girona-preseason-opener",
+      "slug": "arsenal-thrash-girona-preseason-opener",
+      "title": "Girona 1-4 Arsenal: Havertz, Tzolis and teenager Dowman shine in preseason opener",
+      "kind": "article",
+      "words": 329,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 52,
+        "average": 41.1
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 52,
+        "average": 36.6
+      },
+      "lexicalDiversity": 0.629,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-01-hapoel-tel-aviv-nick-richards-target",
       "slug": "hapoel-tel-aviv-eyes-nick-richards-center-frontcourt-rebuild",
