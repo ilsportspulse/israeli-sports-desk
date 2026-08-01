@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T10:24:58.756Z",
+  "generatedAt": "2026-08-01T10:41:56.577Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 713,
+    "publishedArticles": 712,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 427,
-      "average": 427.2
+      "median": 426.5,
+      "average": 427.1
     },
     "paragraphDistribution": {
       "3": 34,
@@ -24,9 +24,9 @@
       "5": 9,
       "6": 35,
       "7": 105,
-      "8": 184,
-      "9": 161,
-      "10": 127,
+      "8": 183,
+      "9": 162,
+      "10": 126,
       "11": 31,
       "12": 11,
       "13": 4,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.258,
+    "dominantParagraphShare": 0.257,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 35,
-    "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 132
+    "analysisBelowTarget": 8,
+    "articlesWithStyleFlags": 130
   },
   "flagged": [
     {
@@ -232,52 +232,6 @@
       "flags": [
         "below-editorial-target:84/650",
         "analysis-structure:3/5-paragraphs"
-      ]
-    },
-    {
-      "id": "live-20260801-orian-goren-barcelona-birmingham",
-      "slug": "orian-goren-barcelona-birmingham-city-praise",
-      "title": "Orian Goren shows his class as Barcelona draw 2-2 with Birmingham City",
-      "kind": "article",
-      "words": 455,
-      "paragraphs": 10,
-      "paragraphWords": {
-        "shortest": 30,
-        "longest": 57,
-        "average": 45.5
-      },
-      "sentenceWords": {
-        "shortest": 9,
-        "longest": 67,
-        "average": 30.3
-      },
-      "lexicalDiversity": 0.62,
-      "publisherAttributions": 0,
-      "flags": [
-        "stock-phrase:remains-to-be-seen"
-      ]
-    },
-    {
-      "id": "live-2026-08-01-real-madrid-academy-sales-181-million",
-      "slug": "real-madrid-academy-sales-181-million-summer",
-      "title": "Real Madrid's academy has already banked €181.5m this summer, ONE reports",
-      "kind": "analysis",
-      "words": 555,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 55,
-        "longest": 87,
-        "average": 69.4
-      },
-      "sentenceWords": {
-        "shortest": 14,
-        "longest": 81,
-        "average": 34.7
-      },
-      "lexicalDiversity": 0.559,
-      "publisherAttributions": 1,
-      "flags": [
-        "below-editorial-target:555/650"
       ]
     },
     {
@@ -3089,45 +3043,66 @@
   ],
   "clean": [
     {
-      "id": "live-2026-08-01-messi-columbus-fitness-doubt",
-      "slug": "messi-fitness-doubt-inter-miami-columbus-crew",
-      "title": "Will he play? Question mark hangs over Messi ahead of Inter Miami's clash with Columbus Crew",
+      "id": "live-2026-08-01-messi-doubt-columbus-crew",
+      "slug": "messi-doubtful-inter-miami-host-columbus-crew",
+      "title": "Messi's status in doubt as Inter Miami prepare to host Columbus Crew",
       "kind": "news",
-      "words": 352,
-      "paragraphs": 8,
+      "words": 382,
+      "paragraphs": 9,
       "paragraphWords": {
-        "shortest": 37,
-        "longest": 56,
-        "average": 44
+        "shortest": 34,
+        "longest": 49,
+        "average": 42.4
       },
       "sentenceWords": {
-        "shortest": 12,
-        "longest": 81,
-        "average": 35.2
+        "shortest": 8,
+        "longest": 84,
+        "average": 31.8
       },
-      "lexicalDiversity": 0.631,
+      "lexicalDiversity": 0.628,
       "publisherAttributions": 0,
       "flags": []
     },
     {
-      "id": "live-2026-08-01-maccabi-tel-aviv-oz-bilu-wing-interest",
-      "slug": "maccabi-tel-aviv-eyes-oz-bilu-wing-search",
-      "title": "Alongside foreign options, Maccabi Tel Aviv also weighing Maccabi Netanya's Oz Bilu",
-      "kind": "news",
-      "words": 441,
+      "id": "live-2026-08-01-maccabi-tel-aviv-oz-bilu-winger-target",
+      "slug": "maccabi-tel-aviv-oz-bilu-winger-target",
+      "title": "Maccabi Tel Aviv weigh Oz Bilu alongside foreign options for vacant wing berth",
+      "kind": "article",
+      "words": 444,
       "paragraphs": 8,
       "paragraphWords": {
-        "shortest": 37,
-        "longest": 86,
-        "average": 55.1
+        "shortest": 43,
+        "longest": 79,
+        "average": 55.5
       },
       "sentenceWords": {
-        "shortest": 4,
-        "longest": 44,
-        "average": 24.5
+        "shortest": 6,
+        "longest": 50,
+        "average": 26.1
       },
-      "lexicalDiversity": 0.56,
-      "publisherAttributions": 0,
+      "lexicalDiversity": 0.588,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-01-rishon-lezion-zrihan-compensation",
+      "slug": "rishon-lezion-zrihan-training-compensation-dispute",
+      "title": "Hapoel Rishon LeZion demand NIS 1.134 million for Zrihan's release",
+      "kind": "news",
+      "words": 470,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 45,
+        "longest": 69,
+        "average": 58.8
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 55,
+        "average": 31.3
+      },
+      "lexicalDiversity": 0.538,
+      "publisherAttributions": 1,
       "flags": []
     },
     {

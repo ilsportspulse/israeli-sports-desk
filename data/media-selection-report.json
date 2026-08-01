@@ -1,34 +1,22 @@
 {
   "selections": [
     {
-      "articleId": "live-20260801-orian-goren-barcelona-birmingham",
-      "article": "Orian Goren shows his class as Barcelona draw 2-2 with Birmingham City",
-      "file": "File:Camp Nou FC Barcelona.JPG",
-      "license": "CC BY-SA 3.0"
-    },
-    {
-      "articleId": "live-2026-08-01-messi-columbus-fitness-doubt",
-      "article": "Will he play? Question mark hangs over Messi ahead of Inter Miami's clash with Columbus Crew",
-      "file": "File:Lionel Messi NE Revolution Inter Miami 7.9.25-178 (cropped 2).jpg",
+      "articleId": "live-2026-08-01-messi-doubt-columbus-crew",
+      "article": "Messi's status in doubt as Inter Miami prepare to host Columbus Crew",
+      "file": "File:Lionel Messi NE Revolution Inter Miami 7.9.25-043 (cropped).jpg",
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-2026-08-01-real-madrid-academy-sales-181-million",
-      "article": "Real Madrid's academy has already banked €181.5m this summer, ONE reports",
-      "file": "File:Nico Paz Como 2025.jpg",
+      "articleId": "live-2026-08-01-real-madrid-academy-summer-earnings",
+      "article": "Real Madrid's academy graduates hand the club over €180 million this summer",
+      "file": "File:Nico Paz Argentina v Egypt 7 July 2026-031.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-2026-08-01-rishon-lezion-zrihan-compensation",
+      "article": "Hapoel Rishon LeZion demand NIS 1.134 million for Zrihan's release",
+      "file": "File:Haberfeld-stadium-rishon-lezion-00001-september-2016.jpg",
       "license": "CC0"
-    },
-    {
-      "articleId": "live-20260801-kaufman-gorbenko-2028-plan",
-      "article": "Kaufman lays out Israel swimming's road to Los Angeles 2028, built around Gorbenko",
-      "file": "File:Yakov Toumarkin 2.JPG",
-      "license": "CC BY 3.0"
-    },
-    {
-      "articleId": "archive-20260801-tokyo-7-august-2021-the-ribbon-that-fell",
-      "article": "Tokyo, 7 August 2021: The Ribbon That Fell and the Gold That Stayed",
-      "file": "File:Linoy Ashram.jpg",
-      "license": "CC BY-SA 4.0"
     },
     {
       "articleId": "live-20260714-basketball-coaches-registration",
@@ -40,13 +28,23 @@
   ],
   "failures": [
     {
-      "id": "live-2026-08-01-maccabi-tel-aviv-oz-bilu-wing-interest",
-      "title": "Alongside foreign options, Maccabi Tel Aviv also weighing Maccabi Netanya's Oz Bilu",
+      "id": "live-2026-08-01-maccabi-tel-aviv-oz-bilu-winger-target",
+      "title": "Maccabi Tel Aviv weigh Oz Bilu alongside foreign options for vacant wing berth",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {
-      "id": "live-2026-08-01-tottenham-chelsea-sydney-solomon-starts",
-      "title": "Manor Solomon starts as Tottenham lead Chelsea in Sydney friendly — full match report held",
+      "id": "live-2026-08-01-kaufman-gorbenko-2028-olympic-plan",
+      "title": "Leonid Kaufman lays out his plan to turn Gorbenko into an Olympic medal contender by 2028",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-2026-08-01-chelsea-tottenham-sydney-friendly-held",
+      "title": "Chelsea and Tottenham meet in Sydney Super Cup pre-season friendly",
+      "error": "image download 429 after retries"
+    },
+    {
+      "id": "archive-20260801-tokyo-7-august-2021-the-ribbon-that-fell",
+      "title": "Tokyo, 7 August 2021: The Ribbon That Fell and the Gold That Stayed",
       "error": "image download 429 after retries"
     },
     {

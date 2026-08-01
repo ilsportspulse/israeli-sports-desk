@@ -146,21 +146,21 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-01T10:24:58Z",
-    "validUntil": "2026-08-01T22:24:58Z",
+    "checkedAt": "2026-08-01T10:41:55Z",
+    "validUntil": "2026-08-01T22:41:55Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 301,
+        "maxAgeHours": 302,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260801-orian-goren-barcelona-birmingham",
+        "articleId": "live-2026-08-01-messi-doubt-columbus-crew",
         "maxAgeHours": 48,
         "requires": []
       },
@@ -174,21 +174,21 @@
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-01-messi-columbus-fitness-doubt",
+        "articleId": "live-2026-08-01-maccabi-tel-aviv-oz-bilu-winger-target",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 319,
+        "maxAgeHours": 320,
         "requires": [
           "column"
         ]
       },
       {
         "role": "archive",
-        "articleId": "archive-20260801-tokyo-7-august-2021-the-ribbon-that-fell",
+        "articleId": "archive-20260731-melbourne-26-january-2008-the-final-that",
         "maxAgeHours": 53,
         "requires": [
           "historical-feature"
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-01-maccabi-tel-aviv-oz-bilu-wing-interest",
+        "articleId": "live-2026-08-01-rishon-lezion-zrihan-compensation",
         "maxAgeHours": 24,
         "requires": []
       }

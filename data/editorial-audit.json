@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T10:24:58.338Z",
+  "generatedAt": "2026-08-01T10:41:56.150Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -18,12 +18,12 @@
   },
   "summary": {
     "totalArticles": 896,
-    "publishedBefore": 713,
-    "cleanPublished": 705,
+    "publishedBefore": 712,
+    "cleanPublished": 704,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 713,
-    "reviewAfter": 183
+    "publishedAfter": 712,
+    "reviewAfter": 184
   },
   "blockedPublished": [
     {
@@ -157,26 +157,12 @@
   ],
   "warnings": [
     {
-      "id": "live-20260801-orian-goren-barcelona-birmingham",
-      "slug": "orian-goren-barcelona-birmingham-city-praise",
-      "title": "Orian Goren shows his class as Barcelona draw 2-2 with Birmingham City",
+      "id": "live-2026-08-01-messi-doubt-columbus-crew",
+      "slug": "messi-doubtful-inter-miami-host-columbus-crew",
+      "title": "Messi's status in doubt as Inter Miami prepare to host Columbus Crew",
       "statusBefore": "published",
-      "words": 458,
-      "paragraphs": 10,
-      "facts": 6,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "voice:stock-editorial-phrase-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-01-messi-columbus-fitness-doubt",
-      "slug": "messi-fitness-doubt-inter-miami-columbus-crew",
-      "title": "Will he play? Question mark hangs over Messi ahead of Inter Miami's clash with Columbus Crew",
-      "statusBefore": "published",
-      "words": 355,
-      "paragraphs": 8,
+      "words": 385,
+      "paragraphs": 9,
       "facts": 7,
       "verificationSources": 4,
       "blockers": [],
@@ -185,61 +171,18 @@
       ]
     },
     {
-      "id": "live-2026-08-01-maccabi-tel-aviv-oz-bilu-wing-interest",
-      "slug": "maccabi-tel-aviv-eyes-oz-bilu-wing-search",
-      "title": "Alongside foreign options, Maccabi Tel Aviv also weighing Maccabi Netanya's Oz Bilu",
-      "statusBefore": "published",
-      "words": 446,
-      "paragraphs": 8,
-      "facts": 8,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline"
-      ]
-    },
-    {
-      "id": "live-2026-08-01-real-madrid-academy-sales-181-million",
-      "slug": "real-madrid-academy-sales-181-million-summer",
-      "title": "Real Madrid's academy has already banked €181.5m this summer, ONE reports",
-      "statusBefore": "published",
-      "words": 556,
-      "paragraphs": 8,
-      "facts": 7,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline",
-        "voice:analysis-below-650-word-editorial-target:556"
-      ]
-    },
-    {
-      "id": "live-20260801-kaufman-gorbenko-2028-plan",
-      "slug": "leonid-kaufman-gorbenko-road-to-los-angeles-2028",
-      "title": "Kaufman lays out Israel swimming's road to Los Angeles 2028, built around Gorbenko",
+      "id": "live-2026-08-01-real-madrid-academy-summer-earnings",
+      "slug": "real-madrid-academy-la-fabrica-summer-earnings-2026",
+      "title": "Real Madrid's academy graduates hand the club over €180 million this summer",
       "statusBefore": "review",
-      "words": 636,
-      "paragraphs": 12,
-      "facts": 8,
+      "words": 589,
+      "paragraphs": 10,
+      "facts": 7,
       "verificationSources": 6,
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline",
         "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-01-tottenham-chelsea-sydney-solomon-starts",
-      "slug": "tottenham-chelsea-sydney-super-cup-manor-solomon-starts",
-      "title": "Manor Solomon starts as Tottenham lead Chelsea in Sydney friendly — full match report held",
-      "statusBefore": "review",
-      "words": 192,
-      "paragraphs": 5,
-      "facts": 5,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline"
       ]
     },
     {
@@ -279,20 +222,6 @@
       "paragraphs": 9,
       "facts": 7,
       "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "archive-20260801-tokyo-7-august-2021-the-ribbon-that-fell",
-      "slug": "tokyo-7-august-2021-the-ribbon-that-fell-and-the-gold-that-stayed",
-      "title": "Tokyo, 7 August 2021: The Ribbon That Fell and the Gold That Stayed",
-      "statusBefore": "published",
-      "words": 836,
-      "paragraphs": 10,
-      "facts": 6,
-      "verificationSources": 7,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -8606,26 +8535,12 @@
   ],
   "cleanPublished": [
     {
-      "id": "live-20260801-orian-goren-barcelona-birmingham",
-      "slug": "orian-goren-barcelona-birmingham-city-praise",
-      "title": "Orian Goren shows his class as Barcelona draw 2-2 with Birmingham City",
+      "id": "live-2026-08-01-messi-doubt-columbus-crew",
+      "slug": "messi-doubtful-inter-miami-host-columbus-crew",
+      "title": "Messi's status in doubt as Inter Miami prepare to host Columbus Crew",
       "statusBefore": "published",
-      "words": 458,
-      "paragraphs": 10,
-      "facts": 6,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "voice:stock-editorial-phrase-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-01-messi-columbus-fitness-doubt",
-      "slug": "messi-fitness-doubt-inter-miami-columbus-crew",
-      "title": "Will he play? Question mark hangs over Messi ahead of Inter Miami's clash with Columbus Crew",
-      "statusBefore": "published",
-      "words": 355,
-      "paragraphs": 8,
+      "words": 385,
+      "paragraphs": 9,
       "facts": 7,
       "verificationSources": 4,
       "blockers": [],
@@ -8634,33 +8549,28 @@
       ]
     },
     {
-      "id": "live-2026-08-01-maccabi-tel-aviv-oz-bilu-wing-interest",
-      "slug": "maccabi-tel-aviv-eyes-oz-bilu-wing-search",
-      "title": "Alongside foreign options, Maccabi Tel Aviv also weighing Maccabi Netanya's Oz Bilu",
+      "id": "live-2026-08-01-maccabi-tel-aviv-oz-bilu-winger-target",
+      "slug": "maccabi-tel-aviv-oz-bilu-winger-target",
+      "title": "Maccabi Tel Aviv weigh Oz Bilu alongside foreign options for vacant wing berth",
       "statusBefore": "published",
-      "words": 446,
+      "words": 445,
       "paragraphs": 8,
-      "facts": 8,
+      "facts": 6,
       "verificationSources": 4,
       "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline"
-      ]
+      "warnings": []
     },
     {
-      "id": "live-2026-08-01-real-madrid-academy-sales-181-million",
-      "slug": "real-madrid-academy-sales-181-million-summer",
-      "title": "Real Madrid's academy has already banked €181.5m this summer, ONE reports",
+      "id": "live-2026-08-01-rishon-lezion-zrihan-compensation",
+      "slug": "rishon-lezion-zrihan-training-compensation-dispute",
+      "title": "Hapoel Rishon LeZion demand NIS 1.134 million for Zrihan's release",
       "statusBefore": "published",
-      "words": 556,
+      "words": 469,
       "paragraphs": 8,
       "facts": 7,
-      "verificationSources": 4,
+      "verificationSources": 2,
       "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline",
-        "voice:analysis-below-650-word-editorial-target:556"
-      ]
+      "warnings": []
     },
     {
       "id": "live-2026-08-01-haaland-michael-jordan-saint-tropez",
@@ -8700,9 +8610,7 @@
       "facts": 6,
       "verificationSources": 7,
       "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
+      "warnings": []
     },
     {
       "id": "live-2026-08-01-fifa-scraps-world-cup-privatization-plan",
