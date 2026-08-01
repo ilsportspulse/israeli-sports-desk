@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-01T02:09:32Z",
-    "validUntil": "2026-08-01T14:09:32Z",
+    "checkedAt": "2026-08-01T03:24:52Z",
+    "validUntil": "2026-08-01T15:24:52Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 293,
+        "maxAgeHours": 294,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260801-messi-asturias-award-petition",
+        "articleId": "live-20260801-khalaili-union-saint-gilloise-super-cup",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 301,
+        "maxAgeHours": 302,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-07-31-infantino-fifa-crisis-uefa-boycott",
+        "articleId": "live-20260801-messi-asturias-award-petition",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 311,
+        "maxAgeHours": 312,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-07-31-barcelona-sign-bisiwu",
+        "articleId": "live-2026-07-31-infantino-fifa-crisis-uefa-boycott",
         "maxAgeHours": 24,
         "requires": []
       }

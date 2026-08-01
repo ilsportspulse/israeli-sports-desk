@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T02:09:32.997Z",
+  "generatedAt": "2026-08-01T03:24:53.701Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 701,
+    "publishedArticles": 702,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 426,
-      "average": 426.4
+      "average": 426.3
     },
     "paragraphDistribution": {
       "3": 34,
@@ -25,7 +25,7 @@
       "6": 34,
       "7": 105,
       "8": 180,
-      "9": 158,
+      "9": 159,
       "10": 124,
       "11": 30,
       "12": 11,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.257,
+    "dominantParagraphShare": 0.256,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 34,
     "analysisBelowTarget": 8,
@@ -3042,6 +3042,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260801-khalaili-union-saint-gilloise-super-cup",
+      "slug": "union-saint-gilloise-beat-club-brugge-belgian-super-cup-khalaili-penalty",
+      "title": "Union Saint-Gilloise beat Club Brugge 5-4 on penalties to win Belgian Super Cup as Khalaili scores",
+      "kind": "match-report",
+      "words": 360,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 25,
+        "longest": 56,
+        "average": 40
+      },
+      "sentenceWords": {
+        "shortest": 25,
+        "longest": 56,
+        "average": 40
+      },
+      "lexicalDiversity": 0.608,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260801-messi-asturias-award-petition",
       "slug": "messi-princess-of-asturias-award-petition-world-cup-final",
