@@ -105,5 +105,62 @@
     "enabled": false,
     "rights": "metadata-and-short-original-summary",
     "accent": "#1f6fb2"
+  },
+  {
+    "id": "espn-top",
+    "name": "ESPN — Top Headlines",
+    "homepage": "https://www.espn.com/",
+    "sectionUrl": "https://www.espn.com/espn/rss/news",
+    "feedUrl": "https://www.espn.com/espn/rss/news",
+    "allowedHosts": ["www.espn.com", "espn.com"],
+    "note": "US clock: publishes through the night in Israel, filling quiet overnight hours with real world-sport for the International desk. Low priority so Israeli sources always lead by day.",
+    "priority": 35,
+    "maxPerRun": 25,
+    "minimumDelayMs": 1200,
+    "enabled": true,
+    "rights": "metadata-and-short-original-summary",
+    "accent": "#c8102e"
+  },
+  {
+    "id": "espn-mlb",
+    "name": "ESPN — MLB",
+    "homepage": "https://www.espn.com/mlb/",
+    "sectionUrl": "https://www.espn.com/espn/rss/mlb/news",
+    "feedUrl": "https://www.espn.com/espn/rss/mlb/news",
+    "allowedHosts": ["www.espn.com", "espn.com"],
+    "priority": 32,
+    "maxPerRun": 20,
+    "minimumDelayMs": 1200,
+    "enabled": true,
+    "rights": "metadata-and-short-original-summary",
+    "accent": "#041e42"
+  },
+  {
+    "id": "espn-nba",
+    "name": "ESPN — NBA",
+    "homepage": "https://www.espn.com/nba/",
+    "sectionUrl": "https://www.espn.com/espn/rss/nba/news",
+    "feedUrl": "https://www.espn.com/espn/rss/nba/news",
+    "allowedHosts": ["www.espn.com", "espn.com"],
+    "priority": 32,
+    "maxPerRun": 20,
+    "minimumDelayMs": 1200,
+    "enabled": true,
+    "rights": "metadata-and-short-original-summary",
+    "accent": "#c8102e"
+  },
+  {
+    "id": "espn-nhl",
+    "name": "ESPN — NHL",
+    "homepage": "https://www.espn.com/nhl/",
+    "sectionUrl": "https://www.espn.com/espn/rss/nhl/news",
+    "feedUrl": "https://www.espn.com/espn/rss/nhl/news",
+    "allowedHosts": ["www.espn.com", "espn.com"],
+    "priority": 30,
+    "maxPerRun": 15,
+    "minimumDelayMs": 1200,
+    "enabled": true,
+    "rights": "metadata-and-short-original-summary",
+    "accent": "#111111"
   }
 ]
