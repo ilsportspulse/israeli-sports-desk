@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T11:09:47.978Z",
+  "generatedAt": "2026-08-01T11:53:35.343Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 902,
-    "publishedBefore": 716,
-    "cleanPublished": 708,
+    "totalArticles": 907,
+    "publishedBefore": 717,
+    "cleanPublished": 709,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 716,
-    "reviewAfter": 186
+    "publishedAfter": 717,
+    "reviewAfter": 190
   },
   "blockedPublished": [
     {
@@ -157,10 +157,70 @@
   ],
   "warnings": [
     {
+      "id": "live-2026-08-01-adeyemi-barcelona-debut-birmingham",
+      "slug": "adeyemi-barcelona-debut-birmingham-city",
+      "title": "Birmingham City beat Barcelona on penalties after 2-2 draw, but Adeyemi's debut impresses",
+      "statusBefore": "published",
+      "words": 357,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260801-hapoel-beer-sheva-victory-sponsor-red-star-travel",
+      "slug": "victory-sponsor-subsidises-hapoel-beer-sheva-fan-packages-hungary",
+      "title": "Victory boss subsidises Hapoel Beer Sheva fan packages for Red Star Belgrade tie in Hungary",
+      "statusBefore": "review",
+      "words": 365,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-01-israel-u18-greece-classification-in-progress",
+      "slug": "israel-u18-greece-classification-in-progress",
+      "title": "Israel U18 basketball team lead Greece at half-time in European Championship classification game",
+      "statusBefore": "review",
+      "words": 19,
+      "paragraphs": 1,
+      "facts": 5,
+      "verificationSources": 1,
+      "blockers": [
+        "copy-depth:19/60-words",
+        "structure:1/3-paragraphs"
+      ],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260801-100-pushups-a-day-challenge",
+      "slug": "100-pushups-a-day-for-a-month-what-happens",
+      "title": "What actually happens if you do 100 push-ups a day for a month?",
+      "statusBefore": "published",
+      "words": 379,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-20260801-orian-goren-barcelona-birmingham",
       "slug": "orian-goren-barcelona-birmingham-city-praise",
       "title": "Orian Goren shows his class as Barcelona draw 2-2 with Birmingham City",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 458,
       "paragraphs": 10,
       "facts": 6,
@@ -239,7 +299,8 @@
       "verificationSources": 3,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -8631,21 +8692,62 @@
         "presentation:outlet-name-in-headline",
         "media:no-action-or-competition-context-detected"
       ]
+    },
+    {
+      "id": "live-2026-08-01-chelsea-tottenham-sydney-friendly-held",
+      "slug": "chelsea-tottenham-sydney-super-cup-friendly",
+      "title": "Chelsea and Tottenham meet in Sydney Super Cup pre-season friendly",
+      "statusBefore": "review",
+      "words": 177,
+      "paragraphs": 5,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     }
   ],
   "cleanPublished": [
     {
-      "id": "live-20260801-orian-goren-barcelona-birmingham",
-      "slug": "orian-goren-barcelona-birmingham-city-praise",
-      "title": "Orian Goren shows his class as Barcelona draw 2-2 with Birmingham City",
+      "id": "live-2026-08-01-adeyemi-barcelona-debut-birmingham",
+      "slug": "adeyemi-barcelona-debut-birmingham-city",
+      "title": "Birmingham City beat Barcelona on penalties after 2-2 draw, but Adeyemi's debut impresses",
       "statusBefore": "published",
-      "words": 458,
-      "paragraphs": 10,
-      "facts": 6,
-      "verificationSources": 4,
+      "words": 357,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
       "blockers": [],
       "warnings": [
-        "voice:stock-editorial-phrase-detected"
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-01-rafael-aronov-oktagon-debut",
+      "slug": "rafael-aronov-oktagon-92-debut-prague",
+      "title": "Rafael Aronov steps into the OKTAGON cage for the first time, live on ONE2 tonight",
+      "statusBefore": "published",
+      "words": 340,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260801-100-pushups-a-day-challenge",
+      "slug": "100-pushups-a-day-for-a-month-what-happens",
+      "title": "What actually happens if you do 100 push-ups a day for a month?",
+      "statusBefore": "published",
+      "words": 379,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -18180,18 +18282,6 @@
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
-    },
-    {
-      "id": "live-2026-08-01-maccabi-tel-aviv-oz-bilu-winger-target",
-      "slug": "maccabi-tel-aviv-oz-bilu-winger-target",
-      "title": "Maccabi Tel Aviv weigh Oz Bilu alongside foreign options for vacant wing berth",
-      "statusBefore": "published",
-      "words": 445,
-      "paragraphs": 8,
-      "facts": 6,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": []
     },
     {
       "id": "live-2026-08-01-rishon-lezion-zrihan-compensation",

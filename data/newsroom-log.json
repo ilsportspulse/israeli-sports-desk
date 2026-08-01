@@ -1,5 +1,78 @@
 [
   {
+    "ts": "2026-08-01T11:46:11.154Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 8,
+    "published": 3,
+    "review": 2,
+    "skipped": 3,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "100-pushups-a-day-for-a-month-what-happens",
+        "title": "What actually happens if you do 100 push-ups a day for a month?",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "rafael-aronov-oktagon-92-debut-prague",
+        "title": "Rafael Aronov steps into the OKTAGON cage for the first time, live on ONE2 tonight",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "israel-u18-greece-classification-in-progress",
+        "title": "Israel U18 basketball team lead Greece at half-time in European Championship classification game",
+        "confidence": 0,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "match in progress — wait for full time"
+      },
+      {
+        "slug": "victory-sponsor-subsidises-hapoel-beer-sheva-fan-packages-hungary",
+        "title": "Victory boss subsidises Hapoel Beer Sheva fan packages for Red Star Belgrade tie in Hungary",
+        "confidence": 0.85,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Match date (Aug 4 or 5) not yet fixed at time of writing; squad-fitness notes are pre-match and may change before kickoff."
+      },
+      {
+        "slug": "psg-tells-ferran-torres-will-beat-barcelona-contract-offer",
+        "title": "PSG tell Ferran Torres they will beat any Barcelona contract offer",
+        "decision": "duplicate",
+        "reason": "same event as ferran-torres-barcelona-contract-fears-psg-interest"
+      },
+      {
+        "slug": "vinicius-real-madrid-signing-bonus-contract-standoff",
+        "title": "Vinicius Júnior's solution to a Real Madrid renewal: a signing bonus",
+        "decision": "duplicate",
+        "reason": "same event as arsenal-record-wage-vinicius-junior-real-madrid"
+      },
+      {
+        "slug": "khalaili-missed-inter-not-penalty-spot-duplicate",
+        "title": "Khalaili missed Inter, but not from the penalty spot",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "adeyemi-barcelona-debut-birmingham-city",
+        "title": "Birmingham City beat Barcelona on penalties after 2-2 draw, but Adeyemi's debut impresses",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-08-01T10:18:00.469Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -3296,145 +3369,6 @@
       {
         "slug": "bruninho-maccabi-haifa-self-belief-fernandez",
         "title": "Ex-Karpaty coach: Bruninho is special, but he doesn't believe in himself yet",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-07-27T22:51:22.796Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 8,
-    "published": 2,
-    "review": 1,
-    "skipped": 5,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "hapoel-tel-aviv-owner-promise-ginat-champion",
-        "title": "Hapoel Tel Aviv owner vows Ginat will retire as champion of Israel and Europe",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "ironi-tiberias-injections-indictment-lawyer-defends-50ml",
-        "title": "Ironi Tiberias face \"most serious indictment ever\" over unsupervised player infusions",
-        "confidence": 0.85,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Could not verify an accurate, correctly-identified Wikimedia Commons photo for this story (no free-licensed photo of the club, its current stadium or the named individuals could be confirmed) — commonsCandidates left empty rather than risk a wrong image."
-      },
-      {
-        "slug": "ahavat-hashem-gordon-survives-john-lineker-gfn-tel-aviv",
-        "title": "Ahavat Hashem Gordon survives toughest test yet to outpoint John Lineker in Tel Aviv",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "ruach-hashem-gordon-wins-judges-decision-gfn1-tel-aviv",
-        "title": "Ruach HaShem Gordon grinds out judges' decision as Gordon brothers headline sold-out Tel Aviv fight night",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "kibedy-gordon-ko-jose-alberto-quinonez-tel-aviv",
-        "title": "Kibedy Gordon knocks out Quiñónez in under a minute at Tel Aviv debut card",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "kibedy-gordon-ufc-message-dana-white",
-        "title": "Kibedy Gordon flattens Quiñonez in under a minute, then calls out Dana White for a UFC shot",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "padel-invitational-sydney-opera-house-2026",
-        "title": "Sydney Opera House to host inaugural Padel Invitational with Pat Rafter",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "ilay-barzilay-defeats-lucas-almeida-ufc-push",
-        "title": "Ilay Barzilay bags the biggest win of his career and edges closer to the UFC",
-        "confidence": 0.8,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-01T10:33:53.654Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 8,
-    "published": 3,
-    "review": 3,
-    "skipped": 2,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "rishon-lezion-zrihan-training-compensation-dispute",
-        "title": "Hapoel Rishon LeZion demand NIS 1.134 million for Zrihan's release",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "psg-vow-beat-barcelona-offer-ferran-torres",
-        "title": "PSG vow to beat any Barcelona offer for World Cup hero Ferran Torres",
-        "decision": "duplicate"
-      },
-      {
-        "url": "https://www.one.co.il/Article/529557.html",
-        "decision": "skipped",
-        "reason": "no valid article emitted"
-      },
-      {
-        "slug": "chelsea-tottenham-sydney-super-cup-friendly",
-        "title": "Chelsea and Tottenham meet in Sydney Super Cup pre-season friendly",
-        "confidence": 0,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "match in progress — wait for full time. Source (ONE) is a live minute-by-minute update at minute 3, 0:0, not a final result; do not publish as a match report until the final score is confirmed."
-      },
-      {
-        "slug": "leonid-kaufman-gorbenko-2028-olympic-plan",
-        "title": "Leonid Kaufman lays out his plan to turn Gorbenko into an Olympic medal contender by 2028",
-        "confidence": 0.82,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Single-source (ONE) report of the coach's stated plan and quotes; figures like the relay target and college-training share are Kaufman's own estimates, not independently audited."
-      },
-      {
-        "slug": "real-madrid-academy-la-fabrica-summer-earnings-2026",
-        "title": "Real Madrid's academy graduates hand the club over €180 million this summer",
-        "confidence": 0.8,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Exact total varies slightly by outlet (ONE and Sport1 report just over €180m/€108m-plus at different points; Spanish outlets VAVEL/El Español put the fuller summer tally at €186-200m) as clauses continue to be triggered through August — treat the precise figure as a moving target within a consistent range."
-      },
-      {
-        "slug": "maccabi-tel-aviv-oz-bilu-winger-target",
-        "title": "Maccabi Tel Aviv weigh Oz Bilu alongside foreign options for vacant wing berth",
-        "confidence": 0.78,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "messi-doubtful-inter-miami-host-columbus-crew",
-        "title": "Messi's status in doubt as Inter Miami prepare to host Columbus Crew",
         "confidence": 0.82,
         "gate": "pass",
         "decision": "published",
