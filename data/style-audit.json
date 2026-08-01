@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T20:47:20.131Z",
+  "generatedAt": "2026-08-01T21:45:35.841Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,7 +11,7 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 732,
+    "publishedArticles": 734,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
@@ -23,11 +23,11 @@
       "4": 6,
       "5": 10,
       "6": 35,
-      "7": 106,
-      "8": 193,
-      "9": 166,
+      "7": 107,
+      "8": 192,
+      "9": 167,
       "10": 128,
-      "11": 32,
+      "11": 33,
       "12": 12,
       "13": 4,
       "14": 2,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.264,
+    "dominantParagraphShare": 0.262,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 35,
     "analysisBelowTarget": 9,
@@ -3136,6 +3136,69 @@
   ],
   "clean": [
     {
+      "id": "live-2026-08-01-hapoel-tel-aviv-ludogorets-conference-league",
+      "slug": "hapoel-tel-aviv-ludogorets-conference-league-barda-achievement",
+      "title": "Ludogorets 2-2 Hapoel Tel Aviv (4-2 agg): Barda's biggest scalp yet sends Reds into Conference League third round",
+      "kind": "article",
+      "words": 525,
+      "paragraphs": 11,
+      "paragraphWords": {
+        "shortest": 32,
+        "longest": 68,
+        "average": 47.7
+      },
+      "sentenceWords": {
+        "shortest": 1,
+        "longest": 89,
+        "average": 26.3
+      },
+      "lexicalDiversity": 0.558,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-01-mourinho-three-faces-real-madrid-fiorentina",
+      "slug": "mourinho-three-faces-real-madrid-fiorentina-draw",
+      "title": "Real Madrid 2-2 Fiorentina: Mourinho sees 'three different faces' in his first game in charge",
+      "kind": "article",
+      "words": 409,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 29,
+        "longest": 59,
+        "average": 45.4
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 100,
+        "average": 37.2
+      },
+      "lexicalDiversity": 0.589,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-01-sochan-joins-avdija-portland",
+      "slug": "jeremy-sochan-signs-portland-trail-blazers-deni-avdija",
+      "title": "Deni Avdija gets a new frontcourt partner as Jeremy Sochan signs with Portland",
+      "kind": "news",
+      "words": 300,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 47,
+        "average": 42.9
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 43,
+        "average": 27.3
+      },
+      "lexicalDiversity": 0.663,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
       "id": "live-2026-08-01-eugene-german-hapoel-tel-aviv",
       "slug": "eugene-german-signs-hapoel-tel-aviv",
       "title": "Hapoel Tel Aviv sign American guard Eugene German",
@@ -3217,27 +3280,6 @@
       },
       "lexicalDiversity": 0.63,
       "publisherAttributions": 1,
-      "flags": []
-    },
-    {
-      "id": "live-20260801-real-madrid-fiorentina-mourinho-debut",
-      "slug": "real-madrid-fiorentina-mourinho-debut-draw",
-      "title": "Real Madrid 2-2 Fiorentina: Mourinho's first game in charge ends in a second-half collapse",
-      "kind": "article",
-      "words": 392,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 43,
-        "longest": 59,
-        "average": 49
-      },
-      "sentenceWords": {
-        "shortest": 4,
-        "longest": 63,
-        "average": 32.7
-      },
-      "lexicalDiversity": 0.61,
-      "publisherAttributions": 0,
       "flags": []
     },
     {
