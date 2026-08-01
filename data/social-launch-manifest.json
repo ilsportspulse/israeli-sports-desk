@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-01T21:47:22Z",
-    "validUntil": "2026-08-02T09:47:22Z",
+    "checkedAt": "2026-08-01T22:48:46Z",
+    "validUntil": "2026-08-02T10:48:46Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 313,
+        "maxAgeHours": 314,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-01-hapoel-tel-aviv-ludogorets-conference-league",
+        "articleId": "live-2026-08-01-beer-sheva-night-race-price-deadline",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 321,
+        "maxAgeHours": 322,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-01-mourinho-three-faces-real-madrid-fiorentina",
+        "articleId": "live-2026-08-01-marquee-sports-ai-6-5-million",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 331,
+        "maxAgeHours": 332,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-01-sochan-joins-avdija-portland",
+        "articleId": "live-2026-08-01-hapoel-tel-aviv-ludogorets-conference-league",
         "maxAgeHours": 24,
         "requires": []
       }

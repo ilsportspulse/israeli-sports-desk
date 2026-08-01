@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T21:47:23.090Z",
+  "generatedAt": "2026-08-01T22:48:47.503Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,11 +11,11 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 734,
+    "publishedArticles": 737,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 425.5,
+      "median": 426,
       "average": 426.6
     },
     "paragraphDistribution": {
@@ -24,8 +24,8 @@
       "5": 10,
       "6": 35,
       "7": 107,
-      "8": 192,
-      "9": 167,
+      "8": 194,
+      "9": 168,
       "10": 128,
       "11": 33,
       "12": 12,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.262,
+    "dominantParagraphShare": 0.263,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 35,
     "analysisBelowTarget": 9,
@@ -3135,6 +3135,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-01-beer-sheva-night-race-price-deadline",
+      "slug": "beer-sheva-night-race-price-deadline",
+      "title": "Two days left to catch the early price for Beer Sheva's night race",
+      "kind": "article",
+      "words": 314,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 48,
+        "average": 39.3
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 48,
+        "average": 26.2
+      },
+      "lexicalDiversity": 0.672,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-01-marquee-sports-ai-6-5-million",
+      "slug": "marquee-israeli-sports-ai-startup-6-5-million-funding-axel-springer",
+      "title": "Israeli sports-tech startup Marquee raises $6.5 million led by Axel Springer",
+      "kind": "news",
+      "words": 510,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 42,
+        "longest": 74,
+        "average": 56.7
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 59,
+        "average": 30
+      },
+      "lexicalDiversity": 0.582,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-01-vinicius-signing-bonus-real-madrid",
+      "slug": "vinicius-junior-signing-bonus-real-madrid-contract",
+      "title": "Vinícius Júnior's solution to a Real Madrid deadlock: a signing bonus",
+      "kind": "news",
+      "words": 437,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 83,
+        "average": 54.6
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 56,
+        "average": 27.3
+      },
+      "lexicalDiversity": 0.588,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-08-01-hapoel-tel-aviv-ludogorets-conference-league",
       "slug": "hapoel-tel-aviv-ludogorets-conference-league-barda-achievement",

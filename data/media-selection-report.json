@@ -1,28 +1,22 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-08-01-hapoel-tel-aviv-ludogorets-conference-league",
-      "article": "Ludogorets 2-2 Hapoel Tel Aviv (4-2 agg): Barda's biggest scalp yet sends Reds into Conference League third round",
-      "file": "File:SM Caen Tifo 15 ans du MNK.jpg",
-      "license": "CC BY-SA 3.0"
-    },
-    {
-      "articleId": "live-2026-08-01-mourinho-three-faces-real-madrid-fiorentina",
-      "article": "Real Madrid 2-2 Fiorentina: Mourinho sees 'three different faces' in his first game in charge",
-      "file": "File:Mourinho Madrid.jpg",
-      "license": "CC BY 3.0"
-    },
-    {
-      "articleId": "live-2026-08-01-sochan-joins-avdija-portland",
-      "article": "Deni Avdija gets a new frontcourt partner as Jeremy Sochan signs with Portland",
-      "file": "File:Jeremy Sochan San Antonio Spurs 2024.jpg",
-      "license": "CC BY 4.0"
-    },
-    {
-      "articleId": "live-20260801-arsenal-girona-preseason-opener",
-      "article": "Girona 1-4 Arsenal: Havertz, Tzolis and teenager Dowman shine in preseason opener",
-      "file": "File:Gabriel Jesus 2021.jpg",
+      "articleId": "live-2026-08-01-beer-sheva-night-race-price-deadline",
+      "article": "Two days left to catch the early price for Beer Sheva's night race",
+      "file": "File:Be'er Sheva at night.jpg",
       "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-2026-08-01-brazil-marathon-record-holder-missing",
+      "article": "South America's marathon record holder missing for six weeks as mother pleads for his return",
+      "file": "File:2024 London Marathon - Daniel Do Nascimento.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-2026-08-01-marquee-sports-ai-6-5-million",
+      "article": "Israeli sports-tech startup Marquee raises $6.5 million led by Axel Springer",
+      "file": "File:Tafel Axel Springer Axel-Springer-Hochhaus Axel-Springer-Straße Berlin-Kreuzberg.jpg",
+      "license": "CC0"
     },
     {
       "articleId": "live-20260714-basketball-coaches-registration",
@@ -33,6 +27,11 @@
     }
   ],
   "failures": [
+    {
+      "id": "live-2026-08-01-vinicius-signing-bonus-real-madrid",
+      "title": "Vinícius Júnior's solution to a Real Madrid deadlock: a signing bonus",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
     {
       "id": "live-2026-08-01-ashkelon-rehovot-nahariya-basketball-transfers",
       "title": "Ashkelon sign Sadeh, Rehovot add Binyamin as Nahariya keep hold of Nadler",

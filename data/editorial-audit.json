@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T21:47:22.654Z",
+  "generatedAt": "2026-08-01T22:48:47.161Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 941,
-    "publishedBefore": 734,
-    "cleanPublished": 726,
+    "totalArticles": 945,
+    "publishedBefore": 737,
+    "cleanPublished": 729,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 734,
-    "reviewAfter": 207
+    "publishedAfter": 737,
+    "reviewAfter": 208
   },
   "blockedPublished": [
     {
@@ -156,6 +156,34 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-2026-08-01-beer-sheva-night-race-price-deadline",
+      "slug": "beer-sheva-night-race-price-deadline",
+      "title": "Two days left to catch the early price for Beer Sheva's night race",
+      "statusBefore": "published",
+      "words": 312,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-01-marquee-sports-ai-6-5-million",
+      "slug": "marquee-israeli-sports-ai-startup-6-5-million-funding-axel-springer",
+      "title": "Israeli sports-tech startup Marquee raises $6.5 million led by Axel Springer",
+      "statusBefore": "published",
+      "words": 509,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-08-01-hapoel-tel-aviv-ludogorets-conference-league",
       "slug": "hapoel-tel-aviv-ludogorets-conference-league-barda-achievement",
@@ -9095,6 +9123,46 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-01-beer-sheva-night-race-price-deadline",
+      "slug": "beer-sheva-night-race-price-deadline",
+      "title": "Two days left to catch the early price for Beer Sheva's night race",
+      "statusBefore": "published",
+      "words": 312,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-01-marquee-sports-ai-6-5-million",
+      "slug": "marquee-israeli-sports-ai-startup-6-5-million-funding-axel-springer",
+      "title": "Israeli sports-tech startup Marquee raises $6.5 million led by Axel Springer",
+      "statusBefore": "published",
+      "words": 509,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-01-vinicius-signing-bonus-real-madrid",
+      "slug": "vinicius-junior-signing-bonus-real-madrid-contract",
+      "title": "Vinícius Júnior's solution to a Real Madrid deadlock: a signing bonus",
+      "statusBefore": "published",
+      "words": 444,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-2026-08-01-hapoel-tel-aviv-ludogorets-conference-league",
       "slug": "hapoel-tel-aviv-ludogorets-conference-league-barda-achievement",
