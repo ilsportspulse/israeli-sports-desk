@@ -1,5 +1,73 @@
 [
   {
+    "ts": "2026-08-01T18:11:14.720Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 8,
+    "published": 0,
+    "review": 3,
+    "skipped": 5,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "eugene-german-signs-hapoel-tel-aviv",
+        "title": "Hapoel Tel Aviv sign American guard Eugene German",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "hapoel-holon-sign-brandon-johns-jr-sporting-lisbon",
+        "title": "Hapoel Holon sign forward Brandon Johns Jr. from Sporting Lisbon",
+        "confidence": 0.8,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Player's English-language spelling (Brandon Johns Jr., per NCAA/Eurobasket/FIBA records) differs from a literal Hebrew transliteration of the ONE headline (\"Jones\"); biographical details match exactly, so Johns is used here. Contract length not disclosed."
+      },
+      {
+        "slug": "bnei-sakhnin-hapoel-haifa-toto-cup-live",
+        "title": "Bnei Sakhnin host Hapoel Haifa in Toto Cup Al clash",
+        "confidence": 0,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "match in progress — wait for full time; also could not independently verify a correctly-identified Commons image within budget, so no candidates are returned"
+      },
+      {
+        "slug": "tiberias-kiryat-shmona-toto-cup-in-progress",
+        "title": "Tiberias and Kiryat Shmona goalless as Toto Cup clash continues",
+        "confidence": 0,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "match in progress — wait for full time"
+      },
+      {
+        "slug": "leipzig-silence-real-madrid-diomande-transfer-standoff",
+        "title": "Stuck in Germany: Leipzig go quiet on Real Madrid's latest Diomande offer",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "psg-warns-barcelona-will-improve-any-offer-ferran-torres",
+        "title": "PSG tell Ferran Torres they will beat any renewal offer from Barcelona",
+        "decision": "duplicate",
+        "reason": "same event as ferran-torres-barcelona-contract-fears-psg-interest"
+      },
+      {
+        "slug": "vinicius-junior-signing-bonus-real-madrid-contract",
+        "title": "Vinicius Jr's camp pitches a signing bonus to break Real Madrid contract deadlock",
+        "decision": "duplicate",
+        "reason": "same event as arsenal-record-wage-vinicius-junior-real-madrid"
+      },
+      {
+        "slug": "khalaily-penalty-belgian-super-cup-sommer-inter-collapse",
+        "title": "Club Brugge 1-1 Union Saint-Gilloise (Union win 5-4 on penalties): Khalaily scores past Sommer weeks after his Inter move collapsed",
+        "decision": "duplicate",
+        "reason": "same event as khalaili-nottingham-forest-bid-rejected"
+      }
+    ]
+  },
+  {
     "ts": "2026-08-01T17:19:23.001Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -3355,72 +3423,6 @@
       {
         "slug": "ahavat-hashem-gordon-beats-lineker-gfn1-tel-aviv",
         "title": "Ahavat Hashem Gordon survives brutal decision over John Lineker to headline GFN 1 in Tel Aviv",
-        "decision": "duplicate"
-      }
-    ]
-  },
-  {
-    "ts": "2026-07-28T01:55:26.701Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 8,
-    "published": 1,
-    "review": 2,
-    "skipped": 5,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "hapoel-tel-aviv-ginat-contract-extension-yanai-promise",
-        "title": "Hapoel Tel Aviv owner vows Ginat will retire as champion of Israel and Europe",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "ahavat-hashem-gordon-beats-john-lineker-gfn1-tel-aviv",
-        "title": "Ahavat Hashem Gordon survives brutal test to beat John Lineker at GFN 1",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "ruach-hashem-gordon-judges-decision-win-gfn",
-        "title": "Ruach Hashem Gordon grinds out points win as brothers' promotion debuts in Tel Aviv",
-        "confidence": 0.82,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Opponent's surname is transliterated inconsistently across Hebrew outlets (Chanuta/Bahanuttas); spelled 'Bejenuta' here per English-language ONE Championship coverage of the same fighter."
-      },
-      {
-        "slug": "bnei-sakhnin-sign-forward-loai-halaf",
-        "title": "Bnei Sakhnin sign forward Loai Halaf on a free transfer",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "israel-u18-basketball-eurobasket-denmark-round-of-16",
-        "title": "Israel's under-18s go 3-0 in Italy and draw Denmark in bid to rewrite basketball history",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "yuval-sznajderman-signs-hapoel-eilat",
-        "title": "Yuval Sznajderman signs with Hapoel Eilat ahead of Ligat Winner return",
-        "decision": "duplicate",
-        "reason": "same event as yuval-schneiderman-signs-hapoel-ironi-eilat"
-      },
-      {
-        "slug": "zidane-france-coach-eight-year-deal-four-tournaments",
-        "title": "Zidane pushes for four-tournament, eight-year deal as France's new coach",
-        "confidence": 0.55,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Sport5's report of an eight-year, four-tournament deal to 2034 conflicts with other outlets (Goal.com, ESPN) describing a shorter contract to 2030 covering three tournaments; the discrepancy is unresolved and flagged in the copy."
-      },
-      {
-        "slug": "gordon-brothers-future-after-gfn1-wins",
-        "title": "Gordon brothers eye bigger stages after sweeping GFN 1 in Tel Aviv",
         "decision": "duplicate"
       }
     ]

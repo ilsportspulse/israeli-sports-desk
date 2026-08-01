@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T17:32:09.450Z",
+  "generatedAt": "2026-08-01T18:16:07.645Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 928,
+    "totalArticles": 931,
     "publishedBefore": 726,
     "cleanPublished": 718,
     "blockedPublished": 8,
     "demoted": 0,
     "publishedAfter": 726,
-    "reviewAfter": 202
+    "reviewAfter": 205
   },
   "blockedPublished": [
     {
@@ -156,6 +156,49 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-20260801-tiberias-kiryat-shmona-toto-cup-in-progress",
+      "slug": "tiberias-kiryat-shmona-toto-cup-in-progress",
+      "title": "Tiberias and Kiryat Shmona goalless as Toto Cup clash continues",
+      "statusBefore": "review",
+      "words": 196,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-01-bnei-sakhnin-hapoel-haifa-toto-cup",
+      "slug": "bnei-sakhnin-hapoel-haifa-toto-cup-live",
+      "title": "Bnei Sakhnin host Hapoel Haifa in Toto Cup Al clash",
+      "statusBefore": "review",
+      "words": 162,
+      "paragraphs": 5,
+      "facts": 5,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-08-01-holon-sign-brandon-johns-jr",
+      "slug": "hapoel-holon-sign-brandon-johns-jr-sporting-lisbon",
+      "title": "Hapoel Holon sign forward Brandon Johns Jr. from Sporting Lisbon",
+      "statusBefore": "review",
+      "words": 324,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260801-real-madrid-fiorentina-preseason-friendly",
       "slug": "real-madrid-fiorentina-preseason-friendly-klagenfurt",
