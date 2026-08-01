@@ -146,8 +146,8 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-01T18:32:50Z",
-    "validUntil": "2026-08-02T06:32:50Z",
+    "checkedAt": "2026-08-01T19:21:24Z",
+    "validUntil": "2026-08-02T07:21:24Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
@@ -160,21 +160,21 @@
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-01-trabzonspor-salah-fulham-pitarch",
+        "articleId": "live-2026-08-01-hapoel-tel-aviv-nick-richards-target",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 317,
+        "maxAgeHours": 318,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260801-hadera-abdach-compensation-cut",
+        "articleId": "live-20260801-real-madrid-fiorentina-mourinho-debut",
         "maxAgeHours": 24,
         "requires": []
       },
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-01-monaco-basket-excluded-french-league",
+        "articleId": "live-2026-08-01-trabzonspor-salah-fulham-pitarch",
         "maxAgeHours": 24,
         "requires": []
       }

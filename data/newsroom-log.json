@@ -1,5 +1,50 @@
 [
   {
+    "ts": "2026-08-01T19:15:22.987Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 4,
+    "published": 2,
+    "review": 1,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "real-madrid-fiorentina-mourinho-debut-draw",
+        "title": "Real Madrid 2-2 Fiorentina: Mourinho's first game in charge ends in a second-half collapse",
+        "confidence": 0.9,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "ashkelon-sign-sadeh-rehovot-add-binyamin-nahariya-keep-nadler",
+        "title": "Ashkelon sign Sadeh, Rehovot add Binyamin as Nahariya keep hold of Nadler",
+        "confidence": 0.8,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "No verified, subject-correct Wikimedia Commons photograph could be found for these National League players or clubs within the research budget — commonsCandidates left empty; hold for image sourcing before publish."
+      },
+      {
+        "slug": "hapoel-tel-aviv-eyes-nick-richards-center-frontcourt-rebuild",
+        "title": "Hapoel Tel Aviv weigh move for NBA big man Nick Richards",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "hapoel-tel-aviv-sign-guard-eugene-german",
+        "title": "Hapoel Tel Aviv officially sign guard Eugene German",
+        "decision": "duplicate"
+      }
+    ]
+  },
+  {
     "ts": "2026-08-01T18:11:14.720Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -3360,70 +3405,6 @@
         "gate": "hold",
         "decision": "review",
         "reason": "Lineup changes are pre-match planning based on training, not a confirmed team sheet; exact transliteration of some squad players' names varies slightly between Israeli outlets and English-language football databases."
-      }
-    ]
-  },
-  {
-    "ts": "2026-07-28T02:29:37.223Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 8,
-    "published": 1,
-    "review": 1,
-    "skipped": 6,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "yanai-vows-ginat-will-retire-champion-israel-europe",
-        "title": "Hapoel Tel Aviv owner vows Ginat will retire as champion of Israel and Europe",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "ahavat-gordon-survives-lineker-power-gfn1-tel-aviv",
-        "title": "Ahavat Hashem Gordon survives John Lineker's power to win GFN 1 headliner in Tel Aviv",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "held-duplicate-loai-halaf-bnei-sakhnin",
-        "title": "",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "yuval-shneiderman-signs-hapoel-eilat",
-        "title": "Guard Yuval Shneiderman signs with Hapoel Eilat for top-flight return",
-        "decision": "duplicate",
-        "reason": "same event as yuval-schneiderman-signs-hapoel-ironi-eilat"
-      },
-      {
-        "slug": "gordon-brothers-gfn1-tel-aviv-future",
-        "title": "Three Gordon brothers win on the same historic night in Tel Aviv",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "kings-kangwa-aek-athens-deal-collapse-panathinaikos",
-        "title": "Not even for 10 million euros: how Kings Kangwa's move to AEK Athens blew up",
-        "decision": "duplicate",
-        "reason": "same event as kangwa-champions-league-equalizer-vikingur-aek-transfer"
-      },
-      {
-        "slug": "hapoel-haifa-sardal-contract-twist",
-        "title": "Father's claim adds a twist to Liran Sardal's Hapoel Haifa exit saga",
-        "confidence": 0.78,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Contract outcome remains genuinely unresolved — the club and the player's father give conflicting accounts of whether reduced terms were already accepted; treat as a developing situation."
-      },
-      {
-        "slug": "ahavat-hashem-gordon-beats-lineker-gfn1-tel-aviv",
-        "title": "Ahavat Hashem Gordon survives brutal decision over John Lineker to headline GFN 1 in Tel Aviv",
-        "decision": "duplicate"
       }
     ]
   }

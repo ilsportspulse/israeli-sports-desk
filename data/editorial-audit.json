@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T18:32:50.595Z",
+  "generatedAt": "2026-08-01T19:21:24.437Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 931,
-    "publishedBefore": 726,
-    "cleanPublished": 718,
+    "totalArticles": 935,
+    "publishedBefore": 729,
+    "cleanPublished": 721,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 726,
-    "reviewAfter": 205
+    "publishedAfter": 729,
+    "reviewAfter": 206
   },
   "blockedPublished": [
     {
@@ -156,6 +156,21 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-2026-08-01-hapoel-tel-aviv-nick-richards-target",
+      "slug": "hapoel-tel-aviv-eyes-nick-richards-center-frontcourt-rebuild",
+      "title": "Hapoel Tel Aviv weigh move for NBA big man Nick Richards",
+      "statusBefore": "published",
+      "words": 305,
+      "paragraphs": 7,
+      "facts": 5,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260801-tiberias-kiryat-shmona-toto-cup-in-progress",
       "slug": "tiberias-kiryat-shmona-toto-cup-in-progress",
@@ -9010,6 +9025,45 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-01-hapoel-tel-aviv-nick-richards-target",
+      "slug": "hapoel-tel-aviv-eyes-nick-richards-center-frontcourt-rebuild",
+      "title": "Hapoel Tel Aviv weigh move for NBA big man Nick Richards",
+      "statusBefore": "published",
+      "words": 305,
+      "paragraphs": 7,
+      "facts": 5,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260801-real-madrid-fiorentina-mourinho-debut",
+      "slug": "real-madrid-fiorentina-mourinho-debut-draw",
+      "title": "Real Madrid 2-2 Fiorentina: Mourinho's first game in charge ends in a second-half collapse",
+      "statusBefore": "published",
+      "words": 395,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "tour-20260801-wiebes-wins-uphill-sprint-to-seize-yello",
+      "slug": "wiebes-wins-uphill-sprint-to-seize-yellow-as-tour-de-france-femmes-ope",
+      "title": "Wiebes Wins Uphill Sprint to Seize Yellow as Tour de France Femmes Opens in Lausanne",
+      "statusBefore": "published",
+      "words": 603,
+      "paragraphs": 11,
+      "facts": 8,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-2026-08-01-trabzonspor-salah-fulham-pitarch",
       "slug": "trabzonspor-mohamed-salah-offer-thiago-pitarch-fulham",
