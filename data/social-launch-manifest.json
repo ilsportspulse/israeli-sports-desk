@@ -146,49 +146,49 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-01T09:09:44Z",
-    "validUntil": "2026-08-01T21:09:44Z",
+    "checkedAt": "2026-08-01T10:24:58Z",
+    "validUntil": "2026-08-01T22:24:58Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 300,
+        "maxAgeHours": 301,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-01-haaland-michael-jordan-saint-tropez",
+        "articleId": "live-20260801-orian-goren-barcelona-birmingham",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 308,
+        "maxAgeHours": 309,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-01-maccabi-hapoel-european-qualifying-opponents",
+        "articleId": "live-2026-08-01-messi-columbus-fitness-doubt",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 318,
+        "maxAgeHours": 319,
         "requires": [
           "column"
         ]
       },
       {
         "role": "archive",
-        "articleId": "archive-20260731-melbourne-26-january-2008-the-final-that",
+        "articleId": "archive-20260801-tokyo-7-august-2021-the-ribbon-that-fell",
         "maxAgeHours": 53,
         "requires": [
           "historical-feature"
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-01-fifa-scraps-world-cup-privatization-plan",
+        "articleId": "live-2026-08-01-maccabi-tel-aviv-oz-bilu-wing-interest",
         "maxAgeHours": 24,
         "requires": []
       }
