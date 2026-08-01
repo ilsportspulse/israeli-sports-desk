@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T12:09:51.148Z",
+  "generatedAt": "2026-08-01T12:56:29.273Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 717,
+    "publishedArticles": 719,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 426,
-      "average": 426.8
+      "average": 427.2
     },
     "paragraphDistribution": {
       "3": 34,
@@ -24,11 +24,11 @@
       "5": 9,
       "6": 35,
       "7": 105,
-      "8": 187,
+      "8": 188,
       "9": 163,
       "10": 126,
       "11": 31,
-      "12": 11,
+      "12": 12,
       "13": 4,
       "14": 2,
       "16": 1,
@@ -39,7 +39,7 @@
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 35,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 131
+    "articlesWithStyleFlags": 132
   },
   "flagged": [
     {
@@ -232,6 +232,29 @@
       "flags": [
         "below-editorial-target:84/650",
         "analysis-structure:3/5-paragraphs"
+      ]
+    },
+    {
+      "id": "live-20260801-daniel-worko-beitar-journey",
+      "slug": "daniel-worko-beitar-jerusalem-journey",
+      "title": "Nasty, aggressive and precise: Daniel Worko's road into Beitar Jerusalem's lineup",
+      "kind": "article",
+      "words": 575,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 42,
+        "longest": 91,
+        "average": 63.9
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 50,
+        "average": 26.1
+      },
+      "lexicalDiversity": 0.544,
+      "publisherAttributions": 2,
+      "flags": [
+        "publisher-attribution-heavy:2"
       ]
     },
     {
@@ -3066,6 +3089,48 @@
   ],
   "clean": [
     {
+      "id": "live-20260801-shnior-sofer-marmorek-left-back",
+      "slug": "shnior-sofer-kfar-chabad-marmorek-left-back",
+      "title": "From Kfar Chabad's yeshiva to Liga Alef: Hapoel Marmorek's new left-back Shnior Sofer",
+      "kind": "article",
+      "words": 401,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 25,
+        "longest": 58,
+        "average": 50.1
+      },
+      "sentenceWords": {
+        "shortest": 18,
+        "longest": 57,
+        "average": 30.8
+      },
+      "lexicalDiversity": 0.603,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-01-uefa-infantino-resign-fifa",
+      "slug": "uefa-infantino-resign-fifa-world-cup-investment-plan",
+      "title": "UEFA says it has lost confidence in Infantino as scrapped World Cup investment plan sparks resignation calls",
+      "kind": "news",
+      "words": 572,
+      "paragraphs": 12,
+      "paragraphWords": {
+        "shortest": 32,
+        "longest": 72,
+        "average": 47.7
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 151,
+        "average": 44
+      },
+      "lexicalDiversity": 0.577,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
       "id": "live-2026-08-01-adeyemi-barcelona-debut-birmingham",
       "slug": "adeyemi-barcelona-debut-birmingham-city",
       "title": "Birmingham City beat Barcelona on penalties after 2-2 draw, but Adeyemi's debut impresses",
@@ -3230,27 +3295,6 @@
         "average": 29.9
       },
       "lexicalDiversity": 0.527,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-01-fifa-scraps-world-cup-privatization-plan",
-      "slug": "fifa-scraps-world-cup-privatization-plan",
-      "title": "FIFA scraps World Cup privatization plan after confederation revolt",
-      "kind": "news",
-      "words": 431,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 27,
-        "longest": 63,
-        "average": 47.9
-      },
-      "sentenceWords": {
-        "shortest": 10,
-        "longest": 112,
-        "average": 47.9
-      },
-      "lexicalDiversity": 0.555,
       "publisherAttributions": 0,
       "flags": []
     },

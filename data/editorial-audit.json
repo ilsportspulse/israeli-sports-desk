@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T12:09:50.807Z",
+  "generatedAt": "2026-08-01T12:56:28.811Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 907,
-    "publishedBefore": 717,
-    "cleanPublished": 709,
+    "totalArticles": 911,
+    "publishedBefore": 719,
+    "cleanPublished": 711,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 717,
-    "reviewAfter": 190
+    "publishedAfter": 719,
+    "reviewAfter": 192
   },
   "blockedPublished": [
     {
@@ -157,6 +157,34 @@
   ],
   "warnings": [
     {
+      "id": "live-2026-08-01-israel-u18-handball-portugal-defeat",
+      "slug": "israel-u18-handball-portugal-defeat-euro-2026",
+      "title": "Portugal 30-22 Israel: youth handball team drop into placement round at European Championship",
+      "statusBefore": "review",
+      "words": 360,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260801-daniel-worko-beitar-journey",
+      "slug": "daniel-worko-beitar-jerusalem-journey",
+      "title": "Nasty, aggressive and precise: Daniel Worko's road into Beitar Jerusalem's lineup",
+      "statusBefore": "published",
+      "words": 579,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
       "id": "live-2026-08-01-adeyemi-barcelona-debut-birmingham",
       "slug": "adeyemi-barcelona-debut-birmingham-city",
       "title": "Birmingham City beat Barcelona on penalties after 2-2 draw, but Adeyemi's debut impresses",
@@ -197,6 +225,20 @@
         "copy-depth:19/60-words",
         "structure:1/3-paragraphs"
       ],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-01-rafael-aronov-oktagon-debut",
+      "slug": "rafael-aronov-oktagon-92-debut-prague",
+      "title": "Rafael Aronov steps into the OKTAGON cage for the first time, live on ONE2 tonight",
+      "statusBefore": "published",
+      "words": 340,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
@@ -363,7 +405,7 @@
       "id": "live-2026-08-01-fifa-scraps-world-cup-privatization-plan",
       "slug": "fifa-scraps-world-cup-privatization-plan",
       "title": "FIFA scraps World Cup privatization plan after confederation revolt",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 433,
       "paragraphs": 9,
       "facts": 6,
@@ -8710,6 +8752,44 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-20260801-shnior-sofer-marmorek-left-back",
+      "slug": "shnior-sofer-kfar-chabad-marmorek-left-back",
+      "title": "From Kfar Chabad's yeshiva to Liga Alef: Hapoel Marmorek's new left-back Shnior Sofer",
+      "statusBefore": "published",
+      "words": 403,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260801-daniel-worko-beitar-journey",
+      "slug": "daniel-worko-beitar-jerusalem-journey",
+      "title": "Nasty, aggressive and precise: Daniel Worko's road into Beitar Jerusalem's lineup",
+      "statusBefore": "published",
+      "words": 579,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-01-uefa-infantino-resign-fifa",
+      "slug": "uefa-infantino-resign-fifa-world-cup-investment-plan",
+      "title": "UEFA says it has lost confidence in Infantino as scrapped World Cup investment plan sparks resignation calls",
+      "statusBefore": "published",
+      "words": 573,
+      "paragraphs": 12,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
       "id": "live-2026-08-01-adeyemi-barcelona-debut-birmingham",
       "slug": "adeyemi-barcelona-debut-birmingham-city",
       "title": "Birmingham City beat Barcelona on penalties after 2-2 draw, but Adeyemi's debut impresses",
@@ -8733,7 +8813,9 @@
       "facts": 7,
       "verificationSources": 4,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-20260801-100-pushups-a-day-challenge",
@@ -8830,20 +8912,6 @@
       "paragraphs": 10,
       "facts": 6,
       "verificationSources": 7,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-01-fifa-scraps-world-cup-privatization-plan",
-      "slug": "fifa-scraps-world-cup-privatization-plan",
-      "title": "FIFA scraps World Cup privatization plan after confederation revolt",
-      "statusBefore": "published",
-      "words": 433,
-      "paragraphs": 9,
-      "facts": 6,
-      "verificationSources": 4,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
