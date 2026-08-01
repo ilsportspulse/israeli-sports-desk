@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T14:18:30.085Z",
+  "generatedAt": "2026-08-01T14:26:30.754Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -18,12 +18,12 @@
   },
   "summary": {
     "totalArticles": 915,
-    "publishedBefore": 721,
-    "cleanPublished": 713,
+    "publishedBefore": 723,
+    "cleanPublished": 715,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 721,
-    "reviewAfter": 194
+    "publishedAfter": 723,
+    "reviewAfter": 192
   },
   "blockedPublished": [
     {
@@ -157,45 +157,47 @@
   ],
   "warnings": [
     {
-      "id": "live-2026-08-01-solomon-tottenham-underused",
-      "slug": "solomon-tottenham-underused-chelsea-friendly",
-      "title": "Solomon shines again for Tottenham, but English media say he still isn't used enough",
-      "statusBefore": "review",
-      "words": 516,
-      "paragraphs": 9,
-      "facts": 9,
-      "verificationSources": 4,
+      "id": "live-2026-08-01-manor-solomon-tottenham-chelsea-assist",
+      "slug": "manor-solomon-assist-tottenham-chelsea-not-used-enough",
+      "title": "Solomon sets up Tonali as Tottenham beat Chelsea 2-1, but Spurs 'don't use him enough'",
+      "statusBefore": "published",
+      "words": 467,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 5,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
     },
     {
-      "id": "live-2026-08-01-us-open-record-ticket-prices",
-      "slug": "us-open-record-ticket-prices-2026",
-      "title": "More than $20,000 a ticket: US Open prices hit record highs",
+      "id": "live-2026-08-01-us-open-ticket-prices-record",
+      "slug": "us-open-2026-ticket-prices-record-high",
+      "title": "US Open final tickets top $20,000 as tournament's money machine hits new highs",
       "statusBefore": "published",
-      "words": 404,
+      "words": 361,
       "paragraphs": 8,
-      "facts": 6,
-      "verificationSources": 4,
+      "facts": 7,
+      "verificationSources": 3,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
-      "id": "live-2026-08-01-yonatan-cohen-bangkok-united-winner-chiang-mai",
-      "slug": "yonatan-cohen-winner-bangkok-united-chiang-mai-friendly",
-      "title": "Bangkok United 1-0 Chiang Mai: Yonatan Cohen scores winner on early outing for Thai club",
-      "statusBefore": "review",
-      "words": 281,
-      "paragraphs": 7,
+      "id": "live-2026-08-01-yonatan-cohen-winner-bangkok-united-chiangmai",
+      "slug": "yonatan-cohen-winning-goal-bangkok-united-chiangmai-friendly",
+      "title": "Yonatan Cohen scores winner as Bangkok United edge Chiangmai in pre-season friendly",
+      "statusBefore": "published",
+      "words": 203,
+      "paragraphs": 5,
       "facts": 5,
       "verificationSources": 3,
       "blockers": [],
       "warnings": [
-        "media:no-action-or-competition-context-detected"
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
       ]
     },
     {
@@ -8794,11 +8796,11 @@
   ],
   "cleanPublished": [
     {
-      "id": "live-20260801-monaco-basket-excluded-french-league",
-      "slug": "as-monaco-basketball-excluded-french-leagues-financial-crisis",
-      "title": "AS Monaco basketball club excluded from French leagues after financial collapse",
+      "id": "live-2026-08-01-monaco-basket-excluded-french-league",
+      "slug": "monaco-basketball-excluded-french-league-financial-crisis",
+      "title": "Monaco basketball excluded from French league after financial collapse",
       "statusBefore": "published",
-      "words": 450,
+      "words": 491,
       "paragraphs": 10,
       "facts": 7,
       "verificationSources": 4,
@@ -8806,17 +8808,47 @@
       "warnings": []
     },
     {
-      "id": "live-2026-08-01-us-open-record-ticket-prices",
-      "slug": "us-open-record-ticket-prices-2026",
-      "title": "More than $20,000 a ticket: US Open prices hit record highs",
+      "id": "live-2026-08-01-manor-solomon-tottenham-chelsea-assist",
+      "slug": "manor-solomon-assist-tottenham-chelsea-not-used-enough",
+      "title": "Solomon sets up Tonali as Tottenham beat Chelsea 2-1, but Spurs 'don't use him enough'",
       "statusBefore": "published",
-      "words": 404,
-      "paragraphs": 8,
+      "words": 467,
+      "paragraphs": 10,
       "facts": 6,
-      "verificationSources": 4,
+      "verificationSources": 5,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-01-us-open-ticket-prices-record",
+      "slug": "us-open-2026-ticket-prices-record-high",
+      "title": "US Open final tickets top $20,000 as tournament's money machine hits new highs",
+      "statusBefore": "published",
+      "words": 361,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-01-yonatan-cohen-winner-bangkok-united-chiangmai",
+      "slug": "yonatan-cohen-winning-goal-bangkok-united-chiangmai-friendly",
+      "title": "Yonatan Cohen scores winner as Bangkok United edge Chiangmai in pre-season friendly",
+      "statusBefore": "published",
+      "words": 203,
+      "paragraphs": 5,
+      "facts": 5,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
       ]
     },
     {
