@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-01T13:09:57Z",
-    "validUntil": "2026-08-02T01:09:57Z",
+    "checkedAt": "2026-08-01T14:18:29Z",
+    "validUntil": "2026-08-02T02:18:29Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 304,
+        "maxAgeHours": 305,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260801-shnior-sofer-marmorek-left-back",
+        "articleId": "live-20260801-monaco-basket-excluded-french-league",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 312,
+        "maxAgeHours": 313,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-01-uefa-infantino-resign-fifa",
+        "articleId": "live-20260801-shnior-sofer-marmorek-left-back",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 322,
+        "maxAgeHours": 323,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-01-adeyemi-barcelona-debut-birmingham",
+        "articleId": "live-2026-08-01-uefa-infantino-resign-fifa",
         "maxAgeHours": 24,
         "requires": []
       }
