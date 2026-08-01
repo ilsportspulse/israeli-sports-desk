@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T01:09:26.689Z",
+  "generatedAt": "2026-08-01T01:58:58.855Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 878,
-    "publishedBefore": 700,
-    "cleanPublished": 692,
+    "totalArticles": 880,
+    "publishedBefore": 701,
+    "cleanPublished": 693,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 700,
-    "reviewAfter": 178
+    "publishedAfter": 701,
+    "reviewAfter": 179
   },
   "blockedPublished": [
     {
@@ -156,6 +156,49 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-2026-08-01-bnei-sakhnin-cavare-record-salary",
+      "slug": "bnei-sakhnin-sign-dimitri-cavare-club-record-salary",
+      "title": "Bnei Sakhnin sign Guadeloupe defender Dimitri Cavaré on club-record salary",
+      "statusBefore": "review",
+      "words": 328,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:4"
+      ]
+    },
+    {
+      "id": "live-20260801-messi-asturias-award-petition",
+      "slug": "messi-princess-of-asturias-award-petition-world-cup-final",
+      "title": "Petitions demand Spain strip Messi of Princess of Asturias award after World Cup final row",
+      "statusBefore": "published",
+      "words": 486,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-07-31-birmingham-barcelona-friendly-in-progress",
+      "slug": "birmingham-barcelona-preseason-friendly-live-orien-goren",
+      "title": "Birmingham City and Barcelona level at 1-1 as pre-season friendly reaches second half",
+      "statusBefore": "review",
+      "words": 228,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-07-31-llorente-ferran-torres-ibiza-masculinity",
       "slug": "marcos-llorente-ferran-torres-ibiza-photos-response",
@@ -8363,6 +8406,20 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-20260801-messi-asturias-award-petition",
+      "slug": "messi-princess-of-asturias-award-petition-world-cup-final",
+      "title": "Petitions demand Spain strip Messi of Princess of Asturias award after World Cup final row",
+      "statusBefore": "published",
+      "words": 486,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-07-31-infantino-fifa-crisis-uefa-boycott",
       "slug": "infantino-fifa-crisis-uefa-boycott-world-cup",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T01:09:27.100Z",
+  "generatedAt": "2026-08-01T01:58:59.247Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 700,
+    "publishedArticles": 701,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 426,
-      "average": 426.3
+      "average": 426.4
     },
     "paragraphDistribution": {
       "3": 34,
@@ -26,7 +26,7 @@
       "7": 105,
       "8": 180,
       "9": 158,
-      "10": 123,
+      "10": 124,
       "11": 30,
       "12": 11,
       "13": 4,
@@ -3042,6 +3042,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260801-messi-asturias-award-petition",
+      "slug": "messi-princess-of-asturias-award-petition-world-cup-final",
+      "title": "Petitions demand Spain strip Messi of Princess of Asturias award after World Cup final row",
+      "kind": "news",
+      "words": 486,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 67,
+        "average": 48.6
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 92,
+        "average": 32.4
+      },
+      "lexicalDiversity": 0.591,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-07-31-infantino-fifa-crisis-uefa-boycott",
       "slug": "infantino-fifa-crisis-uefa-boycott-world-cup",

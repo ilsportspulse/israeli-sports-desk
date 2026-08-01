@@ -1,6 +1,42 @@
 {
-  "selections": [],
+  "selections": [
+    {
+      "articleId": "live-2026-08-01-bnei-sakhnin-cavare-record-salary",
+      "article": "Bnei Sakhnin sign Guadeloupe defender Dimitri Cavaré on club-record salary",
+      "file": "File:US Avranches vs Stade rennais, August 30th 2016 - Dimitri Cavaré.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-20260801-messi-asturias-award-petition",
+      "article": "Petitions demand Spain strip Messi of Princess of Asturias award after World Cup final row",
+      "file": "File:Marc Cucurella Argentina v Spain 19 July 2026-064 (cropped).jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-2026-07-31-birmingham-barcelona-friendly-in-progress",
+      "article": "Birmingham City and Barcelona level at 1-1 as pre-season friendly reaches second half",
+      "file": "File:SM Caen Tifo 15 ans du MNK.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "articleId": "live-20260714-basketball-coaches-registration",
+      "article": "Israeli basketball coaches demand freeze on registration overhaul",
+      "query": "Israel basketball coach team",
+      "file": "File:Oded Katash Hapoel Eilat.jpg",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
   "failures": [
+    {
+      "id": "live-2026-07-31-beitar-jerusalem-decade-symmetry",
+      "title": "Beitar Jerusalem beat AEK Larnaca 4-3 on penalties, replaying their 2016 escape almost move for move",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-2026-07-31-beitar-jerusalem-silva-penalty-saves-aek-larnaca",
+      "title": "Beitar Jerusalem beat AEK Larnaca 4-3 on penalties to reach Conference League third round",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
     {
       "id": "live-2026-07-30-ahi-nazareth-alfredo-taha-rabah-injury",
       "title": "Ahi Nazareth sign forward Alfredo and Taha as new man Rabah breaks hand in car crash",
