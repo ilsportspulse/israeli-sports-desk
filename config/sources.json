@@ -86,5 +86,24 @@
     "enabled": true,
     "rights": "metadata-and-short-original-summary",
     "accent": "#e83b2e"
+  },
+  {
+    "id": "toi-sport",
+    "name": "The Times of Israel — Sports",
+    "homepage": "https://www.timesofisrael.com/",
+    "sectionUrl": "https://www.timesofisrael.com/topic/sports/",
+    "allowedHosts": [
+      "www.timesofisrael.com"
+    ],
+    "articleHints": [
+      "timesofisrael.com/"
+    ],
+    "note": "DISABLED: ToI topic page has no clean path keyword distinguishing sports articles from section links, and extractLinks matches hints against pathname only. Re-enable once a sports-specific RSS/sitemap feed URL is wired (feedUrl).",
+    "priority": 55,
+    "maxPerRun": 60,
+    "minimumDelayMs": 1500,
+    "enabled": false,
+    "rights": "metadata-and-short-original-summary",
+    "accent": "#1f6fb2"
   }
 ]
