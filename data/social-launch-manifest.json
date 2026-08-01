@@ -146,8 +146,8 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-01T10:41:55Z",
-    "validUntil": "2026-08-01T22:41:55Z",
+    "checkedAt": "2026-08-01T11:09:47Z",
+    "validUntil": "2026-08-01T23:09:47Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
@@ -167,7 +167,7 @@
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 309,
+        "maxAgeHours": 310,
         "requires": [
           "basketballRecap"
         ]
@@ -188,7 +188,7 @@
       },
       {
         "role": "archive",
-        "articleId": "archive-20260731-melbourne-26-january-2008-the-final-that",
+        "articleId": "archive-20260801-tokyo-7-august-2021-the-ribbon-that-fell",
         "maxAgeHours": 53,
         "requires": [
           "historical-feature"
