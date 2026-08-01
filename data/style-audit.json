@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T07:09:42.928Z",
+  "generatedAt": "2026-08-01T08:24:24.772Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,22 +11,22 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 706,
+    "publishedArticles": 709,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 426,
-      "average": 426.6
+      "average": 427.1
     },
     "paragraphDistribution": {
       "3": 34,
       "4": 6,
       "5": 9,
-      "6": 34,
+      "6": 35,
       "7": 105,
       "8": 181,
-      "9": 160,
-      "10": 125,
+      "9": 161,
+      "10": 126,
       "11": 31,
       "12": 11,
       "13": 4,
@@ -35,9 +35,9 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.256,
+    "dominantParagraphShare": 0.255,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 34,
+    "exactSixParagraphArticles": 35,
     "analysisBelowTarget": 8,
     "articlesWithStyleFlags": 130
   },
@@ -3042,6 +3042,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-01-haaland-michael-jordan-saint-tropez",
+      "slug": "haaland-michael-jordan-saint-tropez-photo",
+      "title": "Haaland's summer holiday delivers an unlikely photo op: Michael Jordan",
+      "kind": "news",
+      "words": 291,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 39,
+        "longest": 65,
+        "average": 48.5
+      },
+      "sentenceWords": {
+        "shortest": 17,
+        "longest": 47,
+        "average": 32.3
+      },
+      "lexicalDiversity": 0.653,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-01-maccabi-hapoel-european-qualifying-opponents",
+      "slug": "maccabi-hapoel-tel-aviv-learn-european-qualifying-opponents",
+      "title": "From Sofia to Katowice: Maccabi and Hapoel discover their European qualifying foes",
+      "kind": "article",
+      "words": 465,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 76,
+        "average": 51.7
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 93,
+        "average": 31
+      },
+      "lexicalDiversity": 0.609,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "archive-20260801-tokyo-7-august-2021-the-ribbon-that-fell",
+      "slug": "tokyo-7-august-2021-the-ribbon-that-fell-and-the-gold-that-stayed",
+      "title": "Tokyo, 7 August 2021: The Ribbon That Fell and the Gold That Stayed",
+      "kind": "explainer",
+      "words": 838,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 66,
+        "longest": 105,
+        "average": 83.8
+      },
+      "sentenceWords": {
+        "shortest": 2,
+        "longest": 103,
+        "average": 29.9
+      },
+      "lexicalDiversity": 0.527,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-01-fifa-scraps-world-cup-privatization-plan",
       "slug": "fifa-scraps-world-cup-privatization-plan",

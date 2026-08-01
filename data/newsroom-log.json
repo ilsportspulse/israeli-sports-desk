@@ -1,5 +1,50 @@
 [
   {
+    "ts": "2026-08-01T08:17:25.711Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 4,
+    "published": 2,
+    "review": 1,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "maccabi-hapoel-tel-aviv-learn-european-qualifying-opponents",
+        "title": "From Sofia to Katowice: Maccabi and Hapoel discover their European qualifying foes",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "barak-bachar-maccabi-haifa-back-four-toto-cup-rethink",
+        "title": "Bachar reverts Maccabi Haifa to back four after Toto Cup double defeat",
+        "confidence": 0.8,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "below gate thresholds"
+      },
+      {
+        "slug": "haaland-michael-jordan-saint-tropez-photo",
+        "title": "Haaland's summer holiday delivers an unlikely photo op: Michael Jordan",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "khalaili-inter-super-cup-penalty-duplicate-hold",
+        "title": "Halaili missed out on Inter, but not from the penalty spot",
+        "decision": "duplicate"
+      }
+    ]
+  },
+  {
     "ts": "2026-08-01T05:24:10.712Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -3317,75 +3362,6 @@
         "slug": "ahavat-hashem-gordon-survive-john-lineker-gfn-tel-aviv",
         "title": "Ahavat HaShem Gordon on beating John Lineker: \"I knew I had to survive\"",
         "decision": "duplicate"
-      }
-    ]
-  },
-  {
-    "ts": "2026-07-27T22:22:32.361Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 8,
-    "published": 2,
-    "review": 2,
-    "skipped": 4,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "ahavat-hashem-gordon-beats-john-lineker-gfn-1",
-        "title": "Ahavat Hashem Gordon stays unbeaten with unanimous decision over John Lineker in Tel Aviv",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "ahavat-gordon-beats-lineker-calls-for-gfn-2",
-        "title": "Ahavat Gordon outlasts John Lineker, then tells Kaminski: get to work on GFN 2",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "yanai-promises-ginat-israeli-european-champion",
-        "title": "Yanai's vow to Ginat: he'll retire a champion of Israel and Europe",
-        "decision": "duplicate",
-        "reason": "same event as hapoel-tel-aviv-ginat-contract-extension-retire"
-      },
-      {
-        "slug": "tiberias-lawyer-saline-case-defense",
-        "title": "Tiberias lawyer digs in on saline case: 'calling it illegal over 50ml?'",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "ironi-tiberias-barzel-conduct-comments-held",
-        "title": "Held: IFA spokesman Barzel calls Tiberias conduct among the worst he's seen",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "tiberias-disciplinary-court-no-schedule-exceptions",
-        "title": "No exceptions to the timetable, presiding judge warns in Tiberias infusions case",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "seatbelt-safety-highway-crash-explainer",
-        "title": "Not a sports story — ONE seatbelt safety explainer held from publication",
-        "confidence": 0,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "not newsworthy — source is a general automotive safety explainer about seatbelts with no sports, athlete, club or Israeli angle; does not fit desk scope and should not run"
-      },
-      {
-        "slug": "ironi-tiberias-infusions-scandal-indictment",
-        "title": "Ironi Tiberias to stand trial as football association charges club over banned infusions",
-        "confidence": 0.85,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "below gate thresholds"
       }
     ]
   }

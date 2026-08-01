@@ -1,67 +1,67 @@
 {
-  "date": "2026-07-31",
+  "date": "2026-08-01",
   "title": "The Daily Five",
-  "dek": "Five questions on this week's Israeli sports news, from a Melbourne Grand Slam flashback to Conference League penalty drama.",
+  "dek": "Five questions on Israeli sport from the last few days — an Olympic gold in Tokyo, a Croatian snub in the NBA, a penalty-shootout hero in Belgium, a Europa League rout, and a duet in the Paris pool.",
   "questions": [
     {
-      "question": "On 26 January 2008, Jonathan Erlich and Andy Ram won Israel's first Grand Slam title. Who did they beat in the Australian Open men's doubles final?",
+      "question": "By how many points did Linoy Ashram beat Dina Averina to win gold in the rhythmic gymnastics individual all-around final at the Tokyo Olympics?",
       "answers": [
-        "Arnaud Clément and Michaël Llodra",
-        "Dudi Sela and Harel Levy",
-        "Bob and Mike Bryan",
-        "Nenad Zimonjić and Daniel Nestor"
+        "0.050",
+        "0.150",
+        "0.500",
+        "1.150"
       ],
-      "correctIndex": 0,
-      "explanation": "Erlich and Ram, seeded 8th, beat Clément and Llodra 7–5, 7–6(4) on 26 January 2008 to become Israel's first Grand Slam champions.",
-      "sourceUrl": "https://www.haaretz.com/2008-01-26/ty-article/israeli-duo-of-ram-erlich-win-australian-open-doubles-title/0000017f-e877-dc91-a17f-fcff1f5e0000"
+      "correctIndex": 1,
+      "explanation": "Ashram scored 107.800 to Averina's 107.650, a margin of 0.150 points, on 7 August 2021 at the Ariake Gymnastics Centre.",
+      "sourceUrl": "https://www.timesofisrael.com/rhythmic-gymnast-linoy-ashram-wins-israels-3rd-ever-olympic-gold/"
     },
     {
-      "question": "Deni Avdija earned his first NBA All-Star selection in 2025-26 with the Portland Trail Blazers. What was his scoring average that season?",
+      "question": "Which NBA team did Mario Hezonja sign with, turning down an approach from Israeli club Hapoel Tel Aviv?",
       "answers": [
-        "25.5 points per game",
-        "18.2 points per game",
-        "30.1 points per game",
-        "22.7 points per game"
+        "Cleveland Cavaliers",
+        "Orlando Magic",
+        "New York Knicks",
+        "Portland Trail Blazers"
       ],
       "correctIndex": 0,
-      "explanation": "Avdija averaged 25.5 points, 7.2 rebounds and 6.7 assists per game on 47/36/80 shooting splits in his All-Star 2025-26 campaign.",
-      "sourceUrl": "https://www.one.co.il/Article/529477.html"
+      "explanation": "Hezonja signed a one-year, reportedly $2.8 million contract with the Cleveland Cavaliers instead of joining Hapoel Tel Aviv for the EuroLeague season.",
+      "sourceUrl": "https://www.one.co.il/Article/529529.html"
     },
     {
-      "question": "How did Beitar Jerusalem advance past AEK Larnaca in their UEFA Conference League qualifier despite losing 2–3 after extra time?",
+      "question": "How did Israeli winger Anan Khalaili help Union Saint-Gilloise win the 2026 Belgian Super Cup over Club Brugge?",
       "answers": [
-        "They won the penalty shootout 4–3 after a 3–3 aggregate score",
-        "They advanced on away goals",
-        "They won the first leg 3–0",
-        "AEK Larnaca were disqualified for fielding an ineligible player"
+        "He scored the opening goal in the 49th minute",
+        "He came on as a 61st-minute substitute and scored his penalty in the shootout",
+        "He was sent off before the penalty shootout",
+        "He set up the equaliser with a corner kick"
       ],
-      "correctIndex": 0,
-      "explanation": "The tie finished 3–3 on aggregate after extra time in Ploiești, and Beitar won the shootout 4–3, with Omer Atzili scoring both Beitar goals.",
-      "sourceUrl": "https://www.espn.com/soccer/match/_/gameId/401877933/aek-larnaca-beitar-jerusalem"
+      "correctIndex": 1,
+      "explanation": "Khalaili came on as a 61st-minute substitute and scored his kick as Union won the shootout 5-4 after a 1-1 draw.",
+      "sourceUrl": "https://www.one.co.il/Article/529536.html"
     },
     {
-      "question": "Who scored both Hapoel Tel Aviv goals in their 2–2 draw at Ludogorets that sent them through 4–2 on aggregate in the Conference League qualifiers?",
+      "question": "What was the aggregate score as Maccabi Tel Aviv defeated Sheriff Tiraspol to reach the Europa League third qualifying round?",
       "answers": [
-        "Emmanuel Boateng",
-        "Bernard Tekpetey",
-        "Alberto Salido",
-        "Omer Atzili"
+        "6-0",
+        "3-0",
+        "4-1",
+        "2-0"
       ],
       "correctIndex": 0,
-      "explanation": "Emmanuel Boateng scored in the 16th and 58th minutes in Razgrad as Hapoel advanced 4–2 on aggregate after taking a 2–0 lead from the first leg.",
-      "sourceUrl": "https://www.espn.com/soccer/match/_/gameId/401878130/hapoel-tel-aviv-ludogorets-razgrad"
+      "explanation": "Maccabi won 5-0 away and 1-0 at home (Roy Revivo scoring the second-leg goal) for a 6-0 aggregate.",
+      "sourceUrl": "https://www.one.co.il/Article/529530.html"
     },
     {
-      "question": "Rising guard Rani Belaga, just loaned by Hapoel Jerusalem to Hapoel Galil Elyon, captained which Israeli national team at this summer's European Championship?",
+      "question": "Where did Israel's Katy Konin and Aya Mazor finish in the women's duet technical routine final at the 2026 European Aquatics Championships in Paris?",
       "answers": [
-        "Israel's U20 team",
-        "Israel's U18 team",
-        "Israel's senior national team",
-        "Israel's U16 team"
+        "1st",
+        "5th",
+        "10th",
+        "15th"
       ],
-      "correctIndex": 0,
-      "explanation": "Belaga captained Israel's U20 team at this summer's European Championship and is reported to be the first Israeli player to record a triple-double at that event.",
-      "sourceUrl": "https://www.one.co.il/Article/529444.html"
+      "correctIndex": 2,
+      "explanation": "The Israeli duo scored 260.6284 points to finish 10th of 19 nations, ahead of Georgia, Switzerland, Turkey and Bulgaria.",
+      "sourceUrl": "https://www.one.co.il/Article/529533.html"
     }
   ]
 }

@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-01T07:09:42Z",
-    "validUntil": "2026-08-01T19:09:42Z",
+    "checkedAt": "2026-08-01T08:24:24Z",
+    "validUntil": "2026-08-01T20:24:24Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 298,
+        "maxAgeHours": 299,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-01-fifa-scraps-world-cup-privatization-plan",
+        "articleId": "live-2026-08-01-haaland-michael-jordan-saint-tropez",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 306,
+        "maxAgeHours": 307,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260801-vinicius-arsenal-personal-terms",
+        "articleId": "live-2026-08-01-maccabi-hapoel-european-qualifying-opponents",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 316,
+        "maxAgeHours": 317,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-01-mastantuono-real-madrid-loan",
+        "articleId": "live-2026-08-01-fifa-scraps-world-cup-privatization-plan",
         "maxAgeHours": 24,
         "requires": []
       }

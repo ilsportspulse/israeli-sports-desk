@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T07:09:42.578Z",
+  "generatedAt": "2026-08-01T08:24:24.345Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 886,
-    "publishedBefore": 706,
-    "cleanPublished": 698,
+    "totalArticles": 890,
+    "publishedBefore": 709,
+    "cleanPublished": 701,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 706,
-    "reviewAfter": 180
+    "publishedAfter": 709,
+    "reviewAfter": 181
   },
   "blockedPublished": [
     {
@@ -156,6 +156,48 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-2026-08-01-haaland-michael-jordan-saint-tropez",
+      "slug": "haaland-michael-jordan-saint-tropez-photo",
+      "title": "Haaland's summer holiday delivers an unlikely photo op: Michael Jordan",
+      "statusBefore": "published",
+      "words": 295,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-01-bachar-maccabi-haifa-back-four-rethink",
+      "slug": "barak-bachar-maccabi-haifa-back-four-toto-cup-rethink",
+      "title": "Bachar reverts Maccabi Haifa to back four after Toto Cup double defeat",
+      "statusBefore": "review",
+      "words": 459,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-08-01-maccabi-hapoel-european-qualifying-opponents",
+      "slug": "maccabi-hapoel-tel-aviv-learn-european-qualifying-opponents",
+      "title": "From Sofia to Katowice: Maccabi and Hapoel discover their European qualifying foes",
+      "statusBefore": "published",
+      "words": 469,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-08-01-fifa-scraps-world-cup-privatization-plan",
       "slug": "fifa-scraps-world-cup-privatization-plan",
@@ -8463,6 +8505,46 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-01-haaland-michael-jordan-saint-tropez",
+      "slug": "haaland-michael-jordan-saint-tropez-photo",
+      "title": "Haaland's summer holiday delivers an unlikely photo op: Michael Jordan",
+      "statusBefore": "published",
+      "words": 295,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-01-maccabi-hapoel-european-qualifying-opponents",
+      "slug": "maccabi-hapoel-tel-aviv-learn-european-qualifying-opponents",
+      "title": "From Sofia to Katowice: Maccabi and Hapoel discover their European qualifying foes",
+      "statusBefore": "published",
+      "words": 469,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "archive-20260801-tokyo-7-august-2021-the-ribbon-that-fell",
+      "slug": "tokyo-7-august-2021-the-ribbon-that-fell-and-the-gold-that-stayed",
+      "title": "Tokyo, 7 August 2021: The Ribbon That Fell and the Gold That Stayed",
+      "statusBefore": "published",
+      "words": 836,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 7,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-2026-08-01-fifa-scraps-world-cup-privatization-plan",
       "slug": "fifa-scraps-world-cup-privatization-plan",
