@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T05:09:04.280Z",
+  "generatedAt": "2026-08-02T06:00:28.189Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,21 +11,21 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 748,
+    "publishedArticles": 752,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 423,
-      "average": 425.5
+      "average": 425.2
     },
     "paragraphDistribution": {
       "3": 34,
       "4": 6,
       "5": 10,
       "6": 35,
-      "7": 110,
-      "8": 201,
-      "9": 169,
+      "7": 111,
+      "8": 202,
+      "9": 171,
       "10": 128,
       "11": 33,
       "12": 12,
@@ -39,7 +39,7 @@
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 35,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 137
+    "articlesWithStyleFlags": 138
   },
   "flagged": [
     {
@@ -256,6 +256,29 @@
       "flags": [
         "below-editorial-target:204/280",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-02-israel-duet-eighth-artistic-swimming-euros",
+      "slug": "israel-duet-eighth-artistic-swimming-euros-paris",
+      "title": "Konin and Mazor climb to eighth in duet free final at European artistic swimming championships",
+      "kind": "news",
+      "words": 266,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 27,
+        "longest": 46,
+        "average": 38
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 40,
+        "average": 26.6
+      },
+      "lexicalDiversity": 0.617,
+      "publisherAttributions": 0,
+      "flags": [
+        "below-editorial-target:266/280"
       ]
     },
     {
@@ -3205,6 +3228,90 @@
   ],
   "clean": [
     {
+      "id": "live-20260802-japanika-hadera-grenade-beitar-owner",
+      "slug": "grenade-hits-japanika-branch-hadera-beitar-jerusalem-owner",
+      "title": "Grenade hits Japanika branch owned by Beitar Jerusalem's Barak Abramov in Hadera",
+      "kind": "news",
+      "words": 385,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 76,
+        "average": 48.1
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 60,
+        "average": 25.7
+      },
+      "lexicalDiversity": 0.618,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-02-baribo-toklomati-mls-israelis-roundup",
+      "slug": "baribo-toklomati-blorian-mls-roundup",
+      "title": "Baribo scores again as DC United draw 2-2 with Nashville SC",
+      "kind": "news",
+      "words": 413,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 54,
+        "average": 45.9
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 39,
+        "average": 22.9
+      },
+      "lexicalDiversity": 0.593,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-02-ronaldo-georgina-wedding-funchal",
+      "slug": "ronaldo-expected-marry-georgina-funchal-birthplace",
+      "title": "Ronaldo reportedly set to marry Georgina Rodríguez next week in his birthplace",
+      "kind": "news",
+      "words": 433,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 62,
+        "average": 48.1
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 70,
+        "average": 33.3
+      },
+      "lexicalDiversity": 0.552,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260802-barcelona-real-madrid-laporte-bilbao",
+      "slug": "barcelona-real-madrid-chase-athletic-bilbao-laporte",
+      "title": "Barcelona and Real Madrid weigh moves for Athletic Bilbao's Aymeric Laporte",
+      "kind": "news",
+      "words": 365,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 38,
+        "longest": 51,
+        "average": 45.6
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 46,
+        "average": 24.3
+      },
+      "lexicalDiversity": 0.633,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
       "id": "live-2026-08-02-messi-returns-casemiro-own-goal-inter-miami",
       "slug": "inter-miami-2-2-columbus-crew-messi-returns-casemiro-own-goal",
       "title": "Inter Miami 2-2 Columbus Crew: Messi returns, but Casemiro own goal mars home debut",
@@ -3244,27 +3351,6 @@
       },
       "lexicalDiversity": 0.636,
       "publisherAttributions": 1,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-02-japanika-hadera-grenade-abramov",
-      "slug": "beitar-jerusalem-owner-abramov-japanika-branch-attacked-hadera",
-      "title": "Tear gas grenade thrown at Hadera site of Beitar Jerusalem owner's restaurant chain",
-      "kind": "news",
-      "words": 344,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 22,
-        "longest": 64,
-        "average": 43
-      },
-      "sentenceWords": {
-        "shortest": 11,
-        "longest": 51,
-        "average": 31.3
-      },
-      "lexicalDiversity": 0.605,
-      "publisherAttributions": 0,
       "flags": []
     },
     {

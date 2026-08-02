@@ -1,5 +1,82 @@
 [
   {
+    "ts": "2026-08-02T05:52:02.661Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 8,
+    "published": 5,
+    "review": 2,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "barcelona-real-madrid-chase-athletic-bilbao-laporte",
+        "title": "Barcelona and Real Madrid weigh moves for Athletic Bilbao's Aymeric Laporte",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "ronaldo-expected-marry-georgina-funchal-birthplace",
+        "title": "Ronaldo reportedly set to marry Georgina Rodríguez next week in his birthplace",
+        "confidence": 0.55,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "avuxis-wont-let-gomes-red-card-slide",
+        "title": "Hapoel Haifa 2-1 Bnei Sakhnin: Avuxis says he won't let Gomes' red card slide",
+        "confidence": 0.85,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "below gate thresholds"
+      },
+      {
+        "slug": "baribo-toklomati-blorian-mls-roundup",
+        "title": "Baribo scores again as DC United draw 2-2 with Nashville SC",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "israel-duet-eighth-artistic-swimming-euros-paris",
+        "title": "Konin and Mazor climb to eighth in duet free final at European artistic swimming championships",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "turgeman-montreal-antisemitic-fans-duplicate-hold",
+        "title": "CF Montréal 2-2 New England Revolution: Turgeman celebrates in front of antisemitic fans and is shoved by goalkeeper",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "hapoel-beer-sheva-kangwa-replacement-red-star-belgrade",
+        "title": "Without Kangwa, Hapoel Beer Sheva weigh their options for Red Star test",
+        "confidence": 0.78,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "The starting-lineup names are Sport5's pre-match projection, not a confirmed team sheet, and English spellings of the lower-profile squad members (Peretz, Rotman, Ahmad, Ganach) are transliterated from Hebrew and not independently corroborated in English-language sources."
+      },
+      {
+        "slug": "grenade-hits-japanika-branch-hadera-beitar-jerusalem-owner",
+        "title": "Grenade hits Japanika branch owned by Beitar Jerusalem's Barak Abramov in Hadera",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-08-02T05:01:01.483Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -3325,81 +3402,6 @@
         "gate": "hold",
         "decision": "review",
         "reason": "not newsworthy — niche padel-tour withdrawal with no Israeli angle and no wider significance; no verifiable Wikimedia Commons image of the correct subject found"
-      }
-    ]
-  },
-  {
-    "ts": "2026-07-28T11:29:40.028Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 8,
-    "published": 4,
-    "review": 2,
-    "skipped": 2,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "wounded-golani-soldier-dor-gabay-exhibition-bout-gfn",
-        "title": "Wounded Golani soldier steps into the ring at GFN 1 to inspire other injured troops",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "kibedy-gordon-wants-gfn-sequel-stressful-ufc-goal",
-        "title": "Kibedy Gordon wants a GFN sequel, but says the pressure already got to him",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "uefa-var-reform-clear-and-obvious-errors",
-        "title": "Uefa moves to scale back VAR and hand authority back to referees",
-        "confidence": 0.78,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "bnei-herzliya-akonis-title-maccabi-naturalization-dispute",
-        "title": "Bnei Herzliya chief hits back: 'We took a title from the big Maccabi, something Hapoel couldn't do'",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "one-shichat-hayom-live-show-promo",
-        "title": "ONE plugs today's live episode of its sports talk show Shichat Hayom",
-        "confidence": 0,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "not newsworthy — this is a recurring promotional listing for ONE's live talk show, not a reported news story with confirmed facts"
-      },
-      {
-        "slug": "tiberias-lawyer-ifa-spokesman-complaint",
-        "title": "Tiberias lawyer says IFA spokesman is announcing the verdict before the hearing",
-        "confidence": 0.8,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Coach/staff name spellings vary slightly across Hebrew outlets (e.g. Hodeda/Hudia); no correctly-identified photo of Ironi Tiberias, its stadium or officials could be verified on Wikimedia Commons, so no image is supplied."
-      },
-      {
-        "slug": "yan-diomande-real-madrid-tragedy-ronaldo",
-        "title": "The teenager chasing Ronaldo's shoes at the Bernabéu carries a private tragedy behind him",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "canizares-real-madrid-must-sell-vinicius-without-signed-deal",
-        "title": "Cañizares: Real Madrid must sell Vinícius this summer if there's no signed deal",
-        "decision": "duplicate",
-        "reason": "same event as arsenal-eye-audacious-move-for-vinicius-junior"
       }
     ]
   }
