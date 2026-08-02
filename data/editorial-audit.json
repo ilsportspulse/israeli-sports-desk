@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T07:47:28.777Z",
+  "generatedAt": "2026-08-02T09:04:02.793Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 976,
-    "publishedBefore": 756,
-    "cleanPublished": 748,
+    "totalArticles": 981,
+    "publishedBefore": 759,
+    "cleanPublished": 751,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 756,
-    "reviewAfter": 220
+    "publishedAfter": 759,
+    "reviewAfter": 222
   },
   "blockedPublished": [
     {
@@ -9438,6 +9438,42 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-02-buffon-conte-italy-coach",
+      "slug": "buffon-backs-conte-italy-coach",
+      "title": "Buffon says he would have picked Antonio Conte to coach Italy",
+      "statusBefore": "published",
+      "words": 497,
+      "paragraphs": 11,
+      "facts": 8,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260802-endrick-answers-real-madrid-signing",
+      "slug": "endrick-answers-real-madrid-signing-goal-fiorentina",
+      "title": "Don't write him off: Endrick answers Real Madrid's new signing with a goal",
+      "statusBefore": "published",
+      "words": 401,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260802-arnautovic-red-star-beer-sheva-preview",
+      "slug": "arnautovic-red-star-belgrade-hapoel-beer-sheva-champions-league",
+      "title": "Arnautović eyes his Champions League dream as Red Star await Hapoel Beer Sheva",
+      "statusBefore": "published",
+      "words": 450,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-2026-08-02-besiktas-dejulius-murcia-dispute",
       "slug": "besiktas-dejulius-murcia-legal-dispute",

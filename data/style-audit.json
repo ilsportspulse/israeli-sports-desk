@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T07:47:29.208Z",
+  "generatedAt": "2026-08-02T09:04:03.235Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 756,
+    "publishedArticles": 759,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 423,
-      "average": 425.1
+      "average": 425.2
     },
     "paragraphDistribution": {
       "3": 34,
@@ -25,9 +25,9 @@
       "6": 35,
       "7": 113,
       "8": 202,
-      "9": 173,
-      "10": 128,
-      "11": 33,
+      "9": 174,
+      "10": 129,
+      "11": 34,
       "12": 12,
       "13": 4,
       "14": 2,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.267,
+    "dominantParagraphShare": 0.266,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 35,
     "analysisBelowTarget": 9,
@@ -3204,6 +3204,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-02-buffon-conte-italy-coach",
+      "slug": "buffon-backs-conte-italy-coach",
+      "title": "Buffon says he would have picked Antonio Conte to coach Italy",
+      "kind": "article",
+      "words": 497,
+      "paragraphs": 11,
+      "paragraphWords": {
+        "shortest": 25,
+        "longest": 63,
+        "average": 45.2
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 73,
+        "average": 31.1
+      },
+      "lexicalDiversity": 0.588,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260802-endrick-answers-real-madrid-signing",
+      "slug": "endrick-answers-real-madrid-signing-goal-fiorentina",
+      "title": "Don't write him off: Endrick answers Real Madrid's new signing with a goal",
+      "kind": "article",
+      "words": 399,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 26,
+        "longest": 66,
+        "average": 44.3
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 80,
+        "average": 28.5
+      },
+      "lexicalDiversity": 0.632,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260802-arnautovic-red-star-beer-sheva-preview",
+      "slug": "arnautovic-red-star-belgrade-hapoel-beer-sheva-champions-league",
+      "title": "Arnautović eyes his Champions League dream as Red Star await Hapoel Beer Sheva",
+      "kind": "article",
+      "words": 446,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 65,
+        "average": 44.6
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 86,
+        "average": 37.2
+      },
+      "lexicalDiversity": 0.567,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260802-maccabi-haifa-glenn-alvin-tiberias-preview",
       "slug": "maccabi-haifa-glenn-alvin-debut-start-tiberias-toto-cup",
