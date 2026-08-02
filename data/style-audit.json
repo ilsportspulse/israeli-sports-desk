@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T01:47:31.019Z",
+  "generatedAt": "2026-08-02T03:01:34.432Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 738,
+    "publishedArticles": 742,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 425.5,
-      "average": 426.4
+      "median": 425,
+      "average": 426
     },
     "paragraphDistribution": {
       "3": 34,
       "4": 6,
       "5": 10,
       "6": 35,
-      "7": 108,
-      "8": 194,
+      "7": 109,
+      "8": 197,
       "9": 168,
       "10": 128,
       "11": 33,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.263,
+    "dominantParagraphShare": 0.265,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 35,
     "analysisBelowTarget": 9,
@@ -3135,6 +3135,90 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-02-ufc-belgrade-medic-rodriguez-record-finishes",
+      "slug": "ufc-belgrade-medic-rodriguez-record-finishes",
+      "title": "Uroš Medić stops Daniel Rodriguez in 30 seconds as UFC's Serbian debut sets a finishes record",
+      "kind": "article",
+      "words": 395,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 69,
+        "average": 49.4
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 56,
+        "average": 32.9
+      },
+      "lexicalDiversity": 0.582,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260802-maccabi-tel-aviv-armoni-brooks-talks",
+      "slug": "maccabi-tel-aviv-armoni-brooks-talks",
+      "title": "Maccabi Tel Aviv in talks with Armoni Brooks after ASVEL's financial collapse",
+      "kind": "news",
+      "words": 328,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 29,
+        "longest": 69,
+        "average": 41
+      },
+      "sentenceWords": {
+        "shortest": 21,
+        "longest": 45,
+        "average": 32.8
+      },
+      "lexicalDiversity": 0.652,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-02-maccabi-haifa-toto-cup-hopes-fade",
+      "slug": "maccabi-haifa-toto-cup-hopes-fade-hapoel-haifa-top-group",
+      "title": "Maccabi Haifa's Toto Cup hopes fade as Hapoel Haifa pull clear at the top of Group A",
+      "kind": "article",
+      "words": 311,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 39,
+        "longest": 49,
+        "average": 44.4
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 49,
+        "average": 34.6
+      },
+      "lexicalDiversity": 0.592,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-02-diomande-real-madrid-leipzig-stuck",
+      "slug": "diomande-real-madrid-leipzig-transfer-stuck",
+      "title": "Stuck in Germany: Leipzig freeze out Real Madrid over Diomande",
+      "kind": "news",
+      "words": 371,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 26,
+        "longest": 55,
+        "average": 46.4
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 53,
+        "average": 24.7
+      },
+      "lexicalDiversity": 0.609,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-08-02-kiryat-shmona-tiberias-toto-cup",
       "slug": "kiryat-shmona-edge-tiberias-toto-cup-barda-character",
