@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T23:49:06.996Z",
+  "generatedAt": "2026-08-02T01:00:28.453Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,19 +11,19 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 737,
+    "publishedArticles": 738,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 426,
-      "average": 426.6
+      "median": 425.5,
+      "average": 426.4
     },
     "paragraphDistribution": {
       "3": 34,
       "4": 6,
       "5": 10,
       "6": 35,
-      "7": 107,
+      "7": 108,
       "8": 194,
       "9": 168,
       "10": 128,
@@ -3135,6 +3135,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-02-kiryat-shmona-tiberias-toto-cup",
+      "slug": "kiryat-shmona-edge-tiberias-toto-cup-barda-character",
+      "title": "Kiryat Shmona edge Tiberias 1-0 in Toto Cup as Barda hails players' character",
+      "kind": "news",
+      "words": 316,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 21,
+        "longest": 63,
+        "average": 45.1
+      },
+      "sentenceWords": {
+        "shortest": 21,
+        "longest": 100,
+        "average": 45.1
+      },
+      "lexicalDiversity": 0.658,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-01-beer-sheva-night-race-price-deadline",
       "slug": "beer-sheva-night-race-price-deadline",

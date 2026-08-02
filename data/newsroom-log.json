@@ -1,5 +1,74 @@
 [
   {
+    "ts": "2026-08-02T00:52:59.095Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 8,
+    "published": 1,
+    "review": 3,
+    "skipped": 4,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "bruno-guimaraes-arsenal-medical-monday",
+        "title": "Bruno Guimarães set for Arsenal medical on Monday as £80m Newcastle deal nears completion",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "diomande-real-madrid-leipzig-transfer-stalled",
+        "title": "Real Madrid left waiting as Leipzig go silent on Diomande transfer",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "psg-vow-to-beat-any-barcelona-offer-for-ferran-torres",
+        "title": "PSG vow to beat any Barcelona contract offer for Ferran Torres",
+        "decision": "duplicate",
+        "reason": "same event as ferran-torres-barcelona-contract-fears-psg-interest"
+      },
+      {
+        "slug": "ferrari-luce-ev-sold-out-not-a-sports-story",
+        "title": "Ferrari's Luce electric car sells out its 2026 run — but this is not a sports story",
+        "confidence": 0,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Not a sports story — the source is Ferrari automotive/business news about the Luce EV sellout, with no motorsport, match, athlete or competition content; holding as out of scope for a sports desk. No verifiable Wikimedia Commons photo of the Luce was found either (its Commons category is currently empty)."
+      },
+      {
+        "slug": "avuksis-sakhnin-still-want-four-five-signings",
+        "title": "Avuksis says Sakhnin still targeting four or five more signings",
+        "confidence": 0.82,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Scorer name transliteration for Sakhnin's equaliser (rendered here as Mateo Kojo) could not be independently confirmed against a registry spelling."
+      },
+      {
+        "slug": "netanya-nwachukwu-qarabag-snub",
+        "title": "Maccabi Netanya left stung as Nwachukwu snubs move for Qarabağ switch",
+        "confidence": 0.8,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "The Qarabağ move is reported by Sport5 only and not yet confirmed by Qarabağ or Sheffield United."
+      },
+      {
+        "slug": "kiryat-shmona-edge-tiberias-toto-cup-barda-character",
+        "title": "Kiryat Shmona edge Tiberias 1-0 in Toto Cup as Barda hails players' character",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "rafi-aronov-oktagon-debut-knockout-broz",
+        "title": "Rafi Aronov stops Miroslav Brož in the first round on Oktagon debut",
+        "decision": "duplicate"
+      }
+    ]
+  },
+  {
     "ts": "2026-08-01T23:42:19.803Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -3313,74 +3382,6 @@
         "gate": "pass",
         "decision": "published",
         "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-07-28T09:25:45.965Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 8,
-    "published": 3,
-    "review": 0,
-    "skipped": 5,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "nottingham-forest-20-million-bid-anan-khalaili",
-        "title": "Nottingham Forest bid around €20m for Israeli winger Anan Khalaili",
-        "confidence": 0.8,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "zidane-officially-appointed-france-national-team-coach",
-        "title": "Zidane appointed France's new head coach, succeeding Deschamps",
-        "confidence": 0.9,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "shviro-badji-set-to-start-tiberias-toto-cup-haifa",
-        "title": "Shviro and Badji set to start for Tiberias in Toto Cup trip to Haifa",
-        "confidence": 0.8,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "yan-diomande-tragedy-ronaldo-real-madrid",
-        "title": "The tragedy behind Yan Diomande, the teenager chasing Ronaldo's shoes at Real Madrid",
-        "decision": "duplicate",
-        "reason": "same event as real-madrid-agree-terms-yan-diomande-five-year-deal"
-      },
-      {
-        "slug": "vinicius-junior-real-madrid-sale-ultimatum",
-        "title": "Vinicius Junior must be sold this summer without a signed deal, says Cañizares",
-        "decision": "duplicate",
-        "reason": "same event as arsenal-record-wage-vinicius-junior-real-madrid"
-      },
-      {
-        "slug": "psg-fireworks-jab-real-madrid-diomande-pursuit",
-        "title": "PSG accuse Real Madrid of arriving \"with fireworks\" as they pull out of Diomandé chase",
-        "decision": "duplicate",
-        "reason": "same event as psg-pulls-out-diomande-real-madrid-transfer"
-      },
-      {
-        "slug": "hapoel-tel-aviv-ginat-contract-extension-yanai-promise",
-        "title": "Hapoel Tel Aviv owner promises Tomer Ginat he will retire as champion of Israel and Europe",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "nottingham-forest-20m-bid-anan-khalaili",
-        "title": "Nottingham Forest offer €20m for Anan Khalaili after Inter medical collapse",
-        "decision": "duplicate"
       }
     ]
   }
