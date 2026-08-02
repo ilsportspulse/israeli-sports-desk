@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T06:00:28.189Z",
+  "generatedAt": "2026-08-02T07:07:53.194Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,21 +11,21 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 752,
+    "publishedArticles": 756,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 423,
-      "average": 425.2
+      "average": 425.1
     },
     "paragraphDistribution": {
       "3": 34,
       "4": 6,
       "5": 10,
       "6": 35,
-      "7": 111,
+      "7": 113,
       "8": 202,
-      "9": 171,
+      "9": 173,
       "10": 128,
       "11": 33,
       "12": 12,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.269,
+    "dominantParagraphShare": 0.267,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 35,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 138
+    "articlesWithStyleFlags": 137
   },
   "flagged": [
     {
@@ -259,6 +259,29 @@
       ]
     },
     {
+      "id": "live-2026-08-02-besiktas-dejulius-murcia-dispute",
+      "slug": "besiktas-dejulius-murcia-legal-dispute",
+      "title": "Besiktas unveil David DeJulius as Murcia digs in and threatens FIBA and legal action",
+      "kind": "news",
+      "words": 383,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 51,
+        "average": 42.6
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 47,
+        "average": 23.9
+      },
+      "lexicalDiversity": 0.637,
+      "publisherAttributions": 0,
+      "flags": [
+        "stock-phrase:what-comes-next"
+      ]
+    },
+    {
       "id": "live-2026-08-02-israel-duet-eighth-artistic-swimming-euros",
       "slug": "israel-duet-eighth-artistic-swimming-euros-paris",
       "title": "Konin and Mazor climb to eighth in duet free final at European artistic swimming championships",
@@ -282,29 +305,6 @@
       ]
     },
     {
-      "id": "live-2026-08-02-turgeman-montreal-death-to-israel-chants",
-      "slug": "turgeman-montreal-death-to-israel-chants",
-      "title": "CF Montréal 2-2 New England Revolution: Turgeman targeted by bottles and 'death to Israel' chants",
-      "kind": "report",
-      "words": 416,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 23,
-        "longest": 57,
-        "average": 46.2
-      },
-      "sentenceWords": {
-        "shortest": 12,
-        "longest": 52,
-        "average": 29.7
-      },
-      "lexicalDiversity": 0.599,
-      "publisherAttributions": 2,
-      "flags": [
-        "publisher-attribution-heavy:2"
-      ]
-    },
-    {
       "id": "live-2026-08-02-bruno-guimaraes-arsenal-medical",
       "slug": "bruno-guimaraes-arsenal-medical-monday",
       "title": "Bruno Guimarães set for Arsenal medical on Monday in £80m Newcastle deal",
@@ -325,29 +325,6 @@
       "publisherAttributions": 0,
       "flags": [
         "below-editorial-target:251/280"
-      ]
-    },
-    {
-      "id": "live-2026-08-02-maccabi-haifa-novakovich-muhammad-saief",
-      "slug": "maccabi-haifa-novakovich-muhammad-saief-injury-update",
-      "title": "Novakovich's rotten luck, Muhammad hurt again as Kenny Saief returns to full training at Maccabi Haifa",
-      "kind": "news",
-      "words": 369,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 33,
-        "longest": 63,
-        "average": 46.1
-      },
-      "sentenceWords": {
-        "shortest": 7,
-        "longest": 51,
-        "average": 30.8
-      },
-      "lexicalDiversity": 0.612,
-      "publisherAttributions": 2,
-      "flags": [
-        "publisher-attribution-heavy:2"
       ]
     },
     {
@@ -3227,6 +3204,111 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260802-maccabi-haifa-glenn-alvin-tiberias-preview",
+      "slug": "maccabi-haifa-glenn-alvin-debut-start-tiberias-toto-cup",
+      "title": "Glenn Alvin to make full Maccabi Haifa debut in goal against Ironi Tiberias",
+      "kind": "news",
+      "words": 382,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 44,
+        "longest": 68,
+        "average": 54.6
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 55,
+        "average": 25.5
+      },
+      "lexicalDiversity": 0.573,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-02-turgeman-antisemitic-abuse-montreal",
+      "slug": "dor-turgeman-antisemitic-abuse-montreal-goal-celebration",
+      "title": "CF Montréal 2-2 New England: Turgeman defies antisemitic chants, clashes with rival goalkeeper",
+      "kind": "article",
+      "words": 461,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 21,
+        "longest": 63,
+        "average": 51.2
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 55,
+        "average": 27.1
+      },
+      "lexicalDiversity": 0.57,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260802-beitar-fans-romania-austria-wien",
+      "slug": "beitar-jerusalem-fans-flock-romania-austria-wien-conference-league",
+      "title": "Beitar Jerusalem brace for a flood of 4,000 fans as Austria Wien tie looms in Romania",
+      "kind": "article",
+      "words": 472,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 69,
+        "average": 52.4
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 44,
+        "average": 31.5
+      },
+      "lexicalDiversity": 0.54,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260802-toto-cup-round-three-winner-odds",
+      "slug": "winner-odds-favour-hapoel-jerusalem-maccabi-netanya-toto-cup-round-three",
+      "title": "Winner odds make Hapoel Jerusalem and Maccabi Netanya favourites for Toto Cup round three",
+      "kind": "match-preview",
+      "words": 322,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 32,
+        "longest": 57,
+        "average": 46
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 44,
+        "average": 29.3
+      },
+      "lexicalDiversity": 0.599,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260802-niv-eliasi-levadiakos-transfer",
+      "slug": "niv-eliasi-nears-levadiakos-move-greek-super-league",
+      "title": "Niv Eliasi closes in on move to Greek side Levadiakos",
+      "kind": "news",
+      "words": 343,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 57,
+        "average": 42.9
+      },
+      "sentenceWords": {
+        "shortest": 22,
+        "longest": 57,
+        "average": 38.1
+      },
+      "lexicalDiversity": 0.569,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260802-japanika-hadera-grenade-beitar-owner",
       "slug": "grenade-hits-japanika-branch-hadera-beitar-jerusalem-owner",

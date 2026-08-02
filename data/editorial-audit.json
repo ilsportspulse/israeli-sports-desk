@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T06:00:27.802Z",
+  "generatedAt": "2026-08-02T07:07:52.737Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 970,
-    "publishedBefore": 752,
-    "cleanPublished": 744,
+    "totalArticles": 976,
+    "publishedBefore": 756,
+    "cleanPublished": 748,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 752,
-    "reviewAfter": 218
+    "publishedAfter": 756,
+    "reviewAfter": 220
   },
   "blockedPublished": [
     {
@@ -157,6 +157,63 @@
   ],
   "warnings": [
     {
+      "id": "live-2026-08-02-besiktas-dejulius-murcia-dispute",
+      "slug": "besiktas-dejulius-murcia-legal-dispute",
+      "title": "Besiktas unveil David DeJulius as Murcia digs in and threatens FIBA and legal action",
+      "statusBefore": "published",
+      "words": 381,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "live-20260802-beitar-fans-romania-austria-wien",
+      "slug": "beitar-jerusalem-fans-flock-romania-austria-wien-conference-league",
+      "title": "Beitar Jerusalem brace for a flood of 4,000 fans as Austria Wien tie looms in Romania",
+      "statusBefore": "published",
+      "words": 473,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-20260802-toto-cup-round-three-winner-odds",
+      "slug": "winner-odds-favour-hapoel-jerusalem-maccabi-netanya-toto-cup-round-three",
+      "title": "Winner odds make Hapoel Jerusalem and Maccabi Netanya favourites for Toto Cup round three",
+      "statusBefore": "published",
+      "words": 317,
+      "paragraphs": 7,
+      "facts": 5,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260802-niv-eliasi-levadiakos-transfer",
+      "slug": "niv-eliasi-nears-levadiakos-move-greek-super-league",
+      "title": "Niv Eliasi closes in on move to Greek side Levadiakos",
+      "statusBefore": "published",
+      "words": 342,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
       "id": "live-2026-08-02-hapoel-beer-sheva-kangwa-replacement-red-star",
       "slug": "hapoel-beer-sheva-kangwa-replacement-red-star-belgrade",
       "title": "Without Kangwa, Hapoel Beer Sheva weigh their options for Red Star test",
@@ -230,7 +287,7 @@
       "id": "live-2026-08-02-turgeman-montreal-death-to-israel-chants",
       "slug": "turgeman-montreal-death-to-israel-chants",
       "title": "CF Montréal 2-2 New England Revolution: Turgeman targeted by bottles and 'death to Israel' chants",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 417,
       "paragraphs": 9,
       "facts": 7,
@@ -316,7 +373,7 @@
       "id": "live-2026-08-02-maccabi-haifa-novakovich-muhammad-saief",
       "slug": "maccabi-haifa-novakovich-muhammad-saief-injury-update",
       "title": "Novakovich's rotten luck, Muhammad hurt again as Kenny Saief returns to full training at Maccabi Haifa",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 372,
       "paragraphs": 8,
       "facts": 7,
@@ -9382,6 +9439,87 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-2026-08-02-besiktas-dejulius-murcia-dispute",
+      "slug": "besiktas-dejulius-murcia-legal-dispute",
+      "title": "Besiktas unveil David DeJulius as Murcia digs in and threatens FIBA and legal action",
+      "statusBefore": "published",
+      "words": 381,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "live-20260802-maccabi-haifa-glenn-alvin-tiberias-preview",
+      "slug": "maccabi-haifa-glenn-alvin-debut-start-tiberias-toto-cup",
+      "title": "Glenn Alvin to make full Maccabi Haifa debut in goal against Ironi Tiberias",
+      "statusBefore": "published",
+      "words": 382,
+      "paragraphs": 7,
+      "facts": 8,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-02-turgeman-antisemitic-abuse-montreal",
+      "slug": "dor-turgeman-antisemitic-abuse-montreal-goal-celebration",
+      "title": "CF Montréal 2-2 New England: Turgeman defies antisemitic chants, clashes with rival goalkeeper",
+      "statusBefore": "published",
+      "words": 464,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260802-beitar-fans-romania-austria-wien",
+      "slug": "beitar-jerusalem-fans-flock-romania-austria-wien-conference-league",
+      "title": "Beitar Jerusalem brace for a flood of 4,000 fans as Austria Wien tie looms in Romania",
+      "statusBefore": "published",
+      "words": 473,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-20260802-toto-cup-round-three-winner-odds",
+      "slug": "winner-odds-favour-hapoel-jerusalem-maccabi-netanya-toto-cup-round-three",
+      "title": "Winner odds make Hapoel Jerusalem and Maccabi Netanya favourites for Toto Cup round three",
+      "statusBefore": "published",
+      "words": 317,
+      "paragraphs": 7,
+      "facts": 5,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260802-niv-eliasi-levadiakos-transfer",
+      "slug": "niv-eliasi-nears-levadiakos-move-greek-super-league",
+      "title": "Niv Eliasi closes in on move to Greek side Levadiakos",
+      "statusBefore": "published",
+      "words": 342,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
       "id": "live-20260802-japanika-hadera-grenade-beitar-owner",
       "slug": "grenade-hits-japanika-branch-hadera-beitar-jerusalem-owner",
       "title": "Grenade hits Japanika branch owned by Beitar Jerusalem's Barak Abramov in Hadera",
@@ -9448,21 +9586,6 @@
       ]
     },
     {
-      "id": "live-2026-08-02-turgeman-montreal-death-to-israel-chants",
-      "slug": "turgeman-montreal-death-to-israel-chants",
-      "title": "CF Montréal 2-2 New England Revolution: Turgeman targeted by bottles and 'death to Israel' chants",
-      "statusBefore": "published",
-      "words": 417,
-      "paragraphs": 9,
-      "facts": 7,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline",
-        "voice:publisher-attribution-heavy:2"
-      ]
-    },
-    {
       "id": "live-2026-08-02-messi-returns-casemiro-own-goal-inter-miami",
       "slug": "inter-miami-2-2-columbus-crew-messi-returns-casemiro-own-goal",
       "title": "Inter Miami 2-2 Columbus Crew: Messi returns, but Casemiro own goal mars home debut",
@@ -9502,20 +9625,6 @@
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-02-maccabi-haifa-novakovich-muhammad-saief",
-      "slug": "maccabi-haifa-novakovich-muhammad-saief-injury-update",
-      "title": "Novakovich's rotten luck, Muhammad hurt again as Kenny Saief returns to full training at Maccabi Haifa",
-      "statusBefore": "published",
-      "words": 372,
-      "paragraphs": 8,
-      "facts": 7,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": [
-        "voice:publisher-attribution-heavy:2"
       ]
     },
     {
