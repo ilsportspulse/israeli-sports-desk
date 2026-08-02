@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T17:16:20.635Z",
+  "generatedAt": "2026-08-02T18:05:02.569Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,23 +11,23 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 776,
+    "publishedArticles": 780,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 423,
-      "average": 425.9
+      "average": 425.7
     },
     "paragraphDistribution": {
       "3": 34,
       "4": 6,
       "5": 10,
-      "6": 35,
+      "6": 36,
       "7": 114,
       "8": 212,
-      "9": 177,
+      "9": 179,
       "10": 132,
-      "11": 34,
+      "11": 35,
       "12": 12,
       "13": 4,
       "14": 2,
@@ -35,9 +35,9 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.273,
+    "dominantParagraphShare": 0.272,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 35,
+    "exactSixParagraphArticles": 36,
     "analysisBelowTarget": 9,
     "articlesWithStyleFlags": 138
   },
@@ -3228,6 +3228,90 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260802-israel-fifth-mixed-duet-technical-paris",
+      "slug": "makmel-dagan-israel-fifth-mixed-duet-technical-european-championships",
+      "title": "Israel take fifth in mixed duet technical final at European Championships in Paris",
+      "kind": "news",
+      "words": 344,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 94,
+        "average": 57.3
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 48,
+        "average": 31.3
+      },
+      "lexicalDiversity": 0.596,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-02-kangwa-panathinaikos-agent",
+      "slug": "kangwa-panathinaikos-agent-beer-sheva-offer",
+      "title": "Kangwa's agent: Beer Sheva made him a high offer, but he chose to progress",
+      "kind": "transfer",
+      "words": 379,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 26,
+        "longest": 67,
+        "average": 42.1
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 75,
+        "average": 31.6
+      },
+      "lexicalDiversity": 0.562,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-02-hapoel-hadera-benfica-youth",
+      "slug": "hapoel-hadera-benfica-youth-academy-appointments",
+      "title": "Benfica pair to lead Hapoel Hadera's youth academy as Portuguese partnership begins",
+      "kind": "news",
+      "words": 421,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 57,
+        "average": 46.8
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 86,
+        "average": 30.1
+      },
+      "lexicalDiversity": 0.62,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-02-liverpool-plan-wirtz-number-10",
+      "slug": "liverpool-plan-wirtz-number-10-iraola",
+      "title": "Iraola's plan for Liverpool: everything will run through Wirtz",
+      "kind": "article",
+      "words": 431,
+      "paragraphs": 11,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 48,
+        "average": 39.2
+      },
+      "sentenceWords": {
+        "shortest": 30,
+        "longest": 84,
+        "average": 47.9
+      },
+      "lexicalDiversity": 0.578,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-08-02-haziza-set-for-netanya-bow-oli-starts-ramat-gan",
       "slug": "haziza-set-for-netanya-bow-oli-starts-ramat-gan",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T17:16:20.288Z",
+  "generatedAt": "2026-08-02T18:05:02.089Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1021,
-    "publishedBefore": 776,
-    "cleanPublished": 768,
+    "totalArticles": 1027,
+    "publishedBefore": 780,
+    "cleanPublished": 772,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 776,
-    "reviewAfter": 245
+    "publishedAfter": 780,
+    "reviewAfter": 247
   },
   "blockedPublished": [
     {
@@ -156,6 +156,77 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-2026-08-02-hapoel-hadera-benfica-coaches",
+      "slug": "benfica-coaches-paulo-reis-andre-salvado-join-hapoel-hadera-youth-academy",
+      "title": "Two Benfica coaches arrive in Hadera to overhaul the club's youth academy",
+      "statusBefore": "review",
+      "words": 380,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260802-israel-fifth-mixed-duet-technical-paris",
+      "slug": "makmel-dagan-israel-fifth-mixed-duet-technical-european-championships",
+      "title": "Israel take fifth in mixed duet technical final at European Championships in Paris",
+      "statusBefore": "published",
+      "words": 339,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-02-hapoel-hadera-benfica-youth",
+      "slug": "hapoel-hadera-benfica-youth-academy-appointments",
+      "title": "Benfica pair to lead Hapoel Hadera's youth academy as Portuguese partnership begins",
+      "statusBefore": "published",
+      "words": 424,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-02-maccabi-netanya-hapoel-ramat-gan-toto-cup-held",
+      "slug": "maccabi-netanya-hapoel-ramat-gan-toto-cup-in-progress",
+      "title": "Maccabi Netanya and Hapoel Ramat Gan level at 1-1 in Toto Cup clash — match in progress",
+      "statusBefore": "review",
+      "words": 118,
+      "paragraphs": 3,
+      "facts": 6,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-02-liverpool-plan-wirtz-number-10",
+      "slug": "liverpool-plan-wirtz-number-10-iraola",
+      "title": "Iraola's plan for Liverpool: everything will run through Wirtz",
+      "statusBefore": "published",
+      "words": 430,
+      "paragraphs": 11,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
     {
       "id": "live-2026-08-02-haziza-set-for-netanya-bow-oli-starts-ramat-gan",
       "slug": "haziza-set-for-netanya-bow-oli-starts-ramat-gan",
@@ -9788,6 +9859,61 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-20260802-israel-fifth-mixed-duet-technical-paris",
+      "slug": "makmel-dagan-israel-fifth-mixed-duet-technical-european-championships",
+      "title": "Israel take fifth in mixed duet technical final at European Championships in Paris",
+      "statusBefore": "published",
+      "words": 339,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-02-kangwa-panathinaikos-agent",
+      "slug": "kangwa-panathinaikos-agent-beer-sheva-offer",
+      "title": "Kangwa's agent: Beer Sheva made him a high offer, but he chose to progress",
+      "statusBefore": "published",
+      "words": 380,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-02-hapoel-hadera-benfica-youth",
+      "slug": "hapoel-hadera-benfica-youth-academy-appointments",
+      "title": "Benfica pair to lead Hapoel Hadera's youth academy as Portuguese partnership begins",
+      "statusBefore": "published",
+      "words": 424,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-02-liverpool-plan-wirtz-number-10",
+      "slug": "liverpool-plan-wirtz-number-10-iraola",
+      "title": "Iraola's plan for Liverpool: everything will run through Wirtz",
+      "statusBefore": "published",
+      "words": 430,
+      "paragraphs": 11,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
     {
       "id": "live-2026-08-02-haziza-set-for-netanya-bow-oli-starts-ramat-gan",
       "slug": "haziza-set-for-netanya-bow-oli-starts-ramat-gan",
