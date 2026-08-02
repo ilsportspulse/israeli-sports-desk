@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T04:03:37.631Z",
+  "generatedAt": "2026-08-02T05:09:04.280Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,21 +11,21 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 745,
+    "publishedArticles": 748,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 423,
-      "average": 425.7
+      "average": 425.5
     },
     "paragraphDistribution": {
       "3": 34,
       "4": 6,
       "5": 10,
       "6": 35,
-      "7": 109,
-      "8": 200,
-      "9": 168,
+      "7": 110,
+      "8": 201,
+      "9": 169,
       "10": 128,
       "11": 33,
       "12": 12,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.268,
+    "dominantParagraphShare": 0.269,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 35,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 136
+    "articlesWithStyleFlags": 137
   },
   "flagged": [
     {
@@ -255,6 +255,29 @@
       "publisherAttributions": 2,
       "flags": [
         "below-editorial-target:204/280",
+        "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-02-turgeman-montreal-death-to-israel-chants",
+      "slug": "turgeman-montreal-death-to-israel-chants",
+      "title": "CF Montréal 2-2 New England Revolution: Turgeman targeted by bottles and 'death to Israel' chants",
+      "kind": "report",
+      "words": 416,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 23,
+        "longest": 57,
+        "average": 46.2
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 52,
+        "average": 29.7
+      },
+      "lexicalDiversity": 0.599,
+      "publisherAttributions": 2,
+      "flags": [
         "publisher-attribution-heavy:2"
       ]
     },
@@ -3182,24 +3205,66 @@
   ],
   "clean": [
     {
-      "id": "live-2026-08-02-baribo-turgeman-toklomati-mls",
-      "slug": "baribo-turgeman-toklomati-mls-israelis-shine",
-      "title": "Baribo salvages DC United's 2-2 draw, Turgeman strikes in Montreal, Toklomati sets up Charlotte in 2-1 loss to Chicago",
+      "id": "live-2026-08-02-messi-returns-casemiro-own-goal-inter-miami",
+      "slug": "inter-miami-2-2-columbus-crew-messi-returns-casemiro-own-goal",
+      "title": "Inter Miami 2-2 Columbus Crew: Messi returns, but Casemiro own goal mars home debut",
       "kind": "article",
-      "words": 421,
+      "words": 443,
       "paragraphs": 8,
       "paragraphWords": {
-        "shortest": 26,
-        "longest": 73,
-        "average": 52.6
+        "shortest": 38,
+        "longest": 66,
+        "average": 55.4
       },
       "sentenceWords": {
         "shortest": 6,
-        "longest": 46,
-        "average": 28.1
+        "longest": 55,
+        "average": 29.5
       },
-      "lexicalDiversity": 0.599,
+      "lexicalDiversity": 0.585,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-02-braaf-hapoel-haifa-trial",
+      "slug": "jayden-braaf-trial-hapoel-haifa",
+      "title": "Ex-Manchester City winger Jayden Braaf lands in Israel for Hapoel Haifa trial",
+      "kind": "news",
+      "words": 332,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 58,
+        "average": 47.4
+      },
+      "sentenceWords": {
+        "shortest": 14,
+        "longest": 85,
+        "average": 36.9
+      },
+      "lexicalDiversity": 0.636,
       "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-02-japanika-hadera-grenade-abramov",
+      "slug": "beitar-jerusalem-owner-abramov-japanika-branch-attacked-hadera",
+      "title": "Tear gas grenade thrown at Hadera site of Beitar Jerusalem owner's restaurant chain",
+      "kind": "news",
+      "words": 344,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 22,
+        "longest": 64,
+        "average": 43
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 51,
+        "average": 31.3
+      },
+      "lexicalDiversity": 0.605,
+      "publisherAttributions": 0,
       "flags": []
     },
     {

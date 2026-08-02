@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T04:03:37.190Z",
+  "generatedAt": "2026-08-02T05:09:03.852Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 958,
-    "publishedBefore": 745,
-    "cleanPublished": 737,
+    "totalArticles": 963,
+    "publishedBefore": 748,
+    "cleanPublished": 740,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 745,
-    "reviewAfter": 213
+    "publishedAfter": 748,
+    "reviewAfter": 215
   },
   "blockedPublished": [
     {
@@ -157,6 +157,49 @@
   ],
   "warnings": [
     {
+      "id": "live-2026-08-02-turgeman-montreal-death-to-israel-chants",
+      "slug": "turgeman-montreal-death-to-israel-chants",
+      "title": "CF Montréal 2-2 New England Revolution: Turgeman targeted by bottles and 'death to Israel' chants",
+      "statusBefore": "published",
+      "words": 417,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-02-messi-returns-casemiro-own-goal-inter-miami",
+      "slug": "inter-miami-2-2-columbus-crew-messi-returns-casemiro-own-goal",
+      "title": "Inter Miami 2-2 Columbus Crew: Messi returns, but Casemiro own goal mars home debut",
+      "statusBefore": "published",
+      "words": 446,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-02-braaf-hapoel-haifa-trial",
+      "slug": "jayden-braaf-trial-hapoel-haifa",
+      "title": "Ex-Manchester City winger Jayden Braaf lands in Israel for Hapoel Haifa trial",
+      "statusBefore": "published",
+      "words": 333,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
       "id": "live-2026-08-02-bruno-guimaraes-arsenal-medical",
       "slug": "bruno-guimaraes-arsenal-medical-monday",
       "title": "Bruno Guimarães set for Arsenal medical on Monday in £80m Newcastle deal",
@@ -174,7 +217,7 @@
       "id": "live-2026-08-02-baribo-turgeman-toklomati-mls",
       "slug": "baribo-turgeman-toklomati-mls-israelis-shine",
       "title": "Baribo salvages DC United's 2-2 draw, Turgeman strikes in Montreal, Toklomati sets up Charlotte in 2-1 loss to Chicago",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 425,
       "paragraphs": 8,
       "facts": 6,
@@ -9269,6 +9312,61 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-2026-08-02-turgeman-montreal-death-to-israel-chants",
+      "slug": "turgeman-montreal-death-to-israel-chants",
+      "title": "CF Montréal 2-2 New England Revolution: Turgeman targeted by bottles and 'death to Israel' chants",
+      "statusBefore": "published",
+      "words": 417,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-02-messi-returns-casemiro-own-goal-inter-miami",
+      "slug": "inter-miami-2-2-columbus-crew-messi-returns-casemiro-own-goal",
+      "title": "Inter Miami 2-2 Columbus Crew: Messi returns, but Casemiro own goal mars home debut",
+      "statusBefore": "published",
+      "words": 446,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-02-braaf-hapoel-haifa-trial",
+      "slug": "jayden-braaf-trial-hapoel-haifa",
+      "title": "Ex-Manchester City winger Jayden Braaf lands in Israel for Hapoel Haifa trial",
+      "statusBefore": "published",
+      "words": 333,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-02-japanika-hadera-grenade-abramov",
+      "slug": "beitar-jerusalem-owner-abramov-japanika-branch-attacked-hadera",
+      "title": "Tear gas grenade thrown at Hadera site of Beitar Jerusalem owner's restaurant chain",
+      "statusBefore": "published",
+      "words": 345,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
       "id": "live-2026-08-02-bruno-guimaraes-arsenal-medical",
       "slug": "bruno-guimaraes-arsenal-medical-monday",
       "title": "Bruno Guimarães set for Arsenal medical on Monday in £80m Newcastle deal",
@@ -9277,20 +9375,6 @@
       "paragraphs": 8,
       "facts": 6,
       "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-02-baribo-turgeman-toklomati-mls",
-      "slug": "baribo-turgeman-toklomati-mls-israelis-shine",
-      "title": "Baribo salvages DC United's 2-2 draw, Turgeman strikes in Montreal, Toklomati sets up Charlotte in 2-1 loss to Chicago",
-      "statusBefore": "published",
-      "words": 425,
-      "paragraphs": 8,
-      "facts": 6,
-      "verificationSources": 6,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"

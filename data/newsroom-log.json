@@ -1,5 +1,76 @@
 [
   {
+    "ts": "2026-08-02T05:01:01.483Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 8,
+    "published": 4,
+    "review": 1,
+    "skipped": 3,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "beitar-jerusalem-owner-abramov-japanika-branch-attacked-hadera",
+        "title": "Tear gas grenade thrown at Hadera site of Beitar Jerusalem owner's restaurant chain",
+        "confidence": 0.78,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "aboukassis-gomes-red-card-toto-cup-sakhnin",
+        "title": "Hapoel Haifa 2-1 Bnei Sakhnin: Aboukassis addresses Gomes' red card",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "jayden-braaf-trial-hapoel-haifa",
+        "title": "Ex-Manchester City winger Jayden Braaf lands in Israel for Hapoel Haifa trial",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "inter-miami-2-2-columbus-crew-messi-returns-casemiro-own-goal",
+        "title": "Inter Miami 2-2 Columbus Crew: Messi returns, but Casemiro own goal mars home debut",
+        "confidence": 0.9,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "baribo-toklomati-mls-israelis-abroad-duplicate",
+        "title": "DC United 2-2 Nashville SC: Baribo scores again; Charlotte fall 2-1 at Chicago despite Toklomati assist",
+        "decision": "duplicate"
+      },
+      {
+        "url": "https://www.sport5.co.il/articles.aspx?FolderID=64&docID=555098",
+        "decision": "skipped",
+        "reason": "no valid article emitted"
+      },
+      {
+        "slug": "turgeman-montreal-death-to-israel-chants",
+        "title": "CF Montréal 2-2 New England Revolution: Turgeman targeted by bottles and 'death to Israel' chants",
+        "confidence": 0.78,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "former-israel-cycling-team-rider-noa-boruchovich-dies-30",
+        "title": "Former Israel cycling team rider Noa Boruchovich dies at 30",
+        "confidence": 0.65,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Single-source report from the specialist outlet Shvoong; no cause of death is given and we could not independently corroborate the details via a second outlet or an Israel Cycling Federation statement. No verifiable, correctly-identified photograph of Noa Boruchovich could be found on Wikimedia Commons, so commonsCandidates is empty — run without an image or hold for one."
+      }
+    ]
+  },
+  {
     "ts": "2026-08-02T03:55:26.020Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -3329,71 +3400,6 @@
         "title": "Cañizares: Real Madrid must sell Vinícius this summer if there's no signed deal",
         "decision": "duplicate",
         "reason": "same event as arsenal-eye-audacious-move-for-vinicius-junior"
-      }
-    ]
-  },
-  {
-    "ts": "2026-07-28T10:53:21.839Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 8,
-    "published": 1,
-    "review": 1,
-    "skipped": 6,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "url": "https://www.one.co.il/Article/529221.html",
-        "decision": "skipped",
-        "reason": "no valid article emitted"
-      },
-      {
-        "slug": "ironi-tiberias-lawyer-barzel-final-result-duplicate-hold",
-        "title": "Ironi Tiberias lawyer: Barzel is announcing the verdict, not commenting on it",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "yan-diomande-ronaldo-dream-real-madrid-tragedy",
-        "title": "The tragedy behind Yan Diomande's dream of following Ronaldo to Real Madrid",
-        "decision": "duplicate",
-        "reason": "same event as real-madrid-agree-terms-yan-diomande-five-year-deal"
-      },
-      {
-        "slug": "vinicius-jr-real-madrid-contract-canizares-warning",
-        "title": "Sell Vinicius this summer if there's no signed deal, warns Cañizares",
-        "decision": "duplicate",
-        "reason": "same event as arsenal-record-wage-vinicius-junior-real-madrid"
-      },
-      {
-        "slug": "real-madrid-yan-diomande-psg-withdraw",
-        "title": "Real Madrid land Yan Diomande as PSG pull out, calling the move a snatch",
-        "decision": "duplicate",
-        "reason": "same event as real-madrid-agree-terms-yan-diomande-five-year-deal"
-      },
-      {
-        "slug": "tomer-ginat-hapoel-tel-aviv-contract-extension-2030",
-        "title": "Hapoel Tel Aviv lock up captain Tomer Ginat through 2030 as owner vows Israeli and European titles",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "omer-katz-emerges-maccabi-haifa-goalkeeper-target",
-        "title": "Maccabi Haifa weigh free move for Hapoel Petah Tikva goalkeeper Omer Katz",
-        "confidence": 0.8,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "bnei-sakhnin-weigh-free-agent-rotem-hatuel",
-        "title": "Bnei Sakhnin weigh move for free agent Rotem Hatuel",
-        "confidence": 0.78,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Talks are described by Sport5 as preliminary and internally divided at Bnei Sakhnin — no fee, contract length or timeline has been reported."
       }
     ]
   }
