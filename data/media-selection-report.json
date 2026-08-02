@@ -1,28 +1,46 @@
 {
   "selections": [
     {
-      "articleId": "live-20260802-israel-lacrosse-bronze-medal-haudenosaunee",
-      "article": "Israel's women beat Haudenosaunee 7-4 to win first-ever lacrosse world championship medal",
-      "file": "File:Prince Chichibu Memorial Rugby Stadium.jpg",
-      "license": "CC0"
-    },
-    {
-      "articleId": "live-2026-08-02-israel-u18-girls-bulgaria-eurobasket-divb",
-      "article": "Israel's U18 girls take on Bulgaria as European Championship bid continues",
-      "file": "File:Italia vs Suiza - 2014 CERH European Championship - 08.jpg",
+      "articleId": "live-2026-08-02-diomande-yamal-comparison",
+      "article": "Diomande can surpass Yamal, says former Leganes captain",
+      "file": "File:Yan Diomande Piero Hincapie Cote D'Ivoire v Ecuador 14 June 2026-126.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-2026-08-02-hapoel-tel-aviv-katowice-fans-secure-tickets",
-      "article": "About 2,000 Hapoel Tel Aviv fans secure tickets for Katowice clash in Miskolc",
-      "file": "File:Mecz piłkarski Wisła Kraków - Zagłębie Sosnwoiec, 28 października 2022, Pożegnanie Stadionu Ludowego, KP.jpg",
-      "license": "CC BY 4.0"
+      "articleId": "live-2026-08-02-tsagarakis-ramat-gan-development-director",
+      "article": "Angelo Tsagarakis joins Maccabi Ironi Ramat Gan as player development director",
+      "file": "File:Angelo Tsagarakis - JL Bourg 2010.jpg",
+      "license": "CC BY-SA 3.0"
     },
     {
-      "articleId": "live-2026-08-02-shtilman-raises-maccabi-tel-aviv-bid",
-      "article": "Shtilman raises bid for Maccabi Tel Aviv's Recanati stake to $120 million",
-      "file": "File:Nokia Arena.jpg",
-      "license": "CC BY 3.0"
+      "articleId": "live-2026-08-02-barcelona-copy-real-madrid-academy-model",
+      "article": "Barcelona look to copy Real Madrid's academy cash-in formula",
+      "file": "File:Tifo at Camp Nou.jpg",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "articleId": "live-2026-08-02-rodri-real-madrid-price-tag-stalled",
+      "article": "Rodri transfer talks stall as Manchester City hold firm on €75m Real Madrid price tag",
+      "file": "File:Rodri Argentina v Spain 19 July 2026-187 (cropped).jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-20260802-red-star-favoured-beer-sheva-champions-league-preview",
+      "article": "Red Star Belgrade are favourites, but Hapoel Beer Sheva can cause trouble, says ONE pundit",
+      "file": "File:FC Zenit Saint Petersburg vs. Red Star Belgrade, 22 November 2022 55.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "articleId": "live-20260802-gloukh-ajax-keller-debrecen",
+      "article": "Ajax win 3-1 in Gloukh cameo, Keller's Debrecen fall 4-2 at Újpest",
+      "file": "File:Oscar Gloukh (cropped).jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-2026-08-02-kiryat-malachi-sapir-kramuko-signings",
+      "article": "Kiryat Malachi add forward Sapir and teenage full-back Kramuko",
+      "file": "File:Mecz piłkarski Wisła Kraków - Zagłębie Sosnwoiec, 28 października 2022, Pożegnanie Stadionu Ludowego, KP.jpg",
+      "license": "CC BY 4.0"
     },
     {
       "articleId": "live-20260714-basketball-coaches-registration",
@@ -34,24 +52,19 @@
   ],
   "failures": [
     {
-      "id": "live-2026-08-02-chizhik-player-committee-reform",
-      "title": "Itamar Chizhik blasts players' committee reform as 'shame and disgrace'",
+      "id": "live-2026-08-02-hapoel-jerusalem-maccabi-petah-tikva-toto-lineups",
+      "title": "Damascan and Almagor start for Hapoel Jerusalem as Ziv Aryeh returns to face old club",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {
-      "id": "live-20260802-kiryat-malachi-sign-sapir-kramoko",
-      "title": "Kiryat Malachi add forward Shahaf Sapir and teenage full-back Svaliyo Kramoko",
+      "id": "live-20260802-aronov-oktagon-debut-prague",
+      "title": "Rafael Aronov stops Miroslav Brož in 1:56 to win OKTAGON debut in Prague",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {
       "id": "live-2026-08-02-maccabi-yavne-kol-persko-resign",
       "title": "Maccabi Yavne tie down defender Yuval Kol and midfielder Amit Persko for another season",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
-    },
-    {
-      "id": "live-20260802-arnautovic-red-star-beer-sheva-preview",
-      "title": "Arnautović eyes his Champions League dream as Red Star await Hapoel Beer Sheva",
-      "error": "image download 429 after retries"
     },
     {
       "id": "live-20260802-niv-eliasi-levadiakos-transfer",
@@ -151,6 +164,11 @@
     {
       "id": "live-2026-08-01-kaufman-gorbenko-2028-olympic-plan",
       "title": "Leonid Kaufman lays out his plan to turn Gorbenko into an Olympic medal contender by 2028",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-20260802-kiryat-malachi-sign-sapir-kramoko",
+      "title": "Kiryat Malachi add forward Shahaf Sapir and teenage full-back Svaliyo Kramoko",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     }
   ]

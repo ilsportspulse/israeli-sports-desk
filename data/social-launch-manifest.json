@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-02T15:05:24Z",
-    "validUntil": "2026-08-03T03:05:24Z",
+    "checkedAt": "2026-08-02T16:03:31Z",
+    "validUntil": "2026-08-03T04:03:31Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 330,
+        "maxAgeHours": 331,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260802-israel-lacrosse-bronze-medal-haudenosaunee",
+        "articleId": "live-2026-08-02-diomande-yamal-comparison",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 338,
+        "maxAgeHours": 339,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-02-chizhik-player-committee-reform",
+        "articleId": "live-2026-08-02-tsagarakis-ramat-gan-development-director",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 348,
+        "maxAgeHours": 349,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-02-hapoel-tel-aviv-katowice-fans-secure-tickets",
+        "articleId": "live-2026-08-02-rodri-real-madrid-price-tag-stalled",
         "maxAgeHours": 24,
         "requires": []
       }

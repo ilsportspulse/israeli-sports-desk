@@ -1,5 +1,82 @@
 [
   {
+    "ts": "2026-08-02T15:54:18.105Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 8,
+    "published": 6,
+    "review": 1,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "gloukh-ajax-friendly-win-keller-debrecen-defeat",
+        "title": "Ajax win 3-1 in Gloukh cameo, Keller's Debrecen fall 4-2 at Újpest",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "hapoel-jerusalem-maccabi-petah-tikva-toto-cup-lineups",
+        "title": "Damascan and Almagor start for Hapoel Jerusalem as Ziv Aryeh returns to face old club",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "red-star-belgrade-favoured-hapoel-beer-sheva-can-cause-trouble-champions-league",
+        "title": "Red Star Belgrade are favourites, but Hapoel Beer Sheva can cause trouble, says ONE pundit",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "rodri-transfer-stalled-real-madrid-manchester-city-price-tag",
+        "title": "Rodri transfer talks stall as Manchester City hold firm on €75m Real Madrid price tag",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "barcelona-copy-real-madrid-academy-cash-model",
+        "title": "Barcelona look to copy Real Madrid's academy cash-in formula",
+        "confidence": 0.82,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Most transfer fees cited are reported figures from Spanish media, not officially confirmed by either club, and the Torrents-to-Ajax deal is not yet finalised."
+      },
+      {
+        "slug": "tsagarakis-joins-maccabi-ramat-gan-development-role",
+        "title": "Angelo Tsagarakis joins Maccabi Ironi Ramat Gan as player development director",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "diomande-can-surpass-yamal-real-madrid",
+        "title": "Diomande can surpass Yamal, says former Leganes captain",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "kings-kangwa-panathinaikos-transfer-beer-sheva-offer",
+        "title": "Beer Sheva's rich offer couldn't keep Kings Kangwa from his Panathinaikos move, agent reveals",
+        "decision": "duplicate"
+      }
+    ]
+  },
+  {
     "ts": "2026-08-02T13:58:15.987Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -3295,153 +3372,6 @@
       {
         "slug": "dinamo-zagreb-comeback-thun-champions-league-qualifying",
         "title": "Dinamo Zagreb complete stunning comeback to eliminate Thun in Champions League qualifying",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-07-28T20:26:38.268Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 8,
-    "published": 5,
-    "review": 0,
-    "skipped": 3,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "maccabi-tel-aviv-andrade-loan-search",
-        "title": "A loan, not necessarily with an option: Maccabi Tel Aviv plot Kervin Andrade's next move",
-        "confidence": 0.8,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "hapoel-haifa-torgeman-brace-sinks-tiberias-toto-cup",
-        "title": "Hapoel Haifa's Silvas tempers optimism after Torgeman brace sees off Tiberias",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "bachar-vows-maccabi-haifa-ready-for-league-opener",
-        "title": "Bachar vows Maccabi Haifa will look different by the league opener after Toto Cup rout",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "rodri-back-surgery-manchester-city-season-fitness",
-        "title": "Rodri undergoes back surgery but Manchester City expect him fit for season opener",
-        "decision": "duplicate",
-        "reason": "same event as rodri-back-surgery-man-city-future-uncertain"
-      },
-      {
-        "url": "https://www.one.co.il/Article/529235.html",
-        "decision": "skipped",
-        "reason": "no valid article emitted"
-      },
-      {
-        "slug": "ilay-feingold-green-card-new-england-revolution",
-        "title": "Green card frees up international slot for Ilay Feingold at New England Revolution",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "shake-milton-hapoel-jerusalem-contract",
-        "title": "Shake Milton agrees deal with Hapoel Jerusalem worth $1m a year",
-        "confidence": 0.8,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "bachar-vows-maccabi-haifa-will-look-different-league-opener",
-        "title": "Bachar vows Maccabi Haifa \"will unequivocally look different\" after second Toto Cup defeat",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-02T14:13:48.543Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 8,
-    "published": 4,
-    "review": 2,
-    "skipped": 2,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "shtilman-raises-maccabi-tel-aviv-bid-120-million",
-        "title": "Shtilman raises bid for Maccabi Tel Aviv's Recanati stake to $120 million",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "hapoel-tel-aviv-fans-secure-tickets-katowice-conference-league",
-        "title": "About 2,000 Hapoel Tel Aviv fans secure tickets for Katowice clash in Miskolc",
-        "confidence": 0.83,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "israel-u18-girls-basketball-bulgaria-eurobasket-division-b",
-        "title": "Israel's U18 girls take on Bulgaria as European Championship bid continues",
-        "confidence": 0,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "match in progress — wait for full time; source article was a live blog only through the third quarter with no confirmed final score, and no image could be independently verified for this specific youth squad"
-      },
-      {
-        "slug": "diomande-can-reach-yamals-level-and-even-more-says-former-leganes-captain",
-        "title": "Diomande can reach Yamal's level 'and even more', says former Leganés captain",
-        "decision": "duplicate",
-        "reason": "same event as real-madrid-agree-terms-yan-diomande-five-year-deal"
-      },
-      {
-        "slug": "kiryat-malachi-sign-forward-sapir-defender-kramoko",
-        "title": "Kiryat Malachi add forward Shahaf Sapir and teenage full-back Svaliyo Kramoko",
-        "confidence": 0.78,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Image withheld: no verifiable, correctly-identified Wikimedia Commons photograph of Maccabi Kiryat Malachi, Shahaf Sapir or Svaliyo Kramoko could be found. Kramoko's name transliteration is provisional (single Hebrew-source spelling only, no independent English-language record located)."
-      },
-      {
-        "slug": "rafael-aronov-oktagon-debut-tko-czech-crowd",
-        "title": "Rafael Aronov silences a booing Prague crowd with a sub-two-minute TKO in his Oktagon debut",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "itamar-chizhik-player-committee-reform-maccabi-haifa",
-        "title": "Itamar Chizhik blasts players' committee reform as 'shame and disgrace'",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "israel-women-lacrosse-bronze-medal-haudenosaunee-world-championship",
-        "title": "Israel's women beat Haudenosaunee 7-4 to win first-ever lacrosse world championship medal",
         "confidence": 0.85,
         "gate": "pass",
         "decision": "published",
