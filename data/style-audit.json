@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T18:13:50.239Z",
+  "generatedAt": "2026-08-02T19:07:14.154Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 780,
+    "publishedArticles": 783,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 423,
-      "average": 425.7
+      "average": 425.9
     },
     "paragraphDistribution": {
       "3": 34,
@@ -24,8 +24,8 @@
       "5": 10,
       "6": 36,
       "7": 114,
-      "8": 212,
-      "9": 179,
+      "8": 213,
+      "9": 181,
       "10": 132,
       "11": 35,
       "12": 12,
@@ -3228,6 +3228,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-02-patati-az-alkmaar-psv-cruijff-schaal",
+      "slug": "az-alkmaar-4-0-psv-weslley-patati-johan-cruijff-schaal",
+      "title": "AZ Alkmaar 4-0 PSV: Weslley Patati scores as Dutch press hail ex-Maccabi winger's 'crazy potential'",
+      "kind": "news",
+      "words": 463,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 42,
+        "longest": 68,
+        "average": 51.4
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 78,
+        "average": 33.1
+      },
+      "lexicalDiversity": 0.585,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-02-kiki-ramos-argentina-haiti",
+      "slug": "kiki-ramos-haiti-argentina-under-17-debut-ecuador-draw",
+      "title": "Haitian-born Kiki Ramos scores as Argentina's Under-17s draw 1-1 with Ecuador",
+      "kind": "feature",
+      "words": 573,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 24,
+        "longest": 140,
+        "average": 71.6
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 60,
+        "average": 31.8
+      },
+      "lexicalDiversity": 0.578,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-02-xabi-alonso-real-madrid-chelsea-interview",
+      "slug": "xabi-alonso-real-madrid-scar-chelsea-new-chapter",
+      "title": "Xabi Alonso says he 'barely watched football' after his Real Madrid exit",
+      "kind": "news",
+      "words": 432,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 27,
+        "longest": 59,
+        "average": 48
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 67,
+        "average": 39.3
+      },
+      "lexicalDiversity": 0.604,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260802-israel-fifth-mixed-duet-technical-paris",
       "slug": "makmel-dagan-israel-fifth-mixed-duet-technical-european-championships",

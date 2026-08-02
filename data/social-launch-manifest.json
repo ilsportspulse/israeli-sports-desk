@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-02T18:13:49Z",
-    "validUntil": "2026-08-03T06:13:49Z",
+    "checkedAt": "2026-08-02T19:07:13Z",
+    "validUntil": "2026-08-03T07:07:13Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 333,
+        "maxAgeHours": 334,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260802-israel-fifth-mixed-duet-technical-paris",
+        "articleId": "live-2026-08-02-patati-az-alkmaar-psv-cruijff-schaal",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 341,
+        "maxAgeHours": 342,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-02-kangwa-panathinaikos-agent",
+        "articleId": "live-2026-08-02-kiki-ramos-argentina-haiti",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 351,
+        "maxAgeHours": 352,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-02-hapoel-hadera-benfica-youth",
+        "articleId": "live-2026-08-02-xabi-alonso-real-madrid-chelsea-interview",
         "maxAgeHours": 24,
         "requires": []
       }

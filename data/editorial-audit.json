@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T18:13:49.754Z",
+  "generatedAt": "2026-08-02T19:07:13.696Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1027,
-    "publishedBefore": 780,
-    "cleanPublished": 772,
+    "totalArticles": 1032,
+    "publishedBefore": 783,
+    "cleanPublished": 775,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 780,
-    "reviewAfter": 247
+    "publishedAfter": 783,
+    "reviewAfter": 249
   },
   "blockedPublished": [
     {
@@ -157,6 +157,35 @@
   ],
   "warnings": [
     {
+      "id": "live-2026-08-02-patati-az-alkmaar-psv-cruijff-schaal",
+      "slug": "az-alkmaar-4-0-psv-weslley-patati-johan-cruijff-schaal",
+      "title": "AZ Alkmaar 4-0 PSV: Weslley Patati scores as Dutch press hail ex-Maccabi winger's 'crazy potential'",
+      "statusBefore": "published",
+      "words": 461,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-02-kiki-ramos-argentina-haiti",
+      "slug": "kiki-ramos-haiti-argentina-under-17-debut-ecuador-draw",
+      "title": "Haitian-born Kiki Ramos scores as Argentina's Under-17s draw 1-1 with Ecuador",
+      "statusBefore": "published",
+      "words": 581,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-2026-08-02-hapoel-hadera-benfica-coaches",
       "slug": "benfica-coaches-paulo-reis-andre-salvado-join-hapoel-hadera-youth-academy",
       "title": "Two Benfica coaches arrive in Hadera to overhaul the club's youth academy",
@@ -252,6 +281,7 @@
       "verificationSources": 4,
       "blockers": [],
       "warnings": [
+        "media:no-action-or-competition-context-detected",
         "voice:publisher-attribution-heavy:2"
       ]
     },
@@ -9859,6 +9889,47 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-02-patati-az-alkmaar-psv-cruijff-schaal",
+      "slug": "az-alkmaar-4-0-psv-weslley-patati-johan-cruijff-schaal",
+      "title": "AZ Alkmaar 4-0 PSV: Weslley Patati scores as Dutch press hail ex-Maccabi winger's 'crazy potential'",
+      "statusBefore": "published",
+      "words": 461,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-02-kiki-ramos-argentina-haiti",
+      "slug": "kiki-ramos-haiti-argentina-under-17-debut-ecuador-draw",
+      "title": "Haitian-born Kiki Ramos scores as Argentina's Under-17s draw 1-1 with Ecuador",
+      "statusBefore": "published",
+      "words": 581,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-02-xabi-alonso-real-madrid-chelsea-interview",
+      "slug": "xabi-alonso-real-madrid-scar-chelsea-new-chapter",
+      "title": "Xabi Alonso says he 'barely watched football' after his Real Madrid exit",
+      "statusBefore": "published",
+      "words": 433,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-20260802-israel-fifth-mixed-duet-technical-paris",
       "slug": "makmel-dagan-israel-fifth-mixed-duet-technical-european-championships",
