@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T19:48:05.434Z",
+  "generatedAt": "2026-08-02T20:51:31.377Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1032,
-    "publishedBefore": 783,
-    "cleanPublished": 775,
+    "totalArticles": 1035,
+    "publishedBefore": 785,
+    "cleanPublished": 777,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 783,
-    "reviewAfter": 249
+    "publishedAfter": 785,
+    "reviewAfter": 250
   },
   "blockedPublished": [
     {
@@ -157,6 +157,34 @@
   ],
   "warnings": [
     {
+      "id": "live-2026-08-02-joan-garcia-barcelona-sixth-champions-league",
+      "slug": "joan-garcia-barcelona-sixth-champions-league-target",
+      "title": "Joan García targets Barcelona's sixth Champions League title after World Cup glory",
+      "statusBefore": "published",
+      "words": 427,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-02-dolev-haziza-toto-cup-debut-netanya-defeat",
+      "slug": "dolev-haziza-toto-cup-debut-netanya-defeat",
+      "title": "Haziza makes bow as Netanya fall 3-2 to Ramat Gan Givatayim in Toto Cup",
+      "statusBefore": "published",
+      "words": 539,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
       "id": "live-2026-08-02-patati-az-alkmaar-psv-cruijff-schaal",
       "slug": "az-alkmaar-4-0-psv-weslley-patati-johan-cruijff-schaal",
       "title": "AZ Alkmaar 4-0 PSV: Weslley Patati scores as Dutch press hail ex-Maccabi winger's 'crazy potential'",
@@ -182,6 +210,20 @@
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-02-noga-reshef-jiu-jitsu-world-champion",
+      "slug": "noga-reshef-jiu-jitsu-world-champion-abu-dhabi",
+      "title": "Noga Reshef claims under-21 jiu-jitsu world title in Abu Dhabi",
+      "statusBefore": "review",
+      "words": 373,
+      "paragraphs": 7,
+      "facts": 8,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
     },
@@ -9890,6 +9932,46 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-2026-08-02-joan-garcia-barcelona-sixth-champions-league",
+      "slug": "joan-garcia-barcelona-sixth-champions-league-target",
+      "title": "Joan García targets Barcelona's sixth Champions League title after World Cup glory",
+      "statusBefore": "published",
+      "words": 427,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-02-dolev-haziza-toto-cup-debut-netanya-defeat",
+      "slug": "dolev-haziza-toto-cup-debut-netanya-defeat",
+      "title": "Haziza makes bow as Netanya fall 3-2 to Ramat Gan Givatayim in Toto Cup",
+      "statusBefore": "published",
+      "words": 539,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-02-bilal-shahin-hapoel-tel-aviv-trial",
+      "slug": "bilal-shahin-hapoel-tel-aviv-trial",
+      "title": "Left-back Bilal Shahin trials with Hapoel Tel Aviv after leaving Kiryat Shmona",
+      "statusBefore": "published",
+      "words": 333,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
       "id": "live-2026-08-02-patati-az-alkmaar-psv-cruijff-schaal",
       "slug": "az-alkmaar-4-0-psv-weslley-patati-johan-cruijff-schaal",
       "title": "AZ Alkmaar 4-0 PSV: Weslley Patati scores as Dutch press hail ex-Maccabi winger's 'crazy potential'",
@@ -10069,18 +10151,6 @@
       "paragraphs": 8,
       "facts": 6,
       "verificationSources": 5,
-      "blockers": [],
-      "warnings": []
-    },
-    {
-      "id": "live-20260802-gloukh-ajax-keller-debrecen",
-      "slug": "gloukh-ajax-friendly-win-keller-debrecen-defeat",
-      "title": "Ajax win 3-1 in Gloukh cameo, Keller's Debrecen fall 4-2 at Újpest",
-      "statusBefore": "published",
-      "words": 342,
-      "paragraphs": 7,
-      "facts": 6,
-      "verificationSources": 3,
       "blockers": [],
       "warnings": []
     },

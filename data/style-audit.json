@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T19:48:05.885Z",
+  "generatedAt": "2026-08-02T20:51:31.837Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 783,
+    "publishedArticles": 785,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 423,
-      "average": 425.9
+      "average": 426.1
     },
     "paragraphDistribution": {
       "3": 34,
@@ -24,9 +24,9 @@
       "5": 10,
       "6": 36,
       "7": 114,
-      "8": 213,
+      "8": 214,
       "9": 181,
-      "10": 132,
+      "10": 133,
       "11": 35,
       "12": 12,
       "13": 4,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.272,
+    "dominantParagraphShare": 0.273,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 36,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 138
+    "articlesWithStyleFlags": 139
   },
   "flagged": [
     {
@@ -279,6 +279,29 @@
       "publisherAttributions": 2,
       "flags": [
         "below-editorial-target:204/280",
+        "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-02-dolev-haziza-toto-cup-debut-netanya-defeat",
+      "slug": "dolev-haziza-toto-cup-debut-netanya-defeat",
+      "title": "Haziza makes bow as Netanya fall 3-2 to Ramat Gan Givatayim in Toto Cup",
+      "kind": "article",
+      "words": 543,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 32,
+        "longest": 71,
+        "average": 54.3
+      },
+      "sentenceWords": {
+        "shortest": 13,
+        "longest": 95,
+        "average": 38.8
+      },
+      "lexicalDiversity": 0.556,
+      "publisherAttributions": 2,
+      "flags": [
         "publisher-attribution-heavy:2"
       ]
     },
@@ -3229,6 +3252,48 @@
   ],
   "clean": [
     {
+      "id": "live-2026-08-02-joan-garcia-barcelona-sixth-champions-league",
+      "slug": "joan-garcia-barcelona-sixth-champions-league-target",
+      "title": "Joan García targets Barcelona's sixth Champions League title after World Cup glory",
+      "kind": "news",
+      "words": 427,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 70,
+        "average": 53.4
+      },
+      "sentenceWords": {
+        "shortest": 19,
+        "longest": 84,
+        "average": 47.4
+      },
+      "lexicalDiversity": 0.55,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-02-bilal-shahin-hapoel-tel-aviv-trial",
+      "slug": "bilal-shahin-hapoel-tel-aviv-trial",
+      "title": "Left-back Bilal Shahin trials with Hapoel Tel Aviv after leaving Kiryat Shmona",
+      "kind": "article",
+      "words": 332,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 61,
+        "average": 47.4
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 50,
+        "average": 30.2
+      },
+      "lexicalDiversity": 0.551,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
       "id": "live-2026-08-02-patati-az-alkmaar-psv-cruijff-schaal",
       "slug": "az-alkmaar-4-0-psv-weslley-patati-johan-cruijff-schaal",
       "title": "AZ Alkmaar 4-0 PSV: Weslley Patati scores as Dutch press hail ex-Maccabi winger's 'crazy potential'",
@@ -3477,27 +3542,6 @@
         "average": 30.1
       },
       "lexicalDiversity": 0.62,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260802-gloukh-ajax-keller-debrecen",
-      "slug": "gloukh-ajax-friendly-win-keller-debrecen-defeat",
-      "title": "Ajax win 3-1 in Gloukh cameo, Keller's Debrecen fall 4-2 at Újpest",
-      "kind": "news",
-      "words": 342,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 24,
-        "longest": 58,
-        "average": 48.9
-      },
-      "sentenceWords": {
-        "shortest": 10,
-        "longest": 53,
-        "average": 28.5
-      },
-      "lexicalDiversity": 0.643,
       "publisherAttributions": 0,
       "flags": []
     },

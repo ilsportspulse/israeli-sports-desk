@@ -146,49 +146,49 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-02T19:48:05Z",
-    "validUntil": "2026-08-03T07:48:05Z",
+    "checkedAt": "2026-08-02T20:51:31Z",
+    "validUntil": "2026-08-03T08:51:31Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 335,
+        "maxAgeHours": 336,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-02-patati-az-alkmaar-psv-cruijff-schaal",
+        "articleId": "live-2026-08-02-joan-garcia-barcelona-sixth-champions-league",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 343,
+        "maxAgeHours": 344,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-02-kiki-ramos-argentina-haiti",
+        "articleId": "live-2026-08-02-dolev-haziza-toto-cup-debut-netanya-defeat",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 353,
+        "maxAgeHours": 354,
         "requires": [
           "column"
         ]
       },
       {
         "role": "archive",
-        "articleId": "archive-20260802-tokyo-28-august-2019-the-night-sagi-muki",
+        "articleId": "live-2026-08-02-kiki-ramos-argentina-haiti",
         "maxAgeHours": 53,
         "requires": [
           "historical-feature"
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-02-xabi-alonso-real-madrid-chelsea-interview",
+        "articleId": "live-2026-08-02-bilal-shahin-hapoel-tel-aviv-trial",
         "maxAgeHours": 24,
         "requires": []
       }
