@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T20:51:31.837Z",
+  "generatedAt": "2026-08-02T21:54:30.999Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,19 +11,19 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 785,
+    "publishedArticles": 786,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 423,
-      "average": 426.1
+      "average": 426
     },
     "paragraphDistribution": {
       "3": 34,
       "4": 6,
       "5": 10,
       "6": 36,
-      "7": 114,
+      "7": 115,
       "8": 214,
       "9": 181,
       "10": 133,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.273,
+    "dominantParagraphShare": 0.272,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 36,
     "analysisBelowTarget": 9,
@@ -3251,6 +3251,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-02-diomande-real-madrid-agent-dispute",
+      "slug": "diomande-real-madrid-agent-dispute-delay",
+      "title": "Agent turf war over Yan Diomande delays his unveiling at Real Madrid",
+      "kind": "news",
+      "words": 361,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 45,
+        "longest": 55,
+        "average": 51.6
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 32,
+        "average": 24.1
+      },
+      "lexicalDiversity": 0.579,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-08-02-joan-garcia-barcelona-sixth-champions-league",
       "slug": "joan-garcia-barcelona-sixth-champions-league-target",

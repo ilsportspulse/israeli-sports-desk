@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-02T20:51:31Z",
-    "validUntil": "2026-08-03T08:51:31Z",
+    "checkedAt": "2026-08-02T21:54:30Z",
+    "validUntil": "2026-08-03T09:54:30Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 336,
+        "maxAgeHours": 337,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-02-joan-garcia-barcelona-sixth-champions-league",
+        "articleId": "live-2026-08-02-diomande-real-madrid-agent-dispute",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 344,
+        "maxAgeHours": 345,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-02-dolev-haziza-toto-cup-debut-netanya-defeat",
+        "articleId": "live-2026-08-02-joan-garcia-barcelona-sixth-champions-league",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 354,
+        "maxAgeHours": 355,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-02-bilal-shahin-hapoel-tel-aviv-trial",
+        "articleId": "live-2026-08-02-dolev-haziza-toto-cup-debut-netanya-defeat",
         "maxAgeHours": 24,
         "requires": []
       }

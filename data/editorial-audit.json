@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T20:51:31.377Z",
+  "generatedAt": "2026-08-02T21:54:30.545Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1035,
-    "publishedBefore": 785,
-    "cleanPublished": 777,
+    "totalArticles": 1040,
+    "publishedBefore": 786,
+    "cleanPublished": 778,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 785,
-    "reviewAfter": 250
+    "publishedAfter": 786,
+    "reviewAfter": 254
   },
   "blockedPublished": [
     {
@@ -156,6 +156,64 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-20260802-cska-sofia-dunav-ruse-zwart-maccabi-preview",
+      "slug": "cska-sofia-fights-back-to-beat-dunav-ruse-ahead-of-maccabi-tel-aviv-tie",
+      "title": "CSKA Sofia 2-1 Dunav Ruse: Zwart on target again ahead of Maccabi Tel Aviv clash",
+      "statusBefore": "review",
+      "words": 418,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-02-david-moses-u18-eurobasket-allstar-snub",
+      "slug": "david-moses-u18-eurobasket-all-star-five-snub",
+      "title": "David Moses tops the boards at U18 Eurobasket but is left off the all-star five",
+      "statusBefore": "review",
+      "words": 446,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:3"
+      ]
+    },
+    {
+      "id": "live-20260802-az-alkmaar-patati-cruijff-schaal",
+      "slug": "az-alkmaar-4-0-psv-patati-johan-cruijff-schaal",
+      "title": "AZ Alkmaar rout 10-man PSV 4-0 as ex-Maccabi Tel Aviv man Weslley Patati scores in Dutch Super Cup",
+      "statusBefore": "review",
+      "words": 324,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-02-diomande-real-madrid-agent-dispute",
+      "slug": "diomande-real-madrid-agent-dispute-delay",
+      "title": "Agent turf war over Yan Diomande delays his unveiling at Real Madrid",
+      "statusBefore": "published",
+      "words": 361,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-08-02-joan-garcia-barcelona-sixth-champions-league",
       "slug": "joan-garcia-barcelona-sixth-champions-league-target",
@@ -9931,6 +9989,20 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-02-diomande-real-madrid-agent-dispute",
+      "slug": "diomande-real-madrid-agent-dispute-delay",
+      "title": "Agent turf war over Yan Diomande delays his unveiling at Real Madrid",
+      "statusBefore": "published",
+      "words": 361,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-08-02-joan-garcia-barcelona-sixth-champions-league",
       "slug": "joan-garcia-barcelona-sixth-champions-league-target",
