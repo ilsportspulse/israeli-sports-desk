@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T21:54:30.999Z",
+  "generatedAt": "2026-08-02T22:58:28.965Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,7 +11,7 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 786,
+    "publishedArticles": 790,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
@@ -24,9 +24,9 @@
       "5": 10,
       "6": 36,
       "7": 115,
-      "8": 214,
-      "9": 181,
-      "10": 133,
+      "8": 215,
+      "9": 183,
+      "10": 134,
       "11": 35,
       "12": 12,
       "13": 4,
@@ -3252,6 +3252,111 @@
   ],
   "clean": [
     {
+      "id": "live-20260802-galan-chingotto-pretoria-p1",
+      "slug": "galan-chingotto-win-pretoria-p1-padel-title",
+      "title": "Galán and Chingotto beat Leal and Guerrero 6-2, 5-7, 7-6 to win Pretoria P1",
+      "kind": "article",
+      "words": 414,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 56,
+        "average": 46
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 86,
+        "average": 31.8
+      },
+      "lexicalDiversity": 0.558,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-02-katowice-character-hapoel-tel-aviv-preview",
+      "slug": "katowice-character-hapoel-tel-aviv-conference-league-preview",
+      "title": "Katowice fight back to beat Radomiak 3-1, sending a warning to Hapoel Tel Aviv",
+      "kind": "article",
+      "words": 351,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 32,
+        "longest": 59,
+        "average": 43.9
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 44,
+        "average": 29.3
+      },
+      "lexicalDiversity": 0.644,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260802-uefa-infantino-legal-threat",
+      "slug": "uefa-threatens-legal-action-against-infantino-world-cup-sale",
+      "title": "UEFA threatens legal action against Gianni Infantino over World Cup sell-off plan",
+      "kind": "article",
+      "words": 471,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 68,
+        "average": 47.1
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 85,
+        "average": 33.6
+      },
+      "lexicalDiversity": 0.607,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-02-cf-montreal-turgeman-antisemitism",
+      "slug": "cf-montreal-condemns-fans-antisemitic-abuse-turgeman",
+      "title": "CF Montréal 2-2 New England Revolution: club condemns fans' antisemitic abuse of Dor Turgeman",
+      "kind": "article",
+      "words": 413,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 28,
+        "longest": 61,
+        "average": 45.9
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 47,
+        "average": 27.5
+      },
+      "lexicalDiversity": 0.586,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260802-kangwa-99-percent-vikingur",
+      "slug": "kangwa-99-percent-chance-vikingur-panathinaikos-move",
+      "title": "Kangwa: 'I had a 99% chance of missing the Vikingur game' before Panathinaikos exit",
+      "kind": "article",
+      "words": 501,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 94,
+        "average": 55.7
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 92,
+        "average": 38.5
+      },
+      "lexicalDiversity": 0.531,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
       "id": "live-2026-08-02-diomande-real-madrid-agent-dispute",
       "slug": "diomande-real-madrid-agent-dispute-delay",
       "title": "Agent turf war over Yan Diomande delays his unveiling at Real Madrid",
@@ -3816,27 +3921,6 @@
       },
       "lexicalDiversity": 0.573,
       "publisherAttributions": 1,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-02-turgeman-antisemitic-abuse-montreal",
-      "slug": "dor-turgeman-antisemitic-abuse-montreal-goal-celebration",
-      "title": "CF Montréal 2-2 New England: Turgeman defies antisemitic chants, clashes with rival goalkeeper",
-      "kind": "article",
-      "words": 461,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 21,
-        "longest": 63,
-        "average": 51.2
-      },
-      "sentenceWords": {
-        "shortest": 8,
-        "longest": 55,
-        "average": 27.1
-      },
-      "lexicalDiversity": 0.57,
-      "publisherAttributions": 0,
       "flags": []
     },
     {
