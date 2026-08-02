@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T16:13:32.459Z",
+  "generatedAt": "2026-08-02T17:12:31.271Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -16,15 +16,15 @@
       "minimum": 69,
       "maximum": 1070,
       "median": 423,
-      "average": 425.7
+      "average": 425.9
     },
     "paragraphDistribution": {
       "3": 34,
       "4": 6,
       "5": 10,
       "6": 35,
-      "7": 115,
-      "8": 211,
+      "7": 114,
+      "8": 212,
       "9": 177,
       "10": 132,
       "11": 34,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.272,
+    "dominantParagraphShare": 0.273,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 35,
     "analysisBelowTarget": 9,
@@ -3229,6 +3229,27 @@
   ],
   "clean": [
     {
+      "id": "live-2026-08-02-haziza-set-for-netanya-bow-oli-starts-ramat-gan",
+      "slug": "haziza-set-for-netanya-bow-oli-starts-ramat-gan",
+      "title": "Haziza in line for Netanya bow as Ramat Gan hand Oli his start in Toto Cup tie",
+      "kind": "match-preview",
+      "words": 456,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 44,
+        "longest": 82,
+        "average": 57
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 44,
+        "average": 30.4
+      },
+      "lexicalDiversity": 0.575,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
       "id": "live-2026-08-02-diomande-yamal-comparison",
       "slug": "diomande-can-surpass-yamal-real-madrid",
       "title": "Diomande can surpass Yamal, says former Leganes captain",
@@ -3625,27 +3646,6 @@
       },
       "lexicalDiversity": 0.54,
       "publisherAttributions": 1,
-      "flags": []
-    },
-    {
-      "id": "live-20260802-toto-cup-round-three-winner-odds",
-      "slug": "winner-odds-favour-hapoel-jerusalem-maccabi-netanya-toto-cup-round-three",
-      "title": "Winner odds make Hapoel Jerusalem and Maccabi Netanya favourites for Toto Cup round three",
-      "kind": "match-preview",
-      "words": 322,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 32,
-        "longest": 57,
-        "average": 46
-      },
-      "sentenceWords": {
-        "shortest": 10,
-        "longest": 44,
-        "average": 29.3
-      },
-      "lexicalDiversity": 0.599,
-      "publisherAttributions": 0,
       "flags": []
     },
     {
