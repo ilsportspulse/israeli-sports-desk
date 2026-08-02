@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T13:09:29.921Z",
+  "generatedAt": "2026-08-02T14:06:56.948Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,21 +11,21 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 765,
+    "publishedArticles": 769,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 423,
-      "average": 425.8
+      "average": 425.5
     },
     "paragraphDistribution": {
       "3": 34,
       "4": 6,
       "5": 10,
-      "6": 35,
+      "6": 36,
       "7": 112,
-      "8": 206,
-      "9": 176,
+      "8": 207,
+      "9": 178,
       "10": 130,
       "11": 34,
       "12": 12,
@@ -37,9 +37,9 @@
     "dominantParagraphCount": 8,
     "dominantParagraphShare": 0.269,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 35,
+    "exactSixParagraphArticles": 36,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 137
+    "articlesWithStyleFlags": 139
   },
   "flagged": [
     {
@@ -256,6 +256,52 @@
       "flags": [
         "below-editorial-target:204/280",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260802-israel-lacrosse-bronze-medal",
+      "slug": "israel-women-lacrosse-first-world-championship-bronze-medal",
+      "title": "Israel beat Haudenosaunee 7-4 for historic first lacrosse world championship bronze",
+      "kind": "article",
+      "words": 355,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 51,
+        "average": 39.4
+      },
+      "sentenceWords": {
+        "shortest": 13,
+        "longest": 106,
+        "average": 39.4
+      },
+      "lexicalDiversity": 0.566,
+      "publisherAttributions": 2,
+      "flags": [
+        "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-02-hapoel-fans-katowice-tickets",
+      "slug": "hapoel-tel-aviv-fans-katowice-conference-league-tickets",
+      "title": "About 2,000 Hapoel Tel Aviv fans lock in tickets for Katowice qualifier",
+      "kind": "news",
+      "words": 271,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 25,
+        "longest": 69,
+        "average": 45.2
+      },
+      "sentenceWords": {
+        "shortest": 20,
+        "longest": 57,
+        "average": 33.9
+      },
+      "lexicalDiversity": 0.638,
+      "publisherAttributions": 0,
+      "flags": [
+        "below-editorial-target:271/280"
       ]
     },
     {
@@ -3204,6 +3250,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-02-chizik-transfer-reform-maccabi-haifa",
+      "slug": "chizik-transfer-reform-maccabi-haifa",
+      "title": "Ex-Maccabi Haifa chief Chizik: transfer reform is 'shameful', players aren't a spreadsheet",
+      "kind": "article",
+      "words": 451,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 70,
+        "average": 50.1
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 70,
+        "average": 37.6
+      },
+      "lexicalDiversity": 0.623,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260802-aronov-oktagon-debut-prague",
+      "slug": "rafael-aronov-stops-broz-oktagon-debut-prague",
+      "title": "Rafael Aronov stops Miroslav Brož in 1:56 to win OKTAGON debut in Prague",
+      "kind": "news",
+      "words": 407,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 32,
+        "longest": 68,
+        "average": 50.9
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 46,
+        "average": 27.1
+      },
+      "lexicalDiversity": 0.6,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-20260802-richarlison-tottenham-future-doubt",
       "slug": "richarlison-tottenham-future-doubt-de-zerbi",

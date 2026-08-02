@@ -146,49 +146,49 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-02T13:09:29Z",
-    "validUntil": "2026-08-03T01:09:29Z",
+    "checkedAt": "2026-08-02T14:06:56Z",
+    "validUntil": "2026-08-03T02:06:56Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 328,
+        "maxAgeHours": 329,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260802-richarlison-tottenham-future-doubt",
+        "articleId": "live-20260802-israel-lacrosse-bronze-medal",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 336,
+        "maxAgeHours": 337,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "archive-20260802-tokyo-28-august-2019-the-night-sagi-muki",
+        "articleId": "live-2026-08-02-chizik-transfer-reform-maccabi-haifa",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 346,
+        "maxAgeHours": 347,
         "requires": [
           "column"
         ]
       },
       {
         "role": "archive",
-        "articleId": "archive-20260801-tokyo-7-august-2021-the-ribbon-that-fell",
+        "articleId": "archive-20260802-tokyo-28-august-2019-the-night-sagi-muki",
         "maxAgeHours": 53,
         "requires": [
           "historical-feature"
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-02-berkovic-haifa-beitar-forecast",
+        "articleId": "live-2026-08-02-hapoel-fans-katowice-tickets",
         "maxAgeHours": 24,
         "requires": []
       }

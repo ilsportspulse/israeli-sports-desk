@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T13:09:29.468Z",
+  "generatedAt": "2026-08-02T14:06:56.499Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 997,
-    "publishedBefore": 765,
-    "cleanPublished": 757,
+    "totalArticles": 1003,
+    "publishedBefore": 769,
+    "cleanPublished": 761,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 765,
-    "reviewAfter": 232
+    "publishedAfter": 769,
+    "reviewAfter": 234
   },
   "blockedPublished": [
     {
@@ -156,6 +156,63 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-20260802-israel-lacrosse-bronze-medal",
+      "slug": "israel-women-lacrosse-first-world-championship-bronze-medal",
+      "title": "Israel beat Haudenosaunee 7-4 for historic first lacrosse world championship bronze",
+      "statusBefore": "published",
+      "words": 355,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-02-chizik-transfer-reform-maccabi-haifa",
+      "slug": "chizik-transfer-reform-maccabi-haifa",
+      "title": "Ex-Maccabi Haifa chief Chizik: transfer reform is 'shameful', players aren't a spreadsheet",
+      "statusBefore": "published",
+      "words": 453,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-02-israel-bulgaria-u16-girls-basketball-halftime-hold",
+      "slug": "israel-bulgaria-u16-girls-basketball-halftime",
+      "title": "Israel trail Bulgaria 47-36 at half-time in European under-16 basketball championship",
+      "statusBefore": "review",
+      "words": 158,
+      "paragraphs": 5,
+      "facts": 6,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-08-02-hapoel-fans-katowice-tickets",
+      "slug": "hapoel-tel-aviv-fans-katowice-conference-league-tickets",
+      "title": "About 2,000 Hapoel Tel Aviv fans lock in tickets for Katowice qualifier",
+      "statusBefore": "published",
+      "words": 270,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "archive-20260802-tokyo-28-august-2019-the-night-sagi-muki",
       "slug": "tokyo-28-august-2019-the-night-sagi-muki-became-israel-s-first-male-wo",
@@ -9569,6 +9626,61 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-20260802-israel-lacrosse-bronze-medal",
+      "slug": "israel-women-lacrosse-first-world-championship-bronze-medal",
+      "title": "Israel beat Haudenosaunee 7-4 for historic first lacrosse world championship bronze",
+      "statusBefore": "published",
+      "words": 355,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-02-chizik-transfer-reform-maccabi-haifa",
+      "slug": "chizik-transfer-reform-maccabi-haifa",
+      "title": "Ex-Maccabi Haifa chief Chizik: transfer reform is 'shameful', players aren't a spreadsheet",
+      "statusBefore": "published",
+      "words": 453,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260802-aronov-oktagon-debut-prague",
+      "slug": "rafael-aronov-stops-broz-oktagon-debut-prague",
+      "title": "Rafael Aronov stops Miroslav Brož in 1:56 to win OKTAGON debut in Prague",
+      "statusBefore": "published",
+      "words": 410,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-02-hapoel-fans-katowice-tickets",
+      "slug": "hapoel-tel-aviv-fans-katowice-conference-league-tickets",
+      "title": "About 2,000 Hapoel Tel Aviv fans lock in tickets for Katowice qualifier",
+      "statusBefore": "published",
+      "words": 270,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260802-richarlison-tottenham-future-doubt",
       "slug": "richarlison-tottenham-future-doubt-de-zerbi",

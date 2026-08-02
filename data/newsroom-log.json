@@ -1,5 +1,79 @@
 [
   {
+    "ts": "2026-08-02T13:58:15.987Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 8,
+    "published": 4,
+    "review": 2,
+    "skipped": 2,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "hapoel-tel-aviv-fans-katowice-conference-league-tickets",
+        "title": "About 2,000 Hapoel Tel Aviv fans lock in tickets for Katowice qualifier",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "israel-bulgaria-u16-girls-basketball-halftime",
+        "title": "Israel trail Bulgaria 47-36 at half-time in European under-16 basketball championship",
+        "confidence": 0,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "match in progress — wait for full time"
+      },
+      {
+        "slug": "diomande-can-surpass-yamal-says-former-leganes-captain",
+        "title": "Diomande can reach Yamal's level and even surpass him, says former Leganés captain",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "kiryat-malachi-sign-sapir-kramuko",
+        "title": "Kiryat Malachi add forward Sapir and teenage full-back Kramuko",
+        "confidence": 0.7,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Single-source report; exact English transliteration of the two new signings' names could not be independently cross-checked against a second outlet or official club record, and no contract length or league confirmation was stated explicitly in the source. No verifiable, correctly-identified Wikimedia Commons photo of this club or these players could be found, so no image is attached."
+      },
+      {
+        "slug": "rafael-aronov-stops-broz-oktagon-debut-prague",
+        "title": "Rafael Aronov stops Miroslav Brož in 1:56 to win OKTAGON debut in Prague",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "chizik-transfer-reform-maccabi-haifa",
+        "title": "Ex-Maccabi Haifa chief Chizik: transfer reform is 'shameful', players aren't a spreadsheet",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "israel-women-lacrosse-first-world-championship-bronze-medal",
+        "title": "Israel beat Haudenosaunee 7-4 for historic first lacrosse world championship bronze",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "kangwa-agent-beer-sheva-high-offer-chose-to-advance",
+        "title": "Kangwa's agent: Beer Sheva's offer to keep him was strong, but he chose to move forward",
+        "decision": "duplicate"
+      }
+    ]
+  },
+  {
     "ts": "2026-08-02T13:01:38.856Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -3297,84 +3371,6 @@
         "gate": "pass",
         "decision": "published",
         "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-07-28T19:13:06.728Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 8,
-    "published": 5,
-    "review": 2,
-    "skipped": 1,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "moshkovitch-returns-hapoel-upper-galilee",
-        "title": "Itay Moshkovitch returns to Hapoel Upper Galilee for a second stint",
-        "confidence": 0.78,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "rodri-back-surgery-fit-for-city-season-opener",
-        "title": "Rodri undergoes back surgery, expected fit for Manchester City's season opener",
-        "decision": "duplicate",
-        "reason": "same event as rodri-back-surgery-man-city-future-uncertain"
-      },
-      {
-        "slug": "cucurella-tattoos-coach-de-la-fuente-face",
-        "title": "Cucurella keeps his word, tattoos Spain coach de la Fuente's face",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "ifab-embolo-red-card-argentina-ruling",
-        "title": "IFAB confirms Embolo should not have been sent off against Argentina",
-        "confidence": 0.9,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "mancini-returns-italy-coach-ranieri-technical-director",
-        "title": "Mancini returns to coach Italy, with Ranieri alongside him",
-        "confidence": 0.92,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "iyiola-adebayo-west-ham-academy-pizza-delivery-story",
-        "title": "From West Ham captain to pizza courier: the story of Iyiola Adebayo",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "danieli-ramat-hasharon-mitchell-shomron-signings",
-        "title": "Danieli joins Ramat Hasharon on loan as Shomron sign American center Mitchell",
-        "confidence": 0.78,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "below gate thresholds"
-      },
-      {
-        "slug": "ironi-tiberias-temporary-coach-search",
-        "title": "Ironi Tiberias search for stand-in coach as Drapić's name emerges",
-        "confidence": 0.78,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Drapić is reported only as a candidate under consideration — no coaching appointment has been confirmed."
       }
     ]
   }
