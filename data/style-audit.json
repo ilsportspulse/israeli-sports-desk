@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T11:07:56.451Z",
+  "generatedAt": "2026-08-02T12:02:32.795Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 761,
+    "publishedArticles": 763,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 423,
-      "average": 425.2
+      "average": 425.1
     },
     "paragraphDistribution": {
       "3": 34,
@@ -24,8 +24,8 @@
       "5": 10,
       "6": 35,
       "7": 112,
-      "8": 204,
-      "9": 174,
+      "8": 205,
+      "9": 175,
       "10": 130,
       "11": 34,
       "12": 12,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.268,
+    "dominantParagraphShare": 0.269,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 35,
     "analysisBelowTarget": 9,
@@ -3204,6 +3204,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-02-berkovic-haifa-beitar-forecast",
+      "slug": "berkovic-haifa-beitar-forecast",
+      "title": "Berkovic predicts a battle for 4th-8th at Maccabi Haifa, calls Beitar's Almog Cohen gamble a mistake",
+      "kind": "news",
+      "words": 425,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 66,
+        "average": 53.1
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 94,
+        "average": 38.6
+      },
+      "lexicalDiversity": 0.626,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-02-beitar-kornfein-defends-silva",
+      "slug": "beitar-kornfein-defends-miguel-silva-larnaca-penalties",
+      "title": "Beitar right to stand by Miguel Silva after Larnaca shootout drama, says Kornfein",
+      "kind": "news",
+      "words": 362,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 32,
+        "longest": 53,
+        "average": 40.2
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 85,
+        "average": 36.2
+      },
+      "lexicalDiversity": 0.602,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-02-kiryat-shmona-tiberias-toto-cup-martins-mordechai",
       "slug": "kiryat-shmona-tiberias-toto-cup-martins-mordechai-inspiration",

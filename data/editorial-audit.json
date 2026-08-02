@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T11:07:56.009Z",
+  "generatedAt": "2026-08-02T12:02:32.492Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 989,
-    "publishedBefore": 761,
-    "cleanPublished": 753,
+    "totalArticles": 994,
+    "publishedBefore": 763,
+    "cleanPublished": 755,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 761,
-    "reviewAfter": 228
+    "publishedAfter": 763,
+    "reviewAfter": 231
   },
   "blockedPublished": [
     {
@@ -157,6 +157,37 @@
   ],
   "warnings": [
     {
+      "id": "live-2026-08-02-israel-turkey-u18-basketball-held",
+      "slug": "israel-turkey-u18-basketball-in-progress-held",
+      "title": "Israel lead Turkey 29-26 in second quarter at U18 European Championship — match in progress",
+      "statusBefore": "review",
+      "words": 83,
+      "paragraphs": 2,
+      "facts": 5,
+      "verificationSources": 1,
+      "blockers": [
+        "structure:2/3-paragraphs"
+      ],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-02-berkovic-haifa-beitar-forecast",
+      "slug": "berkovic-haifa-beitar-forecast",
+      "title": "Berkovic predicts a battle for 4th-8th at Maccabi Haifa, calls Beitar's Almog Cohen gamble a mistake",
+      "statusBefore": "published",
+      "words": 426,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
       "id": "live-2026-08-02-kiryat-shmona-tiberias-toto-cup-martins-mordechai",
       "slug": "kiryat-shmona-tiberias-toto-cup-martins-mordechai-inspiration",
       "title": "Kiryat Shmona beat Tiberias 1-0 as Ljubisavljević hails Martins and Mordechai as inspiration",
@@ -164,6 +195,20 @@
       "words": 484,
       "paragraphs": 10,
       "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260802-infantino-30m-salary-plan-scrapped",
+      "slug": "infantino-30-million-salary-plan-scrapped-fifa",
+      "title": "Infantino eyed $30 million salary in scrapped FIFA World Cup investment plan",
+      "statusBefore": "published",
+      "words": 387,
+      "paragraphs": 8,
+      "facts": 6,
       "verificationSources": 5,
       "blockers": [],
       "warnings": [
@@ -195,7 +240,8 @@
       "verificationSources": 3,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -9510,6 +9556,32 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-2026-08-02-berkovic-haifa-beitar-forecast",
+      "slug": "berkovic-haifa-beitar-forecast",
+      "title": "Berkovic predicts a battle for 4th-8th at Maccabi Haifa, calls Beitar's Almog Cohen gamble a mistake",
+      "statusBefore": "published",
+      "words": 426,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-08-02-beitar-kornfein-defends-silva",
+      "slug": "beitar-kornfein-defends-miguel-silva-larnaca-penalties",
+      "title": "Beitar right to stand by Miguel Silva after Larnaca shootout drama, says Kornfein",
+      "statusBefore": "published",
+      "words": 362,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
       "id": "live-2026-08-02-kiryat-shmona-tiberias-toto-cup-martins-mordechai",
       "slug": "kiryat-shmona-tiberias-toto-cup-martins-mordechai-inspiration",
       "title": "Kiryat Shmona beat Tiberias 1-0 as Ljubisavljević hails Martins and Mordechai as inspiration",
@@ -9545,7 +9617,9 @@
       "facts": 6,
       "verificationSources": 5,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-2026-08-02-buffon-conte-italy-coach",

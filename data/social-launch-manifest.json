@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-02T11:07:55Z",
-    "validUntil": "2026-08-02T23:07:55Z",
+    "checkedAt": "2026-08-02T12:02:32Z",
+    "validUntil": "2026-08-03T00:02:32Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 326,
+        "maxAgeHours": 327,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-02-kiryat-shmona-tiberias-toto-cup-martins-mordechai",
+        "articleId": "live-2026-08-02-berkovic-haifa-beitar-forecast",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 334,
+        "maxAgeHours": 335,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-02-rakonjac-maccabi-petah-tikva",
+        "articleId": "live-2026-08-02-beitar-kornfein-defends-silva",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 344,
+        "maxAgeHours": 345,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-02-buffon-conte-italy-coach",
+        "articleId": "live-2026-08-02-kiryat-shmona-tiberias-toto-cup-martins-mordechai",
         "maxAgeHours": 24,
         "requires": []
       }
