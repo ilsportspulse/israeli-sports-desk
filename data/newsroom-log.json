@@ -3373,5 +3373,80 @@
         "reason": ""
       }
     ]
+  },
+  {
+    "ts": "2026-08-02T14:13:48.543Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 8,
+    "published": 4,
+    "review": 2,
+    "skipped": 2,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "shtilman-raises-maccabi-tel-aviv-bid-120-million",
+        "title": "Shtilman raises bid for Maccabi Tel Aviv's Recanati stake to $120 million",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "hapoel-tel-aviv-fans-secure-tickets-katowice-conference-league",
+        "title": "About 2,000 Hapoel Tel Aviv fans secure tickets for Katowice clash in Miskolc",
+        "confidence": 0.83,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "israel-u18-girls-basketball-bulgaria-eurobasket-division-b",
+        "title": "Israel's U18 girls take on Bulgaria as European Championship bid continues",
+        "confidence": 0,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "match in progress — wait for full time; source article was a live blog only through the third quarter with no confirmed final score, and no image could be independently verified for this specific youth squad"
+      },
+      {
+        "slug": "diomande-can-reach-yamals-level-and-even-more-says-former-leganes-captain",
+        "title": "Diomande can reach Yamal's level 'and even more', says former Leganés captain",
+        "decision": "duplicate",
+        "reason": "same event as real-madrid-agree-terms-yan-diomande-five-year-deal"
+      },
+      {
+        "slug": "kiryat-malachi-sign-forward-sapir-defender-kramoko",
+        "title": "Kiryat Malachi add forward Shahaf Sapir and teenage full-back Svaliyo Kramoko",
+        "confidence": 0.78,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Image withheld: no verifiable, correctly-identified Wikimedia Commons photograph of Maccabi Kiryat Malachi, Shahaf Sapir or Svaliyo Kramoko could be found. Kramoko's name transliteration is provisional (single Hebrew-source spelling only, no independent English-language record located)."
+      },
+      {
+        "slug": "rafael-aronov-oktagon-debut-tko-czech-crowd",
+        "title": "Rafael Aronov silences a booing Prague crowd with a sub-two-minute TKO in his Oktagon debut",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "itamar-chizhik-player-committee-reform-maccabi-haifa",
+        "title": "Itamar Chizhik blasts players' committee reform as 'shame and disgrace'",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "israel-women-lacrosse-bronze-medal-haudenosaunee-world-championship",
+        "title": "Israel's women beat Haudenosaunee 7-4 to win first-ever lacrosse world championship medal",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
   }
 ]

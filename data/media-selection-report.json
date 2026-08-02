@@ -1,34 +1,28 @@
 {
   "selections": [
     {
-      "articleId": "live-20260802-israel-lacrosse-bronze-medal",
-      "article": "Israel beat Haudenosaunee 7-4 for historic first lacrosse world championship bronze",
-      "file": "File:Chichibunomiya Rugby Stadium-1.jpg",
+      "articleId": "live-20260802-israel-lacrosse-bronze-medal-haudenosaunee",
+      "article": "Israel's women beat Haudenosaunee 7-4 to win first-ever lacrosse world championship medal",
+      "file": "File:Prince Chichibu Memorial Rugby Stadium.jpg",
+      "license": "CC0"
+    },
+    {
+      "articleId": "live-2026-08-02-israel-u18-girls-bulgaria-eurobasket-divb",
+      "article": "Israel's U18 girls take on Bulgaria as European Championship bid continues",
+      "file": "File:Italia vs Suiza - 2014 CERH European Championship - 08.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-2026-08-02-chizik-transfer-reform-maccabi-haifa",
-      "article": "Ex-Maccabi Haifa chief Chizik: transfer reform is 'shameful', players aren't a spreadsheet",
-      "file": "File:Lior-refaelov-1310574585.jpg",
+      "articleId": "live-2026-08-02-hapoel-tel-aviv-katowice-fans-secure-tickets",
+      "article": "About 2,000 Hapoel Tel Aviv fans secure tickets for Katowice clash in Miskolc",
+      "file": "File:Mecz piłkarski Wisła Kraków - Zagłębie Sosnwoiec, 28 października 2022, Pożegnanie Stadionu Ludowego, KP.jpg",
+      "license": "CC BY 4.0"
+    },
+    {
+      "articleId": "live-2026-08-02-shtilman-raises-maccabi-tel-aviv-bid",
+      "article": "Shtilman raises bid for Maccabi Tel Aviv's Recanati stake to $120 million",
+      "file": "File:Nokia Arena.jpg",
       "license": "CC BY 3.0"
-    },
-    {
-      "articleId": "live-2026-08-02-israel-bulgaria-u16-girls-basketball-halftime-hold",
-      "article": "Israel trail Bulgaria 47-36 at half-time in European under-16 basketball championship",
-      "file": "File:Harrison Barnes dunk USA Basketball Blue vs White game Las Vegas 2013.jpg",
-      "license": "Public domain"
-    },
-    {
-      "articleId": "live-2026-08-02-hapoel-fans-katowice-tickets",
-      "article": "About 2,000 Hapoel Tel Aviv fans lock in tickets for Katowice qualifier",
-      "file": "File:SM Caen Tifo 15 ans du MNK.jpg",
-      "license": "CC BY-SA 3.0"
-    },
-    {
-      "articleId": "live-20260802-arnautovic-red-star-beer-sheva-preview",
-      "article": "Arnautović eyes his Champions League dream as Red Star await Hapoel Beer Sheva",
-      "file": "File:20180610 FIFA Friendly Match Austria vs. Brazil Marko Arnautović 850 1633.jpg",
-      "license": "CC BY-SA 4.0"
     },
     {
       "articleId": "live-20260714-basketball-coaches-registration",
@@ -40,19 +34,24 @@
   ],
   "failures": [
     {
-      "id": "live-20260802-aronov-oktagon-debut-prague",
-      "title": "Rafael Aronov stops Miroslav Brož in 1:56 to win OKTAGON debut in Prague",
+      "id": "live-2026-08-02-chizhik-player-committee-reform",
+      "title": "Itamar Chizhik blasts players' committee reform as 'shame and disgrace'",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {
-      "id": "live-2026-08-02-kiryat-malachi-sapir-kramuko-signings",
-      "title": "Kiryat Malachi add forward Sapir and teenage full-back Kramuko",
-      "error": "image download 429 after retries"
+      "id": "live-20260802-kiryat-malachi-sign-sapir-kramoko",
+      "title": "Kiryat Malachi add forward Shahaf Sapir and teenage full-back Svaliyo Kramoko",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {
       "id": "live-2026-08-02-maccabi-yavne-kol-persko-resign",
       "title": "Maccabi Yavne tie down defender Yuval Kol and midfielder Amit Persko for another season",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-20260802-arnautovic-red-star-beer-sheva-preview",
+      "title": "Arnautović eyes his Champions League dream as Red Star await Hapoel Beer Sheva",
+      "error": "image download 429 after retries"
     },
     {
       "id": "live-20260802-niv-eliasi-levadiakos-transfer",

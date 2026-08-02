@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T14:06:56.499Z",
+  "generatedAt": "2026-08-02T14:22:54.522Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -157,27 +157,26 @@
   ],
   "warnings": [
     {
-      "id": "live-20260802-israel-lacrosse-bronze-medal",
-      "slug": "israel-women-lacrosse-first-world-championship-bronze-medal",
-      "title": "Israel beat Haudenosaunee 7-4 for historic first lacrosse world championship bronze",
-      "statusBefore": "published",
-      "words": 355,
-      "paragraphs": 9,
+      "id": "live-20260802-kiryat-malachi-sign-sapir-kramoko",
+      "slug": "kiryat-malachi-sign-forward-sapir-defender-kramoko",
+      "title": "Kiryat Malachi add forward Shahaf Sapir and teenage full-back Svaliyo Kramoko",
+      "statusBefore": "review",
+      "words": 300,
+      "paragraphs": 6,
       "facts": 6,
-      "verificationSources": 3,
+      "verificationSources": 2,
       "blockers": [],
       "warnings": [
-        "media:no-action-or-competition-context-detected",
-        "voice:publisher-attribution-heavy:2"
+        "presentation:outlet-name-in-headline"
       ]
     },
     {
-      "id": "live-2026-08-02-chizik-transfer-reform-maccabi-haifa",
-      "slug": "chizik-transfer-reform-maccabi-haifa",
-      "title": "Ex-Maccabi Haifa chief Chizik: transfer reform is 'shameful', players aren't a spreadsheet",
-      "statusBefore": "published",
-      "words": 453,
-      "paragraphs": 9,
+      "id": "live-2026-08-02-israel-u18-girls-bulgaria-eurobasket-divb",
+      "slug": "israel-u18-girls-basketball-bulgaria-eurobasket-division-b",
+      "title": "Israel's U18 girls take on Bulgaria as European Championship bid continues",
+      "statusBefore": "review",
+      "words": 189,
+      "paragraphs": 5,
       "facts": 6,
       "verificationSources": 3,
       "blockers": [],
@@ -186,28 +185,14 @@
       ]
     },
     {
-      "id": "live-2026-08-02-israel-bulgaria-u16-girls-basketball-halftime-hold",
-      "slug": "israel-bulgaria-u16-girls-basketball-halftime",
-      "title": "Israel trail Bulgaria 47-36 at half-time in European under-16 basketball championship",
-      "statusBefore": "review",
-      "words": 158,
-      "paragraphs": 5,
-      "facts": 6,
-      "verificationSources": 1,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline"
-      ]
-    },
-    {
-      "id": "live-2026-08-02-hapoel-fans-katowice-tickets",
-      "slug": "hapoel-tel-aviv-fans-katowice-conference-league-tickets",
-      "title": "About 2,000 Hapoel Tel Aviv fans lock in tickets for Katowice qualifier",
+      "id": "live-2026-08-02-shtilman-raises-maccabi-tel-aviv-bid",
+      "slug": "shtilman-raises-maccabi-tel-aviv-bid-120-million",
+      "title": "Shtilman raises bid for Maccabi Tel Aviv's Recanati stake to $120 million",
       "statusBefore": "published",
-      "words": 270,
-      "paragraphs": 6,
+      "words": 397,
+      "paragraphs": 7,
       "facts": 6,
-      "verificationSources": 4,
+      "verificationSources": 5,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -9627,55 +9612,50 @@
   ],
   "cleanPublished": [
     {
-      "id": "live-20260802-israel-lacrosse-bronze-medal",
-      "slug": "israel-women-lacrosse-first-world-championship-bronze-medal",
-      "title": "Israel beat Haudenosaunee 7-4 for historic first lacrosse world championship bronze",
+      "id": "live-20260802-israel-lacrosse-bronze-medal-haudenosaunee",
+      "slug": "israel-women-lacrosse-bronze-medal-haudenosaunee-world-championship",
+      "title": "Israel's women beat Haudenosaunee 7-4 to win first-ever lacrosse world championship medal",
       "statusBefore": "published",
-      "words": 355,
-      "paragraphs": 9,
-      "facts": 6,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected",
-        "voice:publisher-attribution-heavy:2"
-      ]
-    },
-    {
-      "id": "live-2026-08-02-chizik-transfer-reform-maccabi-haifa",
-      "slug": "chizik-transfer-reform-maccabi-haifa",
-      "title": "Ex-Maccabi Haifa chief Chizik: transfer reform is 'shameful', players aren't a spreadsheet",
-      "statusBefore": "published",
-      "words": 453,
-      "paragraphs": 9,
-      "facts": 6,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-20260802-aronov-oktagon-debut-prague",
-      "slug": "rafael-aronov-stops-broz-oktagon-debut-prague",
-      "title": "Rafael Aronov stops Miroslav Brož in 1:56 to win OKTAGON debut in Prague",
-      "statusBefore": "published",
-      "words": 410,
-      "paragraphs": 8,
+      "words": 399,
+      "paragraphs": 10,
       "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-02-chizhik-player-committee-reform",
+      "slug": "itamar-chizhik-player-committee-reform-maccabi-haifa",
+      "title": "Itamar Chizhik blasts players' committee reform as 'shame and disgrace'",
+      "statusBefore": "published",
+      "words": 621,
+      "paragraphs": 9,
+      "facts": 8,
       "verificationSources": 5,
       "blockers": [],
       "warnings": []
     },
     {
-      "id": "live-2026-08-02-hapoel-fans-katowice-tickets",
-      "slug": "hapoel-tel-aviv-fans-katowice-conference-league-tickets",
-      "title": "About 2,000 Hapoel Tel Aviv fans lock in tickets for Katowice qualifier",
+      "id": "live-2026-08-02-hapoel-tel-aviv-katowice-fans-secure-tickets",
+      "slug": "hapoel-tel-aviv-fans-secure-tickets-katowice-conference-league",
+      "title": "About 2,000 Hapoel Tel Aviv fans secure tickets for Katowice clash in Miskolc",
       "statusBefore": "published",
-      "words": 270,
-      "paragraphs": 6,
+      "words": 372,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-02-shtilman-raises-maccabi-tel-aviv-bid",
+      "slug": "shtilman-raises-maccabi-tel-aviv-bid-120-million",
+      "title": "Shtilman raises bid for Maccabi Tel Aviv's Recanati stake to $120 million",
+      "statusBefore": "published",
+      "words": 397,
+      "paragraphs": 7,
       "facts": 6,
-      "verificationSources": 4,
+      "verificationSources": 5,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
