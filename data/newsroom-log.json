@@ -1,5 +1,48 @@
 [
   {
+    "ts": "2026-08-02T13:01:38.856Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 4,
+    "published": 1,
+    "review": 1,
+    "skipped": 2,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "maccabi-yavne-resign-yuval-kol-amit-persko",
+        "title": "Maccabi Yavne tie down defender Yuval Kol and midfielder Amit Persko for another season",
+        "confidence": 0.82,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "No verifiable Wikimedia Commons photo of Maccabi Yavne, its ground or these specific (largely non-public-facing) players could be confirmed, so this story runs without a lead image. Coach's and forward's name transliterations are best-effort from limited Hebrew local-press sourcing."
+      },
+      {
+        "slug": "kiryat-malachi-sign-shachaf-sapir-suvalio-kramuoko",
+        "title": "Kiryat Malachi sign forward Shachaf Sapir and teenage defender Suvalio Kramuoko",
+        "decision": "duplicate",
+        "reason": "same event as rotem-piumi-joins-maccabi-kiryat-malachi"
+      },
+      {
+        "slug": "richarlison-tottenham-future-doubt-de-zerbi",
+        "title": "Richarlison's Tottenham future in doubt as De Zerbi admits confusion",
+        "confidence": 0.88,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "rafael-aronov-oktagon-debut-tko-miroslav-broz",
+        "title": "Israeli fighter Rafael Aronov stops Miroslav Broz in under two minutes on OKTAGON debut",
+        "decision": "duplicate"
+      }
+    ]
+  },
+  {
     "ts": "2026-08-02T11:54:36.692Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -3332,86 +3375,6 @@
         "gate": "hold",
         "decision": "review",
         "reason": "Drapić is reported only as a candidate under consideration — no coaching appointment has been confirmed."
-      }
-    ]
-  },
-  {
-    "ts": "2026-07-28T17:53:17.851Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 8,
-    "published": 2,
-    "review": 6,
-    "skipped": 0,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "omri-glazer-knee-injury-toto-cup-kiryat-shmona",
-        "title": "Omri Glazer in tears as knee injury mars his Maccabi Haifa return",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "maccabi-haifa-lead-ironi-kiryat-shmona-toto-cup-half-time",
-        "title": "Maccabi Haifa lead Ironi Kiryat Shmona 3-0 at the break in Toto Cup opener",
-        "confidence": 0,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "match in progress — wait for full time score before publishing"
-      },
-      {
-        "slug": "hapoel-ashkelon-appoints-ami-jerbi-head-coach",
-        "title": "Hapoel Ashkelon appoint Ami Jerbi as head coach for 2026/27",
-        "confidence": 0.78,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Single-source names for some assistant-coaching history (Neeim, Dago, Dora) could not be independently cross-checked within the search budget; spelling of these names is best-effort."
-      },
-      {
-        "slug": "hapoel-haifa-tiberias-toto-cup-in-progress",
-        "title": "Hapoel Haifa trail Tiberias at the break in Toto Cup clash — report held pending full time",
-        "confidence": 0,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "match in progress — wait for full time"
-      },
-      {
-        "slug": "hapoel-beer-sheva-vikingur-second-leg-preview",
-        "title": "Kozuk banks on grass pitch as Hapoel Beer Sheva chase Champions League comeback",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "bnei-mamba-majdal-shams-anniversary-rebuilding",
-        "title": "Two years after the Majdal Shams attack, Bnei Mamba keeps growing",
-        "confidence": 0.82,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "The coach's name (Wajdi Alqish) is transliterated from a single Hebrew-language source and not independently cross-checked; responsibility for the July 2024 rocket remains disputed, with Hezbollah denying it fired the projectile."
-      },
-      {
-        "slug": "israel-girls-water-polo-netherlands-loss-u16-worlds",
-        "title": "Israel's girls' water polo team fall 10-4 to the Netherlands at U16 Worlds",
-        "confidence": 0.78,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Player and coach name transliterations are approximate, drawn from machine-translated Hebrew sources pending official federation spelling."
-      },
-      {
-        "slug": "rotem-piumi-joins-maccabi-kiryat-malachi",
-        "title": "Rotem Piumi to begin senior career at Maccabi Kiryat Malachi",
-        "confidence": 0.8,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "below gate thresholds"
       }
     ]
   }

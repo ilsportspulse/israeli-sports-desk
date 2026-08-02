@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T12:16:28.174Z",
+  "generatedAt": "2026-08-02T13:09:29.468Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 994,
-    "publishedBefore": 763,
-    "cleanPublished": 755,
+    "totalArticles": 997,
+    "publishedBefore": 765,
+    "cleanPublished": 757,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 763,
-    "reviewAfter": 231
+    "publishedAfter": 765,
+    "reviewAfter": 232
   },
   "blockedPublished": [
     {
@@ -156,6 +156,20 @@
     }
   ],
   "warnings": [
+    {
+      "id": "archive-20260802-tokyo-28-august-2019-the-night-sagi-muki",
+      "slug": "tokyo-28-august-2019-the-night-sagi-muki-became-israel-s-first-male-wo",
+      "title": "Tokyo, 28 August 2019: The Night Sagi Muki Became Israel's First Male World Judo Champion",
+      "statusBefore": "published",
+      "words": 900,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 7,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-08-02-israel-turkey-u18-basketball-held",
       "slug": "israel-turkey-u18-basketball-in-progress-held",
@@ -9555,6 +9569,32 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-20260802-richarlison-tottenham-future-doubt",
+      "slug": "richarlison-tottenham-future-doubt-de-zerbi",
+      "title": "Richarlison's Tottenham future in doubt as De Zerbi admits confusion",
+      "statusBefore": "published",
+      "words": 451,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "archive-20260802-tokyo-28-august-2019-the-night-sagi-muki",
+      "slug": "tokyo-28-august-2019-the-night-sagi-muki-became-israel-s-first-male-wo",
+      "title": "Tokyo, 28 August 2019: The Night Sagi Muki Became Israel's First Male World Judo Champion",
+      "statusBefore": "published",
+      "words": 900,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 7,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-08-02-berkovic-haifa-beitar-forecast",
       "slug": "berkovic-haifa-beitar-forecast",

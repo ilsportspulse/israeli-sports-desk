@@ -1,67 +1,67 @@
 {
-  "date": "2026-08-01",
+  "date": "2026-08-02",
   "title": "The Daily Five",
-  "dek": "Five questions on Israeli sport from the last few days — an Olympic gold in Tokyo, a Croatian snub in the NBA, a penalty-shootout hero in Belgium, a Europa League rout, and a duet in the Paris pool.",
+  "dek": "Five questions on this week's biggest stories, from a Tokyo judo mat to an MLS pitch under fire.",
   "questions": [
     {
-      "question": "By how many points did Linoy Ashram beat Dina Averina to win gold in the rhythmic gymnastics individual all-around final at the Tokyo Olympics?",
+      "question": "In the final of the 2019 World Judo Championships in Tokyo, who did Sagi Muki beat by ippon to become Israel's first male world judo champion?",
       "answers": [
-        "0.050",
-        "0.150",
-        "0.500",
-        "1.150"
-      ],
-      "correctIndex": 1,
-      "explanation": "Ashram scored 107.800 to Averina's 107.650, a margin of 0.150 points, on 7 August 2021 at the Ariake Gymnastics Centre.",
-      "sourceUrl": "https://www.timesofisrael.com/rhythmic-gymnast-linoy-ashram-wins-israels-3rd-ever-olympic-gold/"
-    },
-    {
-      "question": "Which NBA team did Mario Hezonja sign with, turning down an approach from Israeli club Hapoel Tel Aviv?",
-      "answers": [
-        "Cleveland Cavaliers",
-        "Orlando Magic",
-        "New York Knicks",
-        "Portland Trail Blazers"
+        "Matthias Casse (Belgium)",
+        "Mohamed Abdelaal (Egypt)",
+        "Saeid Mollaei (Iran)",
+        "Yarden Gerbi (Israel)"
       ],
       "correctIndex": 0,
-      "explanation": "Hezonja signed a one-year, reportedly $2.8 million contract with the Cleveland Cavaliers instead of joining Hapoel Tel Aviv for the EuroLeague season.",
-      "sourceUrl": "https://www.one.co.il/Article/529529.html"
+      "explanation": "Muki defeated Belgium's Matthias Casse by ippon with 1:21 remaining in the -81kg final at the Nippon Budokan.",
+      "sourceUrl": "https://www.timesofisrael.com/israels-sagi-muki-takes-gold-at-judo-world-championships/"
     },
     {
-      "question": "How did Israeli winger Anan Khalaili help Union Saint-Gilloise win the 2026 Belgian Super Cup over Club Brugge?",
+      "question": "Before his contentious move to Besiktas, which Israeli club did American point guard David DeJulius play for in the 2024-25 EuroLeague season?",
       "answers": [
-        "He scored the opening goal in the 49th minute",
-        "He came on as a 61st-minute substitute and scored his penalty in the shootout",
-        "He was sent off before the penalty shootout",
-        "He set up the equaliser with a corner kick"
-      ],
-      "correctIndex": 1,
-      "explanation": "Khalaili came on as a 61st-minute substitute and scored his kick as Union won the shootout 5-4 after a 1-1 draw.",
-      "sourceUrl": "https://www.one.co.il/Article/529536.html"
-    },
-    {
-      "question": "What was the aggregate score as Maccabi Tel Aviv defeated Sheriff Tiraspol to reach the Europa League third qualifying round?",
-      "answers": [
-        "6-0",
-        "3-0",
-        "4-1",
-        "2-0"
-      ],
-      "correctIndex": 0,
-      "explanation": "Maccabi won 5-0 away and 1-0 at home (Roy Revivo scoring the second-leg goal) for a 6-0 aggregate.",
-      "sourceUrl": "https://www.one.co.il/Article/529530.html"
-    },
-    {
-      "question": "Where did Israel's Katy Konin and Aya Mazor finish in the women's duet technical routine final at the 2026 European Aquatics Championships in Paris?",
-      "answers": [
-        "1st",
-        "5th",
-        "10th",
-        "15th"
+        "Hapoel Jerusalem",
+        "Maccabi Haifa",
+        "Maccabi Tel Aviv",
+        "Hapoel Tel Aviv"
       ],
       "correctIndex": 2,
-      "explanation": "The Israeli duo scored 260.6284 points to finish 10th of 19 nations, ahead of Georgia, Switzerland, Turkey and Bulgaria.",
-      "sourceUrl": "https://www.one.co.il/Article/529533.html"
+      "explanation": "DeJulius played for Maccabi Tel Aviv in EuroLeague during 2024-25 before joining UCAM Murcia in summer 2025.",
+      "sourceUrl": "https://www.sport5.co.il/articles.aspx?FolderID=405&docID=555102"
+    },
+    {
+      "question": "Which Israeli forward scored for New England Revolution against CF Montréal while being targeted with antisemitic chants from the crowd?",
+      "answers": [
+        "Yair Mordechai",
+        "Dor Turgeman",
+        "Carles Gil",
+        "Sebastian Breza"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dor Turgeman scored New England's second goal in the 36th minute and was abused by Montreal fans chanting 'Death to Israel.'",
+      "sourceUrl": "https://www.sport5.co.il/articles.aspx?FolderID=11355&docID=555095"
+    },
+    {
+      "question": "Hapoel Beer Sheva face which club, featuring veteran Marko Arnautović, in the Champions League third qualifying round?",
+      "answers": [
+        "Vikingur Reykjavik",
+        "Austria Wien",
+        "Red Star Belgrade",
+        "AEK Larnaca"
+      ],
+      "correctIndex": 2,
+      "explanation": "Israel's reigning champions Hapoel Beer Sheva meet Red Star Belgrade, whom Arnautović joined as a free agent after leaving Inter Milan.",
+      "sourceUrl": "https://www.one.co.il/Article/529606.html"
+    },
+    {
+      "question": "How did Beitar Jerusalem see off AEK Larnaca in the Conference League after the tie finished 3-3 on aggregate?",
+      "answers": [
+        "4-3 on penalties",
+        "2-1 in extra time",
+        "On the away-goals rule",
+        "4-1 in a replay"
+      ],
+      "correctIndex": 0,
+      "explanation": "Goalkeeper Miguel Silva saved two spot-kicks as Beitar won the shootout 4-3 to advance to face Austria Wien.",
+      "sourceUrl": "https://www.one.co.il/Article/529616.html"
     }
   ]
 }
