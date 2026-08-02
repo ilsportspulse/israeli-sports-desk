@@ -1,5 +1,74 @@
 [
   {
+    "ts": "2026-08-02T03:55:26.020Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 8,
+    "published": 3,
+    "review": 1,
+    "skipped": 4,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "abukasis-gomes-red-card-duplicate-hold",
+        "title": "Held: Abukasis on Gomes's red card duplicates existing Sakhnin-Haifa coverage",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "hapoel-haifa-braaf-trial-arrival-duplicate-held",
+        "title": "Jayden Braaf due in Israel tonight for Hapoel Haifa trial",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "maccabi-haifa-novakovich-muhammad-saief-injury-update",
+        "title": "Novakovich's rotten luck, Muhammad hurt again as Kenny Saief returns to full training at Maccabi Haifa",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "maccabi-netanya-haziza-debut-toto-cup-ramat-gan",
+        "title": "Levi keeps Maccabi Netanya's strong lineup for Ramat Gan test, sets up Haziza's debut",
+        "confidence": 0.82,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Projected lineup is Levi's pre-match planning as reported by ONE and could change before kickoff."
+      },
+      {
+        "slug": "messi-returns-casemiro-own-goal-inter-miami-columbus-draw",
+        "title": "Inter Miami 2-2 Columbus Crew: Messi returns as Casemiro own goal mars home debut",
+        "decision": "duplicate",
+        "reason": "same event as messi-doubtful-inter-miami-host-columbus-crew"
+      },
+      {
+        "slug": "baribo-turgeman-toklomati-mls-israelis-shine",
+        "title": "Baribo salvages DC United's 2-2 draw, Turgeman strikes in Montreal, Toklomati sets up Charlotte in 2-1 loss to Chicago",
+        "confidence": 0.88,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "bruno-guimaraes-arsenal-medical-monday",
+        "title": "Bruno Guimarães set for Arsenal medical on Monday in £80m Newcastle deal",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "psg-tell-ferran-torres-will-beat-any-barcelona-offer",
+        "title": "PSG tell Ferran Torres they will beat any offer Barcelona put on the table",
+        "decision": "duplicate"
+      }
+    ]
+  },
+  {
     "ts": "2026-08-02T02:55:02.554Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -3325,70 +3394,6 @@
         "gate": "hold",
         "decision": "review",
         "reason": "Talks are described by Sport5 as preliminary and internally divided at Bnei Sakhnin — no fee, contract length or timeline has been reported."
-      }
-    ]
-  },
-  {
-    "ts": "2026-07-28T10:24:14.330Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 8,
-    "published": 1,
-    "review": 1,
-    "skipped": 6,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "israeli-player-fund-distribution-football-basketball-row",
-        "title": "Football clubs cry foul as sports ministry's 140m shekel 'Israeli player' fund favours basketball",
-        "confidence": 0.78,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "hapoel-haifa-yaad-gonen-future-sale-rights",
-        "title": "Who really stands to profit if Hapoel Haifa sell breakout star Yaad Gonen?",
-        "confidence": 0.8,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Ownership split and settlement details are reported by ONE alone; no transfer is currently agreed, only the theoretical economics of a future sale."
-      },
-      {
-        "slug": "sports-talk-show-teases-khalaili-future-already-settled",
-        "title": "ONE's live talk show teases Khalaili's next move — a question already answered elsewhere",
-        "decision": "duplicate",
-        "reason": "same event as khalaili-nottingham-forest-bid-rejected"
-      },
-      {
-        "slug": "yan-diomande-real-madrid-sister-roxane-tragedy",
-        "title": "The teenager chasing Ronaldo's shoes at Real Madrid is carrying a tragedy with him",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "vinicius-real-madrid-sale-warning-canizares",
-        "title": "Real Madrid must sell Vinicius this summer without a signed deal, says Cañizares",
-        "decision": "duplicate",
-        "reason": "same event as arsenal-record-wage-vinicius-junior-real-madrid"
-      },
-      {
-        "url": "https://www.one.co.il/Article/529196.html",
-        "decision": "skipped",
-        "reason": "no valid article emitted"
-      },
-      {
-        "slug": "hapoel-tel-aviv-owner-vows-ginat-champion-israel-europe",
-        "title": "Hapoel Tel Aviv owner vows Tomer Ginat will retire as champion of Israel and Europe",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "zidane-unveiled-as-france-head-coach",
-        "title": "Zidane unveiled as France head coach on four-year deal",
-        "decision": "duplicate"
       }
     ]
   }

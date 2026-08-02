@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T03:01:33.967Z",
+  "generatedAt": "2026-08-02T04:03:37.190Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 954,
-    "publishedBefore": 742,
-    "cleanPublished": 734,
+    "totalArticles": 958,
+    "publishedBefore": 745,
+    "cleanPublished": 737,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 742,
-    "reviewAfter": 212
+    "publishedAfter": 745,
+    "reviewAfter": 213
   },
   "blockedPublished": [
     {
@@ -157,6 +157,63 @@
   ],
   "warnings": [
     {
+      "id": "live-2026-08-02-bruno-guimaraes-arsenal-medical",
+      "slug": "bruno-guimaraes-arsenal-medical-monday",
+      "title": "Bruno Guimarães set for Arsenal medical on Monday in £80m Newcastle deal",
+      "statusBefore": "published",
+      "words": 251,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-02-baribo-turgeman-toklomati-mls",
+      "slug": "baribo-turgeman-toklomati-mls-israelis-shine",
+      "title": "Baribo salvages DC United's 2-2 draw, Turgeman strikes in Montreal, Toklomati sets up Charlotte in 2-1 loss to Chicago",
+      "statusBefore": "published",
+      "words": 425,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-02-maccabi-netanya-haziza-toto-cup-debut",
+      "slug": "maccabi-netanya-haziza-debut-toto-cup-ramat-gan",
+      "title": "Levi keeps Maccabi Netanya's strong lineup for Ramat Gan test, sets up Haziza's debut",
+      "statusBefore": "review",
+      "words": 377,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-02-maccabi-haifa-novakovich-muhammad-saief",
+      "slug": "maccabi-haifa-novakovich-muhammad-saief-injury-update",
+      "title": "Novakovich's rotten luck, Muhammad hurt again as Kenny Saief returns to full training at Maccabi Haifa",
+      "statusBefore": "published",
+      "words": 372,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
       "id": "live-2026-08-02-ufc-belgrade-medic-rodriguez-record-finishes",
       "slug": "ufc-belgrade-medic-rodriguez-record-finishes",
       "title": "Uroš Medić stops Daniel Rodriguez in 30 seconds as UFC's Serbian debut sets a finishes record",
@@ -197,7 +254,8 @@
       "verificationSources": 3,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -9211,6 +9269,48 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-2026-08-02-bruno-guimaraes-arsenal-medical",
+      "slug": "bruno-guimaraes-arsenal-medical-monday",
+      "title": "Bruno Guimarães set for Arsenal medical on Monday in £80m Newcastle deal",
+      "statusBefore": "published",
+      "words": 251,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-02-baribo-turgeman-toklomati-mls",
+      "slug": "baribo-turgeman-toklomati-mls-israelis-shine",
+      "title": "Baribo salvages DC United's 2-2 draw, Turgeman strikes in Montreal, Toklomati sets up Charlotte in 2-1 loss to Chicago",
+      "statusBefore": "published",
+      "words": 425,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-02-maccabi-haifa-novakovich-muhammad-saief",
+      "slug": "maccabi-haifa-novakovich-muhammad-saief-injury-update",
+      "title": "Novakovich's rotten luck, Muhammad hurt again as Kenny Saief returns to full training at Maccabi Haifa",
+      "statusBefore": "published",
+      "words": 372,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
       "id": "live-2026-08-02-ufc-belgrade-medic-rodriguez-record-finishes",
       "slug": "ufc-belgrade-medic-rodriguez-record-finishes",
       "title": "Uroš Medić stops Daniel Rodriguez in 30 seconds as UFC's Serbian debut sets a finishes record",
@@ -9263,7 +9363,8 @@
       "verificationSources": 3,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
