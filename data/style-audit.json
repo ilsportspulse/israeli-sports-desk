@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T09:47:41.036Z",
+  "generatedAt": "2026-08-02T11:06:14.086Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,7 +11,7 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 759,
+    "publishedArticles": 761,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
@@ -23,10 +23,10 @@
       "4": 6,
       "5": 10,
       "6": 35,
-      "7": 113,
-      "8": 202,
+      "7": 112,
+      "8": 204,
       "9": 174,
-      "10": 129,
+      "10": 130,
       "11": 34,
       "12": 12,
       "13": 4,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.266,
+    "dominantParagraphShare": 0.268,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 35,
     "analysisBelowTarget": 9,
@@ -3205,6 +3205,69 @@
   ],
   "clean": [
     {
+      "id": "live-2026-08-02-kiryat-shmona-tiberias-toto-cup-martins-mordechai",
+      "slug": "kiryat-shmona-tiberias-toto-cup-martins-mordechai-inspiration",
+      "title": "Kiryat Shmona beat Tiberias 1-0 as Ljubisavljević hails Martins and Mordechai as inspiration",
+      "kind": "news",
+      "words": 486,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 29,
+        "longest": 68,
+        "average": 48.6
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 124,
+        "average": 40.5
+      },
+      "lexicalDiversity": 0.574,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-02-rakonjac-maccabi-petah-tikva",
+      "slug": "marko-rakonjac-maccabi-petah-tikva-medical-signing",
+      "title": "Rakonjac set for medical and Maccabi Petah Tikva contract after leaving Hapoel Jerusalem",
+      "kind": "news",
+      "words": 329,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 8,
+        "longest": 71,
+        "average": 41.1
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 39,
+        "average": 21.9
+      },
+      "lexicalDiversity": 0.584,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260802-infantino-30m-salary-plan-scrapped",
+      "slug": "infantino-30-million-salary-plan-scrapped-fifa",
+      "title": "Infantino eyed $30 million salary in scrapped FIFA World Cup investment plan",
+      "kind": "news",
+      "words": 386,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 69,
+        "average": 48.3
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 46,
+        "average": 27.6
+      },
+      "lexicalDiversity": 0.617,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
       "id": "live-2026-08-02-buffon-conte-italy-coach",
       "slug": "buffon-backs-conte-italy-coach",
       "title": "Buffon says he would have picked Antonio Conte to coach Italy",
@@ -3580,27 +3643,6 @@
       },
       "lexicalDiversity": 0.609,
       "publisherAttributions": 1,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-02-kiryat-shmona-tiberias-toto-cup",
-      "slug": "kiryat-shmona-edge-tiberias-toto-cup-barda-character",
-      "title": "Kiryat Shmona edge Tiberias 1-0 in Toto Cup as Barda hails players' character",
-      "kind": "news",
-      "words": 316,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 21,
-        "longest": 63,
-        "average": 45.1
-      },
-      "sentenceWords": {
-        "shortest": 21,
-        "longest": 100,
-        "average": 45.1
-      },
-      "lexicalDiversity": 0.658,
-      "publisherAttributions": 0,
       "flags": []
     },
     {
