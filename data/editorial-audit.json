@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T19:07:30.855Z",
+  "generatedAt": "2026-08-03T20:05:36.867Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,12 +17,12 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1135,
-    "publishedBefore": 842,
-    "cleanPublished": 834,
+    "totalArticles": 1137,
+    "publishedBefore": 844,
+    "cleanPublished": 836,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 842,
+    "publishedAfter": 844,
     "reviewAfter": 293
   },
   "blockedPublished": [
@@ -156,6 +156,22 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-2026-08-03-tel-aviv-rivals-clash-owusu-knee-doubt",
+      "slug": "tel-aviv-rivals-clash-owusu-knee-doubt",
+      "title": "Maccabi and Hapoel Tel Aviv clash over Ghanaian winger Owusu as knee doubt clouds move",
+      "statusBefore": "published",
+      "words": 474,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
     {
       "id": "live-2026-08-03-schalke-napoli-lindstrom-collapse",
       "slug": "schalke-napoli-lindstrom-loan-collapse-legal-threat",
@@ -10833,6 +10849,34 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-03-tel-aviv-rivals-clash-owusu-knee-doubt",
+      "slug": "tel-aviv-rivals-clash-owusu-knee-doubt",
+      "title": "Maccabi and Hapoel Tel Aviv clash over Ghanaian winger Owusu as knee doubt clouds move",
+      "statusBefore": "published",
+      "words": 474,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260803-turgeman-antisemitism-montreal",
+      "slug": "revolution-condemn-antisemitic-abuse-turgeman-montreal",
+      "title": "New England Revolution condemn antisemitic abuse of Dor Turgeman in 2-2 Montreal draw",
+      "statusBefore": "published",
+      "words": 425,
+      "paragraphs": 11,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-2026-08-03-schalke-napoli-lindstrom-collapse",
       "slug": "schalke-napoli-lindstrom-loan-collapse-legal-threat",
