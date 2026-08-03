@@ -1,5 +1,462 @@
 [
   {
+    "id": "live-2026-08-03-hapoel-tel-aviv-blatt-loan-plan",
+    "slug": "hapoel-tel-aviv-muted-blatt-announcement-loan-plan",
+    "title": "Hapoel Tel Aviv's muted unveiling of Tamir Blatt hides an immediate loan plan",
+    "dek": "The club confirmed the point guard's return from rival Maccabi Tel Aviv with only a stats sheet and no quotes — ONE reports the silence is deliberate, because Blatt is expected to be loaned out again almost at once.",
+    "category": "Israeli Basketball",
+    "desk": "israel",
+    "kind": "news",
+    "storyForm": "news",
+    "publishedAt": "2026-08-03T21:42:51.178Z",
+    "updatedAt": "2026-08-03T21:42:51.178Z",
+    "readMinutes": 4,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/529725.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/529725.html"
+      },
+      {
+        "label": "Sportando",
+        "url": "https://sportando.basketball/en/hapoel-tel-aviv-officially-sign-tamir-blatt-to-three-year-deal/"
+      },
+      {
+        "label": "Ynet",
+        "url": "https://www.ynet.co.il/sport/israelibasketball/article/hjqr00yfmfx"
+      },
+      {
+        "label": "Walla Sport",
+        "url": "https://sports.walla.co.il/item/3850202"
+      },
+      {
+        "label": "Eurohoops",
+        "url": "https://www.eurohoops.net/en/euroleague/1987912/hapoel-tel-aviv-and-maccabi-tel-aviv-reportedly-trade-yam-madar-and-tamir-blatt/"
+      }
+    ],
+    "body": [
+      "Hapoel Tel Aviv confirmed this week that point guard Tamir Blatt is coming back to the club, on a three-year contract that runs through the 2028/29 season. It is the kind of signing that would normally get the full treatment from a Winner League giant — except Hapoel barely said anything about it at all, and ONE reports that the silence was very much the point.",
+      "The 29-year-old arrives from city rival Maccabi Tel Aviv for a second spell in red, but the club's official statement stuck to the bare essentials: his statistics and his playing history, and nothing else. No welcome quote from Blatt, no line from the coaching staff, no fanfare of any kind.",
+      "That stood out because it is not how Hapoel have handled other arrivals this summer. When American forward Eugene Jermon signed, the club put out an announcement with enthusiastic quotes from both the player and management. Blatt, a far bigger name with a far richer resume, got a fraction of the treatment.",
+      "According to ONE, the explanation is simple: Hapoel do not actually plan to have Blatt suit up for them this season. The intention, as the club sees it internally, is to loan him out again almost immediately — which made an elaborate unveiling feel pointless.",
+      "That loan expectation is echoed elsewhere. Sportando has reported that ASVEL of France and clubs in Rome are among the sides interested in taking Blatt for the coming campaign, though no destination has been finalised.",
+      "Blatt's own story with Hapoel goes back much further than this contract. He began his top-flight career at the club before moving on to Alba Berlin, where he won a German league title and a German Cup, and then to Maccabi Tel Aviv, where he added two Israeli championships and five Israeli Cups to his collection. His return, roughly nine years after he first left, closes the loop.",
+      "The financial terms, first reported by Ynet and Walla Sport, put the deal at around $1.7 million a season — a significant commitment for a player Hapoel may not even use this year, which only sharpens the question of why the club chose to announce it so quietly.",
+      "The move also fits into a broader reshuffling at the top of Israeli basketball this summer. Eurohoops has reported that Yam Madar is expected to head the other way, from Hapoel to Maccabi, alongside Blatt's switch — even if the two clubs have not presented it as a formal swap.",
+      "For now, Hapoel's low-key handling of the announcement reads less like indifference and more like pragmatism: with Blatt likely to spend the season somewhere else on loan, there was little upside in selling a headline the club has no intention of delivering on court."
+    ],
+    "facts": [
+      "Hapoel Tel Aviv signed point guard Tamir Blatt to a three-year contract through the 2028/29 season.",
+      "Blatt, 29, joins from crosstown rival Maccabi Tel Aviv for a second stint at Hapoel, having begun his career there.",
+      "Hapoel's official announcement gave only statistical and biographical details, without quotes from the player or club officials.",
+      "ONE reports the muted announcement reflects Hapoel's plan to loan Blatt out again almost immediately rather than use him this season.",
+      "Sportando reported ASVEL and clubs in Rome among the sides interested in a loan move for Blatt.",
+      "Blatt's contract is reportedly worth around $1.7 million per season, per Ynet and Walla Sport.",
+      "Blatt previously won a German league title and Cup with Alba Berlin, and two Israeli titles and five Israeli Cups with Maccabi Tel Aviv."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 64,
+    "homepageReason": "Notable crosstown transfer in Israeli basketball with an unusual angle, but tempered by the fact Blatt is expected to be loaned out rather than play for Hapoel this season.",
+    "dedupeKey": "hapoel-tel-aviv-sign-tamir-blatt-2026",
+    "aiDisclosure": "Drafted by an AI newsroom assistant from ONE's reporting, cross-checked against Sportando, Ynet, Walla Sport and Eurohoops.",
+    "nameChecks": [
+      {
+        "hebrew": "תמיר בלאט",
+        "english": "Tamir Blatt",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Tamir_Blatt",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "הפועל תל אביב",
+        "english": "Hapoel Tel Aviv",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Hapoel_Tel_Aviv_B.C.",
+        "confidence": 0.99
+      },
+      {
+        "hebrew": "מכבי תל אביב",
+        "english": "Maccabi Tel Aviv",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Maccabi_Tel_Aviv_B.C.",
+        "confidence": 0.99
+      },
+      {
+        "hebrew": "ים מדר",
+        "english": "Yam Madar",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Yam_Madar",
+        "confidence": 0.9
+      }
+    ],
+    "confidence": 0.88,
+    "warning": "Loan destination for Blatt not yet confirmed — ASVEL and Rome-based clubs are reported as interested parties, not finalised.",
+    "commonsQuery": "Tamir Blatt basketball player Alba Berlin EuroLeague",
+    "commonsCandidates": [
+      {
+        "title": "File:2022-03-10 ALBA Berlin gegen Olympiacos Piraeus (EuroLeague 2021-22) by Sandro Halank–081.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:2022-03-10_ALBA_Berlin_gegen_Olympiacos_Piraeus_(EuroLeague_2021-22)_by_Sandro_Halank%E2%80%93081.jpg",
+        "credit": "Sandro Halank",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:2021-10-12 ALBA Berlin gegen Fenerbahçe SK (EuroLeague 2021-22) by Sandro Halank–123.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:2021-10-12_ALBA_Berlin_gegen_Fenerbah%C3%A7e_SK_(EuroLeague_2021-22)_by_Sandro_Halank%E2%80%93123.jpg",
+        "credit": "Sandro Halank",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "live-20260803-vince-cole-otef-darom-lior-hershko-shomron",
+    "slug": "vince-cole-returns-otef-darom-lior-hershko-elitzur-shomron",
+    "title": "Vince Cole returns to Otef Darom as Lior Hershko heads to Elitzur Shomron",
+    "dek": "ONE reports the forward is going back to the Gaza-border community club for a second National League season, while an 18-year-old from Hapoel Emek Hefer's youth ranks takes his old spot in Samaria.",
+    "category": "Israeli Basketball",
+    "desk": "israel",
+    "kind": "news",
+    "storyForm": "transfer",
+    "publishedAt": "2026-08-03T21:42:51.178Z",
+    "updatedAt": "2026-08-03T21:42:51.178Z",
+    "readMinutes": 4,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/529738.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE — וינס קול חוזר לעוטף, ליאור הרשקו יהיה בשומרון",
+        "url": "https://www.one.co.il/Article/529738.html"
+      },
+      {
+        "label": "Hebrew Wikipedia — מ.כ. עוטף דרום",
+        "url": "https://he.wikipedia.org/wiki/%D7%9E.%D7%9B._%D7%A2%D7%95%D7%98%D7%A3_%D7%93%D7%A8%D7%95%D7%9D"
+      },
+      {
+        "label": "Hebrew Wikipedia — אליצור שומרון",
+        "url": "https://he.wikipedia.org/wiki/%D7%90%D7%9C%D7%99%D7%A6%D7%95%D7%A8_%D7%A9%D7%95%D7%9E%D7%A8%D7%95%D7%9F"
+      },
+      {
+        "label": "ynet — \"אליצור שומרון עוד תשחק באירופה\": הקבוצה המפתיעה של הכדורסל הישראלי",
+        "url": "https://www.ynet.co.il/sport/article/h1737yqoq"
+      },
+      {
+        "label": "Sportsrabbi — \"אני משחק כמו ליאור הרשקו, כמו שצריך להיות\"",
+        "url": "https://sportsrabbi.com/%D7%90%D7%A0%D7%99-%D7%9E%D7%A9%D7%97%D7%A7-%D7%9B%D7%9E%D7%95-%D7%9C%D7%99%D7%90%D7%95%D7%A8-%D7%94%D7%A8%D7%A9%D7%A7%D7%95-%D7%9B%D7%9E%D7%95-%D7%A9%D7%A6%D7%A8%D7%99%D7%9A-%D7%9C%D7%94%D7%99/"
+      }
+    ],
+    "body": [
+      "Vince Cole is going back to where his Israeli career began. ONE reports the 1.98m forward has agreed to rejoin BC Otef Darom for the club's second season in the National League, reuniting with coach Barak Peleg after a year away.",
+      "Otef Darom is not a typical roster addition story. The club was launched after the October 7, 2023 Hamas attack as a joint project of the Israel Basketball Association, the Tekuma recovery administration and the Eshkol Regional Council, built to give the shattered Gaza-border communities something to rally around. Cole was part of that inaugural 2024/25 squad before leaving for a season in Samaria.",
+      "That spell paid off handsomely. Playing for Elitzur Shomron last season, Cole averaged 21.7 points, 6.7 rebounds and 2.3 assists a game, numbers that made him one of the National League's more productive imports and explain why Peleg wanted him back in the Otef Darom project he has led from its founding.",
+      "Filling the vacancy Cole leaves behind at Elitzur Shomron is a considerably younger prospect. ONE reports the 18-year-old, 2.02m forward Lior Hershko is moving up from Hapoel Emek Hefer's youth department to take his place.",
+      "Hershko arrives with a growing reputation. He has just finished his third consecutive summer with Israel's youth national team at a European championship, this time wearing the captain's armband — continuing a family tradition, since both his parents captained Israel's national volleyball teams.",
+      "At club level he helped Hapoel Emek Hefer reach the national youth final this past season, averaging 12.2 points and 7.4 rebounds a game in the top junior division, production that persuaded Elitzur Shomron to hand him a senior roster spot rather than another year in the youth ranks.",
+      "The move to a National League team is a natural next step for a club with an unusual story of its own. Elitzur Shomron, representing the settlements of the Samaria Regional Council, has climbed from Liga Bet to the National League inside five years and plays its home games in a roughly 300-seat hall in Kfar Tapuach, well short of what a Premier League promotion would eventually require.",
+      "ONE's report also notes a separate signing in the same transfer window: Maccabi Petah Tikva has added naturalized Israeli guard Kairi Brown, a 27-year-old, 1.83m combo guard who joins from Elitzur Yavne by way of Hapoel Tzfat, where he averaged 12 points and 6 assists per game last season."
+    ],
+    "facts": [
+      "Vince Cole, a 1.98m forward, is returning to BC Otef Darom for the club's second National League season, per ONE.",
+      "Cole averaged 21.7 points, 6.7 rebounds and 2.3 assists per game for Elitzur Shomron last season.",
+      "BC Otef Darom was founded after the October 7, 2023 attack as a joint project of the Israel Basketball Association, the Tekuma administration and the Eshkol Regional Council, and plays in Israel's National League.",
+      "Barak Peleg is the head coach of BC Otef Darom.",
+      "Lior Hershko, an 18-year-old, 2.02m forward from Hapoel Emek Hefer's youth academy, is moving to Elitzur Shomron to replace Cole.",
+      "Hershko has just completed his third consecutive summer with Israel's youth national team, serving as captain at a European championship.",
+      "Elitzur Shomron represents the Samaria Regional Council and has risen from Liga Bet to the National League within five years, playing home games in a roughly 300-seat hall in Kfar Tapuach.",
+      "Maccabi Petah Tikva signed naturalized guard Kairi Brown, 27, from Elitzur Yavne via Hapoel Tzfat, per the same ONE report."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 46,
+    "homepageReason": "Routine off-season roster news in Israel's second-tier basketball league — a notable story for its Gaza-envelope community angle, but not a confirmed top-flight result or major transfer.",
+    "dedupeKey": "otef-darom-elitzur-shomron-basketball-roster-swap-2026",
+    "aiDisclosure": "Drafted by an AI newsroom assistant from ONE's reporting, cross-checked against IBBA, Wikipedia and Israeli basketball outlets for club and player background.",
+    "nameChecks": [
+      {
+        "hebrew": "וינס קול",
+        "english": "Vince Cole",
+        "verificationUrl": "https://ibasketball.co.il/n/player/15-%D7%95%D7%99%D7%A0%D7%A1-%D7%A7%D7%95%D7%9C/",
+        "confidence": 0.82
+      },
+      {
+        "hebrew": "ליאור הרשקו",
+        "english": "Lior Hershko",
+        "verificationUrl": "https://ibasketball.co.il/player/34-%D7%9C%D7%99%D7%90%D7%95%D7%A8-%D7%94%D7%A8%D7%A9%D7%A7%D7%95/",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "ברק פלג",
+        "english": "Barak Peleg",
+        "verificationUrl": "https://he.wikipedia.org/wiki/%D7%91%D7%A8%D7%A7_%D7%A4%D7%9C%D7%92",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "מ.כ. עוטף דרום",
+        "english": "BC Otef Darom",
+        "verificationUrl": "https://he.wikipedia.org/wiki/%D7%9E.%D7%9B._%D7%A2%D7%95%D7%98%D7%A3_%D7%93%D7%A8%D7%95%D7%9D",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "אליצור שומרון",
+        "english": "Elitzur Shomron",
+        "verificationUrl": "https://he.wikipedia.org/wiki/%D7%90%D7%9C%D7%99%D7%A6%D7%95%D7%A8_%D7%A9%D7%95%D7%9E%D7%A8%D7%95%D7%9F",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "הפועל עמק חפר",
+        "english": "Hapoel Emek Hefer",
+        "verificationUrl": "https://ibasketball.co.il/team/4265-%D7%94%D7%A4%D7%95%D7%A2%D7%9C-%D7%A2%D7%9E%D7%A7-%D7%97%D7%A4%D7%A8-%D7%90%D7%9C%D7%98%D7%A9%D7%95%D7%9C%D7%A8-%D7%A9%D7%97%D7%9D",
+        "confidence": 0.85
+      },
+      {
+        "hebrew": "קאירי בראון",
+        "english": "Kairi Brown",
+        "verificationUrl": "https://www.one.co.il/Article/529738.html",
+        "confidence": 0.55
+      },
+      {
+        "hebrew": "מכבי פתח תקווה",
+        "english": "Maccabi Petah Tikva",
+        "verificationUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%9B%D7%91%D7%99_%D7%A4%D7%AA%D7%97_%D7%AA%D7%A7%D7%95%D7%95%D7%94_(%D7%9B%D7%93%D7%95%D7%A8%D7%A1%D7%9C)",
+        "confidence": 0.85
+      }
+    ],
+    "confidence": 0.78,
+    "warning": "No independently verifiable, correctly-identified Wikimedia Commons photo could be confirmed for these specific National League clubs or players (BC Otef Darom, Elitzur Shomron, Vince Cole, Lior Hershko) — image held rather than run with an unverified or mismatched photo. Vince Cole's age is given differently across sources (ONE implies late-20s; the IBBA registry lists 26) and was left out of the copy to avoid overstating certainty.",
+    "commonsQuery": "BC Otef Darom basketball / Elitzur Shomron basketball Kfar Tapuach",
+    "commonsCandidates": [],
+    "status": "review"
+  },
+  {
+    "id": "live-20260803-beer-sheva-peretz-kanaan-red-star-preview",
+    "slug": "beer-sheva-peretz-kanaan-red-star-belgrade-preview",
+    "title": "Peretz and Kanaan battle for Kangwa's old role as Beer Sheva ready for Red Star Belgrade",
+    "dek": "Ran Kozuch has yet to pick between Eliel Peretz and Mohamad Kanaan for the playmaking role vacated by Kings Kangwa, as Hapoel Be'er Sheva prepare to face Serbian champions Red Star Belgrade in the Champions League third qualifying round.",
+    "category": "Israeli Football",
+    "desk": "israel",
+    "kind": "article",
+    "storyForm": "preview",
+    "publishedAt": "2026-08-03T21:42:51.178Z",
+    "updatedAt": "2026-08-03T21:42:51.178Z",
+    "readMinutes": 3,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/529739.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/529739.html"
+      },
+      {
+        "label": "The Jerusalem Post",
+        "url": "https://www.jpost.com/israel-news/sports/article-904181"
+      },
+      {
+        "label": "Sports Mole preview",
+        "url": "https://www.sportsmole.co.uk/football/hapoel-beer-sheva/champions-league/preview/h-beer-sheva-vs-red-star-prediction-team-news-lineups_602322.html"
+      },
+      {
+        "label": "Africa Soccer (Kangwa transfer)",
+        "url": "https://africasoccer.com/kings-kangwa-zambia-midfielder-joins-panathinaikos-from-hapoel-beer-sheva-in-e3-8m-deal/"
+      },
+      {
+        "label": "Wikipedia (Eliel Peretz)",
+        "url": "https://en.wikipedia.org/wiki/Eliel_Peretz"
+      }
+    ],
+    "body": [
+      "Hapoel Be'er Sheva have one significant selection puzzle left to solve before Tuesday's Champions League third qualifying round opener against Red Star Belgrade, and Ran Kozuch had still not settled on an answer heading into the club's final training session, according to ONE.",
+      "The dilemma centres on who fills the playmaking role vacated by Kings Kangwa, sold to Panathinaikos in a deal reported at roughly €3.8 million plus bonuses. Kangwa was Be'er Sheva's Israeli Footballer of the Year last season and his departure, ONE says, has left \"a big void\" in the side.",
+      "Eliel Peretz and Mohamad \"Hamudi\" Kanaan are the two candidates. Peretz made an impact off the bench in last week's win over Vikingur Reykjavik, while Kanaan has also been drilled in the role in training alongside winger Lucas Ventura, the outlet reports. Kozuch is expected to name his XI only on matchday.",
+      "Elsewhere the picture looks more settled. Itay Rotman, who came on during the Vikingur second leg, is competing with veteran Miguel Vítor for a place in central defence, with the rest of the attacking unit from that victory expected to be kept largely intact.",
+      "Be'er Sheva reached this stage by beating the Icelandic champions 3-2 on aggregate, losing 2-1 away before winning 2-0 in the return leg — itself played at a neutral venue in Hungary rather than at home, a quirk that will again apply against Red Star.",
+      "Tuesday's tie kicks off at 20:30 Israel time (17:30 UTC) at the Haladás Sportkomplexum in Szombathely, Hungary, with Be'er Sheva once again unable to call on home advantage in front of their own supporters.",
+      "Red Star Belgrade arrive as the more fearsome name on paper. Serbia's champions have swept through their previous two qualifying ties by an aggregate score of 9-0, and Tuesday's meeting will be the first ever between the two clubs.",
+      "For Be'er Sheva, closing the Kangwa-shaped gap in midfield without disrupting the momentum built against Vikingur is the priority — and whichever of Peretz or Kanaan gets the nod will do so against considerably stiffer opposition than Iceland's champions."
+    ],
+    "facts": [
+      "Hapoel Be'er Sheva face Red Star Belgrade in the UEFA Champions League third qualifying round on Tuesday, August 4, 2026, at 20:30 Israel time (17:30 UTC) at the Haladás Sportkomplexum in Szombathely, Hungary.",
+      "Eliel Peretz and Mohamad (Hamudi) Kanaan are competing to start in the attacking/playmaking role left by Kings Kangwa; head coach Ran Kozuch had not decided by the eve of the match.",
+      "Kangwa was sold to Panathinaikos in a deal reported at around €3.8 million (up to €4.5 million with bonuses), completed in late July 2026.",
+      "Be'er Sheva advanced past Vikingur Reykjavik 3-2 on aggregate, losing 2-1 in Iceland before winning 2-0 in the return leg at a neutral venue in Hungary.",
+      "Red Star Belgrade won their previous two Champions League qualifying ties by a combined 9-0 aggregate.",
+      "It is the first-ever competitive meeting between Hapoel Be'er Sheva and Red Star Belgrade.",
+      "Itay Rotman and Miguel Vítor are contesting a central-defence spot for Be'er Sheva."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 55,
+    "homepageReason": "Champions League qualifying preview for an Israeli club with a genuine selection storyline, but no result yet — capped as preview content.",
+    "dedupeKey": "ucl-q3-beersheva-redstarbelgrade-2026-08-04",
+    "aiDisclosure": "Drafted with AI assistance from ONE's reporting and cross-checked against independent English-language sources before publication by the Israel Sports Pulse desk.",
+    "nameChecks": [
+      {
+        "hebrew": "אליאל פרץ",
+        "english": "Eliel Peretz",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Eliel_Peretz",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "מוחמד (חמודי) כנעאן",
+        "english": "Mohamad (Hamudi) Kanaan",
+        "verificationUrl": "https://www.flashscore.com/player/kanaan-mohamad/dANttVOE/transfers",
+        "confidence": 0.75
+      },
+      {
+        "hebrew": "רן קוזוך",
+        "english": "Ran Kozuch",
+        "verificationUrl": "https://www.worldfootball.net/teams/te17757/hapoel-beer-sheva/all-managers/",
+        "confidence": 0.85
+      },
+      {
+        "hebrew": "קינגס קנגווה",
+        "english": "Kings Kangwa",
+        "verificationUrl": "https://africasoccer.com/kings-kangwa-zambia-midfielder-joins-panathinaikos-from-hapoel-beer-sheva-in-e3-8m-deal/",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "איתי רוטמן",
+        "english": "Itay Rotman",
+        "verificationUrl": "https://www.transfermarkt.us/itay-rotman/profil/spieler/713007",
+        "confidence": 0.8
+      },
+      {
+        "hebrew": "מיגל ויטור",
+        "english": "Miguel Vítor",
+        "verificationUrl": "https://www.skysports.com/football/player/12630/miguel-vitor",
+        "confidence": 0.85
+      },
+      {
+        "hebrew": "לוקאס ונטורה",
+        "english": "Lucas Ventura",
+        "verificationUrl": "https://www.one.co.il/Article/529739.html",
+        "confidence": 0.6
+      }
+    ],
+    "confidence": 0.8,
+    "warning": "",
+    "commonsQuery": "Hapoel Be'er Sheva stadium team photo",
+    "commonsCandidates": [
+      {
+        "title": "File:Turner Stadium on February 27th 2017 Beer Sheva vs. Kfar Saba.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Turner_Stadium_on_February_27th_2017_Beer_Sheva_vs._Kfar_Saba.jpg",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:Isaac Herzog awards the Israel State Cup to Hapoel Be'er Sheva, May 2022 (GPOZACH2).jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Isaac_Herzog_awards_the_Israel_State_Cup_to_Hapoel_Be%27er_Sheva,_May_2022_(GPOZACH2).jpg",
+        "credit": "Haim Zach / Government Press Office of Israel",
+        "license": "CC BY-SA 3.0"
+      }
+    ],
+    "status": "review"
+  },
+  {
+    "id": "live-2026-08-03-ceferin-fifa-boycott-al-khelaifi-presidency",
+    "slug": "ceferin-fifa-boycott-al-khelaifi-presidency",
+    "title": "Ceferin plots Club World Cup boycott and lines up Al-Khelaifi to challenge Infantino",
+    "dek": "UEFA's president is preparing to sabotage FIFA's 2029 Club World Cup and is grooming Paris Saint-Germain's Nasser Al-Khelaifi as a rival for football's top job, ONE reports.",
+    "category": "World Football",
+    "desk": "international",
+    "kind": "news",
+    "storyForm": "report",
+    "publishedAt": "2026-08-03T21:42:51.178Z",
+    "updatedAt": "2026-08-03T21:42:51.178Z",
+    "readMinutes": 4,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/529741.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/529741.html"
+      },
+      {
+        "label": "Al Jazeera",
+        "url": "https://www.aljazeera.com/sports/2026/8/1/is-infantino-under-threat-over-fifa-world-cup-plan-will-president-resign"
+      },
+      {
+        "label": "Sky Sports",
+        "url": "https://www.skysports.com/football/news/11095/13568511/uefa-will-boycott-fifa-tournaments-if-gianni-infantino-continues-with-plans-to-sell-off-stake-in-world-cup"
+      },
+      {
+        "label": "Goal.com",
+        "url": "https://www.goal.com/en/news/al-khelaifi-reveals-in-an-official-statement-the-truth-about-his-desire-to-succeed-infantino/bltc15d7af5253dd4e0"
+      }
+    ],
+    "body": [
+      "European football's power struggle with Gianni Infantino is escalating into open warfare. ONE reports that UEFA president Aleksander Čeferin is preparing an unprecedented boycott aimed at paralysing FIFA's 2029 Club World Championship, while simultaneously grooming Paris Saint-Germain president Nasser Al-Khelaifi as the man to unseat Infantino altogether.",
+      "According to the report, the plan being drawn up in Nyon would go well beyond a symbolic protest. The idea is to choke the 2029 tournament of everything it needs to function — halting cooperation with FIFA's operational machinery and denying the event official sponsorships and host locations, effectively strangling Infantino's pet project before a ball is kicked.",
+      "ONE notes the timing is no accident. The 2029 edition is still without a confirmed host, secured financing or committed sponsors, leaving it exposed to exactly the kind of coordinated squeeze UEFA and its allies are reportedly considering. Frustration among major European clubs over solidarity payments still owed from the expanded 2025 Club World Cup, held in the United States, is said to be adding fuel to the fire.",
+      "That grievance, per the report, is being used to justify a broader refusal to fall in line behind Infantino's future ventures — sentiment that has been building for months rather than appearing overnight.",
+      "The dispute over FIFA's direction is well documented beyond ONE's report. UEFA's 55 member federations have already voted to boycott FIFA competitions in protest at Infantino's proposal to sell a minority stake in the World Cup to private investors, branding the plan \"irresponsible and indefensible\" and declaring that \"the World Cup is not for sale.\" Asia's confederation, through its president Sheikh Salman, has called the scheme \"totally unacceptable.\"",
+      "It is against that backdrop that Čeferin's second, more personal manoeuvre becomes significant. ONE reports he is actively promoting Al-Khelaifi as a candidate to challenge Infantino for the FIFA presidency, with the UEFA chief viewing the Qatari as an ideal, well-resourced alternative capable of drawing support from federations well outside Europe.",
+      "Al-Khelaifi is no peripheral figure to make that case for. The 52-year-old has run Paris Saint-Germain since 2011, chairs the European Club Association and beIN Media Group, and sits on both UEFA's executive committee and the FIFA Council — while overseeing PSG's back-to-back Champions League triumphs in 2025 and 2026.",
+      "Qatari associates quoted elsewhere insist he has no personal hunger for the job. A representative close to Al-Khelaifi has said he has \"absolutely no ambition, no intention, no interest in the FIFA role,\" and that it would take considerable persuading to change his mind — a line that tracks with ONE's characterisation of reluctance on his part even as UEFA pushes him forward.",
+      "The mechanics of any challenge are not immediate. Candidates for the FIFA presidency must formally register by November 18, with the election itself not due until March 2027. Infantino has held the post since 2016 and has faced no opposition in either of his two re-election campaigns, in 2019 and 2023.",
+      "Whether Čeferin's dual strategy — starving the 2029 tournament while building a rival candidacy around Al-Khelaifi — actually forces Infantino's hand remains to be seen. But the scale of the confrontation being described marks one of the most serious threats yet to his grip on world football's governing body."
+    ],
+    "facts": [
+      "ONE reports UEFA president Aleksander Čeferin is preparing to orchestrate a boycott aimed at paralysing FIFA's 2029 Club World Championship.",
+      "According to the report, Čeferin is simultaneously promoting PSG president Nasser Al-Khelaifi as a challenger to unseat Gianni Infantino as FIFA president.",
+      "The 2029 Club World Cup reportedly still lacks a confirmed host, secured financing and sponsors.",
+      "European clubs are said to be frustrated by delayed solidarity payments owed from the 2025 Club World Cup.",
+      "UEFA's 55 member federations have already voted to boycott FIFA competitions over Infantino's plan to sell a stake in the World Cup to private investors, according to Al Jazeera and Sky Sports.",
+      "Candidates for the FIFA presidency must register by November 18, with the election set for March 2027; Infantino has held the post since 2016 and ran unopposed in 2019 and 2023.",
+      "A representative close to Al-Khelaifi has said he has \"no ambition\" to seek the FIFA presidency."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 80,
+    "homepageReason": "Major FIFA governance clash and a credible presidential-succession story affecting the sport's global power structure.",
+    "dedupeKey": "fifa-ceferin-boycott-al-khelaifi-2026-08",
+    "aiDisclosure": "Drafted by an AI copy desk from ONE's original Hebrew reporting, cross-checked against independent English-language coverage.",
+    "nameChecks": [
+      {
+        "hebrew": "אלכסנדר צ'פרין",
+        "english": "Aleksander Čeferin",
+        "verificationUrl": "https://commons.wikimedia.org/wiki/Category:Aleksander_%C4%8Ceferin",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "נאסר אלח'לאיפי",
+        "english": "Nasser Al-Khelaifi",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Nasser_Al-Khelaifi",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "ג'אני אינפנטינו",
+        "english": "Gianni Infantino",
+        "verificationUrl": "https://commons.wikimedia.org/wiki/File:Gianni_Infantino,_President_of_FIFA_(52390379929).jpg",
+        "confidence": 0.95
+      }
+    ],
+    "confidence": 0.8,
+    "warning": "The specific plan to boycott the 2029 Club World Cup and the push for Al-Khelaifi are as reported by ONE; broader UEFA-FIFA tension and Al-Khelaifi's positioning as a candidate are independently corroborated, but he has publicly denied personal ambition for the role.",
+    "commonsQuery": "Aleksander Čeferin UEFA president / Nasser Al-Khelaifi PSG / Gianni Infantino FIFA president",
+    "commonsCandidates": [
+      {
+        "title": "File:Aleksander Čeferin 2017.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Aleksander_%C4%8Ceferin_2017.jpg",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "title": "File:Nasser Al-Khelaïfi, président du Paris Saint-Germain.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Nasser_Al-Khela%C3%AFfi,_pr%C3%A9sident_du_Paris_Saint-Germain.jpg",
+        "credit": "Christophe Pelletier / Wikimedia Commons",
+        "license": "CC BY 2.0"
+      },
+      {
+        "title": "File:Gianni Infantino, President of FIFA (52390379929).jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Gianni_Infantino,_President_of_FIFA_(52390379929).jpg",
+        "credit": "Loris von Siebenthal / WTO / Wikimedia Commons",
+        "license": "CC BY-SA 2.0"
+      }
+    ],
+    "status": "published"
+  },
+  {
     "id": "live-2026-08-03-tel-aviv-rivals-clash-owusu-knee-doubt",
     "slug": "tel-aviv-rivals-clash-owusu-knee-doubt",
     "title": "Maccabi and Hapoel Tel Aviv clash over Ghanaian winger Owusu as knee doubt clouds move",
