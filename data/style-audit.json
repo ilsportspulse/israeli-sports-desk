@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T14:51:17.717Z",
+  "generatedAt": "2026-08-03T15:59:32.630Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,19 +11,19 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 831,
+    "publishedArticles": 833,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 423,
-      "average": 425.7
+      "average": 425.6
     },
     "paragraphDistribution": {
       "3": 34,
       "4": 6,
       "5": 10,
       "6": 37,
-      "7": 120,
+      "7": 122,
       "8": 227,
       "9": 194,
       "10": 144,
@@ -3366,6 +3366,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-03-ferran-torres-barcelona-future",
+      "slug": "ferran-torres-barcelona-future-uncertain-psg-interest",
+      "title": "Ferran Torres on his Barcelona future: \"You can never know what will happen\"",
+      "kind": "news",
+      "words": 426,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 83,
+        "average": 60.9
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 59,
+        "average": 28.4
+      },
+      "lexicalDiversity": 0.589,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-03-hapoel-tel-aviv-eye-owusu-red-star",
+      "slug": "hapoel-tel-aviv-eye-douglas-owusu-red-star-belgrade",
+      "title": "Hapoel Tel Aviv eye Red Star winger Owusu as Loizou replacement",
+      "kind": "news",
+      "words": 310,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 57,
+        "average": 44.3
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 44,
+        "average": 28.2
+      },
+      "lexicalDiversity": 0.597,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-03-lanziano-message-to-yanai-naturalization-row",
       "slug": "lanziano-message-to-yanai-naturalization-row",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T14:51:17.204Z",
+  "generatedAt": "2026-08-03T15:59:32.151Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1113,
-    "publishedBefore": 831,
-    "cleanPublished": 823,
+    "totalArticles": 1117,
+    "publishedBefore": 833,
+    "cleanPublished": 825,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 831,
-    "reviewAfter": 282
+    "publishedAfter": 833,
+    "reviewAfter": 284
   },
   "blockedPublished": [
     {
@@ -157,6 +157,62 @@
   ],
   "warnings": [
     {
+      "id": "live-2026-08-03-ironi-tiberias-boys-b-champions",
+      "slug": "ironi-tiberias-boys-b-northern-champions-promotion",
+      "title": "Ironi Tiberias's Boys B side crowned northern champions, promoted to the national league",
+      "statusBefore": "review",
+      "words": 392,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-03-ferran-torres-barcelona-future",
+      "slug": "ferran-torres-barcelona-future-uncertain-psg-interest",
+      "title": "Ferran Torres on his Barcelona future: \"You can never know what will happen\"",
+      "statusBefore": "published",
+      "words": 426,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-03-infantino-turns-to-trump-fifa-pressure",
+      "slug": "infantino-turns-to-trump-fifa-pressure",
+      "title": "Infantino turns to the Trump administration as pressure mounts over his FIFA future",
+      "statusBefore": "review",
+      "words": 430,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-03-hapoel-tel-aviv-eye-owusu-red-star",
+      "slug": "hapoel-tel-aviv-eye-douglas-owusu-red-star-belgrade",
+      "title": "Hapoel Tel Aviv eye Red Star winger Owusu as Loizou replacement",
+      "statusBefore": "published",
+      "words": 311,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
       "id": "live-2026-08-03-lanziano-message-to-yanai-naturalization-row",
       "slug": "lanziano-message-to-yanai-naturalization-row",
       "title": "Hapoel Holon chief Lanziano to Hapoel Tel Aviv owner Yanai: focus on your own team",
@@ -196,6 +252,7 @@
       "verificationSources": 5,
       "blockers": [],
       "warnings": [
+        "media:no-action-or-competition-context-detected",
         "voice:publisher-attribution-heavy:2",
         "voice:stock-editorial-phrase-detected"
       ]
@@ -10621,6 +10678,34 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-2026-08-03-ferran-torres-barcelona-future",
+      "slug": "ferran-torres-barcelona-future-uncertain-psg-interest",
+      "title": "Ferran Torres on his Barcelona future: \"You can never know what will happen\"",
+      "statusBefore": "published",
+      "words": 426,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-03-hapoel-tel-aviv-eye-owusu-red-star",
+      "slug": "hapoel-tel-aviv-eye-douglas-owusu-red-star-belgrade",
+      "title": "Hapoel Tel Aviv eye Red Star winger Owusu as Loizou replacement",
+      "statusBefore": "published",
+      "words": 311,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
       "id": "live-2026-08-03-lanziano-message-to-yanai-naturalization-row",
       "slug": "lanziano-message-to-yanai-naturalization-row",
       "title": "Hapoel Holon chief Lanziano to Hapoel Tel Aviv owner Yanai: focus on your own team",
@@ -10684,6 +10769,7 @@
       "verificationSources": 5,
       "blockers": [],
       "warnings": [
+        "media:no-action-or-competition-context-detected",
         "voice:publisher-attribution-heavy:2",
         "voice:stock-editorial-phrase-detected"
       ]

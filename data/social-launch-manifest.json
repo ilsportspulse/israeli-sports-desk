@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-03T14:51:16Z",
-    "validUntil": "2026-08-04T02:51:16Z",
+    "checkedAt": "2026-08-03T15:59:31Z",
+    "validUntil": "2026-08-04T03:59:31Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 354,
+        "maxAgeHours": 355,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-03-lanziano-message-to-yanai-naturalization-row",
+        "articleId": "live-2026-08-03-ferran-torres-barcelona-future",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 362,
+        "maxAgeHours": 363,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-03-kvaratskhelia-rolls-royce-psg-training",
+        "articleId": "live-2026-08-03-hapoel-tel-aviv-eye-owusu-red-star",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 372,
+        "maxAgeHours": 373,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-03-hapoel-tel-aviv-atalanta-conference-league-draw",
+        "articleId": "live-2026-08-03-lanziano-message-to-yanai-naturalization-row",
         "maxAgeHours": 24,
         "requires": []
       }
