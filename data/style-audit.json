@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T06:58:30.333Z",
+  "generatedAt": "2026-08-03T07:58:34.655Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,22 +11,22 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 805,
+    "publishedArticles": 808,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 423,
-      "average": 426
+      "median": 422.5,
+      "average": 425.8
     },
     "paragraphDistribution": {
       "3": 34,
       "4": 6,
       "5": 10,
       "6": 36,
-      "7": 116,
+      "7": 117,
       "8": 221,
-      "9": 187,
-      "10": 137,
+      "9": 188,
+      "10": 138,
       "11": 36,
       "12": 12,
       "13": 4,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.275,
+    "dominantParagraphShare": 0.274,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 36,
     "analysisBelowTarget": 9,
@@ -3297,6 +3297,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-03-boniface-hapoel-ramat-gan",
+      "slug": "christopher-boniface-signs-hapoel-ramat-gan",
+      "title": "Hapoel Ramat Gan Givatayim sign Nigerian midfielder Christopher Boniface",
+      "kind": "news",
+      "words": 316,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 51,
+        "average": 45.1
+      },
+      "sentenceWords": {
+        "shortest": 13,
+        "longest": 40,
+        "average": 26.3
+      },
+      "lexicalDiversity": 0.655,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-03-gurovic-belgrade-car-rescue",
+      "slug": "milan-gurovic-belgrade-burning-car-rescue",
+      "title": "Ex-Barcelona forward Milan Gurović pulls stranger from burning car in Belgrade",
+      "kind": "article",
+      "words": 397,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 28,
+        "longest": 58,
+        "average": 39.7
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 47,
+        "average": 23.4
+      },
+      "lexicalDiversity": 0.612,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-03-shmulik-daniel-bronze-european-rowing",
+      "slug": "shmulik-daniel-bronze-european-rowing-championships",
+      "title": "Shmulik Daniel awarded bronze at European Rowing Championships after Ukrainian rival's disqualification",
+      "kind": "article",
+      "words": 387,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 20,
+        "longest": 57,
+        "average": 43
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 57,
+        "average": 27.6
+      },
+      "lexicalDiversity": 0.579,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-03-hapoel-tel-aviv-bilal-shaheen-trial",
       "slug": "hapoel-tel-aviv-bilal-shaheen-trial",
