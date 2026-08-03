@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T13:59:58.635Z",
+  "generatedAt": "2026-08-03T14:51:17.717Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,7 +11,7 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 825,
+    "publishedArticles": 831,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
@@ -22,11 +22,11 @@
       "3": 34,
       "4": 6,
       "5": 10,
-      "6": 36,
+      "6": 37,
       "7": 120,
-      "8": 224,
-      "9": 193,
-      "10": 143,
+      "8": 227,
+      "9": 194,
+      "10": 144,
       "11": 37,
       "12": 12,
       "13": 4,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.272,
+    "dominantParagraphShare": 0.273,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 36,
+    "exactSixParagraphArticles": 37,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 141
+    "articlesWithStyleFlags": 144
   },
   "flagged": [
     {
@@ -280,6 +280,75 @@
       "flags": [
         "below-editorial-target:204/280",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-03-kvaratskhelia-rolls-royce-psg-training",
+      "slug": "kvaratskhelia-rolls-royce-psg-training",
+      "title": "Kvaratskhelia rolls into PSG training in a new electric Rolls-Royce",
+      "kind": "news",
+      "words": 229,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 18,
+        "longest": 76,
+        "average": 38.2
+      },
+      "sentenceWords": {
+        "shortest": 18,
+        "longest": 42,
+        "average": 32.7
+      },
+      "lexicalDiversity": 0.721,
+      "publisherAttributions": 1,
+      "flags": [
+        "below-editorial-target:229/280"
+      ]
+    },
+    {
+      "id": "live-2026-08-03-haziza-netanya-halfon-opportunity",
+      "slug": "haziza-netanya-halfon-opportunity",
+      "title": "Halfon tells Haziza: Netanya is your chance to reclaim the spotlight",
+      "kind": "news",
+      "words": 441,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 32,
+        "longest": 89,
+        "average": 55.1
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 88,
+        "average": 31.5
+      },
+      "lexicalDiversity": 0.608,
+      "publisherAttributions": 2,
+      "flags": [
+        "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260803-chelsea-alonso-squad-size",
+      "slug": "chelsea-alonso-squad-size-forty-one-players",
+      "title": "Alonso faces selection headache as Chelsea swell to 41 players",
+      "kind": "article",
+      "words": 408,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 78,
+        "average": 51
+      },
+      "sentenceWords": {
+        "shortest": 3,
+        "longest": 70,
+        "average": 34
+      },
+      "lexicalDiversity": 0.65,
+      "publisherAttributions": 1,
+      "flags": [
+        "stock-phrase:what-comes-next"
       ]
     },
     {
@@ -3297,6 +3366,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-03-lanziano-message-to-yanai-naturalization-row",
+      "slug": "lanziano-message-to-yanai-naturalization-row",
+      "title": "Hapoel Holon chief Lanziano to Hapoel Tel Aviv owner Yanai: focus on your own team",
+      "kind": "news",
+      "words": 468,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 40,
+        "longest": 70,
+        "average": 52
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 55,
+        "average": 36
+      },
+      "lexicalDiversity": 0.579,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-03-hapoel-tel-aviv-atalanta-conference-league-draw",
+      "slug": "hapoel-tel-aviv-atalanta-conference-league-draw",
+      "title": "Hapoel Tel Aviv drawn against Atalanta in toughest possible Conference League test",
+      "kind": "news",
+      "words": 539,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 74,
+        "average": 53.9
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 46,
+        "average": 27
+      },
+      "lexicalDiversity": 0.523,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-03-armoni-brooks-valencia-not-maccabi",
+      "slug": "armoni-brooks-snubs-maccabi-set-for-valencia",
+      "title": "Armoni Brooks turns down Maccabi Tel Aviv, set to sign for Valencia Basket",
+      "kind": "article",
+      "words": 497,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 39,
+        "longest": 93,
+        "average": 62.1
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 56,
+        "average": 29.2
+      },
+      "lexicalDiversity": 0.579,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-08-03-beitar-jerusalem-conference-league-playoff-draw",
       "slug": "beitar-jerusalem-conference-league-playoff-draw-braga-dinamo-minsk",
