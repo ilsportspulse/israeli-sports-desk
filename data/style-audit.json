@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T23:48:02.468Z",
+  "generatedAt": "2026-08-03T01:01:47.449Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,7 +11,7 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 790,
+    "publishedArticles": 791,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
@@ -27,7 +27,7 @@
       "8": 215,
       "9": 183,
       "10": 134,
-      "11": 35,
+      "11": 36,
       "12": 12,
       "13": 4,
       "14": 2,
@@ -39,7 +39,7 @@
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 36,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 139
+    "articlesWithStyleFlags": 140
   },
   "flagged": [
     {
@@ -280,6 +280,29 @@
       "flags": [
         "below-editorial-target:204/280",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-03-dolev-haziza-netanya-debut-quotes",
+      "slug": "dolev-haziza-netanya-debut-reaction",
+      "title": "Dolev Haziza: 'I don't accept this defeat' as Netanya debut ends in 3-2 loss to Hapoel Ramat Gan",
+      "kind": "news",
+      "words": 469,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 38,
+        "longest": 76,
+        "average": 52.1
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 80,
+        "average": 29.3
+      },
+      "lexicalDiversity": 0.55,
+      "publisherAttributions": 0,
+      "flags": [
+        "stock-phrase:statement-of-intent"
       ]
     },
     {
@@ -3252,6 +3275,27 @@
   ],
   "clean": [
     {
+      "id": "archive-20260803-rio-de-janeiro-29-august-2013-the-forty-",
+      "slug": "rio-de-janeiro-29-august-2013-the-forty-three-seconds-that-made-yarden",
+      "title": "Rio de Janeiro, 29 August 2013: The Forty-Three Seconds That Made Yarden Gerbi Israel's First World Judo Champion",
+      "kind": "explainer",
+      "words": 656,
+      "paragraphs": 11,
+      "paragraphWords": {
+        "shortest": 43,
+        "longest": 81,
+        "average": 59.6
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 70,
+        "average": 26.2
+      },
+      "lexicalDiversity": 0.518,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
       "id": "live-20260802-galan-chingotto-pretoria-p1",
       "slug": "galan-chingotto-win-pretoria-p1-padel-title",
       "title": "Galán and Chingotto beat Leal and Guerrero 6-2, 5-7, 7-6 to win Pretoria P1",
@@ -5139,27 +5183,6 @@
       },
       "lexicalDiversity": 0.592,
       "publisherAttributions": 1,
-      "flags": []
-    },
-    {
-      "id": "archive-20260731-melbourne-26-january-2008-the-final-that",
-      "slug": "melbourne-26-january-2008-the-final-that-made-andyoni-israel-s-first-g",
-      "title": "Melbourne, 26 January 2008: The Final That Made 'Andyoni' Israel's First Grand Slam Champions",
-      "kind": "explainer",
-      "words": 706,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 37,
-        "longest": 95,
-        "average": 78.4
-      },
-      "sentenceWords": {
-        "shortest": 6,
-        "longest": 68,
-        "average": 29.4
-      },
-      "lexicalDiversity": 0.5,
-      "publisherAttributions": 0,
       "flags": []
     },
     {

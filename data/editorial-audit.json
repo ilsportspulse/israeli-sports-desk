@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T23:48:02.006Z",
+  "generatedAt": "2026-08-03T01:01:46.997Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1045,
-    "publishedBefore": 790,
-    "cleanPublished": 782,
+    "totalArticles": 1047,
+    "publishedBefore": 791,
+    "cleanPublished": 783,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 790,
-    "reviewAfter": 255
+    "publishedAfter": 791,
+    "reviewAfter": 256
   },
   "blockedPublished": [
     {
@@ -156,6 +156,35 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-2026-08-03-dolev-haziza-netanya-debut-quotes",
+      "slug": "dolev-haziza-netanya-debut-reaction",
+      "title": "Dolev Haziza: 'I don't accept this defeat' as Netanya debut ends in 3-2 loss to Hapoel Ramat Gan",
+      "statusBefore": "published",
+      "words": 467,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "archive-20260803-rio-de-janeiro-29-august-2013-the-forty-",
+      "slug": "rio-de-janeiro-29-august-2013-the-forty-three-seconds-that-made-yarden",
+      "title": "Rio de Janeiro, 29 August 2013: The Forty-Three Seconds That Made Yarden Gerbi Israel's First World Judo Champion",
+      "statusBefore": "published",
+      "words": 663,
+      "paragraphs": 11,
+      "facts": 6,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-08-02-katowice-character-hapoel-tel-aviv-preview",
       "slug": "katowice-character-hapoel-tel-aviv-conference-league-preview",
@@ -1956,7 +1985,7 @@
       "id": "archive-20260731-melbourne-26-january-2008-the-final-that",
       "slug": "melbourne-26-january-2008-the-final-that-made-andyoni-israel-s-first-g",
       "title": "Melbourne, 26 January 2008: The Final That Made 'Andyoni' Israel's First Grand Slam Champions",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 703,
       "paragraphs": 9,
       "facts": 6,
@@ -10032,6 +10061,35 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-2026-08-03-dolev-haziza-netanya-debut-quotes",
+      "slug": "dolev-haziza-netanya-debut-reaction",
+      "title": "Dolev Haziza: 'I don't accept this defeat' as Netanya debut ends in 3-2 loss to Hapoel Ramat Gan",
+      "statusBefore": "published",
+      "words": 467,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "archive-20260803-rio-de-janeiro-29-august-2013-the-forty-",
+      "slug": "rio-de-janeiro-29-august-2013-the-forty-three-seconds-that-made-yarden",
+      "title": "Rio de Janeiro, 29 August 2013: The Forty-Three Seconds That Made Yarden Gerbi Israel's First World Judo Champion",
+      "statusBefore": "published",
+      "words": 663,
+      "paragraphs": 11,
+      "facts": 6,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-20260802-galan-chingotto-pretoria-p1",
       "slug": "galan-chingotto-win-pretoria-p1-padel-title",
       "title": "Galán and Chingotto beat Leal and Guerrero 6-2, 5-7, 7-6 to win Pretoria P1",
@@ -11370,20 +11428,6 @@
       "paragraphs": 9,
       "facts": 7,
       "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "archive-20260731-melbourne-26-january-2008-the-final-that",
-      "slug": "melbourne-26-january-2008-the-final-that-made-andyoni-israel-s-first-g",
-      "title": "Melbourne, 26 January 2008: The Final That Made 'Andyoni' Israel's First Grand Slam Champions",
-      "statusBefore": "published",
-      "words": 703,
-      "paragraphs": 9,
-      "facts": 6,
-      "verificationSources": 5,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"

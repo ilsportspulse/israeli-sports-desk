@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-02T23:48:01Z",
-    "validUntil": "2026-08-03T11:48:01Z",
+    "checkedAt": "2026-08-03T01:01:46Z",
+    "validUntil": "2026-08-03T13:01:46Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 339,
+        "maxAgeHours": 340,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260802-galan-chingotto-pretoria-p1",
+        "articleId": "live-2026-08-03-dolev-haziza-netanya-debut-quotes",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 347,
+        "maxAgeHours": 348,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-02-katowice-character-hapoel-tel-aviv-preview",
+        "articleId": "archive-20260803-rio-de-janeiro-29-august-2013-the-forty-",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 357,
+        "maxAgeHours": 358,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260802-uefa-infantino-legal-threat",
+        "articleId": "live-20260802-galan-chingotto-pretoria-p1",
         "maxAgeHours": 24,
         "requires": []
       }
