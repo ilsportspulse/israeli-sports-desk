@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T12:48:51.421Z",
+  "generatedAt": "2026-08-03T13:59:58.635Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,22 +11,22 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 819,
+    "publishedArticles": 825,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 423,
-      "average": 425.9
+      "average": 425.7
     },
     "paragraphDistribution": {
       "3": 34,
       "4": 6,
       "5": 10,
       "6": 36,
-      "7": 119,
-      "8": 223,
-      "9": 190,
-      "10": 142,
+      "7": 120,
+      "8": 224,
+      "9": 193,
+      "10": 143,
       "11": 37,
       "12": 12,
       "13": 4,
@@ -3297,6 +3297,132 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-03-beitar-jerusalem-conference-league-playoff-draw",
+      "slug": "beitar-jerusalem-conference-league-playoff-draw-braga-dinamo-minsk",
+      "title": "Beitar Jerusalem learn potential Conference League playoff foes: Braga or Dinamo Minsk",
+      "kind": "news",
+      "words": 294,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 29,
+        "longest": 49,
+        "average": 42
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 45,
+        "average": 29.4
+      },
+      "lexicalDiversity": 0.585,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260803-genia-berkman-leaves-nof-hagalil",
+      "slug": "genia-berkman-leaves-nof-hagalil-beit-shean",
+      "title": "Genia Berkman leaves Nof HaGalil after 16 years, signs for Beit She'an",
+      "kind": "news",
+      "words": 372,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 67,
+        "average": 46.5
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 103,
+        "average": 41.3
+      },
+      "lexicalDiversity": 0.618,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260803-moshe-sabag-kiryat-gat-offer",
+      "slug": "moshe-sabag-kiryat-gat-nir-ramat-hasharon-offer",
+      "title": "Moshe Sabag confirms 'offer with a lot of money' as Kiryat Gat eyes Liga Leumit return",
+      "kind": "news",
+      "words": 418,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 29,
+        "longest": 64,
+        "average": 46.4
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 64,
+        "average": 26.1
+      },
+      "lexicalDiversity": 0.565,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-03-orian-goren-flick-quality-praise",
+      "slug": "orian-goren-flick-quality-praise",
+      "title": "Hansi Flick says Orian Goren has \"tremendous quality\" — and the Israeli teenager is proving it",
+      "kind": "news",
+      "words": 432,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 24,
+        "longest": 55,
+        "average": 43.2
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 97,
+        "average": 39.3
+      },
+      "lexicalDiversity": 0.553,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-03-agada-hapoel-haifa-kit",
+      "slug": "willy-agada-hapoel-haifa-return-new-kit",
+      "title": "Willy Agada awaits Hapoel Haifa's answer as club unveils new home kit",
+      "kind": "news",
+      "words": 424,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 25,
+        "longest": 76,
+        "average": 47.1
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 42,
+        "average": 24.9
+      },
+      "lexicalDiversity": 0.585,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-03-nba-europe-london-billion-dollar-bid",
+      "slug": "nba-europe-london-franchise-billion-dollar-bid-arora",
+      "title": "Tech billionaire Nikesh Arora leads $1bn bid for NBA Europe's London franchise",
+      "kind": "news",
+      "words": 439,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 65,
+        "average": 48.8
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 102,
+        "average": 36.6
+      },
+      "lexicalDiversity": 0.61,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-03-shtilman-recanati-maccabi-tel-aviv-offer",
       "slug": "shtilman-recanati-maccabi-tel-aviv-takeover-offer",
