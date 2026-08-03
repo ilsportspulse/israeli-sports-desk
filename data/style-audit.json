@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T05:59:27.437Z",
+  "generatedAt": "2026-08-03T06:58:30.333Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 801,
+    "publishedArticles": 805,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 423,
-      "average": 425.9
+      "average": 426
     },
     "paragraphDistribution": {
       "3": 34,
@@ -24,9 +24,9 @@
       "5": 10,
       "6": 36,
       "7": 116,
-      "8": 218,
+      "8": 221,
       "9": 187,
-      "10": 136,
+      "10": 137,
       "11": 36,
       "12": 12,
       "13": 4,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.272,
+    "dominantParagraphShare": 0.275,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 36,
     "analysisBelowTarget": 9,
@@ -3297,6 +3297,90 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-03-hapoel-tel-aviv-bilal-shaheen-trial",
+      "slug": "hapoel-tel-aviv-bilal-shaheen-trial",
+      "title": "Hapoel Tel Aviv give trial to free-agent left back Bilal Shaheen",
+      "kind": "news",
+      "words": 409,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 32,
+        "longest": 62,
+        "average": 51.1
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 43,
+        "average": 27.3
+      },
+      "lexicalDiversity": 0.594,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260803-hapoel-tel-aviv-dego-lawsuit-response",
+      "slug": "hapoel-tel-aviv-rejects-messay-dego-lawsuit",
+      "title": "Hapoel Tel Aviv rejects fired coach Messay Dego's 1.74 million shekel lawsuit",
+      "kind": "news",
+      "words": 415,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 64,
+        "average": 51.9
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 56,
+        "average": 31.9
+      },
+      "lexicalDiversity": 0.552,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-03-glazer-pedrao-maccabi-haifa-training",
+      "slug": "glazer-improvement-pedrao-training-maccabi-haifa",
+      "title": "Glazer's knee shows major improvement as Pedrão returns to Maccabi Haifa training",
+      "kind": "article",
+      "words": 327,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 25,
+        "longest": 65,
+        "average": 40.9
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 41,
+        "average": 29.7
+      },
+      "lexicalDiversity": 0.63,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-03-ashdod-tribunal-tiberias-injections-case",
+      "slug": "ashdod-tribunal-tiberias-injections-case",
+      "title": "Tribunal lets Ashdod join disciplinary case against Tiberias, but only as observer",
+      "kind": "news",
+      "words": 638,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 47,
+        "longest": 88,
+        "average": 63.8
+      },
+      "sentenceWords": {
+        "shortest": 2,
+        "longest": 80,
+        "average": 31.9
+      },
+      "lexicalDiversity": 0.555,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-20260803-andreou-maccabi-tel-aviv-estoril",
       "slug": "maccabi-tel-aviv-defender-target-andreou-estoril",

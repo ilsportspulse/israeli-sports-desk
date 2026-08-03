@@ -1,28 +1,22 @@
 {
   "selections": [
     {
-      "articleId": "live-20260803-andreou-maccabi-tel-aviv-estoril",
-      "article": "Maccabi Tel Aviv defensive target Stelios Andreou opts to join Estoril instead",
-      "file": "File:Gate11.JPG",
+      "articleId": "live-2026-08-03-hapoel-tel-aviv-bilal-shaheen-trial",
+      "article": "Hapoel Tel Aviv give trial to free-agent left back Bilal Shaheen",
+      "file": "File:FC RB Salzburg vs. FK Austria Wien (2023-04-09) 35.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-2026-08-03-deni-avdija-israeli-identity-interview",
-      "article": "Deni Avdija: 'Not everyone is happy that I'm Israeli, it bothers me less'",
-      "file": "File:Deni Avdija.jpg",
-      "license": "CC BY-SA 4.0"
+      "articleId": "live-2026-08-03-ashdod-role-limited-tiberias-doping-case",
+      "article": "Ashdod's role in Tiberias doping-case hearings sharply limited by IFA arbitrator",
+      "file": "File:Yud-Alef Stadium entrance 1.jpg",
+      "license": "CC BY 4.0"
     },
     {
-      "articleId": "live-20260803-israeli-clubs-third-qualifying-round-preview",
-      "article": "Red Star Belgrade, CSKA Sofia and Austria Wien await Israel's four European hopefuls",
-      "file": "File:SC Wiener Neustadt vs. FK Austria Wien II 2018-08-17 (051).jpg",
-      "license": "CC BY-SA 4.0"
-    },
-    {
-      "articleId": "live-2026-08-03-liverpool-leeds-preseason-collapse",
-      "article": "Leeds 4-2 Liverpool: Calvert-Lewin double sinks Reds after 2-0 collapse",
-      "file": "File:Florian Wirtz 2024.jpg",
-      "license": "CC BY 3.0"
+      "articleId": "live-2026-08-03-ashdod-tribunal-tiberias-injections-case",
+      "article": "Tribunal lets Ashdod join disciplinary case against Tiberias, but only as observer",
+      "file": "File:Hayod alef Stadium.JPG",
+      "license": "CC BY-SA 2.5"
     },
     {
       "articleId": "live-20260714-basketball-coaches-registration",
@@ -34,8 +28,13 @@
   ],
   "failures": [
     {
-      "id": "live-2026-08-03-benson-returns-maccabi-haifa-squad",
-      "title": "Manuel Benson returns to Maccabi Haifa squad after three-month Achilles absence",
+      "id": "live-20260803-hapoel-tel-aviv-dego-lawsuit-response",
+      "title": "Hapoel Tel Aviv rejects fired coach Messay Dego's 1.74 million shekel lawsuit",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-2026-08-03-glazer-pedrao-maccabi-haifa-training",
+      "title": "Glazer's knee shows major improvement as Pedrão returns to Maccabi Haifa training",
       "error": "image download 429 after retries"
     },
     {
