@@ -146,8 +146,8 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-03T17:00:09Z",
-    "validUntil": "2026-08-04T05:00:09Z",
+    "checkedAt": "2026-08-03T17:12:33Z",
+    "validUntil": "2026-08-04T05:12:33Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
@@ -160,7 +160,7 @@
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260803-beer-sheva-red-star-preview",
+        "articleId": "live-2026-08-03-ganah-ventura-beer-sheva-red-star-preview",
         "maxAgeHours": 48,
         "requires": []
       },
@@ -174,7 +174,7 @@
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-03-stankovic-red-star-champions-league-dream-beer-sheva",
+        "articleId": "live-20260803-maccabi-tel-aviv-fined-closed-doors-cska-sofia",
         "maxAgeHours": 24,
         "requires": []
       },
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-03-maccabi-tel-aviv-uefa-fine-closed-doors",
+        "articleId": "live-2026-08-03-ferran-torres-barcelona-future",
         "maxAgeHours": 24,
         "requires": []
       }

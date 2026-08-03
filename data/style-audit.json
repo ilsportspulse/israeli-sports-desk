@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T17:00:10.217Z",
+  "generatedAt": "2026-08-03T17:12:34.618Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -16,7 +16,7 @@
       "minimum": 69,
       "maximum": 1070,
       "median": 423,
-      "average": 425.6
+      "average": 425.5
     },
     "paragraphDistribution": {
       "3": 34,
@@ -24,9 +24,9 @@
       "5": 10,
       "6": 37,
       "7": 122,
-      "8": 228,
-      "9": 196,
-      "10": 144,
+      "8": 229,
+      "9": 194,
+      "10": 145,
       "11": 37,
       "12": 12,
       "13": 4,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.273,
+    "dominantParagraphShare": 0.274,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 37,
     "analysisBelowTarget": 9,
@@ -3367,65 +3367,65 @@
   ],
   "clean": [
     {
-      "id": "live-20260803-beer-sheva-red-star-preview",
-      "slug": "ganeah-ventura-hapoel-beer-sheva-red-star-belgrade-preview",
-      "title": "Ganeah a nightmare to face, Ventura the key man, warns Red Star Belgrade's own analyst",
+      "id": "live-2026-08-03-mourinho-modric-role-bernardo-silva",
+      "slug": "mourinho-modric-role-bernardo-silva-real-madrid",
+      "title": "Modric 2.0? The role Mourinho has in mind for Bernardo Silva at Real Madrid",
       "kind": "news",
-      "words": 431,
-      "paragraphs": 9,
+      "words": 353,
+      "paragraphs": 8,
       "paragraphWords": {
-        "shortest": 33,
-        "longest": 62,
-        "average": 47.9
+        "shortest": 35,
+        "longest": 50,
+        "average": 44.1
       },
       "sentenceWords": {
-        "shortest": 9,
-        "longest": 81,
-        "average": 43.1
-      },
-      "lexicalDiversity": 0.603,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-03-stankovic-red-star-champions-league-dream-beer-sheva",
-      "slug": "stankovic-red-star-champions-league-dream-beer-sheva",
-      "title": "Stanković fights his demons as Red Star Belgrade prepare to meet Hapoel Be'er Sheva",
-      "kind": "article",
-      "words": 466,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 37,
-        "longest": 65,
-        "average": 51.8
-      },
-      "sentenceWords": {
-        "shortest": 7,
+        "shortest": 10,
         "longest": 54,
-        "average": 27.4
+        "average": 29.4
       },
-      "lexicalDiversity": 0.556,
+      "lexicalDiversity": 0.632,
       "publisherAttributions": 1,
       "flags": []
     },
     {
-      "id": "live-2026-08-03-maccabi-tel-aviv-uefa-fine-closed-doors",
-      "slug": "maccabi-tel-aviv-uefa-fine-closed-doors-cska-sofia",
-      "title": "Maccabi Tel Aviv fined €40,000 and told to play behind closed doors over flares",
-      "kind": "news",
-      "words": 397,
-      "paragraphs": 8,
+      "id": "live-2026-08-03-ganah-ventura-beer-sheva-red-star-preview",
+      "slug": "ganah-ventura-beer-sheva-red-star-preview",
+      "title": "Serbian coach warns Red Star: Ganah is a handful, Ventura is Be'er Sheva's key man",
+      "kind": "article",
+      "words": 450,
+      "paragraphs": 10,
       "paragraphWords": {
-        "shortest": 41,
-        "longest": 57,
-        "average": 49.6
+        "shortest": 30,
+        "longest": 64,
+        "average": 45
       },
       "sentenceWords": {
-        "shortest": 11,
-        "longest": 54,
-        "average": 36.1
+        "shortest": 17,
+        "longest": 53,
+        "average": 32.1
       },
-      "lexicalDiversity": 0.592,
+      "lexicalDiversity": 0.567,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260803-maccabi-tel-aviv-fined-closed-doors-cska-sofia",
+      "slug": "maccabi-tel-aviv-fined-closed-doors-cska-sofia",
+      "title": "Maccabi Tel Aviv fined and ordered to play Europa League tie without fans",
+      "kind": "news",
+      "words": 381,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 66,
+        "average": 47.6
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 42,
+        "average": 29.3
+      },
+      "lexicalDiversity": 0.575,
       "publisherAttributions": 0,
       "flags": []
     },
