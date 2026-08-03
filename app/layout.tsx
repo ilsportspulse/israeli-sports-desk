@@ -112,6 +112,15 @@ export default async function RootLayout({ children }: { children: ReactNode }) 
         {children}
         <MobileBottomNav />
         <AnalyticsBeacon />
+        {process.env.NEXT_PUBLIC_CF_BEACON_TOKEN ? (
+          // Cloudflare Web Analytics — free, unlimited, cookieless. Inert until the
+          // NEXT_PUBLIC_CF_BEACON_TOKEN env var is set (in Vercel project settings).
+          <script
+            defer
+            src="https://static.cloudflareinsights.com/beacon.min.js"
+            data-cf-beacon={JSON.stringify({ token: process.env.NEXT_PUBLIC_CF_BEACON_TOKEN })}
+          />
+        ) : null}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData).replace(/</g, "\\u003c") }}
