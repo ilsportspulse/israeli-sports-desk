@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T10:58:29.666Z",
+  "generatedAt": "2026-08-03T12:05:59.620Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 815,
+    "publishedArticles": 816,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 423,
-      "average": 426.1
+      "average": 426.3
     },
     "paragraphDistribution": {
       "3": 34,
@@ -27,7 +27,7 @@
       "8": 222,
       "9": 189,
       "10": 141,
-      "11": 37,
+      "11": 38,
       "12": 12,
       "13": 4,
       "14": 2,
@@ -39,7 +39,7 @@
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 36,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 141
+    "articlesWithStyleFlags": 142
   },
   "flagged": [
     {
@@ -279,6 +279,29 @@
       "publisherAttributions": 2,
       "flags": [
         "below-editorial-target:204/280",
+        "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-03-shtilman-recanati-maccabi-tel-aviv-offer",
+      "slug": "shtilman-recanati-maccabi-tel-aviv-ownership-offer",
+      "title": "Shtilman gives Recanati family a Sunday deadline on $120m Maccabi Tel Aviv bid",
+      "kind": "news",
+      "words": 618,
+      "paragraphs": 11,
+      "paragraphWords": {
+        "shortest": 38,
+        "longest": 67,
+        "average": 56.2
+      },
+      "sentenceWords": {
+        "shortest": 3,
+        "longest": 107,
+        "average": 38.6
+      },
+      "lexicalDiversity": 0.532,
+      "publisherAttributions": 2,
+      "flags": [
         "publisher-attribution-heavy:2"
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T10:58:29.184Z",
+  "generatedAt": "2026-08-03T12:05:59.229Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1094,
-    "publishedBefore": 815,
-    "cleanPublished": 807,
+    "totalArticles": 1097,
+    "publishedBefore": 816,
+    "cleanPublished": 808,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 815,
-    "reviewAfter": 279
+    "publishedAfter": 816,
+    "reviewAfter": 281
   },
   "blockedPublished": [
     {
@@ -156,6 +156,48 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-2026-08-03-beer-sheva-champions-league-playoff-aarhus-sabah",
+      "slug": "beer-sheva-champions-league-playoff-aarhus-sabah",
+      "title": "If Beer Sheva get past Red Star, Aarhus or Sabah await in Champions League playoff",
+      "statusBefore": "review",
+      "words": 373,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-08-03-maccabi-tel-aviv-ofi-crete-playoff-preview",
+      "slug": "maccabi-tel-aviv-ofi-crete-europa-league-playoff",
+      "title": "Beat CSKA Sofia and Maccabi Tel Aviv will meet Crete's OFI in the Europa League play-off",
+      "statusBefore": "review",
+      "words": 463,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-03-shtilman-recanati-maccabi-tel-aviv-offer",
+      "slug": "shtilman-recanati-maccabi-tel-aviv-ownership-offer",
+      "title": "Shtilman gives Recanati family a Sunday deadline on $120m Maccabi Tel Aviv bid",
+      "statusBefore": "published",
+      "words": 627,
+      "paragraphs": 11,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
     {
       "id": "live-20260803-sichat-hayom-preview",
       "slug": "sichat-hayom-tiberias-affair-maccabi-tel-aviv-power-struggle",
@@ -10491,6 +10533,20 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-03-shtilman-recanati-maccabi-tel-aviv-offer",
+      "slug": "shtilman-recanati-maccabi-tel-aviv-ownership-offer",
+      "title": "Shtilman gives Recanati family a Sunday deadline on $120m Maccabi Tel Aviv bid",
+      "statusBefore": "published",
+      "words": 627,
+      "paragraphs": 11,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
     {
       "id": "live-2026-08-03-beitar-gadrani-yosefi-full-training",
       "slug": "beitar-jerusalem-gadrani-yosefi-return-full-training",
