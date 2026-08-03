@@ -1,16 +1,22 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-08-03-dolev-haziza-netanya-debut-quotes",
-      "article": "Dolev Haziza: 'I don't accept this defeat' as Netanya debut ends in 3-2 loss to Hapoel Ramat Gan",
-      "file": "File:Ramat Gan during Iron Swords War, January 2024 13.jpg",
-      "license": "CC BY-SA 4.0"
+      "articleId": "live-2026-08-03-fifa-five-nations-back-infantino",
+      "article": "Five federations that backed Infantino's World Cup investment plan before it collapsed",
+      "file": "File:SM Caen Tifo 15 ans du MNK.jpg",
+      "license": "CC BY-SA 3.0"
     },
     {
-      "articleId": "archive-20260803-rio-de-janeiro-29-august-2013-the-forty-",
-      "article": "Rio de Janeiro, 29 August 2013: The Forty-Three Seconds That Made Yarden Gerbi Israel's First World Judo Champion",
-      "file": "File:Yarden Gerbi.jpg",
-      "license": "CC BY 3.0"
+      "articleId": "live-2026-08-03-theis-maccabi-tel-aviv-salary",
+      "article": "Daniel Theis nears Maccabi Tel Aviv deal that would rank among the club's richest ever",
+      "file": "File:Daniel Theis crop.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "articleId": "live-2026-08-03-nili-block-gfn1-podcast-recap",
+      "article": "Nili Block beats Isabel Oliveira as ONE's podcast recaps a blockbuster GFN1 night",
+      "file": "File:Nili Block, 2024.jpg",
+      "license": "CC0"
     },
     {
       "articleId": "live-20260714-basketball-coaches-registration",
@@ -21,6 +27,16 @@
     }
   ],
   "failures": [
+    {
+      "id": "live-2026-08-03-aryeh-hapoel-jerusalem-toto-cup",
+      "title": "Maccabi Petah Tikva beat Hapoel Jerusalem 1-0 as Aryeh reflects on his Jerusalem exit",
+      "error": "image download 429 after retries"
+    },
+    {
+      "id": "live-2026-08-03-haziza-ramat-gan-toto-cup-clash",
+      "title": "Dolev Haziza clashes with old club as Hapoel Ramat Gan beat Maccabi Netanya 3-2 in Toto Cup",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
     {
       "id": "live-2026-08-02-otef-darom-sign-tamir-gold-ashkelon-imports",
       "title": "Otef Darom land Maccabi Tel Aviv prospect Tamir Gold as Ashkelon add two imports",

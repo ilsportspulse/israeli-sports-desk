@@ -146,49 +146,49 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-03T01:48:17Z",
-    "validUntil": "2026-08-03T13:48:17Z",
+    "checkedAt": "2026-08-03T03:03:31Z",
+    "validUntil": "2026-08-03T15:03:31Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 341,
+        "maxAgeHours": 342,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-03-dolev-haziza-netanya-debut-quotes",
+        "articleId": "live-2026-08-03-fifa-five-nations-back-infantino",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 349,
+        "maxAgeHours": 350,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "archive-20260803-rio-de-janeiro-29-august-2013-the-forty-",
+        "articleId": "live-2026-08-03-theis-maccabi-tel-aviv-salary",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 359,
+        "maxAgeHours": 360,
         "requires": [
           "column"
         ]
       },
       {
         "role": "archive",
-        "articleId": "live-2026-08-02-kiki-ramos-argentina-haiti",
+        "articleId": "archive-20260803-rio-de-janeiro-29-august-2013-the-forty-",
         "maxAgeHours": 53,
         "requires": [
           "historical-feature"
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260802-galan-chingotto-pretoria-p1",
+        "articleId": "live-2026-08-03-dolev-haziza-netanya-debut-quotes",
         "maxAgeHours": 24,
         "requires": []
       }

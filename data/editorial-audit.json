@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T01:48:18.281Z",
+  "generatedAt": "2026-08-03T03:03:32.185Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1047,
-    "publishedBefore": 791,
-    "cleanPublished": 783,
+    "totalArticles": 1052,
+    "publishedBefore": 793,
+    "cleanPublished": 785,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 791,
-    "reviewAfter": 256
+    "publishedAfter": 793,
+    "reviewAfter": 259
   },
   "blockedPublished": [
     {
@@ -156,6 +156,50 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-2026-08-03-fifa-five-nations-back-infantino",
+      "slug": "five-federations-backed-infantino-world-cup-investment-plan",
+      "title": "Five federations that backed Infantino's World Cup investment plan before it collapsed",
+      "statusBefore": "published",
+      "words": 501,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-03-theis-maccabi-tel-aviv-salary",
+      "slug": "daniel-theis-maccabi-tel-aviv-top-salary",
+      "title": "Daniel Theis nears Maccabi Tel Aviv deal that would rank among the club's richest ever",
+      "statusBefore": "published",
+      "words": 458,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-03-nili-block-gfn1-podcast-recap",
+      "slug": "nili-block-beats-isabel-oliveira-gfn1-podcast-recap",
+      "title": "Nili Block beats Isabel Oliveira as ONE's podcast recaps a blockbuster GFN1 night",
+      "statusBefore": "review",
+      "words": 386,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-08-03-dolev-haziza-netanya-debut-quotes",
       "slug": "dolev-haziza-netanya-debut-reaction",
@@ -10060,6 +10104,35 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-03-fifa-five-nations-back-infantino",
+      "slug": "five-federations-backed-infantino-world-cup-investment-plan",
+      "title": "Five federations that backed Infantino's World Cup investment plan before it collapsed",
+      "statusBefore": "published",
+      "words": 501,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-03-theis-maccabi-tel-aviv-salary",
+      "slug": "daniel-theis-maccabi-tel-aviv-top-salary",
+      "title": "Daniel Theis nears Maccabi Tel Aviv deal that would rank among the club's richest ever",
+      "statusBefore": "published",
+      "words": 458,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-08-03-dolev-haziza-netanya-debut-quotes",
       "slug": "dolev-haziza-netanya-debut-reaction",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T01:48:18.739Z",
+  "generatedAt": "2026-08-03T03:03:32.638Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 791,
+    "publishedArticles": 793,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 423,
-      "average": 426
+      "average": 426.1
     },
     "paragraphDistribution": {
       "3": 34,
@@ -25,8 +25,8 @@
       "6": 36,
       "7": 115,
       "8": 215,
-      "9": 183,
-      "10": 134,
+      "9": 184,
+      "10": 135,
       "11": 36,
       "12": 12,
       "13": 4,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.272,
+    "dominantParagraphShare": 0.271,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 36,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 140
+    "articlesWithStyleFlags": 141
   },
   "flagged": [
     {
@@ -280,6 +280,29 @@
       "flags": [
         "below-editorial-target:204/280",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-03-fifa-five-nations-back-infantino",
+      "slug": "five-federations-backed-infantino-world-cup-investment-plan",
+      "title": "Five federations that backed Infantino's World Cup investment plan before it collapsed",
+      "kind": "explainer",
+      "words": 498,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 89,
+        "average": 55.3
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 77,
+        "average": 35.6
+      },
+      "lexicalDiversity": 0.568,
+      "publisherAttributions": 1,
+      "flags": [
+        "below-editorial-target:498/500"
       ]
     },
     {
@@ -3274,6 +3297,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-03-theis-maccabi-tel-aviv-salary",
+      "slug": "daniel-theis-maccabi-tel-aviv-top-salary",
+      "title": "Daniel Theis nears Maccabi Tel Aviv deal that would rank among the club's richest ever",
+      "kind": "news",
+      "words": 458,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 53,
+        "average": 45.8
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 47,
+        "average": 26.9
+      },
+      "lexicalDiversity": 0.59,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "archive-20260803-rio-de-janeiro-29-august-2013-the-forty-",
       "slug": "rio-de-janeiro-29-august-2013-the-forty-three-seconds-that-made-yarden",
