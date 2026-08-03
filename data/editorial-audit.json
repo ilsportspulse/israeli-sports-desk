@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T07:58:34.203Z",
+  "generatedAt": "2026-08-03T08:51:06.958Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1077,
-    "publishedBefore": 808,
-    "cleanPublished": 800,
+    "totalArticles": 1082,
+    "publishedBefore": 810,
+    "cleanPublished": 802,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 808,
-    "reviewAfter": 269
+    "publishedAfter": 810,
+    "reviewAfter": 272
   },
   "blockedPublished": [
     {
@@ -157,6 +157,48 @@
   ],
   "warnings": [
     {
+      "id": "live-2026-08-03-european-open-water-seine-israelis-preview",
+      "slug": "european-open-water-championships-seine-israelis-preview",
+      "title": "European Open Water Swimming Championships dive into the Seine tomorrow with four Israelis in the water",
+      "statusBefore": "review",
+      "words": 307,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-03-maccabi-petah-tikva-squad-rotation",
+      "slug": "maccabi-petah-tikva-rest-first-team-ligat-haal-return",
+      "title": "Maccabi Petah Tikva save their strongest side as Ligat Ha'al return looms",
+      "statusBefore": "review",
+      "words": 417,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-03-blas-maccabi-kiosk-lawsuit",
+      "slug": "zion-blas-sues-maccabi-tel-aviv-kiryat-shalom-canteen",
+      "title": "Legendary Kiryat Shalom canteen operator sues Maccabi Tel Aviv over eviction",
+      "statusBefore": "review",
+      "words": 450,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
       "id": "live-2026-08-03-gurovic-belgrade-car-rescue",
       "slug": "milan-gurovic-belgrade-burning-car-rescue",
       "title": "Ex-Barcelona forward Milan Gurović pulls stranger from burning car in Belgrade",
@@ -195,7 +237,8 @@
       "verificationSources": 5,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -10320,6 +10363,30 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-03-satoransky-hapoel-tel-aviv-workload",
+      "slug": "satoransky-hapoel-tel-aviv-cut-workload-euroleague-ambition",
+      "title": "Satoransky: I wanted to cut my workload, and Hapoel Tel Aviv want to win the Euroleague",
+      "statusBefore": "published",
+      "words": 513,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-03-nahuel-maccabi-haifa-release",
+      "slug": "maccabi-haifa-release-record-signing-matias-nahuel",
+      "title": "Maccabi Haifa release record signing Matías Nahuel after injury-hit flop",
+      "statusBefore": "published",
+      "words": 420,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-2026-08-03-boniface-hapoel-ramat-gan",
       "slug": "christopher-boniface-signs-hapoel-ramat-gan",

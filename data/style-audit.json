@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T07:58:34.655Z",
+  "generatedAt": "2026-08-03T08:51:07.437Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 808,
+    "publishedArticles": 810,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 422.5,
-      "average": 425.8
+      "average": 425.9
     },
     "paragraphDistribution": {
       "3": 34,
@@ -24,8 +24,8 @@
       "5": 10,
       "6": 36,
       "7": 117,
-      "8": 221,
-      "9": 188,
+      "8": 222,
+      "9": 189,
       "10": 138,
       "11": 36,
       "12": 12,
@@ -3297,6 +3297,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-03-satoransky-hapoel-tel-aviv-workload",
+      "slug": "satoransky-hapoel-tel-aviv-cut-workload-euroleague-ambition",
+      "title": "Satoransky: I wanted to cut my workload, and Hapoel Tel Aviv want to win the Euroleague",
+      "kind": "transfer",
+      "words": 518,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 39,
+        "longest": 99,
+        "average": 64.8
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 125,
+        "average": 51.8
+      },
+      "lexicalDiversity": 0.546,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-03-nahuel-maccabi-haifa-release",
+      "slug": "maccabi-haifa-release-record-signing-matias-nahuel",
+      "title": "Maccabi Haifa release record signing Matías Nahuel after injury-hit flop",
+      "kind": "news",
+      "words": 418,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 69,
+        "average": 46.4
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 65,
+        "average": 32.2
+      },
+      "lexicalDiversity": 0.572,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-03-boniface-hapoel-ramat-gan",
       "slug": "christopher-boniface-signs-hapoel-ramat-gan",

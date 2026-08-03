@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-03T07:58:33Z",
-    "validUntil": "2026-08-03T19:58:33Z",
+    "checkedAt": "2026-08-03T08:51:06Z",
+    "validUntil": "2026-08-03T20:51:06Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 347,
+        "maxAgeHours": 348,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-03-boniface-hapoel-ramat-gan",
+        "articleId": "live-2026-08-03-nahuel-maccabi-haifa-release",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 355,
+        "maxAgeHours": 356,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-03-gurovic-belgrade-car-rescue",
+        "articleId": "live-2026-08-03-boniface-hapoel-ramat-gan",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 365,
+        "maxAgeHours": 366,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-03-shmulik-daniel-bronze-european-rowing",
+        "articleId": "live-2026-08-03-gurovic-belgrade-car-rescue",
         "maxAgeHours": 24,
         "requires": []
       }
