@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T05:01:29.316Z",
+  "generatedAt": "2026-08-03T05:17:31.601Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1058,
-    "publishedBefore": 795,
-    "cleanPublished": 787,
+    "totalArticles": 1057,
+    "publishedBefore": 797,
+    "cleanPublished": 789,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 795,
-    "reviewAfter": 263
+    "publishedAfter": 797,
+    "reviewAfter": 260
   },
   "blockedPublished": [
     {
@@ -157,27 +157,26 @@
   ],
   "warnings": [
     {
-      "id": "live-2026-08-03-world-cup-penalty-psychology",
-      "slug": "world-cup-2026-penalty-strategy-analysis",
-      "title": "Inside the 2026 World Cup's penalties: committing early beat reading the goalkeeper",
-      "statusBefore": "review",
-      "words": 443,
-      "paragraphs": 8,
-      "facts": 6,
-      "verificationSources": 2,
+      "id": "live-20260803-vozinha-colo-colo-welcome",
+      "slug": "vozinha-lands-chile-colo-colo-hero-welcome",
+      "title": "World Cup sensation Vozinha lands in Chile to a hero's welcome from Colo Colo fans",
+      "statusBefore": "published",
+      "words": 462,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
       "blockers": [],
       "warnings": [
-        "media:no-action-or-competition-context-detected",
-        "voice:analysis-below-650-word-editorial-target:443"
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
-      "id": "live-2026-08-03-vozinha-colo-colo-arrival",
-      "slug": "vozinha-cape-verde-goalkeeper-colo-colo-arrival-chile",
-      "title": "World Cup sensation Vozinha mobbed by hundreds of fans on arrival in Chile",
-      "statusBefore": "review",
-      "words": 447,
-      "paragraphs": 10,
+      "id": "live-2026-08-03-uefa-threatens-legal-action-infantino-fifa",
+      "slug": "uefa-threatens-legal-action-infantino-fifa-forward-enterprise",
+      "title": "UEFA threatens legal action against Infantino and FIFA over collapsed investment plan",
+      "statusBefore": "published",
+      "words": 423,
+      "paragraphs": 9,
       "facts": 7,
       "verificationSources": 5,
       "blockers": [],
@@ -186,46 +185,17 @@
       ]
     },
     {
-      "id": "live-2026-08-03-barcelona-alvarez-atletico-standoff",
-      "slug": "barcelona-waits-julian-alvarez-atletico-standoff",
-      "title": "Barcelona waits on Álvarez, but stays calm about the striker position",
+      "id": "live-2026-08-03-barcelona-alvarez-striker-wait",
+      "slug": "barcelona-waiting-on-alvarez-relaxed-striker-options",
+      "title": "Barcelona waiting on Álvarez, but relaxed about the striker position",
       "statusBefore": "published",
-      "words": 423,
-      "paragraphs": 8,
-      "facts": 7,
-      "verificationSources": 3,
+      "words": 371,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline",
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-20260803-hapoel-ramat-gan-league-caution",
-      "slug": "hapoel-ramat-gan-toto-cup-win-league-caution",
-      "title": "Hapoel Ramat Gan beat Maccabi Netanya 3-2 but insist 'nothing resembles the league'",
-      "statusBefore": "review",
-      "words": 380,
-      "paragraphs": 8,
-      "facts": 7,
-      "verificationSources": 5,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected",
-        "voice:stock-editorial-phrase-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-03-israel-u20-water-polo-italy-defeat",
-      "slug": "israel-u20-women-water-polo-lose-italy-european-championship",
-      "title": "Italy 17-12 Israel: young water polo team falls at European under-20 championship",
-      "statusBefore": "review",
-      "words": 220,
-      "paragraphs": 6,
-      "facts": 6,
-      "verificationSources": 2,
-      "blockers": [],
-      "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
     },
@@ -10178,14 +10148,42 @@
   ],
   "cleanPublished": [
     {
-      "id": "live-2026-08-03-barcelona-alvarez-atletico-standoff",
-      "slug": "barcelona-waits-julian-alvarez-atletico-standoff",
-      "title": "Barcelona waits on Álvarez, but stays calm about the striker position",
+      "id": "live-20260803-vozinha-colo-colo-welcome",
+      "slug": "vozinha-lands-chile-colo-colo-hero-welcome",
+      "title": "World Cup sensation Vozinha lands in Chile to a hero's welcome from Colo Colo fans",
+      "statusBefore": "published",
+      "words": 462,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-03-uefa-threatens-legal-action-infantino-fifa",
+      "slug": "uefa-threatens-legal-action-infantino-fifa-forward-enterprise",
+      "title": "UEFA threatens legal action against Infantino and FIFA over collapsed investment plan",
       "statusBefore": "published",
       "words": 423,
-      "paragraphs": 8,
+      "paragraphs": 9,
       "facts": 7,
-      "verificationSources": 3,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-03-barcelona-alvarez-striker-wait",
+      "slug": "barcelona-waiting-on-alvarez-relaxed-striker-options",
+      "title": "Barcelona waiting on Álvarez, but relaxed about the striker position",
+      "statusBefore": "published",
+      "words": 371,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline",
@@ -10193,14 +10191,14 @@
       ]
     },
     {
-      "id": "live-2026-08-03-liverpool-leeds-preseason-collapse",
-      "slug": "liverpool-collapse-leeds-preseason-chicago",
-      "title": "Leeds 4-2 Liverpool: Calvert-Lewin double sinks Reds after 2-0 collapse",
+      "id": "live-2026-08-03-leeds-shock-liverpool-comeback-chicago",
+      "slug": "leeds-shock-liverpool-comeback-chicago",
+      "title": "Leeds come back from 2-0 down to beat Liverpool 4-2 in Chicago",
       "statusBefore": "published",
-      "words": 415,
+      "words": 388,
       "paragraphs": 9,
       "facts": 7,
-      "verificationSources": 4,
+      "verificationSources": 3,
       "blockers": [],
       "warnings": []
     },

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T05:01:29.776Z",
+  "generatedAt": "2026-08-03T05:17:32.068Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 795,
+    "publishedArticles": 797,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 423,
-      "average": 426.1
+      "average": 426
     },
     "paragraphDistribution": {
       "3": 34,
@@ -24,8 +24,8 @@
       "5": 10,
       "6": 36,
       "7": 115,
-      "8": 216,
-      "9": 185,
+      "8": 215,
+      "9": 188,
       "10": 135,
       "11": 36,
       "12": 12,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.272,
+    "dominantParagraphShare": 0.27,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 36,
     "analysisBelowTarget": 9,
@@ -3298,45 +3298,87 @@
   ],
   "clean": [
     {
-      "id": "live-2026-08-03-barcelona-alvarez-atletico-standoff",
-      "slug": "barcelona-waits-julian-alvarez-atletico-standoff",
-      "title": "Barcelona waits on Álvarez, but stays calm about the striker position",
-      "kind": "news",
-      "words": 417,
-      "paragraphs": 8,
+      "id": "live-20260803-vozinha-colo-colo-welcome",
+      "slug": "vozinha-lands-chile-colo-colo-hero-welcome",
+      "title": "World Cup sensation Vozinha lands in Chile to a hero's welcome from Colo Colo fans",
+      "kind": "article",
+      "words": 458,
+      "paragraphs": 9,
       "paragraphWords": {
         "shortest": 42,
-        "longest": 66,
-        "average": 52.1
+        "longest": 68,
+        "average": 50.9
       },
       "sentenceWords": {
-        "shortest": 10,
-        "longest": 52,
-        "average": 34.8
+        "shortest": 6,
+        "longest": 68,
+        "average": 38.2
       },
-      "lexicalDiversity": 0.573,
+      "lexicalDiversity": 0.616,
       "publisherAttributions": 0,
       "flags": []
     },
     {
-      "id": "live-2026-08-03-liverpool-leeds-preseason-collapse",
-      "slug": "liverpool-collapse-leeds-preseason-chicago",
-      "title": "Leeds 4-2 Liverpool: Calvert-Lewin double sinks Reds after 2-0 collapse",
-      "kind": "article",
-      "words": 416,
+      "id": "live-2026-08-03-uefa-threatens-legal-action-infantino-fifa",
+      "slug": "uefa-threatens-legal-action-infantino-fifa-forward-enterprise",
+      "title": "UEFA threatens legal action against Infantino and FIFA over collapsed investment plan",
+      "kind": "news",
+      "words": 425,
       "paragraphs": 9,
       "paragraphWords": {
         "shortest": 31,
-        "longest": 61,
-        "average": 46.2
+        "longest": 71,
+        "average": 47.2
       },
       "sentenceWords": {
         "shortest": 6,
         "longest": 48,
-        "average": 26
+        "average": 30.4
       },
-      "lexicalDiversity": 0.627,
+      "lexicalDiversity": 0.6,
       "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-03-barcelona-alvarez-striker-wait",
+      "slug": "barcelona-waiting-on-alvarez-relaxed-striker-options",
+      "title": "Barcelona waiting on Álvarez, but relaxed about the striker position",
+      "kind": "news",
+      "words": 368,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 49,
+        "average": 40.9
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 44,
+        "average": 28.3
+      },
+      "lexicalDiversity": 0.63,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-03-leeds-shock-liverpool-comeback-chicago",
+      "slug": "leeds-shock-liverpool-comeback-chicago",
+      "title": "Leeds come back from 2-0 down to beat Liverpool 4-2 in Chicago",
+      "kind": "article",
+      "words": 388,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 32,
+        "longest": 51,
+        "average": 43.1
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 42,
+        "average": 29.8
+      },
+      "lexicalDiversity": 0.626,
+      "publisherAttributions": 1,
       "flags": []
     },
     {
