@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T18:09:01.821Z",
+  "generatedAt": "2026-08-03T19:07:31.377Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 838,
+    "publishedArticles": 842,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 423,
-      "average": 425.5
+      "average": 425.6
     },
     "paragraphDistribution": {
       "3": 34,
       "4": 6,
       "5": 10,
       "6": 37,
-      "7": 122,
-      "8": 230,
+      "7": 121,
+      "8": 235,
       "9": 195,
       "10": 145,
       "11": 37,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.274,
+    "dominantParagraphShare": 0.279,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 37,
     "analysisBelowTarget": 9,
@@ -3367,6 +3367,111 @@
   ],
   "clean": [
     {
+      "id": "live-2026-08-03-schalke-napoli-lindstrom-collapse",
+      "slug": "schalke-napoli-lindstrom-loan-collapse-legal-threat",
+      "title": "Schalke pull out of Lindstrøm loan, Napoli threatens legal action",
+      "kind": "news",
+      "words": 404,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 32,
+        "longest": 66,
+        "average": 50.5
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 42,
+        "average": 25.3
+      },
+      "lexicalDiversity": 0.597,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-03-kozuk-hapoel-beer-sheva-red-star-belgrade-preview",
+      "slug": "kozuk-hapoel-beer-sheva-prepare-red-star-belgrade-champions-league",
+      "title": "Ran Kozuk: Hapoel Beer Sheva prepare for Red Star Belgrade like any other game",
+      "kind": "news",
+      "words": 397,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 41,
+        "longest": 58,
+        "average": 49.6
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 87,
+        "average": 36.1
+      },
+      "lexicalDiversity": 0.592,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-03-hapoel-tel-aviv-douglas-owusu-target",
+      "slug": "hapoel-tel-aviv-target-douglas-owusu-red-star-belgrade-winger",
+      "title": "Report: Hapoel Tel Aviv agree deal with Red Star Belgrade for winger Douglas Owusu",
+      "kind": "news",
+      "words": 411,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 72,
+        "average": 51.4
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 46,
+        "average": 25.7
+      },
+      "lexicalDiversity": 0.56,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-03-semenyo-maresca-guardiola-instructions",
+      "slug": "semenyo-maresca-instructions-music-to-my-ears-guardiola-exit",
+      "title": "Semenyo says Maresca's simple instructions are 'music to my ears' after Guardiola's exit",
+      "kind": "article",
+      "words": 438,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 40,
+        "longest": 76,
+        "average": 54.8
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 66,
+        "average": 29.2
+      },
+      "lexicalDiversity": 0.575,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-03-oren-smadja-knesset-erdan",
+      "slug": "oren-smadja-considers-knesset-run-gilad-erdan",
+      "title": "Oren Smadja weighs Knesset run with Gilad Erdan's new party",
+      "kind": "article",
+      "words": 419,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 23,
+        "longest": 76,
+        "average": 52.4
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 67,
+        "average": 32.2
+      },
+      "lexicalDiversity": 0.585,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
       "id": "live-2026-08-03-omri-kende-players-who-gamble",
       "slug": "omri-kende-players-who-gamble",
       "title": "Omri Kende: plenty of well-known players still gamble",
@@ -3427,27 +3532,6 @@
       },
       "lexicalDiversity": 0.589,
       "publisherAttributions": 1,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-03-hapoel-tel-aviv-eye-owusu-red-star",
-      "slug": "hapoel-tel-aviv-eye-douglas-owusu-red-star-belgrade",
-      "title": "Hapoel Tel Aviv eye Red Star winger Owusu as Loizou replacement",
-      "kind": "news",
-      "words": 310,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 35,
-        "longest": 57,
-        "average": 44.3
-      },
-      "sentenceWords": {
-        "shortest": 6,
-        "longest": 44,
-        "average": 28.2
-      },
-      "lexicalDiversity": 0.597,
-      "publisherAttributions": 0,
       "flags": []
     },
     {

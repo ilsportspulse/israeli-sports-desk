@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T18:09:01.346Z",
+  "generatedAt": "2026-08-03T19:07:30.855Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1129,
-    "publishedBefore": 838,
-    "cleanPublished": 830,
+    "totalArticles": 1135,
+    "publishedBefore": 842,
+    "cleanPublished": 834,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 838,
-    "reviewAfter": 291
+    "publishedAfter": 842,
+    "reviewAfter": 293
   },
   "blockedPublished": [
     {
@@ -157,6 +157,62 @@
   ],
   "warnings": [
     {
+      "id": "live-2026-08-03-schalke-napoli-lindstrom-collapse",
+      "slug": "schalke-napoli-lindstrom-loan-collapse-legal-threat",
+      "title": "Schalke pull out of Lindstrøm loan, Napoli threatens legal action",
+      "statusBefore": "published",
+      "words": 402,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-03-kozuk-hapoel-beer-sheva-red-star-belgrade-preview",
+      "slug": "kozuk-hapoel-beer-sheva-prepare-red-star-belgrade-champions-league",
+      "title": "Ran Kozuk: Hapoel Beer Sheva prepare for Red Star Belgrade like any other game",
+      "statusBefore": "published",
+      "words": 394,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-03-belic-foot-surgery",
+      "slug": "kristijan-belic-foot-surgery-successful-maccabi-tel-aviv",
+      "title": "Maccabi Tel Aviv's Belić has successful surgery on fractured foot",
+      "statusBefore": "review",
+      "words": 338,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-03-oren-smadja-knesset-erdan",
+      "slug": "oren-smadja-considers-knesset-run-gilad-erdan",
+      "title": "Oren Smadja weighs Knesset run with Gilad Erdan's new party",
+      "statusBefore": "published",
+      "words": 422,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-2026-08-03-amit-harel-tzeirei-tamra-goalkeeper",
       "slug": "amit-harel-signs-tzeirei-tamra-goalkeeper",
       "title": "Young goalkeeper Amit Harel leaves Bnei Yehuda academy to join Tzeirei Tamra",
@@ -245,7 +301,7 @@
       "id": "live-2026-08-03-hapoel-tel-aviv-eye-owusu-red-star",
       "slug": "hapoel-tel-aviv-eye-douglas-owusu-red-star-belgrade",
       "title": "Hapoel Tel Aviv eye Red Star winger Owusu as Loizou replacement",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 311,
       "paragraphs": 7,
       "facts": 6,
@@ -10778,6 +10834,72 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-2026-08-03-schalke-napoli-lindstrom-collapse",
+      "slug": "schalke-napoli-lindstrom-loan-collapse-legal-threat",
+      "title": "Schalke pull out of Lindstrøm loan, Napoli threatens legal action",
+      "statusBefore": "published",
+      "words": 402,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-03-kozuk-hapoel-beer-sheva-red-star-belgrade-preview",
+      "slug": "kozuk-hapoel-beer-sheva-prepare-red-star-belgrade-champions-league",
+      "title": "Ran Kozuk: Hapoel Beer Sheva prepare for Red Star Belgrade like any other game",
+      "statusBefore": "published",
+      "words": 394,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-03-hapoel-tel-aviv-douglas-owusu-target",
+      "slug": "hapoel-tel-aviv-target-douglas-owusu-red-star-belgrade-winger",
+      "title": "Report: Hapoel Tel Aviv agree deal with Red Star Belgrade for winger Douglas Owusu",
+      "statusBefore": "published",
+      "words": 412,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-03-semenyo-maresca-guardiola-instructions",
+      "slug": "semenyo-maresca-instructions-music-to-my-ears-guardiola-exit",
+      "title": "Semenyo says Maresca's simple instructions are 'music to my ears' after Guardiola's exit",
+      "statusBefore": "published",
+      "words": 440,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-03-oren-smadja-knesset-erdan",
+      "slug": "oren-smadja-considers-knesset-run-gilad-erdan",
+      "title": "Oren Smadja weighs Knesset run with Gilad Erdan's new party",
+      "statusBefore": "published",
+      "words": 422,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-2026-08-03-omri-kende-players-who-gamble",
       "slug": "omri-kende-players-who-gamble",
       "title": "Omri Kende: plenty of well-known players still gamble",
@@ -10813,20 +10935,6 @@
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-03-hapoel-tel-aviv-eye-owusu-red-star",
-      "slug": "hapoel-tel-aviv-eye-douglas-owusu-red-star-belgrade",
-      "title": "Hapoel Tel Aviv eye Red Star winger Owusu as Loizou replacement",
-      "statusBefore": "published",
-      "words": 311,
-      "paragraphs": 7,
-      "facts": 6,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline"
       ]
     },
     {

@@ -1,5 +1,79 @@
 [
   {
+    "ts": "2026-08-03T18:58:45.133Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 8,
+    "published": 5,
+    "review": 1,
+    "skipped": 2,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "oren-smadja-considers-knesset-run-gilad-erdan",
+        "title": "Oren Smadja weighs Knesset run with Gilad Erdan's new party",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "kristijan-belic-foot-surgery-successful-maccabi-tel-aviv",
+        "title": "Maccabi Tel Aviv's Belić has successful surgery on fractured foot",
+        "confidence": 0.85,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "below gate thresholds"
+      },
+      {
+        "slug": "semenyo-maresca-instructions-music-to-my-ears-guardiola-exit",
+        "title": "Semenyo says Maresca's simple instructions are 'music to my ears' after Guardiola's exit",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "hapoel-tel-aviv-target-douglas-owusu-red-star-belgrade-winger",
+        "title": "Report: Hapoel Tel Aviv agree deal with Red Star Belgrade for winger Douglas Owusu",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "kozuk-hapoel-beer-sheva-prepare-red-star-belgrade-champions-league",
+        "title": "Ran Kozuk: Hapoel Beer Sheva prepare for Red Star Belgrade like any other game",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "hapoel-tel-aviv-douglas-owusu-transfer-battle-maccabi",
+        "title": "Hapoel edge out Maccabi Tel Aviv in tug-of-war for winger Douglas Owusu",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "schalke-napoli-lindstrom-loan-collapse-legal-threat",
+        "title": "Schalke pull out of Lindstrøm loan, Napoli threatens legal action",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "hapoel-tel-aviv-laconic-tamir-blatt-signing",
+        "title": "Hapoel Tel Aviv's laconic Tamir Blatt unveiling fuels loan talk",
+        "decision": "duplicate"
+      }
+    ]
+  },
+  {
     "ts": "2026-08-03T17:58:12.614Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -3359,72 +3433,6 @@
         "title": "Hapoel Petah Tikva denies negotiating with Maccabi Haifa over goalkeeper Omer Katz",
         "decision": "duplicate",
         "reason": "same event as omer-katz-emerges-maccabi-haifa-goalkeeper-target"
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-01T01:52:27.389Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 8,
-    "published": 1,
-    "review": 1,
-    "skipped": 6,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "khalaili-union-saint-gilloise-beat-club-brugge-belgian-super-cup",
-        "title": "Khalaili scores as Union Saint-Gilloise beat Club Brugge 5-4 on penalties to win Belgian Super Cup",
-        "decision": "duplicate",
-        "reason": "same event as khalaili-nottingham-forest-bid-rejected"
-      },
-      {
-        "slug": "tiberias-host-kiryat-shmona-without-metok-bacho-returns",
-        "title": "Tiberias to host Kiryat Shmona without Gal Metok as Bačo returns to the squad",
-        "decision": "duplicate",
-        "reason": "same event as saar-fadida-advanced-talks-ironi-tiberias"
-      },
-      {
-        "slug": "kings-kangwa-panathinaikos-transfer",
-        "title": "Kings Kangwa completes move to Panathinaikos after starring for champions Hapoel Beer Sheva",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "kings-kangwa-leaves-hapoel-beer-sheva-panathinaikos",
-        "title": "Hapoel Beer Sheva lose \"the best player in the league\" as Kangwa completes Panathinaikos move",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "oscar-gloukh-ajax-preseason-form",
-        "title": "Gloukh blooms again as one of the standout performers of Ajax's preseason",
-        "decision": "duplicate",
-        "reason": "same event as oscar-gloukh-ajax-now-or-never-moment-michel"
-      },
-      {
-        "slug": "messi-princess-of-asturias-award-petition-world-cup-final",
-        "title": "Petitions demand Spain strip Messi of Princess of Asturias award after World Cup final row",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "real-madrid-vinicius-junior-contract-ultimatum",
-        "title": "Real Madrid give Vinicius Junior an ultimatum: sign now or be sold",
-        "decision": "duplicate",
-        "reason": "same event as arsenal-record-wage-vinicius-junior-real-madrid"
-      },
-      {
-        "slug": "bnei-sakhnin-sign-dimitri-cavare-club-record-salary",
-        "title": "Bnei Sakhnin sign Guadeloupe defender Dimitri Cavaré on club-record salary",
-        "confidence": 0.82,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Salary figure (~€250,000/season) reported by ONE only; not yet confirmed by the club itself."
       }
     ]
   }
