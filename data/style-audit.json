@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T12:05:59.620Z",
+  "generatedAt": "2026-08-03T12:21:28.771Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,23 +11,23 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 816,
+    "publishedArticles": 819,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 423,
-      "average": 426.3
+      "average": 425.9
     },
     "paragraphDistribution": {
       "3": 34,
       "4": 6,
       "5": 10,
       "6": 36,
-      "7": 118,
-      "8": 222,
-      "9": 189,
-      "10": 141,
-      "11": 38,
+      "7": 119,
+      "8": 223,
+      "9": 190,
+      "10": 142,
+      "11": 37,
       "12": 12,
       "13": 4,
       "14": 2,
@@ -39,7 +39,7 @@
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 36,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 142
+    "articlesWithStyleFlags": 141
   },
   "flagged": [
     {
@@ -279,29 +279,6 @@
       "publisherAttributions": 2,
       "flags": [
         "below-editorial-target:204/280",
-        "publisher-attribution-heavy:2"
-      ]
-    },
-    {
-      "id": "live-2026-08-03-shtilman-recanati-maccabi-tel-aviv-offer",
-      "slug": "shtilman-recanati-maccabi-tel-aviv-ownership-offer",
-      "title": "Shtilman gives Recanati family a Sunday deadline on $120m Maccabi Tel Aviv bid",
-      "kind": "news",
-      "words": 618,
-      "paragraphs": 11,
-      "paragraphWords": {
-        "shortest": 38,
-        "longest": 67,
-        "average": 56.2
-      },
-      "sentenceWords": {
-        "shortest": 3,
-        "longest": 107,
-        "average": 38.6
-      },
-      "lexicalDiversity": 0.532,
-      "publisherAttributions": 2,
-      "flags": [
         "publisher-attribution-heavy:2"
       ]
     },
@@ -3320,6 +3297,90 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-03-liga-alef-hadera-marmorek-round-1",
+      "slug": "hapoel-hadera-hapoel-marmorek-liga-alef-south-opener",
+      "title": "Hapoel Hadera drawn against Hapoel Marmorek in Liga Alef South opener",
+      "kind": "news",
+      "words": 389,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 26,
+        "longest": 96,
+        "average": 43.2
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 52,
+        "average": 29.9
+      },
+      "lexicalDiversity": 0.584,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-03-berman-skorka-womens-champions-league-referees",
+      "slug": "berman-skorka-womens-champions-league-referees",
+      "title": "Berman and Skorka appointed to officiate Women's Champions League qualifiers",
+      "kind": "news",
+      "words": 336,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 38,
+        "longest": 59,
+        "average": 48
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 47,
+        "average": 24
+      },
+      "lexicalDiversity": 0.598,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-03-shtilman-recanati-maccabi-tel-aviv-offer",
+      "slug": "shtilman-recanati-maccabi-tel-aviv-takeover-offer",
+      "title": "Shtilman raises Maccabi Tel Aviv bid to $150m, gives Recanati family a Sunday deadline",
+      "kind": "article",
+      "words": 441,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 25,
+        "longest": 74,
+        "average": 44.1
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 60,
+        "average": 36.8
+      },
+      "lexicalDiversity": 0.558,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-03-maccabi-tel-aviv-ofi-crete-draw",
+      "slug": "maccabi-tel-aviv-drawn-ofi-crete-europa-league-playoff",
+      "title": "Maccabi Tel Aviv drawn against OFI Crete in Europa League play-off round",
+      "kind": "news",
+      "words": 377,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 41,
+        "longest": 51,
+        "average": 47.1
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 49,
+        "average": 34.3
+      },
+      "lexicalDiversity": 0.562,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260803-omri-kende-training-lies-confession",
       "slug": "omri-kende-lied-to-teammates-about-training-lineup",

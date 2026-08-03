@@ -1,16 +1,22 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-08-03-maccabi-tel-aviv-ofi-crete-playoff-preview",
-      "article": "Beat CSKA Sofia and Maccabi Tel Aviv will meet Crete's OFI in the Europa League play-off",
-      "file": "File:Dan Glazer 2022 (cropped).jpg",
+      "articleId": "live-2026-08-03-berman-skorka-womens-champions-league-referees",
+      "article": "Berman and Skorka appointed to officiate Women's Champions League qualifiers",
+      "file": "File:Sapir Berman.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
       "articleId": "live-2026-08-03-shtilman-recanati-maccabi-tel-aviv-offer",
-      "article": "Shtilman gives Recanati family a Sunday deadline on $120m Maccabi Tel Aviv bid",
+      "article": "Shtilman raises Maccabi Tel Aviv bid to $150m, gives Recanati family a Sunday deadline",
       "file": "File:Harrison Barnes dunk USA Basketball Blue vs White game Las Vegas 2013.jpg",
       "license": "Public domain"
+    },
+    {
+      "articleId": "live-20260803-ziv-adler-var-rules",
+      "article": "Referees chief Ziv Adler details Israeli football's expanded VAR powers and new rules",
+      "file": "File:Baldomero Toledo checks VAR - Seattle Sounders vs. Sporting Kansas City.jpg",
+      "license": "CC BY-SA 4.0"
     },
     {
       "articleId": "live-20260714-basketball-coaches-registration",
@@ -22,9 +28,14 @@
   ],
   "failures": [
     {
-      "id": "live-2026-08-03-beer-sheva-champions-league-playoff-aarhus-sabah",
-      "title": "If Beer Sheva get past Red Star, Aarhus or Sabah await in Champions League playoff",
+      "id": "live-2026-08-03-liga-alef-hadera-marmorek-round-1",
+      "title": "Hapoel Hadera drawn against Hapoel Marmorek in Liga Alef South opener",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-2026-08-03-maccabi-tel-aviv-ofi-crete-draw",
+      "title": "Maccabi Tel Aviv drawn against OFI Crete in Europa League play-off round",
+      "error": "image download 429 after retries"
     },
     {
       "id": "live-20260803-solomon-west-ham-transfer",
