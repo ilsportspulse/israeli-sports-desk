@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T10:01:29.497Z",
+  "generatedAt": "2026-08-03T10:58:29.666Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,7 +11,7 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 812,
+    "publishedArticles": 815,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
@@ -23,10 +23,10 @@
       "4": 6,
       "5": 10,
       "6": 36,
-      "7": 117,
+      "7": 118,
       "8": 222,
       "9": 189,
-      "10": 139,
+      "10": 141,
       "11": 37,
       "12": 12,
       "13": 4,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.273,
+    "dominantParagraphShare": 0.272,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 36,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 140
+    "articlesWithStyleFlags": 141
   },
   "flagged": [
     {
@@ -280,6 +280,29 @@
       "flags": [
         "below-editorial-target:204/280",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-03-beitar-gadrani-yosefi-full-training",
+      "slug": "beitar-jerusalem-gadrani-yosefi-return-full-training",
+      "title": "Beitar boosted as Gadrani and Yosefi return to full training before Austria Wien tie",
+      "kind": "news",
+      "words": 270,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 50,
+        "average": 38.6
+      },
+      "sentenceWords": {
+        "shortest": 3,
+        "longest": 47,
+        "average": 33.8
+      },
+      "lexicalDiversity": 0.678,
+      "publisherAttributions": 0,
+      "flags": [
+        "below-editorial-target:270/280"
       ]
     },
     {
@@ -3274,6 +3297,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260803-omri-kende-training-lies-confession",
+      "slug": "omri-kende-lied-to-teammates-about-training-lineup",
+      "title": "Omri Kende: 'I lied to teammates that there was no training, just to make the lineup'",
+      "kind": "news",
+      "words": 499,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 69,
+        "average": 49.9
+      },
+      "sentenceWords": {
+        "shortest": 19,
+        "longest": 129,
+        "average": 45.4
+      },
+      "lexicalDiversity": 0.545,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260803-beersheba-champions-league-path",
+      "slug": "hapoel-beer-sheva-champions-league-path-aarhus-sabah-red-star",
+      "title": "Get past Red Star and Be'er Sheva would face Aarhus or Sabah for a place in Europe's top table",
+      "kind": "news",
+      "words": 513,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 68,
+        "average": 51.3
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 55,
+        "average": 28.5
+      },
+      "lexicalDiversity": 0.524,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260803-solomon-west-ham-transfer",
       "slug": "manor-solomon-west-ham-tottenham-transfer-report",
