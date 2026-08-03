@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T12:21:28.278Z",
+  "generatedAt": "2026-08-03T12:48:50.950Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1099,
+    "totalArticles": 1101,
     "publishedBefore": 819,
     "cleanPublished": 811,
     "blockedPublished": 8,
     "demoted": 0,
     "publishedAfter": 819,
-    "reviewAfter": 280
+    "reviewAfter": 282
   },
   "blockedPublished": [
     {
@@ -157,12 +157,12 @@
   ],
   "warnings": [
     {
-      "id": "live-2026-08-03-liga-alef-hadera-marmorek-round-1",
-      "slug": "hapoel-hadera-hapoel-marmorek-liga-alef-south-opener",
-      "title": "Hapoel Hadera drawn against Hapoel Marmorek in Liga Alef South opener",
-      "statusBefore": "published",
-      "words": 388,
-      "paragraphs": 9,
+      "id": "live-2026-08-03-beer-sheva-champions-league-playoff-aarhus-sabah",
+      "slug": "beer-sheva-champions-league-playoff-aarhus-sabah",
+      "title": "If Beer Sheva get past Red Star, Aarhus or Sabah await in Champions League playoff",
+      "statusBefore": "review",
+      "words": 373,
+      "paragraphs": 8,
       "facts": 6,
       "verificationSources": 3,
       "blockers": [],
@@ -171,17 +171,17 @@
       ]
     },
     {
-      "id": "live-2026-08-03-berman-skorka-womens-champions-league-referees",
-      "slug": "berman-skorka-womens-champions-league-referees",
-      "title": "Berman and Skorka appointed to officiate Women's Champions League qualifiers",
-      "statusBefore": "published",
-      "words": 335,
-      "paragraphs": 7,
-      "facts": 6,
+      "id": "live-2026-08-03-maccabi-tel-aviv-ofi-crete-playoff-preview",
+      "slug": "maccabi-tel-aviv-ofi-crete-europa-league-playoff",
+      "title": "Beat CSKA Sofia and Maccabi Tel Aviv will meet Crete's OFI in the Europa League play-off",
+      "statusBefore": "review",
+      "words": 463,
+      "paragraphs": 8,
+      "facts": 7,
       "verificationSources": 3,
       "blockers": [],
       "warnings": [
-        "media:no-action-or-competition-context-detected"
+        "voice:stock-editorial-phrase-detected"
       ]
     },
     {
@@ -10516,9 +10516,7 @@
         "presentation:outlet-name-in-headline",
         "media:no-action-or-competition-context-detected"
       ]
-    }
-  ],
-  "cleanPublished": [
+    },
     {
       "id": "live-2026-08-03-liga-alef-hadera-marmorek-round-1",
       "slug": "hapoel-hadera-hapoel-marmorek-liga-alef-south-opener",
@@ -10546,7 +10544,9 @@
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
-    },
+    }
+  ],
+  "cleanPublished": [
     {
       "id": "live-2026-08-03-shtilman-recanati-maccabi-tel-aviv-offer",
       "slug": "shtilman-recanati-maccabi-tel-aviv-takeover-offer",
@@ -10555,18 +10555,6 @@
       "words": 445,
       "paragraphs": 10,
       "facts": 7,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": []
-    },
-    {
-      "id": "live-2026-08-03-maccabi-tel-aviv-ofi-crete-draw",
-      "slug": "maccabi-tel-aviv-drawn-ofi-crete-europa-league-playoff",
-      "title": "Maccabi Tel Aviv drawn against OFI Crete in Europa League play-off round",
-      "statusBefore": "published",
-      "words": 381,
-      "paragraphs": 8,
-      "facts": 8,
       "verificationSources": 4,
       "blockers": [],
       "warnings": []
@@ -21484,6 +21472,46 @@
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
+    },
+    {
+      "id": "live-2026-08-03-liga-alef-hadera-marmorek-round-1",
+      "slug": "hapoel-hadera-hapoel-marmorek-liga-alef-south-opener",
+      "title": "Hapoel Hadera drawn against Hapoel Marmorek in Liga Alef South opener",
+      "statusBefore": "published",
+      "words": 388,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-08-03-berman-skorka-womens-champions-league-referees",
+      "slug": "berman-skorka-womens-champions-league-referees",
+      "title": "Berman and Skorka appointed to officiate Women's Champions League qualifiers",
+      "statusBefore": "published",
+      "words": 335,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-03-maccabi-tel-aviv-ofi-crete-draw",
+      "slug": "maccabi-tel-aviv-drawn-ofi-crete-europa-league-playoff",
+      "title": "Maccabi Tel Aviv drawn against OFI Crete in Europa League play-off round",
+      "statusBefore": "published",
+      "words": 381,
+      "paragraphs": 8,
+      "facts": 8,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
     }
   ]
 }
