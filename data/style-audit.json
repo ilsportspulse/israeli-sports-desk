@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T15:59:32.630Z",
+  "generatedAt": "2026-08-03T17:00:10.217Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,7 +11,7 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 833,
+    "publishedArticles": 836,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
@@ -24,8 +24,8 @@
       "5": 10,
       "6": 37,
       "7": 122,
-      "8": 227,
-      "9": 194,
+      "8": 228,
+      "9": 196,
       "10": 144,
       "11": 37,
       "12": 12,
@@ -3366,6 +3366,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260803-beer-sheva-red-star-preview",
+      "slug": "ganeah-ventura-hapoel-beer-sheva-red-star-belgrade-preview",
+      "title": "Ganeah a nightmare to face, Ventura the key man, warns Red Star Belgrade's own analyst",
+      "kind": "news",
+      "words": 431,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 62,
+        "average": 47.9
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 81,
+        "average": 43.1
+      },
+      "lexicalDiversity": 0.603,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-03-stankovic-red-star-champions-league-dream-beer-sheva",
+      "slug": "stankovic-red-star-champions-league-dream-beer-sheva",
+      "title": "Stanković fights his demons as Red Star Belgrade prepare to meet Hapoel Be'er Sheva",
+      "kind": "article",
+      "words": 466,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 65,
+        "average": 51.8
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 54,
+        "average": 27.4
+      },
+      "lexicalDiversity": 0.556,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-03-maccabi-tel-aviv-uefa-fine-closed-doors",
+      "slug": "maccabi-tel-aviv-uefa-fine-closed-doors-cska-sofia",
+      "title": "Maccabi Tel Aviv fined €40,000 and told to play behind closed doors over flares",
+      "kind": "news",
+      "words": 397,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 41,
+        "longest": 57,
+        "average": 49.6
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 54,
+        "average": 36.1
+      },
+      "lexicalDiversity": 0.592,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-03-ferran-torres-barcelona-future",
       "slug": "ferran-torres-barcelona-future-uncertain-psg-interest",
