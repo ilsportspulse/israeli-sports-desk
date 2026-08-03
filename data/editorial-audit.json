@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T08:51:06.958Z",
+  "generatedAt": "2026-08-03T10:01:29.024Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1082,
-    "publishedBefore": 810,
-    "cleanPublished": 802,
+    "totalArticles": 1089,
+    "publishedBefore": 812,
+    "cleanPublished": 804,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 810,
-    "reviewAfter": 272
+    "publishedAfter": 812,
+    "reviewAfter": 277
   },
   "blockedPublished": [
     {
@@ -157,6 +157,91 @@
   ],
   "warnings": [
     {
+      "id": "live-20260803-solomon-west-ham-transfer",
+      "slug": "manor-solomon-west-ham-tottenham-transfer-report",
+      "title": "Tottenham ready to sell Manor Solomon to West Ham, Sport5 reports",
+      "statusBefore": "published",
+      "words": 436,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-08-03-maccabi-tel-aviv-sign-armando-bacot",
+      "slug": "maccabi-tel-aviv-sign-armando-bacot",
+      "title": "Maccabi Tel Aviv agree deal for former Fenerbahçe center Armando Bacot",
+      "statusBefore": "review",
+      "words": 354,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-03-maccabi-netanya-toto-cup-defeat",
+      "slug": "hapoel-ramat-gan-maccabi-netanya-toto-cup-frustration",
+      "title": "Hapoel Ramat Gan 3-2 Maccabi Netanya: Feldman admits press was 'not good enough' as frustration grows",
+      "statusBefore": "published",
+      "words": 553,
+      "paragraphs": 10,
+      "facts": 9,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-03-maccabi-ramat-gan-edgar-light-the-lights",
+      "slug": "maccabi-ramat-gan-edgar-light-the-lights-season-ticket-video",
+      "title": "Maccabi Ramat Gan light up a season-ticket campaign with Edgar, the arena's new star",
+      "statusBefore": "review",
+      "words": 433,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-03-manor-solomon-west-ham-interest",
+      "slug": "manor-solomon-west-ham-tottenham-transfer-interest",
+      "title": "Tottenham ready to sell Manor Solomon as West Ham weigh Championship move",
+      "statusBefore": "review",
+      "words": 425,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-08-03-hapoel-jerusalem-adelson-logo-fans",
+      "slug": "matan-adelson-hapoel-jerusalem-logo-fans-explanation",
+      "title": "Adelson breaks silence on Hapoel Jerusalem crest row: \"I think about what's best for this club\"",
+      "statusBefore": "published",
+      "words": 500,
+      "paragraphs": 11,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-2026-08-03-european-open-water-seine-israelis-preview",
       "slug": "european-open-water-championships-seine-israelis-preview",
       "title": "European Open Water Swimming Championships dive into the Seine tomorrow with four Israelis in the water",
@@ -196,6 +281,20 @@
       "blockers": [],
       "warnings": [
         "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-03-satoransky-hapoel-tel-aviv-workload",
+      "slug": "satoransky-hapoel-tel-aviv-cut-workload-euroleague-ambition",
+      "title": "Satoransky: I wanted to cut my workload, and Hapoel Tel Aviv want to win the Euroleague",
+      "statusBefore": "published",
+      "words": 513,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -420,7 +519,7 @@
       "id": "live-2026-08-03-dolev-haziza-netanya-debut-quotes",
       "slug": "dolev-haziza-netanya-debut-reaction",
       "title": "Dolev Haziza: 'I don't accept this defeat' as Netanya debut ends in 3-2 loss to Hapoel Ramat Gan",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 467,
       "paragraphs": 9,
       "facts": 7,
@@ -10364,6 +10463,48 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-20260803-solomon-west-ham-transfer",
+      "slug": "manor-solomon-west-ham-tottenham-transfer-report",
+      "title": "Tottenham ready to sell Manor Solomon to West Ham, Sport5 reports",
+      "statusBefore": "published",
+      "words": 436,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-08-03-maccabi-netanya-toto-cup-defeat",
+      "slug": "hapoel-ramat-gan-maccabi-netanya-toto-cup-frustration",
+      "title": "Hapoel Ramat Gan 3-2 Maccabi Netanya: Feldman admits press was 'not good enough' as frustration grows",
+      "statusBefore": "published",
+      "words": 553,
+      "paragraphs": 10,
+      "facts": 9,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-03-hapoel-jerusalem-adelson-logo-fans",
+      "slug": "matan-adelson-hapoel-jerusalem-logo-fans-explanation",
+      "title": "Adelson breaks silence on Hapoel Jerusalem crest row: \"I think about what's best for this club\"",
+      "statusBefore": "published",
+      "words": 500,
+      "paragraphs": 11,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-2026-08-03-satoransky-hapoel-tel-aviv-workload",
       "slug": "satoransky-hapoel-tel-aviv-cut-workload-euroleague-ambition",
       "title": "Satoransky: I wanted to cut my workload, and Hapoel Tel Aviv want to win the Euroleague",
@@ -10373,7 +10514,9 @@
       "facts": 7,
       "verificationSources": 3,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-2026-08-03-nahuel-maccabi-haifa-release",
@@ -10587,21 +10730,6 @@
       "warnings": [
         "presentation:outlet-name-in-headline",
         "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-03-dolev-haziza-netanya-debut-quotes",
-      "slug": "dolev-haziza-netanya-debut-reaction",
-      "title": "Dolev Haziza: 'I don't accept this defeat' as Netanya debut ends in 3-2 loss to Hapoel Ramat Gan",
-      "statusBefore": "published",
-      "words": 467,
-      "paragraphs": 9,
-      "facts": 7,
-      "verificationSources": 5,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected",
-        "voice:stock-editorial-phrase-detected"
       ]
     },
     {

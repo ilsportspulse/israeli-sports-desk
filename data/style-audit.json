@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T08:51:07.437Z",
+  "generatedAt": "2026-08-03T10:01:29.497Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 810,
+    "publishedArticles": 812,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 422.5,
-      "average": 425.9
+      "median": 423,
+      "average": 426.1
     },
     "paragraphDistribution": {
       "3": 34,
@@ -26,8 +26,8 @@
       "7": 117,
       "8": 222,
       "9": 189,
-      "10": 138,
-      "11": 36,
+      "10": 139,
+      "11": 37,
       "12": 12,
       "13": 4,
       "14": 2,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.274,
+    "dominantParagraphShare": 0.273,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 36,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 141
+    "articlesWithStyleFlags": 140
   },
   "flagged": [
     {
@@ -303,29 +303,6 @@
       "publisherAttributions": 1,
       "flags": [
         "below-editorial-target:498/500"
-      ]
-    },
-    {
-      "id": "live-2026-08-03-dolev-haziza-netanya-debut-quotes",
-      "slug": "dolev-haziza-netanya-debut-reaction",
-      "title": "Dolev Haziza: 'I don't accept this defeat' as Netanya debut ends in 3-2 loss to Hapoel Ramat Gan",
-      "kind": "news",
-      "words": 469,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 38,
-        "longest": 76,
-        "average": 52.1
-      },
-      "sentenceWords": {
-        "shortest": 6,
-        "longest": 80,
-        "average": 29.3
-      },
-      "lexicalDiversity": 0.55,
-      "publisherAttributions": 0,
-      "flags": [
-        "stock-phrase:statement-of-intent"
       ]
     },
     {
@@ -3297,6 +3274,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260803-solomon-west-ham-transfer",
+      "slug": "manor-solomon-west-ham-tottenham-transfer-report",
+      "title": "Tottenham ready to sell Manor Solomon to West Ham, Sport5 reports",
+      "kind": "news",
+      "words": 436,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 40,
+        "longest": 57,
+        "average": 48.4
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 46,
+        "average": 27.3
+      },
+      "lexicalDiversity": 0.583,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-03-maccabi-netanya-toto-cup-defeat",
+      "slug": "hapoel-ramat-gan-maccabi-netanya-toto-cup-frustration",
+      "title": "Hapoel Ramat Gan 3-2 Maccabi Netanya: Feldman admits press was 'not good enough' as frustration grows",
+      "kind": "article",
+      "words": 553,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 95,
+        "average": 55.3
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 64,
+        "average": 34.6
+      },
+      "lexicalDiversity": 0.555,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-03-hapoel-jerusalem-adelson-logo-fans",
+      "slug": "matan-adelson-hapoel-jerusalem-logo-fans-explanation",
+      "title": "Adelson breaks silence on Hapoel Jerusalem crest row: \"I think about what's best for this club\"",
+      "kind": "article",
+      "words": 499,
+      "paragraphs": 11,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 58,
+        "average": 45.4
+      },
+      "sentenceWords": {
+        "shortest": 26,
+        "longest": 94,
+        "average": 45.4
+      },
+      "lexicalDiversity": 0.585,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-03-satoransky-hapoel-tel-aviv-workload",
       "slug": "satoransky-hapoel-tel-aviv-cut-workload-euroleague-ambition",
