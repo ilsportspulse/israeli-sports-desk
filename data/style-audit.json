@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T03:48:20.753Z",
+  "generatedAt": "2026-08-03T05:01:29.776Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,7 +11,7 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 793,
+    "publishedArticles": 795,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
@@ -24,8 +24,8 @@
       "5": 10,
       "6": 36,
       "7": 115,
-      "8": 215,
-      "9": 184,
+      "8": 216,
+      "9": 185,
       "10": 135,
       "11": 36,
       "12": 12,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.271,
+    "dominantParagraphShare": 0.272,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 36,
     "analysisBelowTarget": 9,
@@ -3297,6 +3297,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-03-barcelona-alvarez-atletico-standoff",
+      "slug": "barcelona-waits-julian-alvarez-atletico-standoff",
+      "title": "Barcelona waits on Álvarez, but stays calm about the striker position",
+      "kind": "news",
+      "words": 417,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 42,
+        "longest": 66,
+        "average": 52.1
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 52,
+        "average": 34.8
+      },
+      "lexicalDiversity": 0.573,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-03-liverpool-leeds-preseason-collapse",
+      "slug": "liverpool-collapse-leeds-preseason-chicago",
+      "title": "Leeds 4-2 Liverpool: Calvert-Lewin double sinks Reds after 2-0 collapse",
+      "kind": "article",
+      "words": 416,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 61,
+        "average": 46.2
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 48,
+        "average": 26
+      },
+      "lexicalDiversity": 0.627,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-03-theis-maccabi-tel-aviv-salary",
       "slug": "daniel-theis-maccabi-tel-aviv-top-salary",
