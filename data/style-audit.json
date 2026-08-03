@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T17:12:34.618Z",
+  "generatedAt": "2026-08-03T18:09:01.821Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,7 +11,7 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 836,
+    "publishedArticles": 838,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
@@ -24,8 +24,8 @@
       "5": 10,
       "6": 37,
       "7": 122,
-      "8": 229,
-      "9": 194,
+      "8": 230,
+      "9": 195,
       "10": 145,
       "11": 37,
       "12": 12,
@@ -3367,66 +3367,45 @@
   ],
   "clean": [
     {
-      "id": "live-2026-08-03-mourinho-modric-role-bernardo-silva",
-      "slug": "mourinho-modric-role-bernardo-silva-real-madrid",
-      "title": "Modric 2.0? The role Mourinho has in mind for Bernardo Silva at Real Madrid",
+      "id": "live-2026-08-03-omri-kende-players-who-gamble",
+      "slug": "omri-kende-players-who-gamble",
+      "title": "Omri Kende: plenty of well-known players still gamble",
       "kind": "news",
-      "words": 353,
+      "words": 450,
       "paragraphs": 8,
       "paragraphWords": {
-        "shortest": 35,
-        "longest": 50,
-        "average": 44.1
+        "shortest": 43,
+        "longest": 83,
+        "average": 56.3
       },
       "sentenceWords": {
-        "shortest": 10,
-        "longest": 54,
-        "average": 29.4
-      },
-      "lexicalDiversity": 0.632,
-      "publisherAttributions": 1,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-03-ganah-ventura-beer-sheva-red-star-preview",
-      "slug": "ganah-ventura-beer-sheva-red-star-preview",
-      "title": "Serbian coach warns Red Star: Ganah is a handful, Ventura is Be'er Sheva's key man",
-      "kind": "article",
-      "words": 450,
-      "paragraphs": 10,
-      "paragraphWords": {
-        "shortest": 30,
-        "longest": 64,
-        "average": 45
-      },
-      "sentenceWords": {
-        "shortest": 17,
-        "longest": 53,
+        "shortest": 7,
+        "longest": 51,
         "average": 32.1
       },
-      "lexicalDiversity": 0.567,
-      "publisherAttributions": 1,
+      "lexicalDiversity": 0.564,
+      "publisherAttributions": 0,
       "flags": []
     },
     {
-      "id": "live-20260803-maccabi-tel-aviv-fined-closed-doors-cska-sofia",
-      "slug": "maccabi-tel-aviv-fined-closed-doors-cska-sofia",
-      "title": "Maccabi Tel Aviv fined and ordered to play Europa League tie without fans",
-      "kind": "news",
-      "words": 381,
-      "paragraphs": 8,
+      "id": "live-2026-08-03-stankovic-red-star-champions-league-dream-beer-sheva",
+      "slug": "stankovic-red-star-champions-league-dream-beer-sheva",
+      "title": "Stanković fights his demons as Red Star Belgrade prepare to meet Hapoel Be'er Sheva",
+      "kind": "article",
+      "words": 466,
+      "paragraphs": 9,
       "paragraphWords": {
-        "shortest": 36,
-        "longest": 66,
-        "average": 47.6
+        "shortest": 37,
+        "longest": 65,
+        "average": 51.8
       },
       "sentenceWords": {
-        "shortest": 5,
-        "longest": 42,
-        "average": 29.3
+        "shortest": 7,
+        "longest": 54,
+        "average": 27.4
       },
-      "lexicalDiversity": 0.575,
-      "publisherAttributions": 0,
+      "lexicalDiversity": 0.556,
+      "publisherAttributions": 1,
       "flags": []
     },
     {
@@ -17895,6 +17874,69 @@
         "average": 34.3
       },
       "lexicalDiversity": 0.562,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-03-mourinho-modric-role-bernardo-silva",
+      "slug": "mourinho-modric-role-bernardo-silva-real-madrid",
+      "title": "Modric 2.0? The role Mourinho has in mind for Bernardo Silva at Real Madrid",
+      "kind": "news",
+      "words": 353,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 50,
+        "average": 44.1
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 54,
+        "average": 29.4
+      },
+      "lexicalDiversity": 0.632,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-03-ganah-ventura-beer-sheva-red-star-preview",
+      "slug": "ganah-ventura-beer-sheva-red-star-preview",
+      "title": "Serbian coach warns Red Star: Ganah is a handful, Ventura is Be'er Sheva's key man",
+      "kind": "article",
+      "words": 450,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 64,
+        "average": 45
+      },
+      "sentenceWords": {
+        "shortest": 17,
+        "longest": 53,
+        "average": 32.1
+      },
+      "lexicalDiversity": 0.567,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260803-maccabi-tel-aviv-fined-closed-doors-cska-sofia",
+      "slug": "maccabi-tel-aviv-fined-closed-doors-cska-sofia",
+      "title": "Maccabi Tel Aviv fined and ordered to play Europa League tie without fans",
+      "kind": "news",
+      "words": 381,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 66,
+        "average": 47.6
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 42,
+        "average": 29.3
+      },
+      "lexicalDiversity": 0.575,
       "publisherAttributions": 0,
       "flags": []
     }

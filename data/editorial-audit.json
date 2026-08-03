@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T17:12:34.118Z",
+  "generatedAt": "2026-08-03T18:09:01.346Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1122,
-    "publishedBefore": 836,
-    "cleanPublished": 828,
+    "totalArticles": 1129,
+    "publishedBefore": 838,
+    "cleanPublished": 830,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 836,
-    "reviewAfter": 286
+    "publishedAfter": 838,
+    "reviewAfter": 291
   },
   "blockedPublished": [
     {
@@ -157,43 +157,43 @@
   ],
   "warnings": [
     {
-      "id": "live-2026-08-03-israel-u18-handball-beat-switzerland",
-      "slug": "israel-u18-handball-beat-switzerland-44-38-first-win",
-      "title": "Israel Under-18 handball team beat Switzerland 44-38 for first win at European Championship",
+      "id": "live-2026-08-03-amit-harel-tzeirei-tamra-goalkeeper",
+      "slug": "amit-harel-signs-tzeirei-tamra-goalkeeper",
+      "title": "Young goalkeeper Amit Harel leaves Bnei Yehuda academy to join Tzeirei Tamra",
       "statusBefore": "review",
-      "words": 350,
+      "words": 294,
       "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-03-israel-artistic-swimming-seventh-team-free-europeans",
+      "slug": "israel-seventh-team-free-final-european-artistic-swimming-2026",
+      "title": "Israel finish seventh in team free final at European artistic swimming championships",
+      "statusBefore": "review",
+      "words": 290,
+      "paragraphs": 7,
       "facts": 7,
       "verificationSources": 2,
       "blockers": [],
       "warnings": [
-        "media:no-action-or-competition-context-detected"
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
       ]
     },
     {
-      "id": "live-2026-08-03-israel-seventh-artistic-swimming-team-free-paris",
-      "slug": "israel-seventh-team-free-final-artistic-swimming-european-championships",
-      "title": "Israel finish seventh in team free routine final at European Aquatics Championships",
+      "id": "live-20260803-beer-sheva-red-star-preview",
+      "slug": "ganeah-ventura-hapoel-beer-sheva-red-star-belgrade-preview",
+      "title": "Ganeah a nightmare to face, Ventura the key man, warns Red Star Belgrade's own analyst",
       "statusBefore": "review",
-      "words": 236,
-      "paragraphs": 6,
-      "facts": 6,
-      "verificationSources": 1,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline",
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-20260803-maccabi-tel-aviv-fined-closed-doors-cska-sofia",
-      "slug": "maccabi-tel-aviv-fined-closed-doors-cska-sofia",
-      "title": "Maccabi Tel Aviv fined and ordered to play Europa League tie without fans",
-      "statusBefore": "published",
-      "words": 378,
-      "paragraphs": 8,
-      "facts": 6,
-      "verificationSources": 3,
+      "words": 435,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -10717,9 +10717,36 @@
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
-    }
-  ],
-  "cleanPublished": [
+    },
+    {
+      "id": "live-2026-08-03-israel-u18-handball-beat-switzerland",
+      "slug": "israel-u18-handball-beat-switzerland-44-38-first-win",
+      "title": "Israel Under-18 handball team beat Switzerland 44-38 for first win at European Championship",
+      "statusBefore": "review",
+      "words": 350,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-03-israel-seventh-artistic-swimming-team-free-paris",
+      "slug": "israel-seventh-team-free-final-artistic-swimming-european-championships",
+      "title": "Israel finish seventh in team free routine final at European Aquatics Championships",
+      "statusBefore": "review",
+      "words": 236,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-08-03-mourinho-modric-role-bernardo-silva",
       "slug": "mourinho-modric-role-bernardo-silva-real-madrid",
@@ -10730,19 +10757,9 @@
       "facts": 8,
       "verificationSources": 3,
       "blockers": [],
-      "warnings": []
-    },
-    {
-      "id": "live-2026-08-03-ganah-ventura-beer-sheva-red-star-preview",
-      "slug": "ganah-ventura-beer-sheva-red-star-preview",
-      "title": "Serbian coach warns Red Star: Ganah is a handful, Ventura is Be'er Sheva's key man",
-      "statusBefore": "published",
-      "words": 454,
-      "paragraphs": 10,
-      "facts": 8,
-      "verificationSources": 5,
-      "blockers": [],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-20260803-maccabi-tel-aviv-fined-closed-doors-cska-sofia",
@@ -10757,6 +10774,32 @@
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
+    }
+  ],
+  "cleanPublished": [
+    {
+      "id": "live-2026-08-03-omri-kende-players-who-gamble",
+      "slug": "omri-kende-players-who-gamble",
+      "title": "Omri Kende: plenty of well-known players still gamble",
+      "statusBefore": "published",
+      "words": 450,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-03-stankovic-red-star-champions-league-dream-beer-sheva",
+      "slug": "stankovic-red-star-champions-league-dream-beer-sheva",
+      "title": "Stanković fights his demons as Red Star Belgrade prepare to meet Hapoel Be'er Sheva",
+      "statusBefore": "published",
+      "words": 467,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
     },
     {
       "id": "live-2026-08-03-ferran-torres-barcelona-future",
@@ -21909,6 +21952,46 @@
       "verificationSources": 4,
       "blockers": [],
       "warnings": []
+    },
+    {
+      "id": "live-2026-08-03-mourinho-modric-role-bernardo-silva",
+      "slug": "mourinho-modric-role-bernardo-silva-real-madrid",
+      "title": "Modric 2.0? The role Mourinho has in mind for Bernardo Silva at Real Madrid",
+      "statusBefore": "published",
+      "words": 353,
+      "paragraphs": 8,
+      "facts": 8,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-03-ganah-ventura-beer-sheva-red-star-preview",
+      "slug": "ganah-ventura-beer-sheva-red-star-preview",
+      "title": "Serbian coach warns Red Star: Ganah is a handful, Ventura is Be'er Sheva's key man",
+      "statusBefore": "published",
+      "words": 454,
+      "paragraphs": 10,
+      "facts": 8,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260803-maccabi-tel-aviv-fined-closed-doors-cska-sofia",
+      "slug": "maccabi-tel-aviv-fined-closed-doors-cska-sofia",
+      "title": "Maccabi Tel Aviv fined and ordered to play Europa League tie without fans",
+      "statusBefore": "published",
+      "words": 378,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     }
   ]
 }
