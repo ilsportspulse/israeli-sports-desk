@@ -1,28 +1,28 @@
 {
   "selections": [
     {
-      "articleId": "live-20260803-vozinha-colo-colo-welcome",
-      "article": "World Cup sensation Vozinha lands in Chile to a hero's welcome from Colo Colo fans",
-      "file": "File:Vozinha Cape Verde Goalkeeper.jpg",
-      "license": "CC BY 4.0"
-    },
-    {
-      "articleId": "live-2026-08-03-uefa-threatens-legal-action-infantino-fifa",
-      "article": "UEFA threatens legal action against Infantino and FIFA over collapsed investment plan",
-      "file": "File:2026 Gianni Infantino (cropped).jpg",
-      "license": "Public domain"
-    },
-    {
-      "articleId": "live-2026-08-03-barcelona-alvarez-striker-wait",
-      "article": "Barcelona waiting on Álvarez, but relaxed about the striker position",
-      "file": "File:Julian Alvarez Argentina v Egypt 7 July 2026-056.jpg",
+      "articleId": "live-20260803-andreou-maccabi-tel-aviv-estoril",
+      "article": "Maccabi Tel Aviv defensive target Stelios Andreou opts to join Estoril instead",
+      "file": "File:Gate11.JPG",
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-2026-08-03-leeds-shock-liverpool-comeback-chicago",
-      "article": "Leeds come back from 2-0 down to beat Liverpool 4-2 in Chicago",
-      "file": "File:Dominic Calvert-Lewin 13092025 (1).jpg",
-      "license": "CC0"
+      "articleId": "live-2026-08-03-deni-avdija-israeli-identity-interview",
+      "article": "Deni Avdija: 'Not everyone is happy that I'm Israeli, it bothers me less'",
+      "file": "File:Deni Avdija.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-20260803-israeli-clubs-third-qualifying-round-preview",
+      "article": "Red Star Belgrade, CSKA Sofia and Austria Wien await Israel's four European hopefuls",
+      "file": "File:SC Wiener Neustadt vs. FK Austria Wien II 2018-08-17 (051).jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-2026-08-03-liverpool-leeds-preseason-collapse",
+      "article": "Leeds 4-2 Liverpool: Calvert-Lewin double sinks Reds after 2-0 collapse",
+      "file": "File:Florian Wirtz 2024.jpg",
+      "license": "CC BY 3.0"
     },
     {
       "articleId": "live-20260714-basketball-coaches-registration",
@@ -34,9 +34,9 @@
   ],
   "failures": [
     {
-      "id": "live-2026-08-03-israel-u20-water-polo-italy-loss",
-      "title": "Israel's U20 women fall 17-12 to Italy at European water polo championship",
-      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+      "id": "live-2026-08-03-benson-returns-maccabi-haifa-squad",
+      "title": "Manuel Benson returns to Maccabi Haifa squad after three-month Achilles absence",
+      "error": "image download 429 after retries"
     },
     {
       "id": "live-2026-08-02-otef-darom-sign-tamir-gold-ashkelon-imports",
@@ -161,6 +161,11 @@
     {
       "id": "live-20260802-kiryat-malachi-sign-sapir-kramoko",
       "title": "Kiryat Malachi add forward Shahaf Sapir and teenage full-back Svaliyo Kramoko",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-2026-08-03-israel-u20-water-polo-italy-loss",
+      "title": "Israel's U20 women fall 17-12 to Italy at European water polo championship",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     }
   ]

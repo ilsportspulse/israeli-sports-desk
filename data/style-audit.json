@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T05:17:32.068Z",
+  "generatedAt": "2026-08-03T05:59:27.437Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,22 +11,22 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 797,
+    "publishedArticles": 801,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 423,
-      "average": 426
+      "average": 425.9
     },
     "paragraphDistribution": {
       "3": 34,
       "4": 6,
       "5": 10,
       "6": 36,
-      "7": 115,
-      "8": 215,
-      "9": 188,
-      "10": 135,
+      "7": 116,
+      "8": 218,
+      "9": 187,
+      "10": 136,
       "11": 36,
       "12": 12,
       "13": 4,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.27,
+    "dominantParagraphShare": 0.272,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 36,
     "analysisBelowTarget": 9,
@@ -3298,87 +3298,129 @@
   ],
   "clean": [
     {
-      "id": "live-20260803-vozinha-colo-colo-welcome",
-      "slug": "vozinha-lands-chile-colo-colo-hero-welcome",
-      "title": "World Cup sensation Vozinha lands in Chile to a hero's welcome from Colo Colo fans",
-      "kind": "article",
-      "words": 458,
-      "paragraphs": 9,
+      "id": "live-20260803-andreou-maccabi-tel-aviv-estoril",
+      "slug": "maccabi-tel-aviv-defender-target-andreou-estoril",
+      "title": "Maccabi Tel Aviv defensive target Stelios Andreou opts to join Estoril instead",
+      "kind": "news",
+      "words": 284,
+      "paragraphs": 7,
       "paragraphWords": {
-        "shortest": 42,
-        "longest": 68,
-        "average": 50.9
+        "shortest": 28,
+        "longest": 50,
+        "average": 40.6
       },
       "sentenceWords": {
-        "shortest": 6,
-        "longest": 68,
-        "average": 38.2
+        "shortest": 8,
+        "longest": 49,
+        "average": 31.6
       },
-      "lexicalDiversity": 0.616,
+      "lexicalDiversity": 0.634,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-03-deni-avdija-israeli-identity-interview",
+      "slug": "deni-avdija-not-everyone-happy-im-israeli",
+      "title": "Deni Avdija: 'Not everyone is happy that I'm Israeli, it bothers me less'",
+      "kind": "news",
+      "words": 368,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 76,
+        "average": 46
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 63,
+        "average": 33.5
+      },
+      "lexicalDiversity": 0.595,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-03-benson-returns-maccabi-haifa-squad",
+      "slug": "manuel-benson-returns-maccabi-haifa-squad-toto-cup-tiberias",
+      "title": "Manuel Benson returns to Maccabi Haifa squad after three-month Achilles absence",
+      "kind": "news",
+      "words": 294,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 28,
+        "longest": 49,
+        "average": 36.8
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 49,
+        "average": 32.7
+      },
+      "lexicalDiversity": 0.612,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260803-israeli-clubs-third-qualifying-round-preview",
+      "slug": "four-israeli-clubs-uefa-third-qualifying-round-preview",
+      "title": "Red Star Belgrade, CSKA Sofia and Austria Wien await Israel's four European hopefuls",
+      "kind": "article",
+      "words": 584,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 41,
+        "longest": 71,
+        "average": 58.4
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 65,
+        "average": 41.7
+      },
+      "lexicalDiversity": 0.49,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-03-barcelona-alvarez-atletico-standoff",
+      "slug": "barcelona-waits-julian-alvarez-atletico-standoff",
+      "title": "Barcelona waits on Álvarez, but stays calm about the striker position",
+      "kind": "news",
+      "words": 417,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 42,
+        "longest": 66,
+        "average": 52.1
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 52,
+        "average": 34.8
+      },
+      "lexicalDiversity": 0.573,
       "publisherAttributions": 0,
       "flags": []
     },
     {
-      "id": "live-2026-08-03-uefa-threatens-legal-action-infantino-fifa",
-      "slug": "uefa-threatens-legal-action-infantino-fifa-forward-enterprise",
-      "title": "UEFA threatens legal action against Infantino and FIFA over collapsed investment plan",
-      "kind": "news",
-      "words": 425,
+      "id": "live-2026-08-03-liverpool-leeds-preseason-collapse",
+      "slug": "liverpool-collapse-leeds-preseason-chicago",
+      "title": "Leeds 4-2 Liverpool: Calvert-Lewin double sinks Reds after 2-0 collapse",
+      "kind": "article",
+      "words": 416,
       "paragraphs": 9,
       "paragraphWords": {
         "shortest": 31,
-        "longest": 71,
-        "average": 47.2
+        "longest": 61,
+        "average": 46.2
       },
       "sentenceWords": {
         "shortest": 6,
         "longest": 48,
-        "average": 30.4
+        "average": 26
       },
-      "lexicalDiversity": 0.6,
+      "lexicalDiversity": 0.627,
       "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-03-barcelona-alvarez-striker-wait",
-      "slug": "barcelona-waiting-on-alvarez-relaxed-striker-options",
-      "title": "Barcelona waiting on Álvarez, but relaxed about the striker position",
-      "kind": "news",
-      "words": 368,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 33,
-        "longest": 49,
-        "average": 40.9
-      },
-      "sentenceWords": {
-        "shortest": 4,
-        "longest": 44,
-        "average": 28.3
-      },
-      "lexicalDiversity": 0.63,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-03-leeds-shock-liverpool-comeback-chicago",
-      "slug": "leeds-shock-liverpool-comeback-chicago",
-      "title": "Leeds come back from 2-0 down to beat Liverpool 4-2 in Chicago",
-      "kind": "article",
-      "words": 388,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 32,
-        "longest": 51,
-        "average": 43.1
-      },
-      "sentenceWords": {
-        "shortest": 12,
-        "longest": 42,
-        "average": 29.8
-      },
-      "lexicalDiversity": 0.626,
-      "publisherAttributions": 1,
       "flags": []
     },
     {
@@ -17070,6 +17112,48 @@
         "average": 30.2
       },
       "lexicalDiversity": 0.569,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260803-vozinha-colo-colo-welcome",
+      "slug": "vozinha-lands-chile-colo-colo-hero-welcome",
+      "title": "World Cup sensation Vozinha lands in Chile to a hero's welcome from Colo Colo fans",
+      "kind": "article",
+      "words": 458,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 42,
+        "longest": 68,
+        "average": 50.9
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 68,
+        "average": 38.2
+      },
+      "lexicalDiversity": 0.616,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-03-uefa-threatens-legal-action-infantino-fifa",
+      "slug": "uefa-threatens-legal-action-infantino-fifa-forward-enterprise",
+      "title": "UEFA threatens legal action against Infantino and FIFA over collapsed investment plan",
+      "kind": "news",
+      "words": 425,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 71,
+        "average": 47.2
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 48,
+        "average": 30.4
+      },
+      "lexicalDiversity": 0.6,
       "publisherAttributions": 0,
       "flags": []
     }
