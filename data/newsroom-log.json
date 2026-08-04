@@ -1,5 +1,81 @@
 [
   {
+    "ts": "2026-08-04T10:57:41.476Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 8,
+    "published": 4,
+    "review": 2,
+    "skipped": 2,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "beersheba-red-star-belgrade-elisha-levi-50-50-prediction",
+        "title": "Former Beersheba boss Elisha Levi: 'Nobody gives Beersheba a chance, but I think it's 50-50'",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "hapoel-tel-aviv-douglas-owusu-transfer-gamble",
+        "title": "Hapoel Tel Aviv's gamble on injury-flagged winger Douglas Owusu could badly backfire, warns pundit",
+        "decision": "duplicate",
+        "reason": "same event as tel-aviv-rivals-clash-owusu-knee-doubt"
+      },
+      {
+        "slug": "israel-ukraine-u18-basketball-in-progress",
+        "title": "Israel and Ukraine locked in tight U18 basketball battle in Romania",
+        "confidence": 0,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "match in progress — wait for full time"
+      },
+      {
+        "slug": "dusan-miletic-signs-hapoel-jerusalem-serbian-center",
+        "title": "Hapoel Jerusalem sign Serbian center Dušan Miletić on one-year deal",
+        "confidence": 0.88,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "beer-sheva-red-star-belgrade-champions-league-solomon-transfer",
+        "title": "Beer Sheva prepare for Red Star Belgrade test as Solomon's Tottenham exit edges closer",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "manor-solomon-west-ham-three-year-deal",
+        "title": "Manor Solomon closing in on three-year West Ham deal, ONE reports",
+        "decision": "duplicate",
+        "reason": "same event as manor-solomon-west-ham-tottenham-transfer-report"
+      },
+      {
+        "slug": "hapoel-petah-tikva-alternatives-arroyo-loan-wait",
+        "title": "Hapoel Petah Tikva weigh alternatives and won't wait much longer for Arroyo",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "siraj-nassar-hapoel-beer-sheva-veteran-signs-bnei-eilat",
+        "title": "Siraj Nassar, once a Hapoel Beer Sheva mainstay, signs for Maccabi Bnei Eilat",
+        "confidence": 0.8,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "below gate thresholds"
+      }
+    ]
+  },
+  {
     "ts": "2026-08-04T09:59:28.340Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -3335,51 +3411,6 @@
       {
         "slug": "elyaniv-barda-hapoel-tel-aviv-ludogorets-elimination-biggest-achievement",
         "title": "Knocking out Ludogorets is Barda's biggest achievement yet at Hapoel Tel Aviv",
-        "decision": "duplicate"
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-01T19:15:22.987Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 4,
-    "published": 2,
-    "review": 1,
-    "skipped": 1,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "real-madrid-fiorentina-mourinho-debut-draw",
-        "title": "Real Madrid 2-2 Fiorentina: Mourinho's first game in charge ends in a second-half collapse",
-        "confidence": 0.9,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "ashkelon-sign-sadeh-rehovot-add-binyamin-nahariya-keep-nadler",
-        "title": "Ashkelon sign Sadeh, Rehovot add Binyamin as Nahariya keep hold of Nadler",
-        "confidence": 0.8,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "No verified, subject-correct Wikimedia Commons photograph could be found for these National League players or clubs within the research budget — commonsCandidates left empty; hold for image sourcing before publish."
-      },
-      {
-        "slug": "hapoel-tel-aviv-eyes-nick-richards-center-frontcourt-rebuild",
-        "title": "Hapoel Tel Aviv weigh move for NBA big man Nick Richards",
-        "confidence": 0.8,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "hapoel-tel-aviv-sign-guard-eugene-german",
-        "title": "Hapoel Tel Aviv officially sign guard Eugene German",
         "decision": "duplicate"
       }
     ]
