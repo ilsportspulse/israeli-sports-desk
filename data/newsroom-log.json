@@ -1,5 +1,81 @@
 [
   {
+    "ts": "2026-08-04T07:58:24.419Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 8,
+    "published": 3,
+    "review": 3,
+    "skipped": 2,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "ter-stegen-completes-ajax-loan-from-barcelona",
+        "title": "Ter Stegen completes season-long loan move from Barcelona to Ajax",
+        "confidence": 0.88,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "below gate thresholds"
+      },
+      {
+        "slug": "atlanta-united-interest-bassam-zaarura-maccabi-netanya-contract",
+        "title": "Atlanta United make enquiries over Maccabi Netanya's Zaarura amid new contract talks",
+        "confidence": 0.78,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Single-source transfer interest report (ONE); not yet confirmed by Atlanta United or Maccabi Netanya, and no contract terms or fee have been disclosed."
+      },
+      {
+        "slug": "khalaili-set-to-start-union-saint-gilloise-bodo-glimt-champions-league",
+        "title": "Khalaili set to start for Union Saint-Gilloise as Champions League qualifier arrives amid transfer limbo",
+        "decision": "duplicate",
+        "reason": "same event as khalaili-nottingham-forest-bid-rejected"
+      },
+      {
+        "slug": "beitar-jerusalem-austria-wien-preview",
+        "title": "Beitar Jerusalem warn: Austria Wien are better than people in Israel think",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "idan-vered-rehovot-municipal-club-plan",
+        "title": "Idan Vered still waiting on Rehovot city hall over new club plan",
+        "confidence": 0.78,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Talks are ongoing with no finalized agreement or timeline from the municipality — this is a developing, unresolved situation, not a done deal."
+      },
+      {
+        "slug": "ufc-flyweight-allan-nascimento-dies-34",
+        "title": "UFC flyweight Allan Nascimento dies in his sleep at 34",
+        "confidence": 0.9,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "neymar-not-thinking-retirement-santos-contract-december",
+        "title": "Neymar: I'm not thinking about retirement, I have a contract with Santos",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "maccabi-haifa-zasno-saief-benson-return-glazer-injury-scare",
+        "title": "Zasno, Saief and Benson return to Maccabi Haifa squad as Glazer battles injury scare",
+        "decision": "duplicate",
+        "reason": "same event as omri-glazer-knee-injury-toto-cup-kiryat-shmona"
+      }
+    ]
+  },
+  {
     "ts": "2026-08-04T06:55:54.211Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -3304,76 +3380,6 @@
         "slug": "hapoel-tel-aviv-ludogorets-aggregate-win-elyaniv-barda-conference-league",
         "title": "Hapoel Tel Aviv beat Ludogorets 4-2 on aggregate to reach Conference League third round",
         "decision": "duplicate"
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-01T16:13:23.728Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 8,
-    "published": 0,
-    "review": 4,
-    "skipped": 4,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "israel-under-18-women-norway-eurobasket-division-b-tulcea",
-        "title": "Israel's under-18 women face Norway in Group B at Europe basketball finals in Tulcea",
-        "confidence": 0,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "match in progress — wait for full time (source is a Q2 live update, not a full-time score); no verified Commons image found within research budget"
-      },
-      {
-        "slug": "eli-segev-former-maccabi-netanya-owner-dies-73",
-        "title": "Eli Segev, former Maccabi Netanya owner, dies at 73",
-        "confidence": 0.85,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "below gate thresholds"
-      },
-      {
-        "slug": "bnei-mamba-golan-druze-youth-team-wins-league-title-majdal-shams-tribute",
-        "title": "Golan Druze club Bnei Mamba's youth team wins league title, dedicates it to Majdal Shams victims",
-        "confidence": 0.82,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Precise Latin spellings of the two top-scorer names (Tiam Rabah, Lian Turbiyeh) rest solely on ONE's transliteration and could not be independently cross-checked."
-      },
-      {
-        "slug": "ron-boaron-hapoel-ramat-yisrael-special-olympics-profile",
-        "title": "Ron Boaron keeps finding the net — on the pitch and in Israel's Special Olympics football",
-        "confidence": 0.78,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Career and biographical details (goal tally, prior clubs, Special Olympics role) sourced solely to ONE's profile; Israel's fourth-place Paris result is independently corroborated."
-      },
-      {
-        "slug": "diomande-leipzig-silence-real-madrid-offer",
-        "title": "Leipzig go quiet on Real Madrid's improved offer for Diomande",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "psg-vow-to-beat-any-barcelona-offer-for-ferran-torres",
-        "title": "PSG vow to beat any Barcelona offer for Ferran Torres",
-        "decision": "duplicate",
-        "reason": "same event as ferran-torres-barcelona-contract-fears-psg-interest"
-      },
-      {
-        "slug": "vinicius-jr-signing-bonus-real-madrid-contract-standoff",
-        "title": "Vinicius Jr's price for staying at Real Madrid: a Mbappe-style signing bonus",
-        "decision": "duplicate",
-        "reason": "same event as arsenal-record-wage-vinicius-junior-real-madrid"
-      },
-      {
-        "url": "https://www.one.co.il/Article/529545.html",
-        "decision": "skipped",
-        "reason": "no valid article emitted"
       }
     ]
   }

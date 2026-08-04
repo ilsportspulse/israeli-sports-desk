@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T07:06:06.448Z",
+  "generatedAt": "2026-08-04T08:07:27.327Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 859,
+    "publishedArticles": 862,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 423,
-      "average": 426.1
+      "average": 425.7
     },
     "paragraphDistribution": {
       "3": 34,
       "4": 6,
       "5": 10,
       "6": 38,
-      "7": 123,
-      "8": 239,
+      "7": 124,
+      "8": 241,
       "9": 200,
       "10": 149,
       "11": 38,
@@ -35,13 +35,37 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.278,
+    "dominantParagraphShare": 0.28,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 38,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 149
+    "articlesWithStyleFlags": 150
   },
   "flagged": [
+    {
+      "id": "live-2026-08-04-neymar-not-thinking-retirement-santos-contract",
+      "slug": "neymar-not-thinking-retirement-santos-contract-december",
+      "title": "Neymar: I'm not thinking about retirement, I have a contract with Santos",
+      "kind": "article",
+      "words": 282,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 29,
+        "longest": 47,
+        "average": 40.3
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 52,
+        "average": 25.6
+      },
+      "lexicalDiversity": 0.617,
+      "publisherAttributions": 2,
+      "flags": [
+        "stock-phrase:what-comes-next",
+        "publisher-attribution-heavy:2"
+      ]
+    },
     {
       "id": "live-2026-08-02-tsagarakis-ramat-gan-development-director",
       "slug": "tsagarakis-joins-maccabi-ramat-gan-development-role",
@@ -3481,6 +3505,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-04-allan-nascimento-ufc-death",
+      "slug": "ufc-flyweight-allan-nascimento-dies-34",
+      "title": "UFC flyweight Allan Nascimento dies in his sleep at 34",
+      "kind": "news",
+      "words": 296,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 46,
+        "average": 37
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 98,
+        "average": 37
+      },
+      "lexicalDiversity": 0.581,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-04-beitar-jerusalem-austria-wien-preview",
+      "slug": "beitar-jerusalem-austria-wien-preview",
+      "title": "Beitar Jerusalem warn: Austria Wien are better than people in Israel think",
+      "kind": "news",
+      "words": 410,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 40,
+        "longest": 67,
+        "average": 51.3
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 53,
+        "average": 31.5
+      },
+      "lexicalDiversity": 0.627,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-20260804-beer-sheva-red-star-odds-preview",
       "slug": "beer-sheva-red-star-belgrade-odds-preview",
