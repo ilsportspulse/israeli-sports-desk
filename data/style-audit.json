@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T00:23:36.270Z",
+  "generatedAt": "2026-08-04T00:49:10.805Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 849,
+    "publishedArticles": 850,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 423,
-      "average": 425.8
+      "median": 423.5,
+      "average": 426.1
     },
     "paragraphDistribution": {
       "3": 34,
@@ -25,7 +25,7 @@
       "6": 37,
       "7": 122,
       "8": 235,
-      "9": 198,
+      "9": 199,
       "10": 147,
       "11": 38,
       "12": 12,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.277,
+    "dominantParagraphShare": 0.276,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 37,
     "analysisBelowTarget": 9,
@@ -279,29 +279,6 @@
       "publisherAttributions": 2,
       "flags": [
         "below-editorial-target:204/280",
-        "publisher-attribution-heavy:2"
-      ]
-    },
-    {
-      "id": "live-20260804-douglas-owusu-plzen-medical-hapoel",
-      "slug": "douglas-owusu-plzen-medical-failure-hapoel-tel-aviv-signing",
-      "title": "Behind Douglas Owusu's failed Plzeň medical — and how it steered him to Hapoel Tel Aviv",
-      "kind": "news",
-      "words": 533,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 39,
-        "longest": 78,
-        "average": 59.2
-      },
-      "sentenceWords": {
-        "shortest": 6,
-        "longest": 47,
-        "average": 26.7
-      },
-      "lexicalDiversity": 0.544,
-      "publisherAttributions": 2,
-      "flags": [
         "publisher-attribution-heavy:2"
       ]
     },
@@ -3432,49 +3409,51 @@
       "flags": [
         "below-editorial-target:95/280"
       ]
+    },
+    {
+      "id": "live-20260804-douglas-owusu-plzen-medical-hapoel",
+      "slug": "douglas-owusu-plzen-medical-failure-hapoel-tel-aviv-signing",
+      "title": "Behind Douglas Owusu's failed Plzeň medical — and how it steered him to Hapoel Tel Aviv",
+      "kind": "news",
+      "words": 533,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 39,
+        "longest": 78,
+        "average": 59.2
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 47,
+        "average": 26.7
+      },
+      "lexicalDiversity": 0.544,
+      "publisherAttributions": 2,
+      "flags": [
+        "publisher-attribution-heavy:2"
+      ]
     }
   ],
   "clean": [
     {
-      "id": "live-20260804-toto-cup-ashdod-bnei-yehuda-wins",
-      "slug": "toto-cup-round-two-ashdod-bnei-yehuda-wins",
-      "title": "M.S. Ashdod beat Maccabi Jaffa 2-0 and Bnei Yehuda edge Kafr Qasem 1-0 in Toto Cup",
-      "kind": "article",
-      "words": 291,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 18,
-        "longest": 53,
-        "average": 41.6
-      },
-      "sentenceWords": {
-        "shortest": 2,
-        "longest": 47,
-        "average": 24.3
-      },
-      "lexicalDiversity": 0.601,
-      "publisherAttributions": 1,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-04-rodri-barcelona-leao-milan-fenerbahce",
-      "slug": "rodri-barcelona-real-madrid-leao-milan-fenerbahce-transfer-latest",
-      "title": "Barcelona eye shock Rodri move as Milan reject Fenerbahçe's Leão bid",
-      "kind": "article",
-      "words": 429,
+      "id": "tour-20260803-norway-s-haugset-storms-to-yellow-with-8",
+      "slug": "norway-s-haugset-storms-to-yellow-with-88km-solo-raid-on-tour-de-franc",
+      "title": "Norway's Haugset Storms to Yellow With 88km Solo Raid on Tour de France Femmes Stage 3",
+      "kind": "news",
+      "words": 667,
       "paragraphs": 9,
       "paragraphWords": {
-        "shortest": 35,
-        "longest": 69,
-        "average": 47.7
+        "shortest": 56,
+        "longest": 87,
+        "average": 74.1
       },
       "sentenceWords": {
-        "shortest": 12,
-        "longest": 69,
-        "average": 39
+        "shortest": 5,
+        "longest": 61,
+        "average": 31.8
       },
-      "lexicalDiversity": 0.587,
-      "publisherAttributions": 1,
+      "lexicalDiversity": 0.54,
+      "publisherAttributions": 0,
       "flags": []
     },
     {
@@ -18175,6 +18154,48 @@
       },
       "lexicalDiversity": 0.575,
       "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260804-toto-cup-ashdod-bnei-yehuda-wins",
+      "slug": "toto-cup-round-two-ashdod-bnei-yehuda-wins",
+      "title": "M.S. Ashdod beat Maccabi Jaffa 2-0 and Bnei Yehuda edge Kafr Qasem 1-0 in Toto Cup",
+      "kind": "article",
+      "words": 291,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 18,
+        "longest": 53,
+        "average": 41.6
+      },
+      "sentenceWords": {
+        "shortest": 2,
+        "longest": 47,
+        "average": 24.3
+      },
+      "lexicalDiversity": 0.601,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-04-rodri-barcelona-leao-milan-fenerbahce",
+      "slug": "rodri-barcelona-real-madrid-leao-milan-fenerbahce-transfer-latest",
+      "title": "Barcelona eye shock Rodri move as Milan reject Fenerbahçe's Leão bid",
+      "kind": "article",
+      "words": 429,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 69,
+        "average": 47.7
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 69,
+        "average": 39
+      },
+      "lexicalDiversity": 0.587,
+      "publisherAttributions": 1,
       "flags": []
     }
   ]
