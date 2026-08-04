@@ -1,5 +1,70 @@
 [
   {
+    "ts": "2026-08-04T09:59:28.340Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 8,
+    "published": 0,
+    "review": 3,
+    "skipped": 5,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "kiryat-shmona-sakhnin-toto-cup-preview-stale-source",
+        "title": "Kiryat Shmona previewed a Toto Cup tie with Sakhnin that was already played over a year ago",
+        "confidence": 0,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Source article is a Toto Cup preview that, per Kiryat Shmona's own site and Sport1/Maariv, describes a match already played on 6 Aug 2025 (Sakhnin won 1-0) — over a year old and not current news. Holding rather than publishing as today's story; image research was not conducted for the same reason."
+      },
+      {
+        "slug": "israel-u16-basketball-eurobasket-oradea-preview",
+        "title": "Israel's under-16 basketball team open European Championship campaign in Oradea on Friday",
+        "confidence": 0.82,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Player name transliterations are based on a single-source machine reading of the Hebrew article and could not be cross-checked against an official IBBA/FIBA roster; venue image shows the host arena rather than the team itself, as no verifiable photo of this specific squad could be found."
+      },
+      {
+        "url": "https://www.one.co.il/Article/529778.html",
+        "decision": "error",
+        "reason": "Command failed: claude -p You are the copy desk for Israel Sports Pulse (English-language Israeli sports newsroom).\nDraft ONE article from this source: https://www.one.co.il/Article/529778.html\n(reported title: \"הדרך לאלופות לא הייתה קלה כל כך כבר שנים\" - ONE)\n\nUse web search to read the source and to verify every fact against independent sources.\nHARD EDITORIAL GATES — obey exactly:\n- Never INVENT facts, quotes, results, names or numbers. Report ONLY what the source states — but a story is fully publishable on a SINGLE reputable source. ONE (one.co.il) and Sport5 are reliable Israeli outlets; Walla, Ynet, Sport1/Maariv, and any club/league/federation are reliable too. Do NOT require a second confirmation and do NOT lower confidence just because a story is single-source.\n- ATTRIBUTE clearly in the copy when something is a report/claim rather than confirmed (\"ONE reports…\", \"according to Sport5…\", \"the club has announced…\"). Attributing the source is REQUIRED and good journalism — it is NOT a reason to hold. This is how we cover transfers, rumours and previews responsibly.\n- Set confidence on how CLEARLY the source states it (a clear report from a reliable outlet is 0.8+), NOT on the number of sources. Use a \"warning\" only as a short reader-facing note (e.g. \"fee not yet official\") — a warning does NOT hold the story. List whatever sources you used in verificationSources (one is fine).\n- FULL-TIME ONLY for match reports: publish a match report ONLY once the game is OVER and you can confirm the FINAL full-time score. NEVER publish a half-time, in-progress or \"leading X-Y\" running report (e.g. \"storm to a 5-0 lead\", \"held scoreless through the first half\", \"at the break\"). If the match is still being played, set confidence 0 and warning \"match in progress — wait for full time\" so it is held. A scheduled preview BEFORE kick-off is fine; a live/half-time update is not.\n- ONE STORY PER EVENT (no duplicates): do not write a second article about a match, transfer or incident already covered from another angle. A single finished match = ONE report, not separate \"storm to lead\", \"player X's night\", \"reaction\" pieces. Make dedupeKey a stable, event-level key (e.g. \"ucl-q-maccabitelaviv-sheriff-2026-07-23\" or \"tdf-2026-stage18\"), identical for every angle of the same event, so duplicates are caught. Use ONE consistent category label per sport (e.g. always \"World Cycling\", never also \"Cycling\").\n- Transliterate every person/team name carefully against an official/registry record where possible and record it in nameChecks.\n- SCOPE — we cover BOTH Israeli sport AND major world sport:\n    • Israeli stories (Israeli competition, athlete or team) → desk \"israel\". This is our core; prioritise it.\n    • GENUINELY SIGNIFICANT international sport → desk \"international\", and this is WELCOME with NO Israeli angle: the World Cup and its aftermath (results, managerial sackings/appointments, retirements, fallout), the big European leagues and continental cups, major transfers, the NBA, Grand Slams, Grand Tours, athletics, F1, and major championships/events. Cover these properly and keep them fresh — our International corner must reflect what is actually happening in world sport right now.\n    • Only truly trivial, purely local-foreign filler with no wider significance should be held — set confidence 0 and warning \"not newsworthy\". A big, real world-sport story is NOT to be held for \"no Israeli angle\".\n- HEADLINE CASE (strict): write the title in SENTENCE CASE — capitalise ONLY the first word and genuine proper nouns (people, clubs, cities, countries, competitions, e.g. Maccabi Tel Aviv, Beitar Jerusalem, Sheriff Tiraspol, Conference League). Do NOT capitalise ordinary words (verbs, adjectives, prepositions, articles). WRONG: \"Maccabi Tel Aviv Thrash Sheriff Tiraspol To Open European Campaign\". RIGHT: \"Maccabi Tel Aviv thrash Sheriff Tiraspol to open European campaign\". The same rule applies to the dek.\n- Attributing a source in the body is fine and encouraged (\"ONE reports…\"); keep the headline itself clean of an outlet name where you can, but attribution in the story is never a problem.\n- RICH MEDIA (encouraged): when a genuinely relevant, REAL and verifiable clip or post exists, embed it — it makes the article richer. Include \"video\" for a real YouTube video (set youtubeId to the exact 11-character id from a working youtube.com/watch?v= or youtu.be/ URL you actually found, plus title, channel, sourceUrl) and/or \"officialSocialPost\" for an official club/athlete/federation post on X or Instagram (platform \"twitter\" or \"instagram\", the exact post/tweet id, url, title, account). ONLY include one you have actually seen and verified via web search — NEVER guess, invent or approximate an id or url. If you cannot verify a real one, omit the field entirely. Prefer official accounts and official highlight channels.\n- VOICE: write like a real, experienced human sports journalist for a quality broadsheet — never a template or a robot, never amateurish. Let the STORY and the depth of your reporting dictate the length: a tight news item may be 5-7 paragraphs, a well-researched story or analysis 10-16. Length must be flexible BOTH ways — shorter when the story is small, longer when genuine research (background, context, history, standings, quotes) earns it. NEVER pad, repeat or restate to reach a length; every paragraph must add new information and stay readable — keep paragraphs short (roughly 2-4 sentences), never dense walls of text that tire the reader. Vary paragraph length and sentence rhythm; open with a genuine, specific news hook (not a formula); avoid any repeated fixed structure. Between 5 and 18 paragraphs — pick what the story truly needs, and make different articles read differently.\n- Set confidence (0-1) honestly. Set warning to \"\" only if every core fact is multi-source consistent and nothing is uncertain.\n- IMAGE (MANDATORY, and treated as seriously as the facts): research an accurate photo for THIS exact story and return commonsQuery plus commonsCandidates — 2 to 4 REAL Wikimedia Commons files, ranked most-relevant first. For EACH candidate you MUST, via web search on commons.wikimedia.org: (1) confirm the file page actually exists and is a JPEG photograph (not a logo, flag, map, diagram or artwork), (2) confirm a reusable licence (CC BY, CC BY-SA, CC0 or public domain) and record it, and (3) CONFIRM IT DEPICTS THE RIGHT SUBJECT — the specific person, club, venue or competition in the story. Beware NAMESAKES and wrong context: e.g. for basketball's David Roddy do NOT return a US Air Force serviceman of the same name; check the file's description/categories confirm the correct sport, club and person. Priority of subject: the named athlete/player themselves → their current club or national team → the exact stadium/arena → the competition or trophy. A stadium or club photo is fine as an honest file photo; an unrelated or wrong-person image is a serious failure. If you CANNOT verify at least one correctly-identified image, return commonsCandidates as an empty array [] and say so in warning — the story will be held rather than published with a wrong photo. NEVER invent, guess or approximate a file name.\n\nFixed fields: publishedAt/updatedAt = \"2026-08-04T09:59:28.340Z\", theme = \"night-pitch\", pick a sensible category (e.g. \"Israeli Football\", \"Israeli Basketball\", \"Israelis Abroad\", \"Israeli Olympic Sport\", \"World Football\") and desk. Make id start with \"live-\" + date + a short slug, and a descriptive kebab slug with no publisher names.\n\nHOUSE RULE (owner, 29 Jul): any match report or result story MUST carry the final score in the title itself (e.g. \"Kiryat Shmona 3-0 Maccabi Haifa: …\" or \"… beat X 2-1 …\") — a reader must see from the headline alone that it is a game and how it ended.\n\nFields required in the JSON object: id, slug, title, dek, category, desk (\"israel\" or \"international\"), kind, storyForm, publishedAt, updatedAt, readMinutes (number), source {name,url}, verificationSources [{label,url}], body (array of 5-18 strings; the natural length for THIS story — shorter or longer as the reporting earns, never padded, never a fixed count), facts (array of >=5 strings), theme, homepagePriority (number 0-100 on this FIXED editorial scale — 95-100: an Israeli win/result on a big stage (title, KO victory, national-team result, European qualification); 85-94: major Israeli transfer/European draw or an Israeli star excelling abroad; 75-84: top-tier world news (superstar transfer, World Cup); 60-74: routine Israeli club news; 40-59: quotes, previews, interviews, pressers; under 40: lifestyle/celebrity. Never score a quote/preview above 59; never score a confirmed Israeli result below 90), homepageReason, dedupeKey, aiDisclosure, nameChecks [{hebrew,english,verificationUrl,confidence}], confidence (0-1 number), warning (string, \"\" if none), commonsQuery, commonsCandidates [{title,creditUrl,credit,license}] (REQUIRED: 2-4 web-verified, correctly-identified Commons photos as described above, or [] if none can be verified — the story is then held rather than shown with a wrong image). OPTIONAL rich media (include ONLY if you verified a real one, else omit): video {title,channel,youtubeId,sourceUrl} for a real YouTube clip, officialSocialPost {title,account,platform (\"twitter\"|\"instagram\"),url,postId} for a real official X/Instagram post.\n\nWork efficiently: do at most 5 web searches to gather and cross-check the essential facts, then stop researching and write. If you cannot verify enough to meet the gates within that budget, still emit the object with an honest low confidence and a warning rather than searching endlessly.\n\nOutput ONLY the raw JSON object as your final message — no prose, no code fences. --output-format json --model claude-sonnet-5 --allowedTools WebSearch,WebFetch --permission-mode default --max-turns 40\nWarning: no stdin data received in 3s, proceeding without it. If piping from a slow command, redirect stdin explicitly: < /dev/null to skip, or wait longer.\n"
+      },
+      {
+        "url": "https://www.one.co.il/Article/529766.html",
+        "decision": "error",
+        "reason": "Command failed: claude -p You are the copy desk for Israel Sports Pulse (English-language Israeli sports newsroom).\nDraft ONE article from this source: https://www.one.co.il/Article/529766.html\n(reported title: ענאן חלאילי יפתח במדי סן ז׳ילואז בליגת האלופות - ONE)\n\nUse web search to read the source and to verify every fact against independent sources.\nHARD EDITORIAL GATES — obey exactly:\n- Never INVENT facts, quotes, results, names or numbers. Report ONLY what the source states — but a story is fully publishable on a SINGLE reputable source. ONE (one.co.il) and Sport5 are reliable Israeli outlets; Walla, Ynet, Sport1/Maariv, and any club/league/federation are reliable too. Do NOT require a second confirmation and do NOT lower confidence just because a story is single-source.\n- ATTRIBUTE clearly in the copy when something is a report/claim rather than confirmed (\"ONE reports…\", \"according to Sport5…\", \"the club has announced…\"). Attributing the source is REQUIRED and good journalism — it is NOT a reason to hold. This is how we cover transfers, rumours and previews responsibly.\n- Set confidence on how CLEARLY the source states it (a clear report from a reliable outlet is 0.8+), NOT on the number of sources. Use a \"warning\" only as a short reader-facing note (e.g. \"fee not yet official\") — a warning does NOT hold the story. List whatever sources you used in verificationSources (one is fine).\n- FULL-TIME ONLY for match reports: publish a match report ONLY once the game is OVER and you can confirm the FINAL full-time score. NEVER publish a half-time, in-progress or \"leading X-Y\" running report (e.g. \"storm to a 5-0 lead\", \"held scoreless through the first half\", \"at the break\"). If the match is still being played, set confidence 0 and warning \"match in progress — wait for full time\" so it is held. A scheduled preview BEFORE kick-off is fine; a live/half-time update is not.\n- ONE STORY PER EVENT (no duplicates): do not write a second article about a match, transfer or incident already covered from another angle. A single finished match = ONE report, not separate \"storm to lead\", \"player X's night\", \"reaction\" pieces. Make dedupeKey a stable, event-level key (e.g. \"ucl-q-maccabitelaviv-sheriff-2026-07-23\" or \"tdf-2026-stage18\"), identical for every angle of the same event, so duplicates are caught. Use ONE consistent category label per sport (e.g. always \"World Cycling\", never also \"Cycling\").\n- Transliterate every person/team name carefully against an official/registry record where possible and record it in nameChecks.\n- SCOPE — we cover BOTH Israeli sport AND major world sport:\n    • Israeli stories (Israeli competition, athlete or team) → desk \"israel\". This is our core; prioritise it.\n    • GENUINELY SIGNIFICANT international sport → desk \"international\", and this is WELCOME with NO Israeli angle: the World Cup and its aftermath (results, managerial sackings/appointments, retirements, fallout), the big European leagues and continental cups, major transfers, the NBA, Grand Slams, Grand Tours, athletics, F1, and major championships/events. Cover these properly and keep them fresh — our International corner must reflect what is actually happening in world sport right now.\n    • Only truly trivial, purely local-foreign filler with no wider significance should be held — set confidence 0 and warning \"not newsworthy\". A big, real world-sport story is NOT to be held for \"no Israeli angle\".\n- HEADLINE CASE (strict): write the title in SENTENCE CASE — capitalise ONLY the first word and genuine proper nouns (people, clubs, cities, countries, competitions, e.g. Maccabi Tel Aviv, Beitar Jerusalem, Sheriff Tiraspol, Conference League). Do NOT capitalise ordinary words (verbs, adjectives, prepositions, articles). WRONG: \"Maccabi Tel Aviv Thrash Sheriff Tiraspol To Open European Campaign\". RIGHT: \"Maccabi Tel Aviv thrash Sheriff Tiraspol to open European campaign\". The same rule applies to the dek.\n- Attributing a source in the body is fine and encouraged (\"ONE reports…\"); keep the headline itself clean of an outlet name where you can, but attribution in the story is never a problem.\n- RICH MEDIA (encouraged): when a genuinely relevant, REAL and verifiable clip or post exists, embed it — it makes the article richer. Include \"video\" for a real YouTube video (set youtubeId to the exact 11-character id from a working youtube.com/watch?v= or youtu.be/ URL you actually found, plus title, channel, sourceUrl) and/or \"officialSocialPost\" for an official club/athlete/federation post on X or Instagram (platform \"twitter\" or \"instagram\", the exact post/tweet id, url, title, account). ONLY include one you have actually seen and verified via web search — NEVER guess, invent or approximate an id or url. If you cannot verify a real one, omit the field entirely. Prefer official accounts and official highlight channels.\n- VOICE: write like a real, experienced human sports journalist for a quality broadsheet — never a template or a robot, never amateurish. Let the STORY and the depth of your reporting dictate the length: a tight news item may be 5-7 paragraphs, a well-researched story or analysis 10-16. Length must be flexible BOTH ways — shorter when the story is small, longer when genuine research (background, context, history, standings, quotes) earns it. NEVER pad, repeat or restate to reach a length; every paragraph must add new information and stay readable — keep paragraphs short (roughly 2-4 sentences), never dense walls of text that tire the reader. Vary paragraph length and sentence rhythm; open with a genuine, specific news hook (not a formula); avoid any repeated fixed structure. Between 5 and 18 paragraphs — pick what the story truly needs, and make different articles read differently.\n- Set confidence (0-1) honestly. Set warning to \"\" only if every core fact is multi-source consistent and nothing is uncertain.\n- IMAGE (MANDATORY, and treated as seriously as the facts): research an accurate photo for THIS exact story and return commonsQuery plus commonsCandidates — 2 to 4 REAL Wikimedia Commons files, ranked most-relevant first. For EACH candidate you MUST, via web search on commons.wikimedia.org: (1) confirm the file page actually exists and is a JPEG photograph (not a logo, flag, map, diagram or artwork), (2) confirm a reusable licence (CC BY, CC BY-SA, CC0 or public domain) and record it, and (3) CONFIRM IT DEPICTS THE RIGHT SUBJECT — the specific person, club, venue or competition in the story. Beware NAMESAKES and wrong context: e.g. for basketball's David Roddy do NOT return a US Air Force serviceman of the same name; check the file's description/categories confirm the correct sport, club and person. Priority of subject: the named athlete/player themselves → their current club or national team → the exact stadium/arena → the competition or trophy. A stadium or club photo is fine as an honest file photo; an unrelated or wrong-person image is a serious failure. If you CANNOT verify at least one correctly-identified image, return commonsCandidates as an empty array [] and say so in warning — the story will be held rather than published with a wrong photo. NEVER invent, guess or approximate a file name.\n\nFixed fields: publishedAt/updatedAt = \"2026-08-04T09:59:28.340Z\", theme = \"night-pitch\", pick a sensible category (e.g. \"Israeli Football\", \"Israeli Basketball\", \"Israelis Abroad\", \"Israeli Olympic Sport\", \"World Football\") and desk. Make id start with \"live-\" + date + a short slug, and a descriptive kebab slug with no publisher names.\n\nHOUSE RULE (owner, 29 Jul): any match report or result story MUST carry the final score in the title itself (e.g. \"Kiryat Shmona 3-0 Maccabi Haifa: …\" or \"… beat X 2-1 …\") — a reader must see from the headline alone that it is a game and how it ended.\n\nFields required in the JSON object: id, slug, title, dek, category, desk (\"israel\" or \"international\"), kind, storyForm, publishedAt, updatedAt, readMinutes (number), source {name,url}, verificationSources [{label,url}], body (array of 5-18 strings; the natural length for THIS story — shorter or longer as the reporting earns, never padded, never a fixed count), facts (array of >=5 strings), theme, homepagePriority (number 0-100 on this FIXED editorial scale — 95-100: an Israeli win/result on a big stage (title, KO victory, national-team result, European qualification); 85-94: major Israeli transfer/European draw or an Israeli star excelling abroad; 75-84: top-tier world news (superstar transfer, World Cup); 60-74: routine Israeli club news; 40-59: quotes, previews, interviews, pressers; under 40: lifestyle/celebrity. Never score a quote/preview above 59; never score a confirmed Israeli result below 90), homepageReason, dedupeKey, aiDisclosure, nameChecks [{hebrew,english,verificationUrl,confidence}], confidence (0-1 number), warning (string, \"\" if none), commonsQuery, commonsCandidates [{title,creditUrl,credit,license}] (REQUIRED: 2-4 web-verified, correctly-identified Commons photos as described above, or [] if none can be verified — the story is then held rather than shown with a wrong image). OPTIONAL rich media (include ONLY if you verified a real one, else omit): video {title,channel,youtubeId,sourceUrl} for a real YouTube clip, officialSocialPost {title,account,platform (\"twitter\"|\"instagram\"),url,postId} for a real official X/Instagram post.\n\nWork efficiently: do at most 5 web searches to gather and cross-check the essential facts, then stop researching and write. If you cannot verify enough to meet the gates within that budget, still emit the object with an honest low confidence and a warning rather than searching endlessly.\n\nOutput ONLY the raw JSON object as your final message — no prose, no code fences. --output-format json --model claude-sonnet-5 --allowedTools WebSearch,WebFetch --permission-mode default --max-turns 40\nWarning: no stdin data received in 3s, proceeding without it. If piping from a slow command, redirect stdin explicitly: < /dev/null to skip, or wait longer.\n"
+      },
+      {
+        "slug": "maccabi-haifa-zasno-saief-benson-return-glazer-fitness-doubt",
+        "title": "Zasno, Saief and Benson return to Maccabi Haifa squad, but Glazer fitness doubt clouds Toto Cup night",
+        "confidence": 0.82,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Glazer's availability for Tuesday's match was still undecided at time of report, pending fitness assessment."
+      },
+      {
+        "slug": "douglas-owusu-close-to-hapoel-tel-aviv-medical-tests",
+        "title": "Hapoel Tel Aviv close in on Douglas Owusu ahead of medical tests",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "ken-griffin-billionaire-funds-pochettino-usmnt-contract",
+        "title": "Billionaire Ken Griffin again bankrolls Pochettino's US Soccer contract",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "tamir-blatt-returns-hapoel-tel-aviv-nine-years",
+        "title": "Tamir Blatt returns to Hapoel Tel Aviv after nine years away",
+        "decision": "duplicate"
+      }
+    ]
+  },
+  {
     "ts": "2026-08-04T08:55:28.994Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -3316,74 +3381,6 @@
         "slug": "hapoel-tel-aviv-sign-guard-eugene-german",
         "title": "Hapoel Tel Aviv officially sign guard Eugene German",
         "decision": "duplicate"
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-01T18:11:14.720Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 8,
-    "published": 0,
-    "review": 3,
-    "skipped": 5,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "eugene-german-signs-hapoel-tel-aviv",
-        "title": "Hapoel Tel Aviv sign American guard Eugene German",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "hapoel-holon-sign-brandon-johns-jr-sporting-lisbon",
-        "title": "Hapoel Holon sign forward Brandon Johns Jr. from Sporting Lisbon",
-        "confidence": 0.8,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Player's English-language spelling (Brandon Johns Jr., per NCAA/Eurobasket/FIBA records) differs from a literal Hebrew transliteration of the ONE headline (\"Jones\"); biographical details match exactly, so Johns is used here. Contract length not disclosed."
-      },
-      {
-        "slug": "bnei-sakhnin-hapoel-haifa-toto-cup-live",
-        "title": "Bnei Sakhnin host Hapoel Haifa in Toto Cup Al clash",
-        "confidence": 0,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "match in progress — wait for full time; also could not independently verify a correctly-identified Commons image within budget, so no candidates are returned"
-      },
-      {
-        "slug": "tiberias-kiryat-shmona-toto-cup-in-progress",
-        "title": "Tiberias and Kiryat Shmona goalless as Toto Cup clash continues",
-        "confidence": 0,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "match in progress — wait for full time"
-      },
-      {
-        "slug": "leipzig-silence-real-madrid-diomande-transfer-standoff",
-        "title": "Stuck in Germany: Leipzig go quiet on Real Madrid's latest Diomande offer",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "psg-warns-barcelona-will-improve-any-offer-ferran-torres",
-        "title": "PSG tell Ferran Torres they will beat any renewal offer from Barcelona",
-        "decision": "duplicate",
-        "reason": "same event as ferran-torres-barcelona-contract-fears-psg-interest"
-      },
-      {
-        "slug": "vinicius-junior-signing-bonus-real-madrid-contract",
-        "title": "Vinicius Jr's camp pitches a signing bonus to break Real Madrid contract deadlock",
-        "decision": "duplicate",
-        "reason": "same event as arsenal-record-wage-vinicius-junior-real-madrid"
-      },
-      {
-        "slug": "khalaily-penalty-belgian-super-cup-sommer-inter-collapse",
-        "title": "Club Brugge 1-1 Union Saint-Gilloise (Union win 5-4 on penalties): Khalaily scores past Sommer weeks after his Inter move collapsed",
-        "decision": "duplicate",
-        "reason": "same event as khalaili-nottingham-forest-bid-rejected"
       }
     ]
   }

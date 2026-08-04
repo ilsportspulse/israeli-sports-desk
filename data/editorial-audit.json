@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T09:05:09.328Z",
+  "generatedAt": "2026-08-04T10:08:09.071Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1167,
+    "totalArticles": 1170,
     "publishedBefore": 864,
     "cleanPublished": 856,
     "blockedPublished": 8,
     "demoted": 0,
     "publishedAfter": 864,
-    "reviewAfter": 303
+    "reviewAfter": 306
   },
   "blockedPublished": [
     {
@@ -156,6 +156,35 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-20260804-israel-u16-basketball-eurobasket-oradea",
+      "slug": "israel-u16-basketball-eurobasket-oradea-preview",
+      "title": "Israel's under-16 basketball team open European Championship campaign in Oradea on Friday",
+      "statusBefore": "review",
+      "words": 276,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-04-kiryat-shmona-sakhnin-toto-preview-stale",
+      "slug": "kiryat-shmona-sakhnin-toto-cup-preview-stale-source",
+      "title": "Kiryat Shmona previewed a Toto Cup tie with Sakhnin that was already played over a year ago",
+      "statusBefore": "review",
+      "words": 248,
+      "paragraphs": 5,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260804-craiova-stoinov-bid-rejected",
       "slug": "craiova-bid-for-nikita-stoinov-rejected-by-dinamo-bucharest",
