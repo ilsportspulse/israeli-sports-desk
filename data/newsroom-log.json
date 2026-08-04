@@ -1,5 +1,42 @@
 [
   {
+    "ts": "2026-08-04T01:53:25.857Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 4,
+    "published": 0,
+    "review": 0,
+    "skipped": 4,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "tamir-blatt-hapoel-tel-aviv-signing-duplicate-hold",
+        "title": "Tamir Blatt signs for Hapoel Tel Aviv",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "pochettino-usmnt-contract-official-through-2030",
+        "title": "Official: Pochettino signs new USMNT contract through 2030",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "new-details-emerge-what-delaying-diomande-real-madrid-move",
+        "title": "New details emerge on what's really delaying Diomande's record Real Madrid transfer",
+        "decision": "duplicate",
+        "reason": "same event as diomande-real-madrid-agent-dispute-delay"
+      },
+      {
+        "slug": "real-madrid-vinicius-junior-contract-gap-renewal-talks",
+        "title": "Real Madrid and Vinícius Júnior remain far apart on new contract terms, report says",
+        "decision": "duplicate"
+      }
+    ]
+  },
+  {
     "ts": "2026-08-03T23:55:40.625Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -3339,145 +3376,6 @@
       {
         "slug": "kings-kangwa-panathinaikos-hapoel-beersheba-transfer",
         "title": "Kings Kangwa completes four-year move to Panathinaikos from Hapoel Beersheba",
-        "decision": "duplicate"
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-01T11:46:11.154Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 8,
-    "published": 3,
-    "review": 2,
-    "skipped": 3,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "100-pushups-a-day-for-a-month-what-happens",
-        "title": "What actually happens if you do 100 push-ups a day for a month?",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "rafael-aronov-oktagon-92-debut-prague",
-        "title": "Rafael Aronov steps into the OKTAGON cage for the first time, live on ONE2 tonight",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "israel-u18-greece-classification-in-progress",
-        "title": "Israel U18 basketball team lead Greece at half-time in European Championship classification game",
-        "confidence": 0,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "match in progress — wait for full time"
-      },
-      {
-        "slug": "victory-sponsor-subsidises-hapoel-beer-sheva-fan-packages-hungary",
-        "title": "Victory boss subsidises Hapoel Beer Sheva fan packages for Red Star Belgrade tie in Hungary",
-        "confidence": 0.85,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Match date (Aug 4 or 5) not yet fixed at time of writing; squad-fitness notes are pre-match and may change before kickoff."
-      },
-      {
-        "slug": "psg-tells-ferran-torres-will-beat-barcelona-contract-offer",
-        "title": "PSG tell Ferran Torres they will beat any Barcelona contract offer",
-        "decision": "duplicate",
-        "reason": "same event as ferran-torres-barcelona-contract-fears-psg-interest"
-      },
-      {
-        "slug": "vinicius-real-madrid-signing-bonus-contract-standoff",
-        "title": "Vinicius Júnior's solution to a Real Madrid renewal: a signing bonus",
-        "decision": "duplicate",
-        "reason": "same event as arsenal-record-wage-vinicius-junior-real-madrid"
-      },
-      {
-        "slug": "khalaili-missed-inter-not-penalty-spot-duplicate",
-        "title": "Khalaili missed Inter, but not from the penalty spot",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "adeyemi-barcelona-debut-birmingham-city",
-        "title": "Birmingham City beat Barcelona on penalties after 2-2 draw, but Adeyemi's debut impresses",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-04T00:14:38.592Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 8,
-    "published": 3,
-    "review": 0,
-    "skipped": 5,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "tamir-blatt-signs-hapoel-tel-aviv-return",
-        "title": "Tamir Blatt returns to Hapoel Tel Aviv nine years after leaving",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "pochettino-agrees-new-usmnt-contract-through-2030",
-        "title": "Pochettino agrees new USMNT contract through 2030 World Cup",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "yan-diomande-real-madrid-transfer-legal-dispute-explained",
-        "title": "New details emerge on what's really holding up Yan Diomande's move to Real Madrid",
-        "decision": "duplicate",
-        "reason": "same event as diomande-real-madrid-agent-dispute-delay"
-      },
-      {
-        "slug": "rodri-barcelona-real-madrid-leao-milan-fenerbahce-transfer-latest",
-        "title": "Barcelona eye shock Rodri move as Milan reject Fenerbahçe's Leão bid",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "vinicius-real-madrid-contract-renewal-gap-report",
-        "title": "Report: Real Madrid and Vinicius Jr remain far apart on new contract terms",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "toto-cup-round-two-ashdod-bnei-yehuda-wins",
-        "title": "M.S. Ashdod beat Maccabi Jaffa 2-0 and Bnei Yehuda edge Kafr Qasem 1-0 in Toto Cup",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "douglas-owusu-plzen-medical-failure-hapoel-tel-aviv-signing",
-        "title": "Behind Douglas Owusu's failed Plzeň medical — and how it steered him to Hapoel Tel Aviv",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "hapoel-tel-aviv-beat-maccabi-douglas-owusu-red-star-belgrade",
-        "title": "Hapoel Tel Aviv beat Maccabi to Douglas Owusu in club-record deal with Red Star Belgrade",
         "decision": "duplicate"
       }
     ]

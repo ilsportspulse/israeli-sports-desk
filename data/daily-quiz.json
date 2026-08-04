@@ -1,67 +1,67 @@
 {
-  "date": "2026-08-03",
+  "date": "2026-08-04",
   "title": "The Daily Five",
-  "dek": "Five questions from this week's verified Israel Sports Pulse stories, spanning judo, artistic swimming and Israeli footballers at home and abroad.",
+  "dek": "Five questions from this week's verified Israel Sports Pulse stories, from a Moscow chess final to a red card in Montreal.",
   "questions": [
     {
-      "question": "In Rio de Janeiro on 29 August 2013, how did Yarden Gerbi seal Israel's first-ever World Judo Championships gold medal?",
+      "question": "In the Toto Cup on August 3, 2026, who scored M.S. Ashdod's second goal in a 2-0 win over Maccabi Jaffa?",
       "answers": [
-        "A 43-second ippon victory over reigning European champion Clarisse Agbegnenou in the final",
-        "A points decision in a full five-minute final",
-        "A golden-score victory after extra time",
-        "A walkover after her opponent withdrew injured"
-      ],
-      "correctIndex": 0,
-      "explanation": "Gerbi won all five of her bouts that day by ippon, capping the run with a 43-second final win over France's Clarisse Agbegnenou at the Ginásio do Maracanãzinho.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Yarden_Gerbi"
-    },
-    {
-      "question": "Where did Israel's Lior Makmel and Yogev Dagan finish in the mixed duet technical final at the 2026 European Aquatics Championships in Paris?",
-      "answers": [
-        "First",
-        "Third",
-        "Fifth",
-        "Eighth"
-      ],
-      "correctIndex": 2,
-      "explanation": "The Israeli pair scored 193.8017 points to finish fifth, behind gold medallists Isabelle Thorpe and Ranjuo Tomblin of Great Britain.",
-      "sourceUrl": "https://www.sport5.co.il/articles.aspx?FolderID=1659&docID=555175"
-    },
-    {
-      "question": "What happened after Dor Turgeman scored New England Revolution's second goal against CF Montréal on 1 August 2026?",
-      "answers": [
-        "He celebrated with a defiant gesture toward Montreal fans who had directed antisemitic abuse at him",
-        "He was immediately substituted for his own safety",
-        "The referee abandoned the match",
-        "He refused to celebrate and apologized to the crowd"
-      ],
-      "correctIndex": 0,
-      "explanation": "A section of Montreal supporters chanted \"Death to Israel\" and abused Turgeman, and he responded to his 36th-minute goal with a defiant gesture toward them.",
-      "sourceUrl": "https://www.one.co.il/Article/529662.html"
-    },
-    {
-      "question": "Which Israeli club did Kings Kangwa leave to join Panathinaikos in a transfer worth up to €4.5m in late July 2026?",
-      "answers": [
-        "Maccabi Haifa",
-        "Hapoel Beer Sheva",
-        "Maccabi Tel Aviv",
-        "Hapoel Tel Aviv"
+        "Osama Khalaileh",
+        "Maor Kuba",
+        "Stav Nahmani",
+        "Douglas Owusu"
       ],
       "correctIndex": 1,
-      "explanation": "Kangwa, the reigning Israeli Footballer of the Year, moved from Hapoel Beer Sheva to Panathinaikos on a contract to June 2030.",
-      "sourceUrl": "https://www.one.co.il/Article/529664.html"
+      "explanation": "Maor Kuba scored in the third minute of second-half stoppage time, assisted by Khalaileh, who had opened the scoring from the penalty spot.",
+      "sourceUrl": "https://www.sport5.co.il/articles.aspx?FolderID=127&docID=555315"
     },
     {
-      "question": "How many consecutive Israeli league titles did Dolev Haziza win during his seven years at Maccabi Haifa before moving to Maccabi Netanya?",
+      "question": "Point guard Tamir Blatt signed a three-year contract for a second stint at which club, even though it reportedly plans to loan him out again?",
       "answers": [
-        "One",
-        "Two",
-        "Three",
-        "Four"
+        "Maccabi Tel Aviv",
+        "Hapoel Tel Aviv",
+        "ASVEL",
+        "A club in Rome"
       ],
-      "correctIndex": 2,
-      "explanation": "Haziza spent 2019-2026 at Maccabi Haifa, winning three consecutive league titles and once captaining the side, before signing a two-year deal with Maccabi Netanya.",
-      "sourceUrl": "https://www.one.co.il/Article/529660.html"
+      "correctIndex": 1,
+      "explanation": "Hapoel Tel Aviv signed Blatt through the 2028/29 season, marking his return to the club where he began his career, with ONE reporting a loan is planned almost immediately.",
+      "sourceUrl": "https://www.one.co.il/Article/529725.html"
+    },
+    {
+      "question": "In which sport did Oren Smadja win Israel's first Olympic medal by a man, bronze at Barcelona 1992?",
+      "answers": [
+        "Wrestling",
+        "Judo",
+        "Boxing",
+        "Taekwondo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Smadja won Olympic bronze in judo at Barcelona 1992 and later coached Israel's national judo team for about fifteen years.",
+      "sourceUrl": "https://www.one.co.il/Article/529736.html"
+    },
+    {
+      "question": "Which MLS club issued a 'zero tolerance' statement after Israeli forward Dor Turgeman was targeted with antisemitic chants at CF Montréal?",
+      "answers": [
+        "New England Revolution",
+        "Inter Miami",
+        "LA Galaxy",
+        "Toronto FC"
+      ],
+      "correctIndex": 0,
+      "explanation": "New England Revolution released a formal statement on August 3, 2026 declaring zero tolerance for antisemitism and confirmed it reported the incident to MLS.",
+      "sourceUrl": "https://www.one.co.il/Article/529740.html"
+    },
+    {
+      "question": "Boris Gelfand, who settled in Rishon LeZion after emigrating from Minsk, lost the 2012 World Chess Championship in a Moscow rapid tiebreak to whom?",
+      "answers": [
+        "Vladimir Kramnik",
+        "Viswanathan Anand",
+        "Gata Kamsky",
+        "Shakhriyar Mamedyarov"
+      ],
+      "correctIndex": 1,
+      "explanation": "Viswanathan Anand won the rapid tiebreak 2½–1½ on 30 May 2012 to take the match 8½–7½, denying Gelfand what would have been Israel's first world chess title.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/World_Chess_Championship_2012"
     }
   ]
 }

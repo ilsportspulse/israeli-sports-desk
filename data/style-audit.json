@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T00:49:10.805Z",
+  "generatedAt": "2026-08-04T02:00:09.074Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 850,
+    "publishedArticles": 851,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 423.5,
-      "average": 426.1
+      "median": 424,
+      "average": 426.4
     },
     "paragraphDistribution": {
       "3": 34,
@@ -24,7 +24,7 @@
       "5": 10,
       "6": 37,
       "7": 122,
-      "8": 235,
+      "8": 236,
       "9": 199,
       "10": 147,
       "11": 38,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.276,
+    "dominantParagraphShare": 0.277,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 37,
     "analysisBelowTarget": 9,
@@ -3435,6 +3435,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "archive-20260804-moscow-30-may-2012-the-queen-trap-that-c",
+      "slug": "moscow-30-may-2012-the-queen-trap-that-cost-israel-its-first-world-che",
+      "title": "Moscow, 30 May 2012: The Queen Trap That Cost Israel Its First World Chess Champion",
+      "kind": "explainer",
+      "words": 668,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 70,
+        "longest": 101,
+        "average": 83.5
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 77,
+        "average": 27.8
+      },
+      "lexicalDiversity": 0.537,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "tour-20260803-norway-s-haugset-storms-to-yellow-with-8",
       "slug": "norway-s-haugset-storms-to-yellow-with-88km-solo-raid-on-tour-de-franc",
