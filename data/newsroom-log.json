@@ -3415,5 +3415,71 @@
         "reason": ""
       }
     ]
+  },
+  {
+    "ts": "2026-08-04T00:14:38.592Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 8,
+    "published": 3,
+    "review": 0,
+    "skipped": 5,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "tamir-blatt-signs-hapoel-tel-aviv-return",
+        "title": "Tamir Blatt returns to Hapoel Tel Aviv nine years after leaving",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "pochettino-agrees-new-usmnt-contract-through-2030",
+        "title": "Pochettino agrees new USMNT contract through 2030 World Cup",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "yan-diomande-real-madrid-transfer-legal-dispute-explained",
+        "title": "New details emerge on what's really holding up Yan Diomande's move to Real Madrid",
+        "decision": "duplicate",
+        "reason": "same event as diomande-real-madrid-agent-dispute-delay"
+      },
+      {
+        "slug": "rodri-barcelona-real-madrid-leao-milan-fenerbahce-transfer-latest",
+        "title": "Barcelona eye shock Rodri move as Milan reject Fenerbahçe's Leão bid",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "vinicius-real-madrid-contract-renewal-gap-report",
+        "title": "Report: Real Madrid and Vinicius Jr remain far apart on new contract terms",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "toto-cup-round-two-ashdod-bnei-yehuda-wins",
+        "title": "M.S. Ashdod beat Maccabi Jaffa 2-0 and Bnei Yehuda edge Kafr Qasem 1-0 in Toto Cup",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "douglas-owusu-plzen-medical-failure-hapoel-tel-aviv-signing",
+        "title": "Behind Douglas Owusu's failed Plzeň medical — and how it steered him to Hapoel Tel Aviv",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "hapoel-tel-aviv-beat-maccabi-douglas-owusu-red-star-belgrade",
+        "title": "Hapoel Tel Aviv beat Maccabi to Douglas Owusu in club-record deal with Red Star Belgrade",
+        "decision": "duplicate"
+      }
+    ]
   }
 ]

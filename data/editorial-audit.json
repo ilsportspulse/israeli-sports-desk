@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T00:02:09.487Z",
+  "generatedAt": "2026-08-04T00:23:35.789Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,12 +17,12 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1143,
-    "publishedBefore": 847,
-    "cleanPublished": 839,
+    "totalArticles": 1145,
+    "publishedBefore": 849,
+    "cleanPublished": 841,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 847,
+    "publishedAfter": 849,
     "reviewAfter": 296
   },
   "blockedPublished": [
@@ -157,14 +157,42 @@
   ],
   "warnings": [
     {
-      "id": "tour-20260803-norway-s-haugset-storms-to-yellow-with-8",
-      "slug": "norway-s-haugset-storms-to-yellow-with-88km-solo-raid-on-tour-de-franc",
-      "title": "Norway's Haugset Storms to Yellow With 88km Solo Raid on Tour de France Femmes Stage 3",
+      "id": "live-20260804-douglas-owusu-plzen-medical-hapoel",
+      "slug": "douglas-owusu-plzen-medical-failure-hapoel-tel-aviv-signing",
+      "title": "Behind Douglas Owusu's failed Plzeň medical — and how it steered him to Hapoel Tel Aviv",
       "statusBefore": "published",
-      "words": 661,
+      "words": 534,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260804-toto-cup-ashdod-bnei-yehuda-wins",
+      "slug": "toto-cup-round-two-ashdod-bnei-yehuda-wins",
+      "title": "M.S. Ashdod beat Maccabi Jaffa 2-0 and Bnei Yehuda edge Kafr Qasem 1-0 in Toto Cup",
+      "statusBefore": "published",
+      "words": 288,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-04-rodri-barcelona-leao-milan-fenerbahce",
+      "slug": "rodri-barcelona-real-madrid-leao-milan-fenerbahce-transfer-latest",
+      "title": "Barcelona eye shock Rodri move as Milan reject Fenerbahçe's Leão bid",
+      "statusBefore": "published",
+      "words": 432,
       "paragraphs": 9,
       "facts": 7,
-      "verificationSources": 6,
+      "verificationSources": 4,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -10937,14 +10965,42 @@
   ],
   "cleanPublished": [
     {
-      "id": "tour-20260803-norway-s-haugset-storms-to-yellow-with-8",
-      "slug": "norway-s-haugset-storms-to-yellow-with-88km-solo-raid-on-tour-de-franc",
-      "title": "Norway's Haugset Storms to Yellow With 88km Solo Raid on Tour de France Femmes Stage 3",
+      "id": "live-20260804-douglas-owusu-plzen-medical-hapoel",
+      "slug": "douglas-owusu-plzen-medical-failure-hapoel-tel-aviv-signing",
+      "title": "Behind Douglas Owusu's failed Plzeň medical — and how it steered him to Hapoel Tel Aviv",
       "statusBefore": "published",
-      "words": 661,
+      "words": 534,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260804-toto-cup-ashdod-bnei-yehuda-wins",
+      "slug": "toto-cup-round-two-ashdod-bnei-yehuda-wins",
+      "title": "M.S. Ashdod beat Maccabi Jaffa 2-0 and Bnei Yehuda edge Kafr Qasem 1-0 in Toto Cup",
+      "statusBefore": "published",
+      "words": 288,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-04-rodri-barcelona-leao-milan-fenerbahce",
+      "slug": "rodri-barcelona-real-madrid-leao-milan-fenerbahce-transfer-latest",
+      "title": "Barcelona eye shock Rodri move as Milan reject Fenerbahçe's Leão bid",
+      "statusBefore": "published",
+      "words": 432,
       "paragraphs": 9,
       "facts": 7,
-      "verificationSources": 6,
+      "verificationSources": 4,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
