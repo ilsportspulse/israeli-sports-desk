@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-04T13:25:47Z",
-    "validUntil": "2026-08-05T01:25:47Z",
+    "checkedAt": "2026-08-04T13:49:43Z",
+    "validUntil": "2026-08-05T01:49:43Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 376,
+        "maxAgeHours": 377,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-04-kiryat-yam-siso-ambition",
+        "articleId": "live-2026-08-04-omer-abuhav-hapoel-jerusalem",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 384,
+        "maxAgeHours": 385,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-04-omer-abuhav-hapoel-jerusalem",
+        "articleId": "live-2026-08-04-kiryat-yam-siso-ambition",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 394,
+        "maxAgeHours": 395,
         "requires": [
           "column"
         ]

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T13:25:48.003Z",
+  "generatedAt": "2026-08-04T13:49:44.129Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1184,
-    "publishedBefore": 873,
-    "cleanPublished": 865,
+    "totalArticles": 1189,
+    "publishedBefore": 876,
+    "cleanPublished": 868,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 873,
-    "reviewAfter": 311
+    "publishedAfter": 876,
+    "reviewAfter": 313
   },
   "blockedPublished": [
     {
@@ -157,28 +157,42 @@
   ],
   "warnings": [
     {
-      "id": "live-2026-08-04-liga-leumit-fixtures-2026-27",
-      "slug": "liga-leumit-fixtures-2026-27-season-opener",
-      "title": "Liga Leumit reveals fixture list for August 18 season opener",
-      "statusBefore": "published",
-      "words": 261,
-      "paragraphs": 7,
+      "id": "live-2026-08-04-beitar-jerusalem-silva-instability-dayan",
+      "slug": "beitar-jerusalem-goalkeeper-silva-instability-criticism-dayan",
+      "title": "Silva suffers from instability and makes too many mistakes, says Beitar great Dayan",
+      "statusBefore": "review",
+      "words": 440,
+      "paragraphs": 8,
       "facts": 6,
-      "verificationSources": 1,
+      "verificationSources": 4,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
     },
     {
-      "id": "live-2026-08-04-israeli-clubs-european-qualifying-rivals",
-      "slug": "israeli-clubs-european-qualifying-rivals-preview",
-      "title": "Aarhus, OFI Crete, Braga and Atalanta: the rivals standing between four Israeli clubs and Europe's group stages",
+      "id": "live-2026-08-04-liga-leumit-2026-27-opening-fixtures",
+      "slug": "liga-leumit-2026-27-opening-fixtures",
+      "title": "Liga Leumit reveals opening fixtures for 2026/27 season",
       "statusBefore": "published",
-      "words": 739,
+      "words": 436,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-04-israeli-clubs-europe-playoff-rivals",
+      "slug": "israeli-clubs-europe-playoff-rivals-aarhus-braga-atalanta-ofi-crete",
+      "title": "Aarhus, Atalanta, Braga and OFI Crete: who could stand between Israel's four clubs and Europe",
+      "statusBefore": "published",
+      "words": 821,
       "paragraphs": 12,
-      "facts": 6,
-      "verificationSources": 5,
+      "facts": 8,
+      "verificationSources": 4,
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline"
@@ -11390,32 +11404,6 @@
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
-    }
-  ],
-  "cleanPublished": [
-    {
-      "id": "live-2026-08-04-kiryat-yam-siso-ambition",
-      "slug": "kiryat-yam-coach-maor-siso-budget-ambition",
-      "title": "Maor Siso vows Kiryat Yam will keep aiming high despite one of Liga Leumit's smallest budgets",
-      "statusBefore": "published",
-      "words": 365,
-      "paragraphs": 7,
-      "facts": 6,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": []
-    },
-    {
-      "id": "live-2026-08-04-omer-abuhav-hapoel-jerusalem",
-      "slug": "omer-abuhav-signs-hapoel-jerusalem",
-      "title": "Hapoel Jerusalem sign midfielder Omer Abuhav from Bnei Sakhnin",
-      "statusBefore": "published",
-      "words": 242,
-      "paragraphs": 6,
-      "facts": 6,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": []
     },
     {
       "id": "live-2026-08-04-liga-leumit-fixtures-2026-27",
@@ -11440,6 +11428,60 @@
       "paragraphs": 12,
       "facts": 6,
       "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    }
+  ],
+  "cleanPublished": [
+    {
+      "id": "live-2026-08-04-maccabi-tel-aviv-cafeteria-lawsuit",
+      "slug": "maccabi-tel-aviv-cafeteria-operator-lawsuit-kiryat-shalom",
+      "title": "Maccabi Tel Aviv sued by longtime Kiryat Shalom cafeteria operator for 520,000 shekels",
+      "statusBefore": "published",
+      "words": 521,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-04-omer-abuhav-hapoel-jerusalem",
+      "slug": "omer-abuhav-signs-hapoel-jerusalem",
+      "title": "Hapoel Jerusalem sign midfielder Omer Abuhav from Bnei Sakhnin",
+      "statusBefore": "published",
+      "words": 242,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-04-liga-leumit-2026-27-opening-fixtures",
+      "slug": "liga-leumit-2026-27-opening-fixtures",
+      "title": "Liga Leumit reveals opening fixtures for 2026/27 season",
+      "statusBefore": "published",
+      "words": 436,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-04-israeli-clubs-europe-playoff-rivals",
+      "slug": "israeli-clubs-europe-playoff-rivals-aarhus-braga-atalanta-ofi-crete",
+      "title": "Aarhus, Atalanta, Braga and OFI Crete: who could stand between Israel's four clubs and Europe",
+      "statusBefore": "published",
+      "words": 821,
+      "paragraphs": 12,
+      "facts": 8,
+      "verificationSources": 4,
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline"
@@ -23090,6 +23132,46 @@
       "warnings": [
         "presentation:outlet-name-in-headline",
         "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-04-kiryat-yam-siso-ambition",
+      "slug": "kiryat-yam-coach-maor-siso-budget-ambition",
+      "title": "Maor Siso vows Kiryat Yam will keep aiming high despite one of Liga Leumit's smallest budgets",
+      "statusBefore": "published",
+      "words": 365,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-04-liga-leumit-fixtures-2026-27",
+      "slug": "liga-leumit-fixtures-2026-27-season-opener",
+      "title": "Liga Leumit reveals fixture list for August 18 season opener",
+      "statusBefore": "published",
+      "words": 261,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-04-israeli-clubs-european-qualifying-rivals",
+      "slug": "israeli-clubs-european-qualifying-rivals-preview",
+      "title": "Aarhus, OFI Crete, Braga and Atalanta: the rivals standing between four Israeli clubs and Europe's group stages",
+      "statusBefore": "published",
+      "words": 739,
+      "paragraphs": 12,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
       ]
     }
   ]
