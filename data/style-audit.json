@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T22:51:34.326Z",
+  "generatedAt": "2026-08-04T00:02:09.970Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 846,
+    "publishedArticles": 847,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 423,
-      "average": 425.8
+      "average": 426.1
     },
     "paragraphDistribution": {
       "3": 34,
@@ -25,7 +25,7 @@
       "6": 37,
       "7": 121,
       "8": 235,
-      "9": 196,
+      "9": 197,
       "10": 147,
       "11": 38,
       "12": 12,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.278,
+    "dominantParagraphShare": 0.277,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 37,
     "analysisBelowTarget": 9,
@@ -3412,6 +3412,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "tour-20260803-norway-s-haugset-storms-to-yellow-with-8",
+      "slug": "norway-s-haugset-storms-to-yellow-with-88km-solo-raid-on-tour-de-franc",
+      "title": "Norway's Haugset Storms to Yellow With 88km Solo Raid on Tour de France Femmes Stage 3",
+      "kind": "news",
+      "words": 667,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 56,
+        "longest": 87,
+        "average": 74.1
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 61,
+        "average": 31.8
+      },
+      "lexicalDiversity": 0.54,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-03-hapoel-tel-aviv-blatt-loan-plan",
       "slug": "hapoel-tel-aviv-muted-blatt-announcement-loan-plan",

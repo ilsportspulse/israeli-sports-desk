@@ -1,5 +1,42 @@
 [
   {
+    "ts": "2026-08-03T23:55:40.625Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 4,
+    "published": 0,
+    "review": 0,
+    "skipped": 4,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "tamir-blatt-returns-hapoel-tel-aviv-nine-years",
+        "title": "Tamir Blatt returns to Hapoel Tel Aviv after nine years",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "pochettino-signs-new-usmnt-contract-through-2030",
+        "title": "Pochettino signs new contract to stay on as USMNT coach through 2030",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "diomande-transfer-delay-image-rights-dispute",
+        "title": "Real Madrid's image-rights rule is the real reason Diomande's move is stuck",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "barcelona-rodri-milan-leao-fenerbahce",
+        "title": "Barcelona join the Rodri race as Real Madrid wait, while Milan slam door on Fenerbahçe's Leão loan bid",
+        "decision": "duplicate",
+        "reason": "same event as rodri-transfer-stalled-real-madrid-manchester-city-price-tag"
+      }
+    ]
+  },
+  {
     "ts": "2026-08-03T22:42:33.462Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -3372,81 +3409,6 @@
       {
         "slug": "adeyemi-barcelona-debut-birmingham-city",
         "title": "Birmingham City beat Barcelona on penalties after 2-2 draw, but Adeyemi's debut impresses",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-01T10:18:00.469Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 8,
-    "published": 4,
-    "review": 2,
-    "skipped": 2,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "vinicius-junior-signing-bonus-real-madrid-contract-standoff",
-        "title": "Vinicius Jr's camp floats a signing bonus as the fix for his Real Madrid contract standoff",
-        "decision": "duplicate",
-        "reason": "same event as arsenal-record-wage-vinicius-junior-real-madrid"
-      },
-      {
-        "slug": "tottenham-chelsea-sydney-super-cup-manor-solomon-starts",
-        "title": "Manor Solomon starts as Tottenham lead Chelsea in Sydney friendly — full match report held",
-        "confidence": 0,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "match in progress — wait for full time"
-      },
-      {
-        "slug": "leonid-kaufman-gorbenko-road-to-los-angeles-2028",
-        "title": "Kaufman lays out Israel swimming's road to Los Angeles 2028, built around Gorbenko",
-        "confidence": 0.85,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "below gate thresholds"
-      },
-      {
-        "slug": "real-madrid-academy-sales-181-million-summer",
-        "title": "Real Madrid's academy has already banked €181.5m this summer, ONE reports",
-        "confidence": 0.75,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "maccabi-tel-aviv-eyes-oz-bilu-wing-search",
-        "title": "Alongside foreign options, Maccabi Tel Aviv also weighing Maccabi Netanya's Oz Bilu",
-        "confidence": 0.78,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "messi-fitness-doubt-inter-miami-columbus-crew",
-        "title": "Will he play? Question mark hangs over Messi ahead of Inter Miami's clash with Columbus Crew",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "khalaili-inter-belgian-super-cup-penalty-duplicate",
-        "title": "Khalaili misses out on Inter, but not from the penalty spot",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "orian-goren-barcelona-birmingham-city-praise",
-        "title": "Orian Goren shows his class as Barcelona draw 2-2 with Birmingham City",
         "confidence": 0.85,
         "gate": "pass",
         "decision": "published",
