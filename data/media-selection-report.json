@@ -1,10 +1,16 @@
 {
   "selections": [
     {
-      "articleId": "archive-20260804-moscow-30-may-2012-the-queen-trap-that-c",
-      "article": "Moscow, 30 May 2012: The Queen Trap That Cost Israel Its First World Chess Champion",
-      "file": "File:Gelfand & Anand.JPG",
-      "license": "CC BY-SA 3.0"
+      "articleId": "live-20260804-pogacar-vuelta-espana-2026",
+      "article": "Pogačar to ride the Vuelta a España for the first time since 2019",
+      "file": "File:Tadej Pogačar (2021 Slovenian National Time Trial Championships).jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-2026-08-04-tdf-femmes-bra-doping-row",
+      "article": "Padded bras and 'chest fairings' spark a policing row at the Tour de France Femmes",
+      "file": "File:Demi Vollering in time trial of TDFF 2023.jpg",
+      "license": "CC BY-SA 4.0"
     },
     {
       "articleId": "live-20260714-basketball-coaches-registration",
@@ -15,6 +21,11 @@
     }
   ],
   "failures": [
+    {
+      "id": "live-20260804-uri-dahan-beitar-jerusalem-tiberias",
+      "title": "Beitar Jerusalem leave Uri Dahan out of Conference League squad as Tiberias make their move",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
     {
       "id": "live-20260803-vince-cole-otef-darom-lior-hershko-shomron",
       "title": "Vince Cole returns to Otef Darom as Lior Hershko heads to Elitzur Shomron",

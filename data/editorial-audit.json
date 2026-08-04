@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T02:49:09.324Z",
+  "generatedAt": "2026-08-04T04:05:29.527Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,12 +17,12 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1147,
-    "publishedBefore": 851,
-    "cleanPublished": 843,
+    "totalArticles": 1150,
+    "publishedBefore": 854,
+    "cleanPublished": 846,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 851,
+    "publishedAfter": 854,
     "reviewAfter": 296
   },
   "blockedPublished": [
@@ -156,6 +156,48 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-20260804-uri-dahan-beitar-jerusalem-tiberias",
+      "slug": "uri-dahan-left-out-beitar-jerusalem-conference-league-squad-tiberias-approach",
+      "title": "Beitar Jerusalem leave Uri Dahan out of Conference League squad as Tiberias make their move",
+      "statusBefore": "published",
+      "words": 342,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "live-20260804-pogacar-vuelta-espana-2026",
+      "slug": "pogacar-return-vuelta-espana-2026",
+      "title": "Pogačar to ride the Vuelta a España for the first time since 2019",
+      "statusBefore": "published",
+      "words": 288,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-04-tdf-femmes-bra-doping-row",
+      "slug": "tour-de-france-femmes-padded-bra-aero-row",
+      "title": "Padded bras and 'chest fairings' spark a policing row at the Tour de France Femmes",
+      "statusBefore": "published",
+      "words": 535,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "archive-20260804-moscow-30-may-2012-the-queen-trap-that-c",
       "slug": "moscow-30-may-2012-the-queen-trap-that-cost-israel-its-first-world-che",
@@ -10992,6 +11034,48 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-20260804-uri-dahan-beitar-jerusalem-tiberias",
+      "slug": "uri-dahan-left-out-beitar-jerusalem-conference-league-squad-tiberias-approach",
+      "title": "Beitar Jerusalem leave Uri Dahan out of Conference League squad as Tiberias make their move",
+      "statusBefore": "published",
+      "words": 342,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "live-20260804-pogacar-vuelta-espana-2026",
+      "slug": "pogacar-return-vuelta-espana-2026",
+      "title": "Pogačar to ride the Vuelta a España for the first time since 2019",
+      "statusBefore": "published",
+      "words": 288,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-04-tdf-femmes-bra-doping-row",
+      "slug": "tour-de-france-femmes-padded-bra-aero-row",
+      "title": "Padded bras and 'chest fairings' spark a policing row at the Tour de France Femmes",
+      "statusBefore": "published",
+      "words": 535,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "archive-20260804-moscow-30-may-2012-the-queen-trap-that-c",
       "slug": "moscow-30-may-2012-the-queen-trap-that-cost-israel-its-first-world-che",

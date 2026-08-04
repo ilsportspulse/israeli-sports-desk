@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T02:49:09.853Z",
+  "generatedAt": "2026-08-04T04:05:30.041Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,21 +11,21 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 851,
+    "publishedArticles": 854,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 424,
-      "average": 426.4
+      "median": 423.5,
+      "average": 426.2
     },
     "paragraphDistribution": {
       "3": 34,
       "4": 6,
       "5": 10,
       "6": 37,
-      "7": 122,
-      "8": 236,
-      "9": 199,
+      "7": 123,
+      "8": 237,
+      "9": 200,
       "10": 147,
       "11": 38,
       "12": 12,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.277,
+    "dominantParagraphShare": 0.278,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 37,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 147
+    "articlesWithStyleFlags": 148
   },
   "flagged": [
     {
@@ -280,6 +280,29 @@
       "flags": [
         "below-editorial-target:204/280",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260804-uri-dahan-beitar-jerusalem-tiberias",
+      "slug": "uri-dahan-left-out-beitar-jerusalem-conference-league-squad-tiberias-approach",
+      "title": "Beitar Jerusalem leave Uri Dahan out of Conference League squad as Tiberias make their move",
+      "kind": "news",
+      "words": 340,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 61,
+        "average": 48.6
+      },
+      "sentenceWords": {
+        "shortest": 21,
+        "longest": 43,
+        "average": 30.9
+      },
+      "lexicalDiversity": 0.612,
+      "publisherAttributions": 1,
+      "flags": [
+        "stock-phrase:remains-to-be-seen"
       ]
     },
     {
@@ -3435,6 +3458,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260804-pogacar-vuelta-espana-2026",
+      "slug": "pogacar-return-vuelta-espana-2026",
+      "title": "Pogačar to ride the Vuelta a España for the first time since 2019",
+      "kind": "news",
+      "words": 287,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 27,
+        "longest": 46,
+        "average": 35.9
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 67,
+        "average": 35.9
+      },
+      "lexicalDiversity": 0.627,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-04-tdf-femmes-bra-doping-row",
+      "slug": "tour-de-france-femmes-padded-bra-aero-row",
+      "title": "Padded bras and 'chest fairings' spark a policing row at the Tour de France Femmes",
+      "kind": "news",
+      "words": 532,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 39,
+        "longest": 79,
+        "average": 59.1
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 62,
+        "average": 33.3
+      },
+      "lexicalDiversity": 0.596,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "archive-20260804-moscow-30-may-2012-the-queen-trap-that-c",
       "slug": "moscow-30-may-2012-the-queen-trap-that-cost-israel-its-first-world-che",

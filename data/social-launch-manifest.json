@@ -146,49 +146,49 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-04T02:49:08Z",
-    "validUntil": "2026-08-04T14:49:08Z",
+    "checkedAt": "2026-08-04T04:05:29Z",
+    "validUntil": "2026-08-04T16:05:29Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 366,
+        "maxAgeHours": 367,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "archive-20260804-moscow-30-may-2012-the-queen-trap-that-c",
+        "articleId": "live-20260804-uri-dahan-beitar-jerusalem-tiberias",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 374,
+        "maxAgeHours": 375,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260804-douglas-owusu-plzen-medical-hapoel",
+        "articleId": "live-20260804-pogacar-vuelta-espana-2026",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 384,
+        "maxAgeHours": 385,
         "requires": [
           "column"
         ]
       },
       {
         "role": "archive",
-        "articleId": "archive-20260803-rio-de-janeiro-29-august-2013-the-forty-",
+        "articleId": "archive-20260804-moscow-30-may-2012-the-queen-trap-that-c",
         "maxAgeHours": 53,
         "requires": [
           "historical-feature"
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260804-toto-cup-ashdod-bnei-yehuda-wins",
+        "articleId": "live-2026-08-04-tdf-femmes-bra-doping-row",
         "maxAgeHours": 24,
         "requires": []
       }
