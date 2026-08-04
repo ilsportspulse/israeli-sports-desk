@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-04T11:49:29Z",
-    "validUntil": "2026-08-04T23:49:29Z",
+    "checkedAt": "2026-08-04T13:06:35Z",
+    "validUntil": "2026-08-05T01:06:35Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 375,
+        "maxAgeHours": 376,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-04-manor-solomon-west-ham-transfer",
+        "articleId": "live-2026-08-04-maccabi-tel-aviv-cafeteria-lawsuit",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 383,
+        "maxAgeHours": 384,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-04-hapoel-jerusalem-miletic-signing",
+        "articleId": "live-2026-08-04-liga-leumit-2026-27-opening-fixtures",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 393,
+        "maxAgeHours": 394,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-04-hapoel-petah-tikva-arroyo-alternatives",
+        "articleId": "live-2026-08-04-israeli-clubs-europe-playoff-rivals",
         "maxAgeHours": 24,
         "requires": []
       }

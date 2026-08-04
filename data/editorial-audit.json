@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T11:49:29.386Z",
+  "generatedAt": "2026-08-04T13:06:35.909Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1180,
-    "publishedBefore": 870,
-    "cleanPublished": 862,
+    "totalArticles": 1186,
+    "publishedBefore": 872,
+    "cleanPublished": 864,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 870,
-    "reviewAfter": 310
+    "publishedAfter": 872,
+    "reviewAfter": 314
   },
   "blockedPublished": [
     {
@@ -156,6 +156,48 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-2026-08-04-beitar-jerusalem-silva-instability-dayan",
+      "slug": "beitar-jerusalem-goalkeeper-silva-instability-criticism-dayan",
+      "title": "Silva suffers from instability and makes too many mistakes, says Beitar great Dayan",
+      "statusBefore": "review",
+      "words": 440,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-04-liga-leumit-2026-27-opening-fixtures",
+      "slug": "liga-leumit-2026-27-opening-fixtures",
+      "title": "Liga Leumit reveals opening fixtures for 2026/27 season",
+      "statusBefore": "published",
+      "words": 436,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-04-israeli-clubs-europe-playoff-rivals",
+      "slug": "israeli-clubs-europe-playoff-rivals-aarhus-braga-atalanta-ofi-crete",
+      "title": "Aarhus, Atalanta, Braga and OFI Crete: who could stand between Israel's four clubs and Europe",
+      "statusBefore": "published",
+      "words": 821,
+      "paragraphs": 12,
+      "facts": 8,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
     {
       "id": "live-2026-08-04-siraj-nassar-bnei-eilat",
       "slug": "siraj-nassar-hapoel-beer-sheva-veteran-signs-bnei-eilat",
@@ -11322,7 +11364,7 @@
       "id": "live-2026-08-04-hapoel-jerusalem-miletic-signing",
       "slug": "hapoel-jerusalem-sign-dusan-miletic",
       "title": "Hapoel Jerusalem sign Serbian center Dušan Miletić",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 297,
       "paragraphs": 8,
       "facts": 7,
@@ -11365,6 +11407,46 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-04-maccabi-tel-aviv-cafeteria-lawsuit",
+      "slug": "maccabi-tel-aviv-cafeteria-operator-lawsuit-kiryat-shalom",
+      "title": "Maccabi Tel Aviv sued by longtime Kiryat Shalom cafeteria operator for 520,000 shekels",
+      "statusBefore": "published",
+      "words": 521,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-04-liga-leumit-2026-27-opening-fixtures",
+      "slug": "liga-leumit-2026-27-opening-fixtures",
+      "title": "Liga Leumit reveals opening fixtures for 2026/27 season",
+      "statusBefore": "published",
+      "words": 436,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-04-israeli-clubs-europe-playoff-rivals",
+      "slug": "israeli-clubs-europe-playoff-rivals-aarhus-braga-atalanta-ofi-crete",
+      "title": "Aarhus, Atalanta, Braga and OFI Crete: who could stand between Israel's four clubs and Europe",
+      "statusBefore": "published",
+      "words": 821,
+      "paragraphs": 12,
+      "facts": 8,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
     {
       "id": "live-2026-08-04-hapoel-petah-tikva-arroyo-alternatives",
       "slug": "hapoel-petah-tikva-alternatives-arroyo-loan-wait",
@@ -23009,21 +23091,6 @@
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline",
-        "voice:publisher-attribution-heavy:2"
-      ]
-    },
-    {
-      "id": "live-2026-08-04-hapoel-jerusalem-miletic-signing",
-      "slug": "hapoel-jerusalem-sign-dusan-miletic",
-      "title": "Hapoel Jerusalem sign Serbian center Dušan Miletić",
-      "statusBefore": "published",
-      "words": 297,
-      "paragraphs": 8,
-      "facts": 7,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected",
         "voice:publisher-attribution-heavy:2"
       ]
     }

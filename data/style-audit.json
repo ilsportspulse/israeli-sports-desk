@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T11:49:29.868Z",
+  "generatedAt": "2026-08-04T13:06:36.408Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 870,
+    "publishedArticles": 872,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 422.5,
-      "average": 425.3
+      "median": 423,
+      "average": 426.1
     },
     "paragraphDistribution": {
       "3": 34,
@@ -25,10 +25,10 @@
       "6": 38,
       "7": 125,
       "8": 244,
-      "9": 202,
+      "9": 203,
       "10": 150,
       "11": 39,
-      "12": 12,
+      "12": 13,
       "13": 4,
       "14": 2,
       "16": 1,
@@ -3528,6 +3528,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-04-maccabi-tel-aviv-cafeteria-lawsuit",
+      "slug": "maccabi-tel-aviv-cafeteria-operator-lawsuit-kiryat-shalom",
+      "title": "Maccabi Tel Aviv sued by longtime Kiryat Shalom cafeteria operator for 520,000 shekels",
+      "kind": "article",
+      "words": 524,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 26,
+        "longest": 78,
+        "average": 65.5
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 70,
+        "average": 30.8
+      },
+      "lexicalDiversity": 0.573,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-04-liga-leumit-2026-27-opening-fixtures",
+      "slug": "liga-leumit-2026-27-opening-fixtures",
+      "title": "Liga Leumit reveals opening fixtures for 2026/27 season",
+      "kind": "news",
+      "words": 443,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 65,
+        "average": 49.2
+      },
+      "sentenceWords": {
+        "shortest": 1,
+        "longest": 62,
+        "average": 27.7
+      },
+      "lexicalDiversity": 0.571,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-04-israeli-clubs-europe-playoff-rivals",
+      "slug": "israeli-clubs-europe-playoff-rivals-aarhus-braga-atalanta-ofi-crete",
+      "title": "Aarhus, Atalanta, Braga and OFI Crete: who could stand between Israel's four clubs and Europe",
+      "kind": "article",
+      "words": 812,
+      "paragraphs": 12,
+      "paragraphWords": {
+        "shortest": 40,
+        "longest": 93,
+        "average": 67.7
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 51,
+        "average": 28
+      },
+      "lexicalDiversity": 0.47,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-04-hapoel-petah-tikva-arroyo-alternatives",
       "slug": "hapoel-petah-tikva-alternatives-arroyo-loan-wait",
@@ -18604,27 +18667,6 @@
       },
       "lexicalDiversity": 0.571,
       "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-04-hapoel-jerusalem-miletic-signing",
-      "slug": "hapoel-jerusalem-sign-dusan-miletic",
-      "title": "Hapoel Jerusalem sign Serbian center Dušan Miletić",
-      "kind": "news",
-      "words": 303,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 31,
-        "longest": 50,
-        "average": 37.9
-      },
-      "sentenceWords": {
-        "shortest": 17,
-        "longest": 50,
-        "average": 33.7
-      },
-      "lexicalDiversity": 0.624,
-      "publisherAttributions": 1,
       "flags": []
     }
   ]
