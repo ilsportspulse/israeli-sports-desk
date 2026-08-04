@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T13:06:36.408Z",
+  "generatedAt": "2026-08-04T13:25:48.353Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,21 +11,21 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 872,
+    "publishedArticles": 873,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 423,
-      "average": 426.1
+      "median": 422,
+      "average": 425.4
     },
     "paragraphDistribution": {
       "3": 34,
       "4": 6,
       "5": 10,
-      "6": 38,
-      "7": 125,
-      "8": 244,
-      "9": 203,
+      "6": 39,
+      "7": 127,
+      "8": 243,
+      "9": 202,
       "10": 150,
       "11": 39,
       "12": 13,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.28,
+    "dominantParagraphShare": 0.278,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 38,
+    "exactSixParagraphArticles": 39,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 151
+    "articlesWithStyleFlags": 153
   },
   "flagged": [
     {
@@ -304,6 +304,52 @@
       "flags": [
         "below-editorial-target:204/280",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-04-omer-abuhav-hapoel-jerusalem",
+      "slug": "omer-abuhav-signs-hapoel-jerusalem",
+      "title": "Hapoel Jerusalem sign midfielder Omer Abuhav from Bnei Sakhnin",
+      "kind": "news",
+      "words": 242,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 32,
+        "longest": 54,
+        "average": 40.3
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 47,
+        "average": 26.9
+      },
+      "lexicalDiversity": 0.645,
+      "publisherAttributions": 1,
+      "flags": [
+        "below-editorial-target:242/280"
+      ]
+    },
+    {
+      "id": "live-2026-08-04-liga-leumit-fixtures-2026-27",
+      "slug": "liga-leumit-fixtures-2026-27-season-opener",
+      "title": "Liga Leumit reveals fixture list for August 18 season opener",
+      "kind": "news",
+      "words": 264,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 48,
+        "average": 37.7
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 35,
+        "average": 24
+      },
+      "lexicalDiversity": 0.614,
+      "publisherAttributions": 1,
+      "flags": [
+        "below-editorial-target:264/280"
       ]
     },
     {
@@ -3529,65 +3575,44 @@
   ],
   "clean": [
     {
-      "id": "live-2026-08-04-maccabi-tel-aviv-cafeteria-lawsuit",
-      "slug": "maccabi-tel-aviv-cafeteria-operator-lawsuit-kiryat-shalom",
-      "title": "Maccabi Tel Aviv sued by longtime Kiryat Shalom cafeteria operator for 520,000 shekels",
+      "id": "live-2026-08-04-kiryat-yam-siso-ambition",
+      "slug": "kiryat-yam-coach-maor-siso-budget-ambition",
+      "title": "Maor Siso vows Kiryat Yam will keep aiming high despite one of Liga Leumit's smallest budgets",
       "kind": "article",
-      "words": 524,
-      "paragraphs": 8,
+      "words": 364,
+      "paragraphs": 7,
       "paragraphWords": {
-        "shortest": 26,
-        "longest": 78,
-        "average": 65.5
+        "shortest": 39,
+        "longest": 63,
+        "average": 52
       },
       "sentenceWords": {
-        "shortest": 7,
-        "longest": 70,
-        "average": 30.8
+        "shortest": 3,
+        "longest": 71,
+        "average": 30.3
       },
-      "lexicalDiversity": 0.573,
-      "publisherAttributions": 1,
+      "lexicalDiversity": 0.613,
+      "publisherAttributions": 0,
       "flags": []
     },
     {
-      "id": "live-2026-08-04-liga-leumit-2026-27-opening-fixtures",
-      "slug": "liga-leumit-2026-27-opening-fixtures",
-      "title": "Liga Leumit reveals opening fixtures for 2026/27 season",
-      "kind": "news",
-      "words": 443,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 33,
-        "longest": 65,
-        "average": 49.2
-      },
-      "sentenceWords": {
-        "shortest": 1,
-        "longest": 62,
-        "average": 27.7
-      },
-      "lexicalDiversity": 0.571,
-      "publisherAttributions": 1,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-04-israeli-clubs-europe-playoff-rivals",
-      "slug": "israeli-clubs-europe-playoff-rivals-aarhus-braga-atalanta-ofi-crete",
-      "title": "Aarhus, Atalanta, Braga and OFI Crete: who could stand between Israel's four clubs and Europe",
-      "kind": "article",
-      "words": 812,
+      "id": "live-2026-08-04-israeli-clubs-european-qualifying-rivals",
+      "slug": "israeli-clubs-european-qualifying-rivals-preview",
+      "title": "Aarhus, OFI Crete, Braga and Atalanta: the rivals standing between four Israeli clubs and Europe's group stages",
+      "kind": "analysis",
+      "words": 733,
       "paragraphs": 12,
       "paragraphWords": {
-        "shortest": 40,
-        "longest": 93,
-        "average": 67.7
+        "shortest": 48,
+        "longest": 72,
+        "average": 61.1
       },
       "sentenceWords": {
-        "shortest": 7,
-        "longest": 51,
-        "average": 28
+        "shortest": 9,
+        "longest": 52,
+        "average": 29.3
       },
-      "lexicalDiversity": 0.47,
+      "lexicalDiversity": 0.482,
       "publisherAttributions": 0,
       "flags": []
     },

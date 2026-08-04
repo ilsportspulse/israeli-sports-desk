@@ -1,34 +1,16 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-08-04-maccabi-tel-aviv-cafeteria-lawsuit",
-      "article": "Maccabi Tel Aviv sued by longtime Kiryat Shalom cafeteria operator for 520,000 shekels",
-      "file": "File:Mecz piłkarski Wisła Kraków - Zagłębie Sosnwoiec, 28 października 2022, Pożegnanie Stadionu Ludowego, KP.jpg",
-      "license": "CC BY 4.0"
-    },
-    {
-      "articleId": "live-2026-08-04-kiryat-yam-siso-budget-ambition",
-      "article": "Kiryat Yam coach Siso vows to aim high despite one of Liga Leumit's smallest budgets",
-      "file": "File:Acre Municipal Stadium01.jpg",
+      "articleId": "live-2026-08-04-omer-abuhav-hapoel-jerusalem",
+      "article": "Hapoel Jerusalem sign midfielder Omer Abuhav from Bnei Sakhnin",
+      "file": "File:Teddy Kollek Stadium - Inside 2.JPG",
       "license": "Public domain"
     },
     {
-      "articleId": "live-2026-08-04-beitar-jerusalem-silva-instability-dayan",
-      "article": "Silva suffers from instability and makes too many mistakes, says Beitar great Dayan",
-      "file": "File:Miguel Macedo Silva.jpg",
-      "license": "CC BY 4.0"
-    },
-    {
-      "articleId": "live-2026-08-04-liga-leumit-2026-27-opening-fixtures",
-      "article": "Liga Leumit reveals opening fixtures for 2026/27 season",
+      "articleId": "live-2026-08-04-liga-leumit-fixtures-2026-27",
+      "article": "Liga Leumit reveals fixture list for August 18 season opener",
       "file": "File:SM Caen Tifo 15 ans du MNK.jpg",
       "license": "CC BY-SA 3.0"
-    },
-    {
-      "articleId": "live-2026-08-04-israeli-clubs-europe-playoff-rivals",
-      "article": "Aarhus, Atalanta, Braga and OFI Crete: who could stand between Israel's four clubs and Europe",
-      "file": "File:Bloomfield Stadium 2 Tel Aviv.jpg",
-      "license": "CC BY 4.0"
     },
     {
       "articleId": "live-20260714-basketball-coaches-registration",
@@ -40,8 +22,13 @@
   ],
   "failures": [
     {
-      "id": "live-2026-08-04-omer-abuhav-hapoel-jerusalem",
-      "title": "Omer Abuhav signs with Hapoel Jerusalem after leaving Bnei Sakhnin",
+      "id": "live-2026-08-04-kiryat-yam-siso-ambition",
+      "title": "Maor Siso vows Kiryat Yam will keep aiming high despite one of Liga Leumit's smallest budgets",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-2026-08-04-israeli-clubs-european-qualifying-rivals",
+      "title": "Aarhus, OFI Crete, Braga and Atalanta: the rivals standing between four Israeli clubs and Europe's group stages",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {
