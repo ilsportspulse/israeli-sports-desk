@@ -1,27 +1,15 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-08-04-neymar-not-thinking-retirement-santos-contract",
-      "article": "Neymar: I'm not thinking about retirement, I have a contract with Santos",
-      "file": "File:Neymar Jr Presentation.jpg",
-      "license": "CC BY-SA 2.0"
-    },
-    {
-      "articleId": "live-2026-08-04-idan-vered-rehovot-municipal-club",
-      "article": "Idan Vered still waiting on Rehovot city hall over new club plan",
-      "file": "File:Idan Vered.jpg",
+      "articleId": "live-20260804-craiova-stoinov-bid-rejected",
+      "article": "Dinamo Bucharest reject Craiova's €700,000 bid for Israeli defender Nikita Stoinov",
+      "file": "File:Stadionul Dinamo front.JPG",
       "license": "CC BY-SA 3.0"
     },
     {
-      "articleId": "live-2026-08-04-beitar-jerusalem-austria-wien-preview",
-      "article": "Beitar Jerusalem warn: Austria Wien are better than people in Israel think",
-      "file": "File:Franz-Horr-Stadion-Panorama.jpg",
-      "license": "CC BY 3.0"
-    },
-    {
-      "articleId": "live-20260804-ter-stegen-ajax-loan",
-      "article": "Ter Stegen completes season-long loan move from Barcelona to Ajax",
-      "file": "File:Real Valladolid - FC Barcelona, 2018-08-25 (23).jpg",
+      "articleId": "live-20260804-orel-grinfeld-europa-league-referee",
+      "article": "All-Israeli team to referee Lech Poznań's Europa League qualifier",
+      "file": "File:Lech Poznan Stadium.JPG",
       "license": "CC BY-SA 4.0"
     },
     {
@@ -33,6 +21,11 @@
     }
   ],
   "failures": [
+    {
+      "id": "live-20260804-doncic-summer-break-motivation",
+      "title": "Luka Dončić says his summer break from basketball fuels his motivation",
+      "error": "image download 429 after retries"
+    },
     {
       "id": "live-2026-08-04-allan-nascimento-ufc-death",
       "title": "UFC flyweight Allan Nascimento dies in his sleep at 34",

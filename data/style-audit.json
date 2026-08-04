@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T08:09:56.790Z",
+  "generatedAt": "2026-08-04T09:05:09.836Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,7 +11,7 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 862,
+    "publishedArticles": 864,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
@@ -24,9 +24,9 @@
       "5": 10,
       "6": 38,
       "7": 124,
-      "8": 241,
+      "8": 242,
       "9": 200,
-      "10": 149,
+      "10": 150,
       "11": 38,
       "12": 12,
       "13": 4,
@@ -3505,6 +3505,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260804-craiova-stoinov-bid-rejected",
+      "slug": "craiova-bid-for-nikita-stoinov-rejected-by-dinamo-bucharest",
+      "title": "Dinamo Bucharest reject Craiova's €700,000 bid for Israeli defender Nikita Stoinov",
+      "kind": "news",
+      "words": 350,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 52,
+        "average": 43.8
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 43,
+        "average": 23.3
+      },
+      "lexicalDiversity": 0.589,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260804-doncic-summer-break-motivation",
+      "slug": "luka-doncic-summer-break-motivation-lakers",
+      "title": "Luka Dončić says his summer break from basketball fuels his motivation",
+      "kind": "news",
+      "words": 467,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 26,
+        "longest": 71,
+        "average": 46.7
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 133,
+        "average": 42.5
+      },
+      "lexicalDiversity": 0.574,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-04-allan-nascimento-ufc-death",
       "slug": "ufc-flyweight-allan-nascimento-dies-34",
