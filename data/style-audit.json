@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T11:07:52.198Z",
+  "generatedAt": "2026-08-04T11:27:29.943Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,7 +11,7 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 868,
+    "publishedArticles": 866,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
@@ -23,11 +23,11 @@
       "4": 6,
       "5": 10,
       "6": 38,
-      "7": 125,
+      "7": 124,
       "8": 243,
       "9": 201,
       "10": 150,
-      "11": 39,
+      "11": 38,
       "12": 12,
       "13": 4,
       "14": 2,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.28,
+    "dominantParagraphShare": 0.281,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 38,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 151
+    "articlesWithStyleFlags": 150
   },
   "flagged": [
     {
@@ -303,29 +303,6 @@
       "publisherAttributions": 2,
       "flags": [
         "below-editorial-target:204/280",
-        "publisher-attribution-heavy:2"
-      ]
-    },
-    {
-      "id": "live-20260804-dusan-miletic-hapoel-jerusalem",
-      "slug": "dusan-miletic-signs-hapoel-jerusalem-serbian-center",
-      "title": "Hapoel Jerusalem sign Serbian center Dušan Miletić on one-year deal",
-      "kind": "article",
-      "words": 344,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 9,
-        "longest": 79,
-        "average": 43
-      },
-      "sentenceWords": {
-        "shortest": 9,
-        "longest": 59,
-        "average": 31.3
-      },
-      "lexicalDiversity": 0.616,
-      "publisherAttributions": 2,
-      "flags": [
         "publisher-attribution-heavy:2"
       ]
     },
@@ -3529,66 +3506,45 @@
   ],
   "clean": [
     {
-      "id": "live-2026-08-04-hapoel-petah-tikva-arroyo-alternatives",
-      "slug": "hapoel-petah-tikva-alternatives-arroyo-loan-wait",
-      "title": "Hapoel Petah Tikva weigh alternatives and won't wait much longer for Arroyo",
+      "id": "live-2026-08-04-manor-solomon-west-ham-transfer",
+      "slug": "manor-solomon-west-ham-three-year-contract",
+      "title": "Manor Solomon closing in on West Ham switch on three-year contract",
       "kind": "article",
-      "words": 301,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 36,
-        "longest": 53,
-        "average": 43
-      },
-      "sentenceWords": {
-        "shortest": 10,
-        "longest": 46,
-        "average": 30.1
-      },
-      "lexicalDiversity": 0.635,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-04-beer-sheva-red-star-solomon-preview",
-      "slug": "beer-sheva-red-star-belgrade-champions-league-solomon-transfer",
-      "title": "Beer Sheva prepare for Red Star Belgrade test as Solomon's Tottenham exit edges closer",
-      "kind": "news",
-      "words": 544,
-      "paragraphs": 11,
-      "paragraphWords": {
-        "shortest": 38,
-        "longest": 67,
-        "average": 49.5
-      },
-      "sentenceWords": {
-        "shortest": 15,
-        "longest": 61,
-        "average": 36.3
-      },
-      "lexicalDiversity": 0.594,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260804-beersheba-red-star-levi-50-50",
-      "slug": "beersheba-red-star-belgrade-elisha-levi-50-50-prediction",
-      "title": "Former Beersheba boss Elisha Levi: 'Nobody gives Beersheba a chance, but I think it's 50-50'",
-      "kind": "news",
-      "words": 374,
+      "words": 380,
       "paragraphs": 9,
       "paragraphWords": {
-        "shortest": 24,
+        "shortest": 29,
         "longest": 57,
-        "average": 41.6
+        "average": 42.2
       },
       "sentenceWords": {
-        "shortest": 9,
-        "longest": 126,
-        "average": 41.6
+        "shortest": 19,
+        "longest": 38,
+        "average": 29.2
       },
-      "lexicalDiversity": 0.666,
+      "lexicalDiversity": 0.571,
       "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-04-hapoel-jerusalem-miletic-signing",
+      "slug": "hapoel-jerusalem-sign-dusan-miletic",
+      "title": "Hapoel Jerusalem sign Serbian center Dušan Miletić",
+      "kind": "news",
+      "words": 303,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 50,
+        "average": 37.9
+      },
+      "sentenceWords": {
+        "shortest": 17,
+        "longest": 50,
+        "average": 33.7
+      },
+      "lexicalDiversity": 0.624,
+      "publisherAttributions": 1,
       "flags": []
     },
     {
