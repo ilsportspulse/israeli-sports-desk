@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T04:05:30.041Z",
+  "generatedAt": "2026-08-04T05:14:31.949Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,22 +11,22 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 854,
+    "publishedArticles": 856,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 423.5,
-      "average": 426.2
+      "average": 426.1
     },
     "paragraphDistribution": {
       "3": 34,
       "4": 6,
       "5": 10,
-      "6": 37,
+      "6": 38,
       "7": 123,
       "8": 237,
       "9": 200,
-      "10": 147,
+      "10": 148,
       "11": 38,
       "12": 12,
       "13": 4,
@@ -35,9 +35,9 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.278,
+    "dominantParagraphShare": 0.277,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 37,
+    "exactSixParagraphArticles": 38,
     "analysisBelowTarget": 9,
     "articlesWithStyleFlags": 148
   },
@@ -3458,6 +3458,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-04-jeremy-doku-cortisone-confession",
+      "slug": "jeremy-doku-cortisone-world-cup-confession",
+      "title": "Jérémy Doku reveals he was given a banned substance during his World Cup health scare",
+      "kind": "article",
+      "words": 490,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 55,
+        "average": 49
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 80,
+        "average": 28.8
+      },
+      "lexicalDiversity": 0.573,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-04-vinicius-agent-london",
+      "slug": "vinicius-jr-agent-roc-nation-london-arsenal-speculation",
+      "title": "Vinicius Jr's agency chief flies to London amid fresh Arsenal speculation",
+      "kind": "news",
+      "words": 295,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 40,
+        "longest": 59,
+        "average": 49.2
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 46,
+        "average": 29.5
+      },
+      "lexicalDiversity": 0.617,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-20260804-pogacar-vuelta-espana-2026",
       "slug": "pogacar-return-vuelta-espana-2026",

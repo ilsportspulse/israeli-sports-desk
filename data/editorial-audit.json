@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T04:05:29.527Z",
+  "generatedAt": "2026-08-04T05:14:31.463Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1150,
-    "publishedBefore": 854,
-    "cleanPublished": 846,
+    "totalArticles": 1154,
+    "publishedBefore": 856,
+    "cleanPublished": 848,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 854,
-    "reviewAfter": 296
+    "publishedAfter": 856,
+    "reviewAfter": 298
   },
   "blockedPublished": [
     {
@@ -156,6 +156,62 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-2026-08-04-jeremy-doku-cortisone-confession",
+      "slug": "jeremy-doku-cortisone-world-cup-confession",
+      "title": "Jérémy Doku reveals he was given a banned substance during his World Cup health scare",
+      "statusBefore": "published",
+      "words": 490,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-04-vinicius-agent-london",
+      "slug": "vinicius-jr-agent-roc-nation-london-arsenal-speculation",
+      "title": "Vinicius Jr's agency chief flies to London amid fresh Arsenal speculation",
+      "statusBefore": "published",
+      "words": 297,
+      "paragraphs": 6,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-04-maccabi-isfiya-atsha-signing",
+      "slug": "maccabi-isfiya-signs-ayman-ali-atsha",
+      "title": "Maccabi Isfiya sign defender Ayman Ali Atsha ahead of Liga Bet return",
+      "statusBefore": "review",
+      "words": 190,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-04-ozen-migdal-haemek-youth-role",
+      "slug": "maurice-ozen-hapoel-migdal-haemek-youth-director",
+      "title": "Sacked by Tveria, Maurice Ozen resurfaces as Migdal HaEmek's youth chief",
+      "statusBefore": "review",
+      "words": 289,
+      "paragraphs": 6,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
     {
       "id": "live-20260804-uri-dahan-beitar-jerusalem-tiberias",
       "slug": "uri-dahan-left-out-beitar-jerusalem-conference-league-squad-tiberias-approach",
@@ -11034,6 +11090,34 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-04-jeremy-doku-cortisone-confession",
+      "slug": "jeremy-doku-cortisone-world-cup-confession",
+      "title": "Jérémy Doku reveals he was given a banned substance during his World Cup health scare",
+      "statusBefore": "published",
+      "words": 490,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-04-vinicius-agent-london",
+      "slug": "vinicius-jr-agent-roc-nation-london-arsenal-speculation",
+      "title": "Vinicius Jr's agency chief flies to London amid fresh Arsenal speculation",
+      "statusBefore": "published",
+      "words": 297,
+      "paragraphs": 6,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260804-uri-dahan-beitar-jerusalem-tiberias",
       "slug": "uri-dahan-left-out-beitar-jerusalem-conference-league-squad-tiberias-approach",

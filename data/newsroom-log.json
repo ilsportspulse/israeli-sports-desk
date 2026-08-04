@@ -1,5 +1,75 @@
 [
   {
+    "ts": "2026-08-04T05:06:35.427Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 8,
+    "published": 2,
+    "review": 2,
+    "skipped": 4,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "maurice-ozen-hapoel-migdal-haemek-youth-director",
+        "title": "Sacked by Tveria, Maurice Ozen resurfaces as Migdal HaEmek's youth chief",
+        "confidence": 0.78,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Owner's name (Shlomi Ohion) and some club-side details rest on the single ONE report and could not be independently corroborated; no subject-accurate photograph could be verified on Wikimedia Commons, so commonsCandidates is empty and an image must be sourced separately before this runs."
+      },
+      {
+        "slug": "billionaire-ken-griffin-funds-pochettino-usmnt-contract",
+        "title": "The hedge fund billionaire bankrolling Pochettino's new USMNT deal",
+        "decision": "duplicate",
+        "reason": "same event as pochettino-usmnt-contract-extension-2030"
+      },
+      {
+        "slug": "maccabi-isfiya-signs-ayman-ali-atsha",
+        "title": "Maccabi Isfiya sign defender Ayman Ali Atsha ahead of Liga Bet return",
+        "confidence": 0.75,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Player name spelling and owner's name could not be independently cross-checked beyond the single ONE report; no reusable Wikimedia Commons photo could be verified as depicting this player, club or its ground, so no image is attached."
+      },
+      {
+        "slug": "vinicius-jr-agent-roc-nation-london-arsenal-speculation",
+        "title": "Vinicius Jr's agency chief flies to London amid fresh Arsenal speculation",
+        "confidence": 0.78,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "jeremy-doku-cortisone-world-cup-confession",
+        "title": "Jérémy Doku reveals he was given a banned substance during his World Cup health scare",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "hapoel-tel-aviv-agree-club-record-deal-douglas-owusu-red-star-belgrade",
+        "title": "Hapoel Tel Aviv agree club-record deal to sign Red Star winger Douglas Owusu",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "tamir-blatt-signs-hapoel-tel-aviv",
+        "title": "Tamir Blatt returns to Hapoel Tel Aviv nine years after leaving, signs three-year deal",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "new-details-emerge-legal-dispute-delaying-diomande-real-madrid-move",
+        "title": "New details emerge on the legal dispute delaying Diomande's move to Real Madrid",
+        "decision": "duplicate",
+        "reason": "same event as diomande-real-madrid-agent-dispute-delay"
+      }
+    ]
+  },
+  {
     "ts": "2026-08-04T03:54:58.866Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -3305,78 +3375,6 @@
         "title": "Union Saint-Gilloise beat Club Brugge 5-4 on penalties as Khalaili scores in Belgian Super Cup final",
         "decision": "duplicate",
         "reason": "same event as khalaili-nottingham-forest-bid-rejected"
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-01T14:12:08.400Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 8,
-    "published": 2,
-    "review": 2,
-    "skipped": 4,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "yonatan-cohen-winner-bangkok-united-chiang-mai-friendly",
-        "title": "Bangkok United 1-0 Chiang Mai: Yonatan Cohen scores winner on early outing for Thai club",
-        "confidence": 0.8,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Opponent club is referred to only as 'Chiang Mai' in the source; full registered club name not independently confirmed."
-      },
-      {
-        "slug": "trabzonspor-eyes-salah-fulham-closes-in-on-pitarch",
-        "title": "Trabzonspor move for free agent Mohamed Salah as Fulham push to sign Real Madrid's Thiago Pitarch",
-        "decision": "duplicate",
-        "reason": "same event as veteran-stars-still-searching-for-clubs-summer-2026"
-      },
-      {
-        "slug": "us-open-record-ticket-prices-2026",
-        "title": "More than $20,000 a ticket: US Open prices hit record highs",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "solomon-tottenham-underused-chelsea-friendly",
-        "title": "Solomon shines again for Tottenham, but English media say he still isn't used enough",
-        "confidence": 0.85,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "below gate thresholds"
-      },
-      {
-        "slug": "yan-diomande-leipzig-real-madrid-transfer-stalls",
-        "title": "Leipzig go silent on Real Madrid's improved offer for Yan Diomandé",
-        "decision": "duplicate",
-        "reason": "same event as psg-pulls-out-diomande-real-madrid-transfer"
-      },
-      {
-        "slug": "as-monaco-basketball-excluded-french-leagues-financial-crisis",
-        "title": "AS Monaco basketball club excluded from French leagues after financial collapse",
-        "confidence": 0.88,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "psg-ferran-torres-contract-offer-barcelona",
-        "title": "PSG tell Ferran Torres they will beat any Barcelona renewal offer",
-        "decision": "duplicate",
-        "reason": "same event as ferran-torres-barcelona-contract-fears-psg-interest"
-      },
-      {
-        "slug": "vinicius-junior-signing-bonus-real-madrid-renewal",
-        "title": "Vinícius Júnior's fix for the Real Madrid deadlock: a signing bonus, not a bigger salary",
-        "decision": "duplicate",
-        "reason": "same event as arsenal-eye-audacious-move-for-vinicius-junior"
       }
     ]
   }
