@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-04T05:49:19Z",
-    "validUntil": "2026-08-04T17:49:19Z",
+    "checkedAt": "2026-08-04T07:06:05Z",
+    "validUntil": "2026-08-04T19:06:05Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 369,
+        "maxAgeHours": 370,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-04-jeremy-doku-cortisone-confession",
+        "articleId": "live-20260804-beer-sheva-red-star-odds-preview",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 377,
+        "maxAgeHours": 378,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-04-vinicius-agent-london",
+        "articleId": "live-2026-08-04-omer-gadot-wingate-paralympic-table-tennis",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 387,
+        "maxAgeHours": 388,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260804-uri-dahan-beitar-jerusalem-tiberias",
+        "articleId": "live-2026-08-04-beer-sheva-red-star-belgrade-preview",
         "maxAgeHours": 24,
         "requires": []
       }

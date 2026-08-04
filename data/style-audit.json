@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T05:49:20.273Z",
+  "generatedAt": "2026-08-04T07:06:06.448Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,11 +11,11 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 856,
+    "publishedArticles": 859,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 423.5,
+      "median": 423,
       "average": 426.1
     },
     "paragraphDistribution": {
@@ -24,9 +24,9 @@
       "5": 10,
       "6": 38,
       "7": 123,
-      "8": 237,
+      "8": 239,
       "9": 200,
-      "10": 148,
+      "10": 149,
       "11": 38,
       "12": 12,
       "13": 4,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.277,
+    "dominantParagraphShare": 0.278,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 38,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 148
+    "articlesWithStyleFlags": 149
   },
   "flagged": [
     {
@@ -279,6 +279,29 @@
       "publisherAttributions": 2,
       "flags": [
         "below-editorial-target:204/280",
+        "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-04-omer-gadot-wingate-paralympic-table-tennis",
+      "slug": "omer-gadot-first-paralympic-athlete-wingate-academy",
+      "title": "Table tennis prodigy Omer Gadot becomes first Paralympic athlete admitted to Wingate academy",
+      "kind": "article",
+      "words": 374,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 70,
+        "average": 46.8
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 91,
+        "average": 34
+      },
+      "lexicalDiversity": 0.602,
+      "publisherAttributions": 2,
+      "flags": [
         "publisher-attribution-heavy:2"
       ]
     },
@@ -3458,6 +3481,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260804-beer-sheva-red-star-odds-preview",
+      "slug": "beer-sheva-red-star-belgrade-odds-preview",
+      "title": "Beer Sheva priced as underdogs for Champions League qualifier against Red Star Belgrade",
+      "kind": "news",
+      "words": 397,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 39,
+        "longest": 66,
+        "average": 49.6
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 66,
+        "average": 28.4
+      },
+      "lexicalDiversity": 0.562,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-04-beer-sheva-red-star-belgrade-preview",
+      "slug": "beer-sheva-red-star-belgrade-champions-league-preview",
+      "title": "Hapoel Be'er Sheva vow to play with 'madness' as Champions League test with Red Star Belgrade begins",
+      "kind": "article",
+      "words": 453,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 21,
+        "longest": 78,
+        "average": 45.3
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 124,
+        "average": 37.8
+      },
+      "lexicalDiversity": 0.585,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-04-jeremy-doku-cortisone-confession",
       "slug": "jeremy-doku-cortisone-world-cup-confession",
