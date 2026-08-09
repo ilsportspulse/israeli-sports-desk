@@ -396,7 +396,7 @@ async function main() {
     // Drafts now run concurrently, so wall-clock ≈ one draft (not N). The cap is a
     // concurrency/quota guard, not a sequential-time budget: draft several stories at
     // once on ordinary cycles, fewer on the rare cycle that also ran a daily feature.
-    const parallelCap = dailyHeavy ? 3 : 5;
+    const parallelCap = dailyHeavy ? 4 : 8;
     effectiveMax = Math.min(MAX_CANDIDATES, parallelCap);
     if (effectiveMax < MAX_CANDIDATES) {
       console.log(`CLI mode: drafting up to ${effectiveMax} candidates concurrently this cycle.`);
