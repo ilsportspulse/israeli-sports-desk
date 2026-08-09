@@ -49,6 +49,11 @@ try {
   ctx = await chromium.launchPersistentContext(PROFILE, { headless: false, viewport: { width: 1280, height: 900 } });
 }
 const page = await ctx.newPage();
+// X heeft DM's naar versleutelde "X Chat" verplaatst: de composer opent, maar een
+// bericht wordt PAS verzonden nadat de Chat met de passcode is ontgrendeld (X moet
+// de encryptiesleutels ontsleutelen). Daarom eerst /i/chat openen om de passcode-
+// prompt te triggeren en op de eigenaar wachten; zonder ontgrendeling mislukt elke
+// verzending stil ("bericht niet zichtbaar na verzenden").
 await page.goto("https://x.com/i/chat", { waitUntil: "domcontentloaded", timeout: 45_000 });
 await page.waitForTimeout(5000);
 if ((await page.evaluate(() => document.body.innerText)).includes("Enter Passcode")) {
@@ -89,11 +94,15 @@ for (const target of queue) {
     await editor.click();
     await editor.fill(message(target.personalLine));
     await page.waitForTimeout(1200);
-    const sendBtn = page.locator('[data-testid="dm-composer-send-button"], [data-testid="dm-composer-form"] button[type="submit"]').first();
-    if (await sendBtn.count()) {
-      await sendBtn.click();
+    // Versturen: eerst de composer-send-knop; anders een page-level Enter.
+    // locator.press("Enter") kan 30s blokkeren als de editor-node na fill opnieuw
+    // gerenderd is — daarom page.keyboard i.p.v. de (mogelijk stale) locator.
+    const sendBtn = page.locator('[data-testid="dm-composer-send-button"], [data-testid="dm-composer-form"] button[type="submit"], button[aria-label="Send"], div[aria-label="Send"][role="button"]').first();
+    if (await sendBtn.count().catch(() => 0)) {
+      await sendBtn.click({ timeout: 10_000 }).catch(async () => { await page.keyboard.press("Enter"); });
     } else {
-      await editor.press("Enter");
+      await editor.click({ timeout: 8_000 }).catch(() => {});
+      await page.keyboard.press("Enter");
     }
     // Verifieer dat het bericht echt in de conversatie staat vóór we het als
     // verzonden loggen.
