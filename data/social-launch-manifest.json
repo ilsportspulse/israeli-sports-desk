@@ -146,8 +146,8 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-09T21:42:31Z",
-    "validUntil": "2026-08-10T09:42:31Z",
+    "checkedAt": "2026-08-09T22:14:58Z",
+    "validUntil": "2026-08-10T10:14:58Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
@@ -160,21 +160,21 @@
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260809-don-nelson-nba-legend-dies-86",
+        "articleId": "live-2026-08-09-don-nelson-nba-coaching-legend-dies",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 512,
+        "maxAgeHours": 513,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260809-gymnasts-injury-compensation-ruling",
+        "articleId": "live-2026-08-09-gymnasts-training-injury-compensation-ruling",
         "maxAgeHours": 24,
         "requires": []
       },
@@ -189,14 +189,14 @@
       {
         "role": "archive",
         "articleId": "archive-20260804-moscow-30-may-2012-the-queen-trap-that-c",
-        "maxAgeHours": 142,
+        "maxAgeHours": 143,
         "requires": [
           "historical-feature"
         ]
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-09-toto-cup-semifinal-draw",
+        "articleId": "live-2026-08-09-toto-cup-semifinals-maccabi-netanya-hapoel-kiryat-shmona",
         "maxAgeHours": 24,
         "requires": []
       }

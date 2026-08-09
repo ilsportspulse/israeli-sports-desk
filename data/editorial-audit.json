@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T21:42:31.671Z",
+  "generatedAt": "2026-08-09T22:14:58.451Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1192,
+    "totalArticles": 1193,
     "publishedBefore": 878,
     "cleanPublished": 870,
     "blockedPublished": 8,
     "demoted": 0,
     "publishedAfter": 878,
-    "reviewAfter": 314
+    "reviewAfter": 315
   },
   "blockedPublished": [
     {
@@ -157,12 +157,12 @@
   ],
   "warnings": [
     {
-      "id": "live-20260809-gymnasts-injury-compensation-ruling",
-      "slug": "israeli-sports-bodies-ordered-pay-injured-gymnasts",
-      "title": "Israeli sports bodies ordered to pay 1.6 million shekels to gymnasts left disabled by training injuries",
+      "id": "live-2026-08-09-gymnasts-training-injury-compensation-ruling",
+      "slug": "gymnasts-awarded-1-6-million-shekels-training-injury-ruling",
+      "title": "Court orders gymnastics body, Olympic Committee and Wingate Institute to pay two injured gymnasts 1.6 million shekels",
       "statusBefore": "published",
-      "words": 346,
-      "paragraphs": 9,
+      "words": 363,
+      "paragraphs": 8,
       "facts": 6,
       "verificationSources": 1,
       "blockers": [],
@@ -171,19 +171,17 @@
       ]
     },
     {
-      "id": "live-2026-08-09-toto-cup-semifinal-draw",
-      "slug": "toto-cup-semifinals-maccabi-tel-aviv-netanya-hapoel-tel-aviv-kiryat-shmona",
-      "title": "Toto Cup last four set: Maccabi Tel Aviv face Netanya, Hapoel Tel Aviv draw Ironi Kiryat Shmona",
+      "id": "live-2026-08-09-toto-cup-semifinals-maccabi-netanya-hapoel-kiryat-shmona",
+      "slug": "toto-cup-semifinals-maccabi-netanya-hapoel-kiryat-shmona",
+      "title": "Maccabi Tel Aviv draw Netanya, Hapoel Tel Aviv face Kiryat Shmona in Toto Cup semi-finals",
       "statusBefore": "published",
-      "words": 364,
+      "words": 425,
       "paragraphs": 9,
-      "facts": 6,
-      "verificationSources": 3,
+      "facts": 8,
+      "verificationSources": 5,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline",
-        "media:no-action-or-competition-context-detected",
-        "voice:publisher-attribution-heavy:2"
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -11466,24 +11464,24 @@
   ],
   "cleanPublished": [
     {
-      "id": "live-20260809-don-nelson-nba-legend-dies-86",
-      "slug": "don-nelson-nba-legend-dies-86",
-      "title": "NBA legend Don Nelson, second-winningest coach in history, dies at 86",
+      "id": "live-2026-08-09-don-nelson-nba-coaching-legend-dies",
+      "slug": "don-nelson-nba-coaching-legend-dies-86",
+      "title": "Don Nelson, NBA coaching great and five-time champion as a player, dies at 86",
       "statusBefore": "published",
-      "words": 418,
-      "paragraphs": 10,
+      "words": 429,
+      "paragraphs": 8,
       "facts": 8,
       "verificationSources": 4,
       "blockers": [],
       "warnings": []
     },
     {
-      "id": "live-20260809-gymnasts-injury-compensation-ruling",
-      "slug": "israeli-sports-bodies-ordered-pay-injured-gymnasts",
-      "title": "Israeli sports bodies ordered to pay 1.6 million shekels to gymnasts left disabled by training injuries",
+      "id": "live-2026-08-09-gymnasts-training-injury-compensation-ruling",
+      "slug": "gymnasts-awarded-1-6-million-shekels-training-injury-ruling",
+      "title": "Court orders gymnastics body, Olympic Committee and Wingate Institute to pay two injured gymnasts 1.6 million shekels",
       "statusBefore": "published",
-      "words": 346,
-      "paragraphs": 9,
+      "words": 363,
+      "paragraphs": 8,
       "facts": 6,
       "verificationSources": 1,
       "blockers": [],
@@ -11492,19 +11490,17 @@
       ]
     },
     {
-      "id": "live-2026-08-09-toto-cup-semifinal-draw",
-      "slug": "toto-cup-semifinals-maccabi-tel-aviv-netanya-hapoel-tel-aviv-kiryat-shmona",
-      "title": "Toto Cup last four set: Maccabi Tel Aviv face Netanya, Hapoel Tel Aviv draw Ironi Kiryat Shmona",
+      "id": "live-2026-08-09-toto-cup-semifinals-maccabi-netanya-hapoel-kiryat-shmona",
+      "slug": "toto-cup-semifinals-maccabi-netanya-hapoel-kiryat-shmona",
+      "title": "Maccabi Tel Aviv draw Netanya, Hapoel Tel Aviv face Kiryat Shmona in Toto Cup semi-finals",
       "statusBefore": "published",
-      "words": 364,
+      "words": 425,
       "paragraphs": 9,
-      "facts": 6,
-      "verificationSources": 3,
+      "facts": 8,
+      "verificationSources": 5,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline",
-        "media:no-action-or-competition-context-detected",
-        "voice:publisher-attribution-heavy:2"
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {

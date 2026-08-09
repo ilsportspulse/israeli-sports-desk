@@ -3404,5 +3404,58 @@
         "reason": ""
       }
     ]
+  },
+  {
+    "ts": "2026-08-09T22:05:19.836Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 3,
+    "review": 1,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "toto-cup-semifinals-maccabi-netanya-hapoel-kiryat-shmona",
+        "title": "Maccabi Tel Aviv draw Netanya, Hapoel Tel Aviv face Kiryat Shmona in Toto Cup semi-finals",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "manor-solomon-passes-west-ham-medical-tottenham-exit",
+        "title": "Manor Solomon passes West Ham medical, set to sign three-year deal",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "israel-u18-women-beat-romania-eurobasket-division-b-title",
+        "title": "Israel U18 women beat Romania 85-66 to win Eurobasket Division B title",
+        "confidence": 0.85,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Final score, MVP and promotion independently confirmed via FIBA's official tournament site; spellings for Gurin, Kanitz and coach Eisenberg rest on ONE's report alone. No correctly-identified Commons photo of this specific U18 squad or event could be verified, so no image is attached."
+      },
+      {
+        "slug": "gymnasts-awarded-1-6-million-shekels-training-injury-ruling",
+        "title": "Court orders gymnastics body, Olympic Committee and Wingate Institute to pay two injured gymnasts 1.6 million shekels",
+        "confidence": 0.78,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "don-nelson-nba-coaching-legend-dies-86",
+        "title": "Don Nelson, NBA coaching great and five-time champion as a player, dies at 86",
+        "confidence": 0.95,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
   }
 ]
