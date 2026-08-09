@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-04T13:49:43Z",
-    "validUntil": "2026-08-05T01:49:43Z",
+    "checkedAt": "2026-08-09T21:42:31Z",
+    "validUntil": "2026-08-10T09:42:31Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 377,
+        "maxAgeHours": 505,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-04-omer-abuhav-hapoel-jerusalem",
+        "articleId": "live-20260809-don-nelson-nba-legend-dies-86",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 385,
+        "maxAgeHours": 512,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-04-kiryat-yam-siso-ambition",
+        "articleId": "live-20260809-gymnasts-injury-compensation-ruling",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 395,
+        "maxAgeHours": 523,
         "requires": [
           "column"
         ]
@@ -189,14 +189,14 @@
       {
         "role": "archive",
         "articleId": "archive-20260804-moscow-30-may-2012-the-queen-trap-that-c",
-        "maxAgeHours": 53,
+        "maxAgeHours": 142,
         "requires": [
           "historical-feature"
         ]
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-04-liga-leumit-fixtures-2026-27",
+        "articleId": "live-2026-08-09-toto-cup-semifinal-draw",
         "maxAgeHours": 24,
         "requires": []
       }

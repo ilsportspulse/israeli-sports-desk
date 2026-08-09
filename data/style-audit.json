@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T13:49:44.618Z",
+  "generatedAt": "2026-08-09T21:42:32.182Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 876,
+    "publishedArticles": 878,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 423,
-      "average": 426
+      "median": 421.5,
+      "average": 425.4
     },
     "paragraphDistribution": {
       "3": 34,
@@ -25,21 +25,21 @@
       "6": 39,
       "7": 127,
       "8": 244,
-      "9": 203,
-      "10": 150,
+      "9": 205,
+      "10": 151,
       "11": 39,
-      "12": 14,
+      "12": 13,
       "13": 4,
       "14": 2,
       "16": 1,
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.279,
+    "dominantParagraphShare": 0.278,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 39,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 153
+    "articlesWithStyleFlags": 154
   },
   "flagged": [
     {
@@ -303,6 +303,29 @@
       "publisherAttributions": 2,
       "flags": [
         "below-editorial-target:204/280",
+        "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-09-toto-cup-semifinal-draw",
+      "slug": "toto-cup-semifinals-maccabi-tel-aviv-netanya-hapoel-tel-aviv-kiryat-shmona",
+      "title": "Toto Cup last four set: Maccabi Tel Aviv face Netanya, Hapoel Tel Aviv draw Ironi Kiryat Shmona",
+      "kind": "article",
+      "words": 364,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 54,
+        "average": 40.4
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 42,
+        "average": 30.3
+      },
+      "lexicalDiversity": 0.519,
+      "publisherAttributions": 2,
+      "flags": [
         "publisher-attribution-heavy:2"
       ]
     },
@@ -3574,6 +3597,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260809-don-nelson-nba-legend-dies-86",
+      "slug": "don-nelson-nba-legend-dies-86",
+      "title": "NBA legend Don Nelson, second-winningest coach in history, dies at 86",
+      "kind": "news",
+      "words": 414,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 22,
+        "longest": 67,
+        "average": 41.4
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 52,
+        "average": 25.9
+      },
+      "lexicalDiversity": 0.577,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260809-gymnasts-injury-compensation-ruling",
+      "slug": "israeli-sports-bodies-ordered-pay-injured-gymnasts",
+      "title": "Israeli sports bodies ordered to pay 1.6 million shekels to gymnasts left disabled by training injuries",
+      "kind": "news",
+      "words": 352,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 46,
+        "average": 39.1
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 44,
+        "average": 27.1
+      },
+      "lexicalDiversity": 0.614,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-04-maccabi-tel-aviv-cafeteria-lawsuit",
       "slug": "maccabi-tel-aviv-cafeteria-operator-lawsuit-kiryat-shalom",
@@ -18733,27 +18798,6 @@
         "average": 30.3
       },
       "lexicalDiversity": 0.613,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-04-israeli-clubs-european-qualifying-rivals",
-      "slug": "israeli-clubs-european-qualifying-rivals-preview",
-      "title": "Aarhus, OFI Crete, Braga and Atalanta: the rivals standing between four Israeli clubs and Europe's group stages",
-      "kind": "analysis",
-      "words": 733,
-      "paragraphs": 12,
-      "paragraphWords": {
-        "shortest": 48,
-        "longest": 72,
-        "average": 61.1
-      },
-      "sentenceWords": {
-        "shortest": 9,
-        "longest": 52,
-        "average": 29.3
-      },
-      "lexicalDiversity": 0.482,
       "publisherAttributions": 0,
       "flags": []
     }
