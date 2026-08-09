@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-09T22:16:06Z",
-    "validUntil": "2026-08-10T10:16:06Z",
+    "checkedAt": "2026-08-09T23:02:18Z",
+    "validUntil": "2026-08-10T11:02:18Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 505,
+        "maxAgeHours": 506,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260809-don-nelson-nba-legend-dies-86",
+        "articleId": "live-2026-08-09-don-nelson-nba-coaching-legend-dies",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 513,
+        "maxAgeHours": 514,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260809-gymnasts-injury-compensation-ruling",
+        "articleId": "live-2026-08-09-gymnasts-training-injury-compensation-ruling",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 523,
+        "maxAgeHours": 524,
         "requires": [
           "column"
         ]
@@ -189,14 +189,14 @@
       {
         "role": "archive",
         "articleId": "archive-20260804-moscow-30-may-2012-the-queen-trap-that-c",
-        "maxAgeHours": 143,
+        "maxAgeHours": 144,
         "requires": [
           "historical-feature"
         ]
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-09-toto-cup-semifinal-draw",
+        "articleId": "live-2026-08-09-toto-cup-semifinals-maccabi-netanya-hapoel-kiryat-shmona",
         "maxAgeHours": 24,
         "requires": []
       }

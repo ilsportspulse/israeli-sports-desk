@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T22:16:07.009Z",
+  "generatedAt": "2026-08-09T23:02:19.424Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 878,
+    "publishedArticles": 879,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 421.5,
-      "average": 425.4
+      "median": 423,
+      "average": 425.5
     },
     "paragraphDistribution": {
       "3": 34,
@@ -24,9 +24,9 @@
       "5": 10,
       "6": 39,
       "7": 127,
-      "8": 244,
+      "8": 246,
       "9": 205,
-      "10": 151,
+      "10": 150,
       "11": 39,
       "12": 13,
       "13": 4,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.278,
+    "dominantParagraphShare": 0.28,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 39,
     "analysisBelowTarget": 9,
@@ -3597,48 +3597,6 @@
     }
   ],
   "clean": [
-    {
-      "id": "live-20260809-don-nelson-nba-legend-dies-86",
-      "slug": "don-nelson-nba-legend-dies-86",
-      "title": "NBA legend Don Nelson, second-winningest coach in history, dies at 86",
-      "kind": "news",
-      "words": 414,
-      "paragraphs": 10,
-      "paragraphWords": {
-        "shortest": 22,
-        "longest": 67,
-        "average": 41.4
-      },
-      "sentenceWords": {
-        "shortest": 6,
-        "longest": 52,
-        "average": 25.9
-      },
-      "lexicalDiversity": 0.577,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260809-gymnasts-injury-compensation-ruling",
-      "slug": "israeli-sports-bodies-ordered-pay-injured-gymnasts",
-      "title": "Israeli sports bodies ordered to pay 1.6 million shekels to gymnasts left disabled by training injuries",
-      "kind": "news",
-      "words": 352,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 31,
-        "longest": 46,
-        "average": 39.1
-      },
-      "sentenceWords": {
-        "shortest": 7,
-        "longest": 44,
-        "average": 27.1
-      },
-      "lexicalDiversity": 0.614,
-      "publisherAttributions": 0,
-      "flags": []
-    },
     {
       "id": "live-2026-08-04-maccabi-tel-aviv-cafeteria-lawsuit",
       "slug": "maccabi-tel-aviv-cafeteria-operator-lawsuit-kiryat-shalom",
@@ -18798,6 +18756,69 @@
         "average": 30.3
       },
       "lexicalDiversity": 0.613,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-09-don-nelson-nba-coaching-legend-dies",
+      "slug": "don-nelson-nba-coaching-legend-dies-86",
+      "title": "Don Nelson, NBA coaching great and five-time champion as a player, dies at 86",
+      "kind": "news",
+      "words": 430,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 79,
+        "average": 53.8
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 85,
+        "average": 39.1
+      },
+      "lexicalDiversity": 0.612,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-09-gymnasts-training-injury-compensation-ruling",
+      "slug": "gymnasts-awarded-1-6-million-shekels-training-injury-ruling",
+      "title": "Court orders gymnastics body, Olympic Committee and Wingate Institute to pay two injured gymnasts 1.6 million shekels",
+      "kind": "news",
+      "words": 368,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 56,
+        "average": 46
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 52,
+        "average": 26.3
+      },
+      "lexicalDiversity": 0.56,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-09-toto-cup-semifinals-maccabi-netanya-hapoel-kiryat-shmona",
+      "slug": "toto-cup-semifinals-maccabi-netanya-hapoel-kiryat-shmona",
+      "title": "Maccabi Tel Aviv draw Netanya, Hapoel Tel Aviv face Kiryat Shmona in Toto Cup semi-finals",
+      "kind": "news",
+      "words": 424,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 23,
+        "longest": 64,
+        "average": 47.1
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 43,
+        "average": 28.3
+      },
+      "lexicalDiversity": 0.535,
       "publisherAttributions": 0,
       "flags": []
     }
