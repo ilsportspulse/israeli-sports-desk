@@ -690,6 +690,23 @@ async function main() {
   try {
     const live = articles.filter((a) => (a.status ?? "published") !== "review");
     const wc = (a) => (a.body ?? []).join(" ").split(/\s+/).filter(Boolean).length;
+    // Canonical event-key guard (9 Aug): two drafts of the SAME event written in
+    // consecutive cycles (e.g. two Don Nelson obituaries) can share a dedupeKey yet
+    // have titles too different for the similarity check below. The content-integrity
+    // test hard-fails on a repeated dedupeKey — the exact cause of the "Run failed"
+    // emails at higher volume — so demote the thinner duplicate here first.
+    const byKey = new Map();
+    for (const a of live) {
+      if ((a.status ?? "published") === "review" || !a.dedupeKey) continue;
+      const prev = byKey.get(a.dedupeKey);
+      if (!prev) { byKey.set(a.dedupeKey, a); continue; }
+      const loser = wc(prev) >= wc(a) ? a : prev;
+      const keep = loser === a ? prev : a;
+      loser.status = "review";
+      loser.reviewReasons = [`duplicate canonical event key of /article/${keep.slug}`];
+      byKey.set(a.dedupeKey, keep);
+      console.log(`Demoted duplicate dedupeKey: ${loser.slug}`);
+    }
     for (let i = 0; i < live.length; i += 1) {
       for (let j = i + 1; j < live.length; j += 1) {
         if ((live[i].status ?? "published") === "review" || (live[j].status ?? "published") === "review") continue;
