@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T21:15:27.266Z",
+  "generatedAt": "2026-08-10T22:58:05.739Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1242,
-    "publishedBefore": 901,
-    "cleanPublished": 893,
+    "totalArticles": 1257,
+    "publishedBefore": 908,
+    "cleanPublished": 900,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 901,
-    "reviewAfter": 341
+    "publishedAfter": 908,
+    "reviewAfter": 349
   },
   "blockedPublished": [
     {
@@ -157,6 +157,79 @@
   ],
   "warnings": [
     {
+      "id": "live-2026-08-10-hapoel-petah-tikva-youth-signings-namani-kleinman",
+      "slug": "hapoel-petah-tikva-sign-youth-winger-namani-goalkeeper-kleinman",
+      "title": "Hapoel Petah Tikva strengthen youth squad with winger Namani and goalkeeper Kleinman",
+      "statusBefore": "review",
+      "words": 247,
+      "paragraphs": 6,
+      "facts": 8,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-10-dafe-steipman-toto-cup-youth",
+      "slug": "dafe-steipman-toto-cup-youth-records",
+      "title": "Dafé tops youth scoring, Steipman leads the minutes as Toto Cup group stage wraps",
+      "statusBefore": "review",
+      "words": 447,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-10-barcelona-lautaro-martinez-alvarez-backup",
+      "slug": "barcelona-lautaro-martinez-alternative-julian-alvarez",
+      "title": "Barcelona line up Lautaro Martinez as backup if Julián Álvarez deal collapses",
+      "statusBefore": "published",
+      "words": 388,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-10-patty-mills-asvel-villeurbanne-signing",
+      "slug": "patty-mills-asvel-villeurbanne-signing",
+      "title": "Patty Mills signs with ASVEL Villeurbanne, reuniting with Tony Parker",
+      "statusBefore": "published",
+      "words": 375,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-10-rehovot-club-merger-mou",
+      "slug": "rehovot-maccabi-shaarayim-hapoel-marmorek-merger-memorandum",
+      "title": "Rehovot finalises merger of Maccabi Shaarayim and Hapoel Marmorek",
+      "statusBefore": "review",
+      "words": 490,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-2026-08-10-panathinaikos-jokic-offer",
       "slug": "panathinaikos-owner-jokic-offer-rejected",
       "title": "Panathinaikos owner says he made a 'serious' offer for Nikola Jokic",
@@ -172,13 +245,13 @@
     },
     {
       "id": "live-2026-08-10-araujo-liverpool-loan",
-      "slug": "ronald-araujo-completes-liverpool-loan-move-from-barcelona",
-      "title": "Ronald Araújo completes loan move from Barcelona to Liverpool",
+      "slug": "araujo-liverpool-loan-barcelona",
+      "title": "Araújo completes loan move from Barcelona to Liverpool",
       "statusBefore": "published",
-      "words": 377,
-      "paragraphs": 8,
-      "facts": 9,
-      "verificationSources": 5,
+      "words": 461,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 6,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -228,13 +301,13 @@
     },
     {
       "id": "live-2026-08-10-carlos-sarante-hapoel-acre",
-      "slug": "carlos-sarante-lands-in-israel-hapoel-acre-signing",
-      "title": "Dominican forward Carlos Sarante lands in Israel ahead of Hapoel Acre move",
+      "slug": "carlos-sarante-lands-israel-hapoel-acre-signing",
+      "title": "Dominican midfielder Carlos Sarante lands in Israel ahead of expected Hapoel Acre move",
       "statusBefore": "review",
-      "words": 216,
-      "paragraphs": 6,
-      "facts": 6,
-      "verificationSources": 3,
+      "words": 180,
+      "paragraphs": 5,
+      "facts": 7,
+      "verificationSources": 4,
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline"
@@ -383,6 +456,20 @@
       ]
     },
     {
+      "id": "live-2026-08-10-athletics-association-excuses-statement",
+      "slug": "athletics-association-excuses-world-u20-eugene",
+      "title": "Israeli athletics body's excuse-laden statement on U20 worlds flops draws fire",
+      "statusBefore": "review",
+      "words": 455,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-2026-08-10-hapoel-petah-tikva-squad-needs",
       "slug": "hapoel-petah-tikva-squad-needs-reinforcements",
       "title": "Hapoel Petah Tikva sources: 'The league will look better once the players arrive'",
@@ -419,6 +506,20 @@
       "paragraphs": 8,
       "facts": 6,
       "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-10-maccabi-tel-aviv-recalls-shane-hunter-from-legia-warsaw-loan",
+      "slug": "maccabi-tel-aviv-recalls-shane-hunter-from-legia-warsaw-loan",
+      "title": "Maccabi Tel Aviv recalls center Shane Hunter from his loan spell at Legia Warsaw",
+      "statusBefore": "review",
+      "words": 297,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -11931,6 +12032,20 @@
       ]
     },
     {
+      "id": "live-2026-08-10-israel-4x200-free-relay-euro-final",
+      "slug": "israel-mens-4x200-freestyle-relay-euro-final-paris",
+      "title": "Israel's men book a place in the 4x200m freestyle relay final at the European Championships",
+      "statusBefore": "review",
+      "words": 311,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-20260810-shalmon-ashdod-ben-dor-petah-tikva",
       "slug": "shahar-shalmon-maccabi-ashdod-ron-ben-dor-petah-tikva-basketball",
       "title": "Shahar Shalmon to stay at Maccabi Ashdod for a third season as Ben Dor joins Maccabi Petach Tikva",
@@ -11958,9 +12073,147 @@
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
+    },
+    {
+      "id": "live-20260810-kane-bayern-contract-2029",
+      "slug": "harry-kane-bayern-munich-contract-extension-2029",
+      "title": "Harry Kane closes in on Bayern Munich deal through 2029",
+      "statusBefore": "review",
+      "words": 370,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260810-hapoel-beer-sheva-red-star-return-leg-preview",
+      "slug": "hapoel-beer-sheva-red-star-belgrade-champions-league-return-leg",
+      "title": "Hapoel Be'er Sheva carry 1-0 lead into Red Star Belgrade Champions League return leg",
+      "statusBefore": "published",
+      "words": 401,
+      "paragraphs": 8,
+      "facts": 8,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-10-bnei-yehuda-pink-goalkeeper-shirt",
+      "slug": "bnei-yehuda-pink-goalkeeper-shirt-cancer-awareness",
+      "title": "Bnei Yehuda unveil pink goalkeeper shirt for cancer awareness campaign",
+      "statusBefore": "published",
+      "words": 224,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-10-william-agada-hapoel-haifa-second-spell",
+      "slug": "william-agada-returns-hapoel-haifa-second-spell",
+      "title": "William Agada returns to Hapoel Haifa for second spell",
+      "statusBefore": "review",
+      "words": 368,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-10-mourinho-keeps-endrick-real-madrid",
+      "slug": "mourinho-keeps-endrick-real-madrid",
+      "title": "Mourinho blocks Roma and Aston Villa moves to keep Endrick at Real Madrid",
+      "statusBefore": "review",
+      "words": 360,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-10-adva-cohen-steeplechase-final",
+      "slug": "adva-cohen-steeplechase-final-european-championships",
+      "title": "Adva Cohen fights through to 3,000m steeplechase final at European Championships",
+      "statusBefore": "published",
+      "words": 318,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-10-maccabi-haifa-summer-review",
+      "slug": "maccabi-haifa-summer-changes-question-marks",
+      "title": "Changes and plenty of question marks: Maccabi Haifa's summer of upheaval",
+      "statusBefore": "published",
+      "words": 494,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 7,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-10-barcelona-lautaro-martinez-alvarez-backup",
+      "slug": "barcelona-lautaro-martinez-alternative-julian-alvarez",
+      "title": "Barcelona line up Lautaro Martinez as backup if Julián Álvarez deal collapses",
+      "statusBefore": "published",
+      "words": 388,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-10-patty-mills-asvel-villeurbanne-signing",
+      "slug": "patty-mills-asvel-villeurbanne-signing",
+      "title": "Patty Mills signs with ASVEL Villeurbanne, reuniting with Tony Parker",
+      "statusBefore": "published",
+      "words": 375,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-10-barzelay-backstroke-final-loktev-record",
+      "slug": "barzelay-reaches-200m-backstroke-final-loktev-israeli-record",
+      "title": "Barzelay reaches 200m backstroke final as Loktev sets Israeli record in relay's 7th-place finish",
+      "statusBefore": "published",
+      "words": 334,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-2026-08-10-panathinaikos-jokic-offer",
       "slug": "panathinaikos-owner-jokic-offer-rejected",
@@ -11977,13 +12230,13 @@
     },
     {
       "id": "live-2026-08-10-araujo-liverpool-loan",
-      "slug": "ronald-araujo-completes-liverpool-loan-move-from-barcelona",
-      "title": "Ronald Araújo completes loan move from Barcelona to Liverpool",
+      "slug": "araujo-liverpool-loan-barcelona",
+      "title": "Araújo completes loan move from Barcelona to Liverpool",
       "statusBefore": "published",
-      "words": 377,
-      "paragraphs": 8,
-      "facts": 9,
-      "verificationSources": 5,
+      "words": 461,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 6,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -24033,6 +24286,49 @@
       "paragraphs": 8,
       "facts": 6,
       "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260810-hapoel-beer-sheva-red-star-return-leg-preview",
+      "slug": "hapoel-beer-sheva-red-star-belgrade-champions-league-return-leg",
+      "title": "Hapoel Be'er Sheva carry 1-0 lead into Red Star Belgrade Champions League return leg",
+      "statusBefore": "published",
+      "words": 401,
+      "paragraphs": 8,
+      "facts": 8,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-10-bnei-yehuda-pink-goalkeeper-shirt",
+      "slug": "bnei-yehuda-pink-goalkeeper-shirt-cancer-awareness",
+      "title": "Bnei Yehuda unveil pink goalkeeper shirt for cancer awareness campaign",
+      "statusBefore": "published",
+      "words": 224,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-10-adva-cohen-steeplechase-final",
+      "slug": "adva-cohen-steeplechase-final-european-championships",
+      "title": "Adva Cohen fights through to 3,000m steeplechase final at European Championships",
+      "statusBefore": "published",
+      "words": 318,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
