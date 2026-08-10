@@ -334,10 +334,23 @@ async function main() {
       if (sched.throttleUntil && now < new Date(sched.throttleUntil)) {
         minGap = Math.max(minGap, sched.throttleMinGapMinutes ?? 600);
       }
+      // Derive the last REAL cycle from data/newsroom-log.json — it is written ONLY
+      // when a cycle actually runs discovery/drafting (this gate returns before that
+      // on a skip, so a skipped run never advances it). The old approach grepped the
+      // "Autonomous newsroom cycle" commit, but the CI also commits regenerated audit
+      // files (editorial-audit/style-audit) with that SAME message on no-op runs, so
+      // those noise commits reset the clock and deadlocked drafting (9 Aug: no drafts
+      // for ~11h though cycles kept firing). The log is immune to that.
       let lastIso = null;
       try {
-        lastIso = execSync('git log -1 --format=%cI --grep="Autonomous newsroom cycle"', { cwd: root, encoding: "utf8" }).trim();
-      } catch { /* geen git-historie (lokaal) → poort open */ }
+        const nlog = await readJson("data/newsroom-log.json").catch(() => []);
+        if (Array.isArray(nlog) && nlog.length && nlog[0]?.ts) lastIso = nlog[0].ts;
+      } catch { /* no log yet → fall through */ }
+      if (!lastIso) {
+        try {
+          lastIso = execSync('git log -1 --format=%cI --grep="Autonomous newsroom cycle"', { cwd: root, encoding: "utf8" }).trim();
+        } catch { /* geen git-historie (lokaal) → poort open */ }
+      }
       if (lastIso) {
         const gapMin = (now.getTime() - new Date(lastIso).getTime()) / 60000;
         if (gapMin < minGap) {
