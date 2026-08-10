@@ -146,14 +146,14 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-10T06:08:44Z",
-    "validUntil": "2026-08-10T18:08:44Z",
+    "checkedAt": "2026-08-10T07:08:42Z",
+    "validUntil": "2026-08-10T19:08:42Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 513,
+        "maxAgeHours": 514,
         "requires": [
           "matchRecap"
         ]
@@ -167,7 +167,7 @@
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 521,
+        "maxAgeHours": 522,
         "requires": [
           "basketballRecap"
         ]
@@ -181,7 +181,7 @@
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 531,
+        "maxAgeHours": 532,
         "requires": [
           "column"
         ]
@@ -189,7 +189,7 @@
       {
         "role": "archive",
         "articleId": "archive-20260804-moscow-30-may-2012-the-queen-trap-that-c",
-        "maxAgeHours": 151,
+        "maxAgeHours": 152,
         "requires": [
           "historical-feature"
         ]
