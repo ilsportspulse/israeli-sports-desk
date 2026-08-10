@@ -751,11 +751,16 @@ async function main() {
   try {
     const quiz = await readJson("data/daily-quiz.json").catch(() => null);
     if (quiz?.date) {
-      const liveArchive = (d) => articles.some((a) => (a.status ?? "published") !== "review"
-        && a.category === "From the Archive" && (a.publishedAt || "").startsWith(d));
-      if (!liveArchive(quiz.date)) {
+      // A valid pairing needs a PUBLISHED archive for the date that also carries the
+      // >=2 verification sources the gate requires — match the full test, not just
+      // the date, so the fallback can never trip a different assertion.
+      const goodArchive = (d) => articles.some((a) => (a.status ?? "published") !== "review"
+        && a.category === "From the Archive" && (a.publishedAt || "").startsWith(d)
+        && (a.verificationSources?.length ?? 0) >= 2);
+      if (!goodArchive(quiz.date)) {
         const dates = [...new Set(articles
-          .filter((a) => (a.status ?? "published") !== "review" && a.category === "From the Archive")
+          .filter((a) => (a.status ?? "published") !== "review" && a.category === "From the Archive"
+            && (a.verificationSources?.length ?? 0) >= 2)
           .map((a) => (a.publishedAt || "").slice(0, 10)))].sort().reverse();
         if (dates[0]) {
           quiz.date = dates[0];

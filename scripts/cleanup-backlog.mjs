@@ -21,7 +21,13 @@ const DRY = process.argv.includes("--dry");
 const file = path.join(root, "data/articles.json");
 const data = JSON.parse(await readFile(file, "utf8"));
 const list = Array.isArray(data) ? data : data.articles;
-const published = list.filter((a) => (a.status ?? "published") === "published");
+// Daily curated features (the "From the Archive" retro) are unique editorial pieces,
+// NOT news duplicates — and the content-integrity gate treats the retro + daily quiz
+// as one package. If the dup-heuristic demotes an archive feature, that half-package
+// hard-fails the gate on every run (10 Aug). Never consider protected features for
+// demotion here.
+const PROTECTED_CATEGORIES = new Set(["From the Archive"]);
+const published = list.filter((a) => (a.status ?? "published") === "published" && !PROTECTED_CATEGORIES.has(a.category));
 
 // --- 0) normalize inconsistent international category labels ------------------
 // The world desk drifted into synonyms (Cycling vs World Cycling, NBA/International
