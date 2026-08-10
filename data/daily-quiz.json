@@ -1,67 +1,67 @@
 {
-  "date": "2026-08-04",
+  "date": "2026-08-10",
   "title": "The Daily Five",
-  "dek": "Five questions from this week's verified Israel Sports Pulse stories, from a Moscow chess final to a red card in Montreal.",
+  "dek": "Five questions on Maccabi's Moscow triumph, a landmark gymnastics ruling, cup draws and an Israeli closing in on a Premier League move.",
   "questions": [
     {
-      "question": "In the Toto Cup on August 3, 2026, who scored M.S. Ashdod's second goal in a 2-0 win over Maccabi Jaffa?",
+      "question": "On 8 May 2005, who was named Final Four MVP after sparking a decisive 7-0 run as Maccabi Tel Aviv beat Tau Cerámica Vitoria 90–78 in Moscow to retain the EuroLeague title?",
       "answers": [
-        "Osama Khalaileh",
-        "Maor Kuba",
-        "Stav Nahmani",
-        "Douglas Owusu"
-      ],
-      "correctIndex": 1,
-      "explanation": "Maor Kuba scored in the third minute of second-half stoppage time, assisted by Khalaileh, who had opened the scoring from the penalty spot.",
-      "sourceUrl": "https://www.sport5.co.il/articles.aspx?FolderID=127&docID=555315"
-    },
-    {
-      "question": "Point guard Tamir Blatt signed a three-year contract for a second stint at which club, even though it reportedly plans to loan him out again?",
-      "answers": [
-        "Maccabi Tel Aviv",
-        "Hapoel Tel Aviv",
-        "ASVEL",
-        "A club in Rome"
-      ],
-      "correctIndex": 1,
-      "explanation": "Hapoel Tel Aviv signed Blatt through the 2028/29 season, marking his return to the club where he began his career, with ONE reporting a loan is planned almost immediately.",
-      "sourceUrl": "https://www.one.co.il/Article/529725.html"
-    },
-    {
-      "question": "In which sport did Oren Smadja win Israel's first Olympic medal by a man, bronze at Barcelona 1992?",
-      "answers": [
-        "Wrestling",
-        "Judo",
-        "Boxing",
-        "Taekwondo"
-      ],
-      "correctIndex": 1,
-      "explanation": "Smadja won Olympic bronze in judo at Barcelona 1992 and later coached Israel's national judo team for about fifteen years.",
-      "sourceUrl": "https://www.one.co.il/Article/529736.html"
-    },
-    {
-      "question": "Which MLS club issued a 'zero tolerance' statement after Israeli forward Dor Turgeman was targeted with antisemitic chants at CF Montréal?",
-      "answers": [
-        "New England Revolution",
-        "Inter Miami",
-        "LA Galaxy",
-        "Toronto FC"
+        "Šarūnas Jasikevičius",
+        "Derrick Sharp",
+        "Pini Gershon",
+        "Tal Burstein"
       ],
       "correctIndex": 0,
-      "explanation": "New England Revolution released a formal statement on August 3, 2026 declaring zero tolerance for antisemitism and confirmed it reported the incident to MLS.",
-      "sourceUrl": "https://www.one.co.il/Article/529740.html"
+      "explanation": "Jasikevičius scored 22 points with 6 rebounds and 5 assists in the final and was named 2005 Final Four MVP.",
+      "sourceUrl": "https://www.euroleaguebasketball.net/euroleague/news/2005-final-four-mvp-sarunas-jasikevicius-maccabi/"
     },
     {
-      "question": "Boris Gelfand, who settled in Rishon LeZion after emigrating from Minsk, lost the 2012 World Chess Championship in a Moscow rapid tiebreak to whom?",
+      "question": "A Tel Aviv magistrate's court ordered the Israel Gymnastics Federation, the Olympic Committee of Israel and the Wingate Institute to pay two former national-team gymnasts a combined sum for shoulder injuries sustained during training between 2008 and 2016. Roughly how much in total?",
       "answers": [
-        "Vladimir Kramnik",
-        "Viswanathan Anand",
-        "Gata Kamsky",
-        "Shakhriyar Mamedyarov"
+        "1.6 million shekels",
+        "1,118,000 shekels",
+        "505,000 shekels",
+        "520,482 shekels"
       ],
-      "correctIndex": 1,
-      "explanation": "Viswanathan Anand won the rapid tiebreak 2½–1½ on 30 May 2012 to take the match 8½–7½, denying Gelfand what would have been Israel's first world chess title.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/World_Chess_Championship_2012"
+      "correctIndex": 0,
+      "explanation": "The court ordered a combined roughly 1.6 million shekels, split into 1,118,000 shekels for the first gymnast and 505,000 shekels for the second.",
+      "sourceUrl": "https://www.one.co.il/Article/530218.html"
+    },
+    {
+      "question": "In the Toto Cup semi-final draw, who will Hapoel Tel Aviv face on Sunday, August 16?",
+      "answers": [
+        "Ironi Kiryat Shmona",
+        "Maccabi Netanya",
+        "Maccabi Tel Aviv",
+        "Hapoel Haifa"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hapoel Tel Aviv were drawn against Ironi Kiryat Shmona, with both semi-finals kicking off simultaneously at 20:00 on August 16.",
+      "sourceUrl": "https://www.one.co.il/Article/530221.html"
+    },
+    {
+      "question": "Israel international Manor Solomon, fresh off a prolific loan season at Leeds United, is closing in on a permanent move from Tottenham Hotspur to which club?",
+      "answers": [
+        "West Ham United",
+        "Fulham",
+        "Leeds United",
+        "Shakhtar Donetsk"
+      ],
+      "correctIndex": 0,
+      "explanation": "Solomon is expected to sign a three-year contract, with a club option for a fourth season, at West Ham United.",
+      "sourceUrl": "https://www.one.co.il/Article/529790.html"
+    },
+    {
+      "question": "If Maccabi Tel Aviv beat CSKA Sofia in Europa League third qualifying round, who is their confirmed playoff-round opponent?",
+      "answers": [
+        "OFI Crete",
+        "Aarhus",
+        "Sp. Braga",
+        "Atalanta"
+      ],
+      "correctIndex": 0,
+      "explanation": "Maccabi Tel Aviv's official website confirmed OFI Crete as their playoff-round opponent, with legs on August 20 and 27.",
+      "sourceUrl": "https://www.one.co.il/Article/529761.html"
     }
   ]
 }

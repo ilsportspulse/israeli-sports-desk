@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T10:49:33.279Z",
+  "generatedAt": "2026-08-10T11:27:29.383Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,23 +11,23 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 892,
+    "publishedArticles": 887,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 422.5,
-      "average": 425.1
+      "median": 423,
+      "average": 425.5
     },
     "paragraphDistribution": {
       "3": 34,
       "4": 6,
       "5": 10,
-      "6": 41,
+      "6": 40,
       "7": 129,
       "8": 250,
       "9": 205,
-      "10": 154,
-      "11": 40,
+      "10": 151,
+      "11": 39,
       "12": 13,
       "13": 4,
       "14": 2,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.28,
+    "dominantParagraphShare": 0.282,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 41,
+    "exactSixParagraphArticles": 40,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 155
+    "articlesWithStyleFlags": 154
   },
   "flagged": [
     {
@@ -307,49 +307,26 @@
       ]
     },
     {
-      "id": "live-2026-08-10-hapoel-lod-chairman-restraining-order",
-      "slug": "hapoel-lod-chairman-restraining-order-lawyer-threats",
-      "title": "Hapoel Lod chairman hit with restraining order over lawyer death threats",
-      "kind": "article",
-      "words": 292,
-      "paragraphs": 8,
+      "id": "live-20260810-uefa-afc-concacaf-letter-infantino",
+      "slug": "uefa-afc-concacaf-accuse-infantino-breach-of-trust-world-cup-rights",
+      "title": "UEFA, AFC and Concacaf accuse Infantino of breach of trust over World Cup rights sale",
+      "kind": "news",
+      "words": 500,
+      "paragraphs": 10,
       "paragraphWords": {
-        "shortest": 22,
-        "longest": 51,
-        "average": 36.5
+        "shortest": 32,
+        "longest": 66,
+        "average": 50
       },
       "sentenceWords": {
-        "shortest": 10,
-        "longest": 111,
-        "average": 36.5
+        "shortest": 7,
+        "longest": 79,
+        "average": 35.7
       },
-      "lexicalDiversity": 0.603,
+      "lexicalDiversity": 0.592,
       "publisherAttributions": 2,
       "flags": [
         "publisher-attribution-heavy:2"
-      ]
-    },
-    {
-      "id": "live-20260810-amit-arazi-maccabi-haifa-new-contract",
-      "slug": "amit-arazi-maccabi-haifa-new-contract",
-      "title": "Amit Arazi signs new contract with Maccabi Haifa after loan spell",
-      "kind": "news",
-      "words": 265,
-      "paragraphs": 6,
-      "paragraphWords": {
-        "shortest": 32,
-        "longest": 53,
-        "average": 44.2
-      },
-      "sentenceWords": {
-        "shortest": 9,
-        "longest": 88,
-        "average": 37.9
-      },
-      "lexicalDiversity": 0.66,
-      "publisherAttributions": 0,
-      "flags": [
-        "below-editorial-target:265/280"
       ]
     },
     {
@@ -3621,254 +3598,170 @@
   ],
   "clean": [
     {
-      "id": "live-2026-08-10-avdija-morant-trail-blazers-leadership",
-      "slug": "avdija-morant-trail-blazers-leadership",
-      "title": "Morant has arrived in Portland, but this should stay Avdija's team, US analysts argue",
-      "kind": "article",
-      "words": 480,
-      "paragraphs": 10,
-      "paragraphWords": {
-        "shortest": 40,
-        "longest": 56,
-        "average": 48
-      },
-      "sentenceWords": {
-        "shortest": 7,
-        "longest": 65,
-        "average": 36.9
-      },
-      "lexicalDiversity": 0.583,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-10-mourinho-ferguson-netflix-confession",
-      "slug": "mourinho-agreed-succeed-ferguson-manchester-united-then-changed-mind",
-      "title": "Mourinho reveals he agreed to succeed Ferguson at Manchester United in 2013 - then changed his mind",
+      "id": "live-20260810-hapoel-beit-shean-uefa-regions-cup",
+      "slug": "hapoel-beit-shean-replace-herzliya-uefa-regions-cup",
+      "title": "Hapoel Beit She'an to replace Herzliya as Israel's UEFA Regions' Cup representative",
       "kind": "news",
-      "words": 398,
-      "paragraphs": 11,
-      "paragraphWords": {
-        "shortest": 29,
-        "longest": 42,
-        "average": 36.2
-      },
-      "sentenceWords": {
-        "shortest": 9,
-        "longest": 47,
-        "average": 30.6
-      },
-      "lexicalDiversity": 0.585,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260810-ben-saraf-hollinger-summer-league-critique",
-      "slug": "ben-saraf-hollinger-summer-league-critique",
-      "title": "Hollinger: Saraf still not an outside threat after Nets summer league",
-      "kind": "news",
-      "words": 367,
-      "paragraphs": 6,
-      "paragraphWords": {
-        "shortest": 52,
-        "longest": 72,
-        "average": 61.2
-      },
-      "sentenceWords": {
-        "shortest": 9,
-        "longest": 98,
-        "average": 36.7
-      },
-      "lexicalDiversity": 0.608,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260810-sparta-prague-ultras-prague-pride-attack",
-      "slug": "sparta-prague-ultras-prague-pride-attack",
-      "title": "Sparta Prague ultras accused of attacking Prague Pride marchers and burning flags",
-      "kind": "news",
-      "words": 434,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 27,
-        "longest": 86,
-        "average": 48.2
-      },
-      "sentenceWords": {
-        "shortest": 9,
-        "longest": 77,
-        "average": 33.4
-      },
-      "lexicalDiversity": 0.604,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-10-cska-sofia-martino-injury-maccabi-buildup",
-      "slug": "cska-sofia-beat-septemvri-rest-players-maccabi-tel-aviv-return-leg",
-      "title": "CSKA Sofia beat Septemvri Sofia 3-0 as Yanev manages squad before Maccabi Tel Aviv return leg",
-      "kind": "news",
-      "words": 312,
+      "words": 370,
       "paragraphs": 8,
       "paragraphWords": {
-        "shortest": 28,
-        "longest": 53,
-        "average": 39
+        "shortest": 25,
+        "longest": 64,
+        "average": 46.3
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 40,
+        "average": 24.7
+      },
+      "lexicalDiversity": 0.611,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-10-israeli-stars-abroad-ticket-prices",
+      "slug": "israeli-stars-abroad-ticket-prices",
+      "title": "From $7 to $684: what it costs to watch Israel's stars abroad",
+      "kind": "news",
+      "words": 470,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 32,
+        "longest": 82,
+        "average": 52.2
       },
       "sentenceWords": {
         "shortest": 7,
-        "longest": 106,
-        "average": 34.7
+        "longest": 56,
+        "average": 27.6
       },
-      "lexicalDiversity": 0.615,
+      "lexicalDiversity": 0.585,
       "publisherAttributions": 1,
       "flags": []
     },
     {
-      "id": "live-20260810-abu-farhi-colorado-rapids-bid",
-      "slug": "colorado-rapids-bid-maccabi-tel-aviv-abu-farhi",
-      "title": "Colorado Rapids' $6 million bid for Maccabi Tel Aviv's Abu Farhi still unresolved",
-      "kind": "news",
-      "words": 372,
+      "id": "live-2026-08-10-iraola-liverpool-monaco-defeat-anfield",
+      "slug": "iraola-liverpool-monaco-defeat-anfield-energy-fitness",
+      "title": "Liverpool 2-3 Monaco: Iraola admits his side lack the energy to last 90 minutes",
+      "kind": "article",
+      "words": 487,
       "paragraphs": 8,
       "paragraphWords": {
         "shortest": 37,
-        "longest": 56,
-        "average": 46.5
+        "longest": 72,
+        "average": 60.9
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 111,
+        "average": 40.6
+      },
+      "lexicalDiversity": 0.573,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-10-maccabi-tel-aviv-recalls-shane-hunter",
+      "slug": "maccabi-tel-aviv-recalls-shane-hunter-from-loan",
+      "title": "Maccabi Tel Aviv recall center Shane Hunter from Legia Warsaw loan",
+      "kind": "transfer",
+      "words": 328,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 20,
+        "longest": 69,
+        "average": 46.9
       },
       "sentenceWords": {
         "shortest": 4,
-        "longest": 45,
-        "average": 24.8
+        "longest": 51,
+        "average": 32.8
       },
-      "lexicalDiversity": 0.626,
-      "publisherAttributions": 0,
+      "lexicalDiversity": 0.595,
+      "publisherAttributions": 1,
       "flags": []
     },
     {
-      "id": "live-20260810-sports-equipment-fund-union-complaints",
-      "slug": "sports-equipment-fund-union-complaints",
-      "title": "Cycling, athletics and taekwondo unions cry foul over new equipment fund criteria",
-      "kind": "report",
-      "words": 535,
-      "paragraphs": 10,
+      "id": "live-20260810-amit-arzi-maccabi-haifa-new-contract",
+      "slug": "amit-arzi-signs-new-long-term-deal-maccabi-haifa",
+      "title": "Maccabi Haifa academy graduate Amit Arzi signs new long-term contract",
+      "kind": "news",
+      "words": 339,
+      "paragraphs": 7,
       "paragraphWords": {
         "shortest": 25,
-        "longest": 73,
-        "average": 53.5
+        "longest": 69,
+        "average": 48.4
       },
       "sentenceWords": {
-        "shortest": 15,
-        "longest": 121,
-        "average": 41.2
+        "shortest": 25,
+        "longest": 130,
+        "average": 48.4
       },
-      "lexicalDiversity": 0.523,
+      "lexicalDiversity": 0.593,
       "publisherAttributions": 0,
       "flags": []
     },
     {
-      "id": "live-20260810-khalaili-crystal-palace-starting-xi",
-      "slug": "khalaili-crystal-palace-starting-xi-chances",
-      "title": "Khalaili could win a starting spot at Crystal Palace under new boss Pierre Sage",
+      "id": "live-2026-08-10-hapoel-tel-aviv-basketball-preseason-schedule",
+      "slug": "hapoel-tel-aviv-basketball-six-game-preseason-tour",
+      "title": "Hapoel Tel Aviv basketball set six-game preseason tour through Bulgaria, Serbia and Sardinia",
       "kind": "news",
-      "words": 607,
-      "paragraphs": 10,
-      "paragraphWords": {
-        "shortest": 44,
-        "longest": 76,
-        "average": 60.7
-      },
-      "sentenceWords": {
-        "shortest": 7,
-        "longest": 50,
-        "average": 31.9
-      },
-      "lexicalDiversity": 0.547,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-10-liverpool-monaco-iraola-energy",
-      "slug": "liverpool-monaco-iraola-energy-90-minutes",
-      "title": "Liverpool 2-3 Monaco: Iraola admits his side lack the energy for 90 minutes on Anfield bow",
-      "kind": "news",
-      "words": 438,
+      "words": 322,
       "paragraphs": 8,
       "paragraphWords": {
-        "shortest": 42,
+        "shortest": 33,
         "longest": 65,
-        "average": 54.8
+        "average": 40.3
       },
       "sentenceWords": {
-        "shortest": 6,
-        "longest": 65,
-        "average": 25.8
+        "shortest": 10,
+        "longest": 45,
+        "average": 32.2
       },
-      "lexicalDiversity": 0.573,
+      "lexicalDiversity": 0.627,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260810-shalmon-ashdod-ben-dor-petah-tikva",
+      "slug": "shahar-shalmon-maccabi-ashdod-ron-ben-dor-petah-tikva-basketball",
+      "title": "Shahar Shalmon to stay at Maccabi Ashdod for a third season as Ben Dor joins Maccabi Petach Tikva",
+      "kind": "transfer",
+      "words": 349,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 45,
+        "longest": 70,
+        "average": 58.2
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 48,
+        "average": 31.7
+      },
+      "lexicalDiversity": 0.605,
       "publisherAttributions": 0,
       "flags": []
     },
     {
-      "id": "live-2026-08-10-maccabi-tel-aviv-recalls-shane-hunter-from-legia-warsaw-loan",
-      "slug": "maccabi-tel-aviv-recalls-shane-hunter-from-legia-warsaw-loan",
-      "title": "Maccabi Tel Aviv recalls center Shane Hunter from his loan spell at Legia Warsaw",
-      "kind": "news",
-      "words": 305,
-      "paragraphs": 7,
+      "id": "archive-20260810-moscow-8-may-2005-the-7-0-run-that-made-",
+      "slug": "moscow-8-may-2005-the-7-0-run-that-made-maccabi-back-to-back-champions",
+      "title": "Moscow, 8 May 2005: The 7–0 Run That Made Maccabi Back-to-Back Champions of Europe",
+      "kind": "explainer",
+      "words": 664,
+      "paragraphs": 8,
       "paragraphWords": {
-        "shortest": 24,
-        "longest": 61,
-        "average": 43.6
+        "shortest": 66,
+        "longest": 101,
+        "average": 83
       },
       "sentenceWords": {
-        "shortest": 24,
-        "longest": 89,
-        "average": 43.6
+        "shortest": 13,
+        "longest": 48,
+        "average": 33.2
       },
-      "lexicalDiversity": 0.623,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260810-uefa-afc-concacaf-infantino-letter",
-      "slug": "uefa-afc-concacaf-joint-letter-infantino-world-cup-rights",
-      "title": "UEFA, AFC and CONCACAF accuse Infantino of 'deception' over World Cup rights sale",
-      "kind": "news",
-      "words": 489,
-      "paragraphs": 10,
-      "paragraphWords": {
-        "shortest": 37,
-        "longest": 61,
-        "average": 48.9
-      },
-      "sentenceWords": {
-        "shortest": 9,
-        "longest": 75,
-        "average": 40.8
-      },
-      "lexicalDiversity": 0.575,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260810-hapoel-tel-aviv-basketball-preseason-tour",
-      "slug": "hapoel-tel-aviv-basketball-preseason-tour-bulgaria-serbia-sardinia",
-      "title": "Hapoel Tel Aviv basketball map out pre-season tour through Bulgaria, Serbia and Sardinia",
-      "kind": "news",
-      "words": 308,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 31,
-        "longest": 61,
-        "average": 44
-      },
-      "sentenceWords": {
-        "shortest": 5,
-        "longest": 46,
-        "average": 30.8
-      },
-      "lexicalDiversity": 0.63,
+      "lexicalDiversity": 0.514,
       "publisherAttributions": 0,
       "flags": []
     },
