@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T21:14:12.473Z",
+  "generatedAt": "2026-08-10T21:15:27.779Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,21 +11,21 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 903,
+    "publishedArticles": 901,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 421,
-      "average": 425.1
+      "average": 425.3
     },
     "paragraphDistribution": {
       "3": 34,
       "4": 6,
       "5": 10,
-      "6": 42,
-      "7": 130,
-      "8": 257,
-      "9": 207,
+      "6": 41,
+      "7": 129,
+      "8": 255,
+      "9": 209,
       "10": 154,
       "11": 40,
       "12": 13,
@@ -35,37 +35,13 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.285,
+    "dominantParagraphShare": 0.283,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 42,
+    "exactSixParagraphArticles": 41,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 156
+    "articlesWithStyleFlags": 155
   },
   "flagged": [
-    {
-      "id": "live-2026-08-10-bnei-yehuda-pink-goalkeeper-shirt",
-      "slug": "bnei-yehuda-pink-goalkeeper-shirt-cancer-awareness",
-      "title": "Bnei Yehuda unveil pink goalkeeper shirt for cancer awareness campaign",
-      "kind": "news",
-      "words": 227,
-      "paragraphs": 6,
-      "paragraphWords": {
-        "shortest": 29,
-        "longest": 48,
-        "average": 37.8
-      },
-      "sentenceWords": {
-        "shortest": 15,
-        "longest": 79,
-        "average": 45.4
-      },
-      "lexicalDiversity": 0.555,
-      "publisherAttributions": 2,
-      "flags": [
-        "below-editorial-target:227/280",
-        "publisher-attribution-heavy:2"
-      ]
-    },
     {
       "id": "live-2026-08-04-neymar-not-thinking-retirement-santos-contract",
       "slug": "neymar-not-thinking-retirement-santos-contract-december",
@@ -3645,129 +3621,108 @@
   ],
   "clean": [
     {
+      "id": "live-2026-08-10-panathinaikos-jokic-offer",
+      "slug": "panathinaikos-owner-jokic-offer-rejected",
+      "title": "Panathinaikos owner says he made a 'serious' offer for Nikola Jokic",
+      "kind": "news",
+      "words": 340,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 27,
+        "longest": 54,
+        "average": 42.5
+      },
+      "sentenceWords": {
+        "shortest": 1,
+        "longest": 79,
+        "average": 34
+      },
+      "lexicalDiversity": 0.582,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
       "id": "live-2026-08-10-araujo-liverpool-loan",
-      "slug": "araujo-liverpool-loan-barcelona",
-      "title": "Araújo completes loan move from Barcelona to Liverpool",
-      "kind": "article",
-      "words": 458,
+      "slug": "ronald-araujo-completes-liverpool-loan-move-from-barcelona",
+      "title": "Ronald Araújo completes loan move from Barcelona to Liverpool",
+      "kind": "news",
+      "words": 378,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 69,
+        "average": 47.3
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 65,
+        "average": 29.1
+      },
+      "lexicalDiversity": 0.64,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260810-kane-bayern-extension-2029",
+      "slug": "kane-bayern-extension-2029",
+      "title": "Harry Kane closing in on new Bayern Munich contract through 2029",
+      "kind": "news",
+      "words": 383,
       "paragraphs": 9,
       "paragraphWords": {
-        "shortest": 38,
-        "longest": 68,
-        "average": 50.9
+        "shortest": 33,
+        "longest": 56,
+        "average": 42.6
       },
       "sentenceWords": {
-        "shortest": 6,
-        "longest": 68,
-        "average": 26.9
+        "shortest": 12,
+        "longest": 42,
+        "average": 31.9
       },
-      "lexicalDiversity": 0.598,
+      "lexicalDiversity": 0.619,
       "publisherAttributions": 0,
       "flags": []
     },
     {
-      "id": "live-20260810-kane-bayern-contract-2029",
-      "slug": "harry-kane-bayern-munich-contract-extension-2029",
-      "title": "Harry Kane closes in on Bayern Munich deal through 2029",
+      "id": "live-2026-08-10-israeli-derby-english-football",
+      "slug": "southampton-west-ham-israeli-derby-league-cup-preview",
+      "title": "Southampton and West Ham drawn together, setting up first Israeli derby in English football",
       "kind": "news",
-      "words": 368,
-      "paragraphs": 8,
+      "words": 511,
+      "paragraphs": 9,
       "paragraphWords": {
-        "shortest": 37,
-        "longest": 66,
-        "average": 46
+        "shortest": 47,
+        "longest": 71,
+        "average": 56.8
       },
       "sentenceWords": {
-        "shortest": 9,
-        "longest": 57,
-        "average": 28.3
+        "shortest": 11,
+        "longest": 59,
+        "average": 34.1
       },
-      "lexicalDiversity": 0.601,
+      "lexicalDiversity": 0.532,
       "publisherAttributions": 0,
       "flags": []
     },
     {
-      "id": "live-20260810-hapoel-beer-sheva-red-star-return-leg-preview",
-      "slug": "hapoel-beer-sheva-red-star-belgrade-champions-league-return-leg",
-      "title": "Hapoel Be'er Sheva carry 1-0 lead into Red Star Belgrade Champions League return leg",
-      "kind": "preview",
-      "words": 398,
-      "paragraphs": 8,
+      "id": "live-2026-08-10-mourinho-endrick-real-madrid-stay",
+      "slug": "mourinho-decides-endrick-stays-real-madrid",
+      "title": "Mourinho decides to keep Endrick at Real Madrid despite Roma and Aston Villa loan interest",
+      "kind": "article",
+      "words": 352,
+      "paragraphs": 9,
       "paragraphWords": {
-        "shortest": 26,
-        "longest": 58,
-        "average": 49.8
-      },
-      "sentenceWords": {
-        "shortest": 3,
-        "longest": 78,
-        "average": 33.2
-      },
-      "lexicalDiversity": 0.623,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-10-solomon-peretz-israeli-derby-carabao-cup",
-      "slug": "west-ham-southampton-first-israeli-derby-english-football",
-      "title": "West Ham's Manor Solomon and Southampton's Daniel Peretz set for England's first Israeli derby",
-      "kind": "news",
-      "words": 446,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 39,
-        "longest": 79,
-        "average": 55.8
-      },
-      "sentenceWords": {
-        "shortest": 10,
-        "longest": 54,
-        "average": 34.3
-      },
-      "lexicalDiversity": 0.558,
-      "publisherAttributions": 1,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-10-mourinho-keeps-endrick-real-madrid",
-      "slug": "mourinho-keeps-endrick-real-madrid",
-      "title": "Mourinho blocks Roma and Aston Villa moves to keep Endrick at Real Madrid",
-      "kind": "news",
-      "words": 358,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 35,
-        "longest": 57,
-        "average": 44.8
+        "shortest": 30,
+        "longest": 48,
+        "average": 39.1
       },
       "sentenceWords": {
         "shortest": 6,
         "longest": 48,
-        "average": 29.8
+        "average": 29.3
       },
-      "lexicalDiversity": 0.615,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-10-adva-cohen-steeplechase-final",
-      "slug": "adva-cohen-steeplechase-final-european-championships",
-      "title": "Adva Cohen fights through to 3,000m steeplechase final at European Championships",
-      "kind": "news",
-      "words": 320,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 34,
-        "longest": 60,
-        "average": 45.7
-      },
-      "sentenceWords": {
-        "shortest": 6,
-        "longest": 39,
-        "average": 26.7
-      },
-      "lexicalDiversity": 0.581,
-      "publisherAttributions": 0,
+      "lexicalDiversity": 0.597,
+      "publisherAttributions": 1,
       "flags": []
     },
     {
