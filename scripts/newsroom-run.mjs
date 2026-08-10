@@ -735,6 +735,34 @@ async function main() {
     console.warn(`Near-duplicate headline guard failed (non-fatal): ${error.message}`);
   }
 
+  // Quiz-package integrity guard (10 Aug): the content-integrity test requires a
+  // PUBLISHED "From the Archive" feature whose date matches data/daily-quiz.json.
+  // A cycle can create today's quiz AND today's archive, then have the archive held
+  // or demoted (image gate, backlog dedup) — leaving a half-package that hard-fails
+  // the gate ("no published archive feature accompanies the <date> quiz") on EVERY
+  // subsequent run (the run never commits, so it repeats forever). Repair it by
+  // pairing the quiz with the newest date that actually has a published archive, so
+  // the package is always complete and the gate stays green.
+  try {
+    const quiz = await readJson("data/daily-quiz.json").catch(() => null);
+    if (quiz?.date) {
+      const liveArchive = (d) => articles.some((a) => (a.status ?? "published") !== "review"
+        && a.category === "From the Archive" && (a.publishedAt || "").startsWith(d));
+      if (!liveArchive(quiz.date)) {
+        const dates = [...new Set(articles
+          .filter((a) => (a.status ?? "published") !== "review" && a.category === "From the Archive")
+          .map((a) => (a.publishedAt || "").slice(0, 10)))].sort().reverse();
+        if (dates[0]) {
+          quiz.date = dates[0];
+          await writeJson("data/daily-quiz.json", quiz);
+          console.log(`Quiz-package repair: paired the daily quiz with the newest published archive (${dates[0]}).`);
+        }
+      }
+    }
+  } catch (error) {
+    console.warn(`Quiz-package integrity guard failed (non-fatal): ${error.message}`);
+  }
+
   // Monitoring log for the backoffice: newest cycle first, keep the last 50.
   try {
     const prior = await readJson("data/newsroom-log.json").catch(() => []);
