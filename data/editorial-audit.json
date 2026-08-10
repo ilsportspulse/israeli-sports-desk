@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T11:27:28.865Z",
+  "generatedAt": "2026-08-10T20:38:51.781Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1211,
-    "publishedBefore": 887,
-    "cleanPublished": 879,
+    "totalArticles": 1242,
+    "publishedBefore": 901,
+    "cleanPublished": 893,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 887,
-    "reviewAfter": 324
+    "publishedAfter": 901,
+    "reviewAfter": 341
   },
   "blockedPublished": [
     {
@@ -157,13 +157,97 @@
   ],
   "warnings": [
     {
-      "id": "live-20260810-hapoel-beit-shean-uefa-regions-cup",
-      "slug": "hapoel-beit-shean-replace-herzliya-uefa-regions-cup",
-      "title": "Hapoel Beit She'an to replace Herzliya as Israel's UEFA Regions' Cup representative",
+      "id": "live-2026-08-10-panathinaikos-jokic-offer",
+      "slug": "panathinaikos-owner-jokic-offer-rejected",
+      "title": "Panathinaikos owner says he made a 'serious' offer for Nikola Jokic",
       "statusBefore": "published",
-      "words": 370,
+      "words": 341,
       "paragraphs": 8,
       "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-10-araujo-liverpool-loan",
+      "slug": "ronald-araujo-completes-liverpool-loan-move-from-barcelona",
+      "title": "Ronald Araújo completes loan move from Barcelona to Liverpool",
+      "statusBefore": "published",
+      "words": 377,
+      "paragraphs": 8,
+      "facts": 9,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-10-rehovot-new-municipal-club-ironi-rehovot",
+      "slug": "rehovot-officially-launches-new-municipal-club-ironi-rehovot",
+      "title": "Rehovot municipality confirms new club, Ironi Rehovot, bound for Liga Alef",
+      "statusBefore": "review",
+      "words": 347,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-10-agada-hapoel-haifa-return",
+      "slug": "william-agada-returns-hapoel-haifa-second-stint",
+      "title": "William Agada returns to Hapoel Haifa for a second spell",
+      "statusBefore": "review",
+      "words": 391,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-10-mourinho-endrick-real-madrid-stay",
+      "slug": "mourinho-decides-endrick-stays-real-madrid",
+      "title": "Mourinho decides to keep Endrick at Real Madrid despite Roma and Aston Villa loan interest",
+      "statusBefore": "published",
+      "words": 354,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-08-10-carlos-sarante-hapoel-acre",
+      "slug": "carlos-sarante-lands-in-israel-hapoel-acre-signing",
+      "title": "Dominican forward Carlos Sarante lands in Israel ahead of Hapoel Acre move",
+      "statusBefore": "review",
+      "words": 216,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-08-10-maccabi-haifa-patient-with-new-signings",
+      "slug": "maccabi-haifa-patient-with-new-signings",
+      "title": "Maccabi Haifa encouraged by approach, in no rush with new signings",
+      "statusBefore": "review",
+      "words": 520,
+      "paragraphs": 8,
+      "facts": 8,
       "verificationSources": 4,
       "blockers": [],
       "warnings": [
@@ -171,13 +255,13 @@
       ]
     },
     {
-      "id": "live-2026-08-10-israeli-stars-abroad-ticket-prices",
-      "slug": "israeli-stars-abroad-ticket-prices",
-      "title": "From $7 to $684: what it costs to watch Israel's stars abroad",
+      "id": "live-2026-08-10-avdija-morant-trail-blazers-leadership",
+      "slug": "avdija-morant-trail-blazers-leadership",
+      "title": "Morant has arrived in Portland, but this should stay Avdija's team, US analysts argue",
       "statusBefore": "published",
       "words": 477,
-      "paragraphs": 9,
-      "facts": 7,
+      "paragraphs": 10,
+      "facts": 6,
       "verificationSources": 4,
       "blockers": [],
       "warnings": [
@@ -185,12 +269,40 @@
       ]
     },
     {
-      "id": "live-20260810-athletics-federation-world-u20-excuses",
-      "slug": "israel-athletics-federation-explains-away-world-u20-struggles",
-      "title": "Israeli athletics federation blames missing poles and early starts for World U20 struggles",
-      "statusBefore": "review",
-      "words": 388,
-      "paragraphs": 8,
+      "id": "live-2026-08-10-mourinho-ferguson-netflix-confession",
+      "slug": "mourinho-agreed-succeed-ferguson-manchester-united-then-changed-mind",
+      "title": "Mourinho reveals he agreed to succeed Ferguson at Manchester United in 2013 - then changed his mind",
+      "statusBefore": "published",
+      "words": 398,
+      "paragraphs": 11,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260810-ben-saraf-hollinger-summer-league-critique",
+      "slug": "ben-saraf-hollinger-summer-league-critique",
+      "title": "Hollinger: Saraf still not an outside threat after Nets summer league",
+      "statusBefore": "published",
+      "words": 365,
+      "paragraphs": 6,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260810-sparta-prague-ultras-prague-pride-attack",
+      "slug": "sparta-prague-ultras-prague-pride-attack",
+      "title": "Sparta Prague ultras accused of attacking Prague Pride marchers and burning flags",
+      "statusBefore": "published",
+      "words": 435,
+      "paragraphs": 9,
       "facts": 7,
       "verificationSources": 3,
       "blockers": [],
@@ -200,41 +312,27 @@
       ]
     },
     {
-      "id": "live-20260810-hapoel-petah-tikva-transfer-plea",
-      "slug": "hapoel-petah-tikva-transfer-plea-toto-cup-defeat",
-      "title": "Hapoel Petah Tikva admit they need three or four more players before the season starts",
+      "id": "live-20260810-health-ministry-blood-donation-appeal",
+      "slug": "health-ministry-blood-donation-appeal",
+      "title": "Health Ministry calls on public to donate blood amid shortage",
       "statusBefore": "review",
-      "words": 406,
-      "paragraphs": 7,
-      "facts": 7,
-      "verificationSources": 5,
+      "words": 164,
+      "paragraphs": 5,
+      "facts": 5,
+      "verificationSources": 2,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
-      "id": "live-20260810-maccabi-petach-tikva-toto-cup-hapoel-ramat-gan",
-      "slug": "maccabi-petach-tikva-beat-hapoel-ramat-gan-toto-cup-first-win",
-      "title": "Maccabi Petach Tikva beat Hapoel Ramat Gan 2-1: 'When we're together longer, we'll look a lot better'",
-      "statusBefore": "review",
-      "words": 421,
-      "paragraphs": 8,
-      "facts": 7,
-      "verificationSources": 5,
-      "blockers": [],
-      "warnings": [
-        "voice:publisher-attribution-heavy:2"
-      ]
-    },
-    {
-      "id": "live-2026-08-10-maccabi-tel-aviv-recalls-shane-hunter",
-      "slug": "maccabi-tel-aviv-recalls-shane-hunter-from-loan",
-      "title": "Maccabi Tel Aviv recall center Shane Hunter from Legia Warsaw loan",
+      "id": "live-20260810-sports-equipment-fund-union-complaints",
+      "slug": "sports-equipment-fund-union-complaints",
+      "title": "Cycling, athletics and taekwondo unions cry foul over new equipment fund criteria",
       "statusBefore": "published",
-      "words": 318,
-      "paragraphs": 7,
-      "facts": 7,
+      "words": 538,
+      "paragraphs": 10,
+      "facts": 6,
       "verificationSources": 1,
       "blockers": [],
       "warnings": [
@@ -242,27 +340,70 @@
       ]
     },
     {
-      "id": "live-20260810-uefa-afc-concacaf-letter-infantino",
-      "slug": "uefa-afc-concacaf-accuse-infantino-breach-of-trust-world-cup-rights",
-      "title": "UEFA, AFC and Concacaf accuse Infantino of breach of trust over World Cup rights sale",
+      "id": "live-2026-08-10-hapoel-lod-chairman-restraining-order",
+      "slug": "hapoel-lod-chairman-restraining-order-lawyer-threats",
+      "title": "Hapoel Lod chairman hit with restraining order over lawyer death threats",
       "statusBefore": "published",
-      "words": 504,
-      "paragraphs": 10,
-      "facts": 7,
-      "verificationSources": 4,
+      "words": 294,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 2,
       "blockers": [],
       "warnings": [
         "voice:publisher-attribution-heavy:2"
       ]
     },
     {
-      "id": "live-2026-08-10-hapoel-tel-aviv-basketball-preseason-schedule",
-      "slug": "hapoel-tel-aviv-basketball-six-game-preseason-tour",
-      "title": "Hapoel Tel Aviv basketball set six-game preseason tour through Bulgaria, Serbia and Sardinia",
-      "statusBefore": "published",
-      "words": 323,
-      "paragraphs": 8,
+      "id": "live-2026-08-10-ticket-prices-israeli-stars-abroad",
+      "slug": "ticket-prices-to-watch-israeli-stars-abroad",
+      "title": "What would it cost you to watch Israel's stars play abroad this season?",
+      "statusBefore": "review",
+      "words": 567,
+      "paragraphs": 10,
       "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260810-tiberias-youth-department-homegrown-staff",
+      "slug": "tiberias-youth-department-homegrown-coaches-2026-27",
+      "title": "Ironi Tiberias hand youth department to a staff of homegrown coaches",
+      "statusBefore": "review",
+      "words": 293,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-10-hapoel-petah-tikva-squad-needs",
+      "slug": "hapoel-petah-tikva-squad-needs-reinforcements",
+      "title": "Hapoel Petah Tikva sources: 'The league will look better once the players arrive'",
+      "statusBefore": "review",
+      "words": 429,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-08-10-barzelay-minis-200-back-semifinal",
+      "slug": "aviv-barzelay-tom-minis-200m-backstroke-semifinal-european-championships",
+      "title": "Aviv Barzelay and Tom Minis advance to 200m backstroke semi-finals at European Championships",
+      "statusBefore": "review",
+      "words": 298,
+      "paragraphs": 7,
+      "facts": 7,
       "verificationSources": 3,
       "blockers": [],
       "warnings": [
@@ -270,32 +411,30 @@
       ]
     },
     {
-      "id": "live-20260810-hapoel-ramat-gan-toto-cup-exit",
-      "slug": "hapoel-ramat-gan-toto-cup-exit-maccabi-petah-tikva",
-      "title": "Maccabi Petah Tikva 2-1 Hapoel Ramat Gan: Toto Cup dream ends for Ramat Gan Givatayim",
+      "id": "live-20260810-maccabi-petah-tikva-toto-cup-win-ramat-gan",
+      "slug": "maccabi-petah-tikva-toto-cup-win-ramat-gan",
+      "title": "Maccabi Petah Tikva beat Hapoel Ramat Gan 2-1 for first Toto Cup win of the season",
       "statusBefore": "review",
-      "words": 384,
+      "words": 348,
       "paragraphs": 8,
-      "facts": 7,
-      "verificationSources": 3,
+      "facts": 6,
+      "verificationSources": 4,
       "blockers": [],
       "warnings": [
-        "media:no-action-or-competition-context-detected",
-        "voice:publisher-attribution-heavy:2"
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
-      "id": "live-20260810-shalmon-ashdod-ben-dor-petah-tikva",
-      "slug": "shahar-shalmon-maccabi-ashdod-ron-ben-dor-petah-tikva-basketball",
-      "title": "Shahar Shalmon to stay at Maccabi Ashdod for a third season as Ben Dor joins Maccabi Petach Tikva",
-      "statusBefore": "published",
-      "words": 348,
-      "paragraphs": 6,
-      "facts": 7,
-      "verificationSources": 2,
+      "id": "live-20260810-hapoel-tel-aviv-basketball-preseason-tour",
+      "slug": "hapoel-tel-aviv-basketball-preseason-tour-bulgaria-serbia-sardinia",
+      "title": "Hapoel Tel Aviv basketball map out pre-season tour through Bulgaria, Serbia and Sardinia",
+      "statusBefore": "review",
+      "words": 313,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline",
         "media:no-action-or-competition-context-detected"
       ]
     },
@@ -11647,9 +11786,7 @@
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
-    }
-  ],
-  "cleanPublished": [
+    },
     {
       "id": "live-20260810-hapoel-beit-shean-uefa-regions-cup",
       "slug": "hapoel-beit-shean-replace-herzliya-uefa-regions-cup",
@@ -11679,6 +11816,35 @@
       ]
     },
     {
+      "id": "live-20260810-athletics-federation-world-u20-excuses",
+      "slug": "israel-athletics-federation-explains-away-world-u20-struggles",
+      "title": "Israeli athletics federation blames missing poles and early starts for World U20 struggles",
+      "statusBefore": "review",
+      "words": 388,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260810-hapoel-petah-tikva-transfer-plea",
+      "slug": "hapoel-petah-tikva-transfer-plea-toto-cup-defeat",
+      "title": "Hapoel Petah Tikva admit they need three or four more players before the season starts",
+      "statusBefore": "review",
+      "words": 406,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
       "id": "live-2026-08-10-iraola-liverpool-monaco-defeat-anfield",
       "slug": "iraola-liverpool-monaco-defeat-anfield-energy-fitness",
       "title": "Liverpool 2-3 Monaco: Iraola admits his side lack the energy to last 90 minutes",
@@ -11688,7 +11854,24 @@
       "facts": 7,
       "verificationSources": 4,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260810-maccabi-petach-tikva-toto-cup-hapoel-ramat-gan",
+      "slug": "maccabi-petach-tikva-beat-hapoel-ramat-gan-toto-cup-first-win",
+      "title": "Maccabi Petach Tikva beat Hapoel Ramat Gan 2-1: 'When we're together longer, we'll look a lot better'",
+      "statusBefore": "review",
+      "words": 421,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
     },
     {
       "id": "live-2026-08-10-maccabi-tel-aviv-recalls-shane-hunter",
@@ -11719,18 +11902,6 @@
       ]
     },
     {
-      "id": "live-20260810-amit-arzi-maccabi-haifa-new-contract",
-      "slug": "amit-arzi-signs-new-long-term-deal-maccabi-haifa",
-      "title": "Maccabi Haifa academy graduate Amit Arzi signs new long-term contract",
-      "statusBefore": "published",
-      "words": 340,
-      "paragraphs": 7,
-      "facts": 6,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": []
-    },
-    {
       "id": "live-2026-08-10-hapoel-tel-aviv-basketball-preseason-schedule",
       "slug": "hapoel-tel-aviv-basketball-six-game-preseason-tour",
       "title": "Hapoel Tel Aviv basketball set six-game preseason tour through Bulgaria, Serbia and Sardinia",
@@ -11742,6 +11913,21 @@
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260810-hapoel-ramat-gan-toto-cup-exit",
+      "slug": "hapoel-ramat-gan-toto-cup-exit-maccabi-petah-tikva",
+      "title": "Maccabi Petah Tikva 2-1 Hapoel Ramat Gan: Toto Cup dream ends for Ramat Gan Givatayim",
+      "statusBefore": "review",
+      "words": 384,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
       ]
     },
     {
@@ -11768,6 +11954,197 @@
       "paragraphs": 8,
       "facts": 6,
       "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    }
+  ],
+  "cleanPublished": [
+    {
+      "id": "live-2026-08-10-panathinaikos-jokic-offer",
+      "slug": "panathinaikos-owner-jokic-offer-rejected",
+      "title": "Panathinaikos owner says he made a 'serious' offer for Nikola Jokic",
+      "statusBefore": "published",
+      "words": 341,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-10-araujo-liverpool-loan",
+      "slug": "ronald-araujo-completes-liverpool-loan-move-from-barcelona",
+      "title": "Ronald Araújo completes loan move from Barcelona to Liverpool",
+      "statusBefore": "published",
+      "words": 377,
+      "paragraphs": 8,
+      "facts": 9,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260810-kane-bayern-extension-2029",
+      "slug": "kane-bayern-extension-2029",
+      "title": "Harry Kane closing in on new Bayern Munich contract through 2029",
+      "statusBefore": "published",
+      "words": 385,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-10-israeli-derby-english-football",
+      "slug": "southampton-west-ham-israeli-derby-league-cup-preview",
+      "title": "Southampton and West Ham drawn together, setting up first Israeli derby in English football",
+      "statusBefore": "published",
+      "words": 515,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-10-mourinho-endrick-real-madrid-stay",
+      "slug": "mourinho-decides-endrick-stays-real-madrid",
+      "title": "Mourinho decides to keep Endrick at Real Madrid despite Roma and Aston Villa loan interest",
+      "statusBefore": "published",
+      "words": 354,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-08-10-avdija-morant-trail-blazers-leadership",
+      "slug": "avdija-morant-trail-blazers-leadership",
+      "title": "Morant has arrived in Portland, but this should stay Avdija's team, US analysts argue",
+      "statusBefore": "published",
+      "words": 477,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-10-mourinho-ferguson-netflix-confession",
+      "slug": "mourinho-agreed-succeed-ferguson-manchester-united-then-changed-mind",
+      "title": "Mourinho reveals he agreed to succeed Ferguson at Manchester United in 2013 - then changed his mind",
+      "statusBefore": "published",
+      "words": 398,
+      "paragraphs": 11,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260810-ben-saraf-hollinger-summer-league-critique",
+      "slug": "ben-saraf-hollinger-summer-league-critique",
+      "title": "Hollinger: Saraf still not an outside threat after Nets summer league",
+      "statusBefore": "published",
+      "words": 365,
+      "paragraphs": 6,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260810-sparta-prague-ultras-prague-pride-attack",
+      "slug": "sparta-prague-ultras-prague-pride-attack",
+      "title": "Sparta Prague ultras accused of attacking Prague Pride marchers and burning flags",
+      "statusBefore": "published",
+      "words": 435,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-10-cska-sofia-martino-injury-maccabi-buildup",
+      "slug": "cska-sofia-beat-septemvri-rest-players-maccabi-tel-aviv-return-leg",
+      "title": "CSKA Sofia beat Septemvri Sofia 3-0 as Yanev manages squad before Maccabi Tel Aviv return leg",
+      "statusBefore": "published",
+      "words": 315,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260810-abu-farhi-colorado-rapids-bid",
+      "slug": "colorado-rapids-bid-maccabi-tel-aviv-abu-farhi",
+      "title": "Colorado Rapids' $6 million bid for Maccabi Tel Aviv's Abu Farhi still unresolved",
+      "statusBefore": "published",
+      "words": 374,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260810-sports-equipment-fund-union-complaints",
+      "slug": "sports-equipment-fund-union-complaints",
+      "title": "Cycling, athletics and taekwondo unions cry foul over new equipment fund criteria",
+      "statusBefore": "published",
+      "words": 538,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-10-hapoel-lod-chairman-restraining-order",
+      "slug": "hapoel-lod-chairman-restraining-order-lawyer-threats",
+      "title": "Hapoel Lod chairman hit with restraining order over lawyer death threats",
+      "statusBefore": "published",
+      "words": 294,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260810-khalaili-crystal-palace-starting-xi",
+      "slug": "khalaili-crystal-palace-starting-xi-chances",
+      "title": "Khalaili could win a starting spot at Crystal Palace under new boss Pierre Sage",
+      "statusBefore": "published",
+      "words": 612,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 4,
       "blockers": [],
       "warnings": []
     },
@@ -23530,6 +23907,131 @@
       "words": 425,
       "paragraphs": 9,
       "facts": 8,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260810-hapoel-beit-shean-uefa-regions-cup",
+      "slug": "hapoel-beit-shean-replace-herzliya-uefa-regions-cup",
+      "title": "Hapoel Beit She'an to replace Herzliya as Israel's UEFA Regions' Cup representative",
+      "statusBefore": "published",
+      "words": 370,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-08-10-israeli-stars-abroad-ticket-prices",
+      "slug": "israeli-stars-abroad-ticket-prices",
+      "title": "From $7 to $684: what it costs to watch Israel's stars abroad",
+      "statusBefore": "published",
+      "words": 477,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-10-iraola-liverpool-monaco-defeat-anfield",
+      "slug": "iraola-liverpool-monaco-defeat-anfield-energy-fitness",
+      "title": "Liverpool 2-3 Monaco: Iraola admits his side lack the energy to last 90 minutes",
+      "statusBefore": "published",
+      "words": 487,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-10-maccabi-tel-aviv-recalls-shane-hunter",
+      "slug": "maccabi-tel-aviv-recalls-shane-hunter-from-loan",
+      "title": "Maccabi Tel Aviv recall center Shane Hunter from Legia Warsaw loan",
+      "statusBefore": "published",
+      "words": 318,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260810-uefa-afc-concacaf-letter-infantino",
+      "slug": "uefa-afc-concacaf-accuse-infantino-breach-of-trust-world-cup-rights",
+      "title": "UEFA, AFC and Concacaf accuse Infantino of breach of trust over World Cup rights sale",
+      "statusBefore": "published",
+      "words": 504,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260810-amit-arzi-maccabi-haifa-new-contract",
+      "slug": "amit-arzi-signs-new-long-term-deal-maccabi-haifa",
+      "title": "Maccabi Haifa academy graduate Amit Arzi signs new long-term contract",
+      "statusBefore": "published",
+      "words": 340,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-10-hapoel-tel-aviv-basketball-preseason-schedule",
+      "slug": "hapoel-tel-aviv-basketball-six-game-preseason-tour",
+      "title": "Hapoel Tel Aviv basketball set six-game preseason tour through Bulgaria, Serbia and Sardinia",
+      "statusBefore": "published",
+      "words": 323,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260810-shalmon-ashdod-ben-dor-petah-tikva",
+      "slug": "shahar-shalmon-maccabi-ashdod-ron-ben-dor-petah-tikva-basketball",
+      "title": "Shahar Shalmon to stay at Maccabi Ashdod for a third season as Ben Dor joins Maccabi Petach Tikva",
+      "statusBefore": "published",
+      "words": 348,
+      "paragraphs": 6,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "archive-20260810-moscow-8-may-2005-the-7-0-run-that-made-",
+      "slug": "moscow-8-may-2005-the-7-0-run-that-made-maccabi-back-to-back-champions",
+      "title": "Moscow, 8 May 2005: The 7–0 Run That Made Maccabi Back-to-Back Champions of Europe",
+      "statusBefore": "published",
+      "words": 660,
+      "paragraphs": 8,
+      "facts": 6,
       "verificationSources": 5,
       "blockers": [],
       "warnings": [

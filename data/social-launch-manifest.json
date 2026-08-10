@@ -146,49 +146,49 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-10T11:27:28Z",
-    "validUntil": "2026-08-10T23:27:28Z",
+    "checkedAt": "2026-08-10T20:38:51Z",
+    "validUntil": "2026-08-11T08:38:51Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 518,
+        "maxAgeHours": 528,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260810-hapoel-beit-shean-uefa-regions-cup",
+        "articleId": "live-2026-08-10-panathinaikos-jokic-offer",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 526,
+        "maxAgeHours": 535,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-10-israeli-stars-abroad-ticket-prices",
+        "articleId": "live-2026-08-10-araujo-liverpool-loan",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 536,
+        "maxAgeHours": 546,
         "requires": [
           "column"
         ]
       },
       {
         "role": "archive",
-        "articleId": "archive-20260804-moscow-30-may-2012-the-queen-trap-that-c",
+        "articleId": "archive-20260810-moscow-8-may-2005-the-7-0-run-that-made-",
         "maxAgeHours": 156,
         "requires": [
           "historical-feature"
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-10-iraola-liverpool-monaco-defeat-anfield",
+        "articleId": "live-20260810-kane-bayern-extension-2029",
         "maxAgeHours": 24,
         "requires": []
       }
