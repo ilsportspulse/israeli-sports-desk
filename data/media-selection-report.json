@@ -1,40 +1,40 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-08-10-panathinaikos-jokic-offer",
-      "article": "Panathinaikos owner says he made a 'serious' offer for Nikola Jokic",
-      "file": "File:Nikola Jokic free throw (cropped).jpg",
-      "license": "CC BY-SA 2.0"
-    },
-    {
       "articleId": "live-2026-08-10-araujo-liverpool-loan",
-      "article": "Ronald Araújo completes loan move from Barcelona to Liverpool",
+      "article": "Araújo completes loan move from Barcelona to Liverpool",
       "file": "File:FC Red Bull Salzburg gegen CF Barcelona (Testspiel 4. August 2021) 45 (cropped).jpg",
       "license": "CC0"
     },
     {
-      "articleId": "live-20260810-kane-bayern-extension-2029",
-      "article": "Harry Kane closing in on new Bayern Munich contract through 2029",
-      "file": "File:Harry Kane 2023.jpg",
+      "articleId": "live-20260810-kane-bayern-contract-2029",
+      "article": "Harry Kane closes in on Bayern Munich deal through 2029",
+      "file": "File:FC Red Bull Salzburg gegen Bayern München (2025-01-06 Testspiel) 16.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-20260810-hapoel-beer-sheva-red-star-return-leg-preview",
+      "article": "Hapoel Be'er Sheva carry 1-0 lead into Red Star Belgrade Champions League return leg",
+      "file": "File:אצטדיון טוטו באר שבע ע\"ש יעקב טרנר - panoramio.jpg",
+      "license": "CC BY 3.0"
+    },
+    {
+      "articleId": "live-2026-08-10-bnei-yehuda-pink-goalkeeper-shirt",
+      "article": "Bnei Yehuda unveil pink goalkeeper shirt for cancer awareness campaign",
+      "file": "File:GiuseppeMeazzaNeazzurro.jpg",
       "license": "CC BY 2.0"
     },
     {
-      "articleId": "live-2026-08-10-rehovot-new-municipal-club-ironi-rehovot",
-      "article": "Rehovot municipality confirms new club, Ironi Rehovot, bound for Liga Alef",
-      "file": "File:Matan Dil.jpg",
-      "license": "CC BY-SA 3.0"
+      "articleId": "live-2026-08-10-mourinho-keeps-endrick-real-madrid",
+      "article": "Mourinho blocks Roma and Aston Villa moves to keep Endrick at Real Madrid",
+      "file": "File:Endrick-Palmeiras-bragantino-fev2023-4.jpg",
+      "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-2026-08-10-mourinho-endrick-real-madrid-stay",
-      "article": "Mourinho decides to keep Endrick at Real Madrid despite Roma and Aston Villa loan interest",
-      "file": "File:Estadio Santiago Bernabéu - 01.jpg",
-      "license": "CC BY-SA 3.0"
-    },
-    {
-      "articleId": "live-2026-08-10-carlos-sarante-hapoel-acre",
-      "article": "Dominican forward Carlos Sarante lands in Israel ahead of Hapoel Acre move",
-      "file": "File:Acre Municipal Stadium15.jpg",
-      "license": "Public domain"
+      "articleId": "live-2026-08-10-adva-cohen-steeplechase-final",
+      "article": "Adva Cohen fights through to 3,000m steeplechase final at European Championships",
+      "file": "File:Adva - 2019 Payton Jordan Invitational (40800499123) (cropped).jpg",
+      "license": "CC BY 2.0"
     },
     {
       "articleId": "live-2026-08-10-mourinho-ferguson-netflix-confession",
@@ -49,10 +49,22 @@
       "license": "CC BY-SA 3.0"
     },
     {
+      "articleId": "live-2026-08-10-athletics-association-excuses-statement",
+      "article": "Israeli athletics body's excuse-laden statement on U20 worlds flops draws fire",
+      "file": "File:Hayward Field 2021.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
       "articleId": "live-2026-08-10-hapoel-petah-tikva-squad-needs",
       "article": "Hapoel Petah Tikva sources: 'The league will look better once the players arrive'",
       "file": "File:HaMoshava Stadium (1).JPG",
       "license": "CC BY-SA 3.0"
+    },
+    {
+      "articleId": "live-2026-08-10-maccabi-tel-aviv-recalls-shane-hunter-from-legia-warsaw-loan",
+      "article": "Maccabi Tel Aviv recalls center Shane Hunter from his loan spell at Legia Warsaw",
+      "file": "File:John DiBartolomeo 12 Maccabi Tel Aviv B.C. EuroLeague 20180320 (1).jpg",
+      "license": "CC BY-SA 4.0"
     },
     {
       "articleId": "live-20260810-hapoel-tel-aviv-basketball-preseason-tour",
@@ -100,29 +112,29 @@
   ],
   "failures": [
     {
-      "id": "live-2026-08-10-agada-hapoel-haifa-return",
-      "title": "William Agada returns to Hapoel Haifa for a second spell",
+      "id": "live-20260810-israel-u20-water-polo-belarus-17-11",
+      "title": "Israel's U-20 water polo team beat Belarus 17-11 to open European Division One in Portugal",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {
-      "id": "live-2026-08-10-israeli-derby-english-football",
-      "title": "Southampton and West Ham drawn together, setting up first Israeli derby in English football",
+      "id": "live-2026-08-10-william-agada-hapoel-haifa-second-spell",
+      "title": "William Agada returns to Hapoel Haifa for second spell",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-2026-08-10-solomon-peretz-israeli-derby-carabao-cup",
+      "title": "West Ham's Manor Solomon and Southampton's Daniel Peretz set for England's first Israeli derby",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-2026-08-10-carlos-sarante-hapoel-acre",
+      "title": "Dominican midfielder Carlos Sarante lands in Israel ahead of expected Hapoel Acre move",
+      "error": "image download 429 after retries"
     },
     {
       "id": "live-2026-08-10-itay-deel-beitar-jerusalem-academy-deal",
       "title": "Beitar Jerusalem tie down academy prospect Itay Deel to three-year contract",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
-    },
-    {
-      "id": "live-2026-08-10-athletics-association-excuses-statement",
-      "title": "Israeli athletics body's excuse-laden statement on U20 worlds flops draws fire",
-      "error": "image download 429 after retries"
-    },
-    {
-      "id": "live-2026-08-10-maccabi-tel-aviv-recalls-shane-hunter-from-legia-warsaw-loan",
-      "title": "Maccabi Tel Aviv recalls center Shane Hunter from his loan spell at Legia Warsaw",
-      "error": "image download 429 after retries"
     },
     {
       "id": "live-2026-08-04-maccabi-haifa-zasno-saief-benson-glazer-doubt",
