@@ -146,8 +146,8 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-09T23:40:18Z",
-    "validUntil": "2026-08-10T11:40:18Z",
+    "checkedAt": "2026-08-10T00:05:55Z",
+    "validUntil": "2026-08-10T12:05:55Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
@@ -167,7 +167,7 @@
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 514,
+        "maxAgeHours": 515,
         "requires": [
           "basketballRecap"
         ]
@@ -189,7 +189,7 @@
       {
         "role": "archive",
         "articleId": "archive-20260804-moscow-30-may-2012-the-queen-trap-that-c",
-        "maxAgeHours": 144,
+        "maxAgeHours": 145,
         "requires": [
           "historical-feature"
         ]
