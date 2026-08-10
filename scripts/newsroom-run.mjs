@@ -414,7 +414,7 @@ async function main() {
     // cycles ran 44-51 min and timed out / got cancelled -> nothing published (worse
     // than a smaller batch). ~12 drafts at concurrency 6 = two ~5-min waves ≈ 28 min
     // total: a full, reliable batch every cycle.
-    const parallelCap = dailyHeavy ? 6 : 12;
+    const parallelCap = dailyHeavy ? 4 : 8;
     effectiveMax = Math.min(MAX_CANDIDATES, parallelCap);
     if (effectiveMax < MAX_CANDIDATES) {
       console.log(`CLI mode: drafting up to ${effectiveMax} candidates concurrently this cycle.`);
