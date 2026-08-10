@@ -57,8 +57,8 @@ const page = await ctx.newPage();
 await page.goto("https://x.com/i/chat", { waitUntil: "domcontentloaded", timeout: 45_000 });
 await page.waitForTimeout(5000);
 if ((await page.evaluate(() => document.body.innerText)).includes("Enter Passcode")) {
-  console.log("→ Tik je X Chat-passcode in het venster in; ik wacht (max 5 min) en ga daarna zelf verder…");
-  const deadline = Date.now() + 5 * 60_000;
+  console.log("→ Tik je X Chat-passcode in het venster in; ik wacht (max 15 min) en ga daarna zelf verder…");
+  const deadline = Date.now() + 15 * 60_000;
   while (Date.now() < deadline) {
     await page.waitForTimeout(4000);
     const t = await page.evaluate(() => document.body.innerText).catch(() => "");

@@ -409,7 +409,12 @@ async function main() {
     // Drafts now run concurrently, so wall-clock ≈ one draft (not N). The cap is a
     // concurrency/quota guard, not a sequential-time budget: draft several stories at
     // once on ordinary cycles, fewer on the rare cycle that also ran a daily feature.
-    const parallelCap = dailyHeavy ? 16 : 30;
+    // Cap chosen so the whole job (discovery + drafting + daily feature + image +
+    // translate + tests) reliably finishes UNDER the 45-min CI timeout. At cap 30 the
+    // cycles ran 44-51 min and timed out / got cancelled -> nothing published (worse
+    // than a smaller batch). ~12 drafts at concurrency 6 = two ~5-min waves ≈ 28 min
+    // total: a full, reliable batch every cycle.
+    const parallelCap = dailyHeavy ? 6 : 12;
     effectiveMax = Math.min(MAX_CANDIDATES, parallelCap);
     if (effectiveMax < MAX_CANDIDATES) {
       console.log(`CLI mode: drafting up to ${effectiveMax} candidates concurrently this cycle.`);
