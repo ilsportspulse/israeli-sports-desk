@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T03:09:19.678Z",
+  "generatedAt": "2026-08-11T04:18:29.859Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1261,
-    "publishedBefore": 912,
-    "cleanPublished": 904,
+    "totalArticles": 1267,
+    "publishedBefore": 917,
+    "cleanPublished": 909,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 912,
-    "reviewAfter": 349
+    "publishedAfter": 917,
+    "reviewAfter": 350
   },
   "blockedPublished": [
     {
@@ -156,6 +156,78 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-2026-08-11-hapoel-beer-sheva-dimona-budget-ultimatum",
+      "slug": "hapoel-beer-sheva-dimona-budget-ultimatum-liga-leumit",
+      "title": "League management to Hapoel Be'er Sheva/Dimona: produce a budget, or play in Liga Leumit",
+      "statusBefore": "published",
+      "words": 421,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-11-hapoel-beer-sheva-bucharest-stadium",
+      "slug": "hapoel-beer-sheva-new-european-home-bucharest",
+      "title": "Hapoel Be'er Sheva find a new European home in Bucharest",
+      "statusBefore": "published",
+      "words": 415,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-11-william-agada-hapoel-haifa-bonus-contract",
+      "slug": "william-agada-hapoel-haifa-bonus-contract",
+      "title": "William Agada returns to Hapoel Haifa on a contract loaded with goal and assist bonuses",
+      "statusBefore": "review",
+      "words": 466,
+      "paragraphs": 8,
+      "facts": 8,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260811-barcelona-goal-void-lewandowski-torres",
+      "slug": "barcelona-goal-void-lewandowski-torres-departure",
+      "title": "Barcelona face a 103-goal void as Lewandowski departs and Torres edges toward PSG",
+      "statusBefore": "published",
+      "words": 494,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-11-man-city-bouaddi-rodri-replacement",
+      "slug": "manchester-city-target-ayyoub-bouaddi-rodri-replacement",
+      "title": "Manchester City chase Morocco's World Cup revelation as Rodri's Barcelona replacement",
+      "statusBefore": "published",
+      "words": 370,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
     {
       "id": "live-2026-08-11-roony-bardghji-acl-tear-barcelona",
       "slug": "roony-bardghji-acl-tear-barcelona-six-months",
@@ -12204,6 +12276,75 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-11-hapoel-beer-sheva-dimona-budget-ultimatum",
+      "slug": "hapoel-beer-sheva-dimona-budget-ultimatum-liga-leumit",
+      "title": "League management to Hapoel Be'er Sheva/Dimona: produce a budget, or play in Liga Leumit",
+      "statusBefore": "published",
+      "words": 421,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-11-hapoel-beer-sheva-bucharest-stadium",
+      "slug": "hapoel-beer-sheva-new-european-home-bucharest",
+      "title": "Hapoel Be'er Sheva find a new European home in Bucharest",
+      "statusBefore": "published",
+      "words": 415,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-11-van-dijk-needed-break-mentality",
+      "slug": "van-dijk-needed-break-not-just-physically-but-mentally",
+      "title": "Van Dijk says he needed a break \"not just physically, but mentally\" after gruelling World Cup year",
+      "statusBefore": "published",
+      "words": 323,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260811-barcelona-goal-void-lewandowski-torres",
+      "slug": "barcelona-goal-void-lewandowski-torres-departure",
+      "title": "Barcelona face a 103-goal void as Lewandowski departs and Torres edges toward PSG",
+      "statusBefore": "published",
+      "words": 494,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-11-man-city-bouaddi-rodri-replacement",
+      "slug": "manchester-city-target-ayyoub-bouaddi-rodri-replacement",
+      "title": "Manchester City chase Morocco's World Cup revelation as Rodri's Barcelona replacement",
+      "statusBefore": "published",
+      "words": 370,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
     {
       "id": "live-2026-08-11-roony-bardghji-acl-tear-barcelona",
       "slug": "roony-bardghji-acl-tear-barcelona-six-months",

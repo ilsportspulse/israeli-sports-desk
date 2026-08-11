@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-11T03:09:19Z",
-    "validUntil": "2026-08-11T15:09:19Z",
+    "checkedAt": "2026-08-11T04:18:29Z",
+    "validUntil": "2026-08-11T16:18:29Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 534,
+        "maxAgeHours": 535,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-11-roony-bardghji-acl-tear-barcelona",
+        "articleId": "live-2026-08-11-hapoel-beer-sheva-dimona-budget-ultimatum",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 542,
+        "maxAgeHours": 543,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-11-bezos-liverpool-consortium-stake",
+        "articleId": "live-2026-08-11-hapoel-beer-sheva-bucharest-stadium",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 552,
+        "maxAgeHours": 553,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-11-mbappe-yamal-fantasy-la-liga-king",
+        "articleId": "live-20260811-barcelona-goal-void-lewandowski-torres",
         "maxAgeHours": 24,
         "requires": []
       }

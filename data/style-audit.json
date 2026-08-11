@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T03:09:20.209Z",
+  "generatedAt": "2026-08-11T04:18:30.416Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 912,
+    "publishedArticles": 917,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 421,
-      "average": 425.1
+      "average": 425
     },
     "paragraphDistribution": {
       "3": 34,
@@ -24,8 +24,8 @@
       "5": 10,
       "6": 42,
       "7": 132,
-      "8": 258,
-      "9": 212,
+      "8": 261,
+      "9": 214,
       "10": 155,
       "11": 40,
       "12": 13,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.283,
+    "dominantParagraphShare": 0.285,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 42,
     "analysisBelowTarget": 9,
@@ -3644,6 +3644,111 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-11-hapoel-beer-sheva-dimona-budget-ultimatum",
+      "slug": "hapoel-beer-sheva-dimona-budget-ultimatum-liga-leumit",
+      "title": "League management to Hapoel Be'er Sheva/Dimona: produce a budget, or play in Liga Leumit",
+      "kind": "news",
+      "words": 421,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 60,
+        "average": 46.8
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 47,
+        "average": 28.1
+      },
+      "lexicalDiversity": 0.553,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-11-hapoel-beer-sheva-bucharest-stadium",
+      "slug": "hapoel-beer-sheva-new-european-home-bucharest",
+      "title": "Hapoel Be'er Sheva find a new European home in Bucharest",
+      "kind": "news",
+      "words": 415,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 65,
+        "average": 51.9
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 61,
+        "average": 37.7
+      },
+      "lexicalDiversity": 0.52,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-11-van-dijk-needed-break-mentality",
+      "slug": "van-dijk-needed-break-not-just-physically-but-mentally",
+      "title": "Van Dijk says he needed a break \"not just physically, but mentally\" after gruelling World Cup year",
+      "kind": "article",
+      "words": 323,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 26,
+        "longest": 53,
+        "average": 40.4
+      },
+      "sentenceWords": {
+        "shortest": 18,
+        "longest": 96,
+        "average": 46.1
+      },
+      "lexicalDiversity": 0.598,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260811-barcelona-goal-void-lewandowski-torres",
+      "slug": "barcelona-goal-void-lewandowski-torres-departure",
+      "title": "Barcelona face a 103-goal void as Lewandowski departs and Torres edges toward PSG",
+      "kind": "news",
+      "words": 488,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 38,
+        "longest": 87,
+        "average": 54.2
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 45,
+        "average": 27.1
+      },
+      "lexicalDiversity": 0.623,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-11-man-city-bouaddi-rodri-replacement",
+      "slug": "manchester-city-target-ayyoub-bouaddi-rodri-replacement",
+      "title": "Manchester City chase Morocco's World Cup revelation as Rodri's Barcelona replacement",
+      "kind": "news",
+      "words": 368,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 29,
+        "longest": 66,
+        "average": 46
+      },
+      "sentenceWords": {
+        "shortest": 23,
+        "longest": 48,
+        "average": 33.5
+      },
+      "lexicalDiversity": 0.62,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-08-11-roony-bardghji-acl-tear-barcelona",
       "slug": "roony-bardghji-acl-tear-barcelona-six-months",
