@@ -818,6 +818,16 @@ async function main() {
     console.warn(`Dedup step failed (non-fatal): ${error.message}`);
   }
 
+  // FINAL heal — the very last write to articles.json, after EVERY other step, so the
+  // feed handed to the quality gate always satisfies the content-integrity uniqueness
+  // rules (any dupe an earlier guard missed can never crash the gate → no fail-mails).
+  try {
+    const { healFeed } = await import("./heal-feed.mjs");
+    await healFeed();
+  } catch (error) {
+    console.warn(`Feed-heal step failed (non-fatal): ${error.message}`);
+  }
+
   console.log(`Cycle done — ${published} published, ${review} held for review, ${skipped} skipped.`);
 }
 

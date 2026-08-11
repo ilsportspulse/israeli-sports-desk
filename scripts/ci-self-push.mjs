@@ -34,6 +34,17 @@ const unionResolve = (file) => {
     const byId = new Map(theirs.map((x) => [x.id ?? JSON.stringify(x), x]));
     for (const x of ours) byId.set(x.id ?? JSON.stringify(x), x);
     merged = [...byId.values()];
+    // The content gate requires a UNIQUE dedupeKey among PUBLISHED stories. The id-union
+    // above keeps two different-id angles of the SAME event (identical dedupeKey), which
+    // then hard-fails the next run's gate ("duplicate canonical event key") — a recurring
+    // "Run failed" email source. Demote the later duplicate so every pushed feed is
+    // gate-clean. (theirs/origin comes first, so the already-live story is kept.)
+    const seenKey = new Set();
+    for (const a of merged) {
+      if (!a || typeof a !== "object" || (a.status ?? "published") === "review" || !a.dedupeKey) continue;
+      if (seenKey.has(a.dedupeKey)) { a.status = "review"; a.reviewReasons = ["duplicate canonical event key (self-push merge)"]; }
+      else seenKey.add(a.dedupeKey);
+    }
   } else if (ours && theirs && typeof ours === "object" && !Array.isArray(ours)) {
     merged = { ...theirs, ...ours };
   }
