@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T20:03:27.635Z",
+  "generatedAt": "2026-08-11T20:09:50.496Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1272,
-    "publishedBefore": 920,
-    "cleanPublished": 912,
+    "totalArticles": 1275,
+    "publishedBefore": 922,
+    "cleanPublished": 914,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 920,
-    "reviewAfter": 352
+    "publishedAfter": 922,
+    "reviewAfter": 353
   },
   "blockedPublished": [
     {
@@ -157,12 +157,12 @@
   ],
   "warnings": [
     {
-      "id": "live-2026-08-11-hapoel-tel-aviv-katowice-preview",
-      "slug": "hapoel-tel-aviv-katowice-conference-league-return-leg-preview",
-      "title": "Barda warns Hapoel Tel Aviv's 2-0 lead over Katowice guarantees nothing",
-      "statusBefore": "published",
-      "words": 322,
-      "paragraphs": 7,
+      "id": "live-2026-08-11-red-star-belgrade-hapoel-beer-sheva-second-leg",
+      "slug": "red-star-belgrade-hapoel-beer-sheva-champions-league-qualifier-second-leg",
+      "title": "Hapoel Beer Sheva chase Champions League playoff spot in Belgrade return leg",
+      "statusBefore": "review",
+      "words": 224,
+      "paragraphs": 5,
       "facts": 6,
       "verificationSources": 3,
       "blockers": [],
@@ -171,32 +171,17 @@
       ]
     },
     {
-      "id": "live-2026-08-11-akko-herzliya-toto-cup-final",
-      "slug": "hapoel-akko-toto-cup-leumit-final-maccabi-herzliya",
-      "title": "Hapoel Akko beat Maccabi Herzliya 2-0 to reach Toto Cup Leumit final",
+      "id": "live-20260811-hapoel-tel-aviv-katowice-preview",
+      "slug": "hapoel-tel-aviv-katowice-conference-league-second-leg-preview",
+      "title": "Barda downplays Hapoel Tel Aviv's 2-0 cushion ahead of Katowice return leg",
       "statusBefore": "published",
-      "words": 336,
+      "words": 419,
       "paragraphs": 8,
-      "facts": 7,
-      "verificationSources": 3,
+      "facts": 6,
+      "verificationSources": 4,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-20260811-elche-maccabi-revivo-talks-cool",
-      "slug": "elche-maccabi-tel-aviv-revivo-talks-cool",
-      "title": "Elche's pursuit of Maccabi Tel Aviv's Roy Revivo cools as fee gap persists",
-      "statusBefore": "published",
-      "words": 369,
-      "paragraphs": 7,
-      "facts": 7,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline",
-        "voice:publisher-attribution-heavy:3"
       ]
     },
     {
@@ -12301,9 +12286,7 @@
         "presentation:outlet-name-in-headline",
         "media:no-action-or-competition-context-detected"
       ]
-    }
-  ],
-  "cleanPublished": [
+    },
     {
       "id": "live-2026-08-11-hapoel-tel-aviv-katowice-preview",
       "slug": "hapoel-tel-aviv-katowice-conference-league-return-leg-preview",
@@ -12346,6 +12329,34 @@
         "presentation:outlet-name-in-headline",
         "voice:publisher-attribution-heavy:3"
       ]
+    }
+  ],
+  "cleanPublished": [
+    {
+      "id": "live-20260811-hapoel-tel-aviv-katowice-preview",
+      "slug": "hapoel-tel-aviv-katowice-conference-league-second-leg-preview",
+      "title": "Barda downplays Hapoel Tel Aviv's 2-0 cushion ahead of Katowice return leg",
+      "statusBefore": "published",
+      "words": 419,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "archive-20260811-dresden-25-november-2008-the-silver-that",
+      "slug": "dresden-25-november-2008-the-silver-that-finally-reached-israel-s-ches",
+      "title": "Dresden, 25 November 2008: The Silver That Finally Reached Israel's Chess Team",
+      "statusBefore": "published",
+      "words": 641,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": []
     },
     {
       "id": "live-20260811-anan-khalaili-crystal-palace-natural-fit",
@@ -24637,6 +24648,49 @@
       "verificationSources": 3,
       "blockers": [],
       "warnings": []
+    },
+    {
+      "id": "live-2026-08-11-hapoel-tel-aviv-katowice-preview",
+      "slug": "hapoel-tel-aviv-katowice-conference-league-return-leg-preview",
+      "title": "Barda warns Hapoel Tel Aviv's 2-0 lead over Katowice guarantees nothing",
+      "statusBefore": "published",
+      "words": 322,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-11-akko-herzliya-toto-cup-final",
+      "slug": "hapoel-akko-toto-cup-leumit-final-maccabi-herzliya",
+      "title": "Hapoel Akko beat Maccabi Herzliya 2-0 to reach Toto Cup Leumit final",
+      "statusBefore": "published",
+      "words": 336,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260811-elche-maccabi-revivo-talks-cool",
+      "slug": "elche-maccabi-tel-aviv-revivo-talks-cool",
+      "title": "Elche's pursuit of Maccabi Tel Aviv's Roy Revivo cools as fee gap persists",
+      "statusBefore": "published",
+      "words": 369,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:3"
+      ]
     }
   ]
 }
