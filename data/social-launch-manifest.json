@@ -146,8 +146,8 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-11T19:35:31Z",
-    "validUntil": "2026-08-12T07:35:31Z",
+    "checkedAt": "2026-08-11T20:03:27Z",
+    "validUntil": "2026-08-12T08:03:27Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
@@ -160,21 +160,21 @@
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260811-hapoel-tel-aviv-katowice-preview",
+        "articleId": "live-2026-08-11-hapoel-tel-aviv-katowice-preview",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 558,
+        "maxAgeHours": 559,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "archive-20260811-dresden-25-november-2008-the-silver-that",
+        "articleId": "live-2026-08-11-akko-herzliya-toto-cup-final",
         "maxAgeHours": 24,
         "requires": []
       },
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-11-messi-return-inter-miami-uncertain-after-father-death",
+        "articleId": "live-20260811-elche-maccabi-revivo-talks-cool",
         "maxAgeHours": 24,
         "requires": []
       }

@@ -1,22 +1,16 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-08-11-red-star-belgrade-hapoel-beer-sheva-second-leg",
-      "article": "Hapoel Beer Sheva chase Champions League playoff spot in Belgrade return leg",
-      "file": "File:Hadassah Park in Beer Sheva 058.jpg",
-      "license": "CC BY-SA 4.0"
-    },
-    {
-      "articleId": "live-20260811-hapoel-tel-aviv-katowice-preview",
-      "article": "Barda downplays Hapoel Tel Aviv's 2-0 cushion ahead of Katowice return leg",
-      "file": "File:GiuseppeMeazzaNeazzurro.jpg",
-      "license": "CC BY 2.0"
-    },
-    {
-      "articleId": "archive-20260811-dresden-25-november-2008-the-silver-that",
-      "article": "Dresden, 25 November 2008: The Silver That Finally Reached Israel's Chess Team",
-      "file": "File:Boris Gelfand.jpg",
+      "articleId": "live-2026-08-11-hapoel-tel-aviv-katowice-preview",
+      "article": "Barda warns Hapoel Tel Aviv's 2-0 lead over Katowice guarantees nothing",
+      "file": "File:SM Caen Tifo 15 ans du MNK.jpg",
       "license": "CC BY-SA 3.0"
+    },
+    {
+      "articleId": "live-2026-08-11-akko-herzliya-toto-cup-final",
+      "article": "Hapoel Akko beat Maccabi Herzliya 2-0 to reach Toto Cup Leumit final",
+      "file": "File:אצטדיון עכו מבט מלמעלה.jpg",
+      "license": "CC BY-SA 4.0"
     },
     {
       "articleId": "live-2026-08-11-fantasy-laliga-star-value",
@@ -33,6 +27,16 @@
     }
   ],
   "failures": [
+    {
+      "id": "live-20260811-red-star-beer-sheva-hold",
+      "title": "Hapoel Beer Sheva's Champions League bid hangs in the balance in Belgrade return leg",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-20260811-elche-maccabi-revivo-talks-cool",
+      "title": "Elche's pursuit of Maccabi Tel Aviv's Roy Revivo cools as fee gap persists",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
     {
       "id": "live-20260811-anan-khalaili-crystal-palace-natural-fit",
       "title": "'Natural fit': the thinking behind Crystal Palace's move for Anan Khalaili",

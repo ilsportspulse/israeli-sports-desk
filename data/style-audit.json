@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T19:35:31.869Z",
+  "generatedAt": "2026-08-11T20:03:28.172Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,22 +11,22 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 919,
+    "publishedArticles": 920,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 419,
-      "average": 424.5
+      "average": 424
     },
     "paragraphDistribution": {
       "3": 34,
       "4": 6,
       "5": 10,
       "6": 43,
-      "7": 131,
+      "7": 133,
       "8": 263,
       "9": 213,
-      "10": 156,
+      "10": 155,
       "11": 40,
       "12": 13,
       "13": 4,
@@ -39,7 +39,7 @@
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 43,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 158
+    "articlesWithStyleFlags": 159
   },
   "flagged": [
     {
@@ -327,6 +327,29 @@
       "publisherAttributions": 2,
       "flags": [
         "below-editorial-target:227/280",
+        "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260811-elche-maccabi-revivo-talks-cool",
+      "slug": "elche-maccabi-tel-aviv-revivo-talks-cool",
+      "title": "Elche's pursuit of Maccabi Tel Aviv's Roy Revivo cools as fee gap persists",
+      "kind": "article",
+      "words": 374,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 38,
+        "longest": 72,
+        "average": 53.4
+      },
+      "sentenceWords": {
+        "shortest": 14,
+        "longest": 51,
+        "average": 34
+      },
+      "lexicalDiversity": 0.626,
+      "publisherAttributions": 2,
+      "flags": [
         "publisher-attribution-heavy:2"
       ]
     },
@@ -3691,44 +3714,44 @@
   ],
   "clean": [
     {
-      "id": "live-20260811-hapoel-tel-aviv-katowice-preview",
-      "slug": "hapoel-tel-aviv-katowice-conference-league-second-leg-preview",
-      "title": "Barda downplays Hapoel Tel Aviv's 2-0 cushion ahead of Katowice return leg",
-      "kind": "article",
-      "words": 418,
-      "paragraphs": 8,
+      "id": "live-2026-08-11-hapoel-tel-aviv-katowice-preview",
+      "slug": "hapoel-tel-aviv-katowice-conference-league-return-leg-preview",
+      "title": "Barda warns Hapoel Tel Aviv's 2-0 lead over Katowice guarantees nothing",
+      "kind": "news",
+      "words": 322,
+      "paragraphs": 7,
       "paragraphWords": {
-        "shortest": 42,
-        "longest": 64,
-        "average": 52.3
+        "shortest": 31,
+        "longest": 59,
+        "average": 46
       },
       "sentenceWords": {
-        "shortest": 13,
-        "longest": 113,
-        "average": 41.8
+        "shortest": 20,
+        "longest": 76,
+        "average": 40.3
       },
-      "lexicalDiversity": 0.569,
-      "publisherAttributions": 0,
+      "lexicalDiversity": 0.587,
+      "publisherAttributions": 1,
       "flags": []
     },
     {
-      "id": "archive-20260811-dresden-25-november-2008-the-silver-that",
-      "slug": "dresden-25-november-2008-the-silver-that-finally-reached-israel-s-ches",
-      "title": "Dresden, 25 November 2008: The Silver That Finally Reached Israel's Chess Team",
-      "kind": "explainer",
-      "words": 633,
-      "paragraphs": 10,
+      "id": "live-2026-08-11-akko-herzliya-toto-cup-final",
+      "slug": "hapoel-akko-toto-cup-leumit-final-maccabi-herzliya",
+      "title": "Hapoel Akko beat Maccabi Herzliya 2-0 to reach Toto Cup Leumit final",
+      "kind": "article",
+      "words": 337,
+      "paragraphs": 8,
       "paragraphWords": {
-        "shortest": 53,
-        "longest": 75,
-        "average": 63.3
+        "shortest": 30,
+        "longest": 52,
+        "average": 42.1
       },
       "sentenceWords": {
-        "shortest": 5,
-        "longest": 82,
-        "average": 25.3
+        "shortest": 6,
+        "longest": 52,
+        "average": 30.6
       },
-      "lexicalDiversity": 0.526,
+      "lexicalDiversity": 0.617,
       "publisherAttributions": 0,
       "flags": []
     },
