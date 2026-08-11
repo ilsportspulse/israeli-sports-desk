@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-11T18:09:41Z",
-    "validUntil": "2026-08-12T06:09:41Z",
+    "checkedAt": "2026-08-11T19:35:31Z",
+    "validUntil": "2026-08-12T07:35:31Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 549,
+        "maxAgeHours": 551,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-11-messi-return-inter-miami-uncertain-after-father-death",
+        "articleId": "live-20260811-hapoel-tel-aviv-katowice-preview",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 557,
+        "maxAgeHours": 558,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-11-scholes-urges-united-romero",
+        "articleId": "archive-20260811-dresden-25-november-2008-the-silver-that",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 567,
+        "maxAgeHours": 569,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-11-jokic-record-supermax-nuggets",
+        "articleId": "live-2026-08-11-messi-return-inter-miami-uncertain-after-father-death",
         "maxAgeHours": 24,
         "requires": []
       }

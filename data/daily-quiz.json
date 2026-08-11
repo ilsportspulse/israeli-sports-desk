@@ -1,67 +1,67 @@
 {
-  "date": "2026-08-10",
+  "date": "2026-08-11",
   "title": "The Daily Five",
-  "dek": "Five questions built from this week's verified Israel Sports Pulse stories — hoops history, Champions League drama, and Israelis abroad.",
+  "dek": "Five questions on today's biggest Israeli sports stories, from a chess board in Dresden to a high jump pit in Birmingham.",
   "questions": [
     {
-      "question": "At the 2001 FIBA SuproLeague Final in Paris, who was named Final Four MVP after Maccabi Tel Aviv's 81-67 win over Panathinaikos?",
+      "question": "In which city did Israel's senior open team win its first-ever team medal at a Chess Olympiad?",
       "answers": [
-        "Ariel McDonald",
-        "Nate Huffman",
-        "Oded Kattash",
-        "Nadav Henefeld"
+        "Dresden",
+        "Munich",
+        "Tromsø",
+        "Batumi"
       ],
       "correctIndex": 0,
-      "explanation": "Ariel McDonald scored 21 points with 9 assists in the final and was named Final Four MVP as Maccabi won its first European title in 20 years.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/2001_FIBA_SuproLeague_Final_Four"
+      "explanation": "Israel took silver at the 38th Chess Olympiad, held in Dresden, Germany from 12–25 November 2008.",
+      "sourceUrl": "https://www.jpost.com/israel/israel-wins-silver-at-chess-olympiad"
     },
     {
-      "question": "Who scored Hapoel Be'er Sheva's goal in their 1-0 first-leg win over Red Star Belgrade in Champions League qualifying?",
+      "question": "Which Premier League club has reportedly agreed a fee of roughly £21m for Israel international Anan Khalaili?",
+      "answers": [
+        "Crystal Palace",
+        "Everton",
+        "Aston Villa",
+        "Newcastle United"
+      ],
+      "correctIndex": 0,
+      "explanation": "Crystal Palace beat out Everton, Aston Villa and Newcastle to sign Khalaili from Union Saint-Gilloise, making him the most expensive Israeli player in history.",
+      "sourceUrl": "https://www.one.co.il/Article/530334.html"
+    },
+    {
+      "question": "Ariel Berkovich, just promoted to Maccabi Ironi Ramat Gan's senior squad, is the grandson of which Israeli basketball legend?",
+      "answers": [
+        "Miki Berkovich",
+        "Papi Turgeman",
+        "Tal Brody",
+        "Motti Aroesti"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ariel Berkovich is the grandson of Miki Berkovich, the Maccabi Tel Aviv and Israel great who won 16 Israeli titles and two European Champions Cups.",
+      "sourceUrl": "https://www.one.co.il/Article/530359.html"
+    },
+    {
+      "question": "What is Yonathan Kapitolnik's personal best in the high jump, set indoors in 2025?",
+      "answers": [
+        "2.31m",
+        "2.30m",
+        "2.23m",
+        "2.25m"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kapitolnik, who qualified for the high jump final at the 2026 European Championships in Birmingham, holds an indoor personal best of 2.31m from 2025.",
+      "sourceUrl": "https://www.one.co.il/Article/530352.html"
+    },
+    {
+      "question": "Who scored the only goal as Hapoel Beer Sheva beat Crvena Zvezda 1-0 in the first leg of their European tie?",
       "answers": [
         "Zahi Ahmed",
         "Matan Baltaksa",
-        "Omri Glazer",
-        "Lior Refaelov"
+        "Eliel Peretz",
+        "Derrick Luckassen"
       ],
       "correctIndex": 0,
-      "explanation": "Zahi Ahmed scored the only goal, in the 38th minute, in a first leg played at a neutral venue in Szombathely, Hungary, despite Hapoel finishing with ten men.",
-      "sourceUrl": "https://www.one.co.il/Article/530298.html"
-    },
-    {
-      "question": "What is Adva Cohen's personal best and Israeli national record in the women's 3,000m steeplechase, set at the 2025 World Championships in Tokyo?",
-      "answers": [
-        "9:19.90",
-        "9:37.15",
-        "9:07.55",
-        "2:09.63"
-      ],
-      "correctIndex": 0,
-      "explanation": "Cohen's 9:19.90 from Tokyo 2025 remains her PB and the Israeli record, and she carried that form into an eighth-place heat finish (9:37.15) at the 2026 Europeans in Birmingham.",
-      "sourceUrl": "https://www.one.co.il/Article/530306.html"
-    },
-    {
-      "question": "At the 2026 European Aquatics Championships, which Israeli swimmer broke his own national record with a 1:45.59 opening leg in the men's 4x200m freestyle relay?",
-      "answers": [
-        "Denis Loktev",
-        "Tom Minis",
-        "Aviv Barzelay",
-        "Adva Cohen"
-      ],
-      "correctIndex": 0,
-      "explanation": "Loktev's 1:45.59 leg broke his own Israeli record of 1:46.17 and stood as the meet's first Israeli national record, as the relay finished 7th overall in 7:07.55.",
-      "sourceUrl": "https://www.one.co.il/Article/530291.html"
-    },
-    {
-      "question": "Which English second-tier club did winger Manor Solomon join this summer, setting up an all-Israeli Carabao Cup derby against Daniel Peretz's Southampton?",
-      "answers": [
-        "West Ham United",
-        "Bristol City",
-        "Aston Villa",
-        "Roma"
-      ],
-      "correctIndex": 0,
-      "explanation": "West Ham signed Solomon from Tottenham for a reported £7m, and the newly relegated Championship club was then drawn against Southampton, who had signed goalkeeper Daniel Peretz from Bayern Munich.",
-      "sourceUrl": "https://www.one.co.il/Article/530303.html"
+      "explanation": "Zahi Ahmed scored in the 38th minute in Szombathely, Hungary, giving Beer Sheva a slim lead ahead of the second leg in Belgrade.",
+      "sourceUrl": "https://www.one.co.il/Article/530338.html"
     }
   ]
 }

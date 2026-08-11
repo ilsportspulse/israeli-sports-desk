@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T18:09:42.729Z",
+  "generatedAt": "2026-08-11T19:35:31.869Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 917,
+    "publishedArticles": 919,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 419,
-      "average": 424.3
+      "average": 424.5
     },
     "paragraphDistribution": {
       "3": 34,
@@ -24,9 +24,9 @@
       "5": 10,
       "6": 43,
       "7": 131,
-      "8": 262,
+      "8": 263,
       "9": 213,
-      "10": 155,
+      "10": 156,
       "11": 40,
       "12": 13,
       "13": 4,
@@ -3690,6 +3690,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260811-hapoel-tel-aviv-katowice-preview",
+      "slug": "hapoel-tel-aviv-katowice-conference-league-second-leg-preview",
+      "title": "Barda downplays Hapoel Tel Aviv's 2-0 cushion ahead of Katowice return leg",
+      "kind": "article",
+      "words": 418,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 42,
+        "longest": 64,
+        "average": 52.3
+      },
+      "sentenceWords": {
+        "shortest": 13,
+        "longest": 113,
+        "average": 41.8
+      },
+      "lexicalDiversity": 0.569,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "archive-20260811-dresden-25-november-2008-the-silver-that",
+      "slug": "dresden-25-november-2008-the-silver-that-finally-reached-israel-s-ches",
+      "title": "Dresden, 25 November 2008: The Silver That Finally Reached Israel's Chess Team",
+      "kind": "explainer",
+      "words": 633,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 53,
+        "longest": 75,
+        "average": 63.3
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 82,
+        "average": 25.3
+      },
+      "lexicalDiversity": 0.526,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260811-anan-khalaili-crystal-palace-natural-fit",
       "slug": "anan-khalaili-crystal-palace-natural-fit-wing-back",
