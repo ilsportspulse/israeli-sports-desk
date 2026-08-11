@@ -146,49 +146,49 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-11T00:09:11Z",
-    "validUntil": "2026-08-11T12:09:11Z",
+    "checkedAt": "2026-08-11T01:24:32Z",
+    "validUntil": "2026-08-11T13:24:32Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 531,
+        "maxAgeHours": 532,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-10-maccabi-haifa-summer-review",
+        "articleId": "live-2026-08-11-roony-bardghji-acl-tear-barcelona",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 539,
+        "maxAgeHours": 540,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-10-barcelona-lautaro-martinez-alvarez-backup",
+        "articleId": "live-2026-08-11-bezos-liverpool-consortium-stake",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 549,
+        "maxAgeHours": 550,
         "requires": [
           "column"
         ]
       },
       {
         "role": "archive",
-        "articleId": "archive-20260810-moscow-8-may-2005-the-7-0-run-that-made-",
+        "articleId": "archive-20260811-paris-13-may-2001-the-night-maccabi-turn",
         "maxAgeHours": 156,
         "requires": [
           "historical-feature"
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-10-patty-mills-asvel-villeurbanne-signing",
+        "articleId": "live-2026-08-11-mbappe-yamal-fantasy-la-liga-king",
         "maxAgeHours": 24,
         "requires": []
       }

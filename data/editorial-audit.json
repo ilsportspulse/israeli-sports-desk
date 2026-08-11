@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T00:09:11.675Z",
+  "generatedAt": "2026-08-11T01:24:32.413Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,12 +17,12 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1257,
-    "publishedBefore": 908,
-    "cleanPublished": 900,
+    "totalArticles": 1261,
+    "publishedBefore": 912,
+    "cleanPublished": 904,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 908,
+    "publishedAfter": 912,
     "reviewAfter": 349
   },
   "blockedPublished": [
@@ -156,6 +156,49 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-2026-08-11-roony-bardghji-acl-tear-barcelona",
+      "slug": "roony-bardghji-acl-tear-barcelona-six-months",
+      "title": "Barcelona winger Roony Bardghji ruptures ACL again, faces up to seven months out",
+      "statusBefore": "published",
+      "words": 485,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-11-bezos-liverpool-consortium-stake",
+      "slug": "bezos-consortium-nears-deal-for-liverpool-stake",
+      "title": "Jeff Bezos consortium closes in on huge Liverpool stake, reports say",
+      "statusBefore": "published",
+      "words": 378,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-11-mbappe-yamal-fantasy-la-liga-king",
+      "slug": "mbappe-yamal-fantasy-la-liga-king",
+      "title": "Mbappé or Lamine Yamal: who reigns as fantasy king in Spain this season?",
+      "statusBefore": "published",
+      "words": 504,
+      "paragraphs": 10,
+      "facts": 5,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
     {
       "id": "live-2026-08-10-hapoel-petah-tikva-youth-signings-namani-kleinman",
       "slug": "hapoel-petah-tikva-sign-youth-winger-namani-goalkeeper-kleinman",
@@ -12161,6 +12204,61 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-11-roony-bardghji-acl-tear-barcelona",
+      "slug": "roony-bardghji-acl-tear-barcelona-six-months",
+      "title": "Barcelona winger Roony Bardghji ruptures ACL again, faces up to seven months out",
+      "statusBefore": "published",
+      "words": 485,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-11-bezos-liverpool-consortium-stake",
+      "slug": "bezos-consortium-nears-deal-for-liverpool-stake",
+      "title": "Jeff Bezos consortium closes in on huge Liverpool stake, reports say",
+      "statusBefore": "published",
+      "words": 378,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-11-mbappe-yamal-fantasy-la-liga-king",
+      "slug": "mbappe-yamal-fantasy-la-liga-king",
+      "title": "Mbappé or Lamine Yamal: who reigns as fantasy king in Spain this season?",
+      "statusBefore": "published",
+      "words": 504,
+      "paragraphs": 10,
+      "facts": 5,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "archive-20260811-paris-13-may-2001-the-night-maccabi-turn",
+      "slug": "paris-13-may-2001-the-night-maccabi-turned-bercy-into-redemption",
+      "title": "Paris, 13 May 2001: The Night Maccabi Turned Bercy Into Redemption",
+      "statusBefore": "published",
+      "words": 545,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 7,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-2026-08-10-maccabi-haifa-summer-review",
       "slug": "maccabi-haifa-summer-changes-question-marks",

@@ -1,5 +1,50 @@
 [
   {
+    "ts": "2026-08-11T01:14:45.910Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 4,
+    "published": 3,
+    "review": 0,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "manor-solomon-completes-west-ham-move-from-tottenham",
+        "title": "Manor Solomon completes West Ham move, vows to be \"more consistent\"",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "mbappe-yamal-fantasy-la-liga-king",
+        "title": "Mbappé or Lamine Yamal: who reigns as fantasy king in Spain this season?",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "bezos-consortium-nears-deal-for-liverpool-stake",
+        "title": "Jeff Bezos consortium closes in on huge Liverpool stake, reports say",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "roony-bardghji-acl-tear-barcelona-six-months",
+        "title": "Barcelona winger Roony Bardghji ruptures ACL again, faces up to seven months out",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-08-10T22:46:03.111Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -3547,76 +3592,6 @@
         "slug": "psg-tell-ferran-torres-will-beat-any-barcelona-offer",
         "title": "PSG tell Ferran Torres they will beat any offer Barcelona put on the table",
         "decision": "duplicate"
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-02T02:55:02.554Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 8,
-    "published": 4,
-    "review": 0,
-    "skipped": 4,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "bruno-guimaraes-arsenal-medical-monday",
-        "title": "Bruno Guimarães set for Arsenal medical on Monday in £80m Newcastle deal",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "diomande-real-madrid-leipzig-transfer-stuck",
-        "title": "Stuck in Germany: Leipzig freeze out Real Madrid over Diomande",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "psg-warns-barcelona-improve-any-offer-ferran-torres",
-        "title": "PSG tell Ferran Torres they will beat any Barcelona contract offer",
-        "decision": "duplicate",
-        "reason": "same event as ferran-torres-barcelona-contract-fears-psg-interest"
-      },
-      {
-        "slug": "maccabi-haifa-toto-cup-hopes-fade-hapoel-haifa-top-group",
-        "title": "Maccabi Haifa's Toto Cup hopes fade as Hapoel Haifa pull clear at the top of Group A",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "eugene-german-signs-hapoel-tel-aviv-guard",
-        "title": "Hapoel Tel Aviv confirm signing of guard Eugene German from China",
-        "decision": "duplicate",
-        "reason": "same event as eugene-german-signs-hapoel-tel-aviv"
-      },
-      {
-        "slug": "maccabi-tel-aviv-armoni-brooks-talks",
-        "title": "Maccabi Tel Aviv in talks with Armoni Brooks after ASVEL's financial collapse",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "eugene-german-hapoel-bad-guy-analysis-held",
-        "title": "Held: duplicate coverage of Eugene German's Hapoel Tel Aviv signing",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "ufc-belgrade-medic-rodriguez-record-finishes",
-        "title": "Uroš Medić stops Daniel Rodriguez in 30 seconds as UFC's Serbian debut sets a finishes record",
-        "confidence": 0.9,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
       }
     ]
   }
