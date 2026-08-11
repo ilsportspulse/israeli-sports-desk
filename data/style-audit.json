@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T12:06:09.636Z",
+  "generatedAt": "2026-08-11T14:13:49.849Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 907,
+    "publishedArticles": 912,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 420,
-      "average": 424.7
+      "median": 420.5,
+      "average": 424.5
     },
     "paragraphDistribution": {
       "3": 34,
@@ -24,8 +24,8 @@
       "5": 10,
       "6": 43,
       "7": 131,
-      "8": 257,
-      "9": 209,
+      "8": 260,
+      "9": 211,
       "10": 154,
       "11": 40,
       "12": 13,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.283,
+    "dominantParagraphShare": 0.285,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 43,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 157
+    "articlesWithStyleFlags": 158
   },
   "flagged": [
     {
@@ -331,26 +331,26 @@
       ]
     },
     {
-      "id": "live-20260811-kapitolnik-high-jump-final-birmingham",
-      "slug": "kapitolnik-high-jump-final-european-championships-birmingham",
-      "title": "Kapitolnik through to high jump final at European Championships in Birmingham",
+      "id": "live-2026-08-11-papi-turgeman-hapoel-jerusalem-ambassador",
+      "slug": "papi-turgeman-hapoel-jerusalem-ambassador",
+      "title": "Papi Turgeman returns to Hapoel Jerusalem as club ambassador",
       "kind": "news",
-      "words": 272,
-      "paragraphs": 6,
+      "words": 261,
+      "paragraphs": 7,
       "paragraphWords": {
-        "shortest": 30,
-        "longest": 58,
-        "average": 45.3
+        "shortest": 26,
+        "longest": 51,
+        "average": 37.3
       },
       "sentenceWords": {
-        "shortest": 7,
-        "longest": 52,
-        "average": 34
+        "shortest": 5,
+        "longest": 64,
+        "average": 37.3
       },
-      "lexicalDiversity": 0.574,
-      "publisherAttributions": 0,
+      "lexicalDiversity": 0.59,
+      "publisherAttributions": 1,
       "flags": [
-        "below-editorial-target:272/280"
+        "below-editorial-target:261/280"
       ]
     },
     {
@@ -3664,49 +3664,135 @@
       "flags": [
         "publisher-attribution-heavy:2"
       ]
+    },
+    {
+      "id": "live-20260811-kapitolnik-high-jump-final-birmingham",
+      "slug": "kapitolnik-high-jump-final-european-championships-birmingham",
+      "title": "Kapitolnik through to high jump final at European Championships in Birmingham",
+      "kind": "news",
+      "words": 272,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 58,
+        "average": 45.3
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 52,
+        "average": 34
+      },
+      "lexicalDiversity": 0.574,
+      "publisherAttributions": 0,
+      "flags": [
+        "below-editorial-target:272/280"
+      ]
     }
   ],
   "clean": [
     {
-      "id": "live-2026-08-11-yeini-zahavi-maccabi-reunion",
-      "slug": "sheran-yeini-eran-zahavi-maccabi-reunion-comments",
-      "title": "Sheran Yeini says he and Eran Zahavi could team up at Maccabi one day",
+      "id": "live-2026-08-11-berkovich-grandson-ironi-ramat-gan",
+      "slug": "miki-berkovich-grandson-ariel-promoted-ironi-ramat-gan",
+      "title": "Miki Berkovich's grandson Ariel promoted to Ironi Ramat Gan's senior squad",
       "kind": "news",
-      "words": 396,
-      "paragraphs": 7,
+      "words": 378,
+      "paragraphs": 8,
       "paragraphWords": {
-        "shortest": 45,
+        "shortest": 31,
         "longest": 67,
-        "average": 56.6
+        "average": 47.3
       },
       "sentenceWords": {
-        "shortest": 7,
-        "longest": 45,
-        "average": 26.4
+        "shortest": 10,
+        "longest": 138,
+        "average": 47.3
       },
-      "lexicalDiversity": 0.662,
+      "lexicalDiversity": 0.577,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-11-beitar-yavne-liga-alef-withdrawal",
+      "slug": "beitar-yavne-withdraws-liga-alef-registration",
+      "title": "Beitar Yavne pulls out of Liga Alef, opening the door for Ironi Beit Shemesh",
+      "kind": "news",
+      "words": 309,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 50,
+        "average": 38.6
+      },
+      "sentenceWords": {
+        "shortest": 18,
+        "longest": 47,
+        "average": 34.3
+      },
+      "lexicalDiversity": 0.531,
       "publisherAttributions": 0,
       "flags": []
     },
     {
-      "id": "live-2026-08-11-hapoel-lod-chairman-threat-response",
-      "slug": "hapoel-lod-chairman-ragev-responds-lawyer-threat-claim",
-      "title": "Hapoel Lod chairman Ragev: \"I may have gotten the wording wrong, I'm sorry it happened\"",
-      "kind": "news",
-      "words": 420,
+      "id": "live-2026-08-11-beer-sheva-red-star-marakana-preview",
+      "slug": "hapoel-beer-sheva-red-star-belgrade-second-leg-preview",
+      "title": "Hapoel Beer Sheva carry a slim lead into Belgrade, where 50,000 fans could cut both ways",
+      "kind": "preview",
+      "words": 451,
       "paragraphs": 8,
       "paragraphWords": {
-        "shortest": 40,
-        "longest": 72,
-        "average": 52.5
+        "shortest": 37,
+        "longest": 84,
+        "average": 56.4
       },
       "sentenceWords": {
-        "shortest": 16,
-        "longest": 92,
-        "average": 38.2
+        "shortest": 24,
+        "longest": 60,
+        "average": 37.6
       },
-      "lexicalDiversity": 0.581,
-      "publisherAttributions": 1,
+      "lexicalDiversity": 0.59,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-11-manor-solomon-west-ham-father-interview",
+      "slug": "manor-solomon-west-ham-yossi-solomon-interview",
+      "title": "Manor Solomon's father: West Ham see him as a significant player, which is what he wanted",
+      "kind": "news",
+      "words": 493,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 70,
+        "average": 54.8
+      },
+      "sentenceWords": {
+        "shortest": 13,
+        "longest": 108,
+        "average": 41.1
+      },
+      "lexicalDiversity": 0.562,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-11-sheran-yeini-eran-zahavi-maccabi-future",
+      "slug": "sheran-yeini-eran-zahavi-maccabi-tel-aviv-future-dancing-stars",
+      "title": "Sheran Yeini: it would be fun to team up with Eran Zahavi at Maccabi one day",
+      "kind": "news",
+      "words": 429,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 69,
+        "average": 47.7
+      },
+      "sentenceWords": {
+        "shortest": 17,
+        "longest": 55,
+        "average": 35.8
+      },
+      "lexicalDiversity": 0.613,
+      "publisherAttributions": 0,
       "flags": []
     },
     {
@@ -19415,6 +19501,27 @@
       },
       "lexicalDiversity": 0.581,
       "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-11-hapoel-lod-chairman-threat-response",
+      "slug": "hapoel-lod-chairman-ragev-responds-lawyer-threat-claim",
+      "title": "Hapoel Lod chairman Ragev: \"I may have gotten the wording wrong, I'm sorry it happened\"",
+      "kind": "news",
+      "words": 420,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 40,
+        "longest": 72,
+        "average": 52.5
+      },
+      "sentenceWords": {
+        "shortest": 16,
+        "longest": 92,
+        "average": 38.2
+      },
+      "lexicalDiversity": 0.581,
+      "publisherAttributions": 1,
       "flags": []
     }
   ]

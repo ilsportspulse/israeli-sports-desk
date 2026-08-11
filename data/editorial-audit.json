@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T12:06:09.112Z",
+  "generatedAt": "2026-08-11T14:13:49.323Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1254,
-    "publishedBefore": 907,
-    "cleanPublished": 899,
+    "totalArticles": 1263,
+    "publishedBefore": 912,
+    "cleanPublished": 904,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 907,
-    "reviewAfter": 347
+    "publishedAfter": 912,
+    "reviewAfter": 351
   },
   "blockedPublished": [
     {
@@ -157,6 +157,91 @@
   ],
   "warnings": [
     {
+      "id": "live-2026-08-11-israel-handball-belgium-penalties",
+      "slug": "israel-handball-reserves-beat-belgium-penalties-european-championship",
+      "title": "Israel's reserve handball team beat Belgium 19-18 on penalties after late collapse",
+      "statusBefore": "review",
+      "words": 288,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-11-fantasy-laliga-star-value",
+      "slug": "fantasy-laliga-star-value-worth-it",
+      "title": "The temptation of fantasy: is splashing out on stars worth the return?",
+      "statusBefore": "review",
+      "words": 341,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-08-11-papi-turgeman-hapoel-jerusalem-ambassador",
+      "slug": "papi-turgeman-hapoel-jerusalem-ambassador",
+      "title": "Papi Turgeman returns to Hapoel Jerusalem as club ambassador",
+      "statusBefore": "published",
+      "words": 264,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-11-maccabi-haifa-foreign-player-logjam",
+      "slug": "maccabi-haifa-foreign-player-logjam-novakovich",
+      "title": "Maccabi Haifa's foreign-player logjam leaves new striker Novakovich unregistered",
+      "statusBefore": "review",
+      "words": 484,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-11-beer-sheva-red-star-marakana-preview",
+      "slug": "hapoel-beer-sheva-red-star-belgrade-second-leg-preview",
+      "title": "Hapoel Beer Sheva carry a slim lead into Belgrade, where 50,000 fans could cut both ways",
+      "statusBefore": "published",
+      "words": 456,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-11-manor-solomon-west-ham-father-interview",
+      "slug": "manor-solomon-west-ham-yossi-solomon-interview",
+      "title": "Manor Solomon's father: West Ham see him as a significant player, which is what he wanted",
+      "statusBefore": "published",
+      "words": 494,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
       "id": "live-2026-08-11-roy-arel-maccabi-haifa-youth",
       "slug": "roy-arel-maccabi-haifa-youth-academy-transfer",
       "title": "Son of former Hapoel Haifa coach Gal Arel joins Maccabi Haifa's youth ranks",
@@ -169,20 +254,6 @@
       "warnings": [
         "presentation:outlet-name-in-headline",
         "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-11-yeini-zahavi-maccabi-reunion",
-      "slug": "sheran-yeini-eran-zahavi-maccabi-reunion-comments",
-      "title": "Sheran Yeini says he and Eran Zahavi could team up at Maccabi one day",
-      "statusBefore": "published",
-      "words": 402,
-      "paragraphs": 7,
-      "facts": 7,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline"
       ]
     },
     {
@@ -12114,14 +12185,12 @@
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
-    }
-  ],
-  "cleanPublished": [
+    },
     {
       "id": "live-2026-08-11-yeini-zahavi-maccabi-reunion",
       "slug": "sheran-yeini-eran-zahavi-maccabi-reunion-comments",
       "title": "Sheran Yeini says he and Eran Zahavi could team up at Maccabi one day",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 402,
       "paragraphs": 7,
       "facts": 7,
@@ -12130,28 +12199,84 @@
       "warnings": [
         "presentation:outlet-name-in-headline"
       ]
-    },
+    }
+  ],
+  "cleanPublished": [
     {
-      "id": "live-2026-08-11-hapoel-lod-chairman-threat-response",
-      "slug": "hapoel-lod-chairman-ragev-responds-lawyer-threat-claim",
-      "title": "Hapoel Lod chairman Ragev: \"I may have gotten the wording wrong, I'm sorry it happened\"",
+      "id": "live-2026-08-11-berkovich-grandson-ironi-ramat-gan",
+      "slug": "miki-berkovich-grandson-ariel-promoted-ironi-ramat-gan",
+      "title": "Miki Berkovich's grandson Ariel promoted to Ironi Ramat Gan's senior squad",
       "statusBefore": "published",
-      "words": 419,
+      "words": 378,
       "paragraphs": 8,
-      "facts": 7,
+      "facts": 6,
       "verificationSources": 2,
       "blockers": [],
       "warnings": []
     },
     {
-      "id": "live-20260811-kapitolnik-high-jump-final-birmingham",
-      "slug": "kapitolnik-high-jump-final-european-championships-birmingham",
-      "title": "Kapitolnik through to high jump final at European Championships in Birmingham",
+      "id": "live-2026-08-11-papi-turgeman-hapoel-jerusalem-ambassador",
+      "slug": "papi-turgeman-hapoel-jerusalem-ambassador",
+      "title": "Papi Turgeman returns to Hapoel Jerusalem as club ambassador",
       "statusBefore": "published",
-      "words": 268,
-      "paragraphs": 6,
+      "words": 264,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-11-beitar-yavne-liga-alef-withdrawal",
+      "slug": "beitar-yavne-withdraws-liga-alef-registration",
+      "title": "Beitar Yavne pulls out of Liga Alef, opening the door for Ironi Beit Shemesh",
+      "statusBefore": "published",
+      "words": 308,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-11-beer-sheva-red-star-marakana-preview",
+      "slug": "hapoel-beer-sheva-red-star-belgrade-second-leg-preview",
+      "title": "Hapoel Beer Sheva carry a slim lead into Belgrade, where 50,000 fans could cut both ways",
+      "statusBefore": "published",
+      "words": 456,
+      "paragraphs": 8,
       "facts": 7,
       "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-11-manor-solomon-west-ham-father-interview",
+      "slug": "manor-solomon-west-ham-yossi-solomon-interview",
+      "title": "Manor Solomon's father: West Ham see him as a significant player, which is what he wanted",
+      "statusBefore": "published",
+      "words": 494,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-08-11-sheran-yeini-eran-zahavi-maccabi-future",
+      "slug": "sheran-yeini-eran-zahavi-maccabi-tel-aviv-future-dancing-stars",
+      "title": "Sheran Yeini: it would be fun to team up with Eran Zahavi at Maccabi one day",
+      "statusBefore": "published",
+      "words": 433,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
       "blockers": [],
       "warnings": []
     },
@@ -24274,6 +24399,30 @@
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
+    },
+    {
+      "id": "live-2026-08-11-hapoel-lod-chairman-threat-response",
+      "slug": "hapoel-lod-chairman-ragev-responds-lawyer-threat-claim",
+      "title": "Hapoel Lod chairman Ragev: \"I may have gotten the wording wrong, I'm sorry it happened\"",
+      "statusBefore": "published",
+      "words": 419,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260811-kapitolnik-high-jump-final-birmingham",
+      "slug": "kapitolnik-high-jump-final-european-championships-birmingham",
+      "title": "Kapitolnik through to high jump final at European Championships in Birmingham",
+      "statusBefore": "published",
+      "words": 268,
+      "paragraphs": 6,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
     }
   ]
 }
