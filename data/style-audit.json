@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T16:01:46.803Z",
+  "generatedAt": "2026-08-11T16:37:37.042Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 912,
+    "publishedArticles": 917,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 420.5,
-      "average": 424.5
+      "median": 419,
+      "average": 424.3
     },
     "paragraphDistribution": {
       "3": 34,
@@ -24,9 +24,9 @@
       "5": 10,
       "6": 43,
       "7": 131,
-      "8": 260,
-      "9": 211,
-      "10": 154,
+      "8": 262,
+      "9": 213,
+      "10": 155,
       "11": 40,
       "12": 13,
       "13": 4,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.285,
+    "dominantParagraphShare": 0.286,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 43,
     "analysisBelowTarget": 9,
@@ -3690,6 +3690,111 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260811-anan-khalaili-crystal-palace-natural-fit",
+      "slug": "anan-khalaili-crystal-palace-natural-fit-wing-back",
+      "title": "'Natural fit': the thinking behind Crystal Palace's move for Anan Khalaili",
+      "kind": "article",
+      "words": 462,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 39,
+        "longest": 77,
+        "average": 57.8
+      },
+      "sentenceWords": {
+        "shortest": 13,
+        "longest": 58,
+        "average": 35.5
+      },
+      "lexicalDiversity": 0.582,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-11-messi-return-inter-miami-uncertain-after-father-death",
+      "slug": "messi-return-inter-miami-uncertain-after-father-death",
+      "title": "Uncertainty clouds Messi's return to Inter Miami after father's death",
+      "kind": "news",
+      "words": 350,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 53,
+        "average": 38.9
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 39,
+        "average": 29.2
+      },
+      "lexicalDiversity": 0.609,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-11-scholes-urges-united-romero",
+      "slug": "paul-scholes-urges-manchester-united-to-hijack-cristian-romero-move",
+      "title": "Paul Scholes urges Manchester United to hijack Atletico Madrid's move for Cristian Romero",
+      "kind": "news",
+      "words": 330,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 54,
+        "average": 41.3
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 83,
+        "average": 41.3
+      },
+      "lexicalDiversity": 0.652,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-11-jokic-record-supermax-nuggets",
+      "slug": "nikola-jokic-record-supermax-nuggets-2027",
+      "title": "Nikola Jokić plots record $359m supermax deal with the Nuggets — but not until 2027",
+      "kind": "news",
+      "words": 392,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 50,
+        "average": 43.6
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 46,
+        "average": 28
+      },
+      "lexicalDiversity": 0.564,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-11-vinicius-real-madrid-salary-secrecy",
+      "slug": "vinicius-real-madrid-salary-secrecy-pact",
+      "title": "Real Madrid and Vinicius agree to keep new contract salary secret",
+      "kind": "news",
+      "words": 386,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 47,
+        "average": 38.6
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 38,
+        "average": 25.7
+      },
+      "lexicalDiversity": 0.624,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-08-11-berkovich-grandson-ironi-ramat-gan",
       "slug": "miki-berkovich-grandson-ariel-promoted-ironi-ramat-gan",

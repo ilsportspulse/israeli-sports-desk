@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T16:01:46.272Z",
+  "generatedAt": "2026-08-11T16:37:36.507Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,12 +17,12 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1263,
-    "publishedBefore": 912,
-    "cleanPublished": 904,
+    "totalArticles": 1268,
+    "publishedBefore": 917,
+    "cleanPublished": 909,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 912,
+    "publishedAfter": 917,
     "reviewAfter": 351
   },
   "blockedPublished": [
@@ -156,6 +156,63 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-2026-08-11-messi-return-inter-miami-uncertain-after-father-death",
+      "slug": "messi-return-inter-miami-uncertain-after-father-death",
+      "title": "Uncertainty clouds Messi's return to Inter Miami after father's death",
+      "statusBefore": "published",
+      "words": 350,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-11-scholes-urges-united-romero",
+      "slug": "paul-scholes-urges-manchester-united-to-hijack-cristian-romero-move",
+      "title": "Paul Scholes urges Manchester United to hijack Atletico Madrid's move for Cristian Romero",
+      "statusBefore": "published",
+      "words": 331,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-11-jokic-record-supermax-nuggets",
+      "slug": "nikola-jokic-record-supermax-nuggets-2027",
+      "title": "Nikola Jokić plots record $359m supermax deal with the Nuggets — but not until 2027",
+      "statusBefore": "published",
+      "words": 389,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-11-vinicius-real-madrid-salary-secrecy",
+      "slug": "vinicius-real-madrid-salary-secrecy-pact",
+      "title": "Real Madrid and Vinicius agree to keep new contract salary secret",
+      "statusBefore": "published",
+      "words": 387,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-08-11-israel-handball-belgium-penalties",
       "slug": "israel-handball-reserves-beat-belgium-penalties-european-championship",
@@ -12197,11 +12254,81 @@
       "verificationSources": 3,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
       ]
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-20260811-anan-khalaili-crystal-palace-natural-fit",
+      "slug": "anan-khalaili-crystal-palace-natural-fit-wing-back",
+      "title": "'Natural fit': the thinking behind Crystal Palace's move for Anan Khalaili",
+      "statusBefore": "published",
+      "words": 462,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-11-messi-return-inter-miami-uncertain-after-father-death",
+      "slug": "messi-return-inter-miami-uncertain-after-father-death",
+      "title": "Uncertainty clouds Messi's return to Inter Miami after father's death",
+      "statusBefore": "published",
+      "words": 350,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-11-scholes-urges-united-romero",
+      "slug": "paul-scholes-urges-manchester-united-to-hijack-cristian-romero-move",
+      "title": "Paul Scholes urges Manchester United to hijack Atletico Madrid's move for Cristian Romero",
+      "statusBefore": "published",
+      "words": 331,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-11-jokic-record-supermax-nuggets",
+      "slug": "nikola-jokic-record-supermax-nuggets-2027",
+      "title": "Nikola Jokić plots record $359m supermax deal with the Nuggets — but not until 2027",
+      "statusBefore": "published",
+      "words": 389,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-11-vinicius-real-madrid-salary-secrecy",
+      "slug": "vinicius-real-madrid-salary-secrecy-pact",
+      "title": "Real Madrid and Vinicius agree to keep new contract salary secret",
+      "statusBefore": "published",
+      "words": 387,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-08-11-berkovich-grandson-ironi-ramat-gan",
       "slug": "miki-berkovich-grandson-ariel-promoted-ironi-ramat-gan",

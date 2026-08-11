@@ -146,21 +146,21 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-11T16:01:45Z",
-    "validUntil": "2026-08-12T04:01:45Z",
+    "checkedAt": "2026-08-11T16:37:36Z",
+    "validUntil": "2026-08-12T04:37:36Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 547,
+        "maxAgeHours": 548,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-11-berkovich-grandson-ironi-ramat-gan",
+        "articleId": "live-2026-08-11-messi-return-inter-miami-uncertain-after-father-death",
         "maxAgeHours": 48,
         "requires": []
       },
@@ -174,14 +174,14 @@
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-11-papi-turgeman-hapoel-jerusalem-ambassador",
+        "articleId": "live-2026-08-11-scholes-urges-united-romero",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 565,
+        "maxAgeHours": 566,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-11-beitar-yavne-liga-alef-withdrawal",
+        "articleId": "live-2026-08-11-jokic-record-supermax-nuggets",
         "maxAgeHours": 24,
         "requires": []
       }
