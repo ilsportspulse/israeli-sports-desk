@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T04:18:30.416Z",
+  "generatedAt": "2026-08-11T11:40:15.698Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,22 +11,22 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 917,
+    "publishedArticles": 907,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 421,
-      "average": 425
+      "average": 425.1
     },
     "paragraphDistribution": {
       "3": 34,
       "4": 6,
       "5": 10,
       "6": 42,
-      "7": 132,
-      "8": 261,
-      "9": 214,
-      "10": 155,
+      "7": 130,
+      "8": 257,
+      "9": 211,
+      "10": 154,
       "11": 40,
       "12": 13,
       "13": 4,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.285,
+    "dominantParagraphShare": 0.283,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 42,
     "analysisBelowTarget": 9,
@@ -3645,276 +3645,66 @@
   ],
   "clean": [
     {
-      "id": "live-2026-08-11-hapoel-beer-sheva-dimona-budget-ultimatum",
-      "slug": "hapoel-beer-sheva-dimona-budget-ultimatum-liga-leumit",
-      "title": "League management to Hapoel Be'er Sheva/Dimona: produce a budget, or play in Liga Leumit",
+      "id": "live-2026-08-11-beer-sheva-red-star-marakana-preview",
+      "slug": "hapoel-beer-sheva-red-star-belgrade-second-leg-preview",
+      "title": "Hapoel Beer Sheva carry a slim lead into Belgrade, where 50,000 fans could cut both ways",
+      "kind": "preview",
+      "words": 451,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 84,
+        "average": 56.4
+      },
+      "sentenceWords": {
+        "shortest": 24,
+        "longest": 60,
+        "average": 37.6
+      },
+      "lexicalDiversity": 0.59,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-11-manor-solomon-west-ham-father-interview",
+      "slug": "manor-solomon-west-ham-yossi-solomon-interview",
+      "title": "Manor Solomon's father: West Ham see him as a significant player, which is what he wanted",
       "kind": "news",
-      "words": 421,
+      "words": 493,
       "paragraphs": 9,
       "paragraphWords": {
         "shortest": 34,
-        "longest": 60,
-        "average": 46.8
+        "longest": 70,
+        "average": 54.8
       },
       "sentenceWords": {
-        "shortest": 7,
-        "longest": 47,
-        "average": 28.1
+        "shortest": 13,
+        "longest": 108,
+        "average": 41.1
       },
-      "lexicalDiversity": 0.553,
-      "publisherAttributions": 1,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-11-hapoel-beer-sheva-bucharest-stadium",
-      "slug": "hapoel-beer-sheva-new-european-home-bucharest",
-      "title": "Hapoel Be'er Sheva find a new European home in Bucharest",
-      "kind": "news",
-      "words": 415,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 35,
-        "longest": 65,
-        "average": 51.9
-      },
-      "sentenceWords": {
-        "shortest": 11,
-        "longest": 61,
-        "average": 37.7
-      },
-      "lexicalDiversity": 0.52,
+      "lexicalDiversity": 0.562,
       "publisherAttributions": 0,
       "flags": []
     },
     {
-      "id": "live-2026-08-11-van-dijk-needed-break-mentality",
-      "slug": "van-dijk-needed-break-not-just-physically-but-mentally",
-      "title": "Van Dijk says he needed a break \"not just physically, but mentally\" after gruelling World Cup year",
-      "kind": "article",
-      "words": 323,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 26,
-        "longest": 53,
-        "average": 40.4
-      },
-      "sentenceWords": {
-        "shortest": 18,
-        "longest": 96,
-        "average": 46.1
-      },
-      "lexicalDiversity": 0.598,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260811-barcelona-goal-void-lewandowski-torres",
-      "slug": "barcelona-goal-void-lewandowski-torres-departure",
-      "title": "Barcelona face a 103-goal void as Lewandowski departs and Torres edges toward PSG",
+      "id": "live-2026-08-11-sheran-yeini-eran-zahavi-maccabi-future",
+      "slug": "sheran-yeini-eran-zahavi-maccabi-tel-aviv-future-dancing-stars",
+      "title": "Sheran Yeini: it would be fun to team up with Eran Zahavi at Maccabi one day",
       "kind": "news",
-      "words": 488,
+      "words": 429,
       "paragraphs": 9,
       "paragraphWords": {
-        "shortest": 38,
-        "longest": 87,
-        "average": 54.2
+        "shortest": 31,
+        "longest": 69,
+        "average": 47.7
       },
       "sentenceWords": {
-        "shortest": 5,
-        "longest": 45,
-        "average": 27.1
-      },
-      "lexicalDiversity": 0.623,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-11-man-city-bouaddi-rodri-replacement",
-      "slug": "manchester-city-target-ayyoub-bouaddi-rodri-replacement",
-      "title": "Manchester City chase Morocco's World Cup revelation as Rodri's Barcelona replacement",
-      "kind": "news",
-      "words": 368,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 29,
-        "longest": 66,
-        "average": 46
-      },
-      "sentenceWords": {
-        "shortest": 23,
-        "longest": 48,
-        "average": 33.5
-      },
-      "lexicalDiversity": 0.62,
-      "publisherAttributions": 1,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-11-roony-bardghji-acl-tear-barcelona",
-      "slug": "roony-bardghji-acl-tear-barcelona-six-months",
-      "title": "Barcelona winger Roony Bardghji ruptures ACL again, faces up to seven months out",
-      "kind": "news",
-      "words": 482,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 47,
-        "longest": 68,
-        "average": 60.3
-      },
-      "sentenceWords": {
-        "shortest": 5,
-        "longest": 63,
-        "average": 30.1
-      },
-      "lexicalDiversity": 0.56,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-11-bezos-liverpool-consortium-stake",
-      "slug": "bezos-consortium-nears-deal-for-liverpool-stake",
-      "title": "Jeff Bezos consortium closes in on huge Liverpool stake, reports say",
-      "kind": "news",
-      "words": 374,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 37,
-        "longest": 72,
-        "average": 53.4
-      },
-      "sentenceWords": {
-        "shortest": 9,
+        "shortest": 17,
         "longest": 55,
-        "average": 28.8
+        "average": 35.8
       },
-      "lexicalDiversity": 0.634,
+      "lexicalDiversity": 0.613,
       "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-11-mbappe-yamal-fantasy-la-liga-king",
-      "slug": "mbappe-yamal-fantasy-la-liga-king",
-      "title": "Mbappé or Lamine Yamal: who reigns as fantasy king in Spain this season?",
-      "kind": "article",
-      "words": 501,
-      "paragraphs": 10,
-      "paragraphWords": {
-        "shortest": 33,
-        "longest": 65,
-        "average": 50.1
-      },
-      "sentenceWords": {
-        "shortest": 6,
-        "longest": 55,
-        "average": 31.3
-      },
-      "lexicalDiversity": 0.575,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "archive-20260811-paris-13-may-2001-the-night-maccabi-turn",
-      "slug": "paris-13-may-2001-the-night-maccabi-turned-bercy-into-redemption",
-      "title": "Paris, 13 May 2001: The Night Maccabi Turned Bercy Into Redemption",
-      "kind": "explainer",
-      "words": 539,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 33,
-        "longest": 86,
-        "average": 59.9
-      },
-      "sentenceWords": {
-        "shortest": 11,
-        "longest": 45,
-        "average": 28.4
-      },
-      "lexicalDiversity": 0.557,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-10-maccabi-haifa-summer-review",
-      "slug": "maccabi-haifa-summer-changes-question-marks",
-      "title": "Changes and plenty of question marks: Maccabi Haifa's summer of upheaval",
-      "kind": "news",
-      "words": 496,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 47,
-        "longest": 74,
-        "average": 62
-      },
-      "sentenceWords": {
-        "shortest": 7,
-        "longest": 53,
-        "average": 24.8
-      },
-      "lexicalDiversity": 0.639,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-10-barcelona-lautaro-martinez-alvarez-backup",
-      "slug": "barcelona-lautaro-martinez-alternative-julian-alvarez",
-      "title": "Barcelona line up Lautaro Martinez as backup if Julián Álvarez deal collapses",
-      "kind": "news",
-      "words": 385,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 39,
-        "longest": 54,
-        "average": 48.1
-      },
-      "sentenceWords": {
-        "shortest": 7,
-        "longest": 42,
-        "average": 25.7
-      },
-      "lexicalDiversity": 0.61,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-10-patty-mills-asvel-villeurbanne-signing",
-      "slug": "patty-mills-asvel-villeurbanne-signing",
-      "title": "Patty Mills signs with ASVEL Villeurbanne, reuniting with Tony Parker",
-      "kind": "news",
-      "words": 374,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 45,
-        "longest": 59,
-        "average": 53.4
-      },
-      "sentenceWords": {
-        "shortest": 9,
-        "longest": 36,
-        "average": 24.9
-      },
-      "lexicalDiversity": 0.596,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-10-barzelay-backstroke-final-loktev-record",
-      "slug": "barzelay-reaches-200m-backstroke-final-loktev-israeli-record",
-      "title": "Barzelay reaches 200m backstroke final as Loktev sets Israeli record in relay's 7th-place finish",
-      "kind": "news",
-      "words": 344,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 24,
-        "longest": 56,
-        "average": 38.2
-      },
-      "sentenceWords": {
-        "shortest": 10,
-        "longest": 45,
-        "average": 31.3
-      },
-      "lexicalDiversity": 0.578,
-      "publisherAttributions": 1,
       "flags": []
     },
     {
@@ -3940,22 +3730,22 @@
     },
     {
       "id": "live-2026-08-10-araujo-liverpool-loan",
-      "slug": "araujo-liverpool-loan-barcelona",
-      "title": "Araújo completes loan move from Barcelona to Liverpool",
-      "kind": "article",
-      "words": 458,
-      "paragraphs": 9,
+      "slug": "ronald-araujo-completes-liverpool-loan-move-from-barcelona",
+      "title": "Ronald Araújo completes loan move from Barcelona to Liverpool",
+      "kind": "news",
+      "words": 378,
+      "paragraphs": 8,
       "paragraphWords": {
-        "shortest": 38,
-        "longest": 68,
-        "average": 50.9
+        "shortest": 30,
+        "longest": 69,
+        "average": 47.3
       },
       "sentenceWords": {
-        "shortest": 6,
-        "longest": 68,
-        "average": 26.9
+        "shortest": 5,
+        "longest": 65,
+        "average": 29.1
       },
-      "lexicalDiversity": 0.598,
+      "lexicalDiversity": 0.64,
       "publisherAttributions": 0,
       "flags": []
     },

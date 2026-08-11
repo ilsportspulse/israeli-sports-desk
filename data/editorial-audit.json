@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T04:18:29.859Z",
+  "generatedAt": "2026-08-11T11:40:15.185Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1267,
-    "publishedBefore": 917,
-    "cleanPublished": 909,
+    "totalArticles": 1255,
+    "publishedBefore": 907,
+    "cleanPublished": 899,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 917,
-    "reviewAfter": 350
+    "publishedAfter": 907,
+    "reviewAfter": 348
   },
   "blockedPublished": [
     {
@@ -157,70 +157,40 @@
   ],
   "warnings": [
     {
-      "id": "live-2026-08-11-hapoel-beer-sheva-dimona-budget-ultimatum",
-      "slug": "hapoel-beer-sheva-dimona-budget-ultimatum-liga-leumit",
-      "title": "League management to Hapoel Be'er Sheva/Dimona: produce a budget, or play in Liga Leumit",
-      "statusBefore": "published",
-      "words": 421,
+      "id": "live-2026-08-11-maccabi-haifa-foreign-player-logjam",
+      "slug": "maccabi-haifa-foreign-player-logjam-novakovich",
+      "title": "Maccabi Haifa's foreign-player logjam leaves new striker Novakovich unregistered",
+      "statusBefore": "review",
+      "words": 484,
       "paragraphs": 9,
-      "facts": 7,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected",
-        "voice:publisher-attribution-heavy:2"
-      ]
-    },
-    {
-      "id": "live-2026-08-11-hapoel-beer-sheva-bucharest-stadium",
-      "slug": "hapoel-beer-sheva-new-european-home-bucharest",
-      "title": "Hapoel Be'er Sheva find a new European home in Bucharest",
-      "statusBefore": "published",
-      "words": 415,
-      "paragraphs": 8,
       "facts": 6,
-      "verificationSources": 2,
+      "verificationSources": 3,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
     },
     {
-      "id": "live-2026-08-11-william-agada-hapoel-haifa-bonus-contract",
-      "slug": "william-agada-hapoel-haifa-bonus-contract",
-      "title": "William Agada returns to Hapoel Haifa on a contract loaded with goal and assist bonuses",
-      "statusBefore": "review",
-      "words": 466,
+      "id": "live-2026-08-11-beer-sheva-red-star-marakana-preview",
+      "slug": "hapoel-beer-sheva-red-star-belgrade-second-leg-preview",
+      "title": "Hapoel Beer Sheva carry a slim lead into Belgrade, where 50,000 fans could cut both ways",
+      "statusBefore": "published",
+      "words": 456,
       "paragraphs": 8,
-      "facts": 8,
+      "facts": 7,
       "verificationSources": 3,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline",
-        "voice:publisher-attribution-heavy:2"
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
-      "id": "live-20260811-barcelona-goal-void-lewandowski-torres",
-      "slug": "barcelona-goal-void-lewandowski-torres-departure",
-      "title": "Barcelona face a 103-goal void as Lewandowski departs and Torres edges toward PSG",
+      "id": "live-2026-08-11-manor-solomon-west-ham-father-interview",
+      "slug": "manor-solomon-west-ham-yossi-solomon-interview",
+      "title": "Manor Solomon's father: West Ham see him as a significant player, which is what he wanted",
       "statusBefore": "published",
       "words": 494,
       "paragraphs": 9,
-      "facts": 7,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-11-man-city-bouaddi-rodri-replacement",
-      "slug": "manchester-city-target-ayyoub-bouaddi-rodri-replacement",
-      "title": "Manchester City chase Morocco's World Cup revelation as Rodri's Barcelona replacement",
-      "statusBefore": "published",
-      "words": 370,
-      "paragraphs": 8,
       "facts": 6,
       "verificationSources": 4,
       "blockers": [],
@@ -229,119 +199,17 @@
       ]
     },
     {
-      "id": "live-2026-08-11-roony-bardghji-acl-tear-barcelona",
-      "slug": "roony-bardghji-acl-tear-barcelona-six-months",
-      "title": "Barcelona winger Roony Bardghji ruptures ACL again, faces up to seven months out",
-      "statusBefore": "published",
-      "words": 485,
-      "paragraphs": 8,
-      "facts": 6,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-11-bezos-liverpool-consortium-stake",
-      "slug": "bezos-consortium-nears-deal-for-liverpool-stake",
-      "title": "Jeff Bezos consortium closes in on huge Liverpool stake, reports say",
-      "statusBefore": "published",
-      "words": 378,
-      "paragraphs": 7,
-      "facts": 6,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline",
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-11-mbappe-yamal-fantasy-la-liga-king",
-      "slug": "mbappe-yamal-fantasy-la-liga-king",
-      "title": "Mbappé or Lamine Yamal: who reigns as fantasy king in Spain this season?",
-      "statusBefore": "published",
-      "words": 504,
-      "paragraphs": 10,
+      "id": "live-2026-08-11-roy-arel-maccabi-haifa-youth",
+      "slug": "roy-arel-joins-maccabi-haifa-youth-team",
+      "title": "Hapoel Haifa's 11-year-old top scorer Roy Arel set to join rivals Maccabi Haifa's youth ranks",
+      "statusBefore": "review",
+      "words": 201,
+      "paragraphs": 5,
       "facts": 5,
-      "verificationSources": 2,
+      "verificationSources": 3,
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline"
-      ]
-    },
-    {
-      "id": "live-2026-08-10-hapoel-petah-tikva-youth-signings-namani-kleinman",
-      "slug": "hapoel-petah-tikva-sign-youth-winger-namani-goalkeeper-kleinman",
-      "title": "Hapoel Petah Tikva strengthen youth squad with winger Namani and goalkeeper Kleinman",
-      "statusBefore": "review",
-      "words": 247,
-      "paragraphs": 6,
-      "facts": 8,
-      "verificationSources": 1,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline",
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-10-dafe-steipman-toto-cup-youth",
-      "slug": "dafe-steipman-toto-cup-youth-records",
-      "title": "Dafé tops youth scoring, Steipman leads the minutes as Toto Cup group stage wraps",
-      "statusBefore": "review",
-      "words": 447,
-      "paragraphs": 7,
-      "facts": 6,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected",
-        "voice:publisher-attribution-heavy:2"
-      ]
-    },
-    {
-      "id": "live-2026-08-10-barcelona-lautaro-martinez-alvarez-backup",
-      "slug": "barcelona-lautaro-martinez-alternative-julian-alvarez",
-      "title": "Barcelona line up Lautaro Martinez as backup if Julián Álvarez deal collapses",
-      "statusBefore": "published",
-      "words": 388,
-      "paragraphs": 8,
-      "facts": 7,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline",
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-10-patty-mills-asvel-villeurbanne-signing",
-      "slug": "patty-mills-asvel-villeurbanne-signing",
-      "title": "Patty Mills signs with ASVEL Villeurbanne, reuniting with Tony Parker",
-      "statusBefore": "published",
-      "words": 375,
-      "paragraphs": 7,
-      "facts": 6,
-      "verificationSources": 5,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-10-rehovot-club-merger-mou",
-      "slug": "rehovot-maccabi-shaarayim-hapoel-marmorek-merger-memorandum",
-      "title": "Rehovot finalises merger of Maccabi Shaarayim and Hapoel Marmorek",
-      "statusBefore": "review",
-      "words": 490,
-      "paragraphs": 10,
-      "facts": 7,
-      "verificationSources": 2,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -360,13 +228,13 @@
     },
     {
       "id": "live-2026-08-10-araujo-liverpool-loan",
-      "slug": "araujo-liverpool-loan-barcelona",
-      "title": "Araújo completes loan move from Barcelona to Liverpool",
+      "slug": "ronald-araujo-completes-liverpool-loan-move-from-barcelona",
+      "title": "Ronald Araújo completes loan move from Barcelona to Liverpool",
       "statusBefore": "published",
-      "words": 461,
-      "paragraphs": 9,
-      "facts": 7,
-      "verificationSources": 6,
+      "words": 377,
+      "paragraphs": 8,
+      "facts": 9,
+      "verificationSources": 5,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -416,13 +284,13 @@
     },
     {
       "id": "live-2026-08-10-carlos-sarante-hapoel-acre",
-      "slug": "carlos-sarante-lands-israel-hapoel-acre-signing",
-      "title": "Dominican midfielder Carlos Sarante lands in Israel ahead of expected Hapoel Acre move",
+      "slug": "carlos-sarante-lands-in-israel-hapoel-acre-signing",
+      "title": "Dominican forward Carlos Sarante lands in Israel ahead of Hapoel Acre move",
       "statusBefore": "review",
-      "words": 180,
-      "paragraphs": 5,
-      "facts": 7,
-      "verificationSources": 4,
+      "words": 216,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 3,
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline"
@@ -12277,67 +12145,26 @@
   ],
   "cleanPublished": [
     {
-      "id": "live-2026-08-11-hapoel-beer-sheva-dimona-budget-ultimatum",
-      "slug": "hapoel-beer-sheva-dimona-budget-ultimatum-liga-leumit",
-      "title": "League management to Hapoel Be'er Sheva/Dimona: produce a budget, or play in Liga Leumit",
+      "id": "live-2026-08-11-beer-sheva-red-star-marakana-preview",
+      "slug": "hapoel-beer-sheva-red-star-belgrade-second-leg-preview",
+      "title": "Hapoel Beer Sheva carry a slim lead into Belgrade, where 50,000 fans could cut both ways",
       "statusBefore": "published",
-      "words": 421,
-      "paragraphs": 9,
+      "words": 456,
+      "paragraphs": 8,
       "facts": 7,
       "verificationSources": 3,
       "blockers": [],
       "warnings": [
-        "media:no-action-or-competition-context-detected",
-        "voice:publisher-attribution-heavy:2"
-      ]
-    },
-    {
-      "id": "live-2026-08-11-hapoel-beer-sheva-bucharest-stadium",
-      "slug": "hapoel-beer-sheva-new-european-home-bucharest",
-      "title": "Hapoel Be'er Sheva find a new European home in Bucharest",
-      "statusBefore": "published",
-      "words": 415,
-      "paragraphs": 8,
-      "facts": 6,
-      "verificationSources": 2,
-      "blockers": [],
-      "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
     },
     {
-      "id": "live-2026-08-11-van-dijk-needed-break-mentality",
-      "slug": "van-dijk-needed-break-not-just-physically-but-mentally",
-      "title": "Van Dijk says he needed a break \"not just physically, but mentally\" after gruelling World Cup year",
-      "statusBefore": "published",
-      "words": 323,
-      "paragraphs": 8,
-      "facts": 7,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": []
-    },
-    {
-      "id": "live-20260811-barcelona-goal-void-lewandowski-torres",
-      "slug": "barcelona-goal-void-lewandowski-torres-departure",
-      "title": "Barcelona face a 103-goal void as Lewandowski departs and Torres edges toward PSG",
+      "id": "live-2026-08-11-manor-solomon-west-ham-father-interview",
+      "slug": "manor-solomon-west-ham-yossi-solomon-interview",
+      "title": "Manor Solomon's father: West Ham see him as a significant player, which is what he wanted",
       "statusBefore": "published",
       "words": 494,
       "paragraphs": 9,
-      "facts": 7,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-11-man-city-bouaddi-rodri-replacement",
-      "slug": "manchester-city-target-ayyoub-bouaddi-rodri-replacement",
-      "title": "Manchester City chase Morocco's World Cup revelation as Rodri's Barcelona replacement",
-      "statusBefore": "published",
-      "words": 370,
-      "paragraphs": 8,
       "facts": 6,
       "verificationSources": 4,
       "blockers": [],
@@ -12346,110 +12173,14 @@
       ]
     },
     {
-      "id": "live-2026-08-11-roony-bardghji-acl-tear-barcelona",
-      "slug": "roony-bardghji-acl-tear-barcelona-six-months",
-      "title": "Barcelona winger Roony Bardghji ruptures ACL again, faces up to seven months out",
+      "id": "live-2026-08-11-sheran-yeini-eran-zahavi-maccabi-future",
+      "slug": "sheran-yeini-eran-zahavi-maccabi-tel-aviv-future-dancing-stars",
+      "title": "Sheran Yeini: it would be fun to team up with Eran Zahavi at Maccabi one day",
       "statusBefore": "published",
-      "words": 485,
-      "paragraphs": 8,
-      "facts": 6,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-11-bezos-liverpool-consortium-stake",
-      "slug": "bezos-consortium-nears-deal-for-liverpool-stake",
-      "title": "Jeff Bezos consortium closes in on huge Liverpool stake, reports say",
-      "statusBefore": "published",
-      "words": 378,
-      "paragraphs": 7,
-      "facts": 6,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline",
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-11-mbappe-yamal-fantasy-la-liga-king",
-      "slug": "mbappe-yamal-fantasy-la-liga-king",
-      "title": "Mbappé or Lamine Yamal: who reigns as fantasy king in Spain this season?",
-      "statusBefore": "published",
-      "words": 504,
-      "paragraphs": 10,
-      "facts": 5,
-      "verificationSources": 2,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline"
-      ]
-    },
-    {
-      "id": "archive-20260811-paris-13-may-2001-the-night-maccabi-turn",
-      "slug": "paris-13-may-2001-the-night-maccabi-turned-bercy-into-redemption",
-      "title": "Paris, 13 May 2001: The Night Maccabi Turned Bercy Into Redemption",
-      "statusBefore": "published",
-      "words": 545,
+      "words": 433,
       "paragraphs": 9,
       "facts": 7,
-      "verificationSources": 7,
-      "blockers": [],
-      "warnings": []
-    },
-    {
-      "id": "live-2026-08-10-maccabi-haifa-summer-review",
-      "slug": "maccabi-haifa-summer-changes-question-marks",
-      "title": "Changes and plenty of question marks: Maccabi Haifa's summer of upheaval",
-      "statusBefore": "published",
-      "words": 494,
-      "paragraphs": 8,
-      "facts": 7,
-      "verificationSources": 7,
-      "blockers": [],
-      "warnings": []
-    },
-    {
-      "id": "live-2026-08-10-barcelona-lautaro-martinez-alvarez-backup",
-      "slug": "barcelona-lautaro-martinez-alternative-julian-alvarez",
-      "title": "Barcelona line up Lautaro Martinez as backup if Julián Álvarez deal collapses",
-      "statusBefore": "published",
-      "words": 388,
-      "paragraphs": 8,
-      "facts": 7,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline",
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-10-patty-mills-asvel-villeurbanne-signing",
-      "slug": "patty-mills-asvel-villeurbanne-signing",
-      "title": "Patty Mills signs with ASVEL Villeurbanne, reuniting with Tony Parker",
-      "statusBefore": "published",
-      "words": 375,
-      "paragraphs": 7,
-      "facts": 6,
       "verificationSources": 5,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-10-barzelay-backstroke-final-loktev-record",
-      "slug": "barzelay-reaches-200m-backstroke-final-loktev-israeli-record",
-      "title": "Barzelay reaches 200m backstroke final as Loktev sets Israeli record in relay's 7th-place finish",
-      "statusBefore": "published",
-      "words": 334,
-      "paragraphs": 9,
-      "facts": 6,
-      "verificationSources": 3,
       "blockers": [],
       "warnings": []
     },
@@ -12469,13 +12200,13 @@
     },
     {
       "id": "live-2026-08-10-araujo-liverpool-loan",
-      "slug": "araujo-liverpool-loan-barcelona",
-      "title": "Araújo completes loan move from Barcelona to Liverpool",
+      "slug": "ronald-araujo-completes-liverpool-loan-move-from-barcelona",
+      "title": "Ronald Araújo completes loan move from Barcelona to Liverpool",
       "statusBefore": "published",
-      "words": 461,
-      "paragraphs": 9,
-      "facts": 7,
-      "verificationSources": 6,
+      "words": 377,
+      "paragraphs": 8,
+      "facts": 9,
+      "verificationSources": 5,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"

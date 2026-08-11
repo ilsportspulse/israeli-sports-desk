@@ -146,49 +146,49 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-11T04:18:29Z",
-    "validUntil": "2026-08-11T16:18:29Z",
+    "checkedAt": "2026-08-11T11:40:14Z",
+    "validUntil": "2026-08-11T23:40:14Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 535,
+        "maxAgeHours": 543,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-11-hapoel-beer-sheva-dimona-budget-ultimatum",
+        "articleId": "live-2026-08-11-beer-sheva-red-star-marakana-preview",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 543,
+        "maxAgeHours": 550,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-11-hapoel-beer-sheva-bucharest-stadium",
+        "articleId": "live-2026-08-11-sheran-yeini-eran-zahavi-maccabi-future",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 553,
+        "maxAgeHours": 561,
         "requires": [
           "column"
         ]
       },
       {
         "role": "archive",
-        "articleId": "archive-20260811-paris-13-may-2001-the-night-maccabi-turn",
+        "articleId": "archive-20260810-moscow-8-may-2005-the-7-0-run-that-made-",
         "maxAgeHours": 156,
         "requires": [
           "historical-feature"
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260811-barcelona-goal-void-lewandowski-torres",
+        "articleId": "live-20260810-hapoel-beer-sheva-red-star-return-leg-preview",
         "maxAgeHours": 24,
         "requires": []
       }
