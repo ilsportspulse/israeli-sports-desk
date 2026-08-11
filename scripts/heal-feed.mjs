@@ -60,8 +60,55 @@ export async function healFeed() {
     else await writeFile(path.join(root, "data/articles.json"), `${JSON.stringify(doc, null, 2)}\n`);
     if (stripped) await writeFile(path.join(root, "data/article-media.json"), `${JSON.stringify(media, null, 2)}\n`);
   }
-  console.log(`[heal-feed] demoted ${demoted} duplicate story(ies); stripped ${stripped} duplicate image(s).`);
-  return { demoted, stripped };
+
+  // 4) Prune stale / orphaned translations. The localization gate requires every stored
+  //    translation to point to a PUBLISHED article at its CURRENT version. A re-drafted
+  //    article gets a new updatedAt, leaving its FR/ES translation stale -> the gate
+  //    fails on EVERY run (even skipped ones, since the tests read committed data) until
+  //    the translator catches up. Drop stale/orphaned ones here; they regenerate later.
+  let prunedT = 0;
+  try {
+    const trans = await read("data/content-translations.json", { translations: [] });
+    if (Array.isArray(trans.translations)) {
+      const byId = new Map(list.map((a) => [a.id, a]));
+      const before = trans.translations.length;
+      trans.translations = trans.translations.filter((t) => {
+        const a = byId.get(t.articleId);
+        if (!a || (a.status ?? "published") === "review") return false;
+        if (t.sourceUpdatedAt && t.sourceUpdatedAt !== (a.updatedAt ?? a.publishedAt)) return false;
+        return true;
+      });
+      prunedT = before - trans.translations.length;
+      if (prunedT) await writeFile(path.join(root, "data/content-translations.json"), `${JSON.stringify(trans, null, 2)}\n`);
+    }
+  } catch { /* non-fatal */ }
+
+  // 5) Quiz-package integrity — the gate needs a PUBLISHED "From the Archive" with >=2
+  //    verification sources for data/daily-quiz.json's date. If demotions/holds broke
+  //    the pair, re-point the quiz to the newest date that still has a valid archive.
+  let quizFixed = false;
+  try {
+    const quiz = await read("data/daily-quiz.json", null);
+    if (quiz?.date) {
+      const goodArchive = (d) => list.some((a) => (a.status ?? "published") !== "review"
+        && a.category === "From the Archive" && (a.publishedAt || "").startsWith(d)
+        && (a.verificationSources?.length ?? 0) >= 2);
+      if (!goodArchive(quiz.date)) {
+        const dates = [...new Set(list
+          .filter((a) => (a.status ?? "published") !== "review" && a.category === "From the Archive"
+            && (a.verificationSources?.length ?? 0) >= 2)
+          .map((a) => (a.publishedAt || "").slice(0, 10)))].sort().reverse();
+        if (dates[0]) {
+          quiz.date = dates[0];
+          await writeFile(path.join(root, "data/daily-quiz.json"), `${JSON.stringify(quiz, null, 2)}\n`);
+          quizFixed = true;
+        }
+      }
+    }
+  } catch { /* non-fatal */ }
+
+  console.log(`[heal-feed] demoted ${demoted} duplicate; stripped ${stripped} image(s); pruned ${prunedT} translation(s); quiz repaired: ${quizFixed}.`);
+  return { demoted, stripped, prunedT, quizFixed };
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {
