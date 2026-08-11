@@ -3584,5 +3584,58 @@
         "reason": ""
       }
     ]
+  },
+  {
+    "ts": "2026-08-11T11:53:37.376Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 3,
+    "review": 1,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "kapitolnik-high-jump-final-european-championships-birmingham",
+        "title": "Kapitolnik through to high jump final at European Championships in Birmingham",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "hapoel-lod-chairman-ragev-responds-lawyer-threat-claim",
+        "title": "Hapoel Lod chairman Ragev: \"I may have gotten the wording wrong, I'm sorry it happened\"",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "sheran-yeini-eran-zahavi-maccabi-reunion-comments",
+        "title": "Sheran Yeini says he and Eran Zahavi could team up at Maccabi one day",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "roy-arel-maccabi-haifa-youth-academy-transfer",
+        "title": "Son of former Hapoel Haifa coach Gal Arel joins Maccabi Haifa's youth ranks",
+        "confidence": 0.8,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "below gate thresholds"
+      },
+      {
+        "slug": "manor-solomon-west-ham-significant-player",
+        "title": "West Ham see Manor Solomon as 'a significant player', his father says",
+        "decision": "duplicate"
+      }
+    ]
   }
 ]

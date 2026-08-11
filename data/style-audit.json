@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T11:40:15.698Z",
+  "generatedAt": "2026-08-11T12:06:09.636Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -15,17 +15,17 @@
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 421,
-      "average": 425.1
+      "median": 420,
+      "average": 424.7
     },
     "paragraphDistribution": {
       "3": 34,
       "4": 6,
       "5": 10,
-      "6": 42,
-      "7": 130,
+      "6": 43,
+      "7": 131,
       "8": 257,
-      "9": 211,
+      "9": 209,
       "10": 154,
       "11": 40,
       "12": 13,
@@ -37,9 +37,9 @@
     "dominantParagraphCount": 8,
     "dominantParagraphShare": 0.283,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 42,
+    "exactSixParagraphArticles": 43,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 156
+    "articlesWithStyleFlags": 157
   },
   "flagged": [
     {
@@ -328,6 +328,29 @@
       "flags": [
         "below-editorial-target:227/280",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260811-kapitolnik-high-jump-final-birmingham",
+      "slug": "kapitolnik-high-jump-final-european-championships-birmingham",
+      "title": "Kapitolnik through to high jump final at European Championships in Birmingham",
+      "kind": "news",
+      "words": 272,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 58,
+        "average": 45.3
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 52,
+        "average": 34
+      },
+      "lexicalDiversity": 0.574,
+      "publisherAttributions": 0,
+      "flags": [
+        "below-editorial-target:272/280"
       ]
     },
     {
@@ -3645,66 +3668,45 @@
   ],
   "clean": [
     {
-      "id": "live-2026-08-11-beer-sheva-red-star-marakana-preview",
-      "slug": "hapoel-beer-sheva-red-star-belgrade-second-leg-preview",
-      "title": "Hapoel Beer Sheva carry a slim lead into Belgrade, where 50,000 fans could cut both ways",
-      "kind": "preview",
-      "words": 451,
+      "id": "live-2026-08-11-yeini-zahavi-maccabi-reunion",
+      "slug": "sheran-yeini-eran-zahavi-maccabi-reunion-comments",
+      "title": "Sheran Yeini says he and Eran Zahavi could team up at Maccabi one day",
+      "kind": "news",
+      "words": 396,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 45,
+        "longest": 67,
+        "average": 56.6
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 45,
+        "average": 26.4
+      },
+      "lexicalDiversity": 0.662,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-11-hapoel-lod-chairman-threat-response",
+      "slug": "hapoel-lod-chairman-ragev-responds-lawyer-threat-claim",
+      "title": "Hapoel Lod chairman Ragev: \"I may have gotten the wording wrong, I'm sorry it happened\"",
+      "kind": "news",
+      "words": 420,
       "paragraphs": 8,
       "paragraphWords": {
-        "shortest": 37,
-        "longest": 84,
-        "average": 56.4
+        "shortest": 40,
+        "longest": 72,
+        "average": 52.5
       },
       "sentenceWords": {
-        "shortest": 24,
-        "longest": 60,
-        "average": 37.6
+        "shortest": 16,
+        "longest": 92,
+        "average": 38.2
       },
-      "lexicalDiversity": 0.59,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-11-manor-solomon-west-ham-father-interview",
-      "slug": "manor-solomon-west-ham-yossi-solomon-interview",
-      "title": "Manor Solomon's father: West Ham see him as a significant player, which is what he wanted",
-      "kind": "news",
-      "words": 493,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 34,
-        "longest": 70,
-        "average": 54.8
-      },
-      "sentenceWords": {
-        "shortest": 13,
-        "longest": 108,
-        "average": 41.1
-      },
-      "lexicalDiversity": 0.562,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-11-sheran-yeini-eran-zahavi-maccabi-future",
-      "slug": "sheran-yeini-eran-zahavi-maccabi-tel-aviv-future-dancing-stars",
-      "title": "Sheran Yeini: it would be fun to team up with Eran Zahavi at Maccabi one day",
-      "kind": "news",
-      "words": 429,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 31,
-        "longest": 69,
-        "average": 47.7
-      },
-      "sentenceWords": {
-        "shortest": 17,
-        "longest": 55,
-        "average": 35.8
-      },
-      "lexicalDiversity": 0.613,
-      "publisherAttributions": 0,
+      "lexicalDiversity": 0.581,
+      "publisherAttributions": 1,
       "flags": []
     },
     {

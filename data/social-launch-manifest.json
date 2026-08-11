@@ -146,8 +146,8 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-11T11:40:14Z",
-    "validUntil": "2026-08-11T23:40:14Z",
+    "checkedAt": "2026-08-11T12:06:08Z",
+    "validUntil": "2026-08-12T00:06:08Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
@@ -160,21 +160,21 @@
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-11-beer-sheva-red-star-marakana-preview",
+        "articleId": "live-2026-08-11-yeini-zahavi-maccabi-reunion",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 550,
+        "maxAgeHours": 551,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-11-sheran-yeini-eran-zahavi-maccabi-future",
+        "articleId": "live-2026-08-11-hapoel-lod-chairman-threat-response",
         "maxAgeHours": 24,
         "requires": []
       },
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260810-hapoel-beer-sheva-red-star-return-leg-preview",
+        "articleId": "live-20260811-kapitolnik-high-jump-final-birmingham",
         "maxAgeHours": 24,
         "requires": []
       }
