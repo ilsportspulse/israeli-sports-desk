@@ -1,5 +1,61 @@
 [
   {
+    "ts": "2026-08-12T10:04:45.238Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 2,
+    "review": 3,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "lior-hershko-signs-hapoel-jerusalem-loan-elitzur-shomron",
+        "title": "Hapoel Jerusalem sign teenage prospect Lior Hershko, loan him to Elitzur Shomron",
+        "confidence": 0.75,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "English transliterations of Hershko and Elitzur Shomron are not yet cross-confirmed against an official club/federation registry."
+      },
+      {
+        "slug": "gorbenko-qualifies-400m-medley-final-european-championships",
+        "title": "Gorbenko qualifies for 400m medley final at European Championships",
+        "confidence": 0.9,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "below gate thresholds"
+      },
+      {
+        "slug": "liga-bet-2026-27-fixtures-published",
+        "title": "Liga Bet fixture list for 2026/27 season published, kick-off set for September 5",
+        "confidence": 0.72,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Exact month for the '28-29' State Cup round-one dates is not explicitly stated in the source; inferred as August by analogy with the 2025/26 cup's August 29 start. No verifiable, correctly-identified Commons photo was found for this specific fixture-list story, so no image is included."
+      },
+      {
+        "slug": "tomer-ginat-out-israel-basketball-world-cup-qualifiers",
+        "title": "Tomer Ginat to miss Israel's World Cup qualifying window with knee injury",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "haditaghi-hapoel-tel-aviv-post-ifa-uefa-complaint",
+        "title": "Pogoń Szczecin owner calls Hapoel Tel Aviv 'genocidal' before Katowice qualifier, Israeli FA reports him to UEFA",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-08-12T07:28:05.832Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -3382,80 +3438,6 @@
       {
         "slug": "kings-kangwa-panathinaikos-transfer-beer-sheva-offer",
         "title": "Beer Sheva's rich offer couldn't keep Kings Kangwa from his Panathinaikos move, agent reveals",
-        "decision": "duplicate"
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-02T13:58:15.987Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 8,
-    "published": 4,
-    "review": 2,
-    "skipped": 2,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "hapoel-tel-aviv-fans-katowice-conference-league-tickets",
-        "title": "About 2,000 Hapoel Tel Aviv fans lock in tickets for Katowice qualifier",
-        "confidence": 0.8,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "israel-bulgaria-u16-girls-basketball-halftime",
-        "title": "Israel trail Bulgaria 47-36 at half-time in European under-16 basketball championship",
-        "confidence": 0,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "match in progress — wait for full time"
-      },
-      {
-        "slug": "diomande-can-surpass-yamal-says-former-leganes-captain",
-        "title": "Diomande can reach Yamal's level and even surpass him, says former Leganés captain",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "kiryat-malachi-sign-sapir-kramuko",
-        "title": "Kiryat Malachi add forward Sapir and teenage full-back Kramuko",
-        "confidence": 0.7,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Single-source report; exact English transliteration of the two new signings' names could not be independently cross-checked against a second outlet or official club record, and no contract length or league confirmation was stated explicitly in the source. No verifiable, correctly-identified Wikimedia Commons photo of this club or these players could be found, so no image is attached."
-      },
-      {
-        "slug": "rafael-aronov-stops-broz-oktagon-debut-prague",
-        "title": "Rafael Aronov stops Miroslav Brož in 1:56 to win OKTAGON debut in Prague",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "chizik-transfer-reform-maccabi-haifa",
-        "title": "Ex-Maccabi Haifa chief Chizik: transfer reform is 'shameful', players aren't a spreadsheet",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "israel-women-lacrosse-first-world-championship-bronze-medal",
-        "title": "Israel beat Haudenosaunee 7-4 for historic first lacrosse world championship bronze",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "kangwa-agent-beer-sheva-high-offer-chose-to-advance",
-        "title": "Kangwa's agent: Beer Sheva's offer to keep him was strong, but he chose to move forward",
         "decision": "duplicate"
       }
     ]

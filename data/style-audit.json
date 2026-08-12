@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T09:10:15.324Z",
+  "generatedAt": "2026-08-12T10:18:31.091Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 930,
+    "publishedArticles": 932,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 419,
-      "average": 424.7
+      "average": 424.6
     },
     "paragraphDistribution": {
       "3": 34,
       "4": 6,
       "5": 10,
       "6": 44,
-      "7": 132,
-      "8": 268,
+      "7": 133,
+      "8": 269,
       "9": 215,
       "10": 158,
       "11": 40,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.288,
+    "dominantParagraphShare": 0.289,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 44,
     "analysisBelowTarget": 9,
@@ -3736,6 +3736,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-12-haditaghi-hapoel-tel-aviv-ifa-complaint",
+      "slug": "haditaghi-hapoel-tel-aviv-post-ifa-uefa-complaint",
+      "title": "Pogoń Szczecin owner calls Hapoel Tel Aviv 'genocidal' before Katowice qualifier, Israeli FA reports him to UEFA",
+      "kind": "news",
+      "words": 460,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 39,
+        "longest": 71,
+        "average": 57.5
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 78,
+        "average": 35.4
+      },
+      "lexicalDiversity": 0.561,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-12-ginat-injury-national-team",
+      "slug": "tomer-ginat-out-israel-basketball-world-cup-qualifiers",
+      "title": "Tomer Ginat to miss Israel's World Cup qualifying window with knee injury",
+      "kind": "news",
+      "words": 319,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 65,
+        "average": 45.6
+      },
+      "sentenceWords": {
+        "shortest": 19,
+        "longest": 49,
+        "average": 31.9
+      },
+      "lexicalDiversity": 0.564,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-12-zubimendi-arsenal-future-guimaraes",
       "slug": "zubimendi-arsenal-future-clouded-by-guimaraes-arrival",

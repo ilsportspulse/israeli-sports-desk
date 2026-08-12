@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T09:10:14.802Z",
+  "generatedAt": "2026-08-12T10:18:30.550Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1289,
-    "publishedBefore": 930,
-    "cleanPublished": 922,
+    "totalArticles": 1294,
+    "publishedBefore": 932,
+    "cleanPublished": 924,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 930,
-    "reviewAfter": 359
+    "publishedAfter": 932,
+    "reviewAfter": 362
   },
   "blockedPublished": [
     {
@@ -157,6 +157,63 @@
   ],
   "warnings": [
     {
+      "id": "live-2026-08-12-ginat-injury-national-team",
+      "slug": "tomer-ginat-out-israel-basketball-world-cup-qualifiers",
+      "title": "Tomer Ginat to miss Israel's World Cup qualifying window with knee injury",
+      "statusBefore": "published",
+      "words": 319,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-12-liga-bet-2026-27-fixtures",
+      "slug": "liga-bet-2026-27-fixtures-published",
+      "title": "Liga Bet fixture list for 2026/27 season published, kick-off set for September 5",
+      "statusBefore": "review",
+      "words": 338,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-12-gorbenko-400im-final-europeans",
+      "slug": "gorbenko-qualifies-400m-medley-final-european-championships",
+      "title": "Gorbenko qualifies for 400m medley final at European Championships",
+      "statusBefore": "review",
+      "words": 312,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260812-lior-hershko-hapoel-jerusalem-loan-shomron",
+      "slug": "lior-hershko-signs-hapoel-jerusalem-loan-elitzur-shomron",
+      "title": "Hapoel Jerusalem sign teenage prospect Lior Hershko, loan him to Elitzur Shomron",
+      "statusBefore": "review",
+      "words": 241,
+      "paragraphs": 5,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
       "id": "live-2026-08-12-guy-kamchi-ayia-napa",
       "slug": "guy-kamchi-signs-ayia-napa-cyprus",
       "title": "Guy Kamchi signs with Cypriot club Ayia Napa to launch European career",
@@ -195,7 +252,8 @@
       "verificationSources": 4,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -12504,6 +12562,33 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-2026-08-12-haditaghi-hapoel-tel-aviv-ifa-complaint",
+      "slug": "haditaghi-hapoel-tel-aviv-post-ifa-uefa-complaint",
+      "title": "Pogoń Szczecin owner calls Hapoel Tel Aviv 'genocidal' before Katowice qualifier, Israeli FA reports him to UEFA",
+      "statusBefore": "published",
+      "words": 462,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-12-ginat-injury-national-team",
+      "slug": "tomer-ginat-out-israel-basketball-world-cup-qualifiers",
+      "title": "Tomer Ginat to miss Israel's World Cup qualifying window with knee injury",
+      "statusBefore": "published",
+      "words": 319,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-2026-08-12-maccabi-herzliya-sign-young-goalkeepers",
       "slug": "maccabi-herzliya-sign-young-goalkeepers-mesika-afrigan",
       "title": "Maccabi Herzliya add two teenage goalkeepers to the youth academy",
@@ -12528,7 +12613,8 @@
       "verificationSources": 4,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
