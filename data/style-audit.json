@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T14:10:25.589Z",
+  "generatedAt": "2026-08-12T15:01:37.784Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,7 +11,7 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 933,
+    "publishedArticles": 937,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
@@ -23,10 +23,10 @@
       "4": 6,
       "5": 10,
       "6": 44,
-      "7": 133,
+      "7": 134,
       "8": 269,
-      "9": 216,
-      "10": 158,
+      "9": 218,
+      "10": 159,
       "11": 40,
       "12": 13,
       "13": 4,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.288,
+    "dominantParagraphShare": 0.287,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 44,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 160
+    "articlesWithStyleFlags": 161
   },
   "flagged": [
     {
@@ -328,6 +328,29 @@
       "flags": [
         "below-editorial-target:227/280",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260812-israel-coaches-visit-perach-village",
+      "slug": "israel-national-team-coaches-visit-perach-village",
+      "title": "Ben-Shimon and Israel coaching staff visit Perach Israel special-needs village",
+      "kind": "news",
+      "words": 256,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 22,
+        "longest": 58,
+        "average": 36.6
+      },
+      "sentenceWords": {
+        "shortest": 14,
+        "longest": 51,
+        "average": 32
+      },
+      "lexicalDiversity": 0.605,
+      "publisherAttributions": 0,
+      "flags": [
+        "below-editorial-target:256/280"
       ]
     },
     {
@@ -3736,6 +3759,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260812-messi-father-jorge-tribute",
+      "slug": "lionel-messi-pays-tribute-to-father-jorge-after-his-death",
+      "title": "Messi bids farewell to his father: \"I have serious doubts whether I can continue\"",
+      "kind": "news",
+      "words": 527,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 91,
+        "average": 52.7
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 195,
+        "average": 43.9
+      },
+      "lexicalDiversity": 0.535,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260812-shtilman-recanati-documents-maccabi",
+      "slug": "shtilman-demands-documents-recanati-maccabi-tel-aviv-shares",
+      "title": "Rapyd's Shtilman demands Recanati family documents in Maccabi Tel Aviv shares fight",
+      "kind": "news",
+      "words": 445,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 16,
+        "longest": 77,
+        "average": 49.4
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 109,
+        "average": 37.1
+      },
+      "lexicalDiversity": 0.535,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260812-ronaldo-messi-father-tribute",
+      "slug": "ronaldo-message-messi-father-jorge-death",
+      "title": "Ronaldo's message of support for Messi after the death of his father, Jorge",
+      "kind": "news",
+      "words": 473,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 29,
+        "longest": 67,
+        "average": 52.6
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 55,
+        "average": 31.5
+      },
+      "lexicalDiversity": 0.573,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-20260812-chavarria-chelsea-vlahovic-besiktas",
       "slug": "chavarria-completes-chelsea-move-vlahovic-nears-besiktas",

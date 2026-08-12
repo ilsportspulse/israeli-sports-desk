@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-12T14:10:24Z",
-    "validUntil": "2026-08-13T02:10:24Z",
+    "checkedAt": "2026-08-12T15:01:36Z",
+    "validUntil": "2026-08-13T03:01:36Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 569,
+        "maxAgeHours": 570,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260812-chavarria-chelsea-vlahovic-besiktas",
+        "articleId": "live-20260812-messi-father-jorge-tribute",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 577,
+        "maxAgeHours": 578,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-12-haditaghi-hapoel-tel-aviv-ifa-complaint",
+        "articleId": "live-20260812-israel-coaches-visit-perach-village",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 587,
+        "maxAgeHours": 588,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-12-ginat-injury-national-team",
+        "articleId": "live-20260812-ronaldo-messi-father-tribute",
         "maxAgeHours": 24,
         "requires": []
       }
