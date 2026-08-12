@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T11:54:01.766Z",
+  "generatedAt": "2026-08-12T12:29:48.456Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1294,
-    "publishedBefore": 932,
-    "cleanPublished": 924,
+    "totalArticles": 1297,
+    "publishedBefore": 933,
+    "cleanPublished": 925,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 932,
-    "reviewAfter": 362
+    "publishedAfter": 933,
+    "reviewAfter": 364
   },
   "blockedPublished": [
     {
@@ -156,6 +156,20 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-2026-08-12-israel-reserve-water-polo-beat-great-britain",
+      "slug": "israel-reserve-water-polo-beat-great-britain-11-7",
+      "title": "Israel beat Great Britain 11-7 as reserve water polo team completes perfect start at European Championship",
+      "statusBefore": "review",
+      "words": 338,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-08-12-ginat-injury-national-team",
       "slug": "tomer-ginat-out-israel-basketball-world-cup-qualifiers",
@@ -12561,6 +12575,18 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-20260812-chavarria-chelsea-vlahovic-besiktas",
+      "slug": "chavarria-completes-chelsea-move-vlahovic-nears-besiktas",
+      "title": "Chavarría completes Chelsea move as Vlahović closes in on Beşiktaş",
+      "statusBefore": "published",
+      "words": 334,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-2026-08-12-haditaghi-hapoel-tel-aviv-ifa-complaint",
       "slug": "haditaghi-hapoel-tel-aviv-post-ifa-uefa-complaint",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T11:54:02.291Z",
+  "generatedAt": "2026-08-12T12:29:48.981Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 932,
+    "publishedArticles": 933,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 419,
-      "average": 424.6
+      "average": 424.5
     },
     "paragraphDistribution": {
       "3": 34,
@@ -25,7 +25,7 @@
       "6": 44,
       "7": 133,
       "8": 269,
-      "9": 215,
+      "9": 216,
       "10": 158,
       "11": 40,
       "12": 13,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.289,
+    "dominantParagraphShare": 0.288,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 44,
     "analysisBelowTarget": 9,
@@ -3736,6 +3736,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260812-chavarria-chelsea-vlahovic-besiktas",
+      "slug": "chavarria-completes-chelsea-move-vlahovic-nears-besiktas",
+      "title": "Chavarría completes Chelsea move as Vlahović closes in on Beşiktaş",
+      "kind": "news",
+      "words": 334,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 18,
+        "longest": 46,
+        "average": 37.1
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 42,
+        "average": 30.4
+      },
+      "lexicalDiversity": 0.62,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-12-haditaghi-hapoel-tel-aviv-ifa-complaint",
       "slug": "haditaghi-hapoel-tel-aviv-post-ifa-uefa-complaint",
