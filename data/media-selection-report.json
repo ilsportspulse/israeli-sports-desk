@@ -1,27 +1,21 @@
 {
   "selections": [
     {
-      "articleId": "live-20260812-israeli-football-fans-federation",
-      "article": "Fans take the field: new Israeli football supporters' federation launches at Bloomfield",
+      "articleId": "live-2026-08-12-bnei-yehuda-ashdod-toto-cup-halftime-hold",
+      "article": "Bnei Yehuda trail Ashdod 0-4 at the break in Toto Cup Leumit semi-final",
       "file": "File:Mecz piłkarski Wisła Kraków - Zagłębie Sosnwoiec, 28 października 2022, Pożegnanie Stadionu Ludowego, KP.jpg",
       "license": "CC BY 4.0"
     },
     {
-      "articleId": "live-2026-08-12-bundesliga-50-plus-1-rule-upheld",
-      "article": "Germany's antitrust watchdog upholds the Bundesliga's 50+1 ownership rule",
-      "file": "File:2013-04-18 Kaiser-Friedrich-Straße 16, Bonn IMG 0014.jpg",
-      "license": "CC BY-SA 3.0 de"
+      "articleId": "live-20260812-golovaty-200-free-euro-champs",
+      "article": "Daria Golovaty misses 200m freestyle final at European Championships",
+      "file": "File:Daria Golovati 1.jpg",
+      "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-2026-08-12-bnei-yehuda-ashdod-toto-cup-live",
-      "article": "Bnei Yehuda trail Ashdod as Toto Cup semi-final unfolds",
-      "file": "File:GiuseppeMeazzaNeazzurro.jpg",
-      "license": "CC BY 2.0"
-    },
-    {
-      "articleId": "live-2026-08-12-niraon-loan-maccabi-haifa",
-      "article": "Maccabi Haifa agree loan deal for Netanya goalkeeper Omer Niraon",
-      "file": "File:SammyOfer1.JPG",
+      "articleId": "live-2026-08-12-beitar-austria-wien-presser-preview",
+      "article": "Beitar boss Almog Cohen: 'We saw last week we need to make minimum mistakes'",
+      "file": "File:Shon Weissman.JPG",
       "license": "CC BY-SA 4.0"
     },
     {
@@ -34,8 +28,13 @@
   ],
   "failures": [
     {
-      "id": "live-20260812-daria-golovaty-200-free-semifinal",
-      "title": "Daria Golovaty just misses out on 200m freestyle final at European Championships",
+      "id": "live-20260812-omer-niron-maccabi-haifa-loan",
+      "title": "Maccabi Haifa complete loan deal for goalkeeper Omer Nir'on",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-2026-08-12-kounde-agent-barcelona-visit",
+      "title": "Jules Koundé's agent seen at Barcelona's training complex amid sale talk",
       "error": "image download 429 after retries"
     },
     {

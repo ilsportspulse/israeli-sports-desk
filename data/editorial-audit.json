@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T17:35:36.353Z",
+  "generatedAt": "2026-08-12T18:02:27.188Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -18,12 +18,12 @@
   },
   "summary": {
     "totalArticles": 1306,
-    "publishedBefore": 940,
-    "cleanPublished": 932,
+    "publishedBefore": 941,
+    "cleanPublished": 933,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 940,
-    "reviewAfter": 366
+    "publishedAfter": 941,
+    "reviewAfter": 365
   },
   "blockedPublished": [
     {
@@ -157,62 +157,63 @@
   ],
   "warnings": [
     {
-      "id": "live-20260812-israeli-football-fans-federation",
-      "slug": "israeli-football-fans-federation-launches-bloomfield",
-      "title": "Fans take the field: new Israeli football supporters' federation launches at Bloomfield",
+      "id": "live-2026-08-12-bnei-yehuda-ashdod-toto-cup-halftime-hold",
+      "slug": "bnei-yehuda-ashdod-toto-cup-semifinal-halftime-hold",
+      "title": "Bnei Yehuda trail Ashdod 0-4 at the break in Toto Cup Leumit semi-final",
       "statusBefore": "review",
-      "words": 437,
-      "paragraphs": 9,
+      "words": 18,
+      "paragraphs": 1,
       "facts": 5,
       "verificationSources": 1,
-      "blockers": [],
+      "blockers": [
+        "copy-depth:18/60-words",
+        "structure:1/3-paragraphs"
+      ],
       "warnings": [
-        "voice:publisher-attribution-heavy:2",
-        "voice:stock-editorial-phrase-detected"
+        "presentation:outlet-name-in-headline"
       ]
     },
     {
-      "id": "live-2026-08-12-bundesliga-50-plus-1-rule-upheld",
-      "slug": "bundesliga-50-plus-1-rule-upheld-german-cartel-office",
-      "title": "Germany's antitrust watchdog upholds the Bundesliga's 50+1 ownership rule",
+      "id": "live-20260812-golovaty-200-free-euro-champs",
+      "slug": "daria-golovaty-200m-freestyle-european-championships-miss-final",
+      "title": "Daria Golovaty misses 200m freestyle final at European Championships",
       "statusBefore": "published",
-      "words": 552,
-      "paragraphs": 9,
-      "facts": 7,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-12-bnei-yehuda-ashdod-toto-cup-live",
-      "slug": "bnei-yehuda-ashdod-toto-cup-live-update",
-      "title": "Bnei Yehuda trail Ashdod as Toto Cup semi-final unfolds",
-      "statusBefore": "review",
-      "words": 168,
-      "paragraphs": 5,
-      "facts": 5,
-      "verificationSources": 1,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline",
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-12-niraon-loan-maccabi-haifa",
-      "slug": "omer-niraon-loan-maccabi-haifa-second-goalkeeper",
-      "title": "Maccabi Haifa agree loan deal for Netanya goalkeeper Omer Niraon",
-      "statusBefore": "published",
-      "words": 326,
-      "paragraphs": 8,
-      "facts": 7,
+      "words": 268,
+      "paragraphs": 7,
+      "facts": 6,
       "verificationSources": 3,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline",
         "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-12-kounde-agent-barcelona-visit",
+      "slug": "jules-kounde-agent-spotted-barcelona-training-ground",
+      "title": "Jules Koundé's agent seen at Barcelona's training complex amid sale talk",
+      "statusBefore": "published",
+      "words": 283,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-08-12-beitar-austria-wien-presser-preview",
+      "slug": "beitar-jerusalem-austria-wien-return-leg-preview",
+      "title": "Beitar boss Almog Cohen: 'We saw last week we need to make minimum mistakes'",
+      "statusBefore": "published",
+      "words": 413,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
       ]
     },
     {
@@ -12635,25 +12636,25 @@
   ],
   "cleanPublished": [
     {
-      "id": "live-2026-08-12-bundesliga-50-plus-1-rule-upheld",
-      "slug": "bundesliga-50-plus-1-rule-upheld-german-cartel-office",
-      "title": "Germany's antitrust watchdog upholds the Bundesliga's 50+1 ownership rule",
+      "id": "live-20260812-golovaty-200-free-euro-champs",
+      "slug": "daria-golovaty-200m-freestyle-european-championships-miss-final",
+      "title": "Daria Golovaty misses 200m freestyle final at European Championships",
       "statusBefore": "published",
-      "words": 552,
-      "paragraphs": 9,
-      "facts": 7,
-      "verificationSources": 4,
+      "words": 268,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
     },
     {
-      "id": "live-20260812-daria-golovaty-200-free-semifinal",
-      "slug": "daria-golovaty-just-misses-200m-freestyle-final-european-championships",
-      "title": "Daria Golovaty just misses out on 200m freestyle final at European Championships",
+      "id": "live-20260812-omer-niron-maccabi-haifa-loan",
+      "slug": "omer-niron-maccabi-haifa-loan-move",
+      "title": "Maccabi Haifa complete loan deal for goalkeeper Omer Nir'on",
       "statusBefore": "published",
-      "words": 333,
+      "words": 230,
       "paragraphs": 6,
       "facts": 6,
       "verificationSources": 3,
@@ -12661,18 +12662,32 @@
       "warnings": []
     },
     {
-      "id": "live-2026-08-12-niraon-loan-maccabi-haifa",
-      "slug": "omer-niraon-loan-maccabi-haifa-second-goalkeeper",
-      "title": "Maccabi Haifa agree loan deal for Netanya goalkeeper Omer Niraon",
+      "id": "live-2026-08-12-kounde-agent-barcelona-visit",
+      "slug": "jules-kounde-agent-spotted-barcelona-training-ground",
+      "title": "Jules Koundé's agent seen at Barcelona's training complex amid sale talk",
       "statusBefore": "published",
-      "words": 326,
-      "paragraphs": 8,
-      "facts": 7,
+      "words": 283,
+      "paragraphs": 6,
+      "facts": 6,
       "verificationSources": 3,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline",
-        "media:no-action-or-competition-context-detected"
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-08-12-beitar-austria-wien-presser-preview",
+      "slug": "beitar-jerusalem-austria-wien-return-leg-preview",
+      "title": "Beitar boss Almog Cohen: 'We saw last week we need to make minimum mistakes'",
+      "statusBefore": "published",
+      "words": 413,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
       ]
     },
     {

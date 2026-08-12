@@ -3378,5 +3378,61 @@
         "reason": ""
       }
     ]
+  },
+  {
+    "ts": "2026-08-12T17:51:52.379Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 4,
+    "review": 1,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "beitar-jerusalem-austria-wien-return-leg-preview",
+        "title": "Beitar boss Almog Cohen: 'We saw last week we need to make minimum mistakes'",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "jules-kounde-agent-spotted-barcelona-training-ground",
+        "title": "Jules Koundé's agent seen at Barcelona's training complex amid sale talk",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "omer-niron-maccabi-haifa-loan-move",
+        "title": "Maccabi Haifa complete loan deal for goalkeeper Omer Nir'on",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "daria-golovaty-200m-freestyle-european-championships-miss-final",
+        "title": "Daria Golovaty misses 200m freestyle final at European Championships",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "bnei-yehuda-ashdod-toto-cup-semifinal-halftime-hold",
+        "title": "Bnei Yehuda trail Ashdod 0-4 at the break in Toto Cup Leumit semi-final",
+        "confidence": 0,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "match in progress — wait for full time"
+      }
+    ]
   }
 ]

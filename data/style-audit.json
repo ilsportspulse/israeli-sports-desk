@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T17:35:36.885Z",
+  "generatedAt": "2026-08-12T18:02:27.734Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 940,
+    "publishedArticles": 941,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 419,
-      "average": 424.4
+      "average": 424
     },
     "paragraphDistribution": {
       "3": 34,
       "4": 6,
       "5": 10,
-      "6": 45,
-      "7": 134,
-      "8": 270,
+      "6": 46,
+      "7": 135,
+      "8": 269,
       "9": 219,
       "10": 159,
       "11": 40,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.287,
+    "dominantParagraphShare": 0.286,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 45,
+    "exactSixParagraphArticles": 46,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 161
+    "articlesWithStyleFlags": 164
   },
   "flagged": [
     {
@@ -327,6 +327,75 @@
       "publisherAttributions": 2,
       "flags": [
         "below-editorial-target:227/280",
+        "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260812-golovaty-200-free-euro-champs",
+      "slug": "daria-golovaty-200m-freestyle-european-championships-miss-final",
+      "title": "Daria Golovaty misses 200m freestyle final at European Championships",
+      "kind": "article",
+      "words": 276,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 49,
+        "average": 39.4
+      },
+      "sentenceWords": {
+        "shortest": 15,
+        "longest": 34,
+        "average": 25.1
+      },
+      "lexicalDiversity": 0.565,
+      "publisherAttributions": 0,
+      "flags": [
+        "below-editorial-target:276/280"
+      ]
+    },
+    {
+      "id": "live-20260812-omer-niron-maccabi-haifa-loan",
+      "slug": "omer-niron-maccabi-haifa-loan-move",
+      "title": "Maccabi Haifa complete loan deal for goalkeeper Omer Nir'on",
+      "kind": "news",
+      "words": 231,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 47,
+        "average": 38.5
+      },
+      "sentenceWords": {
+        "shortest": 16,
+        "longest": 37,
+        "average": 25.7
+      },
+      "lexicalDiversity": 0.675,
+      "publisherAttributions": 0,
+      "flags": [
+        "below-editorial-target:231/280"
+      ]
+    },
+    {
+      "id": "live-2026-08-12-beitar-austria-wien-presser-preview",
+      "slug": "beitar-jerusalem-austria-wien-return-leg-preview",
+      "title": "Beitar boss Almog Cohen: 'We saw last week we need to make minimum mistakes'",
+      "kind": "news",
+      "words": 414,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 63,
+        "average": 46
+      },
+      "sentenceWords": {
+        "shortest": 15,
+        "longest": 112,
+        "average": 46
+      },
+      "lexicalDiversity": 0.577,
+      "publisherAttributions": 2,
+      "flags": [
         "publisher-attribution-heavy:2"
       ]
     },
@@ -3760,65 +3829,23 @@
   ],
   "clean": [
     {
-      "id": "live-2026-08-12-bundesliga-50-plus-1-rule-upheld",
-      "slug": "bundesliga-50-plus-1-rule-upheld-german-cartel-office",
-      "title": "Germany's antitrust watchdog upholds the Bundesliga's 50+1 ownership rule",
+      "id": "live-2026-08-12-kounde-agent-barcelona-visit",
+      "slug": "jules-kounde-agent-spotted-barcelona-training-ground",
+      "title": "Jules Koundé's agent seen at Barcelona's training complex amid sale talk",
       "kind": "news",
-      "words": 551,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 50,
-        "longest": 70,
-        "average": 61.2
-      },
-      "sentenceWords": {
-        "shortest": 6,
-        "longest": 50,
-        "average": 26.2
-      },
-      "lexicalDiversity": 0.586,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260812-daria-golovaty-200-free-semifinal",
-      "slug": "daria-golovaty-just-misses-200m-freestyle-final-european-championships",
-      "title": "Daria Golovaty just misses out on 200m freestyle final at European Championships",
-      "kind": "news",
-      "words": 341,
+      "words": 283,
       "paragraphs": 6,
       "paragraphWords": {
-        "shortest": 46,
-        "longest": 75,
-        "average": 56.8
+        "shortest": 38,
+        "longest": 56,
+        "average": 47.2
       },
       "sentenceWords": {
-        "shortest": 22,
-        "longest": 60,
-        "average": 37.9
+        "shortest": 8,
+        "longest": 49,
+        "average": 31.4
       },
-      "lexicalDiversity": 0.566,
-      "publisherAttributions": 1,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-12-niraon-loan-maccabi-haifa",
-      "slug": "omer-niraon-loan-maccabi-haifa-second-goalkeeper",
-      "title": "Maccabi Haifa agree loan deal for Netanya goalkeeper Omer Niraon",
-      "kind": "news",
-      "words": 327,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 25,
-        "longest": 61,
-        "average": 40.9
-      },
-      "sentenceWords": {
-        "shortest": 10,
-        "longest": 45,
-        "average": 29.7
-      },
-      "lexicalDiversity": 0.621,
+      "lexicalDiversity": 0.682,
       "publisherAttributions": 0,
       "flags": []
     },

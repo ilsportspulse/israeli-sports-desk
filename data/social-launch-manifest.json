@@ -146,8 +146,8 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-12T17:35:35Z",
-    "validUntil": "2026-08-13T05:35:35Z",
+    "checkedAt": "2026-08-12T18:02:26Z",
+    "validUntil": "2026-08-13T06:02:26Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
@@ -160,21 +160,21 @@
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-12-bundesliga-50-plus-1-rule-upheld",
+        "articleId": "live-20260812-golovaty-200-free-euro-champs",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 580,
+        "maxAgeHours": 581,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-12-niraon-loan-maccabi-haifa",
+        "articleId": "live-20260812-omer-niron-maccabi-haifa-loan",
         "maxAgeHours": 24,
         "requires": []
       },
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260812-messi-father-jorge-tribute",
+        "articleId": "live-2026-08-12-beitar-austria-wien-presser-preview",
         "maxAgeHours": 24,
         "requires": []
       }
