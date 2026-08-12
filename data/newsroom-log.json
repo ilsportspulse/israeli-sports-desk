@@ -1,5 +1,45 @@
 [
   {
+    "ts": "2026-08-12T04:27:22.015Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 3,
+    "published": 1,
+    "review": 2,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "hapoel-beer-sheva-transfer-spending-plans-champions-league-windfall",
+        "title": "Hapoel Be'er Sheva plot spending spree after Champions League windfall",
+        "confidence": 0.78,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Transfer targets and Korn's departure are reported plans, not confirmed signings; fees and contract terms are not yet official."
+      },
+      {
+        "slug": "hapoel-beer-sheva-red-star-belgrade-champions-league-playoff",
+        "title": "Hapoel Beer Sheva beat Red Star Belgrade 2-0 (3-0 agg) to reach Champions League playoff round",
+        "confidence": 0.9,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "English transliteration of second-leg scorer 'Jevon Eisht' is a best-effort rendering of the Hebrew ג'בון איסט; official Latin-alphabet spelling not yet confirmed against a club or UEFA squad list."
+      },
+      {
+        "slug": "hapoel-beer-sheva-red-star-belgrade-2-0-champions-league-playoff",
+        "title": "Hapoel Beer Sheva stun Red Star Belgrade 2-0 to reach Champions League playoff round",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-08-12T00:14:41.937Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -3404,77 +3444,6 @@
         "slug": "rafael-aronov-oktagon-debut-tko-miroslav-broz",
         "title": "Israeli fighter Rafael Aronov stops Miroslav Broz in under two minutes on OKTAGON debut",
         "decision": "duplicate"
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-02T11:54:36.692Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 8,
-    "published": 2,
-    "review": 3,
-    "skipped": 3,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "maccabi-haifa-tactical-rethink-pundit-toto-cup-goalkeeper-crisis",
-        "title": "Only donkeys don't change their minds: pundit backs Maccabi Haifa's tactical rethink",
-        "confidence": 0.78,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Backup goalkeeper suggestions (Josh Cohen, Gad Amos) are the pundit's personal recommendations, not confirmed club targets."
-      },
-      {
-        "slug": "beitar-kornfein-defends-miguel-silva-larnaca-penalties",
-        "title": "Beitar right to stand by Miguel Silva after Larnaca shootout drama, says Kornfein",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "kings-kangwa-panathinaikos-transfer-beer-sheva-offer",
-        "title": "Kings Kangwa turned down a big Beer Sheva offer to join Panathinaikos",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "berkovic-haifa-beitar-forecast",
-        "title": "Berkovic predicts a battle for 4th-8th at Maccabi Haifa, calls Beitar's Almog Cohen gamble a mistake",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "dor-turgeman-father-defends-goal-celebration-montreal-abuse",
-        "title": "Dor Turgeman's father plays down Montreal abuse: 'Only a small handful cursed him'",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "israel-turkey-u18-basketball-in-progress-held",
-        "title": "Israel lead Turkey 29-26 in second quarter at U18 European Championship — match in progress",
-        "confidence": 0,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "match in progress — wait for full time"
-      },
-      {
-        "slug": "beitar-jerusalem-austria-wien-conference-league-preview",
-        "title": "Unbothered by Vienna's mind games, Beitar Jerusalem prepare for Austria Wien test",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "tiberias-squad-too-thin-for-league",
-        "title": "Tiberias admit their squad is too small to survive in the league",
-        "confidence": 0.82,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Spelling of the new signing's name (Gal Ma'atuk) and Ron Unger's injury detail rest on ONE alone and were not independently cross-confirmed; exact kickoff time for the Maccabi Haifa fixture was not confirmed and is omitted."
       }
     ]
   }

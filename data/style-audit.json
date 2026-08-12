@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T03:10:00.052Z",
+  "generatedAt": "2026-08-12T04:38:46.923Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 923,
+    "publishedArticles": 924,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 419,
-      "average": 424.4
+      "median": 419.5,
+      "average": 424.8
     },
     "paragraphDistribution": {
       "3": 34,
@@ -25,8 +25,8 @@
       "6": 43,
       "7": 132,
       "8": 264,
-      "9": 215,
-      "10": 156,
+      "9": 214,
+      "10": 158,
       "11": 40,
       "12": 13,
       "13": 4,
@@ -3714,6 +3714,48 @@
   ],
   "clean": [
     {
+      "id": "live-20260812-hapoel-beer-sheva-red-star-champions-league",
+      "slug": "hapoel-beer-sheva-red-star-belgrade-2-0-champions-league-playoff",
+      "title": "Hapoel Beer Sheva stun Red Star Belgrade 2-0 to reach Champions League playoff round",
+      "kind": "article",
+      "words": 448,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 64,
+        "average": 44.8
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 91,
+        "average": 44.8
+      },
+      "lexicalDiversity": 0.594,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "archive-20260812-savannah-29-july-1996-the-bronze-that-wi",
+      "slug": "savannah-29-july-1996-the-bronze-that-widened-israel-s-olympic-horizon",
+      "title": "Savannah, 29 July 1996: The Bronze That Widened Israel's Olympic Horizons",
+      "kind": "explainer",
+      "words": 804,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 63,
+        "longest": 100,
+        "average": 80.4
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 60,
+        "average": 26.8
+      },
+      "lexicalDiversity": 0.471,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
       "id": "live-2026-08-12-barcelona-psg-ferran-torres-transfer",
       "slug": "barcelona-psg-ferran-torres-transfer-agreement",
       "title": "Barcelona and PSG reach agreement in principle over Ferran Torres transfer",
@@ -3731,27 +3773,6 @@
         "average": 30.3
       },
       "lexicalDiversity": 0.566,
-      "publisherAttributions": 1,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-12-red-star-belgrade-sack-stankovic-hapoel-beer-sheva",
-      "slug": "red-star-belgrade-sack-dejan-stankovic-hapoel-beer-sheva-champions-league",
-      "title": "Red Star Belgrade move to sack Dejan Stanković after 3-0 aggregate exit to Hapoel Beer Sheva",
-      "kind": "news",
-      "words": 485,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 36,
-        "longest": 71,
-        "average": 53.9
-      },
-      "sentenceWords": {
-        "shortest": 8,
-        "longest": 55,
-        "average": 32.3
-      },
-      "lexicalDiversity": 0.501,
       "publisherAttributions": 1,
       "flags": []
     },

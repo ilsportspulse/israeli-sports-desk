@@ -1,67 +1,67 @@
 {
-  "date": "2026-08-11",
+  "date": "2026-08-12",
   "title": "The Daily Five",
-  "dek": "Five questions on today's biggest Israeli sports stories, from a chess board in Dresden to a high jump pit in Birmingham.",
+  "dek": "Five questions on Israeli sport, from a Wassaw Sound windsurfing bronze to a Belgrade upset thirty years later.",
   "questions": [
     {
-      "question": "In which city did Israel's senior open team win its first-ever team medal at a Chess Olympiad?",
+      "question": "What medal did Gal Fridman win in windsurfing at the 1996 Atlanta Olympics?",
       "answers": [
-        "Dresden",
-        "Munich",
-        "Tromsø",
-        "Batumi"
+        "Gold",
+        "Silver",
+        "Bronze",
+        "He finished fourth"
       ],
-      "correctIndex": 0,
-      "explanation": "Israel took silver at the 38th Chess Olympiad, held in Dresden, Germany from 12–25 November 2008.",
-      "sourceUrl": "https://www.jpost.com/israel/israel-wins-silver-at-chess-olympiad"
+      "correctIndex": 2,
+      "explanation": "Fridman took bronze in the Men's Mistral One Design class off Savannah, Israel's only medal of the 1996 Games, before winning gold in the same class at Athens 2004.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Gal_Fridman"
     },
     {
-      "question": "Which Premier League club has reportedly agreed a fee of roughly £21m for Israel international Anan Khalaili?",
+      "question": "By what aggregate score did Hapoel Beer Sheva eliminate Red Star Belgrade from Champions League qualifying?",
       "answers": [
-        "Crystal Palace",
-        "Everton",
-        "Aston Villa",
-        "Newcastle United"
+        "3-0",
+        "2-1",
+        "4-1",
+        "1-0"
       ],
       "correctIndex": 0,
-      "explanation": "Crystal Palace beat out Everton, Aston Villa and Newcastle to sign Khalaili from Union Saint-Gilloise, making him the most expensive Israeli player in history.",
-      "sourceUrl": "https://www.one.co.il/Article/530334.html"
+      "explanation": "Beer Sheva won 1-0 away in the first leg and 2-0 at home in the second, a 3-0 aggregate that prompted Red Star's board to move to sack Dejan Stanković.",
+      "sourceUrl": "https://www.one.co.il/Article/530395.html"
     },
     {
-      "question": "Ariel Berkovich, just promoted to Maccabi Ironi Ramat Gan's senior squad, is the grandson of which Israeli basketball legend?",
+      "question": "Ariel Berkovich, grandson of Israeli basketball legend Miki Berkovich, was just promoted to the senior squad of which club?",
       "answers": [
-        "Miki Berkovich",
-        "Papi Turgeman",
-        "Tal Brody",
-        "Motti Aroesti"
+        "Maccabi Tel Aviv",
+        "Hapoel Jerusalem",
+        "Maccabi Ironi Ramat Gan",
+        "Hapoel Gezer/Naan"
       ],
-      "correctIndex": 0,
-      "explanation": "Ariel Berkovich is the grandson of Miki Berkovich, the Maccabi Tel Aviv and Israel great who won 16 Israeli titles and two European Champions Cups.",
+      "correctIndex": 2,
+      "explanation": "The 17-year-old point guard was promoted to Maccabi Ironi Ramat Gan's senior squad while simultaneously registered with Hapoel Gezer/Naan under the double-roster rule.",
       "sourceUrl": "https://www.one.co.il/Article/530359.html"
     },
     {
-      "question": "What is Yonathan Kapitolnik's personal best in the high jump, set indoors in 2025?",
+      "question": "Which Premier League club agreed a fee with Union Saint-Gilloise for Israel international Anan Khalaili?",
       "answers": [
-        "2.31m",
-        "2.30m",
-        "2.23m",
-        "2.25m"
+        "Everton",
+        "Aston Villa",
+        "Newcastle United",
+        "Crystal Palace"
       ],
-      "correctIndex": 0,
-      "explanation": "Kapitolnik, who qualified for the high jump final at the 2026 European Championships in Birmingham, holds an indoor personal best of 2.31m from 2025.",
-      "sourceUrl": "https://www.one.co.il/Article/530352.html"
+      "correctIndex": 3,
+      "explanation": "Crystal Palace agreed a fee of roughly £21m, beating out Everton, Aston Villa and Newcastle to sign Khalaili, who would become the most expensive Israeli player in history.",
+      "sourceUrl": "https://www.one.co.il/Article/530334.html"
     },
     {
-      "question": "Who scored the only goal as Hapoel Beer Sheva beat Crvena Zvezda 1-0 in the first leg of their European tie?",
+      "question": "At the 2008 Chess Olympiad in Dresden, which nation finished one point ahead of Israel's silver-medal team to take gold?",
       "answers": [
-        "Zahi Ahmed",
-        "Matan Baltaksa",
-        "Eliel Peretz",
-        "Derrick Luckassen"
+        "United States",
+        "Netherlands",
+        "Ukraine",
+        "Armenia"
       ],
-      "correctIndex": 0,
-      "explanation": "Zahi Ahmed scored in the 38th minute in Szombathely, Hungary, giving Beer Sheva a slim lead ahead of the second leg in Belgrade.",
-      "sourceUrl": "https://www.one.co.il/Article/530338.html"
+      "correctIndex": 3,
+      "explanation": "Israel's open team took silver with 18 match points, one behind gold medallists Armenia on 19 — the first team medal in the history of Israel's senior open squad.",
+      "sourceUrl": "https://www.jpost.com/israel/israel-wins-silver-at-chess-olympiad"
     }
   ]
 }
