@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T04:56:31.279Z",
+  "generatedAt": "2026-08-12T07:38:24.523Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1280,
-    "publishedBefore": 926,
-    "cleanPublished": 918,
+    "totalArticles": 1289,
+    "publishedBefore": 930,
+    "cleanPublished": 922,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 926,
-    "reviewAfter": 354
+    "publishedAfter": 930,
+    "reviewAfter": 359
   },
   "blockedPublished": [
     {
@@ -157,32 +157,115 @@
   ],
   "warnings": [
     {
-      "id": "live-20260812-hapoel-beer-sheva-transfer-plans",
-      "slug": "hapoel-beer-sheva-transfer-plans-champions-league-money",
-      "title": "Hapoel Beer Sheva plan to spend Champions League windfall on new signings",
-      "statusBefore": "published",
-      "words": 380,
-      "paragraphs": 8,
-      "facts": 6,
-      "verificationSources": 3,
+      "id": "live-2026-08-12-guy-kamchi-ayia-napa",
+      "slug": "guy-kamchi-signs-ayia-napa-cyprus",
+      "title": "Guy Kamchi signs with Cypriot club Ayia Napa to launch European career",
+      "statusBefore": "review",
+      "words": 260,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 2,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline",
-        "media:no-action-or-competition-context-detected",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-12-maccabi-herzliya-sign-young-goalkeepers",
+      "slug": "maccabi-herzliya-sign-young-goalkeepers-mesika-afrigan",
+      "title": "Maccabi Herzliya add two teenage goalkeepers to the youth academy",
+      "statusBefore": "published",
+      "words": 189,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-12-zubimendi-arsenal-future-guimaraes",
+      "slug": "zubimendi-arsenal-future-clouded-by-guimaraes-arrival",
+      "title": "Zubimendi's Arsenal future clouded by Bruno Guimarães arrival, ONE reports",
+      "statusBefore": "published",
+      "words": 416,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-20260812-abu-farhi-colorado-rapids-mls-transfer",
+      "slug": "sayed-abu-farhi-colorado-rapids-mls-transfer-awaits-approval",
+      "title": "Abu Farhi transfer terms agreed as Maccabi Tel Aviv striker awaits MLS sign-off on Colorado Rapids move",
+      "statusBefore": "published",
+      "words": 436,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-08-12-sabah-beat-aarhus-set-up-beer-sheva-playoff",
+      "slug": "sabah-beat-aarhus-champions-league-playoff-hapoel-beer-sheva",
+      "title": "Sabah thrash Aarhus 4-0 to set up Champions League play-off duel with Hapoel Beer Sheva",
+      "statusBefore": "review",
+      "words": 400,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
         "voice:publisher-attribution-heavy:2"
       ]
     },
     {
-      "id": "live-20260812-charlotte-pachuca-leagues-cup",
-      "slug": "charlotte-fc-pachuca-leagues-cup-late-loss",
-      "title": "Pachuca 1-0 Charlotte FC: Abada and Toklomati start as Bautista snatches stoppage-time winner",
+      "id": "live-20260812-hapoel-beer-sheva-red-star-champions-league",
+      "slug": "hapoel-beer-sheva-red-star-belgrade-2-0-champions-league-playoff",
+      "title": "Hapoel Beer Sheva stun Red Star Belgrade 2-0 to reach Champions League playoff round",
       "statusBefore": "published",
-      "words": 371,
-      "paragraphs": 8,
+      "words": 456,
+      "paragraphs": 10,
       "facts": 6,
-      "verificationSources": 3,
+      "verificationSources": 5,
       "blockers": [],
       "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-12-hapoel-beer-sheva-red-star-belgrade-champions-league-playoff",
+      "slug": "hapoel-beer-sheva-red-star-belgrade-champions-league-playoff",
+      "title": "Hapoel Beer Sheva beat Red Star Belgrade 2-0 (3-0 agg) to reach Champions League playoff round",
+      "statusBefore": "review",
+      "words": 412,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260812-hapoel-beer-sheva-transfer-spending-plans",
+      "slug": "hapoel-beer-sheva-transfer-spending-plans-champions-league-windfall",
+      "title": "Hapoel Be'er Sheva plot spending spree after Champions League windfall",
+      "statusBefore": "review",
+      "words": 432,
+      "paragraphs": 11,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
         "media:no-action-or-competition-context-detected"
       ]
     },
@@ -204,7 +287,7 @@
       "id": "live-2026-08-12-red-star-belgrade-sack-stankovic-hapoel-beer-sheva",
       "slug": "red-star-belgrade-sack-dejan-stankovic-hapoel-beer-sheva-champions-league",
       "title": "Red Star Belgrade move to sack Dejan Stanković after 3-0 aggregate exit to Hapoel Beer Sheva",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 489,
       "paragraphs": 9,
       "facts": 6,
@@ -12388,9 +12471,7 @@
         "presentation:outlet-name-in-headline",
         "voice:publisher-attribution-heavy:3"
       ]
-    }
-  ],
-  "cleanPublished": [
+    },
     {
       "id": "live-20260812-hapoel-beer-sheva-transfer-plans",
       "slug": "hapoel-beer-sheva-transfer-plans-champions-league-money",
@@ -12403,7 +12484,6 @@
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline",
-        "media:no-action-or-competition-context-detected",
         "voice:publisher-attribution-heavy:2"
       ]
     },
@@ -12420,16 +12500,74 @@
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
+    }
+  ],
+  "cleanPublished": [
+    {
+      "id": "live-2026-08-12-maccabi-herzliya-sign-young-goalkeepers",
+      "slug": "maccabi-herzliya-sign-young-goalkeepers-mesika-afrigan",
+      "title": "Maccabi Herzliya add two teenage goalkeepers to the youth academy",
+      "statusBefore": "published",
+      "words": 189,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
-      "id": "archive-20260812-wimbledon-8-july-2006-the-mixed-doubles-",
-      "slug": "wimbledon-8-july-2006-the-mixed-doubles-final-that-made-andy-ram-israe",
-      "title": "Wimbledon, 8 July 2006: The Mixed Doubles Final That Made Andy Ram Israel's First Grand Slam Champion",
+      "id": "live-2026-08-12-zubimendi-arsenal-future-guimaraes",
+      "slug": "zubimendi-arsenal-future-clouded-by-guimaraes-arrival",
+      "title": "Zubimendi's Arsenal future clouded by Bruno Guimarães arrival, ONE reports",
       "statusBefore": "published",
-      "words": 630,
+      "words": 416,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-20260812-abu-farhi-colorado-rapids-mls-transfer",
+      "slug": "sayed-abu-farhi-colorado-rapids-mls-transfer-awaits-approval",
+      "title": "Abu Farhi transfer terms agreed as Maccabi Tel Aviv striker awaits MLS sign-off on Colorado Rapids move",
+      "statusBefore": "published",
+      "words": 436,
       "paragraphs": 8,
       "facts": 6,
-      "verificationSources": 3,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-20260812-hapoel-beer-sheva-red-star-champions-league",
+      "slug": "hapoel-beer-sheva-red-star-belgrade-2-0-champions-league-playoff",
+      "title": "Hapoel Beer Sheva stun Red Star Belgrade 2-0 to reach Champions League playoff round",
+      "statusBefore": "published",
+      "words": 456,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "archive-20260812-savannah-29-july-1996-the-bronze-that-wi",
+      "slug": "savannah-29-july-1996-the-bronze-that-widened-israel-s-olympic-horizon",
+      "title": "Savannah, 29 July 1996: The Bronze That Widened Israel's Olympic Horizons",
+      "statusBefore": "published",
+      "words": 813,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 5,
       "blockers": [],
       "warnings": []
     },
@@ -12444,21 +12582,6 @@
       "verificationSources": 4,
       "blockers": [],
       "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-12-red-star-belgrade-sack-stankovic-hapoel-beer-sheva",
-      "slug": "red-star-belgrade-sack-dejan-stankovic-hapoel-beer-sheva-champions-league",
-      "title": "Red Star Belgrade move to sack Dejan Stanković after 3-0 aggregate exit to Hapoel Beer Sheva",
-      "statusBefore": "published",
-      "words": 489,
-      "paragraphs": 9,
-      "facts": 6,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline",
         "media:no-action-or-competition-context-detected"
       ]
     },
@@ -24807,6 +24930,47 @@
         "presentation:outlet-name-in-headline",
         "voice:publisher-attribution-heavy:3"
       ]
+    },
+    {
+      "id": "live-20260812-hapoel-beer-sheva-transfer-plans",
+      "slug": "hapoel-beer-sheva-transfer-plans-champions-league-money",
+      "title": "Hapoel Beer Sheva plan to spend Champions League windfall on new signings",
+      "statusBefore": "published",
+      "words": 380,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260812-charlotte-pachuca-leagues-cup",
+      "slug": "charlotte-fc-pachuca-leagues-cup-late-loss",
+      "title": "Pachuca 1-0 Charlotte FC: Abada and Toklomati start as Bautista snatches stoppage-time winner",
+      "statusBefore": "published",
+      "words": 371,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "archive-20260812-wimbledon-8-july-2006-the-mixed-doubles-",
+      "slug": "wimbledon-8-july-2006-the-mixed-doubles-final-that-made-andy-ram-israe",
+      "title": "Wimbledon, 8 July 2006: The Mixed Doubles Final That Made Andy Ram Israel's First Grand Slam Champion",
+      "statusBefore": "published",
+      "words": 630,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
     }
   ]
 }

@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-12T04:56:30Z",
-    "validUntil": "2026-08-12T16:56:30Z",
+    "checkedAt": "2026-08-12T07:38:24Z",
+    "validUntil": "2026-08-12T19:38:24Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 560,
+        "maxAgeHours": 563,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260812-hapoel-beer-sheva-transfer-plans",
+        "articleId": "live-2026-08-12-maccabi-herzliya-sign-young-goalkeepers",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 568,
+        "maxAgeHours": 570,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260812-charlotte-pachuca-leagues-cup",
+        "articleId": "live-20260812-abu-farhi-colorado-rapids-mls-transfer",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 578,
+        "maxAgeHours": 581,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-12-barcelona-psg-ferran-torres-transfer",
+        "articleId": "live-20260812-charlotte-pachuca-leagues-cup",
         "maxAgeHours": 24,
         "requires": []
       }
