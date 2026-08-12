@@ -1,21 +1,15 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-08-11-hapoel-tel-aviv-katowice-preview",
-      "article": "Barda warns Hapoel Tel Aviv's 2-0 lead over Katowice guarantees nothing",
-      "file": "File:SM Caen Tifo 15 ans du MNK.jpg",
-      "license": "CC BY-SA 3.0"
-    },
-    {
-      "articleId": "live-2026-08-11-akko-herzliya-toto-cup-final",
-      "article": "Hapoel Akko beat Maccabi Herzliya 2-0 to reach Toto Cup Leumit final",
-      "file": "File:אצטדיון עכו מבט מלמעלה.jpg",
+      "articleId": "live-2026-08-12-barcelona-psg-ferran-torres-transfer",
+      "article": "Barcelona and PSG reach agreement in principle over Ferran Torres transfer",
+      "file": "File:Ferran Torres Argentina v Spain 19 July 2026-233.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-2026-08-11-fantasy-laliga-star-value",
-      "article": "The temptation of fantasy: is splashing out on stars worth the return?",
-      "file": "File:SM Caen Tifo 15 ans du MNK.jpg",
+      "articleId": "live-2026-08-12-red-star-belgrade-sack-stankovic-hapoel-beer-sheva",
+      "article": "Red Star Belgrade move to sack Dejan Stanković after 3-0 aggregate exit to Hapoel Beer Sheva",
+      "file": "File:FC Zenit Saint Petersburg vs. Red Star Belgrade, 3 July 2022 09.jpg",
       "license": "CC BY-SA 3.0"
     },
     {
@@ -27,16 +21,6 @@
     }
   ],
   "failures": [
-    {
-      "id": "live-20260811-red-star-beer-sheva-hold",
-      "title": "Hapoel Beer Sheva's Champions League bid hangs in the balance in Belgrade return leg",
-      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
-    },
-    {
-      "id": "live-20260811-elche-maccabi-revivo-talks-cool",
-      "title": "Elche's pursuit of Maccabi Tel Aviv's Roy Revivo cools as fee gap persists",
-      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
-    },
     {
       "id": "live-20260811-anan-khalaili-crystal-palace-natural-fit",
       "title": "'Natural fit': the thinking behind Crystal Palace's move for Anan Khalaili",
@@ -240,6 +224,11 @@
     {
       "id": "live-2026-08-10-solomon-peretz-israeli-derby-carabao-cup",
       "title": "West Ham's Manor Solomon and Southampton's Daniel Peretz set for England's first Israeli derby",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-20260811-red-star-beer-sheva-hold",
+      "title": "Hapoel Beer Sheva's Champions League bid hangs in the balance in Belgrade return leg",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T23:09:48.080Z",
+  "generatedAt": "2026-08-12T00:25:31.248Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1275,
-    "publishedBefore": 922,
-    "cleanPublished": 914,
+    "totalArticles": 1277,
+    "publishedBefore": 923,
+    "cleanPublished": 915,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 922,
-    "reviewAfter": 353
+    "publishedAfter": 923,
+    "reviewAfter": 354
   },
   "blockedPublished": [
     {
@@ -156,6 +156,35 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-2026-08-12-barcelona-psg-ferran-torres-transfer",
+      "slug": "barcelona-psg-ferran-torres-transfer-agreement",
+      "title": "Barcelona and PSG reach agreement in principle over Ferran Torres transfer",
+      "statusBefore": "published",
+      "words": 425,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-12-red-star-belgrade-sack-stankovic-hapoel-beer-sheva",
+      "slug": "red-star-belgrade-sack-dejan-stankovic-hapoel-beer-sheva-champions-league",
+      "title": "Red Star Belgrade move to sack Dejan Stanković after 3-0 aggregate exit to Hapoel Beer Sheva",
+      "statusBefore": "published",
+      "words": 489,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-08-11-red-star-belgrade-hapoel-beer-sheva-second-leg",
       "slug": "red-star-belgrade-hapoel-beer-sheva-champions-league-qualifier-second-leg",
@@ -12291,7 +12320,7 @@
       "id": "live-2026-08-11-hapoel-tel-aviv-katowice-preview",
       "slug": "hapoel-tel-aviv-katowice-conference-league-return-leg-preview",
       "title": "Barda warns Hapoel Tel Aviv's 2-0 lead over Katowice guarantees nothing",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 322,
       "paragraphs": 7,
       "facts": 6,
@@ -12332,6 +12361,35 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-12-barcelona-psg-ferran-torres-transfer",
+      "slug": "barcelona-psg-ferran-torres-transfer-agreement",
+      "title": "Barcelona and PSG reach agreement in principle over Ferran Torres transfer",
+      "statusBefore": "published",
+      "words": 425,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-12-red-star-belgrade-sack-stankovic-hapoel-beer-sheva",
+      "slug": "red-star-belgrade-sack-dejan-stankovic-hapoel-beer-sheva-champions-league",
+      "title": "Red Star Belgrade move to sack Dejan Stanković after 3-0 aggregate exit to Hapoel Beer Sheva",
+      "statusBefore": "published",
+      "words": 489,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260811-hapoel-tel-aviv-katowice-preview",
       "slug": "hapoel-tel-aviv-katowice-conference-league-second-leg-preview",
@@ -24648,20 +24706,6 @@
       "verificationSources": 3,
       "blockers": [],
       "warnings": []
-    },
-    {
-      "id": "live-2026-08-11-hapoel-tel-aviv-katowice-preview",
-      "slug": "hapoel-tel-aviv-katowice-conference-league-return-leg-preview",
-      "title": "Barda warns Hapoel Tel Aviv's 2-0 lead over Katowice guarantees nothing",
-      "statusBefore": "published",
-      "words": 322,
-      "paragraphs": 7,
-      "facts": 6,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
     },
     {
       "id": "live-2026-08-11-akko-herzliya-toto-cup-final",
