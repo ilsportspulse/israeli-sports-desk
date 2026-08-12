@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T16:29:23.493Z",
+  "generatedAt": "2026-08-12T17:35:36.353Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1301,
-    "publishedBefore": 937,
-    "cleanPublished": 929,
+    "totalArticles": 1306,
+    "publishedBefore": 940,
+    "cleanPublished": 932,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 937,
-    "reviewAfter": 364
+    "publishedAfter": 940,
+    "reviewAfter": 366
   },
   "blockedPublished": [
     {
@@ -156,6 +156,65 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-20260812-israeli-football-fans-federation",
+      "slug": "israeli-football-fans-federation-launches-bloomfield",
+      "title": "Fans take the field: new Israeli football supporters' federation launches at Bloomfield",
+      "statusBefore": "review",
+      "words": 437,
+      "paragraphs": 9,
+      "facts": 5,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2",
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-12-bundesliga-50-plus-1-rule-upheld",
+      "slug": "bundesliga-50-plus-1-rule-upheld-german-cartel-office",
+      "title": "Germany's antitrust watchdog upholds the Bundesliga's 50+1 ownership rule",
+      "statusBefore": "published",
+      "words": 552,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-12-bnei-yehuda-ashdod-toto-cup-live",
+      "slug": "bnei-yehuda-ashdod-toto-cup-live-update",
+      "title": "Bnei Yehuda trail Ashdod as Toto Cup semi-final unfolds",
+      "statusBefore": "review",
+      "words": 168,
+      "paragraphs": 5,
+      "facts": 5,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-12-niraon-loan-maccabi-haifa",
+      "slug": "omer-niraon-loan-maccabi-haifa-second-goalkeeper",
+      "title": "Maccabi Haifa agree loan deal for Netanya goalkeeper Omer Niraon",
+      "statusBefore": "published",
+      "words": 326,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-08-12-israel-reserve-water-polo-beat-great-britain",
       "slug": "israel-reserve-water-polo-beat-great-britain-11-7",
@@ -12575,6 +12634,47 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-12-bundesliga-50-plus-1-rule-upheld",
+      "slug": "bundesliga-50-plus-1-rule-upheld-german-cartel-office",
+      "title": "Germany's antitrust watchdog upholds the Bundesliga's 50+1 ownership rule",
+      "statusBefore": "published",
+      "words": 552,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260812-daria-golovaty-200-free-semifinal",
+      "slug": "daria-golovaty-just-misses-200m-freestyle-final-european-championships",
+      "title": "Daria Golovaty just misses out on 200m freestyle final at European Championships",
+      "statusBefore": "published",
+      "words": 333,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-12-niraon-loan-maccabi-haifa",
+      "slug": "omer-niraon-loan-maccabi-haifa-second-goalkeeper",
+      "title": "Maccabi Haifa agree loan deal for Netanya goalkeeper Omer Niraon",
+      "statusBefore": "published",
+      "words": 326,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260812-messi-father-jorge-tribute",
       "slug": "lionel-messi-pays-tribute-to-father-jorge-after-his-death",

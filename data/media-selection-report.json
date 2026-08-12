@@ -1,22 +1,28 @@
 {
   "selections": [
     {
-      "articleId": "live-20260812-messi-father-jorge-tribute",
-      "article": "Messi bids farewell to his father: \"I have serious doubts whether I can continue\"",
-      "file": "File:Lionel Messi 20180626.jpg",
-      "license": "CC BY-SA 3.0"
+      "articleId": "live-20260812-israeli-football-fans-federation",
+      "article": "Fans take the field: new Israeli football supporters' federation launches at Bloomfield",
+      "file": "File:Mecz piłkarski Wisła Kraków - Zagłębie Sosnwoiec, 28 października 2022, Pożegnanie Stadionu Ludowego, KP.jpg",
+      "license": "CC BY 4.0"
     },
     {
-      "articleId": "live-20260812-israel-coaches-visit-perach-village",
-      "article": "Ben-Shimon and Israel coaching staff visit Perach Israel special-needs village",
-      "file": "File:Ran Ben-Shimon 2016 (cropped).jpeg",
-      "license": "CC BY-SA 3.0"
+      "articleId": "live-2026-08-12-bundesliga-50-plus-1-rule-upheld",
+      "article": "Germany's antitrust watchdog upholds the Bundesliga's 50+1 ownership rule",
+      "file": "File:2013-04-18 Kaiser-Friedrich-Straße 16, Bonn IMG 0014.jpg",
+      "license": "CC BY-SA 3.0 de"
     },
     {
-      "articleId": "live-20260812-ronaldo-messi-father-tribute",
-      "article": "Ronaldo's message of support for Messi after the death of his father, Jorge",
-      "file": "File:Lionel Messi in 2018.jpg",
-      "license": "CC BY-SA 3.0"
+      "articleId": "live-2026-08-12-bnei-yehuda-ashdod-toto-cup-live",
+      "article": "Bnei Yehuda trail Ashdod as Toto Cup semi-final unfolds",
+      "file": "File:GiuseppeMeazzaNeazzurro.jpg",
+      "license": "CC BY 2.0"
+    },
+    {
+      "articleId": "live-2026-08-12-niraon-loan-maccabi-haifa",
+      "article": "Maccabi Haifa agree loan deal for Netanya goalkeeper Omer Niraon",
+      "file": "File:SammyOfer1.JPG",
+      "license": "CC BY-SA 4.0"
     },
     {
       "articleId": "live-20260714-basketball-coaches-registration",
@@ -27,6 +33,11 @@
     }
   ],
   "failures": [
+    {
+      "id": "live-20260812-daria-golovaty-200-free-semifinal",
+      "title": "Daria Golovaty just misses out on 200m freestyle final at European Championships",
+      "error": "image download 429 after retries"
+    },
     {
       "id": "live-20260812-shtilman-recanati-documents-maccabi",
       "title": "Rapyd's Shtilman demands Recanati family documents in Maccabi Tel Aviv shares fight",

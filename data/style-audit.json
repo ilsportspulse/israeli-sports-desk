@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T16:29:24.020Z",
+  "generatedAt": "2026-08-12T17:35:36.885Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,21 +11,21 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 937,
+    "publishedArticles": 940,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 419,
-      "average": 424.5
+      "average": 424.4
     },
     "paragraphDistribution": {
       "3": 34,
       "4": 6,
       "5": 10,
-      "6": 44,
+      "6": 45,
       "7": 134,
-      "8": 269,
-      "9": 218,
+      "8": 270,
+      "9": 219,
       "10": 159,
       "11": 40,
       "12": 13,
@@ -37,7 +37,7 @@
     "dominantParagraphCount": 8,
     "dominantParagraphShare": 0.287,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 44,
+    "exactSixParagraphArticles": 45,
     "analysisBelowTarget": 9,
     "articlesWithStyleFlags": 161
   },
@@ -3759,6 +3759,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-12-bundesliga-50-plus-1-rule-upheld",
+      "slug": "bundesliga-50-plus-1-rule-upheld-german-cartel-office",
+      "title": "Germany's antitrust watchdog upholds the Bundesliga's 50+1 ownership rule",
+      "kind": "news",
+      "words": 551,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 50,
+        "longest": 70,
+        "average": 61.2
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 50,
+        "average": 26.2
+      },
+      "lexicalDiversity": 0.586,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260812-daria-golovaty-200-free-semifinal",
+      "slug": "daria-golovaty-just-misses-200m-freestyle-final-european-championships",
+      "title": "Daria Golovaty just misses out on 200m freestyle final at European Championships",
+      "kind": "news",
+      "words": 341,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 46,
+        "longest": 75,
+        "average": 56.8
+      },
+      "sentenceWords": {
+        "shortest": 22,
+        "longest": 60,
+        "average": 37.9
+      },
+      "lexicalDiversity": 0.566,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-12-niraon-loan-maccabi-haifa",
+      "slug": "omer-niraon-loan-maccabi-haifa-second-goalkeeper",
+      "title": "Maccabi Haifa agree loan deal for Netanya goalkeeper Omer Niraon",
+      "kind": "news",
+      "words": 327,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 25,
+        "longest": 61,
+        "average": 40.9
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 45,
+        "average": 29.7
+      },
+      "lexicalDiversity": 0.621,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260812-messi-father-jorge-tribute",
       "slug": "lionel-messi-pays-tribute-to-father-jorge-after-his-death",
