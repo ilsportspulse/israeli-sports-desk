@@ -1,67 +1,67 @@
 {
   "date": "2026-08-12",
   "title": "The Daily Five",
-  "dek": "Five questions on Israeli sport, from a Wassaw Sound windsurfing bronze to a Belgrade upset thirty years later.",
+  "dek": "Five questions on Israeli sport, from a Wimbledon first to a fresh Champions League upset.",
   "questions": [
     {
-      "question": "What medal did Gal Fridman win in windsurfing at the 1996 Atlanta Olympics?",
+      "question": "Who partnered Andy Ram to the 2006 Wimbledon mixed doubles title, making him Israel's first Grand Slam champion?",
       "answers": [
-        "Gold",
-        "Silver",
-        "Bronze",
-        "He finished fourth"
+        "Vera Zvonareva",
+        "Venus Williams",
+        "Nathalie Dechy",
+        "Cara Black"
       ],
-      "correctIndex": 2,
-      "explanation": "Fridman took bronze in the Men's Mistral One Design class off Savannah, Israel's only medal of the 1996 Games, before winning gold in the same class at Athens 2004.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Gal_Fridman"
+      "correctIndex": 0,
+      "explanation": "Ram and Vera Zvonareva beat Bob Bryan and Venus Williams 6-3, 6-2 in the final on Centre Court on 8 July 2006.",
+      "sourceUrl": "https://www.haaretz.com/2006-07-09/ty-article/wimbledon-israeli-first-as-ram-wins-doubles-with-zvonareva/0000017f-ee5c-d0f7-a9ff-eedd3e9d0000"
+    },
+    {
+      "question": "Which country won gold at the 2008 Chess Olympiad in Dresden, finishing one point ahead of Israel's silver-medal squad?",
+      "answers": [
+        "Armenia",
+        "United States",
+        "Ukraine",
+        "Netherlands"
+      ],
+      "correctIndex": 0,
+      "explanation": "Armenia took gold with 19 match points, one ahead of Israel's 18, despite losing 2½–1½ to Israel during the event.",
+      "sourceUrl": "https://www.jpost.com/israel/israel-wins-silver-at-chess-olympiad"
     },
     {
       "question": "By what aggregate score did Hapoel Beer Sheva eliminate Red Star Belgrade from Champions League qualifying?",
       "answers": [
         "3-0",
-        "2-1",
-        "4-1",
-        "1-0"
+        "2-0",
+        "1-0",
+        "2-1"
       ],
       "correctIndex": 0,
-      "explanation": "Beer Sheva won 1-0 away in the first leg and 2-0 at home in the second, a 3-0 aggregate that prompted Red Star's board to move to sack Dejan Stanković.",
+      "explanation": "Beer Sheva won 1-0 away in the first leg and 2-0 at home in the second, for a 3-0 aggregate victory.",
       "sourceUrl": "https://www.one.co.il/Article/530395.html"
     },
     {
-      "question": "Ariel Berkovich, grandson of Israeli basketball legend Miki Berkovich, was just promoted to the senior squad of which club?",
+      "question": "Which Premier League club agreed a fee for Israel international Anan Khalaili, set to become the most expensive Israeli player in history?",
       "answers": [
-        "Maccabi Tel Aviv",
-        "Hapoel Jerusalem",
-        "Maccabi Ironi Ramat Gan",
-        "Hapoel Gezer/Naan"
-      ],
-      "correctIndex": 2,
-      "explanation": "The 17-year-old point guard was promoted to Maccabi Ironi Ramat Gan's senior squad while simultaneously registered with Hapoel Gezer/Naan under the double-roster rule.",
-      "sourceUrl": "https://www.one.co.il/Article/530359.html"
-    },
-    {
-      "question": "Which Premier League club agreed a fee with Union Saint-Gilloise for Israel international Anan Khalaili?",
-      "answers": [
+        "Crystal Palace",
         "Everton",
         "Aston Villa",
-        "Newcastle United",
-        "Crystal Palace"
+        "Newcastle United"
       ],
-      "correctIndex": 3,
-      "explanation": "Crystal Palace agreed a fee of roughly £21m, beating out Everton, Aston Villa and Newcastle to sign Khalaili, who would become the most expensive Israeli player in history.",
+      "correctIndex": 0,
+      "explanation": "Palace agreed roughly £21m with Union Saint-Gilloise for Khalaili, beating out Everton, Aston Villa and Newcastle United.",
       "sourceUrl": "https://www.one.co.il/Article/530334.html"
     },
     {
-      "question": "At the 2008 Chess Olympiad in Dresden, which nation finished one point ahead of Israel's silver-medal team to take gold?",
+      "question": "Ariel Berkovich, newly promoted to Maccabi Ironi Ramat Gan's senior squad, is the grandson of which Maccabi Tel Aviv and Israel basketball legend?",
       "answers": [
-        "United States",
-        "Netherlands",
-        "Ukraine",
-        "Armenia"
+        "Miki Berkovich",
+        "Roi Berkovich",
+        "Elad Chasan",
+        "Papi Turgeman"
       ],
-      "correctIndex": 3,
-      "explanation": "Israel's open team took silver with 18 match points, one behind gold medallists Armenia on 19 — the first team medal in the history of Israel's senior open squad.",
-      "sourceUrl": "https://www.jpost.com/israel/israel-wins-silver-at-chess-olympiad"
+      "correctIndex": 0,
+      "explanation": "Ariel is the grandson of Miki Berkovich, a FIBA Hall of Famer who won 16 Israeli championships and two European Champions Cups with Maccabi Tel Aviv.",
+      "sourceUrl": "https://www.one.co.il/Article/530359.html"
     }
   ]
 }

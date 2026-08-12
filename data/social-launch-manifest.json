@@ -146,8 +146,8 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-12T04:38:45Z",
-    "validUntil": "2026-08-12T16:38:45Z",
+    "checkedAt": "2026-08-12T04:56:30Z",
+    "validUntil": "2026-08-12T16:56:30Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
@@ -160,21 +160,21 @@
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260812-hapoel-beer-sheva-red-star-champions-league",
+        "articleId": "live-20260812-hapoel-beer-sheva-transfer-plans",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 567,
+        "maxAgeHours": 568,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "archive-20260812-savannah-29-july-1996-the-bronze-that-wi",
+        "articleId": "live-20260812-charlotte-pachuca-leagues-cup",
         "maxAgeHours": 24,
         "requires": []
       },
@@ -188,7 +188,7 @@
       },
       {
         "role": "archive",
-        "articleId": "archive-20260811-dresden-25-november-2008-the-silver-that",
+        "articleId": "archive-20260812-wimbledon-8-july-2006-the-mixed-doubles-",
         "maxAgeHours": 156,
         "requires": [
           "historical-feature"

@@ -650,7 +650,7 @@
         "license": "CC0 1.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-08-11-red-star-belgrade-hapoel-beer-sheva-second-leg",
@@ -126673,6 +126673,307 @@
         "license": "CC BY-SA 3.0"
       }
     ],
+    "status": "published"
+  },
+  {
+    "id": "live-20260812-hapoel-beer-sheva-transfer-plans",
+    "slug": "hapoel-beer-sheva-transfer-plans-champions-league-money",
+    "title": "Hapoel Beer Sheva plan to spend Champions League windfall on new signings",
+    "dek": "Boss Ran Kojok wants a foreign striker and a defensive midfielder before the playoff tie against Sabah, with the club's European earnings already topping €7 million, ONE reports.",
+    "category": "Israeli Football",
+    "desk": "israel",
+    "kind": "news",
+    "storyForm": "report",
+    "publishedAt": "2026-08-12T04:44:38.516Z",
+    "updatedAt": "2026-08-12T04:44:38.516Z",
+    "readMinutes": 3,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/530398.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE - הכסף גדול כבר הובטח: הפועל ב\"ש מתכננת להתחזק",
+        "url": "https://www.one.co.il/Article/530398.html"
+      },
+      {
+        "label": "Haaretz - הפועל באר שבע עברה את הכוכב האדום",
+        "url": "https://www.haaretz.co.il/sport/israel-soccer/2026-08-11/ty-article/0000019f-f197-d569-a5ff-f1f78e8c0000"
+      },
+      {
+        "label": "Walla Sport - היסטוריה: הפועל באר שבע עלתה לפלייאוף ליגת האלופות",
+        "url": "https://sports.walla.co.il/item/3859846"
+      }
+    ],
+    "body": [
+      "Hapoel Beer Sheva's run to the brink of the Champions League group stage has done more than lift the mood in the Negev - it has filled the club's coffers, and manager Ran Kojok wants to spend some of that windfall before the transfer window shuts.",
+      "According to ONE, Beer Sheva have already banked €7.9 million from this season's European campaign alone, a sum that could climb to €18.6 million if they get past Sabah, the champions of Azerbaijan, in the playoff round and reach the Champions League group stage proper for the first time in the club's history.",
+      "Other Israeli outlets have cited a slightly different split of the same windfall - closer to €6 million guaranteed simply for reaching the playoff round, rising past €18 million for the group stage - but on any reading, this is the richest European payday Beer Sheva have ever earned, and money the club intends to reinvest in the squad rather than bank.",
+      "Per ONE's report, Kojok is targeting two specific positions: a foreign striker and a foreign defensive midfielder. No talks are described as advanced, and with the first leg against Sabah approaching fast, the club's recruitment staff have only a narrow window to close a deal before facing the Azerbaijani champions.",
+      "On the domestic front, Beer Sheva have registered interest in Maor Levi and Roei David, ONE reports. David is understood to be trying to engineer a move to MLS, and Beer Sheva could yet offer him a stepping stone or improved terms at home if that route stalls.",
+      "There is also unfinished business closer to the dressing room. Eliel Peretz, the midfielder Beer Sheva signed to a three-year deal that runs to the summer of 2027, is described as a retention priority, with formal talks over a new contract due to open once the Sabah ties are settled.",
+      "On the outgoing side, ONE names one departure as effectively done: Yoav Korn is expected to leave Beer Sheva for Maccabi Petah Tikva.",
+      "For a club sitting two games from the biggest financial and sporting prize in its history, the immediate priority is clearly incoming quality rather than outgoing headlines - and Beer Sheva's staff know that any deal before the Sabah first leg will have to be struck at speed."
+    ],
+    "facts": [
+      "Hapoel Beer Sheva have already banked at least €7.9 million from this season's Champions League qualifying run, according to ONE.",
+      "That figure could rise to €18.6 million if Beer Sheva beat Sabah of Azerbaijan and reach the Champions League group stage.",
+      "Manager Ran Kojok wants to sign a foreign striker and a foreign defensive midfielder before the Sabah tie, though no advanced talks are underway.",
+      "Israeli forwards Maor Levi and Roei David are among the domestic options the club is weighing, with David also trying to move to MLS.",
+      "Midfielder Eliel Peretz, under contract until 2027, is a retention priority, with formal extension talks set to open after the Sabah matches.",
+      "Yoav Korn is expected to leave Beer Sheva for Maccabi Petah Tikva."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 62,
+    "homepageReason": "Transfer-planning story tied to Hapoel Beer Sheva's historic Champions League playoff run, of clear interest to Israeli football fans following the club before the Sabah tie.",
+    "dedupeKey": "hapoel-beer-sheva-transfer-plans-2026-08",
+    "aiDisclosure": "This article was drafted by an AI copy desk from a single verified source (ONE) and cross-checked against independent Israeli outlets before publication.",
+    "nameChecks": [
+      {
+        "hebrew": "רן קוז'וק",
+        "english": "Ran Kojok",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Ran_Kojok",
+        "confidence": 0.85
+      },
+      {
+        "hebrew": "אליאל פרץ",
+        "english": "Eliel Peretz",
+        "verificationUrl": "https://www.one.co.il/Article/467957.html",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "מאור לוי",
+        "english": "Maor Levi",
+        "verificationUrl": "https://www.one.co.il/Article/530398.html",
+        "confidence": 0.8
+      },
+      {
+        "hebrew": "רועי דוד",
+        "english": "Roei David",
+        "verificationUrl": "https://www.one.co.il/Article/530398.html",
+        "confidence": 0.8
+      },
+      {
+        "hebrew": "יואב קורן",
+        "english": "Yoav Korn",
+        "verificationUrl": "https://www.one.co.il/Article/530398.html",
+        "confidence": 0.8
+      }
+    ],
+    "confidence": 0.78,
+    "warning": "Transfer targets described are early-stage plans, not confirmed deals; exact European prize-money figures vary slightly between Israeli outlets depending on accounting method.",
+    "commonsQuery": "Turner Stadium Beer Sheva Hapoel",
+    "commonsCandidates": [
+      {
+        "title": "File:Turner Stadium 01.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Turner_Stadium_01.jpg",
+        "credit": "Little Savage / Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:Be'er Sheva Municipal Stadium 01.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Be%27er_Sheva_Municipal_Stadium_01.jpg",
+        "credit": "Little Savage / Wikimedia Commons",
+        "license": "CC BY-SA 3.0"
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "live-20260812-charlotte-pachuca-leagues-cup",
+    "slug": "charlotte-fc-pachuca-leagues-cup-late-loss",
+    "title": "Pachuca 1-0 Charlotte FC: Abada and Toklomati start as Bautista snatches stoppage-time winner",
+    "dek": "Liel Abada and Idan Toklomati both began for the Israeli-laden MLS side, but Alan Bautista's 90th-minute strike denied Charlotte a perfect run through Leagues Cup Phase One.",
+    "category": "Israelis Abroad",
+    "desk": "israel",
+    "kind": "article",
+    "storyForm": "match report",
+    "publishedAt": "2026-08-12T04:44:38.516Z",
+    "updatedAt": "2026-08-12T04:44:38.516Z",
+    "readMinutes": 3,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/530399.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/530399.html"
+      },
+      {
+        "label": "El Tiempo (MX)",
+        "url": "https://eltiempomx.com/noticia/2026/pachuca-vence-1-0-a-charlotte-con-gol-de-alan-bautista-en-tiempo-agregado.html"
+      },
+      {
+        "label": "SDP Noticias",
+        "url": "https://www.sdpnoticias.com/deportes/pachuca-gana-de-ultimo-minuto-ante-charlotte-fc-en-la-leagues-cup-2026/"
+      }
+    ],
+    "body": [
+      "Charlotte FC's perfect run through this year's Leagues Cup came apart in the cruellest way on Tuesday night at Bank of America Stadium, where Alan Bautista struck in the first minute of stoppage time to give Pachuca a 1-0 win over a home side that had started two Israeli internationals, Liel Abada and Idan Toklomati.",
+      "Abada, the winger Charlotte signed from Celtic as a young designated player in 2024, and Toklomati, who arrived from Maccabi Petah Tikva, both took the field from kickoff as Charlotte chased a third straight Phase One win that would have all but sealed a quarterfinal berth.",
+      "Neither Israeli found the net. Toklomati was the first off, withdrawn in the 57th minute for Archie Goodwin, while Abada played on until the 72nd minute, when he was replaced by new signing Allan Saint-Maximin.",
+      "Charlotte still had the game in their hands late on. In the 81st minute, Pachuca's Sergio Rodriguez fouled Saint-Maximin inside the box and the referee pointed to the spot. Goodwin stepped up, but his penalty was saved by the Pachuca goalkeeper, according to Mexican outlets covering the match.",
+      "Pachuca made Charlotte pay almost immediately. Bautista found space inside the area in the second minute of stoppage time and finished coolly with his left foot to snatch all three points, sending the small pocket of travelling fans into celebration and silencing the home crowd.",
+      "The defeat was Charlotte's first of this year's Leagues Cup campaign, after the club had opened Phase One with two consecutive wins. ONE reported that the loss ended what had been an unbeaten run for the MLS side heading into the group's final round of fixtures.",
+      "For Abada and Toklomati, the result was a rare setback in what has otherwise been a season of growing prominence for Israeli players in MLS. Alongside teammates such as fellow Israeli forward Baribo and New England Revolution's Ilay Feingold, the pair are part of a small but expanding contingent of Israeli internationals now plying their trade in the American league.",
+      "Attention for Charlotte now turns to whether Tuesday's loss affects their position in the Leagues Cup standings, with the club having entered the match needing a positive result to guarantee their place in the knockout rounds."
+    ],
+    "facts": [
+      "Pachuca beat Charlotte FC 1-0 in a Leagues Cup Phase One match on 11 August 2026 at Bank of America Stadium.",
+      "Alan Bautista scored the winning goal for Pachuca in the first minute of second-half stoppage time (90+1').",
+      "Israeli internationals Liel Abada and Idan Toklomati both started the match for Charlotte FC.",
+      "Toklomati was substituted in the 57th minute for Archie Goodwin; Abada was substituted in the 72nd minute for Allan Saint-Maximin.",
+      "Charlotte were awarded a penalty in the 81st minute after a foul on Saint-Maximin, but Archie Goodwin's spot-kick was saved.",
+      "The loss was Charlotte FC's first in this year's Leagues Cup after opening the competition with two straight wins."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 55,
+    "homepageReason": "Routine MLS club news featuring two Israeli internationals starting, but the result is a narrow late defeat rather than a win or standout individual performance.",
+    "dedupeKey": "leaguescup-2026-charlotte-pachuca",
+    "aiDisclosure": "Drafted by an AI newsroom assistant from ONE's reporting and cross-checked against independent match coverage before publication.",
+    "nameChecks": [
+      {
+        "hebrew": "עבדה",
+        "english": "Liel Abada",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Liel_Abada",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "טוקלומטי",
+        "english": "Idan Toklomati",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Idan_Toklomati",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "סן-מקסימין",
+        "english": "Allan Saint-Maximin",
+        "verificationUrl": "https://www.mlssoccer.com/news/charlotte-fc-sign-forward-allan-saint-maximin",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "ארצ'י גודווין",
+        "english": "Archie Goodwin",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Archie_Goodwin_(soccer)",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "אלן באוטיסטה",
+        "english": "Alan Bautista",
+        "verificationUrl": "https://eltiempomx.com/noticia/2026/pachuca-vence-1-0-a-charlotte-con-gol-de-alan-bautista-en-tiempo-agregado.html",
+        "confidence": 0.85
+      }
+    ],
+    "confidence": 0.88,
+    "warning": "",
+    "commonsQuery": "Liel Abada footballer / Idan Toklomati Charlotte FC / Bank of America Stadium soccer",
+    "commonsCandidates": [
+      {
+        "title": "File:Liel Abada (cropped v2).jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Liel_Abada_(cropped_v2).jpg",
+        "credit": "Jim Easton",
+        "license": "CC0"
+      },
+      {
+        "title": "File:Idan Toklomati NYCFC v Charlotte 20 Sep 2025-056.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Idan_Toklomati_NYCFC_v_Charlotte_20_Sep_2025-056.jpg",
+        "credit": "Bryan Berlin (Berlination), WikiPortraits",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:Bank of America Stadium soccer.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Bank_of_America_Stadium_soccer.jpg",
+        "credit": "jb2e75 (A View From My Seat)",
+        "license": "CC BY-SA 3.0"
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "archive-20260812-wimbledon-8-july-2006-the-mixed-doubles-",
+    "slug": "wimbledon-8-july-2006-the-mixed-doubles-final-that-made-andy-ram-israe",
+    "title": "Wimbledon, 8 July 2006: The Mixed Doubles Final That Made Andy Ram Israel's First Grand Slam Champion",
+    "dek": "On Centre Court, a doubles specialist from Israel and a 21-year-old Russian partner beat Bob Bryan and Venus Williams to give Israeli tennis its first professional major title.",
+    "category": "From the Archive",
+    "desk": "israel",
+    "kind": "explainer",
+    "storyForm": "historical-feature",
+    "publishedAt": "2026-08-12T04:40:01.183Z",
+    "updatedAt": "2026-08-12T04:40:01.183Z",
+    "readMinutes": 3,
+    "source": {
+      "name": "Haaretz",
+      "url": "https://www.haaretz.com/2006-07-09/ty-article/wimbledon-israeli-first-as-ram-wins-doubles-with-zvonareva/0000017f-ee5c-d0f7-a9ff-eedd3e9d0000"
+    },
+    "verificationSources": [
+      {
+        "label": "Haaretz — 'Wimbledon: Israeli First as Ram Wins Doubles With Zvonareva'",
+        "url": "https://www.haaretz.com/2006-07-09/ty-article/wimbledon-israeli-first-as-ram-wins-doubles-with-zvonareva/0000017f-ee5c-d0f7-a9ff-eedd3e9d0000"
+      },
+      {
+        "label": "Wikipedia — 2006 Wimbledon Championships – Mixed doubles",
+        "url": "https://en.wikipedia.org/wiki/2006_Wimbledon_Championships_%E2%80%93_Mixed_doubles"
+      },
+      {
+        "label": "ESPN — 'Ram, Zvonareva win Wimbledon mixed doubles'",
+        "url": "https://www.espn.com/sports/tennis/wimbledon06/news/story?id=2513506"
+      }
+    ],
+    "body": [
+      "For six decades of Israeli tennis, the Grand Slams had been a place to compete, not to win. Amos Mansdorf reached major quarterfinals in the 1980s, Shlomo Glickstein had his moments, and a run of gifted juniors — Shahar Peer, Ana Smashnova, Dudi Sela — had lifted junior Grand Slam trophies. But no Israeli had ever stood on a Grand Slam court as a senior champion. On the afternoon of Saturday, 8 July 2006, on the most famous tennis court in the world, that changed.",
+      "Andy Ram, a 26-year-old from Netanya who had built his career as a doubles specialist rather than a singles star, walked onto Wimbledon's Centre Court paired with Vera Zvonareva of Russia for the mixed doubles final. Their opponents were about as daunting as a final draw could produce: Bob Bryan, one half of the great American twins act, and Venus Williams, five-time Wimbledon singles champion and one of the most dominant players of her generation.",
+      "Ram and Zvonareva had already survived a tough route to the final, beating the third-seeded Zimbabwean pair of Wayne and Cara Black 6–3, 7–6 in the semi-finals. But the final carried an extra complication for their opponents: Bryan had played the men's doubles final with his twin brother Mike only hours earlier, winning that title as well, and he arrived on Centre Court for the mixed final with tired legs and a heavy afternoon already behind him.",
+      "It showed. Bryan's serve was broken repeatedly as Ram and Zvonareva took control, and the Israeli-Russian pairing closed out the match 6–3, 6–2. Zvonareva sealed it fittingly, with an ace on their first match point — a clean, emphatic finish to a final that had looked competitive on paper and turned one-sided on the day.",
+      "For Ram, the moment carried a significance beyond the trophy itself. It was the first Grand Slam title won by an Israeli player at the professional, senior level — a distinction separate from the junior Grand Slam success of compatriots like Peer, Smashnova and Sela. Ram, who had spent his career largely in doubles rather than chasing singles glory, had delivered something no Israeli before him ever had.",
+      "The win also reflected a broader shift underway in Israeli tennis in the mid-2000s, as a generation of players — Ram foremost among them — began pushing into the sport's biggest events and, for the first time, its biggest finals. Ram's Wimbledon breakthrough would prove to be the first chapter rather than the whole story: within two years he added a French Open mixed doubles title in 2007 with Nathalie Dechy, before pairing with countryman Jonathan Erlich to win the Australian Open men's doubles in 2008 — a partnership that would become one of Israeli sport's most celebrated doubles acts.",
+      "But it was Wimbledon 2006 that came first, and it was Wimbledon 2006 that broke the ceiling. Israeli papers ran the story as a national milestone rather than a tennis footnote — a small country's tennis player winning on the lawns of the All England Club, a place that had, until that Saturday, never produced an Israeli name on its honours boards.",
+      "Ram's route to that Centre Court final had nothing improbable about raw talent — he had been a fixture on the doubles tour for years — but everything improbable about the moment: a doubles specialist from a country with no Grand Slam pedigree, partnering a rising Russian star, beating a genuine American superstar and a twin who had just won his own final that same day. It was the kind of Grand Slam final line score — 6–3, 6–2 — that reads simply in the record books but carried an outsized weight for the country whose flag went up, for the first time, beside a Grand Slam trophy."
+    ],
+    "facts": [
+      "Andy Ram (Israel) and Vera Zvonareva (Russia) won the 2006 Wimbledon mixed doubles title on 8 July 2006.",
+      "They defeated Bob Bryan and Venus Williams (United States) 6–3, 6–2 in the final on Centre Court.",
+      "It was the first Grand Slam title won by an Israeli player at the senior professional level.",
+      "In the semi-finals, Ram and Zvonareva beat third seeds Wayne and Cara Black (Zimbabwe) 6–3, 7–6.",
+      "Bob Bryan had won the men's doubles title with twin brother Mike only hours before the mixed doubles final.",
+      "Ram went on to win the 2007 French Open mixed doubles (with Nathalie Dechy) and the 2008 Australian Open men's doubles (with Jonathan Erlich)."
+    ],
+    "theme": "night-pitch",
+    "commonsQuery": "Andy Ram tennis Wikimedia Commons",
+    "commonsCandidates": [
+      {
+        "file": "File:Andy_ram_1.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Andy_ram_1.jpg",
+        "description": "Andy Ram playing doubles at the 2006 U.S. Open, taken 31 August 2006 — same year as his Wimbledon mixed doubles title.",
+        "license": "Public domain"
+      },
+      {
+        "file": "File:Andy_Ram_Mixed.JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:Andy_Ram_Mixed.JPG",
+        "description": "Andy Ram playing mixed doubles at the 2007 US Open — same discipline as his 2006 Wimbledon title.",
+        "license": "CC BY-SA (multiple versions)/GFDL"
+      },
+      {
+        "file": "File:Andy_Ram_(9054446488).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Andy_Ram_(9054446488).jpg",
+        "description": "Andy Ram in action at the 2013 Aegon Championships, Queen's Club.",
+        "license": "CC BY-SA 2.0"
+      },
+      {
+        "file": "File:Andy_Ram_(9054448882).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Andy_Ram_(9054448882).jpg",
+        "description": "Andy Ram in action at the 2013 Aegon Championships, Queen's Club (companion shot).",
+        "license": "CC BY-SA 2.0"
+      }
+    ],
+    "archiveDate": "2006-07-08",
+    "archiveDisplay": {
+      "home": "Andy Ram & Vera Zvonareva",
+      "away": "Bob Bryan & Venus Williams",
+      "score": "6–3, 6–2",
+      "dateLine": "Wimbledon, 8 July 2006",
+      "year": "2006"
+    },
+    "aiDisclosure": "Researched and written by the ILSP AI history desk; every fact verified against independent sources.",
     "status": "published"
   }
 ]

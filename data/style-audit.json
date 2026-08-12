@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T04:38:46.923Z",
+  "generatedAt": "2026-08-12T04:56:31.829Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 924,
+    "publishedArticles": 926,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 419.5,
-      "average": 424.8
+      "median": 419,
+      "average": 424.6
     },
     "paragraphDistribution": {
       "3": 34,
@@ -24,9 +24,9 @@
       "5": 10,
       "6": 43,
       "7": 132,
-      "8": 264,
-      "9": 214,
-      "10": 158,
+      "8": 267,
+      "9": 215,
+      "10": 156,
       "11": 40,
       "12": 13,
       "13": 4,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.286,
+    "dominantParagraphShare": 0.288,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 43,
     "analysisBelowTarget": 9,
@@ -3714,42 +3714,63 @@
   ],
   "clean": [
     {
-      "id": "live-20260812-hapoel-beer-sheva-red-star-champions-league",
-      "slug": "hapoel-beer-sheva-red-star-belgrade-2-0-champions-league-playoff",
-      "title": "Hapoel Beer Sheva stun Red Star Belgrade 2-0 to reach Champions League playoff round",
-      "kind": "article",
-      "words": 448,
-      "paragraphs": 10,
+      "id": "live-20260812-hapoel-beer-sheva-transfer-plans",
+      "slug": "hapoel-beer-sheva-transfer-plans-champions-league-money",
+      "title": "Hapoel Beer Sheva plan to spend Champions League windfall on new signings",
+      "kind": "news",
+      "words": 382,
+      "paragraphs": 8,
       "paragraphWords": {
-        "shortest": 31,
-        "longest": 64,
-        "average": 44.8
+        "shortest": 23,
+        "longest": 62,
+        "average": 47.8
       },
       "sentenceWords": {
         "shortest": 10,
-        "longest": 91,
-        "average": 44.8
+        "longest": 62,
+        "average": 34.7
       },
-      "lexicalDiversity": 0.594,
+      "lexicalDiversity": 0.552,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260812-charlotte-pachuca-leagues-cup",
+      "slug": "charlotte-fc-pachuca-leagues-cup-late-loss",
+      "title": "Pachuca 1-0 Charlotte FC: Abada and Toklomati start as Bautista snatches stoppage-time winner",
+      "kind": "article",
+      "words": 371,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 60,
+        "average": 46.4
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 55,
+        "average": 26.5
+      },
+      "lexicalDiversity": 0.588,
       "publisherAttributions": 0,
       "flags": []
     },
     {
-      "id": "archive-20260812-savannah-29-july-1996-the-bronze-that-wi",
-      "slug": "savannah-29-july-1996-the-bronze-that-widened-israel-s-olympic-horizon",
-      "title": "Savannah, 29 July 1996: The Bronze That Widened Israel's Olympic Horizons",
+      "id": "archive-20260812-wimbledon-8-july-2006-the-mixed-doubles-",
+      "slug": "wimbledon-8-july-2006-the-mixed-doubles-final-that-made-andy-ram-israe",
+      "title": "Wimbledon, 8 July 2006: The Mixed Doubles Final That Made Andy Ram Israel's First Grand Slam Champion",
       "kind": "explainer",
-      "words": 804,
-      "paragraphs": 10,
+      "words": 624,
+      "paragraphs": 8,
       "paragraphWords": {
-        "shortest": 63,
-        "longest": 100,
-        "average": 80.4
+        "shortest": 56,
+        "longest": 106,
+        "average": 78
       },
       "sentenceWords": {
-        "shortest": 4,
-        "longest": 60,
-        "average": 26.8
+        "shortest": 2,
+        "longest": 64,
+        "average": 31.2
       },
       "lexicalDiversity": 0.471,
       "publisherAttributions": 0,
@@ -3773,6 +3794,27 @@
         "average": 30.3
       },
       "lexicalDiversity": 0.566,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-12-red-star-belgrade-sack-stankovic-hapoel-beer-sheva",
+      "slug": "red-star-belgrade-sack-dejan-stankovic-hapoel-beer-sheva-champions-league",
+      "title": "Red Star Belgrade move to sack Dejan Stanković after 3-0 aggregate exit to Hapoel Beer Sheva",
+      "kind": "news",
+      "words": 485,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 71,
+        "average": 53.9
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 55,
+        "average": 32.3
+      },
+      "lexicalDiversity": 0.501,
       "publisherAttributions": 1,
       "flags": []
     },
