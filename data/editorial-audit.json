@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T23:10:41.487Z",
+  "generatedAt": "2026-08-13T00:10:32.039Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1316,
-    "publishedBefore": 945,
-    "cleanPublished": 937,
+    "totalArticles": 1319,
+    "publishedBefore": 947,
+    "cleanPublished": 939,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 945,
-    "reviewAfter": 371
+    "publishedAfter": 947,
+    "reviewAfter": 372
   },
   "blockedPublished": [
     {
@@ -156,6 +156,20 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-2026-08-12-hapoel-tel-aviv-katowice-conference-league-playoff",
+      "slug": "hapoel-tel-aviv-katowice-aggregate-conference-league-playoff-atalanta",
+      "title": "Katowice 2-1 Hapoel Tel Aviv (Hapoel win 3-2 on aggregate): Barda's men reach Conference League playoff",
+      "statusBefore": "published",
+      "words": 440,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-08-12-psg-aston-villa-super-cup-held",
       "slug": "psg-aston-villa-uefa-super-cup-in-progress",
@@ -406,7 +420,7 @@
       "id": "live-20260812-hapoel-beer-sheva-red-star-champions-league",
       "slug": "hapoel-beer-sheva-red-star-belgrade-2-0-champions-league-playoff",
       "title": "Hapoel Beer Sheva stun Red Star Belgrade 2-0 to reach Champions League playoff round",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 456,
       "paragraphs": 10,
       "facts": 6,
@@ -12741,6 +12755,44 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-2026-08-12-hapoel-tel-aviv-katowice-conference-league-playoff",
+      "slug": "hapoel-tel-aviv-katowice-aggregate-conference-league-playoff-atalanta",
+      "title": "Katowice 2-1 Hapoel Tel Aviv (Hapoel win 3-2 on aggregate): Barda's men reach Conference League playoff",
+      "statusBefore": "published",
+      "words": 440,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260812-hapoel-tel-aviv-atalanta-conference-league-playoff",
+      "slug": "hapoel-tel-aviv-draw-atalanta-conference-league-playoff",
+      "title": "Hapoel Tel Aviv set for Conference League playoff test against Atalanta",
+      "statusBefore": "published",
+      "words": 522,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-12-mourinho-real-madrid-deportivo-teresa-herrera",
+      "slug": "mourinho-real-madrid-beat-deportivo-teresa-herrera-trophy",
+      "title": "Mourinho hails 'many positive things' as Real Madrid beat Deportivo 1-0 in Teresa Herrera Trophy",
+      "statusBefore": "published",
+      "words": 366,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
       "id": "live-2026-08-12-hapoel-tel-aviv-beersheba-matches-postponed",
       "slug": "hapoel-tel-aviv-beersheba-league-openers-postponed-europe",
       "title": "Hapoel Tel Aviv and Beersheba's league openers postponed as European campaigns intensify",
@@ -12949,20 +13001,6 @@
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline"
-      ]
-    },
-    {
-      "id": "live-20260812-hapoel-beer-sheva-red-star-champions-league",
-      "slug": "hapoel-beer-sheva-red-star-belgrade-2-0-champions-league-playoff",
-      "title": "Hapoel Beer Sheva stun Red Star Belgrade 2-0 to reach Champions League playoff round",
-      "statusBefore": "published",
-      "words": 456,
-      "paragraphs": 10,
-      "facts": 6,
-      "verificationSources": 5,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
       ]
     },
     {

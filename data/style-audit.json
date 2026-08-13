@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T23:10:41.794Z",
+  "generatedAt": "2026-08-13T00:10:32.590Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,7 +11,7 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 945,
+    "publishedArticles": 947,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
@@ -24,8 +24,8 @@
       "5": 10,
       "6": 46,
       "7": 134,
-      "8": 271,
-      "9": 222,
+      "8": 272,
+      "9": 223,
       "10": 159,
       "11": 40,
       "12": 13,
@@ -3783,6 +3783,69 @@
   ],
   "clean": [
     {
+      "id": "live-2026-08-12-hapoel-tel-aviv-katowice-conference-league-playoff",
+      "slug": "hapoel-tel-aviv-katowice-aggregate-conference-league-playoff-atalanta",
+      "title": "Katowice 2-1 Hapoel Tel Aviv (Hapoel win 3-2 on aggregate): Barda's men reach Conference League playoff",
+      "kind": "article",
+      "words": 440,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 40,
+        "longest": 69,
+        "average": 55
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 113,
+        "average": 31.4
+      },
+      "lexicalDiversity": 0.548,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260812-hapoel-tel-aviv-atalanta-conference-league-playoff",
+      "slug": "hapoel-tel-aviv-draw-atalanta-conference-league-playoff",
+      "title": "Hapoel Tel Aviv set for Conference League playoff test against Atalanta",
+      "kind": "article",
+      "words": 521,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 41,
+        "longest": 62,
+        "average": 52.1
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 54,
+        "average": 27.4
+      },
+      "lexicalDiversity": 0.56,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-12-mourinho-real-madrid-deportivo-teresa-herrera",
+      "slug": "mourinho-real-madrid-beat-deportivo-teresa-herrera-trophy",
+      "title": "Mourinho hails 'many positive things' as Real Madrid beat Deportivo 1-0 in Teresa Herrera Trophy",
+      "kind": "article",
+      "words": 365,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 25,
+        "longest": 55,
+        "average": 40.6
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 67,
+        "average": 30.4
+      },
+      "lexicalDiversity": 0.605,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
       "id": "live-2026-08-12-hapoel-tel-aviv-beersheba-matches-postponed",
       "slug": "hapoel-tel-aviv-beersheba-league-openers-postponed-europe",
       "title": "Hapoel Tel Aviv and Beersheba's league openers postponed as European campaigns intensify",
@@ -4074,27 +4137,6 @@
       },
       "lexicalDiversity": 0.581,
       "publisherAttributions": 1,
-      "flags": []
-    },
-    {
-      "id": "live-20260812-hapoel-beer-sheva-red-star-champions-league",
-      "slug": "hapoel-beer-sheva-red-star-belgrade-2-0-champions-league-playoff",
-      "title": "Hapoel Beer Sheva stun Red Star Belgrade 2-0 to reach Champions League playoff round",
-      "kind": "article",
-      "words": 448,
-      "paragraphs": 10,
-      "paragraphWords": {
-        "shortest": 31,
-        "longest": 64,
-        "average": 44.8
-      },
-      "sentenceWords": {
-        "shortest": 10,
-        "longest": 91,
-        "average": 44.8
-      },
-      "lexicalDiversity": 0.594,
-      "publisherAttributions": 0,
       "flags": []
     },
     {
