@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T04:52:28.632Z",
+  "generatedAt": "2026-08-13T05:11:10.946Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 951,
+    "publishedArticles": 954,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 419,
-      "average": 424.4
+      "average": 424.7
     },
     "paragraphDistribution": {
       "3": 34,
@@ -24,8 +24,8 @@
       "5": 10,
       "6": 47,
       "7": 134,
-      "8": 272,
-      "9": 225,
+      "8": 274,
+      "9": 226,
       "10": 159,
       "11": 41,
       "12": 13,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.286,
+    "dominantParagraphShare": 0.287,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 47,
     "analysisBelowTarget": 9,
@@ -327,29 +327,6 @@
       "publisherAttributions": 2,
       "flags": [
         "below-editorial-target:227/280",
-        "publisher-attribution-heavy:2"
-      ]
-    },
-    {
-      "id": "live-2026-08-13-oren-smadja-joins-unity-party",
-      "slug": "oren-smadja-joins-unity-party-knesset-run",
-      "title": "Oren Smadja: 'It wasn't easy to make this decision' as judo hero enters politics",
-      "kind": "news",
-      "words": 368,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 34,
-        "longest": 49,
-        "average": 40.9
-      },
-      "sentenceWords": {
-        "shortest": 7,
-        "longest": 69,
-        "average": 33.5
-      },
-      "lexicalDiversity": 0.595,
-      "publisherAttributions": 2,
-      "flags": [
         "publisher-attribution-heavy:2"
       ]
     },
@@ -3802,69 +3779,92 @@
       "flags": [
         "publisher-attribution-heavy:2"
       ]
+    },
+    {
+      "id": "live-2026-08-13-oren-smadja-joins-unity-party",
+      "slug": "oren-smadja-joins-unity-party-knesset-run",
+      "title": "Oren Smadja: 'It wasn't easy to make this decision' as judo hero enters politics",
+      "kind": "news",
+      "words": 368,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 49,
+        "average": 40.9
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 69,
+        "average": 33.5
+      },
+      "lexicalDiversity": 0.595,
+      "publisherAttributions": 2,
+      "flags": [
+        "publisher-attribution-heavy:2"
+      ]
     }
   ],
   "clean": [
     {
-      "id": "live-20260813-almog-cohen-beitar-jerusalem-espionage-training-austria-wien",
-      "slug": "almog-cohen-beitar-jerusalem-espionage-training-austria-wien",
-      "title": "Espionage fears push Almog Cohen to hide Beitar Jerusalem's line-up before Vienna showdown",
+      "id": "live-2026-08-13-lelior-stuns-bryan-tahiti-pro",
+      "slug": "anat-lelior-beats-gabriela-bryan-tahiti-pro-quarterfinals",
+      "title": "Lelior stuns world No. 1 Bryan 12.73-1.46 to reach Tahiti Pro quarter-finals",
       "kind": "news",
-      "words": 328,
-      "paragraphs": 6,
+      "words": 370,
+      "paragraphs": 8,
       "paragraphWords": {
-        "shortest": 39,
+        "shortest": 34,
         "longest": 64,
-        "average": 54.7
-      },
-      "sentenceWords": {
-        "shortest": 8,
-        "longest": 63,
-        "average": 29.8
-      },
-      "lexicalDiversity": 0.671,
-      "publisherAttributions": 1,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-13-messi-returns-inter-miami-eliminated-leon",
-      "slug": "leon-3-2-inter-miami-messi-returns-leagues-cup-elimination",
-      "title": "León 3-2 Inter Miami: Messi returns days after father's death as Herons crash out of Leagues Cup",
-      "kind": "article",
-      "words": 488,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 40,
-        "longest": 67,
-        "average": 54.2
-      },
-      "sentenceWords": {
-        "shortest": 19,
-        "longest": 48,
-        "average": 34.9
-      },
-      "lexicalDiversity": 0.586,
-      "publisherAttributions": 1,
-      "flags": []
-    },
-    {
-      "id": "archive-20260813-turin-19-june-1979-the-silver-that-remai",
-      "slug": "turin-19-june-1979-the-silver-that-remains-israeli-basketball-s-highes",
-      "title": "Turin, 19 June 1979: The Silver That Remains Israeli Basketball's Highest Peak",
-      "kind": "explainer",
-      "words": 621,
-      "paragraphs": 11,
-      "paragraphWords": {
-        "shortest": 41,
-        "longest": 70,
-        "average": 56.5
+        "average": 46.3
       },
       "sentenceWords": {
         "shortest": 5,
-        "longest": 65,
-        "average": 34.5
+        "longest": 46,
+        "average": 26.4
       },
-      "lexicalDiversity": 0.502,
+      "lexicalDiversity": 0.535,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-13-beitar-almog-cohen-austria-vienna-spy-fears",
+      "slug": "beitar-almog-cohen-skips-training-austria-vienna-spying-fears",
+      "title": "Beitar boss Almog Cohen skips full training in Vienna over spying fears",
+      "kind": "article",
+      "words": 509,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 43,
+        "longest": 83,
+        "average": 63.6
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 61,
+        "average": 31.8
+      },
+      "lexicalDiversity": 0.576,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "archive-20260813-qingdao-20-august-2008-the-comeback-that",
+      "slug": "qingdao-20-august-2008-the-comeback-that-gave-israel-its-only-beijing-",
+      "title": "Qingdao, 20 August 2008: The Comeback That Gave Israel Its Only Beijing Medal",
+      "kind": "explainer",
+      "words": 651,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 48,
+        "longest": 92,
+        "average": 72.3
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 66,
+        "average": 28.3
+      },
+      "lexicalDiversity": 0.515,
       "publisherAttributions": 0,
       "flags": []
     },
@@ -20350,6 +20350,69 @@
         "average": 31.4
       },
       "lexicalDiversity": 0.682,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260813-almog-cohen-beitar-jerusalem-espionage-training-austria-wien",
+      "slug": "almog-cohen-beitar-jerusalem-espionage-training-austria-wien",
+      "title": "Espionage fears push Almog Cohen to hide Beitar Jerusalem's line-up before Vienna showdown",
+      "kind": "news",
+      "words": 328,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 39,
+        "longest": 64,
+        "average": 54.7
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 63,
+        "average": 29.8
+      },
+      "lexicalDiversity": 0.671,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-13-messi-returns-inter-miami-eliminated-leon",
+      "slug": "leon-3-2-inter-miami-messi-returns-leagues-cup-elimination",
+      "title": "León 3-2 Inter Miami: Messi returns days after father's death as Herons crash out of Leagues Cup",
+      "kind": "article",
+      "words": 488,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 40,
+        "longest": 67,
+        "average": 54.2
+      },
+      "sentenceWords": {
+        "shortest": 19,
+        "longest": 48,
+        "average": 34.9
+      },
+      "lexicalDiversity": 0.586,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "archive-20260813-turin-19-june-1979-the-silver-that-remai",
+      "slug": "turin-19-june-1979-the-silver-that-remains-israeli-basketball-s-highes",
+      "title": "Turin, 19 June 1979: The Silver That Remains Israeli Basketball's Highest Peak",
+      "kind": "explainer",
+      "words": 621,
+      "paragraphs": 11,
+      "paragraphWords": {
+        "shortest": 41,
+        "longest": 70,
+        "average": 56.5
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 65,
+        "average": 34.5
+      },
+      "lexicalDiversity": 0.502,
       "publisherAttributions": 0,
       "flags": []
     }
