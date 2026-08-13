@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T09:11:16.229Z",
+  "generatedAt": "2026-08-13T10:34:37.060Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1333,
-    "publishedBefore": 956,
-    "cleanPublished": 948,
+    "totalArticles": 1337,
+    "publishedBefore": 959,
+    "cleanPublished": 951,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 956,
-    "reviewAfter": 377
+    "publishedAfter": 959,
+    "reviewAfter": 378
   },
   "blockedPublished": [
     {
@@ -156,6 +156,51 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-2026-08-13-hapoel-rishon-lezion-rishona-documentary",
+      "slug": "hapoel-rishon-lezion-rishona-documentary-series",
+      "title": "ONE launches Rishona, a documentary series tracking Hapoel Rishon LeZion's promotion push",
+      "statusBefore": "published",
+      "words": 418,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-13-rodri-barcelona-final-offer",
+      "slug": "rodri-pushes-barcelona-move-final-offer",
+      "title": "Rodri pushes for Barcelona move as club prepares one last offer to Manchester City",
+      "statusBefore": "published",
+      "words": 389,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-13-tomer-shuster-50m-backstroke-semifinal",
+      "slug": "tomer-shuster-50m-backstroke-semifinal-personal-best",
+      "title": "Shuster swims lifetime best to reach 50m backstroke semi-final at Wingate trials",
+      "statusBefore": "review",
+      "words": 314,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
     {
       "id": "live-2026-08-13-levy-gal-470-worlds-enoshima",
       "slug": "roy-levy-ariel-gal-third-470-world-championship-enoshima",
@@ -12926,6 +12971,49 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-13-flick-keeps-goren-barcelona-first-team",
+      "slug": "flick-keeps-orian-goren-barcelona-first-team",
+      "title": "Flick keeps Orian Goren in Barcelona's first-team fold as World Cup winners return",
+      "statusBefore": "published",
+      "words": 475,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-13-hapoel-rishon-lezion-rishona-documentary",
+      "slug": "hapoel-rishon-lezion-rishona-documentary-series",
+      "title": "ONE launches Rishona, a documentary series tracking Hapoel Rishon LeZion's promotion push",
+      "statusBefore": "published",
+      "words": 418,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-13-rodri-barcelona-final-offer",
+      "slug": "rodri-pushes-barcelona-move-final-offer",
+      "title": "Rodri pushes for Barcelona move as club prepares one last offer to Manchester City",
+      "statusBefore": "published",
+      "words": 389,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
     {
       "id": "live-2026-08-13-lelior-stuns-bryan-tahiti-pro",
       "slug": "anat-lelior-beats-gabriela-bryan-tahiti-pro-quarterfinals",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T09:11:16.772Z",
+  "generatedAt": "2026-08-13T10:34:37.597Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,11 +11,11 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 956,
+    "publishedArticles": 959,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 419.5,
+      "median": 419,
       "average": 425
     },
     "paragraphDistribution": {
@@ -24,7 +24,7 @@
       "5": 10,
       "6": 46,
       "7": 135,
-      "8": 275,
+      "8": 278,
       "9": 226,
       "10": 160,
       "11": 41,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.288,
+    "dominantParagraphShare": 0.29,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 46,
     "analysisBelowTarget": 9,
@@ -3828,6 +3828,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-13-flick-keeps-goren-barcelona-first-team",
+      "slug": "flick-keeps-orian-goren-barcelona-first-team",
+      "title": "Flick keeps Orian Goren in Barcelona's first-team fold as World Cup winners return",
+      "kind": "article",
+      "words": 470,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 44,
+        "longest": 80,
+        "average": 58.8
+      },
+      "sentenceWords": {
+        "shortest": 3,
+        "longest": 46,
+        "average": 26.1
+      },
+      "lexicalDiversity": 0.619,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-13-hapoel-rishon-lezion-rishona-documentary",
+      "slug": "hapoel-rishon-lezion-rishona-documentary-series",
+      "title": "ONE launches Rishona, a documentary series tracking Hapoel Rishon LeZion's promotion push",
+      "kind": "news",
+      "words": 419,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 73,
+        "average": 52.4
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 61,
+        "average": 29.9
+      },
+      "lexicalDiversity": 0.551,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-13-rodri-barcelona-final-offer",
+      "slug": "rodri-pushes-barcelona-move-final-offer",
+      "title": "Rodri pushes for Barcelona move as club prepares one last offer to Manchester City",
+      "kind": "news",
+      "words": 387,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 64,
+        "average": 48.4
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 52,
+        "average": 32.3
+      },
+      "lexicalDiversity": 0.605,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-08-13-lelior-stuns-bryan-tahiti-pro",
       "slug": "anat-lelior-beats-gabriela-bryan-tahiti-pro-quarterfinals",
