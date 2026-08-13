@@ -1,67 +1,67 @@
 {
   "date": "2026-08-13",
   "title": "The Daily Five",
-  "dek": "Five questions on Israeli sport, from a Beijing windsurfing bronze to this week's European football and swimming action.",
+  "dek": "Five questions on Israeli basketball history, European football nights and an Olympic swimmer's near-miss in Paris.",
   "questions": [
     {
-      "question": "What color medal did Shahar Zubari win in the men's RS:X windsurfing event at the 2008 Beijing Olympics?",
+      "question": "What is the best-ever finish by Israel's men's national basketball team in EuroBasket history?",
       "answers": [
-        "Gold",
-        "Silver",
-        "Bronze",
-        "He did not medal"
+        "Gold medal",
+        "Silver medal",
+        "Bronze medal",
+        "Fourth place"
+      ],
+      "correctIndex": 1,
+      "explanation": "Israel won silver at EuroBasket 1979, losing the final 98-76 to the Soviet Union in Turin, still its highest-ever finish as of 2025.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/EuroBasket_1979"
+    },
+    {
+      "question": "By what aggregate score did Hapoel Tel Aviv beat GKS Katowice to reach the Conference League playoff round?",
+      "answers": [
+        "2-0",
+        "4-2",
+        "3-2",
+        "2-1"
       ],
       "correctIndex": 2,
-      "explanation": "Zubari finished with 58 net points to take bronze behind New Zealand's Tom Ashley and France's Julien Bontemps, Israel's only medal at the Beijing Games.",
-      "sourceUrl": "https://www.olympedia.org/results/261170"
+      "explanation": "Hapoel Tel Aviv won 2-0 in the first leg and lost the second 2-1 in Poland, advancing 3-2 on aggregate.",
+      "sourceUrl": "https://www.one.co.il/Article/530475.html"
     },
     {
-      "question": "Which Italian club will Hapoel Tel Aviv face in the Conference League playoff round after eliminating Katowice?",
+      "question": "Where did Israeli swimmer Daria Golovaty finish in the 200m freestyle semi-finals at the 2026 European Aquatics Championships in Paris, missing the final?",
       "answers": [
-        "Atalanta",
-        "AS Roma",
-        "Fiorentina",
-        "Torino"
+        "8th",
+        "10th",
+        "12th",
+        "14th"
       ],
-      "correctIndex": 0,
-      "explanation": "Hapoel Tel Aviv advanced 3-2 on aggregate over Katowice and will meet 2024 Europa League champions Atalanta, with the first leg in Bergamo on August 20.",
-      "sourceUrl": "https://www.one.co.il/Article/530478.html"
-    },
-    {
-      "question": "Where was the first leg of Beitar Jerusalem's Conference League tie against Austria Wien played, with Beitar now trailing 2-1 on aggregate?",
-      "answers": [
-        "Ploiești, Romania",
-        "Vienna, Austria",
-        "Jerusalem, Israel",
-        "Sofia, Bulgaria"
-      ],
-      "correctIndex": 0,
-      "explanation": "The first leg was staged at a neutral venue, Ilie Oană Stadium in Ploiești, where Austria Wien came from behind to win 2-1.",
-      "sourceUrl": "https://www.one.co.il/Article/530468.html"
-    },
-    {
-      "question": "Alongside Hapoel Bat Yam, which US university does European Championships swimmer Daria Golovaty represent?",
-      "answers": [
-        "University of Louisville",
-        "University of Florida",
-        "Ohio State University",
-        "University of Michigan"
-      ],
-      "correctIndex": 0,
-      "explanation": "Golovaty, who has held Israeli citizenship since 2006, swims for Hapoel Bat Yam and the University of Louisville and just missed the 200m freestyle final in Paris.",
+      "correctIndex": 3,
+      "explanation": "Golovaty clocked 1:58.48 in the semi-final to finish 14th overall, just outside the final.",
       "sourceUrl": "https://www.one.co.il/Article/530450.html"
     },
     {
-      "question": "Which Olympic Games did new Maccabi Haifa loan goalkeeper Omer Niraon represent Israel at?",
+      "question": "Goalkeeper Omer Niraon, who has just joined Maccabi Haifa on loan from Maccabi Netanya, represented Israel at which Olympics?",
       "answers": [
-        "2024 Paris",
-        "2020 Tokyo",
         "2016 Rio",
-        "2012 London"
+        "2020 Tokyo",
+        "2024 Paris",
+        "2028 Los Angeles"
       ],
-      "correctIndex": 0,
-      "explanation": "Niraon, who joins Maccabi Haifa on loan from Maccabi Netanya as back-up to Omri Glazer, played in goal for Israel at the 2024 Paris Olympics.",
+      "correctIndex": 2,
+      "explanation": "Niraon represented Israel in goal at the 2024 Paris Olympics before his loan move to Maccabi Haifa as back-up to Omri Glazer.",
       "sourceUrl": "https://www.one.co.il/Article/530467.html"
+    },
+    {
+      "question": "Beitar Jerusalem striker Shon Weissman was the Austrian Bundesliga's top scorer in 2019-20 with 30 goals while playing for which club?",
+      "answers": [
+        "Austria Wien",
+        "Wolfsberger AC",
+        "Red Bull Salzburg",
+        "Sturm Graz"
+      ],
+      "correctIndex": 1,
+      "explanation": "Weissman topped the Austrian Bundesliga scoring charts with Wolfsberger AC in 2019-20 before rejoining Beitar Jerusalem this summer, who now face Austria Wien in the Conference League.",
+      "sourceUrl": "https://www.one.co.il/Article/530468.html"
     }
   ]
 }

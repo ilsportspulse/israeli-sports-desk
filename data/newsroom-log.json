@@ -3313,5 +3313,45 @@
         "reason": ""
       }
     ]
+  },
+  {
+    "ts": "2026-08-13T04:42:51.777Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 3,
+    "published": 3,
+    "review": 0,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "oren-smadja-joins-unity-party-knesset-run",
+        "title": "Oren Smadja: 'It wasn't easy to make this decision' as judo hero enters politics",
+        "confidence": 0.9,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "leon-3-2-inter-miami-messi-returns-leagues-cup-elimination",
+        "title": "León 3-2 Inter Miami: Messi returns days after father's death as Herons crash out of Leagues Cup",
+        "confidence": 0.9,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "almog-cohen-beitar-jerusalem-espionage-training-austria-wien",
+        "title": "Espionage fears push Almog Cohen to hide Beitar Jerusalem's line-up before Vienna showdown",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
   }
 ]

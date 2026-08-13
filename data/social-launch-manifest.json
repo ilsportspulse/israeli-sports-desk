@@ -146,49 +146,49 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-13T04:27:57Z",
-    "validUntil": "2026-08-13T16:27:57Z",
+    "checkedAt": "2026-08-13T04:52:27Z",
+    "validUntil": "2026-08-13T16:52:27Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 583,
+        "maxAgeHours": 584,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-13-lelior-stuns-bryan-tahiti-pro",
+        "articleId": "live-20260813-almog-cohen-beitar-jerusalem-espionage-training-austria-wien",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 591,
+        "maxAgeHours": 592,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-13-beitar-almog-cohen-austria-vienna-spy-fears",
+        "articleId": "live-2026-08-13-messi-returns-inter-miami-eliminated-leon",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 601,
+        "maxAgeHours": 602,
         "requires": [
           "column"
         ]
       },
       {
         "role": "archive",
-        "articleId": "archive-20260813-qingdao-20-august-2008-the-comeback-that",
+        "articleId": "archive-20260812-wimbledon-8-july-2006-the-mixed-doubles-",
         "maxAgeHours": 156,
         "requires": [
           "historical-feature"
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-12-hapoel-tel-aviv-katowice-conference-league-playoff",
+        "articleId": "live-2026-08-13-oren-smadja-joins-unity-party",
         "maxAgeHours": 24,
         "requires": []
       }

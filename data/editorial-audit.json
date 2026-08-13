@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T04:27:57.557Z",
+  "generatedAt": "2026-08-13T04:52:28.092Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,12 +17,12 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1322,
-    "publishedBefore": 950,
-    "cleanPublished": 942,
+    "totalArticles": 1323,
+    "publishedBefore": 951,
+    "cleanPublished": 943,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 950,
+    "publishedAfter": 951,
     "reviewAfter": 372
   },
   "blockedPublished": [
@@ -157,46 +157,46 @@
   ],
   "warnings": [
     {
-      "id": "live-2026-08-13-lelior-stuns-bryan-tahiti-pro",
-      "slug": "anat-lelior-beats-gabriela-bryan-tahiti-pro-quarterfinals",
-      "title": "Lelior stuns world No. 1 Bryan 12.73-1.46 to reach Tahiti Pro quarter-finals",
+      "id": "live-20260813-almog-cohen-beitar-jerusalem-espionage-training-austria-wien",
+      "slug": "almog-cohen-beitar-jerusalem-espionage-training-austria-wien",
+      "title": "Espionage fears push Almog Cohen to hide Beitar Jerusalem's line-up before Vienna showdown",
       "statusBefore": "published",
-      "words": 368,
-      "paragraphs": 8,
+      "words": 326,
+      "paragraphs": 6,
       "facts": 6,
-      "verificationSources": 4,
+      "verificationSources": 3,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
     },
     {
-      "id": "live-2026-08-13-beitar-almog-cohen-austria-vienna-spy-fears",
-      "slug": "beitar-almog-cohen-skips-training-austria-vienna-spying-fears",
-      "title": "Beitar boss Almog Cohen skips full training in Vienna over spying fears",
+      "id": "live-2026-08-13-messi-returns-inter-miami-eliminated-leon",
+      "slug": "leon-3-2-inter-miami-messi-returns-leagues-cup-elimination",
+      "title": "León 3-2 Inter Miami: Messi returns days after father's death as Herons crash out of Leagues Cup",
       "statusBefore": "published",
-      "words": 511,
-      "paragraphs": 8,
+      "words": 492,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-13-oren-smadja-joins-unity-party",
+      "slug": "oren-smadja-joins-unity-party-knesset-run",
+      "title": "Oren Smadja: 'It wasn't easy to make this decision' as judo hero enters politics",
+      "statusBefore": "published",
+      "words": 368,
+      "paragraphs": 9,
       "facts": 7,
       "verificationSources": 5,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected",
         "voice:publisher-attribution-heavy:2"
-      ]
-    },
-    {
-      "id": "archive-20260813-qingdao-20-august-2008-the-comeback-that",
-      "slug": "qingdao-20-august-2008-the-comeback-that-gave-israel-its-only-beijing-",
-      "title": "Qingdao, 20 August 2008: The Comeback That Gave Israel Its Only Beijing Medal",
-      "statusBefore": "published",
-      "words": 658,
-      "paragraphs": 9,
-      "facts": 6,
-      "verificationSources": 6,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -12798,26 +12798,40 @@
   ],
   "cleanPublished": [
     {
-      "id": "live-2026-08-13-lelior-stuns-bryan-tahiti-pro",
-      "slug": "anat-lelior-beats-gabriela-bryan-tahiti-pro-quarterfinals",
-      "title": "Lelior stuns world No. 1 Bryan 12.73-1.46 to reach Tahiti Pro quarter-finals",
+      "id": "live-20260813-almog-cohen-beitar-jerusalem-espionage-training-austria-wien",
+      "slug": "almog-cohen-beitar-jerusalem-espionage-training-austria-wien",
+      "title": "Espionage fears push Almog Cohen to hide Beitar Jerusalem's line-up before Vienna showdown",
       "statusBefore": "published",
-      "words": 368,
-      "paragraphs": 8,
+      "words": 326,
+      "paragraphs": 6,
       "facts": 6,
-      "verificationSources": 4,
+      "verificationSources": 3,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
     },
     {
-      "id": "live-2026-08-13-beitar-almog-cohen-austria-vienna-spy-fears",
-      "slug": "beitar-almog-cohen-skips-training-austria-vienna-spying-fears",
-      "title": "Beitar boss Almog Cohen skips full training in Vienna over spying fears",
+      "id": "live-2026-08-13-messi-returns-inter-miami-eliminated-leon",
+      "slug": "leon-3-2-inter-miami-messi-returns-leagues-cup-elimination",
+      "title": "León 3-2 Inter Miami: Messi returns days after father's death as Herons crash out of Leagues Cup",
       "statusBefore": "published",
-      "words": 511,
-      "paragraphs": 8,
+      "words": 492,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-13-oren-smadja-joins-unity-party",
+      "slug": "oren-smadja-joins-unity-party-knesset-run",
+      "title": "Oren Smadja: 'It wasn't easy to make this decision' as judo hero enters politics",
+      "statusBefore": "published",
+      "words": 368,
+      "paragraphs": 9,
       "facts": 7,
       "verificationSources": 5,
       "blockers": [],
@@ -12827,18 +12841,16 @@
       ]
     },
     {
-      "id": "archive-20260813-qingdao-20-august-2008-the-comeback-that",
-      "slug": "qingdao-20-august-2008-the-comeback-that-gave-israel-its-only-beijing-",
-      "title": "Qingdao, 20 August 2008: The Comeback That Gave Israel Its Only Beijing Medal",
+      "id": "archive-20260813-turin-19-june-1979-the-silver-that-remai",
+      "slug": "turin-19-june-1979-the-silver-that-remains-israeli-basketball-s-highes",
+      "title": "Turin, 19 June 1979: The Silver That Remains Israeli Basketball's Highest Peak",
       "statusBefore": "published",
-      "words": 658,
-      "paragraphs": 9,
-      "facts": 6,
+      "words": 628,
+      "paragraphs": 11,
+      "facts": 7,
       "verificationSources": 6,
       "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
+      "warnings": []
     },
     {
       "id": "live-2026-08-12-hapoel-tel-aviv-katowice-conference-league-playoff",
