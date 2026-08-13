@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T07:30:11.555Z",
+  "generatedAt": "2026-08-13T07:50:41.054Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1329,
-    "publishedBefore": 953,
-    "cleanPublished": 945,
+    "totalArticles": 1331,
+    "publishedBefore": 956,
+    "cleanPublished": 948,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 953,
-    "reviewAfter": 376
+    "publishedAfter": 956,
+    "reviewAfter": 375
   },
   "blockedPublished": [
     {
@@ -157,42 +157,58 @@
   ],
   "warnings": [
     {
-      "id": "live-2026-08-13-levy-gal-470-worlds-enoshima",
-      "slug": "roy-levy-ariel-gal-third-470-world-championship-enoshima",
-      "title": "Roy Levy and Ariel Gal sit third at the 470 World Championship in Japan",
-      "statusBefore": "review",
-      "words": 380,
+      "id": "live-2026-08-13-real-madrid-mourinho-perez-titles-test",
+      "slug": "real-madrid-mourinho-perez-titles-at-any-price",
+      "title": "Titles at any price: the giant test facing Pérez and Mourinho at Real Madrid",
+      "statusBefore": "published",
+      "words": 552,
       "paragraphs": 8,
       "facts": 7,
-      "verificationSources": 4,
+      "verificationSources": 5,
       "blockers": [],
       "warnings": [
+        "presentation:outlet-name-in-headline",
         "media:no-action-or-competition-context-detected"
       ]
     },
     {
-      "id": "live-2026-08-13-beitar-nordia-jerusalem-new-kit",
-      "slug": "beitar-nordia-jerusalem-2026-27-kit-launch",
-      "title": "Beitar Nordia Jerusalem unveil new kit for 2026/27 season",
-      "statusBefore": "review",
-      "words": 240,
-      "paragraphs": 6,
+      "id": "live-2026-08-13-beitar-nordia-jerusalem-new-kits",
+      "slug": "beitar-nordia-jerusalem-new-kits-2026-27",
+      "title": "Beitar Nordia Jerusalem unveil new kits for 2026/27 season",
+      "statusBefore": "published",
+      "words": 328,
+      "paragraphs": 7,
       "facts": 6,
-      "verificationSources": 2,
+      "verificationSources": 3,
       "blockers": [],
       "warnings": [
-        "media:no-action-or-competition-context-detected"
+        "media:no-action-or-competition-context-detected",
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-13-atalanta-sarri-overhaul-hapoel-preview",
+      "slug": "atalanta-sarri-overhaul-hapoel-tel-aviv-conference-league-preview",
+      "title": "Sarri's overhauled Atalanta is not the side Hapoel Tel Aviv might expect in Bergamo",
+      "statusBefore": "published",
+      "words": 561,
+      "paragraphs": 10,
+      "facts": 8,
+      "verificationSources": 7,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
       ]
     },
     {
       "id": "live-2026-08-13-or-dadia-maccabi-petah-tikva",
       "slug": "or-dadia-signs-maccabi-petah-tikva",
-      "title": "Or Dadia signs for newly promoted Maccabi Petah Tikva",
+      "title": "Or Dadia completes move to Maccabi Petah Tikva",
       "statusBefore": "review",
-      "words": 317,
-      "paragraphs": 7,
-      "facts": 6,
-      "verificationSources": 3,
+      "words": 286,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 2,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -12882,6 +12898,50 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-13-real-madrid-mourinho-perez-titles-test",
+      "slug": "real-madrid-mourinho-perez-titles-at-any-price",
+      "title": "Titles at any price: the giant test facing Pérez and Mourinho at Real Madrid",
+      "statusBefore": "published",
+      "words": 552,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-13-beitar-nordia-jerusalem-new-kits",
+      "slug": "beitar-nordia-jerusalem-new-kits-2026-27",
+      "title": "Beitar Nordia Jerusalem unveil new kits for 2026/27 season",
+      "statusBefore": "published",
+      "words": 328,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-13-atalanta-sarri-overhaul-hapoel-preview",
+      "slug": "atalanta-sarri-overhaul-hapoel-tel-aviv-conference-league-preview",
+      "title": "Sarri's overhauled Atalanta is not the side Hapoel Tel Aviv might expect in Bergamo",
+      "statusBefore": "published",
+      "words": 561,
+      "paragraphs": 10,
+      "facts": 8,
+      "verificationSources": 7,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
     {
       "id": "live-2026-08-13-lelior-stuns-bryan-tahiti-pro",
       "slug": "anat-lelior-beats-gabriela-bryan-tahiti-pro-quarterfinals",

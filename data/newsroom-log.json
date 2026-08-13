@@ -3292,5 +3292,61 @@
         "reason": "same event as xabi-alonso-real-madrid-scar-chelsea-new-chapter"
       }
     ]
+  },
+  {
+    "ts": "2026-08-13T07:38:55.721Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 3,
+    "review": 2,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "or-dadia-signs-maccabi-petah-tikva",
+        "title": "Or Dadia completes move to Maccabi Petah Tikva",
+        "confidence": 0.82,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "below gate thresholds"
+      },
+      {
+        "slug": "atalanta-sarri-overhaul-hapoel-tel-aviv-conference-league-preview",
+        "title": "Sarri's overhauled Atalanta is not the side Hapoel Tel Aviv might expect in Bergamo",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "beitar-nordia-jerusalem-new-kits-2026-27",
+        "title": "Beitar Nordia Jerusalem unveil new kits for 2026/27 season",
+        "confidence": 0.78,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "roey-levy-ariel-gal-470-world-championship-enoshima-opening",
+        "title": "Roey Levy and Ariel Gal sit third after strong start to the 470 sailing worlds",
+        "confidence": 0.82,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Standings are provisional after only three of many scheduled races, with the regatta continuing through August 17; Chason and Tiano's names are transliterated from the single primary source only."
+      },
+      {
+        "slug": "real-madrid-mourinho-perez-titles-at-any-price",
+        "title": "Titles at any price: the giant test facing Pérez and Mourinho at Real Madrid",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
   }
 ]
