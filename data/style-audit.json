@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T13:48:26.118Z",
+  "generatedAt": "2026-08-13T16:01:18.648Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 962,
+    "publishedArticles": 964,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 419,
-      "average": 424.7
+      "median": 419.5,
+      "average": 424.8
     },
     "paragraphDistribution": {
       "3": 34,
@@ -24,9 +24,9 @@
       "5": 10,
       "6": 46,
       "7": 137,
-      "8": 279,
+      "8": 280,
       "9": 226,
-      "10": 160,
+      "10": 161,
       "11": 41,
       "12": 13,
       "13": 4,
@@ -328,29 +328,6 @@
       "flags": [
         "below-editorial-target:227/280",
         "publisher-attribution-heavy:2"
-      ]
-    },
-    {
-      "id": "live-2026-08-13-holon-maoz-daniel-sponsor",
-      "slug": "hapoel-holon-maoz-daniel-main-sponsor",
-      "title": "Hapoel Holon name Maoz Daniel as new main sponsor",
-      "kind": "news",
-      "words": 251,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 9,
-        "longest": 50,
-        "average": 35.9
-      },
-      "sentenceWords": {
-        "shortest": 9,
-        "longest": 78,
-        "average": 41.8
-      },
-      "lexicalDiversity": 0.625,
-      "publisherAttributions": 1,
-      "flags": [
-        "below-editorial-target:251/280"
       ]
     },
     {
@@ -3848,49 +3825,93 @@
       "flags": [
         "stock-phrase:statement-of-intent"
       ]
+    },
+    {
+      "id": "live-2026-08-13-holon-maoz-daniel-sponsor",
+      "slug": "hapoel-holon-maoz-daniel-main-sponsor",
+      "title": "Hapoel Holon name Maoz Daniel as new main sponsor",
+      "kind": "news",
+      "words": 251,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 9,
+        "longest": 50,
+        "average": 35.9
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 78,
+        "average": 41.8
+      },
+      "lexicalDiversity": 0.625,
+      "publisherAttributions": 1,
+      "flags": [
+        "below-editorial-target:251/280"
+      ]
     }
   ],
   "clean": [
     {
-      "id": "live-20260813-celta-vigo-osasuna-postponed-fungus",
-      "slug": "celta-vigo-osasuna-postponed-pitch-fungus",
-      "title": "Celta Vigo's La Liga opener against Osasuna postponed after fungus wrecks the Balaídos pitch",
-      "kind": "news",
-      "words": 282,
-      "paragraphs": 7,
+      "id": "live-2026-08-13-russell-westbrook-retires-nba",
+      "slug": "russell-westbrook-retires-nba-18-seasons",
+      "title": "Russell Westbrook retires after 18 seasons as one of the NBA's most divisive superstars",
+      "kind": "article",
+      "words": 511,
+      "paragraphs": 10,
       "paragraphWords": {
-        "shortest": 34,
-        "longest": 62,
-        "average": 40.3
+        "shortest": 35,
+        "longest": 88,
+        "average": 51.1
       },
       "sentenceWords": {
-        "shortest": 29,
-        "longest": 42,
-        "average": 35.3
+        "shortest": 1,
+        "longest": 52,
+        "average": 34.1
       },
-      "lexicalDiversity": 0.613,
+      "lexicalDiversity": 0.589,
       "publisherAttributions": 0,
       "flags": []
     },
     {
-      "id": "live-2026-08-13-gal-arad-200m-birmingham-miss",
-      "slug": "gal-arad-200m-semifinal-miss-birmingham-seven-thousandths",
-      "title": "Gal Arad misses European 200m semi-final by seven thousandths of a second",
-      "kind": "news",
-      "words": 436,
-      "paragraphs": 8,
+      "id": "live-2026-08-13-ceuta-romero-migrant-crisis-andorra",
+      "slug": "ceuta-coach-romero-migrant-crisis-andorra-season-opener",
+      "title": "Ceuta coach José Juan Romero: 'If it was up to me, we wouldn't play this weekend'",
+      "kind": "article",
+      "words": 424,
+      "paragraphs": 7,
       "paragraphWords": {
-        "shortest": 38,
-        "longest": 72,
-        "average": 54.5
+        "shortest": 41,
+        "longest": 81,
+        "average": 60.6
       },
       "sentenceWords": {
-        "shortest": 7,
-        "longest": 62,
-        "average": 31.1
+        "shortest": 8,
+        "longest": 80,
+        "average": 32.6
       },
-      "lexicalDiversity": 0.573,
+      "lexicalDiversity": 0.599,
       "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-13-celta-vigo-osasuna-fungus-postponed",
+      "slug": "celta-vigo-osasuna-postponed-fungus-balaidos",
+      "title": "Celta Vigo's La Liga opener against Osasuna postponed after fungus wrecks Balaídos pitch",
+      "kind": "news",
+      "words": 320,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 21,
+        "longest": 57,
+        "average": 40
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 50,
+        "average": 29.1
+      },
+      "lexicalDiversity": 0.628,
+      "publisherAttributions": 0,
       "flags": []
     },
     {
@@ -20586,6 +20607,27 @@
       },
       "lexicalDiversity": 0.612,
       "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-13-gal-arad-200m-birmingham-miss",
+      "slug": "gal-arad-200m-semifinal-miss-birmingham-seven-thousandths",
+      "title": "Gal Arad misses European 200m semi-final by seven thousandths of a second",
+      "kind": "news",
+      "words": 436,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 38,
+        "longest": 72,
+        "average": 54.5
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 62,
+        "average": 31.1
+      },
+      "lexicalDiversity": 0.573,
+      "publisherAttributions": 1,
       "flags": []
     }
   ]
