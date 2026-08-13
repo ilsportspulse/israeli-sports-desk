@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T06:11:16.863Z",
+  "generatedAt": "2026-08-13T07:30:11.555Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1326,
-    "publishedBefore": 954,
-    "cleanPublished": 946,
+    "totalArticles": 1329,
+    "publishedBefore": 953,
+    "cleanPublished": 945,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 954,
-    "reviewAfter": 372
+    "publishedAfter": 953,
+    "reviewAfter": 376
   },
   "blockedPublished": [
     {
@@ -156,6 +156,48 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-2026-08-13-levy-gal-470-worlds-enoshima",
+      "slug": "roy-levy-ariel-gal-third-470-world-championship-enoshima",
+      "title": "Roy Levy and Ariel Gal sit third at the 470 World Championship in Japan",
+      "statusBefore": "review",
+      "words": 380,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-13-beitar-nordia-jerusalem-new-kit",
+      "slug": "beitar-nordia-jerusalem-2026-27-kit-launch",
+      "title": "Beitar Nordia Jerusalem unveil new kit for 2026/27 season",
+      "statusBefore": "review",
+      "words": 240,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-13-or-dadia-maccabi-petah-tikva",
+      "slug": "or-dadia-signs-maccabi-petah-tikva",
+      "title": "Or Dadia signs for newly promoted Maccabi Petah Tikva",
+      "statusBefore": "review",
+      "words": 317,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-08-13-lelior-stuns-bryan-tahiti-pro",
       "slug": "anat-lelior-beats-gabriela-bryan-tahiti-pro-quarterfinals",
@@ -12799,7 +12841,7 @@
       "id": "live-20260813-almog-cohen-beitar-jerusalem-espionage-training-austria-wien",
       "slug": "almog-cohen-beitar-jerusalem-espionage-training-austria-wien",
       "title": "Espionage fears push Almog Cohen to hide Beitar Jerusalem's line-up before Vienna showdown",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 326,
       "paragraphs": 6,
       "facts": 6,
@@ -25573,20 +25615,6 @@
       "warnings": [
         "media:no-action-or-competition-context-detected",
         "voice:publisher-attribution-heavy:2"
-      ]
-    },
-    {
-      "id": "live-20260813-almog-cohen-beitar-jerusalem-espionage-training-austria-wien",
-      "slug": "almog-cohen-beitar-jerusalem-espionage-training-austria-wien",
-      "title": "Espionage fears push Almog Cohen to hide Beitar Jerusalem's line-up before Vienna showdown",
-      "statusBefore": "published",
-      "words": 326,
-      "paragraphs": 6,
-      "facts": 6,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
       ]
     },
     {

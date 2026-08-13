@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T06:11:17.394Z",
+  "generatedAt": "2026-08-13T07:30:12.107Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,18 +11,18 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 954,
+    "publishedArticles": 953,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 419,
-      "average": 424.7
+      "average": 424.8
     },
     "paragraphDistribution": {
       "3": 34,
       "4": 6,
       "5": 10,
-      "6": 47,
+      "6": 46,
       "7": 134,
       "8": 274,
       "9": 226,
@@ -35,9 +35,9 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.287,
+    "dominantParagraphShare": 0.288,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 47,
+    "exactSixParagraphArticles": 46,
     "analysisBelowTarget": 9,
     "articlesWithStyleFlags": 163
   },
@@ -20351,27 +20351,6 @@
       },
       "lexicalDiversity": 0.682,
       "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260813-almog-cohen-beitar-jerusalem-espionage-training-austria-wien",
-      "slug": "almog-cohen-beitar-jerusalem-espionage-training-austria-wien",
-      "title": "Espionage fears push Almog Cohen to hide Beitar Jerusalem's line-up before Vienna showdown",
-      "kind": "news",
-      "words": 328,
-      "paragraphs": 6,
-      "paragraphWords": {
-        "shortest": 39,
-        "longest": 64,
-        "average": 54.7
-      },
-      "sentenceWords": {
-        "shortest": 8,
-        "longest": 63,
-        "average": 29.8
-      },
-      "lexicalDiversity": 0.671,
-      "publisherAttributions": 1,
       "flags": []
     },
     {
