@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T07:50:41.602Z",
+  "generatedAt": "2026-08-13T08:11:07.764Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -328,29 +328,6 @@
       "flags": [
         "below-editorial-target:227/280",
         "publisher-attribution-heavy:2"
-      ]
-    },
-    {
-      "id": "live-2026-08-13-beitar-nordia-jerusalem-new-kits",
-      "slug": "beitar-nordia-jerusalem-new-kits-2026-27",
-      "title": "Beitar Nordia Jerusalem unveil new kits for 2026/27 season",
-      "kind": "news",
-      "words": 327,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 34,
-        "longest": 74,
-        "average": 46.7
-      },
-      "sentenceWords": {
-        "shortest": 13,
-        "longest": 53,
-        "average": 36.3
-      },
-      "lexicalDiversity": 0.633,
-      "publisherAttributions": 0,
-      "flags": [
-        "stock-phrase:statement-of-intent"
       ]
     },
     {
@@ -3825,51 +3802,32 @@
       "flags": [
         "publisher-attribution-heavy:2"
       ]
+    },
+    {
+      "id": "live-2026-08-13-beitar-nordia-jerusalem-new-kits",
+      "slug": "beitar-nordia-jerusalem-new-kits-2026-27",
+      "title": "Beitar Nordia Jerusalem unveil new kits for 2026/27 season",
+      "kind": "news",
+      "words": 327,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 74,
+        "average": 46.7
+      },
+      "sentenceWords": {
+        "shortest": 13,
+        "longest": 53,
+        "average": 36.3
+      },
+      "lexicalDiversity": 0.633,
+      "publisherAttributions": 0,
+      "flags": [
+        "stock-phrase:statement-of-intent"
+      ]
     }
   ],
   "clean": [
-    {
-      "id": "live-2026-08-13-real-madrid-mourinho-perez-titles-test",
-      "slug": "real-madrid-mourinho-perez-titles-at-any-price",
-      "title": "Titles at any price: the giant test facing Pérez and Mourinho at Real Madrid",
-      "kind": "article",
-      "words": 552,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 60,
-        "longest": 80,
-        "average": 69
-      },
-      "sentenceWords": {
-        "shortest": 6,
-        "longest": 41,
-        "average": 25.1
-      },
-      "lexicalDiversity": 0.578,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-13-atalanta-sarri-overhaul-hapoel-preview",
-      "slug": "atalanta-sarri-overhaul-hapoel-tel-aviv-conference-league-preview",
-      "title": "Sarri's overhauled Atalanta is not the side Hapoel Tel Aviv might expect in Bergamo",
-      "kind": "article",
-      "words": 557,
-      "paragraphs": 10,
-      "paragraphWords": {
-        "shortest": 46,
-        "longest": 68,
-        "average": 55.7
-      },
-      "sentenceWords": {
-        "shortest": 5,
-        "longest": 60,
-        "average": 26.5
-      },
-      "lexicalDiversity": 0.612,
-      "publisherAttributions": 0,
-      "flags": []
-    },
     {
       "id": "live-2026-08-13-lelior-stuns-bryan-tahiti-pro",
       "slug": "anat-lelior-beats-gabriela-bryan-tahiti-pro-quarterfinals",
@@ -20457,6 +20415,48 @@
         "average": 34.5
       },
       "lexicalDiversity": 0.502,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-13-real-madrid-mourinho-perez-titles-test",
+      "slug": "real-madrid-mourinho-perez-titles-at-any-price",
+      "title": "Titles at any price: the giant test facing Pérez and Mourinho at Real Madrid",
+      "kind": "article",
+      "words": 552,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 60,
+        "longest": 80,
+        "average": 69
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 41,
+        "average": 25.1
+      },
+      "lexicalDiversity": 0.578,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-13-atalanta-sarri-overhaul-hapoel-preview",
+      "slug": "atalanta-sarri-overhaul-hapoel-tel-aviv-conference-league-preview",
+      "title": "Sarri's overhauled Atalanta is not the side Hapoel Tel Aviv might expect in Bergamo",
+      "kind": "article",
+      "words": 557,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 46,
+        "longest": 68,
+        "average": 55.7
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 60,
+        "average": 26.5
+      },
+      "lexicalDiversity": 0.612,
       "publisherAttributions": 0,
       "flags": []
     }
