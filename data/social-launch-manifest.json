@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-13T12:11:18Z",
-    "validUntil": "2026-08-14T00:11:18Z",
+    "checkedAt": "2026-08-13T13:28:33Z",
+    "validUntil": "2026-08-14T01:28:33Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 591,
+        "maxAgeHours": 592,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-13-flick-keeps-goren-barcelona-first-team",
+        "articleId": "live-2026-08-13-ceuta-romero-migrant-crisis-andorra",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 599,
+        "maxAgeHours": 600,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-13-hapoel-rishon-lezion-rishona-documentary",
+        "articleId": "live-2026-08-13-celta-vigo-osasuna-fungus-postponed",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 609,
+        "maxAgeHours": 610,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-13-rodri-barcelona-final-offer",
+        "articleId": "live-2026-08-13-flick-keeps-goren-barcelona-first-team",
         "maxAgeHours": 24,
         "requires": []
       }

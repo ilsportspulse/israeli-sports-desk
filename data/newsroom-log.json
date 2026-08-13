@@ -1,5 +1,61 @@
 [
   {
+    "ts": "2026-08-13T13:17:02.820Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 2,
+    "review": 3,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "gal-arad-200m-semifinal-miss-seven-thousandths",
+        "title": "Gal Arad misses 200m semi-final by seven thousandths of a second in Birmingham",
+        "confidence": 0.85,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "below gate thresholds"
+      },
+      {
+        "slug": "celta-vigo-osasuna-postponed-fungus-balaidos",
+        "title": "Celta Vigo's La Liga opener against Osasuna postponed after fungus wrecks Balaídos pitch",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "ceuta-coach-romero-migrant-crisis-andorra-season-opener",
+        "title": "Ceuta coach José Juan Romero: 'If it was up to me, we wouldn't play this weekend'",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "yaakov-shahar-maccabi-haifa-business-approach-book",
+        "title": "New book: Yaakov Shahar ran Maccabi Haifa \"like his businesses\" — and changed Israeli football",
+        "confidence": 0.75,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Book-based feature; the specific quotes and claimed innovations (e.g. Gai Peleg as first spokesperson) are as reported by ONE from the book and Talsnick's dissertation and have not been independently re-verified beyond the source."
+      },
+      {
+        "slug": "israeli-football-fans-union-launch",
+        "title": "Israeli football fans launch first-ever cross-club union to improve matchday experience",
+        "confidence": 0.82,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "The federation's exact official name was not clearly rendered in English by either source; described here descriptively as reported by ONE and Sport5."
+      }
+    ]
+  },
+  {
     "ts": "2026-08-13T10:22:18.699Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -3229,79 +3285,6 @@
         "gate": "hold",
         "decision": "review",
         "reason": "Statistical breakdown of the 22 penalties is drawn from a single outlet's own analysis of the tournament, not an official FIFA dataset."
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-03T02:55:00.067Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 8,
-    "published": 4,
-    "review": 1,
-    "skipped": 3,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "nili-block-beats-isabel-oliveira-gfn1-podcast-recap",
-        "title": "Nili Block beats Isabel Oliveira as ONE's podcast recaps a blockbuster GFN1 night",
-        "confidence": 0.75,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Exact GFN1/Block bout details and podcast quotes are drawn from a single ONE article that could only be summarised via automated fetch, not read verbatim; core facts (GFN1 date/venue, Aronov's Wheeler win) are independently confirmed via Sport5, Israel Hayom and Maariv."
-      },
-      {
-        "slug": "yan-diomande-real-madrid-agent-dispute-fifa",
-        "title": "Jay-Z's agency and a rival firm clash over Yan Diomande, stalling his Real Madrid move",
-        "decision": "duplicate",
-        "reason": "same event as diomande-real-madrid-agent-dispute-delay"
-      },
-      {
-        "slug": "xabi-alonso-real-madrid-scar-chelsea-healed",
-        "title": "Xabi Alonso: Real Madrid exit left a scar, but 'now it is healed'",
-        "decision": "duplicate",
-        "reason": "same event as xabi-alonso-real-madrid-scar-chelsea-new-chapter"
-      },
-      {
-        "slug": "dolev-haziza-clashes-falkoshchenko-netanya-debut-toto-cup",
-        "title": "Dolev Haziza clashes with old club as Hapoel Ramat Gan beat Maccabi Netanya 3-2 in Toto Cup",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "aryeh-hapoel-jerusalem-toto-cup-maccabi-petah-tikva",
-        "title": "Maccabi Petah Tikva beat Hapoel Jerusalem 1-0 as Aryeh reflects on his Jerusalem exit",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "plakushchenko-returns-haunt-netanya-ramat-gan-toto-cup",
-        "title": "Hapoel Ramat Gan beat Maccabi Netanya 3-2 as Plakushchenko haunts his old club",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "daniel-theis-maccabi-tel-aviv-top-salary",
-        "title": "Daniel Theis nears Maccabi Tel Aviv deal that would rank among the club's richest ever",
-        "confidence": 0.8,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "five-federations-backed-infantino-world-cup-investment-plan",
-        "title": "Five federations that backed Infantino's World Cup investment plan before it collapsed",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
       }
     ]
   }

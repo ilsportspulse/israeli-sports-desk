@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T12:11:19.101Z",
+  "generatedAt": "2026-08-13T13:28:34.020Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1337,
-    "publishedBefore": 959,
-    "cleanPublished": 951,
+    "totalArticles": 1342,
+    "publishedBefore": 961,
+    "cleanPublished": 953,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 959,
-    "reviewAfter": 378
+    "publishedAfter": 961,
+    "reviewAfter": 381
   },
   "blockedPublished": [
     {
@@ -156,6 +156,63 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-20260813-israeli-football-fans-union",
+      "slug": "israeli-football-fans-union-launch",
+      "title": "Israeli football fans launch first-ever cross-club union to improve matchday experience",
+      "statusBefore": "review",
+      "words": 384,
+      "paragraphs": 8,
+      "facts": 5,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-13-yaakov-shahar-maccabi-haifa-business",
+      "slug": "yaakov-shahar-maccabi-haifa-business-approach-book",
+      "title": "New book: Yaakov Shahar ran Maccabi Haifa \"like his businesses\" — and changed Israeli football",
+      "statusBefore": "review",
+      "words": 382,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-13-ceuta-romero-migrant-crisis-andorra",
+      "slug": "ceuta-coach-romero-migrant-crisis-andorra-season-opener",
+      "title": "Ceuta coach José Juan Romero: 'If it was up to me, we wouldn't play this weekend'",
+      "statusBefore": "published",
+      "words": 425,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-13-celta-vigo-osasuna-fungus-postponed",
+      "slug": "celta-vigo-osasuna-postponed-fungus-balaidos",
+      "title": "Celta Vigo's La Liga opener against Osasuna postponed after fungus wrecks Balaídos pitch",
+      "statusBefore": "published",
+      "words": 319,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-08-13-hapoel-rishon-lezion-rishona-documentary",
       "slug": "hapoel-rishon-lezion-rishona-documentary-series",
@@ -12971,6 +13028,34 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-13-ceuta-romero-migrant-crisis-andorra",
+      "slug": "ceuta-coach-romero-migrant-crisis-andorra-season-opener",
+      "title": "Ceuta coach José Juan Romero: 'If it was up to me, we wouldn't play this weekend'",
+      "statusBefore": "published",
+      "words": 425,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-13-celta-vigo-osasuna-fungus-postponed",
+      "slug": "celta-vigo-osasuna-postponed-fungus-balaidos",
+      "title": "Celta Vigo's La Liga opener against Osasuna postponed after fungus wrecks Balaídos pitch",
+      "statusBefore": "published",
+      "words": 319,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-08-13-flick-keeps-goren-barcelona-first-team",
       "slug": "flick-keeps-orian-goren-barcelona-first-team",
