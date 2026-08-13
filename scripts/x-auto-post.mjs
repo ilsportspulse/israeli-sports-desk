@@ -91,14 +91,20 @@ function parseFeed(xml) {
 
 const isIsraeli = (it) => /^israeli|israelis abroad/i.test(it.category || "");
 
-function hashtag(category) {
-  if (/basket/i.test(category)) return "#IsraeliBasketball";
-  if (/football|soccer/i.test(category)) return "#IsraeliFootball";
-  return "#IsraeliSport";
+function hashtag(it) {
+  const cat = it.category || "";
+  const il = isIsraeli(it);
+  if (/basket/i.test(cat)) return il ? "#IsraeliBasketball" : "#Basketball";
+  if (/football|soccer/i.test(cat)) return il ? "#IsraeliFootball" : "#Football";
+  if (/tennis/i.test(cat)) return il ? "#IsraeliTennis" : "#Tennis";
+  return il ? "#IsraeliSport" : "#Sport";
 }
 
 function composeText(it) {
-  return `${it.title}\n\n${it.link}\n\n${hashtag(it.category)} #Israel`;
+  // Owner rule: post ALL articles to X. Israeli stories carry the #Israel tag; world
+  // stories get a clean sport tag so the international desk reaches X too.
+  const tail = isIsraeli(it) ? `${hashtag(it)} #Israel` : hashtag(it);
+  return `${it.title}\n\n${it.link}\n\n${tail}`;
 }
 
 async function fetchFeed() {
@@ -108,11 +114,13 @@ async function fetchFeed() {
       if (!res.ok) continue;
       const xml = await res.text();
       let items = parseFeed(xml).filter((it) => it.link);
-      // feed.xml is mixed; feed-israel.xml is pre-filtered. Filter either way.
+      // Owner rule "post ALL articles to X": post every desk, not just Israeli — but
+      // put Israeli stories FIRST each run so the core brand always leads, then world.
       const israeli = items.filter(isIsraeli);
-      const use = israeli.length ? israeli : items; // feed-israel.xml has no category → keep all
+      const rest = items.filter((it) => !isIsraeli(it));
+      const use = [...israeli, ...rest];
       if (use.length) {
-        log(`Feed ${url}: ${use.length} Israeli items.`);
+        log(`Feed ${url}: ${use.length} items (${israeli.length} Israeli-first, ${rest.length} world).`);
         return use;
       }
     } catch (e) {
