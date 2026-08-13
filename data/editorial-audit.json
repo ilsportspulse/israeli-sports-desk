@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T03:10:56.403Z",
+  "generatedAt": "2026-08-13T04:27:57.557Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,12 +17,12 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1319,
-    "publishedBefore": 947,
-    "cleanPublished": 939,
+    "totalArticles": 1322,
+    "publishedBefore": 950,
+    "cleanPublished": 942,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 947,
+    "publishedAfter": 950,
     "reviewAfter": 372
   },
   "blockedPublished": [
@@ -156,6 +156,49 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-2026-08-13-lelior-stuns-bryan-tahiti-pro",
+      "slug": "anat-lelior-beats-gabriela-bryan-tahiti-pro-quarterfinals",
+      "title": "Lelior stuns world No. 1 Bryan 12.73-1.46 to reach Tahiti Pro quarter-finals",
+      "statusBefore": "published",
+      "words": 368,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-13-beitar-almog-cohen-austria-vienna-spy-fears",
+      "slug": "beitar-almog-cohen-skips-training-austria-vienna-spying-fears",
+      "title": "Beitar boss Almog Cohen skips full training in Vienna over spying fears",
+      "statusBefore": "published",
+      "words": 511,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "archive-20260813-qingdao-20-august-2008-the-comeback-that",
+      "slug": "qingdao-20-august-2008-the-comeback-that-gave-israel-its-only-beijing-",
+      "title": "Qingdao, 20 August 2008: The Comeback That Gave Israel Its Only Beijing Medal",
+      "statusBefore": "published",
+      "words": 658,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-08-12-hapoel-tel-aviv-katowice-conference-league-playoff",
       "slug": "hapoel-tel-aviv-katowice-aggregate-conference-league-playoff-atalanta",
@@ -12754,6 +12797,49 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-13-lelior-stuns-bryan-tahiti-pro",
+      "slug": "anat-lelior-beats-gabriela-bryan-tahiti-pro-quarterfinals",
+      "title": "Lelior stuns world No. 1 Bryan 12.73-1.46 to reach Tahiti Pro quarter-finals",
+      "statusBefore": "published",
+      "words": 368,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-13-beitar-almog-cohen-austria-vienna-spy-fears",
+      "slug": "beitar-almog-cohen-skips-training-austria-vienna-spying-fears",
+      "title": "Beitar boss Almog Cohen skips full training in Vienna over spying fears",
+      "statusBefore": "published",
+      "words": 511,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "archive-20260813-qingdao-20-august-2008-the-comeback-that",
+      "slug": "qingdao-20-august-2008-the-comeback-that-gave-israel-its-only-beijing-",
+      "title": "Qingdao, 20 August 2008: The Comeback That Gave Israel Its Only Beijing Medal",
+      "statusBefore": "published",
+      "words": 658,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-08-12-hapoel-tel-aviv-katowice-conference-league-playoff",
       "slug": "hapoel-tel-aviv-katowice-aggregate-conference-league-playoff-atalanta",

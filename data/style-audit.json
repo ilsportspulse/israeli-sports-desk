@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T03:10:56.835Z",
+  "generatedAt": "2026-08-13T04:27:57.872Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 947,
+    "publishedArticles": 950,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 419,
-      "average": 424.3
+      "average": 424.6
     },
     "paragraphDistribution": {
       "3": 34,
@@ -24,8 +24,8 @@
       "5": 10,
       "6": 46,
       "7": 134,
-      "8": 272,
-      "9": 223,
+      "8": 274,
+      "9": 224,
       "10": 159,
       "11": 40,
       "12": 13,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.287,
+    "dominantParagraphShare": 0.288,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 46,
     "analysisBelowTarget": 9,
@@ -3782,6 +3782,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-13-lelior-stuns-bryan-tahiti-pro",
+      "slug": "anat-lelior-beats-gabriela-bryan-tahiti-pro-quarterfinals",
+      "title": "Lelior stuns world No. 1 Bryan 12.73-1.46 to reach Tahiti Pro quarter-finals",
+      "kind": "news",
+      "words": 370,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 64,
+        "average": 46.3
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 46,
+        "average": 26.4
+      },
+      "lexicalDiversity": 0.535,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-13-beitar-almog-cohen-austria-vienna-spy-fears",
+      "slug": "beitar-almog-cohen-skips-training-austria-vienna-spying-fears",
+      "title": "Beitar boss Almog Cohen skips full training in Vienna over spying fears",
+      "kind": "article",
+      "words": 509,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 43,
+        "longest": 83,
+        "average": 63.6
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 61,
+        "average": 31.8
+      },
+      "lexicalDiversity": 0.576,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "archive-20260813-qingdao-20-august-2008-the-comeback-that",
+      "slug": "qingdao-20-august-2008-the-comeback-that-gave-israel-its-only-beijing-",
+      "title": "Qingdao, 20 August 2008: The Comeback That Gave Israel Its Only Beijing Medal",
+      "kind": "explainer",
+      "words": 651,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 48,
+        "longest": 92,
+        "average": 72.3
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 66,
+        "average": 28.3
+      },
+      "lexicalDiversity": 0.515,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-12-hapoel-tel-aviv-katowice-conference-league-playoff",
       "slug": "hapoel-tel-aviv-katowice-aggregate-conference-league-playoff-atalanta",

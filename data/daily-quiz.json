@@ -1,67 +1,67 @@
 {
-  "date": "2026-08-12",
+  "date": "2026-08-13",
   "title": "The Daily Five",
-  "dek": "Five questions on Israeli sport, from a Wimbledon first to a fresh Champions League upset.",
+  "dek": "Five questions on Israeli sport, from a Beijing windsurfing bronze to this week's European football and swimming action.",
   "questions": [
     {
-      "question": "Who partnered Andy Ram to the 2006 Wimbledon mixed doubles title, making him Israel's first Grand Slam champion?",
+      "question": "What color medal did Shahar Zubari win in the men's RS:X windsurfing event at the 2008 Beijing Olympics?",
       "answers": [
-        "Vera Zvonareva",
-        "Venus Williams",
-        "Nathalie Dechy",
-        "Cara Black"
+        "Gold",
+        "Silver",
+        "Bronze",
+        "He did not medal"
       ],
-      "correctIndex": 0,
-      "explanation": "Ram and Vera Zvonareva beat Bob Bryan and Venus Williams 6-3, 6-2 in the final on Centre Court on 8 July 2006.",
-      "sourceUrl": "https://www.haaretz.com/2006-07-09/ty-article/wimbledon-israeli-first-as-ram-wins-doubles-with-zvonareva/0000017f-ee5c-d0f7-a9ff-eedd3e9d0000"
+      "correctIndex": 2,
+      "explanation": "Zubari finished with 58 net points to take bronze behind New Zealand's Tom Ashley and France's Julien Bontemps, Israel's only medal at the Beijing Games.",
+      "sourceUrl": "https://www.olympedia.org/results/261170"
     },
     {
-      "question": "Which country won gold at the 2008 Chess Olympiad in Dresden, finishing one point ahead of Israel's silver-medal squad?",
+      "question": "Which Italian club will Hapoel Tel Aviv face in the Conference League playoff round after eliminating Katowice?",
       "answers": [
-        "Armenia",
-        "United States",
-        "Ukraine",
-        "Netherlands"
+        "Atalanta",
+        "AS Roma",
+        "Fiorentina",
+        "Torino"
       ],
       "correctIndex": 0,
-      "explanation": "Armenia took gold with 19 match points, one ahead of Israel's 18, despite losing 2½–1½ to Israel during the event.",
-      "sourceUrl": "https://www.jpost.com/israel/israel-wins-silver-at-chess-olympiad"
+      "explanation": "Hapoel Tel Aviv advanced 3-2 on aggregate over Katowice and will meet 2024 Europa League champions Atalanta, with the first leg in Bergamo on August 20.",
+      "sourceUrl": "https://www.one.co.il/Article/530478.html"
     },
     {
-      "question": "By what aggregate score did Hapoel Beer Sheva eliminate Red Star Belgrade from Champions League qualifying?",
+      "question": "Where was the first leg of Beitar Jerusalem's Conference League tie against Austria Wien played, with Beitar now trailing 2-1 on aggregate?",
       "answers": [
-        "3-0",
-        "2-0",
-        "1-0",
-        "2-1"
+        "Ploiești, Romania",
+        "Vienna, Austria",
+        "Jerusalem, Israel",
+        "Sofia, Bulgaria"
       ],
       "correctIndex": 0,
-      "explanation": "Beer Sheva won 1-0 away in the first leg and 2-0 at home in the second, for a 3-0 aggregate victory.",
-      "sourceUrl": "https://www.one.co.il/Article/530395.html"
+      "explanation": "The first leg was staged at a neutral venue, Ilie Oană Stadium in Ploiești, where Austria Wien came from behind to win 2-1.",
+      "sourceUrl": "https://www.one.co.il/Article/530468.html"
     },
     {
-      "question": "Which Premier League club agreed a fee for Israel international Anan Khalaili, set to become the most expensive Israeli player in history?",
+      "question": "Alongside Hapoel Bat Yam, which US university does European Championships swimmer Daria Golovaty represent?",
       "answers": [
-        "Crystal Palace",
-        "Everton",
-        "Aston Villa",
-        "Newcastle United"
+        "University of Louisville",
+        "University of Florida",
+        "Ohio State University",
+        "University of Michigan"
       ],
       "correctIndex": 0,
-      "explanation": "Palace agreed roughly £21m with Union Saint-Gilloise for Khalaili, beating out Everton, Aston Villa and Newcastle United.",
-      "sourceUrl": "https://www.one.co.il/Article/530334.html"
+      "explanation": "Golovaty, who has held Israeli citizenship since 2006, swims for Hapoel Bat Yam and the University of Louisville and just missed the 200m freestyle final in Paris.",
+      "sourceUrl": "https://www.one.co.il/Article/530450.html"
     },
     {
-      "question": "Ariel Berkovich, newly promoted to Maccabi Ironi Ramat Gan's senior squad, is the grandson of which Maccabi Tel Aviv and Israel basketball legend?",
+      "question": "Which Olympic Games did new Maccabi Haifa loan goalkeeper Omer Niraon represent Israel at?",
       "answers": [
-        "Miki Berkovich",
-        "Roi Berkovich",
-        "Elad Chasan",
-        "Papi Turgeman"
+        "2024 Paris",
+        "2020 Tokyo",
+        "2016 Rio",
+        "2012 London"
       ],
       "correctIndex": 0,
-      "explanation": "Ariel is the grandson of Miki Berkovich, a FIBA Hall of Famer who won 16 Israeli championships and two European Champions Cups with Maccabi Tel Aviv.",
-      "sourceUrl": "https://www.one.co.il/Article/530359.html"
+      "explanation": "Niraon, who joins Maccabi Haifa on loan from Maccabi Netanya as back-up to Omri Glazer, played in goal for Israel at the 2024 Paris Olympics.",
+      "sourceUrl": "https://www.one.co.il/Article/530467.html"
     }
   ]
 }
