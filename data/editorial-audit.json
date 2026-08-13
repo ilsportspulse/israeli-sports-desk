@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T13:28:34.020Z",
+  "generatedAt": "2026-08-13T13:48:25.579Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -18,12 +18,12 @@
   },
   "summary": {
     "totalArticles": 1342,
-    "publishedBefore": 961,
-    "cleanPublished": 953,
+    "publishedBefore": 962,
+    "cleanPublished": 954,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 961,
-    "reviewAfter": 381
+    "publishedAfter": 962,
+    "reviewAfter": 380
   },
   "blockedPublished": [
     {
@@ -157,13 +157,13 @@
   ],
   "warnings": [
     {
-      "id": "live-20260813-israeli-football-fans-union",
-      "slug": "israeli-football-fans-union-launch",
-      "title": "Israeli football fans launch first-ever cross-club union to improve matchday experience",
+      "id": "live-20260813-yaakov-shahar-maccabi-haifa-book",
+      "slug": "yaakov-shahar-maccabi-haifa-business-book",
+      "title": "New book traces how Yaakov Shahar ran Maccabi Haifa like his own business",
       "statusBefore": "review",
-      "words": 384,
-      "paragraphs": 8,
-      "facts": 5,
+      "words": 393,
+      "paragraphs": 9,
+      "facts": 6,
       "verificationSources": 2,
       "blockers": [],
       "warnings": [
@@ -172,45 +172,31 @@
       ]
     },
     {
-      "id": "live-2026-08-13-yaakov-shahar-maccabi-haifa-business",
-      "slug": "yaakov-shahar-maccabi-haifa-business-approach-book",
-      "title": "New book: Yaakov Shahar ran Maccabi Haifa \"like his businesses\" — and changed Israeli football",
+      "id": "live-2026-08-13-ceuta-coach-migrant-crisis-comments",
+      "slug": "ceuta-coach-jose-juan-romero-migrant-crisis-comments",
+      "title": "Ceuta coach says he would rather not play this weekend amid migration crisis",
       "statusBefore": "review",
-      "words": 382,
-      "paragraphs": 8,
-      "facts": 6,
-      "verificationSources": 2,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-13-ceuta-romero-migrant-crisis-andorra",
-      "slug": "ceuta-coach-romero-migrant-crisis-andorra-season-opener",
-      "title": "Ceuta coach José Juan Romero: 'If it was up to me, we wouldn't play this weekend'",
-      "statusBefore": "published",
-      "words": 425,
+      "words": 340,
       "paragraphs": 7,
-      "facts": 7,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-13-celta-vigo-osasuna-fungus-postponed",
-      "slug": "celta-vigo-osasuna-postponed-fungus-balaidos",
-      "title": "Celta Vigo's La Liga opener against Osasuna postponed after fungus wrecks Balaídos pitch",
-      "statusBefore": "published",
-      "words": 319,
-      "paragraphs": 8,
       "facts": 6,
       "verificationSources": 4,
       "blockers": [],
       "warnings": [
-        "media:no-action-or-competition-context-detected"
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-13-gal-arad-200m-birmingham-miss",
+      "slug": "gal-arad-200m-semifinal-miss-birmingham-seven-thousandths",
+      "title": "Gal Arad misses European 200m semi-final by seven thousandths of a second",
+      "statusBefore": "published",
+      "words": 430,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
       ]
     },
     {
@@ -13029,32 +13015,42 @@
   ],
   "cleanPublished": [
     {
-      "id": "live-2026-08-13-ceuta-romero-migrant-crisis-andorra",
-      "slug": "ceuta-coach-romero-migrant-crisis-andorra-season-opener",
-      "title": "Ceuta coach José Juan Romero: 'If it was up to me, we wouldn't play this weekend'",
+      "id": "live-20260813-celta-vigo-osasuna-postponed-fungus",
+      "slug": "celta-vigo-osasuna-postponed-pitch-fungus",
+      "title": "Celta Vigo's La Liga opener against Osasuna postponed after fungus wrecks the Balaídos pitch",
       "statusBefore": "published",
-      "words": 425,
+      "words": 282,
       "paragraphs": 7,
-      "facts": 7,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-13-celta-vigo-osasuna-fungus-postponed",
-      "slug": "celta-vigo-osasuna-postponed-fungus-balaidos",
-      "title": "Celta Vigo's La Liga opener against Osasuna postponed after fungus wrecks Balaídos pitch",
-      "statusBefore": "published",
-      "words": 319,
-      "paragraphs": 8,
       "facts": 6,
       "verificationSources": 4,
       "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-13-gal-arad-200m-birmingham-miss",
+      "slug": "gal-arad-200m-semifinal-miss-birmingham-seven-thousandths",
+      "title": "Gal Arad misses European 200m semi-final by seven thousandths of a second",
+      "statusBefore": "published",
+      "words": 430,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
       "warnings": [
-        "media:no-action-or-competition-context-detected"
+        "voice:publisher-attribution-heavy:2"
       ]
+    },
+    {
+      "id": "live-2026-08-13-holon-maoz-daniel-sponsor",
+      "slug": "hapoel-holon-maoz-daniel-main-sponsor",
+      "title": "Hapoel Holon name Maoz Daniel as new main sponsor",
+      "statusBefore": "published",
+      "words": 251,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
     },
     {
       "id": "live-2026-08-13-flick-keeps-goren-barcelona-first-team",

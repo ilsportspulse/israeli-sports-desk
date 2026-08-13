@@ -1,34 +1,28 @@
 {
   "selections": [
     {
-      "articleId": "live-20260813-israeli-football-fans-union",
-      "article": "Israeli football fans launch first-ever cross-club union to improve matchday experience",
-      "file": "File:Maccabifansbloomfield.jpg",
-      "license": "CC BY-SA 4.0"
-    },
-    {
-      "articleId": "live-2026-08-13-yaakov-shahar-maccabi-haifa-business",
-      "article": "New book: Yaakov Shahar ran Maccabi Haifa \"like his businesses\" — and changed Israeli football",
+      "articleId": "live-20260813-yaakov-shahar-maccabi-haifa-book",
+      "article": "New book traces how Yaakov Shahar ran Maccabi Haifa like his own business",
       "file": "File:Yaakov-Shachar-001.jpg",
       "license": "CC BY-SA 3.0"
     },
     {
-      "articleId": "live-2026-08-13-ceuta-romero-migrant-crisis-andorra",
-      "article": "Ceuta coach José Juan Romero: 'If it was up to me, we wouldn't play this weekend'",
-      "file": "File:XI inicial A.D Ceuta F.C en la temporada 2020-21.jpg",
+      "articleId": "live-2026-08-13-ceuta-coach-migrant-crisis-comments",
+      "article": "Ceuta coach says he would rather not play this weekend amid migration crisis",
+      "file": "File:Mecz piłkarski Wisła Kraków - Zagłębie Sosnwoiec, 28 października 2022, Pożegnanie Stadionu Ludowego, KP.jpg",
+      "license": "CC BY 4.0"
+    },
+    {
+      "articleId": "live-2026-08-13-gal-arad-200m-birmingham-miss",
+      "article": "Gal Arad misses European 200m semi-final by seven thousandths of a second",
+      "file": "File:Alexander Stadium during the 2022 Commonwealth Games.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-2026-08-13-celta-vigo-osasuna-fungus-postponed",
-      "article": "Celta Vigo's La Liga opener against Osasuna postponed after fungus wrecks Balaídos pitch",
-      "file": "File:Estadio de Balaídos Río Alto, Río Baixo e Grada de Gol.JPG",
+      "articleId": "live-2026-08-13-tomer-shuster-50m-backstroke-semifinal",
+      "article": "Shuster swims lifetime best to reach 50m backstroke semi-final at Wingate trials",
+      "file": "File:Israel swimming team 2019-1.jpg",
       "license": "CC BY-SA 4.0"
-    },
-    {
-      "articleId": "live-2026-08-13-gal-arad-200m-semifinal-miss",
-      "article": "Gal Arad misses 200m semi-final by seven thousandths of a second in Birmingham",
-      "file": "File:Alexander Stadium Birmingham.jpg",
-      "license": "CC BY-SA 2.0"
     },
     {
       "articleId": "live-20260714-basketball-coaches-registration",
@@ -40,9 +34,14 @@
   ],
   "failures": [
     {
-      "id": "live-2026-08-13-tomer-shuster-50m-backstroke-semifinal",
-      "title": "Shuster swims lifetime best to reach 50m backstroke semi-final at Wingate trials",
+      "id": "live-20260813-celta-vigo-osasuna-postponed-fungus",
+      "title": "Celta Vigo's La Liga opener against Osasuna postponed after fungus wrecks the Balaídos pitch",
       "error": "image download 429 after retries"
+    },
+    {
+      "id": "live-2026-08-13-holon-maoz-daniel-sponsor",
+      "title": "Hapoel Holon name Maoz Daniel as new main sponsor",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {
       "id": "live-20260812-shtilman-recanati-documents-maccabi",

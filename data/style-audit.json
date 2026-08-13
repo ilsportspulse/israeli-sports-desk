@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T13:28:34.565Z",
+  "generatedAt": "2026-08-13T13:48:26.118Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,19 +11,19 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 961,
+    "publishedArticles": 962,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 419,
-      "average": 424.9
+      "average": 424.7
     },
     "paragraphDistribution": {
       "3": 34,
       "4": 6,
       "5": 10,
       "6": 46,
-      "7": 136,
+      "7": 137,
       "8": 279,
       "9": 226,
       "10": 160,
@@ -39,7 +39,7 @@
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 46,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 164
+    "articlesWithStyleFlags": 165
   },
   "flagged": [
     {
@@ -328,6 +328,29 @@
       "flags": [
         "below-editorial-target:227/280",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-13-holon-maoz-daniel-sponsor",
+      "slug": "hapoel-holon-maoz-daniel-main-sponsor",
+      "title": "Hapoel Holon name Maoz Daniel as new main sponsor",
+      "kind": "news",
+      "words": 251,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 9,
+        "longest": 50,
+        "average": 35.9
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 78,
+        "average": 41.8
+      },
+      "lexicalDiversity": 0.625,
+      "publisherAttributions": 1,
+      "flags": [
+        "below-editorial-target:251/280"
       ]
     },
     {
@@ -3829,45 +3852,45 @@
   ],
   "clean": [
     {
-      "id": "live-2026-08-13-ceuta-romero-migrant-crisis-andorra",
-      "slug": "ceuta-coach-romero-migrant-crisis-andorra-season-opener",
-      "title": "Ceuta coach José Juan Romero: 'If it was up to me, we wouldn't play this weekend'",
-      "kind": "article",
-      "words": 424,
+      "id": "live-20260813-celta-vigo-osasuna-postponed-fungus",
+      "slug": "celta-vigo-osasuna-postponed-pitch-fungus",
+      "title": "Celta Vigo's La Liga opener against Osasuna postponed after fungus wrecks the Balaídos pitch",
+      "kind": "news",
+      "words": 282,
       "paragraphs": 7,
       "paragraphWords": {
-        "shortest": 41,
-        "longest": 81,
-        "average": 60.6
+        "shortest": 34,
+        "longest": 62,
+        "average": 40.3
       },
       "sentenceWords": {
-        "shortest": 8,
-        "longest": 80,
-        "average": 32.6
+        "shortest": 29,
+        "longest": 42,
+        "average": 35.3
       },
-      "lexicalDiversity": 0.599,
-      "publisherAttributions": 1,
+      "lexicalDiversity": 0.613,
+      "publisherAttributions": 0,
       "flags": []
     },
     {
-      "id": "live-2026-08-13-celta-vigo-osasuna-fungus-postponed",
-      "slug": "celta-vigo-osasuna-postponed-fungus-balaidos",
-      "title": "Celta Vigo's La Liga opener against Osasuna postponed after fungus wrecks Balaídos pitch",
+      "id": "live-2026-08-13-gal-arad-200m-birmingham-miss",
+      "slug": "gal-arad-200m-semifinal-miss-birmingham-seven-thousandths",
+      "title": "Gal Arad misses European 200m semi-final by seven thousandths of a second",
       "kind": "news",
-      "words": 320,
+      "words": 436,
       "paragraphs": 8,
       "paragraphWords": {
-        "shortest": 21,
-        "longest": 57,
-        "average": 40
+        "shortest": 38,
+        "longest": 72,
+        "average": 54.5
       },
       "sentenceWords": {
-        "shortest": 8,
-        "longest": 50,
-        "average": 29.1
+        "shortest": 7,
+        "longest": 62,
+        "average": 31.1
       },
-      "lexicalDiversity": 0.628,
-      "publisherAttributions": 0,
+      "lexicalDiversity": 0.573,
+      "publisherAttributions": 1,
       "flags": []
     },
     {

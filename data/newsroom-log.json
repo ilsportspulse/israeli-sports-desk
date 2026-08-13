@@ -3287,5 +3287,61 @@
         "reason": "Statistical breakdown of the 22 penalties is drawn from a single outlet's own analysis of the tournament, not an official FIFA dataset."
       }
     ]
+  },
+  {
+    "ts": "2026-08-13T13:37:34.393Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 3,
+    "review": 2,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "hapoel-holon-maoz-daniel-main-sponsor",
+        "title": "Hapoel Holon name Maoz Daniel as new main sponsor",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "gal-arad-200m-semifinal-miss-birmingham-seven-thousandths",
+        "title": "Gal Arad misses European 200m semi-final by seven thousandths of a second",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "celta-vigo-osasuna-postponed-pitch-fungus",
+        "title": "Celta Vigo's La Liga opener against Osasuna postponed after fungus wrecks the Balaídos pitch",
+        "confidence": 0.9,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "ceuta-coach-jose-juan-romero-migrant-crisis-comments",
+        "title": "Ceuta coach says he would rather not play this weekend amid migration crisis",
+        "confidence": 0,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "not newsworthy — this is a press-conference human-interest comment from a Spanish second-tier (Segunda División) club coach tied to a local migration crisis, not a transfer, result or major-league story, and has no Israeli angle; hold from publication. No correctly-identified Wikimedia Commons photo of José Juan Romero or AD Ceuta FC could be verified within the research budget, so no image is attached."
+      },
+      {
+        "slug": "yaakov-shahar-maccabi-haifa-business-book",
+        "title": "New book traces how Yaakov Shahar ran Maccabi Haifa like his own business",
+        "confidence": 0.75,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Guy Peleg and Giora Spigler's roles are cited only in the ONE report and could not be independently corroborated."
+      }
+    ]
   }
 ]
