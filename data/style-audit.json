@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T17:43:48.875Z",
+  "generatedAt": "2026-08-13T18:58:04.511Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -3852,6 +3852,27 @@
   ],
   "clean": [
     {
+      "id": "live-2026-08-13-anat-lelior-tahiti-pro-qf",
+      "slug": "anat-lelior-tahiti-pro-quarterfinal-win",
+      "title": "Lelior beats Gallina 9.50-5.76 to reach Tahiti Pro semi-final",
+      "kind": "article",
+      "words": 375,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 58,
+        "average": 46.9
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 58,
+        "average": 34.1
+      },
+      "lexicalDiversity": 0.557,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
       "id": "live-2026-08-13-russell-westbrook-retires-nba",
       "slug": "russell-westbrook-retires-nba-18-seasons",
       "title": "Russell Westbrook retires after 18 seasons as one of the NBA's most divisive superstars",
@@ -3975,27 +3996,6 @@
       },
       "lexicalDiversity": 0.605,
       "publisherAttributions": 1,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-13-lelior-stuns-bryan-tahiti-pro",
-      "slug": "anat-lelior-beats-gabriela-bryan-tahiti-pro-quarterfinals",
-      "title": "Lelior stuns world No. 1 Bryan 12.73-1.46 to reach Tahiti Pro quarter-finals",
-      "kind": "news",
-      "words": 370,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 34,
-        "longest": 64,
-        "average": 46.3
-      },
-      "sentenceWords": {
-        "shortest": 5,
-        "longest": 46,
-        "average": 26.4
-      },
-      "lexicalDiversity": 0.535,
-      "publisherAttributions": 0,
       "flags": []
     },
     {

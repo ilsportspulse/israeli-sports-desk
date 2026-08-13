@@ -1,5 +1,56 @@
 [
   {
+    "ts": "2026-08-13T18:46:34.485Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 1,
+    "review": 2,
+    "skipped": 2,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "austria-wien-beitar-jerusalem-conference-league-return-leg-in-progress",
+        "title": "Austria Wien lead Beitar Jerusalem 0-0 early in Conference League return leg (match in progress)",
+        "confidence": 0,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "match in progress — wait for full time"
+      },
+      {
+        "slug": "anat-lelior-tahiti-pro-quarterfinal-win",
+        "title": "Lelior beats Gallina 9.50-5.76 to reach Tahiti Pro semi-final",
+        "confidence": 0.9,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "cska-sofia-maccabi-tel-aviv-europa-league-in-progress",
+        "title": "Maccabi Tel Aviv chase a European comeback in Sofia",
+        "confidence": 0,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "match in progress — wait for full time"
+      },
+      {
+        "slug": "romero-atletico-madrid-move-frattesi-lazio-loan",
+        "title": "Romero completes Atletico Madrid move as Frattesi agrees Lazio loan",
+        "decision": "duplicate",
+        "reason": "same event as paul-scholes-urges-manchester-united-to-hijack-cristian-romero-move"
+      },
+      {
+        "slug": "cska-sofia-maccabi-tel-aviv-second-leg-in-progress",
+        "title": "Maccabi Tel Aviv chase a European comeback in Sofia as second leg plays out",
+        "decision": "duplicate"
+      }
+    ]
+  },
+  {
     "ts": "2026-08-13T15:47:52.007Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -3185,76 +3236,6 @@
         "slug": "hapoel-tel-aviv-bilal-shaheen-trial",
         "title": "Hapoel Tel Aviv give trial to free-agent left back Bilal Shaheen",
         "confidence": 0.8,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-03T05:49:58.260Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 8,
-    "published": 4,
-    "review": 0,
-    "skipped": 4,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "glazer-improvement-pedrao-training-maccabi-haifa",
-        "title": "Glazer shows clear improvement, Pedrão returns to training as Maccabi Haifa prepare for Tiberias",
-        "decision": "duplicate",
-        "reason": "same event as maccabi-haifa-glenn-alvin-debut-start-tiberias-toto-cup"
-      },
-      {
-        "slug": "maccabi-netanya-frustration-toto-cup-defeat-ramat-gan",
-        "title": "Maccabi Netanya 2-3 Hapoel Ramat Gan: frustration boils over after Toto Cup shock",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "kings-kangwa-maccabi-tel-aviv-rejection-motivation",
-        "title": "Kings Kangwa: \"Maccabi Tel Aviv didn't want me. It gave me motivation\"",
-        "decision": "duplicate",
-        "reason": "same event as kangwa-99-percent-chance-vikingur-panathinaikos-move"
-      },
-      {
-        "slug": "four-israeli-clubs-uefa-third-qualifying-round-preview",
-        "title": "Red Star Belgrade, CSKA Sofia and Austria Wien await Israel's four European hopefuls",
-        "confidence": 0.75,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "daniel-theis-agrees-terms-maccabi-tel-aviv",
-        "title": "Daniel Theis agrees terms with Maccabi Tel Aviv on two-year, $2.2m-a-season deal",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "manuel-benson-returns-maccabi-haifa-squad-toto-cup-tiberias",
-        "title": "Manuel Benson returns to Maccabi Haifa squad after three-month Achilles absence",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "deni-avdija-not-everyone-happy-im-israeli",
-        "title": "Deni Avdija: 'Not everyone is happy that I'm Israeli, it bothers me less'",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "maccabi-tel-aviv-defender-target-andreou-estoril",
-        "title": "Maccabi Tel Aviv defensive target Stelios Andreou opts to join Estoril instead",
-        "confidence": 0.75,
         "gate": "pass",
         "decision": "published",
         "reason": ""
