@@ -146,21 +146,21 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-13T19:45:28Z",
-    "validUntil": "2026-08-14T07:45:28Z",
+    "checkedAt": "2026-08-13T20:44:29Z",
+    "validUntil": "2026-08-14T08:44:29Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 599,
+        "maxAgeHours": 600,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-13-russell-westbrook-retires-nba",
+        "articleId": "live-2026-08-13-adva-cohen-steeplechase-10th",
         "maxAgeHours": 48,
         "requires": []
       },
@@ -174,14 +174,14 @@
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-13-gal-arad-200m-birmingham-miss",
+        "articleId": "live-2026-08-13-russell-westbrook-retires-nba",
         "maxAgeHours": 24,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 617,
+        "maxAgeHours": 618,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-13-ceuta-romero-migrant-crisis-andorra",
+        "articleId": "live-2026-08-13-gal-arad-200m-birmingham-miss",
         "maxAgeHours": 24,
         "requires": []
       }

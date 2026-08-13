@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T19:45:28.450Z",
+  "generatedAt": "2026-08-13T20:44:29.442Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1352,
-    "publishedBefore": 964,
-    "cleanPublished": 956,
+    "totalArticles": 1354,
+    "publishedBefore": 965,
+    "cleanPublished": 957,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 964,
-    "reviewAfter": 388
+    "publishedAfter": 965,
+    "reviewAfter": 389
   },
   "blockedPublished": [
     {
@@ -156,6 +156,20 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-2026-08-13-adva-cohen-steeplechase-10th",
+      "slug": "adva-cohen-10th-steeplechase-final-european-championships",
+      "title": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
+      "statusBefore": "published",
+      "words": 290,
+      "paragraphs": 6,
+      "facts": 5,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-08-13-cska-sofia-maccabi-tel-aviv-held",
       "slug": "cska-sofia-maccabi-tel-aviv-europa-league-in-progress",
@@ -13116,6 +13130,20 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-13-adva-cohen-steeplechase-10th",
+      "slug": "adva-cohen-10th-steeplechase-final-european-championships",
+      "title": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
+      "statusBefore": "published",
+      "words": 290,
+      "paragraphs": 6,
+      "facts": 5,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-08-13-anat-lelior-tahiti-pro-qf",
       "slug": "anat-lelior-tahiti-pro-quarterfinal-win",

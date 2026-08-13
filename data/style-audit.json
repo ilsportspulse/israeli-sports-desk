@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T19:45:29.018Z",
+  "generatedAt": "2026-08-13T20:44:29.999Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,18 +11,18 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 964,
+    "publishedArticles": 965,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 419.5,
-      "average": 424.8
+      "median": 419,
+      "average": 424.7
     },
     "paragraphDistribution": {
       "3": 34,
       "4": 6,
       "5": 10,
-      "6": 46,
+      "6": 47,
       "7": 137,
       "8": 280,
       "9": 226,
@@ -37,7 +37,7 @@
     "dominantParagraphCount": 8,
     "dominantParagraphShare": 0.29,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 46,
+    "exactSixParagraphArticles": 47,
     "analysisBelowTarget": 9,
     "articlesWithStyleFlags": 165
   },
@@ -3851,6 +3851,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-13-adva-cohen-steeplechase-10th",
+      "slug": "adva-cohen-10th-steeplechase-final-european-championships",
+      "title": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
+      "kind": "article",
+      "words": 302,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 72,
+        "average": 50.3
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 43,
+        "average": 27.5
+      },
+      "lexicalDiversity": 0.616,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-13-anat-lelior-tahiti-pro-qf",
       "slug": "anat-lelior-tahiti-pro-quarterfinal-win",
