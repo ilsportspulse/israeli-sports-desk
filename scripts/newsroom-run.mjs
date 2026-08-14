@@ -505,15 +505,29 @@ async function main() {
   // Concurrency turns N sequential slow drafts into roughly one draft's wall-clock,
   // so a cycle can publish several stories instead of one.
   const draftConcurrency = DRAFT_CONCURRENCY;
+  // Hard wall-clock budget for drafting: once ~28 min have passed, stop STARTING new
+  // AI drafts and move straight to publish + gate + commit. The GitHub job is capped
+  // at 45 min; a cycle that keeps drafting can blow that cap and be killed as a
+  // TIMEOUT (steps end 'None') → a "Run failed" e-mail with nothing published. With a
+  // budget the cycle ALWAYS finishes and commits whatever it drafted — no timeouts.
+  const CYCLE_DEADLINE = Date.now() + Math.max(5, Number(process.env.NEWSROOM_CYCLE_BUDGET_MIN ?? 28)) * 60 * 1000;
+  let skippedForTime = 0;
   const drafted = await mapWithConcurrency(candidates, draftConcurrency, async (candidate) => {
+    if (Date.now() > CYCLE_DEADLINE) { skippedForTime += 1; return { candidate, timedOut: true }; }
     try {
       return { candidate, article: await draftAndVerify(candidate, todayIso) };
     } catch (error) {
       return { candidate, error };
     }
   });
+  if (skippedForTime) console.log(`Cycle time budget reached — deferred ${skippedForTime} candidate(s) to the next cycle (prevents job timeout).`);
 
-  for (const { candidate, article, error } of drafted) {
+  for (const { candidate, article, error, timedOut } of drafted) {
+    if (timedOut) {
+      decisions.push({ url: candidate.url, decision: "deferred", reason: "cycle time budget — next cycle" });
+      skipped += 1;
+      continue;
+    }
     if (error) {
       console.warn(`Draft failed for ${candidate.url}: ${error.message}`);
       decisions.push({ url: candidate.url, decision: "error", reason: error.message });
