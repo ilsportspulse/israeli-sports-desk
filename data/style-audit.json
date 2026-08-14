@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T20:44:29.999Z",
+  "generatedAt": "2026-08-14T23:18:30.707Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,22 +11,22 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 965,
+    "publishedArticles": 971,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 419,
-      "average": 424.7
+      "median": 420,
+      "average": 424.5
     },
     "paragraphDistribution": {
-      "3": 34,
+      "3": 35,
       "4": 6,
       "5": 10,
       "6": 47,
-      "7": 137,
+      "7": 138,
       "8": 280,
-      "9": 226,
-      "10": 161,
+      "9": 228,
+      "10": 163,
       "11": 41,
       "12": 13,
       "13": 4,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.29,
+    "dominantParagraphShare": 0.288,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 47,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 165
+    "articlesWithStyleFlags": 166
   },
   "flagged": [
     {
@@ -3848,9 +3848,137 @@
       "flags": [
         "below-editorial-target:251/280"
       ]
+    },
+    {
+      "id": "result-2026-08-13-austria-vienna-beitar-jerusalem",
+      "slug": "austria-vienna-1-2-beitar-jerusalem-conference-league-qualifying",
+      "title": "Austria Vienna 1–2 Beitar Jerusalem: Conference League qualifying",
+      "kind": "news",
+      "words": 122,
+      "paragraphs": 3,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 45,
+        "average": 40.7
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 31,
+        "average": 20.3
+      },
+      "lexicalDiversity": 0.721,
+      "publisherAttributions": 0,
+      "flags": [
+        "below-editorial-target:122/280"
+      ]
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-14-finlay-tarling-cyclist-dies-volta-a-portugal",
+      "slug": "finlay-tarling-cyclist-dies-volta-a-portugal-crash",
+      "title": "British cyclist Finlay Tarling, 19, dies after car strikes him at Volta a Portugal",
+      "kind": "news",
+      "words": 456,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 18,
+        "longest": 83,
+        "average": 45.6
+      },
+      "sentenceWords": {
+        "shortest": 3,
+        "longest": 85,
+        "average": 35.1
+      },
+      "lexicalDiversity": 0.544,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260814-ciro-immobile-retires-football-36",
+      "slug": "ciro-immobile-retires-football-36",
+      "title": "Ciro Immobile retires from football at 36 after injury-hit spell at Paris FC",
+      "kind": "news",
+      "words": 452,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 68,
+        "average": 50.2
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 38,
+        "average": 25.1
+      },
+      "lexicalDiversity": 0.571,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-14-kapitolnik-fifth-high-jump-european-championships",
+      "slug": "kapitolnik-fifth-high-jump-european-championships",
+      "title": "Kapitolnik ties for fifth in high jump final at European Championships",
+      "kind": "article",
+      "words": 292,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 27,
+        "longest": 57,
+        "average": 41.7
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 48,
+        "average": 24.3
+      },
+      "lexicalDiversity": 0.627,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-14-rodri-treble-heirs",
+      "slug": "yamal-mbappe-stars-chasing-rodris-treble",
+      "title": "Yamal, Mbappé and the stars chasing football's rarest treble after Rodri",
+      "kind": "article",
+      "words": 625,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 40,
+        "longest": 87,
+        "average": 62.5
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 81,
+        "average": 28.4
+      },
+      "lexicalDiversity": 0.478,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260814-al-hilal-4-2-al-faisaly-benzema-neves-season-opener",
+      "slug": "al-hilal-4-2-al-faisaly-benzema-neves-saudi-league-opener",
+      "title": "Al-Hilal 4-2 Al-Faisaly: Benzema and Neves inspire winning start under Inzaghi",
+      "kind": "article",
+      "words": 428,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 26,
+        "longest": 70,
+        "average": 47.6
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 50,
+        "average": 32.9
+      },
+      "lexicalDiversity": 0.568,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-13-adva-cohen-steeplechase-10th",
       "slug": "adva-cohen-10th-steeplechase-final-european-championships",
