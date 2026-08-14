@@ -45,7 +45,39 @@ export async function healFeed() {
       demote(loser, `near-duplicate headline of /article/${keep.slug}`);
     }
   }
-  // 3) Unique non-fallback story images (src AND creditUrl) — strip the duplicate
+  // 3a) Strip any image whose OWN caption/alt admits it does not depict the subject —
+  //    the content gate hard-fails on it. This used to live in the image-sourcing step,
+  //    but that step is skipped when sourceImages is off, so heal-feed owns it now.
+  const MISMATCH = /does not depict|not shown|not represented as visible|illustrating.*not identified|generic image|image mismatch|does not show/i;
+  for (const a of list.filter(isLive)) {
+    const m = media[a.id];
+    if (m && MISMATCH.test(`${m.caption ?? ""} ${m.alt ?? ""}`)) { delete media[a.id]; stripped += 1; }
+  }
+  // 3a2) Strip a photo whose caption is of a CLEARLY DIFFERENT SPORT than the story
+  //    (e.g. a table-tennis photo under an athletics report, a handball photo under a
+  //    football story). Venue/stadium file photos are allowed and kept. This is the
+  //    exact class that embarrassingly reached X, so it is stripped every cycle.
+  const VENUE = /stadium|arena|\bhall\b|stade|estadio|complex|rink|\bpark\b|אצטדיון|хал|היצי|כניס/i;
+  const SPORTS = ["table tennis", "handball", "cricket", "rugby", "baseball", "ice hockey", "field hockey",
+    "water polo", "volleyball", "gymnastics", "judo", "wrestling", "boxing", "swimming", "athletics",
+    "cycling", "tennis", "basketball", "football", "soccer"];
+  const sportOf = (text) => {
+    const s = text.toLowerCase();
+    if (/steeplechase|100m|200m|400m|800m|1500|3000|5000|10000|marathon|sprint|hurdles|long jump|high jump|discus|javelin|heptathlon|decathlon/.test(s)) return "athletics";
+    if (/backstroke|freestyle|butterfly|medley|\bIM\b|breaststroke|\bpool\b/i.test(text)) return "swimming";
+    for (const sp of SPORTS) { if (s.includes(sp)) return sp === "football" ? "soccer" : sp; }
+    return null;
+  };
+  for (const a of list.filter(isLive)) {
+    const m = media[a.id];
+    if (!m || m.fallback) continue;
+    const cap = `${m.caption ?? ""} ${(m.creditUrl || "").split("File:").pop() || ""}`.replace(/_/g, " ");
+    if (VENUE.test(cap)) continue;
+    const artSport = sportOf(`${a.title ?? ""} ${a.category ?? ""}`);
+    const imgSport = sportOf(cap);
+    if (artSport && imgSport && artSport !== imgSport) { delete media[a.id]; stripped += 1; }
+  }
+  // 3b) Unique non-fallback story images (src AND creditUrl) — strip the duplicate
   //    entry so that story falls back to its category visual.
   const seenSrc = new Set(), seenUrl = new Set();
   for (const a of list.filter(isLive)) {
