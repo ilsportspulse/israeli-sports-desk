@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T06:44:33.878Z",
+  "generatedAt": "2026-08-15T07:11:08.568Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 978,
+    "publishedArticles": 980,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 419,
-      "average": 424
+      "average": 424.4
     },
     "paragraphDistribution": {
       "3": 35,
@@ -24,8 +24,8 @@
       "5": 10,
       "6": 47,
       "7": 139,
-      "8": 285,
-      "9": 229,
+      "8": 286,
+      "9": 230,
       "10": 163,
       "11": 41,
       "12": 13,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.291,
+    "dominantParagraphShare": 0.292,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 47,
     "analysisBelowTarget": 9,
@@ -3874,6 +3874,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-15-mta-angelidis-vanharen-presser",
+      "slug": "maccabi-tel-aviv-angelidis-vanharen-press-conference",
+      "title": "Angelidis and Vanharen face the press as Maccabi Tel Aviv prepare for Toto Cup semi-final",
+      "kind": "news",
+      "words": 599,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 53,
+        "longest": 93,
+        "average": 74.9
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 54,
+        "average": 30
+      },
+      "lexicalDiversity": 0.579,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "archive-20260815-tokyo-24-july-2021-the-girl-from-gedera-",
+      "slug": "tokyo-24-july-2021-the-girl-from-gedera-who-gave-israel-its-first-taek",
+      "title": "Tokyo, 24 July 2021: The Girl From Gedera Who Gave Israel Its First Taekwondo Medal",
+      "kind": "explainer",
+      "words": 654,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 39,
+        "longest": 109,
+        "average": 72.7
+      },
+      "sentenceWords": {
+        "shortest": 3,
+        "longest": 88,
+        "average": 29.7
+      },
+      "lexicalDiversity": 0.505,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260815-alvarez-denies-atletico-apology",
       "slug": "julian-alvarez-denies-atletico-apology-demands-meeting",

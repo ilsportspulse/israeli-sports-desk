@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T06:44:33.326Z",
+  "generatedAt": "2026-08-15T07:11:08.043Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1373,
-    "publishedBefore": 978,
-    "cleanPublished": 970,
+    "totalArticles": 1377,
+    "publishedBefore": 980,
+    "cleanPublished": 972,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 978,
-    "reviewAfter": 395
+    "publishedAfter": 980,
+    "reviewAfter": 397
   },
   "blockedPublished": [
     {
@@ -156,6 +156,34 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-20260815-beer-sheva-toto-cup-rotation-haifa",
+      "slug": "hapoel-beer-sheva-wide-rotation-toto-cup-hapoel-haifa-before-sabah",
+      "title": "Hapoel Beer Sheva plan wide rotation for Toto Cup trip to Hapoel Haifa before Sabah tie",
+      "statusBefore": "review",
+      "words": 370,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "archive-20260815-tokyo-24-july-2021-the-girl-from-gedera-",
+      "slug": "tokyo-24-july-2021-the-girl-from-gedera-who-gave-israel-its-first-taek",
+      "title": "Tokyo, 24 July 2021: The Girl From Gedera Who Gave Israel Its First Taekwondo Medal",
+      "statusBefore": "published",
+      "words": 658,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260815-alvarez-denies-atletico-apology",
       "slug": "julian-alvarez-denies-atletico-apology-demands-meeting",
@@ -13313,6 +13341,32 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-15-mta-angelidis-vanharen-presser",
+      "slug": "maccabi-tel-aviv-angelidis-vanharen-press-conference",
+      "title": "Angelidis and Vanharen face the press as Maccabi Tel Aviv prepare for Toto Cup semi-final",
+      "statusBefore": "published",
+      "words": 600,
+      "paragraphs": 8,
+      "facts": 8,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "archive-20260815-tokyo-24-july-2021-the-girl-from-gedera-",
+      "slug": "tokyo-24-july-2021-the-girl-from-gedera-who-gave-israel-its-first-taek",
+      "title": "Tokyo, 24 July 2021: The Girl From Gedera Who Gave Israel Its First Taekwondo Medal",
+      "statusBefore": "published",
+      "words": 658,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260815-alvarez-denies-atletico-apology",
       "slug": "julian-alvarez-denies-atletico-apology-demands-meeting",

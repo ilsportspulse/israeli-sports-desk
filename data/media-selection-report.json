@@ -1,22 +1,22 @@
 {
   "selections": [
     {
-      "articleId": "live-20260815-alvarez-denies-atletico-apology",
-      "article": "Álvarez denies apologising to Atlético teammates, demands urgent meeting with club chiefs",
-      "file": "File:Julián Álvarez (footballer) 2023.jpg",
+      "articleId": "live-2026-08-15-mta-angelidis-vanharen-presser",
+      "article": "Angelidis and Vanharen face the press as Maccabi Tel Aviv prepare for Toto Cup semi-final",
+      "file": "File:Mecz piłkarski Wisła Kraków - Zagłębie Sosnwoiec, 28 października 2022, Pożegnanie Stadionu Ludowego, KP.jpg",
+      "license": "CC BY 4.0"
+    },
+    {
+      "articleId": "live-20260815-kenny-miller-toto-cup-netanya-presser",
+      "article": "Kenny Miller fronts live press conference ahead of Toto Cup semi-final against Maccabi Netanya",
+      "file": "File:Kenny Miller Cardiff 2012.jpg",
       "license": "CC BY-SA 2.0"
     },
     {
-      "articleId": "live-20260815-katowice-fans-nazi-salute-hapoel-tel-aviv",
-      "article": "Katowice fans give Nazi salute after Hapoel Tel Aviv reach Conference League play-offs with 3-2 aggregate win",
-      "file": "File:GKS Katowice Stadium, Poland (28567613461).jpg",
+      "articleId": "archive-20260815-tokyo-24-july-2021-the-girl-from-gedera-",
+      "article": "Tokyo, 24 July 2021: The Girl From Gedera Who Gave Israel Its First Taekwondo Medal",
+      "file": "File:Avishag Semberg in 2020.jpg",
       "license": "CC0"
-    },
-    {
-      "articleId": "live-2026-08-15-fabrizio-romano-transfer-empire",
-      "article": "How Fabrizio Romano's transfer-news empire is coming apart",
-      "file": "File:Fabrizio Romano 2025.jpg",
-      "license": "CC BY-SA 4.0"
     },
     {
       "articleId": "live-2026-08-13-adva-cohen-steeplechase-10th",
@@ -48,15 +48,14 @@
       "query": "Israel basketball coach team",
       "file": "File:Oded Katash Hapoel Eilat.jpg",
       "license": "CC BY-SA 4.0"
-    },
-    {
-      "articleId": "live-2026-08-15-maccabi-tel-aviv-thibo-baeten-transfer-talks",
-      "article": "Maccabi Tel Aviv in talks for Go Ahead Eagles winger who wants the move",
-      "file": "File:Jay Idzes - Go Ahead Eagles - FC Volendam - 52915157035 (cropped, 2023).jpg",
-      "license": "CC BY 2.0"
     }
   ],
   "failures": [
+    {
+      "id": "live-20260815-beer-sheva-toto-cup-rotation-haifa",
+      "title": "Hapoel Beer Sheva plan wide rotation for Toto Cup trip to Hapoel Haifa before Sabah tie",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
     {
       "id": "live-2026-08-13-anat-lelior-tahiti-pro-qf",
       "title": "Lelior beats Gallina 9.50-5.76 to reach Tahiti Pro semi-final",

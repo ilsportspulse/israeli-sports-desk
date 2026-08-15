@@ -146,8 +146,8 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-15T06:44:32Z",
-    "validUntil": "2026-08-15T18:44:32Z",
+    "checkedAt": "2026-08-15T07:11:07Z",
+    "validUntil": "2026-08-15T19:11:07Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
@@ -160,21 +160,21 @@
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260815-alvarez-denies-atletico-apology",
+        "articleId": "live-2026-08-15-mta-angelidis-vanharen-presser",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 641,
+        "maxAgeHours": 642,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260815-katowice-fans-nazi-salute-hapoel-tel-aviv",
+        "articleId": "archive-20260815-tokyo-24-july-2021-the-girl-from-gedera-",
         "maxAgeHours": 35,
         "requires": []
       },
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260815-israel-gymnastics-17th-europeans-zagreb",
+        "articleId": "live-20260815-alvarez-denies-atletico-apology",
         "maxAgeHours": 36,
         "requires": []
       }

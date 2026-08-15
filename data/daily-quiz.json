@@ -1,67 +1,67 @@
 {
-  "date": "2026-08-13",
+  "date": "2026-08-15",
   "title": "The Daily Five",
-  "dek": "Five questions on Israeli basketball history, European football nights and an Olympic swimmer's near-miss in Paris.",
+  "dek": "Five questions from this week's verified Israel Sports Pulse coverage — taekwondo history, a European away night, and Rodri's rare treble.",
   "questions": [
     {
-      "question": "What is the best-ever finish by Israel's men's national basketball team in EuroBasket history?",
+      "question": "In her bronze-medal match at the Tokyo 2020 Olympics, which fighter did Avishag Semberg beat 27-22 to win Israel's first-ever taekwondo medal?",
       "answers": [
-        "Gold medal",
-        "Silver medal",
-        "Bronze medal",
-        "Fourth place"
+        "Rukiye Yıldırım (Turkey)",
+        "Panipak Wongpattanakit (Thailand)",
+        "Trương Thị Kim Tuyền (Vietnam)",
+        "Ellen Walshe (Ireland)"
       ],
-      "correctIndex": 1,
-      "explanation": "Israel won silver at EuroBasket 1979, losing the final 98-76 to the Soviet Union in Turin, still its highest-ever finish as of 2025.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/EuroBasket_1979"
+      "correctIndex": 0,
+      "explanation": "Semberg beat Turkey's Rukiye Yıldırım 27-22 in the bronze medal match, giving Israel its first medal of the Tokyo Games and its first Olympic taekwondo medal.",
+      "sourceUrl": "https://www.timesofisrael.com/first-tokyo-medal-avishag-semberg-takes-taekwondo-bronze-israels-1st-in-sport/"
     },
     {
-      "question": "By what aggregate score did Hapoel Tel Aviv beat GKS Katowice to reach the Conference League playoff round?",
+      "question": "Hapoel Tel Aviv advanced 3-2 on aggregate past GKS Katowice to reach the Conference League play-off round. Who do they face next, and where is the first leg played?",
       "answers": [
-        "2-0",
-        "4-2",
-        "3-2",
-        "2-1"
+        "Atalanta, first leg in Bergamo",
+        "Al-Hilal, first leg in Riyadh",
+        "Atlético Madrid, first leg in Madrid",
+        "PSG, first leg in Paris"
       ],
-      "correctIndex": 2,
-      "explanation": "Hapoel Tel Aviv won 2-0 in the first leg and lost the second 2-1 in Poland, advancing 3-2 on aggregate.",
-      "sourceUrl": "https://www.one.co.il/Article/530475.html"
+      "correctIndex": 0,
+      "explanation": "Hapoel Tel Aviv advanced to face Atalanta in the play-off round, with the first leg on August 20 in Bergamo and the return leg in Miskolc, Hungary.",
+      "sourceUrl": "https://www.one.co.il/Article/530654.html"
     },
     {
-      "question": "Where did Israeli swimmer Daria Golovaty finish in the 200m freestyle semi-finals at the 2026 European Aquatics Championships in Paris, missing the final?",
+      "question": "Rodri became the 11th player in football history to win the World Cup, the Champions League and which other honour?",
       "answers": [
-        "8th",
-        "10th",
-        "12th",
-        "14th"
+        "The Ballon d'Or",
+        "The European Golden Shoe",
+        "The Copa America",
+        "The Euro title"
       ],
-      "correctIndex": 3,
-      "explanation": "Golovaty clocked 1:58.48 in the semi-final to finish 14th overall, just outside the final.",
-      "sourceUrl": "https://www.one.co.il/Article/530450.html"
+      "correctIndex": 0,
+      "explanation": "Rodri had already won the Champions League with Manchester City (2023) and the Ballon d'Or (2024) before Spain's 2026 World Cup win completed the rare treble.",
+      "sourceUrl": "https://www.one.co.il/Article/530082.html"
     },
     {
-      "question": "Goalkeeper Omer Niraon, who has just joined Maccabi Haifa on loan from Maccabi Netanya, represented Israel at which Olympics?",
+      "question": "What height did Yonathan Kapitolnik clear to finish tied for fifth in the men's high jump final at the 2026 European Athletics Championships in Birmingham?",
       "answers": [
-        "2016 Rio",
-        "2020 Tokyo",
-        "2024 Paris",
-        "2028 Los Angeles"
+        "2.23m",
+        "2.27m",
+        "2.30m",
+        "2.32m"
       ],
-      "correctIndex": 2,
-      "explanation": "Niraon represented Israel in goal at the 2024 Paris Olympics before his loan move to Maccabi Haifa as back-up to Omri Glazer.",
-      "sourceUrl": "https://www.one.co.il/Article/530467.html"
+      "correctIndex": 0,
+      "explanation": "Kapitolnik cleared 2.23m to share fifth place, missing out on bronze after failing all three attempts at 2.27m.",
+      "sourceUrl": "https://www.one.co.il/Article/530628.html"
     },
     {
-      "question": "Beitar Jerusalem striker Shon Weissman was the Austrian Bundesliga's top scorer in 2019-20 with 30 goals while playing for which club?",
+      "question": "Anastasia Gorbenko posted the fastest time in the women's 200m individual medley heats at the 2026 European Aquatics Championships in Paris. What was her time?",
       "answers": [
-        "Austria Wien",
-        "Wolfsberger AC",
-        "Red Bull Salzburg",
-        "Sturm Graz"
+        "2:11.87",
+        "2:12.12",
+        "2:12.23",
+        "2:12.45"
       ],
-      "correctIndex": 1,
-      "explanation": "Weissman topped the Austrian Bundesliga scoring charts with Wolfsberger AC in 2019-20 before rejoining Beitar Jerusalem this summer, who now face Austria Wien in the Conference League.",
-      "sourceUrl": "https://www.one.co.il/Article/530468.html"
+      "correctIndex": 0,
+      "explanation": "Gorbenko led all qualifiers into the final in 2:11.87, just ahead of Ireland's Ellen Walshe at 2:12.12.",
+      "sourceUrl": "https://www.one.co.il/Article/530631.html"
     }
   ]
 }
