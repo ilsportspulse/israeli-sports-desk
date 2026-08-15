@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T12:08:55.395Z",
+  "generatedAt": "2026-08-15T12:10:14.259Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,7 +11,7 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 987,
+    "publishedArticles": 986,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
@@ -23,9 +23,9 @@
       "4": 6,
       "5": 10,
       "6": 47,
-      "7": 139,
+      "7": 140,
       "8": 289,
-      "9": 232,
+      "9": 230,
       "10": 165,
       "11": 41,
       "12": 13,
@@ -39,7 +39,7 @@
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 47,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 166
+    "articlesWithStyleFlags": 167
   },
   "flagged": [
     {
@@ -328,6 +328,29 @@
       "flags": [
         "below-editorial-target:227/280",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-15-la-liga-fantasy-deadline",
+      "slug": "la-liga-fantasy-registration-deadline-2026-27",
+      "title": "Hours left to sign up for La Liga Fantasy before Spanish season kicks off",
+      "kind": "news",
+      "words": 286,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 27,
+        "longest": 53,
+        "average": 40.9
+      },
+      "sentenceWords": {
+        "shortest": 20,
+        "longest": 53,
+        "average": 31.8
+      },
+      "lexicalDiversity": 0.731,
+      "publisherAttributions": 0,
+      "flags": [
+        "stock-phrase:remains-to-be-seen"
       ]
     },
     {
@@ -3874,48 +3897,6 @@
     }
   ],
   "clean": [
-    {
-      "id": "live-2026-08-15-maccabi-loan-nicolaescu-addo",
-      "slug": "maccabi-tel-aviv-loan-talks-nicolaescu-addo",
-      "title": "Maccabi Tel Aviv advance loan talks for Nicolaescu and Henry Addo",
-      "kind": "news",
-      "words": 415,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 28,
-        "longest": 63,
-        "average": 46.1
-      },
-      "sentenceWords": {
-        "shortest": 5,
-        "longest": 55,
-        "average": 29.6
-      },
-      "lexicalDiversity": 0.617,
-      "publisherAttributions": 1,
-      "flags": []
-    },
-    {
-      "id": "live-20260815-kiryat-shmona-youth-captain-ashri-dror",
-      "slug": "kiryat-shmona-youth-captain-ashri-dror-new-season",
-      "title": "Ashri Dror named youth captain as Kiryat Shmona's academy eyes fresh start",
-      "kind": "article",
-      "words": 335,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 30,
-        "longest": 51,
-        "average": 37.2
-      },
-      "sentenceWords": {
-        "shortest": 27,
-        "longest": 71,
-        "average": 41.9
-      },
-      "lexicalDiversity": 0.603,
-      "publisherAttributions": 0,
-      "flags": []
-    },
     {
       "id": "live-20260815-ferran-torres-completes-move-to-psg",
       "slug": "ferran-torres-completes-move-to-paris-saint-germain",
