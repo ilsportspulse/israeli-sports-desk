@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T17:39:53.091Z",
+  "generatedAt": "2026-08-15T17:41:23.340Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 997,
+    "publishedArticles": 996,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 419,
-      "average": 423.4
+      "average": 423.6
     },
     "paragraphDistribution": {
       "3": 35,
@@ -24,7 +24,7 @@
       "5": 10,
       "6": 48,
       "7": 143,
-      "8": 291,
+      "8": 290,
       "9": 235,
       "10": 165,
       "11": 41,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.292,
+    "dominantParagraphShare": 0.291,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 48,
     "analysisBelowTarget": 9,
@@ -3944,44 +3944,23 @@
   ],
   "clean": [
     {
-      "id": "live-2026-08-15-daniel-peretz-best-save-percentage-england",
-      "slug": "daniel-peretz-best-save-percentage-england-southampton",
-      "title": "Daniel Peretz posts the best save percentage in English professional football",
-      "kind": "news",
-      "words": 312,
+      "id": "live-2026-08-15-tibi-debut-tiberias-petah-tikva",
+      "slug": "eitan-tibi-debut-maccabi-petah-tikva-tiberias-toto-cup",
+      "title": "Tibi handed full debut as Maccabi Petah Tikva visit crisis-hit Tiberias in Toto Cup",
+      "kind": "article",
+      "words": 393,
       "paragraphs": 7,
       "paragraphWords": {
-        "shortest": 35,
-        "longest": 65,
-        "average": 44.6
+        "shortest": 40,
+        "longest": 72,
+        "average": 56.1
       },
       "sentenceWords": {
-        "shortest": 25,
-        "longest": 50,
-        "average": 39
+        "shortest": 12,
+        "longest": 102,
+        "average": 35.7
       },
-      "lexicalDiversity": 0.622,
-      "publisherAttributions": 1,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-15-rivaldo-soares-claudell-harris-hapoel-holon",
-      "slug": "rivaldo-soares-claudell-harris-jr-land-hapoel-holon",
-      "title": "Rivaldo Soares and Claudell Harris Jr. touch down as Hapoel Holon's rebuild gathers pace",
-      "kind": "news",
-      "words": 309,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 28,
-        "longest": 61,
-        "average": 38.6
-      },
-      "sentenceWords": {
-        "shortest": 10,
-        "longest": 48,
-        "average": 28.1
-      },
-      "lexicalDiversity": 0.628,
+      "lexicalDiversity": 0.608,
       "publisherAttributions": 0,
       "flags": []
     },
