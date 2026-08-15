@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T19:29:18.016Z",
+  "generatedAt": "2026-08-15T20:08:31.838Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 999,
+    "publishedArticles": 1001,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 419,
-      "average": 423.3
+      "median": 418,
+      "average": 423.2
     },
     "paragraphDistribution": {
       "3": 35,
@@ -25,7 +25,7 @@
       "6": 48,
       "7": 145,
       "8": 291,
-      "9": 235,
+      "9": 237,
       "10": 165,
       "11": 41,
       "12": 13,
@@ -3943,6 +3943,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260815-liebmann-1500m-freestyle-world-record",
+      "slug": "johannes-liebmann-1500m-freestyle-world-record-paris-2026",
+      "title": "German teenager Johannes Liebmann shatters 1500m freestyle world record in 14:26.79",
+      "kind": "article",
+      "words": 389,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 24,
+        "longest": 71,
+        "average": 43.2
+      },
+      "sentenceWords": {
+        "shortest": 21,
+        "longest": 50,
+        "average": 32.4
+      },
+      "lexicalDiversity": 0.545,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260815-alaves-getafe-3-0-laliga-opener",
+      "slug": "alaves-getafe-red-card-mariano-diaz-la-liga-opener",
+      "title": "Alavés beat 10-man Getafe 3-0 to open La Liga season",
+      "kind": "article",
+      "words": 333,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 26,
+        "longest": 51,
+        "average": 37
+      },
+      "sentenceWords": {
+        "shortest": 13,
+        "longest": 44,
+        "average": 30.3
+      },
+      "lexicalDiversity": 0.622,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-15-daniel-chazan-hapoel-haifa-exit-talks",
       "slug": "daniel-chazan-negotiating-exit-hapoel-haifa-basketball",

@@ -1,22 +1,22 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-08-15-hapoel-haifa-hapoel-beersheva-toto-cup-halftime",
-      "article": "Half-time: Hapoel Beer Sheva lead Hapoel Haifa 2-0 in Toto Cup fifth-place tie",
-      "file": "File:Hadassah Park in Beer Sheva, 2021 25.jpg",
+      "articleId": "live-20260815-liebmann-1500m-freestyle-world-record",
+      "article": "German teenager Johannes Liebmann shatters 1500m freestyle world record in 14:26.79",
+      "file": "File:Swimming Pool lanes and starting blocks at AIS.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-2026-08-15-maccabi-pt-hapoel-pt-naarim-derby",
-      "article": "Maccabi Petah Tikva beat Hapoel Petah Tikva 1-0 as comedian's son Koriat scores derby winner",
-      "file": "File:Shlomi Koriat.jpg",
-      "license": "CC BY-SA 3.0"
+      "articleId": "live-20260815-alaves-getafe-3-0-laliga-opener",
+      "article": "Alavés beat 10-man Getafe 3-0 to open La Liga season",
+      "file": "File:Mariano Díaz, Real Madrid, 2022.jpg",
+      "license": "CC BY 2.0"
     },
     {
-      "articleId": "live-20260815-hapoel-tel-aviv-youth-open-win-herzliya",
-      "article": "Maccabi Herzliya 0-1 Hapoel Tel Aviv: youth side open season with away win",
-      "file": "File:Players of Hapoel Tel Aviv, Victor Maree (12) & Romain Rocchi (27).jpg",
-      "license": "CC BY-SA 3.0"
+      "articleId": "live-2026-08-15-daniel-chazan-hapoel-haifa-exit-talks",
+      "article": "Daniel Chazan in talks to leave Hapoel Haifa basketball less than a year after buying in",
+      "file": "File:RyanTurell Dec2022.jpg",
+      "license": "CC BY-SA 4.0"
     },
     {
       "articleId": "live-2026-08-13-adva-cohen-steeplechase-10th",
@@ -41,27 +41,9 @@
       "article": "Adam Ramsay-Peaty questions it all after bitter Commonwealth bronze",
       "file": "File:Adam Peaty Olympics 100m breaststroke 2016.jpg",
       "license": "CC BY 3.0 br"
-    },
-    {
-      "articleId": "live-20260714-basketball-coaches-registration",
-      "article": "Israeli basketball coaches demand freeze on registration overhaul",
-      "query": "Israel basketball coach team",
-      "file": "File:Oded Katash Hapoel Eilat.jpg",
-      "license": "CC BY-SA 4.0"
-    },
-    {
-      "articleId": "live-2026-08-15-sakhnin-hapoel-petah-tikva-toto-cup-held",
-      "article": "Bnei Sakhnin and Hapoel Petah Tikva goalless at half-time in Toto Cup clash",
-      "file": "File:The Israeli flag in Petah Tikva, April 2024 12.jpg",
-      "license": "CC BY-SA 4.0"
     }
   ],
   "failures": [
-    {
-      "id": "live-2026-08-15-daniel-chazan-hapoel-haifa-exit-talks",
-      "title": "Daniel Chazan in talks to leave Hapoel Haifa basketball less than a year after buying in",
-      "error": "image download 429 after retries"
-    },
     {
       "id": "live-2026-08-15-omer-dahan-kfar-shalem-loan",
       "title": "Omer Dahan closes in on loan move to Hapoel Kfar Shalem",
@@ -256,6 +238,11 @@
       "id": "live-20260722-bnei-eilat-youth-b-champions",
       "title": "Bnei Eilat's Youth B Side Go Unbeaten to Win Southern District Title",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-20260714-basketball-coaches-registration",
+      "title": "Israeli basketball coaches demand freeze on registration overhaul",
+      "error": "image download 429 after retries"
     },
     {
       "id": "live-2026-08-01-kaufman-gorbenko-2028-olympic-plan",
