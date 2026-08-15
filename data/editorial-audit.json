@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T11:49:32.807Z",
+  "generatedAt": "2026-08-15T12:08:54.835Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -18,12 +18,12 @@
   },
   "summary": {
     "totalArticles": 1388,
-    "publishedBefore": 986,
-    "cleanPublished": 978,
+    "publishedBefore": 987,
+    "cleanPublished": 979,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 986,
-    "reviewAfter": 402
+    "publishedAfter": 987,
+    "reviewAfter": 401
   },
   "blockedPublished": [
     {
@@ -157,49 +157,33 @@
   ],
   "warnings": [
     {
-      "id": "live-20260815-maccabi-pt-tibi-strong-lineup-tiberias",
-      "slug": "maccabi-petah-tikva-eitan-tibi-strong-lineup-ironi-tiberias",
-      "title": "Maccabi Petah Tikva to start Eitan Tibi as Ziv Arieh fields strong side against Ironi Tiberias",
+      "id": "live-2026-08-15-aerobic-training-muscle-building",
+      "slug": "can-you-combine-aerobic-training-with-muscle-building",
+      "title": "Aerobic training and muscle building can coexist, if you get the balance right",
       "statusBefore": "review",
-      "words": 274,
-      "paragraphs": 7,
-      "facts": 8,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline"
-      ]
-    },
-    {
-      "id": "live-2026-08-15-israel-latvia-u16-basketball-progress",
-      "slug": "israel-latvia-u16-womens-eurobasket-in-progress",
-      "title": "Israel hold Latvia 52-44 after three quarters at U16 Women's EuroBasket",
-      "statusBefore": "review",
-      "words": 43,
-      "paragraphs": 1,
-      "facts": 5,
-      "verificationSources": 1,
-      "blockers": [
-        "copy-depth:43/60-words",
-        "structure:1/3-paragraphs"
-      ],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-15-la-liga-fantasy-deadline",
-      "slug": "la-liga-fantasy-registration-deadline-2026-27",
-      "title": "Hours left to sign up for La Liga Fantasy before Spanish season kicks off",
-      "statusBefore": "published",
-      "words": 282,
-      "paragraphs": 7,
-      "facts": 7,
+      "words": 462,
+      "paragraphs": 9,
+      "facts": 6,
       "verificationSources": 2,
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline",
-        "voice:stock-editorial-phrase-detected"
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-15-maccabi-loan-nicolaescu-addo",
+      "slug": "maccabi-tel-aviv-loan-talks-nicolaescu-addo",
+      "title": "Maccabi Tel Aviv advance loan talks for Nicolaescu and Henry Addo",
+      "statusBefore": "published",
+      "words": 415,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
       ]
     },
     {
@@ -13461,19 +13445,31 @@
   ],
   "cleanPublished": [
     {
-      "id": "live-2026-08-15-la-liga-fantasy-deadline",
-      "slug": "la-liga-fantasy-registration-deadline-2026-27",
-      "title": "Hours left to sign up for La Liga Fantasy before Spanish season kicks off",
+      "id": "live-2026-08-15-maccabi-loan-nicolaescu-addo",
+      "slug": "maccabi-tel-aviv-loan-talks-nicolaescu-addo",
+      "title": "Maccabi Tel Aviv advance loan talks for Nicolaescu and Henry Addo",
       "statusBefore": "published",
-      "words": 282,
-      "paragraphs": 7,
+      "words": 415,
+      "paragraphs": 9,
       "facts": 7,
-      "verificationSources": 2,
+      "verificationSources": 3,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline",
-        "voice:stock-editorial-phrase-detected"
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
       ]
+    },
+    {
+      "id": "live-20260815-kiryat-shmona-youth-captain-ashri-dror",
+      "slug": "kiryat-shmona-youth-captain-ashri-dror-new-season",
+      "title": "Ashri Dror named youth captain as Kiryat Shmona's academy eyes fresh start",
+      "statusBefore": "published",
+      "words": 334,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": []
     },
     {
       "id": "live-20260815-ferran-torres-completes-move-to-psg",

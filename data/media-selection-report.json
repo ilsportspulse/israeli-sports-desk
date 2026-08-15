@@ -1,22 +1,22 @@
 {
   "selections": [
     {
-      "articleId": "live-20260815-maccabi-pt-tibi-strong-lineup-tiberias",
-      "article": "Maccabi Petah Tikva to start Eitan Tibi as Ziv Arieh fields strong side against Ironi Tiberias",
-      "file": "File:HaMoshava Stadium (9).JPG",
-      "license": "CC BY-SA 3.0"
+      "articleId": "live-2026-08-15-aerobic-training-muscle-building",
+      "article": "Aerobic training and muscle building can coexist, if you get the balance right",
+      "file": "File:Fit young man doing deadlift exercise in gym.jpg",
+      "license": "CC BY 2.0"
     },
     {
-      "articleId": "live-2026-08-15-israel-latvia-u16-basketball-progress",
-      "article": "Israel hold Latvia 52-44 after three quarters at U16 Women's EuroBasket",
-      "file": "File:2022-11-24 Basketball, FIBA Women's Eurobasket Qualifiers, GER-BIH 1DX 6321 by Stepro.jpg",
-      "license": "CC BY-SA 4.0"
+      "articleId": "live-2026-08-15-maccabi-loan-nicolaescu-addo",
+      "article": "Maccabi Tel Aviv advance loan talks for Nicolaescu and Henry Addo",
+      "file": "File:GAE - SC Heerenveen - Ion Nicolaescu.jpg",
+      "license": "CC BY 2.0"
     },
     {
-      "articleId": "live-2026-08-13-adva-cohen-steeplechase-10th",
-      "article": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
-      "file": "File:2022-08-19 European Championships 2022 – Table Tennis by Sandro Halank–007.jpg",
-      "license": "CC BY-SA 4.0"
+      "articleId": "live-20260815-kiryat-shmona-youth-captain-ashri-dror",
+      "article": "Ashri Dror named youth captain as Kiryat Shmona's academy eyes fresh start",
+      "file": "File:Kiryat Shmona Municipal Stadium5.jpg",
+      "license": "Public domain"
     },
     {
       "articleId": "live-20260802-israel-fifth-mixed-duet-technical-paris",
@@ -37,13 +37,6 @@
       "license": "CC BY 3.0 br"
     },
     {
-      "articleId": "live-20260714-basketball-coaches-registration",
-      "article": "Israeli basketball coaches demand freeze on registration overhaul",
-      "query": "Israel basketball coach team",
-      "file": "File:Oded Katash Hapoel Eilat.jpg",
-      "license": "CC BY-SA 4.0"
-    },
-    {
       "articleId": "live-2026-08-15-maras-maccabi-tel-aviv-defender-target",
       "article": "Maccabi Tel Aviv make offer to Serbian defender Nikola Maraš after Alavés release",
       "file": "File:Jugadores del Deportivo Alavés celebrando el ascenso a Primera División.jpg",
@@ -52,8 +45,8 @@
   ],
   "failures": [
     {
-      "id": "live-2026-08-15-la-liga-fantasy-deadline",
-      "title": "Hours left to sign up for La Liga Fantasy before Spanish season kicks off",
+      "id": "live-2026-08-13-adva-cohen-steeplechase-10th",
+      "title": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
       "error": "image download 429 after retries"
     },
     {
@@ -240,6 +233,11 @@
       "id": "live-20260722-bnei-eilat-youth-b-champions",
       "title": "Bnei Eilat's Youth B Side Go Unbeaten to Win Southern District Title",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-20260714-basketball-coaches-registration",
+      "title": "Israeli basketball coaches demand freeze on registration overhaul",
+      "error": "image download 429 after retries"
     },
     {
       "id": "live-2026-08-01-kaufman-gorbenko-2028-olympic-plan",
