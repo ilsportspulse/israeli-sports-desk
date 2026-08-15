@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T13:46:34.590Z",
+  "generatedAt": "2026-08-15T14:20:33.264Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 990,
+    "publishedArticles": 994,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 419,
-      "average": 423.7
+      "average": 423.6
     },
     "paragraphDistribution": {
       "3": 35,
@@ -24,8 +24,8 @@
       "5": 10,
       "6": 48,
       "7": 141,
-      "8": 289,
-      "9": 232,
+      "8": 290,
+      "9": 235,
       "10": 165,
       "11": 41,
       "12": 13,
@@ -39,7 +39,7 @@
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 48,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 168
+    "articlesWithStyleFlags": 169
   },
   "flagged": [
     {
@@ -328,6 +328,29 @@
       "flags": [
         "below-editorial-target:227/280",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260815-barcelona-third-bid-rodri",
+      "slug": "barcelona-third-bid-rodri-70-million",
+      "title": "Barcelona table third bid worth €70m for Manchester City's Rodri",
+      "kind": "transfer",
+      "words": 418,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 19,
+        "longest": 72,
+        "average": 46.4
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 39,
+        "average": 26.1
+      },
+      "lexicalDiversity": 0.577,
+      "publisherAttributions": 0,
+      "flags": [
+        "stock-phrase:statement-of-intent"
       ]
     },
     {
@@ -3920,6 +3943,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-15-hojbjerg-marseille-captaincy-newcastle",
+      "slug": "hojbjerg-marseille-captaincy-newcastle",
+      "title": "Marseille strip Højbjerg of captaincy after Newcastle transfer refusal",
+      "kind": "news",
+      "words": 365,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 51,
+        "average": 40.6
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 61,
+        "average": 28.1
+      },
+      "lexicalDiversity": 0.586,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-15-mourinho-real-madrid-second-era",
+      "slug": "mourinho-real-madrid-second-era",
+      "title": "Mourinho begins his second Real Madrid era as the season closes in",
+      "kind": "article",
+      "words": 445,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 71,
+        "average": 49.4
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 42,
+        "average": 24.7
+      },
+      "lexicalDiversity": 0.634,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260815-machida-zelvia-lavi-thrash-chiba-top-j1",
+      "slug": "machida-zelvia-lavi-thrash-chiba-top-j1-table",
+      "title": "Chiba 0-4 Machida Zelvia: Neta Lavi plays 81 minutes as club storms to top of J1",
+      "kind": "match-report",
+      "words": 404,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 62,
+        "average": 50.5
+      },
+      "sentenceWords": {
+        "shortest": 18,
+        "longest": 40,
+        "average": 28.9
+      },
+      "lexicalDiversity": 0.616,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-15-ukraine-amateur-tennis-legend-kurbanov-killed-war",
       "slug": "ukraine-amateur-tennis-legend-slava-kurbanov-killed-war",
