@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T16:27:56.550Z",
+  "generatedAt": "2026-08-15T17:16:36.066Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,7 +11,7 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 995,
+    "publishedArticles": 996,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
@@ -23,7 +23,7 @@
       "4": 6,
       "5": 10,
       "6": 48,
-      "7": 142,
+      "7": 143,
       "8": 290,
       "9": 235,
       "10": 165,
@@ -3943,6 +3943,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-15-tibi-debut-tiberias-petah-tikva",
+      "slug": "eitan-tibi-debut-maccabi-petah-tikva-tiberias-toto-cup",
+      "title": "Tibi handed full debut as Maccabi Petah Tikva visit crisis-hit Tiberias in Toto Cup",
+      "kind": "article",
+      "words": 393,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 40,
+        "longest": 72,
+        "average": 56.1
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 102,
+        "average": 35.7
+      },
+      "lexicalDiversity": 0.608,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260815-pedri-barcelona-fitness-plan",
       "slug": "pedri-barcelona-special-fitness-plan-peak-spring",

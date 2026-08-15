@@ -1,22 +1,16 @@
 {
   "selections": [
     {
-      "articleId": "live-20260815-pedri-barcelona-fitness-plan",
-      "article": "Barcelona draw up special plan to get Pedri back to peak fitness",
-      "file": "File:Pedri Argentina v Spain 19 July 2026-197.jpg",
+      "articleId": "live-2026-08-15-sakhnin-hapoel-pt-toto-cup-lineups",
+      "article": "Salman and Kojo start for Sakhnin as Badash and Altman lead Hapoel Petah Tikva in Toto Cup fight for 13th",
+      "file": "File:Shelters in Meuhedet Health Services in Petah Tikva, April 2024 33.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-20260815-israel-belgium-u16-basketball-division-a",
-      "article": "Israel beat Belgium 85-68 to secure Division A status at U16 EuroBasket",
-      "file": "File:Oradea Arena (ROM) 2022.jpg",
+      "articleId": "live-2026-08-15-tibi-debut-tiberias-petah-tikva",
+      "article": "Tibi handed full debut as Maccabi Petah Tikva visit crisis-hit Tiberias in Toto Cup",
+      "file": "File:Eitan Tibi.JPG",
       "license": "CC BY-SA 4.0"
-    },
-    {
-      "articleId": "live-2026-08-15-mourinho-real-madrid-second-era",
-      "article": "Mourinho begins his second Real Madrid era as the season closes in",
-      "file": "File:Jose Mourinho 2013.jpg",
-      "license": "CC BY 2.0"
     },
     {
       "articleId": "live-2026-08-13-adva-cohen-steeplechase-10th",
@@ -41,9 +35,21 @@
       "article": "Adam Ramsay-Peaty questions it all after bitter Commonwealth bronze",
       "file": "File:Adam Peaty Olympics 100m breaststroke 2016.jpg",
       "license": "CC BY 3.0 br"
+    },
+    {
+      "articleId": "live-20260714-basketball-coaches-registration",
+      "article": "Israeli basketball coaches demand freeze on registration overhaul",
+      "query": "Israel basketball coach team",
+      "file": "File:Oded Katash Hapoel Eilat.jpg",
+      "license": "CC BY-SA 4.0"
     }
   ],
   "failures": [
+    {
+      "id": "live-20260815-hapoel-tel-aviv-youth-open-win-herzliya",
+      "title": "Maccabi Herzliya 0-1 Hapoel Tel Aviv: youth side open season with away win",
+      "error": "image download 429 after retries"
+    },
     {
       "id": "live-2026-08-15-omer-dahan-kfar-shalem-loan",
       "title": "Omer Dahan closes in on loan move to Hapoel Kfar Shalem",
@@ -238,11 +244,6 @@
       "id": "live-20260722-bnei-eilat-youth-b-champions",
       "title": "Bnei Eilat's Youth B Side Go Unbeaten to Win Southern District Title",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
-    },
-    {
-      "id": "live-20260714-basketball-coaches-registration",
-      "title": "Israeli basketball coaches demand freeze on registration overhaul",
-      "error": "image download 429 after retries"
     },
     {
       "id": "live-2026-08-01-kaufman-gorbenko-2028-olympic-plan",
