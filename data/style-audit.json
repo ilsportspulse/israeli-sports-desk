@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T14:51:32.056Z",
+  "generatedAt": "2026-08-15T15:45:31.978Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,7 +11,7 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 994,
+    "publishedArticles": 995,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
@@ -23,7 +23,7 @@
       "4": 6,
       "5": 10,
       "6": 48,
-      "7": 141,
+      "7": 142,
       "8": 290,
       "9": 235,
       "10": 165,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.292,
+    "dominantParagraphShare": 0.291,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 48,
     "analysisBelowTarget": 9,
@@ -3943,6 +3943,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260815-pedri-barcelona-fitness-plan",
+      "slug": "pedri-barcelona-special-fitness-plan-peak-spring",
+      "title": "Barcelona draw up special plan to get Pedri back to peak fitness",
+      "kind": "news",
+      "words": 455,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 53,
+        "longest": 80,
+        "average": 65
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 51,
+        "average": 28.4
+      },
+      "lexicalDiversity": 0.574,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-15-hojbjerg-marseille-captaincy-newcastle",
       "slug": "hojbjerg-marseille-captaincy-newcastle",

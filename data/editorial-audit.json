@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T14:51:31.513Z",
+  "generatedAt": "2026-08-15T15:45:31.374Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1397,
-    "publishedBefore": 994,
-    "cleanPublished": 986,
+    "totalArticles": 1400,
+    "publishedBefore": 995,
+    "cleanPublished": 987,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 994,
-    "reviewAfter": 403
+    "publishedAfter": 995,
+    "reviewAfter": 405
   },
   "blockedPublished": [
     {
@@ -157,6 +157,48 @@
   ],
   "warnings": [
     {
+      "id": "live-20260815-pedri-barcelona-fitness-plan",
+      "slug": "pedri-barcelona-special-fitness-plan-peak-spring",
+      "title": "Barcelona draw up special plan to get Pedri back to peak fitness",
+      "statusBefore": "published",
+      "words": 457,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-15-omer-dahan-kfar-shalem-loan",
+      "slug": "omer-dahan-nears-hapoel-kfar-shalem-loan-move",
+      "title": "Omer Dahan closes in on loan move to Hapoel Kfar Shalem",
+      "statusBefore": "review",
+      "words": 241,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-20260815-israel-belgium-u16-basketball-division-a",
+      "slug": "israel-beat-belgium-85-68-u16-eurobasket-division-a",
+      "title": "Israel beat Belgium 85-68 to secure Division A status at U16 EuroBasket",
+      "statusBefore": "review",
+      "words": 455,
+      "paragraphs": 11,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-20260815-barcelona-third-bid-rodri",
       "slug": "barcelona-third-bid-rodri-70-million",
       "title": "Barcelona table third bid worth €70m for Manchester City's Rodri",
@@ -181,6 +223,20 @@
       "paragraphs": 9,
       "facts": 8,
       "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-15-mourinho-real-madrid-second-era",
+      "slug": "mourinho-real-madrid-second-era",
+      "title": "Mourinho begins his second Real Madrid era as the season closes in",
+      "statusBefore": "published",
+      "words": 445,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -13549,6 +13605,20 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-20260815-pedri-barcelona-fitness-plan",
+      "slug": "pedri-barcelona-special-fitness-plan-peak-spring",
+      "title": "Barcelona draw up special plan to get Pedri back to peak fitness",
+      "statusBefore": "published",
+      "words": 457,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-20260815-barcelona-third-bid-rodri",
       "slug": "barcelona-third-bid-rodri-70-million",
       "title": "Barcelona table third bid worth €70m for Manchester City's Rodri",
@@ -13588,7 +13658,9 @@
       "facts": 7,
       "verificationSources": 5,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-20260815-machida-zelvia-lavi-thrash-chiba-top-j1",

@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-15T14:51:31Z",
-    "validUntil": "2026-08-16T02:51:31Z",
+    "checkedAt": "2026-08-15T15:45:30Z",
+    "validUntil": "2026-08-16T03:45:30Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 642,
+        "maxAgeHours": 643,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260815-barcelona-third-bid-rodri",
+        "articleId": "live-20260815-pedri-barcelona-fitness-plan",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 650,
+        "maxAgeHours": 651,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-15-hojbjerg-marseille-captaincy-newcastle",
+        "articleId": "live-20260815-barcelona-third-bid-rodri",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 660,
+        "maxAgeHours": 661,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260815-machida-zelvia-lavi-thrash-chiba-top-j1",
+        "articleId": "live-2026-08-15-hojbjerg-marseille-captaincy-newcastle",
         "maxAgeHours": 36,
         "requires": []
       }
