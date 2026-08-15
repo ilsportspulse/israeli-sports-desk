@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T10:49:43.933Z",
+  "generatedAt": "2026-08-15T11:49:33.382Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,19 +11,19 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 985,
+    "publishedArticles": 986,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 419,
-      "average": 424.2
+      "average": 424.1
     },
     "paragraphDistribution": {
       "3": 35,
       "4": 6,
       "5": 10,
       "6": 47,
-      "7": 139,
+      "7": 140,
       "8": 289,
       "9": 230,
       "10": 165,
@@ -39,7 +39,7 @@
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 47,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 166
+    "articlesWithStyleFlags": 167
   },
   "flagged": [
     {
@@ -328,6 +328,29 @@
       "flags": [
         "below-editorial-target:227/280",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-15-la-liga-fantasy-deadline",
+      "slug": "la-liga-fantasy-registration-deadline-2026-27",
+      "title": "Hours left to sign up for La Liga Fantasy before Spanish season kicks off",
+      "kind": "news",
+      "words": 286,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 27,
+        "longest": 53,
+        "average": 40.9
+      },
+      "sentenceWords": {
+        "shortest": 20,
+        "longest": 53,
+        "average": 31.8
+      },
+      "lexicalDiversity": 0.731,
+      "publisherAttributions": 0,
+      "flags": [
+        "stock-phrase:remains-to-be-seen"
       ]
     },
     {

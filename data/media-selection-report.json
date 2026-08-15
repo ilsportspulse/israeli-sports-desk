@@ -1,9 +1,15 @@
 {
   "selections": [
     {
-      "articleId": "live-20260815-ferran-torres-completes-move-to-psg",
-      "article": "Ferran Torres completes move from Barcelona to Paris Saint-Germain",
-      "file": "File:Ferran Torres Argentina v Spain 19 July 2026-347.jpg",
+      "articleId": "live-20260815-maccabi-pt-tibi-strong-lineup-tiberias",
+      "article": "Maccabi Petah Tikva to start Eitan Tibi as Ziv Arieh fields strong side against Ironi Tiberias",
+      "file": "File:HaMoshava Stadium (9).JPG",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "articleId": "live-2026-08-15-israel-latvia-u16-basketball-progress",
+      "article": "Israel hold Latvia 52-44 after three quarters at U16 Women's EuroBasket",
+      "file": "File:2022-11-24 Basketball, FIBA Women's Eurobasket Qualifiers, GER-BIH 1DX 6321 by Stepro.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
@@ -36,9 +42,20 @@
       "query": "Israel basketball coach team",
       "file": "File:Oded Katash Hapoel Eilat.jpg",
       "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-2026-08-15-maras-maccabi-tel-aviv-defender-target",
+      "article": "Maccabi Tel Aviv make offer to Serbian defender Nikola Maraš after Alavés release",
+      "file": "File:Jugadores del Deportivo Alavés celebrando el ascenso a Primera División.jpg",
+      "license": "CC BY-SA 4.0"
     }
   ],
   "failures": [
+    {
+      "id": "live-2026-08-15-la-liga-fantasy-deadline",
+      "title": "Hours left to sign up for La Liga Fantasy before Spanish season kicks off",
+      "error": "image download 429 after retries"
+    },
     {
       "id": "live-2026-08-13-anat-lelior-tahiti-pro-qf",
       "title": "Lelior beats Gallina 9.50-5.76 to reach Tahiti Pro semi-final",

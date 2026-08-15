@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T10:49:43.560Z",
+  "generatedAt": "2026-08-15T11:49:32.807Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1385,
-    "publishedBefore": 985,
-    "cleanPublished": 977,
+    "totalArticles": 1388,
+    "publishedBefore": 986,
+    "cleanPublished": 978,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 985,
-    "reviewAfter": 400
+    "publishedAfter": 986,
+    "reviewAfter": 402
   },
   "blockedPublished": [
     {
@@ -156,6 +156,52 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-20260815-maccabi-pt-tibi-strong-lineup-tiberias",
+      "slug": "maccabi-petah-tikva-eitan-tibi-strong-lineup-ironi-tiberias",
+      "title": "Maccabi Petah Tikva to start Eitan Tibi as Ziv Arieh fields strong side against Ironi Tiberias",
+      "statusBefore": "review",
+      "words": 274,
+      "paragraphs": 7,
+      "facts": 8,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-08-15-israel-latvia-u16-basketball-progress",
+      "slug": "israel-latvia-u16-womens-eurobasket-in-progress",
+      "title": "Israel hold Latvia 52-44 after three quarters at U16 Women's EuroBasket",
+      "statusBefore": "review",
+      "words": 43,
+      "paragraphs": 1,
+      "facts": 5,
+      "verificationSources": 1,
+      "blockers": [
+        "copy-depth:43/60-words",
+        "structure:1/3-paragraphs"
+      ],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-15-la-liga-fantasy-deadline",
+      "slug": "la-liga-fantasy-registration-deadline-2026-27",
+      "title": "Hours left to sign up for La Liga Fantasy before Spanish season kicks off",
+      "statusBefore": "published",
+      "words": 282,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
     {
       "id": "live-20260815-ferran-torres-completes-move-to-psg",
       "slug": "ferran-torres-completes-move-to-paris-saint-germain",
@@ -13394,6 +13440,7 @@
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
         "voice:publisher-attribution-heavy:2"
       ]
     },
@@ -13413,6 +13460,21 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-15-la-liga-fantasy-deadline",
+      "slug": "la-liga-fantasy-registration-deadline-2026-27",
+      "title": "Hours left to sign up for La Liga Fantasy before Spanish season kicks off",
+      "statusBefore": "published",
+      "words": 282,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
     {
       "id": "live-20260815-ferran-torres-completes-move-to-psg",
       "slug": "ferran-torres-completes-move-to-paris-saint-germain",
