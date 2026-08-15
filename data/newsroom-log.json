@@ -1,5 +1,50 @@
 [
   {
+    "ts": "2026-08-15T10:00:36.489Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 1,
+    "review": 0,
+    "skipped": 4,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "ferran-torres-completes-move-to-paris-saint-germain",
+        "title": "Ferran Torres completes move from Barcelona to Paris Saint-Germain",
+        "confidence": 0.9,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "maccabi-haifa-khalaili-fee-crystal-palace",
+        "title": "Maccabi Haifa set to bank around €3.6 million from Khalaili's Crystal Palace move",
+        "decision": "duplicate",
+        "reason": "same event as khalaili-crystal-palace-first-interview"
+      },
+      {
+        "slug": "anan-khalaili-crystal-palace-why-he-will-succeed",
+        "title": "Why Anan Khalaili can make it at Crystal Palace, according to ONE",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "anan-khalaili-crystal-palace-transfer-completed",
+        "title": "Anan Khalaili's move to Crystal Palace is confirmed as record Israeli transfer",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "barcelona-push-rodri-alvarez-transfer-double",
+        "title": "Barcelona push to close Rodri deal within a week while Álvarez remains their only striker target",
+        "decision": "duplicate"
+      }
+    ]
+  },
+  {
     "ts": "2026-08-15T08:45:48.527Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -3002,133 +3047,6 @@
         "slug": "pochettino-signs-new-usmnt-contract-through-2030-world-cup",
         "title": "Pochettino signs new USMNT contract through 2030 World Cup",
         "decision": "duplicate"
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-03T14:41:52.815Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 8,
-    "published": 6,
-    "review": 0,
-    "skipped": 2,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "armoni-brooks-snubs-maccabi-set-for-valencia",
-        "title": "Armoni Brooks turns down Maccabi Tel Aviv, set to sign for Valencia Basket",
-        "confidence": 0.68,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "chelsea-alonso-squad-size-forty-one-players",
-        "title": "Alonso faces selection headache as Chelsea swell to 41 players",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "diomande-real-madrid-transfer-delayed-agent-dispute",
-        "title": "Agent dispute holds up Real Madrid's blockbuster Diomande transfer from Leipzig",
-        "decision": "duplicate",
-        "reason": "same event as diomande-real-madrid-agent-dispute-delay"
-      },
-      {
-        "slug": "haziza-netanya-halfon-opportunity",
-        "title": "Halfon tells Haziza: Netanya is your chance to reclaim the spotlight",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "hapoel-tel-aviv-atalanta-conference-league-draw",
-        "title": "Hapoel Tel Aviv drawn against Atalanta in toughest possible Conference League test",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "kvaratskhelia-rolls-royce-psg-training",
-        "title": "Kvaratskhelia rolls into PSG training in a new electric Rolls-Royce",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "lanziano-message-to-yanai-naturalization-row",
-        "title": "Hapoel Holon chief Lanziano to Hapoel Tel Aviv owner Yanai: focus on your own team",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "niv-eliasi-hapoel-beer-sheva-levadiakos-loan",
-        "title": "Niv Eliasi's agent: \"We felt Be'er Sheva didn't really want him\" as goalkeeper joins Levadiakos on loan",
-        "decision": "duplicate",
-        "reason": "same event as niv-eliasi-nears-levadiakos-move-greek-super-league"
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-15T09:05:28.898Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 3,
-    "review": 0,
-    "skipped": 2,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "anan-khalaili-crystal-palace-reasons-he-will-succeed",
-        "title": "Why Anan Khalaili has what it takes to succeed at Crystal Palace",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "anan-khalaili-crystal-palace-unveiling-three-titles-not-enough",
-        "title": "Unveiled at Crystal Palace, Khalaili says three titles \"is not enough\"",
-        "decision": "duplicate",
-        "reason": "same event as anan-khalaili-crystal-palace-natural-fit-wing-back"
-      },
-      {
-        "slug": "abu-fani-red-star-future-in-doubt-stankovic-exit",
-        "title": "Stanković's exit leaves Abu Fani's Red Star Belgrade future in doubt",
-        "confidence": 0.8,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "maras-maccabi-tel-aviv-defender-target",
-        "title": "Maccabi Tel Aviv make offer to Serbian defender Nikola Maraš after Alavés release",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "youth-premier-league-season-opens-six-saturday-games",
-        "title": "Israel's youth top flight kicks off with six games this Saturday",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
       }
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T09:19:51.543Z",
+  "generatedAt": "2026-08-15T10:14:26.479Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,7 +11,7 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 983,
+    "publishedArticles": 985,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
@@ -23,10 +23,10 @@
       "4": 6,
       "5": 10,
       "6": 47,
-      "7": 140,
-      "8": 287,
+      "7": 139,
+      "8": 289,
       "9": 230,
-      "10": 164,
+      "10": 165,
       "11": 41,
       "12": 13,
       "13": 4,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.292,
+    "dominantParagraphShare": 0.293,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 47,
     "analysisBelowTarget": 9,
@@ -3875,66 +3875,66 @@
   ],
   "clean": [
     {
-      "id": "live-2026-08-15-youth-premier-league-opens-six-games",
-      "slug": "youth-premier-league-season-opens-six-saturday-games",
-      "title": "Israel's youth top flight kicks off with six games this Saturday",
-      "kind": "news",
-      "words": 298,
+      "id": "live-20260815-ferran-torres-completes-move-to-psg",
+      "slug": "ferran-torres-completes-move-to-paris-saint-germain",
+      "title": "Ferran Torres completes move from Barcelona to Paris Saint-Germain",
+      "kind": "article",
+      "words": 343,
       "paragraphs": 8,
       "paragraphWords": {
-        "shortest": 13,
-        "longest": 55,
-        "average": 37.3
+        "shortest": 29,
+        "longest": 54,
+        "average": 42.9
       },
       "sentenceWords": {
-        "shortest": 5,
-        "longest": 36,
-        "average": 21.3
+        "shortest": 11,
+        "longest": 98,
+        "average": 38.1
       },
-      "lexicalDiversity": 0.611,
-      "publisherAttributions": 1,
+      "lexicalDiversity": 0.618,
+      "publisherAttributions": 0,
       "flags": []
     },
     {
-      "id": "live-2026-08-15-maras-maccabi-tel-aviv-defender-target",
-      "slug": "maras-maccabi-tel-aviv-defender-target",
-      "title": "Maccabi Tel Aviv make offer to Serbian defender Nikola Maraš after Alavés release",
+      "id": "live-20260815-maras-maccabi-tel-aviv-candidate",
+      "slug": "serbian-defender-nikola-maras-maccabi-tel-aviv-alaves-release",
+      "title": "Maccabi Tel Aviv eye Serbian centre-back Nikola Maraš after bizarre Alavés release",
       "kind": "news",
-      "words": 317,
-      "paragraphs": 7,
+      "words": 422,
+      "paragraphs": 8,
       "paragraphWords": {
-        "shortest": 23,
-        "longest": 59,
-        "average": 45.3
+        "shortest": 37,
+        "longest": 92,
+        "average": 52.8
       },
       "sentenceWords": {
-        "shortest": 17,
-        "longest": 43,
-        "average": 28.8
+        "shortest": 19,
+        "longest": 47,
+        "average": 32.5
       },
-      "lexicalDiversity": 0.659,
-      "publisherAttributions": 1,
+      "lexicalDiversity": 0.585,
+      "publisherAttributions": 0,
       "flags": []
     },
     {
-      "id": "live-20260815-abu-fani-red-star-future-in-doubt",
-      "slug": "abu-fani-red-star-future-in-doubt-stankovic-exit",
-      "title": "Stanković's exit leaves Abu Fani's Red Star Belgrade future in doubt",
-      "kind": "transfer",
-      "words": 462,
+      "id": "live-2026-08-15-khalaili-crystal-palace-first-interview",
+      "slug": "khalaili-crystal-palace-first-interview",
+      "title": "Khalaili tells Crystal Palace: 'I've been following you for a long time'",
+      "kind": "news",
+      "words": 424,
       "paragraphs": 10,
       "paragraphWords": {
-        "shortest": 20,
-        "longest": 71,
-        "average": 46.2
+        "shortest": 17,
+        "longest": 63,
+        "average": 42.4
       },
       "sentenceWords": {
         "shortest": 7,
-        "longest": 68,
-        "average": 25.7
+        "longest": 80,
+        "average": 30.3
       },
-      "lexicalDiversity": 0.545,
-      "publisherAttributions": 0,
+      "lexicalDiversity": 0.578,
+      "publisherAttributions": 1,
       "flags": []
     },
     {
@@ -21029,6 +21029,48 @@
       },
       "lexicalDiversity": 0.604,
       "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-15-youth-premier-league-opens-six-games",
+      "slug": "youth-premier-league-season-opens-six-saturday-games",
+      "title": "Israel's youth top flight kicks off with six games this Saturday",
+      "kind": "news",
+      "words": 298,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 13,
+        "longest": 55,
+        "average": 37.3
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 36,
+        "average": 21.3
+      },
+      "lexicalDiversity": 0.611,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260815-abu-fani-red-star-future-in-doubt",
+      "slug": "abu-fani-red-star-future-in-doubt-stankovic-exit",
+      "title": "Stanković's exit leaves Abu Fani's Red Star Belgrade future in doubt",
+      "kind": "transfer",
+      "words": 462,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 20,
+        "longest": 71,
+        "average": 46.2
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 68,
+        "average": 25.7
+      },
+      "lexicalDiversity": 0.545,
+      "publisherAttributions": 0,
       "flags": []
     }
   ]

@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-15T09:19:50Z",
-    "validUntil": "2026-08-15T21:19:50Z",
+    "checkedAt": "2026-08-15T10:14:25Z",
+    "validUntil": "2026-08-15T22:14:25Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 636,
+        "maxAgeHours": 637,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-15-youth-premier-league-opens-six-games",
+        "articleId": "live-20260815-ferran-torres-completes-move-to-psg",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 644,
+        "maxAgeHours": 645,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-15-maras-maccabi-tel-aviv-defender-target",
+        "articleId": "live-2026-08-15-youth-premier-league-opens-six-games",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 654,
+        "maxAgeHours": 655,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-15-mta-angelidis-vanharen-presser",
+        "articleId": "live-20260815-maras-maccabi-tel-aviv-candidate",
         "maxAgeHours": 36,
         "requires": []
       }

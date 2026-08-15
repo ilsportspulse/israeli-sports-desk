@@ -1,5 +1,91 @@
 [
   {
+    "id": "live-20260815-ferran-torres-completes-move-to-psg",
+    "slug": "ferran-torres-completes-move-to-paris-saint-germain",
+    "title": "Ferran Torres completes move from Barcelona to Paris Saint-Germain",
+    "dek": "The World Cup final goalscorer signs a five-year contract in Paris in a deal reported at €50 million, reuniting with compatriot Luis Enrique.",
+    "category": "World Football",
+    "desk": "international",
+    "kind": "article",
+    "storyForm": "news",
+    "publishedAt": "2026-08-15T10:00:36.489Z",
+    "updatedAt": "2026-08-15T10:00:36.489Z",
+    "readMinutes": 3,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/530435.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE - המעבר הושלם: פראן טורס חתם בפאריס סן ז'רמן",
+        "url": "https://www.one.co.il/Article/530435.html"
+      },
+      {
+        "label": "PSG official announcement - Ferran Torres joins Paris Saint-Germain",
+        "url": "https://www.psg.fr/en/content/cp-ferran-torres-joins-paris-saint-germain"
+      },
+      {
+        "label": "ESPN - Barcelona, Spain star Ferran Torres to join Paris Saint-Germain in €50M move",
+        "url": "https://www.espn.com/soccer/story/_/id/49601819/barcelona-spain-star-ferran-torres-join-paris-saint-germain-50m-move-source"
+      }
+    ],
+    "body": [
+      "Ferran Torres has completed his move from Barcelona to Paris Saint-Germain, ending four and a half years at Camp Nou to sign a five-year contract in France, ONE reports.",
+      "The Spain forward, who scored the winning goal in extra time as Spain beat Argentina in the World Cup final at the start of this month, will wear the number 9 shirt at PSG and is under contract until 2031, according to the club's official announcement.",
+      "PSG had to raise their offer to get the deal done. Barcelona initially rejected an opening bid of €40 million plus €10 million in add-ons, holding out for at least €50 million guaranteed before the two clubs agreed a package reported at roughly €50 million with a further €5 million in bonuses.",
+      "Luis Enrique, the PSG head coach, pushed hard for the signing. The two Spaniards worked together in the national team setup, and Torres will now report to him again at club level in Paris.",
+      "\"I'm delighted to be beginning a new adventure at such an ambitious club as Paris Saint-Germain,\" Torres said in PSG's announcement. \"I'd like to thank president Nasser Al-Khelaïfi, Luis Campos and coach Luis Enrique for giving me the opportunity to join the team, which I hope to help win as many trophies as possible.\"",
+      "Torres missed Barcelona training sessions with the club's permission in the final days of the negotiation as the transfer was finalised. His departure brings Barcelona a significant fee and salary-cap relief at a club that has repeatedly had to manage its wage bill under La Liga's financial rules.",
+      "He joins an attacking line at Parc des Princes that already includes Ousmane Dembélé, Kylian Mbappé and Désiré Doué, adding fresh competition up front for a club chasing another Ligue 1 and Champions League double.",
+      "The move caps a remarkable few weeks for Torres, who arrived at the World Cup as a squad player and left it as the man who settled the final, a story that has clearly shaped PSG's willingness to pay a premium for him this summer."
+    ],
+    "facts": [
+      "Ferran Torres has signed for Paris Saint-Germain from Barcelona on a five-year contract, running until 2031.",
+      "The transfer fee is reported at around €50 million, with a further €5 million in potential add-ons.",
+      "Torres will wear the number 9 shirt at PSG.",
+      "He scored the winning goal in extra time as Spain beat Argentina in the 2026 World Cup final.",
+      "PSG head coach Luis Enrique previously worked with Torres in the Spain national team setup.",
+      "Barcelona initially rejected a PSG bid of €40 million plus €10 million in add-ons before the fee was agreed."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 78,
+    "homepageReason": "Major world-football transfer: a World Cup-winning forward moving from Barcelona to PSG in a nine-figure deal, with no Israeli angle but clear international significance.",
+    "dedupeKey": "psg-signs-ferran-torres-2026-08",
+    "aiDisclosure": "This article was drafted by an AI copy desk from verified source reporting and independently fact-checked reports.",
+    "nameChecks": [
+      {
+        "hebrew": "פראן טורס",
+        "english": "Ferran Torres",
+        "verificationUrl": "https://www.psg.fr/en/content/cp-ferran-torres-joins-paris-saint-germain",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "לואיס אנריקה",
+        "english": "Luis Enrique",
+        "verificationUrl": "https://www.espn.com/soccer/story/_/id/49601819/barcelona-spain-star-ferran-torres-join-paris-saint-germain-50m-move-source",
+        "confidence": 0.9
+      }
+    ],
+    "confidence": 0.9,
+    "warning": "Exact final fee figure varies slightly by outlet (around €50m guaranteed plus bonuses) as PSG's own statement did not confirm a number.",
+    "commonsQuery": "Ferran Torres footballer photograph",
+    "commonsCandidates": [
+      {
+        "title": "File:Ferran Torres France v Spain 7.24.26-243.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Ferran_Torres_France_v_Spain_7.24.26-243.jpg",
+        "credit": "Bryan Berlin (WikiPortraits), via Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:Ferran Torres France v Spain 7.24.26-237 (cropped).jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Ferran_Torres_France_v_Spain_7.24.26-237_(cropped).jpg",
+        "credit": "Bryan Berlin (WikiPortraits), via Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "status": "published"
+  },
+  {
     "id": "live-20260815-youth-premier-league-six-saturday-matches",
     "slug": "youth-premier-league-season-opens-six-saturday-matches",
     "title": "Israel's Youth Premier League kicks off with six matches this Saturday",
@@ -99,7 +185,7 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "",
+    "warning": "dup same-event (8: israel,youth,kicks,jerusalem,maccabi,aviv)",
     "commonsQuery": "HaMoshava Stadium Petah Tikva OR Levita Stadium Kfar Saba football",
     "commonsCandidates": [
       {
@@ -115,7 +201,7 @@
         "license": "Public domain"
       }
     ],
-    "status": "published"
+    "status": "review"
   },
   {
     "id": "live-20260815-maras-maccabi-tel-aviv-candidate",
@@ -314,7 +400,10 @@
         "license": "CC BY-SA 3.0"
       }
     ],
-    "status": "published"
+    "status": "review",
+    "reviewReasons": [
+      "near-duplicate headline of /article/abu-fani-red-star-future-in-doubt-stankovic-exit"
+    ]
   },
   {
     "id": "live-2026-08-15-khalaili-crystal-palace-first-interview",
@@ -137130,7 +137219,7 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "published"
+    "status": "review"
   },
   {
     "id": "live-20260815-abu-fani-red-star-future-in-doubt",
