@@ -1,16 +1,16 @@
 {
   "selections": [
     {
-      "articleId": "live-20260815-liebmann-1500m-freestyle-world-record",
-      "article": "German teenager Johannes Liebmann shatters 1500m freestyle world record in 14:26.79",
-      "file": "File:Swimming Pool lanes and starting blocks at AIS.jpg",
+      "articleId": "live-2026-08-15-alaves-getafe-3-0-la-liga-opener",
+      "article": "Alavés 3-0 Getafe: 10-man visitors sunk by Femenía red card on La Liga's opening day",
+      "file": "File:Mendizorrotza.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-20260815-alaves-getafe-3-0-laliga-opener",
-      "article": "Alavés beat 10-man Getafe 3-0 to open La Liga season",
-      "file": "File:Mariano Díaz, Real Madrid, 2022.jpg",
-      "license": "CC BY 2.0"
+      "articleId": "live-20260815-kozuk-apologizes-toto-cup-mauling",
+      "article": "Hapoel Haifa 4-0 Hapoel Beer Sheva: furious Kozuk apologises to fans after disgraceful Toto Cup display",
+      "file": "File:Ayala Serfaty's lighting fixtures at Nafis in Beer Sheva, January 2025 20.jpg",
+      "license": "CC BY-SA 4.0"
     },
     {
       "articleId": "live-2026-08-15-daniel-chazan-hapoel-haifa-exit-talks",
@@ -27,7 +27,7 @@
     {
       "articleId": "live-20260802-israel-fifth-mixed-duet-technical-paris",
       "article": "Israel take fifth in mixed duet technical final at European Championships in Paris",
-      "file": "File:20220814 European Championships Munich 2022 Ľubomír Pištej 850 3618.jpg",
+      "file": "File:20220817 European Championships Munich 2022 Tania Moreno Matveeva 850 7683.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
@@ -41,9 +41,21 @@
       "article": "Adam Ramsay-Peaty questions it all after bitter Commonwealth bronze",
       "file": "File:Adam Peaty Olympics 100m breaststroke 2016.jpg",
       "license": "CC BY 3.0 br"
+    },
+    {
+      "articleId": "live-20260714-basketball-coaches-registration",
+      "article": "Israeli basketball coaches demand freeze on registration overhaul",
+      "query": "Israel basketball coach team",
+      "file": "File:Oded Katash Hapoel Eilat.jpg",
+      "license": "CC BY-SA 4.0"
     }
   ],
   "failures": [
+    {
+      "id": "live-2026-08-15-liebmann-1500m-world-record",
+      "title": "Johannes Liebmann shatters 1500m freestyle world record to complete Paris distance double",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
     {
       "id": "live-2026-08-15-omer-dahan-kfar-shalem-loan",
       "title": "Omer Dahan closes in on loan move to Hapoel Kfar Shalem",
@@ -238,11 +250,6 @@
       "id": "live-20260722-bnei-eilat-youth-b-champions",
       "title": "Bnei Eilat's Youth B Side Go Unbeaten to Win Southern District Title",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
-    },
-    {
-      "id": "live-20260714-basketball-coaches-registration",
-      "title": "Israeli basketball coaches demand freeze on registration overhaul",
-      "error": "image download 429 after retries"
     },
     {
       "id": "live-2026-08-01-kaufman-gorbenko-2028-olympic-plan",

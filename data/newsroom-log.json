@@ -2924,5 +2924,56 @@
         "reason": "same event as rodri-transfer-stalled-real-madrid-manchester-city-price-tag"
       }
     ]
+  },
+  {
+    "ts": "2026-08-15T20:16:04.755Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 2,
+    "review": 1,
+    "skipped": 2,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "kozuk-apologizes-hapoel-beer-sheva-toto-cup-mauling",
+        "title": "Hapoel Haifa 4-0 Hapoel Beer Sheva: furious Kozuk apologises to fans after disgraceful Toto Cup display",
+        "confidence": 0.82,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Coach's surname is transliterated variously across English-language sources (Kozuk/Kozuch/Kojok); Kozuk used here as the most common English rendering."
+      },
+      {
+        "slug": "youth-a-premier-league-round-one-held-duplicate",
+        "title": "Youth A Premier League round one: Haifa, Beer Sheva, Tel Aviv and Hadera results held pending verification",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "alaves-getafe-3-0-la-liga-opener",
+        "title": "Alavés 3-0 Getafe: 10-man visitors sunk by Femenía red card on La Liga's opening day",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "ironi-tiberias-eden-shamir-daniel-golani-transfer-targets",
+        "title": "Ironi Tiberias chase Eden Shamir and Daniel Golani after landing Ziv Morgan",
+        "decision": "duplicate",
+        "reason": "same event as eitan-tibi-debut-maccabi-petah-tikva-tiberias-toto-cup"
+      },
+      {
+        "slug": "johannes-liebmann-1500m-freestyle-world-record",
+        "title": "Johannes Liebmann shatters 1500m freestyle world record to complete Paris distance double",
+        "confidence": 0.9,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
   }
 ]
