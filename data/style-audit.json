@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T08:59:30.351Z",
+  "generatedAt": "2026-08-15T09:19:51.543Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,7 +11,7 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 984,
+    "publishedArticles": 983,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
@@ -23,8 +23,8 @@
       "4": 6,
       "5": 10,
       "6": 47,
-      "7": 139,
-      "8": 289,
+      "7": 140,
+      "8": 287,
       "9": 230,
       "10": 164,
       "11": 41,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.294,
+    "dominantParagraphShare": 0.292,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 47,
     "analysisBelowTarget": 9,
@@ -3875,87 +3875,66 @@
   ],
   "clean": [
     {
-      "id": "live-20260815-youth-premier-league-six-saturday-matches",
-      "slug": "youth-premier-league-season-opens-six-saturday-matches",
-      "title": "Israel's Youth Premier League kicks off with six matches this Saturday",
-      "kind": "article",
-      "words": 299,
+      "id": "live-2026-08-15-youth-premier-league-opens-six-games",
+      "slug": "youth-premier-league-season-opens-six-saturday-games",
+      "title": "Israel's youth top flight kicks off with six games this Saturday",
+      "kind": "news",
+      "words": 298,
       "paragraphs": 8,
       "paragraphWords": {
-        "shortest": 19,
-        "longest": 52,
-        "average": 37.4
+        "shortest": 13,
+        "longest": 55,
+        "average": 37.3
       },
       "sentenceWords": {
         "shortest": 5,
-        "longest": 37,
-        "average": 24.9
+        "longest": 36,
+        "average": 21.3
       },
-      "lexicalDiversity": 0.612,
+      "lexicalDiversity": 0.611,
       "publisherAttributions": 1,
       "flags": []
     },
     {
-      "id": "live-20260815-maras-maccabi-tel-aviv-candidate",
-      "slug": "serbian-defender-nikola-maras-maccabi-tel-aviv-alaves-release",
-      "title": "Maccabi Tel Aviv eye Serbian centre-back Nikola Maraš after bizarre Alavés release",
+      "id": "live-2026-08-15-maras-maccabi-tel-aviv-defender-target",
+      "slug": "maras-maccabi-tel-aviv-defender-target",
+      "title": "Maccabi Tel Aviv make offer to Serbian defender Nikola Maraš after Alavés release",
       "kind": "news",
-      "words": 422,
-      "paragraphs": 8,
+      "words": 317,
+      "paragraphs": 7,
       "paragraphWords": {
-        "shortest": 37,
-        "longest": 92,
-        "average": 52.8
+        "shortest": 23,
+        "longest": 59,
+        "average": 45.3
       },
       "sentenceWords": {
-        "shortest": 19,
-        "longest": 47,
-        "average": 32.5
+        "shortest": 17,
+        "longest": 43,
+        "average": 28.8
       },
-      "lexicalDiversity": 0.585,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-15-abu-fani-red-star-future-in-doubt",
-      "slug": "abu-fani-crvena-zvezda-future-in-doubt-stankovic-exit",
-      "title": "Abu Fani's future at Red Star Belgrade in doubt after Stanković's exit",
-      "kind": "news",
-      "words": 394,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 19,
-        "longest": 69,
-        "average": 49.3
-      },
-      "sentenceWords": {
-        "shortest": 8,
-        "longest": 58,
-        "average": 30.3
-      },
-      "lexicalDiversity": 0.609,
+      "lexicalDiversity": 0.659,
       "publisherAttributions": 1,
       "flags": []
     },
     {
-      "id": "live-2026-08-15-khalaili-crystal-palace-first-interview",
-      "slug": "khalaili-crystal-palace-first-interview",
-      "title": "Khalaili tells Crystal Palace: 'I've been following you for a long time'",
-      "kind": "news",
-      "words": 424,
+      "id": "live-20260815-abu-fani-red-star-future-in-doubt",
+      "slug": "abu-fani-red-star-future-in-doubt-stankovic-exit",
+      "title": "Stanković's exit leaves Abu Fani's Red Star Belgrade future in doubt",
+      "kind": "transfer",
+      "words": 462,
       "paragraphs": 10,
       "paragraphWords": {
-        "shortest": 17,
-        "longest": 63,
-        "average": 42.4
+        "shortest": 20,
+        "longest": 71,
+        "average": 46.2
       },
       "sentenceWords": {
         "shortest": 7,
-        "longest": 80,
-        "average": 30.3
+        "longest": 68,
+        "average": 25.7
       },
-      "lexicalDiversity": 0.578,
-      "publisherAttributions": 1,
+      "lexicalDiversity": 0.545,
+      "publisherAttributions": 0,
       "flags": []
     },
     {

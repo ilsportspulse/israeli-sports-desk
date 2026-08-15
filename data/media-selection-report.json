@@ -1,28 +1,16 @@
 {
   "selections": [
     {
-      "articleId": "live-20260815-maras-maccabi-tel-aviv-candidate",
-      "article": "Maccabi Tel Aviv eye Serbian centre-back Nikola Maraš after bizarre Alavés release",
+      "articleId": "live-2026-08-15-youth-premier-league-opens-six-games",
+      "article": "Israel's youth top flight kicks off with six games this Saturday",
+      "file": "File:Mecz piłkarski Wisła Kraków - Zagłębie Sosnwoiec, 28 października 2022, Pożegnanie Stadionu Ludowego, KP.jpg",
+      "license": "CC BY 4.0"
+    },
+    {
+      "articleId": "live-2026-08-15-maras-maccabi-tel-aviv-defender-target",
+      "article": "Maccabi Tel Aviv make offer to Serbian defender Nikola Maraš after Alavés release",
       "file": "File:Nikola Maras 2023.jpg",
       "license": "CC BY-SA 4.0"
-    },
-    {
-      "articleId": "live-2026-08-15-abu-fani-red-star-future-in-doubt",
-      "article": "Abu Fani's future at Red Star Belgrade in doubt after Stanković's exit",
-      "file": "File:FC Zenit Saint Petersburg vs. Red Star Belgrade, 22 November 2022 06.jpg",
-      "license": "CC BY-SA 3.0"
-    },
-    {
-      "articleId": "live-2026-08-15-khalaili-crystal-palace-first-interview",
-      "article": "Khalaili tells Crystal Palace: 'I've been following you for a long time'",
-      "file": "File:Selhurst Park.jpg",
-      "license": "CC BY-SA 3.0"
-    },
-    {
-      "articleId": "live-20260815-beer-sheva-toto-cup-rotation-haifa",
-      "article": "Hapoel Beer Sheva plan wide rotation for Toto Cup trip to Hapoel Haifa before Sabah tie",
-      "file": "File:PikiWiki Israel 11383 Large Mosque in Beersheba Beer Sheva.jpg",
-      "license": "CC BY 2.5"
     },
     {
       "articleId": "live-2026-08-13-adva-cohen-steeplechase-10th",
@@ -58,8 +46,13 @@
   ],
   "failures": [
     {
-      "id": "live-20260815-youth-premier-league-six-saturday-matches",
-      "title": "Israel's Youth Premier League kicks off with six matches this Saturday",
+      "id": "live-20260815-abu-fani-red-star-future-in-doubt",
+      "title": "Stanković's exit leaves Abu Fani's Red Star Belgrade future in doubt",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-20260815-beer-sheva-toto-cup-rotation-haifa",
+      "title": "Hapoel Beer Sheva plan wide rotation for Toto Cup trip to Hapoel Haifa before Sabah tie",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {

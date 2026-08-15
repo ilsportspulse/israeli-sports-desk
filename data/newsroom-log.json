@@ -3080,5 +3080,56 @@
         "reason": "same event as niv-eliasi-nears-levadiakos-move-greek-super-league"
       }
     ]
+  },
+  {
+    "ts": "2026-08-15T09:05:28.898Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 3,
+    "review": 0,
+    "skipped": 2,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "anan-khalaili-crystal-palace-reasons-he-will-succeed",
+        "title": "Why Anan Khalaili has what it takes to succeed at Crystal Palace",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "anan-khalaili-crystal-palace-unveiling-three-titles-not-enough",
+        "title": "Unveiled at Crystal Palace, Khalaili says three titles \"is not enough\"",
+        "decision": "duplicate",
+        "reason": "same event as anan-khalaili-crystal-palace-natural-fit-wing-back"
+      },
+      {
+        "slug": "abu-fani-red-star-future-in-doubt-stankovic-exit",
+        "title": "Stanković's exit leaves Abu Fani's Red Star Belgrade future in doubt",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "maras-maccabi-tel-aviv-defender-target",
+        "title": "Maccabi Tel Aviv make offer to Serbian defender Nikola Maraš after Alavés release",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "youth-premier-league-season-opens-six-saturday-games",
+        "title": "Israel's youth top flight kicks off with six games this Saturday",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
   }
 ]
