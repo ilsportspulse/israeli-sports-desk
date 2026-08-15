@@ -146,49 +146,49 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-15T07:56:01Z",
-    "validUntil": "2026-08-15T19:56:01Z",
+    "checkedAt": "2026-08-15T08:59:29Z",
+    "validUntil": "2026-08-15T20:59:29Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 635,
+        "maxAgeHours": 636,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-15-mta-angelidis-vanharen-presser",
+        "articleId": "live-20260815-youth-premier-league-six-saturday-matches",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 643,
+        "maxAgeHours": 644,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "archive-20260815-tokyo-24-july-2021-the-girl-from-gedera-",
+        "articleId": "live-20260815-maras-maccabi-tel-aviv-candidate",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 653,
+        "maxAgeHours": 654,
         "requires": [
           "column"
         ]
       },
       {
         "role": "archive",
-        "articleId": "archive-20260813-turin-19-june-1979-the-silver-that-remai",
+        "articleId": "archive-20260815-tokyo-24-july-2021-the-girl-from-gedera-",
         "maxAgeHours": 156,
         "requires": [
           "historical-feature"
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260815-alvarez-denies-atletico-apology",
+        "articleId": "live-2026-08-15-abu-fani-red-star-future-in-doubt",
         "maxAgeHours": 36,
         "requires": []
       }

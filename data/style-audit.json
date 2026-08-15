@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T07:56:02.149Z",
+  "generatedAt": "2026-08-15T08:59:30.351Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 980,
+    "publishedArticles": 984,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 419,
-      "average": 424.4
+      "average": 424.2
     },
     "paragraphDistribution": {
       "3": 35,
@@ -24,9 +24,9 @@
       "5": 10,
       "6": 47,
       "7": 139,
-      "8": 286,
+      "8": 289,
       "9": 230,
-      "10": 163,
+      "10": 164,
       "11": 41,
       "12": 13,
       "13": 4,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.292,
+    "dominantParagraphShare": 0.294,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 47,
     "analysisBelowTarget": 9,
@@ -3874,6 +3874,90 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260815-youth-premier-league-six-saturday-matches",
+      "slug": "youth-premier-league-season-opens-six-saturday-matches",
+      "title": "Israel's Youth Premier League kicks off with six matches this Saturday",
+      "kind": "article",
+      "words": 299,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 19,
+        "longest": 52,
+        "average": 37.4
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 37,
+        "average": 24.9
+      },
+      "lexicalDiversity": 0.612,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260815-maras-maccabi-tel-aviv-candidate",
+      "slug": "serbian-defender-nikola-maras-maccabi-tel-aviv-alaves-release",
+      "title": "Maccabi Tel Aviv eye Serbian centre-back Nikola Maraš after bizarre Alavés release",
+      "kind": "news",
+      "words": 422,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 92,
+        "average": 52.8
+      },
+      "sentenceWords": {
+        "shortest": 19,
+        "longest": 47,
+        "average": 32.5
+      },
+      "lexicalDiversity": 0.585,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-15-abu-fani-red-star-future-in-doubt",
+      "slug": "abu-fani-crvena-zvezda-future-in-doubt-stankovic-exit",
+      "title": "Abu Fani's future at Red Star Belgrade in doubt after Stanković's exit",
+      "kind": "news",
+      "words": 394,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 19,
+        "longest": 69,
+        "average": 49.3
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 58,
+        "average": 30.3
+      },
+      "lexicalDiversity": 0.609,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-15-khalaili-crystal-palace-first-interview",
+      "slug": "khalaili-crystal-palace-first-interview",
+      "title": "Khalaili tells Crystal Palace: 'I've been following you for a long time'",
+      "kind": "news",
+      "words": 424,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 17,
+        "longest": 63,
+        "average": 42.4
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 80,
+        "average": 30.3
+      },
+      "lexicalDiversity": 0.578,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-08-15-mta-angelidis-vanharen-presser",
       "slug": "maccabi-tel-aviv-angelidis-vanharen-press-conference",
