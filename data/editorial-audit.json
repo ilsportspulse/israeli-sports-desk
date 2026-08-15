@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T18:00:37.674Z",
+  "generatedAt": "2026-08-15T18:59:59.405Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1407,
-    "publishedBefore": 998,
-    "cleanPublished": 990,
+    "totalArticles": 1410,
+    "publishedBefore": 999,
+    "cleanPublished": 991,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 998,
-    "reviewAfter": 409
+    "publishedAfter": 999,
+    "reviewAfter": 411
   },
   "blockedPublished": [
     {
@@ -157,6 +157,49 @@
   ],
   "warnings": [
     {
+      "id": "live-2026-08-15-hapoel-haifa-hapoel-beersheva-toto-cup-halftime",
+      "slug": "hapoel-haifa-hapoel-beer-sheva-toto-cup-half-time-hold",
+      "title": "Half-time: Hapoel Beer Sheva lead Hapoel Haifa 2-0 in Toto Cup fifth-place tie",
+      "statusBefore": "review",
+      "words": 196,
+      "paragraphs": 5,
+      "facts": 6,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-15-maccabi-pt-hapoel-pt-naarim-derby",
+      "slug": "maccabi-petah-tikva-hapoel-petah-tikva-1-0-naarim-derby",
+      "title": "Maccabi Petah Tikva beat Hapoel Petah Tikva 1-0 as comedian's son Koriat scores derby winner",
+      "statusBefore": "review",
+      "words": 336,
+      "paragraphs": 6,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-15-daniel-chazan-hapoel-haifa-exit-talks",
+      "slug": "daniel-chazan-negotiating-exit-hapoel-haifa-basketball",
+      "title": "Daniel Chazan in talks to leave Hapoel Haifa basketball less than a year after buying in",
+      "statusBefore": "published",
+      "words": 347,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
       "id": "live-2026-08-15-sakhnin-hapoel-pt-toto-cup-lineups",
       "slug": "sakhnin-hapoel-petah-tikva-toto-cup-lineups",
       "title": "Salman and Kojo start for Sakhnin as Badash and Altman lead Hapoel Petah Tikva in Toto Cup fight for 13th",
@@ -197,6 +240,7 @@
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
         "voice:publisher-attribution-heavy:2"
       ]
     },
@@ -13677,6 +13721,20 @@
       ]
     },
     {
+      "id": "live-2026-08-15-sakhnin-hapoel-petah-tikva-toto-cup-held",
+      "slug": "bnei-sakhnin-hapoel-petah-tikva-toto-cup-half-time",
+      "title": "Bnei Sakhnin and Hapoel Petah Tikva goalless at half-time in Toto Cup clash",
+      "statusBefore": "review",
+      "words": 196,
+      "paragraphs": 5,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-2026-08-15-tiberias-petah-tikva-toto-cup-halftime-hold",
       "slug": "ironi-tiberias-maccabi-petah-tikva-toto-cup-ranking-clash",
       "title": "Ironi Tiberias and Maccabi Petah Tikva scoreless at the break in Toto Cup ranking clash",
@@ -13694,6 +13752,20 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-15-daniel-chazan-hapoel-haifa-exit-talks",
+      "slug": "daniel-chazan-negotiating-exit-hapoel-haifa-basketball",
+      "title": "Daniel Chazan in talks to leave Hapoel Haifa basketball less than a year after buying in",
+      "statusBefore": "published",
+      "words": 347,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
     {
       "id": "live-2026-08-15-tibi-debut-tiberias-petah-tikva",
       "slug": "eitan-tibi-debut-maccabi-petah-tikva-tiberias-toto-cup",

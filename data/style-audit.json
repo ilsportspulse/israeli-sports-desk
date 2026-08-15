@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T18:00:38.245Z",
+  "generatedAt": "2026-08-15T18:59:59.972Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,19 +11,19 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 998,
+    "publishedArticles": 999,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 419,
-      "average": 423.4
+      "average": 423.3
     },
     "paragraphDistribution": {
       "3": 35,
       "4": 6,
       "5": 10,
       "6": 48,
-      "7": 144,
+      "7": 145,
       "8": 291,
       "9": 235,
       "10": 165,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.292,
+    "dominantParagraphShare": 0.291,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 48,
     "analysisBelowTarget": 9,
@@ -3943,6 +3943,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-15-daniel-chazan-hapoel-haifa-exit-talks",
+      "slug": "daniel-chazan-negotiating-exit-hapoel-haifa-basketball",
+      "title": "Daniel Chazan in talks to leave Hapoel Haifa basketball less than a year after buying in",
+      "kind": "news",
+      "words": 344,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 22,
+        "longest": 85,
+        "average": 49.1
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 70,
+        "average": 34.4
+      },
+      "lexicalDiversity": 0.593,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-15-tibi-debut-tiberias-petah-tikva",
       "slug": "eitan-tibi-debut-maccabi-petah-tikva-tiberias-toto-cup",
