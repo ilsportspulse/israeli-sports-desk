@@ -1,22 +1,22 @@
 {
   "selections": [
     {
-      "articleId": "live-20260815-baeten-maccabi-tel-aviv-talks",
-      "article": "Maccabi Tel Aviv open talks to sign Belgian winger Thibo Baeten",
+      "articleId": "live-2026-08-15-maccabi-tel-aviv-thibo-baeten-transfer-talks",
+      "article": "Maccabi Tel Aviv in talks for Go Ahead Eagles winger who wants the move",
       "file": "File:Thibo Baeten.jpg",
       "license": "CC BY 2.0"
     },
     {
-      "articleId": "live-2026-08-15-bezos-liverpool-stake",
-      "article": "Bezos-backed consortium agrees deal to buy a third of Liverpool",
-      "file": "File:Liverpool anfield road stadium.jpg",
-      "license": "CC BY-SA 3.0 de"
+      "articleId": "live-20260815-bezos-liverpool-stake",
+      "article": "Bezos-led investor group agrees deal for a third of Liverpool",
+      "file": "File:Anfield Stadium from Stanley Park.jpg",
+      "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-2026-08-15-red-star-belgrade-squad-clearout",
-      "article": "Hapoel Beer Sheva's Champions League shock forces a mass clearout at Red Star Belgrade",
-      "file": "File:FC Zenit Saint Petersburg v Red Star Belgrade, 29 June 2025 (15).jpg",
-      "license": "CC BY-SA 3.0"
+      "articleId": "live-20260815-ferran-torres-psg-monsters-attack",
+      "article": "Ferran Torres faces 'real monsters' in the fight for a place at Paris Saint-Germain",
+      "file": "File:Ferran Torres Argentina v Spain 19 July 2026-244.jpg",
+      "license": "CC BY-SA 4.0"
     },
     {
       "articleId": "live-2026-08-14-rodri-treble-heirs",
@@ -39,7 +39,7 @@
     {
       "articleId": "live-20260802-israel-fifth-mixed-duet-technical-paris",
       "article": "Israel take fifth in mixed duet technical final at European Championships in Paris",
-      "file": "File:20220817 European Championships Munich 2022 Tania Moreno Matveeva 850 7683.jpg",
+      "file": "File:20220814 European Championships Munich 2022 Ľubomír Pištej 850 3618.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
@@ -55,13 +55,6 @@
       "license": "CC BY 3.0 br"
     },
     {
-      "articleId": "live-20260714-basketball-coaches-registration",
-      "article": "Israeli basketball coaches demand freeze on registration overhaul",
-      "query": "Israel basketball coach team",
-      "file": "File:Oded Katash Hapoel Eilat.jpg",
-      "license": "CC BY-SA 4.0"
-    },
-    {
       "articleId": "live-20260717-france-world-cup-replay-petition-fifa-backs-referee",
       "article": "France's World Cup replay petition passes 50,000 signatures as FIFA backs referee",
       "query": "Lamine Yamal Spain",
@@ -70,6 +63,11 @@
     }
   ],
   "failures": [
+    {
+      "id": "live-20260815-gorbenko-tops-200im-heats-paris",
+      "title": "Gorbenko swims fastest in 200m medley heats to lead Israel into European final",
+      "error": "image download 429 after retries"
+    },
     {
       "id": "live-2026-08-13-anat-lelior-tahiti-pro-qf",
       "title": "Lelior beats Gallina 9.50-5.76 to reach Tahiti Pro semi-final",
@@ -254,6 +252,11 @@
       "id": "live-20260722-bnei-eilat-youth-b-champions",
       "title": "Bnei Eilat's Youth B Side Go Unbeaten to Win Southern District Title",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-20260714-basketball-coaches-registration",
+      "title": "Israeli basketball coaches demand freeze on registration overhaul",
+      "error": "image download 429 after retries"
     },
     {
       "id": "live-2026-08-01-kaufman-gorbenko-2028-olympic-plan",

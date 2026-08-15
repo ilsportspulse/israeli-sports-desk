@@ -146,21 +146,21 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-15T02:20:51Z",
-    "validUntil": "2026-08-15T14:20:51Z",
+    "checkedAt": "2026-08-15T02:44:29Z",
+    "validUntil": "2026-08-15T14:44:29Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 629,
+        "maxAgeHours": 630,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260815-baeten-maccabi-tel-aviv-talks",
+        "articleId": "live-2026-08-15-maccabi-tel-aviv-thibo-baeten-transfer-talks",
         "maxAgeHours": 48,
         "requires": []
       },
@@ -174,14 +174,14 @@
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-15-bezos-liverpool-stake",
+        "articleId": "live-20260815-bezos-liverpool-stake",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 647,
+        "maxAgeHours": 648,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-14-finlay-tarling-cyclist-dies-volta-a-portugal",
+        "articleId": "live-20260815-ferran-torres-psg-monsters-attack",
         "maxAgeHours": 36,
         "requires": []
       }
