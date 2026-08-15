@@ -1,22 +1,22 @@
 {
   "selections": [
     {
-      "articleId": "live-20260815-israel-gymnastics-17th-europeans-zagreb",
-      "article": "Israel's gymnastics team finishes 17th in Zagreb, misses out on Worlds berth",
-      "file": "File:2022-08-14 European Championships 2022 – Artistic Gymnastics Women's Apparatus Final Vault by Sandro Halank–001.jpg",
+      "articleId": "live-20260815-alvarez-denies-atletico-apology",
+      "article": "Álvarez denies apologising to Atlético teammates, demands urgent meeting with club chiefs",
+      "file": "File:Julián Álvarez (footballer) 2023.jpg",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "articleId": "live-20260815-katowice-fans-nazi-salute-hapoel-tel-aviv",
+      "article": "Katowice fans give Nazi salute after Hapoel Tel Aviv reach Conference League play-offs with 3-2 aggregate win",
+      "file": "File:GKS Katowice Stadium, Poland (28567613461).jpg",
+      "license": "CC0"
+    },
+    {
+      "articleId": "live-2026-08-15-fabrizio-romano-transfer-empire",
+      "article": "How Fabrizio Romano's transfer-news empire is coming apart",
+      "file": "File:Fabrizio Romano 2025.jpg",
       "license": "CC BY-SA 4.0"
-    },
-    {
-      "articleId": "live-20260815-munits-seventh-rhythmic-gymnastics-worlds",
-      "article": "Munits finishes seventh in all-around final at rhythmic gymnastics Worlds",
-      "file": "File:Daniela Munits (ISR) 2024.jpg",
-      "license": "CC BY 4.0"
-    },
-    {
-      "articleId": "live-2026-08-15-doncic-child-support-dismissed",
-      "article": "Court dismisses child support case against Luka Dončić after stormy hearing",
-      "file": "File:Luka Doncic.jpg",
-      "license": "CC BY 2.0"
     },
     {
       "articleId": "live-2026-08-13-adva-cohen-steeplechase-10th",
@@ -43,18 +43,20 @@
       "license": "CC BY 3.0 br"
     },
     {
-      "articleId": "live-20260815-gorbenko-tops-200im-heats-paris",
-      "article": "Gorbenko swims fastest in 200m medley heats to lead Israel into European final",
-      "file": "File:ZivKalontarov-0133.jpg",
+      "articleId": "live-20260714-basketball-coaches-registration",
+      "article": "Israeli basketball coaches demand freeze on registration overhaul",
+      "query": "Israel basketball coach team",
+      "file": "File:Oded Katash Hapoel Eilat.jpg",
       "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-2026-08-15-maccabi-tel-aviv-thibo-baeten-transfer-talks",
+      "article": "Maccabi Tel Aviv in talks for Go Ahead Eagles winger who wants the move",
+      "file": "File:Jay Idzes - Go Ahead Eagles - FC Volendam - 52915157035 (cropped, 2023).jpg",
+      "license": "CC BY 2.0"
     }
   ],
   "failures": [
-    {
-      "id": "live-2026-08-15-fabrizio-romano-transfer-empire",
-      "title": "How Fabrizio Romano's transfer-news empire is coming apart",
-      "error": "image download 429 after retries"
-    },
     {
       "id": "live-2026-08-13-anat-lelior-tahiti-pro-qf",
       "title": "Lelior beats Gallina 9.50-5.76 to reach Tahiti Pro semi-final",
@@ -239,11 +241,6 @@
       "id": "live-20260722-bnei-eilat-youth-b-champions",
       "title": "Bnei Eilat's Youth B Side Go Unbeaten to Win Southern District Title",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
-    },
-    {
-      "id": "live-20260714-basketball-coaches-registration",
-      "title": "Israeli basketball coaches demand freeze on registration overhaul",
-      "error": "image download 429 after retries"
     },
     {
       "id": "live-2026-08-01-kaufman-gorbenko-2028-olympic-plan",

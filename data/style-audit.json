@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T05:08:56.600Z",
+  "generatedAt": "2026-08-15T06:03:31.570Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 976,
+    "publishedArticles": 978,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 419,
-      "average": 424.2
+      "average": 424
     },
     "paragraphDistribution": {
       "3": 35,
       "4": 6,
       "5": 10,
       "6": 47,
-      "7": 138,
-      "8": 284,
+      "7": 139,
+      "8": 285,
       "9": 229,
       "10": 163,
       "11": 41,
@@ -3874,6 +3874,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260815-alvarez-denies-atletico-apology",
+      "slug": "julian-alvarez-denies-atletico-apology-demands-meeting",
+      "title": "Álvarez denies apologising to Atlético teammates, demands urgent meeting with club chiefs",
+      "kind": "news",
+      "words": 318,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 64,
+        "average": 45.4
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 70,
+        "average": 31.8
+      },
+      "lexicalDiversity": 0.591,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260815-katowice-fans-nazi-salute-hapoel-tel-aviv",
+      "slug": "katowice-fans-nazi-salute-hapoel-tel-aviv-fans-uefa-review",
+      "title": "Katowice fans give Nazi salute after Hapoel Tel Aviv reach Conference League play-offs with 3-2 aggregate win",
+      "kind": "news",
+      "words": 361,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 39,
+        "longest": 65,
+        "average": 45.1
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 46,
+        "average": 27.8
+      },
+      "lexicalDiversity": 0.598,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260815-israel-gymnastics-17th-europeans-zagreb",
       "slug": "israel-artistic-gymnastics-team-17th-european-championships-zagreb",

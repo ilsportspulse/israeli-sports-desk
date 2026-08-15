@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T05:08:56.061Z",
+  "generatedAt": "2026-08-15T06:03:31.015Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,12 +17,12 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1371,
-    "publishedBefore": 976,
-    "cleanPublished": 968,
+    "totalArticles": 1373,
+    "publishedBefore": 978,
+    "cleanPublished": 970,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 976,
+    "publishedAfter": 978,
     "reviewAfter": 395
   },
   "blockedPublished": [
@@ -157,6 +157,20 @@
   ],
   "warnings": [
     {
+      "id": "live-20260815-alvarez-denies-atletico-apology",
+      "slug": "julian-alvarez-denies-atletico-apology-demands-meeting",
+      "title": "Álvarez denies apologising to Atlético teammates, demands urgent meeting with club chiefs",
+      "statusBefore": "published",
+      "words": 318,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
       "id": "live-20260815-israel-gymnastics-17th-europeans-zagreb",
       "slug": "israel-artistic-gymnastics-team-17th-european-championships-zagreb",
       "title": "Israel's gymnastics team finishes 17th in Zagreb, misses out on Worlds berth",
@@ -195,7 +209,8 @@
       "verificationSources": 5,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -13241,6 +13256,20 @@
       ]
     },
     {
+      "id": "live-2026-08-15-maccabi-tel-aviv-thibo-baeten-transfer-talks",
+      "slug": "maccabi-tel-aviv-thibo-baeten-transfer-talks",
+      "title": "Maccabi Tel Aviv in talks for Go Ahead Eagles winger who wants the move",
+      "statusBefore": "published",
+      "words": 337,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-20260815-bezos-liverpool-stake",
       "slug": "bezos-led-consortium-buys-third-of-liverpool",
       "title": "Bezos-led investor group agrees deal for a third of Liverpool",
@@ -13284,6 +13313,32 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-20260815-alvarez-denies-atletico-apology",
+      "slug": "julian-alvarez-denies-atletico-apology-demands-meeting",
+      "title": "Álvarez denies apologising to Atlético teammates, demands urgent meeting with club chiefs",
+      "statusBefore": "published",
+      "words": 318,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-20260815-katowice-fans-nazi-salute-hapoel-tel-aviv",
+      "slug": "katowice-fans-nazi-salute-hapoel-tel-aviv-fans-uefa-review",
+      "title": "Katowice fans give Nazi salute after Hapoel Tel Aviv reach Conference League play-offs with 3-2 aggregate win",
+      "statusBefore": "published",
+      "words": 362,
+      "paragraphs": 8,
+      "facts": 5,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-20260815-israel-gymnastics-17th-europeans-zagreb",
       "slug": "israel-artistic-gymnastics-team-17th-european-championships-zagreb",
@@ -26327,7 +26382,9 @@
       "facts": 7,
       "verificationSources": 2,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-20260815-bezos-liverpool-stake",
