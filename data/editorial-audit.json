@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T21:47:14.695Z",
+  "generatedAt": "2026-08-15T22:22:29.746Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1415,
-    "publishedBefore": 1002,
-    "cleanPublished": 994,
+    "totalArticles": 1419,
+    "publishedBefore": 1004,
+    "cleanPublished": 996,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 1002,
-    "reviewAfter": 413
+    "publishedAfter": 1004,
+    "reviewAfter": 415
   },
   "blockedPublished": [
     {
@@ -156,6 +156,50 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-20260815-liga-naarim-a-round1-maccabi-ta-derby",
+      "slug": "maccabi-tel-aviv-hapoel-tel-aviv-3-0-youth-derby-liga-naarim-a-round-1",
+      "title": "Maccabi Tel Aviv thrash Hapoel Tel Aviv 3-0 as Liga Naarim A season kicks off",
+      "statusBefore": "review",
+      "words": 315,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-15-tirante-stuns-djokovic-cincinnati",
+      "slug": "tirante-stuns-djokovic-cincinnati-second-round",
+      "title": "Tirante stuns Djokovic 2-6, 6-4, 6-4 to reach Cincinnati third round",
+      "statusBefore": "published",
+      "words": 464,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-15-cf-montreal-bans-two-fans-turgeman-antisemitism",
+      "slug": "cf-montreal-bans-two-fans-antisemitic-abuse-turgeman",
+      "title": "CF Montreal bans two fans over antisemitic abuse of Dor Turgeman",
+      "statusBefore": "published",
+      "words": 352,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260815-alaves-getafe-3-0-laliga-opener",
       "slug": "alaves-getafe-red-card-mariano-diaz-la-liga-opener",
@@ -13797,6 +13841,46 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-2026-08-15-yaakov-shahar-anan-khalaili-pride",
+      "slug": "yaakov-shahar-anan-khalaili-pride-maccabi-haifa",
+      "title": "Yaakov Shahar: Anan Khalaili is a great pride for Maccabi Haifa",
+      "statusBefore": "published",
+      "words": 369,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-15-tirante-stuns-djokovic-cincinnati",
+      "slug": "tirante-stuns-djokovic-cincinnati-second-round",
+      "title": "Tirante stuns Djokovic 2-6, 6-4, 6-4 to reach Cincinnati third round",
+      "statusBefore": "published",
+      "words": 464,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-15-cf-montreal-bans-two-fans-turgeman-antisemitism",
+      "slug": "cf-montreal-bans-two-fans-antisemitic-abuse-turgeman",
+      "title": "CF Montreal bans two fans over antisemitic abuse of Dor Turgeman",
+      "statusBefore": "published",
+      "words": 352,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-20260815-liebmann-1500m-freestyle-world-record",
       "slug": "johannes-liebmann-1500m-freestyle-world-record-paris-2026",
       "title": "German teenager Johannes Liebmann shatters 1500m freestyle world record in 14:26.79",
@@ -27227,18 +27311,6 @@
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
-    },
-    {
-      "id": "live-2026-08-15-liebmann-1500m-world-record",
-      "slug": "johannes-liebmann-1500m-freestyle-world-record",
-      "title": "Johannes Liebmann shatters 1500m freestyle world record to complete Paris distance double",
-      "statusBefore": "published",
-      "words": 390,
-      "paragraphs": 9,
-      "facts": 6,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": []
     }
   ]
 }

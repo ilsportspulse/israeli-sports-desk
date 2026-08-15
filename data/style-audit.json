@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T21:47:15.279Z",
+  "generatedAt": "2026-08-15T22:22:30.324Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,21 +11,21 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1002,
+    "publishedArticles": 1004,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 418,
-      "average": 423.2
+      "average": 423.1
     },
     "paragraphDistribution": {
       "3": 35,
       "4": 6,
       "5": 10,
       "6": 48,
-      "7": 145,
-      "8": 291,
-      "9": 238,
+      "7": 146,
+      "8": 293,
+      "9": 237,
       "10": 165,
       "11": 41,
       "12": 13,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.29,
+    "dominantParagraphShare": 0.292,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 48,
     "analysisBelowTarget": 9,
@@ -3943,6 +3943,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-15-yaakov-shahar-anan-khalaili-pride",
+      "slug": "yaakov-shahar-anan-khalaili-pride-maccabi-haifa",
+      "title": "Yaakov Shahar: Anan Khalaili is a great pride for Maccabi Haifa",
+      "kind": "article",
+      "words": 368,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 42,
+        "longest": 71,
+        "average": 52.6
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 121,
+        "average": 61.3
+      },
+      "lexicalDiversity": 0.587,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-15-tirante-stuns-djokovic-cincinnati",
+      "slug": "tirante-stuns-djokovic-cincinnati-second-round",
+      "title": "Tirante stuns Djokovic 2-6, 6-4, 6-4 to reach Cincinnati third round",
+      "kind": "article",
+      "words": 463,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 68,
+        "average": 57.9
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 49,
+        "average": 28.9
+      },
+      "lexicalDiversity": 0.566,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-15-cf-montreal-bans-two-fans-turgeman-antisemitism",
+      "slug": "cf-montreal-bans-two-fans-antisemitic-abuse-turgeman",
+      "title": "CF Montreal bans two fans over antisemitic abuse of Dor Turgeman",
+      "kind": "news",
+      "words": 353,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 25,
+        "longest": 63,
+        "average": 44.1
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 52,
+        "average": 32.1
+      },
+      "lexicalDiversity": 0.612,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-20260815-liebmann-1500m-freestyle-world-record",
       "slug": "johannes-liebmann-1500m-freestyle-world-record-paris-2026",
@@ -21412,27 +21475,6 @@
         "average": 28.1
       },
       "lexicalDiversity": 0.628,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-15-liebmann-1500m-world-record",
-      "slug": "johannes-liebmann-1500m-freestyle-world-record",
-      "title": "Johannes Liebmann shatters 1500m freestyle world record to complete Paris distance double",
-      "kind": "news",
-      "words": 400,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 29,
-        "longest": 58,
-        "average": 44.4
-      },
-      "sentenceWords": {
-        "shortest": 5,
-        "longest": 73,
-        "average": 40
-      },
-      "lexicalDiversity": 0.543,
       "publisherAttributions": 0,
       "flags": []
     }

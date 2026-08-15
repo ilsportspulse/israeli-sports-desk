@@ -1,5 +1,59 @@
 [
   {
+    "ts": "2026-08-15T22:08:12.952Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 3,
+    "review": 1,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "cf-montreal-bans-two-fans-antisemitic-abuse-turgeman",
+        "title": "CF Montreal bans two fans over antisemitic abuse of Dor Turgeman",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "tirante-stuns-djokovic-cincinnati-second-round",
+        "title": "Tirante stuns Djokovic 2-6, 6-4, 6-4 to reach Cincinnati third round",
+        "confidence": 0.9,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "maccabi-tel-aviv-hapoel-tel-aviv-3-0-youth-derby-liga-naarim-a-round-1",
+        "title": "Maccabi Tel Aviv thrash Hapoel Tel Aviv 3-0 as Liga Naarim A season kicks off",
+        "confidence": 0.72,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Single-source (ONE); this is a youth/academy (2010 age-group) round rather than senior first-team football, and Hebrew-to-English transliteration of several player names could not be cross-checked against a second registry."
+      },
+      {
+        "slug": "ironi-tiberias-eden-shamir-daniel-golani-transfer-targets",
+        "title": "Ironi Tiberias target Shamir and Golani as rebuild continues after Morgan deal",
+        "decision": "duplicate",
+        "reason": "same event as eitan-tibi-debut-maccabi-petah-tikva-tiberias-toto-cup"
+      },
+      {
+        "slug": "yaakov-shahar-anan-khalaili-pride-maccabi-haifa",
+        "title": "Yaakov Shahar: Anan Khalaili is a great pride for Maccabi Haifa",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-08-15T19:53:23.840Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -2885,94 +2939,6 @@
         "slug": "real-madrid-vinicius-junior-contract-gap-renewal-talks",
         "title": "Real Madrid and Vinícius Júnior remain far apart on new contract terms, report says",
         "decision": "duplicate"
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-03T23:55:40.625Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 4,
-    "published": 0,
-    "review": 0,
-    "skipped": 4,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "tamir-blatt-returns-hapoel-tel-aviv-nine-years",
-        "title": "Tamir Blatt returns to Hapoel Tel Aviv after nine years",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "pochettino-signs-new-usmnt-contract-through-2030",
-        "title": "Pochettino signs new contract to stay on as USMNT coach through 2030",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "diomande-transfer-delay-image-rights-dispute",
-        "title": "Real Madrid's image-rights rule is the real reason Diomande's move is stuck",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "barcelona-rodri-milan-leao-fenerbahce",
-        "title": "Barcelona join the Rodri race as Real Madrid wait, while Milan slam door on Fenerbahçe's Leão loan bid",
-        "decision": "duplicate",
-        "reason": "same event as rodri-transfer-stalled-real-madrid-manchester-city-price-tag"
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-15T20:16:04.755Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 2,
-    "review": 1,
-    "skipped": 2,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "kozuk-apologizes-hapoel-beer-sheva-toto-cup-mauling",
-        "title": "Hapoel Haifa 4-0 Hapoel Beer Sheva: furious Kozuk apologises to fans after disgraceful Toto Cup display",
-        "confidence": 0.82,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Coach's surname is transliterated variously across English-language sources (Kozuk/Kozuch/Kojok); Kozuk used here as the most common English rendering."
-      },
-      {
-        "slug": "youth-a-premier-league-round-one-held-duplicate",
-        "title": "Youth A Premier League round one: Haifa, Beer Sheva, Tel Aviv and Hadera results held pending verification",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "alaves-getafe-3-0-la-liga-opener",
-        "title": "Alavés 3-0 Getafe: 10-man visitors sunk by Femenía red card on La Liga's opening day",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "ironi-tiberias-eden-shamir-daniel-golani-transfer-targets",
-        "title": "Ironi Tiberias chase Eden Shamir and Daniel Golani after landing Ziv Morgan",
-        "decision": "duplicate",
-        "reason": "same event as eitan-tibi-debut-maccabi-petah-tikva-tiberias-toto-cup"
-      },
-      {
-        "slug": "johannes-liebmann-1500m-freestyle-world-record",
-        "title": "Johannes Liebmann shatters 1500m freestyle world record to complete Paris distance double",
-        "confidence": 0.9,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
       }
     ]
   }
