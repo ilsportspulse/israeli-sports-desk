@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T02:44:30.044Z",
+  "generatedAt": "2026-08-15T02:45:54.776Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 975,
+    "publishedArticles": 973,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 419,
-      "average": 424.3
+      "median": 420,
+      "average": 424.5
     },
     "paragraphDistribution": {
       "3": 35,
@@ -24,9 +24,9 @@
       "5": 10,
       "6": 47,
       "7": 138,
-      "8": 283,
+      "8": 280,
       "9": 229,
-      "10": 163,
+      "10": 164,
       "11": 41,
       "12": 13,
       "13": 4,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.29,
+    "dominantParagraphShare": 0.288,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 47,
     "analysisBelowTarget": 9,
@@ -3875,87 +3875,45 @@
   ],
   "clean": [
     {
-      "id": "live-2026-08-15-maccabi-tel-aviv-thibo-baeten-transfer-talks",
-      "slug": "maccabi-tel-aviv-thibo-baeten-transfer-talks",
-      "title": "Maccabi Tel Aviv in talks for Go Ahead Eagles winger who wants the move",
-      "kind": "news",
-      "words": 335,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 33,
-        "longest": 60,
-        "average": 41.9
-      },
-      "sentenceWords": {
-        "shortest": 9,
-        "longest": 45,
-        "average": 30.5
-      },
-      "lexicalDiversity": 0.612,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260815-bezos-liverpool-stake",
-      "slug": "bezos-led-consortium-buys-third-of-liverpool",
-      "title": "Bezos-led investor group agrees deal for a third of Liverpool",
-      "kind": "news",
-      "words": 370,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 37,
-        "longest": 61,
-        "average": 46.3
-      },
-      "sentenceWords": {
-        "shortest": 11,
-        "longest": 43,
-        "average": 24.7
-      },
-      "lexicalDiversity": 0.57,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260815-gorbenko-tops-200im-heats-paris",
-      "slug": "gorbenko-tops-200m-medley-heats-european-championships-paris",
-      "title": "Gorbenko swims fastest in 200m medley heats to lead Israel into European final",
-      "kind": "article",
-      "words": 340,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 30,
-        "longest": 53,
-        "average": 42.5
-      },
-      "sentenceWords": {
-        "shortest": 8,
-        "longest": 45,
-        "average": 30.9
-      },
-      "lexicalDiversity": 0.609,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260815-ferran-torres-psg-monsters-attack",
-      "slug": "ferran-torres-psg-monsters-attack-warning",
-      "title": "Ferran Torres faces 'real monsters' in the fight for a place at Paris Saint-Germain",
-      "kind": "article",
-      "words": 455,
+      "id": "live-20260815-baeten-maccabi-tel-aviv-talks",
+      "slug": "maccabi-tel-aviv-baeten-transfer-talks",
+      "title": "Maccabi Tel Aviv open talks to sign Belgian winger Thibo Baeten",
+      "kind": "transfer",
+      "words": 338,
       "paragraphs": 9,
       "paragraphWords": {
-        "shortest": 29,
-        "longest": 76,
-        "average": 50.6
+        "shortest": 31,
+        "longest": 47,
+        "average": 37.6
       },
       "sentenceWords": {
         "shortest": 6,
-        "longest": 51,
-        "average": 32.5
+        "longest": 41,
+        "average": 28.2
       },
       "lexicalDiversity": 0.604,
       "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-15-bezos-liverpool-stake",
+      "slug": "bezos-consortium-buys-third-of-liverpool",
+      "title": "Bezos-backed consortium agrees deal to buy a third of Liverpool",
+      "kind": "news",
+      "words": 500,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 32,
+        "longest": 69,
+        "average": 50
+      },
+      "sentenceWords": {
+        "shortest": 14,
+        "longest": 70,
+        "average": 41.7
+      },
+      "lexicalDiversity": 0.576,
+      "publisherAttributions": 0,
       "flags": []
     },
     {

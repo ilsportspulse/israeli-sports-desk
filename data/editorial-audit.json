@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T02:44:29.478Z",
+  "generatedAt": "2026-08-15T02:45:54.262Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1364,
-    "publishedBefore": 975,
-    "cleanPublished": 967,
+    "totalArticles": 1363,
+    "publishedBefore": 973,
+    "cleanPublished": 965,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 975,
-    "reviewAfter": 389
+    "publishedAfter": 973,
+    "reviewAfter": 390
   },
   "blockedPublished": [
     {
@@ -157,41 +157,29 @@
   ],
   "warnings": [
     {
-      "id": "live-2026-08-15-maccabi-tel-aviv-thibo-baeten-transfer-talks",
-      "slug": "maccabi-tel-aviv-thibo-baeten-transfer-talks",
-      "title": "Maccabi Tel Aviv in talks for Go Ahead Eagles winger who wants the move",
+      "id": "live-20260815-baeten-maccabi-tel-aviv-talks",
+      "slug": "maccabi-tel-aviv-baeten-transfer-talks",
+      "title": "Maccabi Tel Aviv open talks to sign Belgian winger Thibo Baeten",
       "statusBefore": "published",
       "words": 337,
-      "paragraphs": 8,
-      "facts": 7,
-      "verificationSources": 2,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-20260815-bezos-liverpool-stake",
-      "slug": "bezos-led-consortium-buys-third-of-liverpool",
-      "title": "Bezos-led investor group agrees deal for a third of Liverpool",
-      "statusBefore": "published",
-      "words": 369,
-      "paragraphs": 8,
-      "facts": 8,
-      "verificationSources": 5,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-20260815-ferran-torres-psg-monsters-attack",
-      "slug": "ferran-torres-psg-monsters-attack-warning",
-      "title": "Ferran Torres faces 'real monsters' in the fight for a place at Paris Saint-Germain",
-      "statusBefore": "published",
-      "words": 459,
       "paragraphs": 9,
       "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-15-red-star-belgrade-squad-clearout",
+      "slug": "red-star-belgrade-squad-clearout-hapoel-beer-sheva-upset",
+      "title": "Hapoel Beer Sheva's Champions League shock forces a mass clearout at Red Star Belgrade",
+      "statusBefore": "review",
+      "words": 544,
+      "paragraphs": 10,
+      "facts": 7,
       "verificationSources": 5,
       "blockers": [],
       "warnings": [
@@ -13213,58 +13201,32 @@
   ],
   "cleanPublished": [
     {
-      "id": "live-2026-08-15-maccabi-tel-aviv-thibo-baeten-transfer-talks",
-      "slug": "maccabi-tel-aviv-thibo-baeten-transfer-talks",
-      "title": "Maccabi Tel Aviv in talks for Go Ahead Eagles winger who wants the move",
+      "id": "live-20260815-baeten-maccabi-tel-aviv-talks",
+      "slug": "maccabi-tel-aviv-baeten-transfer-talks",
+      "title": "Maccabi Tel Aviv open talks to sign Belgian winger Thibo Baeten",
       "statusBefore": "published",
       "words": 337,
-      "paragraphs": 8,
-      "facts": 7,
-      "verificationSources": 2,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-20260815-bezos-liverpool-stake",
-      "slug": "bezos-led-consortium-buys-third-of-liverpool",
-      "title": "Bezos-led investor group agrees deal for a third of Liverpool",
-      "statusBefore": "published",
-      "words": 369,
-      "paragraphs": 8,
-      "facts": 8,
-      "verificationSources": 5,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-20260815-gorbenko-tops-200im-heats-paris",
-      "slug": "gorbenko-tops-200m-medley-heats-european-championships-paris",
-      "title": "Gorbenko swims fastest in 200m medley heats to lead Israel into European final",
-      "statusBefore": "published",
-      "words": 332,
-      "paragraphs": 8,
-      "facts": 5,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": []
-    },
-    {
-      "id": "live-20260815-ferran-torres-psg-monsters-attack",
-      "slug": "ferran-torres-psg-monsters-attack-warning",
-      "title": "Ferran Torres faces 'real monsters' in the fight for a place at Paris Saint-Germain",
-      "statusBefore": "published",
-      "words": 459,
       "paragraphs": 9,
       "facts": 6,
-      "verificationSources": 5,
+      "verificationSources": 3,
       "blockers": [],
       "warnings": [
-        "media:no-action-or-competition-context-detected"
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
       ]
+    },
+    {
+      "id": "live-2026-08-15-bezos-liverpool-stake",
+      "slug": "bezos-consortium-buys-third-of-liverpool",
+      "title": "Bezos-backed consortium agrees deal to buy a third of Liverpool",
+      "statusBefore": "published",
+      "words": 502,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
     },
     {
       "id": "live-2026-08-14-finlay-tarling-cyclist-dies-volta-a-portugal",

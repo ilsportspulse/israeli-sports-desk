@@ -146,8 +146,8 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-15T02:44:29Z",
-    "validUntil": "2026-08-15T14:44:29Z",
+    "checkedAt": "2026-08-15T02:45:53Z",
+    "validUntil": "2026-08-15T14:45:53Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
@@ -160,21 +160,21 @@
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-15-maccabi-tel-aviv-thibo-baeten-transfer-talks",
+        "articleId": "live-20260815-baeten-maccabi-tel-aviv-talks",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 637,
+        "maxAgeHours": 638,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260815-bezos-liverpool-stake",
+        "articleId": "live-2026-08-15-bezos-liverpool-stake",
         "maxAgeHours": 35,
         "requires": []
       },
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260815-ferran-torres-psg-monsters-attack",
+        "articleId": "live-2026-08-14-finlay-tarling-cyclist-dies-volta-a-portugal",
         "maxAgeHours": 36,
         "requires": []
       }
