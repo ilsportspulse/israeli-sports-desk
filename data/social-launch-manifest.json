@@ -146,21 +146,21 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-15T17:16:35Z",
-    "validUntil": "2026-08-16T05:16:35Z",
+    "checkedAt": "2026-08-15T17:39:52Z",
+    "validUntil": "2026-08-16T05:39:52Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 644,
+        "maxAgeHours": 645,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-15-tibi-debut-tiberias-petah-tikva",
+        "articleId": "live-2026-08-15-daniel-peretz-best-save-percentage-england",
         "maxAgeHours": 48,
         "requires": []
       },
@@ -174,14 +174,14 @@
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260815-pedri-barcelona-fitness-plan",
+        "articleId": "live-2026-08-15-rivaldo-soares-claudell-harris-hapoel-holon",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 662,
+        "maxAgeHours": 663,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260815-barcelona-third-bid-rodri",
+        "articleId": "live-20260815-pedri-barcelona-fitness-plan",
         "maxAgeHours": 36,
         "requires": []
       }
