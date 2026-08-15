@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T20:30:53.923Z",
+  "generatedAt": "2026-08-15T20:44:52.564Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1412,
-    "publishedBefore": 1001,
-    "cleanPublished": 993,
+    "totalArticles": 1415,
+    "publishedBefore": 1002,
+    "cleanPublished": 994,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 1001,
-    "reviewAfter": 411
+    "publishedAfter": 1002,
+    "reviewAfter": 413
   },
   "blockedPublished": [
     {
@@ -13764,6 +13764,35 @@
         "media:no-action-or-competition-context-detected",
         "voice:publisher-attribution-heavy:3"
       ]
+    },
+    {
+      "id": "live-2026-08-15-alaves-getafe-3-0-la-liga-opener",
+      "slug": "alaves-getafe-3-0-la-liga-opener",
+      "title": "Alavés 3-0 Getafe: 10-man visitors sunk by Femenía red card on La Liga's opening day",
+      "statusBefore": "review",
+      "words": 262,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260815-kozuk-apologizes-toto-cup-mauling",
+      "slug": "kozuk-apologizes-hapoel-beer-sheva-toto-cup-mauling",
+      "title": "Hapoel Haifa 4-0 Hapoel Beer Sheva: furious Kozuk apologises to fans after disgraceful Toto Cup display",
+      "statusBefore": "review",
+      "words": 379,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
     }
   ],
   "cleanPublished": [
@@ -27198,6 +27227,18 @@
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
+    },
+    {
+      "id": "live-2026-08-15-liebmann-1500m-world-record",
+      "slug": "johannes-liebmann-1500m-freestyle-world-record",
+      "title": "Johannes Liebmann shatters 1500m freestyle world record to complete Paris distance double",
+      "statusBefore": "published",
+      "words": 390,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
     }
   ]
 }

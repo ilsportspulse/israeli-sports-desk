@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T20:30:54.313Z",
+  "generatedAt": "2026-08-15T20:44:53.120Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,7 +11,7 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1001,
+    "publishedArticles": 1002,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
@@ -25,7 +25,7 @@
       "6": 48,
       "7": 145,
       "8": 291,
-      "9": 237,
+      "9": 238,
       "10": 165,
       "11": 41,
       "12": 13,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.291,
+    "dominantParagraphShare": 0.29,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 48,
     "analysisBelowTarget": 9,
@@ -21412,6 +21412,27 @@
         "average": 28.1
       },
       "lexicalDiversity": 0.628,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-15-liebmann-1500m-world-record",
+      "slug": "johannes-liebmann-1500m-freestyle-world-record",
+      "title": "Johannes Liebmann shatters 1500m freestyle world record to complete Paris distance double",
+      "kind": "news",
+      "words": 400,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 29,
+        "longest": 58,
+        "average": 44.4
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 73,
+        "average": 40
+      },
+      "lexicalDiversity": 0.543,
       "publisherAttributions": 0,
       "flags": []
     }
