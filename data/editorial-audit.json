@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T17:41:22.771Z",
+  "generatedAt": "2026-08-15T17:45:09.528Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1403,
-    "publishedBefore": 996,
-    "cleanPublished": 988,
+    "totalArticles": 1407,
+    "publishedBefore": 998,
+    "cleanPublished": 990,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 996,
-    "reviewAfter": 407
+    "publishedAfter": 998,
+    "reviewAfter": 409
   },
   "blockedPublished": [
     {
@@ -13645,6 +13645,52 @@
         "media:no-action-or-competition-context-detected",
         "voice:publisher-attribution-heavy:2"
       ]
+    },
+    {
+      "id": "live-2026-08-15-daniel-peretz-best-save-percentage-england",
+      "slug": "daniel-peretz-best-save-percentage-england-southampton",
+      "title": "Daniel Peretz posts the best save percentage in English professional football",
+      "statusBefore": "published",
+      "words": 313,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-15-rivaldo-soares-claudell-harris-hapoel-holon",
+      "slug": "rivaldo-soares-claudell-harris-jr-land-hapoel-holon",
+      "title": "Rivaldo Soares and Claudell Harris Jr. touch down as Hapoel Holon's rebuild gathers pace",
+      "statusBefore": "published",
+      "words": 302,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-15-tiberias-petah-tikva-toto-cup-halftime-hold",
+      "slug": "ironi-tiberias-maccabi-petah-tikva-toto-cup-ranking-clash",
+      "title": "Ironi Tiberias and Maccabi Petah Tikva scoreless at the break in Toto Cup ranking clash",
+      "statusBefore": "review",
+      "words": 153,
+      "paragraphs": 5,
+      "facts": 5,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:3"
+      ]
     }
   ],
   "cleanPublished": [
@@ -27008,6 +27054,36 @@
       "verificationSources": 1,
       "blockers": [],
       "warnings": []
+    },
+    {
+      "id": "live-2026-08-15-daniel-peretz-best-save-percentage-england",
+      "slug": "daniel-peretz-best-save-percentage-england-southampton",
+      "title": "Daniel Peretz posts the best save percentage in English professional football",
+      "statusBefore": "published",
+      "words": 313,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-15-rivaldo-soares-claudell-harris-hapoel-holon",
+      "slug": "rivaldo-soares-claudell-harris-jr-land-hapoel-holon",
+      "title": "Rivaldo Soares and Claudell Harris Jr. touch down as Hapoel Holon's rebuild gathers pace",
+      "statusBefore": "published",
+      "words": 302,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     }
   ]
 }

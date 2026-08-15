@@ -146,8 +146,8 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-15T17:41:22Z",
-    "validUntil": "2026-08-16T05:41:22Z",
+    "checkedAt": "2026-08-15T17:45:09Z",
+    "validUntil": "2026-08-16T05:45:09Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
@@ -160,21 +160,21 @@
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-15-tibi-debut-tiberias-petah-tikva",
+        "articleId": "live-2026-08-15-daniel-peretz-best-save-percentage-england",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 652,
+        "maxAgeHours": 653,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260815-pedri-barcelona-fitness-plan",
+        "articleId": "live-2026-08-15-rivaldo-soares-claudell-harris-hapoel-holon",
         "maxAgeHours": 35,
         "requires": []
       },
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260815-barcelona-third-bid-rodri",
+        "articleId": "live-2026-08-15-tibi-debut-tiberias-petah-tikva",
         "maxAgeHours": 36,
         "requires": []
       }
