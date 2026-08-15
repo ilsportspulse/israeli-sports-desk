@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T12:10:14.259Z",
+  "generatedAt": "2026-08-15T12:59:29.039Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,21 +11,21 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 986,
+    "publishedArticles": 990,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 419,
-      "average": 424.1
+      "average": 423.7
     },
     "paragraphDistribution": {
       "3": 35,
       "4": 6,
       "5": 10,
-      "6": 47,
-      "7": 140,
+      "6": 48,
+      "7": 141,
       "8": 289,
-      "9": 230,
+      "9": 232,
       "10": 165,
       "11": 41,
       "12": 13,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.293,
+    "dominantParagraphShare": 0.292,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 47,
+    "exactSixParagraphArticles": 48,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 167
+    "articlesWithStyleFlags": 168
   },
   "flagged": [
     {
@@ -328,6 +328,29 @@
       "flags": [
         "below-editorial-target:227/280",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-15-levy-gal-drop-11th-hasson-tiano-10th-470-worlds",
+      "slug": "levy-gal-hasson-tiano-470-world-championship-enoshima",
+      "title": "Levy and Gal slip to 11th as Hasson and Tiano climb to 10th at the 470 Worlds",
+      "kind": "news",
+      "words": 238,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 27,
+        "longest": 53,
+        "average": 39.7
+      },
+      "sentenceWords": {
+        "shortest": 17,
+        "longest": 48,
+        "average": 29.8
+      },
+      "lexicalDiversity": 0.647,
+      "publisherAttributions": 1,
+      "flags": [
+        "below-editorial-target:238/280"
       ]
     },
     {
@@ -3897,6 +3920,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-15-ukraine-amateur-tennis-legend-kurbanov-killed-war",
+      "slug": "ukraine-amateur-tennis-legend-slava-kurbanov-killed-war",
+      "title": "Ukrainian amateur tennis 'legend' Slava Kurbanov killed fighting on the front",
+      "kind": "article",
+      "words": 307,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 28,
+        "longest": 62,
+        "average": 43.9
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 63,
+        "average": 38.4
+      },
+      "lexicalDiversity": 0.606,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-20260815-ferran-torres-completes-move-to-psg",
       "slug": "ferran-torres-completes-move-to-paris-saint-germain",
@@ -21093,6 +21137,48 @@
         "average": 25.7
       },
       "lexicalDiversity": 0.545,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-15-maccabi-loan-nicolaescu-addo",
+      "slug": "maccabi-tel-aviv-loan-talks-nicolaescu-addo",
+      "title": "Maccabi Tel Aviv advance loan talks for Nicolaescu and Henry Addo",
+      "kind": "news",
+      "words": 415,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 28,
+        "longest": 63,
+        "average": 46.1
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 55,
+        "average": 29.6
+      },
+      "lexicalDiversity": 0.617,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260815-kiryat-shmona-youth-captain-ashri-dror",
+      "slug": "kiryat-shmona-youth-captain-ashri-dror-new-season",
+      "title": "Ashri Dror named youth captain as Kiryat Shmona's academy eyes fresh start",
+      "kind": "article",
+      "words": 335,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 51,
+        "average": 37.2
+      },
+      "sentenceWords": {
+        "shortest": 27,
+        "longest": 71,
+        "average": 41.9
+      },
+      "lexicalDiversity": 0.603,
       "publisherAttributions": 0,
       "flags": []
     }

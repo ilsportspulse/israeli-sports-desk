@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T12:10:13.710Z",
+  "generatedAt": "2026-08-15T12:59:28.607Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1388,
-    "publishedBefore": 986,
-    "cleanPublished": 978,
+    "totalArticles": 1393,
+    "publishedBefore": 990,
+    "cleanPublished": 982,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 986,
-    "reviewAfter": 402
+    "publishedAfter": 990,
+    "reviewAfter": 403
   },
   "blockedPublished": [
     {
@@ -156,6 +156,20 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-2026-08-15-levy-gal-drop-11th-hasson-tiano-10th-470-worlds",
+      "slug": "levy-gal-hasson-tiano-470-world-championship-enoshima",
+      "title": "Levy and Gal slip to 11th as Hasson and Tiano climb to 10th at the 470 Worlds",
+      "statusBefore": "published",
+      "words": 238,
+      "paragraphs": 6,
+      "facts": 5,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260815-maccabi-pt-tibi-strong-lineup-tiberias",
       "slug": "maccabi-petah-tikva-eitan-tibi-strong-lineup-ironi-tiberias",
@@ -13457,9 +13471,65 @@
       "warnings": [
         "presentation:outlet-name-in-headline"
       ]
+    },
+    {
+      "id": "live-2026-08-15-aerobic-training-muscle-building",
+      "slug": "can-you-combine-aerobic-training-with-muscle-building",
+      "title": "Aerobic training and muscle building can coexist, if you get the balance right",
+      "statusBefore": "review",
+      "words": 462,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-15-maccabi-loan-nicolaescu-addo",
+      "slug": "maccabi-tel-aviv-loan-talks-nicolaescu-addo",
+      "title": "Maccabi Tel Aviv advance loan talks for Nicolaescu and Henry Addo",
+      "statusBefore": "published",
+      "words": 415,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-15-levy-gal-drop-11th-hasson-tiano-10th-470-worlds",
+      "slug": "levy-gal-hasson-tiano-470-world-championship-enoshima",
+      "title": "Levy and Gal slip to 11th as Hasson and Tiano climb to 10th at the 470 Worlds",
+      "statusBefore": "published",
+      "words": 238,
+      "paragraphs": 6,
+      "facts": 5,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-15-ukraine-amateur-tennis-legend-kurbanov-killed-war",
+      "slug": "ukraine-amateur-tennis-legend-slava-kurbanov-killed-war",
+      "title": "Ukrainian amateur tennis 'legend' Slava Kurbanov killed fighting on the front",
+      "statusBefore": "published",
+      "words": 307,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-2026-08-15-la-liga-fantasy-deadline",
       "slug": "la-liga-fantasy-registration-deadline-2026-27",
@@ -26681,6 +26751,33 @@
       "warnings": [
         "presentation:outlet-name-in-headline"
       ]
+    },
+    {
+      "id": "live-2026-08-15-maccabi-loan-nicolaescu-addo",
+      "slug": "maccabi-tel-aviv-loan-talks-nicolaescu-addo",
+      "title": "Maccabi Tel Aviv advance loan talks for Nicolaescu and Henry Addo",
+      "statusBefore": "published",
+      "words": 415,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260815-kiryat-shmona-youth-captain-ashri-dror",
+      "slug": "kiryat-shmona-youth-captain-ashri-dror-new-season",
+      "title": "Ashri Dror named youth captain as Kiryat Shmona's academy eyes fresh start",
+      "statusBefore": "published",
+      "words": 334,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": []
     }
   ]
 }
