@@ -4,7 +4,7 @@
 // dedup that any earlier step missed (or a self-push union-merge reintroduced) can
 // never hard-fail the gate and trigger a "Run failed" email. It only DEMOTES to
 // review (nothing is deleted) and strips duplicate image entries.
-import { readFile, writeFile } from "node:fs/promises";
+import { readFile, writeFile, access } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { titleSimilarity } from "./newsroom-core.mjs";
@@ -76,6 +76,14 @@ export async function healFeed() {
     const artSport = sportOf(`${a.title ?? ""} ${a.category ?? ""}`);
     const imgSport = sportOf(cap);
     if (artSport && imgSport && artSport !== imgSport) { delete media[a.id]; stripped += 1; }
+  }
+  // 3a3) Strip any image whose file is MISSING on disk — the gate does an fs.access on
+  //    every curated image, so a media entry whose download failed hard-fails it in CI.
+  for (const a of list.filter(isLive)) {
+    const m = media[a.id];
+    if (!m?.src) continue;
+    try { await access(path.join(root, "public", m.src.replace(/^\//, ""))); }
+    catch { delete media[a.id]; stripped += 1; }
   }
   // 3b) Unique non-fallback story images (src AND creditUrl) — strip the duplicate
   //    entry so that story falls back to its category visual.
