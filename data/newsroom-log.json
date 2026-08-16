@@ -1,5 +1,61 @@
 [
   {
+    "ts": "2026-08-16T23:39:56.297Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 3,
+    "review": 2,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "makhachev-dern-noquaout-ufc-330-recap",
+        "title": "Makhachev breaks UFC win-streak record, Dern retains title as Noquaout dissects UFC 330",
+        "confidence": 0.7,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Source is a short podcast-episode promo page; core UFC 330 results (Makhachev, Dern, streak record) are independently confirmed via UFC.com/ESPN/Wikipedia, but secondary discussion points (Van, Silva) reflect a summarized read of the source page rather than a verified verbatim quote, and the guest co-host's name spelling (Shokron/Shocron) is unconfirmed."
+      },
+      {
+        "slug": "david-roddy-lands-in-israel-hapoel-jerusalem",
+        "title": "David Roddy lands in Israel: \"It will take time to adjust\"",
+        "confidence": 0.88,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "maccabi-tel-aviv-continues-kanichowsky-return-talks",
+        "title": "Maccabi Tel Aviv presses on with talks to bring Gabi Kanichowsky home from Ferencvaros",
+        "confidence": 0.8,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Sporting director's name (Steven Van Herren) transliteration not independently corroborated outside Hebrew press."
+      },
+      {
+        "slug": "lens-stun-psg-trophee-des-champions",
+        "title": "Lens 1-0 PSG: Thauvin strike earns ten-man Lens a shock Trophée des Champions triumph",
+        "confidence": 0.9,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "israel-cadets-fall-turkey-72-61-group-stage-serbia-next",
+        "title": "Turkey beat Israel's cadets 72-61 as group stage closes, Serbia awaits in last 16",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-08-15T22:08:12.952Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -2902,43 +2958,6 @@
         "gate": "pass",
         "decision": "published",
         "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-04T01:53:25.857Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 4,
-    "published": 0,
-    "review": 0,
-    "skipped": 4,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "tamir-blatt-hapoel-tel-aviv-signing-duplicate-hold",
-        "title": "Tamir Blatt signs for Hapoel Tel Aviv",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "pochettino-usmnt-contract-official-through-2030",
-        "title": "Official: Pochettino signs new USMNT contract through 2030",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "new-details-emerge-what-delaying-diomande-real-madrid-move",
-        "title": "New details emerge on what's really delaying Diomande's record Real Madrid transfer",
-        "decision": "duplicate",
-        "reason": "same event as diomande-real-madrid-agent-dispute-delay"
-      },
-      {
-        "slug": "real-madrid-vinicius-junior-contract-gap-renewal-talks",
-        "title": "Real Madrid and Vinícius Júnior remain far apart on new contract terms, report says",
-        "decision": "duplicate"
       }
     ]
   }

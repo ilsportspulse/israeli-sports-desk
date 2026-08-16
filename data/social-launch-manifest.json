@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-15T23:59:50Z",
-    "validUntil": "2026-08-16T11:59:50Z",
+    "checkedAt": "2026-08-16T23:54:29Z",
+    "validUntil": "2026-08-17T11:54:29Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 651,
+        "maxAgeHours": 675,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-15-yaakov-shahar-anan-khalaili-pride",
+        "articleId": "live-2026-08-16-israel-cadets-turkey-72-61",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 659,
+        "maxAgeHours": 683,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-15-tirante-stuns-djokovic-cincinnati",
+        "articleId": "live-2026-08-16-lens-stun-psg-super-cup",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 669,
+        "maxAgeHours": 693,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-15-cf-montreal-bans-two-fans-turgeman-antisemitism",
+        "articleId": "live-2026-08-15-yaakov-shahar-anan-khalaili-pride",
         "maxAgeHours": 36,
         "requires": []
       }

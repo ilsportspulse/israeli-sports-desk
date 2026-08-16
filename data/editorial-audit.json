@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T23:59:50.560Z",
+  "generatedAt": "2026-08-16T23:54:30.119Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1419,
-    "publishedBefore": 1004,
-    "cleanPublished": 996,
+    "totalArticles": 1424,
+    "publishedBefore": 1007,
+    "cleanPublished": 999,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 1004,
-    "reviewAfter": 415
+    "publishedAfter": 1007,
+    "reviewAfter": 417
   },
   "blockedPublished": [
     {
@@ -156,6 +156,63 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-2026-08-16-israel-cadets-turkey-72-61",
+      "slug": "israel-cadets-fall-turkey-72-61-group-stage-serbia-next",
+      "title": "Turkey beat Israel's cadets 72-61 as group stage closes, Serbia awaits in last 16",
+      "statusBefore": "published",
+      "words": 286,
+      "paragraphs": 8,
+      "facts": 8,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-16-maccabi-kanichowsky-ferencvaros-talks",
+      "slug": "maccabi-tel-aviv-continues-kanichowsky-return-talks",
+      "title": "Maccabi Tel Aviv presses on with talks to bring Gabi Kanichowsky home from Ferencvaros",
+      "statusBefore": "review",
+      "words": 403,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-08-16-david-roddy-hapoel-jerusalem",
+      "slug": "david-roddy-lands-in-israel-hapoel-jerusalem",
+      "title": "David Roddy lands in Israel: \"It will take time to adjust\"",
+      "statusBefore": "published",
+      "words": 437,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-16-makhachev-dern-noquaout-ufc-330-recap",
+      "slug": "makhachev-dern-noquaout-ufc-330-recap",
+      "title": "Makhachev breaks UFC win-streak record, Dern retains title as Noquaout dissects UFC 330",
+      "statusBefore": "review",
+      "words": 384,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260815-liga-naarim-a-round1-maccabi-ta-derby",
       "slug": "maccabi-tel-aviv-hapoel-tel-aviv-3-0-youth-derby-liga-naarim-a-round-1",
@@ -13840,6 +13897,46 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-16-israel-cadets-turkey-72-61",
+      "slug": "israel-cadets-fall-turkey-72-61-group-stage-serbia-next",
+      "title": "Turkey beat Israel's cadets 72-61 as group stage closes, Serbia awaits in last 16",
+      "statusBefore": "published",
+      "words": 286,
+      "paragraphs": 8,
+      "facts": 8,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-16-lens-stun-psg-super-cup",
+      "slug": "lens-stun-psg-trophee-des-champions",
+      "title": "Lens 1-0 PSG: Thauvin strike earns ten-man Lens a shock Trophée des Champions triumph",
+      "statusBefore": "published",
+      "words": 315,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-16-david-roddy-hapoel-jerusalem",
+      "slug": "david-roddy-lands-in-israel-hapoel-jerusalem",
+      "title": "David Roddy lands in Israel: \"It will take time to adjust\"",
+      "statusBefore": "published",
+      "words": 437,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
     {
       "id": "live-2026-08-15-yaakov-shahar-anan-khalaili-pride",
       "slug": "yaakov-shahar-anan-khalaili-pride-maccabi-haifa",
