@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T04:52:21.903Z",
+  "generatedAt": "2026-08-17T05:35:35.555Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,22 +11,22 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1017,
+    "publishedArticles": 1021,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 418,
-      "average": 423.1
+      "median": 419,
+      "average": 423.2
     },
     "paragraphDistribution": {
       "3": 35,
       "4": 6,
       "5": 10,
       "6": 48,
-      "7": 146,
-      "8": 298,
-      "9": 240,
-      "10": 169,
+      "7": 147,
+      "8": 299,
+      "9": 241,
+      "10": 170,
       "11": 42,
       "12": 13,
       "13": 4,
@@ -4012,6 +4012,90 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260817-maccabi-haifa-pedrao-novakovich",
+      "slug": "maccabi-haifa-pedrao-defense-novakovich-squad",
+      "title": "Pedrão trains at centre-back as Maccabi Haifa keep Novakovich waiting",
+      "kind": "article",
+      "words": 471,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 63,
+        "average": 47.1
+      },
+      "sentenceWords": {
+        "shortest": 16,
+        "longest": 50,
+        "average": 36.2
+      },
+      "lexicalDiversity": 0.569,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-17-mourinho-real-madrid-team-cohesion",
+      "slug": "mourinho-real-madrid-starting-to-look-like-a-team",
+      "title": "Mourinho: Real Madrid 'starting to look like a team' after 3-0 win over Schalke 04",
+      "kind": "news",
+      "words": 315,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 59,
+        "average": 45
+      },
+      "sentenceWords": {
+        "shortest": 15,
+        "longest": 70,
+        "average": 35
+      },
+      "lexicalDiversity": 0.6,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-17-nuno-solomon-west-ham-burnley-debut",
+      "slug": "nuno-praises-solomon-west-ham-debut-burnley-draw",
+      "title": "Nuno praises Solomon's 'wonderful qualities' after debut goal in Burnley 2-2 West Ham",
+      "kind": "match-report",
+      "words": 481,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 44,
+        "longest": 88,
+        "average": 60.1
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 76,
+        "average": 37
+      },
+      "lexicalDiversity": 0.59,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-17-flick-barcelona-missing-something",
+      "slug": "flick-barcelona-missing-something-transfer-window",
+      "title": "Flick says Barcelona 'could be missing something' as transfer window nears its close",
+      "kind": "news",
+      "words": 525,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 45,
+        "longest": 65,
+        "average": 58.3
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 64,
+        "average": 30.9
+      },
+      "lexicalDiversity": 0.575,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-08-17-ashdod-tribunal-postpone-afula-opener",
       "slug": "ashdod-tribunal-postpone-afula-opener-tiberias-case",

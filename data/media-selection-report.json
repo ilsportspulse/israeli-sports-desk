@@ -1,28 +1,22 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-08-17-ashdod-tribunal-postpone-afula-opener",
-      "article": "Ashdod asks football's top tribunal to postpone Afula opener over Tiberias case",
-      "file": "File:Yod alef1.JPG",
+      "articleId": "live-20260817-maccabi-haifa-pedrao-novakovich",
+      "article": "Pedrão trains at centre-back as Maccabi Haifa keep Novakovich waiting",
+      "file": "File:GiuseppeMeazzaNeazzurro.jpg",
+      "license": "CC BY 2.0"
+    },
+    {
+      "articleId": "live-2026-08-17-mourinho-real-madrid-team-cohesion",
+      "article": "Mourinho: Real Madrid 'starting to look like a team' after 3-0 win over Schalke 04",
+      "file": "File:SM Caen Tifo 15 ans du MNK.jpg",
       "license": "CC BY-SA 3.0"
     },
     {
-      "articleId": "live-2026-08-17-gorbenko-disappointed-israel-swimming-euros",
-      "article": "Gorbenko admits disappointment as Israel leaves European Championships without a medal",
-      "file": "File:2022-08-19 European Championships 2022 – Table Tennis by Sandro Halank–007.jpg",
-      "license": "CC BY-SA 4.0"
-    },
-    {
-      "articleId": "live-20260817-gashau-ayale-marathon-bronze-israel-team-gold",
-      "article": "Gashau Ayale takes marathon bronze as Israel win team gold at European Championships",
-      "file": "File:Gashau Ayale OG2024.jpg",
-      "license": "CC BY-SA 4.0"
-    },
-    {
-      "articleId": "live-2026-08-17-raz-hershko-bronze-lima-grand-prix",
-      "article": "Raz Hershko falls to Beatriz Souza but salvages bronze at the Lima Grand Prix",
-      "file": "File:Raz Hershko, 2021.jpg",
-      "license": "CC BY-SA 4.0"
+      "articleId": "live-2026-08-17-flick-barcelona-missing-something",
+      "article": "Flick says Barcelona 'could be missing something' as transfer window nears its close",
+      "file": "File:SM Caen Tifo 15 ans du MNK.jpg",
+      "license": "CC BY-SA 3.0"
     },
     {
       "articleId": "live-20260815-liebmann-1500m-freestyle-world-record",
@@ -63,6 +57,16 @@
     }
   ],
   "failures": [
+    {
+      "id": "live-2026-08-17-hapoel-tel-aviv-daffa-toto-cup-final",
+      "title": "Hapoel Tel Aviv beat Kiryat Shmona 2-1 after extra time to set up first-ever Tel Aviv derby in Toto Cup final",
+      "error": "image download 429 after retries"
+    },
+    {
+      "id": "live-2026-08-17-nuno-solomon-west-ham-burnley-debut",
+      "title": "Nuno praises Solomon's 'wonderful qualities' after debut goal in Burnley 2-2 West Ham",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
     {
       "id": "live-2026-08-16-maccabi-kanichowsky-ferencvaros-talks",
       "title": "Maccabi Tel Aviv presses on with talks to bring Gabi Kanichowsky home from Ferencvaros",
