@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-17T13:28:54Z",
-    "validUntil": "2026-08-18T01:28:54Z",
+    "checkedAt": "2026-08-17T13:50:32Z",
+    "validUntil": "2026-08-18T01:50:32Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 688,
+        "maxAgeHours": 689,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-17-one-fantasy-ligat-haal-new-rules",
+        "articleId": "live-2026-08-17-omer-dahan-suspension-request",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 696,
+        "maxAgeHours": 697,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-17-omer-dahan-suspension-request",
+        "articleId": "live-2026-08-17-hapoel-petah-tikva-omer-peretz-not-a-magician",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 706,
+        "maxAgeHours": 707,
         "requires": [
           "column"
         ]

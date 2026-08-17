@@ -2829,5 +2829,55 @@
         "reason": ""
       }
     ]
+  },
+  {
+    "ts": "2026-08-17T13:35:24.810Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 2,
+    "review": 1,
+    "skipped": 2,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "hapoel-petah-tikva-omer-peretz-not-a-magician-toto-cup-slump",
+        "title": "\"An excellent coach, but not a magician\": Hapoel Petah Tikva legend defends Omer Peretz after four straight losses",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "ashdod-afula-postponement-ruling",
+        "title": "Court rejects Ashdod's bid to delay National League opener against Afula",
+        "confidence": 0.83,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "below gate thresholds"
+      },
+      {
+        "slug": "football-association-seeks-immediate-suspension-omer-dahan",
+        "title": "Football association seeks immediate suspension of Omer Dahan over betting scandal",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "leonid-kaufman-gorbenko-injuries-illnesses-europeans",
+        "title": "Gorbenko's coach: 'A sequence of injuries and illnesses' behind her quiet Europeans",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "beitar-jerusalem-mocks-maccabi-haifa-ceo-presidents-award",
+        "title": "Beitar Jerusalem brands Maccabi Haifa's Ovadia a \"small\" CEO in escalating President's Award row",
+        "decision": "duplicate"
+      }
+    ]
   }
 ]
