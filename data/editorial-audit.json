@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T07:52:29.705Z",
+  "generatedAt": "2026-08-17T08:24:34.504Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1452,
-    "publishedBefore": 1028,
-    "cleanPublished": 1020,
+    "totalArticles": 1456,
+    "publishedBefore": 1029,
+    "cleanPublished": 1021,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 1028,
-    "reviewAfter": 424
+    "publishedAfter": 1029,
+    "reviewAfter": 427
   },
   "blockedPublished": [
     {
@@ -156,6 +156,34 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-20260817-hadera-age-exception-tribunal-ruling",
+      "slug": "hapoel-hadera-age-exception-players-tribunal-rejects-appeal",
+      "title": "Football association's supreme tribunal rejects Hapoel Hadera's bid to field age-exception youth players",
+      "statusBefore": "review",
+      "words": 485,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-17-amit-cohen-netanya-playoff-ambition",
+      "slug": "amit-cohen-netanya-playoff-ambition",
+      "title": "Amit Cohen: Netanya want, at minimum, to reach the top playoff",
+      "statusBefore": "published",
+      "words": 431,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260817-arsenal-man-city-community-shield-maresca",
       "slug": "arsenal-man-city-community-shield-maresca-reaction",
@@ -14164,11 +14192,38 @@
       "verificationSources": 2,
       "blockers": [],
       "warnings": [
+        "media:no-action-or-competition-context-detected",
         "voice:publisher-attribution-heavy:2"
       ]
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-20260817-hapoel-afula-ashdod-petition",
+      "slug": "hapoel-afula-ashdod-petition-supreme-tribunal",
+      "title": "Hapoel Afula demands rejection of Ashdod's bid to postpone season opener",
+      "statusBefore": "published",
+      "words": 441,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-17-amit-cohen-netanya-playoff-ambition",
+      "slug": "amit-cohen-netanya-playoff-ambition",
+      "title": "Amit Cohen: Netanya want, at minimum, to reach the top playoff",
+      "statusBefore": "published",
+      "words": 431,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260817-arsenal-man-city-community-shield-maresca",
       "slug": "arsenal-man-city-community-shield-maresca-reaction",
@@ -27931,18 +27986,6 @@
       ]
     },
     {
-      "id": "live-2026-08-17-ramat-hasharon-sign-masika-twaaba",
-      "slug": "ramat-hasharon-sign-reef-masika-yossi-twaaba",
-      "title": "Ramat Hasharon sign veteran defender Masika and prolific striker Twaaba",
-      "statusBefore": "published",
-      "words": 265,
-      "paragraphs": 6,
-      "facts": 5,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": []
-    },
-    {
       "id": "live-2026-08-17-maccabi-ashdod-markis-mcduffie-signing",
       "slug": "maccabi-ashdod-sign-markis-mcduffie-complete-import-roster",
       "title": "Maccabi Ashdod complete import roster with signing of forward Markis McDuffie",
@@ -27953,6 +27996,7 @@
       "verificationSources": 2,
       "blockers": [],
       "warnings": [
+        "media:no-action-or-competition-context-detected",
         "voice:publisher-attribution-heavy:2"
       ]
     },

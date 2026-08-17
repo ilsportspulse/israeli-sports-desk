@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T07:52:30.281Z",
+  "generatedAt": "2026-08-17T08:24:34.898Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,21 +11,21 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1028,
+    "publishedArticles": 1029,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 418,
-      "average": 422.8
+      "median": 419,
+      "average": 423
     },
     "paragraphDistribution": {
       "3": 35,
       "4": 6,
       "5": 10,
-      "6": 50,
+      "6": 49,
       "7": 147,
       "8": 304,
-      "9": 241,
+      "9": 243,
       "10": 170,
       "11": 42,
       "12": 13,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.296,
+    "dominantParagraphShare": 0.295,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 50,
+    "exactSixParagraphArticles": 49,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 174
+    "articlesWithStyleFlags": 173
   },
   "flagged": [
     {
@@ -4032,32 +4032,51 @@
       "flags": [
         "below-editorial-target:122/280"
       ]
-    },
-    {
-      "id": "live-2026-08-17-ramat-hasharon-sign-masika-twaaba",
-      "slug": "ramat-hasharon-sign-reef-masika-yossi-twaaba",
-      "title": "Ramat Hasharon sign veteran defender Masika and prolific striker Twaaba",
-      "kind": "news",
-      "words": 269,
-      "paragraphs": 6,
-      "paragraphWords": {
-        "shortest": 32,
-        "longest": 66,
-        "average": 44.8
-      },
-      "sentenceWords": {
-        "shortest": 7,
-        "longest": 46,
-        "average": 26.9
-      },
-      "lexicalDiversity": 0.639,
-      "publisherAttributions": 0,
-      "flags": [
-        "below-editorial-target:269/280"
-      ]
     }
   ],
   "clean": [
+    {
+      "id": "live-20260817-hapoel-afula-ashdod-petition",
+      "slug": "hapoel-afula-ashdod-petition-supreme-tribunal",
+      "title": "Hapoel Afula demands rejection of Ashdod's bid to postpone season opener",
+      "kind": "news",
+      "words": 437,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 26,
+        "longest": 60,
+        "average": 48.6
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 47,
+        "average": 27.3
+      },
+      "lexicalDiversity": 0.581,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-17-amit-cohen-netanya-playoff-ambition",
+      "slug": "amit-cohen-netanya-playoff-ambition",
+      "title": "Amit Cohen: Netanya want, at minimum, to reach the top playoff",
+      "kind": "article",
+      "words": 432,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 64,
+        "average": 48
+      },
+      "sentenceWords": {
+        "shortest": 15,
+        "longest": 130,
+        "average": 48
+      },
+      "lexicalDiversity": 0.59,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-20260817-arsenal-man-city-community-shield-maresca",
       "slug": "arsenal-man-city-community-shield-maresca-reaction",

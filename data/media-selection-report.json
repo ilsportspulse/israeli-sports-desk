@@ -1,22 +1,28 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-08-17-ramat-hasharon-sign-masika-twaaba",
-      "article": "Ramat Hasharon sign veteran defender Masika and prolific striker Twaaba",
-      "file": "File:Grundman Stadium 01.jpg",
+      "articleId": "live-20260817-hapoel-afula-ashdod-petition",
+      "article": "Hapoel Afula demands rejection of Ashdod's bid to postpone season opener",
+      "file": "File:Afula Municipal Stadium (2).jpg",
       "license": "CC BY-SA 3.0"
     },
     {
-      "articleId": "live-20260817-obradovic-lands-hapoel-jerusalem",
-      "article": "Sasa Obradovic lands in Israel to begin Hapoel Jerusalem tenure",
-      "file": "File:Saša Obradović.jpg",
+      "articleId": "live-20260817-hadera-age-exception-tribunal-ruling",
+      "article": "Football association's supreme tribunal rejects Hapoel Hadera's bid to field age-exception youth players",
+      "file": "File:יהב גורפינקל.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-2026-08-17-amit-cohen-netanya-playoff-ambition",
+      "article": "Amit Cohen: Netanya want, at minimum, to reach the top playoff",
+      "file": "File:Irit Amit Cohen.jpg",
       "license": "CC BY-SA 2.0"
     },
     {
-      "articleId": "archive-20260817-athens-19-august-2004-the-bronze-that-ar",
-      "article": "Athens, 19 August 2004: The Bronze That Arrived Before the Gold",
-      "file": "File:Ariel Ze'evi (ISR) 2004.jpg",
-      "license": "CC BY-SA 3.0"
+      "articleId": "live-2026-08-17-nuno-solomon-west-ham-burnley-debut",
+      "article": "Nuno praises Solomon's 'wonderful qualities' after debut goal in Burnley 2-2 West Ham",
+      "file": "File:Vedad Ibišević, Hertha BSC vs. West Ham United 20190731 (077).jpg",
+      "license": "CC BY-SA 4.0"
     },
     {
       "articleId": "live-20260815-liebmann-1500m-freestyle-world-record",
@@ -25,9 +31,15 @@
       "license": "CC BY-SA 4.0"
     },
     {
+      "articleId": "live-2026-08-13-adva-cohen-steeplechase-10th",
+      "article": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
+      "file": "File:20220814 European Championships Munich 2022 Ľubomír Pištej 850 3618.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
       "articleId": "live-20260802-israel-fifth-mixed-duet-technical-paris",
       "article": "Israel take fifth in mixed duet technical final at European Championships in Paris",
-      "file": "File:20220814 European Championships Munich 2022 Ľubomír Pištej 850 3618.jpg",
+      "file": "File:20220817 European Championships Munich 2022 Tania Moreno Matveeva 850 7683.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
@@ -43,23 +55,27 @@
       "license": "CC BY 3.0 br"
     },
     {
-      "articleId": "live-20260714-basketball-coaches-registration",
-      "article": "Israeli basketball coaches demand freeze on registration overhaul",
-      "query": "Israel basketball coach team",
-      "file": "File:Oded Katash Hapoel Eilat.jpg",
-      "license": "CC BY-SA 4.0"
+      "articleId": "live-2026-08-17-maccabi-ashdod-markis-mcduffie-signing",
+      "article": "Maccabi Ashdod complete import roster with signing of forward Markis McDuffie",
+      "file": "File:Elijah Thomas blocks Markis McDuffie.jpg",
+      "license": "CC BY-SA 2.0"
     }
   ],
   "failures": [
     {
-      "id": "live-2026-08-17-maccabi-ashdod-markis-mcduffie-signing",
-      "title": "Maccabi Ashdod complete import roster with signing of forward Markis McDuffie",
+      "id": "live-2026-08-17-maccabi-netanya-youth-goalkeeper-duo-barmi-loan",
+      "title": "Maccabi Netanya's youth side sign goalkeeper duo, add Barmi on loan from Be'er Sheva",
       "error": "image download 429 after retries"
     },
     {
-      "id": "live-2026-08-17-nuno-solomon-west-ham-burnley-debut",
-      "title": "Nuno praises Solomon's 'wonderful qualities' after debut goal in Burnley 2-2 West Ham",
+      "id": "live-2026-08-17-yakobov-poland-double",
+      "title": "Michael Yakobov completes keirin-sprint double at Grand Prix of Poland",
       "error": "image download 429 after retries"
+    },
+    {
+      "id": "live-20260817-kiryat-shmona-referee-klaz-toto-cup",
+      "title": "Kiryat Shmona blast referee Yoni Klaz after 2-1 stoppage-time defeat to Hapoel Tel Aviv",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {
       "id": "live-2026-08-16-maccabi-kanichowsky-ferencvaros-talks",
@@ -74,11 +90,6 @@
     {
       "id": "live-2026-08-15-ukraine-amateur-tennis-legend-kurbanov-killed-war",
       "title": "Ukrainian amateur tennis 'legend' Slava Kurbanov killed fighting on the front",
-      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
-    },
-    {
-      "id": "live-2026-08-13-adva-cohen-steeplechase-10th",
-      "title": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {
@@ -265,6 +276,11 @@
       "id": "live-20260722-bnei-eilat-youth-b-champions",
       "title": "Bnei Eilat's Youth B Side Go Unbeaten to Win Southern District Title",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-20260714-basketball-coaches-registration",
+      "title": "Israeli basketball coaches demand freeze on registration overhaul",
+      "error": "image download 429 after retries"
     },
     {
       "id": "live-2026-08-01-kaufman-gorbenko-2028-olympic-plan",

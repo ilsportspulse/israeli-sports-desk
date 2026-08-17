@@ -146,8 +146,8 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-17T07:52:29Z",
-    "validUntil": "2026-08-17T19:52:29Z",
+    "checkedAt": "2026-08-17T08:24:34Z",
+    "validUntil": "2026-08-17T20:24:34Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
@@ -160,7 +160,7 @@
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-17-ramat-hasharon-sign-masika-twaaba",
+        "articleId": "live-20260817-hapoel-afula-ashdod-petition",
         "maxAgeHours": 48,
         "requires": []
       },
@@ -174,7 +174,7 @@
       },
       {
         "role": "israeli-football",
-        "articleId": "archive-20260817-athens-19-august-2004-the-bronze-that-ar",
+        "articleId": "live-2026-08-17-amit-cohen-netanya-playoff-ambition",
         "maxAgeHours": 35,
         "requires": []
       },
@@ -188,7 +188,7 @@
       },
       {
         "role": "archive",
-        "articleId": "archive-20260815-tokyo-24-july-2021-the-girl-from-gedera-",
+        "articleId": "archive-20260817-athens-19-august-2004-the-bronze-that-ar",
         "maxAgeHours": 156,
         "requires": [
           "historical-feature"
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260817-arsenal-man-city-community-shield-maresca",
+        "articleId": "live-2026-08-17-maccabi-ashdod-markis-mcduffie-signing",
         "maxAgeHours": 36,
         "requires": []
       }
