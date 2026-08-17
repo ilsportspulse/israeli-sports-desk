@@ -1,5 +1,61 @@
 [
   {
+    "ts": "2026-08-17T07:02:24.930Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 4,
+    "review": 1,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "reef-mesika-yossi-twaaba-join-hapoel-nir-ramat-hasharon",
+        "title": "Reef Mesika and Yossi Twaaba join Hapoel Nir Ramat HaSharon from Maccabi Kiryat Gat",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "kiryat-shmona-referee-yoni-klaz-toto-cup-exit",
+        "title": "Kiryat Shmona blast referee Yoni Klaz after 2-1 stoppage-time defeat to Hapoel Tel Aviv",
+        "confidence": 0.76,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Transliteration of some secondary names (Ogariza, Benvenishti, Sabah, Snir Levy) varies slightly across Hebrew outlets and should be checked against official club/FA rosters before print."
+      },
+      {
+        "slug": "michael-yakobov-keirin-sprint-double-grand-prix-poland",
+        "title": "Michael Yakobov completes keirin-sprint double at Grand Prix of Poland",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "armando-bacot-maccabi-tel-aviv-fans-effort",
+        "title": "Bacot lands in Israel: 'Fans can expect a lot of effort from me'",
+        "confidence": 0.9,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "arsenal-man-city-community-shield-maresca-reaction",
+        "title": "Arsenal 3-0 Manchester City: Maresca admits he's \"always worried\" after nightmare debut",
+        "confidence": 0.9,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-08-17T05:19:47.980Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -2840,82 +2896,6 @@
         "slug": "tamir-blatt-hapoel-tel-aviv-signing-duplicate",
         "title": "Tamir Blatt signs for Hapoel Tel Aviv after nine years away",
         "decision": "duplicate"
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-04T07:58:24.419Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 8,
-    "published": 3,
-    "review": 3,
-    "skipped": 2,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "ter-stegen-completes-ajax-loan-from-barcelona",
-        "title": "Ter Stegen completes season-long loan move from Barcelona to Ajax",
-        "confidence": 0.88,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "below gate thresholds"
-      },
-      {
-        "slug": "atlanta-united-interest-bassam-zaarura-maccabi-netanya-contract",
-        "title": "Atlanta United make enquiries over Maccabi Netanya's Zaarura amid new contract talks",
-        "confidence": 0.78,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Single-source transfer interest report (ONE); not yet confirmed by Atlanta United or Maccabi Netanya, and no contract terms or fee have been disclosed."
-      },
-      {
-        "slug": "khalaili-set-to-start-union-saint-gilloise-bodo-glimt-champions-league",
-        "title": "Khalaili set to start for Union Saint-Gilloise as Champions League qualifier arrives amid transfer limbo",
-        "decision": "duplicate",
-        "reason": "same event as khalaili-nottingham-forest-bid-rejected"
-      },
-      {
-        "slug": "beitar-jerusalem-austria-wien-preview",
-        "title": "Beitar Jerusalem warn: Austria Wien are better than people in Israel think",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "idan-vered-rehovot-municipal-club-plan",
-        "title": "Idan Vered still waiting on Rehovot city hall over new club plan",
-        "confidence": 0.78,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Talks are ongoing with no finalized agreement or timeline from the municipality — this is a developing, unresolved situation, not a done deal."
-      },
-      {
-        "slug": "ufc-flyweight-allan-nascimento-dies-34",
-        "title": "UFC flyweight Allan Nascimento dies in his sleep at 34",
-        "confidence": 0.9,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "neymar-not-thinking-retirement-santos-contract-december",
-        "title": "Neymar: I'm not thinking about retirement, I have a contract with Santos",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "maccabi-haifa-zasno-saief-benson-return-glazer-injury-scare",
-        "title": "Zasno, Saief and Benson return to Maccabi Haifa squad as Glazer battles injury scare",
-        "decision": "duplicate",
-        "reason": "same event as omri-glazer-knee-injury-toto-cup-kiryat-shmona"
       }
     ]
   }

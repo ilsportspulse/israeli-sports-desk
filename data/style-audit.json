@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T05:54:04.078Z",
+  "generatedAt": "2026-08-17T07:16:37.292Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1021,
+    "publishedArticles": 1025,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 419,
-      "average": 423.2
+      "median": 418,
+      "average": 423
     },
     "paragraphDistribution": {
       "3": 35,
@@ -24,7 +24,7 @@
       "5": 10,
       "6": 48,
       "7": 147,
-      "8": 299,
+      "8": 303,
       "9": 241,
       "10": 170,
       "11": 42,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.293,
+    "dominantParagraphShare": 0.296,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 48,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 172
+    "articlesWithStyleFlags": 173
   },
   "flagged": [
     {
@@ -328,6 +328,29 @@
       "flags": [
         "below-editorial-target:227/280",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260817-mesika-twaaba-ramat-hasharon",
+      "slug": "reef-mesika-yossi-twaaba-join-hapoel-nir-ramat-hasharon",
+      "title": "Reef Mesika and Yossi Twaaba join Hapoel Nir Ramat HaSharon from Maccabi Kiryat Gat",
+      "kind": "news",
+      "words": 359,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 59,
+        "average": 44.9
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 42,
+        "average": 29.9
+      },
+      "lexicalDiversity": 0.63,
+      "publisherAttributions": 0,
+      "flags": [
+        "stock-phrase:statement-of-intent"
       ]
     },
     {
@@ -4012,6 +4035,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260817-arsenal-man-city-community-shield-maresca",
+      "slug": "arsenal-man-city-community-shield-maresca-reaction",
+      "title": "Arsenal 3-0 Manchester City: Maresca admits he's \"always worried\" after nightmare debut",
+      "kind": "news",
+      "words": 482,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 44,
+        "longest": 84,
+        "average": 60.3
+      },
+      "sentenceWords": {
+        "shortest": 13,
+        "longest": 90,
+        "average": 37.1
+      },
+      "lexicalDiversity": 0.583,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-17-bacot-maccabi-arrival",
+      "slug": "armando-bacot-maccabi-tel-aviv-fans-effort",
+      "title": "Bacot lands in Israel: 'Fans can expect a lot of effort from me'",
+      "kind": "news",
+      "words": 352,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 23,
+        "longest": 66,
+        "average": 44
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 54,
+        "average": 35.2
+      },
+      "lexicalDiversity": 0.611,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-17-yakobov-poland-double",
+      "slug": "michael-yakobov-keirin-sprint-double-grand-prix-poland",
+      "title": "Michael Yakobov completes keirin-sprint double at Grand Prix of Poland",
+      "kind": "article",
+      "words": 300,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 29,
+        "longest": 62,
+        "average": 37.5
+      },
+      "sentenceWords": {
+        "shortest": 26,
+        "longest": 41,
+        "average": 33.3
+      },
+      "lexicalDiversity": 0.603,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260817-maccabi-haifa-pedrao-novakovich",
       "slug": "maccabi-haifa-pedrao-defense-novakovich-squad",

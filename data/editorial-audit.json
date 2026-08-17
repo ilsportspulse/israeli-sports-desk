@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T05:54:03.498Z",
+  "generatedAt": "2026-08-17T07:16:36.712Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1443,
-    "publishedBefore": 1021,
-    "cleanPublished": 1013,
+    "totalArticles": 1448,
+    "publishedBefore": 1025,
+    "cleanPublished": 1017,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 1021,
-    "reviewAfter": 422
+    "publishedAfter": 1025,
+    "reviewAfter": 423
   },
   "blockedPublished": [
     {
@@ -156,6 +156,64 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-20260817-arsenal-man-city-community-shield-maresca",
+      "slug": "arsenal-man-city-community-shield-maresca-reaction",
+      "title": "Arsenal 3-0 Manchester City: Maresca admits he's \"always worried\" after nightmare debut",
+      "statusBefore": "published",
+      "words": 484,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-17-bacot-maccabi-arrival",
+      "slug": "armando-bacot-maccabi-tel-aviv-fans-effort",
+      "title": "Bacot lands in Israel: 'Fans can expect a lot of effort from me'",
+      "statusBefore": "published",
+      "words": 349,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260817-kiryat-shmona-referee-klaz-toto-cup",
+      "slug": "kiryat-shmona-referee-yoni-klaz-toto-cup-exit",
+      "title": "Kiryat Shmona blast referee Yoni Klaz after 2-1 stoppage-time defeat to Hapoel Tel Aviv",
+      "statusBefore": "review",
+      "words": 470,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2",
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "live-20260817-mesika-twaaba-ramat-hasharon",
+      "slug": "reef-mesika-yossi-twaaba-join-hapoel-nir-ramat-hasharon",
+      "title": "Reef Mesika and Yossi Twaaba join Hapoel Nir Ramat HaSharon from Maccabi Kiryat Gat",
+      "statusBefore": "published",
+      "words": 357,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
     {
       "id": "live-20260817-maccabi-haifa-pedrao-novakovich",
       "slug": "maccabi-haifa-pedrao-defense-novakovich-squad",
@@ -14083,6 +14141,61 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-20260817-arsenal-man-city-community-shield-maresca",
+      "slug": "arsenal-man-city-community-shield-maresca-reaction",
+      "title": "Arsenal 3-0 Manchester City: Maresca admits he's \"always worried\" after nightmare debut",
+      "statusBefore": "published",
+      "words": 484,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-17-bacot-maccabi-arrival",
+      "slug": "armando-bacot-maccabi-tel-aviv-fans-effort",
+      "title": "Bacot lands in Israel: 'Fans can expect a lot of effort from me'",
+      "statusBefore": "published",
+      "words": 349,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-17-yakobov-poland-double",
+      "slug": "michael-yakobov-keirin-sprint-double-grand-prix-poland",
+      "title": "Michael Yakobov completes keirin-sprint double at Grand Prix of Poland",
+      "statusBefore": "published",
+      "words": 298,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260817-mesika-twaaba-ramat-hasharon",
+      "slug": "reef-mesika-yossi-twaaba-join-hapoel-nir-ramat-hasharon",
+      "title": "Reef Mesika and Yossi Twaaba join Hapoel Nir Ramat HaSharon from Maccabi Kiryat Gat",
+      "statusBefore": "published",
+      "words": 357,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
     {
       "id": "live-20260817-maccabi-haifa-pedrao-novakovich",
       "slug": "maccabi-haifa-pedrao-defense-novakovich-squad",
