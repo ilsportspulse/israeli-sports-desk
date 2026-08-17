@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T08:56:53.617Z",
+  "generatedAt": "2026-08-17T10:15:50.173Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,21 +11,21 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1029,
+    "publishedArticles": 1031,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 419,
-      "average": 423
+      "average": 422.9
     },
     "paragraphDistribution": {
       "3": 35,
       "4": 6,
       "5": 10,
       "6": 49,
-      "7": 147,
+      "7": 148,
       "8": 304,
-      "9": 243,
+      "9": 244,
       "10": 170,
       "11": 42,
       "12": 13,
@@ -39,7 +39,7 @@
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 49,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 173
+    "articlesWithStyleFlags": 175
   },
   "flagged": [
     {
@@ -328,6 +328,52 @@
       "flags": [
         "below-editorial-target:227/280",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-17-ashdod-postponement-hearing",
+      "slug": "ms-ashdod-afula-postponement-hearing-tiberias-affair",
+      "title": "Ashdod asks football's top court to delay season opener over Tiberias affair",
+      "kind": "news",
+      "words": 469,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 75,
+        "average": 52.1
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 56,
+        "average": 33.5
+      },
+      "lexicalDiversity": 0.591,
+      "publisherAttributions": 3,
+      "flags": [
+        "publisher-attribution-heavy:3"
+      ]
+    },
+    {
+      "id": "live-20260817-bublil-maccabi-netanya-sick-leave",
+      "slug": "gavi-bublil-denies-fired-maccabi-netanya-sick-leave",
+      "title": "Maccabi Netanya facilities manager Bublil: \"I wasn't fired or called to a hearing, I'm on sick leave\"",
+      "kind": "news",
+      "words": 276,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 55,
+        "average": 39.4
+      },
+      "sentenceWords": {
+        "shortest": 19,
+        "longest": 110,
+        "average": 46
+      },
+      "lexicalDiversity": 0.656,
+      "publisherAttributions": 1,
+      "flags": [
+        "below-editorial-target:276/280"
       ]
     },
     {

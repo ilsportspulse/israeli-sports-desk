@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-17T08:56:52Z",
-    "validUntil": "2026-08-17T20:56:52Z",
+    "checkedAt": "2026-08-17T10:15:49Z",
+    "validUntil": "2026-08-17T22:15:49Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 684,
+        "maxAgeHours": 685,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260817-hapoel-afula-ashdod-petition",
+        "articleId": "live-2026-08-17-ashdod-postponement-hearing",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 692,
+        "maxAgeHours": 693,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-17-amit-cohen-netanya-playoff-ambition",
+        "articleId": "live-20260817-bublil-maccabi-netanya-sick-leave",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 702,
+        "maxAgeHours": 703,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-17-maccabi-ashdod-markis-mcduffie-signing",
+        "articleId": "live-20260817-hapoel-afula-ashdod-petition",
         "maxAgeHours": 36,
         "requires": []
       }

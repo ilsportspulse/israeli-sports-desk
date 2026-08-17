@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T08:56:53.044Z",
+  "generatedAt": "2026-08-17T10:15:49.591Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1456,
-    "publishedBefore": 1029,
-    "cleanPublished": 1021,
+    "totalArticles": 1459,
+    "publishedBefore": 1031,
+    "cleanPublished": 1023,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 1029,
-    "reviewAfter": 427
+    "publishedAfter": 1031,
+    "reviewAfter": 428
   },
   "blockedPublished": [
     {
@@ -157,6 +157,36 @@
   ],
   "warnings": [
     {
+      "id": "live-2026-08-17-ashdod-postponement-hearing",
+      "slug": "ms-ashdod-afula-postponement-hearing-tiberias-affair",
+      "title": "Ashdod asks football's top court to delay season opener over Tiberias affair",
+      "statusBefore": "published",
+      "words": 477,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:3"
+      ]
+    },
+    {
+      "id": "live-2026-08-17-gal-leibovitz-conference-league-riga",
+      "slug": "gal-leibovitz-conference-league-referee-riga-gyori",
+      "title": "Gal Leibovitz leads all-Israeli team for Conference League honour in Riga",
+      "statusBefore": "review",
+      "words": 249,
+      "paragraphs": 7,
+      "facts": 5,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-20260817-hadera-age-exception-tribunal-ruling",
       "slug": "hapoel-hadera-age-exception-players-tribunal-rejects-appeal",
       "title": "Football association's supreme tribunal rejects Hapoel Hadera's bid to field age-exception youth players",
@@ -206,6 +236,20 @@
       "words": 349,
       "paragraphs": 8,
       "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-17-yakobov-poland-double",
+      "slug": "michael-yakobov-keirin-sprint-double-grand-prix-poland",
+      "title": "Michael Yakobov completes keirin-sprint double at Grand Prix of Poland",
+      "statusBefore": "published",
+      "words": 298,
+      "paragraphs": 8,
+      "facts": 7,
       "verificationSources": 3,
       "blockers": [],
       "warnings": [
@@ -14199,6 +14243,33 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-2026-08-17-ashdod-postponement-hearing",
+      "slug": "ms-ashdod-afula-postponement-hearing-tiberias-affair",
+      "title": "Ashdod asks football's top court to delay season opener over Tiberias affair",
+      "statusBefore": "published",
+      "words": 477,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:3"
+      ]
+    },
+    {
+      "id": "live-20260817-bublil-maccabi-netanya-sick-leave",
+      "slug": "gavi-bublil-denies-fired-maccabi-netanya-sick-leave",
+      "title": "Maccabi Netanya facilities manager Bublil: \"I wasn't fired or called to a hearing, I'm on sick leave\"",
+      "statusBefore": "published",
+      "words": 277,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": []
+    },
+    {
       "id": "live-20260817-hapoel-afula-ashdod-petition",
       "slug": "hapoel-afula-ashdod-petition-supreme-tribunal",
       "title": "Hapoel Afula demands rejection of Ashdod's bid to postpone season opener",
@@ -14262,7 +14333,9 @@
       "facts": 7,
       "verificationSources": 3,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-20260817-mesika-twaaba-ramat-hasharon",
