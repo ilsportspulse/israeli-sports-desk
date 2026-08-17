@@ -1,21 +1,33 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-08-17-israel-u16-women-lose-turkey-72-61",
-      "article": "Israel's under-16 women fall 72-61 to Turkey to close European Championship group stage",
-      "file": "File:Freddie Slater Prema Racing at Hungaroring 2025 Formula Regional European Championship (FRECA).jpg",
+      "articleId": "live-2026-08-17-barcelona-city-agree-rodri-deal",
+      "article": "Barcelona reach agreement with Manchester City to sign Rodri",
+      "file": "File:SM Caen Tifo 15 ans du MNK.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "articleId": "live-20260817-dia-saba-brace-hermash-defeat",
+      "article": "Dia Saba's double sinks Erzurumspor 3-0 as Liam Hermash suffers 8-0 mauling in Austria",
+      "file": "File:Dia Saba 1 SAM 2340.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-2026-08-17-lens-stun-psg-trophee-des-champions",
-      "article": "Lens 1-0 PSG: ten-man hosts hold firm to win Trophée des Champions",
-      "file": "File:Florian Thauvin, Lens - Marseille (03-02-2021) 34 (cropped).jpg",
-      "license": "CC0"
+      "articleId": "live-2026-08-17-maccabi-tel-aviv-miller-lugano-reinforcements",
+      "article": "Maccabi Tel Aviv beat Netanya 1-0 to reach Toto Cup final, Miller: 'We must add players before Lugano'",
+      "file": "File:Mecz piłkarski Wisła Kraków - Zagłębie Sosnwoiec, 28 października 2022, Pożegnanie Stadionu Ludowego, KP.jpg",
+      "license": "CC BY 4.0"
     },
     {
-      "articleId": "live-2026-08-17-david-roddy-lands-israel-hapoel-jerusalem",
-      "article": "David Roddy lands in Israel to begin new chapter at Hapoel Jerusalem",
-      "file": "File:Jerusalem Arena, October 2016 01.jpg",
+      "articleId": "live-2026-08-17-kiryat-shmona-hapoel-tel-aviv-toto-cup-comeback",
+      "article": "Kiryat Shmona 1-2 Hapoel Tel Aviv: Barda says 'we love drama' after stoppage-time turnaround",
+      "file": "File:SM Caen Tifo 15 ans du MNK.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "articleId": "live-2026-08-16-david-roddy-hapoel-jerusalem",
+      "article": "David Roddy lands in Israel: \"It will take time to adjust\"",
+      "file": "File:David Roddy and Friends.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
@@ -47,18 +59,31 @@
       "article": "Adam Ramsay-Peaty questions it all after bitter Commonwealth bronze",
       "file": "File:Adam Peaty Olympics 100m breaststroke 2016.jpg",
       "license": "CC BY 3.0 br"
+    },
+    {
+      "articleId": "live-20260714-basketball-coaches-registration",
+      "article": "Israeli basketball coaches demand freeze on registration overhaul",
+      "query": "Israel basketball coach team",
+      "file": "File:Oded Katash Hapoel Eilat.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-2026-08-17-noquaout-ufc-330-podcast-recap",
+      "article": "Israeli MMA podcast Knockout breaks down a record night at UFC 330",
+      "file": "File:Makhachev in 2022.jpg",
+      "license": "CC BY 3.0"
     }
   ],
   "failures": [
     {
-      "id": "live-2026-08-17-maccabi-tel-aviv-kanichowsky-talks",
-      "title": "Maccabi Tel Aviv continue talks over Kanichowsky return from Ferencvaros",
+      "id": "live-2026-08-17-tel-aviv-toto-cup-derby-final",
+      "title": "Hapoel Tel Aviv complete stunning 2-1 comeback to set up first-ever Toto Cup final derby with Maccabi Tel Aviv",
       "error": "image download 429 after retries"
     },
     {
-      "id": "live-2026-08-17-noquaout-ufc-330-podcast-recap",
-      "title": "Israeli MMA podcast Knockout breaks down a record night at UFC 330",
-      "error": "image download 429 after retries"
+      "id": "live-2026-08-16-maccabi-kanichowsky-ferencvaros-talks",
+      "title": "Maccabi Tel Aviv presses on with talks to bring Gabi Kanichowsky home from Ferencvaros",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {
       "id": "live-2026-08-15-omer-dahan-kfar-shalem-loan",
@@ -254,11 +279,6 @@
       "id": "live-20260722-bnei-eilat-youth-b-champions",
       "title": "Bnei Eilat's Youth B Side Go Unbeaten to Win Southern District Title",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
-    },
-    {
-      "id": "live-20260714-basketball-coaches-registration",
-      "title": "Israeli basketball coaches demand freeze on registration overhaul",
-      "error": "image download 429 after retries"
     },
     {
       "id": "live-2026-08-01-kaufman-gorbenko-2028-olympic-plan",
