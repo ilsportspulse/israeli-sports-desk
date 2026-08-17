@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T23:54:30.683Z",
+  "generatedAt": "2026-08-17T00:21:35.323Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,7 +11,7 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1007,
+    "publishedArticles": 1008,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
@@ -25,8 +25,8 @@
       "6": 48,
       "7": 146,
       "8": 295,
-      "9": 237,
-      "10": 166,
+      "9": 239,
+      "10": 165,
       "11": 41,
       "12": 13,
       "13": 4,
@@ -39,7 +39,7 @@
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 48,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 170
+    "articlesWithStyleFlags": 169
   },
   "flagged": [
     {
@@ -327,29 +327,6 @@
       "publisherAttributions": 2,
       "flags": [
         "below-editorial-target:227/280",
-        "publisher-attribution-heavy:2"
-      ]
-    },
-    {
-      "id": "live-2026-08-16-david-roddy-hapoel-jerusalem",
-      "slug": "david-roddy-lands-in-israel-hapoel-jerusalem",
-      "title": "David Roddy lands in Israel: \"It will take time to adjust\"",
-      "kind": "article",
-      "words": 443,
-      "paragraphs": 10,
-      "paragraphWords": {
-        "shortest": 12,
-        "longest": 84,
-        "average": 44.3
-      },
-      "sentenceWords": {
-        "shortest": 12,
-        "longest": 71,
-        "average": 34.1
-      },
-      "lexicalDiversity": 0.591,
-      "publisherAttributions": 2,
-      "flags": [
         "publisher-attribution-heavy:2"
       ]
     },
@@ -3967,44 +3944,86 @@
   ],
   "clean": [
     {
-      "id": "live-2026-08-16-israel-cadets-turkey-72-61",
-      "slug": "israel-cadets-fall-turkey-72-61-group-stage-serbia-next",
-      "title": "Turkey beat Israel's cadets 72-61 as group stage closes, Serbia awaits in last 16",
+      "id": "live-2026-08-17-lens-stun-psg-trophee-des-champions",
+      "slug": "lens-stun-psg-trophee-des-champions",
+      "title": "Lens 1-0 PSG: ten-man hosts hold firm to win Trophée des Champions",
       "kind": "article",
-      "words": 286,
-      "paragraphs": 8,
+      "words": 399,
+      "paragraphs": 9,
       "paragraphWords": {
-        "shortest": 28,
-        "longest": 41,
-        "average": 35.8
+        "shortest": 30,
+        "longest": 66,
+        "average": 44.3
       },
       "sentenceWords": {
-        "shortest": 11,
-        "longest": 41,
-        "average": 28.6
+        "shortest": 13,
+        "longest": 48,
+        "average": 36.3
       },
-      "lexicalDiversity": 0.591,
+      "lexicalDiversity": 0.634,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-17-maccabi-tel-aviv-kanichowsky-talks",
+      "slug": "maccabi-tel-aviv-kanichowsky-return-talks-ferencvaros",
+      "title": "Maccabi Tel Aviv continue talks over Kanichowsky return from Ferencvaros",
+      "kind": "article",
+      "words": 367,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 60,
+        "average": 45.9
+      },
+      "sentenceWords": {
+        "shortest": 17,
+        "longest": 46,
+        "average": 30.6
+      },
+      "lexicalDiversity": 0.597,
       "publisherAttributions": 1,
       "flags": []
     },
     {
-      "id": "live-2026-08-16-lens-stun-psg-super-cup",
-      "slug": "lens-stun-psg-trophee-des-champions",
-      "title": "Lens 1-0 PSG: Thauvin strike earns ten-man Lens a shock Trophée des Champions triumph",
+      "id": "live-2026-08-17-david-roddy-lands-israel-hapoel-jerusalem",
+      "slug": "david-roddy-lands-israel-hapoel-jerusalem",
+      "title": "David Roddy lands in Israel to begin new chapter at Hapoel Jerusalem",
       "kind": "news",
-      "words": 315,
-      "paragraphs": 8,
+      "words": 343,
+      "paragraphs": 9,
       "paragraphWords": {
-        "shortest": 34,
-        "longest": 59,
-        "average": 39.4
+        "shortest": 21,
+        "longest": 57,
+        "average": 38.1
       },
       "sentenceWords": {
-        "shortest": 13,
-        "longest": 46,
-        "average": 35
+        "shortest": 9,
+        "longest": 60,
+        "average": 31.2
       },
-      "lexicalDiversity": 0.635,
+      "lexicalDiversity": 0.63,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-17-noquaout-ufc-330-podcast-recap",
+      "slug": "noquaout-podcast-recap-ufc-330-makhachev-garry",
+      "title": "Israeli MMA podcast Knockout breaks down a record night at UFC 330",
+      "kind": "news",
+      "words": 388,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 64,
+        "average": 48.5
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 53,
+        "average": 32.3
+      },
+      "lexicalDiversity": 0.624,
       "publisherAttributions": 0,
       "flags": []
     },

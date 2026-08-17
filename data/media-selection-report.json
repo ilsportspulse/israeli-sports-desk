@@ -1,22 +1,28 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-08-16-israel-cadets-turkey-72-61",
-      "article": "Turkey beat Israel's cadets 72-61 as group stage closes, Serbia awaits in last 16",
-      "file": "File:2024-10-29 ALBA Berlin gegen Paris Basketball (EuroLeague 2024-25) by Sandro Halank–158.jpg",
+      "articleId": "live-2026-08-17-israel-u16-women-lose-turkey-72-61",
+      "article": "Israel's under-16 women fall 72-61 to Turkey to close European Championship group stage",
+      "file": "File:Freddie Slater Prema Racing at Hungaroring 2025 Formula Regional European Championship (FRECA).jpg",
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-2026-08-16-lens-stun-psg-super-cup",
-      "article": "Lens 1-0 PSG: Thauvin strike earns ten-man Lens a shock Trophée des Champions triumph",
+      "articleId": "live-2026-08-17-lens-stun-psg-trophee-des-champions",
+      "article": "Lens 1-0 PSG: ten-man hosts hold firm to win Trophée des Champions",
       "file": "File:Florian Thauvin, Lens - Marseille (03-02-2021) 34 (cropped).jpg",
       "license": "CC0"
     },
     {
-      "articleId": "live-2026-08-16-makhachev-dern-noquaout-ufc-330-recap",
-      "article": "Makhachev breaks UFC win-streak record, Dern retains title as Noquaout dissects UFC 330",
-      "file": "File:Islam Makhachev 2023.jpg",
-      "license": "CC BY 3.0"
+      "articleId": "live-2026-08-17-david-roddy-lands-israel-hapoel-jerusalem",
+      "article": "David Roddy lands in Israel to begin new chapter at Hapoel Jerusalem",
+      "file": "File:Jerusalem Arena, October 2016 01.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-20260815-liebmann-1500m-freestyle-world-record",
+      "article": "German teenager Johannes Liebmann shatters 1500m freestyle world record in 14:26.79",
+      "file": "File:Swimming Pool lanes and starting blocks at AIS.jpg",
+      "license": "CC BY-SA 4.0"
     },
     {
       "articleId": "live-2026-08-13-adva-cohen-steeplechase-10th",
@@ -41,29 +47,17 @@
       "article": "Adam Ramsay-Peaty questions it all after bitter Commonwealth bronze",
       "file": "File:Adam Peaty Olympics 100m breaststroke 2016.jpg",
       "license": "CC BY 3.0 br"
-    },
-    {
-      "articleId": "live-20260714-basketball-coaches-registration",
-      "article": "Israeli basketball coaches demand freeze on registration overhaul",
-      "query": "Israel basketball coach team",
-      "file": "File:Oded Katash Hapoel Eilat.jpg",
-      "license": "CC BY-SA 4.0"
     }
   ],
   "failures": [
     {
-      "id": "live-2026-08-16-maccabi-kanichowsky-ferencvaros-talks",
-      "title": "Maccabi Tel Aviv presses on with talks to bring Gabi Kanichowsky home from Ferencvaros",
-      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
-    },
-    {
-      "id": "live-2026-08-16-david-roddy-hapoel-jerusalem",
-      "title": "David Roddy lands in Israel: \"It will take time to adjust\"",
+      "id": "live-2026-08-17-maccabi-tel-aviv-kanichowsky-talks",
+      "title": "Maccabi Tel Aviv continue talks over Kanichowsky return from Ferencvaros",
       "error": "image download 429 after retries"
     },
     {
-      "id": "live-20260815-liebmann-1500m-freestyle-world-record",
-      "title": "German teenager Johannes Liebmann shatters 1500m freestyle world record in 14:26.79",
+      "id": "live-2026-08-17-noquaout-ufc-330-podcast-recap",
+      "title": "Israeli MMA podcast Knockout breaks down a record night at UFC 330",
       "error": "image download 429 after retries"
     },
     {
@@ -260,6 +254,11 @@
       "id": "live-20260722-bnei-eilat-youth-b-champions",
       "title": "Bnei Eilat's Youth B Side Go Unbeaten to Win Southern District Title",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-20260714-basketball-coaches-registration",
+      "title": "Israeli basketball coaches demand freeze on registration overhaul",
+      "error": "image download 429 after retries"
     },
     {
       "id": "live-2026-08-01-kaufman-gorbenko-2028-olympic-plan",

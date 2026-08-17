@@ -2960,5 +2960,61 @@
         "reason": ""
       }
     ]
+  },
+  {
+    "ts": "2026-08-17T00:06:38.175Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 4,
+    "review": 1,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "noquaout-podcast-recap-ufc-330-makhachev-garry",
+        "title": "Israeli MMA podcast Knockout breaks down a record night at UFC 330",
+        "confidence": 0.83,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "david-roddy-lands-israel-hapoel-jerusalem",
+        "title": "David Roddy lands in Israel to begin new chapter at Hapoel Jerusalem",
+        "confidence": 0.9,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "maccabi-tel-aviv-kanichowsky-return-talks-ferencvaros",
+        "title": "Maccabi Tel Aviv continue talks over Kanichowsky return from Ferencvaros",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "lens-stun-psg-trophee-des-champions",
+        "title": "Lens 1-0 PSG: ten-man hosts hold firm to win Trophée des Champions",
+        "confidence": 0.92,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "israel-u16-women-basketball-fall-72-61-turkey-european-championship",
+        "title": "Israel's under-16 women fall 72-61 to Turkey to close European Championship group stage",
+        "confidence": 0.88,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Could not verify a correctly-identified Wikimedia Commons photo for this specific youth team/match, so no image is included."
+      }
+    ]
   }
 ]
