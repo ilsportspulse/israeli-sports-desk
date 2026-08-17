@@ -146,8 +146,8 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-17T07:36:43Z",
-    "validUntil": "2026-08-17T19:36:43Z",
+    "checkedAt": "2026-08-17T07:52:29Z",
+    "validUntil": "2026-08-17T19:52:29Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
@@ -167,7 +167,7 @@
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 690,
+        "maxAgeHours": 691,
         "requires": [
           "basketballRecap"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260817-maccabi-haifa-pedrao-novakovich",
+        "articleId": "live-20260817-arsenal-man-city-community-shield-maresca",
         "maxAgeHours": 36,
         "requires": []
       }

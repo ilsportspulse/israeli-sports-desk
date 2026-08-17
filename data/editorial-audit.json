@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T07:36:44.047Z",
+  "generatedAt": "2026-08-17T07:52:29.705Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1447,
-    "publishedBefore": 1024,
-    "cleanPublished": 1016,
+    "totalArticles": 1452,
+    "publishedBefore": 1028,
+    "cleanPublished": 1020,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 1024,
-    "reviewAfter": 423
+    "publishedAfter": 1028,
+    "reviewAfter": 424
   },
   "blockedPublished": [
     {
@@ -157,11 +157,25 @@
   ],
   "warnings": [
     {
-      "id": "live-20260817-obradovic-lands-hapoel-jerusalem",
-      "slug": "sasa-obradovic-lands-israel-hapoel-jerusalem-coach",
-      "title": "Sasa Obradovic lands in Israel to begin Hapoel Jerusalem tenure",
-      "statusBefore": "review",
-      "words": 301,
+      "id": "live-20260817-arsenal-man-city-community-shield-maresca",
+      "slug": "arsenal-man-city-community-shield-maresca-reaction",
+      "title": "Arsenal 3-0 Manchester City: Maresca admits he's \"always worried\" after nightmare debut",
+      "statusBefore": "published",
+      "words": 484,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-17-bacot-maccabi-arrival",
+      "slug": "armando-bacot-maccabi-tel-aviv-fans-effort",
+      "title": "Bacot lands in Israel: 'Fans can expect a lot of effort from me'",
+      "statusBefore": "published",
+      "words": 349,
       "paragraphs": 8,
       "facts": 6,
       "verificationSources": 3,
@@ -171,17 +185,33 @@
       ]
     },
     {
-      "id": "live-2026-08-17-maccabi-ashdod-markis-mcduffie-signing",
-      "slug": "maccabi-ashdod-sign-markis-mcduffie-complete-import-roster",
-      "title": "Maccabi Ashdod complete import roster with signing of forward Markis McDuffie",
-      "statusBefore": "published",
-      "words": 278,
-      "paragraphs": 6,
-      "facts": 6,
-      "verificationSources": 2,
+      "id": "live-20260817-kiryat-shmona-referee-klaz-toto-cup",
+      "slug": "kiryat-shmona-referee-yoni-klaz-toto-cup-exit",
+      "title": "Kiryat Shmona blast referee Yoni Klaz after 2-1 stoppage-time defeat to Hapoel Tel Aviv",
+      "statusBefore": "review",
+      "words": 470,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
       "blockers": [],
       "warnings": [
-        "voice:publisher-attribution-heavy:2"
+        "voice:publisher-attribution-heavy:2",
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "live-20260817-mesika-twaaba-ramat-hasharon",
+      "slug": "reef-mesika-yossi-twaaba-join-hapoel-nir-ramat-hasharon",
+      "title": "Reef Mesika and Yossi Twaaba join Hapoel Nir Ramat HaSharon from Maccabi Kiryat Gat",
+      "statusBefore": "published",
+      "words": 357,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:stock-editorial-phrase-detected"
       ]
     },
     {
@@ -14108,20 +14138,20 @@
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
-    }
-  ],
-  "cleanPublished": [
+    },
     {
-      "id": "live-2026-08-17-ramat-hasharon-sign-masika-twaaba",
-      "slug": "ramat-hasharon-sign-reef-masika-yossi-twaaba",
-      "title": "Ramat Hasharon sign veteran defender Masika and prolific striker Twaaba",
-      "statusBefore": "published",
-      "words": 265,
-      "paragraphs": 6,
-      "facts": 5,
-      "verificationSources": 4,
+      "id": "live-20260817-obradovic-lands-hapoel-jerusalem",
+      "slug": "sasa-obradovic-lands-israel-hapoel-jerusalem-coach",
+      "title": "Sasa Obradovic lands in Israel to begin Hapoel Jerusalem tenure",
+      "statusBefore": "review",
+      "words": 301,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-2026-08-17-maccabi-ashdod-markis-mcduffie-signing",
@@ -14136,18 +14166,63 @@
       "warnings": [
         "voice:publisher-attribution-heavy:2"
       ]
+    }
+  ],
+  "cleanPublished": [
+    {
+      "id": "live-20260817-arsenal-man-city-community-shield-maresca",
+      "slug": "arsenal-man-city-community-shield-maresca-reaction",
+      "title": "Arsenal 3-0 Manchester City: Maresca admits he's \"always worried\" after nightmare debut",
+      "statusBefore": "published",
+      "words": 484,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
-      "id": "archive-20260817-athens-19-august-2004-the-bronze-that-ar",
-      "slug": "athens-19-august-2004-the-bronze-that-arrived-before-the-gold",
-      "title": "Athens, 19 August 2004: The Bronze That Arrived Before the Gold",
+      "id": "live-2026-08-17-bacot-maccabi-arrival",
+      "slug": "armando-bacot-maccabi-tel-aviv-fans-effort",
+      "title": "Bacot lands in Israel: 'Fans can expect a lot of effort from me'",
       "statusBefore": "published",
-      "words": 562,
+      "words": 349,
       "paragraphs": 8,
-      "facts": 9,
-      "verificationSources": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-17-yakobov-poland-double",
+      "slug": "michael-yakobov-keirin-sprint-double-grand-prix-poland",
+      "title": "Michael Yakobov completes keirin-sprint double at Grand Prix of Poland",
+      "statusBefore": "published",
+      "words": 298,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
       "blockers": [],
       "warnings": []
+    },
+    {
+      "id": "live-20260817-mesika-twaaba-ramat-hasharon",
+      "slug": "reef-mesika-yossi-twaaba-join-hapoel-nir-ramat-hasharon",
+      "title": "Reef Mesika and Yossi Twaaba join Hapoel Nir Ramat HaSharon from Maccabi Kiryat Gat",
+      "statusBefore": "published",
+      "words": 357,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:stock-editorial-phrase-detected"
+      ]
     },
     {
       "id": "live-20260817-maccabi-haifa-pedrao-novakovich",
@@ -27854,6 +27929,44 @@
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
+    },
+    {
+      "id": "live-2026-08-17-ramat-hasharon-sign-masika-twaaba",
+      "slug": "ramat-hasharon-sign-reef-masika-yossi-twaaba",
+      "title": "Ramat Hasharon sign veteran defender Masika and prolific striker Twaaba",
+      "statusBefore": "published",
+      "words": 265,
+      "paragraphs": 6,
+      "facts": 5,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-17-maccabi-ashdod-markis-mcduffie-signing",
+      "slug": "maccabi-ashdod-sign-markis-mcduffie-complete-import-roster",
+      "title": "Maccabi Ashdod complete import roster with signing of forward Markis McDuffie",
+      "statusBefore": "published",
+      "words": 278,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "archive-20260817-athens-19-august-2004-the-bronze-that-ar",
+      "slug": "athens-19-august-2004-the-bronze-that-arrived-before-the-gold",
+      "title": "Athens, 19 August 2004: The Bronze That Arrived Before the Gold",
+      "statusBefore": "published",
+      "words": 562,
+      "paragraphs": 8,
+      "facts": 9,
+      "verificationSources": 7,
+      "blockers": [],
+      "warnings": []
     }
   ]
 }
