@@ -146,8 +146,8 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-17T03:37:18Z",
-    "validUntil": "2026-08-17T15:37:18Z",
+    "checkedAt": "2026-08-17T04:15:35Z",
+    "validUntil": "2026-08-17T16:15:35Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
@@ -160,21 +160,21 @@
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-17-barcelona-city-agree-rodri-deal",
+        "articleId": "live-2026-08-17-ashdod-tribunal-postpone-afula-opener",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 686,
+        "maxAgeHours": 687,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260817-dia-saba-brace-hermash-defeat",
+        "articleId": "live-2026-08-17-gorbenko-disappointed-israel-swimming-euros",
         "maxAgeHours": 35,
         "requires": []
       },
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-17-maccabi-tel-aviv-miller-lugano-reinforcements",
+        "articleId": "live-20260817-gashau-ayale-marathon-bronze-israel-team-gold",
         "maxAgeHours": 36,
         "requires": []
       }

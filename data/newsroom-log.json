@@ -1,5 +1,58 @@
 [
   {
+    "ts": "2026-08-17T04:00:03.368Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 4,
+    "review": 0,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "raz-hershko-bronze-lima-grand-prix-souza-semifinal",
+        "title": "Raz Hershko falls to Beatriz Souza but salvages bronze at the Lima Grand Prix",
+        "confidence": 0.84,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "gashau-ayale-bronze-israel-marathon-team-gold-european-championships",
+        "title": "Gashau Ayale takes marathon bronze as Israel win team gold at European Championships",
+        "confidence": 0.9,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "gorbenko-disappointed-israel-swimming-european-championships-no-medal",
+        "title": "Gorbenko admits disappointment as Israel leaves European Championships without a medal",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "url": "https://www.one.co.il/Article/530811.html",
+        "decision": "skipped",
+        "reason": "no valid article emitted"
+      },
+      {
+        "slug": "ashdod-tribunal-postpone-afula-opener-tiberias-case",
+        "title": "Ashdod asks football's top tribunal to postpone Afula opener over Tiberias case",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-08-17T01:51:32.503Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -2876,76 +2929,6 @@
         "slug": "tamir-blatt-returns-hapoel-tel-aviv",
         "title": "Tamir Blatt returns to Hapoel Tel Aviv nine years on, but he won't play for them this season",
         "decision": "duplicate"
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-04T05:06:35.427Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 8,
-    "published": 2,
-    "review": 2,
-    "skipped": 4,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "maurice-ozen-hapoel-migdal-haemek-youth-director",
-        "title": "Sacked by Tveria, Maurice Ozen resurfaces as Migdal HaEmek's youth chief",
-        "confidence": 0.78,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Owner's name (Shlomi Ohion) and some club-side details rest on the single ONE report and could not be independently corroborated; no subject-accurate photograph could be verified on Wikimedia Commons, so commonsCandidates is empty and an image must be sourced separately before this runs."
-      },
-      {
-        "slug": "billionaire-ken-griffin-funds-pochettino-usmnt-contract",
-        "title": "The hedge fund billionaire bankrolling Pochettino's new USMNT deal",
-        "decision": "duplicate",
-        "reason": "same event as pochettino-usmnt-contract-extension-2030"
-      },
-      {
-        "slug": "maccabi-isfiya-signs-ayman-ali-atsha",
-        "title": "Maccabi Isfiya sign defender Ayman Ali Atsha ahead of Liga Bet return",
-        "confidence": 0.75,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Player name spelling and owner's name could not be independently cross-checked beyond the single ONE report; no reusable Wikimedia Commons photo could be verified as depicting this player, club or its ground, so no image is attached."
-      },
-      {
-        "slug": "vinicius-jr-agent-roc-nation-london-arsenal-speculation",
-        "title": "Vinicius Jr's agency chief flies to London amid fresh Arsenal speculation",
-        "confidence": 0.78,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "jeremy-doku-cortisone-world-cup-confession",
-        "title": "Jérémy Doku reveals he was given a banned substance during his World Cup health scare",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "hapoel-tel-aviv-agree-club-record-deal-douglas-owusu-red-star-belgrade",
-        "title": "Hapoel Tel Aviv agree club-record deal to sign Red Star winger Douglas Owusu",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "tamir-blatt-signs-hapoel-tel-aviv",
-        "title": "Tamir Blatt returns to Hapoel Tel Aviv nine years after leaving, signs three-year deal",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "new-details-emerge-legal-dispute-delaying-diomande-real-madrid-move",
-        "title": "New details emerge on the legal dispute delaying Diomande's move to Real Madrid",
-        "decision": "duplicate",
-        "reason": "same event as diomande-real-madrid-agent-dispute-delay"
       }
     ]
   }
