@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T12:02:44.816Z",
+  "generatedAt": "2026-08-17T13:28:54.618Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1463,
-    "publishedBefore": 1034,
-    "cleanPublished": 1026,
+    "totalArticles": 1468,
+    "publishedBefore": 1037,
+    "cleanPublished": 1029,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 1034,
-    "reviewAfter": 429
+    "publishedAfter": 1037,
+    "reviewAfter": 431
   },
   "blockedPublished": [
     {
@@ -156,6 +156,34 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-2026-08-17-one-fantasy-ligat-haal-new-rules",
+      "slug": "fantasy-ligat-haal-new-rules-goalkeepers-ai-pricing",
+      "title": "Fantasy football manager unveils new rules for the Ligat HaAl season: goalkeepers rewarded, AI sets prices",
+      "statusBefore": "published",
+      "words": 379,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-17-beitar-mocks-haifa-ceo-award-row",
+      "slug": "beitar-jerusalem-mocks-maccabi-haifa-ceo-presidents-award-row",
+      "title": "Beitar Jerusalem brands Maccabi Haifa's Ovadia a \"small CEO\" in awards row",
+      "statusBefore": "review",
+      "words": 401,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
     {
       "id": "live-2026-08-17-hapoel-jerusalem-reebok",
       "slug": "hapoel-jerusalem-reebok-apparel-partnership",
@@ -14301,6 +14329,44 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-17-one-fantasy-ligat-haal-new-rules",
+      "slug": "fantasy-ligat-haal-new-rules-goalkeepers-ai-pricing",
+      "title": "Fantasy football manager unveils new rules for the Ligat HaAl season: goalkeepers rewarded, AI sets prices",
+      "statusBefore": "published",
+      "words": 379,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-17-kaufman-gorbenko-injuries-europeans",
+      "slug": "kaufman-gorbenko-injuries-illness-medal-less-europeans",
+      "title": "Kaufman: Gorbenko's run of injuries and illness explains medal-less Europeans",
+      "statusBefore": "published",
+      "words": 463,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-17-omer-dahan-suspension-request",
+      "slug": "israeli-fa-seeks-immediate-suspension-omer-dahan-gambling-probe",
+      "title": "Israeli FA seeks immediate suspension of Omer Dahan over gambling probe",
+      "statusBefore": "published",
+      "words": 466,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-2026-08-17-hapoel-haifa-ashdod-fixture-dispute",
       "slug": "hapoel-haifa-fixture-anger-ashdod-tiberias-court-battle",
