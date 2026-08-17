@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T13:52:03.154Z",
+  "generatedAt": "2026-08-17T14:36:50.285Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1468,
-    "publishedBefore": 1037,
-    "cleanPublished": 1029,
+    "totalArticles": 1474,
+    "publishedBefore": 1040,
+    "cleanPublished": 1032,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 1037,
-    "reviewAfter": 431
+    "publishedAfter": 1040,
+    "reviewAfter": 434
   },
   "blockedPublished": [
     {
@@ -157,6 +157,34 @@
   ],
   "warnings": [
     {
+      "id": "live-2026-08-17-cagliari-trepy-drowning",
+      "slug": "cagliari-forward-trepy-hospitalized-after-pool-accident",
+      "title": "Cagliari forward Yael Trepy in intensive care after near-drowning in Sardinia pool",
+      "statusBefore": "published",
+      "words": 383,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-17-mma-boycott-abu-dhabi-youth-worlds",
+      "slug": "syria-lebanon-boycott-israeli-boys-mma-youth-worlds-abu-dhabi",
+      "title": "Syrian and Lebanese opponents refuse to fight Israeli boys at MMA youth world championships",
+      "statusBefore": "review",
+      "words": 393,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-2026-08-17-one-fantasy-ligat-haal-new-rules",
       "slug": "fantasy-ligat-haal-new-rules-goalkeepers-ai-pricing",
       "title": "Fantasy football manager unveils new rules for the Ligat HaAl season: goalkeepers rewarded, AI sets prices",
@@ -179,6 +207,20 @@
       "paragraphs": 8,
       "facts": 7,
       "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-17-omer-dahan-suspension-request",
+      "slug": "football-association-seeks-immediate-suspension-omer-dahan",
+      "title": "Football association seeks immediate suspension of Omer Dahan over betting scandal",
+      "statusBefore": "published",
+      "words": 355,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
       "blockers": [],
       "warnings": [
         "voice:publisher-attribution-heavy:2"
@@ -14326,9 +14368,63 @@
         "media:no-action-or-competition-context-detected",
         "voice:publisher-attribution-heavy:2"
       ]
+    },
+    {
+      "id": "live-2026-08-17-ashdod-afula-postponement-ruling",
+      "slug": "ashdod-afula-postponement-ruling",
+      "title": "Court rejects Ashdod's bid to delay National League opener against Afula",
+      "statusBefore": "review",
+      "words": 459,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-17-hapoel-petah-tikva-omer-peretz-not-a-magician",
+      "slug": "hapoel-petah-tikva-omer-peretz-not-a-magician-toto-cup-slump",
+      "title": "\"An excellent coach, but not a magician\": Hapoel Petah Tikva legend defends Omer Peretz after four straight losses",
+      "statusBefore": "published",
+      "words": 519,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-17-cagliari-trepy-drowning",
+      "slug": "cagliari-forward-trepy-hospitalized-after-pool-accident",
+      "title": "Cagliari forward Yael Trepy in intensive care after near-drowning in Sardinia pool",
+      "statusBefore": "published",
+      "words": 383,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-17-sharani-zuberu-hapoel-jerusalem-interview",
+      "slug": "sharani-zuberu-feels-blessed-hapoel-jerusalem",
+      "title": "Sharani Zuberu says he feels 'blessed' after sealing move to Hapoel Jerusalem",
+      "statusBefore": "published",
+      "words": 412,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-2026-08-17-one-fantasy-ligat-haal-new-rules",
       "slug": "fantasy-ligat-haal-new-rules-goalkeepers-ai-pricing",
@@ -14357,15 +14453,17 @@
     },
     {
       "id": "live-2026-08-17-omer-dahan-suspension-request",
-      "slug": "israeli-fa-seeks-immediate-suspension-omer-dahan-gambling-probe",
-      "title": "Israeli FA seeks immediate suspension of Omer Dahan over gambling probe",
+      "slug": "football-association-seeks-immediate-suspension-omer-dahan",
+      "title": "Football association seeks immediate suspension of Omer Dahan over betting scandal",
       "statusBefore": "published",
-      "words": 466,
-      "paragraphs": 9,
+      "words": 355,
+      "paragraphs": 8,
       "facts": 7,
-      "verificationSources": 5,
+      "verificationSources": 4,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
     },
     {
       "id": "live-2026-08-17-hapoel-haifa-ashdod-fixture-dispute",
@@ -28253,6 +28351,20 @@
       "verificationSources": 7,
       "blockers": [],
       "warnings": []
+    },
+    {
+      "id": "live-2026-08-17-hapoel-petah-tikva-omer-peretz-not-a-magician",
+      "slug": "hapoel-petah-tikva-omer-peretz-not-a-magician-toto-cup-slump",
+      "title": "\"An excellent coach, but not a magician\": Hapoel Petah Tikva legend defends Omer Peretz after four straight losses",
+      "statusBefore": "published",
+      "words": 519,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     }
   ]
 }

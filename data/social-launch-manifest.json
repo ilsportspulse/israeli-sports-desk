@@ -146,21 +146,21 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-17T13:52:02Z",
-    "validUntil": "2026-08-18T01:52:02Z",
+    "checkedAt": "2026-08-17T14:36:50Z",
+    "validUntil": "2026-08-18T02:36:50Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 689,
+        "maxAgeHours": 690,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-17-one-fantasy-ligat-haal-new-rules",
+        "articleId": "live-2026-08-17-cagliari-trepy-drowning",
         "maxAgeHours": 48,
         "requires": []
       },
@@ -174,14 +174,14 @@
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-17-omer-dahan-suspension-request",
+        "articleId": "live-2026-08-17-sharani-zuberu-hapoel-jerusalem-interview",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 707,
+        "maxAgeHours": 708,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-17-hapoel-haifa-ashdod-fixture-dispute",
+        "articleId": "live-2026-08-17-omer-dahan-suspension-request",
         "maxAgeHours": 36,
         "requires": []
       }
