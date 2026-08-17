@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T13:50:33.927Z",
+  "generatedAt": "2026-08-17T13:52:03.732Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,7 +11,7 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1036,
+    "publishedArticles": 1037,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
@@ -24,8 +24,8 @@
       "5": 10,
       "6": 49,
       "7": 148,
-      "8": 306,
-      "9": 245,
+      "8": 304,
+      "9": 248,
       "10": 171,
       "11": 43,
       "12": 13,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.295,
+    "dominantParagraphShare": 0.293,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 49,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 178
+    "articlesWithStyleFlags": 177
   },
   "flagged": [
     {
@@ -327,29 +327,6 @@
       "publisherAttributions": 2,
       "flags": [
         "below-editorial-target:227/280",
-        "publisher-attribution-heavy:2"
-      ]
-    },
-    {
-      "id": "live-2026-08-17-omer-dahan-suspension-request",
-      "slug": "football-association-seeks-immediate-suspension-omer-dahan",
-      "title": "Football association seeks immediate suspension of Omer Dahan over betting scandal",
-      "kind": "news",
-      "words": 354,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 25,
-        "longest": 55,
-        "average": 44.3
-      },
-      "sentenceWords": {
-        "shortest": 12,
-        "longest": 43,
-        "average": 29.5
-      },
-      "lexicalDiversity": 0.588,
-      "publisherAttributions": 2,
-      "flags": [
         "publisher-attribution-heavy:2"
       ]
     },
@@ -4151,24 +4128,66 @@
   ],
   "clean": [
     {
-      "id": "live-2026-08-17-hapoel-petah-tikva-omer-peretz-not-a-magician",
-      "slug": "hapoel-petah-tikva-omer-peretz-not-a-magician-toto-cup-slump",
-      "title": "\"An excellent coach, but not a magician\": Hapoel Petah Tikva legend defends Omer Peretz after four straight losses",
-      "kind": "news",
-      "words": 515,
-      "paragraphs": 8,
+      "id": "live-2026-08-17-one-fantasy-ligat-haal-new-rules",
+      "slug": "fantasy-ligat-haal-new-rules-goalkeepers-ai-pricing",
+      "title": "Fantasy football manager unveils new rules for the Ligat HaAl season: goalkeepers rewarded, AI sets prices",
+      "kind": "article",
+      "words": 375,
+      "paragraphs": 9,
       "paragraphWords": {
-        "shortest": 51,
-        "longest": 91,
-        "average": 64.4
+        "shortest": 34,
+        "longest": 54,
+        "average": 41.7
       },
       "sentenceWords": {
-        "shortest": 5,
-        "longest": 61,
-        "average": 28.6
+        "shortest": 9,
+        "longest": 45,
+        "average": 28.8
       },
-      "lexicalDiversity": 0.584,
+      "lexicalDiversity": 0.619,
       "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-17-kaufman-gorbenko-injuries-europeans",
+      "slug": "kaufman-gorbenko-injuries-illness-medal-less-europeans",
+      "title": "Kaufman: Gorbenko's run of injuries and illness explains medal-less Europeans",
+      "kind": "news",
+      "words": 465,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 32,
+        "longest": 66,
+        "average": 51.7
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 89,
+        "average": 33.2
+      },
+      "lexicalDiversity": 0.572,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-17-omer-dahan-suspension-request",
+      "slug": "israeli-fa-seeks-immediate-suspension-omer-dahan-gambling-probe",
+      "title": "Israeli FA seeks immediate suspension of Omer Dahan over gambling probe",
+      "kind": "news",
+      "words": 467,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 62,
+        "average": 51.9
+      },
+      "sentenceWords": {
+        "shortest": 16,
+        "longest": 53,
+        "average": 35.9
+      },
+      "lexicalDiversity": 0.567,
+      "publisherAttributions": 1,
       "flags": []
     },
     {
