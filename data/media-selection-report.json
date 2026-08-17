@@ -1,16 +1,16 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-08-17-cagliari-trepy-drowning",
-      "article": "Cagliari forward Yael Trepy in intensive care after near-drowning in Sardinia pool",
-      "file": "File:Unipol Domus interior.jpg",
+      "articleId": "live-2026-08-17-man-utd-bruno-fernandes-stay",
+      "article": "Manchester United reject all offers for Bruno Fernandes",
+      "file": "File:Manchester United v Liverpool, 22 August 2022 (01).jpg",
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-2026-08-17-mma-boycott-abu-dhabi-youth-worlds",
-      "article": "Syrian and Lebanese opponents refuse to fight Israeli boys at MMA youth world championships",
-      "file": "File:SM Caen Tifo 15 ans du MNK.jpg",
-      "license": "CC BY-SA 3.0"
+      "articleId": "live-2026-08-17-beitar-ramat-gan-toto-lineups",
+      "article": "Atzili and Ansah handed starts as Beitar Jerusalem's attack faces Ramat Gan in Toto Cup playoff",
+      "file": "File:Statues in Ramat Gan, May 2024 13.jpg",
+      "license": "CC BY-SA 4.0"
     },
     {
       "articleId": "live-20260815-liebmann-1500m-freestyle-world-record",
@@ -21,13 +21,13 @@
     {
       "articleId": "live-2026-08-13-adva-cohen-steeplechase-10th",
       "article": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
-      "file": "File:20220814 European Championships Munich 2022 Ľubomír Pištej 850 3618.jpg",
+      "file": "File:20220817 European Championships Munich 2022 Tania Moreno Matveeva 850 7683.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
       "articleId": "live-20260802-israel-fifth-mixed-duet-technical-paris",
       "article": "Israel take fifth in mixed duet technical final at European Championships in Paris",
-      "file": "File:20220817 European Championships Munich 2022 Tania Moreno Matveeva 850 7683.jpg",
+      "file": "File:20220814 European Championships Munich 2022 Ľubomír Pištej 850 3618.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
@@ -41,13 +41,20 @@
       "article": "Adam Ramsay-Peaty questions it all after bitter Commonwealth bronze",
       "file": "File:Adam Peaty Olympics 100m breaststroke 2016.jpg",
       "license": "CC BY 3.0 br"
+    },
+    {
+      "articleId": "live-20260714-basketball-coaches-registration",
+      "article": "Israeli basketball coaches demand freeze on registration overhaul",
+      "query": "Israel basketball coach team",
+      "file": "File:Oded Katash Hapoel Eilat.jpg",
+      "license": "CC BY-SA 4.0"
     }
   ],
   "failures": [
     {
-      "id": "live-2026-08-17-sharani-zuberu-hapoel-jerusalem-interview",
-      "title": "Sharani Zuberu says he feels 'blessed' after sealing move to Hapoel Jerusalem",
-      "error": "image download 429 after retries"
+      "id": "live-2026-08-17-referee-assignments-ligat-haal-round-1",
+      "title": "Gal Levi to referee Maccabi Tel Aviv's league opener, Biran takes charge at Maccabi Haifa",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {
       "id": "live-2026-08-17-national-youth-league-fixtures",
@@ -268,11 +275,6 @@
       "id": "live-20260722-bnei-eilat-youth-b-champions",
       "title": "Bnei Eilat's Youth B Side Go Unbeaten to Win Southern District Title",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
-    },
-    {
-      "id": "live-20260714-basketball-coaches-registration",
-      "title": "Israeli basketball coaches demand freeze on registration overhaul",
-      "error": "image download 429 after retries"
     },
     {
       "id": "live-2026-08-01-kaufman-gorbenko-2028-olympic-plan",

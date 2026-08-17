@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T15:12:24.899Z",
+  "generatedAt": "2026-08-17T16:06:24.887Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,12 +17,12 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1474,
-    "publishedBefore": 1040,
-    "cleanPublished": 1032,
+    "totalArticles": 1477,
+    "publishedBefore": 1043,
+    "cleanPublished": 1035,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 1040,
+    "publishedAfter": 1043,
     "reviewAfter": 434
   },
   "blockedPublished": [
@@ -156,6 +156,36 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-2026-08-17-man-utd-bruno-fernandes-stay",
+      "slug": "manchester-united-reject-all-offers-bruno-fernandes",
+      "title": "Manchester United reject all offers for Bruno Fernandes",
+      "statusBefore": "published",
+      "words": 382,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-17-beitar-ramat-gan-toto-lineups",
+      "slug": "atzili-ansah-start-beitar-jerusalem-toto-cup-ramat-gan",
+      "title": "Atzili and Ansah handed starts as Beitar Jerusalem's attack faces Ramat Gan in Toto Cup playoff",
+      "statusBefore": "published",
+      "words": 353,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-08-17-cagliari-trepy-drowning",
       "slug": "cagliari-forward-trepy-hospitalized-after-pool-accident",
@@ -14399,6 +14429,48 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-17-referee-assignments-ligat-haal-round-1",
+      "slug": "gal-levi-omer-biran-referee-assignments-ligat-haal-opener",
+      "title": "Gal Levi to referee Maccabi Tel Aviv's league opener, Biran takes charge at Maccabi Haifa",
+      "statusBefore": "published",
+      "words": 219,
+      "paragraphs": 6,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-17-man-utd-bruno-fernandes-stay",
+      "slug": "manchester-united-reject-all-offers-bruno-fernandes",
+      "title": "Manchester United reject all offers for Bruno Fernandes",
+      "statusBefore": "published",
+      "words": 382,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-17-beitar-ramat-gan-toto-lineups",
+      "slug": "atzili-ansah-start-beitar-jerusalem-toto-cup-ramat-gan",
+      "title": "Atzili and Ansah handed starts as Beitar Jerusalem's attack faces Ramat Gan in Toto Cup playoff",
+      "statusBefore": "published",
+      "words": 353,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-08-17-cagliari-trepy-drowning",
       "slug": "cagliari-forward-trepy-hospitalized-after-pool-accident",

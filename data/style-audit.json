@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T15:12:25.479Z",
+  "generatedAt": "2026-08-17T16:06:25.386Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,19 +11,19 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1040,
+    "publishedArticles": 1043,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 419,
-      "average": 423.1
+      "median": 418,
+      "average": 422.8
     },
     "paragraphDistribution": {
       "3": 35,
       "4": 6,
       "5": 10,
-      "6": 49,
-      "7": 148,
+      "6": 50,
+      "7": 150,
       "8": 308,
       "9": 247,
       "10": 171,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.296,
+    "dominantParagraphShare": 0.295,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 49,
+    "exactSixParagraphArticles": 50,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 178
+    "articlesWithStyleFlags": 179
   },
   "flagged": [
     {
@@ -328,6 +328,29 @@
       "flags": [
         "below-editorial-target:227/280",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-17-referee-assignments-ligat-haal-round-1",
+      "slug": "gal-levi-omer-biran-referee-assignments-ligat-haal-opener",
+      "title": "Gal Levi to referee Maccabi Tel Aviv's league opener, Biran takes charge at Maccabi Haifa",
+      "kind": "news",
+      "words": 218,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 24,
+        "longest": 50,
+        "average": 36.3
+      },
+      "sentenceWords": {
+        "shortest": 24,
+        "longest": 50,
+        "average": 36.3
+      },
+      "lexicalDiversity": 0.596,
+      "publisherAttributions": 1,
+      "flags": [
+        "below-editorial-target:218/280"
       ]
     },
     {
@@ -4150,6 +4173,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-17-man-utd-bruno-fernandes-stay",
+      "slug": "manchester-united-reject-all-offers-bruno-fernandes",
+      "title": "Manchester United reject all offers for Bruno Fernandes",
+      "kind": "transfer",
+      "words": 381,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 85,
+        "average": 54.4
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 44,
+        "average": 27.2
+      },
+      "lexicalDiversity": 0.614,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-17-beitar-ramat-gan-toto-lineups",
+      "slug": "atzili-ansah-start-beitar-jerusalem-toto-cup-ramat-gan",
+      "title": "Atzili and Ansah handed starts as Beitar Jerusalem's attack faces Ramat Gan in Toto Cup playoff",
+      "kind": "news",
+      "words": 353,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 29,
+        "longest": 70,
+        "average": 50.4
+      },
+      "sentenceWords": {
+        "shortest": 17,
+        "longest": 60,
+        "average": 39.2
+      },
+      "lexicalDiversity": 0.615,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-17-cagliari-trepy-drowning",
       "slug": "cagliari-forward-trepy-hospitalized-after-pool-accident",
