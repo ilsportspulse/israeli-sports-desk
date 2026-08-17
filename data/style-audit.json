@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T10:52:44.734Z",
+  "generatedAt": "2026-08-17T11:28:09.106Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1031,
+    "publishedArticles": 1034,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 419,
-      "average": 422.9
+      "average": 423.1
     },
     "paragraphDistribution": {
       "3": 35,
@@ -25,9 +25,9 @@
       "6": 49,
       "7": 148,
       "8": 304,
-      "9": 244,
-      "10": 170,
-      "11": 42,
+      "9": 245,
+      "10": 171,
+      "11": 43,
       "12": 13,
       "13": 4,
       "14": 2,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.295,
+    "dominantParagraphShare": 0.294,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 49,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 175
+    "articlesWithStyleFlags": 177
   },
   "flagged": [
     {
@@ -328,6 +328,52 @@
       "flags": [
         "below-editorial-target:227/280",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-17-hapoel-haifa-ashdod-fixture-dispute",
+      "slug": "hapoel-haifa-fixture-anger-ashdod-tiberias-court-battle",
+      "title": "Hapoel Haifa's fixture anger and Ashdod's court fight over the Tiberias case roil Israeli football",
+      "kind": "news",
+      "words": 511,
+      "paragraphs": 11,
+      "paragraphWords": {
+        "shortest": 29,
+        "longest": 67,
+        "average": 46.5
+      },
+      "sentenceWords": {
+        "shortest": 2,
+        "longest": 55,
+        "average": 34.1
+      },
+      "lexicalDiversity": 0.573,
+      "publisherAttributions": 2,
+      "flags": [
+        "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-17-presidents-award-maccabi-haifa-beitar-dispute",
+      "slug": "presidents-award-committee-drama-maccabi-haifa-beitar-jerusalem",
+      "title": "Maccabi Haifa fumes after late committee U-turn hands President's Award to Beitar Jerusalem",
+      "kind": "news",
+      "words": 522,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 93,
+        "average": 52.2
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 64,
+        "average": 32.6
+      },
+      "lexicalDiversity": 0.573,
+      "publisherAttributions": 1,
+      "flags": [
+        "stock-phrase:remains-to-be-seen"
       ]
     },
     {
@@ -4081,6 +4127,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-17-hapoel-beer-sheva-bucharest-sabah-fans",
+      "slug": "hapoel-beer-sheva-bucharest-sabah-champions-league-fans",
+      "title": "Hapoel Be'er Sheva land in Bucharest as over 900 fans follow for Champions League playoff opener",
+      "kind": "match-preview",
+      "words": 497,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 70,
+        "average": 55.2
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 53,
+        "average": 29.2
+      },
+      "lexicalDiversity": 0.517,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-20260817-hapoel-afula-ashdod-petition",
       "slug": "hapoel-afula-ashdod-petition-supreme-tribunal",
