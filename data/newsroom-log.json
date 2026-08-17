@@ -2898,5 +2898,45 @@
         "decision": "duplicate"
       }
     ]
+  },
+  {
+    "ts": "2026-08-17T07:24:30.439Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 3,
+    "published": 3,
+    "review": 0,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "maccabi-ashdod-sign-markis-mcduffie-complete-import-roster",
+        "title": "Maccabi Ashdod complete import roster with signing of forward Markis McDuffie",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "sasa-obradovic-lands-israel-hapoel-jerusalem-coach",
+        "title": "Sasa Obradovic lands in Israel to begin Hapoel Jerusalem tenure",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "ramat-hasharon-sign-reef-masika-yossi-twaaba",
+        "title": "Ramat Hasharon sign veteran defender Masika and prolific striker Twaaba",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
   }
 ]

@@ -146,21 +146,21 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-17T07:16:36Z",
-    "validUntil": "2026-08-17T19:16:36Z",
+    "checkedAt": "2026-08-17T07:36:43Z",
+    "validUntil": "2026-08-17T19:36:43Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 682,
+        "maxAgeHours": 683,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260817-arsenal-man-city-community-shield-maresca",
+        "articleId": "live-2026-08-17-ramat-hasharon-sign-masika-twaaba",
         "maxAgeHours": 48,
         "requires": []
       },
@@ -174,14 +174,14 @@
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-17-bacot-maccabi-arrival",
+        "articleId": "archive-20260817-athens-19-august-2004-the-bronze-that-ar",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 700,
+        "maxAgeHours": 701,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260817-mesika-twaaba-ramat-hasharon",
+        "articleId": "live-20260817-maccabi-haifa-pedrao-novakovich",
         "maxAgeHours": 36,
         "requires": []
       }

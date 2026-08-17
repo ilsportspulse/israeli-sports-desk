@@ -1,67 +1,67 @@
 {
-  "date": "2026-08-15",
+  "date": "2026-08-17",
   "title": "The Daily Five",
-  "dek": "Five questions from this week's verified Israel Sports Pulse coverage — taekwondo history, a European away night, and Rodri's rare treble.",
+  "dek": "Five questions from this week's Israeli sports headlines, spanning Olympic history, basketball, football and Israelis abroad.",
   "questions": [
     {
-      "question": "In her bronze-medal match at the Tokyo 2020 Olympics, which fighter did Avishag Semberg beat 27-22 to win Israel's first-ever taekwondo medal?",
+      "question": "Who did Ariel \"Arik\" Ze'evi defeat by ippon to win Israel's first medal of the Athens 2004 Olympics?",
       "answers": [
-        "Rukiye Yıldırım (Turkey)",
-        "Panipak Wongpattanakit (Thailand)",
-        "Trương Thị Kim Tuyền (Vietnam)",
-        "Ellen Walshe (Ireland)"
+        "Elco van der Geest (Netherlands)",
+        "Jang Sung-ho (South Korea)",
+        "Franck Martial Moussima (Cameroon)",
+        "Ghislain Lemaire (France)"
       ],
       "correctIndex": 0,
-      "explanation": "Semberg beat Turkey's Rukiye Yıldırım 27-22 in the bronze medal match, giving Israel its first medal of the Tokyo Games and its first Olympic taekwondo medal.",
-      "sourceUrl": "https://www.timesofisrael.com/first-tokyo-medal-avishag-semberg-takes-taekwondo-bronze-israels-1st-in-sport/"
+      "explanation": "Ze'evi beat Dutch judoka Elco van der Geest by ippon in the men's 100kg bronze-medal contest at Ano Liossia Olympic Hall on 19 August 2004.",
+      "sourceUrl": "https://www.olympicsil.co.il/en/arik-zeevi-bronze-medal-athens-2004/?lang=en"
     },
     {
-      "question": "Hapoel Tel Aviv advanced 3-2 on aggregate past GKS Katowice to reach the Conference League play-off round. Who do they face next, and where is the first leg played?",
+      "question": "Which NBA team originally drafted new Hapoel Jerusalem signing David Roddy 23rd overall in 2022, before trading him on draft night?",
       "answers": [
-        "Atalanta, first leg in Bergamo",
-        "Al-Hilal, first leg in Riyadh",
-        "Atlético Madrid, first leg in Madrid",
-        "PSG, first leg in Paris"
+        "Memphis Grizzlies",
+        "Philadelphia 76ers",
+        "Phoenix Suns",
+        "Denver Nuggets"
       ],
-      "correctIndex": 0,
-      "explanation": "Hapoel Tel Aviv advanced to face Atalanta in the play-off round, with the first leg on August 20 in Bergamo and the return leg in Miskolc, Hungary.",
-      "sourceUrl": "https://www.one.co.il/Article/530654.html"
+      "correctIndex": 1,
+      "explanation": "Roddy was picked 23rd overall by Philadelphia in the 2022 NBA draft and traded to Memphis that same night.",
+      "sourceUrl": "https://www.one.co.il/Article/530785.html"
     },
     {
-      "question": "Rodri became the 11th player in football history to win the World Cup, the Champions League and which other honour?",
+      "question": "Who scored the only goal as Maccabi Tel Aviv beat Maccabi Netanya 1-0 to reach the Toto Cup final?",
       "answers": [
-        "The Ballon d'Or",
-        "The European Golden Shoe",
-        "The Copa America",
-        "The Euro title"
+        "Helio Varela",
+        "Kenny Miller",
+        "Dia Saba",
+        "Gabi Kanichowsky"
       ],
       "correctIndex": 0,
-      "explanation": "Rodri had already won the Champions League with Manchester City (2023) and the Ballon d'Or (2024) before Spain's 2026 World Cup win completed the rare treble.",
-      "sourceUrl": "https://www.one.co.il/Article/530082.html"
+      "explanation": "Helio Varela scored in the 17th minute to send Maccabi Tel Aviv into a Toto Cup final derby against Hapoel Tel Aviv.",
+      "sourceUrl": "https://www.one.co.il/Article/530805.html"
     },
     {
-      "question": "What height did Yonathan Kapitolnik clear to finish tied for fifth in the men's high jump final at the 2026 European Athletics Championships in Birmingham?",
+      "question": "Playing abroad, which Turkish Süper Lig club did Dia Saba score twice for in a 3-0 win over Erzurumspor?",
       "answers": [
-        "2.23m",
-        "2.27m",
-        "2.30m",
-        "2.32m"
+        "Amedspor",
+        "Rapid Wien",
+        "Grazer AK",
+        "Galatasaray"
       ],
       "correctIndex": 0,
-      "explanation": "Kapitolnik cleared 2.23m to share fifth place, missing out on bronze after failing all three attempts at 2.27m.",
-      "sourceUrl": "https://www.one.co.il/Article/530628.html"
+      "explanation": "Saba scored twice (53', 62') for Amedspor, who are playing their first-ever season in Turkey's top flight.",
+      "sourceUrl": "https://www.one.co.il/Article/530798.html"
     },
     {
-      "question": "Anastasia Gorbenko posted the fastest time in the women's 200m individual medley heats at the 2026 European Aquatics Championships in Paris. What was her time?",
+      "question": "What time did Gashau Ayale run to take individual marathon bronze at the 2026 European Athletics Championships in Birmingham?",
       "answers": [
-        "2:11.87",
-        "2:12.12",
-        "2:12.23",
-        "2:12.45"
+        "2:09:11",
+        "2:09:18",
+        "2:09:21",
+        "2:09:31"
       ],
-      "correctIndex": 0,
-      "explanation": "Gorbenko led all qualifiers into the final in 2:11.87, just ahead of Ireland's Ellen Walshe at 2:12.12.",
-      "sourceUrl": "https://www.one.co.il/Article/530631.html"
+      "correctIndex": 2,
+      "explanation": "Ayale finished in 2:09:21 for individual bronze, and combined with teammates Tadesse Getahon and Haimro Alame for team gold.",
+      "sourceUrl": "https://www.one.co.il/Article/530819.html"
     }
   ]
 }
