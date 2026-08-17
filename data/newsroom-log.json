@@ -2645,5 +2645,61 @@
         "reason": ""
       }
     ]
+  },
+  {
+    "ts": "2026-08-17T16:12:10.633Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 3,
+    "review": 2,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "beitar-jerusalem-hapoel-ramat-gan-toto-cup-playoff-preview",
+        "title": "Atzili and new signing Ansah set to lead Beitar's attack in Toto Cup playoff at Ramat Gan",
+        "confidence": 0.78,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "manchester-united-reject-offers-bruno-fernandes",
+        "title": "Manchester United rule out any Bruno Fernandes sale this summer",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "gal-levi-omer-biran-referees-ligat-haal-opening-round",
+        "title": "Gal Levi to referee Maccabi Tel Aviv, Omer Biran gets Maccabi Haifa in Ligat Ha'al opener",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "leumit-captains-survey-promotion-relegation-picks",
+        "title": "Bnei Yehuda and Ashdod named favourites as Leumit captains give their season verdict",
+        "confidence": 0.68,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Single-source feature; several captains' names are phonetic transliterations from Hebrew/Arabic script as rendered by automated page extraction and were not individually cross-checked against club registries, so exact Latin spellings may vary slightly."
+      },
+      {
+        "slug": "israel-marathon-team-european-gold-homecoming",
+        "title": "Marathon medals prove Israel has a strong team, Ayale says after European gold",
+        "confidence": 0.82,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Transliteration of Getahon and Alemayehu's names varies across outlets (also seen as Getahun/Alemaya); exact individual times for 5th and 8th place are consistent across two sources but not independently confirmed by a results authority."
+      }
+    ]
   }
 ]

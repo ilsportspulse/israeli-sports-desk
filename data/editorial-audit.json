@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T16:06:24.887Z",
+  "generatedAt": "2026-08-17T16:27:58.051Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1477,
+    "totalArticles": 1479,
     "publishedBefore": 1043,
     "cleanPublished": 1035,
     "blockedPublished": 8,
     "demoted": 0,
     "publishedAfter": 1043,
-    "reviewAfter": 434
+    "reviewAfter": 436
   },
   "blockedPublished": [
     {
@@ -157,32 +157,58 @@
   ],
   "warnings": [
     {
-      "id": "live-2026-08-17-man-utd-bruno-fernandes-stay",
-      "slug": "manchester-united-reject-all-offers-bruno-fernandes",
-      "title": "Manchester United reject all offers for Bruno Fernandes",
-      "statusBefore": "published",
-      "words": 382,
-      "paragraphs": 7,
+      "id": "live-2026-08-17-israel-marathon-team-europe-gold-homecoming",
+      "slug": "israel-marathon-team-european-gold-homecoming",
+      "title": "Marathon medals prove Israel has a strong team, Ayale says after European gold",
+      "statusBefore": "review",
+      "words": 444,
+      "paragraphs": 9,
       "facts": 7,
-      "verificationSources": 2,
+      "verificationSources": 4,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline",
         "media:no-action-or-competition-context-detected"
       ]
     },
     {
-      "id": "live-2026-08-17-beitar-ramat-gan-toto-lineups",
-      "slug": "atzili-ansah-start-beitar-jerusalem-toto-cup-ramat-gan",
-      "title": "Atzili and Ansah handed starts as Beitar Jerusalem's attack faces Ramat Gan in Toto Cup playoff",
+      "id": "live-2026-08-17-leumit-captains-survey",
+      "slug": "leumit-captains-survey-promotion-relegation-picks",
+      "title": "Bnei Yehuda and Ashdod named favourites as Leumit captains give their season verdict",
+      "statusBefore": "review",
+      "words": 546,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-08-17-man-utd-bruno-fernandes-stay",
+      "slug": "manchester-united-reject-offers-bruno-fernandes",
+      "title": "Manchester United rule out any Bruno Fernandes sale this summer",
       "statusBefore": "published",
-      "words": 353,
-      "paragraphs": 7,
+      "words": 421,
+      "paragraphs": 9,
+      "facts": 5,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-08-17-beitar-hapoel-ramat-gan-toto-cup-preview",
+      "slug": "beitar-jerusalem-hapoel-ramat-gan-toto-cup-playoff-preview",
+      "title": "Atzili and new signing Ansah set to lead Beitar's attack in Toto Cup playoff at Ramat Gan",
+      "statusBefore": "published",
+      "words": 275,
+      "paragraphs": 6,
       "facts": 6,
       "verificationSources": 5,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline",
         "media:no-action-or-competition-context-detected"
       ]
     },
@@ -14430,44 +14456,42 @@
   ],
   "cleanPublished": [
     {
-      "id": "live-2026-08-17-referee-assignments-ligat-haal-round-1",
-      "slug": "gal-levi-omer-biran-referee-assignments-ligat-haal-opener",
-      "title": "Gal Levi to referee Maccabi Tel Aviv's league opener, Biran takes charge at Maccabi Haifa",
+      "id": "live-2026-08-17-ligat-haal-round-one-referees",
+      "slug": "gal-levi-omer-biran-referees-ligat-haal-opening-round",
+      "title": "Gal Levi to referee Maccabi Tel Aviv, Omer Biran gets Maccabi Haifa in Ligat Ha'al opener",
       "statusBefore": "published",
-      "words": 219,
-      "paragraphs": 6,
-      "facts": 7,
-      "verificationSources": 2,
+      "words": 317,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
       "blockers": [],
       "warnings": []
     },
     {
       "id": "live-2026-08-17-man-utd-bruno-fernandes-stay",
-      "slug": "manchester-united-reject-all-offers-bruno-fernandes",
-      "title": "Manchester United reject all offers for Bruno Fernandes",
+      "slug": "manchester-united-reject-offers-bruno-fernandes",
+      "title": "Manchester United rule out any Bruno Fernandes sale this summer",
       "statusBefore": "published",
-      "words": 382,
-      "paragraphs": 7,
-      "facts": 7,
+      "words": 421,
+      "paragraphs": 9,
+      "facts": 5,
       "verificationSources": 2,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline",
-        "media:no-action-or-competition-context-detected"
+        "presentation:outlet-name-in-headline"
       ]
     },
     {
-      "id": "live-2026-08-17-beitar-ramat-gan-toto-lineups",
-      "slug": "atzili-ansah-start-beitar-jerusalem-toto-cup-ramat-gan",
-      "title": "Atzili and Ansah handed starts as Beitar Jerusalem's attack faces Ramat Gan in Toto Cup playoff",
+      "id": "live-2026-08-17-beitar-hapoel-ramat-gan-toto-cup-preview",
+      "slug": "beitar-jerusalem-hapoel-ramat-gan-toto-cup-playoff-preview",
+      "title": "Atzili and new signing Ansah set to lead Beitar's attack in Toto Cup playoff at Ramat Gan",
       "statusBefore": "published",
-      "words": 353,
-      "paragraphs": 7,
+      "words": 275,
+      "paragraphs": 6,
       "facts": 6,
       "verificationSources": 5,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline",
         "media:no-action-or-competition-context-detected"
       ]
     },
