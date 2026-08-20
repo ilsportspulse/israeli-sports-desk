@@ -146,49 +146,49 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-20T22:57:49Z",
-    "validUntil": "2026-08-21T10:57:49Z",
+    "checkedAt": "2026-08-20T23:47:36Z",
+    "validUntil": "2026-08-21T11:47:36Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 770,
+        "maxAgeHours": 771,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-20-djokovic-vaccine-documentary",
+        "articleId": "live-2026-08-20-bergamo-fireworks-seizure-hapoel-fans",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 778,
+        "maxAgeHours": 779,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-20-south-korea-referee-bribery-scandal",
+        "articleId": "live-20260820-sarri-hapoel-tel-aviv-physical-edge",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 788,
+        "maxAgeHours": 789,
         "requires": [
           "column"
         ]
       },
       {
         "role": "archive",
-        "articleId": "archive-20260817-athens-19-august-2004-the-bronze-that-ar",
+        "articleId": "archive-20260820-le-n-20-october-1968-the-draw-from-a-som",
         "maxAgeHours": 156,
         "requires": [
           "historical-feature"
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-20-steven-bradbury-unexpected-olympic-gold",
+        "articleId": "live-2026-08-20-djokovic-vaccine-documentary",
         "maxAgeHours": 36,
         "requires": []
       }

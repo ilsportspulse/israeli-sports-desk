@@ -1,5 +1,45 @@
 [
   {
+    "ts": "2026-08-20T23:33:04.248Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 3,
+    "published": 2,
+    "review": 1,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "rayo-vallecano-alaves-1-1-mariano-diaz-late-equaliser",
+        "title": "Rayo Vallecano 1-1 Alavés: Mariano Díaz strikes late in Rayo's Butarque exile",
+        "confidence": 0.85,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "below gate thresholds"
+      },
+      {
+        "slug": "sarri-admits-hapoel-tel-aviv-outmuscled-atalanta",
+        "title": "Atalanta 0-0 Hapoel Tel Aviv: Sarri admits the Israelis had the physical edge",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "bergamo-police-seize-fireworks-israeli-fans-atalanta-hapoel-tel-aviv",
+        "title": "Italian police seize 45kg of fireworks from two Israeli fans before Atalanta clash",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-08-20T19:18:24.656Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -2518,246 +2558,6 @@
       {
         "slug": "roony-bardghji-acl-tear-barcelona-six-months",
         "title": "Barcelona winger Roony Bardghji ruptures ACL again, faces up to seven months out",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-10T22:46:03.111Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 8,
-    "published": 4,
-    "review": 3,
-    "skipped": 1,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "rehovot-maccabi-shaarayim-hapoel-marmorek-merger-memorandum",
-        "title": "Rehovot finalises merger of Maccabi Shaarayim and Hapoel Marmorek",
-        "confidence": 0.82,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Final Israel Football Association approval was still pending at time of writing (expected by Thursday), and the merged club's settled name is unclear — ONE calls it \"Maccabi Rehovot\" while Ynet's earlier report called it \"Ironi Rehovot\"/\"M.K. Rehovot\"."
-      },
-      {
-        "slug": "barzelay-reaches-200m-backstroke-final-loktev-israeli-record",
-        "title": "Barzelay reaches 200m backstroke final as Loktev sets Israeli record in relay's 7th-place finish",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "manor-solomon-west-ham-consistency",
-        "title": "Manor Solomon vows to be more consistent as he seals West Ham move from Tottenham",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "patty-mills-asvel-villeurbanne-signing",
-        "title": "Patty Mills signs with ASVEL Villeurbanne, reuniting with Tony Parker",
-        "confidence": 0.9,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "barcelona-lautaro-martinez-alternative-julian-alvarez",
-        "title": "Barcelona line up Lautaro Martinez as backup if Julián Álvarez deal collapses",
-        "confidence": 0.8,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "maccabi-haifa-summer-changes-question-marks",
-        "title": "Changes and plenty of question marks: Maccabi Haifa's summer of upheaval",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "dafe-steipman-toto-cup-youth-records",
-        "title": "Dafé tops youth scoring, Steipman leads the minutes as Toto Cup group stage wraps",
-        "confidence": 0.8,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "below gate thresholds"
-      },
-      {
-        "slug": "hapoel-petah-tikva-sign-youth-winger-namani-goalkeeper-kleinman",
-        "title": "Hapoel Petah Tikva strengthen youth squad with winger Namani and goalkeeper Kleinman",
-        "confidence": 0.75,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Single-source report (ONE); player name transliterations could not be cross-checked against the Israel Football Association registry, which was inaccessible during verification."
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-20T19:54:12.943Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 2,
-    "review": 3,
-    "skipped": 0,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "ramat-hasharon-beat-ashdod-extra-time-state-cup",
-        "title": "Hapoel Ramat HaSharon 2-1 Maccabi Ironi Ashdod (AET): late double sends hosts into State Cup's fifth round",
-        "confidence": 0.78,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "below gate thresholds"
-      },
-      {
-        "slug": "kanichowsky-cameo-ferencvaros-win-trabzonspor-europa-league-playoff",
-        "title": "Trabzonspor 0-1 Ferencváros: Kanichowsky's 29-minute cameo helps see out first-leg win",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "ms-ashdod-hapoel-jerusalem-youth-league-5-1",
-        "title": "M.S. Ashdod thrash Hapoel Jerusalem 5-1 to open youth season with two wins",
-        "confidence": 0.72,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Youth-league fixture with a single available source; the spelling of one scorer's name (Mayssara Abu Balal) could not be independently confirmed against a roster."
-      },
-      {
-        "slug": "kerem-ashkenazi-signs-galil-elyon",
-        "title": "Youth international Kerem Ashkenazi returns north to sign with Galil Elyon",
-        "confidence": 0.8,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "maccabi-tel-aviv-edge-hapoel-tel-aviv-womens-derby-athena-cup",
-        "title": "Maccabi Tel Aviv beat Hapoel Tel Aviv 2-1 as Athena Cup women's derby returns after 24 years",
-        "confidence": 0.72,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Several scorer names (Motzarela, Burges, Almatzri, da Silva Gomes) are transliterated from a single Hebrew report and not cross-checked against an official squad list, so spellings may be imprecise; no correctly-identified photo of this fixture, these clubs' women's sides or the Yavne venue could be verified on Wikimedia Commons, so no image is included."
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-20T20:31:44.017Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 2,
-    "review": 2,
-    "skipped": 1,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "hapoel-ramat-hasharon-beat-ashdod-extra-time-state-cup",
-        "title": "Hapoel Nir Ramat Hasharon beat Maccabi Ironi Ashdod 2-1 in extra time to open State Cup campaign",
-        "confidence": 0.75,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Player-name transliterations (Tawaba, Madyol, Zilberman) and the next opponent's full name (\"MK Jerusalem\") are taken directly from the single ONE report and were not individually cross-checked in a player registry; the core result, scorers and coaching detail are corroborated."
-      },
-      {
-        "slug": "kanikovsky-ferencvaros-win-trabzonspor-europa-league-playoff",
-        "title": "Trabzonspor 0-1 Ferencváros: Kanikovsky handed late cameo in Europa League play-off win",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "url": "https://www.one.co.il/Article/531160.html",
-        "decision": "skipped",
-        "reason": "no valid article emitted"
-      },
-      {
-        "slug": "karem-ashkenazi-returns-galil-elyon",
-        "title": "Karem Ashkenazi returns to Hapoel Galil Elyon on long-term deal",
-        "confidence": 0.8,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "maccabi-tel-aviv-hapoel-tel-aviv-womens-derby-2-1-athena-cup",
-        "title": "Maccabi Tel Aviv beat Hapoel Tel Aviv 2-1 as women's derby returns after 24 years",
-        "confidence": 0.8,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Foreign-born goalscorers' names are phonetic transliterations from the Hebrew report and not independently confirmed against official club rosters; spellings may be refined."
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-20T21:07:11.896Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 3,
-    "review": 1,
-    "skipped": 1,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "steven-bradbury-serial-injury-victim-most-unexpected-olympic-gold",
-        "title": "The serial injury victim and the most unlikely gold in Olympic history",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "hapoel-beer-sheva-sabah-champions-league-playoff-first-leg",
-        "title": "Hapoel Beer Sheva beat Sabah 2-1 and stand one win from Champions League history",
-        "decision": "duplicate",
-        "reason": "same event as hapoel-be-er-2-1-sabah-fk-champions-league-qualifying"
-      },
-      {
-        "slug": "tomer-shuster-israel-swimming-next-star-profile",
-        "title": "Israel's next swimming star isn't slowing down: 'I'm aiming as high as I can'",
-        "confidence": 0.85,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "No correctly-identified, reusably licensed Wikimedia Commons photo of Tomer Shuster (or the Paris 2026 Europeans backstroke events) could be verified — commonsCandidates is empty and the story should be held for image sourcing before publish."
-      },
-      {
-        "slug": "south-korea-football-association-referee-bribery-scandal",
-        "title": "Sex-for-favours scandal engulfs South Korea's football federation",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "djokovic-opens-up-covid-vaccine-stance-wolf-in-winter-documentary",
-        "title": "Djokovic: \"I refused the Covid vaccine and I paid the price\"",
         "confidence": 0.85,
         "gate": "pass",
         "decision": "published",

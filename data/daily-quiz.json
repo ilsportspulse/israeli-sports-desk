@@ -1,67 +1,67 @@
 {
-  "date": "2026-08-17",
+  "date": "2026-08-20",
   "title": "The Daily Five",
-  "dek": "Five questions from this week's Israeli sports headlines, spanning Olympic history, basketball, football and Israelis abroad.",
+  "dek": "Five questions on today's Israeli sports headlines, from a 1968 Olympic coin-flip to a Europa League cameo in Turkey.",
   "questions": [
     {
-      "question": "Who did Ariel \"Arik\" Ze'evi defeat by ippon to win Israel's first medal of the Athens 2004 Olympics?",
+      "question": "Israel's 1968 Olympic quarter-final against Bulgaria in León finished 1-1. With no penalty-shootout rule yet in place, how was the winner decided?",
       "answers": [
-        "Elco van der Geest (Netherlands)",
-        "Jang Sung-ho (South Korea)",
-        "Franck Martial Moussima (Cameroon)",
-        "Ghislain Lemaire (France)"
-      ],
-      "correctIndex": 0,
-      "explanation": "Ze'evi beat Dutch judoka Elco van der Geest by ippon in the men's 100kg bronze-medal contest at Ano Liossia Olympic Hall on 19 August 2004.",
-      "sourceUrl": "https://www.olympicsil.co.il/en/arik-zeevi-bronze-medal-athens-2004/?lang=en"
-    },
-    {
-      "question": "Which NBA team originally drafted new Hapoel Jerusalem signing David Roddy 23rd overall in 2022, before trading him on draft night?",
-      "answers": [
-        "Memphis Grizzlies",
-        "Philadelphia 76ers",
-        "Phoenix Suns",
-        "Denver Nuggets"
+        "A penalty shootout",
+        "Captains drew lots from a hat",
+        "A golden-goal replay",
+        "A coin toss by the referee"
       ],
       "correctIndex": 1,
-      "explanation": "Roddy was picked 23rd overall by Philadelphia in the 2022 NBA draft and traded to Memphis that same night.",
-      "sourceUrl": "https://www.one.co.il/Article/530785.html"
+      "explanation": "Captains Mordechai Spiegler of Israel and Bulgaria's captain each drew a slip from a hat, and Israel's was the losing slip, sending Bulgaria through.",
+      "sourceUrl": "https://www.jns.org/feature/could-the-world-cup-final-be-decided-by-an-israeli-innovation"
     },
     {
-      "question": "Who scored the only goal as Maccabi Tel Aviv beat Maccabi Netanya 1-0 to reach the Toto Cup final?",
+      "question": "Australian short-track skater Steven Bradbury pulled off one of the most unlikely gold medals in Olympic history at Salt Lake City 2002. In which event?",
       "answers": [
-        "Helio Varela",
-        "Kenny Miller",
-        "Dia Saba",
-        "Gabi Kanichowsky"
+        "Men's 1,000m short-track speed skating",
+        "Men's 500m long-track speed skating",
+        "Men's slalom skiing",
+        "Men's ice hockey"
       ],
       "correctIndex": 0,
-      "explanation": "Helio Varela scored in the 17th minute to send Maccabi Tel Aviv into a Toto Cup final derby against Hapoel Tel Aviv.",
-      "sourceUrl": "https://www.one.co.il/Article/530805.html"
+      "explanation": "Bradbury won gold in the men's 1,000m short-track final after leaders Ohno, Ahn, Li and Turcotte crashed out near the finish, leaving him to cross first.",
+      "sourceUrl": "https://www.ynet.co.il/sport/article/sjns58xvzx"
     },
     {
-      "question": "Playing abroad, which Turkish Süper Lig club did Dia Saba score twice for in a 3-0 win over Erzurumspor?",
+      "question": "Before returning to Hapoel Galil Elyon on a long-term deal, 18-year-old guard Karem Ashkenazi spent last season with Maccabi Tel Aviv's youth academy. What was his scoring average there?",
       "answers": [
-        "Amedspor",
-        "Rapid Wien",
-        "Grazer AK",
-        "Galatasaray"
+        "8.1 points per game",
+        "12.4 points per game",
+        "5.6 points per game",
+        "15.2 points per game"
       ],
       "correctIndex": 0,
-      "explanation": "Saba scored twice (53', 62') for Amedspor, who are playing their first-ever season in Turkey's top flight.",
-      "sourceUrl": "https://www.one.co.il/Article/530798.html"
+      "explanation": "With Maccabi Tel Aviv's youth team he averaged 8.1 points, 3.1 rebounds and 1.9 assists per game, per ONE.",
+      "sourceUrl": "https://www.one.co.il/Article/531162.html"
     },
     {
-      "question": "What time did Gashau Ayale run to take individual marathon bronze at the 2026 European Athletics Championships in Birmingham?",
+      "question": "Israeli international Gabi Kanichowsky came off the bench in the 61st minute of a 1-0 win away to Trabzonspor in a Europa League play-off first leg. Which club was he playing for?",
       "answers": [
-        "2:09:11",
-        "2:09:18",
-        "2:09:21",
-        "2:09:31"
+        "Ferencváros",
+        "Galatasaray",
+        "Beitar Jerusalem",
+        "Maccabi Tel Aviv"
       ],
-      "correctIndex": 2,
-      "explanation": "Ayale finished in 2:09:21 for individual bronze, and combined with teammates Tadesse Getahon and Haimro Alame for team gold.",
-      "sourceUrl": "https://www.one.co.il/Article/530819.html"
+      "correctIndex": 0,
+      "explanation": "Kanichowsky replaced Philippe Rommens in the 61st minute for Ferencváros, who won 1-0 in Trabzon thanks to a Kristoffer Zachariassen goal.",
+      "sourceUrl": "https://www.one.co.il/Article/531163.html"
+    },
+    {
+      "question": "What punishment did UEFA hand Hapoel Tel Aviv after flares were lit by fans during the club's Conference League qualifier against Ludogorets Razgrad?",
+      "answers": [
+        "A €40,000 fine plus a one-match away-ticket ban suspended for two years",
+        "A full stadium closure for one European match",
+        "A points deduction in European competition",
+        "A transfer registration ban"
+      ],
+      "correctIndex": 0,
+      "explanation": "UEFA fined Hapoel Tel Aviv €40,000 and imposed a conditional, two-year-suspended ban on away ticket sales for one European match over the Ludogorets flares.",
+      "sourceUrl": "https://www.sport5.co.il/articles.aspx?FolderID=8638&docID=557086"
     }
   ]
 }
