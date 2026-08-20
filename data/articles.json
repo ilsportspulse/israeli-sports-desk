@@ -128168,14 +128168,15 @@
     "homepagePriority": 69,
     "homepageReason": "Governance dispute with potential effects on coaches throughout Israeli basketball.",
     "dedupeKey": "basketball israel-coaches-association registration-renewal-dispute 2026-27",
-    "status": "published",
+    "status": "review",
     "aiDisclosure": "AI-assisted original English report, checked against the cited source and clearly separated from unresolved legal claims.",
     "verificationSources": [
       {
         "label": "Sport5",
         "url": "https://www.sport5.co.il/articles.aspx?FolderID=274&docID=552167"
       }
-    ]
+    ],
+    "reviewReason": "recurring image-mismatch source; demoted to stop gate flaps"
   },
   {
     "id": "live-20260714-satoransky-hapoel",
