@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-17T16:27:57Z",
-    "validUntil": "2026-08-18T04:27:57Z",
+    "checkedAt": "2026-08-20T19:33:32Z",
+    "validUntil": "2026-08-21T07:33:32Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 691,
+        "maxAgeHours": 767,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-17-ligat-haal-round-one-referees",
+        "articleId": "live-2026-08-20-maccabi-tel-aviv-kattash-blatt-departure",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 699,
+        "maxAgeHours": 774,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-17-beitar-hapoel-ramat-gan-toto-cup-preview",
+        "articleId": "live-20260820-hapoel-tel-aviv-flares-uefa-punishment",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 709,
+        "maxAgeHours": 785,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-17-cagliari-trepy-drowning",
+        "articleId": "live-2026-08-20-ironman-leeds-swim-cancelled-algae",
         "maxAgeHours": 36,
         "requires": []
       }

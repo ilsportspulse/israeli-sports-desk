@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T16:27:58.629Z",
+  "generatedAt": "2026-08-20T19:33:33.174Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,21 +11,21 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1043,
+    "publishedArticles": 1047,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 419,
-      "average": 422.9
+      "median": 418,
+      "average": 422.3
     },
     "paragraphDistribution": {
-      "3": 35,
+      "3": 36,
       "4": 6,
       "5": 10,
       "6": 50,
-      "7": 149,
+      "7": 151,
       "8": 308,
-      "9": 248,
+      "9": 249,
       "10": 171,
       "11": 43,
       "12": 13,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.295,
+    "dominantParagraphShare": 0.294,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 50,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 179
+    "articlesWithStyleFlags": 180
   },
   "flagged": [
     {
@@ -331,26 +331,26 @@
       ]
     },
     {
-      "id": "live-2026-08-17-beitar-hapoel-ramat-gan-toto-cup-preview",
-      "slug": "beitar-jerusalem-hapoel-ramat-gan-toto-cup-playoff-preview",
-      "title": "Atzili and new signing Ansah set to lead Beitar's attack in Toto Cup playoff at Ramat Gan",
-      "kind": "article",
-      "words": 277,
+      "id": "live-2026-08-17-referee-assignments-ligat-haal-round-1",
+      "slug": "gal-levi-omer-biran-referee-assignments-ligat-haal-opener",
+      "title": "Gal Levi to referee Maccabi Tel Aviv's league opener, Biran takes charge at Maccabi Haifa",
+      "kind": "news",
+      "words": 218,
       "paragraphs": 6,
       "paragraphWords": {
-        "shortest": 27,
-        "longest": 61,
-        "average": 46.2
+        "shortest": 24,
+        "longest": 50,
+        "average": 36.3
       },
       "sentenceWords": {
-        "shortest": 12,
-        "longest": 43,
-        "average": 30.8
+        "shortest": 24,
+        "longest": 50,
+        "average": 36.3
       },
-      "lexicalDiversity": 0.646,
-      "publisherAttributions": 0,
+      "lexicalDiversity": 0.596,
+      "publisherAttributions": 1,
       "flags": [
-        "below-editorial-target:277/280"
+        "below-editorial-target:218/280"
       ]
     },
     {
@@ -4170,27 +4170,92 @@
       "flags": [
         "below-editorial-target:122/280"
       ]
+    },
+    {
+      "id": "result-2026-08-19-hapoel-be-er-sabah-fk",
+      "slug": "hapoel-be-er-2-1-sabah-fk-champions-league-qualifying",
+      "title": "Hapoel Be'er 2–1 Sabah FK: Champions League qualifying",
+      "kind": "news",
+      "words": 98,
+      "paragraphs": 3,
+      "paragraphWords": {
+        "shortest": 26,
+        "longest": 39,
+        "average": 32.7
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 23,
+        "average": 16.3
+      },
+      "lexicalDiversity": 0.714,
+      "publisherAttributions": 0,
+      "flags": [
+        "below-editorial-target:98/280"
+      ]
     }
   ],
   "clean": [
     {
-      "id": "live-2026-08-17-ligat-haal-round-one-referees",
-      "slug": "gal-levi-omer-biran-referees-ligat-haal-opening-round",
-      "title": "Gal Levi to referee Maccabi Tel Aviv, Omer Biran gets Maccabi Haifa in Ligat Ha'al opener",
+      "id": "live-2026-08-20-maccabi-tel-aviv-kattash-blatt-departure",
+      "slug": "kattash-we-really-wanted-tamir-blatt-to-stay",
+      "title": "Kattash on Blatt's exit: \"We really wanted Tamir, no decision was made to part ways\"",
       "kind": "news",
-      "words": 319,
-      "paragraphs": 7,
+      "words": 387,
+      "paragraphs": 9,
       "paragraphWords": {
-        "shortest": 24,
-        "longest": 80,
-        "average": 45.6
+        "shortest": 29,
+        "longest": 68,
+        "average": 43
       },
       "sentenceWords": {
         "shortest": 9,
-        "longest": 56,
-        "average": 35.4
+        "longest": 124,
+        "average": 38.7
       },
-      "lexicalDiversity": 0.571,
+      "lexicalDiversity": 0.594,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260820-hapoel-tel-aviv-flares-uefa-punishment",
+      "slug": "hapoel-tel-aviv-flares-atalanta-uefa-punishment-risk",
+      "title": "Hapoel Tel Aviv risk fresh UEFA punishment after flares at Atalanta",
+      "kind": "news",
+      "words": 330,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 60,
+        "average": 47.1
+      },
+      "sentenceWords": {
+        "shortest": 13,
+        "longest": 54,
+        "average": 33
+      },
+      "lexicalDiversity": 0.567,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-20-ironman-leeds-swim-cancelled-algae",
+      "slug": "ironman-leeds-swim-cancelled-blue-green-algae-athlete-anger",
+      "title": "Ironman Leeds scraps swim leg over toxic algae, leaving athletes furious",
+      "kind": "news",
+      "words": 313,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 61,
+        "average": 44.7
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 41,
+        "average": 31.3
+      },
+      "lexicalDiversity": 0.655,
       "publisherAttributions": 0,
       "flags": []
     },
@@ -4213,6 +4278,27 @@
       },
       "lexicalDiversity": 0.594,
       "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-17-beitar-ramat-gan-toto-lineups",
+      "slug": "atzili-ansah-start-beitar-jerusalem-toto-cup-ramat-gan",
+      "title": "Atzili and Ansah handed starts as Beitar Jerusalem's attack faces Ramat Gan in Toto Cup playoff",
+      "kind": "news",
+      "words": 353,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 29,
+        "longest": 70,
+        "average": 50.4
+      },
+      "sentenceWords": {
+        "shortest": 17,
+        "longest": 60,
+        "average": 39.2
+      },
+      "lexicalDiversity": 0.615,
+      "publisherAttributions": 0,
       "flags": []
     },
     {
