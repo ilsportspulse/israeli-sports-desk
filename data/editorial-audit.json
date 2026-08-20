@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T21:20:56.917Z",
+  "generatedAt": "2026-08-20T21:34:28.190Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1497,
-    "publishedBefore": 1053,
-    "cleanPublished": 1045,
+    "totalArticles": 1501,
+    "publishedBefore": 1055,
+    "cleanPublished": 1047,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 1053,
-    "reviewAfter": 444
+    "publishedAfter": 1055,
+    "reviewAfter": 446
   },
   "blockedPublished": [
     {
@@ -157,14 +157,14 @@
   ],
   "warnings": [
     {
-      "id": "live-2026-08-20-steven-bradbury-unexpected-olympic-gold",
-      "slug": "steven-bradbury-serial-injury-victim-most-unexpected-olympic-gold",
-      "title": "The serial injury victim and the most unlikely gold in Olympic history",
+      "id": "live-20260820-karem-ashkenazi-galil-elyon",
+      "slug": "karem-ashkenazi-returns-galil-elyon",
+      "title": "Karem Ashkenazi returns to Hapoel Galil Elyon on long-term deal",
       "statusBefore": "published",
-      "words": 645,
-      "paragraphs": 11,
-      "facts": 6,
-      "verificationSources": 4,
+      "words": 313,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 3,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -14612,32 +14612,6 @@
       "warnings": [
         "presentation:outlet-name-in-headline"
       ]
-    }
-  ],
-  "cleanPublished": [
-    {
-      "id": "live-2026-08-20-djokovic-vaccine-documentary",
-      "slug": "djokovic-opens-up-covid-vaccine-stance-wolf-in-winter-documentary",
-      "title": "Djokovic: \"I refused the Covid vaccine and I paid the price\"",
-      "statusBefore": "published",
-      "words": 472,
-      "paragraphs": 9,
-      "facts": 7,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": []
-    },
-    {
-      "id": "live-2026-08-20-south-korea-referee-bribery-scandal",
-      "slug": "south-korea-football-association-referee-bribery-scandal",
-      "title": "Sex-for-favours scandal engulfs South Korea's football federation",
-      "statusBefore": "published",
-      "words": 535,
-      "paragraphs": 11,
-      "facts": 6,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": []
     },
     {
       "id": "live-2026-08-20-steven-bradbury-unexpected-olympic-gold",
@@ -14652,6 +14626,34 @@
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
+    }
+  ],
+  "cleanPublished": [
+    {
+      "id": "live-20260820-karem-ashkenazi-galil-elyon",
+      "slug": "karem-ashkenazi-returns-galil-elyon",
+      "title": "Karem Ashkenazi returns to Hapoel Galil Elyon on long-term deal",
+      "statusBefore": "published",
+      "words": 313,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-20-kanikovsky-ferencvaros-trabzonspor-europa-league",
+      "slug": "kanikovsky-ferencvaros-win-trabzonspor-europa-league-playoff",
+      "title": "Trabzonspor 0-1 Ferencváros: Kanikovsky handed late cameo in Europa League play-off win",
+      "statusBefore": "published",
+      "words": 337,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
     },
     {
       "id": "live-2026-08-20-maccabi-tel-aviv-kattash-blatt-departure",
@@ -28743,6 +28745,44 @@
       "paragraphs": 7,
       "facts": 6,
       "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-20-djokovic-vaccine-documentary",
+      "slug": "djokovic-opens-up-covid-vaccine-stance-wolf-in-winter-documentary",
+      "title": "Djokovic: \"I refused the Covid vaccine and I paid the price\"",
+      "statusBefore": "published",
+      "words": 472,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-20-south-korea-referee-bribery-scandal",
+      "slug": "south-korea-football-association-referee-bribery-scandal",
+      "title": "Sex-for-favours scandal engulfs South Korea's football federation",
+      "statusBefore": "published",
+      "words": 535,
+      "paragraphs": 11,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-20-steven-bradbury-unexpected-olympic-gold",
+      "slug": "steven-bradbury-serial-injury-victim-most-unexpected-olympic-gold",
+      "title": "The serial injury victim and the most unlikely gold in Olympic history",
+      "statusBefore": "published",
+      "words": 645,
+      "paragraphs": 11,
+      "facts": 6,
+      "verificationSources": 4,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
