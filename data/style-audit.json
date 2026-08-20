@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T22:29:53.230Z",
+  "generatedAt": "2026-08-20T22:53:48.958Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,18 +11,18 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1055,
+    "publishedArticles": 1054,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 418,
-      "average": 421.9
+      "average": 422
     },
     "paragraphDistribution": {
       "3": 37,
       "4": 6,
       "5": 10,
-      "6": 50,
+      "6": 49,
       "7": 154,
       "8": 308,
       "9": 251,
@@ -37,9 +37,9 @@
     "dominantParagraphCount": 8,
     "dominantParagraphShare": 0.292,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 50,
+    "exactSixParagraphArticles": 49,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 182
+    "articlesWithStyleFlags": 181
   },
   "flagged": [
     {
@@ -3801,29 +3801,6 @@
       "publisherAttributions": 0,
       "flags": [
         "below-editorial-target:110/280"
-      ]
-    },
-    {
-      "id": "live-20260714-basketball-coaches-registration",
-      "slug": "israeli-basketball-coaches-demand-registration-freeze",
-      "title": "Israeli basketball coaches demand freeze on registration overhaul",
-      "kind": "news",
-      "words": 355,
-      "paragraphs": 6,
-      "paragraphWords": {
-        "shortest": 53,
-        "longest": 64,
-        "average": 59.2
-      },
-      "sentenceWords": {
-        "shortest": 6,
-        "longest": 40,
-        "average": 20.9
-      },
-      "lexicalDiversity": 0.594,
-      "publisherAttributions": 2,
-      "flags": [
-        "publisher-attribution-heavy:2"
       ]
     },
     {

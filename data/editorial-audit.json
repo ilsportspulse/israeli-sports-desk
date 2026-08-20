@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T22:29:52.652Z",
+  "generatedAt": "2026-08-20T22:53:48.354Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -18,12 +18,12 @@
   },
   "summary": {
     "totalArticles": 1501,
-    "publishedBefore": 1055,
+    "publishedBefore": 1054,
     "cleanPublished": 1047,
-    "blockedPublished": 8,
+    "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1055,
-    "reviewAfter": 446
+    "publishedAfter": 1054,
+    "reviewAfter": 447
   },
   "blockedPublished": [
     {
@@ -119,22 +119,6 @@
       ],
       "warnings": [
         "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-20260714-basketball-coaches-registration",
-      "slug": "israeli-basketball-coaches-demand-registration-freeze",
-      "title": "Israeli basketball coaches demand freeze on registration overhaul",
-      "statusBefore": "published",
-      "words": 354,
-      "paragraphs": 6,
-      "facts": 5,
-      "verificationSources": 1,
-      "blockers": [
-        "media:manual-image-story-mismatch"
-      ],
-      "warnings": [
-        "voice:publisher-attribution-heavy:2"
       ]
     },
     {
@@ -12738,7 +12722,7 @@
       "id": "live-20260714-basketball-coaches-registration",
       "slug": "israeli-basketball-coaches-demand-registration-freeze",
       "title": "Israeli basketball coaches demand freeze on registration overhaul",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 354,
       "paragraphs": 6,
       "facts": 5,
