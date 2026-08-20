@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T20:47:31.569Z",
+  "generatedAt": "2026-08-20T21:20:56.917Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1491,
-    "publishedBefore": 1049,
-    "cleanPublished": 1041,
+    "totalArticles": 1497,
+    "publishedBefore": 1053,
+    "cleanPublished": 1045,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 1049,
-    "reviewAfter": 442
+    "publishedAfter": 1053,
+    "reviewAfter": 444
   },
   "blockedPublished": [
     {
@@ -157,14 +157,14 @@
   ],
   "warnings": [
     {
-      "id": "live-20260820-karem-ashkenazi-galil-elyon",
-      "slug": "karem-ashkenazi-returns-galil-elyon",
-      "title": "Karem Ashkenazi returns to Hapoel Galil Elyon on long-term deal",
+      "id": "live-2026-08-20-steven-bradbury-unexpected-olympic-gold",
+      "slug": "steven-bradbury-serial-injury-victim-most-unexpected-olympic-gold",
+      "title": "The serial injury victim and the most unlikely gold in Olympic history",
       "statusBefore": "published",
-      "words": 313,
-      "paragraphs": 7,
-      "facts": 7,
-      "verificationSources": 3,
+      "words": 645,
+      "paragraphs": 11,
+      "facts": 6,
+      "verificationSources": 4,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -14553,17 +14553,46 @@
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
-    }
-  ],
-  "cleanPublished": [
+    },
     {
-      "id": "live-20260820-karem-ashkenazi-galil-elyon",
-      "slug": "karem-ashkenazi-returns-galil-elyon",
-      "title": "Karem Ashkenazi returns to Hapoel Galil Elyon on long-term deal",
+      "id": "live-2026-08-20-kerem-ashkenazi-galil-elyon-signing",
+      "slug": "kerem-ashkenazi-signs-galil-elyon",
+      "title": "Youth international Kerem Ashkenazi returns north to sign with Galil Elyon",
       "statusBefore": "published",
-      "words": 313,
+      "words": 306,
       "paragraphs": 7,
-      "facts": 7,
+      "facts": 5,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2",
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-20-ms-ashdod-hapoel-jerusalem-youth-5-1",
+      "slug": "ms-ashdod-hapoel-jerusalem-youth-league-5-1",
+      "title": "M.S. Ashdod thrash Hapoel Jerusalem 5-1 to open youth season with two wins",
+      "statusBefore": "review",
+      "words": 258,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260820-kanichowsky-ferencvaros-trabzonspor",
+      "slug": "kanichowsky-cameo-ferencvaros-win-trabzonspor-europa-league-playoff",
+      "title": "Trabzonspor 0-1 Ferencváros: Kanichowsky's 29-minute cameo helps see out first-leg win",
+      "statusBefore": "published",
+      "words": 325,
+      "paragraphs": 7,
+      "facts": 6,
       "verificationSources": 3,
       "blockers": [],
       "warnings": [
@@ -14571,16 +14600,58 @@
       ]
     },
     {
-      "id": "live-2026-08-20-kanikovsky-ferencvaros-trabzonspor-europa-league",
-      "slug": "kanikovsky-ferencvaros-win-trabzonspor-europa-league-playoff",
-      "title": "Trabzonspor 0-1 Ferencváros: Kanikovsky handed late cameo in Europa League play-off win",
+      "id": "live-2026-08-20-ramat-hasharon-state-cup-extra-time-win",
+      "slug": "ramat-hasharon-beat-ashdod-extra-time-state-cup",
+      "title": "Hapoel Ramat HaSharon 2-1 Maccabi Ironi Ashdod (AET): late double sends hosts into State Cup's fifth round",
+      "statusBefore": "review",
+      "words": 247,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    }
+  ],
+  "cleanPublished": [
+    {
+      "id": "live-2026-08-20-djokovic-vaccine-documentary",
+      "slug": "djokovic-opens-up-covid-vaccine-stance-wolf-in-winter-documentary",
+      "title": "Djokovic: \"I refused the Covid vaccine and I paid the price\"",
       "statusBefore": "published",
-      "words": 337,
+      "words": 472,
       "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-20-south-korea-referee-bribery-scandal",
+      "slug": "south-korea-football-association-referee-bribery-scandal",
+      "title": "Sex-for-favours scandal engulfs South Korea's football federation",
+      "statusBefore": "published",
+      "words": 535,
+      "paragraphs": 11,
       "facts": 6,
       "verificationSources": 4,
       "blockers": [],
       "warnings": []
+    },
+    {
+      "id": "live-2026-08-20-steven-bradbury-unexpected-olympic-gold",
+      "slug": "steven-bradbury-serial-injury-victim-most-unexpected-olympic-gold",
+      "title": "The serial injury victim and the most unlikely gold in Olympic history",
+      "statusBefore": "published",
+      "words": 645,
+      "paragraphs": 11,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-2026-08-20-maccabi-tel-aviv-kattash-blatt-departure",
@@ -28640,6 +28711,49 @@
       "title": "Hapoel Be'er 2–1 Sabah FK: Champions League qualifying",
       "statusBefore": "published",
       "words": 96,
+      "paragraphs": 3,
+      "facts": 3,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-20-kerem-ashkenazi-galil-elyon-signing",
+      "slug": "kerem-ashkenazi-signs-galil-elyon",
+      "title": "Youth international Kerem Ashkenazi returns north to sign with Galil Elyon",
+      "statusBefore": "published",
+      "words": 306,
+      "paragraphs": 7,
+      "facts": 5,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2",
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "live-20260820-kanichowsky-ferencvaros-trabzonspor",
+      "slug": "kanichowsky-cameo-ferencvaros-win-trabzonspor-europa-league-playoff",
+      "title": "Trabzonspor 0-1 Ferencváros: Kanichowsky's 29-minute cameo helps see out first-leg win",
+      "statusBefore": "published",
+      "words": 325,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "result-2026-08-20-atalanta-hapoel-tel-aviv",
+      "slug": "atalanta-0-0-hapoel-tel-aviv-conference-league-qualifying",
+      "title": "Atalanta 0–0 Hapoel Tel Aviv: Conference League qualifying",
+      "statusBefore": "published",
+      "words": 94,
       "paragraphs": 3,
       "facts": 3,
       "verificationSources": 1,

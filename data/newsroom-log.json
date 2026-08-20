@@ -2710,5 +2710,59 @@
         "reason": "Foreign-born goalscorers' names are phonetic transliterations from the Hebrew report and not independently confirmed against official club rosters; spellings may be refined."
       }
     ]
+  },
+  {
+    "ts": "2026-08-20T21:07:11.896Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 3,
+    "review": 1,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "steven-bradbury-serial-injury-victim-most-unexpected-olympic-gold",
+        "title": "The serial injury victim and the most unlikely gold in Olympic history",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "hapoel-beer-sheva-sabah-champions-league-playoff-first-leg",
+        "title": "Hapoel Beer Sheva beat Sabah 2-1 and stand one win from Champions League history",
+        "decision": "duplicate",
+        "reason": "same event as hapoel-be-er-2-1-sabah-fk-champions-league-qualifying"
+      },
+      {
+        "slug": "tomer-shuster-israel-swimming-next-star-profile",
+        "title": "Israel's next swimming star isn't slowing down: 'I'm aiming as high as I can'",
+        "confidence": 0.85,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "No correctly-identified, reusably licensed Wikimedia Commons photo of Tomer Shuster (or the Paris 2026 Europeans backstroke events) could be verified — commonsCandidates is empty and the story should be held for image sourcing before publish."
+      },
+      {
+        "slug": "south-korea-football-association-referee-bribery-scandal",
+        "title": "Sex-for-favours scandal engulfs South Korea's football federation",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "djokovic-opens-up-covid-vaccine-stance-wolf-in-winter-documentary",
+        "title": "Djokovic: \"I refused the Covid vaccine and I paid the price\"",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
   }
 ]

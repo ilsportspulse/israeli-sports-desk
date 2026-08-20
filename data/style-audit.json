@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T20:47:32.180Z",
+  "generatedAt": "2026-08-20T21:20:57.404Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,7 +11,7 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1049,
+    "publishedArticles": 1053,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
@@ -19,15 +19,15 @@
       "average": 422.1
     },
     "paragraphDistribution": {
-      "3": 36,
+      "3": 37,
       "4": 6,
       "5": 10,
       "6": 50,
-      "7": 152,
+      "7": 153,
       "8": 308,
       "9": 250,
       "10": 171,
-      "11": 43,
+      "11": 45,
       "12": 13,
       "13": 4,
       "14": 2,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.294,
+    "dominantParagraphShare": 0.292,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 50,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 180
+    "articlesWithStyleFlags": 182
   },
   "flagged": [
     {
@@ -4193,49 +4193,116 @@
       "flags": [
         "below-editorial-target:98/280"
       ]
+    },
+    {
+      "id": "live-2026-08-20-kerem-ashkenazi-galil-elyon-signing",
+      "slug": "kerem-ashkenazi-signs-galil-elyon",
+      "title": "Youth international Kerem Ashkenazi returns north to sign with Galil Elyon",
+      "kind": "news",
+      "words": 307,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 27,
+        "longest": 55,
+        "average": 43.9
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 38,
+        "average": 23.6
+      },
+      "lexicalDiversity": 0.56,
+      "publisherAttributions": 1,
+      "flags": [
+        "stock-phrase:statement-of-intent"
+      ]
+    },
+    {
+      "id": "result-2026-08-20-atalanta-hapoel-tel-aviv",
+      "slug": "atalanta-0-0-hapoel-tel-aviv-conference-league-qualifying",
+      "title": "Atalanta 0–0 Hapoel Tel Aviv: Conference League qualifying",
+      "kind": "news",
+      "words": 95,
+      "paragraphs": 3,
+      "paragraphWords": {
+        "shortest": 22,
+        "longest": 40,
+        "average": 31.7
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 23,
+        "average": 19
+      },
+      "lexicalDiversity": 0.674,
+      "publisherAttributions": 0,
+      "flags": [
+        "below-editorial-target:95/280"
+      ]
     }
   ],
   "clean": [
     {
-      "id": "live-20260820-karem-ashkenazi-galil-elyon",
-      "slug": "karem-ashkenazi-returns-galil-elyon",
-      "title": "Karem Ashkenazi returns to Hapoel Galil Elyon on long-term deal",
+      "id": "live-2026-08-20-djokovic-vaccine-documentary",
+      "slug": "djokovic-opens-up-covid-vaccine-stance-wolf-in-winter-documentary",
+      "title": "Djokovic: \"I refused the Covid vaccine and I paid the price\"",
       "kind": "news",
-      "words": 316,
-      "paragraphs": 7,
+      "words": 468,
+      "paragraphs": 9,
       "paragraphWords": {
-        "shortest": 34,
-        "longest": 58,
-        "average": 45.1
+        "shortest": 35,
+        "longest": 70,
+        "average": 52
       },
       "sentenceWords": {
-        "shortest": 5,
-        "longest": 53,
-        "average": 26.3
+        "shortest": 14,
+        "longest": 62,
+        "average": 39
       },
-      "lexicalDiversity": 0.617,
-      "publisherAttributions": 1,
+      "lexicalDiversity": 0.577,
+      "publisherAttributions": 0,
       "flags": []
     },
     {
-      "id": "live-2026-08-20-kanikovsky-ferencvaros-trabzonspor-europa-league",
-      "slug": "kanikovsky-ferencvaros-win-trabzonspor-europa-league-playoff",
-      "title": "Trabzonspor 0-1 Ferencváros: Kanikovsky handed late cameo in Europa League play-off win",
-      "kind": "match-report",
-      "words": 336,
-      "paragraphs": 9,
+      "id": "live-2026-08-20-south-korea-referee-bribery-scandal",
+      "slug": "south-korea-football-association-referee-bribery-scandal",
+      "title": "Sex-for-favours scandal engulfs South Korea's football federation",
+      "kind": "article",
+      "words": 534,
+      "paragraphs": 11,
       "paragraphWords": {
-        "shortest": 32,
-        "longest": 48,
-        "average": 37.3
+        "shortest": 34,
+        "longest": 74,
+        "average": 48.5
       },
       "sentenceWords": {
         "shortest": 9,
-        "longest": 48,
-        "average": 33.6
+        "longest": 52,
+        "average": 35.6
       },
-      "lexicalDiversity": 0.61,
-      "publisherAttributions": 1,
+      "lexicalDiversity": 0.597,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-20-steven-bradbury-unexpected-olympic-gold",
+      "slug": "steven-bradbury-serial-injury-victim-most-unexpected-olympic-gold",
+      "title": "The serial injury victim and the most unlikely gold in Olympic history",
+      "kind": "feature",
+      "words": 638,
+      "paragraphs": 11,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 80,
+        "average": 58
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 77,
+        "average": 26.6
+      },
+      "lexicalDiversity": 0.542,
+      "publisherAttributions": 0,
       "flags": []
     },
     {
@@ -22443,6 +22510,27 @@
       },
       "lexicalDiversity": 0.584,
       "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260820-kanichowsky-ferencvaros-trabzonspor",
+      "slug": "kanichowsky-cameo-ferencvaros-win-trabzonspor-europa-league-playoff",
+      "title": "Trabzonspor 0-1 Ferencváros: Kanichowsky's 29-minute cameo helps see out first-leg win",
+      "kind": "news",
+      "words": 323,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 38,
+        "longest": 54,
+        "average": 46.1
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 54,
+        "average": 29.4
+      },
+      "lexicalDiversity": 0.613,
+      "publisherAttributions": 1,
       "flags": []
     }
   ]
