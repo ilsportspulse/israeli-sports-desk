@@ -330,6 +330,17 @@ async function main() {
       const hour = Number(new Intl.DateTimeFormat("en-GB", { timeZone: tz, hour: "2-digit", hour12: false }).format(now));
       const isNight = hour >= (sched.nightStartHour ?? 0) && hour < (sched.nightEndHour ?? 7);
       let minGap = isNight ? (sched.nightMinGapMinutes ?? 120) : (sched.dayMinGapMinutes ?? 60);
+      // Peak windows (owner 20 Aug): draft DENSER when matches cluster — European ties
+      // Tue/Wed/Thu 17:00-24:00 and the league weekend Sat/Sun 12:00-24:00 → every 30 min.
+      // Outside these the lean day/night gap keeps Claude-token use low. (results-watcher
+      // still runs EVERY cron for near-instant scores — it uses no tokens.)
+      const dayName = new Intl.DateTimeFormat("en-US", { timeZone: tz, weekday: "short" }).format(now);
+      const DOW = { Sun: 0, Mon: 1, Tue: 2, Wed: 3, Thu: 4, Fri: 5, Sat: 6 }[dayName];
+      for (const w of sched.windows ?? []) {
+        if ((w.days ?? []).includes(DOW) && hour >= (w.startHour ?? 0) && hour < (w.endHour ?? 24)) {
+          minGap = Math.min(minGap, w.minGapMinutes ?? minGap);
+        }
+      }
       // Temporary throttle window (e.g. "sleep cheap until tomorrow 14:00").
       if (sched.throttleUntil && now < new Date(sched.throttleUntil)) {
         minGap = Math.max(minGap, sched.throttleMinGapMinutes ?? 600);

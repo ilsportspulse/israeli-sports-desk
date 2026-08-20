@@ -4,5 +4,28 @@
   "nightStartHour": 0,
   "nightEndHour": 7,
   "nightMinGapMinutes": 240,
-  "dayMinGapMinutes": 120
+  "dayMinGapMinutes": 120,
+  "windows": [
+    {
+      "label": "European match evenings (Tue/Wed/Thu 17-24)",
+      "days": [
+        2,
+        3,
+        4
+      ],
+      "startHour": 17,
+      "endHour": 24,
+      "minGapMinutes": 30
+    },
+    {
+      "label": "League weekend (Sat/Sun 12-24)",
+      "days": [
+        6,
+        0
+      ],
+      "startHour": 12,
+      "endHour": 24,
+      "minGapMinutes": 30
+    }
+  ]
 }
