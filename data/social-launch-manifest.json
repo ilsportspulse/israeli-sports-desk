@@ -146,8 +146,8 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-20T19:33:32Z",
-    "validUntil": "2026-08-21T07:33:32Z",
+    "checkedAt": "2026-08-20T20:09:27Z",
+    "validUntil": "2026-08-21T08:09:27Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
@@ -160,21 +160,21 @@
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-20-maccabi-tel-aviv-kattash-blatt-departure",
+        "articleId": "live-2026-08-20-kerem-ashkenazi-galil-elyon-signing",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 774,
+        "maxAgeHours": 775,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260820-hapoel-tel-aviv-flares-uefa-punishment",
+        "articleId": "live-20260820-kanichowsky-ferencvaros-trabzonspor",
         "maxAgeHours": 35,
         "requires": []
       },
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-20-ironman-leeds-swim-cancelled-algae",
+        "articleId": "result-2026-08-19-hapoel-be-er-sabah-fk",
         "maxAgeHours": 36,
         "requires": []
       }

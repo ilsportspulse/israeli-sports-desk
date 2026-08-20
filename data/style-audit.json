@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T19:33:33.174Z",
+  "generatedAt": "2026-08-20T20:09:28.918Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,7 +11,7 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1047,
+    "publishedArticles": 1046,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
@@ -25,7 +25,7 @@
       "6": 50,
       "7": 151,
       "8": 308,
-      "9": 249,
+      "9": 248,
       "10": 171,
       "11": 43,
       "12": 13,
@@ -39,7 +39,7 @@
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 50,
     "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 180
+    "articlesWithStyleFlags": 181
   },
   "flagged": [
     {
@@ -328,6 +328,29 @@
       "flags": [
         "below-editorial-target:227/280",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-20-kerem-ashkenazi-galil-elyon-signing",
+      "slug": "kerem-ashkenazi-signs-galil-elyon",
+      "title": "Youth international Kerem Ashkenazi returns north to sign with Galil Elyon",
+      "kind": "news",
+      "words": 307,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 27,
+        "longest": 55,
+        "average": 43.9
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 38,
+        "average": 23.6
+      },
+      "lexicalDiversity": 0.56,
+      "publisherAttributions": 1,
+      "flags": [
+        "stock-phrase:statement-of-intent"
       ]
     },
     {
@@ -4197,66 +4220,24 @@
   ],
   "clean": [
     {
-      "id": "live-2026-08-20-maccabi-tel-aviv-kattash-blatt-departure",
-      "slug": "kattash-we-really-wanted-tamir-blatt-to-stay",
-      "title": "Kattash on Blatt's exit: \"We really wanted Tamir, no decision was made to part ways\"",
+      "id": "live-20260820-kanichowsky-ferencvaros-trabzonspor",
+      "slug": "kanichowsky-cameo-ferencvaros-win-trabzonspor-europa-league-playoff",
+      "title": "Trabzonspor 0-1 Ferencváros: Kanichowsky's 29-minute cameo helps see out first-leg win",
       "kind": "news",
-      "words": 387,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 29,
-        "longest": 68,
-        "average": 43
-      },
-      "sentenceWords": {
-        "shortest": 9,
-        "longest": 124,
-        "average": 38.7
-      },
-      "lexicalDiversity": 0.594,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260820-hapoel-tel-aviv-flares-uefa-punishment",
-      "slug": "hapoel-tel-aviv-flares-atalanta-uefa-punishment-risk",
-      "title": "Hapoel Tel Aviv risk fresh UEFA punishment after flares at Atalanta",
-      "kind": "news",
-      "words": 330,
+      "words": 323,
       "paragraphs": 7,
       "paragraphWords": {
-        "shortest": 35,
-        "longest": 60,
-        "average": 47.1
-      },
-      "sentenceWords": {
-        "shortest": 13,
+        "shortest": 38,
         "longest": 54,
-        "average": 33
-      },
-      "lexicalDiversity": 0.567,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-20-ironman-leeds-swim-cancelled-algae",
-      "slug": "ironman-leeds-swim-cancelled-blue-green-algae-athlete-anger",
-      "title": "Ironman Leeds scraps swim leg over toxic algae, leaving athletes furious",
-      "kind": "news",
-      "words": 313,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 37,
-        "longest": 61,
-        "average": 44.7
+        "average": 46.1
       },
       "sentenceWords": {
-        "shortest": 7,
-        "longest": 41,
-        "average": 31.3
+        "shortest": 8,
+        "longest": 54,
+        "average": 29.4
       },
-      "lexicalDiversity": 0.655,
-      "publisherAttributions": 0,
+      "lexicalDiversity": 0.613,
+      "publisherAttributions": 1,
       "flags": []
     },
     {

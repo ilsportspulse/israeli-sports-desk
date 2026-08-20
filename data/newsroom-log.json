@@ -2601,5 +2601,61 @@
         "reason": "Single-source report (ONE); player name transliterations could not be cross-checked against the Israel Football Association registry, which was inaccessible during verification."
       }
     ]
+  },
+  {
+    "ts": "2026-08-20T19:54:12.943Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 2,
+    "review": 3,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "ramat-hasharon-beat-ashdod-extra-time-state-cup",
+        "title": "Hapoel Ramat HaSharon 2-1 Maccabi Ironi Ashdod (AET): late double sends hosts into State Cup's fifth round",
+        "confidence": 0.78,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "below gate thresholds"
+      },
+      {
+        "slug": "kanichowsky-cameo-ferencvaros-win-trabzonspor-europa-league-playoff",
+        "title": "Trabzonspor 0-1 Ferencváros: Kanichowsky's 29-minute cameo helps see out first-leg win",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "ms-ashdod-hapoel-jerusalem-youth-league-5-1",
+        "title": "M.S. Ashdod thrash Hapoel Jerusalem 5-1 to open youth season with two wins",
+        "confidence": 0.72,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Youth-league fixture with a single available source; the spelling of one scorer's name (Mayssara Abu Balal) could not be independently confirmed against a roster."
+      },
+      {
+        "slug": "kerem-ashkenazi-signs-galil-elyon",
+        "title": "Youth international Kerem Ashkenazi returns north to sign with Galil Elyon",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "maccabi-tel-aviv-edge-hapoel-tel-aviv-womens-derby-athena-cup",
+        "title": "Maccabi Tel Aviv beat Hapoel Tel Aviv 2-1 as Athena Cup women's derby returns after 24 years",
+        "confidence": 0.72,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Several scorer names (Motzarela, Burges, Almatzri, da Silva Gomes) are transliterated from a single Hebrew report and not cross-checked against an official squad list, so spellings may be imprecise; no correctly-identified photo of this fixture, these clubs' women's sides or the Yavne venue could be verified on Wikimedia Commons, so no image is included."
+      }
+    ]
   }
 ]
