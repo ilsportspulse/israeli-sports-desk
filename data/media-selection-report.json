@@ -1,21 +1,27 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-08-20-maccabi-hapoel-tel-aviv-women-derby",
-      "article": "Maccabi Tel Aviv beat Hapoel Tel Aviv 2-1 as Athena Cup women's derby returns after 24 years",
-      "file": "File:Mecz piłkarski Wisła Kraków - Zagłębie Sosnwoiec, 28 października 2022, Pożegnanie Stadionu Ludowego, KP.jpg",
-      "license": "CC BY 4.0"
-    },
-    {
-      "articleId": "live-2026-08-20-kerem-ashkenazi-galil-elyon-signing",
-      "article": "Youth international Kerem Ashkenazi returns north to sign with Galil Elyon",
-      "file": "File:Galil Elyon Bus1705.JPG",
+      "articleId": "live-2026-08-20-maccabi-hapoel-tel-aviv-womens-derby",
+      "article": "Maccabi Tel Aviv beat Hapoel Tel Aviv 2-1 as women's derby returns after 24 years",
+      "file": "File:איצטדיון ג'קי לוי יבנה.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-20260820-kanichowsky-ferencvaros-trabzonspor",
-      "article": "Trabzonspor 0-1 Ferencváros: Kanichowsky's 29-minute cameo helps see out first-leg win",
-      "file": "File:Groupama Arena Budapest.jpg",
+      "articleId": "live-20260820-karem-ashkenazi-galil-elyon",
+      "article": "Karem Ashkenazi returns to Hapoel Galil Elyon on long-term deal",
+      "file": "File:מבט על המגרש והיצע המתקפל.jpg",
+      "license": "CC BY 3.0"
+    },
+    {
+      "articleId": "live-2026-08-20-hapoel-ramat-hasharon-ashdod-state-cup",
+      "article": "Hapoel Nir Ramat Hasharon beat Maccabi Ironi Ashdod 2-1 in extra time to open State Cup campaign",
+      "file": "File:Grundman Stadium 02.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "articleId": "live-20260815-liebmann-1500m-freestyle-world-record",
+      "article": "German teenager Johannes Liebmann shatters 1500m freestyle world record in 14:26.79",
+      "file": "File:Swimming Pool lanes and starting blocks at AIS.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
@@ -25,23 +31,39 @@
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-20260714-basketball-coaches-registration",
-      "article": "Israeli basketball coaches demand freeze on registration overhaul",
-      "query": "Israel basketball coach team",
-      "file": "File:Oded Katash Hapoel Eilat.jpg",
+      "articleId": "live-20260802-israel-fifth-mixed-duet-technical-paris",
+      "article": "Israel take fifth in mixed duet technical final at European Championships in Paris",
+      "file": "File:20220817 European Championships Munich 2022 Tania Moreno Matveeva 850 7683.jpg",
       "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-20260728-barcelona-rodri-race",
+      "article": "Barcelona enter the race for Rodri as Real Madrid appear close to a deal",
+      "file": "File:Rodri2024.jpg",
+      "license": "CC0"
+    },
+    {
+      "articleId": "live-2026-07-27-adam-ramsay-peaty-commonwealth-bronze",
+      "article": "Adam Ramsay-Peaty questions it all after bitter Commonwealth bronze",
+      "file": "File:Adam Peaty Olympics 100m breaststroke 2016.jpg",
+      "license": "CC BY 3.0 br"
     }
   ],
   "failures": [
     {
-      "id": "live-2026-08-20-ms-ashdod-hapoel-jerusalem-youth-5-1",
-      "title": "M.S. Ashdod thrash Hapoel Jerusalem 5-1 to open youth season with two wins",
+      "id": "live-2026-08-20-kanikovsky-ferencvaros-trabzonspor-europa-league",
+      "title": "Trabzonspor 0-1 Ferencváros: Kanikovsky handed late cameo in Europa League play-off win",
       "error": "image download 429 after retries"
     },
     {
-      "id": "live-2026-08-20-ramat-hasharon-state-cup-extra-time-win",
-      "title": "Hapoel Ramat HaSharon 2-1 Maccabi Ironi Ashdod (AET): late double sends hosts into State Cup's fifth round",
+      "id": "live-2026-08-20-boateng-miss-atalanta-hapoel-tel-aviv",
+      "title": "Boateng miss sparks fan reaction as Hapoel Tel Aviv chase Atalanta upset",
       "error": "image download 429 after retries"
+    },
+    {
+      "id": "live-2026-08-20-erez-isakov-maccabi-hasharon-netanya-kit-reveal",
+      "title": "Erez Isakov unveils new kit for his Maccabi HaSharon Netanya project",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {
       "id": "live-2026-08-17-national-youth-league-fixtures",
@@ -262,6 +284,11 @@
       "id": "live-20260722-bnei-eilat-youth-b-champions",
       "title": "Bnei Eilat's Youth B Side Go Unbeaten to Win Southern District Title",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-20260714-basketball-coaches-registration",
+      "title": "Israeli basketball coaches demand freeze on registration overhaul",
+      "error": "image download 429 after retries"
     },
     {
       "id": "live-2026-08-01-kaufman-gorbenko-2028-olympic-plan",

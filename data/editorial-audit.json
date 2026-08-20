@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T20:09:28.330Z",
+  "generatedAt": "2026-08-20T20:47:31.569Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1487,
-    "publishedBefore": 1046,
-    "cleanPublished": 1038,
+    "totalArticles": 1491,
+    "publishedBefore": 1049,
+    "cleanPublished": 1041,
     "blockedPublished": 8,
     "demoted": 0,
-    "publishedAfter": 1046,
-    "reviewAfter": 441
+    "publishedAfter": 1049,
+    "reviewAfter": 442
   },
   "blockedPublished": [
     {
@@ -157,30 +157,13 @@
   ],
   "warnings": [
     {
-      "id": "live-2026-08-20-kerem-ashkenazi-galil-elyon-signing",
-      "slug": "kerem-ashkenazi-signs-galil-elyon",
-      "title": "Youth international Kerem Ashkenazi returns north to sign with Galil Elyon",
+      "id": "live-20260820-karem-ashkenazi-galil-elyon",
+      "slug": "karem-ashkenazi-returns-galil-elyon",
+      "title": "Karem Ashkenazi returns to Hapoel Galil Elyon on long-term deal",
       "statusBefore": "published",
-      "words": 306,
+      "words": 313,
       "paragraphs": 7,
-      "facts": 5,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline",
-        "media:no-action-or-competition-context-detected",
-        "voice:publisher-attribution-heavy:2",
-        "voice:stock-editorial-phrase-detected"
-      ]
-    },
-    {
-      "id": "live-20260820-kanichowsky-ferencvaros-trabzonspor",
-      "slug": "kanichowsky-cameo-ferencvaros-win-trabzonspor-europa-league-playoff",
-      "title": "Trabzonspor 0-1 Ferencváros: Kanichowsky's 29-minute cameo helps see out first-leg win",
-      "statusBefore": "published",
-      "words": 325,
-      "paragraphs": 7,
-      "facts": 6,
+      "facts": 7,
       "verificationSources": 3,
       "blockers": [],
       "warnings": [
@@ -188,17 +171,74 @@
       ]
     },
     {
-      "id": "live-2026-08-20-ramat-hasharon-state-cup-extra-time-win",
-      "slug": "ramat-hasharon-beat-ashdod-extra-time-state-cup",
-      "title": "Hapoel Ramat HaSharon 2-1 Maccabi Ironi Ashdod (AET): late double sends hosts into State Cup's fifth round",
-      "statusBefore": "review",
-      "words": 247,
+      "id": "live-2026-08-20-maccabi-tel-aviv-kattash-blatt-departure",
+      "slug": "kattash-we-really-wanted-tamir-blatt-to-stay",
+      "title": "Kattash on Blatt's exit: \"We really wanted Tamir, no decision was made to part ways\"",
+      "statusBefore": "published",
+      "words": 390,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260820-hapoel-tel-aviv-flares-uefa-punishment",
+      "slug": "hapoel-tel-aviv-flares-atalanta-uefa-punishment-risk",
+      "title": "Hapoel Tel Aviv risk fresh UEFA punishment after flares at Atalanta",
+      "statusBefore": "published",
+      "words": 328,
       "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-20-boateng-miss-atalanta-hapoel-tel-aviv",
+      "slug": "boateng-missed-chance-atalanta-hapoel-tel-aviv-fan-reaction",
+      "title": "Boateng miss sparks fan reaction as Hapoel Tel Aviv chase Atalanta upset",
+      "statusBefore": "review",
+      "words": 316,
+      "paragraphs": 6,
       "facts": 7,
-      "verificationSources": 3,
+      "verificationSources": 4,
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-08-20-erez-isakov-maccabi-hasharon-netanya-kit-reveal",
+      "slug": "erez-isakov-unveils-new-maccabi-hasharon-netanya-kit",
+      "title": "Erez Isakov unveils new kit for his Maccabi HaSharon Netanya project",
+      "statusBefore": "review",
+      "words": 373,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-08-20-ironman-leeds-swim-cancelled-algae",
+      "slug": "ironman-leeds-swim-cancelled-blue-green-algae-athlete-anger",
+      "title": "Ironman Leeds scraps swim leg over toxic algae, leaving athletes furious",
+      "statusBefore": "published",
+      "words": 310,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -14517,31 +14557,69 @@
   ],
   "cleanPublished": [
     {
-      "id": "live-2026-08-20-kerem-ashkenazi-galil-elyon-signing",
-      "slug": "kerem-ashkenazi-signs-galil-elyon",
-      "title": "Youth international Kerem Ashkenazi returns north to sign with Galil Elyon",
+      "id": "live-20260820-karem-ashkenazi-galil-elyon",
+      "slug": "karem-ashkenazi-returns-galil-elyon",
+      "title": "Karem Ashkenazi returns to Hapoel Galil Elyon on long-term deal",
       "statusBefore": "published",
-      "words": 306,
+      "words": 313,
       "paragraphs": 7,
-      "facts": 5,
+      "facts": 7,
       "verificationSources": 3,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline",
-        "media:no-action-or-competition-context-detected",
-        "voice:publisher-attribution-heavy:2",
-        "voice:stock-editorial-phrase-detected"
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
-      "id": "live-20260820-kanichowsky-ferencvaros-trabzonspor",
-      "slug": "kanichowsky-cameo-ferencvaros-win-trabzonspor-europa-league-playoff",
-      "title": "Trabzonspor 0-1 Ferencváros: Kanichowsky's 29-minute cameo helps see out first-leg win",
+      "id": "live-2026-08-20-kanikovsky-ferencvaros-trabzonspor-europa-league",
+      "slug": "kanikovsky-ferencvaros-win-trabzonspor-europa-league-playoff",
+      "title": "Trabzonspor 0-1 Ferencváros: Kanikovsky handed late cameo in Europa League play-off win",
       "statusBefore": "published",
-      "words": 325,
+      "words": 337,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-20-maccabi-tel-aviv-kattash-blatt-departure",
+      "slug": "kattash-we-really-wanted-tamir-blatt-to-stay",
+      "title": "Kattash on Blatt's exit: \"We really wanted Tamir, no decision was made to part ways\"",
+      "statusBefore": "published",
+      "words": 390,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260820-hapoel-tel-aviv-flares-uefa-punishment",
+      "slug": "hapoel-tel-aviv-flares-atalanta-uefa-punishment-risk",
+      "title": "Hapoel Tel Aviv risk fresh UEFA punishment after flares at Atalanta",
+      "statusBefore": "published",
+      "words": 328,
       "paragraphs": 7,
       "facts": 6,
-      "verificationSources": 3,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-20-ironman-leeds-swim-cancelled-algae",
+      "slug": "ironman-leeds-swim-cancelled-blue-green-algae-athlete-anger",
+      "title": "Ironman Leeds scraps swim leg over toxic algae, leaving athletes furious",
+      "statusBefore": "published",
+      "words": 310,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"

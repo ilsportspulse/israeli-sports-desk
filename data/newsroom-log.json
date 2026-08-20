@@ -2657,5 +2657,58 @@
         "reason": "Several scorer names (Motzarela, Burges, Almatzri, da Silva Gomes) are transliterated from a single Hebrew report and not cross-checked against an official squad list, so spellings may be imprecise; no correctly-identified photo of this fixture, these clubs' women's sides or the Yavne venue could be verified on Wikimedia Commons, so no image is included."
       }
     ]
+  },
+  {
+    "ts": "2026-08-20T20:31:44.017Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 2,
+    "review": 2,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "hapoel-ramat-hasharon-beat-ashdod-extra-time-state-cup",
+        "title": "Hapoel Nir Ramat Hasharon beat Maccabi Ironi Ashdod 2-1 in extra time to open State Cup campaign",
+        "confidence": 0.75,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Player-name transliterations (Tawaba, Madyol, Zilberman) and the next opponent's full name (\"MK Jerusalem\") are taken directly from the single ONE report and were not individually cross-checked in a player registry; the core result, scorers and coaching detail are corroborated."
+      },
+      {
+        "slug": "kanikovsky-ferencvaros-win-trabzonspor-europa-league-playoff",
+        "title": "Trabzonspor 0-1 Ferencváros: Kanikovsky handed late cameo in Europa League play-off win",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "url": "https://www.one.co.il/Article/531160.html",
+        "decision": "skipped",
+        "reason": "no valid article emitted"
+      },
+      {
+        "slug": "karem-ashkenazi-returns-galil-elyon",
+        "title": "Karem Ashkenazi returns to Hapoel Galil Elyon on long-term deal",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "maccabi-tel-aviv-hapoel-tel-aviv-womens-derby-2-1-athena-cup",
+        "title": "Maccabi Tel Aviv beat Hapoel Tel Aviv 2-1 as women's derby returns after 24 years",
+        "confidence": 0.8,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Foreign-born goalscorers' names are phonetic transliterations from the Hebrew report and not independently confirmed against official club rosters; spellings may be refined."
+      }
+    ]
   }
 ]
