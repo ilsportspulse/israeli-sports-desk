@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T09:40:51.361Z",
+  "generatedAt": "2026-08-21T09:53:35.944Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1516,
+    "totalArticles": 1520,
     "publishedBefore": 1061,
     "cleanPublished": 1054,
     "blockedPublished": 7,
     "demoted": 0,
     "publishedAfter": 1061,
-    "reviewAfter": 455
+    "reviewAfter": 459
   },
   "blockedPublished": [
     {
@@ -141,45 +141,46 @@
   ],
   "warnings": [
     {
-      "id": "live-2026-08-21-meir-buhbut-hapoel-beit-shean",
-      "slug": "meir-buhbut-signs-hapoel-beit-shean",
-      "title": "Meir Buhbut leaves Bnei Reineh for Hapoel Beit She'an",
+      "id": "live-2026-08-21-israel-jumping-team-misses-olympic-route-aachen",
+      "slug": "israel-show-jumping-team-misses-olympic-route-aachen-worlds",
+      "title": "Israel's show jumping team finishes 26th of 30, misses direct Olympic route at Aachen worlds",
       "statusBefore": "review",
-      "words": 310,
+      "words": 349,
       "paragraphs": 7,
-      "facts": 8,
-      "verificationSources": 3,
+      "facts": 7,
+      "verificationSources": 2,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
     },
     {
-      "id": "live-20260821-ziv-arieh-maccabi-petah-tikva-easy-decision",
-      "slug": "ziv-arieh-maccabi-petah-tikva-decision-was-easy",
-      "title": "Ziv Arieh: the decision to join Maccabi Petah Tikva was easy",
-      "statusBefore": "published",
-      "words": 336,
-      "paragraphs": 8,
+      "id": "live-2026-08-21-buchbot-beit-shean",
+      "slug": "meir-buchbot-signs-hapoel-beit-shean",
+      "title": "Meir Buchbot signs for Hapoel Beit She'an ahead of new season",
+      "statusBefore": "review",
+      "words": 324,
+      "paragraphs": 7,
       "facts": 7,
       "verificationSources": 3,
       "blockers": [],
       "warnings": [
+        "presentation:outlet-name-in-headline",
         "media:no-action-or-competition-context-detected"
       ]
     },
     {
-      "id": "live-2026-08-21-disasi-crystal-palace-parrott-betis",
-      "slug": "disasi-crystal-palace-loan-parrott-real-betis-transfer",
-      "title": "Disasi agrees Crystal Palace loan as Parrott completes Real Betis move",
-      "statusBefore": "published",
-      "words": 390,
+      "id": "live-2026-08-21-hapoel-nir-ramat-hasharon-state-cup",
+      "slug": "hapoel-nir-ramat-hasharon-beat-maccabi-ironi-ashdod-state-cup",
+      "title": "Hapoel Nir Ramat HaSharon beat Maccabi Ironi Ashdod 2-1 after extra time with only nine fit players",
+      "statusBefore": "review",
+      "words": 421,
       "paragraphs": 9,
       "facts": 6,
       "verificationSources": 3,
       "blockers": [],
       "warnings": [
-        "media:no-action-or-competition-context-detected"
+        "voice:stock-editorial-phrase-detected"
       ]
     },
     {
@@ -14768,9 +14769,21 @@
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
-    }
-  ],
-  "cleanPublished": [
+    },
+    {
+      "id": "live-2026-08-21-meir-buhbut-hapoel-beit-shean",
+      "slug": "meir-buhbut-signs-hapoel-beit-shean",
+      "title": "Meir Buhbut leaves Bnei Reineh for Hapoel Beit She'an",
+      "statusBefore": "review",
+      "words": 310,
+      "paragraphs": 7,
+      "facts": 8,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260821-ziv-arieh-maccabi-petah-tikva-easy-decision",
       "slug": "ziv-arieh-maccabi-petah-tikva-decision-was-easy",
@@ -14798,31 +14811,9 @@
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
-    },
-    {
-      "id": "live-2026-08-21-nir-ramat-hasharon-ashdod-cup-aet",
-      "slug": "hapoel-nir-ramat-hasharon-beat-ashdod-state-cup-extra-time",
-      "title": "Hapoel Nir Ramat Hasharon 2-1 Maccabi Ironi Ashdod (aet): coach hails patched-up side's heart in State Cup",
-      "statusBefore": "published",
-      "words": 300,
-      "paragraphs": 8,
-      "facts": 6,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": []
-    },
-    {
-      "id": "live-2026-08-21-crystal-palace-sage-right-back-munoz-khalaili",
-      "slug": "crystal-palace-sage-right-back-munoz-khalaili",
-      "title": "Sage says Crystal Palace happy to keep Muñoz despite Khalaili and Mingueza arrivals",
-      "statusBefore": "published",
-      "words": 391,
-      "paragraphs": 8,
-      "facts": 6,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": []
-    },
+    }
+  ],
+  "cleanPublished": [
     {
       "id": "live-2026-08-21-avdija-portland-role-analysts",
       "slug": "deni-avdija-portland-trail-blazers-role-analysts",
@@ -29032,6 +29023,58 @@
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
+    },
+    {
+      "id": "live-20260821-ziv-arieh-maccabi-petah-tikva-easy-decision",
+      "slug": "ziv-arieh-maccabi-petah-tikva-decision-was-easy",
+      "title": "Ziv Arieh: the decision to join Maccabi Petah Tikva was easy",
+      "statusBefore": "published",
+      "words": 336,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-21-disasi-crystal-palace-parrott-betis",
+      "slug": "disasi-crystal-palace-loan-parrott-real-betis-transfer",
+      "title": "Disasi agrees Crystal Palace loan as Parrott completes Real Betis move",
+      "statusBefore": "published",
+      "words": 390,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-21-nir-ramat-hasharon-ashdod-cup-aet",
+      "slug": "hapoel-nir-ramat-hasharon-beat-ashdod-state-cup-extra-time",
+      "title": "Hapoel Nir Ramat Hasharon 2-1 Maccabi Ironi Ashdod (aet): coach hails patched-up side's heart in State Cup",
+      "statusBefore": "published",
+      "words": 300,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-21-crystal-palace-sage-right-back-munoz-khalaili",
+      "slug": "crystal-palace-sage-right-back-munoz-khalaili",
+      "title": "Sage says Crystal Palace happy to keep Muñoz despite Khalaili and Mingueza arrivals",
+      "statusBefore": "published",
+      "words": 391,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
     }
   ]
 }

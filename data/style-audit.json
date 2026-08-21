@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T09:40:51.843Z",
+  "generatedAt": "2026-08-21T09:53:36.545Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -4196,90 +4196,6 @@
     }
   ],
   "clean": [
-    {
-      "id": "live-20260821-ziv-arieh-maccabi-petah-tikva-easy-decision",
-      "slug": "ziv-arieh-maccabi-petah-tikva-decision-was-easy",
-      "title": "Ziv Arieh: the decision to join Maccabi Petah Tikva was easy",
-      "kind": "article",
-      "words": 334,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 31,
-        "longest": 53,
-        "average": 41.8
-      },
-      "sentenceWords": {
-        "shortest": 37,
-        "longest": 82,
-        "average": 47.7
-      },
-      "lexicalDiversity": 0.617,
-      "publisherAttributions": 1,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-21-disasi-crystal-palace-parrott-betis",
-      "slug": "disasi-crystal-palace-loan-parrott-real-betis-transfer",
-      "title": "Disasi agrees Crystal Palace loan as Parrott completes Real Betis move",
-      "kind": "news",
-      "words": 389,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 31,
-        "longest": 60,
-        "average": 43.2
-      },
-      "sentenceWords": {
-        "shortest": 9,
-        "longest": 42,
-        "average": 29.9
-      },
-      "lexicalDiversity": 0.63,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-21-nir-ramat-hasharon-ashdod-cup-aet",
-      "slug": "hapoel-nir-ramat-hasharon-beat-ashdod-state-cup-extra-time",
-      "title": "Hapoel Nir Ramat Hasharon 2-1 Maccabi Ironi Ashdod (aet): coach hails patched-up side's heart in State Cup",
-      "kind": "match-report",
-      "words": 300,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 25,
-        "longest": 51,
-        "average": 37.5
-      },
-      "sentenceWords": {
-        "shortest": 14,
-        "longest": 79,
-        "average": 30
-      },
-      "lexicalDiversity": 0.65,
-      "publisherAttributions": 1,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-21-crystal-palace-sage-right-back-munoz-khalaili",
-      "slug": "crystal-palace-sage-right-back-munoz-khalaili",
-      "title": "Sage says Crystal Palace happy to keep Muñoz despite Khalaili and Mingueza arrivals",
-      "kind": "news",
-      "words": 392,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 39,
-        "longest": 65,
-        "average": 49
-      },
-      "sentenceWords": {
-        "shortest": 16,
-        "longest": 108,
-        "average": 49
-      },
-      "lexicalDiversity": 0.587,
-      "publisherAttributions": 1,
-      "flags": []
-    },
     {
       "id": "live-20260821-bachar-lineup-dilemmas-haifa-ramat-gan",
       "slug": "bachar-lineup-dilemmas-maccabi-haifa-hapoel-ramat-gan",
@@ -22695,6 +22611,90 @@
       },
       "lexicalDiversity": 0.542,
       "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260821-ziv-arieh-maccabi-petah-tikva-easy-decision",
+      "slug": "ziv-arieh-maccabi-petah-tikva-decision-was-easy",
+      "title": "Ziv Arieh: the decision to join Maccabi Petah Tikva was easy",
+      "kind": "article",
+      "words": 334,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 53,
+        "average": 41.8
+      },
+      "sentenceWords": {
+        "shortest": 37,
+        "longest": 82,
+        "average": 47.7
+      },
+      "lexicalDiversity": 0.617,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-21-disasi-crystal-palace-parrott-betis",
+      "slug": "disasi-crystal-palace-loan-parrott-real-betis-transfer",
+      "title": "Disasi agrees Crystal Palace loan as Parrott completes Real Betis move",
+      "kind": "news",
+      "words": 389,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 60,
+        "average": 43.2
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 42,
+        "average": 29.9
+      },
+      "lexicalDiversity": 0.63,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-21-nir-ramat-hasharon-ashdod-cup-aet",
+      "slug": "hapoel-nir-ramat-hasharon-beat-ashdod-state-cup-extra-time",
+      "title": "Hapoel Nir Ramat Hasharon 2-1 Maccabi Ironi Ashdod (aet): coach hails patched-up side's heart in State Cup",
+      "kind": "match-report",
+      "words": 300,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 25,
+        "longest": 51,
+        "average": 37.5
+      },
+      "sentenceWords": {
+        "shortest": 14,
+        "longest": 79,
+        "average": 30
+      },
+      "lexicalDiversity": 0.65,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-21-crystal-palace-sage-right-back-munoz-khalaili",
+      "slug": "crystal-palace-sage-right-back-munoz-khalaili",
+      "title": "Sage says Crystal Palace happy to keep Muñoz despite Khalaili and Mingueza arrivals",
+      "kind": "news",
+      "words": 392,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 39,
+        "longest": 65,
+        "average": 49
+      },
+      "sentenceWords": {
+        "shortest": 16,
+        "longest": 108,
+        "average": 49
+      },
+      "lexicalDiversity": 0.587,
+      "publisherAttributions": 1,
       "flags": []
     }
   ]
