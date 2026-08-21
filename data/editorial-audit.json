@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T15:05:18.572Z",
+  "generatedAt": "2026-08-21T16:14:15.047Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1529,
-    "publishedBefore": 1068,
-    "cleanPublished": 1061,
+    "totalArticles": 1534,
+    "publishedBefore": 1070,
+    "cleanPublished": 1063,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1068,
-    "reviewAfter": 461
+    "publishedAfter": 1070,
+    "reviewAfter": 464
   },
   "blockedPublished": [
     {
@@ -140,6 +140,34 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-2026-08-21-fantasy-ligat-haal-top-10-candidates",
+      "slug": "fantasy-ligat-haal-top-10-candidates-2026-27",
+      "title": "Atzili tops ONE's ten contenders to be crowned Ligat Ha'al's fantasy king",
+      "statusBefore": "published",
+      "words": 469,
+      "paragraphs": 8,
+      "facts": 8,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-08-21-kiryat-motzkin-rehovot-basketball-signings",
+      "slug": "kiryat-motzkin-rehovot-basketball-signings",
+      "title": "Kiryat Motzkin add Derek Williams and Daniel Nagar as Rehovot sign Niv Lampert",
+      "statusBefore": "review",
+      "words": 324,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
     {
       "id": "live-2026-08-21-hapoel-ramat-gan-dego-return-sammy-ofer",
       "slug": "hapoel-ramat-gan-dego-return-liga-al-opener-maccabi-haifa",
@@ -269,6 +297,20 @@
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260821-ziv-arie-maccabi-petah-tikva",
+      "slug": "ziv-arie-maccabi-petah-tikva-decision-easy",
+      "title": "Ziv Arie says decision to join Maccabi Petah Tikva was an easy one",
+      "statusBefore": "review",
+      "words": 352,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
     },
@@ -14917,6 +14959,32 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-21-fantasy-ligat-haal-top-10-candidates",
+      "slug": "fantasy-ligat-haal-top-10-candidates-2026-27",
+      "title": "Atzili tops ONE's ten contenders to be crowned Ligat Ha'al's fantasy king",
+      "statusBefore": "published",
+      "words": 469,
+      "paragraphs": 8,
+      "facts": 8,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-08-21-nba-summer-transfers-that-changed-the-league",
+      "slug": "nba-summer-transfers-that-changed-the-league",
+      "title": "The summer that changed the NBA: LeBron, Giannis and every big move",
+      "statusBefore": "published",
+      "words": 588,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-2026-08-21-kroos-picks-kvaratskhelia-ballon-dor",
       "slug": "kroos-picks-kvaratskhelia-ballon-dor-2026",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T15:05:19.166Z",
+  "generatedAt": "2026-08-21T16:14:15.688Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1068,
+    "publishedArticles": 1070,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 418,
-      "average": 422.3
+      "average": 422.5
     },
     "paragraphDistribution": {
       "3": 36,
@@ -24,8 +24,8 @@
       "5": 10,
       "6": 49,
       "7": 156,
-      "8": 315,
-      "9": 253,
+      "8": 316,
+      "9": 254,
       "10": 174,
       "11": 45,
       "12": 14,
@@ -4311,6 +4311,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-21-fantasy-ligat-haal-top-10-candidates",
+      "slug": "fantasy-ligat-haal-top-10-candidates-2026-27",
+      "title": "Atzili tops ONE's ten contenders to be crowned Ligat Ha'al's fantasy king",
+      "kind": "article",
+      "words": 463,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 39,
+        "longest": 105,
+        "average": 57.9
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 53,
+        "average": 30.9
+      },
+      "lexicalDiversity": 0.577,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-21-nba-summer-transfers-that-changed-the-league",
+      "slug": "nba-summer-transfers-that-changed-the-league",
+      "title": "The summer that changed the NBA: LeBron, Giannis and every big move",
+      "kind": "news",
+      "words": 584,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 48,
+        "longest": 90,
+        "average": 64.9
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 59,
+        "average": 29.2
+      },
+      "lexicalDiversity": 0.601,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-21-bernasconi-atalanta-hapoel-conference-league",
       "slug": "bernasconi-atalanta-hapoel-tel-aviv-conference-league-playoff",
