@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T13:00:30.315Z",
+  "generatedAt": "2026-08-21T14:03:46.033Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1065,
+    "publishedArticles": 1068,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 418,
-      "average": 422.6
+      "average": 422.3
     },
     "paragraphDistribution": {
       "3": 36,
       "4": 6,
       "5": 10,
       "6": 49,
-      "7": 154,
-      "8": 314,
+      "7": 156,
+      "8": 315,
       "9": 253,
       "10": 174,
       "11": 45,
@@ -39,7 +39,7 @@
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 49,
     "analysisBelowTarget": 11,
-    "articlesWithStyleFlags": 183
+    "articlesWithStyleFlags": 185
   },
   "flagged": [
     {
@@ -327,6 +327,52 @@
       "publisherAttributions": 2,
       "flags": [
         "below-editorial-target:227/280",
+        "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-21-kroos-picks-kvaratskhelia-ballon-dor",
+      "slug": "kroos-picks-kvaratskhelia-ballon-dor-2026",
+      "title": "Kroos names Kvaratskhelia his surprise pick for the 2026 Ballon d'Or",
+      "kind": "article",
+      "words": 261,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 29,
+        "longest": 50,
+        "average": 37.3
+      },
+      "sentenceWords": {
+        "shortest": 29,
+        "longest": 50,
+        "average": 37.3
+      },
+      "lexicalDiversity": 0.667,
+      "publisherAttributions": 1,
+      "flags": [
+        "below-editorial-target:261/280"
+      ]
+    },
+    {
+      "id": "live-2026-08-21-ronaldo-returns-al-nassr-1000-goals",
+      "slug": "ronaldo-returns-al-nassr-al-riyadh-24-goals-from-1000",
+      "title": "Ronaldo returns for Al-Nassr against Al-Riyadh, needing 24 goals for 1,000",
+      "kind": "article",
+      "words": 302,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 43,
+        "average": 37.8
+      },
+      "sentenceWords": {
+        "shortest": 31,
+        "longest": 43,
+        "average": 37.8
+      },
+      "lexicalDiversity": 0.619,
+      "publisherAttributions": 2,
+      "flags": [
         "publisher-attribution-heavy:2"
       ]
     },
@@ -4265,6 +4311,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-21-bernasconi-atalanta-hapoel-conference-league",
+      "slug": "bernasconi-atalanta-hapoel-tel-aviv-conference-league-playoff",
+      "title": "Atalanta 0-0 Hapoel Tel Aviv: Bernasconi says Nerazzurri braced for a press that never came",
+      "kind": "article",
+      "words": 418,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 42,
+        "longest": 70,
+        "average": 59.7
+      },
+      "sentenceWords": {
+        "shortest": 2,
+        "longest": 77,
+        "average": 27.9
+      },
+      "lexicalDiversity": 0.622,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-21-ferencvaros-zaarura-interest",
       "slug": "ferencvaros-eyes-maccabi-netanya-midfielder-bassam-zaarura",
