@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T11:01:21.777Z",
+  "generatedAt": "2026-08-21T11:51:28.019Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,22 +11,22 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1061,
+    "publishedArticles": 1065,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 418,
-      "average": 422.8
+      "average": 422.6
     },
     "paragraphDistribution": {
       "3": 36,
       "4": 6,
       "5": 10,
       "6": 49,
-      "7": 152,
-      "8": 313,
+      "7": 154,
+      "8": 314,
       "9": 253,
-      "10": 173,
+      "10": 174,
       "11": 45,
       "12": 14,
       "13": 4,
@@ -38,8 +38,8 @@
     "dominantParagraphShare": 0.295,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 49,
-    "analysisBelowTarget": 10,
-    "articlesWithStyleFlags": 180
+    "analysisBelowTarget": 11,
+    "articlesWithStyleFlags": 183
   },
   "flagged": [
     {
@@ -328,6 +328,75 @@
       "flags": [
         "below-editorial-target:227/280",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-21-musiala-ruled-out-super-cup-collapses",
+      "slug": "musiala-ruled-out-super-cup-collapses",
+      "title": "Musiala left out of German Super Cup squad after second training collapse",
+      "kind": "news",
+      "words": 252,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 25,
+        "longest": 46,
+        "average": 36
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 46,
+        "average": 28
+      },
+      "lexicalDiversity": 0.671,
+      "publisherAttributions": 1,
+      "flags": [
+        "below-editorial-target:252/280"
+      ]
+    },
+    {
+      "id": "live-2026-08-21-premier-league-new-managers-pressure",
+      "slug": "premier-league-new-managers-pressure-test-2026-27",
+      "title": "Premier League's new-manager gamble: can Maresca, Iraola and Alonso survive the pressure?",
+      "kind": "analysis",
+      "words": 524,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 38,
+        "longest": 79,
+        "average": 52.4
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 44,
+        "average": 25
+      },
+      "lexicalDiversity": 0.58,
+      "publisherAttributions": 0,
+      "flags": [
+        "below-editorial-target:524/650"
+      ]
+    },
+    {
+      "id": "live-2026-08-21-uri-magbo-umm-al-fahm",
+      "slug": "uri-magbo-signs-hapoel-umm-al-fahm",
+      "title": "Former Beitar Jerusalem favourite Uri Magbo signs for Hapoel Umm al-Fahm",
+      "kind": "article",
+      "words": 334,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 45,
+        "longest": 52,
+        "average": 47.7
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 90,
+        "average": 30.4
+      },
+      "lexicalDiversity": 0.584,
+      "publisherAttributions": 1,
+      "flags": [
+        "stock-phrase:statement-of-intent"
       ]
     },
     {
@@ -4196,6 +4265,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-21-ferencvaros-zaarura-interest",
+      "slug": "ferencvaros-eyes-maccabi-netanya-midfielder-bassam-zaarura",
+      "title": "Ferencváros show interest in Maccabi Netanya's Bassam Zaarura, ONE reports",
+      "kind": "news",
+      "words": 332,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 28,
+        "longest": 54,
+        "average": 41.5
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 53,
+        "average": 30.2
+      },
+      "lexicalDiversity": 0.602,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260821-bachar-lineup-dilemmas-haifa-ramat-gan",
       "slug": "bachar-lineup-dilemmas-maccabi-haifa-hapoel-ramat-gan",
