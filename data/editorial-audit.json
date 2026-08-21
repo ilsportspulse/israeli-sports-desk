@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T18:35:43.174Z",
+  "generatedAt": "2026-08-21T20:45:33.504Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1538,
-    "publishedBefore": 1073,
-    "cleanPublished": 1066,
+    "totalArticles": 1544,
+    "publishedBefore": 1075,
+    "cleanPublished": 1068,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1073,
-    "reviewAfter": 465
+    "publishedAfter": 1075,
+    "reviewAfter": 469
   },
   "blockedPublished": [
     {
@@ -141,13 +141,13 @@
   ],
   "warnings": [
     {
-      "id": "live-20260821-dolgopyat-third-european-floor-title",
-      "slug": "dolgopyat-third-european-floor-title-zagreb",
-      "title": "Dolgopyat wins third European floor title with 14.466 in Zagreb",
+      "id": "live-2026-08-21-atletico-gil-marin-alvarez-stay",
+      "slug": "atletico-madrid-gil-marin-alvarez-stay-message",
+      "title": "Atlético CEO to Álvarez: 'we will help you, we need you'",
       "statusBefore": "published",
-      "words": 402,
+      "words": 376,
       "paragraphs": 8,
-      "facts": 8,
+      "facts": 6,
       "verificationSources": 4,
       "blockers": [],
       "warnings": [
@@ -155,28 +155,72 @@
       ]
     },
     {
-      "id": "live-2026-08-21-argentina-afa-appeal-fifa-paredes-ban",
-      "slug": "argentina-afa-appeal-fifa-paredes-world-cup-final-ban",
-      "title": "Argentina to appeal FIFA bans handed down over World Cup final brawl",
-      "statusBefore": "published",
-      "words": 398,
+      "id": "live-2026-08-21-dolgopyat-european-floor-gold-zagreb",
+      "slug": "dolgopyat-european-floor-gold-zagreb",
+      "title": "Dolgopyat clinches third European floor title in Zagreb with 14.466",
+      "statusBefore": "review",
+      "words": 342,
       "paragraphs": 9,
-      "facts": 6,
-      "verificationSources": 5,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-21-motley-bench-comments",
+      "slug": "motley-bench-comments-hapoel-tel-aviv",
+      "title": "Johnathan Motley says he sat too much on the bench during his Hapoel Tel Aviv title run",
+      "statusBefore": "published",
+      "words": 356,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:3"
+      ]
+    },
+    {
+      "id": "live-20260821-dolgopyat-third-european-floor-gold",
+      "slug": "dolgopyat-third-european-floor-title-zagreb",
+      "title": "Dolgopyat wins third European floor title in Zagreb",
+      "statusBefore": "review",
+      "words": 303,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
     },
     {
-      "id": "live-20260821-maccabi-tel-aviv-beat-petah-tikva-3-1-youth",
-      "slug": "maccabi-tel-aviv-beat-maccabi-petah-tikva-3-1-youth-league",
-      "title": "Maccabi Tel Aviv beat Maccabi Petah Tikva 3-1 in Youth Premier League",
-      "statusBefore": "review",
-      "words": 266,
-      "paragraphs": 7,
-      "facts": 8,
-      "verificationSources": 2,
+      "id": "live-20260821-argentina-fifa-appeal-world-cup-final-brawl",
+      "slug": "argentina-appeal-fifa-bans-world-cup-final-brawl",
+      "title": "Argentina to appeal FIFA bans handed down over World Cup final brawl with Spain",
+      "statusBefore": "published",
+      "words": 533,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "live-20260821-maccabi-petah-tikva-maccabi-tel-aviv-youth",
+      "slug": "maccabi-petah-tikva-maccabi-tel-aviv-youth-league-report",
+      "title": "Maccabi Petah Tikva 1-3 Maccabi Tel Aviv: champions survive fightback in youth league",
+      "statusBefore": "published",
+      "words": 337,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 1,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -207,7 +251,8 @@
       "verificationSources": 2,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -14998,9 +15043,51 @@
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
+    },
+    {
+      "id": "live-20260821-maccabi-tel-aviv-beat-petah-tikva-3-1-youth",
+      "slug": "maccabi-tel-aviv-beat-maccabi-petah-tikva-3-1-youth-league",
+      "title": "Maccabi Tel Aviv beat Maccabi Petah Tikva 3-1 in Youth Premier League",
+      "statusBefore": "review",
+      "words": 266,
+      "paragraphs": 7,
+      "facts": 8,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-21-atletico-gil-marin-alvarez-stay",
+      "slug": "atletico-madrid-gil-marin-alvarez-stay-message",
+      "title": "Atlético CEO to Álvarez: 'we will help you, we need you'",
+      "statusBefore": "published",
+      "words": 376,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-21-motley-bench-comments",
+      "slug": "motley-bench-comments-hapoel-tel-aviv",
+      "title": "Johnathan Motley says he sat too much on the bench during his Hapoel Tel Aviv title run",
+      "statusBefore": "published",
+      "words": 356,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:3"
+      ]
+    },
     {
       "id": "live-2026-08-21-hector-fort-dortmund-transfer",
       "slug": "hector-fort-dortmund-transfer-request",
@@ -15014,28 +15101,29 @@
       "warnings": []
     },
     {
-      "id": "live-20260821-dolgopyat-third-european-floor-title",
-      "slug": "dolgopyat-third-european-floor-title-zagreb",
-      "title": "Dolgopyat wins third European floor title with 14.466 in Zagreb",
+      "id": "live-20260821-argentina-fifa-appeal-world-cup-final-brawl",
+      "slug": "argentina-appeal-fifa-bans-world-cup-final-brawl",
+      "title": "Argentina to appeal FIFA bans handed down over World Cup final brawl with Spain",
       "statusBefore": "published",
-      "words": 402,
+      "words": 533,
       "paragraphs": 8,
-      "facts": 8,
+      "facts": 6,
       "verificationSources": 4,
       "blockers": [],
       "warnings": [
-        "media:no-action-or-competition-context-detected"
+        "media:no-action-or-competition-context-detected",
+        "voice:stock-editorial-phrase-detected"
       ]
     },
     {
-      "id": "live-2026-08-21-argentina-afa-appeal-fifa-paredes-ban",
-      "slug": "argentina-afa-appeal-fifa-paredes-world-cup-final-ban",
-      "title": "Argentina to appeal FIFA bans handed down over World Cup final brawl",
+      "id": "live-20260821-maccabi-petah-tikva-maccabi-tel-aviv-youth",
+      "slug": "maccabi-petah-tikva-maccabi-tel-aviv-youth-league-report",
+      "title": "Maccabi Petah Tikva 1-3 Maccabi Tel Aviv: champions survive fightback in youth league",
       "statusBefore": "published",
-      "words": 398,
-      "paragraphs": 9,
-      "facts": 6,
-      "verificationSources": 5,
+      "words": 337,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 1,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -29407,18 +29495,6 @@
       ]
     },
     {
-      "id": "live-2026-08-21-nir-ramat-hasharon-ashdod-cup-aet",
-      "slug": "hapoel-nir-ramat-hasharon-beat-ashdod-state-cup-extra-time",
-      "title": "Hapoel Nir Ramat Hasharon 2-1 Maccabi Ironi Ashdod (aet): coach hails patched-up side's heart in State Cup",
-      "statusBefore": "published",
-      "words": 300,
-      "paragraphs": 8,
-      "facts": 6,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": []
-    },
-    {
       "id": "live-2026-08-21-crystal-palace-sage-right-back-munoz-khalaili",
       "slug": "crystal-palace-sage-right-back-munoz-khalaili",
       "title": "Sage says Crystal Palace happy to keep Muñoz despite Khalaili and Mingueza arrivals",
@@ -29426,6 +29502,18 @@
       "words": 391,
       "paragraphs": 8,
       "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260821-dolgopyat-third-european-floor-title",
+      "slug": "dolgopyat-third-european-floor-title-zagreb",
+      "title": "Dolgopyat wins third European floor title with 14.466 in Zagreb",
+      "statusBefore": "published",
+      "words": 402,
+      "paragraphs": 8,
+      "facts": 8,
       "verificationSources": 4,
       "blockers": [],
       "warnings": []

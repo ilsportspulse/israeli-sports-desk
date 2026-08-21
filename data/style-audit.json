@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T18:35:43.799Z",
+  "generatedAt": "2026-08-21T20:45:34.112Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,7 +11,7 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1073,
+    "publishedArticles": 1075,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
@@ -24,8 +24,8 @@
       "5": 10,
       "6": 49,
       "7": 157,
-      "8": 317,
-      "9": 255,
+      "8": 320,
+      "9": 254,
       "10": 174,
       "11": 45,
       "12": 14,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.295,
+    "dominantParagraphShare": 0.298,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 49,
     "analysisBelowTarget": 11,
-    "articlesWithStyleFlags": 185
+    "articlesWithStyleFlags": 187
   },
   "flagged": [
     {
@@ -328,6 +328,52 @@
       "flags": [
         "below-editorial-target:227/280",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-21-motley-bench-comments",
+      "slug": "motley-bench-comments-hapoel-tel-aviv",
+      "title": "Johnathan Motley says he sat too much on the bench during his Hapoel Tel Aviv title run",
+      "kind": "article",
+      "words": 356,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 41,
+        "longest": 51,
+        "average": 44.5
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 61,
+        "average": 25.4
+      },
+      "lexicalDiversity": 0.596,
+      "publisherAttributions": 3,
+      "flags": [
+        "publisher-attribution-heavy:3"
+      ]
+    },
+    {
+      "id": "live-20260821-argentina-fifa-appeal-world-cup-final-brawl",
+      "slug": "argentina-appeal-fifa-bans-world-cup-final-brawl",
+      "title": "Argentina to appeal FIFA bans handed down over World Cup final brawl with Spain",
+      "kind": "news",
+      "words": 533,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 49,
+        "longest": 78,
+        "average": 66.6
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 61,
+        "average": 31.4
+      },
+      "lexicalDiversity": 0.574,
+      "publisherAttributions": 0,
+      "flags": [
+        "stock-phrase:remains-to-be-seen"
       ]
     },
     {
@@ -4312,6 +4358,27 @@
   ],
   "clean": [
     {
+      "id": "live-2026-08-21-atletico-gil-marin-alvarez-stay",
+      "slug": "atletico-madrid-gil-marin-alvarez-stay-message",
+      "title": "Atlético CEO to Álvarez: 'we will help you, we need you'",
+      "kind": "news",
+      "words": 371,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 60,
+        "average": 46.4
+      },
+      "sentenceWords": {
+        "shortest": 18,
+        "longest": 98,
+        "average": 46.4
+      },
+      "lexicalDiversity": 0.631,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
       "id": "live-2026-08-21-hector-fort-dortmund-transfer",
       "slug": "hector-fort-dortmund-transfer-request",
       "title": "Barcelona's Héctor Fort snubs Real Sociedad and Roma to push for Borussia Dortmund move",
@@ -4333,45 +4400,24 @@
       "flags": []
     },
     {
-      "id": "live-20260821-dolgopyat-third-european-floor-title",
-      "slug": "dolgopyat-third-european-floor-title-zagreb",
-      "title": "Dolgopyat wins third European floor title with 14.466 in Zagreb",
-      "kind": "news",
-      "words": 403,
+      "id": "live-20260821-maccabi-petah-tikva-maccabi-tel-aviv-youth",
+      "slug": "maccabi-petah-tikva-maccabi-tel-aviv-youth-league-report",
+      "title": "Maccabi Petah Tikva 1-3 Maccabi Tel Aviv: champions survive fightback in youth league",
+      "kind": "article",
+      "words": 335,
       "paragraphs": 8,
       "paragraphWords": {
-        "shortest": 40,
-        "longest": 63,
-        "average": 50.4
+        "shortest": 30,
+        "longest": 66,
+        "average": 41.9
       },
       "sentenceWords": {
-        "shortest": 7,
-        "longest": 49,
-        "average": 28.8
+        "shortest": 9,
+        "longest": 141,
+        "average": 41.9
       },
-      "lexicalDiversity": 0.568,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-21-argentina-afa-appeal-fifa-paredes-ban",
-      "slug": "argentina-afa-appeal-fifa-paredes-world-cup-final-ban",
-      "title": "Argentina to appeal FIFA bans handed down over World Cup final brawl",
-      "kind": "news",
-      "words": 404,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 35,
-        "longest": 55,
-        "average": 44.9
-      },
-      "sentenceWords": {
-        "shortest": 5,
-        "longest": 65,
-        "average": 28.9
-      },
-      "lexicalDiversity": 0.609,
-      "publisherAttributions": 0,
+      "lexicalDiversity": 0.648,
+      "publisherAttributions": 1,
       "flags": []
     },
     {
@@ -22918,27 +22964,6 @@
       "flags": []
     },
     {
-      "id": "live-2026-08-21-nir-ramat-hasharon-ashdod-cup-aet",
-      "slug": "hapoel-nir-ramat-hasharon-beat-ashdod-state-cup-extra-time",
-      "title": "Hapoel Nir Ramat Hasharon 2-1 Maccabi Ironi Ashdod (aet): coach hails patched-up side's heart in State Cup",
-      "kind": "match-report",
-      "words": 300,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 25,
-        "longest": 51,
-        "average": 37.5
-      },
-      "sentenceWords": {
-        "shortest": 14,
-        "longest": 79,
-        "average": 30
-      },
-      "lexicalDiversity": 0.65,
-      "publisherAttributions": 1,
-      "flags": []
-    },
-    {
       "id": "live-2026-08-21-crystal-palace-sage-right-back-munoz-khalaili",
       "slug": "crystal-palace-sage-right-back-munoz-khalaili",
       "title": "Sage says Crystal Palace happy to keep Muñoz despite Khalaili and Mingueza arrivals",
@@ -22957,6 +22982,27 @@
       },
       "lexicalDiversity": 0.587,
       "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260821-dolgopyat-third-european-floor-title",
+      "slug": "dolgopyat-third-european-floor-title-zagreb",
+      "title": "Dolgopyat wins third European floor title with 14.466 in Zagreb",
+      "kind": "news",
+      "words": 403,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 40,
+        "longest": 63,
+        "average": 50.4
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 49,
+        "average": 28.8
+      },
+      "lexicalDiversity": 0.568,
+      "publisherAttributions": 0,
       "flags": []
     }
   ]
