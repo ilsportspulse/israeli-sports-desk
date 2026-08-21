@@ -146,21 +146,21 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-21T09:24:08Z",
-    "validUntil": "2026-08-21T21:24:08Z",
+    "checkedAt": "2026-08-21T09:40:51Z",
+    "validUntil": "2026-08-21T21:40:51Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 780,
+        "maxAgeHours": 781,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-21-avdija-portland-role-analysts",
+        "articleId": "live-20260821-ziv-arieh-maccabi-petah-tikva-easy-decision",
         "maxAgeHours": 48,
         "requires": []
       },
@@ -174,14 +174,14 @@
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260821-bachar-lineup-dilemmas-haifa-ramat-gan",
+        "articleId": "live-2026-08-21-disasi-crystal-palace-parrott-betis",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 798,
+        "maxAgeHours": 799,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-20-bergamo-fireworks-seizure-hapoel-fans",
+        "articleId": "live-2026-08-21-nir-ramat-hasharon-ashdod-cup-aet",
         "maxAgeHours": 36,
         "requires": []
       }

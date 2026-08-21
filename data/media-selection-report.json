@@ -1,22 +1,28 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-08-21-israel-jumping-team-misses-olympic-route-aachen",
-      "article": "Israel's show jumping team finishes 26th of 30, misses direct Olympic route at Aachen worlds",
-      "file": "File:CHIO Aachen.jpg",
-      "license": "CC BY-SA 4.0"
-    },
-    {
-      "articleId": "live-2026-08-21-buchbot-beit-shean",
-      "article": "Meir Buchbot signs for Hapoel Beit She'an ahead of new season",
+      "articleId": "live-2026-08-21-meir-buhbut-hapoel-beit-shean",
+      "article": "Meir Buhbut leaves Bnei Reineh for Hapoel Beit She'an",
       "file": "File:PikiWiki Israel 50265 beit she'an.jpg",
       "license": "CC BY 2.5"
     },
     {
-      "articleId": "live-2026-08-21-judo-cadet-worlds-gold-bronze",
-      "article": "Ella Bar-Lev takes world U18 judo gold as Agam Noy adds bronze in same category",
-      "file": "File:Israel National Olympic Judo Mixed Team in 2021.jpg",
+      "articleId": "live-20260821-ziv-arieh-maccabi-petah-tikva-easy-decision",
+      "article": "Ziv Arieh: the decision to join Maccabi Petah Tikva was easy",
+      "file": "File:Parking in Petah Tikva, May 2024 17.jpg",
       "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-2026-08-21-disasi-crystal-palace-parrott-betis",
+      "article": "Disasi agrees Crystal Palace loan as Parrott completes Real Betis move",
+      "file": "File:AxelDisasi.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-2026-08-21-crystal-palace-sage-right-back-munoz-khalaili",
+      "article": "Sage says Crystal Palace happy to keep Muñoz despite Khalaili and Mingueza arrivals",
+      "file": "File:Daniel Muñoz, Colombia NT presidential send-off, Jun 2026.jpg",
+      "license": "Public domain"
     },
     {
       "articleId": "live-2026-08-20-kanikovsky-ferencvaros-trabzonspor-europa-league",
@@ -31,9 +37,15 @@
       "license": "CC BY-SA 4.0"
     },
     {
+      "articleId": "live-2026-08-13-adva-cohen-steeplechase-10th",
+      "article": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
+      "file": "File:20220817 European Championships Munich 2022 Tania Moreno Matveeva 850 7683.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
       "articleId": "live-20260802-israel-fifth-mixed-duet-technical-paris",
       "article": "Israel take fifth in mixed duet technical final at European Championships in Paris",
-      "file": "File:20220817 European Championships Munich 2022 Tania Moreno Matveeva 850 7683.jpg",
+      "file": "File:20220814 European Championships Munich 2022 Ľubomír Pištej 850 3618.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
@@ -47,18 +59,25 @@
       "article": "Adam Ramsay-Peaty questions it all after bitter Commonwealth bronze",
       "file": "File:Adam Peaty Olympics 100m breaststroke 2016.jpg",
       "license": "CC BY 3.0 br"
+    },
+    {
+      "articleId": "live-20260714-basketball-coaches-registration",
+      "article": "Israeli basketball coaches demand freeze on registration overhaul",
+      "query": "Israel basketball coach team",
+      "file": "File:Oded Katash Hapoel Eilat.jpg",
+      "license": "CC BY-SA 4.0"
     }
   ],
   "failures": [
     {
-      "id": "live-20260821-ziv-arie-maccabi-petah-tikva",
-      "title": "Ziv Arie says decision to join Maccabi Petah Tikva was an easy one",
-      "error": "image download 429 after retries"
+      "id": "live-2026-08-21-nir-ramat-hasharon-ashdod-cup-aet",
+      "title": "Hapoel Nir Ramat Hasharon 2-1 Maccabi Ironi Ashdod (aet): coach hails patched-up side's heart in State Cup",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {
-      "id": "live-2026-08-21-hapoel-nir-ramat-hasharon-state-cup",
-      "title": "Hapoel Nir Ramat HaSharon beat Maccabi Ironi Ashdod 2-1 after extra time with only nine fit players",
-      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+      "id": "live-2026-08-21-judo-cadet-worlds-gold-bronze",
+      "title": "Ella Bar-Lev takes world U18 judo gold as Agam Noy adds bronze in same category",
+      "error": "image download 429 after retries"
     },
     {
       "id": "live-2026-08-20-erez-isakov-maccabi-hasharon-netanya-kit-reveal",
@@ -98,11 +117,6 @@
     {
       "id": "live-2026-08-15-ukraine-amateur-tennis-legend-kurbanov-killed-war",
       "title": "Ukrainian amateur tennis 'legend' Slava Kurbanov killed fighting on the front",
-      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
-    },
-    {
-      "id": "live-2026-08-13-adva-cohen-steeplechase-10th",
-      "title": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {
@@ -289,11 +303,6 @@
       "id": "live-20260722-bnei-eilat-youth-b-champions",
       "title": "Bnei Eilat's Youth B Side Go Unbeaten to Win Southern District Title",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
-    },
-    {
-      "id": "live-20260714-basketball-coaches-registration",
-      "title": "Israeli basketball coaches demand freeze on registration overhaul",
-      "error": "image download 429 after retries"
     },
     {
       "id": "live-2026-08-01-kaufman-gorbenko-2028-olympic-plan",

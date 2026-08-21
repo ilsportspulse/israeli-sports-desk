@@ -2530,5 +2530,61 @@
         "reason": "Single-source (ONE) match report; the exact championship division/host country and the goalkeeper's real name behind the \"Messi\" nickname are not independently confirmed, and the coach's quote is reported without a named attribution in the source itself."
       }
     ]
+  },
+  {
+    "ts": "2026-08-21T09:26:40.160Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 4,
+    "review": 1,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "crystal-palace-sage-right-back-munoz-khalaili",
+        "title": "Sage says Crystal Palace happy to keep Muñoz despite Khalaili and Mingueza arrivals",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "hapoel-nir-ramat-hasharon-beat-ashdod-state-cup-extra-time",
+        "title": "Hapoel Nir Ramat Hasharon 2-1 Maccabi Ironi Ashdod (aet): coach hails patched-up side's heart in State Cup",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "disasi-crystal-palace-loan-parrott-real-betis-transfer",
+        "title": "Disasi agrees Crystal Palace loan as Parrott completes Real Betis move",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "ziv-arieh-maccabi-petah-tikva-decision-was-easy",
+        "title": "Ziv Arieh: the decision to join Maccabi Petah Tikva was easy",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "meir-buhbut-signs-hapoel-beit-shean",
+        "title": "Meir Buhbut leaves Bnei Reineh for Hapoel Beit She'an",
+        "confidence": 0.78,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "No verified Wikimedia Commons photo could be confirmed as depicting Meir Buhbut or Hapoel Beit She'an specifically — commonsCandidates is empty and the story should run text-only or be held for imagery pending a verified photo."
+      }
+    ]
   }
 ]
