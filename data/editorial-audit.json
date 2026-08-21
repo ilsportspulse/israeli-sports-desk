@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T05:53:59.107Z",
+  "generatedAt": "2026-08-21T07:12:41.106Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1507,
-    "publishedBefore": 1055,
-    "cleanPublished": 1048,
+    "totalArticles": 1511,
+    "publishedBefore": 1057,
+    "cleanPublished": 1050,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1055,
-    "reviewAfter": 452
+    "publishedAfter": 1057,
+    "reviewAfter": 454
   },
   "blockedPublished": [
     {
@@ -140,6 +140,50 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-2026-08-21-avdija-portland-role-analysts",
+      "slug": "deni-avdija-portland-trail-blazers-role-analysts",
+      "title": "US analysts spell out what Portland need from Deni Avdija this season",
+      "statusBefore": "published",
+      "words": 618,
+      "paragraphs": 12,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:analysis-below-650-word-editorial-target:618"
+      ]
+    },
+    {
+      "id": "live-20260821-hapoel-beer-sheva-baku-champions-league-flight",
+      "slug": "hapoel-beer-sheva-flies-to-baku-champions-league-playoff-second-leg",
+      "title": "Hapoel Be'er Sheva fly to Baku for Champions League playoff decider against Sabah",
+      "statusBefore": "review",
+      "words": 365,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260821-bachar-lineup-dilemmas-haifa-ramat-gan",
+      "slug": "bachar-lineup-dilemmas-maccabi-haifa-hapoel-ramat-gan",
+      "title": "Bachar weighs lineup dilemmas as Maccabi Haifa open season against Hapoel Ramat Gan",
+      "statusBefore": "published",
+      "words": 372,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260821-maccabi-tel-aviv-lugano-gifts-dressing-room",
       "slug": "maccabi-tel-aviv-lugano-gifts-dressing-room-anger",
@@ -14669,6 +14713,36 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-21-avdija-portland-role-analysts",
+      "slug": "deni-avdija-portland-trail-blazers-role-analysts",
+      "title": "US analysts spell out what Portland need from Deni Avdija this season",
+      "statusBefore": "published",
+      "words": 618,
+      "paragraphs": 12,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:analysis-below-650-word-editorial-target:618"
+      ]
+    },
+    {
+      "id": "live-20260821-bachar-lineup-dilemmas-haifa-ramat-gan",
+      "slug": "bachar-lineup-dilemmas-maccabi-haifa-hapoel-ramat-gan",
+      "title": "Bachar weighs lineup dilemmas as Maccabi Haifa open season against Hapoel Ramat Gan",
+      "statusBefore": "published",
+      "words": 372,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "archive-20260821-oklahoma-city-28-october-2009-the-night-",
       "slug": "oklahoma-city-28-october-2009-the-night-an-israeli-first-walked-onto-a",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T05:53:59.713Z",
+  "generatedAt": "2026-08-21T07:12:41.709Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1055,
+    "publishedArticles": 1057,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 418,
-      "average": 422.9
+      "average": 423.1
     },
     "paragraphDistribution": {
       "3": 36,
@@ -25,21 +25,21 @@
       "6": 49,
       "7": 152,
       "8": 310,
-      "9": 251,
+      "9": 252,
       "10": 173,
       "11": 45,
-      "12": 13,
+      "12": 14,
       "13": 4,
       "14": 2,
       "16": 1,
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.294,
+    "dominantParagraphShare": 0.293,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 49,
-    "analysisBelowTarget": 9,
-    "articlesWithStyleFlags": 179
+    "analysisBelowTarget": 10,
+    "articlesWithStyleFlags": 180
   },
   "flagged": [
     {
@@ -328,6 +328,29 @@
       "flags": [
         "below-editorial-target:227/280",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-21-avdija-portland-role-analysts",
+      "slug": "deni-avdija-portland-trail-blazers-role-analysts",
+      "title": "US analysts spell out what Portland need from Deni Avdija this season",
+      "kind": "analysis",
+      "words": 617,
+      "paragraphs": 12,
+      "paragraphWords": {
+        "shortest": 40,
+        "longest": 67,
+        "average": 51.4
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 51,
+        "average": 29.4
+      },
+      "lexicalDiversity": 0.549,
+      "publisherAttributions": 0,
+      "flags": [
+        "below-editorial-target:617/650"
       ]
     },
     {
@@ -4173,6 +4196,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260821-bachar-lineup-dilemmas-haifa-ramat-gan",
+      "slug": "bachar-lineup-dilemmas-maccabi-haifa-hapoel-ramat-gan",
+      "title": "Bachar weighs lineup dilemmas as Maccabi Haifa open season against Hapoel Ramat Gan",
+      "kind": "article",
+      "words": 374,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 26,
+        "longest": 57,
+        "average": 41.6
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 48,
+        "average": 28.8
+      },
+      "lexicalDiversity": 0.639,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "archive-20260821-oklahoma-city-28-october-2009-the-night-",
       "slug": "oklahoma-city-28-october-2009-the-night-an-israeli-first-walked-onto-a",
