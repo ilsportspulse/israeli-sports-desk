@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T17:46:34.813Z",
+  "generatedAt": "2026-08-21T18:17:34.183Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1534,
-    "publishedBefore": 1070,
-    "cleanPublished": 1063,
+    "totalArticles": 1538,
+    "publishedBefore": 1073,
+    "cleanPublished": 1066,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1070,
-    "reviewAfter": 464
+    "publishedAfter": 1073,
+    "reviewAfter": 465
   },
   "blockedPublished": [
     {
@@ -141,6 +141,63 @@
   ],
   "warnings": [
     {
+      "id": "live-2026-08-21-hector-fort-dortmund-transfer",
+      "slug": "hector-fort-chooses-borussia-dortmund-move",
+      "title": "Héctor Fort reportedly opts for Borussia Dortmund switch over Real Sociedad and Roma",
+      "statusBefore": "published",
+      "words": 350,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-20260821-dolgopyat-third-european-floor-gold",
+      "slug": "dolgopyat-third-european-floor-title-zagreb",
+      "title": "Dolgopyat wins third European floor title in Zagreb",
+      "statusBefore": "published",
+      "words": 303,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260821-argentina-fifa-appeal-world-cup-final-brawl",
+      "slug": "argentina-appeal-fifa-bans-world-cup-final-brawl",
+      "title": "Argentina to appeal FIFA bans handed down over World Cup final brawl with Spain",
+      "statusBefore": "published",
+      "words": 533,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "live-20260821-maccabi-petah-tikva-maccabi-tel-aviv-youth",
+      "slug": "maccabi-petah-tikva-maccabi-tel-aviv-youth-league-report",
+      "title": "Maccabi Petah Tikva 1-3 Maccabi Tel Aviv: champions survive fightback in youth league",
+      "statusBefore": "published",
+      "words": 337,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-2026-08-21-fantasy-ligat-haal-top-10-candidates",
       "slug": "fantasy-ligat-haal-top-10-candidates-2026-27",
       "title": "Atzili tops ONE's ten contenders to be crowned Ligat Ha'al's fantasy king",
@@ -165,7 +222,8 @@
       "verificationSources": 2,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -14960,6 +15018,63 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-2026-08-21-hector-fort-dortmund-transfer",
+      "slug": "hector-fort-chooses-borussia-dortmund-move",
+      "title": "Héctor Fort reportedly opts for Borussia Dortmund switch over Real Sociedad and Roma",
+      "statusBefore": "published",
+      "words": 350,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-20260821-dolgopyat-third-european-floor-gold",
+      "slug": "dolgopyat-third-european-floor-title-zagreb",
+      "title": "Dolgopyat wins third European floor title in Zagreb",
+      "statusBefore": "published",
+      "words": 303,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260821-argentina-fifa-appeal-world-cup-final-brawl",
+      "slug": "argentina-appeal-fifa-bans-world-cup-final-brawl",
+      "title": "Argentina to appeal FIFA bans handed down over World Cup final brawl with Spain",
+      "statusBefore": "published",
+      "words": 533,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "live-20260821-maccabi-petah-tikva-maccabi-tel-aviv-youth",
+      "slug": "maccabi-petah-tikva-maccabi-tel-aviv-youth-league-report",
+      "title": "Maccabi Petah Tikva 1-3 Maccabi Tel Aviv: champions survive fightback in youth league",
+      "statusBefore": "published",
+      "words": 337,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-2026-08-21-fantasy-ligat-haal-top-10-candidates",
       "slug": "fantasy-ligat-haal-top-10-candidates-2026-27",
       "title": "Atzili tops ONE's ten contenders to be crowned Ligat Ha'al's fantasy king",
@@ -29323,18 +29438,6 @@
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
-    },
-    {
-      "id": "live-2026-08-21-nir-ramat-hasharon-ashdod-cup-aet",
-      "slug": "hapoel-nir-ramat-hasharon-beat-ashdod-state-cup-extra-time",
-      "title": "Hapoel Nir Ramat Hasharon 2-1 Maccabi Ironi Ashdod (aet): coach hails patched-up side's heart in State Cup",
-      "statusBefore": "published",
-      "words": 300,
-      "paragraphs": 8,
-      "facts": 6,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": []
     },
     {
       "id": "live-2026-08-21-crystal-palace-sage-right-back-munoz-khalaili",

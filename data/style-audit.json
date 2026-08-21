@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T17:46:35.444Z",
+  "generatedAt": "2026-08-21T18:17:34.774Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1070,
+    "publishedArticles": 1073,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 418,
-      "average": 422.5
+      "average": 422.4
     },
     "paragraphDistribution": {
       "3": 36,
@@ -24,7 +24,7 @@
       "5": 10,
       "6": 49,
       "7": 156,
-      "8": 316,
+      "8": 319,
       "9": 254,
       "10": 174,
       "11": 45,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.295,
+    "dominantParagraphShare": 0.297,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 49,
     "analysisBelowTarget": 11,
-    "articlesWithStyleFlags": 185
+    "articlesWithStyleFlags": 186
   },
   "flagged": [
     {
@@ -328,6 +328,29 @@
       "flags": [
         "below-editorial-target:227/280",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260821-argentina-fifa-appeal-world-cup-final-brawl",
+      "slug": "argentina-appeal-fifa-bans-world-cup-final-brawl",
+      "title": "Argentina to appeal FIFA bans handed down over World Cup final brawl with Spain",
+      "kind": "news",
+      "words": 533,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 49,
+        "longest": 78,
+        "average": 66.6
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 61,
+        "average": 31.4
+      },
+      "lexicalDiversity": 0.574,
+      "publisherAttributions": 0,
+      "flags": [
+        "stock-phrase:remains-to-be-seen"
       ]
     },
     {
@@ -4311,6 +4334,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-21-hector-fort-dortmund-transfer",
+      "slug": "hector-fort-chooses-borussia-dortmund-move",
+      "title": "Héctor Fort reportedly opts for Borussia Dortmund switch over Real Sociedad and Roma",
+      "kind": "news",
+      "words": 344,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 54,
+        "average": 43
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 40,
+        "average": 26.5
+      },
+      "lexicalDiversity": 0.616,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260821-dolgopyat-third-european-floor-gold",
+      "slug": "dolgopyat-third-european-floor-title-zagreb",
+      "title": "Dolgopyat wins third European floor title in Zagreb",
+      "kind": "news",
+      "words": 307,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 26,
+        "longest": 52,
+        "average": 38.4
+      },
+      "sentenceWords": {
+        "shortest": 26,
+        "longest": 52,
+        "average": 38.4
+      },
+      "lexicalDiversity": 0.56,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260821-maccabi-petah-tikva-maccabi-tel-aviv-youth",
+      "slug": "maccabi-petah-tikva-maccabi-tel-aviv-youth-league-report",
+      "title": "Maccabi Petah Tikva 1-3 Maccabi Tel Aviv: champions survive fightback in youth league",
+      "kind": "article",
+      "words": 335,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 66,
+        "average": 41.9
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 141,
+        "average": 41.9
+      },
+      "lexicalDiversity": 0.648,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-08-21-fantasy-ligat-haal-top-10-candidates",
       "slug": "fantasy-ligat-haal-top-10-candidates-2026-27",
@@ -22852,27 +22938,6 @@
       },
       "lexicalDiversity": 0.63,
       "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-21-nir-ramat-hasharon-ashdod-cup-aet",
-      "slug": "hapoel-nir-ramat-hasharon-beat-ashdod-state-cup-extra-time",
-      "title": "Hapoel Nir Ramat Hasharon 2-1 Maccabi Ironi Ashdod (aet): coach hails patched-up side's heart in State Cup",
-      "kind": "match-report",
-      "words": 300,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 25,
-        "longest": 51,
-        "average": 37.5
-      },
-      "sentenceWords": {
-        "shortest": 14,
-        "longest": 79,
-        "average": 30
-      },
-      "lexicalDiversity": 0.65,
-      "publisherAttributions": 1,
       "flags": []
     },
     {
