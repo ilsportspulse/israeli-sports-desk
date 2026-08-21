@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T18:17:34.183Z",
+  "generatedAt": "2026-08-21T18:35:43.174Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -141,57 +141,42 @@
   ],
   "warnings": [
     {
-      "id": "live-2026-08-21-hector-fort-dortmund-transfer",
-      "slug": "hector-fort-chooses-borussia-dortmund-move",
-      "title": "Héctor Fort reportedly opts for Borussia Dortmund switch over Real Sociedad and Roma",
-      "statusBefore": "published",
-      "words": 350,
-      "paragraphs": 8,
-      "facts": 7,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline"
-      ]
-    },
-    {
-      "id": "live-20260821-dolgopyat-third-european-floor-gold",
+      "id": "live-20260821-dolgopyat-third-european-floor-title",
       "slug": "dolgopyat-third-european-floor-title-zagreb",
-      "title": "Dolgopyat wins third European floor title in Zagreb",
+      "title": "Dolgopyat wins third European floor title with 14.466 in Zagreb",
       "statusBefore": "published",
-      "words": 303,
+      "words": 402,
       "paragraphs": 8,
-      "facts": 7,
-      "verificationSources": 3,
+      "facts": 8,
+      "verificationSources": 4,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
     },
     {
-      "id": "live-20260821-argentina-fifa-appeal-world-cup-final-brawl",
-      "slug": "argentina-appeal-fifa-bans-world-cup-final-brawl",
-      "title": "Argentina to appeal FIFA bans handed down over World Cup final brawl with Spain",
+      "id": "live-2026-08-21-argentina-afa-appeal-fifa-paredes-ban",
+      "slug": "argentina-afa-appeal-fifa-paredes-world-cup-final-ban",
+      "title": "Argentina to appeal FIFA bans handed down over World Cup final brawl",
       "statusBefore": "published",
-      "words": 533,
-      "paragraphs": 8,
+      "words": 398,
+      "paragraphs": 9,
       "facts": 6,
-      "verificationSources": 4,
+      "verificationSources": 5,
       "blockers": [],
       "warnings": [
-        "media:no-action-or-competition-context-detected",
-        "voice:stock-editorial-phrase-detected"
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
-      "id": "live-20260821-maccabi-petah-tikva-maccabi-tel-aviv-youth",
-      "slug": "maccabi-petah-tikva-maccabi-tel-aviv-youth-league-report",
-      "title": "Maccabi Petah Tikva 1-3 Maccabi Tel Aviv: champions survive fightback in youth league",
-      "statusBefore": "published",
-      "words": 337,
-      "paragraphs": 8,
-      "facts": 7,
-      "verificationSources": 1,
+      "id": "live-20260821-maccabi-tel-aviv-beat-petah-tikva-3-1-youth",
+      "slug": "maccabi-tel-aviv-beat-maccabi-petah-tikva-3-1-youth-league",
+      "title": "Maccabi Tel Aviv beat Maccabi Petah Tikva 3-1 in Youth Premier League",
+      "statusBefore": "review",
+      "words": 266,
+      "paragraphs": 7,
+      "facts": 8,
+      "verificationSources": 2,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -222,8 +207,7 @@
       "verificationSources": 2,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline",
-        "media:no-action-or-competition-context-detected"
+        "presentation:outlet-name-in-headline"
       ]
     },
     {
@@ -15019,56 +15003,39 @@
   "cleanPublished": [
     {
       "id": "live-2026-08-21-hector-fort-dortmund-transfer",
-      "slug": "hector-fort-chooses-borussia-dortmund-move",
-      "title": "Héctor Fort reportedly opts for Borussia Dortmund switch over Real Sociedad and Roma",
+      "slug": "hector-fort-dortmund-transfer-request",
+      "title": "Barcelona's Héctor Fort snubs Real Sociedad and Roma to push for Borussia Dortmund move",
       "statusBefore": "published",
-      "words": 350,
-      "paragraphs": 8,
-      "facts": 7,
-      "verificationSources": 4,
+      "words": 313,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
       "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline"
-      ]
+      "warnings": []
     },
     {
-      "id": "live-20260821-dolgopyat-third-european-floor-gold",
+      "id": "live-20260821-dolgopyat-third-european-floor-title",
       "slug": "dolgopyat-third-european-floor-title-zagreb",
-      "title": "Dolgopyat wins third European floor title in Zagreb",
+      "title": "Dolgopyat wins third European floor title with 14.466 in Zagreb",
       "statusBefore": "published",
-      "words": 303,
+      "words": 402,
       "paragraphs": 8,
-      "facts": 7,
-      "verificationSources": 3,
+      "facts": 8,
+      "verificationSources": 4,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
     },
     {
-      "id": "live-20260821-argentina-fifa-appeal-world-cup-final-brawl",
-      "slug": "argentina-appeal-fifa-bans-world-cup-final-brawl",
-      "title": "Argentina to appeal FIFA bans handed down over World Cup final brawl with Spain",
+      "id": "live-2026-08-21-argentina-afa-appeal-fifa-paredes-ban",
+      "slug": "argentina-afa-appeal-fifa-paredes-world-cup-final-ban",
+      "title": "Argentina to appeal FIFA bans handed down over World Cup final brawl",
       "statusBefore": "published",
-      "words": 533,
-      "paragraphs": 8,
+      "words": 398,
+      "paragraphs": 9,
       "facts": 6,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected",
-        "voice:stock-editorial-phrase-detected"
-      ]
-    },
-    {
-      "id": "live-20260821-maccabi-petah-tikva-maccabi-tel-aviv-youth",
-      "slug": "maccabi-petah-tikva-maccabi-tel-aviv-youth-league-report",
-      "title": "Maccabi Petah Tikva 1-3 Maccabi Tel Aviv: champions survive fightback in youth league",
-      "statusBefore": "published",
-      "words": 337,
-      "paragraphs": 8,
-      "facts": 7,
-      "verificationSources": 1,
+      "verificationSources": 5,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -29438,6 +29405,18 @@
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
+    },
+    {
+      "id": "live-2026-08-21-nir-ramat-hasharon-ashdod-cup-aet",
+      "slug": "hapoel-nir-ramat-hasharon-beat-ashdod-state-cup-extra-time",
+      "title": "Hapoel Nir Ramat Hasharon 2-1 Maccabi Ironi Ashdod (aet): coach hails patched-up side's heart in State Cup",
+      "statusBefore": "published",
+      "words": 300,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
     },
     {
       "id": "live-2026-08-21-crystal-palace-sage-right-back-munoz-khalaili",

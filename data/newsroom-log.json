@@ -2553,5 +2553,59 @@
         "reason": ""
       }
     ]
+  },
+  {
+    "ts": "2026-08-21T18:19:34.946Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 3,
+    "review": 1,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "atletico-madrid-ceo-gil-marin-alvarez-barcelona",
+        "title": "Atlético Madrid vows to keep Julián Álvarez despite Barcelona interest, says CEO Gil Marín",
+        "decision": "duplicate",
+        "reason": "same event as julian-alvarez-denies-atletico-apology-demands-meeting"
+      },
+      {
+        "slug": "maccabi-tel-aviv-beat-maccabi-petah-tikva-3-1-youth-league",
+        "title": "Maccabi Tel Aviv beat Maccabi Petah Tikva 3-1 in Youth Premier League",
+        "confidence": 0.8,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "below gate thresholds"
+      },
+      {
+        "slug": "argentina-afa-appeal-fifa-paredes-world-cup-final-ban",
+        "title": "Argentina to appeal FIFA bans handed down over World Cup final brawl",
+        "confidence": 0.9,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "dolgopyat-third-european-floor-title-zagreb",
+        "title": "Dolgopyat wins third European floor title with 14.466 in Zagreb",
+        "confidence": 0.88,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "hector-fort-dortmund-transfer-request",
+        "title": "Barcelona's Héctor Fort snubs Real Sociedad and Roma to push for Borussia Dortmund move",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
   }
 ]

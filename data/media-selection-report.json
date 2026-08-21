@@ -2,32 +2,26 @@
   "selections": [
     {
       "articleId": "live-2026-08-21-hector-fort-dortmund-transfer",
-      "article": "Héctor Fort reportedly opts for Borussia Dortmund switch over Real Sociedad and Roma",
-      "file": "File:Signal iduna park stadium dortmund 5.jpg",
-      "license": "CC BY-SA 3.0 de"
+      "article": "Barcelona's Héctor Fort snubs Real Sociedad and Roma to push for Borussia Dortmund move",
+      "file": "File:Camp Nou aerial.jpg",
+      "license": "CC BY 2.0"
     },
     {
-      "articleId": "live-20260821-dolgopyat-third-european-floor-gold",
-      "article": "Dolgopyat wins third European floor title in Zagreb",
+      "articleId": "live-20260821-dolgopyat-third-european-floor-title",
+      "article": "Dolgopyat wins third European floor title with 14.466 in Zagreb",
       "file": "File:Internationaux de France 2018 - DOLGOPYAT Artem.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-20260821-argentina-fifa-appeal-world-cup-final-brawl",
-      "article": "Argentina to appeal FIFA bans handed down over World Cup final brawl with Spain",
+      "articleId": "live-2026-08-21-argentina-afa-appeal-fifa-paredes-ban",
+      "article": "Argentina to appeal FIFA bans handed down over World Cup final brawl",
       "file": "File:Leandro Paredes Argentina v Spain 19 July 2026-137.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-20260821-maccabi-petah-tikva-maccabi-tel-aviv-youth",
-      "article": "Maccabi Petah Tikva 1-3 Maccabi Tel Aviv: champions survive fightback in youth league",
+      "articleId": "live-20260821-maccabi-tel-aviv-beat-petah-tikva-3-1-youth",
+      "article": "Maccabi Tel Aviv beat Maccabi Petah Tikva 3-1 in Youth Premier League",
       "file": "File:Transportation in Petah Tikva, April 2024 04.jpg",
-      "license": "CC BY-SA 4.0"
-    },
-    {
-      "articleId": "live-2026-08-21-kiryat-motzkin-rehovot-basketball-signings",
-      "article": "Kiryat Motzkin add Derek Williams and Daniel Nagar as Rehovot sign Niv Lampert",
-      "file": "File:Derek Williams Portrait (cropped).jpg",
       "license": "CC BY-SA 4.0"
     },
     {
@@ -62,6 +56,11 @@
     }
   ],
   "failures": [
+    {
+      "id": "live-2026-08-21-kiryat-motzkin-rehovot-basketball-signings",
+      "title": "Kiryat Motzkin add Derek Williams and Daniel Nagar as Rehovot sign Niv Lampert",
+      "error": "image download 429 after retries"
+    },
     {
       "id": "live-20260821-tohar-gabai-ramat-hasharon-youth",
       "title": "Tohar Gabai steps up to Ramat Hasharon's top-flight youth side",
