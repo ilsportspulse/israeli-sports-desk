@@ -1,33 +1,33 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-08-21-avdija-portland-role-analysts",
-      "article": "US analysts spell out what Portland need from Deni Avdija this season",
-      "file": "File:Deni Avdija 1 (cropped).jpg",
-      "license": "CC BY-SA 2.0"
-    },
-    {
-      "articleId": "live-20260821-hapoel-beer-sheva-baku-champions-league-flight",
-      "article": "Hapoel Be'er Sheva fly to Baku for Champions League playoff decider against Sabah",
-      "file": "File:Hapoel Be'er Sheva F.C. SAM 0780.jpg",
+      "articleId": "live-2026-08-21-israel-jumping-team-misses-olympic-route-aachen",
+      "article": "Israel's show jumping team finishes 26th of 30, misses direct Olympic route at Aachen worlds",
+      "file": "File:CHIO Aachen.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-20260821-bachar-lineup-dilemmas-haifa-ramat-gan",
-      "article": "Bachar weighs lineup dilemmas as Maccabi Haifa open season against Hapoel Ramat Gan",
-      "file": "File:20230519 165430 May 2023 in Ramat Gan.jpg",
-      "license": "CC0"
+      "articleId": "live-2026-08-21-buchbot-beit-shean",
+      "article": "Meir Buchbot signs for Hapoel Beit She'an ahead of new season",
+      "file": "File:PikiWiki Israel 50265 beit she'an.jpg",
+      "license": "CC BY 2.5"
+    },
+    {
+      "articleId": "live-2026-08-21-judo-cadet-worlds-gold-bronze",
+      "article": "Ella Bar-Lev takes world U18 judo gold as Agam Noy adds bronze in same category",
+      "file": "File:Israel National Olympic Judo Mixed Team in 2021.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-2026-08-20-kanikovsky-ferencvaros-trabzonspor-europa-league",
+      "article": "Trabzonspor 0-1 Ferencváros: Kanikovsky handed late cameo in Europa League play-off win",
+      "file": "File:Groupama Aréna főbejárat.JPG",
+      "license": "CC BY-SA 3.0"
     },
     {
       "articleId": "live-20260815-liebmann-1500m-freestyle-world-record",
       "article": "German teenager Johannes Liebmann shatters 1500m freestyle world record in 14:26.79",
       "file": "File:Swimming Pool lanes and starting blocks at AIS.jpg",
-      "license": "CC BY-SA 4.0"
-    },
-    {
-      "articleId": "live-2026-08-13-adva-cohen-steeplechase-10th",
-      "article": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
-      "file": "File:20220814 European Championships Munich 2022 Ľubomír Pištej 850 3618.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
@@ -51,14 +51,14 @@
   ],
   "failures": [
     {
-      "id": "live-2026-08-21-judo-cadet-worlds-gold-bronze",
-      "title": "Ella Bar-Lev takes world U18 judo gold as Agam Noy adds bronze in same category",
+      "id": "live-20260821-ziv-arie-maccabi-petah-tikva",
+      "title": "Ziv Arie says decision to join Maccabi Petah Tikva was an easy one",
       "error": "image download 429 after retries"
     },
     {
-      "id": "live-2026-08-20-kanikovsky-ferencvaros-trabzonspor-europa-league",
-      "title": "Trabzonspor 0-1 Ferencváros: Kanikovsky handed late cameo in Europa League play-off win",
-      "error": "image download 429 after retries"
+      "id": "live-2026-08-21-hapoel-nir-ramat-hasharon-state-cup",
+      "title": "Hapoel Nir Ramat HaSharon beat Maccabi Ironi Ashdod 2-1 after extra time with only nine fit players",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {
       "id": "live-2026-08-20-erez-isakov-maccabi-hasharon-netanya-kit-reveal",
@@ -98,6 +98,11 @@
     {
       "id": "live-2026-08-15-ukraine-amateur-tennis-legend-kurbanov-killed-war",
       "title": "Ukrainian amateur tennis 'legend' Slava Kurbanov killed fighting on the front",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-2026-08-13-adva-cohen-steeplechase-10th",
+      "title": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {

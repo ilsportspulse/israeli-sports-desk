@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T08:20:51.002Z",
+  "generatedAt": "2026-08-21T09:24:09.326Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1511,
+    "totalArticles": 1515,
     "publishedBefore": 1057,
     "cleanPublished": 1050,
     "blockedPublished": 7,
     "demoted": 0,
     "publishedAfter": 1057,
-    "reviewAfter": 454
+    "reviewAfter": 458
   },
   "blockedPublished": [
     {
@@ -141,6 +141,49 @@
   ],
   "warnings": [
     {
+      "id": "live-2026-08-21-israel-jumping-team-misses-olympic-route-aachen",
+      "slug": "israel-show-jumping-team-misses-olympic-route-aachen-worlds",
+      "title": "Israel's show jumping team finishes 26th of 30, misses direct Olympic route at Aachen worlds",
+      "statusBefore": "review",
+      "words": 349,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-21-buchbot-beit-shean",
+      "slug": "meir-buchbot-signs-hapoel-beit-shean",
+      "title": "Meir Buchbot signs for Hapoel Beit She'an ahead of new season",
+      "statusBefore": "review",
+      "words": 324,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-21-hapoel-nir-ramat-hasharon-state-cup",
+      "slug": "hapoel-nir-ramat-hasharon-beat-maccabi-ironi-ashdod-state-cup",
+      "title": "Hapoel Nir Ramat HaSharon beat Maccabi Ironi Ashdod 2-1 after extra time with only nine fit players",
+      "statusBefore": "review",
+      "words": 421,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
       "id": "live-2026-08-21-avdija-portland-role-analysts",
       "slug": "deni-avdija-portland-trail-blazers-role-analysts",
       "title": "US analysts spell out what Portland need from Deni Avdija this season",
@@ -235,6 +278,20 @@
       "paragraphs": 7,
       "facts": 7,
       "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-20-kanikovsky-ferencvaros-trabzonspor-europa-league",
+      "slug": "kanikovsky-ferencvaros-win-trabzonspor-europa-league-playoff",
+      "title": "Trabzonspor 0-1 Ferencváros: Kanikovsky handed late cameo in Europa League play-off win",
+      "statusBefore": "published",
+      "words": 337,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -14817,7 +14874,9 @@
       "facts": 6,
       "verificationSources": 4,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-2026-08-20-maccabi-tel-aviv-kattash-blatt-departure",
