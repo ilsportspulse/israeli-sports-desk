@@ -1,5 +1,39 @@
 [
   {
+    "ts": "2026-08-21T03:58:30.811Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 3,
+    "published": 0,
+    "review": 1,
+    "skipped": 2,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "hapoel-tel-aviv-atalanta-conference-league-podcast-recap",
+        "title": "Atalanta 0-0 Hapoel Tel Aviv: Barda's game plan leaves the Reds one game from a Conference League statement",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "maccabi-tel-aviv-lugano-gifts-dressing-room-anger",
+        "title": "Lugano 2-1 Maccabi Tel Aviv: dressing-room fury over 'gifts' as Conference League tie hangs in the balance",
+        "confidence": 0.8,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Anonymous dressing-room quotes and the Vanharen/reinforcement details are reported by ONE alone; sporting director Steven Vanharen's title and remarks are not independently confirmed by other outlets."
+      },
+      {
+        "slug": "hapoel-tel-aviv-special-team-pride-atalanta-draw",
+        "title": "Hapoel Tel Aviv 'proud' of a 'special team' after 0-0 draw at Atalanta",
+        "decision": "duplicate"
+      }
+    ]
+  },
+  {
     "ts": "2026-08-20T23:33:04.248Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -2513,51 +2547,6 @@
       {
         "slug": "hapoel-beer-sheva-dimona-budget-ultimatum-liga-leumit",
         "title": "League management to Hapoel Be'er Sheva/Dimona: produce a budget, or play in Liga Leumit",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-11T01:14:45.910Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 4,
-    "published": 3,
-    "review": 0,
-    "skipped": 1,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "manor-solomon-completes-west-ham-move-from-tottenham",
-        "title": "Manor Solomon completes West Ham move, vows to be \"more consistent\"",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "mbappe-yamal-fantasy-la-liga-king",
-        "title": "Mbappé or Lamine Yamal: who reigns as fantasy king in Spain this season?",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "bezos-consortium-nears-deal-for-liverpool-stake",
-        "title": "Jeff Bezos consortium closes in on huge Liverpool stake, reports say",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "roony-bardghji-acl-tear-barcelona-six-months",
-        "title": "Barcelona winger Roony Bardghji ruptures ACL again, faces up to seven months out",
         "confidence": 0.85,
         "gate": "pass",
         "decision": "published",

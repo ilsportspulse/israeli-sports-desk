@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T02:53:54.357Z",
+  "generatedAt": "2026-08-21T04:14:12.477Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1054,
+    "publishedArticles": 1055,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 418,
-      "average": 422.7
+      "average": 422.9
     },
     "paragraphDistribution": {
       "3": 36,
@@ -26,7 +26,7 @@
       "7": 152,
       "8": 310,
       "9": 251,
-      "10": 172,
+      "10": 173,
       "11": 45,
       "12": 13,
       "13": 4,
@@ -4173,6 +4173,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "archive-20260821-oklahoma-city-28-october-2009-the-night-",
+      "slug": "oklahoma-city-28-october-2009-the-night-an-israeli-first-walked-onto-a",
+      "title": "Oklahoma City, 28 October 2009: The Night an Israeli First Walked Onto an NBA Court",
+      "kind": "explainer",
+      "words": 714,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 47,
+        "longest": 98,
+        "average": 71.4
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 58,
+        "average": 28.6
+      },
+      "lexicalDiversity": 0.501,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-20-bergamo-fireworks-seizure-hapoel-fans",
       "slug": "bergamo-police-seize-fireworks-israeli-fans-atalanta-hapoel-tel-aviv",
