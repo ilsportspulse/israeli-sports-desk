@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T18:19:05.168Z",
+  "generatedAt": "2026-08-22T19:00:14.943Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,7 +11,7 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1117,
+    "publishedArticles": 1119,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
@@ -24,8 +24,8 @@
       "5": 10,
       "6": 52,
       "7": 167,
-      "8": 331,
-      "9": 265,
+      "8": 332,
+      "9": 266,
       "10": 178,
       "11": 48,
       "12": 14,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.296,
+    "dominantParagraphShare": 0.297,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 52,
     "analysisBelowTarget": 11,
@@ -4426,6 +4426,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-22-maccabi-tel-aviv-lugano-mistake-upon-mistake",
+      "slug": "maccabi-tel-aviv-lugano-conference-league-mistake-upon-mistake",
+      "title": "Lugano 2-1 Maccabi Tel Aviv: mistake after mistake leaves European campaign in the balance",
+      "kind": "news",
+      "words": 448,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 38,
+        "longest": 72,
+        "average": 49.8
+      },
+      "sentenceWords": {
+        "shortest": 13,
+        "longest": 51,
+        "average": 34.5
+      },
+      "lexicalDiversity": 0.598,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-22-inter-monza-4-1",
+      "slug": "inter-monza-4-1-serie-a-opener",
+      "title": "Inter pick up where they left off with a 4-1 rout of promoted Monza",
+      "kind": "article",
+      "words": 379,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 67,
+        "average": 47.4
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 52,
+        "average": 31.6
+      },
+      "lexicalDiversity": 0.599,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-22-hull-city-manchester-united-2-0",
       "slug": "hull-city-2-0-manchester-united-premier-league-opener",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T18:19:04.622Z",
+  "generatedAt": "2026-08-22T19:00:14.307Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,12 +17,12 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1622,
-    "publishedBefore": 1117,
-    "cleanPublished": 1110,
+    "totalArticles": 1624,
+    "publishedBefore": 1119,
+    "cleanPublished": 1112,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1117,
+    "publishedAfter": 1119,
     "reviewAfter": 505
   },
   "blockedPublished": [
@@ -141,6 +141,34 @@
   ],
   "warnings": [
     {
+      "id": "live-2026-08-22-maccabi-tel-aviv-lugano-mistake-upon-mistake",
+      "slug": "maccabi-tel-aviv-lugano-conference-league-mistake-upon-mistake",
+      "title": "Lugano 2-1 Maccabi Tel Aviv: mistake after mistake leaves European campaign in the balance",
+      "statusBefore": "published",
+      "words": 451,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-08-22-inter-monza-4-1",
+      "slug": "inter-monza-4-1-serie-a-opener",
+      "title": "Inter pick up where they left off with a 4-1 rout of promoted Monza",
+      "statusBefore": "published",
+      "words": 379,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-2026-08-22-pyramid-training-gym-guide",
       "slug": "pyramid-training-gym-guide",
       "title": "What is pyramid training at the gym, and who is it actually for?",
@@ -219,6 +247,20 @@
       "paragraphs": 8,
       "facts": 8,
       "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-22-tveria-hapoel-petah-tikva",
+      "slug": "tveria-hapoel-petah-tikva-opening-round-fixture",
+      "title": "Tiberias host Hapoel Petah Tikva to open the Israeli Premier League season",
+      "statusBefore": "review",
+      "words": 232,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 2,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -15881,6 +15923,34 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-22-maccabi-tel-aviv-lugano-mistake-upon-mistake",
+      "slug": "maccabi-tel-aviv-lugano-conference-league-mistake-upon-mistake",
+      "title": "Lugano 2-1 Maccabi Tel Aviv: mistake after mistake leaves European campaign in the balance",
+      "statusBefore": "published",
+      "words": 451,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-08-22-inter-monza-4-1",
+      "slug": "inter-monza-4-1-serie-a-opener",
+      "title": "Inter pick up where they left off with a 4-1 rout of promoted Monza",
+      "statusBefore": "published",
+      "words": 379,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-08-22-hull-city-manchester-united-2-0",
       "slug": "hull-city-2-0-manchester-united-premier-league-opener",

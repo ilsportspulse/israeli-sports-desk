@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-22T18:19:04Z",
-    "validUntil": "2026-08-23T06:19:04Z",
+    "checkedAt": "2026-08-22T19:00:13Z",
+    "validUntil": "2026-08-23T07:00:13Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 813,
+        "maxAgeHours": 814,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-22-hull-city-manchester-united-2-0",
+        "articleId": "live-2026-08-22-maccabi-tel-aviv-lugano-mistake-upon-mistake",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 821,
+        "maxAgeHours": 822,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-22-solomon-west-ham-charlton-reaction",
+        "articleId": "live-2026-08-22-inter-monza-4-1",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 831,
+        "maxAgeHours": 832,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-22-athletic-bilbao-sevilla-3-1",
+        "articleId": "live-2026-08-22-hull-city-manchester-united-2-0",
         "maxAgeHours": 36,
         "requires": []
       }
