@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T03:22:24.461Z",
+  "generatedAt": "2026-08-22T04:23:43.481Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,22 +11,22 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1083,
+    "publishedArticles": 1084,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 418,
-      "average": 422.2
+      "average": 422.6
     },
     "paragraphDistribution": {
       "3": 36,
       "4": 6,
       "5": 10,
-      "6": 51,
-      "7": 159,
-      "8": 321,
-      "9": 256,
-      "10": 175,
+      "6": 49,
+      "7": 158,
+      "8": 322,
+      "9": 258,
+      "10": 176,
       "11": 45,
       "12": 14,
       "13": 4,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.296,
+    "dominantParagraphShare": 0.297,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 51,
+    "exactSixParagraphArticles": 49,
     "analysisBelowTarget": 11,
-    "articlesWithStyleFlags": 187
+    "articlesWithStyleFlags": 189
   },
   "flagged": [
     {
@@ -327,6 +327,52 @@
       "publisherAttributions": 2,
       "flags": [
         "below-editorial-target:227/280",
+        "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-22-wharton-real-madrid-palace-sage",
+      "slug": "crystal-palace-pierre-sage-rules-out-wharton-real-madrid-move",
+      "title": "Crystal Palace boss Pierre Sage shuts down Real Madrid move for Adam Wharton",
+      "kind": "transfer",
+      "words": 431,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 60,
+        "average": 47.9
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 85,
+        "average": 30.8
+      },
+      "lexicalDiversity": 0.575,
+      "publisherAttributions": 2,
+      "flags": [
+        "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-22-mbappe-third-pichichi-challenge",
+      "slug": "mbappe-third-consecutive-pichichi-challenge",
+      "title": "Mbappé chases a third straight Pichichi as new La Liga season dawns",
+      "kind": "article",
+      "words": 471,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 43,
+        "longest": 62,
+        "average": 52.3
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 49,
+        "average": 27.7
+      },
+      "lexicalDiversity": 0.552,
+      "publisherAttributions": 2,
+      "flags": [
         "publisher-attribution-heavy:2"
       ]
     },
@@ -4358,6 +4404,69 @@
   ],
   "clean": [
     {
+      "id": "live-2026-08-22-arsenal-attack-title-coventry-win",
+      "slug": "arsenal-attack-title-coventry-win",
+      "title": "Arsenal open Premier League defence with 3-0 win over Coventry as Ødegaard vows to 'attack' the title",
+      "kind": "article",
+      "words": 475,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 22,
+        "longest": 62,
+        "average": 47.5
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 75,
+        "average": 36.5
+      },
+      "lexicalDiversity": 0.585,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260822-ronaldo-marriage-youth-alnassr",
+      "slug": "ronaldo-marriage-youth-al-nassr-comeback",
+      "title": "Ronaldo scores as Al Nassr beat Al Riyadh 4-0, and Saudi media credit his marriage for the spark",
+      "kind": "news",
+      "words": 407,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 42,
+        "longest": 59,
+        "average": 50.9
+      },
+      "sentenceWords": {
+        "shortest": 15,
+        "longest": 97,
+        "average": 45.2
+      },
+      "lexicalDiversity": 0.604,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-22-hamza-abdelkarim-barcelona-number-9-option",
+      "slug": "hamza-abdelkarim-barcelona-number-9-option",
+      "title": "Hamza Abdelkarim emerges as a real option to be Barcelona's number 9 this season",
+      "kind": "news",
+      "words": 420,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 38,
+        "longest": 62,
+        "average": 46.7
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 45,
+        "average": 28
+      },
+      "lexicalDiversity": 0.579,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
       "id": "live-2026-08-22-serie-a-coaching-reset-preview",
       "slug": "serie-a-2026-27-coaching-reset-preview",
       "title": "Serie A shuffles the pack as nine clubs start the season under new coaches",
@@ -4375,69 +4484,6 @@
         "average": 26.1
       },
       "lexicalDiversity": 0.592,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-22-uefa-fines-israeli-clubs-fan-misconduct",
-      "slug": "uefa-fines-hapoel-beer-sheva-beitar-hapoel-tel-aviv-fan-misconduct",
-      "title": "UEFA fines Hapoel Beer Sheva, Beitar Jerusalem and Hapoel Tel Aviv over fan misconduct",
-      "kind": "news",
-      "words": 352,
-      "paragraphs": 6,
-      "paragraphWords": {
-        "shortest": 45,
-        "longest": 74,
-        "average": 58.7
-      },
-      "sentenceWords": {
-        "shortest": 14,
-        "longest": 51,
-        "average": 27.1
-      },
-      "lexicalDiversity": 0.543,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-22-arsenal-coventry-city-3-0-opener",
-      "slug": "arsenal-3-0-coventry-city-title-defence-opener",
-      "title": "Arsenal 3-0 Coventry City: Havertz, Saka and Ødegaard open title defence in style",
-      "kind": "match-report",
-      "words": 404,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 34,
-        "longest": 63,
-        "average": 44.9
-      },
-      "sentenceWords": {
-        "shortest": 7,
-        "longest": 52,
-        "average": 25.3
-      },
-      "lexicalDiversity": 0.611,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-22-betis-real-sociedad-riquelme",
-      "slug": "real-betis-beat-real-sociedad-riquelme-la-liga",
-      "title": "Real Betis 1-0 Real Sociedad: Riquelme's second-half strike opens the league account",
-      "kind": "article",
-      "words": 284,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 35,
-        "longest": 44,
-        "average": 40.6
-      },
-      "sentenceWords": {
-        "shortest": 14,
-        "longest": 44,
-        "average": 35.5
-      },
-      "lexicalDiversity": 0.595,
       "publisherAttributions": 0,
       "flags": []
     },
@@ -23107,27 +23153,6 @@
         "average": 35.4
       },
       "lexicalDiversity": 0.604,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-22-arsenal-thrash-coventry-3-0-opening-night",
-      "slug": "arsenal-thrash-coventry-3-0-premier-league-opening-night",
-      "title": "Arsenal beat Coventry City 3-0 to open Premier League title defence",
-      "kind": "article",
-      "words": 287,
-      "paragraphs": 6,
-      "paragraphWords": {
-        "shortest": 37,
-        "longest": 66,
-        "average": 47.8
-      },
-      "sentenceWords": {
-        "shortest": 11,
-        "longest": 50,
-        "average": 26.1
-      },
-      "lexicalDiversity": 0.641,
       "publisherAttributions": 0,
       "flags": []
     },

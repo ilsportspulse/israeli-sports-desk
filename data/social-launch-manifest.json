@@ -146,49 +146,49 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-22T03:22:23Z",
-    "validUntil": "2026-08-22T15:22:23Z",
+    "checkedAt": "2026-08-22T04:23:42Z",
+    "validUntil": "2026-08-22T16:23:42Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 798,
+        "maxAgeHours": 799,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-22-uefa-fines-israeli-clubs",
+        "articleId": "live-2026-08-22-arsenal-attack-title-coventry-win",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 806,
+        "maxAgeHours": 807,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-22-arsenal-thrash-coventry-3-0-opening-night",
+        "articleId": "live-2026-08-22-wharton-real-madrid-palace-sage",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 816,
+        "maxAgeHours": 817,
         "requires": [
           "column"
         ]
       },
       {
         "role": "archive",
-        "articleId": "archive-20260821-oklahoma-city-28-october-2009-the-night-",
+        "articleId": "archive-20260822-paris-13-may-2001-the-only-year-europe-c",
         "maxAgeHours": 156,
         "requires": [
           "historical-feature"
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-22-real-betis-real-sociedad-la-liga-opener",
+        "articleId": "live-20260822-ronaldo-marriage-youth-alnassr",
         "maxAgeHours": 36,
         "requires": []
       }

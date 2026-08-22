@@ -1,5 +1,61 @@
 [
   {
+    "ts": "2026-08-22T04:08:08.381Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 5,
+    "review": 0,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "mbappe-third-consecutive-pichichi-challenge",
+        "title": "Mbappé chases a third straight Pichichi as new La Liga season dawns",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "hamza-abdelkarim-barcelona-number-9-option",
+        "title": "Hamza Abdelkarim emerges as a real option to be Barcelona's number 9 this season",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "ronaldo-marriage-youth-al-nassr-comeback",
+        "title": "Ronaldo scores as Al Nassr beat Al Riyadh 4-0, and Saudi media credit his marriage for the spark",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "crystal-palace-pierre-sage-rules-out-wharton-real-madrid-move",
+        "title": "Crystal Palace boss Pierre Sage shuts down Real Madrid move for Adam Wharton",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "arsenal-attack-title-coventry-win",
+        "title": "Arsenal open Premier League defence with 3-0 win over Coventry as Ødegaard vows to 'attack' the title",
+        "confidence": 0.9,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-08-22T01:07:17.389Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -2502,102 +2558,6 @@
         "slug": "chavarria-completes-chelsea-move-vlahovic-nears-besiktas",
         "title": "Chavarría completes Chelsea move as Vlahović closes in on Beşiktaş",
         "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-12T10:04:45.238Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 2,
-    "review": 3,
-    "skipped": 0,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "lior-hershko-signs-hapoel-jerusalem-loan-elitzur-shomron",
-        "title": "Hapoel Jerusalem sign teenage prospect Lior Hershko, loan him to Elitzur Shomron",
-        "confidence": 0.75,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "English transliterations of Hershko and Elitzur Shomron are not yet cross-confirmed against an official club/federation registry."
-      },
-      {
-        "slug": "gorbenko-qualifies-400m-medley-final-european-championships",
-        "title": "Gorbenko qualifies for 400m medley final at European Championships",
-        "confidence": 0.9,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "below gate thresholds"
-      },
-      {
-        "slug": "liga-bet-2026-27-fixtures-published",
-        "title": "Liga Bet fixture list for 2026/27 season published, kick-off set for September 5",
-        "confidence": 0.72,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Exact month for the '28-29' State Cup round-one dates is not explicitly stated in the source; inferred as August by analogy with the 2025/26 cup's August 29 start. No verifiable, correctly-identified Commons photo was found for this specific fixture-list story, so no image is included."
-      },
-      {
-        "slug": "tomer-ginat-out-israel-basketball-world-cup-qualifiers",
-        "title": "Tomer Ginat to miss Israel's World Cup qualifying window with knee injury",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "haditaghi-hapoel-tel-aviv-post-ifa-uefa-complaint",
-        "title": "Pogoń Szczecin owner calls Hapoel Tel Aviv 'genocidal' before Katowice qualifier, Israeli FA reports him to UEFA",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-22T01:43:21.920Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 3,
-    "published": 3,
-    "review": 0,
-    "skipped": 0,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "real-betis-real-sociedad-la-liga-opener",
-        "title": "Real Betis open La Liga season with 1-0 win over Real Sociedad",
-        "confidence": 0.9,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "arsenal-thrash-coventry-3-0-premier-league-opening-night",
-        "title": "Arsenal beat Coventry City 3-0 to open Premier League title defence",
-        "confidence": 0.9,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "uefa-fines-hapoel-beer-sheva-beitar-hapoel-tel-aviv",
-        "title": "UEFA fines Hapoel Beer Sheva, Beitar Jerusalem and Hapoel Tel Aviv nearly €48,000 combined",
-        "confidence": 0.8,
         "gate": "pass",
         "decision": "published",
         "reason": ""
