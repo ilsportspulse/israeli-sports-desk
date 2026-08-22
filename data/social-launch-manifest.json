@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-22T01:24:52Z",
-    "validUntil": "2026-08-22T13:24:52Z",
+    "checkedAt": "2026-08-22T01:58:37Z",
+    "validUntil": "2026-08-22T13:58:37Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 796,
+        "maxAgeHours": 797,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-22-serie-a-coaching-reset-preview",
+        "articleId": "live-2026-08-22-uefa-fines-israeli-clubs",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 804,
+        "maxAgeHours": 805,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-22-uefa-fines-israeli-clubs-fan-misconduct",
+        "articleId": "live-2026-08-22-arsenal-thrash-coventry-3-0-opening-night",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 814,
+        "maxAgeHours": 815,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-22-arsenal-coventry-city-3-0-opener",
+        "articleId": "live-2026-08-22-real-betis-real-sociedad-la-liga-opener",
         "maxAgeHours": 36,
         "requires": []
       }

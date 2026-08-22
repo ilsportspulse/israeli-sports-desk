@@ -2563,5 +2563,45 @@
         "reason": ""
       }
     ]
+  },
+  {
+    "ts": "2026-08-22T01:43:21.920Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 3,
+    "published": 3,
+    "review": 0,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "real-betis-real-sociedad-la-liga-opener",
+        "title": "Real Betis open La Liga season with 1-0 win over Real Sociedad",
+        "confidence": 0.9,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "arsenal-thrash-coventry-3-0-premier-league-opening-night",
+        "title": "Arsenal beat Coventry City 3-0 to open Premier League title defence",
+        "confidence": 0.9,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "uefa-fines-hapoel-beer-sheva-beitar-hapoel-tel-aviv",
+        "title": "UEFA fines Hapoel Beer Sheva, Beitar Jerusalem and Hapoel Tel Aviv nearly €48,000 combined",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
   }
 ]

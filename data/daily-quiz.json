@@ -1,67 +1,67 @@
 {
-  "date": "2026-08-21",
+  "date": "2026-08-22",
   "title": "The Daily Five",
-  "dek": "Five questions from this week's verified Israeli sports headlines — hoops history, a European away day, and a 58-year-old Olympic mystery.",
+  "dek": "Five questions from this week's verified Israel Sports Pulse coverage, spanning basketball history, gymnastics gold in Zagreb, and transfer-market intrigue.",
   "questions": [
     {
-      "question": "Which NBA team did Omri Casspi make his historic debut against on 28 October 2009, becoming the first Israeli-born player in the league?",
+      "question": "What score secured Artem Dolgopyat's third European floor exercise gold in Zagreb on 21 August 2026?",
       "answers": [
-        "Oklahoma City Thunder",
-        "Los Angeles Lakers",
-        "Chicago Bulls",
-        "Boston Celtics"
+        "14.466",
+        "14.766",
+        "14.333",
+        "14.300"
       ],
       "correctIndex": 0,
-      "explanation": "Casspi debuted for the Sacramento Kings against the Thunder at the Ford Center on 28 October 2009, scoring 15 points.",
-      "sourceUrl": "https://www.jta.org/quick-reads/omri-casspi-first-israeli-player-in-nba-retires-from-professional-basketball"
+      "explanation": "Dolgopyat scored 14.466 in the final to beat silver medallist Arsenii Dukhno (14.333) and bronze medallist Harry Hepworth (14.300).",
+      "sourceUrl": "https://www.one.co.il/Article/531191.html"
     },
     {
-      "question": "Israeli international Gabi Kanikovsky came on as a late substitute as Ferencváros won a Europa League play-off first leg away to which club?",
+      "question": "Maccabi Tel Aviv beat which club 81–67 in the 2001 FIBA SuproLeague final in Paris?",
       "answers": [
-        "Trabzonspor",
-        "Galatasaray",
-        "Fenerbahçe",
-        "Beşiktaş"
+        "CSKA Moscow",
+        "Kinder Bologna",
+        "Panathinaikos",
+        "Real Madrid"
       ],
-      "correctIndex": 0,
-      "explanation": "Ferencváros won 1-0 at Trabzonspor's Papara Park on 20 August 2026, with Kanikovsky entering in the 61st minute.",
-      "sourceUrl": "https://www.one.co.il/Article/531163.html"
+      "correctIndex": 2,
+      "explanation": "Maccabi beat Panathinaikos 81–67 at the Palais Omnisports de Paris-Bercy on 13 May 2001, having beaten CSKA Moscow in the semifinal.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2001_FIBA_SuproLeague_Final_Four"
     },
     {
-      "question": "How was Israel's 1968 Olympic football quarter-final against Bulgaria decided after it finished 1-1 through extra time?",
+      "question": "Which club did EuroCup Finals MVP Johnathan Motley join after leaving Hapoel Tel Aviv this summer?",
       "answers": [
-        "A drawing of lots from a hat",
-        "A penalty shoot-out",
-        "A replay match",
-        "The away-goals rule"
+        "Olympiacos",
+        "Panathinaikos",
+        "Crvena Zvezda",
+        "Real Madrid"
       ],
-      "correctIndex": 0,
-      "explanation": "With no shoot-out rule yet in world football, captains Mordechai Spiegler and Bulgaria's captain each drew a slip from a hat, and Israel's was the losing one.",
-      "sourceUrl": "https://www.jns.org/feature/could-the-world-cup-final-be-decided-by-an-israeli-innovation"
+      "correctIndex": 2,
+      "explanation": "Motley left Hapoel Tel Aviv, despite having already signed a contract extension, to join Crvena Zvezda, reuniting with former teammate Chris Jones.",
+      "sourceUrl": "https://www.one.co.il/Article/531241.html"
     },
     {
-      "question": "18-year-old Karem Ashkenazi has returned on a long-term contract to which club, having first signed with them in 2023?",
+      "question": "Which Israeli midfielder already plays for Ferencváros, the club reportedly chasing Maccabi Netanya's Bassam Zaarura?",
       "answers": [
-        "Hapoel Galil Elyon",
-        "Maccabi Tel Aviv",
-        "Hapoel Tel Aviv",
-        "Maccabi Haifa"
+        "Omer Atzili",
+        "Gabi Kanichowsky",
+        "Dor Peretz",
+        "Yarden Shua"
       ],
-      "correctIndex": 0,
-      "explanation": "Ashkenazi, from Kibbutz Beit Hillel, originally signed with Galil Elyon in 2023 and has now rejoined after a season with Maccabi Tel Aviv's youth academy.",
-      "sourceUrl": "https://www.one.co.il/Article/531162.html"
+      "correctIndex": 1,
+      "explanation": "Ferencváros already field Israeli midfielder Gabi Kanichowsky, a former Maccabi Tel Aviv player, according to ONE's report on the Zaarura interest.",
+      "sourceUrl": "https://www.one.co.il/Article/531208.html"
     },
     {
-      "question": "What was the result of the Atalanta v Hapoel Tel Aviv Conference League play-off first leg in Bergamo on 20 August 2026, after which Sarri admitted the Israelis had the physical edge?",
+      "question": "Who scored the 75th-minute penalty that sealed Maccabi Tel Aviv's 3-1 youth league win at Maccabi Petah Tikva?",
       "answers": [
-        "0-0 draw",
-        "1-1 draw",
-        "1-0 to Atalanta",
-        "2-0 to Hapoel Tel Aviv"
+        "Ido Yosef",
+        "Itay Mahager",
+        "Liam Weinstein",
+        "Roy Gafni"
       ],
-      "correctIndex": 0,
-      "explanation": "Atalanta and Hapoel Tel Aviv drew 0-0, with Sarri saying Hapoel Tel Aviv had the better of his side physically and Atalanta were overthinking on the ball.",
-      "sourceUrl": "https://www.one.co.il/Article/531170.html"
+      "correctIndex": 3,
+      "explanation": "Roy Gafni converted a 75th-minute penalty to complete the 3-1 scoreline in round two of the Youth Premier League.",
+      "sourceUrl": "https://www.one.co.il/Article/531233.html"
     }
   ]
 }
