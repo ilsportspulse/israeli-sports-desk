@@ -1,5 +1,61 @@
 [
   {
+    "ts": "2026-08-22T01:07:17.389Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 5,
+    "review": 0,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "real-betis-beat-real-sociedad-riquelme-la-liga",
+        "title": "Real Betis 1-0 Real Sociedad: Riquelme's second-half strike opens the league account",
+        "confidence": 0.9,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "arsenal-3-0-coventry-city-title-defence-opener",
+        "title": "Arsenal 3-0 Coventry City: Havertz, Saka and Ødegaard open title defence in style",
+        "confidence": 0.95,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "uefa-fines-hapoel-beer-sheva-beitar-hapoel-tel-aviv-fan-misconduct",
+        "title": "UEFA fines Hapoel Beer Sheva, Beitar Jerusalem and Hapoel Tel Aviv over fan misconduct",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "serie-a-2026-27-coaching-reset-preview",
+        "title": "Serie A shuffles the pack as nine clubs start the season under new coaches",
+        "confidence": 0.78,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "naarim-bet-opening-round-hapoel-tel-aviv-ashdod-bnei-yehuda-wins",
+        "title": "Hapoel Tel Aviv 4-0, Ashdod 4-1, Bnei Yehuda 2-0: youth sides open Naarim Bet season with wins",
+        "confidence": 0.72,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-08-21T20:28:48.572Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -2505,62 +2561,6 @@
         "gate": "pass",
         "decision": "published",
         "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-12T07:28:05.832Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 4,
-    "review": 1,
-    "skipped": 0,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "sabah-beat-aarhus-champions-league-playoff-hapoel-beer-sheva",
-        "title": "Sabah thrash Aarhus 4-0 to set up Champions League play-off duel with Hapoel Beer Sheva",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "sayed-abu-farhi-colorado-rapids-mls-transfer-awaits-approval",
-        "title": "Abu Farhi transfer terms agreed as Maccabi Tel Aviv striker awaits MLS sign-off on Colorado Rapids move",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "zubimendi-arsenal-future-clouded-by-guimaraes-arrival",
-        "title": "Zubimendi's Arsenal future clouded by Bruno Guimarães arrival, ONE reports",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "maccabi-herzliya-sign-young-goalkeepers-mesika-afrigan",
-        "title": "Maccabi Herzliya add two teenage goalkeepers to the youth academy",
-        "confidence": 0.8,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "guy-kamchi-signs-ayia-napa-cyprus",
-        "title": "Guy Kamchi signs with Cypriot club Ayia Napa to launch European career",
-        "confidence": 0.72,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Single-source report (ONE); player's English name spelling and exact position are not independently confirmable, and no verifiable, correctly-identified photo of Kamchi, his new club or its stadium could be found on Wikimedia Commons, so no image is supplied."
       }
     ]
   }

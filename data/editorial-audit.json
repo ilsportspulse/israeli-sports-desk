@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T00:00:35.951Z",
+  "generatedAt": "2026-08-22T01:24:53.151Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1544,
-    "publishedBefore": 1075,
-    "cleanPublished": 1068,
+    "totalArticles": 1549,
+    "publishedBefore": 1079,
+    "cleanPublished": 1072,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1075,
-    "reviewAfter": 469
+    "publishedAfter": 1079,
+    "reviewAfter": 470
   },
   "blockedPublished": [
     {
@@ -141,6 +141,48 @@
   ],
   "warnings": [
     {
+      "id": "live-2026-08-22-naarim-bet-opening-round-wins",
+      "slug": "naarim-bet-opening-round-hapoel-tel-aviv-ashdod-bnei-yehuda-wins",
+      "title": "Hapoel Tel Aviv 4-0, Ashdod 4-1, Bnei Yehuda 2-0: youth sides open Naarim Bet season with wins",
+      "statusBefore": "review",
+      "words": 317,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-08-22-serie-a-coaching-reset-preview",
+      "slug": "serie-a-2026-27-coaching-reset-preview",
+      "title": "Serie A shuffles the pack as nine clubs start the season under new coaches",
+      "statusBefore": "published",
+      "words": 444,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-22-uefa-fines-israeli-clubs-fan-misconduct",
+      "slug": "uefa-fines-hapoel-beer-sheva-beitar-hapoel-tel-aviv-fan-misconduct",
+      "title": "UEFA fines Hapoel Beer Sheva, Beitar Jerusalem and Hapoel Tel Aviv over fan misconduct",
+      "statusBefore": "published",
+      "words": 347,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-2026-08-21-atletico-gil-marin-alvarez-stay",
       "slug": "atletico-madrid-gil-marin-alvarez-stay-message",
       "title": "Atlético CEO to Álvarez: 'we will help you, we need you'",
@@ -180,6 +222,7 @@
       "verificationSources": 4,
       "blockers": [],
       "warnings": [
+        "media:no-action-or-competition-context-detected",
         "voice:publisher-attribution-heavy:3"
       ]
     },
@@ -15045,6 +15088,34 @@
       ]
     },
     {
+      "id": "live-20260821-dolgopyat-third-european-floor-title",
+      "slug": "dolgopyat-third-european-floor-title-zagreb",
+      "title": "Dolgopyat wins third European floor title with 14.466 in Zagreb",
+      "statusBefore": "published",
+      "words": 402,
+      "paragraphs": 8,
+      "facts": 8,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-21-argentina-afa-appeal-fifa-paredes-ban",
+      "slug": "argentina-afa-appeal-fifa-paredes-world-cup-final-ban",
+      "title": "Argentina to appeal FIFA bans handed down over World Cup final brawl",
+      "statusBefore": "review",
+      "words": 398,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-20260821-maccabi-tel-aviv-beat-petah-tikva-3-1-youth",
       "slug": "maccabi-tel-aviv-beat-maccabi-petah-tikva-3-1-youth-league",
       "title": "Maccabi Tel Aviv beat Maccabi Petah Tikva 3-1 in Youth Premier League",
@@ -15060,6 +15131,58 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-22-serie-a-coaching-reset-preview",
+      "slug": "serie-a-2026-27-coaching-reset-preview",
+      "title": "Serie A shuffles the pack as nine clubs start the season under new coaches",
+      "statusBefore": "published",
+      "words": 444,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-22-uefa-fines-israeli-clubs-fan-misconduct",
+      "slug": "uefa-fines-hapoel-beer-sheva-beitar-hapoel-tel-aviv-fan-misconduct",
+      "title": "UEFA fines Hapoel Beer Sheva, Beitar Jerusalem and Hapoel Tel Aviv over fan misconduct",
+      "statusBefore": "published",
+      "words": 347,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-22-arsenal-coventry-city-3-0-opener",
+      "slug": "arsenal-3-0-coventry-city-title-defence-opener",
+      "title": "Arsenal 3-0 Coventry City: Havertz, Saka and Ødegaard open title defence in style",
+      "statusBefore": "published",
+      "words": 408,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-22-betis-real-sociedad-riquelme",
+      "slug": "real-betis-beat-real-sociedad-riquelme-la-liga",
+      "title": "Real Betis 1-0 Real Sociedad: Riquelme's second-half strike opens the league account",
+      "statusBefore": "published",
+      "words": 284,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-2026-08-21-atletico-gil-marin-alvarez-stay",
       "slug": "atletico-madrid-gil-marin-alvarez-stay-message",
@@ -15085,6 +15208,7 @@
       "verificationSources": 4,
       "blockers": [],
       "warnings": [
+        "media:no-action-or-competition-context-detected",
         "voice:publisher-attribution-heavy:3"
       ]
     },
@@ -29516,7 +29640,9 @@
       "facts": 8,
       "verificationSources": 4,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     }
   ]
 }

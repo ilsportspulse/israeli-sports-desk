@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T00:00:36.342Z",
+  "generatedAt": "2026-08-22T01:24:53.566Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,21 +11,21 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1075,
+    "publishedArticles": 1079,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 418,
-      "average": 422.4
+      "average": 422.2
     },
     "paragraphDistribution": {
       "3": 36,
       "4": 6,
       "5": 10,
-      "6": 49,
-      "7": 157,
+      "6": 50,
+      "7": 158,
       "8": 320,
-      "9": 254,
+      "9": 256,
       "10": 174,
       "11": 45,
       "12": 14,
@@ -35,9 +35,9 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.298,
+    "dominantParagraphShare": 0.297,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 49,
+    "exactSixParagraphArticles": 50,
     "analysisBelowTarget": 11,
     "articlesWithStyleFlags": 187
   },
@@ -4357,6 +4357,90 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-22-serie-a-coaching-reset-preview",
+      "slug": "serie-a-2026-27-coaching-reset-preview",
+      "title": "Serie A shuffles the pack as nine clubs start the season under new coaches",
+      "kind": "preview",
+      "words": 444,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 29,
+        "longest": 59,
+        "average": 49.3
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 47,
+        "average": 26.1
+      },
+      "lexicalDiversity": 0.592,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-22-uefa-fines-israeli-clubs-fan-misconduct",
+      "slug": "uefa-fines-hapoel-beer-sheva-beitar-hapoel-tel-aviv-fan-misconduct",
+      "title": "UEFA fines Hapoel Beer Sheva, Beitar Jerusalem and Hapoel Tel Aviv over fan misconduct",
+      "kind": "news",
+      "words": 352,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 45,
+        "longest": 74,
+        "average": 58.7
+      },
+      "sentenceWords": {
+        "shortest": 14,
+        "longest": 51,
+        "average": 27.1
+      },
+      "lexicalDiversity": 0.543,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-22-arsenal-coventry-city-3-0-opener",
+      "slug": "arsenal-3-0-coventry-city-title-defence-opener",
+      "title": "Arsenal 3-0 Coventry City: Havertz, Saka and Ødegaard open title defence in style",
+      "kind": "match-report",
+      "words": 404,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 63,
+        "average": 44.9
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 52,
+        "average": 25.3
+      },
+      "lexicalDiversity": 0.611,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-22-betis-real-sociedad-riquelme",
+      "slug": "real-betis-beat-real-sociedad-riquelme-la-liga",
+      "title": "Real Betis 1-0 Real Sociedad: Riquelme's second-half strike opens the league account",
+      "kind": "article",
+      "words": 284,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 44,
+        "average": 40.6
+      },
+      "sentenceWords": {
+        "shortest": 14,
+        "longest": 44,
+        "average": 35.5
+      },
+      "lexicalDiversity": 0.595,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-21-atletico-gil-marin-alvarez-stay",
       "slug": "atletico-madrid-gil-marin-alvarez-stay-message",
