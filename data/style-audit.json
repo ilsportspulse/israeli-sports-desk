@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T01:58:38.884Z",
+  "generatedAt": "2026-08-22T02:00:48.265Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,21 +11,21 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1079,
+    "publishedArticles": 1083,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 418,
-      "average": 422.4
+      "average": 422.2
     },
     "paragraphDistribution": {
       "3": 36,
       "4": 6,
       "5": 10,
-      "6": 50,
-      "7": 158,
+      "6": 51,
+      "7": 159,
       "8": 321,
-      "9": 254,
+      "9": 256,
       "10": 175,
       "11": 45,
       "12": 14,
@@ -35,9 +35,9 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.297,
+    "dominantParagraphShare": 0.296,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 50,
+    "exactSixParagraphArticles": 51,
     "analysisBelowTarget": 11,
     "articlesWithStyleFlags": 187
   },
@@ -4358,86 +4358,86 @@
   ],
   "clean": [
     {
-      "id": "live-2026-08-22-uefa-fines-israeli-clubs",
-      "slug": "uefa-fines-hapoel-beer-sheva-beitar-hapoel-tel-aviv",
-      "title": "UEFA fines Hapoel Beer Sheva, Beitar Jerusalem and Hapoel Tel Aviv nearly €48,000 combined",
-      "kind": "news",
-      "words": 283,
-      "paragraphs": 7,
+      "id": "live-2026-08-22-serie-a-coaching-reset-preview",
+      "slug": "serie-a-2026-27-coaching-reset-preview",
+      "title": "Serie A shuffles the pack as nine clubs start the season under new coaches",
+      "kind": "preview",
+      "words": 444,
+      "paragraphs": 9,
       "paragraphWords": {
-        "shortest": 25,
-        "longest": 60,
-        "average": 40.4
+        "shortest": 29,
+        "longest": 59,
+        "average": 49.3
       },
       "sentenceWords": {
-        "shortest": 20,
-        "longest": 45,
-        "average": 35.4
-      },
-      "lexicalDiversity": 0.604,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-22-arsenal-thrash-coventry-3-0-opening-night",
-      "slug": "arsenal-thrash-coventry-3-0-premier-league-opening-night",
-      "title": "Arsenal beat Coventry City 3-0 to open Premier League title defence",
-      "kind": "article",
-      "words": 287,
-      "paragraphs": 6,
-      "paragraphWords": {
-        "shortest": 37,
-        "longest": 66,
-        "average": 47.8
-      },
-      "sentenceWords": {
-        "shortest": 11,
-        "longest": 50,
+        "shortest": 8,
+        "longest": 47,
         "average": 26.1
       },
-      "lexicalDiversity": 0.641,
+      "lexicalDiversity": 0.592,
       "publisherAttributions": 0,
       "flags": []
     },
     {
-      "id": "live-2026-08-22-real-betis-real-sociedad-la-liga-opener",
-      "slug": "real-betis-real-sociedad-la-liga-opener",
-      "title": "Real Betis open La Liga season with 1-0 win over Real Sociedad",
-      "kind": "article",
-      "words": 310,
-      "paragraphs": 8,
+      "id": "live-2026-08-22-uefa-fines-israeli-clubs-fan-misconduct",
+      "slug": "uefa-fines-hapoel-beer-sheva-beitar-hapoel-tel-aviv-fan-misconduct",
+      "title": "UEFA fines Hapoel Beer Sheva, Beitar Jerusalem and Hapoel Tel Aviv over fan misconduct",
+      "kind": "news",
+      "words": 352,
+      "paragraphs": 6,
       "paragraphWords": {
-        "shortest": 24,
+        "shortest": 45,
+        "longest": 74,
+        "average": 58.7
+      },
+      "sentenceWords": {
+        "shortest": 14,
         "longest": 51,
-        "average": 38.8
+        "average": 27.1
       },
-      "sentenceWords": {
-        "shortest": 6,
-        "longest": 43,
-        "average": 28.2
-      },
-      "lexicalDiversity": 0.671,
+      "lexicalDiversity": 0.543,
       "publisherAttributions": 0,
       "flags": []
     },
     {
-      "id": "archive-20260822-paris-13-may-2001-the-only-year-europe-c",
-      "slug": "paris-13-may-2001-the-only-year-europe-crowned-two-champions",
-      "title": "Paris, 13 May 2001: The Only Year Europe Crowned Two Champions",
-      "kind": "explainer",
-      "words": 779,
-      "paragraphs": 10,
+      "id": "live-2026-08-22-arsenal-coventry-city-3-0-opener",
+      "slug": "arsenal-3-0-coventry-city-title-defence-opener",
+      "title": "Arsenal 3-0 Coventry City: Havertz, Saka and Ødegaard open title defence in style",
+      "kind": "match-report",
+      "words": 404,
+      "paragraphs": 9,
       "paragraphWords": {
-        "shortest": 49,
-        "longest": 104,
-        "average": 77.9
+        "shortest": 34,
+        "longest": 63,
+        "average": 44.9
       },
       "sentenceWords": {
-        "shortest": 5,
-        "longest": 54,
-        "average": 24.3
+        "shortest": 7,
+        "longest": 52,
+        "average": 25.3
       },
-      "lexicalDiversity": 0.483,
+      "lexicalDiversity": 0.611,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-22-betis-real-sociedad-riquelme",
+      "slug": "real-betis-beat-real-sociedad-riquelme-la-liga",
+      "title": "Real Betis 1-0 Real Sociedad: Riquelme's second-half strike opens the league account",
+      "kind": "article",
+      "words": 284,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 44,
+        "average": 40.6
+      },
+      "sentenceWords": {
+        "shortest": 14,
+        "longest": 44,
+        "average": 35.5
+      },
+      "lexicalDiversity": 0.595,
       "publisherAttributions": 0,
       "flags": []
     },
@@ -23086,6 +23086,90 @@
         "average": 28.8
       },
       "lexicalDiversity": 0.568,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-22-uefa-fines-israeli-clubs",
+      "slug": "uefa-fines-hapoel-beer-sheva-beitar-hapoel-tel-aviv",
+      "title": "UEFA fines Hapoel Beer Sheva, Beitar Jerusalem and Hapoel Tel Aviv nearly €48,000 combined",
+      "kind": "news",
+      "words": 283,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 25,
+        "longest": 60,
+        "average": 40.4
+      },
+      "sentenceWords": {
+        "shortest": 20,
+        "longest": 45,
+        "average": 35.4
+      },
+      "lexicalDiversity": 0.604,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-22-arsenal-thrash-coventry-3-0-opening-night",
+      "slug": "arsenal-thrash-coventry-3-0-premier-league-opening-night",
+      "title": "Arsenal beat Coventry City 3-0 to open Premier League title defence",
+      "kind": "article",
+      "words": 287,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 66,
+        "average": 47.8
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 50,
+        "average": 26.1
+      },
+      "lexicalDiversity": 0.641,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-22-real-betis-real-sociedad-la-liga-opener",
+      "slug": "real-betis-real-sociedad-la-liga-opener",
+      "title": "Real Betis open La Liga season with 1-0 win over Real Sociedad",
+      "kind": "article",
+      "words": 310,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 24,
+        "longest": 51,
+        "average": 38.8
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 43,
+        "average": 28.2
+      },
+      "lexicalDiversity": 0.671,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "archive-20260822-paris-13-may-2001-the-only-year-europe-c",
+      "slug": "paris-13-may-2001-the-only-year-europe-crowned-two-champions",
+      "title": "Paris, 13 May 2001: The Only Year Europe Crowned Two Champions",
+      "kind": "explainer",
+      "words": 779,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 49,
+        "longest": 104,
+        "average": 77.9
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 54,
+        "average": 24.3
+      },
+      "lexicalDiversity": 0.483,
       "publisherAttributions": 0,
       "flags": []
     }
