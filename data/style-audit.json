@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T16:30:33.405Z",
+  "generatedAt": "2026-08-22T16:49:44.807Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,22 +11,22 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1108,
+    "publishedArticles": 1113,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 418,
-      "average": 422
+      "average": 422.4
     },
     "paragraphDistribution": {
       "3": 36,
       "4": 6,
       "5": 10,
       "6": 51,
-      "7": 165,
+      "7": 167,
       "8": 329,
-      "9": 262,
-      "10": 177,
+      "9": 264,
+      "10": 178,
       "11": 48,
       "12": 14,
       "13": 4,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.297,
+    "dominantParagraphShare": 0.296,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 51,
     "analysisBelowTarget": 11,
@@ -4427,44 +4427,128 @@
   ],
   "clean": [
     {
-      "id": "live-2026-08-22-marseille-strasbourg-ligue-1-opener",
-      "slug": "marseille-strasbourg-ligue-1-opener-gouiri-brace",
-      "title": "Marseille 4-0 Strasbourg: Gouiri brace and late double seal statement Ligue 1 opener",
-      "kind": "article",
-      "words": 287,
-      "paragraphs": 8,
+      "id": "live-2026-08-22-tiberias-hapoel-petah-tikva-preview",
+      "slug": "ironi-tiberias-hapoel-petah-tikva-season-opener-preview",
+      "title": "Badash and Avishai Cohen set for Petah Tikva debuts as Tiberias open season under a points penalty",
+      "kind": "preview",
+      "words": 335,
+      "paragraphs": 7,
       "paragraphWords": {
-        "shortest": 27,
-        "longest": 47,
-        "average": 35.9
+        "shortest": 35,
+        "longest": 61,
+        "average": 47.9
       },
       "sentenceWords": {
         "shortest": 4,
-        "longest": 41,
-        "average": 26.1
+        "longest": 61,
+        "average": 30.5
       },
-      "lexicalDiversity": 0.666,
+      "lexicalDiversity": 0.633,
       "publisherAttributions": 0,
       "flags": []
     },
     {
-      "id": "live-2026-08-22-ron-pyatov-fourth-parallel-bars-europeans",
-      "slug": "ron-pyatov-fourth-parallel-bars-final-european-championships-zagreb",
-      "title": "Pyatov agonisingly misses parallel bars medal on countback in Zagreb",
+      "id": "live-20260822-maccabi-pt-kiryat-shmona-opener-lineups",
+      "slug": "hazan-sola-costa-maccabi-petah-tikva-kiryat-shmona-ligat-haal-opener",
+      "title": "Hazan starts for Maccabi Petah Tikva, Sola and Costa in Kiryat Shmona's XI for season opener",
+      "kind": "match-preview",
+      "words": 309,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 44,
+        "average": 38.6
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 42,
+        "average": 30.9
+      },
+      "lexicalDiversity": 0.625,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260822-broadcasters-not-publicists-column",
+      "slug": "israeli-football-broadcasters-not-publicists-column",
+      "title": "The public wants broadcasters, not hype men, argues top Ynet columnist",
       "kind": "news",
-      "words": 289,
+      "words": 436,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 63,
+        "average": 48.4
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 53,
+        "average": 29.1
+      },
+      "lexicalDiversity": 0.594,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-22-kyrgios-cocaine-suspension",
+      "slug": "cocaine-scandal-fall-of-tennis-self-styled-bad-boy-nick-kyrgios",
+      "title": "Cocaine positive ends Nick Kyrgios's long fall from Wimbledon finalist to world No. 919",
+      "kind": "article",
+      "words": 645,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 42,
+        "longest": 98,
+        "average": 64.5
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 60,
+        "average": 26.9
+      },
+      "lexicalDiversity": 0.557,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260822-williams-alcaraz-us-open-mixed-doubles",
+      "slug": "serena-williams-carlos-alcaraz-us-open-mixed-doubles-wildcard",
+      "title": "Serena Williams and Carlos Alcaraz to team up for US Open mixed doubles",
+      "kind": "news",
+      "words": 339,
       "paragraphs": 7,
       "paragraphWords": {
         "shortest": 30,
-        "longest": 52,
-        "average": 41.3
+        "longest": 61,
+        "average": 48.4
       },
       "sentenceWords": {
         "shortest": 10,
-        "longest": 47,
-        "average": 32.1
+        "longest": 45,
+        "average": 28.3
       },
-      "lexicalDiversity": 0.619,
+      "lexicalDiversity": 0.605,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "column-20260822-zagreb-gold-number-three-drop-the-hedge-",
+      "slug": "zagreb-gold-number-three-drop-the-hedge-dolgopyat-is-already-israel-s-",
+      "title": "Zagreb Gold Number Three: Drop the Hedge, Dolgopyat Is Already Israel's Greatest",
+      "kind": "analysis",
+      "words": 992,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 78,
+        "longest": 137,
+        "average": 110.2
+      },
+      "sentenceWords": {
+        "shortest": 2,
+        "longest": 65,
+        "average": 23.6
+      },
+      "lexicalDiversity": 0.455,
       "publisherAttributions": 0,
       "flags": []
     },
@@ -23684,24 +23768,45 @@
       "flags": []
     },
     {
-      "id": "live-20260822-dolgopyat-israels-greatest-athlete",
-      "slug": "dolgopyat-third-european-floor-gold-israel-greatest-athlete",
-      "title": "Dolgopyat's third European floor gold puts him on course to be Israel's greatest-ever athlete",
-      "kind": "feature",
-      "words": 502,
+      "id": "live-2026-08-22-marseille-strasbourg-ligue-1-opener",
+      "slug": "marseille-strasbourg-ligue-1-opener-gouiri-brace",
+      "title": "Marseille 4-0 Strasbourg: Gouiri brace and late double seal statement Ligue 1 opener",
+      "kind": "article",
+      "words": 287,
       "paragraphs": 8,
       "paragraphWords": {
-        "shortest": 36,
-        "longest": 77,
-        "average": 62.8
+        "shortest": 27,
+        "longest": 47,
+        "average": 35.9
       },
       "sentenceWords": {
-        "shortest": 9,
-        "longest": 46,
-        "average": 26.4
+        "shortest": 4,
+        "longest": 41,
+        "average": 26.1
       },
-      "lexicalDiversity": 0.534,
-      "publisherAttributions": 1,
+      "lexicalDiversity": 0.666,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-22-ron-pyatov-fourth-parallel-bars-europeans",
+      "slug": "ron-pyatov-fourth-parallel-bars-final-european-championships-zagreb",
+      "title": "Pyatov agonisingly misses parallel bars medal on countback in Zagreb",
+      "kind": "news",
+      "words": 289,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 52,
+        "average": 41.3
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 47,
+        "average": 32.1
+      },
+      "lexicalDiversity": 0.619,
+      "publisherAttributions": 0,
       "flags": []
     }
   ]

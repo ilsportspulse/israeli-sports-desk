@@ -146,8 +146,8 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-22T16:30:32Z",
-    "validUntil": "2026-08-23T04:30:32Z",
+    "checkedAt": "2026-08-22T16:49:43Z",
+    "validUntil": "2026-08-23T04:49:43Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
@@ -160,21 +160,21 @@
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-22-marseille-strasbourg-ligue-1-opener",
+        "articleId": "live-2026-08-22-tiberias-hapoel-petah-tikva-preview",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 819,
+        "maxAgeHours": 820,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-22-dimarco-yamal-toughest-opponent",
+        "articleId": "live-20260822-maccabi-pt-kiryat-shmona-opener-lineups",
         "maxAgeHours": 35,
         "requires": []
       },
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260822-eissat-bristol-city-draw-birmingham",
+        "articleId": "live-2026-08-22-marseille-strasbourg-ligue-1-opener",
         "maxAgeHours": 36,
         "requires": []
       }
