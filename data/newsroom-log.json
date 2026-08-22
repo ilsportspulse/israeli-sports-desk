@@ -1,5 +1,61 @@
 [
   {
+    "ts": "2026-08-22T10:01:49.538Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 4,
+    "review": 1,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "bnei-sakhnin-abukasis-summer-rebuild",
+        "title": "Abukasis rebuilds Bnei Sakhnin as club enters new era under chairman Dukhi",
+        "confidence": 0.82,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Exact tally of incoming/outgoing players varies slightly between outlets (roughly 8-11 in, ~8-11 out); core facts on the chairman change, coach's tenure and the record Cavaré wage are consistent across ONE, Ynet, Sport5 and Wikipedia."
+      },
+      {
+        "slug": "alex-tyus-lands-in-israel-to-join-hapoel-haifa",
+        "title": "Alex Tyus lands in Israel to join Hapoel Haifa",
+        "confidence": 0.88,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "ironi-tiberias-scandal-summer-2026",
+        "title": "Points deducted, coach suspended: Ironi Tiberias' scandal-scarred summer",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "messi-fined-mls-slap-quinn-sullivan",
+        "title": "Messi fined by MLS for slapping Philadelphia Union's Quinn Sullivan",
+        "confidence": 0.9,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "israel-judo-cadets-bronze-fifth-guayaquil-worlds",
+        "title": "Israel's judo cadets close out best-ever world championship with bronze and fifth place in Ecuador",
+        "confidence": 0.75,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-08-22T09:08:13.726Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -2508,62 +2564,6 @@
         "gate": "pass",
         "decision": "published",
         "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-12T17:25:12.424Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 3,
-    "review": 2,
-    "skipped": 0,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "omer-niraon-loan-maccabi-haifa-second-goalkeeper",
-        "title": "Maccabi Haifa agree loan deal for Netanya goalkeeper Omer Niraon",
-        "confidence": 0.8,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "daria-golovaty-just-misses-200m-freestyle-final-european-championships",
-        "title": "Daria Golovaty just misses out on 200m freestyle final at European Championships",
-        "confidence": 0.8,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "bnei-yehuda-ashdod-toto-cup-live-update",
-        "title": "Bnei Yehuda trail Ashdod as Toto Cup semi-final unfolds",
-        "confidence": 0,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "match in progress — wait for full time"
-      },
-      {
-        "slug": "bundesliga-50-plus-1-rule-upheld-german-cartel-office",
-        "title": "Germany's antitrust watchdog upholds the Bundesliga's 50+1 ownership rule",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "israeli-football-fans-federation-launches-bloomfield",
-        "title": "Fans take the field: new Israeli football supporters' federation launches at Bloomfield",
-        "confidence": 0.78,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Single-source report (ONE); no independent Israeli outlet coverage found, and no response yet from the Israel Football Association."
       }
     ]
   }

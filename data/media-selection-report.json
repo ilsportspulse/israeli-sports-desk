@@ -1,16 +1,22 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-08-22-hapoel-ramat-gan-summer-rebuild",
-      "article": "Hapoel Ramat Gan rebuild almost an entire squad for their Ligat Ha'Al return",
-      "file": "File:Flag of Israel in Ramat Gan, May 2024 68.jpg",
-      "license": "CC BY-SA 4.0"
+      "articleId": "live-20260822-judo-cadets-ecuador-bronze",
+      "article": "Israel's judo cadets close out best-ever world championship with bronze and fifth place in Ecuador",
+      "file": "File:Judo - Épreuve mixte par équipe - Phase éliminatoire France vs Israël - Jeux Olympiques 2024 - Paris Arena Sud (FR75) - 2024-08-03 - 52.jpg",
+      "license": "CC BY 4.0"
     },
     {
-      "articleId": "live-2026-08-22-mourinho-real-madrid-war-on-leaks",
-      "article": "Closing the doors: Mourinho wages war on Real Madrid's leaks",
-      "file": "File:Federico Valverde 2021 (cropped).jpg",
-      "license": "CC BY 3.0"
+      "articleId": "live-2026-08-22-ironi-tiberias-scandal-summer",
+      "article": "Points deducted, coach suspended: Ironi Tiberias' scandal-scarred summer",
+      "file": "File:Mecz piłkarski Wisła Kraków - Zagłębie Sosnwoiec, 28 października 2022, Pożegnanie Stadionu Ludowego, KP.jpg",
+      "license": "CC BY 4.0"
+    },
+    {
+      "articleId": "live-2026-08-22-bnei-sakhnin-abukasis-summer-rebuild",
+      "article": "Abukasis rebuilds Bnei Sakhnin as club enters new era under chairman Dukhi",
+      "file": "File:Abuksis2.jpg",
+      "license": "CC BY-SA 3.0"
     },
     {
       "articleId": "live-20260815-liebmann-1500m-freestyle-world-record",
@@ -21,13 +27,13 @@
     {
       "articleId": "live-2026-08-13-adva-cohen-steeplechase-10th",
       "article": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
-      "file": "File:20220817 European Championships Munich 2022 Tania Moreno Matveeva 850 7683.jpg",
+      "file": "File:20220814 European Championships Munich 2022 Ľubomír Pištej 850 3618.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
       "articleId": "live-20260802-israel-fifth-mixed-duet-technical-paris",
       "article": "Israel take fifth in mixed duet technical final at European Championships in Paris",
-      "file": "File:20220814 European Championships Munich 2022 Ľubomír Pištej 850 3618.jpg",
+      "file": "File:20220817 European Championships Munich 2022 Tania Moreno Matveeva 850 7683.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
@@ -41,24 +47,23 @@
       "article": "Adam Ramsay-Peaty questions it all after bitter Commonwealth bronze",
       "file": "File:Adam Peaty Olympics 100m breaststroke 2016.jpg",
       "license": "CC BY 3.0 br"
-    },
-    {
-      "articleId": "live-2026-08-22-hamza-abdelkarim-barcelona-number-9",
-      "article": "Hamza Abdelkarim emerges as a genuine option for Barcelona's number 9 shirt",
-      "file": "File:Hamza Abdelkarim.jpg",
-      "license": "CC BY 3.0"
     }
   ],
   "failures": [
     {
-      "id": "live-2026-08-22-rodri-barcelona-total-cost",
-      "title": "Rodri's move to Barcelona will cost the club more than €200m in total, report says",
+      "id": "live-20260822-messi-fined-mls-slap-sullivan",
+      "title": "Messi fined by MLS for slapping Philadelphia Union's Quinn Sullivan",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-2026-08-22-alex-tyus-hapoel-haifa",
+      "title": "Alex Tyus lands in Israel to join Hapoel Haifa",
       "error": "image download 429 after retries"
     },
     {
-      "id": "live-2026-08-22-hapoel-jerusalem-shai-aharon-ziv-arie",
-      "title": "Hapoel Jerusalem chief Shai Aharon: \"Arie didn't need to leave, maybe that's what saved us\"",
-      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+      "id": "live-2026-08-22-rodri-barcelona-total-cost",
+      "title": "Rodri's move to Barcelona will cost the club more than €200m in total, report says",
+      "error": "image download 429 after retries"
     },
     {
       "id": "live-2026-08-22-naarim-bet-opening-round-wins",

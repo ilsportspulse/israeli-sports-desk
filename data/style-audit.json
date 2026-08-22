@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T09:31:47.483Z",
+  "generatedAt": "2026-08-22T10:17:36.140Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,7 +11,7 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1091,
+    "publishedArticles": 1095,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
@@ -23,10 +23,10 @@
       "4": 6,
       "5": 10,
       "6": 49,
-      "7": 159,
-      "8": 324,
+      "7": 161,
+      "8": 325,
       "9": 259,
-      "10": 176,
+      "10": 177,
       "11": 48,
       "12": 14,
       "13": 4,
@@ -4380,6 +4380,90 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260822-judo-cadets-ecuador-bronze",
+      "slug": "israel-judo-cadets-bronze-fifth-guayaquil-worlds",
+      "title": "Israel's judo cadets close out best-ever world championship with bronze and fifth place in Ecuador",
+      "kind": "news",
+      "words": 337,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 27,
+        "longest": 54,
+        "average": 42.1
+      },
+      "sentenceWords": {
+        "shortest": 17,
+        "longest": 87,
+        "average": 37.4
+      },
+      "lexicalDiversity": 0.614,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260822-messi-fined-mls-slap-sullivan",
+      "slug": "messi-fined-mls-slap-quinn-sullivan",
+      "title": "Messi fined by MLS for slapping Philadelphia Union's Quinn Sullivan",
+      "kind": "news",
+      "words": 345,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 42,
+        "longest": 66,
+        "average": 49.3
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 46,
+        "average": 24.6
+      },
+      "lexicalDiversity": 0.612,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-22-ironi-tiberias-scandal-summer",
+      "slug": "ironi-tiberias-scandal-summer-2026",
+      "title": "Points deducted, coach suspended: Ironi Tiberias' scandal-scarred summer",
+      "kind": "article",
+      "words": 622,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 49,
+        "longest": 73,
+        "average": 62.2
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 70,
+        "average": 31.1
+      },
+      "lexicalDiversity": 0.595,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-22-alex-tyus-hapoel-haifa",
+      "slug": "alex-tyus-lands-in-israel-to-join-hapoel-haifa",
+      "title": "Alex Tyus lands in Israel to join Hapoel Haifa",
+      "kind": "news",
+      "words": 319,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 56,
+        "average": 45.6
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 45,
+        "average": 24.5
+      },
+      "lexicalDiversity": 0.624,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-08-22-hapoel-ramat-gan-summer-rebuild",
       "slug": "hapoel-ramat-gan-summer-squad-rebuild-2026",
