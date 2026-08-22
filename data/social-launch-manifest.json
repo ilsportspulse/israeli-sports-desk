@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-22T15:22:37Z",
-    "validUntil": "2026-08-23T03:22:37Z",
+    "checkedAt": "2026-08-22T16:08:13Z",
+    "validUntil": "2026-08-23T04:08:13Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 810,
+        "maxAgeHours": 811,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-22-dimarco-yamal-toughest-opponent",
+        "articleId": "live-20260822-broadcasters-not-publicists-column",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 818,
+        "maxAgeHours": 819,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-22-hull-city-stun-manchester-united",
+        "articleId": "live-2026-08-22-kyrgios-cocaine-suspension",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 828,
+        "maxAgeHours": 829,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260822-eissat-bristol-city-draw-birmingham",
+        "articleId": "live-2026-08-22-dimarco-yamal-toughest-opponent",
         "maxAgeHours": 36,
         "requires": []
       }

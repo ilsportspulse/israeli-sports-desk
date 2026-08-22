@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T15:22:37.965Z",
+  "generatedAt": "2026-08-22T16:08:13.952Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1601,
-    "publishedBefore": 1107,
-    "cleanPublished": 1100,
+    "totalArticles": 1605,
+    "publishedBefore": 1110,
+    "cleanPublished": 1103,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1107,
-    "reviewAfter": 494
+    "publishedAfter": 1110,
+    "reviewAfter": 495
   },
   "blockedPublished": [
     {
@@ -141,6 +141,34 @@
   ],
   "warnings": [
     {
+      "id": "live-20260822-broadcasters-not-publicists-column",
+      "slug": "israeli-football-broadcasters-not-publicists-column",
+      "title": "The public wants broadcasters, not hype men, argues top Ynet columnist",
+      "statusBefore": "published",
+      "words": 441,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-22-kyrgios-cocaine-suspension",
+      "slug": "cocaine-scandal-fall-of-tennis-self-styled-bad-boy-nick-kyrgios",
+      "title": "Cocaine positive ends Nick Kyrgios's long fall from Wimbledon finalist to world No. 919",
+      "statusBefore": "published",
+      "words": 646,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-20260822-west-ham-charlton-half-time-held",
       "slug": "west-ham-charlton-half-time-held",
       "title": "West Ham v Charlton still being played — no report until full time",
@@ -179,7 +207,8 @@
       "verificationSources": 1,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -251,7 +280,8 @@
       "verificationSources": 4,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -15655,7 +15685,7 @@
       "id": "live-20260822-dolgopyat-israels-greatest-athlete",
       "slug": "dolgopyat-third-european-floor-gold-israel-greatest-athlete",
       "title": "Dolgopyat's third European floor gold puts him on course to be Israel's greatest-ever athlete",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 505,
       "paragraphs": 8,
       "facts": 7,
@@ -15682,6 +15712,58 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-20260822-broadcasters-not-publicists-column",
+      "slug": "israeli-football-broadcasters-not-publicists-column",
+      "title": "The public wants broadcasters, not hype men, argues top Ynet columnist",
+      "statusBefore": "published",
+      "words": 441,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-22-kyrgios-cocaine-suspension",
+      "slug": "cocaine-scandal-fall-of-tennis-self-styled-bad-boy-nick-kyrgios",
+      "title": "Cocaine positive ends Nick Kyrgios's long fall from Wimbledon finalist to world No. 919",
+      "statusBefore": "published",
+      "words": 646,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260822-williams-alcaraz-us-open-mixed-doubles",
+      "slug": "serena-williams-carlos-alcaraz-us-open-mixed-doubles-wildcard",
+      "title": "Serena Williams and Carlos Alcaraz to team up for US Open mixed doubles",
+      "statusBefore": "published",
+      "words": 339,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "column-20260822-zagreb-gold-number-three-drop-the-hedge-",
+      "slug": "zagreb-gold-number-three-drop-the-hedge-dolgopyat-is-already-israel-s-",
+      "title": "Zagreb Gold Number Three: Drop the Hedge, Dolgopyat Is Already Israel's Greatest",
+      "statusBefore": "published",
+      "words": 1006,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 9,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-2026-08-22-dimarco-yamal-toughest-opponent",
       "slug": "dimarco-names-lamine-yamal-toughest-opponent-career",
@@ -15760,7 +15842,8 @@
       "verificationSources": 4,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -30559,21 +30642,6 @@
       "warnings": [
         "presentation:outlet-name-in-headline",
         "voice:publisher-attribution-heavy:3"
-      ]
-    },
-    {
-      "id": "live-20260822-dolgopyat-israels-greatest-athlete",
-      "slug": "dolgopyat-third-european-floor-gold-israel-greatest-athlete",
-      "title": "Dolgopyat's third European floor gold puts him on course to be Israel's greatest-ever athlete",
-      "statusBefore": "published",
-      "words": 505,
-      "paragraphs": 8,
-      "facts": 7,
-      "verificationSources": 5,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline",
-        "media:no-action-or-competition-context-detected"
       ]
     }
   ]

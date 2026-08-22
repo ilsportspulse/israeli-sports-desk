@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T15:22:38.576Z",
+  "generatedAt": "2026-08-22T16:08:14.584Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,22 +11,22 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1107,
+    "publishedArticles": 1110,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 418,
-      "average": 422.2
+      "average": 422.8
     },
     "paragraphDistribution": {
       "3": 36,
       "4": 6,
       "5": 10,
       "6": 51,
-      "7": 164,
-      "8": 328,
-      "9": 263,
-      "10": 177,
+      "7": 165,
+      "8": 327,
+      "9": 265,
+      "10": 178,
       "11": 48,
       "12": 14,
       "13": 4,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.296,
+    "dominantParagraphShare": 0.295,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 51,
     "analysisBelowTarget": 11,
@@ -4426,6 +4426,90 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260822-broadcasters-not-publicists-column",
+      "slug": "israeli-football-broadcasters-not-publicists-column",
+      "title": "The public wants broadcasters, not hype men, argues top Ynet columnist",
+      "kind": "news",
+      "words": 436,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 63,
+        "average": 48.4
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 53,
+        "average": 29.1
+      },
+      "lexicalDiversity": 0.594,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-22-kyrgios-cocaine-suspension",
+      "slug": "cocaine-scandal-fall-of-tennis-self-styled-bad-boy-nick-kyrgios",
+      "title": "Cocaine positive ends Nick Kyrgios's long fall from Wimbledon finalist to world No. 919",
+      "kind": "article",
+      "words": 645,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 42,
+        "longest": 98,
+        "average": 64.5
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 60,
+        "average": 26.9
+      },
+      "lexicalDiversity": 0.557,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260822-williams-alcaraz-us-open-mixed-doubles",
+      "slug": "serena-williams-carlos-alcaraz-us-open-mixed-doubles-wildcard",
+      "title": "Serena Williams and Carlos Alcaraz to team up for US Open mixed doubles",
+      "kind": "news",
+      "words": 339,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 61,
+        "average": 48.4
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 45,
+        "average": 28.3
+      },
+      "lexicalDiversity": 0.605,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "column-20260822-zagreb-gold-number-three-drop-the-hedge-",
+      "slug": "zagreb-gold-number-three-drop-the-hedge-dolgopyat-is-already-israel-s-",
+      "title": "Zagreb Gold Number Three: Drop the Hedge, Dolgopyat Is Already Israel's Greatest",
+      "kind": "analysis",
+      "words": 992,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 78,
+        "longest": 137,
+        "average": 110.2
+      },
+      "sentenceWords": {
+        "shortest": 2,
+        "longest": 65,
+        "average": 23.6
+      },
+      "lexicalDiversity": 0.455,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-22-dimarco-yamal-toughest-opponent",
       "slug": "dimarco-names-lamine-yamal-toughest-opponent-career",
@@ -23659,27 +23743,6 @@
         "average": 39.6
       },
       "lexicalDiversity": 0.571,
-      "publisherAttributions": 1,
-      "flags": []
-    },
-    {
-      "id": "live-20260822-dolgopyat-israels-greatest-athlete",
-      "slug": "dolgopyat-third-european-floor-gold-israel-greatest-athlete",
-      "title": "Dolgopyat's third European floor gold puts him on course to be Israel's greatest-ever athlete",
-      "kind": "feature",
-      "words": 502,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 36,
-        "longest": 77,
-        "average": 62.8
-      },
-      "sentenceWords": {
-        "shortest": 9,
-        "longest": 46,
-        "average": 26.4
-      },
-      "lexicalDiversity": 0.534,
       "publisherAttributions": 1,
       "flags": []
     }

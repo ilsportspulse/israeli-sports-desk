@@ -1,5 +1,45 @@
 [
   {
+    "ts": "2026-08-22T15:52:26.254Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 3,
+    "published": 3,
+    "review": 0,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "serena-williams-carlos-alcaraz-us-open-mixed-doubles-wildcard",
+        "title": "Serena Williams and Carlos Alcaraz to team up for US Open mixed doubles",
+        "confidence": 0.88,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "cocaine-scandal-fall-of-tennis-self-styled-bad-boy-nick-kyrgios",
+        "title": "Cocaine positive ends Nick Kyrgios's long fall from Wimbledon finalist to world No. 919",
+        "confidence": 0.92,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "israeli-football-broadcasters-not-publicists-column",
+        "title": "The public wants broadcasters, not hype men, argues top Ynet columnist",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-08-22T14:55:09.334Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -2530,62 +2570,6 @@
         "gate": "pass",
         "decision": "published",
         "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-13T13:17:02.820Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 2,
-    "review": 3,
-    "skipped": 0,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "gal-arad-200m-semifinal-miss-seven-thousandths",
-        "title": "Gal Arad misses 200m semi-final by seven thousandths of a second in Birmingham",
-        "confidence": 0.85,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "below gate thresholds"
-      },
-      {
-        "slug": "celta-vigo-osasuna-postponed-fungus-balaidos",
-        "title": "Celta Vigo's La Liga opener against Osasuna postponed after fungus wrecks Balaídos pitch",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "ceuta-coach-romero-migrant-crisis-andorra-season-opener",
-        "title": "Ceuta coach José Juan Romero: 'If it was up to me, we wouldn't play this weekend'",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "yaakov-shahar-maccabi-haifa-business-approach-book",
-        "title": "New book: Yaakov Shahar ran Maccabi Haifa \"like his businesses\" — and changed Israeli football",
-        "confidence": 0.75,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Book-based feature; the specific quotes and claimed innovations (e.g. Gai Peleg as first spokesperson) are as reported by ONE from the book and Talsnick's dissertation and have not been independently re-verified beyond the source."
-      },
-      {
-        "slug": "israeli-football-fans-union-launch",
-        "title": "Israeli football fans launch first-ever cross-club union to improve matchday experience",
-        "confidence": 0.82,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "The federation's exact official name was not clearly rendered in English by either source; described here descriptively as reported by ONE and Sport5."
       }
     ]
   }
