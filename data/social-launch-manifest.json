@@ -146,8 +146,8 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-22T13:33:37Z",
-    "validUntil": "2026-08-23T01:33:37Z",
+    "checkedAt": "2026-08-22T14:19:45Z",
+    "validUntil": "2026-08-23T02:19:45Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
@@ -160,21 +160,21 @@
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260822-ligat-haal-season-survey",
+        "articleId": "live-2026-08-22-hull-city-stun-manchester-united",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 816,
+        "maxAgeHours": 817,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-22-yuval-sason-bnei-reineh",
+        "articleId": "live-2026-08-22-elmas-atalanta-goretzka-aston-villa",
         "maxAgeHours": 35,
         "requires": []
       },
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260822-dolgopyat-israels-greatest-athlete",
+        "articleId": "live-20260822-ligat-haal-season-survey",
         "maxAgeHours": 36,
         "requires": []
       }

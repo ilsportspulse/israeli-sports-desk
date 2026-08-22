@@ -1,22 +1,40 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-08-22-dolgopyat-coach-weisberg-medal-like-birth",
-      "article": "Dolgopyat's coach: winning that medal felt like giving birth",
-      "file": "File:2025 World Athletics Indoor Championships – Women's 60 metres hurdles 01.jpg",
-      "license": "CC BY-SA 4.0"
-    },
-    {
-      "articleId": "live-20260822-ligat-haal-season-survey",
-      "article": "Ligat Ha'al opens new season as ONE asks fans to vote on the title race and stadium safety",
-      "file": "File:GiuseppeMeazzaNeazzurro.jpg",
+      "articleId": "live-2026-08-22-hull-city-stun-manchester-united",
+      "article": "Hull City 2-0 Manchester United: promoted side stuns Carrick's men on opening day",
+      "file": "File:Semi Ajayyi vs West Brom (9777906261).jpg",
       "license": "CC BY 2.0"
     },
     {
-      "articleId": "live-2026-08-22-valiyoulin-discus-world-title",
-      "article": "Denis Valiyoulin retains discus world title with 49.78m throw in Daegu",
-      "file": "File:Daegu Stadium.JPG",
+      "articleId": "live-2026-08-22-israel-cadets-13th-place",
+      "article": "Israel's basketball cadets beat Italy 58-53 to finish 13th at European Championship",
+      "file": "File:Volleyball Men's European Championship 2017 in Szczecin.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-2026-08-22-elmas-atalanta-goretzka-aston-villa",
+      "article": "Atalanta land Elmas on loan as Goretzka closes in on free Aston Villa move",
+      "file": "File:Elif Elmas 2021.jpg",
       "license": "CC BY-SA 3.0"
+    },
+    {
+      "articleId": "live-2026-08-22-everton-crystal-palace-half-time-hold",
+      "article": "Everton and Crystal Palace goalless at half-time in Premier League opener",
+      "file": "File:2005-07-01 - United Kingdom - England - London - Crystal Palace - Crystal Palace Transmitter - Crystal Palace Sports Centre.jpg",
+      "license": "CC BY 2.0"
+    },
+    {
+      "articleId": "live-2026-08-22-solomon-peretz-start-khalaili-bench",
+      "article": "Solomon and Peretz start in England as Khalaili waits on the bench at Everton",
+      "file": "File:SM Caen Tifo 15 ans du MNK.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "articleId": "live-2026-08-22-naarim-gimel-opening-round-beitar-draw",
+      "article": "Beitar draw 2-2 as Maccabi and Hapoel Petah Tikva win on opening weekend of Ne'arim Gimel league",
+      "file": "File:Founders' Square in Petah Tikva, May 2024 21.jpg",
+      "license": "CC BY-SA 4.0"
     },
     {
       "articleId": "live-20260815-liebmann-1500m-freestyle-world-record",
@@ -25,15 +43,9 @@
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-2026-08-13-adva-cohen-steeplechase-10th",
-      "article": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
-      "file": "File:20220814 European Championships Munich 2022 Ľubomír Pištej 850 3618.jpg",
-      "license": "CC BY-SA 4.0"
-    },
-    {
       "articleId": "live-20260802-israel-fifth-mixed-duet-technical-paris",
       "article": "Israel take fifth in mixed duet technical final at European Championships in Paris",
-      "file": "File:20220817 European Championships Munich 2022 Tania Moreno Matveeva 850 7683.jpg",
+      "file": "File:20220814 European Championships Munich 2022 Ľubomír Pištej 850 3618.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
@@ -49,27 +61,22 @@
       "license": "CC BY 3.0 br"
     },
     {
-      "articleId": "live-20260822-dolgopyat-israels-greatest-athlete",
-      "article": "Dolgopyat's third European floor gold puts him on course to be Israel's greatest-ever athlete",
-      "file": "File:2025 World Athletics Indoor Championships – Women's 60 metres hurdles 01.jpg",
-      "license": "CC BY-SA 4.0"
+      "articleId": "live-2026-08-22-alvarez-simeone-villarreal-squad",
+      "article": "Simeone includes Julián Álvarez in squad for Villarreal clash, warns fans off the abuse",
+      "file": "File:Julián Álvarez (footballer) 2023 2.jpg",
+      "license": "CC BY-SA 2.0"
     }
   ],
   "failures": [
     {
+      "id": "live-20260822-eissat-bristol-city-draw-birmingham",
+      "title": "Birmingham 2-2 Bristol City: Eissat goes the distance but Robins still winless",
+      "error": "image download 429 after retries"
+    },
+    {
       "id": "live-2026-08-22-dolinski-released-israel-basketball-tulsa",
       "title": "Dolinski released from Israel basketball squad to make it to Tulsa on time",
       "error": "image download 429 after retries"
-    },
-    {
-      "id": "live-2026-08-22-solomon-peretz-start-khalaili-bench",
-      "title": "Solomon and Peretz start in England as Khalaili waits on the bench at Everton",
-      "error": "image download 429 after retries"
-    },
-    {
-      "id": "live-2026-08-22-naarim-gimel-opening-round-beitar-draw",
-      "title": "Beitar draw 2-2 as Maccabi and Hapoel Petah Tikva win on opening weekend of Ne'arim Gimel league",
-      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {
       "id": "live-20260822-messi-fined-mls-slap-sullivan",
@@ -129,6 +136,11 @@
     {
       "id": "live-2026-08-15-ukraine-amateur-tennis-legend-kurbanov-killed-war",
       "title": "Ukrainian amateur tennis 'legend' Slava Kurbanov killed fighting on the front",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-2026-08-13-adva-cohen-steeplechase-10th",
+      "title": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T13:33:38.146Z",
+  "generatedAt": "2026-08-22T14:19:46.980Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,21 +11,21 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1103,
+    "publishedArticles": 1106,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 418,
-      "average": 422.5
+      "average": 422.3
     },
     "paragraphDistribution": {
       "3": 36,
       "4": 6,
       "5": 10,
       "6": 51,
-      "7": 162,
+      "7": 163,
       "8": 328,
-      "9": 261,
+      "9": 263,
       "10": 177,
       "11": 48,
       "12": 14,
@@ -4426,6 +4426,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-22-hull-city-stun-manchester-united",
+      "slug": "hull-city-stun-manchester-united-premier-league-opener",
+      "title": "Hull City 2-0 Manchester United: promoted side stuns Carrick's men on opening day",
+      "kind": "match-report",
+      "words": 360,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 49,
+        "average": 40
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 49,
+        "average": 30
+      },
+      "lexicalDiversity": 0.631,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260822-eissat-bristol-city-draw-birmingham",
+      "slug": "lisav-eissat-bristol-city-draw-birmingham-championship",
+      "title": "Birmingham 2-2 Bristol City: Eissat goes the distance but Robins still winless",
+      "kind": "article",
+      "words": 347,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 48,
+        "average": 38.6
+      },
+      "sentenceWords": {
+        "shortest": 34,
+        "longest": 48,
+        "average": 38.6
+      },
+      "lexicalDiversity": 0.617,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-22-elmas-atalanta-goretzka-aston-villa",
+      "slug": "elmas-joins-atalanta-on-loan-goretzka-closes-in-on-aston-villa-move",
+      "title": "Atalanta land Elmas on loan as Goretzka closes in on free Aston Villa move",
+      "kind": "news",
+      "words": 295,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 27,
+        "longest": 53,
+        "average": 42.1
+      },
+      "sentenceWords": {
+        "shortest": 14,
+        "longest": 44,
+        "average": 29.5
+      },
+      "lexicalDiversity": 0.637,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-22-dolinski-released-israel-basketball-tulsa",
       "slug": "ilay-dolinski-released-israel-basketball-squad-tulsa",

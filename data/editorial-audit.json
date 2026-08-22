@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T13:33:37.736Z",
+  "generatedAt": "2026-08-22T14:19:46.361Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1592,
-    "publishedBefore": 1103,
-    "cleanPublished": 1096,
+    "totalArticles": 1597,
+    "publishedBefore": 1106,
+    "cleanPublished": 1099,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1103,
-    "reviewAfter": 489
+    "publishedAfter": 1106,
+    "reviewAfter": 491
   },
   "blockedPublished": [
     {
@@ -141,6 +141,35 @@
   ],
   "warnings": [
     {
+      "id": "live-2026-08-22-hull-city-stun-manchester-united",
+      "slug": "hull-city-stun-manchester-united-premier-league-opener",
+      "title": "Hull City 2-0 Manchester United: promoted side stuns Carrick's men on opening day",
+      "statusBefore": "published",
+      "words": 361,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-22-everton-crystal-palace-half-time-hold",
+      "slug": "everton-crystal-palace-half-time-hold",
+      "title": "Everton and Crystal Palace goalless at half-time in Premier League opener",
+      "statusBefore": "review",
+      "words": 189,
+      "paragraphs": 5,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-2026-08-22-dolgopyat-coach-weisberg-medal-like-birth",
       "slug": "dolgopyat-coach-weisberg-medal-felt-like-birth",
       "title": "Dolgopyat's coach: winning that medal felt like giving birth",
@@ -184,6 +213,20 @@
       ]
     },
     {
+      "id": "live-2026-08-22-solomon-peretz-start-khalaili-bench",
+      "slug": "solomon-peretz-start-in-england-khalaili-waits-on-bench-at-everton",
+      "title": "Solomon and Peretz start in England as Khalaili waits on the bench at Everton",
+      "statusBefore": "published",
+      "words": 371,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-20260822-simeone-defends-alvarez-atletico",
       "slug": "simeone-defends-julian-alvarez-atletico-madrid-villarreal",
       "title": "Simeone defends Julián Álvarez as Atlético Madrid recall him to face Villarreal",
@@ -195,6 +238,20 @@
       "blockers": [],
       "warnings": [
         "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-22-naarim-gimel-opening-round-beitar-draw",
+      "slug": "beitar-jerusalem-draw-maccabi-hapoel-petah-tikva-win-youth-opener",
+      "title": "Beitar draw 2-2 as Maccabi and Hapoel Petah Tikva win on opening weekend of Ne'arim Gimel league",
+      "statusBefore": "review",
+      "words": 178,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -15584,6 +15641,44 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-2026-08-22-hull-city-stun-manchester-united",
+      "slug": "hull-city-stun-manchester-united-premier-league-opener",
+      "title": "Hull City 2-0 Manchester United: promoted side stuns Carrick's men on opening day",
+      "statusBefore": "published",
+      "words": 361,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260822-eissat-bristol-city-draw-birmingham",
+      "slug": "lisav-eissat-bristol-city-draw-birmingham-championship",
+      "title": "Birmingham 2-2 Bristol City: Eissat goes the distance but Robins still winless",
+      "statusBefore": "published",
+      "words": 346,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-22-elmas-atalanta-goretzka-aston-villa",
+      "slug": "elmas-joins-atalanta-on-loan-goretzka-closes-in-on-aston-villa-move",
+      "title": "Atalanta land Elmas on loan as Goretzka closes in on free Aston Villa move",
+      "statusBefore": "published",
+      "words": 295,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
       "id": "live-20260822-ligat-haal-season-survey",
       "slug": "ligat-haal-2026-27-season-survey-champion-violence",
       "title": "Ligat Ha'al opens new season as ONE asks fans to vote on the title race and stadium safety",
@@ -15622,7 +15717,9 @@
       "facts": 6,
       "verificationSources": 4,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-2026-08-22-flick-brushes-off-alvarez-talk",
