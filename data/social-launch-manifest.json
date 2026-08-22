@@ -146,8 +146,8 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-22T08:32:22Z",
-    "validUntil": "2026-08-22T20:32:22Z",
+    "checkedAt": "2026-08-22T09:26:05Z",
+    "validUntil": "2026-08-22T21:26:05Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
@@ -160,21 +160,21 @@
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260822-eckert-peretz-number-one-goalkeeper",
+        "articleId": "live-2026-08-22-hapoel-ramat-gan-summer-rebuild",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 811,
+        "maxAgeHours": 812,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-22-rivollier-hapoel-petah-tikva-derby-interview",
+        "articleId": "live-2026-08-22-mourinho-real-madrid-war-on-leaks",
         "maxAgeHours": 35,
         "requires": []
       },
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-22-mbappe-third-pichichi-challenge",
+        "articleId": "live-2026-08-22-hapoel-jerusalem-shai-aharon-ziv-arie",
         "maxAgeHours": 36,
         "requires": []
       }

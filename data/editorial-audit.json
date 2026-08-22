@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T08:32:23.321Z",
+  "generatedAt": "2026-08-22T09:26:05.960Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,12 +17,12 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1566,
-    "publishedBefore": 1087,
-    "cleanPublished": 1080,
+    "totalArticles": 1570,
+    "publishedBefore": 1091,
+    "cleanPublished": 1084,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1087,
+    "publishedAfter": 1091,
     "reviewAfter": 479
   },
   "blockedPublished": [
@@ -140,6 +140,49 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-2026-08-22-hapoel-ramat-gan-summer-rebuild",
+      "slug": "hapoel-ramat-gan-summer-squad-rebuild-2026",
+      "title": "Hapoel Ramat Gan rebuild almost an entire squad for their Ligat Ha'Al return",
+      "statusBefore": "published",
+      "words": 500,
+      "paragraphs": 11,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-22-mourinho-real-madrid-war-on-leaks",
+      "slug": "mourinho-real-madrid-war-on-leaks",
+      "title": "Closing the doors: Mourinho wages war on Real Madrid's leaks",
+      "statusBefore": "published",
+      "words": 466,
+      "paragraphs": 9,
+      "facts": 5,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-22-rodri-barcelona-total-cost",
+      "slug": "rodri-barcelona-total-transfer-cost-200-million",
+      "title": "Rodri's move to Barcelona will cost the club more than €200m in total, report says",
+      "statusBefore": "published",
+      "words": 432,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
     {
       "id": "live-2026-08-22-ido-saar-hapoel-haifa-comeback",
       "slug": "ido-saar-hapoel-haifa-injury-comeback",
@@ -15328,11 +15371,67 @@
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
         "voice:publisher-attribution-heavy:2"
       ]
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-22-hapoel-ramat-gan-summer-rebuild",
+      "slug": "hapoel-ramat-gan-summer-squad-rebuild-2026",
+      "title": "Hapoel Ramat Gan rebuild almost an entire squad for their Ligat Ha'Al return",
+      "statusBefore": "published",
+      "words": 500,
+      "paragraphs": 11,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-22-mourinho-real-madrid-war-on-leaks",
+      "slug": "mourinho-real-madrid-war-on-leaks",
+      "title": "Closing the doors: Mourinho wages war on Real Madrid's leaks",
+      "statusBefore": "published",
+      "words": 466,
+      "paragraphs": 9,
+      "facts": 5,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-22-rodri-barcelona-total-cost",
+      "slug": "rodri-barcelona-total-transfer-cost-200-million",
+      "title": "Rodri's move to Barcelona will cost the club more than €200m in total, report says",
+      "statusBefore": "published",
+      "words": 432,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-22-hapoel-jerusalem-shai-aharon-ziv-arie",
+      "slug": "hapoel-jerusalem-shai-aharon-ziv-arie-exit-interview",
+      "title": "Hapoel Jerusalem chief Shai Aharon: \"Arie didn't need to leave, maybe that's what saved us\"",
+      "statusBefore": "published",
+      "words": 570,
+      "paragraphs": 11,
+      "facts": 9,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-20260822-eckert-peretz-number-one-goalkeeper",
       "slug": "eckert-confirms-peretz-southampton-number-one-goalkeeper",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T08:32:23.940Z",
+  "generatedAt": "2026-08-22T09:26:06.486Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1087,
+    "publishedArticles": 1091,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 418,
-      "average": 422.7
+      "average": 422.9
     },
     "paragraphDistribution": {
       "3": 36,
@@ -24,10 +24,10 @@
       "5": 10,
       "6": 49,
       "7": 159,
-      "8": 323,
-      "9": 258,
+      "8": 324,
+      "9": 259,
       "10": 176,
-      "11": 46,
+      "11": 48,
       "12": 14,
       "13": 4,
       "14": 2,
@@ -4380,6 +4380,90 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-22-hapoel-ramat-gan-summer-rebuild",
+      "slug": "hapoel-ramat-gan-summer-squad-rebuild-2026",
+      "title": "Hapoel Ramat Gan rebuild almost an entire squad for their Ligat Ha'Al return",
+      "kind": "article",
+      "words": 497,
+      "paragraphs": 11,
+      "paragraphWords": {
+        "shortest": 29,
+        "longest": 69,
+        "average": 45.2
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 56,
+        "average": 35.5
+      },
+      "lexicalDiversity": 0.614,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-22-mourinho-real-madrid-war-on-leaks",
+      "slug": "mourinho-real-madrid-war-on-leaks",
+      "title": "Closing the doors: Mourinho wages war on Real Madrid's leaks",
+      "kind": "article",
+      "words": 464,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 66,
+        "average": 51.6
+      },
+      "sentenceWords": {
+        "shortest": 2,
+        "longest": 66,
+        "average": 29
+      },
+      "lexicalDiversity": 0.601,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-22-rodri-barcelona-total-cost",
+      "slug": "rodri-barcelona-total-transfer-cost-200-million",
+      "title": "Rodri's move to Barcelona will cost the club more than €200m in total, report says",
+      "kind": "news",
+      "words": 433,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 43,
+        "longest": 61,
+        "average": 54.1
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 58,
+        "average": 30.9
+      },
+      "lexicalDiversity": 0.58,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-22-hapoel-jerusalem-shai-aharon-ziv-arie",
+      "slug": "hapoel-jerusalem-shai-aharon-ziv-arie-exit-interview",
+      "title": "Hapoel Jerusalem chief Shai Aharon: \"Arie didn't need to leave, maybe that's what saved us\"",
+      "kind": "news",
+      "words": 572,
+      "paragraphs": 11,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 61,
+        "average": 52
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 61,
+        "average": 38.1
+      },
+      "lexicalDiversity": 0.577,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260822-eckert-peretz-number-one-goalkeeper",
       "slug": "eckert-confirms-peretz-southampton-number-one-goalkeeper",
