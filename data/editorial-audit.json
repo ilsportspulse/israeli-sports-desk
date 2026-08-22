@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T20:02:57.740Z",
+  "generatedAt": "2026-08-22T20:42:32.675Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1628,
-    "publishedBefore": 1121,
-    "cleanPublished": 1114,
+    "totalArticles": 1630,
+    "publishedBefore": 1120,
+    "cleanPublished": 1113,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1121,
-    "reviewAfter": 507
+    "publishedAfter": 1120,
+    "reviewAfter": 510
   },
   "blockedPublished": [
     {
@@ -141,6 +141,21 @@
   ],
   "warnings": [
     {
+      "id": "live-2026-08-22-tiberias-hapoel-pt-var-controversy",
+      "slug": "ironi-tiberias-hapoel-petah-tikva-var-controversy-snir-levi",
+      "title": "Ironi Tiberias 1-0 Hapoel Petah Tikva: VAR screen fails as Snir Levi rules out late equaliser",
+      "statusBefore": "review",
+      "words": 387,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
       "id": "live-2026-08-22-artzi-israel-basketball-georgia-poland-window",
       "slug": "artzi-israel-basketball-georgia-poland-window",
       "title": "Artzi: Israel 'understand the importance' of this window before Georgia warm-up",
@@ -178,6 +193,20 @@
       "paragraphs": 6,
       "facts": 6,
       "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-22-espanyol-real-madrid-halftime",
+      "slug": "espanyol-real-madrid-scoreless-first-half-mourinho-liga-bow",
+      "title": "Espanyol and Real Madrid goalless at half-time in Mourinho's La Liga bow",
+      "statusBefore": "review",
+      "words": 188,
+      "paragraphs": 5,
+      "facts": 7,
+      "verificationSources": 3,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -327,7 +356,7 @@
       "id": "live-2026-08-22-tiberias-hapoel-petah-tikva-preview",
       "slug": "ironi-tiberias-hapoel-petah-tikva-season-opener-preview",
       "title": "Badash and Avishai Cohen set for Petah Tikva debuts as Tiberias open season under a points penalty",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 336,
       "paragraphs": 7,
       "facts": 6,
@@ -16103,20 +16132,6 @@
       "verificationSources": 3,
       "blockers": [],
       "warnings": []
-    },
-    {
-      "id": "live-2026-08-22-tiberias-hapoel-petah-tikva-preview",
-      "slug": "ironi-tiberias-hapoel-petah-tikva-season-opener-preview",
-      "title": "Badash and Avishai Cohen set for Petah Tikva debuts as Tiberias open season under a points penalty",
-      "statusBefore": "published",
-      "words": 336,
-      "paragraphs": 7,
-      "facts": 6,
-      "verificationSources": 6,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
     },
     {
       "id": "live-20260822-maccabi-pt-kiryat-shmona-opener-lineups",

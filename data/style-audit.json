@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T20:02:58.367Z",
+  "generatedAt": "2026-08-22T20:42:33.163Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,19 +11,19 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1121,
+    "publishedArticles": 1120,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 417,
-      "average": 422.1
+      "median": 417.5,
+      "average": 422.2
     },
     "paragraphDistribution": {
       "3": 36,
       "4": 6,
       "5": 10,
       "6": 53,
-      "7": 168,
+      "7": 167,
       "8": 332,
       "9": 266,
       "10": 178,
@@ -4612,27 +4612,6 @@
         "average": 26.6
       },
       "lexicalDiversity": 0.618,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-22-tiberias-hapoel-petah-tikva-preview",
-      "slug": "ironi-tiberias-hapoel-petah-tikva-season-opener-preview",
-      "title": "Badash and Avishai Cohen set for Petah Tikva debuts as Tiberias open season under a points penalty",
-      "kind": "preview",
-      "words": 335,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 35,
-        "longest": 61,
-        "average": 47.9
-      },
-      "sentenceWords": {
-        "shortest": 4,
-        "longest": 61,
-        "average": 30.5
-      },
-      "lexicalDiversity": 0.633,
       "publisherAttributions": 0,
       "flags": []
     },
