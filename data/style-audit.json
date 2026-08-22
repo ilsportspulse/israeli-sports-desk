@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T19:05:01.701Z",
+  "generatedAt": "2026-08-22T19:54:18.921Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,19 +11,19 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1119,
+    "publishedArticles": 1121,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 418,
-      "average": 422.3
+      "median": 417,
+      "average": 422.1
     },
     "paragraphDistribution": {
       "3": 36,
       "4": 6,
       "5": 10,
-      "6": 52,
-      "7": 167,
+      "6": 53,
+      "7": 168,
       "8": 332,
       "9": 266,
       "10": 178,
@@ -35,9 +35,9 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.297,
+    "dominantParagraphShare": 0.296,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 52,
+    "exactSixParagraphArticles": 53,
     "analysisBelowTarget": 11,
     "articlesWithStyleFlags": 190
   },
@@ -4426,6 +4426,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-22-artzi-israel-basketball-georgia-poland-window",
+      "slug": "artzi-israel-basketball-georgia-poland-window",
+      "title": "Artzi: Israel 'understand the importance' of this window before Georgia warm-up",
+      "kind": "article",
+      "words": 367,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 39,
+        "longest": 65,
+        "average": 52.4
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 90,
+        "average": 28.2
+      },
+      "lexicalDiversity": 0.624,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-22-netanyahu-dolgopyat-third-european-floor-title",
+      "slug": "netanyahu-praises-dolgopyat-third-european-floor-gold",
+      "title": "Netanyahu praises Dolgopyat's third European floor title as 'immense honour and pride'",
+      "kind": "news",
+      "words": 281,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 66,
+        "average": 46.8
+      },
+      "sentenceWords": {
+        "shortest": 18,
+        "longest": 45,
+        "average": 35.1
+      },
+      "lexicalDiversity": 0.601,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-08-22-maccabi-tel-aviv-lugano-mistake-upon-mistake",
       "slug": "maccabi-tel-aviv-lugano-conference-league-mistake-upon-mistake",
