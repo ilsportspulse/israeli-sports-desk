@@ -1,22 +1,16 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-08-22-kani-bruninho-saief-haifa-lineup",
-      "article": "Kani, Bruninho and Saief start as Maccabi Haifa host Hapoel Ramat Gan in league opener",
-      "file": "File:Kenny Saief USA vs Colombia 2018-10-11 (30323409157).jpg",
-      "license": "CC BY-SA 2.0"
+      "articleId": "live-2026-08-22-athletic-bilbao-sevilla-3-1",
+      "article": "Athletic Club 1-3 Sevilla: ten-man Basques undone as visitors make it two from two",
+      "file": "File:San Mames stadium at night.jpg",
+      "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-2026-08-22-tiberias-hapoel-petah-tikva-preview",
-      "article": "Badash and Avishai Cohen set for Petah Tikva debuts as Tiberias open season under a points penalty",
-      "file": "File:Avishai Cohen Rasa Utrecht 13 februari 2014 - Avishai Cohen (50669098008).jpg",
+      "articleId": "live-2026-08-22-khalaili-crystal-palace-debut-review",
+      "article": "Anan Khalaili endures tough Premier League debut as Crystal Palace fall 2-0 to Everton",
+      "file": "File:Guide to the Crystal Palace and Park 1856 (147900764).jpg",
       "license": "Public domain"
-    },
-    {
-      "articleId": "live-20260822-williams-alcaraz-us-open-mixed-doubles",
-      "article": "Serena Williams and Carlos Alcaraz to team up for US Open mixed doubles",
-      "file": "File:Serena Williams Wimbledon 2015.jpg",
-      "license": "CC BY-SA 2.0"
     },
     {
       "articleId": "live-20260815-liebmann-1500m-freestyle-world-record",
@@ -27,7 +21,7 @@
     {
       "articleId": "live-20260802-israel-fifth-mixed-duet-technical-paris",
       "article": "Israel take fifth in mixed duet technical final at European Championships in Paris",
-      "file": "File:20220814 European Championships Munich 2022 Ľubomír Pištej 850 3618.jpg",
+      "file": "File:20220817 European Championships Munich 2022 Tania Moreno Matveeva 850 7683.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
@@ -41,24 +35,22 @@
       "article": "Adam Ramsay-Peaty questions it all after bitter Commonwealth bronze",
       "file": "File:Adam Peaty Olympics 100m breaststroke 2016.jpg",
       "license": "CC BY 3.0 br"
-    },
-    {
-      "articleId": "live-2026-08-22-arsenal-coventry-opener",
-      "article": "Arsenal 3-0 Coventry: Havertz, Saka and Odegaard open title defence in style",
-      "file": "File:1 bukayo saka arsenal 2025 (cropped).jpg",
-      "license": "CC BY-SA 4.0"
-    },
-    {
-      "articleId": "live-2026-08-22-ron-pyatov-fourth-parallel-bars-europeans",
-      "article": "Pyatov agonisingly misses parallel bars medal on countback in Zagreb",
-      "file": "File:Arena Zagreb (38749792485).jpg",
-      "license": "CC BY-SA 2.0"
     }
   ],
   "failures": [
     {
-      "id": "live-20260822-maccabi-pt-kiryat-shmona-opener-lineups",
-      "title": "Hazan starts for Maccabi Petah Tikva, Sola and Costa in Kiryat Shmona's XI for season opener",
+      "id": "live-2026-08-22-maccabi-petah-tikva-kiryat-shmona-held",
+      "title": "Maccabi Petah Tikva host Ironi Kiryat Shmona in Ligat Ha'al opener",
+      "error": "image download 429 after retries"
+    },
+    {
+      "id": "live-2026-08-22-tveria-hapoel-petah-tikva",
+      "title": "Tiberias host Hapoel Petah Tikva to open the Israeli Premier League season",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-20260822-tal-archel-car-break-in",
+      "title": "Hapoel Tel Aviv's Tal Archel has car broken into in Tel Aviv while team was in Italy",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {

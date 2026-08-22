@@ -1,5 +1,61 @@
 [
   {
+    "ts": "2026-08-22T17:23:23.028Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 3,
+    "review": 2,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "tal-archel-car-broken-into-tel-aviv-while-hapoel-in-italy",
+        "title": "Hapoel Tel Aviv's Tal Archel has car broken into in Tel Aviv while team was in Italy",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "tveria-hapoel-petah-tikva-opening-round-fixture",
+        "title": "Tiberias host Hapoel Petah Tikva to open the Israeli Premier League season",
+        "confidence": 0,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "match in progress — wait for full time"
+      },
+      {
+        "slug": "maccabi-petah-tikva-ironi-kiryat-shmona-in-progress",
+        "title": "Maccabi Petah Tikva host Ironi Kiryat Shmona in Ligat Ha'al opener",
+        "confidence": 0,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "match in progress — wait for full time"
+      },
+      {
+        "slug": "anan-khalaili-crystal-palace-debut-review",
+        "title": "Anan Khalaili endures tough Premier League debut as Crystal Palace fall 2-0 to Everton",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "athletic-bilbao-1-3-sevilla-ten-men-la-liga-red-card",
+        "title": "Athletic Club 1-3 Sevilla: ten-man Basques undone as visitors make it two from two",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-08-22T16:33:30.626Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -2522,57 +2578,6 @@
         "gate": "hold",
         "decision": "review",
         "reason": "match in progress — wait for full time"
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-13T18:46:34.485Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 1,
-    "review": 2,
-    "skipped": 2,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "austria-wien-beitar-jerusalem-conference-league-return-leg-in-progress",
-        "title": "Austria Wien lead Beitar Jerusalem 0-0 early in Conference League return leg (match in progress)",
-        "confidence": 0,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "match in progress — wait for full time"
-      },
-      {
-        "slug": "anat-lelior-tahiti-pro-quarterfinal-win",
-        "title": "Lelior beats Gallina 9.50-5.76 to reach Tahiti Pro semi-final",
-        "confidence": 0.9,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "cska-sofia-maccabi-tel-aviv-europa-league-in-progress",
-        "title": "Maccabi Tel Aviv chase a European comeback in Sofia",
-        "confidence": 0,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "match in progress — wait for full time"
-      },
-      {
-        "slug": "romero-atletico-madrid-move-frattesi-lazio-loan",
-        "title": "Romero completes Atletico Madrid move as Frattesi agrees Lazio loan",
-        "decision": "duplicate",
-        "reason": "same event as paul-scholes-urges-manchester-united-to-hijack-cristian-romero-move"
-      },
-      {
-        "slug": "cska-sofia-maccabi-tel-aviv-second-leg-in-progress",
-        "title": "Maccabi Tel Aviv chase a European comeback in Sofia as second leg plays out",
-        "decision": "duplicate"
       }
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T17:02:58.064Z",
+  "generatedAt": "2026-08-22T17:39:07.461Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1113,
+    "publishedArticles": 1116,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 418,
-      "average": 422.4
+      "median": 417,
+      "average": 422.2
     },
     "paragraphDistribution": {
       "3": 36,
       "4": 6,
       "5": 10,
-      "6": 51,
+      "6": 52,
       "7": 167,
-      "8": 329,
+      "8": 331,
       "9": 264,
       "10": 178,
       "11": 48,
@@ -35,9 +35,9 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.296,
+    "dominantParagraphShare": 0.297,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 51,
+    "exactSixParagraphArticles": 52,
     "analysisBelowTarget": 11,
     "articlesWithStyleFlags": 190
   },
@@ -4426,6 +4426,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-22-athletic-bilbao-sevilla-3-1",
+      "slug": "athletic-bilbao-1-3-sevilla-ten-men-la-liga-red-card",
+      "title": "Athletic Club 1-3 Sevilla: ten-man Basques undone as visitors make it two from two",
+      "kind": "match-report",
+      "words": 358,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 57,
+        "average": 44.8
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 52,
+        "average": 29.8
+      },
+      "lexicalDiversity": 0.592,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-22-khalaili-crystal-palace-debut-review",
+      "slug": "anan-khalaili-crystal-palace-debut-review",
+      "title": "Anan Khalaili endures tough Premier League debut as Crystal Palace fall 2-0 to Everton",
+      "kind": "news",
+      "words": 325,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 17,
+        "longest": 63,
+        "average": 40.6
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 54,
+        "average": 40.6
+      },
+      "lexicalDiversity": 0.655,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260822-tal-archel-car-break-in",
+      "slug": "tal-archel-car-broken-into-tel-aviv-while-hapoel-in-italy",
+      "title": "Hapoel Tel Aviv's Tal Archel has car broken into in Tel Aviv while team was in Italy",
+      "kind": "news",
+      "words": 319,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 38,
+        "longest": 80,
+        "average": 53.2
+      },
+      "sentenceWords": {
+        "shortest": 14,
+        "longest": 39,
+        "average": 26.6
+      },
+      "lexicalDiversity": 0.618,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-22-tiberias-hapoel-petah-tikva-preview",
       "slug": "ironi-tiberias-hapoel-petah-tikva-season-opener-preview",
