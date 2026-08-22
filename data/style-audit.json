@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T14:23:25.785Z",
+  "generatedAt": "2026-08-22T15:11:32.537Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,19 +11,19 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1106,
+    "publishedArticles": 1107,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 418,
-      "average": 422.3
+      "average": 422.2
     },
     "paragraphDistribution": {
       "3": 36,
       "4": 6,
       "5": 10,
       "6": 51,
-      "7": 163,
+      "7": 164,
       "8": 328,
       "9": 263,
       "10": 177,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.297,
+    "dominantParagraphShare": 0.296,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 51,
     "analysisBelowTarget": 11,
@@ -4426,6 +4426,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-22-dimarco-yamal-toughest-opponent",
+      "slug": "dimarco-names-lamine-yamal-toughest-opponent-career",
+      "title": "Dimarco names Lamine Yamal the toughest opponent of his career",
+      "kind": "article",
+      "words": 315,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 25,
+        "longest": 76,
+        "average": 45
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 82,
+        "average": 35
+      },
+      "lexicalDiversity": 0.641,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-08-22-hull-city-stun-manchester-united",
       "slug": "hull-city-stun-manchester-united-premier-league-opener",

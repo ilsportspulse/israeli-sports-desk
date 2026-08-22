@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T14:23:25.216Z",
+  "generatedAt": "2026-08-22T15:11:31.897Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1597,
-    "publishedBefore": 1106,
-    "cleanPublished": 1099,
+    "totalArticles": 1601,
+    "publishedBefore": 1107,
+    "cleanPublished": 1100,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1106,
-    "reviewAfter": 491
+    "publishedAfter": 1107,
+    "reviewAfter": 494
   },
   "blockedPublished": [
     {
@@ -140,6 +140,48 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-20260822-west-ham-charlton-half-time-held",
+      "slug": "west-ham-charlton-half-time-held",
+      "title": "West Ham v Charlton still being played — no report until full time",
+      "statusBefore": "review",
+      "words": 173,
+      "paragraphs": 4,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-08-22-dimarco-yamal-toughest-opponent",
+      "slug": "dimarco-names-lamine-yamal-toughest-opponent-career",
+      "title": "Dimarco names Lamine Yamal the toughest opponent of his career",
+      "statusBefore": "published",
+      "words": 317,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-22-maccabi-haifa-hapoel-raanana-youth-in-progress",
+      "slug": "maccabi-haifa-hapoel-raanana-youth-league-in-progress",
+      "title": "Maccabi Haifa trail Hapoel Ra'anana in Liga Leumit youth clash",
+      "statusBefore": "review",
+      "words": 154,
+      "paragraphs": 5,
+      "facts": 5,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
     {
       "id": "live-2026-08-22-hull-city-stun-manchester-united",
       "slug": "hull-city-stun-manchester-united-premier-league-opener",
@@ -15640,6 +15682,20 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-22-dimarco-yamal-toughest-opponent",
+      "slug": "dimarco-names-lamine-yamal-toughest-opponent-career",
+      "title": "Dimarco names Lamine Yamal the toughest opponent of his career",
+      "statusBefore": "published",
+      "words": 317,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-08-22-hull-city-stun-manchester-united",
       "slug": "hull-city-stun-manchester-united-premier-league-opener",
