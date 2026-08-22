@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T17:47:39.448Z",
+  "generatedAt": "2026-08-22T18:19:05.168Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1116,
+    "publishedArticles": 1117,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 417,
-      "average": 422.2
+      "median": 418,
+      "average": 422.3
     },
     "paragraphDistribution": {
       "3": 36,
@@ -25,7 +25,7 @@
       "6": 52,
       "7": 167,
       "8": 331,
-      "9": 264,
+      "9": 265,
       "10": 178,
       "11": 48,
       "12": 14,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.297,
+    "dominantParagraphShare": 0.296,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 52,
     "analysisBelowTarget": 11,
@@ -4427,6 +4427,48 @@
   ],
   "clean": [
     {
+      "id": "live-2026-08-22-hull-city-manchester-united-2-0",
+      "slug": "hull-city-2-0-manchester-united-premier-league-opener",
+      "title": "Hull City 2-0 Manchester United: newly promoted Tigers stun Carrick's side on opening day",
+      "kind": "match-report",
+      "words": 441,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 27,
+        "longest": 88,
+        "average": 49
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 64,
+        "average": 36.8
+      },
+      "lexicalDiversity": 0.569,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-22-solomon-west-ham-charlton-reaction",
+      "slug": "manor-solomon-bright-spot-west-ham-charlton-defeat",
+      "title": "West Ham 1-2 Charlton: Solomon again the standout as Hammers stumble at home",
+      "kind": "match-report",
+      "words": 519,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 42,
+        "longest": 76,
+        "average": 57.7
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 87,
+        "average": 39.9
+      },
+      "lexicalDiversity": 0.557,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
       "id": "live-2026-08-22-athletic-bilbao-sevilla-3-1",
       "slug": "athletic-bilbao-1-3-sevilla-ten-men-la-liga-red-card",
       "title": "Athletic Club 1-3 Sevilla: ten-man Basques undone as visitors make it two from two",
@@ -4634,27 +4676,6 @@
       },
       "lexicalDiversity": 0.641,
       "publisherAttributions": 1,
-      "flags": []
-    },
-    {
-      "id": "live-20260822-eissat-bristol-city-draw-birmingham",
-      "slug": "lisav-eissat-bristol-city-draw-birmingham-championship",
-      "title": "Birmingham 2-2 Bristol City: Eissat goes the distance but Robins still winless",
-      "kind": "article",
-      "words": 347,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 34,
-        "longest": 48,
-        "average": 38.6
-      },
-      "sentenceWords": {
-        "shortest": 34,
-        "longest": 48,
-        "average": 38.6
-      },
-      "lexicalDiversity": 0.617,
-      "publisherAttributions": 0,
       "flags": []
     },
     {
