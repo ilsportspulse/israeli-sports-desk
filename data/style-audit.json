@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T11:22:28.213Z",
+  "generatedAt": "2026-08-22T12:11:07.405Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1096,
+    "publishedArticles": 1099,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 418,
-      "average": 422.9
+      "average": 422.8
     },
     "paragraphDistribution": {
       "3": 36,
@@ -24,9 +24,9 @@
       "5": 10,
       "6": 49,
       "7": 161,
-      "8": 326,
-      "9": 259,
-      "10": 177,
+      "8": 327,
+      "9": 260,
+      "10": 178,
       "11": 48,
       "12": 14,
       "13": 4,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.297,
+    "dominantParagraphShare": 0.298,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 49,
     "analysisBelowTarget": 11,
-    "articlesWithStyleFlags": 188
+    "articlesWithStyleFlags": 189
   },
   "flagged": [
     {
@@ -328,6 +328,29 @@
       "flags": [
         "below-editorial-target:227/280",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260822-simeone-defends-alvarez-atletico",
+      "slug": "simeone-defends-julian-alvarez-atletico-madrid-villarreal",
+      "title": "Simeone defends Julián Álvarez as Atlético Madrid recall him to face Villarreal",
+      "kind": "news",
+      "words": 458,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 65,
+        "average": 45.8
+      },
+      "sentenceWords": {
+        "shortest": 16,
+        "longest": 69,
+        "average": 38.2
+      },
+      "lexicalDiversity": 0.57,
+      "publisherAttributions": 1,
+      "flags": [
+        "stock-phrase:remains-to-be-seen"
       ]
     },
     {
@@ -4380,6 +4403,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-22-flick-brushes-off-alvarez-talk",
+      "slug": "flick-brushes-off-alvarez-talk-praises-deco-elche-opener",
+      "title": "Flick brushes off Alvarez talk, hails Deco's 'fantastic job' before Elche opener",
+      "kind": "news",
+      "words": 413,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 59,
+        "average": 45.9
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 42,
+        "average": 29.5
+      },
+      "lexicalDiversity": 0.61,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-22-dolgopyat-israel-greatest-athlete",
+      "slug": "dolgopyat-israel-greatest-athlete-trajectory",
+      "title": "Dolgopyat closes in on becoming Israel's greatest athlete after third European floor gold",
+      "kind": "article",
+      "words": 365,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 52,
+        "average": 45.6
+      },
+      "sentenceWords": {
+        "shortest": 17,
+        "longest": 52,
+        "average": 36.5
+      },
+      "lexicalDiversity": 0.534,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-08-22-ariel-lugasi-acl-comeback-interview",
       "slug": "ariel-lugasi-maccabi-petah-tikva-acl-comeback-interview",

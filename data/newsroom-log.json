@@ -1,5 +1,58 @@
 [
   {
+    "ts": "2026-08-22T11:54:22.376Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 3,
+    "review": 1,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "dolgopyat-israel-greatest-athlete-trajectory",
+        "title": "Dolgopyat closes in on becoming Israel's greatest athlete after third European floor gold",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "url": "https://www.one.co.il/Article/531266.html",
+        "decision": "skipped",
+        "reason": "no valid article emitted"
+      },
+      {
+        "slug": "beitar-jerusalem-draw-maccabi-hapoel-petah-tikva-win-youth-opener",
+        "title": "Beitar draw 2-2 as Maccabi and Hapoel Petah Tikva win on opening weekend of Ne'arim Gimel league",
+        "confidence": 0,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "not newsworthy — this is a routine boys' U-16 third-tier academy league (Ne'arim Gimel) scoreline roundup with unverifiable youth-player names and no senior/professional stakes; hold rather than publish. Player-name transliterations are best-effort only, as no public registry exists for these age-group athletes."
+      },
+      {
+        "slug": "simeone-defends-julian-alvarez-atletico-madrid-villarreal",
+        "title": "Simeone defends Julián Álvarez as Atlético Madrid recall him to face Villarreal",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "flick-brushes-off-alvarez-talk-praises-deco-elche-opener",
+        "title": "Flick brushes off Alvarez talk, hails Deco's 'fantastic job' before Elche opener",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-08-22T10:58:06.656Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -2509,56 +2562,6 @@
         "title": "Hapoel Tel Aviv beat Katowice 3-2 on aggregate to reach Conference League playoff against Atalanta",
         "decision": "duplicate",
         "reason": "same event as hapoel-tel-aviv-draw-atalanta-conference-league-playoff"
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-12T23:58:54.578Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 3,
-    "review": 0,
-    "skipped": 2,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "psg-super-cup-aston-villa-alkhelaifi-best-team",
-        "title": "PSG beat Aston Villa 2-1 to retain Super Cup as Al-Khelaifi hails his 'best team in the world'",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "mourinho-real-madrid-beat-deportivo-teresa-herrera-trophy",
-        "title": "Mourinho hails 'many positive things' as Real Madrid beat Deportivo 1-0 in Teresa Herrera Trophy",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "hapoel-tel-aviv-draw-atalanta-conference-league-playoff",
-        "title": "Hapoel Tel Aviv set for Conference League playoff test against Atalanta",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "bnei-yehuda-thrash-ashdod-toto-cup-final-levi-reaction",
-        "title": "Bnei Yehuda 6-0 Ashdod: Levi says the statement is made, but 'the real thing starts Tuesday'",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "hapoel-tel-aviv-katowice-aggregate-conference-league-playoff-atalanta",
-        "title": "Katowice 2-1 Hapoel Tel Aviv (Hapoel win 3-2 on aggregate): Barda's men reach Conference League playoff",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
       }
     ]
   }

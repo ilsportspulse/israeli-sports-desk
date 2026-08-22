@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T11:22:27.601Z",
+  "generatedAt": "2026-08-22T12:11:06.776Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1578,
-    "publishedBefore": 1096,
-    "cleanPublished": 1089,
+    "totalArticles": 1582,
+    "publishedBefore": 1099,
+    "cleanPublished": 1092,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1096,
-    "reviewAfter": 482
+    "publishedAfter": 1099,
+    "reviewAfter": 483
   },
   "blockedPublished": [
     {
@@ -140,6 +140,35 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-20260822-simeone-defends-alvarez-atletico",
+      "slug": "simeone-defends-julian-alvarez-atletico-madrid-villarreal",
+      "title": "Simeone defends Julián Álvarez as Atlético Madrid recall him to face Villarreal",
+      "statusBefore": "published",
+      "words": 458,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-22-dolgopyat-israel-greatest-athlete",
+      "slug": "dolgopyat-israel-greatest-athlete-trajectory",
+      "title": "Dolgopyat closes in on becoming Israel's greatest athlete after third European floor gold",
+      "statusBefore": "published",
+      "words": 366,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-08-22-hamidou-keita-hapoel-petah-tikva",
       "slug": "hamidou-keita-agrees-terms-hapoel-petah-tikva",
@@ -15452,6 +15481,47 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-22-flick-brushes-off-alvarez-talk",
+      "slug": "flick-brushes-off-alvarez-talk-praises-deco-elche-opener",
+      "title": "Flick brushes off Alvarez talk, hails Deco's 'fantastic job' before Elche opener",
+      "statusBefore": "published",
+      "words": 413,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260822-simeone-defends-alvarez-atletico",
+      "slug": "simeone-defends-julian-alvarez-atletico-madrid-villarreal",
+      "title": "Simeone defends Julián Álvarez as Atlético Madrid recall him to face Villarreal",
+      "statusBefore": "published",
+      "words": 458,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-22-dolgopyat-israel-greatest-athlete",
+      "slug": "dolgopyat-israel-greatest-athlete-trajectory",
+      "title": "Dolgopyat closes in on becoming Israel's greatest athlete after third European floor gold",
+      "statusBefore": "published",
+      "words": 366,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-08-22-ariel-lugasi-acl-comeback-interview",
       "slug": "ariel-lugasi-maccabi-petah-tikva-acl-comeback-interview",
