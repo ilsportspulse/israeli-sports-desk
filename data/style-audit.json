@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T12:36:36.229Z",
+  "generatedAt": "2026-08-22T13:23:52.479Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,21 +11,21 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1099,
+    "publishedArticles": 1103,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 418,
-      "average": 422.8
+      "average": 422.5
     },
     "paragraphDistribution": {
       "3": 36,
       "4": 6,
       "5": 10,
-      "6": 50,
-      "7": 161,
-      "8": 327,
-      "9": 260,
+      "6": 51,
+      "7": 162,
+      "8": 328,
+      "9": 261,
       "10": 177,
       "11": 48,
       "12": 14,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.298,
+    "dominantParagraphShare": 0.297,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 50,
+    "exactSixParagraphArticles": 51,
     "analysisBelowTarget": 11,
-    "articlesWithStyleFlags": 189
+    "articlesWithStyleFlags": 190
   },
   "flagged": [
     {
@@ -331,26 +331,26 @@
       ]
     },
     {
-      "id": "live-2026-08-22-yuval-sason-bnei-reineh",
-      "slug": "yuval-sason-closes-in-on-bnei-reineh-move",
-      "title": "Yuval Sason closes in on move to Bnei Reineh",
+      "id": "live-20260822-ligat-haal-season-survey",
+      "slug": "ligat-haal-2026-27-season-survey-champion-violence",
+      "title": "Ligat Ha'al opens new season as ONE asks fans to vote on the title race and stadium safety",
       "kind": "news",
-      "words": 262,
+      "words": 261,
       "paragraphs": 6,
       "paragraphWords": {
-        "shortest": 36,
-        "longest": 50,
-        "average": 43.7
+        "shortest": 35,
+        "longest": 51,
+        "average": 43.5
       },
       "sentenceWords": {
-        "shortest": 8,
-        "longest": 45,
-        "average": 29.1
+        "shortest": 9,
+        "longest": 50,
+        "average": 32.6
       },
-      "lexicalDiversity": 0.557,
-      "publisherAttributions": 1,
+      "lexicalDiversity": 0.663,
+      "publisherAttributions": 0,
       "flags": [
-        "below-editorial-target:262/280"
+        "below-editorial-target:261/280"
       ]
     },
     {
@@ -4400,48 +4400,92 @@
       "flags": [
         "below-editorial-target:98/280"
       ]
+    },
+    {
+      "id": "live-2026-08-22-yuval-sason-bnei-reineh",
+      "slug": "yuval-sason-closes-in-on-bnei-reineh-move",
+      "title": "Yuval Sason closes in on move to Bnei Reineh",
+      "kind": "news",
+      "words": 262,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 50,
+        "average": 43.7
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 45,
+        "average": 29.1
+      },
+      "lexicalDiversity": 0.557,
+      "publisherAttributions": 1,
+      "flags": [
+        "below-editorial-target:262/280"
+      ]
     }
   ],
   "clean": [
     {
-      "id": "live-2026-08-22-alvarez-simeone-villarreal-squad",
-      "slug": "julian-alvarez-included-atletico-squad-villarreal-simeone-defends",
-      "title": "Simeone includes Julián Álvarez in squad for Villarreal clash, warns fans off the abuse",
-      "kind": "article",
-      "words": 396,
-      "paragraphs": 9,
+      "id": "live-2026-08-22-dolinski-released-israel-basketball-tulsa",
+      "slug": "ilay-dolinski-released-israel-basketball-squad-tulsa",
+      "title": "Dolinski released from Israel basketball squad to make it to Tulsa on time",
+      "kind": "news",
+      "words": 368,
+      "paragraphs": 8,
       "paragraphWords": {
-        "shortest": 32,
-        "longest": 52,
-        "average": 44
+        "shortest": 37,
+        "longest": 55,
+        "average": 46
       },
       "sentenceWords": {
-        "shortest": 15,
-        "longest": 92,
-        "average": 39.6
+        "shortest": 10,
+        "longest": 53,
+        "average": 30.7
       },
-      "lexicalDiversity": 0.571,
-      "publisherAttributions": 1,
+      "lexicalDiversity": 0.611,
+      "publisherAttributions": 0,
       "flags": []
     },
     {
-      "id": "live-20260822-dolgopyat-israels-greatest-athlete",
-      "slug": "dolgopyat-third-european-floor-gold-israel-greatest-athlete",
-      "title": "Dolgopyat's third European floor gold puts him on course to be Israel's greatest-ever athlete",
-      "kind": "feature",
-      "words": 502,
-      "paragraphs": 8,
+      "id": "live-2026-08-22-solomon-peretz-start-khalaili-bench",
+      "slug": "solomon-peretz-start-in-england-khalaili-waits-on-bench-at-everton",
+      "title": "Solomon and Peretz start in England as Khalaili waits on the bench at Everton",
+      "kind": "news",
+      "words": 372,
+      "paragraphs": 7,
       "paragraphWords": {
-        "shortest": 36,
-        "longest": 77,
-        "average": 62.8
+        "shortest": 29,
+        "longest": 94,
+        "average": 53.1
       },
       "sentenceWords": {
-        "shortest": 9,
-        "longest": 46,
-        "average": 26.4
+        "shortest": 5,
+        "longest": 41,
+        "average": 28.6
       },
-      "lexicalDiversity": 0.534,
+      "lexicalDiversity": 0.589,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-22-flick-brushes-off-alvarez-talk",
+      "slug": "flick-brushes-off-alvarez-talk-praises-deco-elche-opener",
+      "title": "Flick brushes off Alvarez talk, hails Deco's 'fantastic job' before Elche opener",
+      "kind": "news",
+      "words": 413,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 59,
+        "average": 45.9
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 42,
+        "average": 29.5
+      },
+      "lexicalDiversity": 0.61,
       "publisherAttributions": 1,
       "flags": []
     },
@@ -23510,6 +23554,48 @@
         "average": 30.9
       },
       "lexicalDiversity": 0.565,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-22-alvarez-simeone-villarreal-squad",
+      "slug": "julian-alvarez-included-atletico-squad-villarreal-simeone-defends",
+      "title": "Simeone includes Julián Álvarez in squad for Villarreal clash, warns fans off the abuse",
+      "kind": "article",
+      "words": 396,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 32,
+        "longest": 52,
+        "average": 44
+      },
+      "sentenceWords": {
+        "shortest": 15,
+        "longest": 92,
+        "average": 39.6
+      },
+      "lexicalDiversity": 0.571,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260822-dolgopyat-israels-greatest-athlete",
+      "slug": "dolgopyat-third-european-floor-gold-israel-greatest-athlete",
+      "title": "Dolgopyat's third European floor gold puts him on course to be Israel's greatest-ever athlete",
+      "kind": "feature",
+      "words": 502,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 77,
+        "average": 62.8
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 46,
+        "average": 26.4
+      },
+      "lexicalDiversity": 0.534,
       "publisherAttributions": 1,
       "flags": []
     }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T12:36:35.606Z",
+  "generatedAt": "2026-08-22T13:23:51.834Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1583,
-    "publishedBefore": 1099,
-    "cleanPublished": 1092,
+    "totalArticles": 1592,
+    "publishedBefore": 1103,
+    "cleanPublished": 1096,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1099,
-    "reviewAfter": 484
+    "publishedAfter": 1103,
+    "reviewAfter": 489
   },
   "blockedPublished": [
     {
@@ -141,14 +141,28 @@
   ],
   "warnings": [
     {
-      "id": "live-2026-08-22-youth-gimel-opening-weekend",
-      "slug": "beitar-jerusalem-draw-maccabi-hapoel-petah-tikva-win-youth-gimel-opener",
-      "title": "Beitar Jerusalem held 2-2 by Hapoel Rishon LeZion as Maccabi and Hapoel Petah Tikva win on Youth Gimel opening weekend",
+      "id": "live-2026-08-22-dolgopyat-coach-weisberg-medal-like-birth",
+      "slug": "dolgopyat-coach-weisberg-medal-felt-like-birth",
+      "title": "Dolgopyat's coach: winning that medal felt like giving birth",
       "statusBefore": "review",
-      "words": 379,
-      "paragraphs": 7,
+      "words": 345,
+      "paragraphs": 8,
       "facts": 6,
-      "verificationSources": 1,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260822-ligat-haal-season-survey",
+      "slug": "ligat-haal-2026-27-season-survey-champion-violence",
+      "title": "Ligat Ha'al opens new season as ONE asks fans to vote on the title race and stadium safety",
+      "statusBefore": "published",
+      "words": 262,
+      "paragraphs": 6,
+      "facts": 5,
+      "verificationSources": 2,
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline",
@@ -156,45 +170,45 @@
       ]
     },
     {
-      "id": "live-2026-08-22-yuval-sason-bnei-reineh",
-      "slug": "yuval-sason-closes-in-on-bnei-reineh-move",
-      "title": "Yuval Sason closes in on move to Bnei Reineh",
+      "id": "live-2026-08-22-dolinski-released-israel-basketball-tulsa",
+      "slug": "ilay-dolinski-released-israel-basketball-squad-tulsa",
+      "title": "Dolinski released from Israel basketball squad to make it to Tulsa on time",
       "statusBefore": "published",
-      "words": 262,
-      "paragraphs": 6,
-      "facts": 6,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline",
-        "voice:publisher-attribution-heavy:3"
-      ]
-    },
-    {
-      "id": "live-20260822-dolgopyat-israels-greatest-athlete",
-      "slug": "dolgopyat-third-european-floor-gold-israel-greatest-athlete",
-      "title": "Dolgopyat's third European floor gold puts him on course to be Israel's greatest-ever athlete",
-      "statusBefore": "published",
-      "words": 505,
+      "words": 366,
       "paragraphs": 8,
       "facts": 7,
-      "verificationSources": 5,
+      "verificationSources": 4,
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline"
       ]
     },
     {
-      "id": "live-2026-08-22-kiryat-shmona-summer-review",
-      "slug": "kiryat-shmona-summer-review-mordechai-martinez-departures",
-      "title": "Kiryat Shmona plot a quiet season after losing Mordechai and Martínez",
+      "id": "live-20260822-simeone-defends-alvarez-atletico",
+      "slug": "simeone-defends-julian-alvarez-atletico-madrid-villarreal",
+      "title": "Simeone defends Julián Álvarez as Atlético Madrid recall him to face Villarreal",
       "statusBefore": "review",
-      "words": 514,
+      "words": 458,
       "paragraphs": 10,
-      "facts": 8,
-      "verificationSources": 5,
+      "facts": 6,
+      "verificationSources": 4,
       "blockers": [],
       "warnings": [
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-22-dolgopyat-israel-greatest-athlete",
+      "slug": "dolgopyat-israel-greatest-athlete-trajectory",
+      "title": "Dolgopyat closes in on becoming Israel's greatest athlete after third European floor gold",
+      "statusBefore": "review",
+      "words": 366,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
         "media:no-action-or-competition-context-detected"
       ]
     },
@@ -15507,20 +15521,21 @@
         "media:no-action-or-competition-context-detected",
         "voice:publisher-attribution-heavy:2"
       ]
-    }
-  ],
-  "cleanPublished": [
+    },
     {
-      "id": "live-2026-08-22-alvarez-simeone-villarreal-squad",
-      "slug": "julian-alvarez-included-atletico-squad-villarreal-simeone-defends",
-      "title": "Simeone includes Julián Álvarez in squad for Villarreal clash, warns fans off the abuse",
-      "statusBefore": "published",
-      "words": 395,
-      "paragraphs": 9,
-      "facts": 7,
-      "verificationSources": 2,
+      "id": "live-2026-08-22-youth-gimel-opening-weekend",
+      "slug": "beitar-jerusalem-draw-maccabi-hapoel-petah-tikva-win-youth-gimel-opener",
+      "title": "Beitar Jerusalem held 2-2 by Hapoel Rishon LeZion as Maccabi and Hapoel Petah Tikva win on Youth Gimel opening weekend",
+      "statusBefore": "review",
+      "words": 379,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 1,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-2026-08-22-yuval-sason-bnei-reineh",
@@ -15548,8 +15563,78 @@
       "verificationSources": 5,
       "blockers": [],
       "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-22-kiryat-shmona-summer-review",
+      "slug": "kiryat-shmona-summer-review-mordechai-martinez-departures",
+      "title": "Kiryat Shmona plot a quiet season after losing Mordechai and Martínez",
+      "statusBefore": "review",
+      "words": 514,
+      "paragraphs": 10,
+      "facts": 8,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    }
+  ],
+  "cleanPublished": [
+    {
+      "id": "live-20260822-ligat-haal-season-survey",
+      "slug": "ligat-haal-2026-27-season-survey-champion-violence",
+      "title": "Ligat Ha'al opens new season as ONE asks fans to vote on the title race and stadium safety",
+      "statusBefore": "published",
+      "words": 262,
+      "paragraphs": 6,
+      "facts": 5,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-22-dolinski-released-israel-basketball-tulsa",
+      "slug": "ilay-dolinski-released-israel-basketball-squad-tulsa",
+      "title": "Dolinski released from Israel basketball squad to make it to Tulsa on time",
+      "statusBefore": "published",
+      "words": 366,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
         "presentation:outlet-name-in-headline"
       ]
+    },
+    {
+      "id": "live-2026-08-22-solomon-peretz-start-khalaili-bench",
+      "slug": "solomon-peretz-start-in-england-khalaili-waits-on-bench-at-everton",
+      "title": "Solomon and Peretz start in England as Khalaili waits on the bench at Everton",
+      "statusBefore": "published",
+      "words": 371,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-22-flick-brushes-off-alvarez-talk",
+      "slug": "flick-brushes-off-alvarez-talk-praises-deco-elche-opener",
+      "title": "Flick brushes off Alvarez talk, hails Deco's 'fantastic job' before Elche opener",
+      "statusBefore": "published",
+      "words": 413,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
     },
     {
       "id": "live-2026-08-22-ariel-lugasi-acl-comeback-interview",
@@ -30293,6 +30378,48 @@
       "verificationSources": 4,
       "blockers": [],
       "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-22-alvarez-simeone-villarreal-squad",
+      "slug": "julian-alvarez-included-atletico-squad-villarreal-simeone-defends",
+      "title": "Simeone includes Julián Álvarez in squad for Villarreal clash, warns fans off the abuse",
+      "statusBefore": "published",
+      "words": 395,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-22-yuval-sason-bnei-reineh",
+      "slug": "yuval-sason-closes-in-on-bnei-reineh-move",
+      "title": "Yuval Sason closes in on move to Bnei Reineh",
+      "statusBefore": "published",
+      "words": 262,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:3"
+      ]
+    },
+    {
+      "id": "live-20260822-dolgopyat-israels-greatest-athlete",
+      "slug": "dolgopyat-third-european-floor-gold-israel-greatest-athlete",
+      "title": "Dolgopyat's third European floor gold puts him on course to be Israel's greatest-ever athlete",
+      "statusBefore": "published",
+      "words": 505,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
         "media:no-action-or-competition-context-detected"
       ]
     }

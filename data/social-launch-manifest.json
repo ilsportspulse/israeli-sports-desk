@@ -146,8 +146,8 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-22T12:36:35Z",
-    "validUntil": "2026-08-23T00:36:35Z",
+    "checkedAt": "2026-08-22T13:23:51Z",
+    "validUntil": "2026-08-23T01:23:51Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
@@ -160,14 +160,14 @@
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-22-alvarez-simeone-villarreal-squad",
+        "articleId": "live-20260822-ligat-haal-season-survey",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 815,
+        "maxAgeHours": 816,
         "requires": [
           "basketballRecap"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260822-judo-cadets-ecuador-bronze",
+        "articleId": "live-20260822-dolgopyat-israels-greatest-athlete",
         "maxAgeHours": 36,
         "requires": []
       }
