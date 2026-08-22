@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T04:23:43.481Z",
+  "generatedAt": "2026-08-22T04:47:40.013Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,22 +11,22 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1084,
+    "publishedArticles": 1083,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 418,
-      "average": 422.6
+      "average": 422.5
     },
     "paragraphDistribution": {
       "3": 36,
       "4": 6,
       "5": 10,
       "6": 49,
-      "7": 158,
-      "8": 322,
-      "9": 258,
-      "10": 176,
+      "7": 160,
+      "8": 321,
+      "9": 257,
+      "10": 175,
       "11": 45,
       "12": 14,
       "13": 4,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.297,
+    "dominantParagraphShare": 0.296,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 49,
     "analysisBelowTarget": 11,
-    "articlesWithStyleFlags": 189
+    "articlesWithStyleFlags": 187
   },
   "flagged": [
     {
@@ -327,52 +327,6 @@
       "publisherAttributions": 2,
       "flags": [
         "below-editorial-target:227/280",
-        "publisher-attribution-heavy:2"
-      ]
-    },
-    {
-      "id": "live-2026-08-22-wharton-real-madrid-palace-sage",
-      "slug": "crystal-palace-pierre-sage-rules-out-wharton-real-madrid-move",
-      "title": "Crystal Palace boss Pierre Sage shuts down Real Madrid move for Adam Wharton",
-      "kind": "transfer",
-      "words": 431,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 34,
-        "longest": 60,
-        "average": 47.9
-      },
-      "sentenceWords": {
-        "shortest": 9,
-        "longest": 85,
-        "average": 30.8
-      },
-      "lexicalDiversity": 0.575,
-      "publisherAttributions": 2,
-      "flags": [
-        "publisher-attribution-heavy:2"
-      ]
-    },
-    {
-      "id": "live-2026-08-22-mbappe-third-pichichi-challenge",
-      "slug": "mbappe-third-consecutive-pichichi-challenge",
-      "title": "Mbappé chases a third straight Pichichi as new La Liga season dawns",
-      "kind": "article",
-      "words": 471,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 43,
-        "longest": 62,
-        "average": 52.3
-      },
-      "sentenceWords": {
-        "shortest": 5,
-        "longest": 49,
-        "average": 27.7
-      },
-      "lexicalDiversity": 0.552,
-      "publisherAttributions": 2,
-      "flags": [
         "publisher-attribution-heavy:2"
       ]
     },
@@ -4404,65 +4358,65 @@
   ],
   "clean": [
     {
-      "id": "live-2026-08-22-arsenal-attack-title-coventry-win",
-      "slug": "arsenal-attack-title-coventry-win",
-      "title": "Arsenal open Premier League defence with 3-0 win over Coventry as Ødegaard vows to 'attack' the title",
-      "kind": "article",
-      "words": 475,
-      "paragraphs": 10,
-      "paragraphWords": {
-        "shortest": 22,
-        "longest": 62,
-        "average": 47.5
-      },
-      "sentenceWords": {
-        "shortest": 7,
-        "longest": 75,
-        "average": 36.5
-      },
-      "lexicalDiversity": 0.585,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260822-ronaldo-marriage-youth-alnassr",
-      "slug": "ronaldo-marriage-youth-al-nassr-comeback",
-      "title": "Ronaldo scores as Al Nassr beat Al Riyadh 4-0, and Saudi media credit his marriage for the spark",
+      "id": "live-20260822-palace-boss-rules-out-wharton-real-madrid-move",
+      "slug": "palace-boss-rules-out-wharton-real-madrid-move-khalaili-arrival",
+      "title": "Palace manager rules out Real Madrid move for Wharton, hails Israeli signing Khalaili",
       "kind": "news",
-      "words": 407,
-      "paragraphs": 8,
+      "words": 464,
+      "paragraphs": 9,
       "paragraphWords": {
-        "shortest": 42,
-        "longest": 59,
-        "average": 50.9
+        "shortest": 35,
+        "longest": 67,
+        "average": 51.6
       },
       "sentenceWords": {
         "shortest": 15,
-        "longest": 97,
-        "average": 45.2
+        "longest": 80,
+        "average": 30.9
       },
-      "lexicalDiversity": 0.604,
-      "publisherAttributions": 0,
+      "lexicalDiversity": 0.565,
+      "publisherAttributions": 1,
       "flags": []
     },
     {
-      "id": "live-2026-08-22-hamza-abdelkarim-barcelona-number-9-option",
+      "id": "live-2026-08-22-hamza-abdelkarim-barcelona-number-9",
       "slug": "hamza-abdelkarim-barcelona-number-9-option",
-      "title": "Hamza Abdelkarim emerges as a real option to be Barcelona's number 9 this season",
+      "title": "Hamza Abdelkarim emerges as a genuine option for Barcelona's number 9 shirt",
       "kind": "news",
-      "words": 420,
-      "paragraphs": 9,
+      "words": 325,
+      "paragraphs": 7,
       "paragraphWords": {
-        "shortest": 38,
-        "longest": 62,
-        "average": 46.7
+        "shortest": 36,
+        "longest": 57,
+        "average": 46.4
       },
       "sentenceWords": {
-        "shortest": 8,
-        "longest": 45,
-        "average": 28
+        "shortest": 5,
+        "longest": 57,
+        "average": 32.5
       },
-      "lexicalDiversity": 0.579,
+      "lexicalDiversity": 0.631,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-22-mbappe-third-pichichi-challenge",
+      "slug": "mbappe-third-straight-pichichi-challenge-real-madrid",
+      "title": "Mbappe chases a third straight Pichichi as Real Madrid open the season at Espanyol",
+      "kind": "article",
+      "words": 453,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 40,
+        "longest": 84,
+        "average": 64.7
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 46,
+        "average": 30.2
+      },
+      "lexicalDiversity": 0.563,
       "publisherAttributions": 1,
       "flags": []
     },
@@ -4484,6 +4438,27 @@
         "average": 26.1
       },
       "lexicalDiversity": 0.592,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-22-arsenal-coventry-city-3-0-opener",
+      "slug": "arsenal-3-0-coventry-city-title-defence-opener",
+      "title": "Arsenal 3-0 Coventry City: Havertz, Saka and Ødegaard open title defence in style",
+      "kind": "match-report",
+      "words": 404,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 63,
+        "average": 44.9
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 52,
+        "average": 25.3
+      },
+      "lexicalDiversity": 0.611,
       "publisherAttributions": 0,
       "flags": []
     },

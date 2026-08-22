@@ -2563,5 +2563,61 @@
         "reason": ""
       }
     ]
+  },
+  {
+    "ts": "2026-08-22T04:31:17.126Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 4,
+    "review": 1,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "mbappe-third-straight-pichichi-challenge-real-madrid",
+        "title": "Mbappe chases a third straight Pichichi as Real Madrid open the season at Espanyol",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "hamza-abdelkarim-barcelona-number-9-option",
+        "title": "Hamza Abdelkarim emerges as a genuine option for Barcelona's number 9 shirt",
+        "confidence": 0.88,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "ronaldo-alnassr-wedding-record-goal",
+        "title": "Al-Nassr 4-0 Al-Riyadh: Ronaldo marks post-wedding return with record-equalling goal",
+        "confidence": 0.85,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "below gate thresholds"
+      },
+      {
+        "slug": "palace-boss-rules-out-wharton-real-madrid-move-khalaili-arrival",
+        "title": "Palace manager rules out Real Madrid move for Wharton, hails Israeli signing Khalaili",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "arsenal-coventry-odegaard-attack-not-defend-title",
+        "title": "Arsenal 3-0 Coventry City: Ødegaard says champions want to attack the title, not defend it",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
   }
 ]

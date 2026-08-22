@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T04:23:42.901Z",
+  "generatedAt": "2026-08-22T04:47:39.550Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -18,12 +18,12 @@
   },
   "summary": {
     "totalArticles": 1558,
-    "publishedBefore": 1084,
-    "cleanPublished": 1077,
+    "publishedBefore": 1083,
+    "cleanPublished": 1076,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1084,
-    "reviewAfter": 474
+    "publishedAfter": 1083,
+    "reviewAfter": 475
   },
   "blockedPublished": [
     {
@@ -141,76 +141,63 @@
   ],
   "warnings": [
     {
-      "id": "live-2026-08-22-arsenal-attack-title-coventry-win",
-      "slug": "arsenal-attack-title-coventry-win",
-      "title": "Arsenal open Premier League defence with 3-0 win over Coventry as Ødegaard vows to 'attack' the title",
-      "statusBefore": "published",
-      "words": 477,
-      "paragraphs": 10,
-      "facts": 7,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-22-wharton-real-madrid-palace-sage",
-      "slug": "crystal-palace-pierre-sage-rules-out-wharton-real-madrid-move",
-      "title": "Crystal Palace boss Pierre Sage shuts down Real Madrid move for Adam Wharton",
-      "statusBefore": "published",
-      "words": 432,
-      "paragraphs": 9,
-      "facts": 7,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected",
-        "voice:publisher-attribution-heavy:4"
-      ]
-    },
-    {
-      "id": "live-20260822-ronaldo-marriage-youth-alnassr",
-      "slug": "ronaldo-marriage-youth-al-nassr-comeback",
-      "title": "Ronaldo scores as Al Nassr beat Al Riyadh 4-0, and Saudi media credit his marriage for the spark",
-      "statusBefore": "published",
-      "words": 412,
-      "paragraphs": 8,
+      "id": "live-2026-08-22-arsenal-coventry-odegaard-attack-title",
+      "slug": "arsenal-coventry-odegaard-attack-not-defend-title",
+      "title": "Arsenal 3-0 Coventry City: Ødegaard says champions want to attack the title, not defend it",
+      "statusBefore": "review",
+      "words": 628,
+      "paragraphs": 11,
       "facts": 6,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-22-hamza-abdelkarim-barcelona-number-9-option",
-      "slug": "hamza-abdelkarim-barcelona-number-9-option",
-      "title": "Hamza Abdelkarim emerges as a real option to be Barcelona's number 9 this season",
-      "statusBefore": "published",
-      "words": 419,
-      "paragraphs": 9,
-      "facts": 6,
-      "verificationSources": 5,
+      "verificationSources": 6,
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:3"
+      ]
+    },
+    {
+      "id": "live-20260822-palace-boss-rules-out-wharton-real-madrid-move",
+      "slug": "palace-boss-rules-out-wharton-real-madrid-move-khalaili-arrival",
+      "title": "Palace manager rules out Real Madrid move for Wharton, hails Israeli signing Khalaili",
+      "statusBefore": "published",
+      "words": 465,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
     },
     {
-      "id": "live-2026-08-22-mbappe-third-pichichi-challenge",
-      "slug": "mbappe-third-consecutive-pichichi-challenge",
-      "title": "Mbappé chases a third straight Pichichi as new La Liga season dawns",
-      "statusBefore": "published",
-      "words": 475,
-      "paragraphs": 9,
-      "facts": 7,
-      "verificationSources": 3,
+      "id": "live-2026-08-22-ronaldo-alnassr-wedding-record-goal",
+      "slug": "ronaldo-alnassr-wedding-record-goal",
+      "title": "Al-Nassr 4-0 Al-Riyadh: Ronaldo marks post-wedding return with record-equalling goal",
+      "statusBefore": "review",
+      "words": 437,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 6,
       "blockers": [],
       "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-22-hamza-abdelkarim-barcelona-number-9",
+      "slug": "hamza-abdelkarim-barcelona-number-9-option",
+      "title": "Hamza Abdelkarim emerges as a genuine option for Barcelona's number 9 shirt",
+      "statusBefore": "published",
+      "words": 327,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
         "media:no-action-or-competition-context-detected",
-        "voice:publisher-attribution-heavy:3"
+        "voice:publisher-attribution-heavy:2"
       ]
     },
     {
@@ -248,20 +235,6 @@
       "statusBefore": "review",
       "words": 347,
       "paragraphs": 6,
-      "facts": 6,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-22-betis-real-sociedad-riquelme",
-      "slug": "real-betis-beat-real-sociedad-riquelme-la-liga",
-      "title": "Real Betis 1-0 Real Sociedad: Riquelme's second-half strike opens the league account",
-      "statusBefore": "review",
-      "words": 284,
-      "paragraphs": 7,
       "facts": 6,
       "verificationSources": 4,
       "blockers": [],
@@ -15247,41 +15220,12 @@
   ],
   "cleanPublished": [
     {
-      "id": "live-2026-08-22-arsenal-attack-title-coventry-win",
-      "slug": "arsenal-attack-title-coventry-win",
-      "title": "Arsenal open Premier League defence with 3-0 win over Coventry as Ødegaard vows to 'attack' the title",
+      "id": "live-20260822-palace-boss-rules-out-wharton-real-madrid-move",
+      "slug": "palace-boss-rules-out-wharton-real-madrid-move-khalaili-arrival",
+      "title": "Palace manager rules out Real Madrid move for Wharton, hails Israeli signing Khalaili",
       "statusBefore": "published",
-      "words": 477,
-      "paragraphs": 10,
-      "facts": 7,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-22-wharton-real-madrid-palace-sage",
-      "slug": "crystal-palace-pierre-sage-rules-out-wharton-real-madrid-move",
-      "title": "Crystal Palace boss Pierre Sage shuts down Real Madrid move for Adam Wharton",
-      "statusBefore": "published",
-      "words": 432,
+      "words": 465,
       "paragraphs": 9,
-      "facts": 7,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected",
-        "voice:publisher-attribution-heavy:4"
-      ]
-    },
-    {
-      "id": "live-20260822-ronaldo-marriage-youth-alnassr",
-      "slug": "ronaldo-marriage-youth-al-nassr-comeback",
-      "title": "Ronaldo scores as Al Nassr beat Al Riyadh 4-0, and Saudi media credit his marriage for the spark",
-      "statusBefore": "published",
-      "words": 412,
-      "paragraphs": 8,
       "facts": 6,
       "verificationSources": 4,
       "blockers": [],
@@ -15290,34 +15234,32 @@
       ]
     },
     {
-      "id": "live-2026-08-22-hamza-abdelkarim-barcelona-number-9-option",
+      "id": "live-2026-08-22-hamza-abdelkarim-barcelona-number-9",
       "slug": "hamza-abdelkarim-barcelona-number-9-option",
-      "title": "Hamza Abdelkarim emerges as a real option to be Barcelona's number 9 this season",
+      "title": "Hamza Abdelkarim emerges as a genuine option for Barcelona's number 9 shirt",
       "statusBefore": "published",
-      "words": 419,
-      "paragraphs": 9,
+      "words": 327,
+      "paragraphs": 7,
       "facts": 6,
-      "verificationSources": 5,
+      "verificationSources": 4,
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline",
-        "media:no-action-or-competition-context-detected"
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
       ]
     },
     {
       "id": "live-2026-08-22-mbappe-third-pichichi-challenge",
-      "slug": "mbappe-third-consecutive-pichichi-challenge",
-      "title": "Mbappé chases a third straight Pichichi as new La Liga season dawns",
+      "slug": "mbappe-third-straight-pichichi-challenge-real-madrid",
+      "title": "Mbappe chases a third straight Pichichi as Real Madrid open the season at Espanyol",
       "statusBefore": "published",
-      "words": 475,
-      "paragraphs": 9,
+      "words": 450,
+      "paragraphs": 7,
       "facts": 7,
       "verificationSources": 3,
       "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected",
-        "voice:publisher-attribution-heavy:3"
-      ]
+      "warnings": []
     },
     {
       "id": "live-2026-08-22-serie-a-coaching-reset-preview",
@@ -15332,6 +15274,18 @@
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
+    },
+    {
+      "id": "live-2026-08-22-arsenal-coventry-city-3-0-opener",
+      "slug": "arsenal-3-0-coventry-city-title-defence-opener",
+      "title": "Arsenal 3-0 Coventry City: Havertz, Saka and Ødegaard open title defence in style",
+      "statusBefore": "published",
+      "words": 408,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
     },
     {
       "id": "live-2026-08-21-atletico-gil-marin-alvarez-stay",

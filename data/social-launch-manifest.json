@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-22T04:23:42Z",
-    "validUntil": "2026-08-22T16:23:42Z",
+    "checkedAt": "2026-08-22T04:47:39Z",
+    "validUntil": "2026-08-22T16:47:39Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 799,
+        "maxAgeHours": 800,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-22-arsenal-attack-title-coventry-win",
+        "articleId": "live-20260822-palace-boss-rules-out-wharton-real-madrid-move",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 807,
+        "maxAgeHours": 808,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-22-wharton-real-madrid-palace-sage",
+        "articleId": "live-2026-08-22-hamza-abdelkarim-barcelona-number-9",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 817,
+        "maxAgeHours": 818,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260822-ronaldo-marriage-youth-alnassr",
+        "articleId": "live-2026-08-22-mbappe-third-pichichi-challenge",
         "maxAgeHours": 36,
         "requires": []
       }
