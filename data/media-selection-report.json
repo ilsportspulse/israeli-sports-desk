@@ -1,22 +1,22 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-08-22-flick-brushes-off-alvarez-talk",
-      "article": "Flick brushes off Alvarez talk, hails Deco's 'fantastic job' before Elche opener",
-      "file": "File:Hans-Dieter Flick, Germany national football team (01).jpg",
-      "license": "CC BY-SA 3.0"
-    },
-    {
-      "articleId": "live-20260822-simeone-defends-alvarez-atletico",
-      "article": "Simeone defends Julián Álvarez as Atlético Madrid recall him to face Villarreal",
+      "articleId": "live-2026-08-22-alvarez-simeone-villarreal-squad",
+      "article": "Simeone includes Julián Álvarez in squad for Villarreal clash, warns fans off the abuse",
       "file": "File:Diego Simeone - 01.jpg",
       "license": "CC BY-SA 3.0"
     },
     {
-      "articleId": "live-2026-08-22-dolgopyat-israel-greatest-athlete",
-      "article": "Dolgopyat closes in on becoming Israel's greatest athlete after third European floor gold",
-      "file": "File:Women 100 m hurdles French Athletics Championships 2013 t160030.jpg",
-      "license": "CC BY 3.0"
+      "articleId": "live-2026-08-22-youth-gimel-opening-weekend",
+      "article": "Beitar Jerusalem held 2-2 by Hapoel Rishon LeZion as Maccabi and Hapoel Petah Tikva win on Youth Gimel opening weekend",
+      "file": "File:Rishon LeZion West Aerial View.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "articleId": "live-2026-08-22-kiryat-shmona-summer-review",
+      "article": "Kiryat Shmona plot a quiet season after losing Mordechai and Martínez",
+      "file": "File:SM Caen Tifo 15 ans du MNK.jpg",
+      "license": "CC BY-SA 3.0"
     },
     {
       "articleId": "live-20260815-liebmann-1500m-freestyle-world-record",
@@ -51,8 +51,13 @@
   ],
   "failures": [
     {
-      "id": "live-2026-08-22-naarim-gimel-opening-round-beitar-draw",
-      "title": "Beitar draw 2-2 as Maccabi and Hapoel Petah Tikva win on opening weekend of Ne'arim Gimel league",
+      "id": "live-2026-08-22-yuval-sason-bnei-reineh",
+      "title": "Yuval Sason closes in on move to Bnei Reineh",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-20260822-dolgopyat-israels-greatest-athlete",
+      "title": "Dolgopyat's third European floor gold puts him on course to be Israel's greatest-ever athlete",
       "error": "image download 429 after retries"
     },
     {

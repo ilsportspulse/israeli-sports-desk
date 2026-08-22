@@ -2564,5 +2564,61 @@
         "reason": "same event as hapoel-tel-aviv-draw-atalanta-conference-league-playoff"
       }
     ]
+  },
+  {
+    "ts": "2026-08-22T12:19:11.294Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 3,
+    "review": 2,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "kiryat-shmona-summer-review-mordechai-martinez-departures",
+        "title": "Kiryat Shmona plot a quiet season after losing Mordechai and Martínez",
+        "confidence": 0.73,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Several squad names beyond the two confirmed headline departures and the three confirmed new signings (Alexander Solla, Tales Costa, Roubeté Abdulazada, Awajú Aspeah, Amadou Sanneh, Niv Gabai) rely on transliteration from ONE's Hebrew report and could not be independently cross-checked; treat exact spellings as approximate. Adrian Ogryska's contract status was still unresolved at the time of ONE's report."
+      },
+      {
+        "slug": "dolgopyat-third-european-floor-gold-israel-greatest-athlete",
+        "title": "Dolgopyat's third European floor gold puts him on course to be Israel's greatest-ever athlete",
+        "confidence": 0.92,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "yuval-sason-closes-in-on-bnei-reineh-move",
+        "title": "Yuval Sason closes in on move to Bnei Reineh",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "beitar-jerusalem-draw-maccabi-hapoel-petah-tikva-win-youth-gimel-opener",
+        "title": "Beitar Jerusalem held 2-2 by Hapoel Rishon LeZion as Maccabi and Hapoel Petah Tikva win on Youth Gimel opening weekend",
+        "confidence": 0.8,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Some youth players' English-name spellings (e.g. Omer Grayev, Yahli Haziza) are best-effort transliterations from Hebrew — no official English-language player profiles exist to confirm exact spelling."
+      },
+      {
+        "slug": "julian-alvarez-included-atletico-squad-villarreal-simeone-defends",
+        "title": "Simeone includes Julián Álvarez in squad for Villarreal clash, warns fans off the abuse",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
   }
 ]

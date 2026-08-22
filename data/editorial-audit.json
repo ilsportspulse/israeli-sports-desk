@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T12:11:06.776Z",
+  "generatedAt": "2026-08-22T12:36:35.606Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1582,
+    "totalArticles": 1583,
     "publishedBefore": 1099,
     "cleanPublished": 1092,
     "blockedPublished": 7,
     "demoted": 0,
     "publishedAfter": 1099,
-    "reviewAfter": 483
+    "reviewAfter": 484
   },
   "blockedPublished": [
     {
@@ -141,31 +141,60 @@
   ],
   "warnings": [
     {
-      "id": "live-20260822-simeone-defends-alvarez-atletico",
-      "slug": "simeone-defends-julian-alvarez-atletico-madrid-villarreal",
-      "title": "Simeone defends Julián Álvarez as Atlético Madrid recall him to face Villarreal",
-      "statusBefore": "published",
-      "words": 458,
-      "paragraphs": 10,
+      "id": "live-2026-08-22-youth-gimel-opening-weekend",
+      "slug": "beitar-jerusalem-draw-maccabi-hapoel-petah-tikva-win-youth-gimel-opener",
+      "title": "Beitar Jerusalem held 2-2 by Hapoel Rishon LeZion as Maccabi and Hapoel Petah Tikva win on Youth Gimel opening weekend",
+      "statusBefore": "review",
+      "words": 379,
+      "paragraphs": 7,
       "facts": 6,
-      "verificationSources": 4,
+      "verificationSources": 1,
       "blockers": [],
       "warnings": [
-        "voice:stock-editorial-phrase-detected"
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
-      "id": "live-2026-08-22-dolgopyat-israel-greatest-athlete",
-      "slug": "dolgopyat-israel-greatest-athlete-trajectory",
-      "title": "Dolgopyat closes in on becoming Israel's greatest athlete after third European floor gold",
+      "id": "live-2026-08-22-yuval-sason-bnei-reineh",
+      "slug": "yuval-sason-closes-in-on-bnei-reineh-move",
+      "title": "Yuval Sason closes in on move to Bnei Reineh",
       "statusBefore": "published",
-      "words": 366,
-      "paragraphs": 8,
-      "facts": 7,
+      "words": 262,
+      "paragraphs": 6,
+      "facts": 6,
       "verificationSources": 3,
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:3"
+      ]
+    },
+    {
+      "id": "live-20260822-dolgopyat-israels-greatest-athlete",
+      "slug": "dolgopyat-third-european-floor-gold-israel-greatest-athlete",
+      "title": "Dolgopyat's third European floor gold puts him on course to be Israel's greatest-ever athlete",
+      "statusBefore": "published",
+      "words": 505,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-08-22-kiryat-shmona-summer-review",
+      "slug": "kiryat-shmona-summer-review-mordechai-martinez-departures",
+      "title": "Kiryat Shmona plot a quiet season after losing Mordechai and Martínez",
+      "statusBefore": "review",
+      "words": 514,
+      "paragraphs": 10,
+      "facts": 8,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
     },
@@ -15482,44 +15511,44 @@
   ],
   "cleanPublished": [
     {
-      "id": "live-2026-08-22-flick-brushes-off-alvarez-talk",
-      "slug": "flick-brushes-off-alvarez-talk-praises-deco-elche-opener",
-      "title": "Flick brushes off Alvarez talk, hails Deco's 'fantastic job' before Elche opener",
+      "id": "live-2026-08-22-alvarez-simeone-villarreal-squad",
+      "slug": "julian-alvarez-included-atletico-squad-villarreal-simeone-defends",
+      "title": "Simeone includes Julián Álvarez in squad for Villarreal clash, warns fans off the abuse",
       "statusBefore": "published",
-      "words": 413,
+      "words": 395,
       "paragraphs": 9,
       "facts": 7,
-      "verificationSources": 4,
+      "verificationSources": 2,
       "blockers": [],
       "warnings": []
     },
     {
-      "id": "live-20260822-simeone-defends-alvarez-atletico",
-      "slug": "simeone-defends-julian-alvarez-atletico-madrid-villarreal",
-      "title": "Simeone defends Julián Álvarez as Atlético Madrid recall him to face Villarreal",
+      "id": "live-2026-08-22-yuval-sason-bnei-reineh",
+      "slug": "yuval-sason-closes-in-on-bnei-reineh-move",
+      "title": "Yuval Sason closes in on move to Bnei Reineh",
       "statusBefore": "published",
-      "words": 458,
-      "paragraphs": 10,
+      "words": 262,
+      "paragraphs": 6,
       "facts": 6,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "voice:stock-editorial-phrase-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-22-dolgopyat-israel-greatest-athlete",
-      "slug": "dolgopyat-israel-greatest-athlete-trajectory",
-      "title": "Dolgopyat closes in on becoming Israel's greatest athlete after third European floor gold",
-      "statusBefore": "published",
-      "words": 366,
-      "paragraphs": 8,
-      "facts": 7,
       "verificationSources": 3,
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline",
-        "media:no-action-or-competition-context-detected"
+        "voice:publisher-attribution-heavy:3"
+      ]
+    },
+    {
+      "id": "live-20260822-dolgopyat-israels-greatest-athlete",
+      "slug": "dolgopyat-third-european-floor-gold-israel-greatest-athlete",
+      "title": "Dolgopyat's third European floor gold puts him on course to be Israel's greatest-ever athlete",
+      "statusBefore": "published",
+      "words": 505,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T12:11:07.405Z",
+  "generatedAt": "2026-08-22T12:36:36.229Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -22,11 +22,11 @@
       "3": 36,
       "4": 6,
       "5": 10,
-      "6": 49,
+      "6": 50,
       "7": 161,
       "8": 327,
       "9": 260,
-      "10": 178,
+      "10": 177,
       "11": 48,
       "12": 14,
       "13": 4,
@@ -37,7 +37,7 @@
     "dominantParagraphCount": 8,
     "dominantParagraphShare": 0.298,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 49,
+    "exactSixParagraphArticles": 50,
     "analysisBelowTarget": 11,
     "articlesWithStyleFlags": 189
   },
@@ -331,26 +331,26 @@
       ]
     },
     {
-      "id": "live-20260822-simeone-defends-alvarez-atletico",
-      "slug": "simeone-defends-julian-alvarez-atletico-madrid-villarreal",
-      "title": "Simeone defends Julián Álvarez as Atlético Madrid recall him to face Villarreal",
+      "id": "live-2026-08-22-yuval-sason-bnei-reineh",
+      "slug": "yuval-sason-closes-in-on-bnei-reineh-move",
+      "title": "Yuval Sason closes in on move to Bnei Reineh",
       "kind": "news",
-      "words": 458,
-      "paragraphs": 10,
+      "words": 262,
+      "paragraphs": 6,
       "paragraphWords": {
-        "shortest": 31,
-        "longest": 65,
-        "average": 45.8
+        "shortest": 36,
+        "longest": 50,
+        "average": 43.7
       },
       "sentenceWords": {
-        "shortest": 16,
-        "longest": 69,
-        "average": 38.2
+        "shortest": 8,
+        "longest": 45,
+        "average": 29.1
       },
-      "lexicalDiversity": 0.57,
+      "lexicalDiversity": 0.557,
       "publisherAttributions": 1,
       "flags": [
-        "stock-phrase:remains-to-be-seen"
+        "below-editorial-target:262/280"
       ]
     },
     {
@@ -4404,42 +4404,42 @@
   ],
   "clean": [
     {
-      "id": "live-2026-08-22-flick-brushes-off-alvarez-talk",
-      "slug": "flick-brushes-off-alvarez-talk-praises-deco-elche-opener",
-      "title": "Flick brushes off Alvarez talk, hails Deco's 'fantastic job' before Elche opener",
-      "kind": "news",
-      "words": 413,
+      "id": "live-2026-08-22-alvarez-simeone-villarreal-squad",
+      "slug": "julian-alvarez-included-atletico-squad-villarreal-simeone-defends",
+      "title": "Simeone includes Julián Álvarez in squad for Villarreal clash, warns fans off the abuse",
+      "kind": "article",
+      "words": 396,
       "paragraphs": 9,
       "paragraphWords": {
-        "shortest": 36,
-        "longest": 59,
-        "average": 45.9
+        "shortest": 32,
+        "longest": 52,
+        "average": 44
       },
       "sentenceWords": {
-        "shortest": 11,
-        "longest": 42,
-        "average": 29.5
+        "shortest": 15,
+        "longest": 92,
+        "average": 39.6
       },
-      "lexicalDiversity": 0.61,
+      "lexicalDiversity": 0.571,
       "publisherAttributions": 1,
       "flags": []
     },
     {
-      "id": "live-2026-08-22-dolgopyat-israel-greatest-athlete",
-      "slug": "dolgopyat-israel-greatest-athlete-trajectory",
-      "title": "Dolgopyat closes in on becoming Israel's greatest athlete after third European floor gold",
-      "kind": "article",
-      "words": 365,
+      "id": "live-20260822-dolgopyat-israels-greatest-athlete",
+      "slug": "dolgopyat-third-european-floor-gold-israel-greatest-athlete",
+      "title": "Dolgopyat's third European floor gold puts him on course to be Israel's greatest-ever athlete",
+      "kind": "feature",
+      "words": 502,
       "paragraphs": 8,
       "paragraphWords": {
         "shortest": 36,
-        "longest": 52,
-        "average": 45.6
+        "longest": 77,
+        "average": 62.8
       },
       "sentenceWords": {
-        "shortest": 17,
-        "longest": 52,
-        "average": 36.5
+        "shortest": 9,
+        "longest": 46,
+        "average": 26.4
       },
       "lexicalDiversity": 0.534,
       "publisherAttributions": 1,
