@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-22T04:47:39Z",
-    "validUntil": "2026-08-22T16:47:39Z",
+    "checkedAt": "2026-08-22T07:06:32Z",
+    "validUntil": "2026-08-22T19:06:32Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 800,
+        "maxAgeHours": 802,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260822-palace-boss-rules-out-wharton-real-madrid-move",
+        "articleId": "live-20260822-eckert-peretz-number-one-goalkeeper",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 808,
+        "maxAgeHours": 810,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-22-hamza-abdelkarim-barcelona-number-9",
+        "articleId": "live-2026-08-22-rivollier-hapoel-petah-tikva-derby-interview",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 818,
+        "maxAgeHours": 820,
         "requires": [
           "column"
         ]

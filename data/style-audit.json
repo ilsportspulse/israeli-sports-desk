@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T04:47:40.013Z",
+  "generatedAt": "2026-08-22T07:06:33.965Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,23 +11,23 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1083,
+    "publishedArticles": 1087,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 418,
-      "average": 422.5
+      "average": 422.7
     },
     "paragraphDistribution": {
       "3": 36,
       "4": 6,
       "5": 10,
       "6": 49,
-      "7": 160,
-      "8": 321,
-      "9": 257,
-      "10": 175,
-      "11": 45,
+      "7": 159,
+      "8": 323,
+      "9": 258,
+      "10": 176,
+      "11": 46,
       "12": 14,
       "13": 4,
       "14": 2,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.296,
+    "dominantParagraphShare": 0.297,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 49,
     "analysisBelowTarget": 11,
-    "articlesWithStyleFlags": 187
+    "articlesWithStyleFlags": 188
   },
   "flagged": [
     {
@@ -327,6 +327,29 @@
       "publisherAttributions": 2,
       "flags": [
         "below-editorial-target:227/280",
+        "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-22-wharton-real-madrid-palace-sage",
+      "slug": "crystal-palace-pierre-sage-rules-out-wharton-real-madrid-move",
+      "title": "Crystal Palace boss Pierre Sage shuts down Real Madrid move for Adam Wharton",
+      "kind": "transfer",
+      "words": 431,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 60,
+        "average": 47.9
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 85,
+        "average": 30.8
+      },
+      "lexicalDiversity": 0.575,
+      "publisherAttributions": 2,
+      "flags": [
         "publisher-attribution-heavy:2"
       ]
     },
@@ -4358,44 +4381,107 @@
   ],
   "clean": [
     {
-      "id": "live-20260822-palace-boss-rules-out-wharton-real-madrid-move",
-      "slug": "palace-boss-rules-out-wharton-real-madrid-move-khalaili-arrival",
-      "title": "Palace manager rules out Real Madrid move for Wharton, hails Israeli signing Khalaili",
-      "kind": "news",
-      "words": 464,
-      "paragraphs": 9,
+      "id": "live-20260822-eckert-peretz-number-one-goalkeeper",
+      "slug": "eckert-confirms-peretz-southampton-number-one-goalkeeper",
+      "title": "Southampton boss Tonda Eckert says he told Ramsdale straight: Peretz is our No. 1",
+      "kind": "article",
+      "words": 360,
+      "paragraphs": 8,
       "paragraphWords": {
-        "shortest": 35,
-        "longest": 67,
-        "average": 51.6
+        "shortest": 36,
+        "longest": 61,
+        "average": 45
       },
       "sentenceWords": {
-        "shortest": 15,
-        "longest": 80,
-        "average": 30.9
+        "shortest": 21,
+        "longest": 83,
+        "average": 40
       },
-      "lexicalDiversity": 0.565,
-      "publisherAttributions": 1,
+      "lexicalDiversity": 0.594,
+      "publisherAttributions": 0,
       "flags": []
     },
     {
-      "id": "live-2026-08-22-hamza-abdelkarim-barcelona-number-9",
-      "slug": "hamza-abdelkarim-barcelona-number-9-option",
-      "title": "Hamza Abdelkarim emerges as a genuine option for Barcelona's number 9 shirt",
-      "kind": "news",
-      "words": 325,
-      "paragraphs": 7,
+      "id": "live-2026-08-22-rivollier-hapoel-petah-tikva-derby-interview",
+      "slug": "franck-rivollier-hapoel-petah-tikva-maccabi-derby-interview",
+      "title": "Franck Rivollier explains his move to bitter rivals Maccabi Petah Tikva",
+      "kind": "article",
+      "words": 536,
+      "paragraphs": 11,
       "paragraphWords": {
-        "shortest": 36,
-        "longest": 57,
-        "average": 46.4
+        "shortest": 32,
+        "longest": 63,
+        "average": 48.7
       },
       "sentenceWords": {
-        "shortest": 5,
-        "longest": 57,
-        "average": 32.5
+        "shortest": 11,
+        "longest": 89,
+        "average": 41.2
       },
-      "lexicalDiversity": 0.631,
+      "lexicalDiversity": 0.534,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-22-arsenal-attack-title-coventry-win",
+      "slug": "arsenal-attack-title-coventry-win",
+      "title": "Arsenal open Premier League defence with 3-0 win over Coventry as Ødegaard vows to 'attack' the title",
+      "kind": "article",
+      "words": 475,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 22,
+        "longest": 62,
+        "average": 47.5
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 75,
+        "average": 36.5
+      },
+      "lexicalDiversity": 0.585,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260822-ronaldo-marriage-youth-alnassr",
+      "slug": "ronaldo-marriage-youth-al-nassr-comeback",
+      "title": "Ronaldo scores as Al Nassr beat Al Riyadh 4-0, and Saudi media credit his marriage for the spark",
+      "kind": "news",
+      "words": 407,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 42,
+        "longest": 59,
+        "average": 50.9
+      },
+      "sentenceWords": {
+        "shortest": 15,
+        "longest": 97,
+        "average": 45.2
+      },
+      "lexicalDiversity": 0.604,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-22-hamza-abdelkarim-barcelona-number-9-option",
+      "slug": "hamza-abdelkarim-barcelona-number-9-option",
+      "title": "Hamza Abdelkarim emerges as a real option to be Barcelona's number 9 this season",
+      "kind": "news",
+      "words": 420,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 38,
+        "longest": 62,
+        "average": 46.7
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 45,
+        "average": 28
+      },
+      "lexicalDiversity": 0.579,
       "publisherAttributions": 1,
       "flags": []
     },
@@ -4438,27 +4524,6 @@
         "average": 26.1
       },
       "lexicalDiversity": 0.592,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-22-arsenal-coventry-city-3-0-opener",
-      "slug": "arsenal-3-0-coventry-city-title-defence-opener",
-      "title": "Arsenal 3-0 Coventry City: Havertz, Saka and Ødegaard open title defence in style",
-      "kind": "match-report",
-      "words": 404,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 34,
-        "longest": 63,
-        "average": 44.9
-      },
-      "sentenceWords": {
-        "shortest": 7,
-        "longest": 52,
-        "average": 25.3
-      },
-      "lexicalDiversity": 0.611,
       "publisherAttributions": 0,
       "flags": []
     },
@@ -23171,6 +23236,27 @@
       },
       "lexicalDiversity": 0.483,
       "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260822-palace-boss-rules-out-wharton-real-madrid-move",
+      "slug": "palace-boss-rules-out-wharton-real-madrid-move-khalaili-arrival",
+      "title": "Palace manager rules out Real Madrid move for Wharton, hails Israeli signing Khalaili",
+      "kind": "news",
+      "words": 464,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 67,
+        "average": 51.6
+      },
+      "sentenceWords": {
+        "shortest": 15,
+        "longest": 80,
+        "average": 30.9
+      },
+      "lexicalDiversity": 0.565,
+      "publisherAttributions": 1,
       "flags": []
     }
   ]
