@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T10:25:25.217Z",
+  "generatedAt": "2026-08-22T11:15:35.578Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1575,
-    "publishedBefore": 1095,
-    "cleanPublished": 1088,
+    "totalArticles": 1578,
+    "publishedBefore": 1096,
+    "cleanPublished": 1089,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1095,
-    "reviewAfter": 480
+    "publishedAfter": 1096,
+    "reviewAfter": 482
   },
   "blockedPublished": [
     {
@@ -141,6 +141,36 @@
   ],
   "warnings": [
     {
+      "id": "live-2026-08-22-hamidou-keita-hapoel-petah-tikva",
+      "slug": "hamidou-keita-agrees-terms-hapoel-petah-tikva",
+      "title": "Hamidou Keita agrees terms with Hapoel Petah Tikva",
+      "statusBefore": "review",
+      "words": 284,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-22-hapoel-haifa-summer-rebuild-silvas",
+      "slug": "hapoel-haifa-summer-rebuild-silvas-upper-playoff-target",
+      "title": "Aiming high: how Hapoel Haifa rebuilt for a shot at the upper playoff",
+      "statusBefore": "review",
+      "words": 412,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-20260822-judo-cadets-ecuador-bronze",
       "slug": "israel-judo-cadets-bronze-fifth-guayaquil-worlds",
       "title": "Israel's judo cadets close out best-ever world championship with bronze and fifth place in Ecuador",
@@ -166,6 +196,7 @@
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
         "voice:publisher-attribution-heavy:2"
       ]
     },
@@ -223,6 +254,7 @@
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
         "voice:publisher-attribution-heavy:2"
       ]
     },
@@ -15421,6 +15453,18 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-2026-08-22-ariel-lugasi-acl-comeback-interview",
+      "slug": "ariel-lugasi-maccabi-petah-tikva-acl-comeback-interview",
+      "title": "Ariel Lugasi: 'I matured mentally, it wasn't simple going through what I did'",
+      "statusBefore": "published",
+      "words": 433,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
       "id": "live-20260822-judo-cadets-ecuador-bronze",
       "slug": "israel-judo-cadets-bronze-fifth-guayaquil-worlds",
       "title": "Israel's judo cadets close out best-ever world championship with bronze and fifth place in Ecuador",
@@ -15470,6 +15514,7 @@
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
         "voice:publisher-attribution-heavy:2"
       ]
     },
@@ -15513,6 +15558,7 @@
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
         "voice:publisher-attribution-heavy:2"
       ]
     },

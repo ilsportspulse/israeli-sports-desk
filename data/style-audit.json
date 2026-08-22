@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T10:25:25.579Z",
+  "generatedAt": "2026-08-22T11:15:36.195Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,7 +11,7 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1095,
+    "publishedArticles": 1096,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
@@ -24,7 +24,7 @@
       "5": 10,
       "6": 49,
       "7": 161,
-      "8": 325,
+      "8": 326,
       "9": 259,
       "10": 177,
       "11": 48,
@@ -4380,6 +4380,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-22-ariel-lugasi-acl-comeback-interview",
+      "slug": "ariel-lugasi-maccabi-petah-tikva-acl-comeback-interview",
+      "title": "Ariel Lugasi: 'I matured mentally, it wasn't simple going through what I did'",
+      "kind": "news",
+      "words": 434,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 45,
+        "longest": 63,
+        "average": 54.3
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 69,
+        "average": 39.5
+      },
+      "lexicalDiversity": 0.624,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260822-judo-cadets-ecuador-bronze",
       "slug": "israel-judo-cadets-bronze-fifth-guayaquil-worlds",
