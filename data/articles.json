@@ -824,7 +824,7 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "",
+    "warning": "dup same-match recap (3 shared tokens)",
     "commonsQuery": "Semi Ajayi footballer / MKM Stadium Hull City / Bryan Mbeumo",
     "commonsCandidates": [
       {
@@ -846,7 +846,7 @@
         "license": "CC BY 2.0"
       }
     ],
-    "status": "published"
+    "status": "review"
   },
   {
     "id": "live-2026-08-22-israel-cadets-13th-place",
@@ -160002,7 +160002,7 @@
       }
     ],
     "confidence": 0.92,
-    "warning": "dup same-event (8: zagreb,gold,dolgopyat,israel,greatest,floor)",
+    "warning": "",
     "commonsQuery": "Artem Dolgopyat Israeli gymnast",
     "commonsCandidates": [
       {
@@ -160024,7 +160024,7 @@
         "license": "CC BY-SA 4.0"
       }
     ],
-    "status": "review"
+    "status": "published"
   },
   {
     "id": "live-2026-08-22-kiryat-shmona-summer-review",
@@ -160159,5 +160159,547 @@
       }
     ],
     "status": "review"
+  },
+  {
+    "id": "live-20260822-motley-hapoel-bench-interview",
+    "slug": "jonathan-motley-hapoel-tel-aviv-bench-interview",
+    "title": "Jonathan Motley: 'I sat too much on the bench at Hapoel Tel Aviv'",
+    "dek": "The EuroCup Finals MVP opens up on a frustrating Euroleague debut season before completing his summer move to Crvena Zvezda.",
+    "category": "Israeli Basketball",
+    "desk": "israel",
+    "kind": "news",
+    "storyForm": "interview",
+    "publishedAt": "2026-08-22T16:14:41.957Z",
+    "updatedAt": "2026-08-22T16:14:41.957Z",
+    "readMinutes": 4,
+    "source": {
+      "name": "Sport5",
+      "url": "https://www.sport5.co.il/articles.aspx?FolderID=405&docID=557198"
+    },
+    "verificationSources": [
+      {
+        "label": "Sport5 interview with Jonathan Motley",
+        "url": "https://www.sport5.co.il/articles.aspx?FolderID=405&docID=557198"
+      },
+      {
+        "label": "Eurohoops: Johnathan Motley completes move from Hapoel to Crvena Zvezda",
+        "url": "https://www.eurohoops.net/en/euroleague/1991898/johnathan-motley-to-crvena-zvezda-euroleague/"
+      },
+      {
+        "label": "Sportando: Crvena Zvezda officially signs Johnathan Motley",
+        "url": "https://sportando.basketball/en/crvena-zvezda-officially-signs-johnathan-motley/"
+      },
+      {
+        "label": "Basketnews: Milos Teodosic returns to Crvena Zvezda in new role",
+        "url": "https://basketnews.com/news-248884-milos-teodosic-returns-to-crvena-zvezda-in-surprising-new-role.html"
+      },
+      {
+        "label": "Israel Hayom: the crisis of Jonathan Motley at Hapoel Tel Aviv",
+        "url": "https://www.israelhayom.co.il/sport/israeli-basketball/article/19028607"
+      }
+    ],
+    "body": [
+      "Jonathan Motley has never been shy about numbers, and the one that stuck with him from his final season at Hapoel Tel Aviv was minutes, or the lack of them. Days into his new life at Crvena Zvezda, the American center told Sport5 he had grown frustrated watching games from the bench in Tel Aviv. \"I love to play basketball,\" he said. \"I think last season I sat too much on the bench and feel that is not good for me.\"",
+      "It was a striking admission from a player who, only a year earlier, had been the toast of Israeli basketball. In the 2024-25 season Motley powered Hapoel to the club's first-ever European trophy, the BKT EuroCup, then was named Finals MVP after averaging 22.0 points as Hapoel beat Dreamland Gran Canaria for the title.",
+      "That triumph earned Hapoel a place in the EuroLeague for the first time, and Motley stayed on for the ride. But the step up proved harder than expected: his production dropped to 8.3 points a game in EuroLeague action last season, even as he shot an efficient 65.4 percent on two-pointers, while in Israel's domestic Winner League he averaged 14.1 points across his two seasons in red.",
+      "In July, with his role diminished, Motley completed a multi-year move to Crvena Zvezda — Red Star Belgrade — joining a Serbian club rebuilding around new head coach Ibon Navarro ahead of the 2026-27 EuroLeague campaign. He arrives alongside fellow summer signings David Kramer, Chris Jones and Nikola Djurišić.",
+      "Jones, in particular, gives Motley a head start. The two played together in Hapoel's second unit, and the American forward said the reunion means plenty. \"It is very significant for me, because we were together in the second unit,\" Motley said. \"He was my center most of the time and I played with him more than anyone else. He probably 'cooked' for me 40 to 50 percent of the baskets.\"",
+      "Motley has also been leaning on Red Star connections from further afield. He met Boban Marjanović in New York over the summer, and the veteran Serbian center — a hero figure at the club — offered a very practical piece of advice about life in Belgrade. \"The main advice was to be careful in meetings with fans of other teams, because I can meet them on the street,\" Motley recalled. \"He told me to be careful, enjoy and have fun.\"",
+      "Vasilis Mitseas, another familiar face, talked up the move before it happened. He \"told me all the good things I can expect from the fans, from Belgrade and also from Serbia,\" Motley said. \"I am really looking forward to it.\"",
+      "Then there is Milos Teodosic, the Serbian playmaking great who has returned to Red Star in an off-court capacity. Motley did not hide his excitement at being around him again. \"Milos is my man,\" he said. \"He was an amazing passer. I can't wait to see him already. We are very close.\"",
+      "For all the goodwill, Motley was clear about what he actually wants from the move: regular postseason basketball. \"I have never missed the EuroLeague playoffs and that is my goal,\" he said. \"I want to play in the EuroLeague playoffs, because I have never stayed out of it. I hope I can bring that to the team.\"",
+      "Hapoel Tel Aviv has already thanked Motley publicly for two seasons that included the most successful European run in the club's history. Whether the bench frustration that pushed him out fades in Belgrade will go a long way toward shaping Red Star's own chase for a EuroLeague playoff return this season."
+    ],
+    "facts": [
+      "Jonathan (Johnathan) Motley told Sport5 he \"sat too much on the bench\" during his final season at Hapoel Tel Aviv.",
+      "Motley led Hapoel Tel Aviv to the 2024-25 BKT EuroCup title and was named Finals MVP after averaging 22.0 points in the championship series against Dreamland Gran Canaria.",
+      "In his 2025-26 EuroLeague debut season with Hapoel, Motley averaged 8.3 points per game on 65.4% two-point shooting.",
+      "Motley completed a multi-year transfer to Crvena Zvezda (Red Star Belgrade) in July 2026, joining summer signings David Kramer, Chris Jones and Nikola Djurišić under new head coach Ibon Navarro.",
+      "He reunites at Red Star with former Hapoel teammate Chris Jones, describing him as the guard who set up 40-50% of his baskets.",
+      "Motley says he has never missed the EuroLeague playoffs in his career and wants to extend that streak with Red Star.",
+      "Serbian basketball figures Boban Marjanović and Milos Teodosic, both connected to Red Star, gave Motley advice and encouragement ahead of the move."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 45,
+    "homepageReason": "Feature interview with Hapoel Tel Aviv's outgoing EuroCup Finals MVP as he opens up on his bench frustration and begins a new chapter at Crvena Zvezda — strong Israeli basketball interest, but a quotes/interview piece rather than a result.",
+    "dedupeKey": "motley-hapoel-crvena-zvezda-interview-2026-08",
+    "aiDisclosure": "Drafted by an AI copy desk assistant from Sport5's original Hebrew-language interview with Jonathan Motley, cross-checked against independent English-language basketball reporting.",
+    "nameChecks": [
+      {
+        "hebrew": "ג'ונתן מוטלי",
+        "english": "Johnathan Motley",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Johnathan_Motley",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "כריס ג'ונס",
+        "english": "Chris Jones",
+        "verificationUrl": "https://www.eurohoops.net/en/euroleague/1991898/johnathan-motley-to-crvena-zvezda-euroleague/",
+        "confidence": 0.75
+      },
+      {
+        "hebrew": "בובאן מריאנוביץ'",
+        "english": "Boban Marjanović",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Boban_Marjanovi%C4%87",
+        "confidence": 0.8
+      },
+      {
+        "hebrew": "ואסיליס מיציאס",
+        "english": "Vasilis Mitseas",
+        "verificationUrl": "https://www.sport5.co.il/articles.aspx?FolderID=405&docID=557198",
+        "confidence": 0.65
+      },
+      {
+        "hebrew": "מילוש טאודוסיץ'",
+        "english": "Milos Teodosic",
+        "verificationUrl": "https://basketnews.com/news-248884-milos-teodosic-returns-to-crvena-zvezda-in-surprising-new-role.html",
+        "confidence": 0.85
+      }
+    ],
+    "confidence": 0.87,
+    "warning": "",
+    "commonsQuery": "Johnathan Motley basketball player",
+    "commonsCandidates": [
+      {
+        "title": "File:Johnathan_Motley_0_Fenerbahçe_Basketball_20220925_(9).jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Johnathan_Motley_0_Fenerbah%C3%A7e_Basketball_20220925_(9).jpg",
+        "credit": "Zafer, via Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:Johnathan_Motley_drives_against_Maik_Kotsar.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Johnathan_Motley_drives_against_Maik_Kotsar.jpg",
+        "credit": "Chris Gillespie / GamecockCentral.com, via Flickr",
+        "license": "CC BY 2.0"
+      },
+      {
+        "title": "File:Johnathan_Motley.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Johnathan_Motley.jpg",
+        "credit": "Max Goldberg / Iowa State Daily, via Flickr",
+        "license": "CC BY 2.0"
+      }
+    ],
+    "status": "review"
+  },
+  {
+    "id": "live-2026-08-22-marseille-strasbourg-ligue-1-opener",
+    "slug": "marseille-strasbourg-ligue-1-opener-gouiri-brace",
+    "title": "Marseille 4-0 Strasbourg: Gouiri brace and late double seal statement Ligue 1 opener",
+    "dek": "Amine Gouiri scored either side of a red card for Strasbourg's Samir El Mourabet as Bruno Genesio's side ran riot at the Vélodrome to open the season.",
+    "category": "World Football",
+    "desk": "international",
+    "kind": "article",
+    "storyForm": "match-report",
+    "publishedAt": "2026-08-22T16:14:41.957Z",
+    "updatedAt": "2026-08-22T16:14:41.957Z",
+    "readMinutes": 3,
+    "source": {
+      "name": "Sport5",
+      "url": "https://www.sport5.co.il/articles.aspx?FolderID=496&docID=557199"
+    },
+    "verificationSources": [
+      {
+        "label": "beIN Sports",
+        "url": "https://www.beinsports.com/en-us/soccer/ligue-1/articles/marseille-open-ligue-1-season-with-statement-4-0-victory-2026-08-21"
+      },
+      {
+        "label": "Fotmob",
+        "url": "https://www.fotmob.com/news/vrxap8as0opm1mpzc4y7ua8nt-marseille-4-0-strasbourg-gouiri-scores-brace-ligue-1-gets-underway"
+      },
+      {
+        "label": "Get French Football News",
+        "url": "https://www.getfootballnewsfrance.com/2026/player-ratings-marseille-4-0-strasbourg-om-cruise-to-comfortable-win-over-poor-strasbourg-in-ligue-1-opener/"
+      }
+    ],
+    "body": [
+      "Olympique de Marseille opened the 2026-27 Ligue 1 season with a statement, tearing apart Strasbourg 4-0 at a packed Stade Vélodrome, with Amine Gouiri scoring either side of a Strasbourg red card to set the tone for Bruno Genesio's team.",
+      "The first half was a cagey, goalless affair, but Marseille needed only a minute of the second period to break the deadlock. Igor Paixão fed Angel Gomes, who slipped in Gouiri for a first-time finish that sent the Vélodrome into raptures barely 60 seconds after the restart.",
+      "Strasbourg's afternoon then unravelled further. Defender Samir El Mourabet was shown a straight red card after referee Ruddy Bouquet was sent to the pitchside monitor and identified an off-the-ball swipe at Pierre-Emile Højbjerg, leaving the visitors to play the remainder of the match a man short.",
+      "Gouiri made the extra man count from the penalty spot in the 68th minute, calmly converting to complete his brace and put the result beyond reasonable doubt.",
+      "Marseille were not finished. Substitute Keyliane Abdallah added a third late on, before Højbjerg — stripped of the club captaincy over the summer — rounded off the scoring in second-half stoppage time to make it 4-0.",
+      "It was an emphatic response from Genesio's squad, who arrived at the season having faced financial strain and criticism from sections of the Marseille support during the close season.",
+      "For Strasbourg, freshly reinforced under their Chelsea-linked ownership model in recent seasons, it was a chastening way to begin the campaign, undone by a slow start and a costly moment of indiscipline.",
+      "Genesio's side will look to build on the opening-day statement when they travel to face Monaco on August 30, in what already shapes up as an early test of their title credentials."
+    ],
+    "facts": [
+      "Marseille beat Strasbourg 4-0 at the Stade Vélodrome on 21 August 2026, in round one of the 2026-27 Ligue 1 season.",
+      "Amine Gouiri scored twice — from open play a minute into the second half (46') and from the penalty spot in the 68th minute.",
+      "Substitute Keyliane Abdallah scored Marseille's third late on, before Pierre-Emile Højbjerg completed the scoring in second-half stoppage time.",
+      "Strasbourg's Samir El Mourabet was sent off with a straight red card after a VAR review for an off-the-ball swipe at Højbjerg.",
+      "Marseille, managed by Bruno Genesio, next play away to Monaco on 30 August 2026."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 78,
+    "homepageReason": "A big-club Ligue 1 rout with a red card and a penalty controversy is strong International-desk material even without an Israeli angle, keeping the corner reflective of live world football.",
+    "dedupeKey": "ligue1-2026-27-md1-marseille-strasbourg",
+    "aiDisclosure": "This article was drafted by an AI assistant from verified source reporting and independently fact-checked against multiple outlets before publication.",
+    "nameChecks": [
+      {
+        "hebrew": "אמין גויירי",
+        "english": "Amine Gouiri",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Amine_Gouiri",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "קיליאן עבדאללה",
+        "english": "Keyliane Abdallah",
+        "verificationUrl": "https://www.getfootballnewsfrance.com/2026/player-ratings-marseille-4-0-strasbourg-om-cruise-to-comfortable-win-over-poor-strasbourg-in-ligue-1-opener/",
+        "confidence": 0.75
+      },
+      {
+        "hebrew": "פייר-אמיל הויבייר",
+        "english": "Pierre-Emile Højbjerg",
+        "verificationUrl": "https://commons.wikimedia.org/wiki/Category:Pierre-Emile_H%C3%B8jbjerg",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "סמיר אל מוראבט",
+        "english": "Samir El Mourabet",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Samir_El_Mourabet",
+        "confidence": 0.85
+      },
+      {
+        "hebrew": "ברונוז'נסיו",
+        "english": "Bruno Genesio",
+        "verificationUrl": "https://www.beinsports.com/en-us/soccer/ligue-1/articles/marseille-open-ligue-1-season-with-statement-4-0-victory-2026-08-21",
+        "confidence": 0.85
+      }
+    ],
+    "confidence": 0.92,
+    "warning": "",
+    "commonsQuery": "Amine Gouiri Stade Vélodrome Marseille",
+    "commonsCandidates": [
+      {
+        "title": "File:RC Lens - OGC Nice (10-04-2022) 25 Amine Gouiri.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:RC_Lens_-_OGC_Nice_(10-04-2022)_25_Amine_Gouiri.jpg",
+        "credit": "Supporterhéninois via Wikimedia Commons",
+        "license": "CC0 1.0"
+      },
+      {
+        "title": "File:Stade Vélodrome 1.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Stade_V%C3%A9lodrome_1.jpg",
+        "credit": "Zakarie Faibis (Randy110912) via Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "live-2026-08-22-arsenal-coventry-opener",
+    "slug": "arsenal-thrash-coventry-city-premier-league-opener",
+    "title": "Arsenal 3-0 Coventry: Havertz, Saka and Odegaard open title defence in style",
+    "dek": "Debutant Christos Tzolis set up two goals as the champions began their Premier League defence with a comfortable win over newly promoted Coventry City at the Emirates.",
+    "category": "World Football",
+    "desk": "international",
+    "kind": "news",
+    "storyForm": "match-report",
+    "publishedAt": "2026-08-22T16:14:41.957Z",
+    "updatedAt": "2026-08-22T16:14:41.957Z",
+    "readMinutes": 4,
+    "source": {
+      "name": "Sport5",
+      "url": "https://www.sport5.co.il/articles.aspx?FolderID=252&docID=557201"
+    },
+    "verificationSources": [
+      {
+        "label": "Sport5",
+        "url": "https://www.sport5.co.il/articles.aspx?FolderID=252&docID=557201"
+      },
+      {
+        "label": "Sky Sports match report",
+        "url": "https://www.skysports.com/football/arsenal-vs-coventry-city/report/559444"
+      },
+      {
+        "label": "ESPN match centre",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401879301/coventry-city-arsenal"
+      },
+      {
+        "label": "Sky Sports transfer report on Tzolis",
+        "url": "https://www.skysports.com/football/news/11670/13564283/arsenal-transfer-news-christos-tzolis-signs-in-lb34m-deal-from-club-brugge-as-replacement-for-leandro-trossard"
+      }
+    ],
+    "body": [
+      "Arsenal opened their Premier League title defence with real authority on Friday night, brushing aside newly promoted Coventry City 3-0 at the Emirates Stadium to launch the 2026-27 season in ruthless fashion.",
+      "Mikel Arteta's side needed only 15 minutes to break the deadlock. Christos Tzolis dispossessed Coventry defender Van Ewijk, releasing Riccardo Calafiori, who found Kai Havertz in space; the German striker steered a first-time finish into the far corner.",
+      "Tzolis, Arsenal's marquee summer arrival, was at the heart of the second goal too. Eight minutes after the opener, his low cross was parried by Coventry goalkeeper Carl Rushworth straight into the path of Bukayo Saka, who rolled the ball into an empty net.",
+      "The Greece international's hand in both goals made for a memorable Premier League debut. Arsenal signed the 24-year-old winger from Club Brugge for £34m in the close season, a club-record fee for the Belgian league, as a direct replacement for Leandro Trossard, and he wasted little time repaying that outlay.",
+      "Arsenal added a third just four minutes into the second half. Saka combined with Ben White down the right, and the ball eventually fell to Martin Odegaard, whose scuffed effort deflected in off a wrong-footed Rushworth to make it 3-0.",
+      "Coventry, back in the top flight for the first time in 25 years under former Chelsea midfielder Frank Lampard, barely got a foothold. Per Opta data collected since 2007, the visitors became the first team in Premier League history to record no touches in the opposition box and no tackles in an entire first half; their first tackle of the match did not come until the 69th minute, by which point they already trailed 3-0. Coventry's expected-goals tally for the match finished at just 0.28.",
+      "Sport5, covering the match for Israeli readers, summed up the gulf in class succinctly: Arsenal, the headline read, had given the newly promoted side \"an important lesson.\"",
+      "For Arteta, the performance offers an ideal platform from which to defend the title Arsenal ended a 22-year wait to win last season. Friday's rout was also an early reminder that the champions have strengthened rather than stood still, with Tzolis looking every bit the shrewd addition to a squad already rich in attacking talent.",
+      "Coventry, by contrast, face a long road to prove they belong among the elite. A trip away from home next will offer a far truer test of how much Lampard's side can find once the shock of the top flight wears off."
+    ],
+    "facts": [
+      "Arsenal beat newly promoted Coventry City 3-0 at the Emirates Stadium on Friday, August 21, 2026, in the Premier League's opening weekend.",
+      "Kai Havertz opened the scoring in the 15th minute, assisted by Riccardo Calafiori after Christos Tzolis won back possession.",
+      "Bukayo Saka doubled the lead soon after when Tzolis's cross was parried into his path by Coventry goalkeeper Carl Rushworth.",
+      "Martin Odegaard made it 3-0 four minutes into the second half, combining with Ben White.",
+      "Christos Tzolis, signed from Club Brugge for £34m in the summer, made his Premier League debut and was involved in the first two goals.",
+      "Coventry, managed by Frank Lampard, were playing their first Premier League match in 25 years and recorded no first-half tackles or touches in the opposition box, per Opta data collected since 2007.",
+      "Arsenal enter the season as defending champions after ending a 22-year wait for the Premier League title last season."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 80,
+    "homepageReason": "Confirmed Premier League result — defending champions' opening-night rout of promoted Coventry, headlined by record signing Tzolis' instant impact.",
+    "dedupeKey": "epl-2026-27-arsenal-coventry-md1",
+    "aiDisclosure": "Draft compiled by an AI copy desk assistant from the cited Sport5 report and independent verification searches (Sky Sports, ESPN).",
+    "nameChecks": [
+      {
+        "hebrew": "קאי הוורץ",
+        "english": "Kai Havertz",
+        "verificationUrl": "https://www.skysports.com/football/arsenal-vs-coventry-city/report/559444",
+        "confidence": 0.85
+      },
+      {
+        "hebrew": "בוקאיו סאקה",
+        "english": "Bukayo Saka",
+        "verificationUrl": "https://www.skysports.com/football/arsenal-vs-coventry-city/report/559444",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "מרטין אדגור",
+        "english": "Martin Odegaard",
+        "verificationUrl": "https://www.skysports.com/football/arsenal-vs-coventry-city/report/559444",
+        "confidence": 0.85
+      },
+      {
+        "hebrew": "כריסטוס טזוליס",
+        "english": "Christos Tzolis",
+        "verificationUrl": "https://www.skysports.com/football/news/11670/13564283/arsenal-transfer-news-christos-tzolis-signs-in-lb34m-deal-from-club-brugge-as-replacement-for-leandro-trossard",
+        "confidence": 0.85
+      },
+      {
+        "hebrew": "פרנק לאמפרד",
+        "english": "Frank Lampard",
+        "verificationUrl": "https://www.espn.com/soccer/match/_/gameId/401879301/coventry-city-arsenal",
+        "confidence": 0.8
+      },
+      {
+        "hebrew": "ריקרדו קלפיורי",
+        "english": "Riccardo Calafiori",
+        "verificationUrl": "https://www.skysports.com/football/arsenal-vs-coventry-city/report/559444",
+        "confidence": 0.8
+      }
+    ],
+    "confidence": 0.95,
+    "warning": "dup same-match recap (7 shared tokens)",
+    "commonsQuery": "Bukayo Saka Arsenal Emirates Stadium",
+    "commonsCandidates": [
+      {
+        "title": "File:1 bukayo saka arsenal 2025 (cropped).jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:1_bukayo_saka_arsenal_2025_(cropped).jpg",
+        "credit": "Chensiyuan",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:London Emirates Stadium arsenal.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:London_Emirates_Stadium_arsenal.jpg",
+        "credit": "Arne Müseler / www.arne-mueseler.com",
+        "license": "CC BY-SA 3.0 DE"
+      }
+    ],
+    "status": "review"
+  },
+  {
+    "id": "live-20260822-kenny-miller-house-car-scotland",
+    "slug": "kenny-miller-family-house-car-ramming-scotland",
+    "title": "Car rammed into house linked to Maccabi Tel Aviv coach Kenny Miller in Scotland",
+    "dek": "Sport5 reports Police Scotland are treating Friday's incident in Waterfoot, Lanarkshire as part of a wider organised-crime feud, with sources stressing the Maccabi head coach was not the target and has no involvement in the case.",
+    "category": "Israeli Football",
+    "desk": "israel",
+    "kind": "news",
+    "storyForm": "legal-investigation-report",
+    "publishedAt": "2026-08-22T16:14:41.957Z",
+    "updatedAt": "2026-08-22T16:14:41.957Z",
+    "readMinutes": 3,
+    "source": {
+      "name": "Sport5",
+      "url": "https://www.sport5.co.il/articles.aspx?FolderID=394&docID=557202"
+    },
+    "verificationSources": [
+      {
+        "label": "Sport5",
+        "url": "https://www.sport5.co.il/articles.aspx?FolderID=394&docID=557202"
+      },
+      {
+        "label": "Maccabi Tel Aviv F.C. — Kenny Miller appointed head coach",
+        "url": "https://www.maccabi-tlv.co.il/en/2026/06/kenny-miller-appointed-head-coach/"
+      },
+      {
+        "label": "Scottish Daily Express — Kenny Miller's Audi targeted in 2022 arson attack",
+        "url": "https://www.scottishdailyexpress.co.uk/news/scottish-news/former-rangers-star-kenny-millers-25975839"
+      }
+    ],
+    "body": [
+      "A car was deliberately rammed into a house in Waterfoot, Lanarkshire on Friday evening, in an incident Sport5 reports is linked to the family of Maccabi Tel Aviv head coach Kenny Miller.",
+      "According to the Israeli outlet, the property belongs to Billy Steel, who is connected to Miller and his wife Laura. Nobody was hurt in the attack.",
+      "Sport5, citing Scottish sources, reports that the incident is tied to a feud among organised crime networks — understood to involve the Daniel crime family and Dubai-based figures on one side and a rival gang on the other — rather than to Miller himself. Sources quoted stressed the crash \"has nothing to do with the Maccabi Tel Aviv coach\" and that there is no suggestion Miller is involved in any criminal activity.",
+      "Police Scotland is investigating the ramming as part of a broader wave of gangland attacks that has swept parts of Scotland this year, with dozens of arrests already made across the country in connection with the wider feud.",
+      "It is not the first time an incident in Lanarkshire has touched Miller's circle. In January 2022, his Audi Q7 was doused with an accelerant and damaged outside a flat in Hamilton where he and Laura were staying with her mother, in an attack Police Scotland confirmed it investigated at the time, though no fire was successfully started.",
+      "Miller, 46, is a former Scotland international who played for Hibernian, Rangers, Celtic, Wolves, Cardiff City and Bristol City among others during a long club career before moving into coaching.",
+      "He took charge of Maccabi Tel Aviv on an interim basis last season, guiding the club to the Israeli State Cup, and was handed the head coach's job permanently in June 2026.",
+      "There is no indication the Friday incident will affect his position at Maccabi Tel Aviv, and Sport5's report frames it purely as a matter for Police Scotland's ongoing gangland investigation in Scotland."
+    ],
+    "facts": [
+      "A car was rammed into a house in Waterfoot, Lanarkshire, Scotland, on Friday evening.",
+      "Sport5 reports the house belongs to Billy Steel, described as connected to Maccabi Tel Aviv head coach Kenny Miller and his wife Laura.",
+      "No one was injured in the incident.",
+      "Scottish sources cited by Sport5 say the attack is linked to a feud between organised crime factions and is not connected to Miller himself.",
+      "Police Scotland is investigating as part of a wider wave of gangland-related attacks in Scotland this year.",
+      "Miller was appointed Maccabi Tel Aviv's permanent head coach in June 2026 after leading the club to the Israeli State Cup as interim boss.",
+      "In January 2022, Miller's own car was targeted in a separate arson attempt outside a family member's home in Hamilton, Lanarkshire."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 42,
+    "homepageReason": "Off-field news touching Maccabi Tel Aviv's head coach rather than a match, transfer or result — notable but not top-tier.",
+    "dedupeKey": "kenny-miller-waterfoot-house-car-incident-2026-08-21",
+    "aiDisclosure": "Draft compiled by an AI copy desk assistant from the cited Sport5 report and independent verification searches.",
+    "nameChecks": [
+      {
+        "hebrew": "קני מילר",
+        "english": "Kenny Miller",
+        "verificationUrl": "https://www.maccabi-tlv.co.il/en/2026/06/kenny-miller-appointed-head-coach/",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "בילי סטיל",
+        "english": "Billy Steel",
+        "verificationUrl": "https://www.sport5.co.il/articles.aspx?FolderID=394&docID=557202",
+        "confidence": 0.55
+      }
+    ],
+    "confidence": 0.75,
+    "warning": "Single-sourced to Sport5 for the specific incident and Miller-Steel connection; Police Scotland has not named suspects or confirmed motive publicly.",
+    "commonsQuery": "Kenny Miller Scottish footballer Maccabi Tel Aviv",
+    "commonsCandidates": [
+      {
+        "title": "File:Kenny Miller 2011.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Kenny_Miller_2011.jpg",
+        "credit": "Jon Candy",
+        "license": "CC BY-SA 2.0"
+      },
+      {
+        "title": "File:Bloomfield Stadium in Tel Aviv-Yafo 01.JPG",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Bloomfield_Stadium_in_Tel_Aviv-Yafo_01.JPG",
+        "credit": "Assaf Yekuel",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "title": "File:Bloomfield Stadium, January 2022 - 42.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Bloomfield_Stadium,_January_2022_-_42.jpg",
+        "credit": "Wikimedia Commons contributor",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "status": "review"
+  },
+  {
+    "id": "live-2026-08-22-ron-pyatov-fourth-parallel-bars-europeans",
+    "slug": "ron-pyatov-fourth-parallel-bars-final-european-championships-zagreb",
+    "title": "Pyatov agonisingly misses parallel bars medal on countback in Zagreb",
+    "dek": "The Israeli gymnast matched bronze medallist Joe Fraser's score of 14.300 but finished fourth on execution at the European Championships, a day after Artem Dolgopyat struck floor gold.",
+    "category": "Israeli Olympic Sport",
+    "desk": "israel",
+    "kind": "news",
+    "storyForm": "report",
+    "publishedAt": "2026-08-22T16:14:41.957Z",
+    "updatedAt": "2026-08-22T16:14:41.957Z",
+    "readMinutes": 3,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/531267.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/531267.html"
+      },
+      {
+        "label": "Wikipedia — 2026 European Men's Artistic Gymnastics Championships",
+        "url": "https://en.wikipedia.org/wiki/2026_European_Men%27s_Artistic_Gymnastics_Championships"
+      },
+      {
+        "label": "Haaretz — Dolgopyat takes third European gold",
+        "url": "https://www.haaretz.com/sports/2026-08-21/ty-article/.premium/artem-dolgopyat-takes-third-gold-in-european-gymnastics-championships-2026-final/000001a0-2550-d293-a1e7-3dd06a510000"
+      }
+    ],
+    "body": [
+      "Ron Pyatov came within a whisker of a first European senior medal on Saturday, finishing fourth in the men's parallel bars final at the European Artistic Gymnastics Championships in Zagreb after tying the bronze medallist's score but losing out on execution marks.",
+      "The Israeli, competing for Maccabi Tel Aviv, had qualified into the eight-man final in eighth place with 13.966 points. In the final itself he raised his game considerably, putting together a routine that earned 14.300 — matching Britain's Joe Fraser mark for mark.",
+      "Under gymnastics tiebreak rules, ties are broken by the higher execution score, and Fraser's superior execution mark saw the 2019 world parallel bars champion take bronze while Pyatov was pushed down to fourth, agonisingly close to the podium.",
+      "Gold went to the home favourite Illia Kovtun, the Croatia-based world and Olympic silver medallist on the apparatus, with 14.700, while Turkey's Ferhat Arıcan took silver on 14.433.",
+      "It capped a big weekend for Israeli gymnastics in Zagreb. A day earlier, Artem Dolgopyat had claimed his third European title on floor exercise, scoring 14.666 to beat the field including Great Britain's Harry Hepworth, who took bronze on 14.300 — the same mark that would decide Saturday's parallel bars podium.",
+      "For Pyatov, who has been building toward major finals through the World Cup and Challenge Cup circuit over the past year, a fourth-place finish at a European Championships final marks his best result yet on the senior international stage, even without the medal to show for it.",
+      "The Israeli team will hope to build on the display as the Zagreb championships move toward their closing events, with Dolgopyat's floor gold and Pyatov's near-miss both pointing to strength in depth for the national programme."
+    ],
+    "facts": [
+      "Ron Pyatov finished fourth in the men's parallel bars final at the 2026 European Artistic Gymnastics Championships in Zagreb, Croatia.",
+      "Pyatov scored 14.300 in the final, level with bronze medallist Joe Fraser (Great Britain), but lost out on the tiebreak execution score.",
+      "Pyatov had qualified for the final in eighth place with 13.966 points.",
+      "Gold in the parallel bars final went to Illia Kovtun (Croatia) with 14.700; silver to Ferhat Arıcan (Turkey) with 14.433.",
+      "The final took place a day after Artem Dolgopyat (Israel) won gold in the floor exercise final with 14.666, his third European title on the apparatus.",
+      "Harry Hepworth (Great Britain) took bronze in the floor final on 14.300."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 66,
+    "homepageReason": "Strong fourth-place near-miss for an Israeli gymnast at a European Championships final, paired with Dolgopyat's continental title the day before — solid Olympic-sport coverage without a medal to push it into the top tier.",
+    "dedupeKey": "euro-gymnastics-2026-zagreb-mens-parallel-bars-final",
+    "aiDisclosure": "Drafted by an AI copy desk from the cited source reporting; facts verified against independent outlets before publication.",
+    "nameChecks": [
+      {
+        "hebrew": "רון פיאטוב",
+        "english": "Ron Pyatov",
+        "verificationUrl": "https://www.facebook.com/OsijekGymnasticsCup/posts/a-fantastic-routine-by-ron-pyatov-on-the-parallel-bars-earned-him-the-gold-dwc20/1176930700798948/",
+        "confidence": 0.75
+      },
+      {
+        "hebrew": "איליה קובטון",
+        "english": "Illia Kovtun",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Illia_Kovtun",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "ג'ו פרייזר",
+        "english": "Joe Fraser",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Joe_Fraser",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "פרהאת אריג'אן",
+        "english": "Ferhat Arıcan",
+        "verificationUrl": "https://en.wikipedia.org/wiki/2026_European_Men%27s_Artistic_Gymnastics_Championships",
+        "confidence": 0.75
+      },
+      {
+        "hebrew": "ארטיום דולגופיאט",
+        "english": "Artem Dolgopyat",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Artem_Dolgopyat",
+        "confidence": 0.95
+      }
+    ],
+    "confidence": 0.78,
+    "warning": "Exact English transliteration of the athlete's surname (Pyatov/Piatov/Fiatov) varies across sources; full final start list/official FIG results page was not directly accessible to cross-check every score to the decimal.",
+    "commonsQuery": "Artem Dolgopyat gymnast Israel / Arena Zagreb gymnastics venue",
+    "commonsCandidates": [
+      {
+        "title": "File:Internationaux de France 2018 - DOLGOPYAT Artem.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Internationaux_de_France_2018_-_DOLGOPYAT_Artem.jpg",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:Artyom Dolgopyat (ISR) 2021.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Artyom_Dolgopyat_(ISR)_2021.jpg",
+        "credit": "Mark Neyman / Government Press Office of Israel, via Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:Arena Zagreb (38749792485).jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Arena_Zagreb_(38749792485).jpg",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 2.0"
+      }
+    ],
+    "status": "published"
   }
 ]

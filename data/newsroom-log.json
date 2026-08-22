@@ -2572,5 +2572,61 @@
         "reason": ""
       }
     ]
+  },
+  {
+    "ts": "2026-08-22T16:14:41.957Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 3,
+    "review": 2,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "ron-pyatov-fourth-parallel-bars-final-european-championships-zagreb",
+        "title": "Pyatov agonisingly misses parallel bars medal on countback in Zagreb",
+        "confidence": 0.78,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "kenny-miller-family-house-car-ramming-scotland",
+        "title": "Car rammed into house linked to Maccabi Tel Aviv coach Kenny Miller in Scotland",
+        "confidence": 0.75,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Single-sourced to Sport5 for the specific incident and Miller-Steel connection; Police Scotland has not named suspects or confirmed motive publicly."
+      },
+      {
+        "slug": "arsenal-thrash-coventry-city-premier-league-opener",
+        "title": "Arsenal 3-0 Coventry: Havertz, Saka and Odegaard open title defence in style",
+        "confidence": 0.95,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "marseille-strasbourg-ligue-1-opener-gouiri-brace",
+        "title": "Marseille 4-0 Strasbourg: Gouiri brace and late double seal statement Ligue 1 opener",
+        "confidence": 0.92,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "jonathan-motley-hapoel-tel-aviv-bench-interview",
+        "title": "Jonathan Motley: 'I sat too much on the bench at Hapoel Tel Aviv'",
+        "confidence": 0.87,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "below gate thresholds"
+      }
+    ]
   }
 ]
