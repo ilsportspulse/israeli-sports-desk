@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T19:04:55.357Z",
+  "generatedAt": "2026-08-23T19:56:00.372Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,11 +11,11 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1164,
+    "publishedArticles": 1165,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 417.5,
+      "median": 417,
       "average": 422.1
     },
     "paragraphDistribution": {
@@ -24,7 +24,7 @@
       "5": 10,
       "6": 54,
       "7": 176,
-      "8": 342,
+      "8": 343,
       "9": 282,
       "10": 186,
       "11": 48,
@@ -4565,6 +4565,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-23-maccabi-tel-aviv-youth-teams-open-season",
+      "slug": "maccabi-tel-aviv-youth-teams-open-season",
+      "title": "Maccabi Tel Aviv's youth teams open season with 6-0 rout and 3-2 comeback win",
+      "kind": "match-report",
+      "words": 357,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 55,
+        "average": 44.6
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 116,
+        "average": 51
+      },
+      "lexicalDiversity": 0.616,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-23-atletico-shield-alvarez-fans-villarreal",
       "slug": "atletico-shield-alvarez-fans-villarreal-draw",
