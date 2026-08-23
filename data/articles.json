@@ -5250,7 +5250,7 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "",
+    "warning": "dup same-match recap (3 shared tokens)",
     "commonsQuery": "HaMoshava Stadium Hapoel Petah Tikva",
     "commonsCandidates": [
       {
@@ -5266,7 +5266,7 @@
         "license": "CC BY 3.0"
       }
     ],
-    "status": "published"
+    "status": "review"
   },
   {
     "id": "live-2026-08-23-maccabi-haifa-bruninho-brace-ramat-gan",
@@ -170739,5 +170739,310 @@
     "commonsQuery": "",
     "commonsCandidates": [],
     "status": "review"
+  },
+  {
+    "id": "live-20260823-bnei-yehuda-kfar-shalem-national-league",
+    "slug": "bnei-yehuda-kfar-shalem-national-league-round-two",
+    "title": "Bnei Yehuda host Kfar Shalem as National League clash runs into its closing stages",
+    "dek": "ONE's live coverage had the sides level at 1-2 when its report was timestamped to the 59th minute, but the full-time score could not be independently confirmed at the time of writing.",
+    "category": "Israeli Football",
+    "desk": "israel",
+    "kind": "match-report",
+    "storyForm": "match-report",
+    "publishedAt": "2026-08-23T18:07:48.835Z",
+    "updatedAt": "2026-08-23T18:07:48.835Z",
+    "readMinutes": 2,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/531330.html"
+    },
+    "verificationSources": [
+      {
+        "label": "Sport5 — live match centre, Bnei Yehuda v Hapoel Kfar Shalem",
+        "url": "https://m.sport5.co.il/Pages/Game.aspx?GameID=6128227"
+      },
+      {
+        "label": "BE106 Tel Aviv-Jaffa — Bnei Yehuda's National League fixture schedule",
+        "url": "https://www.be106.net/255/153513"
+      }
+    ],
+    "body": [
+      "Bnei Yehuda were hosting Hapoel Kfar Shalem in round two of Israel's National League season when ONE's live coverage was captured, with the outlet's headline — timestamped to the 59th minute — showing the sides level at 1-2.",
+      "That is an in-play score, not a result. ONE's own headline marks it to the 59th minute of what is a 90-minute fixture, meaning more than half an hour of match time, plus stoppage, remained unplayed at the point this report was sourced.",
+      "Israel Sports Pulse holds match reports until a game's full-time score can be confirmed. A further goal, a red card or a late twist are all still possible in the closing stages of a Liga Leumit fixture, so nothing above should be read as a final outcome.",
+      "Checks against Sport5's live match centre and other Israeli outlets did not return a consistent, independently confirmed full-time score for this fixture at the time of writing.",
+      "This story will be revisited once ONE, Sport5 or another reliable outlet confirms the final score from Bnei Yehuda's home fixture against Kfar Shalem."
+    ],
+    "facts": [
+      "Bnei Yehuda hosted Hapoel Kfar Shalem in round two of Israel's National League (Liga Leumit) season, per ONE.",
+      "ONE's report, headlined 'Minute 59: Bnei Yehuda - Kfar Shalem 1:2', reflects an in-progress score at the 59th minute, not a final result.",
+      "The source article is a live match update rather than a confirmed full-time report.",
+      "No independent outlet could be confirmed as having published a consistent final score for this fixture at the time of writing.",
+      "Under Israel Sports Pulse's editorial gates, match reports are held until the final score is confirmed; this story is held pending that confirmation."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 0,
+    "homepageReason": "Held: the source is a live, in-progress update (minute 59), and the full-time score could not be independently confirmed — publishing now would risk reporting an unfinished match as a result.",
+    "dedupeKey": "national-league-2026-27-r2-bneiyehuda-kfarshalem",
+    "aiDisclosure": "Drafted by Israel Sports Pulse's automated copy desk from ONE's live-match reporting; held pending independent full-time confirmation before publication.",
+    "nameChecks": [
+      {
+        "hebrew": "בני יהודה",
+        "english": "Bnei Yehuda",
+        "verificationUrl": "https://www.one.co.il/Article/531330.html",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "הפועל כפר שלם",
+        "english": "Hapoel Kfar Shalem",
+        "verificationUrl": "https://www.one.co.il/Article/531330.html",
+        "confidence": 0.6
+      }
+    ],
+    "confidence": 0,
+    "warning": "match in progress — wait for full time; final score could not be independently confirmed",
+    "commonsQuery": "",
+    "commonsCandidates": [],
+    "status": "review"
+  },
+  {
+    "id": "live-20260823-bnei-yehuda-honors-adam-tzarfati",
+    "slug": "bnei-yehuda-honours-fallen-fan-adam-tzarfati",
+    "title": "Bnei Yehuda honour fallen fan and Maglan fighter Adam Tzarfati",
+    "dek": "The Tel Aviv club used its first home game of the season to host the family and army comrades of Sergeant Adam Tzarfati, a lifelong supporter killed in Lebanon in June, presenting them with a portrait of him in the team's colours.",
+    "category": "Israeli Football",
+    "desk": "israel",
+    "kind": "feature",
+    "storyForm": "event-institutional-report",
+    "publishedAt": "2026-08-23T18:07:48.835Z",
+    "updatedAt": "2026-08-23T18:07:48.835Z",
+    "readMinutes": 3,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/531390.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE — \"בני יהודה הנציחה את זכרו של אדם צרפתי ז״ל\"",
+        "url": "https://www.one.co.il/Article/531390.html"
+      },
+      {
+        "label": "Haaretz — Sgt. Adam Tzarfati, 20, killed by explosive drone in southern Lebanon",
+        "url": "https://www.haaretz.co.il/news/politics/2026-06-01/ty-article/0000019e-8193-d719-af9f-ebd7e5190000"
+      },
+      {
+        "label": "Mako — IDF clears for publication: Maglan fighter Adam Tzarfati killed by explosive drone in Lebanon",
+        "url": "https://www.mako.co.il/pzm-soldiers/Article-005cadbc8b18e91027.htm"
+      },
+      {
+        "label": "Ynet — Cleared for publication: Sgt. Adam Tzarfati, Maglan fighter, killed by drone strike in southern Lebanon",
+        "url": "https://www.ynet.co.il/news/article/ry00yiqqefl"
+      }
+    ],
+    "body": [
+      "Bnei Yehuda turned their first home fixture of the 2026/27 season into a tribute, hosting the family and Maglan unit comrades of Sergeant Adam Tzarfati, a devoted club fan killed in southern Lebanon in June, for a memorial ceremony before kickoff.",
+      "Club owner Eliran Oved and CEO Oshri Dudai presented the family with a specially commissioned portrait of Adam wearing a Bnei Yehuda jersey from 2006 — the year he was born — as supporters in the Hatikva Quarter stadium looked on.",
+      "Tzarfati, from Rosh Ha'ayin, was 20 years old and served as a fighter in the elite Maglan reconnaissance unit. He was killed on June 1 when an explosive drone struck his position during operational activity in southern Lebanon; three other soldiers were wounded in the same incident, one of them seriously.",
+      "His death came amid a grinding string of losses along the northern front since the ceasefire with Hezbollah took hold in April, with Tzarfati among more than a dozen soldiers killed by drone and UAV strikes in the months that followed.",
+      "According to ONE, Adam had followed Bnei Yehuda since childhood, with family members regularly bringing him to matches at the club's home ground. He kept close tabs on the team on social media and once celebrated a birthday at Bnei Yehuda's training facility, a mark of just how central the orange-and-black club was to his life.",
+      "His mother, Mali, recalled that devotion as family and unit comrades were welcomed as guests of honour for the season-opening ceremony, an occasion the club used to formally fold Adam's memory into its own history.",
+      "\"Adam, you were and will remain part of our orange family forever,\" the club said in a statement. \"May your memory be blessed.\"",
+      "The gesture places Bnei Yehuda among a number of Israeli clubs that have used matchday ceremonies this season to honour supporters and former players lost during more than two years of fighting on multiple fronts, a grim but now familiar ritual across the country's stadiums."
+    ],
+    "facts": [
+      "Bnei Yehuda held a memorial ceremony for fan Adam Tzarfati at their first home match of the 2026/27 season.",
+      "Club owner Eliran Oved and CEO Oshri Dudai presented Tzarfati's family with a portrait of him wearing a 2006 Bnei Yehuda jersey, the year of his birth.",
+      "Sergeant Adam Tzarfati, 20, of Rosh Ha'ayin, was a fighter in the Maglan special forces unit.",
+      "Tzarfati was killed on June 1, 2026, when an explosive drone struck during operational activity in southern Lebanon; three other soldiers were wounded, one seriously.",
+      "Tzarfati had supported Bnei Yehuda since childhood, regularly attended matches with family, and once celebrated a birthday at the club's training facility.",
+      "The club's family and Maglan unit comrades were hosted as guests of honour at the ceremony."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 42,
+    "homepageReason": "A club tribute and community story rather than a match result — meaningful to Bnei Yehuda's fanbase but not a competitive outcome.",
+    "dedupeKey": "bnei-yehuda-tribute-adam-tzarfati-2026-08-23",
+    "aiDisclosure": "Drafted by Israel Sports Pulse's automated copy desk from ONE's reporting and independently checked against Israeli news coverage of Sgt. Adam Tzarfati's death before publication.",
+    "nameChecks": [
+      {
+        "hebrew": "אדם צרפתי",
+        "english": "Adam Tzarfati",
+        "verificationUrl": "https://www.haaretz.co.il/news/politics/2026-06-01/ty-article/0000019e-8193-d719-af9f-ebd7e5190000",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "אלירן עובד",
+        "english": "Eliran Oved",
+        "verificationUrl": "https://www.one.co.il/Article/531390.html",
+        "confidence": 0.8
+      },
+      {
+        "hebrew": "אושרי דודאי",
+        "english": "Oshri Dudai",
+        "verificationUrl": "https://www.one.co.il/Article/531390.html",
+        "confidence": 0.8
+      },
+      {
+        "hebrew": "בני יהודה",
+        "english": "Bnei Yehuda Tel Aviv",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Bnei_Yehuda_Tel_Aviv_F.C.",
+        "confidence": 0.95
+      }
+    ],
+    "confidence": 0.85,
+    "warning": "",
+    "commonsQuery": "Bnei Yehuda Hatikva Neighborhood Stadium Tel Aviv / Maglan unit IDF soldiers training",
+    "commonsCandidates": [
+      {
+        "title": "File:Hatikva_Neighborhood_Stadium01.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Hatikva_Neighborhood_Stadium01.jpg",
+        "credit": "Little Savage / Wikimedia Commons",
+        "license": "Public domain"
+      },
+      {
+        "title": "File:Hatikva_Neighborhood_Stadium_(1).jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Hatikva_Neighborhood_Stadium_(1).jpg",
+        "credit": "Little Savage / Wikimedia Commons",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "title": "File:Unit212TrainingDay.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Unit212TrainingDay.jpg",
+        "credit": "IDF Spokesperson's Unit / Wikimedia Commons",
+        "license": "CC BY-SA 3.0"
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "live-2026-08-23-newcastle-liverpool-szoboszlai-penalty",
+    "slug": "newcastle-liverpool-2-2-szoboszlai-penalty-iraola-debut",
+    "title": "Newcastle 2-2 Liverpool: Szoboszlai's stoppage-time penalty rescues Iraola's opening day",
+    "dek": "A stoppage-time penalty from Dominik Szoboszlai denied Newcastle victory on Matthias Jaissle's home bow as Andoni Iraola avoided defeat in his first competitive game as Liverpool manager.",
+    "category": "World Football",
+    "desk": "international",
+    "kind": "news",
+    "storyForm": "match-report",
+    "publishedAt": "2026-08-23T18:07:48.835Z",
+    "updatedAt": "2026-08-23T18:07:48.835Z",
+    "readMinutes": 4,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/531385.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ESPN match report",
+        "url": "https://www.espn.com/soccer/story/_/id/49703061/liverpool-score-stoppage-penalty-draw-newcastle"
+      },
+      {
+        "label": "Sky Sports - Newcastle appoint Jaissle",
+        "url": "https://www.skysports.com/football/news/11678/13568428/newcastle-united-appoint-matthias-jaissle-as-head-coach-following-eddie-howes-departure-from-st-james-park"
+      },
+      {
+        "label": "Al Jazeera - Liverpool appoint Iraola",
+        "url": "https://www.aljazeera.com/sports/2026/6/4/liverpool-appoint-spaniard-iraola-as-new-manager-in-place-of-slot"
+      },
+      {
+        "label": "Sky Sports - Brentford 3-0 Tottenham",
+        "url": "https://www.skysports.com/football/news/11675/13565665/brentford-3-0-tottenham-big-spending-spurs-start-new-premier-league-season-with-dismal-defeat"
+      },
+      {
+        "label": "Sky Sports - Hull City 2-0 Man Utd",
+        "url": "https://www.skysports.com/football/news/11095/13565531/hull-city-2-0-man-utd-michael-carricks-side-left-stunned-by-newly-promoted-tigers-in-premier-league-opener"
+      }
+    ],
+    "body": [
+      "Andoni Iraola's first competitive afternoon in charge of Liverpool very nearly ended in defeat. It took a penalty in the ninth minute of stoppage time, converted by Dominik Szoboszlai, to salvage a 2-2 draw at St James' Park and spare the Spaniard an opening-day loss on the road.",
+      "Newcastle, themselves fielding a new head coach in Matthias Jaissle for the first time on home turf, led twice. Anthony Elanga put the hosts ahead inside five minutes, finishing off a slick move started by William Osula, and looked to have set up a home win when Joe Willock restored the lead with a curling effort from distance that beat Alisson just two minutes after Cody Gakpo had leveled.",
+      "Gakpo's 55th-minute equaliser had briefly suggested Liverpool would settle for parity, only for Willock to strike back almost immediately and leave the visitors chasing the game deep into the second half.",
+      "The decisive moment arrived agonisingly late. With the board showing nine added minutes, Newcastle full-back Lewis Hall brought down Liverpool debutant Víctor Muñoz inside the box, and Szoboszlai stepped up to send the goalkeeper the wrong way and complete a dramatic share of the spoils.",
+      "It was a fitting way to open a Premier League campaign already reshaped by managerial upheaval on both sides. Iraola arrived at Anfield this summer after Liverpool moved on from Arne Slot, while Jaissle, freshly installed after Eddie Howe's departure ended one of Newcastle's most successful managerial spells in decades, was taking his first bow in front of the St James' Park crowd.",
+      "For Iraola, escaping with a point after twice trailing away from home offers early evidence of the resilience he will need to make an impression at Anfield. Losing his first game in charge would have made for an uncomfortable build-up to Liverpool's home opener.",
+      "The draw was one of several shocks on a chaotic opening weekend across England. Tottenham's big-spending summer - roughly £237 million across six signings - yielded a grim start as they were beaten 3-0 at Brentford, with Keane Lewis-Potter, Vitaly Janelt and Michael Kayode all scoring for the Bees.",
+      "Manchester United fared little better. Michael Carrick's side, playing their first match since he was confirmed as permanent manager, were beaten 2-0 away at newly promoted Hull City, with Semi Ajayi and Nobel Mendy scoring either side of half-time in a result few had predicted.",
+      "Iraola's Liverpool now get their first home fixture of the new era when Nottingham Forest visit Anfield on Saturday, with the new manager looking to follow up a dramatic away point with a first win in front of his own supporters."
+    ],
+    "facts": [
+      "Newcastle United 2-2 Liverpool, Premier League Matchday 1, St James' Park, 23 August 2026.",
+      "Anthony Elanga opened the scoring for Newcastle in the 5th minute, assisted by William Osula.",
+      "Cody Gakpo equalised for Liverpool in the 55th minute.",
+      "Joe Willock restored Newcastle's lead in the 57th minute with a long-range effort past Alisson.",
+      "Dominik Szoboszlai converted a stoppage-time penalty (9th minute of added time) after Lewis Hall fouled debutant Víctor Muñoz, securing the 2-2 final score.",
+      "The match was Andoni Iraola's competitive debut as Liverpool manager (succeeding Arne Slot) and Matthias Jaissle's home debut as Newcastle manager (succeeding Eddie Howe).",
+      "Elsewhere on the Premier League's opening weekend, Tottenham lost 3-0 at Brentford and Manchester United lost 2-0 away to newly-promoted Hull City."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 52,
+    "homepageReason": "Dramatic stoppage-time leveller on the Premier League's opening weekend, framed by the competitive debuts of two high-profile new managers, Iraola at Liverpool and Jaissle at Newcastle.",
+    "dedupeKey": "epl-2026-27-md1-newcastle-liverpool",
+    "aiDisclosure": "Drafted by an AI copy desk assistant from ONE's report, cross-checked against ESPN, Sky Sports and Al Jazeera reporting.",
+    "nameChecks": [
+      {
+        "hebrew": "דומיניק סובוסלאי",
+        "english": "Dominik Szoboszlai",
+        "verificationUrl": "https://www.espn.com/soccer/story/_/id/49703061/liverpool-score-stoppage-penalty-draw-newcastle",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "אנתוני אלנגה",
+        "english": "Anthony Elanga",
+        "verificationUrl": "https://www.one.co.il/Article/531385.html",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "קודי גאקפו",
+        "english": "Cody Gakpo",
+        "verificationUrl": "https://www.espn.com/soccer/story/_/id/49703061/liverpool-score-stoppage-penalty-draw-newcastle",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "ג'ו ווילוק",
+        "english": "Joe Willock",
+        "verificationUrl": "https://www.espn.com/soccer/story/_/id/49703061/liverpool-score-stoppage-penalty-draw-newcastle",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "וויליאם אוסולה",
+        "english": "William Osula",
+        "verificationUrl": "https://www.one.co.il/Article/531385.html",
+        "confidence": 0.85
+      },
+      {
+        "hebrew": "אנדוני איראולה",
+        "english": "Andoni Iraola",
+        "verificationUrl": "https://www.aljazeera.com/sports/2026/6/4/liverpool-appoint-spaniard-iraola-as-new-manager-in-place-of-slot",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "נוטינגהאם פורסט",
+        "english": "Nottingham Forest",
+        "verificationUrl": "https://www.one.co.il/Article/531385.html",
+        "confidence": 0.9
+      }
+    ],
+    "confidence": 0.85,
+    "warning": "",
+    "commonsQuery": "Dominik Szoboszlai Liverpool St James Park Newcastle",
+    "commonsCandidates": [
+      {
+        "title": "File:Dominik Szoboszlai 06042025 (1).jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Dominik_Szoboszlai_06042025_(1).jpg",
+        "credit": "Timmy96 / Wikimedia Commons",
+        "license": "CC0 1.0"
+      },
+      {
+        "title": "File:St James Park Newcastle view from the south.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:St_James_Park_Newcastle_view_from_the_south.jpg",
+        "credit": "Steve Brown / Wikimedia Commons",
+        "license": "CC BY-SA 2.0"
+      },
+      {
+        "title": "File:Andoni Iraola 2023.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Andoni_Iraola_2023.jpg",
+        "credit": "AFC Bournemouth, uploaded by Dudek1337 / Wikimedia Commons",
+        "license": "CC BY 3.0"
+      }
+    ],
+    "status": "published"
   }
 ]

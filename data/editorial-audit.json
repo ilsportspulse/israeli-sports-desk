@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T18:06:03.839Z",
+  "generatedAt": "2026-08-23T18:24:33.647Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,12 +17,12 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1707,
-    "publishedBefore": 1161,
-    "cleanPublished": 1154,
+    "totalArticles": 1706,
+    "publishedBefore": 1160,
+    "cleanPublished": 1153,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1161,
+    "publishedAfter": 1160,
     "reviewAfter": 546
   },
   "blockedPublished": [
@@ -141,31 +141,17 @@
   ],
   "warnings": [
     {
-      "id": "live-20260823-ifa-youth-league-ranking-delay",
-      "slug": "israel-football-association-postpones-childrens-league-ranking-system",
-      "title": "Israel Football Association postpones new ranking system for children's leagues by a season",
-      "statusBefore": "published",
-      "words": 400,
-      "paragraphs": 8,
-      "facts": 7,
-      "verificationSources": 3,
+      "id": "live-20260823-bnei-yehuda-kfar-shalem-national-league",
+      "slug": "bnei-yehuda-kfar-shalem-national-league-round-two",
+      "title": "Bnei Yehuda host Kfar Shalem as National League clash runs into its closing stages",
+      "statusBefore": "review",
+      "words": 179,
+      "paragraphs": 5,
+      "facts": 5,
+      "verificationSources": 2,
       "blockers": [],
       "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-20260823-alvarez-atletico-fans-boo-metropolitano",
-      "slug": "julian-alvarez-booed-atletico-madrid-fans-metropolitano-barcelona",
-      "title": "Julián Álvarez booed by Atlético Madrid fans at the Metropolitano amid Barcelona fallout",
-      "statusBefore": "published",
-      "words": 369,
-      "paragraphs": 9,
-      "facts": 7,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
+        "presentation:outlet-name-in-headline"
       ]
     },
     {
@@ -703,7 +689,7 @@
       "id": "live-2026-08-23-tiberias-petah-tikva-var-offside",
       "slug": "ironi-tiberias-hapoel-petah-tikva-var-offside-controversy",
       "title": "Ironi Tiberias 1-0 Hapoel Petah Tikva: disallowed Rivollier goal fuels VAR storm on opening day",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 454,
       "paragraphs": 9,
       "facts": 7,
@@ -16841,32 +16827,28 @@
   ],
   "cleanPublished": [
     {
-      "id": "live-20260823-ifa-youth-league-ranking-delay",
-      "slug": "israel-football-association-postpones-childrens-league-ranking-system",
-      "title": "Israel Football Association postpones new ranking system for children's leagues by a season",
+      "id": "live-20260823-bnei-yehuda-honors-adam-tzarfati",
+      "slug": "bnei-yehuda-honours-fallen-fan-adam-tzarfati",
+      "title": "Bnei Yehuda honour fallen fan and Maglan fighter Adam Tzarfati",
       "statusBefore": "published",
-      "words": 400,
+      "words": 333,
       "paragraphs": 8,
-      "facts": 7,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-20260823-alvarez-atletico-fans-boo-metropolitano",
-      "slug": "julian-alvarez-booed-atletico-madrid-fans-metropolitano-barcelona",
-      "title": "Julián Álvarez booed by Atlético Madrid fans at the Metropolitano amid Barcelona fallout",
-      "statusBefore": "published",
-      "words": 369,
-      "paragraphs": 9,
-      "facts": 7,
+      "facts": 6,
       "verificationSources": 4,
       "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-23-newcastle-liverpool-szoboszlai-penalty",
+      "slug": "newcastle-liverpool-2-2-szoboszlai-penalty-iraola-debut",
+      "title": "Newcastle 2-2 Liverpool: Szoboszlai's stoppage-time penalty rescues Iraola's opening day",
+      "statusBefore": "published",
+      "words": 435,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
     },
     {
       "id": "live-20260823-sokler-revivo-start-maccabi-tel-aviv",
@@ -17258,20 +17240,6 @@
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline"
-      ]
-    },
-    {
-      "id": "live-2026-08-23-tiberias-petah-tikva-var-offside",
-      "slug": "ironi-tiberias-hapoel-petah-tikva-var-offside-controversy",
-      "title": "Ironi Tiberias 1-0 Hapoel Petah Tikva: disallowed Rivollier goal fuels VAR storm on opening day",
-      "statusBefore": "published",
-      "words": 454,
-      "paragraphs": 9,
-      "facts": 7,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
       ]
     },
     {
