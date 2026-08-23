@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T08:12:44.309Z",
+  "generatedAt": "2026-08-23T09:17:33.696Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1640,
-    "publishedBefore": 1129,
-    "cleanPublished": 1122,
+    "totalArticles": 1644,
+    "publishedBefore": 1132,
+    "cleanPublished": 1125,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1129,
-    "reviewAfter": 511
+    "publishedAfter": 1132,
+    "reviewAfter": 512
   },
   "blockedPublished": [
     {
@@ -140,6 +140,50 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-2026-08-23-hapoel-tel-aviv-gelbard-loan-gorfinkel",
+      "slug": "hapoel-tel-aviv-gelbard-loan-kfar-saba-gorfinkel-return",
+      "title": "Hapoel Tel Aviv close in on Gelbard loan to Kfar Saba as Gurfinkel return nears",
+      "statusBefore": "published",
+      "words": 444,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260823-fogel-stays-beer-sheva-dimona",
+      "slug": "matan-fogel-stays-hapoel-beer-sheva-dimona",
+      "title": "Hapoel Beer Sheva/Dimona confirm teenage forward Matan Fogel will stay",
+      "statusBefore": "review",
+      "words": 437,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-23-yaniv-levy-steps-down-league-directorate",
+      "slug": "yaniv-levy-steps-down-basketball-league-directorate",
+      "title": "Yaniv Levy steps down from Israel Basketball Premier League directorate",
+      "statusBefore": "published",
+      "words": 323,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-08-23-maccabi-tel-aviv-hapoel-jerusalem-odds-preview",
       "slug": "maccabi-tel-aviv-hapoel-jerusalem-odds-preview",
@@ -16121,6 +16165,48 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-23-hapoel-tel-aviv-gelbard-loan-gorfinkel",
+      "slug": "hapoel-tel-aviv-gelbard-loan-kfar-saba-gorfinkel-return",
+      "title": "Hapoel Tel Aviv close in on Gelbard loan to Kfar Saba as Gurfinkel return nears",
+      "statusBefore": "published",
+      "words": 444,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-23-yaniv-levy-steps-down-league-directorate",
+      "slug": "yaniv-levy-steps-down-basketball-league-directorate",
+      "title": "Yaniv Levy steps down from Israel Basketball Premier League directorate",
+      "statusBefore": "published",
+      "words": 323,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-23-augustine-rubit-lands-joins-maccabi-ashdod",
+      "slug": "augustine-rubit-lands-joins-maccabi-ashdod",
+      "title": "Augustine Rubit lands in Israel to join Maccabi Ashdod",
+      "statusBefore": "published",
+      "words": 328,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-2026-08-23-maccabi-tel-aviv-hapoel-jerusalem-odds-preview",
       "slug": "maccabi-tel-aviv-hapoel-jerusalem-odds-preview",

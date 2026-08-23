@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T08:12:44.941Z",
+  "generatedAt": "2026-08-23T09:17:34.178Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,19 +11,19 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1129,
+    "publishedArticles": 1132,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 418,
-      "average": 422.9
+      "average": 422.7
     },
     "paragraphDistribution": {
       "3": 36,
       "4": 6,
       "5": 10,
       "6": 53,
-      "7": 167,
+      "7": 170,
       "8": 334,
       "9": 270,
       "10": 181,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.296,
+    "dominantParagraphShare": 0.295,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 53,
     "analysisBelowTarget": 11,
@@ -4449,6 +4449,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-23-hapoel-tel-aviv-gelbard-loan-gorfinkel",
+      "slug": "hapoel-tel-aviv-gelbard-loan-kfar-saba-gorfinkel-return",
+      "title": "Hapoel Tel Aviv close in on Gelbard loan to Kfar Saba as Gurfinkel return nears",
+      "kind": "news",
+      "words": 443,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 41,
+        "longest": 88,
+        "average": 63.3
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 45,
+        "average": 31.6
+      },
+      "lexicalDiversity": 0.558,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-23-yaniv-levy-steps-down-league-directorate",
+      "slug": "yaniv-levy-steps-down-basketball-league-directorate",
+      "title": "Yaniv Levy steps down from Israel Basketball Premier League directorate",
+      "kind": "news",
+      "words": 322,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 57,
+        "average": 46
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 49,
+        "average": 29.3
+      },
+      "lexicalDiversity": 0.606,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-23-augustine-rubit-lands-joins-maccabi-ashdod",
+      "slug": "augustine-rubit-lands-joins-maccabi-ashdod",
+      "title": "Augustine Rubit lands in Israel to join Maccabi Ashdod",
+      "kind": "news",
+      "words": 328,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 28,
+        "longest": 71,
+        "average": 46.9
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 89,
+        "average": 29.8
+      },
+      "lexicalDiversity": 0.64,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-23-maccabi-tel-aviv-hapoel-jerusalem-odds-preview",
       "slug": "maccabi-tel-aviv-hapoel-jerusalem-odds-preview",
