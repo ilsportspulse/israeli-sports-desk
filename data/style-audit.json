@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T00:03:17.249Z",
+  "generatedAt": "2026-08-23T01:26:42.135Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1120,
+    "publishedArticles": 1122,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 417.5,
-      "average": 422.2
+      "median": 418,
+      "average": 422.5
     },
     "paragraphDistribution": {
       "3": 36,
@@ -25,7 +25,7 @@
       "6": 53,
       "7": 167,
       "8": 332,
-      "9": 266,
+      "9": 268,
       "10": 178,
       "11": 48,
       "12": 14,
@@ -4426,6 +4426,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-23-espanyol-real-madrid-espi-mourinho",
+      "slug": "espanyol-real-madrid-espi-late-winner-mourinho-return",
+      "title": "Espanyol 1-2 Real Madrid: Carlos Espí's stoppage-time winner rescues Mourinho's return",
+      "kind": "match-report",
+      "words": 513,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 42,
+        "longest": 81,
+        "average": 57
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 58,
+        "average": 28.5
+      },
+      "lexicalDiversity": 0.585,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "archive-20260823-seoul-6-march-2017-the-night-baseball-s-",
+      "slug": "seoul-6-march-2017-the-night-baseball-s-biggest-underdog-beat-the-host",
+      "title": "Seoul, 6 March 2017: The Night Baseball's Biggest Underdog Beat the Host Nation",
+      "kind": "explainer",
+      "words": 701,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 119,
+        "average": 77.9
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 93,
+        "average": 30.5
+      },
+      "lexicalDiversity": 0.524,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-22-artzi-israel-basketball-georgia-poland-window",
       "slug": "artzi-israel-basketball-georgia-poland-window",

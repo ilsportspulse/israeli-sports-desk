@@ -1,67 +1,67 @@
 {
-  "date": "2026-08-22",
+  "date": "2026-08-23",
   "title": "The Daily Five",
-  "dek": "Five questions from this week's verified Israel Sports Pulse coverage, spanning basketball history, gymnastics gold in Zagreb, and transfer-market intrigue.",
+  "dek": "Five questions on this week's Israeli sports headlines — from Zagreb gymnastics to a Tbilisi basketball squad list.",
   "questions": [
     {
-      "question": "What score secured Artem Dolgopyat's third European floor exercise gold in Zagreb on 21 August 2026?",
+      "question": "Ahead of Israel's basketball warm-up against Georgia in Tbilisi, which two NBA players were not released by their clubs for the national team window?",
       "answers": [
-        "14.466",
-        "14.766",
-        "14.333",
-        "14.300"
+        "Deni Avdija and Ben Saraf",
+        "Sandro Mamukelashvili and Goga Bitadze",
+        "Idan Zalmanson and Ilay Dolinski",
+        "Ben Saraf and Goga Bitadze"
       ],
       "correctIndex": 0,
-      "explanation": "Dolgopyat scored 14.466 in the final to beat silver medallist Arsenii Dukhno (14.333) and bronze medallist Harry Hepworth (14.300).",
-      "sourceUrl": "https://www.one.co.il/Article/531191.html"
+      "explanation": "Ynet reported that NBA players Deni Avdija and Ben Saraf were not released by their clubs for the window that included the Georgia friendly.",
+      "sourceUrl": "https://www.one.co.il/Article/531288.html"
     },
     {
-      "question": "Maccabi Tel Aviv beat which club 81–67 in the 2001 FIBA SuproLeague final in Paris?",
+      "question": "What score did Artem Dolgopyat post to win his third European floor exercise title in Zagreb?",
       "answers": [
-        "CSKA Moscow",
-        "Kinder Bologna",
-        "Panathinaikos",
-        "Real Madrid"
+        "13.966",
+        "14.700",
+        "14.466",
+        "14.300"
       ],
       "correctIndex": 2,
-      "explanation": "Maccabi beat Panathinaikos 81–67 at the Palais Omnisports de Paris-Bercy on 13 May 2001, having beaten CSKA Moscow in the semifinal.",
-      "sourceUrl": "https://en.wikipedia.org/wiki/2001_FIBA_SuproLeague_Final_Four"
+      "explanation": "Dolgopyat won gold in the floor final at the European Artistic Gymnastics Championships in Zagreb on 21 August 2026 with a score of 14.466.",
+      "sourceUrl": "https://www.one.co.il/Article/531293.html"
     },
     {
-      "question": "Which club did EuroCup Finals MVP Johnathan Motley join after leaving Hapoel Tel Aviv this summer?",
+      "question": "Manor Solomon scored on his full West Ham debut in a 2-2 draw against which club?",
       "answers": [
-        "Olympiacos",
-        "Panathinaikos",
-        "Crvena Zvezda",
-        "Real Madrid"
-      ],
-      "correctIndex": 2,
-      "explanation": "Motley left Hapoel Tel Aviv, despite having already signed a contract extension, to join Crvena Zvezda, reuniting with former teammate Chris Jones.",
-      "sourceUrl": "https://www.one.co.il/Article/531241.html"
-    },
-    {
-      "question": "Which Israeli midfielder already plays for Ferencváros, the club reportedly chasing Maccabi Netanya's Bassam Zaarura?",
-      "answers": [
-        "Omer Atzili",
-        "Gabi Kanichowsky",
-        "Dor Peretz",
-        "Yarden Shua"
-      ],
-      "correctIndex": 1,
-      "explanation": "Ferencváros already field Israeli midfielder Gabi Kanichowsky, a former Maccabi Tel Aviv player, according to ONE's report on the Zaarura interest.",
-      "sourceUrl": "https://www.one.co.il/Article/531208.html"
-    },
-    {
-      "question": "Who scored the 75th-minute penalty that sealed Maccabi Tel Aviv's 3-1 youth league win at Maccabi Petah Tikva?",
-      "answers": [
-        "Ido Yosef",
-        "Itay Mahager",
-        "Liam Weinstein",
-        "Roy Gafni"
+        "Charlton Athletic",
+        "Everton",
+        "Crystal Palace",
+        "Burnley"
       ],
       "correctIndex": 3,
-      "explanation": "Roy Gafni converted a 75th-minute penalty to complete the 3-1 scoreline in round two of the Youth Premier League.",
-      "sourceUrl": "https://www.one.co.il/Article/531233.html"
+      "explanation": "Solomon, who joined West Ham from Tottenham on 10 August 2026, scored on his full debut in a 2-2 draw at Burnley on 16 August 2026.",
+      "sourceUrl": "https://www.one.co.il/Article/531283.html"
+    },
+    {
+      "question": "Who scored Lugano's penalty winner in the 54th minute against Maccabi Tel Aviv in their Conference League play-off first leg?",
+      "answers": [
+        "Kevin Behrens",
+        "Ido Shahar",
+        "Anto Grgic",
+        "Gabi Kanikovsky"
+      ],
+      "correctIndex": 2,
+      "explanation": "Anto Grgic scored a penalty winner in the 54th minute as Lugano beat Maccabi Tel Aviv 2-1 in Switzerland on 20 August 2026.",
+      "sourceUrl": "https://www.one.co.il/Article/531173.html"
+    },
+    {
+      "question": "In Israel's historic 2-1 win over host South Korea at the 2017 World Baseball Classic, whose infield single drove in the winning run in the tenth inning?",
+      "answers": [
+        "Jason Marquis",
+        "Josh Zeid",
+        "Tyler Krieger",
+        "Scott Burcham"
+      ],
+      "correctIndex": 3,
+      "explanation": "Scott Burcham's infield single in the tenth inning drove in pinch-runner Mike Meyers to seal Israel's win over South Korea on 6 March 2017.",
+      "sourceUrl": "https://www.jta.org/2017/03/06/sports/israel-defeats-korea-in-first-game-of-the-world-baseball-classic"
     }
   ]
 }

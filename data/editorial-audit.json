@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T00:03:16.626Z",
+  "generatedAt": "2026-08-23T01:26:41.512Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1630,
-    "publishedBefore": 1120,
-    "cleanPublished": 1113,
+    "totalArticles": 1633,
+    "publishedBefore": 1122,
+    "cleanPublished": 1115,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1120,
-    "reviewAfter": 510
+    "publishedAfter": 1122,
+    "reviewAfter": 511
   },
   "blockedPublished": [
     {
@@ -140,6 +140,20 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-20260823-maccabi-netanya-hapoel-tel-aviv-youth",
+      "slug": "maccabi-netanya-hapoel-tel-aviv-youth-comeback",
+      "title": "Maccabi Netanya score twice in stoppage time to beat Hapoel Tel Aviv 3-2 in youth league",
+      "statusBefore": "review",
+      "words": 276,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
     {
       "id": "live-2026-08-22-tiberias-hapoel-pt-var-controversy",
       "slug": "ironi-tiberias-hapoel-petah-tikva-var-controversy-snir-levi",
@@ -16009,6 +16023,30 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-23-espanyol-real-madrid-espi-mourinho",
+      "slug": "espanyol-real-madrid-espi-late-winner-mourinho-return",
+      "title": "Espanyol 1-2 Real Madrid: Carlos Espí's stoppage-time winner rescues Mourinho's return",
+      "statusBefore": "published",
+      "words": 513,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "archive-20260823-seoul-6-march-2017-the-night-baseball-s-",
+      "slug": "seoul-6-march-2017-the-night-baseball-s-biggest-underdog-beat-the-host",
+      "title": "Seoul, 6 March 2017: The Night Baseball's Biggest Underdog Beat the Host Nation",
+      "statusBefore": "published",
+      "words": 708,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-2026-08-22-artzi-israel-basketball-georgia-poland-window",
       "slug": "artzi-israel-basketball-georgia-poland-window",
