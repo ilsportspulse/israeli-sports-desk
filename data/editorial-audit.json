@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T14:03:28.855Z",
+  "generatedAt": "2026-08-23T14:49:35.119Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,12 +17,12 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1679,
-    "publishedBefore": 1148,
-    "cleanPublished": 1141,
+    "totalArticles": 1684,
+    "publishedBefore": 1153,
+    "cleanPublished": 1146,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1148,
+    "publishedAfter": 1153,
     "reviewAfter": 531
   },
   "blockedPublished": [
@@ -140,6 +140,48 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-20260823-maccabi-haifa-penalty-committee-ruling",
+      "slug": "committee-rules-no-foul-maccabi-haifa-penalty-ramat-gan",
+      "title": "No foul was committed, committee rules on Maccabi Haifa's controversial penalty",
+      "statusBefore": "published",
+      "words": 391,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-23-kejelcha-world-half-marathon-record",
+      "slug": "kejelcha-world-half-marathon-record-buenos-aires",
+      "title": "Kejelcha reclaims world half marathon record with 56:51 in Buenos Aires",
+      "statusBefore": "published",
+      "words": 309,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260823-roddick-kyrgios-hypocrisy",
+      "slug": "andy-roddick-nick-kyrgios-hypocrisy-cocaine-sinner",
+      "title": "Andy Roddick accuses Nick Kyrgios of hypocrisy over Sinner and Swiatek doping attacks",
+      "statusBefore": "published",
+      "words": 496,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260823-neta-lavi-machida-zelvia-volley-urawa",
       "slug": "neta-lavi-volley-machida-zelvia-beat-urawa-reds-japan",
@@ -16565,6 +16607,72 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-20260823-hapoel-jerusalem-policy-dayan",
+      "slug": "hapoel-jerusalem-dayan-levinson-policy-maccabi-tel-aviv-opener",
+      "title": "Dayan: Hapoel Jerusalem needs to change its policy a bit",
+      "statusBefore": "published",
+      "words": 433,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260823-maccabi-haifa-penalty-committee-ruling",
+      "slug": "committee-rules-no-foul-maccabi-haifa-penalty-ramat-gan",
+      "title": "No foul was committed, committee rules on Maccabi Haifa's controversial penalty",
+      "statusBefore": "published",
+      "words": 391,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-23-kejelcha-world-half-marathon-record",
+      "slug": "kejelcha-world-half-marathon-record-buenos-aires",
+      "title": "Kejelcha reclaims world half marathon record with 56:51 in Buenos Aires",
+      "statusBefore": "published",
+      "words": 309,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-23-maccabi-netanya-levy-squad-preview",
+      "slug": "maccabi-netanya-levy-squad-strengthen-bnei-sakhnin-preview",
+      "title": "Ronny Levy: Maccabi Netanya have a good squad, but we must get stronger",
+      "statusBefore": "published",
+      "words": 412,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260823-roddick-kyrgios-hypocrisy",
+      "slug": "andy-roddick-nick-kyrgios-hypocrisy-cocaine-sinner",
+      "title": "Andy Roddick accuses Nick Kyrgios of hypocrisy over Sinner and Swiatek doping attacks",
+      "statusBefore": "published",
+      "words": 496,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260823-neta-lavi-machida-zelvia-volley-urawa",
       "slug": "neta-lavi-volley-machida-zelvia-beat-urawa-reds-japan",

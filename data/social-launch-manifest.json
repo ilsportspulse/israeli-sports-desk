@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-23T14:03:28Z",
-    "validUntil": "2026-08-24T02:03:28Z",
+    "checkedAt": "2026-08-23T14:49:34Z",
+    "validUntil": "2026-08-24T02:49:34Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 833,
+        "maxAgeHours": 834,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260823-neta-lavi-machida-zelvia-volley-urawa",
+        "articleId": "live-20260823-hapoel-jerusalem-policy-dayan",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 841,
+        "maxAgeHours": 842,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260823-hull-city-manchester-united-rooney-shaw",
+        "articleId": "live-20260823-maccabi-haifa-penalty-committee-ruling",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 851,
+        "maxAgeHours": 852,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-23-bouaddi-manchester-city-rodri-replacement",
+        "articleId": "live-2026-08-23-kejelcha-world-half-marathon-record",
         "maxAgeHours": 36,
         "requires": []
       }

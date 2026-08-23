@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T14:03:29.482Z",
+  "generatedAt": "2026-08-23T14:49:35.755Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,7 +11,7 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1148,
+    "publishedArticles": 1153,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
@@ -24,9 +24,9 @@
       "5": 10,
       "6": 54,
       "7": 173,
-      "8": 337,
-      "9": 276,
-      "10": 184,
+      "8": 338,
+      "9": 279,
+      "10": 185,
       "11": 48,
       "12": 14,
       "13": 4,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.294,
+    "dominantParagraphShare": 0.293,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 54,
     "analysisBelowTarget": 12,
@@ -4495,6 +4495,111 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260823-hapoel-jerusalem-policy-dayan",
+      "slug": "hapoel-jerusalem-dayan-levinson-policy-maccabi-tel-aviv-opener",
+      "title": "Dayan: Hapoel Jerusalem needs to change its policy a bit",
+      "kind": "article",
+      "words": 434,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 24,
+        "longest": 65,
+        "average": 48.2
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 67,
+        "average": 31
+      },
+      "lexicalDiversity": 0.608,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260823-maccabi-haifa-penalty-committee-ruling",
+      "slug": "committee-rules-no-foul-maccabi-haifa-penalty-ramat-gan",
+      "title": "No foul was committed, committee rules on Maccabi Haifa's controversial penalty",
+      "kind": "news",
+      "words": 391,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 55,
+        "average": 43.4
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 44,
+        "average": 27.9
+      },
+      "lexicalDiversity": 0.609,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-23-kejelcha-world-half-marathon-record",
+      "slug": "kejelcha-world-half-marathon-record-buenos-aires",
+      "title": "Kejelcha reclaims world half marathon record with 56:51 in Buenos Aires",
+      "kind": "article",
+      "words": 312,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 48,
+        "average": 39
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 48,
+        "average": 31.2
+      },
+      "lexicalDiversity": 0.599,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-23-maccabi-netanya-levy-squad-preview",
+      "slug": "maccabi-netanya-levy-squad-strengthen-bnei-sakhnin-preview",
+      "title": "Ronny Levy: Maccabi Netanya have a good squad, but we must get stronger",
+      "kind": "news",
+      "words": 414,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 61,
+        "average": 46
+      },
+      "sentenceWords": {
+        "shortest": 18,
+        "longest": 149,
+        "average": 69
+      },
+      "lexicalDiversity": 0.577,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260823-roddick-kyrgios-hypocrisy",
+      "slug": "andy-roddick-nick-kyrgios-hypocrisy-cocaine-sinner",
+      "title": "Andy Roddick accuses Nick Kyrgios of hypocrisy over Sinner and Swiatek doping attacks",
+      "kind": "news",
+      "words": 495,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 28,
+        "longest": 78,
+        "average": 49.5
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 120,
+        "average": 38.1
+      },
+      "lexicalDiversity": 0.547,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-20260823-neta-lavi-machida-zelvia-volley-urawa",
       "slug": "neta-lavi-volley-machida-zelvia-beat-urawa-reds-japan",

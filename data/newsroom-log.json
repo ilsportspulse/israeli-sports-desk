@@ -1,5 +1,61 @@
 [
   {
+    "ts": "2026-08-23T14:32:16.668Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 5,
+    "review": 0,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "andy-roddick-nick-kyrgios-hypocrisy-cocaine-sinner",
+        "title": "Andy Roddick accuses Nick Kyrgios of hypocrisy over Sinner and Swiatek doping attacks",
+        "confidence": 0.88,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "maccabi-netanya-levy-squad-strengthen-bnei-sakhnin-preview",
+        "title": "Ronny Levy: Maccabi Netanya have a good squad, but we must get stronger",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "kejelcha-world-half-marathon-record-buenos-aires",
+        "title": "Kejelcha reclaims world half marathon record with 56:51 in Buenos Aires",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "committee-rules-no-foul-maccabi-haifa-penalty-ramat-gan",
+        "title": "No foul was committed, committee rules on Maccabi Haifa's controversial penalty",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "hapoel-jerusalem-dayan-levinson-policy-maccabi-tel-aviv-opener",
+        "title": "Dayan: Hapoel Jerusalem needs to change its policy a bit",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-08-23T13:35:01.046Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -2530,59 +2586,6 @@
         "slug": "inside-khalaili-crystal-palace-transfer",
         "title": "Inside the deal that made Anan Khalaili the priciest Israeli export ever",
         "decision": "duplicate"
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-15T14:07:34.331Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 4,
-    "review": 0,
-    "skipped": 1,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "machida-zelvia-lavi-thrash-chiba-top-j1-table",
-        "title": "Chiba 0-4 Machida Zelvia: Neta Lavi plays 81 minutes as club storms to top of J1",
-        "confidence": 0.9,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "mourinho-real-madrid-second-era",
-        "title": "Mourinho begins his second Real Madrid era as the season closes in",
-        "confidence": 0.9,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "hojbjerg-marseille-captaincy-newcastle",
-        "title": "Marseille strip Højbjerg of captaincy after Newcastle transfer refusal",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "khalaili-selhurst-park-new-home",
-        "title": "Khalaili's new home: getting to know Selhurst Park",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "barcelona-third-bid-rodri-70-million",
-        "title": "Barcelona table third bid worth €70m for Manchester City's Rodri",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
       }
     ]
   }
