@@ -2635,5 +2635,55 @@
         "reason": ""
       }
     ]
+  },
+  {
+    "ts": "2026-08-23T10:35:24.893Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 2,
+    "review": 1,
+    "skipped": 2,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "artem-dolgopyat-crisis-interview-third-european-gold",
+        "title": "\"I asked myself if I was still worthy\": Dolgopyat on the crisis behind his third European gold",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "tom-simkhaev-bronze-world-cadet-judo-championships",
+        "title": "Tom Simkhaev wins bronze as Israel post record haul at judo's World Cadet Championships",
+        "confidence": 0.85,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "below gate thresholds"
+      },
+      {
+        "slug": "dolgopyat-third-european-floor-title-zagreb",
+        "title": "Dolgopyat scores 14.466 to win a third European floor title in Zagreb",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "dolgopyat-third-european-floor-title-zagreb-duplicate",
+        "title": "Held: Dolgopyat's third European floor gold already covered",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "sinner-withdraws-us-open-knee-injury",
+        "title": "Jannik Sinner withdraws from the US Open with knee injury",
+        "confidence": 0.95,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
   }
 ]
