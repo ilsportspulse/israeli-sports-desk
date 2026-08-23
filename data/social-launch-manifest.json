@@ -146,8 +146,8 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-23T17:42:54Z",
-    "validUntil": "2026-08-24T05:42:54Z",
+    "checkedAt": "2026-08-23T18:06:03Z",
+    "validUntil": "2026-08-24T06:06:03Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
@@ -160,21 +160,21 @@
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-23-guiagon-al-taawoun-maccabi-cut",
+        "articleId": "live-20260823-ifa-youth-league-ranking-delay",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 844,
+        "maxAgeHours": 845,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-23-georgina-adopts-ronaldo-children",
+        "articleId": "live-20260823-alvarez-atletico-fans-boo-metropolitano",
         "maxAgeHours": 35,
         "requires": []
       },
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-23-maresca-city-bournemouth-debut",
+        "articleId": "live-20260823-sokler-revivo-start-maccabi-tel-aviv",
         "maxAgeHours": 36,
         "requires": []
       }

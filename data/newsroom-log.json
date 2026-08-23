@@ -1,5 +1,59 @@
 [
   {
+    "ts": "2026-08-23T17:48:08.646Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 3,
+    "review": 1,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "newcastle-liverpool-late-penalty-draw",
+        "title": "Newcastle 2-2 Liverpool: Szoboszlai's stoppage-time penalty rescues a point",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "atletico-madrid-2-2-villarreal-alvarez-booed-simeone-leveller",
+        "title": "Atlético Madrid 2-2 Villarreal: booed Julián Álvarez comes off bench as Giuliano Simeone snatches late leveller",
+        "decision": "duplicate",
+        "reason": "same event as julian-alvarez-included-atletico-squad-villarreal-simeone-defends"
+      },
+      {
+        "slug": "bnei-yehuda-kfar-shalem-national-league-round-2",
+        "title": "Bnei Yehuda host Kfar Shalem in National League round two clash",
+        "confidence": 0,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "match in progress — wait for full time"
+      },
+      {
+        "slug": "julian-alvarez-booed-atletico-madrid-fans-metropolitano-barcelona",
+        "title": "Julián Álvarez booed by Atlético Madrid fans at the Metropolitano amid Barcelona fallout",
+        "confidence": 0.87,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "israel-football-association-postpones-childrens-league-ranking-system",
+        "title": "Israel Football Association postpones new ranking system for children's leagues by a season",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-08-23T17:04:15.224Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -2545,114 +2599,6 @@
         "gate": "pass",
         "decision": "published",
         "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-15T22:08:12.952Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 3,
-    "review": 1,
-    "skipped": 1,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "cf-montreal-bans-two-fans-antisemitic-abuse-turgeman",
-        "title": "CF Montreal bans two fans over antisemitic abuse of Dor Turgeman",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "tirante-stuns-djokovic-cincinnati-second-round",
-        "title": "Tirante stuns Djokovic 2-6, 6-4, 6-4 to reach Cincinnati third round",
-        "confidence": 0.9,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "maccabi-tel-aviv-hapoel-tel-aviv-3-0-youth-derby-liga-naarim-a-round-1",
-        "title": "Maccabi Tel Aviv thrash Hapoel Tel Aviv 3-0 as Liga Naarim A season kicks off",
-        "confidence": 0.72,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Single-source (ONE); this is a youth/academy (2010 age-group) round rather than senior first-team football, and Hebrew-to-English transliteration of several player names could not be cross-checked against a second registry."
-      },
-      {
-        "slug": "ironi-tiberias-eden-shamir-daniel-golani-transfer-targets",
-        "title": "Ironi Tiberias target Shamir and Golani as rebuild continues after Morgan deal",
-        "decision": "duplicate",
-        "reason": "same event as eitan-tibi-debut-maccabi-petah-tikva-tiberias-toto-cup"
-      },
-      {
-        "slug": "yaakov-shahar-anan-khalaili-pride-maccabi-haifa",
-        "title": "Yaakov Shahar: Anan Khalaili is a great pride for Maccabi Haifa",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-23T17:24:02.497Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 1,
-    "review": 3,
-    "skipped": 1,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "hapoel-jerusalem-maccabi-tel-aviv-scoreless-first-half",
-        "title": "Hapoel Jerusalem and Maccabi Tel Aviv goalless at the break in season opener",
-        "confidence": 0,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "match in progress — wait for full time"
-      },
-      {
-        "slug": "hapoel-petah-tikva-sign-diego-arroyo-loan-shakhtar",
-        "title": "Hapoel Petah Tikva sign Bolivian defender Diego Arroyo on season-long loan from Shakhtar Donetsk",
-        "confidence": 0.8,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Loan reported by a single outlet (ONE); Hapoel Petah Tikva had not yet published their own confirmation at the time of writing."
-      },
-      {
-        "slug": "atletico-madrid-2-2-villarreal-alvarez-booed-return",
-        "title": "Atlético Madrid 2-2 Villarreal: Giuliano Simeone salvages late point as booed Álvarez returns from bench",
-        "decision": "duplicate",
-        "reason": "same event as julian-alvarez-included-atletico-squad-villarreal-simeone-defends"
-      },
-      {
-        "slug": "guiagon-saudi-move-maccabi-tel-aviv-sell-on",
-        "title": "Guiagon's Saudi move to net Maccabi Tel Aviv a share of the fee, ONE reports",
-        "confidence": 0.8,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "remilk-becomes-maccabi-netanya-shirt-sponsor",
-        "title": "Remilk becomes Maccabi Netanya's new shirt sponsor ahead of season opener",
-        "confidence": 0.85,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Sponsorship value undisclosed; club VP's name (Kubi Lavie) transliterated phonetically from the single source, not cross-checked against a club roster page."
       }
     ]
   }

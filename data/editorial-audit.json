@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T17:42:54.818Z",
+  "generatedAt": "2026-08-23T18:06:03.839Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1699,
-    "publishedBefore": 1157,
-    "cleanPublished": 1150,
+    "totalArticles": 1707,
+    "publishedBefore": 1161,
+    "cleanPublished": 1154,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1157,
-    "reviewAfter": 542
+    "publishedAfter": 1161,
+    "reviewAfter": 546
   },
   "blockedPublished": [
     {
@@ -141,47 +141,75 @@
   ],
   "warnings": [
     {
-      "id": "live-2026-08-23-guiagon-al-taawoun-maccabi-cut",
-      "slug": "guiagon-saudi-move-maccabi-tel-aviv-sell-on",
-      "title": "Guiagon's Saudi move to net Maccabi Tel Aviv a share of the fee, ONE reports",
+      "id": "live-20260823-ifa-youth-league-ranking-delay",
+      "slug": "israel-football-association-postpones-childrens-league-ranking-system",
+      "title": "Israel Football Association postpones new ranking system for children's leagues by a season",
       "statusBefore": "published",
-      "words": 357,
-      "paragraphs": 6,
-      "facts": 6,
-      "verificationSources": 2,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline"
-      ]
-    },
-    {
-      "id": "live-2026-08-23-hapoel-petah-tikva-arroyo-signing",
-      "slug": "hapoel-petah-tikva-sign-diego-arroyo-loan-shakhtar",
-      "title": "Hapoel Petah Tikva sign Bolivian defender Diego Arroyo on season-long loan from Shakhtar Donetsk",
-      "statusBefore": "review",
-      "words": 258,
-      "paragraphs": 6,
-      "facts": 6,
+      "words": 400,
+      "paragraphs": 8,
+      "facts": 7,
       "verificationSources": 3,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline",
         "media:no-action-or-competition-context-detected"
       ]
     },
     {
-      "id": "live-20260823-hapoel-jerusalem-maccabi-tel-aviv-first-half",
-      "slug": "hapoel-jerusalem-maccabi-tel-aviv-scoreless-first-half",
-      "title": "Hapoel Jerusalem and Maccabi Tel Aviv goalless at the break in season opener",
-      "statusBefore": "review",
-      "words": 147,
-      "paragraphs": 5,
-      "facts": 5,
+      "id": "live-20260823-alvarez-atletico-fans-boo-metropolitano",
+      "slug": "julian-alvarez-booed-atletico-madrid-fans-metropolitano-barcelona",
+      "title": "Julián Álvarez booed by Atlético Madrid fans at the Metropolitano amid Barcelona fallout",
+      "statusBefore": "published",
+      "words": 369,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260823-sokler-revivo-start-maccabi-tel-aviv",
+      "slug": "sokler-revivo-start-maccabi-tel-aviv-hapoel-jerusalem-opener",
+      "title": "Sokler handed full debut as Maccabi Tel Aviv name strong side for Hapoel Jerusalem opener",
+      "statusBefore": "published",
+      "words": 263,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-23-kenny-lofton-jr-hapoel-jerusalem-eurocup",
+      "slug": "kenny-lofton-jr-hapoel-jerusalem-eurocup-goal",
+      "title": "Kenny Lofton Jr. lands in Jerusalem: 'The plan is to win the EuroCup'",
+      "statusBefore": "published",
+      "words": 430,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260823-guiagon-al-taawoun-maccabi-cut",
+      "slug": "guiagon-saudi-move-maccabi-tel-aviv-sell-on-clause",
+      "title": "Guiagon closing in on Saudi move, with Maccabi Tel Aviv in line for a windfall",
+      "statusBefore": "published",
+      "words": 430,
+      "paragraphs": 8,
+      "facts": 7,
       "verificationSources": 3,
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline",
-        "media:no-action-or-competition-context-detected"
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
       ]
     },
     {
@@ -16765,14 +16793,12 @@
       "warnings": [
         "presentation:outlet-name-in-headline"
       ]
-    }
-  ],
-  "cleanPublished": [
+    },
     {
       "id": "live-2026-08-23-guiagon-al-taawoun-maccabi-cut",
       "slug": "guiagon-saudi-move-maccabi-tel-aviv-sell-on",
       "title": "Guiagon's Saudi move to net Maccabi Tel Aviv a share of the fee, ONE reports",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 357,
       "paragraphs": 6,
       "facts": 6,
@@ -16780,6 +16806,110 @@
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-08-23-hapoel-petah-tikva-arroyo-signing",
+      "slug": "hapoel-petah-tikva-sign-diego-arroyo-loan-shakhtar",
+      "title": "Hapoel Petah Tikva sign Bolivian defender Diego Arroyo on season-long loan from Shakhtar Donetsk",
+      "statusBefore": "review",
+      "words": 258,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260823-hapoel-jerusalem-maccabi-tel-aviv-first-half",
+      "slug": "hapoel-jerusalem-maccabi-tel-aviv-scoreless-first-half",
+      "title": "Hapoel Jerusalem and Maccabi Tel Aviv goalless at the break in season opener",
+      "statusBefore": "review",
+      "words": 147,
+      "paragraphs": 5,
+      "facts": 5,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    }
+  ],
+  "cleanPublished": [
+    {
+      "id": "live-20260823-ifa-youth-league-ranking-delay",
+      "slug": "israel-football-association-postpones-childrens-league-ranking-system",
+      "title": "Israel Football Association postpones new ranking system for children's leagues by a season",
+      "statusBefore": "published",
+      "words": 400,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260823-alvarez-atletico-fans-boo-metropolitano",
+      "slug": "julian-alvarez-booed-atletico-madrid-fans-metropolitano-barcelona",
+      "title": "Julián Álvarez booed by Atlético Madrid fans at the Metropolitano amid Barcelona fallout",
+      "statusBefore": "published",
+      "words": 369,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260823-sokler-revivo-start-maccabi-tel-aviv",
+      "slug": "sokler-revivo-start-maccabi-tel-aviv-hapoel-jerusalem-opener",
+      "title": "Sokler handed full debut as Maccabi Tel Aviv name strong side for Hapoel Jerusalem opener",
+      "statusBefore": "published",
+      "words": 263,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-23-kenny-lofton-jr-hapoel-jerusalem-eurocup",
+      "slug": "kenny-lofton-jr-hapoel-jerusalem-eurocup-goal",
+      "title": "Kenny Lofton Jr. lands in Jerusalem: 'The plan is to win the EuroCup'",
+      "statusBefore": "published",
+      "words": 430,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260823-guiagon-al-taawoun-maccabi-cut",
+      "slug": "guiagon-saudi-move-maccabi-tel-aviv-sell-on-clause",
+      "title": "Guiagon closing in on Saudi move, with Maccabi Tel Aviv in line for a windfall",
+      "statusBefore": "published",
+      "words": 430,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
       ]
     },
     {
