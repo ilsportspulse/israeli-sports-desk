@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T13:16:59.429Z",
+  "generatedAt": "2026-08-23T13:53:34.659Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1671,
-    "publishedBefore": 1146,
-    "cleanPublished": 1139,
+    "totalArticles": 1679,
+    "publishedBefore": 1148,
+    "cleanPublished": 1141,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1146,
-    "reviewAfter": 525
+    "publishedAfter": 1148,
+    "reviewAfter": 531
   },
   "blockedPublished": [
     {
@@ -141,6 +141,48 @@
   ],
   "warnings": [
     {
+      "id": "live-20260823-neta-lavi-machida-zelvia-volley-urawa",
+      "slug": "neta-lavi-volley-machida-zelvia-beat-urawa-reds-japan",
+      "title": "Neta Lavi's stunning volley caps Machida Zelvia's 3-1 win over Urawa Reds",
+      "statusBefore": "published",
+      "words": 430,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260823-nahariya-raanana-basketball-signings",
+      "slug": "nahariya-rubin-raanana-sultan-basketball-signings",
+      "title": "Nahariya sign NYU guard Darren Rubin as Maccabi Ra'anana add Eyal Sultan",
+      "statusBefore": "review",
+      "words": 316,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260823-hull-city-manchester-united-rooney-shaw",
+      "slug": "hull-city-manchester-united-rooney-luke-shaw-schoolboy-defending",
+      "title": "Hull City 2-0 Manchester United: Rooney rips into Luke Shaw's 'schoolboy' defending",
+      "statusBefore": "published",
+      "words": 507,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-20260823-goren-asulin-no-one-story-success",
       "slug": "orian-goren-youth-coach-no-one-story-to-success-asulin",
       "title": "Goren's boyhood coach on Barcelona path: \"There's no one story to success\"",
@@ -201,7 +243,7 @@
       "id": "live-2026-08-23-westham-solomon-chant-read-between-lines",
       "slug": "westham-fans-manor-solomon-chant-read-between-lines",
       "title": "West Ham fans' Manor Solomon chant leaves little room to read between the lines",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 507,
       "paragraphs": 8,
       "facts": 6,
@@ -16478,9 +16520,79 @@
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
+    },
+    {
+      "id": "live-2026-08-23-orian-goren-gai-assulin-barcelona-no-single-path",
+      "slug": "orian-goren-gai-assulin-barcelona-no-single-path-to-success",
+      "title": "Goren and Assulin? There is no single story to success, says former coach",
+      "statusBefore": "review",
+      "words": 540,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260823-meir-harush-beitar-70-eli-ohana-championship",
+      "slug": "meir-harush-beitar-kit-man-70-eli-ohana-championship-memory",
+      "title": "Beitar Jerusalem's kit man Meir Harush turns 70: 'The championship with Eli Ohana was my most exciting moment'",
+      "statusBefore": "review",
+      "words": 494,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-20260823-tefer-lawsuit-ironi-tiberias",
+      "slug": "yonatan-tefer-lawyer-lawsuit-ironi-tiberias-doping-settlement",
+      "title": "Tefer's lawyer leaves door open for lawsuit against Ironi Tiberias",
+      "statusBefore": "review",
+      "words": 435,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-20260823-neta-lavi-machida-zelvia-volley-urawa",
+      "slug": "neta-lavi-volley-machida-zelvia-beat-urawa-reds-japan",
+      "title": "Neta Lavi's stunning volley caps Machida Zelvia's 3-1 win over Urawa Reds",
+      "statusBefore": "published",
+      "words": 430,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260823-hull-city-manchester-united-rooney-shaw",
+      "slug": "hull-city-manchester-united-rooney-luke-shaw-schoolboy-defending",
+      "title": "Hull City 2-0 Manchester United: Rooney rips into Luke Shaw's 'schoolboy' defending",
+      "statusBefore": "published",
+      "words": 507,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-08-23-bouaddi-manchester-city-rodri-replacement",
       "slug": "bouaddi-manchester-city-lille-100m-deal",
@@ -16508,20 +16620,6 @@
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline"
-      ]
-    },
-    {
-      "id": "live-2026-08-23-westham-solomon-chant-read-between-lines",
-      "slug": "westham-fans-manor-solomon-chant-read-between-lines",
-      "title": "West Ham fans' Manor Solomon chant leaves little room to read between the lines",
-      "statusBefore": "published",
-      "words": 507,
-      "paragraphs": 8,
-      "facts": 6,
-      "verificationSources": 5,
-      "blockers": [],
-      "warnings": [
-        "voice:stock-editorial-phrase-detected"
       ]
     },
     {
@@ -31909,6 +32007,18 @@
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
+    },
+    {
+      "id": "live-2026-08-23-manor-solomon-west-ham-chant-reading-between-lines",
+      "slug": "manor-solomon-west-ham-chant-reading-between-lines",
+      "title": "West Ham fan site says meaning behind Manor Solomon chant is clear, even unspoken",
+      "statusBefore": "published",
+      "words": 522,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
     }
   ]
 }

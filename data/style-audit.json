@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T13:17:00.096Z",
+  "generatedAt": "2026-08-23T13:53:35.164Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1146,
+    "publishedArticles": 1148,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 418,
-      "average": 422.4
+      "average": 422.5
     },
     "paragraphDistribution": {
       "3": 36,
@@ -24,9 +24,9 @@
       "5": 10,
       "6": 54,
       "7": 173,
-      "8": 338,
-      "9": 274,
-      "10": 183,
+      "8": 337,
+      "9": 276,
+      "10": 184,
       "11": 48,
       "12": 14,
       "13": 4,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.295,
+    "dominantParagraphShare": 0.294,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 54,
     "analysisBelowTarget": 12,
-    "articlesWithStyleFlags": 194
+    "articlesWithStyleFlags": 193
   },
   "flagged": [
     {
@@ -328,29 +328,6 @@
       "flags": [
         "below-editorial-target:227/280",
         "publisher-attribution-heavy:2"
-      ]
-    },
-    {
-      "id": "live-2026-08-23-westham-solomon-chant-read-between-lines",
-      "slug": "westham-fans-manor-solomon-chant-read-between-lines",
-      "title": "West Ham fans' Manor Solomon chant leaves little room to read between the lines",
-      "kind": "news",
-      "words": 504,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 54,
-        "longest": 77,
-        "average": 63
-      },
-      "sentenceWords": {
-        "shortest": 5,
-        "longest": 70,
-        "average": 31.5
-      },
-      "lexicalDiversity": 0.575,
-      "publisherAttributions": 0,
-      "flags": [
-        "stock-phrase:remains-to-be-seen"
       ]
     },
     {
@@ -4518,6 +4495,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260823-neta-lavi-machida-zelvia-volley-urawa",
+      "slug": "neta-lavi-volley-machida-zelvia-beat-urawa-reds-japan",
+      "title": "Neta Lavi's stunning volley caps Machida Zelvia's 3-1 win over Urawa Reds",
+      "kind": "match-report",
+      "words": 431,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 63,
+        "average": 47.9
+      },
+      "sentenceWords": {
+        "shortest": 14,
+        "longest": 46,
+        "average": 33.2
+      },
+      "lexicalDiversity": 0.568,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260823-hull-city-manchester-united-rooney-shaw",
+      "slug": "hull-city-manchester-united-rooney-luke-shaw-schoolboy-defending",
+      "title": "Hull City 2-0 Manchester United: Rooney rips into Luke Shaw's 'schoolboy' defending",
+      "kind": "news",
+      "words": 502,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 26,
+        "longest": 73,
+        "average": 50.2
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 73,
+        "average": 33.5
+      },
+      "lexicalDiversity": 0.578,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-23-bouaddi-manchester-city-rodri-replacement",
       "slug": "bouaddi-manchester-city-lille-100m-deal",
@@ -24507,6 +24526,27 @@
         "average": 53
       },
       "lexicalDiversity": 0.579,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-23-manor-solomon-west-ham-chant-reading-between-lines",
+      "slug": "manor-solomon-west-ham-chant-reading-between-lines",
+      "title": "West Ham fan site says meaning behind Manor Solomon chant is clear, even unspoken",
+      "kind": "news",
+      "words": 522,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 93,
+        "average": 58
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 129,
+        "average": 52.2
+      },
+      "lexicalDiversity": 0.556,
       "publisherAttributions": 0,
       "flags": []
     }
