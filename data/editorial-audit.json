@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T09:58:32.739Z",
+  "generatedAt": "2026-08-23T10:26:26.565Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1646,
+    "totalArticles": 1649,
     "publishedBefore": 1134,
     "cleanPublished": 1127,
     "blockedPublished": 7,
     "demoted": 0,
     "publishedAfter": 1134,
-    "reviewAfter": 512
+    "reviewAfter": 515
   },
   "blockedPublished": [
     {
@@ -141,31 +141,47 @@
   ],
   "warnings": [
     {
-      "id": "live-20260823-southampton-west-ham-ticket-prices-peretz-solomon",
-      "slug": "southampton-west-ham-carabao-cup-ticket-prices-peretz-solomon",
-      "title": "How much will it cost to watch Peretz face Solomon in the League Cup?",
+      "id": "live-20260823-beitar-nordia-jerusalem-deficit",
+      "slug": "beitar-nordia-jerusalem-766000-shekel-deficit-2025",
+      "title": "Beitar Nordia Jerusalem post a fifth straight annual deficit, this time 766,000 shekels",
       "statusBefore": "published",
-      "words": 335,
-      "paragraphs": 7,
-      "facts": 5,
+      "words": 350,
+      "paragraphs": 8,
+      "facts": 7,
       "verificationSources": 3,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:2"
       ]
     },
     {
-      "id": "live-20260823-beitar-nordia-jerusalem-deficit",
-      "slug": "beitar-nordia-jerusalem-766000-shekel-deficit",
-      "title": "Beitar Nordia Jerusalem posts a 766,000-shekel deficit for a fifth straight year",
-      "statusBefore": "published",
-      "words": 384,
-      "paragraphs": 8,
+      "id": "live-20260823-hapoel-jerusalem-new-emblem",
+      "slug": "hapoel-jerusalem-basketball-new-club-emblem",
+      "title": "Hapoel Jerusalem unveils new club emblem after fan revolt over leaked design",
+      "statusBefore": "review",
+      "words": 439,
+      "paragraphs": 11,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-23-bruninho-brace-maccabi-haifa-ramat-gan",
+      "slug": "maccabi-haifa-bruninho-brace-hapoel-ramat-gan-ligat-haal-opener",
+      "title": "Maccabi Haifa 2-1 Hapoel Ramat Gan: Bruninho brace answers the doubters on opening night",
+      "statusBefore": "review",
+      "words": 423,
+      "paragraphs": 9,
       "facts": 7,
       "verificationSources": 4,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -207,6 +223,20 @@
       "paragraphs": 7,
       "facts": 7,
       "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-23-augustine-rubit-lands-joins-maccabi-ashdod",
+      "slug": "augustine-rubit-lands-joins-maccabi-ashdod",
+      "title": "Augustine Rubit lands in Israel to join Maccabi Ashdod",
+      "statusBefore": "published",
+      "words": 328,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -16194,32 +16224,43 @@
   ],
   "cleanPublished": [
     {
-      "id": "live-20260823-southampton-west-ham-ticket-prices-peretz-solomon",
-      "slug": "southampton-west-ham-carabao-cup-ticket-prices-peretz-solomon",
-      "title": "How much will it cost to watch Peretz face Solomon in the League Cup?",
+      "id": "live-2026-08-23-real-madrid-espanyol-espi-mourinho",
+      "slug": "real-madrid-beat-espanyol-espi-mourinho-return",
+      "title": "Real Madrid 2-1 Espanyol: Carlos Espí's late strike gives Mourinho a winning return",
       "statusBefore": "published",
-      "words": 335,
-      "paragraphs": 7,
-      "facts": 5,
-      "verificationSources": 3,
+      "words": 658,
+      "paragraphs": 10,
+      "facts": 8,
+      "verificationSources": 5,
       "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline"
-      ]
+      "warnings": []
     },
     {
       "id": "live-20260823-beitar-nordia-jerusalem-deficit",
-      "slug": "beitar-nordia-jerusalem-766000-shekel-deficit",
-      "title": "Beitar Nordia Jerusalem posts a 766,000-shekel deficit for a fifth straight year",
+      "slug": "beitar-nordia-jerusalem-766000-shekel-deficit-2025",
+      "title": "Beitar Nordia Jerusalem post a fifth straight annual deficit, this time 766,000 shekels",
       "statusBefore": "published",
-      "words": 384,
+      "words": 350,
       "paragraphs": 8,
       "facts": 7,
-      "verificationSources": 4,
+      "verificationSources": 3,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:2"
       ]
+    },
+    {
+      "id": "live-2026-08-23-itamar-roitman-hapoel-galil-elyon-scout",
+      "slug": "itamar-roitman-joins-hapoel-galil-elyon-scouting-staff",
+      "title": "Itamar Roitman joins Hapoel Galil Elyon as head of scouting and assistant coach",
+      "statusBefore": "published",
+      "words": 204,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": []
     },
     {
       "id": "live-2026-08-23-hapoel-tel-aviv-gelbard-loan-gorfinkel",
@@ -16261,7 +16302,9 @@
       "facts": 6,
       "verificationSources": 3,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-2026-08-23-maccabi-tel-aviv-hapoel-jerusalem-odds-preview",
@@ -16360,18 +16403,6 @@
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
-    },
-    {
-      "id": "live-2026-08-23-espanyol-real-madrid-espi-mourinho",
-      "slug": "espanyol-real-madrid-espi-late-winner-mourinho-return",
-      "title": "Espanyol 1-2 Real Madrid: Carlos Espí's stoppage-time winner rescues Mourinho's return",
-      "statusBefore": "published",
-      "words": 513,
-      "paragraphs": 9,
-      "facts": 7,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": []
     },
     {
       "id": "archive-20260823-seoul-6-march-2017-the-night-baseball-s-",

@@ -1,16 +1,28 @@
 {
   "selections": [
     {
-      "articleId": "live-20260823-southampton-west-ham-ticket-prices-peretz-solomon",
-      "article": "How much will it cost to watch Peretz face Solomon in the League Cup?",
-      "file": "File:St Mary's Stadium 2022.jpg",
+      "articleId": "live-20260823-beitar-nordia-jerusalem-deficit",
+      "article": "Beitar Nordia Jerusalem post a fifth straight annual deficit, this time 766,000 shekels",
+      "file": "File:Stadium of the Hebrew University of Jerusalem.JPG",
+      "license": "CC BY 3.0"
+    },
+    {
+      "articleId": "live-20260823-hapoel-jerusalem-new-emblem",
+      "article": "Hapoel Jerusalem unveils new club emblem after fan revolt over leaked design",
+      "file": "File:2024-10-29 ALBA Berlin gegen Paris Basketball (EuroLeague 2024-25) by Sandro Halank–158.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-20260823-beitar-nordia-jerusalem-deficit",
-      "article": "Beitar Nordia Jerusalem posts a 766,000-shekel deficit for a fifth straight year",
-      "file": "File:Stadium of the Hebrew University of Jerusalem.JPG",
-      "license": "CC BY 3.0"
+      "articleId": "live-2026-08-23-bruninho-brace-maccabi-haifa-ramat-gan",
+      "article": "Maccabi Haifa 2-1 Hapoel Ramat Gan: Bruninho brace answers the doubters on opening night",
+      "file": "File:Бруніньйо да Сілва — ФК Карпати Львів (2025).jpg",
+      "license": "CC BY 4.0"
+    },
+    {
+      "articleId": "live-2026-08-23-augustine-rubit-lands-joins-maccabi-ashdod",
+      "article": "Augustine Rubit lands in Israel to join Maccabi Ashdod",
+      "file": "File:Augustine Rubit 21 Brose Bamberg EuroLeague 20180209 (cropped).jpg",
+      "license": "CC BY-SA 4.0"
     },
     {
       "articleId": "live-20260815-liebmann-1500m-freestyle-world-record",
@@ -45,8 +57,13 @@
   ],
   "failures": [
     {
-      "id": "live-2026-08-23-augustine-rubit-lands-joins-maccabi-ashdod",
-      "title": "Augustine Rubit lands in Israel to join Maccabi Ashdod",
+      "id": "live-2026-08-23-real-madrid-espanyol-espi-mourinho",
+      "title": "Real Madrid 2-1 Espanyol: Carlos Espí's late strike gives Mourinho a winning return",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-2026-08-23-itamar-roitman-hapoel-galil-elyon-scout",
+      "title": "Itamar Roitman joins Hapoel Galil Elyon as head of scouting and assistant coach",
       "error": "image download 429 after retries"
     },
     {

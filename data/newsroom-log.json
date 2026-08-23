@@ -2579,5 +2579,61 @@
         "decision": "duplicate"
       }
     ]
+  },
+  {
+    "ts": "2026-08-23T10:07:15.328Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 3,
+    "review": 2,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "maccabi-haifa-bruninho-brace-hapoel-ramat-gan-ligat-haal-opener",
+        "title": "Maccabi Haifa 2-1 Hapoel Ramat Gan: Bruninho brace answers the doubters on opening night",
+        "confidence": 0.88,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "below gate thresholds"
+      },
+      {
+        "slug": "itamar-roitman-joins-hapoel-galil-elyon-scouting-staff",
+        "title": "Itamar Roitman joins Hapoel Galil Elyon as head of scouting and assistant coach",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "hapoel-jerusalem-basketball-new-club-emblem",
+        "title": "Hapoel Jerusalem unveils new club emblem after fan revolt over leaked design",
+        "confidence": 0.85,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Reported petition signature counts vary slightly by outlet (roughly 1,000-1,300); the designer names Adam Amorai and Itamar Libergel are confirmed only by the ONE source article."
+      },
+      {
+        "slug": "beitar-nordia-jerusalem-766000-shekel-deficit-2025",
+        "title": "Beitar Nordia Jerusalem post a fifth straight annual deficit, this time 766,000 shekels",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "real-madrid-beat-espanyol-espi-mourinho-return",
+        "title": "Real Madrid 2-1 Espanyol: Carlos Espí's late strike gives Mourinho a winning return",
+        "confidence": 0.88,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
   }
 ]

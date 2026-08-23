@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T09:58:33.382Z",
+  "generatedAt": "2026-08-23T10:26:27.206Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -22,11 +22,11 @@
       "3": 36,
       "4": 6,
       "5": 10,
-      "6": 53,
-      "7": 171,
+      "6": 54,
+      "7": 170,
       "8": 335,
-      "9": 270,
-      "10": 181,
+      "9": 269,
+      "10": 182,
       "11": 48,
       "12": 14,
       "13": 4,
@@ -37,9 +37,9 @@
     "dominantParagraphCount": 8,
     "dominantParagraphShare": 0.295,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 53,
+    "exactSixParagraphArticles": 54,
     "analysisBelowTarget": 11,
-    "articlesWithStyleFlags": 191
+    "articlesWithStyleFlags": 192
   },
   "flagged": [
     {
@@ -328,6 +328,29 @@
       "flags": [
         "below-editorial-target:227/280",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-23-itamar-roitman-hapoel-galil-elyon-scout",
+      "slug": "itamar-roitman-joins-hapoel-galil-elyon-scouting-staff",
+      "title": "Itamar Roitman joins Hapoel Galil Elyon as head of scouting and assistant coach",
+      "kind": "news",
+      "words": 204,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 27,
+        "longest": 39,
+        "average": 34
+      },
+      "sentenceWords": {
+        "shortest": 16,
+        "longest": 39,
+        "average": 29.1
+      },
+      "lexicalDiversity": 0.642,
+      "publisherAttributions": 0,
+      "flags": [
+        "below-editorial-target:204/280"
       ]
     },
     {
@@ -4450,45 +4473,45 @@
   ],
   "clean": [
     {
-      "id": "live-20260823-southampton-west-ham-ticket-prices-peretz-solomon",
-      "slug": "southampton-west-ham-carabao-cup-ticket-prices-peretz-solomon",
-      "title": "How much will it cost to watch Peretz face Solomon in the League Cup?",
+      "id": "live-2026-08-23-real-madrid-espanyol-espi-mourinho",
+      "slug": "real-madrid-beat-espanyol-espi-mourinho-return",
+      "title": "Real Madrid 2-1 Espanyol: Carlos Espí's late strike gives Mourinho a winning return",
       "kind": "article",
-      "words": 336,
-      "paragraphs": 7,
+      "words": 653,
+      "paragraphs": 10,
       "paragraphWords": {
-        "shortest": 37,
-        "longest": 62,
-        "average": 48
+        "shortest": 50,
+        "longest": 85,
+        "average": 65.3
       },
       "sentenceWords": {
-        "shortest": 26,
-        "longest": 53,
-        "average": 37.3
+        "shortest": 5,
+        "longest": 52,
+        "average": 29.7
       },
-      "lexicalDiversity": 0.619,
+      "lexicalDiversity": 0.544,
       "publisherAttributions": 0,
       "flags": []
     },
     {
       "id": "live-20260823-beitar-nordia-jerusalem-deficit",
-      "slug": "beitar-nordia-jerusalem-766000-shekel-deficit",
-      "title": "Beitar Nordia Jerusalem posts a 766,000-shekel deficit for a fifth straight year",
-      "kind": "news",
-      "words": 396,
+      "slug": "beitar-nordia-jerusalem-766000-shekel-deficit-2025",
+      "title": "Beitar Nordia Jerusalem post a fifth straight annual deficit, this time 766,000 shekels",
+      "kind": "article",
+      "words": 367,
       "paragraphs": 8,
       "paragraphWords": {
-        "shortest": 24,
-        "longest": 87,
-        "average": 49.5
+        "shortest": 33,
+        "longest": 65,
+        "average": 45.9
       },
       "sentenceWords": {
-        "shortest": 9,
+        "shortest": 11,
         "longest": 40,
-        "average": 28.3
+        "average": 28.2
       },
-      "lexicalDiversity": 0.616,
-      "publisherAttributions": 0,
+      "lexicalDiversity": 0.591,
+      "publisherAttributions": 1,
       "flags": []
     },
     {
@@ -4678,27 +4701,6 @@
       },
       "lexicalDiversity": 0.609,
       "publisherAttributions": 1,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-23-espanyol-real-madrid-espi-mourinho",
-      "slug": "espanyol-real-madrid-espi-late-winner-mourinho-return",
-      "title": "Espanyol 1-2 Real Madrid: Carlos Espí's stoppage-time winner rescues Mourinho's return",
-      "kind": "match-report",
-      "words": 513,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 42,
-        "longest": 81,
-        "average": 57
-      },
-      "sentenceWords": {
-        "shortest": 10,
-        "longest": 58,
-        "average": 28.5
-      },
-      "lexicalDiversity": 0.585,
-      "publisherAttributions": 0,
       "flags": []
     },
     {
