@@ -2738,5 +2738,61 @@
         "reason": ""
       }
     ]
+  },
+  {
+    "ts": "2026-08-23T11:42:37.801Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 2,
+    "review": 3,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "mimon-sues-regev-defamation-bribery-claim",
+        "title": "Football federation deputy chief sues Hapoel Lod owner over bribery accusations",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "bruninho-brace-maccabi-haifa-ramat-gan-bachar-pressure",
+        "title": "Maccabi Haifa 2-1 Hapoel Ramat Gan: \"Bruninho is above the league, I felt Bachar's pressure\"",
+        "confidence": 0.85,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "below gate thresholds"
+      },
+      {
+        "slug": "milan-four-players-exiled-tomori-fofana-nkunku-gimenez",
+        "title": "Milan strip Tomori, Fofana, Nkunku and Gimenez of squad numbers in ruthless clearout",
+        "confidence": 0.82,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Players' ultimate exits (sale, loan or otherwise) are not yet finalized; this covers their current frozen-out status only."
+      },
+      {
+        "slug": "aleksandr-polukarov-leg-amputation",
+        "title": "Former Maccabi Tel Aviv defender Aleksandr Polukarov has part of his leg amputated",
+        "confidence": 0.8,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Single-source report (ONE, citing the player's sports lawyer); the cause of the amputation has not been disclosed."
+      },
+      {
+        "slug": "roy-revivo-maccabi-tel-aviv-committed-message",
+        "title": "Revivo tells Maccabi Tel Aviv he remains committed amid Elche transfer saga",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
   }
 ]

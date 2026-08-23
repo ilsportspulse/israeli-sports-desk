@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T11:31:17.183Z",
+  "generatedAt": "2026-08-23T11:59:40.736Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1138,
+    "publishedArticles": 1139,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 418,
-      "average": 422.5
+      "average": 422.4
     },
     "paragraphDistribution": {
       "3": 36,
@@ -24,9 +24,9 @@
       "5": 10,
       "6": 54,
       "7": 172,
-      "8": 335,
-      "9": 271,
-      "10": 182,
+      "8": 336,
+      "9": 270,
+      "10": 183,
       "11": 48,
       "12": 14,
       "13": 4,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.294,
+    "dominantParagraphShare": 0.295,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 54,
     "analysisBelowTarget": 11,
@@ -4473,86 +4473,86 @@
   ],
   "clean": [
     {
-      "id": "live-2026-08-23-liverpool-new-era-after-salah",
-      "slug": "liverpool-new-era-after-salah-departure",
-      "title": "A new era: how Liverpool are rebuilding their attack after Salah's exit",
+      "id": "live-20260823-revivo-maccabi-commitment",
+      "slug": "roy-revivo-maccabi-tel-aviv-committed-message",
+      "title": "Revivo tells Maccabi Tel Aviv he remains committed amid Elche transfer saga",
       "kind": "news",
-      "words": 462,
+      "words": 362,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 56,
+        "average": 45.3
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 130,
+        "average": 36.2
+      },
+      "lexicalDiversity": 0.666,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-23-mimon-sues-regev-defamation-bribery-claim",
+      "slug": "mimon-sues-regev-defamation-bribery-claim",
+      "title": "Football federation deputy chief sues Hapoel Lod owner over bribery accusations",
+      "kind": "news",
+      "words": 351,
       "paragraphs": 9,
       "paragraphWords": {
-        "shortest": 39,
-        "longest": 72,
-        "average": 51.3
+        "shortest": 30,
+        "longest": 56,
+        "average": 39
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 44,
+        "average": 25.1
+      },
+      "lexicalDiversity": 0.613,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260823-sinner-withdraws-us-open",
+      "slug": "sinner-withdraws-us-open-knee-injury",
+      "title": "Jannik Sinner withdraws from the US Open with knee injury",
+      "kind": "news",
+      "words": 329,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 59,
+        "average": 47
       },
       "sentenceWords": {
         "shortest": 9,
-        "longest": 57,
-        "average": 28.9
+        "longest": 114,
+        "average": 36.6
       },
-      "lexicalDiversity": 0.604,
+      "lexicalDiversity": 0.565,
       "publisherAttributions": 0,
       "flags": []
     },
     {
-      "id": "live-2026-08-23-kovacs-referee-beer-sheva-sabah",
-      "slug": "istvan-kovacs-referee-beer-sheva-sabah-champions-league-playoff",
-      "title": "István Kovács named referee for Hapoel Beer Sheva's Champions League playoff decider against Sabah",
-      "kind": "news",
-      "words": 321,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 25,
-        "longest": 62,
-        "average": 45.9
-      },
-      "sentenceWords": {
-        "shortest": 7,
-        "longest": 46,
-        "average": 26.8
-      },
-      "lexicalDiversity": 0.595,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-23-yarin-levi-ben-sahar-fan-whistles",
-      "slug": "yarin-levi-ben-sahar-fan-whistles-maccabi-haifa",
-      "title": "Maccabi Haifa open season with 2-1 win over Hapoel Ramat Gan as Ben Sahar says Yarin Levi's answer must come on the pitch",
+      "id": "live-20260823-dolgopyat-crisis-interview",
+      "slug": "artem-dolgopyat-crisis-interview-third-european-gold",
+      "title": "\"I asked myself if I was still worthy\": Dolgopyat on the crisis behind his third European gold",
       "kind": "article",
-      "words": 546,
-      "paragraphs": 9,
+      "words": 539,
+      "paragraphs": 10,
       "paragraphWords": {
-        "shortest": 45,
-        "longest": 91,
-        "average": 60.7
+        "shortest": 33,
+        "longest": 93,
+        "average": 53.9
       },
       "sentenceWords": {
-        "shortest": 7,
-        "longest": 55,
-        "average": 36.4
+        "shortest": 6,
+        "longest": 100,
+        "average": 38.5
       },
-      "lexicalDiversity": 0.56,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260823-roy-revivo-maccabi-commitment",
-      "slug": "roy-revivo-maccabi-tel-aviv-committed-transfer-saga",
-      "title": "Revivo says he remains committed to Maccabi Tel Aviv despite transfer talk",
-      "kind": "article",
-      "words": 342,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 29,
-        "longest": 56,
-        "average": 42.8
-      },
-      "sentenceWords": {
-        "shortest": 4,
-        "longest": 81,
-        "average": 42.8
-      },
-      "lexicalDiversity": 0.635,
+      "lexicalDiversity": 0.547,
       "publisherAttributions": 0,
       "flags": []
     },
@@ -4743,6 +4743,27 @@
       },
       "lexicalDiversity": 0.556,
       "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-23-maccabi-haifa-bruninho-brace-ramat-gan",
+      "slug": "maccabi-haifa-2-1-hapoel-ramat-gan-bruninho-brace-cedric-don-fine",
+      "title": "Maccabi Haifa 2-1 Hapoel Ramat Gan: Bruninho brace opens the season, Cedric Don fined for lateness",
+      "kind": "news",
+      "words": 479,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 42,
+        "longest": 73,
+        "average": 59.9
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 54,
+        "average": 29.9
+      },
+      "lexicalDiversity": 0.593,
+      "publisherAttributions": 1,
       "flags": []
     },
     {

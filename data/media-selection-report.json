@@ -1,27 +1,33 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-08-23-liverpool-new-era-after-salah",
-      "article": "A new era: how Liverpool are rebuilding their attack after Salah's exit",
-      "file": "File:Premier League Newcastle-Arsenal 2023-05-07 12.jpg",
-      "license": "CC BY-SA 4.0"
+      "articleId": "live-20260823-revivo-maccabi-commitment",
+      "article": "Revivo tells Maccabi Tel Aviv he remains committed amid Elche transfer saga",
+      "file": "File:Mecz piłkarski Wisła Kraków - Zagłębie Sosnwoiec, 28 października 2022, Pożegnanie Stadionu Ludowego, KP.jpg",
+      "license": "CC BY 4.0"
     },
     {
-      "articleId": "live-2026-08-23-kovacs-referee-beer-sheva-sabah",
-      "article": "István Kovács named referee for Hapoel Beer Sheva's Champions League playoff decider against Sabah",
-      "file": "File:István Kovács referee.jpg",
+      "articleId": "live-20260823-polukarov-leg-amputation",
+      "article": "Former Maccabi Tel Aviv defender Aleksandr Polukarov has part of his leg amputated",
+      "file": "File:Polukarov.JPG",
       "license": "CC BY-SA 3.0"
     },
     {
-      "articleId": "live-20260823-roy-revivo-maccabi-commitment",
-      "article": "Revivo says he remains committed to Maccabi Tel Aviv despite transfer talk",
-      "file": "File:GiuseppeMeazzaNeazzurro.jpg",
-      "license": "CC BY 2.0"
+      "articleId": "live-2026-08-23-mimon-sues-regev-defamation-bribery-claim",
+      "article": "Football federation deputy chief sues Hapoel Lod owner over bribery accusations",
+      "file": "File:אצטדיון לוד על שם בני רגב (יונתן גינזבורג) 01.jpg",
+      "license": "CC BY-SA 3.0"
     },
     {
       "articleId": "live-20260815-liebmann-1500m-freestyle-world-record",
       "article": "German teenager Johannes Liebmann shatters 1500m freestyle world record in 14:26.79",
       "file": "File:Swimming Pool lanes and starting blocks at AIS.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-2026-08-13-adva-cohen-steeplechase-10th",
+      "article": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
+      "file": "File:20220814 European Championships Munich 2022 Ľubomír Pištej 850 3618.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
@@ -51,8 +57,18 @@
   ],
   "failures": [
     {
-      "id": "live-2026-08-23-yarin-levi-ben-sahar-fan-whistles",
-      "title": "Maccabi Haifa open season with 2-1 win over Hapoel Ramat Gan as Ben Sahar says Yarin Levi's answer must come on the pitch",
+      "id": "live-20260823-milan-four-players-exiled",
+      "title": "Milan strip Tomori, Fofana, Nkunku and Gimenez of squad numbers in ruthless clearout",
+      "error": "image download 429 after retries"
+    },
+    {
+      "id": "live-2026-08-23-bruninho-brace-haifa-ramat-gan-kanias",
+      "title": "Maccabi Haifa 2-1 Hapoel Ramat Gan: \"Bruninho is above the league, I felt Bachar's pressure\"",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-20260823-dolgopyat-crisis-interview",
+      "title": "\"I asked myself if I was still worthy\": Dolgopyat on the crisis behind his third European gold",
       "error": "image download 429 after retries"
     },
     {
@@ -128,11 +144,6 @@
     {
       "id": "live-2026-08-15-ukraine-amateur-tennis-legend-kurbanov-killed-war",
       "title": "Ukrainian amateur tennis 'legend' Slava Kurbanov killed fighting on the front",
-      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
-    },
-    {
-      "id": "live-2026-08-13-adva-cohen-steeplechase-10th",
-      "title": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {

@@ -146,8 +146,8 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-23T11:31:16Z",
-    "validUntil": "2026-08-23T23:31:16Z",
+    "checkedAt": "2026-08-23T11:59:39Z",
+    "validUntil": "2026-08-23T23:59:39Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
@@ -160,21 +160,21 @@
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-23-liverpool-new-era-after-salah",
+        "articleId": "live-20260823-revivo-maccabi-commitment",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 838,
+        "maxAgeHours": 839,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-23-kovacs-referee-beer-sheva-sabah",
+        "articleId": "live-2026-08-23-mimon-sues-regev-defamation-bribery-claim",
         "maxAgeHours": 35,
         "requires": []
       },
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-23-yarin-levi-ben-sahar-fan-whistles",
+        "articleId": "live-20260823-sinner-withdraws-us-open",
         "maxAgeHours": 36,
         "requires": []
       }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T11:31:16.600Z",
+  "generatedAt": "2026-08-23T11:59:40.109Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1654,
-    "publishedBefore": 1138,
-    "cleanPublished": 1131,
+    "totalArticles": 1658,
+    "publishedBefore": 1139,
+    "cleanPublished": 1132,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1138,
-    "reviewAfter": 516
+    "publishedAfter": 1139,
+    "reviewAfter": 519
   },
   "blockedPublished": [
     {
@@ -141,31 +141,59 @@
   ],
   "warnings": [
     {
-      "id": "live-2026-08-23-kovacs-referee-beer-sheva-sabah",
-      "slug": "istvan-kovacs-referee-beer-sheva-sabah-champions-league-playoff",
-      "title": "István Kovács named referee for Hapoel Beer Sheva's Champions League playoff decider against Sabah",
-      "statusBefore": "published",
-      "words": 321,
-      "paragraphs": 7,
+      "id": "live-20260823-polukarov-leg-amputation",
+      "slug": "aleksandr-polukarov-leg-amputation",
+      "title": "Former Maccabi Tel Aviv defender Aleksandr Polukarov has part of his leg amputated",
+      "statusBefore": "review",
+      "words": 271,
+      "paragraphs": 8,
       "facts": 7,
-      "verificationSources": 4,
+      "verificationSources": 2,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
     },
     {
-      "id": "live-20260823-roy-revivo-maccabi-commitment",
-      "slug": "roy-revivo-maccabi-tel-aviv-committed-transfer-saga",
-      "title": "Revivo says he remains committed to Maccabi Tel Aviv despite transfer talk",
-      "statusBefore": "published",
-      "words": 345,
+      "id": "live-20260823-milan-four-players-exiled",
+      "slug": "milan-four-players-exiled-tomori-fofana-nkunku-gimenez",
+      "title": "Milan strip Tomori, Fofana, Nkunku and Gimenez of squad numbers in ruthless clearout",
+      "statusBefore": "review",
+      "words": 395,
       "paragraphs": 8,
-      "facts": 7,
-      "verificationSources": 5,
+      "facts": 6,
+      "verificationSources": 3,
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:4"
+      ]
+    },
+    {
+      "id": "live-2026-08-23-mimon-sues-regev-defamation-bribery-claim",
+      "slug": "mimon-sues-regev-defamation-bribery-claim",
+      "title": "Football federation deputy chief sues Hapoel Lod owner over bribery accusations",
+      "statusBefore": "published",
+      "words": 349,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260823-sinner-withdraws-us-open",
+      "slug": "sinner-withdraws-us-open-knee-injury",
+      "title": "Jannik Sinner withdraws from the US Open with knee injury",
+      "statusBefore": "published",
+      "words": 329,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
     },
@@ -330,7 +358,7 @@
       "id": "live-2026-08-23-maccabi-haifa-bruninho-brace-ramat-gan",
       "slug": "maccabi-haifa-2-1-hapoel-ramat-gan-bruninho-brace-cedric-don-fine",
       "title": "Maccabi Haifa 2-1 Hapoel Ramat Gan: Bruninho brace opens the season, Cedric Don fined for lateness",
-      "statusBefore": "review",
+      "statusBefore": "published",
       "words": 483,
       "paragraphs": 8,
       "facts": 7,
@@ -16281,57 +16309,56 @@
   ],
   "cleanPublished": [
     {
-      "id": "live-2026-08-23-liverpool-new-era-after-salah",
-      "slug": "liverpool-new-era-after-salah-departure",
-      "title": "A new era: how Liverpool are rebuilding their attack after Salah's exit",
+      "id": "live-20260823-revivo-maccabi-commitment",
+      "slug": "roy-revivo-maccabi-tel-aviv-committed-message",
+      "title": "Revivo tells Maccabi Tel Aviv he remains committed amid Elche transfer saga",
       "statusBefore": "published",
-      "words": 465,
-      "paragraphs": 9,
-      "facts": 6,
-      "verificationSources": 5,
-      "blockers": [],
-      "warnings": []
-    },
-    {
-      "id": "live-2026-08-23-kovacs-referee-beer-sheva-sabah",
-      "slug": "istvan-kovacs-referee-beer-sheva-sabah-champions-league-playoff",
-      "title": "István Kovács named referee for Hapoel Beer Sheva's Champions League playoff decider against Sabah",
-      "statusBefore": "published",
-      "words": 321,
-      "paragraphs": 7,
-      "facts": 7,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-23-yarin-levi-ben-sahar-fan-whistles",
-      "slug": "yarin-levi-ben-sahar-fan-whistles-maccabi-haifa",
-      "title": "Maccabi Haifa open season with 2-1 win over Hapoel Ramat Gan as Ben Sahar says Yarin Levi's answer must come on the pitch",
-      "statusBefore": "published",
-      "words": 546,
-      "paragraphs": 9,
-      "facts": 7,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": []
-    },
-    {
-      "id": "live-20260823-roy-revivo-maccabi-commitment",
-      "slug": "roy-revivo-maccabi-tel-aviv-committed-transfer-saga",
-      "title": "Revivo says he remains committed to Maccabi Tel Aviv despite transfer talk",
-      "statusBefore": "published",
-      "words": 345,
+      "words": 362,
       "paragraphs": 8,
       "facts": 7,
-      "verificationSources": 5,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-23-mimon-sues-regev-defamation-bribery-claim",
+      "slug": "mimon-sues-regev-defamation-bribery-claim",
+      "title": "Football federation deputy chief sues Hapoel Lod owner over bribery accusations",
+      "statusBefore": "published",
+      "words": 349,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline",
         "media:no-action-or-competition-context-detected"
       ]
+    },
+    {
+      "id": "live-20260823-sinner-withdraws-us-open",
+      "slug": "sinner-withdraws-us-open-knee-injury",
+      "title": "Jannik Sinner withdraws from the US Open with knee injury",
+      "statusBefore": "published",
+      "words": 329,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260823-dolgopyat-crisis-interview",
+      "slug": "artem-dolgopyat-crisis-interview-third-european-gold",
+      "title": "\"I asked myself if I was still worthy\": Dolgopyat on the crisis behind his third European gold",
+      "statusBefore": "published",
+      "words": 539,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
     },
     {
       "id": "live-20260823-southampton-west-ham-ticket-prices-peretz-solomon",
@@ -16469,6 +16496,20 @@
       "statusBefore": "published",
       "words": 454,
       "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-23-maccabi-haifa-bruninho-brace-ramat-gan",
+      "slug": "maccabi-haifa-2-1-hapoel-ramat-gan-bruninho-brace-cedric-don-fine",
+      "title": "Maccabi Haifa 2-1 Hapoel Ramat Gan: Bruninho brace opens the season, Cedric Don fined for lateness",
+      "statusBefore": "published",
+      "words": 483,
+      "paragraphs": 8,
       "facts": 7,
       "verificationSources": 3,
       "blockers": [],
