@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T10:52:48.615Z",
+  "generatedAt": "2026-08-23T11:31:17.183Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,21 +11,21 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1136,
+    "publishedArticles": 1138,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 418,
-      "average": 422.7
+      "average": 422.5
     },
     "paragraphDistribution": {
       "3": 36,
       "4": 6,
       "5": 10,
-      "6": 53,
+      "6": 54,
       "7": 172,
       "8": 335,
-      "9": 270,
+      "9": 271,
       "10": 182,
       "11": 48,
       "12": 14,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.295,
+    "dominantParagraphShare": 0.294,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 53,
+    "exactSixParagraphArticles": 54,
     "analysisBelowTarget": 11,
-    "articlesWithStyleFlags": 191
+    "articlesWithStyleFlags": 192
   },
   "flagged": [
     {
@@ -4446,48 +4446,113 @@
       "flags": [
         "below-editorial-target:262/280"
       ]
+    },
+    {
+      "id": "live-2026-08-23-itamar-roitman-hapoel-galil-elyon-scout",
+      "slug": "itamar-roitman-joins-hapoel-galil-elyon-scouting-staff",
+      "title": "Itamar Roitman joins Hapoel Galil Elyon as head of scouting and assistant coach",
+      "kind": "news",
+      "words": 204,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 27,
+        "longest": 39,
+        "average": 34
+      },
+      "sentenceWords": {
+        "shortest": 16,
+        "longest": 39,
+        "average": 29.1
+      },
+      "lexicalDiversity": 0.642,
+      "publisherAttributions": 0,
+      "flags": [
+        "below-editorial-target:204/280"
+      ]
     }
   ],
   "clean": [
     {
-      "id": "live-20260823-sinner-withdraws-us-open",
-      "slug": "sinner-withdraws-us-open-knee-injury",
-      "title": "Jannik Sinner withdraws from the US Open with knee injury",
+      "id": "live-2026-08-23-liverpool-new-era-after-salah",
+      "slug": "liverpool-new-era-after-salah-departure",
+      "title": "A new era: how Liverpool are rebuilding their attack after Salah's exit",
       "kind": "news",
-      "words": 329,
-      "paragraphs": 7,
+      "words": 462,
+      "paragraphs": 9,
       "paragraphWords": {
-        "shortest": 37,
-        "longest": 59,
-        "average": 47
+        "shortest": 39,
+        "longest": 72,
+        "average": 51.3
       },
       "sentenceWords": {
         "shortest": 9,
-        "longest": 114,
-        "average": 36.6
+        "longest": 57,
+        "average": 28.9
       },
-      "lexicalDiversity": 0.565,
+      "lexicalDiversity": 0.604,
       "publisherAttributions": 0,
       "flags": []
     },
     {
-      "id": "live-20260823-dolgopyat-crisis-interview",
-      "slug": "artem-dolgopyat-crisis-interview-third-european-gold",
-      "title": "\"I asked myself if I was still worthy\": Dolgopyat on the crisis behind his third European gold",
-      "kind": "article",
-      "words": 539,
-      "paragraphs": 10,
+      "id": "live-2026-08-23-kovacs-referee-beer-sheva-sabah",
+      "slug": "istvan-kovacs-referee-beer-sheva-sabah-champions-league-playoff",
+      "title": "István Kovács named referee for Hapoel Beer Sheva's Champions League playoff decider against Sabah",
+      "kind": "news",
+      "words": 321,
+      "paragraphs": 7,
       "paragraphWords": {
-        "shortest": 33,
-        "longest": 93,
-        "average": 53.9
+        "shortest": 25,
+        "longest": 62,
+        "average": 45.9
       },
       "sentenceWords": {
-        "shortest": 6,
-        "longest": 100,
-        "average": 38.5
+        "shortest": 7,
+        "longest": 46,
+        "average": 26.8
       },
-      "lexicalDiversity": 0.547,
+      "lexicalDiversity": 0.595,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-23-yarin-levi-ben-sahar-fan-whistles",
+      "slug": "yarin-levi-ben-sahar-fan-whistles-maccabi-haifa",
+      "title": "Maccabi Haifa open season with 2-1 win over Hapoel Ramat Gan as Ben Sahar says Yarin Levi's answer must come on the pitch",
+      "kind": "article",
+      "words": 546,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 45,
+        "longest": 91,
+        "average": 60.7
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 55,
+        "average": 36.4
+      },
+      "lexicalDiversity": 0.56,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260823-roy-revivo-maccabi-commitment",
+      "slug": "roy-revivo-maccabi-tel-aviv-committed-transfer-saga",
+      "title": "Revivo says he remains committed to Maccabi Tel Aviv despite transfer talk",
+      "kind": "article",
+      "words": 342,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 29,
+        "longest": 56,
+        "average": 42.8
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 81,
+        "average": 42.8
+      },
+      "lexicalDiversity": 0.635,
       "publisherAttributions": 0,
       "flags": []
     },
@@ -4514,23 +4579,23 @@
     },
     {
       "id": "live-20260823-beitar-nordia-jerusalem-deficit",
-      "slug": "beitar-nordia-jerusalem-766000-shekel-deficit",
-      "title": "Beitar Nordia Jerusalem posts a 766,000-shekel deficit for a fifth straight year",
-      "kind": "news",
-      "words": 396,
+      "slug": "beitar-nordia-jerusalem-766000-shekel-deficit-2025",
+      "title": "Beitar Nordia Jerusalem post a fifth straight annual deficit, this time 766,000 shekels",
+      "kind": "article",
+      "words": 367,
       "paragraphs": 8,
       "paragraphWords": {
-        "shortest": 24,
-        "longest": 87,
-        "average": 49.5
+        "shortest": 33,
+        "longest": 65,
+        "average": 45.9
       },
       "sentenceWords": {
-        "shortest": 9,
+        "shortest": 11,
         "longest": 40,
-        "average": 28.3
+        "average": 28.2
       },
-      "lexicalDiversity": 0.616,
-      "publisherAttributions": 0,
+      "lexicalDiversity": 0.591,
+      "publisherAttributions": 1,
       "flags": []
     },
     {
@@ -4681,27 +4746,6 @@
       "flags": []
     },
     {
-      "id": "live-2026-08-23-maccabi-haifa-bruninho-brace-ramat-gan",
-      "slug": "maccabi-haifa-2-1-hapoel-ramat-gan-bruninho-brace-cedric-don-fine",
-      "title": "Maccabi Haifa 2-1 Hapoel Ramat Gan: Bruninho brace opens the season, Cedric Don fined for lateness",
-      "kind": "news",
-      "words": 479,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 42,
-        "longest": 73,
-        "average": 59.9
-      },
-      "sentenceWords": {
-        "shortest": 8,
-        "longest": 54,
-        "average": 29.9
-      },
-      "lexicalDiversity": 0.593,
-      "publisherAttributions": 1,
-      "flags": []
-    },
-    {
       "id": "live-20260823-abada-charlotte-dc-united-assist",
       "slug": "liel-abada-assist-charlotte-fc-beat-dc-united-3-1",
       "title": "Charlotte FC beat D.C. United 3-1 as Liel Abada sets up the clincher",
@@ -4720,27 +4764,6 @@
       },
       "lexicalDiversity": 0.609,
       "publisherAttributions": 1,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-23-espanyol-real-madrid-espi-mourinho",
-      "slug": "espanyol-real-madrid-espi-late-winner-mourinho-return",
-      "title": "Espanyol 1-2 Real Madrid: Carlos Espí's stoppage-time winner rescues Mourinho's return",
-      "kind": "match-report",
-      "words": 513,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 42,
-        "longest": 81,
-        "average": 57
-      },
-      "sentenceWords": {
-        "shortest": 10,
-        "longest": 58,
-        "average": 28.5
-      },
-      "lexicalDiversity": 0.585,
-      "publisherAttributions": 0,
       "flags": []
     },
     {
@@ -24291,6 +24314,27 @@
         "average": 32.1
       },
       "lexicalDiversity": 0.619,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-23-real-madrid-espanyol-espi-mourinho",
+      "slug": "real-madrid-beat-espanyol-espi-mourinho-return",
+      "title": "Real Madrid 2-1 Espanyol: Carlos Espí's late strike gives Mourinho a winning return",
+      "kind": "article",
+      "words": 653,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 50,
+        "longest": 85,
+        "average": 65.3
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 52,
+        "average": 29.7
+      },
+      "lexicalDiversity": 0.544,
       "publisherAttributions": 0,
       "flags": []
     }

@@ -146,21 +146,21 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-23T10:52:47Z",
-    "validUntil": "2026-08-23T22:52:47Z",
+    "checkedAt": "2026-08-23T11:31:16Z",
+    "validUntil": "2026-08-23T23:31:16Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 830,
+        "maxAgeHours": 831,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260823-sinner-withdraws-us-open",
+        "articleId": "live-2026-08-23-liverpool-new-era-after-salah",
         "maxAgeHours": 48,
         "requires": []
       },
@@ -174,14 +174,14 @@
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260823-southampton-west-ham-ticket-prices-peretz-solomon",
+        "articleId": "live-2026-08-23-kovacs-referee-beer-sheva-sabah",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 848,
+        "maxAgeHours": 849,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260823-beitar-nordia-jerusalem-deficit",
+        "articleId": "live-2026-08-23-yarin-levi-ben-sahar-fan-whistles",
         "maxAgeHours": 36,
         "requires": []
       }

@@ -1,22 +1,22 @@
 {
   "selections": [
     {
-      "articleId": "live-20260823-sinner-withdraws-us-open",
-      "article": "Jannik Sinner withdraws from the US Open with knee injury",
-      "file": "File:Jannik Sinner (2024 US Open) 01.jpg",
+      "articleId": "live-2026-08-23-liverpool-new-era-after-salah",
+      "article": "A new era: how Liverpool are rebuilding their attack after Salah's exit",
+      "file": "File:Premier League Newcastle-Arsenal 2023-05-07 12.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-2026-08-23-tom-simkhaev-judo-bronze-world-cadets",
-      "article": "Tom Simkhaev wins bronze as Israel post record haul at judo's World Cadet Championships",
-      "file": "File:Judo throw.jpg",
+      "articleId": "live-2026-08-23-kovacs-referee-beer-sheva-sabah",
+      "article": "István Kovács named referee for Hapoel Beer Sheva's Champions League playoff decider against Sabah",
+      "file": "File:István Kovács referee.jpg",
       "license": "CC BY-SA 3.0"
     },
     {
-      "articleId": "live-2026-08-23-augustine-rubit-lands-joins-maccabi-ashdod",
-      "article": "Augustine Rubit lands in Israel to join Maccabi Ashdod",
-      "file": "File:Augustine Rubit 21 Brose Bamberg EuroLeague 20180209 (cropped).jpg",
-      "license": "CC BY-SA 4.0"
+      "articleId": "live-20260823-roy-revivo-maccabi-commitment",
+      "article": "Revivo says he remains committed to Maccabi Tel Aviv despite transfer talk",
+      "file": "File:GiuseppeMeazzaNeazzurro.jpg",
+      "license": "CC BY 2.0"
     },
     {
       "articleId": "live-20260815-liebmann-1500m-freestyle-world-record",
@@ -25,15 +25,9 @@
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-2026-08-13-adva-cohen-steeplechase-10th",
-      "article": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
-      "file": "File:20220817 European Championships Munich 2022 Tania Moreno Matveeva 850 7683.jpg",
-      "license": "CC BY-SA 4.0"
-    },
-    {
       "articleId": "live-20260802-israel-fifth-mixed-duet-technical-paris",
       "article": "Israel take fifth in mixed duet technical final at European Championships in Paris",
-      "file": "File:20220814 European Championships Munich 2022 Ľubomír Pištej 850 3618.jpg",
+      "file": "File:20220817 European Championships Munich 2022 Tania Moreno Matveeva 850 7683.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
@@ -47,12 +41,18 @@
       "article": "Adam Ramsay-Peaty questions it all after bitter Commonwealth bronze",
       "file": "File:Adam Peaty Olympics 100m breaststroke 2016.jpg",
       "license": "CC BY 3.0 br"
+    },
+    {
+      "articleId": "live-2026-08-23-itamar-roitman-hapoel-galil-elyon-scout",
+      "article": "Itamar Roitman joins Hapoel Galil Elyon as head of scouting and assistant coach",
+      "file": "File:Sport hall - Kfar Blum 1.jpg",
+      "license": "CC BY-SA 4.0"
     }
   ],
   "failures": [
     {
-      "id": "live-20260823-dolgopyat-crisis-interview",
-      "title": "\"I asked myself if I was still worthy\": Dolgopyat on the crisis behind his third European gold",
+      "id": "live-2026-08-23-yarin-levi-ben-sahar-fan-whistles",
+      "title": "Maccabi Haifa open season with 2-1 win over Hapoel Ramat Gan as Ben Sahar says Yarin Levi's answer must come on the pitch",
       "error": "image download 429 after retries"
     },
     {
@@ -128,6 +128,11 @@
     {
       "id": "live-2026-08-15-ukraine-amateur-tennis-legend-kurbanov-killed-war",
       "title": "Ukrainian amateur tennis 'legend' Slava Kurbanov killed fighting on the front",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-2026-08-13-adva-cohen-steeplechase-10th",
+      "title": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {
@@ -368,6 +373,11 @@
     {
       "id": "live-2026-08-15-liebmann-1500m-world-record",
       "title": "Johannes Liebmann shatters 1500m freestyle world record to complete Paris distance double",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-2026-08-23-real-madrid-espanyol-espi-mourinho",
+      "title": "Real Madrid 2-1 Espanyol: Carlos Espí's late strike gives Mourinho a winning return",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     }
   ]

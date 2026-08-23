@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T10:52:48.087Z",
+  "generatedAt": "2026-08-23T11:31:16.600Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1649,
-    "publishedBefore": 1136,
-    "cleanPublished": 1129,
+    "totalArticles": 1654,
+    "publishedBefore": 1138,
+    "cleanPublished": 1131,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1136,
-    "reviewAfter": 513
+    "publishedAfter": 1138,
+    "reviewAfter": 516
   },
   "blockedPublished": [
     {
@@ -141,16 +141,31 @@
   ],
   "warnings": [
     {
-      "id": "live-20260823-sinner-withdraws-us-open",
-      "slug": "sinner-withdraws-us-open-knee-injury",
-      "title": "Jannik Sinner withdraws from the US Open with knee injury",
+      "id": "live-2026-08-23-kovacs-referee-beer-sheva-sabah",
+      "slug": "istvan-kovacs-referee-beer-sheva-sabah-champions-league-playoff",
+      "title": "István Kovács named referee for Hapoel Beer Sheva's Champions League playoff decider against Sabah",
       "statusBefore": "published",
-      "words": 329,
+      "words": 321,
       "paragraphs": 7,
-      "facts": 6,
+      "facts": 7,
       "verificationSources": 4,
       "blockers": [],
       "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260823-roy-revivo-maccabi-commitment",
+      "slug": "roy-revivo-maccabi-tel-aviv-committed-transfer-saga",
+      "title": "Revivo says he remains committed to Maccabi Tel Aviv despite transfer talk",
+      "statusBefore": "published",
+      "words": 345,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
         "media:no-action-or-competition-context-detected"
       ]
     },
@@ -170,16 +185,17 @@
     },
     {
       "id": "live-20260823-beitar-nordia-jerusalem-deficit",
-      "slug": "beitar-nordia-jerusalem-766000-shekel-deficit",
-      "title": "Beitar Nordia Jerusalem posts a 766,000-shekel deficit for a fifth straight year",
+      "slug": "beitar-nordia-jerusalem-766000-shekel-deficit-2025",
+      "title": "Beitar Nordia Jerusalem post a fifth straight annual deficit, this time 766,000 shekels",
       "statusBefore": "published",
-      "words": 384,
+      "words": 350,
       "paragraphs": 8,
       "facts": 7,
-      "verificationSources": 4,
+      "verificationSources": 3,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:2"
       ]
     },
     {
@@ -314,7 +330,7 @@
       "id": "live-2026-08-23-maccabi-haifa-bruninho-brace-ramat-gan",
       "slug": "maccabi-haifa-2-1-hapoel-ramat-gan-bruninho-brace-cedric-don-fine",
       "title": "Maccabi Haifa 2-1 Hapoel Ramat Gan: Bruninho brace opens the season, Cedric Don fined for lateness",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 483,
       "paragraphs": 8,
       "facts": 7,
@@ -16218,17 +16234,72 @@
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
+    },
+    {
+      "id": "live-20260823-hapoel-jerusalem-new-emblem",
+      "slug": "hapoel-jerusalem-basketball-new-club-emblem",
+      "title": "Hapoel Jerusalem unveils new club emblem after fan revolt over leaked design",
+      "statusBefore": "review",
+      "words": 439,
+      "paragraphs": 11,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-23-itamar-roitman-hapoel-galil-elyon-scout",
+      "slug": "itamar-roitman-joins-hapoel-galil-elyon-scouting-staff",
+      "title": "Itamar Roitman joins Hapoel Galil Elyon as head of scouting and assistant coach",
+      "statusBefore": "published",
+      "words": 204,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-23-bruninho-brace-maccabi-haifa-ramat-gan",
+      "slug": "maccabi-haifa-bruninho-brace-hapoel-ramat-gan-ligat-haal-opener",
+      "title": "Maccabi Haifa 2-1 Hapoel Ramat Gan: Bruninho brace answers the doubters on opening night",
+      "statusBefore": "review",
+      "words": 423,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
     }
   ],
   "cleanPublished": [
     {
-      "id": "live-20260823-sinner-withdraws-us-open",
-      "slug": "sinner-withdraws-us-open-knee-injury",
-      "title": "Jannik Sinner withdraws from the US Open with knee injury",
+      "id": "live-2026-08-23-liverpool-new-era-after-salah",
+      "slug": "liverpool-new-era-after-salah-departure",
+      "title": "A new era: how Liverpool are rebuilding their attack after Salah's exit",
       "statusBefore": "published",
-      "words": 329,
-      "paragraphs": 7,
+      "words": 465,
+      "paragraphs": 9,
       "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-23-kovacs-referee-beer-sheva-sabah",
+      "slug": "istvan-kovacs-referee-beer-sheva-sabah-champions-league-playoff",
+      "title": "István Kovács named referee for Hapoel Beer Sheva's Champions League playoff decider against Sabah",
+      "statusBefore": "published",
+      "words": 321,
+      "paragraphs": 7,
+      "facts": 7,
       "verificationSources": 4,
       "blockers": [],
       "warnings": [
@@ -16236,16 +16307,31 @@
       ]
     },
     {
-      "id": "live-20260823-dolgopyat-crisis-interview",
-      "slug": "artem-dolgopyat-crisis-interview-third-european-gold",
-      "title": "\"I asked myself if I was still worthy\": Dolgopyat on the crisis behind his third European gold",
+      "id": "live-2026-08-23-yarin-levi-ben-sahar-fan-whistles",
+      "slug": "yarin-levi-ben-sahar-fan-whistles-maccabi-haifa",
+      "title": "Maccabi Haifa open season with 2-1 win over Hapoel Ramat Gan as Ben Sahar says Yarin Levi's answer must come on the pitch",
       "statusBefore": "published",
-      "words": 539,
-      "paragraphs": 10,
-      "facts": 6,
-      "verificationSources": 3,
+      "words": 546,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
       "blockers": [],
       "warnings": []
+    },
+    {
+      "id": "live-20260823-roy-revivo-maccabi-commitment",
+      "slug": "roy-revivo-maccabi-tel-aviv-committed-transfer-saga",
+      "title": "Revivo says he remains committed to Maccabi Tel Aviv despite transfer talk",
+      "statusBefore": "published",
+      "words": 345,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-20260823-southampton-west-ham-ticket-prices-peretz-solomon",
@@ -16263,16 +16349,17 @@
     },
     {
       "id": "live-20260823-beitar-nordia-jerusalem-deficit",
-      "slug": "beitar-nordia-jerusalem-766000-shekel-deficit",
-      "title": "Beitar Nordia Jerusalem posts a 766,000-shekel deficit for a fifth straight year",
+      "slug": "beitar-nordia-jerusalem-766000-shekel-deficit-2025",
+      "title": "Beitar Nordia Jerusalem post a fifth straight annual deficit, this time 766,000 shekels",
       "statusBefore": "published",
-      "words": 384,
+      "words": 350,
       "paragraphs": 8,
       "facts": 7,
-      "verificationSources": 4,
+      "verificationSources": 3,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:2"
       ]
     },
     {
@@ -16390,20 +16477,6 @@
       ]
     },
     {
-      "id": "live-2026-08-23-maccabi-haifa-bruninho-brace-ramat-gan",
-      "slug": "maccabi-haifa-2-1-hapoel-ramat-gan-bruninho-brace-cedric-don-fine",
-      "title": "Maccabi Haifa 2-1 Hapoel Ramat Gan: Bruninho brace opens the season, Cedric Don fined for lateness",
-      "statusBefore": "published",
-      "words": 483,
-      "paragraphs": 8,
-      "facts": 7,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
       "id": "live-20260823-abada-charlotte-dc-united-assist",
       "slug": "liel-abada-assist-charlotte-fc-beat-dc-united-3-1",
       "title": "Charlotte FC beat D.C. United 3-1 as Liel Abada sets up the clincher",
@@ -16416,18 +16489,6 @@
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
-    },
-    {
-      "id": "live-2026-08-23-espanyol-real-madrid-espi-mourinho",
-      "slug": "espanyol-real-madrid-espi-late-winner-mourinho-return",
-      "title": "Espanyol 1-2 Real Madrid: Carlos Espí's stoppage-time winner rescues Mourinho's return",
-      "statusBefore": "published",
-      "words": 513,
-      "paragraphs": 9,
-      "facts": 7,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": []
     },
     {
       "id": "archive-20260823-seoul-6-march-2017-the-night-baseball-s-",
@@ -31506,6 +31567,32 @@
       "paragraphs": 7,
       "facts": 6,
       "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-23-real-madrid-espanyol-espi-mourinho",
+      "slug": "real-madrid-beat-espanyol-espi-mourinho-return",
+      "title": "Real Madrid 2-1 Espanyol: Carlos Espí's late strike gives Mourinho a winning return",
+      "statusBefore": "published",
+      "words": 658,
+      "paragraphs": 10,
+      "facts": 8,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-23-itamar-roitman-hapoel-galil-elyon-scout",
+      "slug": "itamar-roitman-joins-hapoel-galil-elyon-scouting-staff",
+      "title": "Itamar Roitman joins Hapoel Galil Elyon as head of scouting and assistant coach",
+      "statusBefore": "published",
+      "words": 204,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 1,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
