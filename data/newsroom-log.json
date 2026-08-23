@@ -2601,5 +2601,59 @@
         "reason": ""
       }
     ]
+  },
+  {
+    "ts": "2026-08-23T17:24:02.497Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 1,
+    "review": 3,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "hapoel-jerusalem-maccabi-tel-aviv-scoreless-first-half",
+        "title": "Hapoel Jerusalem and Maccabi Tel Aviv goalless at the break in season opener",
+        "confidence": 0,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "match in progress — wait for full time"
+      },
+      {
+        "slug": "hapoel-petah-tikva-sign-diego-arroyo-loan-shakhtar",
+        "title": "Hapoel Petah Tikva sign Bolivian defender Diego Arroyo on season-long loan from Shakhtar Donetsk",
+        "confidence": 0.8,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Loan reported by a single outlet (ONE); Hapoel Petah Tikva had not yet published their own confirmation at the time of writing."
+      },
+      {
+        "slug": "atletico-madrid-2-2-villarreal-alvarez-booed-return",
+        "title": "Atlético Madrid 2-2 Villarreal: Giuliano Simeone salvages late point as booed Álvarez returns from bench",
+        "decision": "duplicate",
+        "reason": "same event as julian-alvarez-included-atletico-squad-villarreal-simeone-defends"
+      },
+      {
+        "slug": "guiagon-saudi-move-maccabi-tel-aviv-sell-on",
+        "title": "Guiagon's Saudi move to net Maccabi Tel Aviv a share of the fee, ONE reports",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "remilk-becomes-maccabi-netanya-shirt-sponsor",
+        "title": "Remilk becomes Maccabi Netanya's new shirt sponsor ahead of season opener",
+        "confidence": 0.85,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Sponsorship value undisclosed; club VP's name (Kubi Lavie) transliterated phonetically from the single source, not cross-checked against a club roster page."
+      }
+    ]
   }
 ]

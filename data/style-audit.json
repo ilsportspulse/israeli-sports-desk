@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T17:22:00.623Z",
+  "generatedAt": "2026-08-23T17:42:55.381Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,7 +11,7 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1159,
+    "publishedArticles": 1157,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
@@ -22,10 +22,10 @@
       "3": 36,
       "4": 6,
       "5": 10,
-      "6": 54,
-      "7": 175,
-      "8": 339,
-      "9": 282,
+      "6": 55,
+      "7": 174,
+      "8": 338,
+      "9": 281,
       "10": 185,
       "11": 48,
       "12": 14,
@@ -37,9 +37,9 @@
     "dominantParagraphCount": 8,
     "dominantParagraphShare": 0.292,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 54,
+    "exactSixParagraphArticles": 55,
     "analysisBelowTarget": 12,
-    "articlesWithStyleFlags": 194
+    "articlesWithStyleFlags": 193
   },
   "flagged": [
     {
@@ -328,29 +328,6 @@
       "flags": [
         "below-editorial-target:227/280",
         "publisher-attribution-heavy:2"
-      ]
-    },
-    {
-      "id": "live-20260823-sokler-revivo-start-maccabi-tel-aviv",
-      "slug": "sokler-revivo-start-maccabi-tel-aviv-hapoel-jerusalem-opener",
-      "title": "Sokler handed full debut as Maccabi Tel Aviv name strong side for Hapoel Jerusalem opener",
-      "kind": "news",
-      "words": 264,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 22,
-        "longest": 47,
-        "average": 37.7
-      },
-      "sentenceWords": {
-        "shortest": 14,
-        "longest": 45,
-        "average": 29.3
-      },
-      "lexicalDiversity": 0.655,
-      "publisherAttributions": 0,
-      "flags": [
-        "below-editorial-target:264/280"
       ]
     },
     {
@@ -4519,45 +4496,24 @@
   ],
   "clean": [
     {
-      "id": "live-2026-08-23-kenny-lofton-jr-hapoel-jerusalem-eurocup",
-      "slug": "kenny-lofton-jr-hapoel-jerusalem-eurocup-goal",
-      "title": "Kenny Lofton Jr. lands in Jerusalem: 'The plan is to win the EuroCup'",
-      "kind": "news",
-      "words": 439,
-      "paragraphs": 9,
+      "id": "live-2026-08-23-guiagon-al-taawoun-maccabi-cut",
+      "slug": "guiagon-saudi-move-maccabi-tel-aviv-sell-on",
+      "title": "Guiagon's Saudi move to net Maccabi Tel Aviv a share of the fee, ONE reports",
+      "kind": "article",
+      "words": 358,
+      "paragraphs": 6,
       "paragraphWords": {
-        "shortest": 29,
-        "longest": 64,
-        "average": 48.8
+        "shortest": 40,
+        "longest": 88,
+        "average": 59.7
       },
       "sentenceWords": {
         "shortest": 9,
-        "longest": 106,
-        "average": 43.9
+        "longest": 49,
+        "average": 29.8
       },
-      "lexicalDiversity": 0.61,
+      "lexicalDiversity": 0.547,
       "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260823-guiagon-al-taawoun-maccabi-cut",
-      "slug": "guiagon-saudi-move-maccabi-tel-aviv-sell-on-clause",
-      "title": "Guiagon closing in on Saudi move, with Maccabi Tel Aviv in line for a windfall",
-      "kind": "news",
-      "words": 431,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 39,
-        "longest": 76,
-        "average": 53.9
-      },
-      "sentenceWords": {
-        "shortest": 10,
-        "longest": 51,
-        "average": 33.2
-      },
-      "lexicalDiversity": 0.596,
-      "publisherAttributions": 1,
       "flags": []
     },
     {

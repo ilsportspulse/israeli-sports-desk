@@ -1,28 +1,22 @@
 {
   "selections": [
     {
-      "articleId": "live-20260823-sokler-revivo-start-maccabi-tel-aviv",
-      "article": "Sokler handed full debut as Maccabi Tel Aviv name strong side for Hapoel Jerusalem opener",
-      "file": "File:GiuseppeMeazzaNeazzurro.jpg",
-      "license": "CC BY 2.0"
-    },
-    {
-      "articleId": "live-2026-08-23-kenny-lofton-jr-hapoel-jerusalem-eurocup",
-      "article": "Kenny Lofton Jr. lands in Jerusalem: 'The plan is to win the EuroCup'",
-      "file": "File:Jerusalem Arena 01.JPG",
-      "license": "CC BY-SA 3.0"
-    },
-    {
-      "articleId": "live-2026-08-23-maccabi-netanya-remilk-sponsor",
-      "article": "Maccabi Netanya name Remilk as new main shirt sponsor",
+      "articleId": "live-2026-08-23-remilk-maccabi-netanya-sponsor",
+      "article": "Remilk becomes Maccabi Netanya's new shirt sponsor ahead of season opener",
       "file": "File:Mecz piłkarski Wisła Kraków - Zagłębie Sosnwoiec, 28 października 2022, Pożegnanie Stadionu Ludowego, KP.jpg",
       "license": "CC BY 4.0"
     },
     {
-      "articleId": "live-20260823-guiagon-al-taawoun-maccabi-cut",
-      "article": "Guiagon closing in on Saudi move, with Maccabi Tel Aviv in line for a windfall",
-      "file": "File:Parfait Guiagon Cote D'Ivoire v Ecuador 14 June 2026-27 (cropped).jpg",
+      "articleId": "live-2026-08-23-hapoel-petah-tikva-arroyo-signing",
+      "article": "Hapoel Petah Tikva sign Bolivian defender Diego Arroyo on season-long loan from Shakhtar Donetsk",
+      "file": "File:Graffiti and street art in Petah Tikva, May 2024 43.jpg",
       "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-20260823-hapoel-jerusalem-maccabi-tel-aviv-first-half",
+      "article": "Hapoel Jerusalem and Maccabi Tel Aviv goalless at the break in season opener",
+      "file": "File:GiuseppeMeazzaNeazzurro.jpg",
+      "license": "CC BY 2.0"
     },
     {
       "articleId": "live-20260815-liebmann-1500m-freestyle-world-record",
@@ -56,6 +50,11 @@
     }
   ],
   "failures": [
+    {
+      "id": "live-2026-08-23-guiagon-al-taawoun-maccabi-cut",
+      "title": "Guiagon's Saudi move to net Maccabi Tel Aviv a share of the fee, ONE reports",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
     {
       "id": "live-2026-08-23-bnei-yehuda-kfar-shalem-in-progress",
       "title": "Kfar Shalem lead Bnei Yehuda 0-1 as Liga Leumit clash continues",

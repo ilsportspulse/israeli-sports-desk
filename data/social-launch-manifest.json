@@ -146,21 +146,21 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-23T17:21:59Z",
-    "validUntil": "2026-08-24T05:21:59Z",
+    "checkedAt": "2026-08-23T17:42:54Z",
+    "validUntil": "2026-08-24T05:42:54Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 836,
+        "maxAgeHours": 837,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260823-sokler-revivo-start-maccabi-tel-aviv",
+        "articleId": "live-2026-08-23-guiagon-al-taawoun-maccabi-cut",
         "maxAgeHours": 48,
         "requires": []
       },
@@ -174,14 +174,14 @@
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-23-kenny-lofton-jr-hapoel-jerusalem-eurocup",
+        "articleId": "live-2026-08-23-georgina-adopts-ronaldo-children",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 854,
+        "maxAgeHours": 855,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260823-guiagon-al-taawoun-maccabi-cut",
+        "articleId": "live-2026-08-23-maresca-city-bournemouth-debut",
         "maxAgeHours": 36,
         "requires": []
       }
