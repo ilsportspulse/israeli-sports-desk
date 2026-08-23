@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T12:56:01.271Z",
+  "generatedAt": "2026-08-23T13:16:59.429Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1666,
-    "publishedBefore": 1143,
-    "cleanPublished": 1136,
+    "totalArticles": 1671,
+    "publishedBefore": 1146,
+    "cleanPublished": 1139,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1143,
-    "reviewAfter": 523
+    "publishedAfter": 1146,
+    "reviewAfter": 525
   },
   "blockedPublished": [
     {
@@ -141,26 +141,41 @@
   ],
   "warnings": [
     {
-      "id": "live-2026-08-23-orian-goren-gai-assulin-barcelona-no-single-path",
-      "slug": "orian-goren-gai-assulin-barcelona-no-single-path-to-success",
-      "title": "Goren and Assulin? There is no single story to success, says former coach",
+      "id": "live-20260823-goren-asulin-no-one-story-success",
+      "slug": "orian-goren-youth-coach-no-one-story-to-success-asulin",
+      "title": "Goren's boyhood coach on Barcelona path: \"There's no one story to success\"",
       "statusBefore": "review",
-      "words": 540,
-      "paragraphs": 9,
+      "words": 420,
+      "paragraphs": 8,
       "facts": 6,
-      "verificationSources": 5,
+      "verificationSources": 4,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
     },
     {
-      "id": "live-20260823-meir-harush-beitar-70-eli-ohana-championship",
-      "slug": "meir-harush-beitar-kit-man-70-eli-ohana-championship-memory",
-      "title": "Beitar Jerusalem's kit man Meir Harush turns 70: 'The championship with Eli Ohana was my most exciting moment'",
+      "id": "live-2026-08-23-bouaddi-manchester-city-rodri-replacement",
+      "slug": "bouaddi-manchester-city-lille-100m-deal",
+      "title": "Manchester City agree €100m deal with Lille for Ayyoub Bouaddi, Rodri's long-term successor",
       "statusBefore": "published",
-      "words": 494,
+      "words": 357,
       "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260823-meir-harosh-beitar-70-eli-ohana",
+      "slug": "meir-harosh-beitar-jerusalem-70-eli-ohana-championship",
+      "title": "Meir Harosh: my most emotional moment? The championship with Eli Ohana",
+      "statusBefore": "published",
+      "words": 440,
+      "paragraphs": 9,
       "facts": 7,
       "verificationSources": 4,
       "blockers": [],
@@ -169,17 +184,31 @@
       ]
     },
     {
-      "id": "live-20260823-tefer-lawsuit-ironi-tiberias",
-      "slug": "yonatan-tefer-lawyer-lawsuit-ironi-tiberias-doping-settlement",
-      "title": "Tefer's lawyer leaves door open for lawsuit against Ironi Tiberias",
+      "id": "live-20260823-tefer-tiberias-lawsuit-threat",
+      "slug": "yonatan-tefer-lawyer-lawsuit-threat-ironi-tiberias",
+      "title": "Yonatan Tefer's lawyer leaves door open to a lawsuit against Ironi Tiberias",
       "statusBefore": "review",
-      "words": 435,
+      "words": 564,
       "paragraphs": 9,
       "facts": 7,
       "verificationSources": 5,
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-08-23-westham-solomon-chant-read-between-lines",
+      "slug": "westham-fans-manor-solomon-chant-read-between-lines",
+      "title": "West Ham fans' Manor Solomon chant leaves little room to read between the lines",
+      "statusBefore": "published",
+      "words": 507,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "voice:stock-editorial-phrase-detected"
       ]
     },
     {
@@ -235,6 +264,20 @@
       "paragraphs": 7,
       "facts": 6,
       "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260823-dolgopyat-crisis-interview",
+      "slug": "artem-dolgopyat-crisis-interview-third-european-gold",
+      "title": "\"I asked myself if I was still worthy\": Dolgopyat on the crisis behind his third European gold",
+      "statusBefore": "published",
+      "words": 539,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 3,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -16377,16 +16420,89 @@
         "presentation:outlet-name-in-headline",
         "media:no-action-or-competition-context-detected"
       ]
+    },
+    {
+      "id": "live-2026-08-23-israelis-no-business-mls-column",
+      "slug": "israelis-no-business-mls-column",
+      "title": "Israelis have no business in MLS, a new column argues",
+      "statusBefore": "review",
+      "words": 478,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:analysis-below-650-word-editorial-target:478"
+      ]
+    },
+    {
+      "id": "live-20260823-youth-football-early-training-opinion",
+      "slug": "when-to-start-teaching-kids-football",
+      "title": "An Israeli coach argues kids should start football at age two, not eight",
+      "statusBefore": "review",
+      "words": 408,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260823-barcelona-rodri-midfield-crowding",
+      "slug": "barcelona-rodri-signing-midfield-analysis",
+      "title": "Barcelona load up on midfielders with Rodri — but who scores the goals?",
+      "statusBefore": "published",
+      "words": 480,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:analysis-below-650-word-editorial-target:480"
+      ]
+    },
+    {
+      "id": "live-20260823-dolgopyat-third-european-floor-title",
+      "slug": "dolgopyat-third-european-floor-exercise-title",
+      "title": "Dolgopyat wins floor exercise gold for third European title",
+      "statusBefore": "published",
+      "words": 318,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     }
   ],
   "cleanPublished": [
     {
-      "id": "live-20260823-meir-harush-beitar-70-eli-ohana-championship",
-      "slug": "meir-harush-beitar-kit-man-70-eli-ohana-championship-memory",
-      "title": "Beitar Jerusalem's kit man Meir Harush turns 70: 'The championship with Eli Ohana was my most exciting moment'",
+      "id": "live-2026-08-23-bouaddi-manchester-city-rodri-replacement",
+      "slug": "bouaddi-manchester-city-lille-100m-deal",
+      "title": "Manchester City agree €100m deal with Lille for Ayyoub Bouaddi, Rodri's long-term successor",
       "statusBefore": "published",
-      "words": 494,
+      "words": 357,
       "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260823-meir-harosh-beitar-70-eli-ohana",
+      "slug": "meir-harosh-beitar-jerusalem-70-eli-ohana-championship",
+      "title": "Meir Harosh: my most emotional moment? The championship with Eli Ohana",
+      "statusBefore": "published",
+      "words": 440,
+      "paragraphs": 9,
       "facts": 7,
       "verificationSources": 4,
       "blockers": [],
@@ -16395,16 +16511,18 @@
       ]
     },
     {
-      "id": "live-2026-08-23-manor-solomon-west-ham-chant-reading-between-lines",
-      "slug": "manor-solomon-west-ham-chant-reading-between-lines",
-      "title": "West Ham fan site says meaning behind Manor Solomon chant is clear, even unspoken",
+      "id": "live-2026-08-23-westham-solomon-chant-read-between-lines",
+      "slug": "westham-fans-manor-solomon-chant-read-between-lines",
+      "title": "West Ham fans' Manor Solomon chant leaves little room to read between the lines",
       "statusBefore": "published",
-      "words": 522,
-      "paragraphs": 9,
-      "facts": 7,
+      "words": 507,
+      "paragraphs": 8,
+      "facts": 6,
       "verificationSources": 5,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "voice:stock-editorial-phrase-detected"
+      ]
     },
     {
       "id": "live-20260823-revivo-maccabi-commitment",
@@ -16456,7 +16574,9 @@
       "facts": 6,
       "verificationSources": 3,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-20260823-southampton-west-ham-ticket-prices-peretz-solomon",
@@ -31760,6 +31880,35 @@
       "verificationSources": 4,
       "blockers": [],
       "warnings": []
+    },
+    {
+      "id": "live-20260823-barcelona-rodri-midfield-crowding",
+      "slug": "barcelona-rodri-signing-midfield-analysis",
+      "title": "Barcelona load up on midfielders with Rodri — but who scores the goals?",
+      "statusBefore": "published",
+      "words": 480,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:analysis-below-650-word-editorial-target:480"
+      ]
+    },
+    {
+      "id": "live-20260823-dolgopyat-third-european-floor-title",
+      "slug": "dolgopyat-third-european-floor-exercise-title",
+      "title": "Dolgopyat wins floor exercise gold for third European title",
+      "statusBefore": "published",
+      "words": 318,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     }
   ]
 }

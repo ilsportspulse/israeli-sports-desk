@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T12:56:01.923Z",
+  "generatedAt": "2026-08-23T13:17:00.096Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1143,
+    "publishedArticles": 1146,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 418,
-      "average": 422.6
+      "average": 422.4
     },
     "paragraphDistribution": {
       "3": 36,
@@ -24,8 +24,8 @@
       "5": 10,
       "6": 54,
       "7": 173,
-      "8": 336,
-      "9": 273,
+      "8": 338,
+      "9": 274,
       "10": 183,
       "11": 48,
       "12": 14,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.294,
+    "dominantParagraphShare": 0.295,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 54,
-    "analysisBelowTarget": 11,
-    "articlesWithStyleFlags": 192
+    "analysisBelowTarget": 12,
+    "articlesWithStyleFlags": 194
   },
   "flagged": [
     {
@@ -328,6 +328,29 @@
       "flags": [
         "below-editorial-target:227/280",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-23-westham-solomon-chant-read-between-lines",
+      "slug": "westham-fans-manor-solomon-chant-read-between-lines",
+      "title": "West Ham fans' Manor Solomon chant leaves little room to read between the lines",
+      "kind": "news",
+      "words": 504,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 54,
+        "longest": 77,
+        "average": 63
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 70,
+        "average": 31.5
+      },
+      "lexicalDiversity": 0.575,
+      "publisherAttributions": 0,
+      "flags": [
+        "stock-phrase:remains-to-be-seen"
       ]
     },
     {
@@ -4469,48 +4492,71 @@
       "flags": [
         "below-editorial-target:204/280"
       ]
+    },
+    {
+      "id": "live-20260823-barcelona-rodri-midfield-crowding",
+      "slug": "barcelona-rodri-signing-midfield-analysis",
+      "title": "Barcelona load up on midfielders with Rodri — but who scores the goals?",
+      "kind": "analysis",
+      "words": 476,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 40,
+        "longest": 64,
+        "average": 52.9
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 47,
+        "average": 26.4
+      },
+      "lexicalDiversity": 0.634,
+      "publisherAttributions": 0,
+      "flags": [
+        "below-editorial-target:476/650"
+      ]
     }
   ],
   "clean": [
     {
-      "id": "live-20260823-meir-harush-beitar-70-eli-ohana-championship",
-      "slug": "meir-harush-beitar-kit-man-70-eli-ohana-championship-memory",
-      "title": "Beitar Jerusalem's kit man Meir Harush turns 70: 'The championship with Eli Ohana was my most exciting moment'",
-      "kind": "feature",
-      "words": 493,
+      "id": "live-2026-08-23-bouaddi-manchester-city-rodri-replacement",
+      "slug": "bouaddi-manchester-city-lille-100m-deal",
+      "title": "Manchester City agree €100m deal with Lille for Ayyoub Bouaddi, Rodri's long-term successor",
+      "kind": "news",
+      "words": 355,
       "paragraphs": 8,
       "paragraphWords": {
-        "shortest": 46,
-        "longest": 80,
-        "average": 61.6
+        "shortest": 34,
+        "longest": 54,
+        "average": 44.4
       },
       "sentenceWords": {
-        "shortest": 9,
-        "longest": 65,
-        "average": 35.2
+        "shortest": 16,
+        "longest": 46,
+        "average": 32.3
       },
-      "lexicalDiversity": 0.521,
+      "lexicalDiversity": 0.631,
       "publisherAttributions": 0,
       "flags": []
     },
     {
-      "id": "live-2026-08-23-manor-solomon-west-ham-chant-reading-between-lines",
-      "slug": "manor-solomon-west-ham-chant-reading-between-lines",
-      "title": "West Ham fan site says meaning behind Manor Solomon chant is clear, even unspoken",
-      "kind": "news",
-      "words": 522,
+      "id": "live-20260823-meir-harosh-beitar-70-eli-ohana",
+      "slug": "meir-harosh-beitar-jerusalem-70-eli-ohana-championship",
+      "title": "Meir Harosh: my most emotional moment? The championship with Eli Ohana",
+      "kind": "feature",
+      "words": 441,
       "paragraphs": 9,
       "paragraphWords": {
-        "shortest": 34,
-        "longest": 93,
-        "average": 58
+        "shortest": 33,
+        "longest": 65,
+        "average": 49
       },
       "sentenceWords": {
-        "shortest": 12,
-        "longest": 129,
-        "average": 52.2
+        "shortest": 7,
+        "longest": 73,
+        "average": 33.9
       },
-      "lexicalDiversity": 0.556,
+      "lexicalDiversity": 0.59,
       "publisherAttributions": 0,
       "flags": []
     },
@@ -24440,6 +24486,27 @@
         "average": 36.4
       },
       "lexicalDiversity": 0.56,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260823-dolgopyat-third-european-floor-title",
+      "slug": "dolgopyat-third-european-floor-exercise-title",
+      "title": "Dolgopyat wins floor exercise gold for third European title",
+      "kind": "article",
+      "words": 318,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 28,
+        "longest": 50,
+        "average": 39.8
+      },
+      "sentenceWords": {
+        "shortest": 33,
+        "longest": 122,
+        "average": 53
+      },
+      "lexicalDiversity": 0.579,
       "publisherAttributions": 0,
       "flags": []
     }

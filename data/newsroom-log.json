@@ -2901,5 +2901,61 @@
         "reason": "Coach name 'Ron Marcos' and his exact quotes are drawn from a single source (ONE) via automated page extraction and could not be independently cross-verified; core biographical and club facts about Goren and Assulin are multi-source confirmed."
       }
     ]
+  },
+  {
+    "ts": "2026-08-23T12:58:32.948Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 3,
+    "review": 2,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "westham-fans-manor-solomon-chant-read-between-lines",
+        "title": "West Ham fans' Manor Solomon chant leaves little room to read between the lines",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "yonatan-tefer-lawyer-lawsuit-threat-ironi-tiberias",
+        "title": "Yonatan Tefer's lawyer leaves door open to a lawsuit against Ironi Tiberias",
+        "confidence": 0.78,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "No lawsuit has been filed; Tefer's lawyer describes legal action only as a live possibility, not a confirmed step."
+      },
+      {
+        "slug": "meir-harosh-beitar-jerusalem-70-eli-ohana-championship",
+        "title": "Meir Harosh: my most emotional moment? The championship with Eli Ohana",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "bouaddi-manchester-city-lille-100m-deal",
+        "title": "Manchester City agree €100m deal with Lille for Ayyoub Bouaddi, Rodri's long-term successor",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "orian-goren-youth-coach-no-one-story-to-success-asulin",
+        "title": "Goren's boyhood coach on Barcelona path: \"There's no one story to success\"",
+        "confidence": 0.75,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "The coach's name (Ron Marcos) is transliterated from the ONE source article only; it could not be independently corroborated against a second registry or outlet within the research budget."
+      }
+    ]
   }
 ]

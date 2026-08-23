@@ -1,27 +1,33 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-08-23-orian-goren-gai-assulin-barcelona-no-single-path",
-      "article": "Goren and Assulin? There is no single story to success, says former coach",
-      "file": "File:FC Barcelona B.JPG",
+      "articleId": "live-20260823-goren-asulin-no-one-story-success",
+      "article": "Goren's boyhood coach on Barcelona path: \"There's no one story to success\"",
+      "file": "File:Camp Nou més que un club.jpg",
       "license": "CC BY-SA 3.0"
     },
     {
-      "articleId": "live-20260823-tefer-lawsuit-ironi-tiberias",
-      "article": "Tefer's lawyer leaves door open for lawsuit against Ironi Tiberias",
-      "file": "File:Mecz piłkarski Wisła Kraków - Zagłębie Sosnwoiec, 28 października 2022, Pożegnanie Stadionu Ludowego, KP.jpg",
-      "license": "CC BY 4.0"
+      "articleId": "live-2026-08-23-bouaddi-manchester-city-rodri-replacement",
+      "article": "Manchester City agree €100m deal with Lille for Ayyoub Bouaddi, Rodri's long-term successor",
+      "file": "File:Bouaddi asselosc 2425.jpg",
+      "license": "CC0"
     },
     {
-      "articleId": "live-2026-08-23-manor-solomon-west-ham-chant-reading-between-lines",
-      "article": "West Ham fan site says meaning behind Manor Solomon chant is clear, even unspoken",
-      "file": "File:Hertha BSC vs. West Ham United 20190731 (180).jpg",
+      "articleId": "live-2026-08-23-westham-solomon-chant-read-between-lines",
+      "article": "West Ham fans' Manor Solomon chant leaves little room to read between the lines",
+      "file": "File:Hertha BSC vs. West Ham United 20190731 (151).jpg",
       "license": "CC BY-SA 4.0"
     },
     {
       "articleId": "live-20260823-milan-four-players-exiled",
       "article": "Milan strip Tomori, Fofana, Nkunku and Gimenez of squad numbers in ruthless clearout",
       "file": "File:FikayoTomori2022Salzburg.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-20260823-dolgopyat-crisis-interview",
+      "article": "\"I asked myself if I was still worthy\": Dolgopyat on the crisis behind his third European gold",
+      "file": "File:European Championships 2022-08-21 Senior Men Apparatus finals (Norman Seibert) - DSC 7503.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
@@ -53,23 +59,29 @@
       "article": "Adam Ramsay-Peaty questions it all after bitter Commonwealth bronze",
       "file": "File:Adam Peaty Olympics 100m breaststroke 2016.jpg",
       "license": "CC BY 3.0 br"
+    },
+    {
+      "articleId": "live-20260823-barcelona-rodri-midfield-crowding",
+      "article": "Barcelona load up on midfielders with Rodri — but who scores the goals?",
+      "file": "File:UEFA EURO qualifiers Sweden vs Spain 20191015 Rodri.jpg",
+      "license": "CC BY-SA 4.0"
     }
   ],
   "failures": [
     {
-      "id": "live-20260823-meir-harush-beitar-70-eli-ohana-championship",
-      "title": "Beitar Jerusalem's kit man Meir Harush turns 70: 'The championship with Eli Ohana was my most exciting moment'",
+      "id": "live-20260823-meir-harosh-beitar-70-eli-ohana",
+      "title": "Meir Harosh: my most emotional moment? The championship with Eli Ohana",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-20260823-tefer-tiberias-lawsuit-threat",
+      "title": "Yonatan Tefer's lawyer leaves door open to a lawsuit against Ironi Tiberias",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {
       "id": "live-2026-08-23-bruninho-brace-haifa-ramat-gan-kanias",
       "title": "Maccabi Haifa 2-1 Hapoel Ramat Gan: \"Bruninho is above the league, I felt Bachar's pressure\"",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
-    },
-    {
-      "id": "live-20260823-dolgopyat-crisis-interview",
-      "title": "\"I asked myself if I was still worthy\": Dolgopyat on the crisis behind his third European gold",
-      "error": "image download 429 after retries"
     },
     {
       "id": "live-2026-08-23-espanyol-real-madrid-espi-mourinho",
