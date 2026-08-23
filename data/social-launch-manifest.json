@@ -146,49 +146,49 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-23T03:04:49Z",
-    "validUntil": "2026-08-23T15:04:49Z",
+    "checkedAt": "2026-08-23T04:26:46Z",
+    "validUntil": "2026-08-23T16:26:46Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 822,
+        "maxAgeHours": 823,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "archive-20260823-seoul-6-march-2017-the-night-baseball-s-",
+        "articleId": "live-2026-08-23-tiberias-petah-tikva-var-offside",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 830,
+        "maxAgeHours": 831,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-22-artzi-israel-basketball-georgia-poland-window",
+        "articleId": "live-2026-08-23-maccabi-haifa-bruninho-brace-ramat-gan",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 840,
+        "maxAgeHours": 841,
         "requires": [
           "column"
         ]
       },
       {
         "role": "archive",
-        "articleId": "archive-20260822-paris-13-may-2001-the-only-year-europe-c",
+        "articleId": "archive-20260823-seoul-6-march-2017-the-night-baseball-s-",
         "maxAgeHours": 156,
         "requires": [
           "historical-feature"
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-22-netanyahu-dolgopyat-third-european-floor-title",
+        "articleId": "live-20260823-abada-charlotte-dc-united-assist",
         "maxAgeHours": 36,
         "requires": []
       }

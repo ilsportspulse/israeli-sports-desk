@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T03:04:49.778Z",
+  "generatedAt": "2026-08-23T04:26:47.325Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,12 +17,12 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1633,
-    "publishedBefore": 1122,
-    "cleanPublished": 1115,
+    "totalArticles": 1636,
+    "publishedBefore": 1125,
+    "cleanPublished": 1118,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1122,
+    "publishedAfter": 1125,
     "reviewAfter": 511
   },
   "blockedPublished": [
@@ -140,6 +140,48 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-2026-08-23-tiberias-petah-tikva-var-offside",
+      "slug": "ironi-tiberias-hapoel-petah-tikva-var-offside-controversy",
+      "title": "Ironi Tiberias 1-0 Hapoel Petah Tikva: disallowed Rivollier goal fuels VAR storm on opening day",
+      "statusBefore": "published",
+      "words": 454,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-23-maccabi-haifa-bruninho-brace-ramat-gan",
+      "slug": "maccabi-haifa-2-1-hapoel-ramat-gan-bruninho-brace-cedric-don-fine",
+      "title": "Maccabi Haifa 2-1 Hapoel Ramat Gan: Bruninho brace opens the season, Cedric Don fined for lateness",
+      "statusBefore": "published",
+      "words": 483,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260823-abada-charlotte-dc-united-assist",
+      "slug": "liel-abada-assist-charlotte-fc-beat-dc-united-3-1",
+      "title": "Charlotte FC beat D.C. United 3-1 as Liel Abada sets up the clincher",
+      "statusBefore": "published",
+      "words": 392,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260823-maccabi-netanya-hapoel-tel-aviv-youth",
       "slug": "maccabi-netanya-hapoel-tel-aviv-youth-comeback",
@@ -16023,6 +16065,48 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-23-tiberias-petah-tikva-var-offside",
+      "slug": "ironi-tiberias-hapoel-petah-tikva-var-offside-controversy",
+      "title": "Ironi Tiberias 1-0 Hapoel Petah Tikva: disallowed Rivollier goal fuels VAR storm on opening day",
+      "statusBefore": "published",
+      "words": 454,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-23-maccabi-haifa-bruninho-brace-ramat-gan",
+      "slug": "maccabi-haifa-2-1-hapoel-ramat-gan-bruninho-brace-cedric-don-fine",
+      "title": "Maccabi Haifa 2-1 Hapoel Ramat Gan: Bruninho brace opens the season, Cedric Don fined for lateness",
+      "statusBefore": "published",
+      "words": 483,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260823-abada-charlotte-dc-united-assist",
+      "slug": "liel-abada-assist-charlotte-fc-beat-dc-united-3-1",
+      "title": "Charlotte FC beat D.C. United 3-1 as Liel Abada sets up the clincher",
+      "statusBefore": "published",
+      "words": 392,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-08-23-espanyol-real-madrid-espi-mourinho",
       "slug": "espanyol-real-madrid-espi-late-winner-mourinho-return",

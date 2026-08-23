@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T03:04:50.256Z",
+  "generatedAt": "2026-08-23T04:26:47.978Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1122,
+    "publishedArticles": 1125,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 418,
-      "average": 422.5
+      "average": 422.6
     },
     "paragraphDistribution": {
       "3": 36,
@@ -24,8 +24,8 @@
       "5": 10,
       "6": 53,
       "7": 167,
-      "8": 332,
-      "9": 268,
+      "8": 333,
+      "9": 270,
       "10": 178,
       "11": 48,
       "12": 14,
@@ -4426,6 +4426,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-23-tiberias-petah-tikva-var-offside",
+      "slug": "ironi-tiberias-hapoel-petah-tikva-var-offside-controversy",
+      "title": "Ironi Tiberias 1-0 Hapoel Petah Tikva: disallowed Rivollier goal fuels VAR storm on opening day",
+      "kind": "match-report",
+      "words": 450,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 66,
+        "average": 50
+      },
+      "sentenceWords": {
+        "shortest": 13,
+        "longest": 62,
+        "average": 32.1
+      },
+      "lexicalDiversity": 0.556,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-23-maccabi-haifa-bruninho-brace-ramat-gan",
+      "slug": "maccabi-haifa-2-1-hapoel-ramat-gan-bruninho-brace-cedric-don-fine",
+      "title": "Maccabi Haifa 2-1 Hapoel Ramat Gan: Bruninho brace opens the season, Cedric Don fined for lateness",
+      "kind": "news",
+      "words": 479,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 42,
+        "longest": 73,
+        "average": 59.9
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 54,
+        "average": 29.9
+      },
+      "lexicalDiversity": 0.593,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260823-abada-charlotte-dc-united-assist",
+      "slug": "liel-abada-assist-charlotte-fc-beat-dc-united-3-1",
+      "title": "Charlotte FC beat D.C. United 3-1 as Liel Abada sets up the clincher",
+      "kind": "article",
+      "words": 396,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 52,
+        "average": 44
+      },
+      "sentenceWords": {
+        "shortest": 2,
+        "longest": 46,
+        "average": 24.8
+      },
+      "lexicalDiversity": 0.609,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-08-23-espanyol-real-madrid-espi-mourinho",
       "slug": "espanyol-real-madrid-espi-late-winner-mourinho-return",
