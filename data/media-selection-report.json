@@ -1,22 +1,16 @@
 {
   "selections": [
     {
-      "articleId": "live-20260823-abu-fani-assist-loizou-goal-red-star",
-      "article": "Red Star Belgrade 4-0 Čukarički: Abu Fani sets up goal, Loizou scores in Serbian rout",
-      "file": "File:FC Zenit Saint Petersburg v Red Star Belgrade, 8 July 2024 11 (cropped).jpg",
-      "license": "CC BY-SA 3.0"
-    },
-    {
-      "articleId": "live-2026-08-23-maccabi-tel-aviv-youth-teams-open-season",
-      "article": "Maccabi Tel Aviv's youth teams open season with 6-0 rout and 3-2 comeback win",
-      "file": "File:Women 100 m hurdles French Athletics Championships 2013 t160030.jpg",
-      "license": "CC BY 3.0"
-    },
-    {
-      "articleId": "live-2026-08-23-barcelona-yamal-raphinha-fermin-elche-lineup",
-      "article": "Barcelona name Yamal, Raphinha and Fermín López in starting XI for La Liga opener at Elche",
-      "file": "File:Lamine Yamal France v Spain 7.24.26-144.jpg",
+      "articleId": "live-2026-08-23-dor-peretz-first-career-hat-trick",
+      "article": "Maccabi Tel Aviv beat Hapoel Jerusalem 5-2 as Dor Peretz scores first hat-trick of his career",
+      "file": "File:Dor Peretz (cropped).JPG",
       "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-2026-08-23-run-of-games-verification-held",
+      "article": "Report held: source article could not be reliably verified",
+      "file": "File:GiuseppeMeazzaNeazzurro.jpg",
+      "license": "CC BY 2.0"
     },
     {
       "articleId": "live-20260815-liebmann-1500m-freestyle-world-record",
@@ -27,13 +21,13 @@
     {
       "articleId": "live-2026-08-13-adva-cohen-steeplechase-10th",
       "article": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
-      "file": "File:20220814 European Championships Munich 2022 Ľubomír Pištej 850 3618.jpg",
+      "file": "File:20220817 European Championships Munich 2022 Tania Moreno Matveeva 850 7683.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
       "articleId": "live-20260802-israel-fifth-mixed-duet-technical-paris",
       "article": "Israel take fifth in mixed duet technical final at European Championships in Paris",
-      "file": "File:20220817 European Championships Munich 2022 Tania Moreno Matveeva 850 7683.jpg",
+      "file": "File:20220814 European Championships Munich 2022 Ľubomír Pištej 850 3618.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
@@ -50,6 +44,11 @@
     }
   ],
   "failures": [
+    {
+      "id": "live-2026-08-23-ahavat-hashem-gordon-wedding",
+      "title": "From the ring to the chuppah: kickboxing star Ahavat Hashem Gordon marries Oren Sarah Levi",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
     {
       "id": "live-2026-08-23-elche-barcelona-laliga-half-time-hold",
       "title": "Elche and Barcelona goalless at the break in La Liga opener",

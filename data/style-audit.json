@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T20:03:44.672Z",
+  "generatedAt": "2026-08-23T20:44:40.651Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1165,
+    "publishedArticles": 1166,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 417,
-      "average": 422.1
+      "median": 417.5,
+      "average": 422
     },
     "paragraphDistribution": {
       "3": 36,
@@ -25,7 +25,7 @@
       "6": 54,
       "7": 176,
       "8": 343,
-      "9": 282,
+      "9": 283,
       "10": 186,
       "11": 48,
       "12": 14,
@@ -4566,24 +4566,45 @@
   ],
   "clean": [
     {
-      "id": "live-2026-08-23-maccabi-tel-aviv-youth-teams-open-season",
-      "slug": "maccabi-tel-aviv-youth-teams-open-season",
-      "title": "Maccabi Tel Aviv's youth teams open season with 6-0 rout and 3-2 comeback win",
-      "kind": "match-report",
-      "words": 357,
-      "paragraphs": 8,
+      "id": "live-2026-08-23-ahavat-hashem-gordon-wedding",
+      "slug": "ahavat-hashem-gordon-marries-oren-sarah-levi",
+      "title": "From the ring to the chuppah: kickboxing star Ahavat Hashem Gordon marries Oren Sarah Levi",
+      "kind": "article",
+      "words": 433,
+      "paragraphs": 9,
       "paragraphWords": {
-        "shortest": 31,
-        "longest": 55,
-        "average": 44.6
+        "shortest": 29,
+        "longest": 76,
+        "average": 48.1
       },
       "sentenceWords": {
-        "shortest": 4,
-        "longest": 116,
-        "average": 51
+        "shortest": 12,
+        "longest": 55,
+        "average": 30.9
       },
-      "lexicalDiversity": 0.616,
-      "publisherAttributions": 0,
+      "lexicalDiversity": 0.624,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-23-dor-peretz-first-career-hat-trick",
+      "slug": "maccabi-tel-aviv-hapoel-jerusalem-dor-peretz-hat-trick",
+      "title": "Maccabi Tel Aviv beat Hapoel Jerusalem 5-2 as Dor Peretz scores first hat-trick of his career",
+      "kind": "article",
+      "words": 285,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 20,
+        "longest": 53,
+        "average": 35.6
+      },
+      "sentenceWords": {
+        "shortest": 20,
+        "longest": 53,
+        "average": 35.6
+      },
+      "lexicalDiversity": 0.621,
+      "publisherAttributions": 1,
       "flags": []
     },
     {
