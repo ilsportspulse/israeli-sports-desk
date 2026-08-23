@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T09:17:33.696Z",
+  "generatedAt": "2026-08-23T09:58:32.739Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,12 +17,12 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1644,
-    "publishedBefore": 1132,
-    "cleanPublished": 1125,
+    "totalArticles": 1646,
+    "publishedBefore": 1134,
+    "cleanPublished": 1127,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1132,
+    "publishedAfter": 1134,
     "reviewAfter": 512
   },
   "blockedPublished": [
@@ -140,6 +140,34 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-20260823-southampton-west-ham-ticket-prices-peretz-solomon",
+      "slug": "southampton-west-ham-carabao-cup-ticket-prices-peretz-solomon",
+      "title": "How much will it cost to watch Peretz face Solomon in the League Cup?",
+      "statusBefore": "published",
+      "words": 335,
+      "paragraphs": 7,
+      "facts": 5,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-20260823-beitar-nordia-jerusalem-deficit",
+      "slug": "beitar-nordia-jerusalem-766000-shekel-deficit",
+      "title": "Beitar Nordia Jerusalem posts a 766,000-shekel deficit for a fifth straight year",
+      "statusBefore": "published",
+      "words": 384,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
     {
       "id": "live-2026-08-23-hapoel-tel-aviv-gelbard-loan-gorfinkel",
       "slug": "hapoel-tel-aviv-gelbard-loan-kfar-saba-gorfinkel-return",
@@ -16165,6 +16193,34 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-20260823-southampton-west-ham-ticket-prices-peretz-solomon",
+      "slug": "southampton-west-ham-carabao-cup-ticket-prices-peretz-solomon",
+      "title": "How much will it cost to watch Peretz face Solomon in the League Cup?",
+      "statusBefore": "published",
+      "words": 335,
+      "paragraphs": 7,
+      "facts": 5,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-20260823-beitar-nordia-jerusalem-deficit",
+      "slug": "beitar-nordia-jerusalem-766000-shekel-deficit",
+      "title": "Beitar Nordia Jerusalem posts a 766,000-shekel deficit for a fifth straight year",
+      "statusBefore": "published",
+      "words": 384,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
     {
       "id": "live-2026-08-23-hapoel-tel-aviv-gelbard-loan-gorfinkel",
       "slug": "hapoel-tel-aviv-gelbard-loan-kfar-saba-gorfinkel-return",

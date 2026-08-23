@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T09:17:34.178Z",
+  "generatedAt": "2026-08-23T09:58:33.382Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1132,
+    "publishedArticles": 1134,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 418,
-      "average": 422.7
+      "average": 422.6
     },
     "paragraphDistribution": {
       "3": 36,
       "4": 6,
       "5": 10,
       "6": 53,
-      "7": 170,
-      "8": 334,
+      "7": 171,
+      "8": 335,
       "9": 270,
       "10": 181,
       "11": 48,
@@ -4449,6 +4449,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260823-southampton-west-ham-ticket-prices-peretz-solomon",
+      "slug": "southampton-west-ham-carabao-cup-ticket-prices-peretz-solomon",
+      "title": "How much will it cost to watch Peretz face Solomon in the League Cup?",
+      "kind": "article",
+      "words": 336,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 62,
+        "average": 48
+      },
+      "sentenceWords": {
+        "shortest": 26,
+        "longest": 53,
+        "average": 37.3
+      },
+      "lexicalDiversity": 0.619,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260823-beitar-nordia-jerusalem-deficit",
+      "slug": "beitar-nordia-jerusalem-766000-shekel-deficit",
+      "title": "Beitar Nordia Jerusalem posts a 766,000-shekel deficit for a fifth straight year",
+      "kind": "news",
+      "words": 396,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 24,
+        "longest": 87,
+        "average": 49.5
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 40,
+        "average": 28.3
+      },
+      "lexicalDiversity": 0.616,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-23-hapoel-tel-aviv-gelbard-loan-gorfinkel",
       "slug": "hapoel-tel-aviv-gelbard-loan-kfar-saba-gorfinkel-return",

@@ -1,5 +1,54 @@
 [
   {
+    "ts": "2026-08-23T09:42:16.639Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 2,
+    "review": 0,
+    "skipped": 3,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "url": "https://www.one.co.il/Article/531351.html",
+        "decision": "skipped",
+        "reason": "no valid article emitted"
+      },
+      {
+        "slug": "beitar-nordia-jerusalem-766000-shekel-deficit",
+        "title": "Beitar Nordia Jerusalem posts a 766,000-shekel deficit for a fifth straight year",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "carlos-espi-real-madrid-debut-winner-espanyol",
+        "title": "Espanyol 1-2 Real Madrid: Carlos Espí strikes late to win it on Mourinho's return",
+        "decision": "duplicate",
+        "reason": "same event as espanyol-real-madrid-espi-late-winner-mourinho-return"
+      },
+      {
+        "slug": "southampton-west-ham-carabao-cup-ticket-prices-peretz-solomon",
+        "title": "How much will it cost to watch Peretz face Solomon in the League Cup?",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "barcelona-transfer-headache-tresoldi-alvarez",
+        "title": "Not only Álvarez: Barcelona face a fresh transfer headache over Tresoldi",
+        "decision": "duplicate",
+        "reason": "same event as julian-alvarez-included-atletico-squad-villarreal-simeone-defends"
+      }
+    ]
+  },
+  {
     "ts": "2026-08-23T08:59:52.817Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -2527,56 +2576,6 @@
       {
         "slug": "khalaili-crystal-palace-behind-scenes-deal-details",
         "title": "Behind the Khalaili deal: how Crystal Palace moved fast once Inter fell through",
-        "decision": "duplicate"
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-15T11:36:16.251Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 1,
-    "review": 2,
-    "skipped": 2,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "url": "https://www.one.co.il/Article/530677.html",
-        "decision": "skipped",
-        "reason": "no valid article emitted"
-      },
-      {
-        "slug": "la-liga-fantasy-registration-deadline-2026-27",
-        "title": "Hours left to sign up for La Liga Fantasy before Spanish season kicks off",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "israel-latvia-u16-womens-eurobasket-in-progress",
-        "title": "Israel hold Latvia 52-44 after three quarters at U16 Women's EuroBasket",
-        "confidence": 0,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "match in progress — wait for full time"
-      },
-      {
-        "slug": "maccabi-petah-tikva-eitan-tibi-strong-lineup-ironi-tiberias",
-        "title": "Maccabi Petah Tikva to start Eitan Tibi as Ziv Arieh fields strong side against Ironi Tiberias",
-        "confidence": 0.82,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "The name of the defender ruled out with a minor strain is reported by ONE but could not be independently cross-checked, so it has been left unnamed in the copy."
-      },
-      {
-        "slug": "khalaili-crystal-palace-deal-behind-the-scenes",
-        "title": "Behind the scenes of Anan Khalaili's move to Crystal Palace",
         "decision": "duplicate"
       }
     ]
