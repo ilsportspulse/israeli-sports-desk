@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T16:53:51.554Z",
+  "generatedAt": "2026-08-23T17:21:59.965Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1695,
-    "publishedBefore": 1156,
-    "cleanPublished": 1149,
+    "totalArticles": 1699,
+    "publishedBefore": 1159,
+    "cleanPublished": 1152,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1156,
-    "reviewAfter": 539
+    "publishedAfter": 1159,
+    "reviewAfter": 540
   },
   "blockedPublished": [
     {
@@ -140,6 +140,50 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-20260823-sokler-revivo-start-maccabi-tel-aviv",
+      "slug": "sokler-revivo-start-maccabi-tel-aviv-hapoel-jerusalem-opener",
+      "title": "Sokler handed full debut as Maccabi Tel Aviv name strong side for Hapoel Jerusalem opener",
+      "statusBefore": "published",
+      "words": 263,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-23-kenny-lofton-jr-hapoel-jerusalem-eurocup",
+      "slug": "kenny-lofton-jr-hapoel-jerusalem-eurocup-goal",
+      "title": "Kenny Lofton Jr. lands in Jerusalem: 'The plan is to win the EuroCup'",
+      "statusBefore": "published",
+      "words": 430,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260823-guiagon-al-taawoun-maccabi-cut",
+      "slug": "guiagon-saudi-move-maccabi-tel-aviv-sell-on-clause",
+      "title": "Guiagon closing in on Saudi move, with Maccabi Tel Aviv in line for a windfall",
+      "statusBefore": "published",
+      "words": 430,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
     {
       "id": "live-2026-08-23-israel-georgia-basketball-prep",
       "slug": "israel-georgia-basketball-warmup-in-progress",
@@ -16724,6 +16768,50 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-20260823-sokler-revivo-start-maccabi-tel-aviv",
+      "slug": "sokler-revivo-start-maccabi-tel-aviv-hapoel-jerusalem-opener",
+      "title": "Sokler handed full debut as Maccabi Tel Aviv name strong side for Hapoel Jerusalem opener",
+      "statusBefore": "published",
+      "words": 263,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-23-kenny-lofton-jr-hapoel-jerusalem-eurocup",
+      "slug": "kenny-lofton-jr-hapoel-jerusalem-eurocup-goal",
+      "title": "Kenny Lofton Jr. lands in Jerusalem: 'The plan is to win the EuroCup'",
+      "statusBefore": "published",
+      "words": 430,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260823-guiagon-al-taawoun-maccabi-cut",
+      "slug": "guiagon-saudi-move-maccabi-tel-aviv-sell-on-clause",
+      "title": "Guiagon closing in on Saudi move, with Maccabi Tel Aviv in line for a windfall",
+      "statusBefore": "published",
+      "words": 430,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
     {
       "id": "live-2026-08-23-georgina-adopts-ronaldo-children",
       "slug": "georgina-rodriguez-adopts-ronaldo-eldest-children",
