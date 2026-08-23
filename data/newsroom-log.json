@@ -2847,5 +2847,59 @@
         "reason": "This is an opinion/analysis column, not a reported transfer story; supporting player facts were independently verified against club and news sources."
       }
     ]
+  },
+  {
+    "ts": "2026-08-23T12:38:36.300Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 2,
+    "review": 2,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "manor-solomon-west-ham-chant-reading-between-lines",
+        "title": "West Ham fan site says meaning behind Manor Solomon chant is clear, even unspoken",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "yonatan-tefer-lawyer-lawsuit-ironi-tiberias-doping-settlement",
+        "title": "Tefer's lawyer leaves door open for lawsuit against Ironi Tiberias",
+        "confidence": 0.78,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "The exact scope and value of any potential Tefer lawsuit against Ironi Tiberias is not specified by the source and may not materialise; the settlement itself still needs sign-off from Israel's Sports Anti-Doping Tribunal. No accurately identified, correctly licensed Commons photo of Tefer or the club could be verified, so no image is supplied."
+      },
+      {
+        "slug": "meir-harush-beitar-kit-man-70-eli-ohana-championship-memory",
+        "title": "Beitar Jerusalem's kit man Meir Harush turns 70: 'The championship with Eli Ohana was my most exciting moment'",
+        "confidence": 0.78,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "ayyoub-bouaddi-manchester-city-deal-rodri-replacement",
+        "title": "Manchester City agree deal for Lille's Ayyoub Bouaddi as Rodri's long-term successor",
+        "decision": "duplicate",
+        "reason": "same event as rodri-barcelona-total-transfer-cost-200-million"
+      },
+      {
+        "slug": "orian-goren-gai-assulin-barcelona-no-single-path-to-success",
+        "title": "Goren and Assulin? There is no single story to success, says former coach",
+        "confidence": 0.75,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Coach name 'Ron Marcos' and his exact quotes are drawn from a single source (ONE) via automated page extraction and could not be independently cross-verified; core biographical and club facts about Goren and Assulin are multi-source confirmed."
+      }
+    ]
   }
 ]

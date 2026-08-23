@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T12:27:10.392Z",
+  "generatedAt": "2026-08-23T12:56:01.923Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1142,
+    "publishedArticles": 1143,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 418,
-      "average": 422.4
+      "average": 422.6
     },
     "paragraphDistribution": {
       "3": 36,
@@ -25,7 +25,7 @@
       "6": 54,
       "7": 173,
       "8": 336,
-      "9": 272,
+      "9": 273,
       "10": 183,
       "11": 48,
       "12": 14,
@@ -38,8 +38,8 @@
     "dominantParagraphShare": 0.294,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 54,
-    "analysisBelowTarget": 12,
-    "articlesWithStyleFlags": 193
+    "analysisBelowTarget": 11,
+    "articlesWithStyleFlags": 192
   },
   "flagged": [
     {
@@ -328,29 +328,6 @@
       "flags": [
         "below-editorial-target:227/280",
         "publisher-attribution-heavy:2"
-      ]
-    },
-    {
-      "id": "live-20260823-barcelona-rodri-midfield-crowding",
-      "slug": "barcelona-rodri-signing-midfield-analysis",
-      "title": "Barcelona load up on midfielders with Rodri — but who scores the goals?",
-      "kind": "analysis",
-      "words": 476,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 40,
-        "longest": 64,
-        "average": 52.9
-      },
-      "sentenceWords": {
-        "shortest": 6,
-        "longest": 47,
-        "average": 26.4
-      },
-      "lexicalDiversity": 0.634,
-      "publisherAttributions": 0,
-      "flags": [
-        "below-editorial-target:476/650"
       ]
     },
     {
@@ -4496,23 +4473,86 @@
   ],
   "clean": [
     {
-      "id": "live-20260823-dolgopyat-third-european-floor-title",
-      "slug": "dolgopyat-third-european-floor-exercise-title",
-      "title": "Dolgopyat wins floor exercise gold for third European title",
-      "kind": "article",
-      "words": 318,
+      "id": "live-20260823-meir-harush-beitar-70-eli-ohana-championship",
+      "slug": "meir-harush-beitar-kit-man-70-eli-ohana-championship-memory",
+      "title": "Beitar Jerusalem's kit man Meir Harush turns 70: 'The championship with Eli Ohana was my most exciting moment'",
+      "kind": "feature",
+      "words": 493,
       "paragraphs": 8,
       "paragraphWords": {
-        "shortest": 28,
-        "longest": 50,
-        "average": 39.8
+        "shortest": 46,
+        "longest": 80,
+        "average": 61.6
       },
       "sentenceWords": {
-        "shortest": 33,
-        "longest": 122,
-        "average": 53
+        "shortest": 9,
+        "longest": 65,
+        "average": 35.2
       },
-      "lexicalDiversity": 0.579,
+      "lexicalDiversity": 0.521,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-23-manor-solomon-west-ham-chant-reading-between-lines",
+      "slug": "manor-solomon-west-ham-chant-reading-between-lines",
+      "title": "West Ham fan site says meaning behind Manor Solomon chant is clear, even unspoken",
+      "kind": "news",
+      "words": 522,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 93,
+        "average": 58
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 129,
+        "average": 52.2
+      },
+      "lexicalDiversity": 0.556,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260823-revivo-maccabi-commitment",
+      "slug": "roy-revivo-maccabi-tel-aviv-committed-message",
+      "title": "Revivo tells Maccabi Tel Aviv he remains committed amid Elche transfer saga",
+      "kind": "news",
+      "words": 362,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 56,
+        "average": 45.3
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 130,
+        "average": 36.2
+      },
+      "lexicalDiversity": 0.666,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-23-mimon-sues-regev-defamation-bribery-claim",
+      "slug": "mimon-sues-regev-defamation-bribery-claim",
+      "title": "Football federation deputy chief sues Hapoel Lod owner over bribery accusations",
+      "kind": "news",
+      "words": 351,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 56,
+        "average": 39
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 44,
+        "average": 25.1
+      },
+      "lexicalDiversity": 0.613,
       "publisherAttributions": 0,
       "flags": []
     },
@@ -24400,27 +24440,6 @@
         "average": 36.4
       },
       "lexicalDiversity": 0.56,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260823-roy-revivo-maccabi-commitment",
-      "slug": "roy-revivo-maccabi-tel-aviv-committed-transfer-saga",
-      "title": "Revivo says he remains committed to Maccabi Tel Aviv despite transfer talk",
-      "kind": "article",
-      "words": 342,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 29,
-        "longest": 56,
-        "average": 42.8
-      },
-      "sentenceWords": {
-        "shortest": 4,
-        "longest": 81,
-        "average": 42.8
-      },
-      "lexicalDiversity": 0.635,
       "publisherAttributions": 0,
       "flags": []
     }

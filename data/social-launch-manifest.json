@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-23T12:27:09Z",
-    "validUntil": "2026-08-24T00:27:09Z",
+    "checkedAt": "2026-08-23T12:56:00Z",
+    "validUntil": "2026-08-24T00:56:00Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 831,
+        "maxAgeHours": 832,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260823-dolgopyat-third-european-floor-title",
+        "articleId": "live-20260823-meir-harush-beitar-70-eli-ohana-championship",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 839,
+        "maxAgeHours": 840,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-23-liverpool-new-era-after-salah",
+        "articleId": "live-2026-08-23-manor-solomon-west-ham-chant-reading-between-lines",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 849,
+        "maxAgeHours": 850,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-23-kovacs-referee-beer-sheva-sabah",
+        "articleId": "live-20260823-revivo-maccabi-commitment",
         "maxAgeHours": 36,
         "requires": []
       }

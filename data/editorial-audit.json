@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T12:27:09.739Z",
+  "generatedAt": "2026-08-23T12:56:01.271Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1661,
-    "publishedBefore": 1142,
-    "cleanPublished": 1135,
+    "totalArticles": 1666,
+    "publishedBefore": 1143,
+    "cleanPublished": 1136,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1142,
-    "reviewAfter": 519
+    "publishedAfter": 1143,
+    "reviewAfter": 523
   },
   "blockedPublished": [
     {
@@ -141,57 +141,86 @@
   ],
   "warnings": [
     {
-      "id": "live-2026-08-23-israelis-no-business-mls-column",
-      "slug": "israelis-no-business-mls-column",
-      "title": "Israelis have no business in MLS, a new column argues",
+      "id": "live-2026-08-23-orian-goren-gai-assulin-barcelona-no-single-path",
+      "slug": "orian-goren-gai-assulin-barcelona-no-single-path-to-success",
+      "title": "Goren and Assulin? There is no single story to success, says former coach",
       "statusBefore": "review",
-      "words": 478,
+      "words": 540,
       "paragraphs": 9,
       "facts": 6,
       "verificationSources": 5,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected",
-        "voice:analysis-below-650-word-editorial-target:478"
-      ]
-    },
-    {
-      "id": "live-20260823-youth-football-early-training-opinion",
-      "slug": "when-to-start-teaching-kids-football",
-      "title": "An Israeli coach argues kids should start football at age two, not eight",
-      "statusBefore": "review",
-      "words": 408,
-      "paragraphs": 7,
-      "facts": 7,
-      "verificationSources": 1,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
     },
     {
-      "id": "live-20260823-barcelona-rodri-midfield-crowding",
-      "slug": "barcelona-rodri-signing-midfield-analysis",
-      "title": "Barcelona load up on midfielders with Rodri — but who scores the goals?",
+      "id": "live-20260823-meir-harush-beitar-70-eli-ohana-championship",
+      "slug": "meir-harush-beitar-kit-man-70-eli-ohana-championship-memory",
+      "title": "Beitar Jerusalem's kit man Meir Harush turns 70: 'The championship with Eli Ohana was my most exciting moment'",
       "statusBefore": "published",
-      "words": 480,
-      "paragraphs": 9,
-      "facts": 6,
+      "words": 494,
+      "paragraphs": 8,
+      "facts": 7,
       "verificationSources": 4,
       "blockers": [],
       "warnings": [
-        "voice:analysis-below-650-word-editorial-target:480"
+        "presentation:outlet-name-in-headline"
       ]
     },
     {
-      "id": "live-20260823-dolgopyat-third-european-floor-title",
-      "slug": "dolgopyat-third-european-floor-exercise-title",
-      "title": "Dolgopyat wins floor exercise gold for third European title",
-      "statusBefore": "published",
-      "words": 318,
+      "id": "live-20260823-tefer-lawsuit-ironi-tiberias",
+      "slug": "yonatan-tefer-lawyer-lawsuit-ironi-tiberias-doping-settlement",
+      "title": "Tefer's lawyer leaves door open for lawsuit against Ironi Tiberias",
+      "statusBefore": "review",
+      "words": 435,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-20260823-polukarov-leg-amputation",
+      "slug": "aleksandr-polukarov-leg-amputation",
+      "title": "Former Maccabi Tel Aviv defender Aleksandr Polukarov has part of his leg amputated",
+      "statusBefore": "review",
+      "words": 271,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260823-milan-four-players-exiled",
+      "slug": "milan-four-players-exiled-tomori-fofana-nkunku-gimenez",
+      "title": "Milan strip Tomori, Fofana, Nkunku and Gimenez of squad numbers in ruthless clearout",
+      "statusBefore": "review",
+      "words": 395,
       "paragraphs": 8,
       "facts": 6,
-      "verificationSources": 5,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:4"
+      ]
+    },
+    {
+      "id": "live-2026-08-23-mimon-sues-regev-defamation-bribery-claim",
+      "slug": "mimon-sues-regev-defamation-bribery-claim",
+      "title": "Football federation deputy chief sues Hapoel Lod owner over bribery accusations",
+      "statusBefore": "published",
+      "words": 349,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -16338,7 +16367,7 @@
       "id": "live-20260823-roy-revivo-maccabi-commitment",
       "slug": "roy-revivo-maccabi-tel-aviv-committed-transfer-saga",
       "title": "Revivo says he remains committed to Maccabi Tel Aviv despite transfer talk",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 345,
       "paragraphs": 8,
       "facts": 7,
@@ -16352,28 +16381,52 @@
   ],
   "cleanPublished": [
     {
-      "id": "live-20260823-barcelona-rodri-midfield-crowding",
-      "slug": "barcelona-rodri-signing-midfield-analysis",
-      "title": "Barcelona load up on midfielders with Rodri — but who scores the goals?",
+      "id": "live-20260823-meir-harush-beitar-70-eli-ohana-championship",
+      "slug": "meir-harush-beitar-kit-man-70-eli-ohana-championship-memory",
+      "title": "Beitar Jerusalem's kit man Meir Harush turns 70: 'The championship with Eli Ohana was my most exciting moment'",
       "statusBefore": "published",
-      "words": 480,
-      "paragraphs": 9,
-      "facts": 6,
+      "words": 494,
+      "paragraphs": 8,
+      "facts": 7,
       "verificationSources": 4,
       "blockers": [],
       "warnings": [
-        "voice:analysis-below-650-word-editorial-target:480"
+        "presentation:outlet-name-in-headline"
       ]
     },
     {
-      "id": "live-20260823-dolgopyat-third-european-floor-title",
-      "slug": "dolgopyat-third-european-floor-exercise-title",
-      "title": "Dolgopyat wins floor exercise gold for third European title",
+      "id": "live-2026-08-23-manor-solomon-west-ham-chant-reading-between-lines",
+      "slug": "manor-solomon-west-ham-chant-reading-between-lines",
+      "title": "West Ham fan site says meaning behind Manor Solomon chant is clear, even unspoken",
       "statusBefore": "published",
-      "words": 318,
-      "paragraphs": 8,
-      "facts": 6,
+      "words": 522,
+      "paragraphs": 9,
+      "facts": 7,
       "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260823-revivo-maccabi-commitment",
+      "slug": "roy-revivo-maccabi-tel-aviv-committed-message",
+      "title": "Revivo tells Maccabi Tel Aviv he remains committed amid Elche transfer saga",
+      "statusBefore": "published",
+      "words": 362,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-23-mimon-sues-regev-defamation-bribery-claim",
+      "slug": "mimon-sues-regev-defamation-bribery-claim",
+      "title": "Football federation deputy chief sues Hapoel Lod owner over bribery accusations",
+      "statusBefore": "published",
+      "words": 349,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -31707,21 +31760,6 @@
       "verificationSources": 4,
       "blockers": [],
       "warnings": []
-    },
-    {
-      "id": "live-20260823-roy-revivo-maccabi-commitment",
-      "slug": "roy-revivo-maccabi-tel-aviv-committed-transfer-saga",
-      "title": "Revivo says he remains committed to Maccabi Tel Aviv despite transfer talk",
-      "statusBefore": "published",
-      "words": 345,
-      "paragraphs": 8,
-      "facts": 7,
-      "verificationSources": 5,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline",
-        "media:no-action-or-competition-context-detected"
-      ]
     }
   ]
 }

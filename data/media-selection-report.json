@@ -1,27 +1,39 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-08-23-israelis-no-business-mls-column",
-      "article": "Israelis have no business in MLS, a new column argues",
-      "file": "File:SM Caen Tifo 15 ans du MNK.jpg",
+      "articleId": "live-2026-08-23-orian-goren-gai-assulin-barcelona-no-single-path",
+      "article": "Goren and Assulin? There is no single story to success, says former coach",
+      "file": "File:FC Barcelona B.JPG",
       "license": "CC BY-SA 3.0"
     },
     {
-      "articleId": "live-20260823-youth-football-early-training-opinion",
-      "article": "An Israeli coach argues kids should start football at age two, not eight",
-      "file": "File:GiuseppeMeazzaNeazzurro.jpg",
-      "license": "CC BY 2.0"
+      "articleId": "live-20260823-tefer-lawsuit-ironi-tiberias",
+      "article": "Tefer's lawyer leaves door open for lawsuit against Ironi Tiberias",
+      "file": "File:Mecz piłkarski Wisła Kraków - Zagłębie Sosnwoiec, 28 października 2022, Pożegnanie Stadionu Ludowego, KP.jpg",
+      "license": "CC BY 4.0"
     },
     {
-      "articleId": "live-20260823-dolgopyat-third-european-floor-title",
-      "article": "Dolgopyat wins floor exercise gold for third European title",
-      "file": "File:Women 100 m hurdles French Athletics Championships 2013 t160030.jpg",
-      "license": "CC BY 3.0"
+      "articleId": "live-2026-08-23-manor-solomon-west-ham-chant-reading-between-lines",
+      "article": "West Ham fan site says meaning behind Manor Solomon chant is clear, even unspoken",
+      "file": "File:Hertha BSC vs. West Ham United 20190731 (180).jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-20260823-milan-four-players-exiled",
+      "article": "Milan strip Tomori, Fofana, Nkunku and Gimenez of squad numbers in ruthless clearout",
+      "file": "File:FikayoTomori2022Salzburg.jpg",
+      "license": "CC BY-SA 4.0"
     },
     {
       "articleId": "live-20260815-liebmann-1500m-freestyle-world-record",
       "article": "German teenager Johannes Liebmann shatters 1500m freestyle world record in 14:26.79",
       "file": "File:Swimming Pool lanes and starting blocks at AIS.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-2026-08-13-adva-cohen-steeplechase-10th",
+      "article": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
+      "file": "File:20220817 European Championships Munich 2022 Tania Moreno Matveeva 850 7683.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
@@ -45,9 +57,14 @@
   ],
   "failures": [
     {
-      "id": "live-20260823-barcelona-rodri-midfield-crowding",
-      "title": "Barcelona load up on midfielders with Rodri — but who scores the goals?",
-      "error": "image download 429 after retries"
+      "id": "live-20260823-meir-harush-beitar-70-eli-ohana-championship",
+      "title": "Beitar Jerusalem's kit man Meir Harush turns 70: 'The championship with Eli Ohana was my most exciting moment'",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-2026-08-23-bruninho-brace-haifa-ramat-gan-kanias",
+      "title": "Maccabi Haifa 2-1 Hapoel Ramat Gan: \"Bruninho is above the league, I felt Bachar's pressure\"",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {
       "id": "live-20260823-dolgopyat-crisis-interview",
@@ -127,11 +144,6 @@
     {
       "id": "live-2026-08-15-ukraine-amateur-tennis-legend-kurbanov-killed-war",
       "title": "Ukrainian amateur tennis 'legend' Slava Kurbanov killed fighting on the front",
-      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
-    },
-    {
-      "id": "live-2026-08-13-adva-cohen-steeplechase-10th",
-      "title": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {
