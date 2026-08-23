@@ -1,5 +1,57 @@
 [
   {
+    "ts": "2026-08-23T18:41:32.691Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 3,
+    "review": 0,
+    "skipped": 2,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "barcelona-yamal-raphinha-fermin-lopez-start-elche-la-liga-opener",
+        "title": "Barcelona name Yamal, Raphinha and Fermín López in starting XI for La Liga opener at Elche",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "liverpool-defensive-weaknesses-resurface-newcastle-draw",
+        "title": "Newcastle 2-2 Liverpool: old defensive weaknesses resurface as Iraola's reign begins",
+        "decision": "duplicate",
+        "reason": "same event as newcastle-liverpool-2-2-szoboszlai-penalty-iraola-debut"
+      },
+      {
+        "slug": "atletico-shield-alvarez-fans-villarreal-draw",
+        "title": "Atlético Madrid shield Julián Álvarez from fans after 2-2 draw with Villarreal amid Barcelona push",
+        "confidence": 0.88,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "beit-halahmy-israel-basketball-poland-most-important-game-window",
+        "title": "Beit-Halahmy calls Poland clash the most important game of the window",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "atletico-madrid-villarreal-draw-alvarez-boos",
+        "title": "Atlético Madrid 2-2 Villarreal: 10-man hosts salvage draw as booed Álvarez returns",
+        "decision": "duplicate",
+        "reason": "same event as julian-alvarez-included-atletico-squad-villarreal-simeone-defends"
+      }
+    ]
+  },
+  {
     "ts": "2026-08-23T17:48:08.646Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -2543,113 +2595,6 @@
         "gate": "pass",
         "decision": "published",
         "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-16T23:39:56.297Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 3,
-    "review": 2,
-    "skipped": 0,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "makhachev-dern-noquaout-ufc-330-recap",
-        "title": "Makhachev breaks UFC win-streak record, Dern retains title as Noquaout dissects UFC 330",
-        "confidence": 0.7,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Source is a short podcast-episode promo page; core UFC 330 results (Makhachev, Dern, streak record) are independently confirmed via UFC.com/ESPN/Wikipedia, but secondary discussion points (Van, Silva) reflect a summarized read of the source page rather than a verified verbatim quote, and the guest co-host's name spelling (Shokron/Shocron) is unconfirmed."
-      },
-      {
-        "slug": "david-roddy-lands-in-israel-hapoel-jerusalem",
-        "title": "David Roddy lands in Israel: \"It will take time to adjust\"",
-        "confidence": 0.88,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "maccabi-tel-aviv-continues-kanichowsky-return-talks",
-        "title": "Maccabi Tel Aviv presses on with talks to bring Gabi Kanichowsky home from Ferencvaros",
-        "confidence": 0.8,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Sporting director's name (Steven Van Herren) transliteration not independently corroborated outside Hebrew press."
-      },
-      {
-        "slug": "lens-stun-psg-trophee-des-champions",
-        "title": "Lens 1-0 PSG: Thauvin strike earns ten-man Lens a shock Trophée des Champions triumph",
-        "confidence": 0.9,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "israel-cadets-fall-turkey-72-61-group-stage-serbia-next",
-        "title": "Turkey beat Israel's cadets 72-61 as group stage closes, Serbia awaits in last 16",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-23T18:07:48.835Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 2,
-    "review": 1,
-    "skipped": 2,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "url": "https://www.one.co.il/Article/531394.html",
-        "decision": "skipped",
-        "reason": "no valid article emitted"
-      },
-      {
-        "slug": "newcastle-liverpool-2-2-szoboszlai-penalty-iraola-debut",
-        "title": "Newcastle 2-2 Liverpool: Szoboszlai's stoppage-time penalty rescues Iraola's opening day",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "bnei-yehuda-honours-fallen-fan-adam-tzarfati",
-        "title": "Bnei Yehuda honour fallen fan and Maglan fighter Adam Tzarfati",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "atletico-madrid-villarreal-2-2-alvarez-booed",
-        "title": "Atletico Madrid 2-2 Villarreal: booed Julian Alvarez sent on as ten-man hosts snatch late draw",
-        "decision": "duplicate",
-        "reason": "same event as julian-alvarez-included-atletico-squad-villarreal-simeone-defends"
-      },
-      {
-        "slug": "bnei-yehuda-kfar-shalem-national-league-round-two",
-        "title": "Bnei Yehuda host Kfar Shalem as National League clash runs into its closing stages",
-        "confidence": 0,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "match in progress — wait for full time; final score could not be independently confirmed"
       }
     ]
   }

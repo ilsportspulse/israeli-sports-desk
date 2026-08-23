@@ -1,16 +1,16 @@
 {
   "selections": [
     {
-      "articleId": "live-20260823-bnei-yehuda-honors-adam-tzarfati",
-      "article": "Bnei Yehuda honour fallen fan and Maglan fighter Adam Tzarfati",
-      "file": "File:Unit212TrainingDay.jpg",
-      "license": "CC BY-SA 3.0"
+      "articleId": "live-20260823-beit-halahmy-poland-preview",
+      "article": "Beit-Halahmy calls Poland clash the most important game of the window",
+      "file": "File:Tamir Blatt 2017.jpg",
+      "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-2026-08-23-newcastle-liverpool-szoboszlai-penalty",
-      "article": "Newcastle 2-2 Liverpool: Szoboszlai's stoppage-time penalty rescues Iraola's opening day",
-      "file": "File:Dominik Szoboszlai 06042025 (1).jpg",
-      "license": "CC0"
+      "articleId": "live-2026-08-23-atletico-shield-alvarez-fans-villarreal",
+      "article": "Atlético Madrid shield Julián Álvarez from fans after 2-2 draw with Villarreal amid Barcelona push",
+      "file": "File:Wanda-Metropolitano.jpg",
+      "license": "CC BY-SA 4.0"
     },
     {
       "articleId": "live-20260815-liebmann-1500m-freestyle-world-record",
@@ -21,13 +21,13 @@
     {
       "articleId": "live-2026-08-13-adva-cohen-steeplechase-10th",
       "article": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
-      "file": "File:20220814 European Championships Munich 2022 Ľubomír Pištej 850 3618.jpg",
+      "file": "File:20220817 European Championships Munich 2022 Tania Moreno Matveeva 850 7683.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
       "articleId": "live-20260802-israel-fifth-mixed-duet-technical-paris",
       "article": "Israel take fifth in mixed duet technical final at European Championships in Paris",
-      "file": "File:20220817 European Championships Munich 2022 Tania Moreno Matveeva 850 7683.jpg",
+      "file": "File:20220814 European Championships Munich 2022 Ľubomír Pištej 850 3618.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
@@ -45,8 +45,13 @@
   ],
   "failures": [
     {
-      "id": "live-20260823-bnei-yehuda-kfar-shalem-national-league",
-      "title": "Bnei Yehuda host Kfar Shalem as National League clash runs into its closing stages",
+      "id": "live-2026-08-23-barcelona-yamal-raphinha-fermin-elche-lineup",
+      "title": "Barcelona name Yamal, Raphinha and Fermín López in starting XI for La Liga opener at Elche",
+      "error": "image download 429 after retries"
+    },
+    {
+      "id": "live-2026-08-23-bnei-yehuda-kfar-shalem-national-league-r2",
+      "title": "Bnei Yehuda host Kfar Shalem in National League round two clash",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {
@@ -387,6 +392,11 @@
     {
       "id": "live-2026-08-23-real-madrid-espanyol-espi-mourinho",
       "title": "Real Madrid 2-1 Espanyol: Carlos Espí's late strike gives Mourinho a winning return",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-20260823-bnei-yehuda-kfar-shalem-national-league",
+      "title": "Bnei Yehuda host Kfar Shalem as National League clash runs into its closing stages",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     }
   ]

@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-23T18:24:33Z",
-    "validUntil": "2026-08-24T06:24:33Z",
+    "checkedAt": "2026-08-23T18:59:03Z",
+    "validUntil": "2026-08-24T06:59:03Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 837,
+        "maxAgeHours": 838,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260823-bnei-yehuda-honors-adam-tzarfati",
+        "articleId": "live-20260823-beit-halahmy-poland-preview",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 845,
+        "maxAgeHours": 846,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-23-newcastle-liverpool-szoboszlai-penalty",
+        "articleId": "live-2026-08-23-atletico-shield-alvarez-fans-villarreal",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 855,
+        "maxAgeHours": 856,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260823-sokler-revivo-start-maccabi-tel-aviv",
+        "articleId": "live-20260823-bnei-yehuda-honors-adam-tzarfati",
         "maxAgeHours": 36,
         "requires": []
       }
