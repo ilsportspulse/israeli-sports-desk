@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T11:59:40.109Z",
+  "generatedAt": "2026-08-23T12:27:09.739Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,12 +17,12 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1658,
-    "publishedBefore": 1139,
-    "cleanPublished": 1132,
+    "totalArticles": 1661,
+    "publishedBefore": 1142,
+    "cleanPublished": 1135,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1139,
+    "publishedAfter": 1142,
     "reviewAfter": 519
   },
   "blockedPublished": [
@@ -141,43 +141,57 @@
   ],
   "warnings": [
     {
-      "id": "live-20260823-polukarov-leg-amputation",
-      "slug": "aleksandr-polukarov-leg-amputation",
-      "title": "Former Maccabi Tel Aviv defender Aleksandr Polukarov has part of his leg amputated",
+      "id": "live-2026-08-23-israelis-no-business-mls-column",
+      "slug": "israelis-no-business-mls-column",
+      "title": "Israelis have no business in MLS, a new column argues",
       "statusBefore": "review",
-      "words": 271,
-      "paragraphs": 8,
+      "words": 478,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:analysis-below-650-word-editorial-target:478"
+      ]
+    },
+    {
+      "id": "live-20260823-youth-football-early-training-opinion",
+      "slug": "when-to-start-teaching-kids-football",
+      "title": "An Israeli coach argues kids should start football at age two, not eight",
+      "statusBefore": "review",
+      "words": 408,
+      "paragraphs": 7,
       "facts": 7,
-      "verificationSources": 2,
+      "verificationSources": 1,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
     },
     {
-      "id": "live-20260823-milan-four-players-exiled",
-      "slug": "milan-four-players-exiled-tomori-fofana-nkunku-gimenez",
-      "title": "Milan strip Tomori, Fofana, Nkunku and Gimenez of squad numbers in ruthless clearout",
-      "statusBefore": "review",
-      "words": 395,
-      "paragraphs": 8,
+      "id": "live-20260823-barcelona-rodri-midfield-crowding",
+      "slug": "barcelona-rodri-signing-midfield-analysis",
+      "title": "Barcelona load up on midfielders with Rodri — but who scores the goals?",
+      "statusBefore": "published",
+      "words": 480,
+      "paragraphs": 9,
       "facts": 6,
-      "verificationSources": 3,
+      "verificationSources": 4,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline",
-        "voice:publisher-attribution-heavy:4"
+        "voice:analysis-below-650-word-editorial-target:480"
       ]
     },
     {
-      "id": "live-2026-08-23-mimon-sues-regev-defamation-bribery-claim",
-      "slug": "mimon-sues-regev-defamation-bribery-claim",
-      "title": "Football federation deputy chief sues Hapoel Lod owner over bribery accusations",
+      "id": "live-20260823-dolgopyat-third-european-floor-title",
+      "slug": "dolgopyat-third-european-floor-exercise-title",
+      "title": "Dolgopyat wins floor exercise gold for third European title",
       "statusBefore": "published",
-      "words": 349,
-      "paragraphs": 9,
-      "facts": 7,
-      "verificationSources": 3,
+      "words": 318,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 5,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -358,7 +372,7 @@
       "id": "live-2026-08-23-maccabi-haifa-bruninho-brace-ramat-gan",
       "slug": "maccabi-haifa-2-1-hapoel-ramat-gan-bruninho-brace-cedric-don-fine",
       "title": "Maccabi Haifa 2-1 Hapoel Ramat Gan: Bruninho brace opens the season, Cedric Don fined for lateness",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 483,
       "paragraphs": 8,
       "facts": 7,
@@ -16305,30 +16319,61 @@
         "presentation:outlet-name-in-headline",
         "media:no-action-or-competition-context-detected"
       ]
+    },
+    {
+      "id": "live-2026-08-23-kovacs-referee-beer-sheva-sabah",
+      "slug": "istvan-kovacs-referee-beer-sheva-sabah-champions-league-playoff",
+      "title": "István Kovács named referee for Hapoel Beer Sheva's Champions League playoff decider against Sabah",
+      "statusBefore": "published",
+      "words": 321,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260823-roy-revivo-maccabi-commitment",
+      "slug": "roy-revivo-maccabi-tel-aviv-committed-transfer-saga",
+      "title": "Revivo says he remains committed to Maccabi Tel Aviv despite transfer talk",
+      "statusBefore": "published",
+      "words": 345,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
     }
   ],
   "cleanPublished": [
     {
-      "id": "live-20260823-revivo-maccabi-commitment",
-      "slug": "roy-revivo-maccabi-tel-aviv-committed-message",
-      "title": "Revivo tells Maccabi Tel Aviv he remains committed amid Elche transfer saga",
+      "id": "live-20260823-barcelona-rodri-midfield-crowding",
+      "slug": "barcelona-rodri-signing-midfield-analysis",
+      "title": "Barcelona load up on midfielders with Rodri — but who scores the goals?",
       "statusBefore": "published",
-      "words": 362,
-      "paragraphs": 8,
-      "facts": 7,
+      "words": 480,
+      "paragraphs": 9,
+      "facts": 6,
       "verificationSources": 4,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "voice:analysis-below-650-word-editorial-target:480"
+      ]
     },
     {
-      "id": "live-2026-08-23-mimon-sues-regev-defamation-bribery-claim",
-      "slug": "mimon-sues-regev-defamation-bribery-claim",
-      "title": "Football federation deputy chief sues Hapoel Lod owner over bribery accusations",
+      "id": "live-20260823-dolgopyat-third-european-floor-title",
+      "slug": "dolgopyat-third-european-floor-exercise-title",
+      "title": "Dolgopyat wins floor exercise gold for third European title",
       "statusBefore": "published",
-      "words": 349,
-      "paragraphs": 9,
-      "facts": 7,
-      "verificationSources": 3,
+      "words": 318,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 5,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -16496,20 +16541,6 @@
       "statusBefore": "published",
       "words": 454,
       "paragraphs": 9,
-      "facts": 7,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-23-maccabi-haifa-bruninho-brace-ramat-gan",
-      "slug": "maccabi-haifa-2-1-hapoel-ramat-gan-bruninho-brace-cedric-don-fine",
-      "title": "Maccabi Haifa 2-1 Hapoel Ramat Gan: Bruninho brace opens the season, Cedric Don fined for lateness",
-      "statusBefore": "published",
-      "words": 483,
-      "paragraphs": 8,
       "facts": 7,
       "verificationSources": 3,
       "blockers": [],
@@ -31636,6 +31667,59 @@
       "verificationSources": 1,
       "blockers": [],
       "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-23-liverpool-new-era-after-salah",
+      "slug": "liverpool-new-era-after-salah-departure",
+      "title": "A new era: how Liverpool are rebuilding their attack after Salah's exit",
+      "statusBefore": "published",
+      "words": 465,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-23-kovacs-referee-beer-sheva-sabah",
+      "slug": "istvan-kovacs-referee-beer-sheva-sabah-champions-league-playoff",
+      "title": "István Kovács named referee for Hapoel Beer Sheva's Champions League playoff decider against Sabah",
+      "statusBefore": "published",
+      "words": 321,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-23-yarin-levi-ben-sahar-fan-whistles",
+      "slug": "yarin-levi-ben-sahar-fan-whistles-maccabi-haifa",
+      "title": "Maccabi Haifa open season with 2-1 win over Hapoel Ramat Gan as Ben Sahar says Yarin Levi's answer must come on the pitch",
+      "statusBefore": "published",
+      "words": 546,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260823-roy-revivo-maccabi-commitment",
+      "slug": "roy-revivo-maccabi-tel-aviv-committed-transfer-saga",
+      "title": "Revivo says he remains committed to Maccabi Tel Aviv despite transfer talk",
+      "statusBefore": "published",
+      "words": 345,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
         "media:no-action-or-competition-context-detected"
       ]
     }

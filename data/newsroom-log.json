@@ -2794,5 +2794,58 @@
         "reason": ""
       }
     ]
+  },
+  {
+    "ts": "2026-08-23T12:09:11.888Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 2,
+    "review": 2,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "dolgopyat-third-european-floor-title-zagreb",
+        "title": "Dolgopyat wins his third European floor title in Zagreb",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "dolgopyat-third-european-floor-exercise-title",
+        "title": "Dolgopyat wins floor exercise gold for third European title",
+        "confidence": 0.92,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "barcelona-rodri-signing-midfield-analysis",
+        "title": "Barcelona load up on midfielders with Rodri — but who scores the goals?",
+        "confidence": 0.78,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "when-to-start-teaching-kids-football",
+        "title": "An Israeli coach argues kids should start football at age two, not eight",
+        "confidence": 0,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "not newsworthy — reader-content opinion column (תוכן גולשים) pitching the author's own business proposal, built on unverifiable financial predictions and no expert sourcing or independent data; held rather than published as news."
+      },
+      {
+        "slug": "israelis-no-business-mls-column",
+        "title": "Israelis have no business in MLS, a new column argues",
+        "confidence": 0.78,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "This is an opinion/analysis column, not a reported transfer story; supporting player facts were independently verified against club and news sources."
+      }
+    ]
   }
 ]

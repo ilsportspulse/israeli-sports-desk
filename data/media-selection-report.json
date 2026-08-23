@@ -1,22 +1,22 @@
 {
   "selections": [
     {
-      "articleId": "live-20260823-revivo-maccabi-commitment",
-      "article": "Revivo tells Maccabi Tel Aviv he remains committed amid Elche transfer saga",
-      "file": "File:Mecz piłkarski Wisła Kraków - Zagłębie Sosnwoiec, 28 października 2022, Pożegnanie Stadionu Ludowego, KP.jpg",
-      "license": "CC BY 4.0"
-    },
-    {
-      "articleId": "live-20260823-polukarov-leg-amputation",
-      "article": "Former Maccabi Tel Aviv defender Aleksandr Polukarov has part of his leg amputated",
-      "file": "File:Polukarov.JPG",
+      "articleId": "live-2026-08-23-israelis-no-business-mls-column",
+      "article": "Israelis have no business in MLS, a new column argues",
+      "file": "File:SM Caen Tifo 15 ans du MNK.jpg",
       "license": "CC BY-SA 3.0"
     },
     {
-      "articleId": "live-2026-08-23-mimon-sues-regev-defamation-bribery-claim",
-      "article": "Football federation deputy chief sues Hapoel Lod owner over bribery accusations",
-      "file": "File:אצטדיון לוד על שם בני רגב (יונתן גינזבורג) 01.jpg",
-      "license": "CC BY-SA 3.0"
+      "articleId": "live-20260823-youth-football-early-training-opinion",
+      "article": "An Israeli coach argues kids should start football at age two, not eight",
+      "file": "File:GiuseppeMeazzaNeazzurro.jpg",
+      "license": "CC BY 2.0"
+    },
+    {
+      "articleId": "live-20260823-dolgopyat-third-european-floor-title",
+      "article": "Dolgopyat wins floor exercise gold for third European title",
+      "file": "File:Women 100 m hurdles French Athletics Championships 2013 t160030.jpg",
+      "license": "CC BY 3.0"
     },
     {
       "articleId": "live-20260815-liebmann-1500m-freestyle-world-record",
@@ -25,15 +25,9 @@
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-2026-08-13-adva-cohen-steeplechase-10th",
-      "article": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
-      "file": "File:20220814 European Championships Munich 2022 Ľubomír Pištej 850 3618.jpg",
-      "license": "CC BY-SA 4.0"
-    },
-    {
       "articleId": "live-20260802-israel-fifth-mixed-duet-technical-paris",
       "article": "Israel take fifth in mixed duet technical final at European Championships in Paris",
-      "file": "File:20220817 European Championships Munich 2022 Tania Moreno Matveeva 850 7683.jpg",
+      "file": "File:20220814 European Championships Munich 2022 Ľubomír Pištej 850 3618.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
@@ -47,24 +41,13 @@
       "article": "Adam Ramsay-Peaty questions it all after bitter Commonwealth bronze",
       "file": "File:Adam Peaty Olympics 100m breaststroke 2016.jpg",
       "license": "CC BY 3.0 br"
-    },
-    {
-      "articleId": "live-2026-08-23-itamar-roitman-hapoel-galil-elyon-scout",
-      "article": "Itamar Roitman joins Hapoel Galil Elyon as head of scouting and assistant coach",
-      "file": "File:Sport hall - Kfar Blum 1.jpg",
-      "license": "CC BY-SA 4.0"
     }
   ],
   "failures": [
     {
-      "id": "live-20260823-milan-four-players-exiled",
-      "title": "Milan strip Tomori, Fofana, Nkunku and Gimenez of squad numbers in ruthless clearout",
+      "id": "live-20260823-barcelona-rodri-midfield-crowding",
+      "title": "Barcelona load up on midfielders with Rodri — but who scores the goals?",
       "error": "image download 429 after retries"
-    },
-    {
-      "id": "live-2026-08-23-bruninho-brace-haifa-ramat-gan-kanias",
-      "title": "Maccabi Haifa 2-1 Hapoel Ramat Gan: \"Bruninho is above the league, I felt Bachar's pressure\"",
-      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {
       "id": "live-20260823-dolgopyat-crisis-interview",
@@ -144,6 +127,11 @@
     {
       "id": "live-2026-08-15-ukraine-amateur-tennis-legend-kurbanov-killed-war",
       "title": "Ukrainian amateur tennis 'legend' Slava Kurbanov killed fighting on the front",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-2026-08-13-adva-cohen-steeplechase-10th",
+      "title": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {
