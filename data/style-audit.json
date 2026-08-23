@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T15:24:45.822Z",
+  "generatedAt": "2026-08-23T16:07:34.609Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,21 +11,21 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1154,
+    "publishedArticles": 1156,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 418,
-      "average": 422.4
+      "average": 422.5
     },
     "paragraphDistribution": {
       "3": 36,
       "4": 6,
       "5": 10,
       "6": 54,
-      "7": 173,
+      "7": 174,
       "8": 338,
-      "9": 280,
+      "9": 281,
       "10": 185,
       "11": 48,
       "12": 14,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.293,
+    "dominantParagraphShare": 0.292,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 54,
     "analysisBelowTarget": 12,
@@ -4495,6 +4495,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-23-georgina-adopts-ronaldo-children",
+      "slug": "georgina-rodriguez-adopts-ronaldo-eldest-children",
+      "title": "Georgina Rodríguez reportedly adopts Ronaldo's three eldest children",
+      "kind": "article",
+      "words": 356,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 70,
+        "average": 50.9
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 52,
+        "average": 35.6
+      },
+      "lexicalDiversity": 0.573,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-23-maresca-city-bournemouth-debut",
+      "slug": "maresca-city-bournemouth-debut-review",
+      "title": "Manchester City edge Bournemouth 2-1 in Maresca's shaky Premier League bow",
+      "kind": "article",
+      "words": 540,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 38,
+        "longest": 77,
+        "average": 60
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 77,
+        "average": 28.4
+      },
+      "lexicalDiversity": 0.563,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260823-haaland-haircut-manchester-city",
       "slug": "haaland-cuts-off-iconic-long-hair-new-season",

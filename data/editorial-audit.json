@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T15:24:45.315Z",
+  "generatedAt": "2026-08-23T16:07:33.955Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1689,
-    "publishedBefore": 1154,
-    "cleanPublished": 1147,
+    "totalArticles": 1693,
+    "publishedBefore": 1156,
+    "cleanPublished": 1149,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1154,
-    "reviewAfter": 535
+    "publishedAfter": 1156,
+    "reviewAfter": 537
   },
   "blockedPublished": [
     {
@@ -140,6 +140,51 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-2026-08-23-georgina-adopts-ronaldo-children",
+      "slug": "georgina-rodriguez-adopts-ronaldo-eldest-children",
+      "title": "Georgina Rodríguez reportedly adopts Ronaldo's three eldest children",
+      "statusBefore": "published",
+      "words": 358,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260823-hapoel-eilat-james-dickey-signing",
+      "slug": "hapoel-eilat-signs-james-dickey",
+      "title": "Newly promoted Hapoel Eilat sign American forward James Dickey",
+      "statusBefore": "review",
+      "words": 307,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-23-georgia-israel-basketball-warmup-in-progress",
+      "slug": "georgia-israel-basketball-warmup-in-progress",
+      "title": "Georgia lead Israel 20-12 in first quarter of basketball warm-up — match in progress",
+      "statusBefore": "review",
+      "words": 106,
+      "paragraphs": 3,
+      "facts": 5,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
     {
       "id": "live-2026-08-23-electric-scooter-safety-not-sports",
       "slug": "electric-scooter-safety-not-sports",
@@ -16664,6 +16709,34 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-23-georgina-adopts-ronaldo-children",
+      "slug": "georgina-rodriguez-adopts-ronaldo-eldest-children",
+      "title": "Georgina Rodríguez reportedly adopts Ronaldo's three eldest children",
+      "statusBefore": "published",
+      "words": 358,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-23-maresca-city-bournemouth-debut",
+      "slug": "maresca-city-bournemouth-debut-review",
+      "title": "Manchester City edge Bournemouth 2-1 in Maresca's shaky Premier League bow",
+      "statusBefore": "published",
+      "words": 540,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-20260823-haaland-haircut-manchester-city",
       "slug": "haaland-cuts-off-iconic-long-hair-new-season",
