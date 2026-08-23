@@ -1,5 +1,58 @@
 [
   {
+    "ts": "2026-08-23T06:23:41.385Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 4,
+    "review": 0,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "barcelona-lukeba-signing-hinges-kounde-balde-futures",
+        "title": "Barcelona's chase for Lukeba hinges on Kounde and Balde's futures",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "de-zerbi-tottenham-not-a-team-yet-brentford-defeat",
+        "title": "Brentford 3-0 Tottenham: De Zerbi admits Spurs are 'not a team yet' as chaotic opener exposes new project",
+        "confidence": 0.9,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "omer-dahan-lawyers-accuse-police-misleading-impression-indictment",
+        "title": "Dahan's lawyers accuse police of creating false impression an indictment was already decided",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "hull-city-manchester-united-media-reaction-carrick-pre-season",
+        "title": "Hull City 2-0 Manchester United: pundits say Carrick's side looked unprepared",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "maccabi-tel-aviv-hapoel-jerusalem-odds-preview",
+        "title": "Maccabi Tel Aviv well-fancied at Hapoel Jerusalem as Ligat Ha'al returns",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-08-23T04:08:44.618Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -2517,59 +2570,6 @@
         "slug": "barcelona-push-rodri-alvarez-transfer-double",
         "title": "Barcelona push to close Rodri deal within a week while Álvarez remains their only striker target",
         "decision": "duplicate"
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-15T08:45:48.527Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 4,
-    "review": 0,
-    "skipped": 1,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "why-anan-khalaili-can-succeed-crystal-palace",
-        "title": "Why Anan Khalaili is built to succeed at Crystal Palace",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "khalaili-crystal-palace-first-interview",
-        "title": "Khalaili tells Crystal Palace: 'I've been following you for a long time'",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "abu-fani-crvena-zvezda-future-in-doubt-stankovic-exit",
-        "title": "Abu Fani's future at Red Star Belgrade in doubt after Stanković's exit",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "serbian-defender-nikola-maras-maccabi-tel-aviv-alaves-release",
-        "title": "Maccabi Tel Aviv eye Serbian centre-back Nikola Maraš after bizarre Alavés release",
-        "confidence": 0.8,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "youth-premier-league-season-opens-six-saturday-matches",
-        "title": "Israel's Youth Premier League kicks off with six matches this Saturday",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
       }
     ]
   }
