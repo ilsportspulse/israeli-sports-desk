@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T22:37:07.130Z",
+  "generatedAt": "2026-08-24T23:22:33.766Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1195,
+    "publishedArticles": 1198,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 417,
-      "average": 422.2
+      "average": 422.1
     },
     "paragraphDistribution": {
       "3": 36,
@@ -24,8 +24,8 @@
       "5": 10,
       "6": 55,
       "7": 182,
-      "8": 351,
-      "9": 290,
+      "8": 353,
+      "9": 291,
       "10": 191,
       "11": 49,
       "12": 15,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.294,
+    "dominantParagraphShare": 0.295,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 55,
     "analysisBelowTarget": 12,
@@ -4727,6 +4727,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-24-netanya-sakhnin-fan-attack-vehicles",
+      "slug": "bnei-sakhnin-players-cars-attacked-netanya-fans",
+      "title": "Bnei Sakhnin players say Netanya fans attacked their cars after season opener",
+      "kind": "news",
+      "words": 334,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 55,
+        "average": 41.8
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 96,
+        "average": 33.4
+      },
+      "lexicalDiversity": 0.632,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-24-sabah-dambrauskas-beer-sheva-since-2017",
+      "slug": "sabah-coach-dambrauskas-followed-beer-sheva-since-2017",
+      "title": "Sabah coach: I've followed Beer Sheva since 2017, they're a great team",
+      "kind": "news",
+      "words": 385,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 57,
+        "average": 42.8
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 57,
+        "average": 35
+      },
+      "lexicalDiversity": 0.551,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260824-hapoel-beer-sheva-sabah-champions-league-preview",
+      "slug": "hapoel-beer-sheva-sabah-champions-league-playoff-second-leg-preview",
+      "title": "Kojok: \"We're putting all our energy into reaching the Champions League\"",
+      "kind": "article",
+      "words": 427,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 38,
+        "longest": 68,
+        "average": 53.4
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 68,
+        "average": 32.8
+      },
+      "lexicalDiversity": 0.555,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-20260824-cooper-lutkenhaus-texas-olympic-hope",
       "slug": "cooper-lutkenhaus-texas-olympic-hope",

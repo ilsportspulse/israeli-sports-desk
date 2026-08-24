@@ -1,5 +1,59 @@
 [
   {
+    "ts": "2026-08-24T23:03:55.176Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 3,
+    "review": 1,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "hapoel-beer-sheva-sabah-champions-league-playoff-second-leg-preview",
+        "title": "Kojok: \"We're putting all our energy into reaching the Champions League\"",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "sabah-coach-dambrauskas-followed-beer-sheva-since-2017",
+        "title": "Sabah coach: I've followed Beer Sheva since 2017, they're a great team",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "bnei-sakhnin-players-cars-attacked-netanya-fans",
+        "title": "Bnei Sakhnin players say Netanya fans attacked their cars after season opener",
+        "confidence": 0.75,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "shaedon-sharpe-torn-meniscus-six-months-trail-blazers-avdija",
+        "title": "Trail Blazers' Shaedon Sharpe to miss six months with torn meniscus, adding to Avdija's load",
+        "decision": "duplicate",
+        "reason": "same event as moti-daniel-deni-avdija-national-team-future"
+      },
+      {
+        "slug": "sakhnin-players-accuse-netanya-fans-of-post-match-attack",
+        "title": "Sakhnin players accuse Netanya fans of attacking them after season-opening draw",
+        "confidence": 0.75,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Allegations rest on the players' own social media accounts as relayed by a single outlet (ONE); no police statement or Maccabi Netanya response has been reported yet."
+      }
+    ]
+  },
+  {
     "ts": "2026-08-24T19:00:42.775Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -2493,62 +2547,6 @@
       {
         "slug": "bergamo-police-seize-fireworks-israeli-fans-atalanta-hapoel-tel-aviv",
         "title": "Italian police seize 45kg of fireworks from two Israeli fans before Atalanta clash",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-20T19:18:24.656Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 3,
-    "review": 2,
-    "skipped": 0,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "ironman-leeds-swim-cancelled-blue-green-algae-athlete-anger",
-        "title": "Ironman Leeds scraps swim leg over toxic algae, leaving athletes furious",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "erez-isakov-unveils-new-maccabi-hasharon-netanya-kit",
-        "title": "Erez Isakov unveils new kit for his Maccabi HaSharon Netanya project",
-        "confidence": 0.82,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Exact kit colourway and sponsor details from the photos are not independently described in available text, only the \"Iskovs\" branding; no correctly-identified, verifiable Commons photo of Isakov, the club or its actual home ground (Shapira Stadium) could be confirmed, so no image is supplied."
-      },
-      {
-        "slug": "boateng-missed-chance-atalanta-hapoel-tel-aviv-fan-reaction",
-        "title": "Boateng miss sparks fan reaction as Hapoel Tel Aviv chase Atalanta upset",
-        "confidence": 0,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "match in progress — wait for full time (source article is a mid-match social-reaction snippet, not a completed report); also could not confirm which of two same-named Wikimedia Commons subjects (Emmanuel Boateng born 1996 vs 1997) matches the current Hapoel Tel Aviv striker, so no image is offered"
-      },
-      {
-        "slug": "hapoel-tel-aviv-flares-atalanta-uefa-punishment-risk",
-        "title": "Hapoel Tel Aviv risk fresh UEFA punishment after flares at Atalanta",
-        "confidence": 0.8,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "kattash-we-really-wanted-tamir-blatt-to-stay",
-        "title": "Kattash on Blatt's exit: \"We really wanted Tamir, no decision was made to part ways\"",
         "confidence": 0.85,
         "gate": "pass",
         "decision": "published",
