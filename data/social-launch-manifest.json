@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-24T03:05:19Z",
-    "validUntil": "2026-08-24T15:05:19Z",
+    "checkedAt": "2026-08-24T04:27:48Z",
+    "validUntil": "2026-08-24T16:27:48Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 846,
+        "maxAgeHours": 847,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260824-hapoel-jerusalem-fans-attacked-maccabi-tel-aviv",
+        "articleId": "live-2026-08-24-maccabi-netanya-bnei-sakhnin-preview",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 854,
+        "maxAgeHours": 855,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-24-atalanta-sassuolo-hapoel-preview",
+        "articleId": "live-2026-08-24-abu-farhi-goalkeeper-transfer",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 864,
+        "maxAgeHours": 865,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-24-barcelona-elche-5-0-la-liga-opener",
+        "articleId": "live-20260824-hapoel-jerusalem-fans-attacked-maccabi-tel-aviv",
         "maxAgeHours": 36,
         "requires": []
       }

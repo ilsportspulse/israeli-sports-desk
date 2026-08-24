@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T03:05:19.684Z",
+  "generatedAt": "2026-08-24T04:27:48.866Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1723,
-    "publishedBefore": 1170,
-    "cleanPublished": 1163,
+    "totalArticles": 1726,
+    "publishedBefore": 1171,
+    "cleanPublished": 1164,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1170,
-    "reviewAfter": 553
+    "publishedAfter": 1171,
+    "reviewAfter": 555
   },
   "blockedPublished": [
     {
@@ -141,6 +141,49 @@
   ],
   "warnings": [
     {
+      "id": "live-2026-08-24-maccabi-netanya-bnei-sakhnin-preview",
+      "slug": "maccabi-netanya-bnei-sakhnin-season-opener-preview",
+      "title": "Jaber returns as Maccabi Netanya host Bnei Sakhnin in season opener",
+      "statusBefore": "published",
+      "words": 264,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:3"
+      ]
+    },
+    {
+      "id": "live-2026-08-24-abu-farhi-goalkeeper-transfer",
+      "slug": "maccabi-tel-aviv-abu-farhi-goalkeeper-hapoel-jerusalem-transfer",
+      "title": "Maccabi Tel Aviv beat Hapoel Jerusalem 5-2 as Abu Farhi goes in goal and shrugs off transfer talk",
+      "statusBefore": "published",
+      "words": 474,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260824-cornud-haifa-november-return",
+      "slug": "maccabi-haifa-cornud-november-training-return",
+      "title": "Maccabi Haifa grow optimistic over Cornud's November return to training",
+      "statusBefore": "review",
+      "words": 411,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
       "id": "live-20260824-hapoel-jerusalem-fans-attacked-maccabi-tel-aviv",
       "slug": "hapoel-jerusalem-fans-attacked-by-maccabi-tel-aviv-supporters",
       "title": "Hapoel Jerusalem fans attacked by dozens of Maccabi Tel Aviv supporters, ONE reports",
@@ -159,7 +202,7 @@
       "id": "live-2026-08-24-atalanta-sassuolo-hapoel-preview",
       "slug": "atalanta-beat-sassuolo-ahead-of-hapoel-tel-aviv-return-leg",
       "title": "Atalanta beat Sassuolo 2-1 in Sarri's first win, days before Hapoel Tel Aviv return leg",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 396,
       "paragraphs": 8,
       "facts": 6,
@@ -16989,6 +17032,35 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-2026-08-24-maccabi-netanya-bnei-sakhnin-preview",
+      "slug": "maccabi-netanya-bnei-sakhnin-season-opener-preview",
+      "title": "Jaber returns as Maccabi Netanya host Bnei Sakhnin in season opener",
+      "statusBefore": "published",
+      "words": 264,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:3"
+      ]
+    },
+    {
+      "id": "live-2026-08-24-abu-farhi-goalkeeper-transfer",
+      "slug": "maccabi-tel-aviv-abu-farhi-goalkeeper-hapoel-jerusalem-transfer",
+      "title": "Maccabi Tel Aviv beat Hapoel Jerusalem 5-2 as Abu Farhi goes in goal and shrugs off transfer talk",
+      "statusBefore": "published",
+      "words": 474,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-20260824-hapoel-jerusalem-fans-attacked-maccabi-tel-aviv",
       "slug": "hapoel-jerusalem-fans-attacked-by-maccabi-tel-aviv-supporters",
       "title": "Hapoel Jerusalem fans attacked by dozens of Maccabi Tel Aviv supporters, ONE reports",
@@ -17014,20 +17086,6 @@
       "verificationSources": 3,
       "blockers": [],
       "warnings": []
-    },
-    {
-      "id": "live-2026-08-24-atalanta-sassuolo-hapoel-preview",
-      "slug": "atalanta-beat-sassuolo-ahead-of-hapoel-tel-aviv-return-leg",
-      "title": "Atalanta beat Sassuolo 2-1 in Sarri's first win, days before Hapoel Tel Aviv return leg",
-      "statusBefore": "published",
-      "words": 396,
-      "paragraphs": 8,
-      "facts": 6,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
     },
     {
       "id": "live-2026-08-24-barcelona-elche-5-0-la-liga-opener",

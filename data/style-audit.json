@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T03:05:20.348Z",
+  "generatedAt": "2026-08-24T04:27:49.508Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,22 +11,22 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1170,
+    "publishedArticles": 1171,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 417,
-      "average": 421.8
+      "average": 421.7
     },
     "paragraphDistribution": {
       "3": 36,
       "4": 6,
       "5": 10,
       "6": 54,
-      "7": 176,
-      "8": 345,
+      "7": 177,
+      "8": 344,
       "9": 285,
-      "10": 186,
+      "10": 187,
       "11": 48,
       "12": 14,
       "13": 4,
@@ -35,13 +35,37 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.295,
+    "dominantParagraphShare": 0.294,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 54,
     "analysisBelowTarget": 12,
-    "articlesWithStyleFlags": 196
+    "articlesWithStyleFlags": 197
   },
   "flagged": [
+    {
+      "id": "live-2026-08-24-maccabi-netanya-bnei-sakhnin-preview",
+      "slug": "maccabi-netanya-bnei-sakhnin-season-opener-preview",
+      "title": "Jaber returns as Maccabi Netanya host Bnei Sakhnin in season opener",
+      "kind": "article",
+      "words": 266,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 25,
+        "longest": 52,
+        "average": 38
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 54,
+        "average": 29.6
+      },
+      "lexicalDiversity": 0.654,
+      "publisherAttributions": 2,
+      "flags": [
+        "below-editorial-target:266/280",
+        "publisher-attribution-heavy:2"
+      ]
+    },
     {
       "id": "live-2026-08-23-barcelona-yamal-raphinha-fermin-elche-lineup",
       "slug": "barcelona-yamal-raphinha-fermin-lopez-start-elche-la-liga-opener",
@@ -4566,6 +4590,27 @@
   ],
   "clean": [
     {
+      "id": "live-2026-08-24-abu-farhi-goalkeeper-transfer",
+      "slug": "maccabi-tel-aviv-abu-farhi-goalkeeper-hapoel-jerusalem-transfer",
+      "title": "Maccabi Tel Aviv beat Hapoel Jerusalem 5-2 as Abu Farhi goes in goal and shrugs off transfer talk",
+      "kind": "article",
+      "words": 473,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 68,
+        "average": 47.3
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 78,
+        "average": 29.6
+      },
+      "lexicalDiversity": 0.569,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
       "id": "live-20260824-hapoel-jerusalem-fans-attacked-maccabi-tel-aviv",
       "slug": "hapoel-jerusalem-fans-attacked-by-maccabi-tel-aviv-supporters",
       "title": "Hapoel Jerusalem fans attacked by dozens of Maccabi Tel Aviv supporters, ONE reports",
@@ -4604,27 +4649,6 @@
         "average": 30.2
       },
       "lexicalDiversity": 0.651,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-24-atalanta-sassuolo-hapoel-preview",
-      "slug": "atalanta-beat-sassuolo-ahead-of-hapoel-tel-aviv-return-leg",
-      "title": "Atalanta beat Sassuolo 2-1 in Sarri's first win, days before Hapoel Tel Aviv return leg",
-      "kind": "article",
-      "words": 393,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 38,
-        "longest": 75,
-        "average": 49.1
-      },
-      "sentenceWords": {
-        "shortest": 13,
-        "longest": 49,
-        "average": 35.7
-      },
-      "lexicalDiversity": 0.595,
       "publisherAttributions": 0,
       "flags": []
     },
