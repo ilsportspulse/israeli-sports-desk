@@ -146,8 +146,8 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-24T17:32:52Z",
-    "validUntil": "2026-08-25T05:32:52Z",
+    "checkedAt": "2026-08-24T18:03:25Z",
+    "validUntil": "2026-08-25T06:03:25Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
@@ -167,7 +167,7 @@
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 868,
+        "maxAgeHours": 869,
         "requires": [
           "basketballRecap"
         ]
