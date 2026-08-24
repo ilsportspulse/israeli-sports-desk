@@ -146,49 +146,49 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-24T11:04:19Z",
-    "validUntil": "2026-08-24T23:04:19Z",
+    "checkedAt": "2026-08-24T11:56:54Z",
+    "validUntil": "2026-08-24T23:56:54Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 854,
+        "maxAgeHours": 855,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-24-euroleague-super-cup-abu-dhabi",
+        "articleId": "live-20260824-hapoel-tel-aviv-coco-boateng-touriel-fitness",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 862,
+        "maxAgeHours": 863,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "archive-20260824-tel-aviv-11-july-2009-the-night-israel-s",
+        "articleId": "live-20260824-tai-abed-levante-sale",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 872,
+        "maxAgeHours": 873,
         "requires": [
           "column"
         ]
       },
       {
         "role": "archive",
-        "articleId": "archive-20260823-seoul-6-march-2017-the-night-baseball-s-",
+        "articleId": "archive-20260824-tel-aviv-11-july-2009-the-night-israel-s",
         "maxAgeHours": 156,
         "requires": [
           "historical-feature"
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260824-dor-turgeman-goal-since-montreal-incident",
+        "articleId": "live-2026-08-24-euroleague-super-cup-abu-dhabi",
         "maxAgeHours": 36,
         "requires": []
       }

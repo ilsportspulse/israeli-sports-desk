@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T11:04:19.617Z",
+  "generatedAt": "2026-08-24T11:56:54.372Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1740,
-    "publishedBefore": 1180,
-    "cleanPublished": 1173,
+    "totalArticles": 1744,
+    "publishedBefore": 1182,
+    "cleanPublished": 1175,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1180,
-    "reviewAfter": 560
+    "publishedAfter": 1182,
+    "reviewAfter": 562
   },
   "blockedPublished": [
     {
@@ -141,6 +141,50 @@
   ],
   "warnings": [
     {
+      "id": "live-20260824-hapoel-tel-aviv-coco-boateng-touriel-fitness",
+      "slug": "hapoel-tel-aviv-coco-fit-boateng-touriel-doubtful-atalanta",
+      "title": "Coco fit to start, Boateng and Touriel still doubtful for Hapoel's Atalanta decider",
+      "statusBefore": "published",
+      "words": 322,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260824-alvarez-atletico-barcelona-rift",
+      "slug": "julian-alvarez-atletico-madrid-barcelona-rift-inside-story",
+      "title": "The inside story of the Julián Álvarez–Atlético Madrid fallout",
+      "statusBefore": "review",
+      "words": 636,
+      "paragraphs": 12,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260824-tai-abed-levante-sale",
+      "slug": "levante-moves-sell-tai-abed-frozen-out-squad",
+      "title": "Levante moves to sell Tai Abed as Israeli winger is frozen out again",
+      "statusBefore": "published",
+      "words": 329,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
       "id": "live-2026-08-24-oz-peretz-returns-umm-al-fahm",
       "slug": "oz-peretz-returns-hapoel-umm-al-fahm-second-stint",
       "title": "Oz Peretz returns to Hapoel Umm al-Fahm for a second stint",
@@ -180,6 +224,7 @@
       "verificationSources": 5,
       "blockers": [],
       "warnings": [
+        "media:no-action-or-competition-context-detected",
         "voice:publisher-attribution-heavy:3"
       ]
     },
@@ -17119,6 +17164,35 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-20260824-hapoel-tel-aviv-coco-boateng-touriel-fitness",
+      "slug": "hapoel-tel-aviv-coco-fit-boateng-touriel-doubtful-atalanta",
+      "title": "Coco fit to start, Boateng and Touriel still doubtful for Hapoel's Atalanta decider",
+      "statusBefore": "published",
+      "words": 322,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260824-tai-abed-levante-sale",
+      "slug": "levante-moves-sell-tai-abed-frozen-out-squad",
+      "title": "Levante moves to sell Tai Abed as Israeli winger is frozen out again",
+      "statusBefore": "published",
+      "words": 329,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
       "id": "live-2026-08-24-euroleague-super-cup-abu-dhabi",
       "slug": "euroleague-unveils-new-super-cup-abu-dhabi",
       "title": "EuroLeague unveils new Super Cup, launching in Abu Dhabi this September",
@@ -17179,6 +17253,7 @@
       "verificationSources": 5,
       "blockers": [],
       "warnings": [
+        "media:no-action-or-competition-context-detected",
         "voice:publisher-attribution-heavy:3"
       ]
     },
