@@ -1,5 +1,45 @@
 [
   {
+    "ts": "2026-08-24T09:09:43.339Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 3,
+    "published": 2,
+    "review": 1,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "elche-barcelona-5-0-raphinha-false-nine-flick",
+        "title": "Elche 0-5 Barcelona: Raphinha shines as false No. 9 in Flick's title-defence rout",
+        "confidence": 0.9,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "euroleague-unveils-new-super-cup-abu-dhabi",
+        "title": "EuroLeague unveils new Super Cup, launching in Abu Dhabi this September",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "oz-peretz-returns-hapoel-umm-al-fahm-second-stint",
+        "title": "Oz Peretz returns to Hapoel Umm al-Fahm for a second stint",
+        "confidence": 0.8,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Some biographical details (exact stint dates, interim club) vary slightly between ONE, Wikipedia and other trackers for this lower-league player — core facts of the return and prior scoring record are consistent across sources."
+      }
+    ]
+  },
+  {
     "ts": "2026-08-24T06:33:07.931Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -2532,56 +2572,6 @@
         "gate": "hold",
         "decision": "review",
         "reason": "Financial terms of the Reebok-Hapoel Jerusalem deal were not disclosed by either party."
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-17T09:59:59.417Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 2,
-    "review": 1,
-    "skipped": 2,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "gal-leibovitz-conference-league-referee-riga-gyori",
-        "title": "Gal Leibovitz leads all-Israeli team for Conference League honour in Riga",
-        "confidence": 0.85,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "below gate thresholds"
-      },
-      {
-        "slug": "gavi-bublil-denies-fired-maccabi-netanya-sick-leave",
-        "title": "Maccabi Netanya facilities manager Bublil: \"I wasn't fired or called to a hearing, I'm on sick leave\"",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "ms-ashdod-afula-postponement-hearing-tiberias-affair",
-        "title": "Ashdod asks football's top court to delay season opener over Tiberias affair",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "afula-bergman-timetable-ashdod-postponement-petition",
-        "title": "Afula surprised to learn it was prosecutor Bergman who set the timetable for Ashdod's postponement bid",
-        "decision": "duplicate"
-      },
-      {
-        "url": "https://www.one.co.il/Article/530853.html",
-        "decision": "skipped",
-        "reason": "no valid article emitted"
       }
     ]
   }

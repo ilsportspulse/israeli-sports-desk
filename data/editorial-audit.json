@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T08:28:32.361Z",
+  "generatedAt": "2026-08-24T09:27:32.035Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1736,
-    "publishedBefore": 1178,
-    "cleanPublished": 1171,
+    "totalArticles": 1740,
+    "publishedBefore": 1180,
+    "cleanPublished": 1173,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1178,
-    "reviewAfter": 558
+    "publishedAfter": 1180,
+    "reviewAfter": 560
   },
   "blockedPublished": [
     {
@@ -140,6 +140,21 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-2026-08-24-oz-peretz-returns-umm-al-fahm",
+      "slug": "oz-peretz-returns-hapoel-umm-al-fahm-second-stint",
+      "title": "Oz Peretz returns to Hapoel Umm al-Fahm for a second stint",
+      "statusBefore": "review",
+      "words": 323,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:3"
+      ]
+    },
     {
       "id": "live-20260824-ramat-gan-basketball-merger",
       "slug": "ramat-gan-mens-womens-basketball-clubs-unite",
@@ -17103,6 +17118,30 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-24-euroleague-super-cup-abu-dhabi",
+      "slug": "euroleague-unveils-new-super-cup-abu-dhabi",
+      "title": "EuroLeague unveils new Super Cup, launching in Abu Dhabi this September",
+      "statusBefore": "published",
+      "words": 340,
+      "paragraphs": 9,
+      "facts": 5,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "archive-20260824-tel-aviv-11-july-2009-the-night-israel-s",
+      "slug": "tel-aviv-11-july-2009-the-night-israel-s-tennis-team-reached-its-first",
+      "title": "Tel Aviv, 11 July 2009: The Night Israel's Tennis Team Reached Its First Davis Cup Semifinal",
+      "statusBefore": "published",
+      "words": 629,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-20260824-dor-turgeman-goal-since-montreal-incident",
       "slug": "dor-turgeman-scores-first-goal-since-montreal-antisemitism-incident",

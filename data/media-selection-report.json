@@ -1,22 +1,28 @@
 {
   "selections": [
     {
-      "articleId": "live-20260824-dor-turgeman-goal-since-montreal-incident",
-      "article": "New England 1-1 NYCFC: Turgeman scores again, three weeks after Montreal antisemitism storm",
-      "file": "File:Gillette Stadium04.jpg",
+      "articleId": "live-2026-08-24-oz-peretz-returns-umm-al-fahm",
+      "article": "Oz Peretz returns to Hapoel Umm al-Fahm for a second stint",
+      "file": "File:Al-Salam Stadium Umm Al-Fahm 2024.jpg",
+      "license": "CC BY 4.0"
+    },
+    {
+      "articleId": "live-2026-08-24-euroleague-super-cup-abu-dhabi",
+      "article": "EuroLeague unveils new Super Cup, launching in Abu Dhabi this September",
+      "file": "File:Dejan Bodiroga 2006.jpg",
+      "license": "CC BY-SA 2.0 it"
+    },
+    {
+      "articleId": "archive-20260824-tel-aviv-11-july-2009-the-night-israel-s",
+      "article": "Tel Aviv, 11 July 2009: The Night Israel's Tennis Team Reached Its First Davis Cup Semifinal",
+      "file": "File:Dudi Sela Israel tennis championship 2008 2.jpg",
       "license": "CC BY-SA 3.0"
     },
     {
-      "articleId": "live-20260824-ramat-gan-basketball-merger",
-      "article": "Ramat Gan unites men's and women's basketball clubs under one roof",
-      "file": "File:Bet Maccabi 3.JPG",
-      "license": "Public domain"
-    },
-    {
-      "articleId": "live-2026-08-24-spalletti-kolo-muani-two-years",
-      "article": "Spalletti needles Kolo Muani: 'There's a reason he hasn't played for two years'",
-      "file": "File:Randal Kolo Muani 2020.jpg",
-      "license": "CC0"
+      "articleId": "live-20260824-maresca-guehi-midfield-gamble",
+      "article": "Man City 2-1 Bournemouth: Maresca's midfield gamble on Guehi delivers dramatic win",
+      "file": "File:Marc Guéhi at 2026 FIFA World Cup by YantsImages.jpg",
+      "license": "CC BY-SA 4.0"
     },
     {
       "articleId": "live-20260815-liebmann-1500m-freestyle-world-record",
@@ -27,7 +33,7 @@
     {
       "articleId": "live-20260802-israel-fifth-mixed-duet-technical-paris",
       "article": "Israel take fifth in mixed duet technical final at European Championships in Paris",
-      "file": "File:20220817 European Championships Munich 2022 Tania Moreno Matveeva 850 7683.jpg",
+      "file": "File:20220814 European Championships Munich 2022 Ľubomír Pištej 850 3618.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
@@ -41,23 +47,17 @@
       "article": "Adam Ramsay-Peaty questions it all after bitter Commonwealth bronze",
       "file": "File:Adam Peaty Olympics 100m breaststroke 2016.jpg",
       "license": "CC BY 3.0 br"
-    },
-    {
-      "articleId": "live-20260824-neville-rocket-wirtz",
-      "article": "Newcastle 2-2 Liverpool: Neville wants to put a rocket under Wirtz's backside",
-      "file": "File:Florian Wirtz, 2022-07-31, Saisoneröffnung Bayer 04, Leverkusen (1).jpg",
-      "license": "CC BY-SA 4.0"
     }
   ],
   "failures": [
     {
-      "id": "live-20260824-julian-alvarez-atletico-booed-barcelona-saga",
-      "title": "Julian Alvarez booed by Atletico Madrid fans in 2-2 draw as Barcelona transfer saga rumbles on",
+      "id": "live-20260824-barcelona-elche-5-0-raphinha-false-nine",
+      "title": "Elche 0-5 Barcelona: Raphinha shines as false No. 9 in Flick's title-defence rout",
       "error": "image download 429 after retries"
     },
     {
-      "id": "live-20260824-maresca-guehi-midfield-gamble",
-      "title": "Man City 2-1 Bournemouth: Maresca's midfield gamble on Guehi delivers dramatic win",
+      "id": "live-20260824-julian-alvarez-atletico-booed-barcelona-saga",
+      "title": "Julian Alvarez booed by Atletico Madrid fans in 2-2 draw as Barcelona transfer saga rumbles on",
       "error": "image download 429 after retries"
     },
     {
@@ -428,6 +428,11 @@
     {
       "id": "live-20260823-bnei-yehuda-kfar-shalem-national-league",
       "title": "Bnei Yehuda host Kfar Shalem as National League clash runs into its closing stages",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-20260824-maccabi-tel-aviv-hapoel-jerusalem-abu-farhi-keeper",
+      "title": "Maccabi Tel Aviv beat Hapoel Jerusalem 5-2 as makeshift keeper Abu Farhi: 'We'll see at the end of the season'",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {

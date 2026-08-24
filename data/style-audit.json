@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T08:28:33.008Z",
+  "generatedAt": "2026-08-24T09:27:32.679Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1178,
+    "publishedArticles": 1180,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 417.5,
-      "average": 421.9
+      "average": 422
     },
     "paragraphDistribution": {
       "3": 36,
@@ -24,8 +24,8 @@
       "5": 10,
       "6": 54,
       "7": 177,
-      "8": 346,
-      "9": 286,
+      "8": 347,
+      "9": 287,
       "10": 190,
       "11": 49,
       "12": 14,
@@ -4681,6 +4681,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-24-euroleague-super-cup-abu-dhabi",
+      "slug": "euroleague-unveils-new-super-cup-abu-dhabi",
+      "title": "EuroLeague unveils new Super Cup, launching in Abu Dhabi this September",
+      "kind": "news",
+      "words": 340,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 28,
+        "longest": 57,
+        "average": 37.8
+      },
+      "sentenceWords": {
+        "shortest": 28,
+        "longest": 90,
+        "average": 48.6
+      },
+      "lexicalDiversity": 0.6,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "archive-20260824-tel-aviv-11-july-2009-the-night-israel-s",
+      "slug": "tel-aviv-11-july-2009-the-night-israel-s-tennis-team-reached-its-first",
+      "title": "Tel Aviv, 11 July 2009: The Night Israel's Tennis Team Reached Its First Davis Cup Semifinal",
+      "kind": "explainer",
+      "words": 624,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 90,
+        "average": 78
+      },
+      "sentenceWords": {
+        "shortest": 3,
+        "longest": 52,
+        "average": 25
+      },
+      "lexicalDiversity": 0.527,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260824-dor-turgeman-goal-since-montreal-incident",
       "slug": "dor-turgeman-scores-first-goal-since-montreal-antisemitism-incident",
