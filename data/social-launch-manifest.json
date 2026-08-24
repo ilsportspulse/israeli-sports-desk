@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-24T04:53:11Z",
-    "validUntil": "2026-08-24T16:53:11Z",
+    "checkedAt": "2026-08-24T06:51:39Z",
+    "validUntil": "2026-08-24T18:51:39Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 848,
+        "maxAgeHours": 850,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260824-maccabi-tel-aviv-hapoel-jerusalem-abu-farhi-keeper",
+        "articleId": "live-20260824-dor-turgeman-goal-since-montreal-incident",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 856,
+        "maxAgeHours": 858,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-24-kenny-miller-maccabi-tel-aviv-reinforcements",
+        "articleId": "live-20260824-ramat-gan-basketball-merger",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 866,
+        "maxAgeHours": 868,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260824-hapoel-jerusalem-fans-attacked-maccabi-tel-aviv",
+        "articleId": "live-2026-08-24-spalletti-kolo-muani-two-years",
         "maxAgeHours": 36,
         "requires": []
       }

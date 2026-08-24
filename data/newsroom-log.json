@@ -1,5 +1,61 @@
 [
   {
+    "ts": "2026-08-24T06:33:07.931Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 5,
+    "review": 0,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "maresca-guehi-midfield-gamble-man-city-bournemouth",
+        "title": "Man City 2-1 Bournemouth: Maresca's midfield gamble on Guehi delivers dramatic win",
+        "confidence": 0.9,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "spalletti-needles-kolo-muani-two-years-without-football",
+        "title": "Spalletti needles Kolo Muani: 'There's a reason he hasn't played for two years'",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "julian-alvarez-booed-atletico-madrid-barcelona-transfer-saga",
+        "title": "Julian Alvarez booed by Atletico Madrid fans in 2-2 draw as Barcelona transfer saga rumbles on",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "ramat-gan-mens-womens-basketball-clubs-unite",
+        "title": "Ramat Gan unites men's and women's basketball clubs under one roof",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "dor-turgeman-scores-first-goal-since-montreal-antisemitism-incident",
+        "title": "New England 1-1 NYCFC: Turgeman scores again, three weeks after Montreal antisemitism storm",
+        "confidence": 0.88,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-08-24T04:09:20.497Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -2526,115 +2582,6 @@
         "url": "https://www.one.co.il/Article/530853.html",
         "decision": "skipped",
         "reason": "no valid article emitted"
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-17T08:09:51.107Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 2,
-    "review": 2,
-    "skipped": 1,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "amit-cohen-netanya-playoff-ambition",
-        "title": "Amit Cohen: Netanya want, at minimum, to reach the top playoff",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "lens-stun-psg-ten-men-trophee-des-champions",
-        "title": "Lens 1-0 PSG: ten-man Racing frustrate European champions to win first Trophée des Champions",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "maccabi-netanya-youth-goalkeeper-duo-barmi-loan",
-        "title": "Maccabi Netanya's youth side sign goalkeeper duo, add Barmi on loan from Be'er Sheva",
-        "confidence": 0.75,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Single-source academy/youth transfer story from ONE; player names and stats could not be cross-verified against a second outlet given the niche, age-group nature of the news."
-      },
-      {
-        "slug": "hapoel-hadera-age-exception-players-tribunal-rejects-appeal",
-        "title": "Football association's supreme tribunal rejects Hapoel Hadera's bid to field age-exception youth players",
-        "confidence": 0.72,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Single-source (ONE) for most procedural details, including the exact quote attribution and Iti Ben Zev's precise role; names of Amit Siman-Tov and Refael Ben-Zion could not be independently cross-checked beyond the source article."
-      },
-      {
-        "slug": "hapoel-afula-ashdod-petition-supreme-tribunal",
-        "title": "Hapoel Afula demands rejection of Ashdod's bid to postpone season opener",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-24T04:34:04.457Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 3,
-    "review": 2,
-    "skipped": 0,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "neville-wants-rocket-under-wirtz-backside-newcastle-draw",
-        "title": "Newcastle 2-2 Liverpool: Neville wants to put a rocket under Wirtz's backside",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "maccabi-haifa-optimistic-pierre-kornu-back-in-training-november",
-        "title": "Maccabi Haifa grow optimistic Pierre Kornu will resume full training in November",
-        "confidence": 0.78,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Kornu's return date is the club's internal estimate as reported by ONE, not a medically confirmed date; earlier reports in spring 2026 were less optimistic about the timeline."
-      },
-      {
-        "slug": "maccabi-tel-aviv-lugano-conference-league-second-leg-preview",
-        "title": "Maccabi Tel Aviv search for answers before Lugano rematch in Batumi",
-        "confidence": 0.78,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "below gate thresholds"
-      },
-      {
-        "slug": "kenny-miller-maccabi-tel-aviv-reinforcements-coming",
-        "title": "Miller vows new faces are coming as Maccabi Tel Aviv chase transfer window reinforcements",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "maccabi-tel-aviv-5-2-hapoel-jerusalem-abu-farhi-emergency-keeper",
-        "title": "Maccabi Tel Aviv beat Hapoel Jerusalem 5-2 as makeshift keeper Abu Farhi: 'We'll see at the end of the season'",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
       }
     ]
   }

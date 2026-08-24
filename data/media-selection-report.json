@@ -1,33 +1,27 @@
 {
   "selections": [
     {
-      "articleId": "live-20260824-maccabi-tel-aviv-hapoel-jerusalem-abu-farhi-keeper",
-      "article": "Maccabi Tel Aviv beat Hapoel Jerusalem 5-2 as makeshift keeper Abu Farhi: 'We'll see at the end of the season'",
-      "file": "File:Nir Bitton in 2024.jpg",
-      "license": "CC BY-SA 4.0"
-    },
-    {
-      "articleId": "live-2026-08-24-kenny-miller-maccabi-tel-aviv-reinforcements",
-      "article": "Miller vows new faces are coming as Maccabi Tel Aviv chase transfer window reinforcements",
-      "file": "File:SM Caen Tifo 15 ans du MNK.jpg",
+      "articleId": "live-20260824-dor-turgeman-goal-since-montreal-incident",
+      "article": "New England 1-1 NYCFC: Turgeman scores again, three weeks after Montreal antisemitism storm",
+      "file": "File:Gillette Stadium04.jpg",
       "license": "CC BY-SA 3.0"
     },
     {
-      "articleId": "live-20260824-maccabi-tel-aviv-lugano-preview",
-      "article": "Maccabi Tel Aviv search for answers before Lugano rematch in Batumi",
-      "file": "File:Mecz piłkarski Wisła Kraków - Zagłębie Sosnwoiec, 28 października 2022, Pożegnanie Stadionu Ludowego, KP.jpg",
-      "license": "CC BY 4.0"
+      "articleId": "live-20260824-ramat-gan-basketball-merger",
+      "article": "Ramat Gan unites men's and women's basketball clubs under one roof",
+      "file": "File:Bet Maccabi 3.JPG",
+      "license": "Public domain"
+    },
+    {
+      "articleId": "live-2026-08-24-spalletti-kolo-muani-two-years",
+      "article": "Spalletti needles Kolo Muani: 'There's a reason he hasn't played for two years'",
+      "file": "File:Randal Kolo Muani 2020.jpg",
+      "license": "CC0"
     },
     {
       "articleId": "live-20260815-liebmann-1500m-freestyle-world-record",
       "article": "German teenager Johannes Liebmann shatters 1500m freestyle world record in 14:26.79",
       "file": "File:Swimming Pool lanes and starting blocks at AIS.jpg",
-      "license": "CC BY-SA 4.0"
-    },
-    {
-      "articleId": "live-2026-08-13-adva-cohen-steeplechase-10th",
-      "article": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
-      "file": "File:20220814 European Championships Munich 2022 Ľubomír Pištej 850 3618.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
@@ -47,18 +41,29 @@
       "article": "Adam Ramsay-Peaty questions it all after bitter Commonwealth bronze",
       "file": "File:Adam Peaty Olympics 100m breaststroke 2016.jpg",
       "license": "CC BY 3.0 br"
+    },
+    {
+      "articleId": "live-20260824-neville-rocket-wirtz",
+      "article": "Newcastle 2-2 Liverpool: Neville wants to put a rocket under Wirtz's backside",
+      "file": "File:Florian Wirtz, 2022-07-31, Saisoneröffnung Bayer 04, Leverkusen (1).jpg",
+      "license": "CC BY-SA 4.0"
     }
   ],
   "failures": [
     {
-      "id": "live-20260824-maccabi-haifa-kornu-november-return",
-      "title": "Maccabi Haifa grow optimistic Pierre Kornu will resume full training in November",
-      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+      "id": "live-20260824-julian-alvarez-atletico-booed-barcelona-saga",
+      "title": "Julian Alvarez booed by Atletico Madrid fans in 2-2 draw as Barcelona transfer saga rumbles on",
+      "error": "image download 429 after retries"
     },
     {
-      "id": "live-20260824-neville-rocket-wirtz",
-      "title": "Newcastle 2-2 Liverpool: Neville wants to put a rocket under Wirtz's backside",
+      "id": "live-20260824-maresca-guehi-midfield-gamble",
+      "title": "Man City 2-1 Bournemouth: Maresca's midfield gamble on Guehi delivers dramatic win",
       "error": "image download 429 after retries"
+    },
+    {
+      "id": "live-20260824-cornud-haifa-november-return",
+      "title": "Maccabi Haifa grow optimistic over Cornud's November return to training",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {
       "id": "live-2026-08-24-rennes-psg-ferran-torres-debut-brace",
@@ -168,6 +173,11 @@
     {
       "id": "live-2026-08-15-ukraine-amateur-tennis-legend-kurbanov-killed-war",
       "title": "Ukrainian amateur tennis 'legend' Slava Kurbanov killed fighting on the front",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-2026-08-13-adva-cohen-steeplechase-10th",
+      "title": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {
@@ -418,6 +428,11 @@
     {
       "id": "live-20260823-bnei-yehuda-kfar-shalem-national-league",
       "title": "Bnei Yehuda host Kfar Shalem as National League clash runs into its closing stages",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-20260824-maccabi-haifa-kornu-november-return",
+      "title": "Maccabi Haifa grow optimistic Pierre Kornu will resume full training in November",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     }
   ]
