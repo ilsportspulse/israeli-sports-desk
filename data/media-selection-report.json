@@ -1,16 +1,28 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-08-23-dor-peretz-first-career-hat-trick",
-      "article": "Maccabi Tel Aviv beat Hapoel Jerusalem 5-2 as Dor Peretz scores first hat-trick of his career",
-      "file": "File:Dor Peretz (cropped).JPG",
+      "articleId": "live-20260824-hapoel-jerusalem-fans-attacked-maccabi-tel-aviv",
+      "article": "Hapoel Jerusalem fans attacked by dozens of Maccabi Tel Aviv supporters, ONE reports",
+      "file": "File:SM Caen Tifo 15 ans du MNK.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "articleId": "live-2026-08-24-atalanta-sassuolo-hapoel-preview",
+      "article": "Atalanta beat Sassuolo 2-1 in Sarri's first win, days before Hapoel Tel Aviv return leg",
+      "file": "File:Raspadori Nazionale.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-2026-08-23-run-of-games-verification-held",
-      "article": "Report held: source article could not be reliably verified",
-      "file": "File:GiuseppeMeazzaNeazzurro.jpg",
-      "license": "CC BY 2.0"
+      "articleId": "live-2026-08-24-barcelona-elche-5-0-la-liga-opener",
+      "article": "Barcelona thrash Elche 5-0 to open La Liga title defence in style",
+      "file": "File:Fermín López.jpg",
+      "license": "CC BY 4.0"
+    },
+    {
+      "articleId": "live-2026-08-23-elche-barcelona-laliga-half-time-hold",
+      "article": "Elche and Barcelona goalless at the break in La Liga opener",
+      "file": "File:Martínez Valero.JPG",
+      "license": "CC BY-SA 4.0"
     },
     {
       "articleId": "live-20260815-liebmann-1500m-freestyle-world-record",
@@ -21,13 +33,13 @@
     {
       "articleId": "live-2026-08-13-adva-cohen-steeplechase-10th",
       "article": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
-      "file": "File:20220817 European Championships Munich 2022 Tania Moreno Matveeva 850 7683.jpg",
+      "file": "File:20220814 European Championships Munich 2022 Ľubomír Pištej 850 3618.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
       "articleId": "live-20260802-israel-fifth-mixed-duet-technical-paris",
       "article": "Israel take fifth in mixed duet technical final at European Championships in Paris",
-      "file": "File:20220814 European Championships Munich 2022 Ľubomír Pištej 850 3618.jpg",
+      "file": "File:20220817 European Championships Munich 2022 Tania Moreno Matveeva 850 7683.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
@@ -45,14 +57,14 @@
   ],
   "failures": [
     {
-      "id": "live-2026-08-23-ahavat-hashem-gordon-wedding",
-      "title": "From the ring to the chuppah: kickboxing star Ahavat Hashem Gordon marries Oren Sarah Levi",
+      "id": "live-2026-08-24-rennes-psg-ferran-torres-debut-brace",
+      "title": "Rennes 2-2 PSG: Ferran Torres scores twice on debut to rescue a point",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {
-      "id": "live-2026-08-23-elche-barcelona-laliga-half-time-hold",
-      "title": "Elche and Barcelona goalless at the break in La Liga opener",
-      "error": "image download 429 after retries"
+      "id": "live-2026-08-23-ahavat-hashem-gordon-wedding",
+      "title": "From the ring to the chuppah: kickboxing star Ahavat Hashem Gordon marries Oren Sarah Levi",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {
       "id": "live-2026-08-23-bnei-yehuda-kfar-shalem-national-league-r2",

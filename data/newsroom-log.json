@@ -1,5 +1,59 @@
 [
   {
+    "ts": "2026-08-24T01:10:52.919Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 4,
+    "review": 0,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "barcelona-thrash-elche-5-0-la-liga-opener-flick",
+        "title": "Barcelona thrash Elche 5-0 to open La Liga title defence in style",
+        "confidence": 0.88,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "atalanta-beat-sassuolo-ahead-of-hapoel-tel-aviv-return-leg",
+        "title": "Atalanta beat Sassuolo 2-1 in Sarri's first win, days before Hapoel Tel Aviv return leg",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "rennes-psg-2-2-ferran-torres-debut-brace",
+        "title": "Rennes 2-2 PSG: Ferran Torres scores twice on debut to rescue a point",
+        "confidence": 0.9,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "hapoel-jerusalem-fans-attacked-by-maccabi-tel-aviv-supporters",
+        "title": "Hapoel Jerusalem fans attacked by dozens of Maccabi Tel Aviv supporters, ONE reports",
+        "confidence": 0.78,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "raphinha-spiderman-celebration-alvarez-wink",
+        "title": "Raphinha's Spider-Man celebration sparks talk of a wink to Álvarez",
+        "decision": "duplicate",
+        "reason": "same event as julian-alvarez-included-atletico-squad-villarreal-simeone-defends"
+      }
+    ]
+  },
+  {
     "ts": "2026-08-23T20:25:56.014Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -2528,62 +2582,6 @@
         "slug": "arsenal-man-city-community-shield-maresca-reaction",
         "title": "Arsenal 3-0 Manchester City: Maresca admits he's \"always worried\" after nightmare debut",
         "confidence": 0.9,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-17T05:19:47.980Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 5,
-    "review": 0,
-    "skipped": 0,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "flick-barcelona-missing-something-transfer-window",
-        "title": "Flick says Barcelona 'could be missing something' as transfer window nears its close",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "nuno-praises-solomon-west-ham-debut-burnley-draw",
-        "title": "Nuno praises Solomon's 'wonderful qualities' after debut goal in Burnley 2-2 West Ham",
-        "confidence": 0.87,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "hapoel-tel-aviv-kiryat-shmona-toto-cup-semifinal-daffa-brace",
-        "title": "Hapoel Tel Aviv beat Kiryat Shmona 2-1 after extra time to set up first-ever Tel Aviv derby in Toto Cup final",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "mourinho-real-madrid-starting-to-look-like-a-team",
-        "title": "Mourinho: Real Madrid 'starting to look like a team' after 3-0 win over Schalke 04",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "maccabi-haifa-pedrao-defense-novakovich-squad",
-        "title": "Pedrão trains at centre-back as Maccabi Haifa keep Novakovich waiting",
-        "confidence": 0.82,
         "gate": "pass",
         "decision": "published",
         "reason": ""

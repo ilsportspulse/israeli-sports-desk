@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T00:03:56.370Z",
+  "generatedAt": "2026-08-24T01:28:33.576Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1166,
+    "publishedArticles": 1170,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 417.5,
-      "average": 422
+      "median": 417,
+      "average": 421.8
     },
     "paragraphDistribution": {
       "3": 36,
@@ -24,8 +24,8 @@
       "5": 10,
       "6": 54,
       "7": 176,
-      "8": 343,
-      "9": 283,
+      "8": 345,
+      "9": 285,
       "10": 186,
       "11": 48,
       "12": 14,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.294,
+    "dominantParagraphShare": 0.295,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 54,
     "analysisBelowTarget": 12,
@@ -4565,6 +4565,90 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260824-hapoel-jerusalem-fans-attacked-maccabi-tel-aviv",
+      "slug": "hapoel-jerusalem-fans-attacked-by-maccabi-tel-aviv-supporters",
+      "title": "Hapoel Jerusalem fans attacked by dozens of Maccabi Tel Aviv supporters, ONE reports",
+      "kind": "news",
+      "words": 291,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 15,
+        "longest": 56,
+        "average": 36.4
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 42,
+        "average": 29.1
+      },
+      "lexicalDiversity": 0.55,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-24-rennes-psg-ferran-torres-debut-brace",
+      "slug": "rennes-psg-2-2-ferran-torres-debut-brace",
+      "title": "Rennes 2-2 PSG: Ferran Torres scores twice on debut to rescue a point",
+      "kind": "article",
+      "words": 332,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 45,
+        "average": 36.9
+      },
+      "sentenceWords": {
+        "shortest": 14,
+        "longest": 39,
+        "average": 30.2
+      },
+      "lexicalDiversity": 0.651,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-24-atalanta-sassuolo-hapoel-preview",
+      "slug": "atalanta-beat-sassuolo-ahead-of-hapoel-tel-aviv-return-leg",
+      "title": "Atalanta beat Sassuolo 2-1 in Sarri's first win, days before Hapoel Tel Aviv return leg",
+      "kind": "article",
+      "words": 393,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 38,
+        "longest": 75,
+        "average": 49.1
+      },
+      "sentenceWords": {
+        "shortest": 13,
+        "longest": 49,
+        "average": 35.7
+      },
+      "lexicalDiversity": 0.595,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-24-barcelona-elche-5-0-la-liga-opener",
+      "slug": "barcelona-thrash-elche-5-0-la-liga-opener-flick",
+      "title": "Barcelona thrash Elche 5-0 to open La Liga title defence in style",
+      "kind": "article",
+      "words": 384,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 29,
+        "longest": 53,
+        "average": 42.7
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 49,
+        "average": 27.4
+      },
+      "lexicalDiversity": 0.615,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-23-ahavat-hashem-gordon-wedding",
       "slug": "ahavat-hashem-gordon-marries-oren-sarah-levi",
