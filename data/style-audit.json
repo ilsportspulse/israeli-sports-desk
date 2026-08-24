@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T15:23:57.251Z",
+  "generatedAt": "2026-08-24T16:32:03.955Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,11 +11,11 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1187,
+    "publishedArticles": 1189,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 417,
+      "median": 418,
       "average": 422
     },
     "paragraphDistribution": {
@@ -24,7 +24,7 @@
       "5": 10,
       "6": 54,
       "7": 180,
-      "8": 349,
+      "8": 351,
       "9": 288,
       "10": 190,
       "11": 49,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.294,
+    "dominantParagraphShare": 0.295,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 54,
     "analysisBelowTarget": 12,
-    "articlesWithStyleFlags": 201
+    "articlesWithStyleFlags": 202
   },
   "flagged": [
     {
@@ -376,6 +376,29 @@
       "flags": [
         "below-editorial-target:227/280",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-24-fifa-legends-enough-is-enough-infantino",
+      "slug": "fifa-legends-enough-is-enough-infantino-reform",
+      "title": "Football legends turn on Infantino: \"enough is enough\"",
+      "kind": "news",
+      "words": 426,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 86,
+        "average": 53.3
+      },
+      "sentenceWords": {
+        "shortest": 3,
+        "longest": 122,
+        "average": 53.3
+      },
+      "lexicalDiversity": 0.634,
+      "publisherAttributions": 0,
+      "flags": [
+        "stock-phrase:remains-to-be-seen"
       ]
     },
     {
@@ -4681,6 +4704,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-24-vinicius-junior-canizares-criticism",
+      "slug": "vinicius-junior-canizares-criticism-nobody-wanted-him",
+      "title": "'Nobody wanted him': Cañizares tears into Vinícius Júnior after Espanyol theatrics",
+      "kind": "news",
+      "words": 466,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 43,
+        "longest": 85,
+        "average": 58.3
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 85,
+        "average": 42.4
+      },
+      "lexicalDiversity": 0.605,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260824-moti-daniel-avdija-national-team-future",
       "slug": "moti-daniel-deni-avdija-national-team-future",
