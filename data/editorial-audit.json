@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T11:56:54.372Z",
+  "generatedAt": "2026-08-24T12:23:30.076Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1744,
+    "totalArticles": 1745,
     "publishedBefore": 1182,
     "cleanPublished": 1175,
     "blockedPublished": 7,
     "demoted": 0,
     "publishedAfter": 1182,
-    "reviewAfter": 562
+    "reviewAfter": 563
   },
   "blockedPublished": [
     {
@@ -141,13 +141,13 @@
   ],
   "warnings": [
     {
-      "id": "live-20260824-hapoel-tel-aviv-coco-boateng-touriel-fitness",
-      "slug": "hapoel-tel-aviv-coco-fit-boateng-touriel-doubtful-atalanta",
-      "title": "Coco fit to start, Boateng and Touriel still doubtful for Hapoel's Atalanta decider",
-      "statusBefore": "published",
-      "words": 322,
-      "paragraphs": 7,
-      "facts": 7,
+      "id": "live-2026-08-24-hapoel-jerusalem-fans-attacked-rehovot",
+      "slug": "hapoel-jerusalem-fans-attacked-rehovot-testimony",
+      "title": "\"They threw a rock at my brother\": Hapoel Jerusalem fan describes attack after Rehovot defeat",
+      "statusBefore": "review",
+      "words": 336,
+      "paragraphs": 8,
+      "facts": 6,
       "verificationSources": 3,
       "blockers": [],
       "warnings": [
@@ -155,33 +155,46 @@
       ]
     },
     {
-      "id": "live-20260824-alvarez-atletico-barcelona-rift",
-      "slug": "julian-alvarez-atletico-madrid-barcelona-rift-inside-story",
-      "title": "The inside story of the Julián Álvarez–Atlético Madrid fallout",
+      "id": "live-2026-08-24-maccabi-tel-aviv-fan-violence-statement",
+      "slug": "maccabi-tel-aviv-condemns-fan-violence-hapoel-jerusalem",
+      "title": "Maccabi Tel Aviv condemn fan violence after 5-2 win over Hapoel Jerusalem",
       "statusBefore": "review",
-      "words": 636,
-      "paragraphs": 12,
-      "facts": 7,
+      "words": 370,
+      "paragraphs": 9,
+      "facts": 6,
       "verificationSources": 5,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline",
-        "media:no-action-or-competition-context-detected"
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:3"
       ]
     },
     {
-      "id": "live-20260824-tai-abed-levante-sale",
-      "slug": "levante-moves-sell-tai-abed-frozen-out-squad",
-      "title": "Levante moves to sell Tai Abed as Israeli winger is frozen out again",
+      "id": "live-20260824-dolgopyat-third-european-floor-title",
+      "slug": "dolgopyat-wins-third-european-floor-title-zagreb",
+      "title": "Dolgopyat wins third European floor title, says hearing Hatikvah 'is the greatest thing there is'",
       "statusBefore": "published",
-      "words": 329,
+      "words": 307,
       "paragraphs": 7,
       "facts": 6,
       "verificationSources": 4,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline",
-        "voice:publisher-attribution-heavy:2"
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-24-rodri-barcelona-transfer",
+      "slug": "rodri-barcelona-real-madrid-transfer-signing",
+      "title": "Rodri is everything Barcelona wanted — and exactly what Real Madrid needed",
+      "statusBefore": "published",
+      "words": 732,
+      "paragraphs": 12,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -224,7 +237,6 @@
       "verificationSources": 5,
       "blockers": [],
       "warnings": [
-        "media:no-action-or-competition-context-detected",
         "voice:publisher-attribution-heavy:3"
       ]
     },
@@ -17164,32 +17176,31 @@
   ],
   "cleanPublished": [
     {
-      "id": "live-20260824-hapoel-tel-aviv-coco-boateng-touriel-fitness",
-      "slug": "hapoel-tel-aviv-coco-fit-boateng-touriel-doubtful-atalanta",
-      "title": "Coco fit to start, Boateng and Touriel still doubtful for Hapoel's Atalanta decider",
+      "id": "live-20260824-dolgopyat-third-european-floor-title",
+      "slug": "dolgopyat-wins-third-european-floor-title-zagreb",
+      "title": "Dolgopyat wins third European floor title, says hearing Hatikvah 'is the greatest thing there is'",
       "statusBefore": "published",
-      "words": 322,
+      "words": 307,
       "paragraphs": 7,
-      "facts": 7,
-      "verificationSources": 3,
+      "facts": 6,
+      "verificationSources": 4,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
     },
     {
-      "id": "live-20260824-tai-abed-levante-sale",
-      "slug": "levante-moves-sell-tai-abed-frozen-out-squad",
-      "title": "Levante moves to sell Tai Abed as Israeli winger is frozen out again",
+      "id": "live-2026-08-24-rodri-barcelona-transfer",
+      "slug": "rodri-barcelona-real-madrid-transfer-signing",
+      "title": "Rodri is everything Barcelona wanted — and exactly what Real Madrid needed",
       "statusBefore": "published",
-      "words": 329,
-      "paragraphs": 7,
-      "facts": 6,
-      "verificationSources": 4,
+      "words": 732,
+      "paragraphs": 12,
+      "facts": 7,
+      "verificationSources": 5,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline",
-        "voice:publisher-attribution-heavy:2"
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -17253,7 +17264,6 @@
       "verificationSources": 5,
       "blockers": [],
       "warnings": [
-        "media:no-action-or-competition-context-detected",
         "voice:publisher-attribution-heavy:3"
       ]
     },

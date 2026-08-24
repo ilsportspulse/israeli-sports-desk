@@ -1,28 +1,34 @@
 {
   "selections": [
     {
-      "articleId": "live-20260824-hapoel-tel-aviv-coco-boateng-touriel-fitness",
-      "article": "Coco fit to start, Boateng and Touriel still doubtful for Hapoel's Atalanta decider",
-      "file": "File:Marcus Coco le 23 juillet 2016.jpg",
+      "articleId": "live-2026-08-24-hapoel-jerusalem-fans-attacked-rehovot",
+      "article": "\"They threw a rock at my brother\": Hapoel Jerusalem fan describes attack after Rehovot defeat",
+      "file": "File:Michal Herzog in the Hapoel Katamon’s Neighbourhoods League, March 2022 (GPOBAR2).jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "articleId": "live-2026-08-24-maccabi-tel-aviv-fan-violence-statement",
+      "article": "Maccabi Tel Aviv condemn fan violence after 5-2 win over Hapoel Jerusalem",
+      "file": "File:GiuseppeMeazzaNeazzurro.jpg",
+      "license": "CC BY 2.0"
+    },
+    {
+      "articleId": "live-20260824-dolgopyat-third-european-floor-title",
+      "article": "Dolgopyat wins third European floor title, says hearing Hatikvah 'is the greatest thing there is'",
+      "file": "File:2025 World Athletics Indoor Championships – Women's 60 metres hurdles 01.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-20260824-alvarez-atletico-barcelona-rift",
-      "article": "The inside story of the Julián Álvarez–Atlético Madrid fallout",
-      "file": "File:Estadio Wanda Metropolitano (2018).jpg",
-      "license": "CC BY-SA 4.0"
+      "articleId": "live-2026-08-24-rodri-barcelona-transfer",
+      "article": "Rodri is everything Barcelona wanted — and exactly what Real Madrid needed",
+      "file": "File:GiuseppeMeazzaNeazzurro.jpg",
+      "license": "CC BY 2.0"
     },
     {
-      "articleId": "live-20260824-tai-abed-levante-sale",
-      "article": "Levante moves to sell Tai Abed as Israeli winger is frozen out again",
-      "file": "File:Estadi Ciutat de València - nocturna.jpg",
-      "license": "CC BY-SA 4.0"
-    },
-    {
-      "articleId": "live-20260824-julian-alvarez-atletico-booed-barcelona-saga",
-      "article": "Julian Alvarez booed by Atletico Madrid fans in 2-2 draw as Barcelona transfer saga rumbles on",
-      "file": "File:Enrique.cerezo.JPG",
-      "license": "CC BY-SA 4.0"
+      "articleId": "live-20260824-barcelona-elche-5-0-raphinha-false-nine",
+      "article": "Elche 0-5 Barcelona: Raphinha shines as false No. 9 in Flick's title-defence rout",
+      "file": "File:Raphinha WC2022.jpg",
+      "license": "CC BY 4.0"
     },
     {
       "articleId": "live-20260815-liebmann-1500m-freestyle-world-record",
@@ -31,9 +37,15 @@
       "license": "CC BY-SA 4.0"
     },
     {
+      "articleId": "live-2026-08-13-adva-cohen-steeplechase-10th",
+      "article": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
+      "file": "File:20220814 European Championships Munich 2022 Ľubomír Pištej 850 3618.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
       "articleId": "live-20260802-israel-fifth-mixed-duet-technical-paris",
       "article": "Israel take fifth in mixed duet technical final at European Championships in Paris",
-      "file": "File:20220814 European Championships Munich 2022 Ľubomír Pištej 850 3618.jpg",
+      "file": "File:20220817 European Championships Munich 2022 Tania Moreno Matveeva 850 7683.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
@@ -51,13 +63,13 @@
   ],
   "failures": [
     {
-      "id": "live-20260824-maccabi-graffiti-rehovot-training-complex",
-      "title": "Maccabi Tel Aviv fans spray graffiti at Hapoel Jerusalem training complex after 5-2 comeback win in Rehovot",
+      "id": "live-2026-08-24-hapoel-tel-aviv-ultras-boycott",
+      "title": "Can Hapoel Tel Aviv make peace with its ultras?",
       "error": "image download 429 after retries"
     },
     {
-      "id": "live-20260824-barcelona-elche-5-0-raphinha-false-nine",
-      "title": "Elche 0-5 Barcelona: Raphinha shines as false No. 9 in Flick's title-defence rout",
+      "id": "live-20260824-julian-alvarez-atletico-booed-barcelona-saga",
+      "title": "Julian Alvarez booed by Atletico Madrid fans in 2-2 draw as Barcelona transfer saga rumbles on",
       "error": "image download 429 after retries"
     },
     {
@@ -173,11 +185,6 @@
     {
       "id": "live-2026-08-15-ukraine-amateur-tennis-legend-kurbanov-killed-war",
       "title": "Ukrainian amateur tennis 'legend' Slava Kurbanov killed fighting on the front",
-      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
-    },
-    {
-      "id": "live-2026-08-13-adva-cohen-steeplechase-10th",
-      "title": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {

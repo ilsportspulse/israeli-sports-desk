@@ -2574,5 +2574,61 @@
         "reason": ""
       }
     ]
+  },
+  {
+    "ts": "2026-08-24T12:03:59.864Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 2,
+    "review": 3,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "rodri-barcelona-real-madrid-transfer-signing",
+        "title": "Rodri is everything Barcelona wanted — and exactly what Real Madrid needed",
+        "confidence": 0.9,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "dolgopyat-wins-third-european-floor-title-zagreb",
+        "title": "Dolgopyat wins third European floor title, says hearing Hatikvah 'is the greatest thing there is'",
+        "confidence": 0.9,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "hapoel-tel-aviv-ultras-boycott-basketball-attendance",
+        "title": "Can Hapoel Tel Aviv make peace with its ultras?",
+        "confidence": 0.72,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Source is an opinion/analysis column (Ynet contributor content), not a straight news report; the '~half of fans' figure is sourced to the columnist's own unnamed contacts and is not an official club or ultras statement."
+      },
+      {
+        "slug": "maccabi-tel-aviv-condemns-fan-violence-hapoel-jerusalem",
+        "title": "Maccabi Tel Aviv condemn fan violence after 5-2 win over Hapoel Jerusalem",
+        "confidence": 0.85,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Exact details of the post-match violence vary slightly between outlets (Sport1 cites clubs and tear gas; ONE cites stone-throwing) — the core facts of the clashes, injuries, arrests and Maccabi's condemnation are confirmed across sources."
+      },
+      {
+        "slug": "hapoel-jerusalem-fans-attacked-rehovot-testimony",
+        "title": "\"They threw a rock at my brother\": Hapoel Jerusalem fan describes attack after Rehovot defeat",
+        "confidence": 0.82,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Victims not named in any source (referred to only by age/relation); hospital name rendered slightly differently across outlets (Beilinson vs. an alternate transliteration), though the facility appears to be the same."
+      }
+    ]
   }
 ]
