@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T18:03:26.692Z",
+  "generatedAt": "2026-08-24T19:21:03.352Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1192,
+    "publishedArticles": 1195,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 417,
-      "average": 421.7
+      "average": 422.2
     },
     "paragraphDistribution": {
       "3": 36,
@@ -25,8 +25,8 @@
       "6": 55,
       "7": 182,
       "8": 351,
-      "9": 288,
-      "10": 190,
+      "9": 290,
+      "10": 191,
       "11": 49,
       "12": 15,
       "13": 4,
@@ -4727,6 +4727,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260824-cooper-lutkenhaus-texas-olympic-hope",
+      "slug": "cooper-lutkenhaus-texas-olympic-hope",
+      "title": "Cooper Lutkenhaus: the Texas teenager carrying America's Olympic hopes",
+      "kind": "feature",
+      "words": 457,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 41,
+        "longest": 68,
+        "average": 50.8
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 52,
+        "average": 28.6
+      },
+      "lexicalDiversity": 0.571,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-24-graeme-dott-convicted",
+      "slug": "graeme-dott-snooker-world-champion-convicted-child-sex-abuse",
+      "title": "Snooker world champion Graeme Dott found guilty of child sex abuse",
+      "kind": "news",
+      "words": 343,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 17,
+        "longest": 69,
+        "average": 38.1
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 58,
+        "average": 26.4
+      },
+      "lexicalDiversity": 0.606,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "column-20260824-dolgopyat-s-gold-was-the-easy-part-getti",
+      "slug": "dolgopyat-s-gold-was-the-easy-part-getting-him-to-the-podium-is-the-re",
+      "title": "Dolgopyat's Gold Was the Easy Part. Getting Him to the Podium Is the Real Fight.",
+      "kind": "analysis",
+      "words": 1031,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 68,
+        "longest": 149,
+        "average": 103.1
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 70,
+        "average": 23.4
+      },
+      "lexicalDiversity": 0.465,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-24-vinicius-junior-canizares-criticism",
       "slug": "vinicius-junior-canizares-criticism-nobody-wanted-him",

@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-24T18:03:25Z",
-    "validUntil": "2026-08-25T06:03:25Z",
+    "checkedAt": "2026-08-24T19:21:02Z",
+    "validUntil": "2026-08-25T07:21:02Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 861,
+        "maxAgeHours": 862,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-24-harel-nahshon-ashdod-youth-signing",
+        "articleId": "live-20260824-cooper-lutkenhaus-texas-olympic-hope",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 869,
+        "maxAgeHours": 870,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-24-hadiya-hapoel-acre-exit-request",
+        "articleId": "live-2026-08-24-graeme-dott-convicted",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 879,
+        "maxAgeHours": 880,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-24-fifa-legends-enough-is-enough-infantino",
+        "articleId": "live-2026-08-24-harel-nahshon-ashdod-youth-signing",
         "maxAgeHours": 36,
         "requires": []
       }
