@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T04:27:48.866Z",
+  "generatedAt": "2026-08-24T04:53:11.464Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1726,
-    "publishedBefore": 1171,
-    "cleanPublished": 1164,
+    "totalArticles": 1728,
+    "publishedBefore": 1172,
+    "cleanPublished": 1165,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1171,
-    "reviewAfter": 555
+    "publishedAfter": 1172,
+    "reviewAfter": 556
   },
   "blockedPublished": [
     {
@@ -141,46 +141,60 @@
   ],
   "warnings": [
     {
-      "id": "live-2026-08-24-maccabi-netanya-bnei-sakhnin-preview",
-      "slug": "maccabi-netanya-bnei-sakhnin-season-opener-preview",
-      "title": "Jaber returns as Maccabi Netanya host Bnei Sakhnin in season opener",
+      "id": "live-20260824-maccabi-tel-aviv-hapoel-jerusalem-abu-farhi-keeper",
+      "slug": "maccabi-tel-aviv-5-2-hapoel-jerusalem-abu-farhi-emergency-keeper",
+      "title": "Maccabi Tel Aviv beat Hapoel Jerusalem 5-2 as makeshift keeper Abu Farhi: 'We'll see at the end of the season'",
       "statusBefore": "published",
-      "words": 264,
-      "paragraphs": 7,
-      "facts": 6,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected",
-        "voice:publisher-attribution-heavy:3"
-      ]
-    },
-    {
-      "id": "live-2026-08-24-abu-farhi-goalkeeper-transfer",
-      "slug": "maccabi-tel-aviv-abu-farhi-goalkeeper-hapoel-jerusalem-transfer",
-      "title": "Maccabi Tel Aviv beat Hapoel Jerusalem 5-2 as Abu Farhi goes in goal and shrugs off transfer talk",
-      "statusBefore": "published",
-      "words": 474,
+      "words": 505,
       "paragraphs": 10,
       "facts": 6,
-      "verificationSources": 5,
+      "verificationSources": 4,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
     },
     {
-      "id": "live-20260824-cornud-haifa-november-return",
-      "slug": "maccabi-haifa-cornud-november-training-return",
-      "title": "Maccabi Haifa grow optimistic over Cornud's November return to training",
+      "id": "live-2026-08-24-kenny-miller-maccabi-tel-aviv-reinforcements",
+      "slug": "kenny-miller-maccabi-tel-aviv-reinforcements-coming",
+      "title": "Miller vows new faces are coming as Maccabi Tel Aviv chase transfer window reinforcements",
+      "statusBefore": "published",
+      "words": 528,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260824-maccabi-haifa-kornu-november-return",
+      "slug": "maccabi-haifa-optimistic-pierre-kornu-back-in-training-november",
+      "title": "Maccabi Haifa grow optimistic Pierre Kornu will resume full training in November",
       "statusBefore": "review",
-      "words": 411,
-      "paragraphs": 9,
-      "facts": 8,
-      "verificationSources": 5,
+      "words": 346,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 3,
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-20260824-neville-rocket-wirtz",
+      "slug": "neville-wants-rocket-under-wirtz-backside-newcastle-draw",
+      "title": "Newcastle 2-2 Liverpool: Neville wants to put a rocket under Wirtz's backside",
+      "statusBefore": "published",
+      "words": 445,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
       ]
     },
     {
@@ -17032,32 +17046,46 @@
   ],
   "cleanPublished": [
     {
-      "id": "live-2026-08-24-maccabi-netanya-bnei-sakhnin-preview",
-      "slug": "maccabi-netanya-bnei-sakhnin-season-opener-preview",
-      "title": "Jaber returns as Maccabi Netanya host Bnei Sakhnin in season opener",
+      "id": "live-20260824-maccabi-tel-aviv-hapoel-jerusalem-abu-farhi-keeper",
+      "slug": "maccabi-tel-aviv-5-2-hapoel-jerusalem-abu-farhi-emergency-keeper",
+      "title": "Maccabi Tel Aviv beat Hapoel Jerusalem 5-2 as makeshift keeper Abu Farhi: 'We'll see at the end of the season'",
       "statusBefore": "published",
-      "words": 264,
-      "paragraphs": 7,
+      "words": 505,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-24-kenny-miller-maccabi-tel-aviv-reinforcements",
+      "slug": "kenny-miller-maccabi-tel-aviv-reinforcements-coming",
+      "title": "Miller vows new faces are coming as Maccabi Tel Aviv chase transfer window reinforcements",
+      "statusBefore": "published",
+      "words": 528,
+      "paragraphs": 10,
       "facts": 6,
       "verificationSources": 4,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected",
-        "voice:publisher-attribution-heavy:3"
+        "voice:publisher-attribution-heavy:2"
       ]
     },
     {
-      "id": "live-2026-08-24-abu-farhi-goalkeeper-transfer",
-      "slug": "maccabi-tel-aviv-abu-farhi-goalkeeper-hapoel-jerusalem-transfer",
-      "title": "Maccabi Tel Aviv beat Hapoel Jerusalem 5-2 as Abu Farhi goes in goal and shrugs off transfer talk",
+      "id": "live-20260824-neville-rocket-wirtz",
+      "slug": "neville-wants-rocket-under-wirtz-backside-newcastle-draw",
+      "title": "Newcastle 2-2 Liverpool: Neville wants to put a rocket under Wirtz's backside",
       "statusBefore": "published",
-      "words": 474,
+      "words": 445,
       "paragraphs": 10,
-      "facts": 6,
-      "verificationSources": 5,
+      "facts": 7,
+      "verificationSources": 3,
       "blockers": [],
       "warnings": [
-        "media:no-action-or-competition-context-detected"
+        "voice:publisher-attribution-heavy:2"
       ]
     },
     {

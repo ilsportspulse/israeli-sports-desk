@@ -1,16 +1,22 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-08-24-maccabi-netanya-bnei-sakhnin-preview",
-      "article": "Jaber returns as Maccabi Netanya host Bnei Sakhnin in season opener",
-      "file": "File:GiuseppeMeazzaNeazzurro.jpg",
-      "license": "CC BY 2.0"
-    },
-    {
-      "articleId": "live-2026-08-24-abu-farhi-goalkeeper-transfer",
-      "article": "Maccabi Tel Aviv beat Hapoel Jerusalem 5-2 as Abu Farhi goes in goal and shrugs off transfer talk",
+      "articleId": "live-20260824-maccabi-tel-aviv-hapoel-jerusalem-abu-farhi-keeper",
+      "article": "Maccabi Tel Aviv beat Hapoel Jerusalem 5-2 as makeshift keeper Abu Farhi: 'We'll see at the end of the season'",
       "file": "File:Nir Bitton in 2024.jpg",
       "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-2026-08-24-kenny-miller-maccabi-tel-aviv-reinforcements",
+      "article": "Miller vows new faces are coming as Maccabi Tel Aviv chase transfer window reinforcements",
+      "file": "File:SM Caen Tifo 15 ans du MNK.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "articleId": "live-20260824-maccabi-tel-aviv-lugano-preview",
+      "article": "Maccabi Tel Aviv search for answers before Lugano rematch in Batumi",
+      "file": "File:Mecz piłkarski Wisła Kraków - Zagłębie Sosnwoiec, 28 października 2022, Pożegnanie Stadionu Ludowego, KP.jpg",
+      "license": "CC BY 4.0"
     },
     {
       "articleId": "live-20260815-liebmann-1500m-freestyle-world-record",
@@ -45,9 +51,14 @@
   ],
   "failures": [
     {
-      "id": "live-20260824-cornud-haifa-november-return",
-      "title": "Maccabi Haifa grow optimistic over Cornud's November return to training",
+      "id": "live-20260824-maccabi-haifa-kornu-november-return",
+      "title": "Maccabi Haifa grow optimistic Pierre Kornu will resume full training in November",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-20260824-neville-rocket-wirtz",
+      "title": "Newcastle 2-2 Liverpool: Neville wants to put a rocket under Wirtz's backside",
+      "error": "image download 429 after retries"
     },
     {
       "id": "live-2026-08-24-rennes-psg-ferran-torres-debut-brace",

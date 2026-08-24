@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-24T04:27:48Z",
-    "validUntil": "2026-08-24T16:27:48Z",
+    "checkedAt": "2026-08-24T04:53:11Z",
+    "validUntil": "2026-08-24T16:53:11Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 847,
+        "maxAgeHours": 848,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-24-maccabi-netanya-bnei-sakhnin-preview",
+        "articleId": "live-20260824-maccabi-tel-aviv-hapoel-jerusalem-abu-farhi-keeper",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 855,
+        "maxAgeHours": 856,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-24-abu-farhi-goalkeeper-transfer",
+        "articleId": "live-2026-08-24-kenny-miller-maccabi-tel-aviv-reinforcements",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 865,
+        "maxAgeHours": 866,
         "requires": [
           "column"
         ]

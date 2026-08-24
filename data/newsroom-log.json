@@ -2581,5 +2581,61 @@
         "reason": ""
       }
     ]
+  },
+  {
+    "ts": "2026-08-24T04:34:04.457Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 3,
+    "review": 2,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "neville-wants-rocket-under-wirtz-backside-newcastle-draw",
+        "title": "Newcastle 2-2 Liverpool: Neville wants to put a rocket under Wirtz's backside",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "maccabi-haifa-optimistic-pierre-kornu-back-in-training-november",
+        "title": "Maccabi Haifa grow optimistic Pierre Kornu will resume full training in November",
+        "confidence": 0.78,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Kornu's return date is the club's internal estimate as reported by ONE, not a medically confirmed date; earlier reports in spring 2026 were less optimistic about the timeline."
+      },
+      {
+        "slug": "maccabi-tel-aviv-lugano-conference-league-second-leg-preview",
+        "title": "Maccabi Tel Aviv search for answers before Lugano rematch in Batumi",
+        "confidence": 0.78,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "below gate thresholds"
+      },
+      {
+        "slug": "kenny-miller-maccabi-tel-aviv-reinforcements-coming",
+        "title": "Miller vows new faces are coming as Maccabi Tel Aviv chase transfer window reinforcements",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "maccabi-tel-aviv-5-2-hapoel-jerusalem-abu-farhi-emergency-keeper",
+        "title": "Maccabi Tel Aviv beat Hapoel Jerusalem 5-2 as makeshift keeper Abu Farhi: 'We'll see at the end of the season'",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
   }
 ]

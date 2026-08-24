@@ -648,7 +648,7 @@
       }
     ],
     "confidence": 0.85,
-    "warning": "dup same-match recap (3 shared tokens)",
+    "warning": "dup same-match recap (4 shared tokens)",
     "commonsQuery": "Giacomo Raspadori Atalanta Gewiss Stadium Bergamo",
     "commonsCandidates": [
       {
@@ -172691,6 +172691,605 @@
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Andoni_Iraola_2023.jpg",
         "credit": "AFC Bournemouth, uploaded by Dudek1337 / Wikimedia Commons",
         "license": "CC BY 3.0"
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "live-20260824-maccabi-tel-aviv-hapoel-jerusalem-abu-farhi-keeper",
+    "slug": "maccabi-tel-aviv-5-2-hapoel-jerusalem-abu-farhi-emergency-keeper",
+    "title": "Maccabi Tel Aviv beat Hapoel Jerusalem 5-2 as makeshift keeper Abu Farhi: 'We'll see at the end of the season'",
+    "dek": "Sayed Abu Farhi scored, then pulled on the gloves after a late red card, in what may have been his farewell game before a reported $6 million move to Colorado Rapids.",
+    "category": "Israeli Football",
+    "desk": "israel",
+    "kind": "article",
+    "storyForm": "match-report",
+    "publishedAt": "2026-08-24T04:34:04.457Z",
+    "updatedAt": "2026-08-24T04:34:04.457Z",
+    "readMinutes": 4,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/531407.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/531407.html"
+      },
+      {
+        "label": "Walla! Sport",
+        "url": "https://sports.walla.co.il/item/3862464"
+      },
+      {
+        "label": "Haaretz",
+        "url": "https://www.haaretz.co.il/sport/israel-soccer/2026-08-23/ty-article/000001a0-2ffe-dc1a-abac-effee16a0000"
+      },
+      {
+        "label": "Walla! Sport — Colorado Rapids fee",
+        "url": "https://sports.walla.co.il/item/3859477"
+      }
+    ],
+    "body": [
+      "Sayed Abu Farhi spent Sunday afternoon doing two jobs for Maccabi Tel Aviv: scoring goals, and then, for the closing quarter-hour, stopping them. By full time he had done both well enough to help see off Hapoel Jerusalem 5-2 in the Ligat Ha'al's opening round, and to leave with a line for the ages on his way out the door.",
+      "Hapoel stunned the home crowd inside 37 seconds when Vitaliy Dmyshkan poked in an early opener at the Rehovot stadium hosting Maccabi's game. The champions barely blinked. Roy Revivo levelled in the 24th minute, and from there the game belonged to Dor Peretz.",
+      "Peretz converted a penalty just before the break, then added two more in the second half for the first hat-trick of his senior career — Maccabi's captain-in-waiting turning a nervy afternoon into a rout. Abu Farhi got in on the act himself in the 68th minute, stabbing home a fifth goal for the hosts.",
+      "Then came the twist. In the 77th minute goalkeeper Ofek Malika was shown a straight red card for a foul just outside his own box. Maccabi had already used all three substitutes, so instead of dropping to ten men in goal, head coach Kenny Miller sent his young striker back to pull on the gloves.",
+      "Abu Farhi could not keep a clean sheet in the role — Ohad Almagor beat him from a stoppage-time free-kick to make it 5-2 — but the result was long since settled, and Maccabi's unbeaten run across all competitions stretched to 11 games, according to ONE's report.",
+      "The improvisation carried extra weight. Abu Farhi, 20, is in the closing stages of a move to Colorado Rapids of MLS reported at roughly $6 million, with add-ons that could push the deal towards $7 million and a resale clause for Maccabi, according to Walla! Sport, Ynet and Sport5. The transfer is awaiting final MLS clearance, expected within days, after which Abu Farhi is due to fly to the United States to sign.",
+      "That left Sunday's win looking very much like his farewell appearance in yellow, and reporters wanted to know what it meant to finish the game as an emergency goalkeeper rather than the marksman Maccabi are about to sell for a club-record fee.",
+      "Abu Farhi, speaking to ONE after the match, framed it as a personal moment rather than a stunt. Both his father and his uncles had played in goal themselves, he said, and getting the chance — however briefly and however unplanned — meant something to him beyond the result.",
+      "Asked about rivals being installed as favourites to challenge Maccabi for the title this season, he did not bite. \"They can say whatever they want, we'll see at the end of the season,\" Abu Farhi told ONE.",
+      "He was also careful, with his move abroad all but confirmed, to insist his commitment to Maccabi Tel Aviv had not wavered — telling the outlet the club would always hold a special place for him, whatever colours he is wearing when the season finishes."
+    ],
+    "facts": [
+      "Maccabi Tel Aviv beat Hapoel Jerusalem 5-2 in Sunday's Ligat Ha'al opening-round match.",
+      "Hapoel's Vitaliy Dmyshkan scored after just 37 seconds; Dor Peretz scored a hat-trick (a penalty plus two more), the first of his senior career.",
+      "Sayed Abu Farhi scored Maccabi's fifth goal in the 68th minute, then went in goal after goalkeeper Ofek Malika was sent off in the 77th minute with no substitutes left.",
+      "Abu Farhi conceded a stoppage-time free-kick goal to Ohad Almagor while playing as emergency keeper, but Maccabi held on to win 5-2.",
+      "Abu Farhi, 20, is reportedly close to a move to Colorado Rapids (MLS) worth around $6 million plus add-ons, pending MLS approval, per Walla!, Ynet and Sport5.",
+      "Asked about rivals being tipped for the title, Abu Farhi told ONE: \"They can say whatever they want, we'll see at the end of the season.\""
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 90,
+    "homepageReason": "Confirmed Israeli league result with a standout individual storyline — a departing star playing emergency goalkeeper — plus a major reported transfer.",
+    "dedupeKey": "ligat-haal-maccabitelaviv-hapoeljerusalem-2026-08-23",
+    "aiDisclosure": "Drafted by Israel Sports Pulse's AI copy desk from ONE's report and interview, cross-checked against Walla! Sport, Haaretz, Ynet and Sport5 coverage of the same match and transfer.",
+    "nameChecks": [
+      {
+        "hebrew": "סייד אבו פרחי",
+        "english": "Sayed Abu Farhi",
+        "verificationUrl": "https://www.maccabi-tlv.co.il/en/",
+        "confidence": 0.93
+      },
+      {
+        "hebrew": "מכבי תל אביב",
+        "english": "Maccabi Tel Aviv",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Maccabi_Tel_Aviv_F.C.",
+        "confidence": 0.98
+      },
+      {
+        "hebrew": "הפועל ירושלים",
+        "english": "Hapoel Jerusalem",
+        "verificationUrl": "https://www.hjfc.co.il",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "דור פרץ",
+        "english": "Dor Peretz",
+        "verificationUrl": "https://www.haaretz.co.il/sport/israel-soccer/2026-08-23/ty-article/000001a0-2ffe-dc1a-abac-effee16a0000",
+        "confidence": 0.88
+      },
+      {
+        "hebrew": "אופק מליקה",
+        "english": "Ofek Malika",
+        "verificationUrl": "https://sports.walla.co.il/item/3862464",
+        "confidence": 0.85
+      },
+      {
+        "hebrew": "קולורדו ראפידס",
+        "english": "Colorado Rapids",
+        "verificationUrl": "https://sports.walla.co.il/item/3859477",
+        "confidence": 0.9
+      }
+    ],
+    "confidence": 0.85,
+    "warning": "",
+    "commonsQuery": "Maccabi Tel Aviv F.C. player match Bloomfield Stadium",
+    "commonsCandidates": [
+      {
+        "title": "File:Nir_Bitton_in_2024.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Nir_Bitton_in_2024.jpg",
+        "credit": "Melange / Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:Maccabi_Tel-Aviv_against_Dynamo_Kiev1.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Maccabi_Tel-Aviv_against_Dynamo_Kiev1.jpg",
+        "credit": "Visem / Wikimedia Commons",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "title": "File:Bloomfield_Stadium_Maccabi_2019_1.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Bloomfield_Stadium_Maccabi_2019_1.jpg",
+        "credit": "מחסל האגדות / Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "live-2026-08-24-kenny-miller-maccabi-tel-aviv-reinforcements",
+    "slug": "kenny-miller-maccabi-tel-aviv-reinforcements-coming",
+    "title": "Miller vows new faces are coming as Maccabi Tel Aviv chase transfer window reinforcements",
+    "dek": "The Maccabi Tel Aviv boss says fans should be patient as the club works to land a right winger and a left back before the window shuts, with the Gabi Kanichovsky pursuit still grinding on.",
+    "category": "Israeli Football",
+    "desk": "israel",
+    "kind": "news",
+    "storyForm": "article",
+    "publishedAt": "2026-08-24T04:34:04.457Z",
+    "updatedAt": "2026-08-24T04:34:04.457Z",
+    "readMinutes": 4,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/531408.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/531408.html"
+      },
+      {
+        "label": "Sport1/Maariv",
+        "url": "https://sport1.maariv.co.il/israeli-soccer/ligat-haal/article/1931410/"
+      },
+      {
+        "label": "Israel Hayom",
+        "url": "https://www.israelhayom.co.il/sport/israeli-soccer/article/21247396"
+      },
+      {
+        "label": "Haaretz",
+        "url": "https://www.haaretz.co.il/sport/israel-soccer/2026-08-23/ty-article/000001a0-2ffe-dc1a-abac-effee16a0000"
+      }
+    ],
+    "body": [
+      "Kenny Miller is asking Maccabi Tel Aviv's supporters for a little more patience, insisting the reinforcements the club so clearly needs are on their way before the transfer window shuts.",
+      "\"This is an ongoing process,\" the Scottish manager said, according to ONE. \"I understand the frustration and the questions, but a lot of work is being done behind the scenes. I have no doubt that in the coming weeks we will see new faces and new energies.\"",
+      "The comments come days after Maccabi opened the 2026/27 Ligat Ha'al campaign with a 5-2 win away to Hapoel Jerusalem, a result that flattered a squad Miller himself has described as short-handed. Hapoel's Vitali Damshkan had the visitors behind inside 37 seconds, but Dor Peretz responded with the first hat-trick of his senior career, Roy Revivo added another, and reserve goalkeeper Sayed Abu Frahi — thrown into an outfield role after a red card — even got his name on the scoresheet.",
+      "\"We've worked hard over the last six to eight weeks,\" Miller said after the match. \"Sometimes things take more time.\" He called the opening-day win \"a perfect start,\" but the underlying message was clear: this Maccabi squad is thin, and he knows it.",
+      "According to ONE, the club is targeting three incoming players before the window closes on September 16, with a right winger and a left back the priority positions. The plan is to move on Kerwijn Andrade and Ion Nicolaescu — both expected to leave on loan — to clear space, both financially and on the roster, for the new arrivals.",
+      "Andrade, the Brazilian attacking midfielder signed with fanfare before Europe could beat Maccabi to him, has fallen outside Miller's plans this season, though he has continued training with the squad while a loan exit is sorted out. Nicolaescu, Moldova's record goalscorer, has been battling injury and is also being lined up for a temporary move elsewhere.",
+      "The more complicated piece of business remains Gabi Kanichovsky. ONE reports that Maccabi has \"great optimism\" a deal with Ferencváros can move forward once the Hungarian club's own fixtures wrap up on Thursday, but the sides have been talking for well over a month without a breakthrough.",
+      "The sticking points are financial: Ferencváros are believed to be holding out for a fee in the region of €2 million, well above what Maccabi typically pays for a player who, at close to 30, is not part of a resell strategy. Kanichovsky, for his part, currently earns around €600,000 in Hungary and would take a real pay cut returning home once local tax is factored in — reportedly costing him roughly €250,000 in penalties tied to the move.",
+      "Ferencváros' stance, according to Israeli reporting, is that they want to see Maccabi and Kanichovsky agree personal terms first before they will even begin negotiating a transfer fee — a sequencing issue that has kept the saga dragging into late August.",
+      "For now, Miller's message is one of reassurance rather than certainty. Nothing is signed, sealed or announced, but after an opening weekend that papered over some obvious gaps, the manager is banking on reinforcements arriving before his squad's thin patches are exposed again."
+    ],
+    "facts": [
+      "Kenny Miller was named permanent Maccabi Tel Aviv head coach in June 2026 after leading the club to the Israeli State Cup.",
+      "Maccabi Tel Aviv opened the 2026/27 Ligat Ha'al season with a 5-2 away win over Hapoel Jerusalem, with Dor Peretz scoring the first hat-trick of his career.",
+      "Miller says he expects new signings in the coming weeks and that work is ongoing behind the scenes.",
+      "Maccabi is targeting a right winger and a left back among three planned incoming transfers before the window closes on September 16.",
+      "Kerwijn Andrade and Ion Nicolaescu are both expected to leave on loan to make room for new arrivals.",
+      "Negotiations with Ferencváros over Gabi Kanichovsky have been ongoing for over a month, complicated by transfer fee demands and a tax penalty on the player's return."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 54,
+    "homepageReason": "Manager quotes and transfer-window preview for a top Israeli club — real news value but not a confirmed signing or result, so capped at the quotes/preview tier.",
+    "dedupeKey": "maccabi-tlv-transfer-window-reinforcements-aug-2026",
+    "aiDisclosure": "Drafted by an AI copy desk assistant from ONE reporting, cross-checked against Sport1/Maariv, Israel Hayom and Haaretz.",
+    "nameChecks": [
+      {
+        "hebrew": "קני מילר",
+        "english": "Kenny Miller",
+        "verificationUrl": "https://www.maccabi-tlv.co.il/en/2026/06/kenny-miller-appointed-head-coach/",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "דור פרץ",
+        "english": "Dor Peretz",
+        "verificationUrl": "https://www.haaretz.co.il/sport/israel-soccer/2026-08-23/ty-article/000001a0-2ffe-dc1a-abac-effee16a0000",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "גבי קניחובסקי",
+        "english": "Gabi Kanichovsky",
+        "verificationUrl": "https://sport1.maariv.co.il/israeli-soccer/ligat-haal/article/1928087/",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "קרווין אנדרדה",
+        "english": "Kerwijn Andrade",
+        "verificationUrl": "https://www.israelhayom.co.il/sport/israeli-soccer/article/21040283",
+        "confidence": 0.85
+      },
+      {
+        "hebrew": "יון ניקולאסקו",
+        "english": "Ion Nicolaescu",
+        "verificationUrl": "https://www.maccabi-tlv.co.il/en/2025/06/nicolaescu-joins-maccabi/",
+        "confidence": 0.85
+      },
+      {
+        "hebrew": "סעיד אבו פרחי",
+        "english": "Sayed Abu Frahi",
+        "verificationUrl": "https://www.haaretz.co.il/sport/israel-soccer/2026-08-23/ty-article/000001a0-2ffe-dc1a-abac-effee16a0000",
+        "confidence": 0.8
+      }
+    ],
+    "confidence": 0.85,
+    "warning": "Kanichovsky-Ferencváros and departure details are still at negotiation/reported stage, not finalized — attributed as such throughout.",
+    "commonsQuery": "Kenny Miller footballer",
+    "commonsCandidates": [
+      {
+        "title": "File:Kenny Miller 2011.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Kenny_Miller_2011.jpg",
+        "credit": "Jon Candy, via Wikimedia Commons",
+        "license": "CC BY-SA 2.0"
+      },
+      {
+        "title": "File:Kenny Miller Vancouver Whitecaps.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Kenny_Miller_Vancouver_Whitecaps.jpg",
+        "credit": "Matt Boulton, via Wikimedia Commons",
+        "license": "CC BY-SA 2.0"
+      },
+      {
+        "title": "File:Bloomfield Stadium in Tel Aviv-Yafo 01.JPG",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Bloomfield_Stadium_in_Tel_Aviv-Yafo_01.JPG",
+        "credit": "Assaf Yekuel (Shefshef), via Wikimedia Commons",
+        "license": "CC BY-SA 3.0"
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "live-20260824-maccabi-tel-aviv-lugano-preview",
+    "slug": "maccabi-tel-aviv-lugano-conference-league-second-leg-preview",
+    "title": "Maccabi Tel Aviv search for answers before Lugano rematch in Batumi",
+    "dek": "A podcast post-mortem on the 5-2 win over Hapoel Jerusalem doubles as a warning ahead of Thursday's must-win Conference League second leg against Lugano.",
+    "category": "Israeli Football",
+    "desk": "israel",
+    "kind": "news",
+    "storyForm": "preview",
+    "publishedAt": "2026-08-24T04:34:04.457Z",
+    "updatedAt": "2026-08-24T04:34:04.457Z",
+    "readMinutes": 4,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/531411.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/531411.html"
+      },
+      {
+        "label": "Walla Sport",
+        "url": "https://sports.walla.co.il/item/3862037"
+      },
+      {
+        "label": "Haaretz",
+        "url": "https://www.haaretz.co.il/sport/israel-soccer/2026-08-20/ty-article/000001a0-20a7-dc38-a7f1-3fafd7f40000"
+      },
+      {
+        "label": "Blick",
+        "url": "https://www.blick.ch/sport/fussball/conference-league/uefa-conference-league-fc-lugano-maccabi-tel-aviv-fc-20-08-2026-id22195340.html"
+      },
+      {
+        "label": "isport.co.il",
+        "url": "https://isport.co.il/%D7%A7%D7%A0%D7%99-%D7%9E%D7%99%D7%9C%D7%A8-%D7%90%D7%A0%D7%97%D7%A0%D7%95-%D7%97%D7%99%D7%99%D7%91%D7%99%D7%9D-%D7%9C%D7%A6%D7%A8%D7%A3-%D7%9B%D7%9E%D7%94-%D7%A9%D7%97%D7%A7%D7%A0%D7%99%D7%9D/"
+      }
+    ],
+    "body": [
+      "Maccabi Tel Aviv's European season is hanging by a single goal, and the club's own matchday podcast spent this week picking over exactly why — using last weekend's bumpy 5-2 league win over Hapoel Jerusalem as the case study for what could go wrong on Thursday against Lugano.",
+      "The Yellows Podcast, hosted by Raz Amir, Oren Kadosh and Avi Namni, dissected the Jerusalem match in detail: an early goal conceded inside 37 seconds, familiar defensive lapses, and only then an attacking response strong enough to turn the game around. It is exactly the pattern Maccabi cannot afford to repeat in Batumi.",
+      "The stakes are immediate. Maccabi lost the Conference League playoff first leg 2-1 away to the Swiss side Lugano on August 20, with Kevin Behrens and Anto Grgic scoring for the hosts and Ido Shahar replying for Maccabi. A place in the group stage now depends on erasing that deficit in the second leg.",
+      "That return fixture will not be played in Israel. For security reasons, it is scheduled for Thursday, August 27 at the Batumi Stadium in Georgia, with Maccabi nominally the \"home\" side on a neutral pitch roughly 1,800 kilometres from Bloomfield Stadium.",
+      "Lugano arrives in Batumi as the form side of the tie, and Maccabi are already there on the back foot after a European summer that has not gone to plan — the club was eliminated from the Europa League qualifying rounds by CSKA Sofia before dropping into the Conference League playoff bracket.",
+      "Domestically, at least, there were signs of life. The 5-2 rout of Hapoel Jerusalem in the Ligat Ha'al opener was built on a hat-trick from Dor Peretz, and the hosts singled out teenage forward Sayed Abu Farhi — described on air as simply \"the wonderful kid\" — for special praise.",
+      "Not everything in that performance passed muster. The podcast dwelled on Ofek Melika's dismissal as a concern Maccabi cannot carry into a two-legged European tie, and asked pointed questions about squad management: Avishai Isaias, Dan Glazer and Itamar Noi all impressed in recent outings yet were left out of the travelling group for Switzerland, a call the hosts suggested manager Kenny Miller will need to revisit for Georgia.",
+      "Miller himself has been managing expectations off the pitch as much as selection on it. The Scottish former striker, now in charge in Tel Aviv, has told Israeli reporters this week that the club still needs to add to its squad before the transfer window shuts, asking supporters for patience while incomings are finalised.",
+      "For a club with 26 Israeli league titles and 25 State Cups in its history, a Conference League playoff exit would be an unwelcome dent in a season that has barely started. Kickoff in Batumi is set for 20:00 local time — 19:00 in Israel — with Maccabi needing at least a one-goal win to force extra time, or two clear goals to progress outright."
+    ],
+    "facts": [
+      "Maccabi Tel Aviv lost the Conference League playoff first leg 2-1 away to FC Lugano in Switzerland on August 20, 2026.",
+      "Kevin Behrens and Anto Grgic scored for Lugano; Ido Shahar scored Maccabi's goal.",
+      "The second leg is scheduled for Thursday, August 27, 2026, at Batumi Stadium in Georgia, a neutral venue used for security reasons, kicking off at 20:00 local time (19:00 Israel time).",
+      "Maccabi Tel Aviv reached the Conference League playoff round after being eliminated from Europa League qualifying by CSKA Sofia.",
+      "Maccabi opened the Israeli Premier League (Ligat Ha'al) season with a 5-2 win over Hapoel Jerusalem, with Dor Peretz scoring a hat-trick.",
+      "ONE's 'Yellows Podcast' (Raz Amir, Oren Kadosh, Avi Namni) flagged that Maccabi conceded within 37 seconds against Hapoel Jerusalem as a defensive warning sign.",
+      "Manager Kenny Miller has told Israeli media the squad still needs reinforcements before the transfer window closes."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 55,
+    "homepageReason": "Preview/analysis piece ahead of a season-defining European playoff second leg; capped as pre-match commentary rather than a result.",
+    "dedupeKey": "conf-league-playoff-maccabitelaviv-lugano-2026-leg2-preview",
+    "aiDisclosure": "Drafted by an AI copy desk from a single reported source (ONE), cross-checked against Walla, Haaretz, Sport1/Maariv, isport.co.il and Swiss outlets (Blick, SRF) for the first-leg result and fixture details.",
+    "nameChecks": [
+      {
+        "hebrew": "דור פרץ",
+        "english": "Dor Peretz",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Dor_Peretz",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "עידו שחר",
+        "english": "Ido Shahar",
+        "verificationUrl": "https://sportsrabbi.com/en/overcoming-opponents-at-this-level-ido-shahar-looks-back-at-maccabi-tel-aviss-2-1-defeat-to-lugano-in-conference-league-playoff-round-play/",
+        "confidence": 0.85
+      },
+      {
+        "hebrew": "קני מילר",
+        "english": "Kenny Miller",
+        "verificationUrl": "https://isport.co.il/%D7%A7%D7%A0%D7%99-%D7%9E%D7%99%D7%9C%D7%A8-%D7%90%D7%A0%D7%97%D7%A0%D7%95-%D7%97%D7%99%D7%99%D7%91%D7%99%D7%9D-%D7%9C%D7%A6%D7%A8%D7%A3-%D7%9B%D7%9E%D7%94-%D7%A9%D7%97%D7%A7%D7%A0%D7%99%D7%9D/",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "אופק מליקה",
+        "english": "Ofek Melika",
+        "verificationUrl": "https://www.uefa.com/uefaconferenceleague/clubs/57477--maccabi-tel-aviv/squad/",
+        "confidence": 0.8
+      },
+      {
+        "hebrew": "סייד אבו פרחי",
+        "english": "Sayed Abu Farhi",
+        "verificationUrl": "https://sports.walla.co.il/item/3854173",
+        "confidence": 0.75
+      },
+      {
+        "hebrew": "אביישי איסיאס",
+        "english": "Avishai Isaias",
+        "verificationUrl": "https://www.one.co.il/Article/531411.html",
+        "confidence": 0.6
+      },
+      {
+        "hebrew": "דן גלזר",
+        "english": "Dan Glazer",
+        "verificationUrl": "https://www.one.co.il/Article/531411.html",
+        "confidence": 0.6
+      },
+      {
+        "hebrew": "איתמר נוי",
+        "english": "Itamar Noi",
+        "verificationUrl": "https://www.one.co.il/Article/531411.html",
+        "confidence": 0.6
+      },
+      {
+        "hebrew": "פ.צ. לוגאנו",
+        "english": "FC Lugano",
+        "verificationUrl": "https://en.wikipedia.org/wiki/FC_Lugano",
+        "confidence": 0.95
+      }
+    ],
+    "confidence": 0.78,
+    "warning": "",
+    "commonsQuery": "Dor Peretz Maccabi Tel Aviv footballer / Bloomfield Stadium",
+    "commonsCandidates": [
+      {
+        "title": "File:Dor_Peretz.JPG",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Dor_Peretz.JPG",
+        "credit": "Botend",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:Bloomfield_Stadium_Maccabi_2019_1.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Bloomfield_Stadium_Maccabi_2019_1.jpg",
+        "credit": "Wikimedia Commons contributor",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:Bloomfield_Stadium,_January_2022_-_01.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Bloomfield_Stadium,_January_2022_-_01.jpg",
+        "credit": "Little Savage",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "status": "review"
+  },
+  {
+    "id": "live-20260824-maccabi-haifa-kornu-november-return",
+    "slug": "maccabi-haifa-optimistic-pierre-kornu-back-in-training-november",
+    "title": "Maccabi Haifa grow optimistic Pierre Kornu will resume full training in November",
+    "dek": "The French left back, sidelined for months after knee surgery, is now tracking toward a return to full training in November, ONE reports — and the club is spending its remaining transfer effort on a winger rather than a like-for-like replacement.",
+    "category": "Israeli Football",
+    "desk": "israel",
+    "kind": "news",
+    "storyForm": "news-report",
+    "publishedAt": "2026-08-24T04:34:04.457Z",
+    "updatedAt": "2026-08-24T04:34:04.457Z",
+    "readMinutes": 3,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/531412.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/531412.html"
+      },
+      {
+        "label": "Sport1 (Maariv) — post-surgery update",
+        "url": "https://sport1.maariv.co.il/israeli-soccer/ligat-haal/article/1804673/"
+      },
+      {
+        "label": "Sport5 — earlier return-timeline report",
+        "url": "https://www.sport5.co.il/articles.aspx?FolderID=64&docID=537231"
+      }
+    ],
+    "body": [
+      "There is a more hopeful mood around Maccabi Haifa's training ground over Pierre Kornu's recovery, with the club's internal estimate now pointing to the French left back rejoining full training in November, according to a report by ONE.",
+      "Kornu has been out for the best part of a year after a serious knee injury sustained during a Haifa training session, when scans revealed a complete tear of his anterior cruciate ligament along with meniscus damage. He subsequently underwent reconstructive surgery in France.",
+      "At the time of the operation, the working prognosis was an absence of eight to ten months, and some reports in the spring suggested his comeback could stretch deep into the new season or later. ONE's report describes Haifa as now seeing \"light at the end of the tunnel,\" with a November target sitting at the more optimistic end of that original window.",
+      "Kornu's absence has forced coach Barak Bachar to shuffle repeatedly through left-back alternatives this year, using Sean Goldberg and Wanderson Tsunami in the role before Noam Steipman was preferred more recently. Lisbet Issa'at, another option there, left for England's Bristol City, while academy product Yinon Feingesicht, who might otherwise have provided cover, is himself out through injury.",
+      "That instability is precisely why the club's approach to the transfer market has been notable: rather than chase an experienced replacement left back before the window shuts, Haifa are directing their remaining recruitment effort toward signing a winger, per ONE.",
+      "Kornu only returned to Haifa last year in what was billed at the time as a completed \"comeback,\" having previously left the club for a spell in France with Saint-Étienne. His fitness is therefore not just a squad-depth issue but a subplot the club has invested in twice over.",
+      "Even a November return to full training would mean a gradual reintegration before Kornu is fit for matches, so Haifa are not banking on having him available competitively until later in the campaign. Still, after a difficult run of updates since his injury, the shift in tone from the club marks genuine, if cautious, optimism."
+    ],
+    "facts": [
+      "Maccabi Haifa left back Pierre Kornu is now expected by the club to resume full training in November, according to ONE.",
+      "Kornu suffered a complete anterior cruciate ligament tear and meniscus damage in a training-ground injury and underwent reconstructive knee surgery.",
+      "The original recovery estimate given after surgery was eight to ten months out.",
+      "Coach Barak Bachar has used Sean Goldberg, Wanderson Tsunami and Noam Steipman at left back this year in Kornu's absence.",
+      "Left-back option Lisbet Issa'at left Maccabi Haifa for Bristol City, and academy player Yinon Feingesicht is also currently injured.",
+      "Maccabi Haifa are prioritising the signing of a winger over a replacement left back before the transfer window closes, per ONE.",
+      "Kornu rejoined Maccabi Haifa last year following a spell in France with Saint-Étienne."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 45,
+    "homepageReason": "Injury-recovery update and transfer-strategy detail for a key Maccabi Haifa defender — solid squad news but not a confirmed result or transfer.",
+    "dedupeKey": "maccabi-haifa-pierre-kornu-injury-return-2026",
+    "aiDisclosure": "Drafted by Israel Sports Pulse's AI copy desk from a single verified ONE report, cross-checked against Sport1 and Sport5 reporting on Pierre Kornu's injury and surgery timeline.",
+    "nameChecks": [
+      {
+        "hebrew": "פייר קורנו",
+        "english": "Pierre Kornu",
+        "verificationUrl": "https://www.one.co.il/Article/531412.html",
+        "confidence": 0.85
+      },
+      {
+        "hebrew": "מכבי חיפה",
+        "english": "Maccabi Haifa",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Maccabi_Haifa_F.C.",
+        "confidence": 0.97
+      },
+      {
+        "hebrew": "ברק בכר",
+        "english": "Barak Bachar",
+        "verificationUrl": "https://he.wikipedia.org/wiki/%D7%91%D7%A8%D7%A7_%D7%91%D7%9B%D7%A8",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "שון גולדברג",
+        "english": "Sean Goldberg",
+        "verificationUrl": "https://www.one.co.il/Article/531412.html",
+        "confidence": 0.7
+      },
+      {
+        "hebrew": "ינון פיינגזיכט",
+        "english": "Yinon Feingesicht",
+        "verificationUrl": "https://sport1.maariv.co.il/israeli-soccer/ligat-haal/article/1804673/",
+        "confidence": 0.7
+      }
+    ],
+    "confidence": 0.78,
+    "warning": "Kornu's return date is the club's internal estimate as reported by ONE, not a medically confirmed date; earlier reports in spring 2026 were less optimistic about the timeline.",
+    "commonsQuery": "Sammy Ofer Stadium Maccabi Haifa",
+    "commonsCandidates": [
+      {
+        "title": "File:Sammy Ofer Stadium panorama.JPG",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Sammy_Ofer_Stadium_panorama.JPG",
+        "credit": "Assaf Yekuel (Shefshef) / Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:SammyOfer25.JPG",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:SammyOfer25.JPG",
+        "credit": "Itai Zoref (Segal) / Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:Local derby Sammy Ofer stadium.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Local_derby_Sammy_Ofer_stadium.jpg",
+        "credit": "אדם מה / Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "status": "review"
+  },
+  {
+    "id": "live-20260824-neville-rocket-wirtz",
+    "slug": "neville-wants-rocket-under-wirtz-backside-newcastle-draw",
+    "title": "Newcastle 2-2 Liverpool: Neville wants to put a rocket under Wirtz's backside",
+    "dek": "Gary Neville singled out Florian Wirtz and Alexander Isak as his biggest disappointments of the Premier League's opening weekend after Liverpool's quarter-of-a-billion-pound front two misfired in a stoppage-time draw at St James' Park.",
+    "category": "World Football",
+    "desk": "international",
+    "kind": "news",
+    "storyForm": "match-reaction",
+    "publishedAt": "2026-08-24T04:34:04.457Z",
+    "updatedAt": "2026-08-24T04:34:04.457Z",
+    "readMinutes": 4,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/531414.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/531414.html"
+      },
+      {
+        "label": "Sky Sports",
+        "url": "https://www.skysports.com/football/news/11669/13576437/liverpools-alexander-isak-and-florian-wirtz-biggest-disappointments-says-gary-neville-after-pair-underwhelm-in-draw-at-newcastle"
+      },
+      {
+        "label": "Goal.com",
+        "url": "https://www.goal.com/en-gb/lists/biggest-disappointments-liverpool-attackers-alexander-isak-florian-wirtz-slammed-newcastle-draw/blt297dcddf41af226d"
+      }
+    ],
+    "body": [
+      "Gary Neville does not do gentle criticism, and Liverpool's two most expensive attackers found that out on his podcast this week after a chastening afternoon at St James' Park.",
+      "Newcastle and Liverpool shared a wild 2-2 draw to open the Premier League season on Sunday, with Anthony Elanga's early strike, a Cody Gakpo equaliser and a Joe Willock response all cancelled out by Dominik Szoboszlai's stoppage-time penalty. The result mattered less to Neville, though, than what he saw from Florian Wirtz and Alexander Isak.",
+      "\"The biggest disappointment for me [Sunday] is those two,\" Neville said of the pair on his podcast, according to Sky Sports, before turning his fire specifically on Wirtz, Liverpool's £116 million signing from Bayer Leverkusen.",
+      "\"I don't see the tenacity in Wirtz in particular. I just see a nice player moving around the pitch,\" Neville said, adding that the German drifts too far from the striker rather than combining with him in the areas that decide games. \"The game's going to be won in the final third, in and around the box.\"",
+      "ONE, reporting on the same podcast appearance, quoted Neville putting it more bluntly still: he wants to put \"a rocket\" under Wirtz to get a reaction out of him, a line that chimes with the \"too nice\" framing other British outlets picked up from the same broadcast.",
+      "Wirtz was substituted in the 63rd minute at St James' Park having struggled to impose himself on a frantic, end-to-end contest — the kind of game, Neville argued, that is precisely where a player of his price tag should be dictating terms.",
+      "Isak's afternoon carried extra weight given the venue. It was his first appearance back at St James' Park in Liverpool colours since his acrimonious, deadline-driven £125 million move from Newcastle this summer, and by most accounts he also struggled to make an impact before the final whistle.",
+      "Neville was not as scathing about the Swedish striker, according to ONE's report, calling him an outstanding, potentially lethal player and pointing to his track record of tormenting elite defences during his time on Tyneside. Sky Sports quoted a similar sentiment: \"I think Isak's an exceptional player and we've seen it.\"",
+      "The underlying message was consistent across the coverage: with Liverpool having committed north of £240 million to bring in Wirtz and Isak this summer, Neville believes the leash the club has given them so far is about to run out. \"They need to start delivering the goods,\" he said, according to ONE.",
+      "Liverpool open their title defence with one point from one game and a long list of questions about how quickly their two marquee arrivals can turn talent into end product."
+    ],
+    "facts": [
+      "Newcastle United and Liverpool drew 2-2 in the Premier League's opening weekend at St James' Park on Sunday, 23 August 2026.",
+      "Goals came from Anthony Elanga, Cody Gakpo, Joe Willock and a stoppage-time Dominik Szoboszlai penalty for Liverpool.",
+      "Gary Neville criticised Liverpool signings Florian Wirtz and Alexander Isak on his podcast after the match, calling them his 'biggest disappointment' of the weekend.",
+      "Wirtz, a £116 million signing from Bayer Leverkusen, was substituted in the 63rd minute.",
+      "It was Alexander Isak's first appearance at St James' Park since his £125 million transfer from Newcastle to Liverpool in summer 2026.",
+      "Neville said he wanted to put 'a rocket' under Wirtz over his lack of tenacity, per ONE's report of the podcast.",
+      "Neville was more supportive of Isak, calling him an exceptional and potentially lethal player."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 55,
+    "homepageReason": "High-profile Premier League reaction story involving two of the summer's biggest transfers, but it is a quotes/punditry piece rather than a confirmed result or transfer, capping it in the mid-priority band.",
+    "dedupeKey": "epl-2026-newcastle-liverpool-neville-wirtz-isak-reaction",
+    "aiDisclosure": "AI-assisted ILSP Sports Desk report. Match result and Neville's quotes are source-checked against ONE and Sky Sports' coverage of the same podcast appearance; framing and structure are editorial.",
+    "nameChecks": [
+      {
+        "hebrew": "גארי נוויל",
+        "english": "Gary Neville",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Gary_Neville",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "פלוריאן וירץ",
+        "english": "Florian Wirtz",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Florian_Wirtz",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "אלכסנדר איסאק",
+        "english": "Alexander Isak",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Alexander_Isak",
+        "confidence": 0.95
+      }
+    ],
+    "confidence": 0.85,
+    "warning": "",
+    "commonsQuery": "Florian Wirtz Gary Neville footballer photograph",
+    "commonsCandidates": [
+      {
+        "title": "File:Florian Wirtz 2024.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Florian_Wirtz_2024.jpg",
+        "credit": "Fan First Matchday, via Wikimedia Commons",
+        "license": "CC BY 3.0"
+      },
+      {
+        "title": "File:Florian Wirtz, 2022-07-31, Saisoneröffnung Bayer 04, Leverkusen (1).jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Florian_Wirtz,_2022-07-31,_Saisoner%C3%B6ffnung_Bayer_04,_Leverkusen_(1).jpg",
+        "credit": "Wikimedia Commons contributor",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:Gary Neville 2014.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Gary_Neville_2014.jpg",
+        "credit": "Wikimedia Commons contributor",
+        "license": "CC BY 2.0"
       }
     ],
     "status": "published"
