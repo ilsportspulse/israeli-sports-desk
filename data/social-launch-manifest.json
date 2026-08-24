@@ -146,21 +146,21 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-24T17:04:44Z",
-    "validUntil": "2026-08-25T05:04:44Z",
+    "checkedAt": "2026-08-24T17:32:52Z",
+    "validUntil": "2026-08-25T05:32:52Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 860,
+        "maxAgeHours": 861,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-24-fifa-legends-enough-is-enough-infantino",
+        "articleId": "live-2026-08-24-harel-nahshon-ashdod-youth-signing",
         "maxAgeHours": 48,
         "requires": []
       },
@@ -174,14 +174,14 @@
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260824-moti-daniel-avdija-national-team-future",
+        "articleId": "live-2026-08-24-hadiya-hapoel-acre-exit-request",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 878,
+        "maxAgeHours": 879,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260824-liga-leumit-pro-course-coaches-fix",
+        "articleId": "live-2026-08-24-fifa-legends-enough-is-enough-infantino",
         "maxAgeHours": 36,
         "requires": []
       }

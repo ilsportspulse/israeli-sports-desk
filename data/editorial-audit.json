@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T17:04:44.988Z",
+  "generatedAt": "2026-08-24T17:32:53.181Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1756,
-    "publishedBefore": 1189,
-    "cleanPublished": 1182,
+    "totalArticles": 1760,
+    "publishedBefore": 1192,
+    "cleanPublished": 1185,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1189,
-    "reviewAfter": 567
+    "publishedAfter": 1192,
+    "reviewAfter": 568
   },
   "blockedPublished": [
     {
@@ -17305,6 +17305,51 @@
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
+    },
+    {
+      "id": "live-2026-08-24-harel-nahshon-ashdod-youth-signing",
+      "slug": "harel-nahshon-ashdod-youth-academy-signing",
+      "title": "Dimona winger Harel Nahshon, 16, signs with Ashdod's youth academy",
+      "statusBefore": "published",
+      "words": 228,
+      "paragraphs": 6,
+      "facts": 5,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-24-ashdod-jaffa-national-league-in-progress-held",
+      "slug": "ashdod-jaffa-national-league-in-progress-held",
+      "title": "Ashdod host Jaffa in National League clash, still level at the break",
+      "statusBefore": "review",
+      "words": 74,
+      "paragraphs": 2,
+      "facts": 5,
+      "verificationSources": 1,
+      "blockers": [
+        "structure:2/3-paragraphs"
+      ],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-24-hadiya-hapoel-acre-exit-request",
+      "slug": "hadiya-asks-to-leave-hapoel-acre-coaching-job",
+      "title": "Adham Hadiya asks to leave Hapoel Acre after just six months in charge",
+      "statusBefore": "published",
+      "words": 311,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
     }
   ],
   "cleanPublished": [
@@ -33316,6 +33361,47 @@
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-24-maradona-hand-of-god-ball-auction",
+      "slug": "maradona-hand-of-god-ball-sells-2-5-million-auction",
+      "title": "Maradona's \"Hand of God\" match ball sells for £2.5m at auction",
+      "statusBefore": "published",
+      "words": 321,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-24-harel-nahshon-ashdod-youth-signing",
+      "slug": "harel-nahshon-ashdod-youth-academy-signing",
+      "title": "Dimona winger Harel Nahshon, 16, signs with Ashdod's youth academy",
+      "statusBefore": "published",
+      "words": 228,
+      "paragraphs": 6,
+      "facts": 5,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-24-hadiya-hapoel-acre-exit-request",
+      "slug": "hadiya-asks-to-leave-hapoel-acre-coaching-job",
+      "title": "Adham Hadiya asks to leave Hapoel Acre after just six months in charge",
+      "statusBefore": "published",
+      "words": 311,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
       ]
     }
   ]

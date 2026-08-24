@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T17:04:45.631Z",
+  "generatedAt": "2026-08-24T17:32:53.696Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,19 +11,19 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1189,
+    "publishedArticles": 1192,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 418,
-      "average": 422
+      "median": 417,
+      "average": 421.7
     },
     "paragraphDistribution": {
       "3": 36,
       "4": 6,
       "5": 10,
-      "6": 54,
-      "7": 180,
+      "6": 55,
+      "7": 182,
       "8": 351,
       "9": 288,
       "10": 190,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.295,
+    "dominantParagraphShare": 0.294,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 54,
+    "exactSixParagraphArticles": 55,
     "analysisBelowTarget": 12,
-    "articlesWithStyleFlags": 202
+    "articlesWithStyleFlags": 203
   },
   "flagged": [
     {
@@ -4700,6 +4700,29 @@
       "publisherAttributions": 2,
       "flags": [
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-24-harel-nahshon-ashdod-youth-signing",
+      "slug": "harel-nahshon-ashdod-youth-academy-signing",
+      "title": "Dimona winger Harel Nahshon, 16, signs with Ashdod's youth academy",
+      "kind": "news",
+      "words": 228,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 17,
+        "longest": 70,
+        "average": 38
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 51,
+        "average": 25.3
+      },
+      "lexicalDiversity": 0.671,
+      "publisherAttributions": 1,
+      "flags": [
+        "below-editorial-target:228/280"
       ]
     }
   ],
@@ -25428,6 +25451,48 @@
         "average": 36.2
       },
       "lexicalDiversity": 0.545,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-24-maradona-hand-of-god-ball-auction",
+      "slug": "maradona-hand-of-god-ball-sells-2-5-million-auction",
+      "title": "Maradona's \"Hand of God\" match ball sells for £2.5m at auction",
+      "kind": "news",
+      "words": 321,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 15,
+        "longest": 80,
+        "average": 45.9
+      },
+      "sentenceWords": {
+        "shortest": 15,
+        "longest": 80,
+        "average": 40.1
+      },
+      "lexicalDiversity": 0.604,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-24-hadiya-hapoel-acre-exit-request",
+      "slug": "hadiya-asks-to-leave-hapoel-acre-coaching-job",
+      "title": "Adham Hadiya asks to leave Hapoel Acre after just six months in charge",
+      "kind": "news",
+      "words": 309,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 50,
+        "average": 44.1
+      },
+      "sentenceWords": {
+        "shortest": 21,
+        "longest": 92,
+        "average": 38.6
+      },
+      "lexicalDiversity": 0.615,
       "publisherAttributions": 0,
       "flags": []
     }
