@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-24T13:04:13Z",
-    "validUntil": "2026-08-25T01:04:13Z",
+    "checkedAt": "2026-08-24T14:21:13Z",
+    "validUntil": "2026-08-25T02:21:13Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 856,
+        "maxAgeHours": 857,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260824-dolgopyat-third-european-floor-title",
+        "articleId": "live-20260824-moti-daniel-avdija-national-team-future",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 864,
+        "maxAgeHours": 865,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-24-rodri-barcelona-transfer",
+        "articleId": "live-20260824-liga-leumit-pro-course-coaches-fix",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 874,
+        "maxAgeHours": 875,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260824-hapoel-tel-aviv-coco-boateng-touriel-fitness",
+        "articleId": "live-2026-08-24-eliel-peretz-beer-sheva-contract-hold",
         "maxAgeHours": 36,
         "requires": []
       }

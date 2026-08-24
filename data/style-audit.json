@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T13:04:13.968Z",
+  "generatedAt": "2026-08-24T14:21:14.979Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,7 +11,7 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1184,
+    "publishedArticles": 1187,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
@@ -24,8 +24,8 @@
       "5": 10,
       "6": 54,
       "7": 180,
-      "8": 347,
-      "9": 287,
+      "8": 349,
+      "9": 288,
       "10": 190,
       "11": 49,
       "12": 15,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.293,
+    "dominantParagraphShare": 0.294,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 54,
     "analysisBelowTarget": 12,
@@ -4681,6 +4681,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260824-moti-daniel-avdija-national-team-future",
+      "slug": "moti-daniel-deni-avdija-national-team-future",
+      "title": "Moti Daniel on Avdija's national team future: \"I really don't know\"",
+      "kind": "news",
+      "words": 464,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 85,
+        "average": 58
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 59,
+        "average": 30.9
+      },
+      "lexicalDiversity": 0.601,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260824-liga-leumit-pro-course-coaches-fix",
+      "slug": "liga-leumit-pro-course-coaches-fix",
+      "title": "Liga Leumit finds a fix for its coaches' Pro course clash with matchday",
+      "kind": "news",
+      "words": 423,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 64,
+        "average": 52.9
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 56,
+        "average": 30.2
+      },
+      "lexicalDiversity": 0.556,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-24-eliel-peretz-beer-sheva-contract-hold",
+      "slug": "eliel-peretz-beer-sheva-contract-hold",
+      "title": "Hapoel Beer Sheva won't release Eliel Peretz while Champions League tie is live, agent says",
+      "kind": "news",
+      "words": 372,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 28,
+        "longest": 54,
+        "average": 41.3
+      },
+      "sentenceWords": {
+        "shortest": 3,
+        "longest": 48,
+        "average": 31
+      },
+      "lexicalDiversity": 0.597,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-20260824-hapoel-tel-aviv-coco-boateng-touriel-fitness",
       "slug": "hapoel-tel-aviv-coco-fit-boateng-touriel-doubtful-atalanta",

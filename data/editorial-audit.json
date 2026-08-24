@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T13:04:13.600Z",
+  "generatedAt": "2026-08-24T14:21:14.314Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,12 +17,12 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1749,
-    "publishedBefore": 1184,
-    "cleanPublished": 1177,
+    "totalArticles": 1752,
+    "publishedBefore": 1187,
+    "cleanPublished": 1180,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1184,
+    "publishedAfter": 1187,
     "reviewAfter": 565
   },
   "blockedPublished": [
@@ -140,6 +140,34 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-20260824-moti-daniel-avdija-national-team-future",
+      "slug": "moti-daniel-deni-avdija-national-team-future",
+      "title": "Moti Daniel on Avdija's national team future: \"I really don't know\"",
+      "statusBefore": "published",
+      "words": 466,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-24-eliel-peretz-beer-sheva-contract-hold",
+      "slug": "eliel-peretz-beer-sheva-contract-hold",
+      "title": "Hapoel Beer Sheva won't release Eliel Peretz while Champions League tie is live, agent says",
+      "statusBefore": "published",
+      "words": 372,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260824-hapoel-tel-aviv-coco-boateng-touriel-fitness",
       "slug": "hapoel-tel-aviv-coco-fit-boateng-touriel-doubtful-atalanta",
@@ -17191,6 +17219,20 @@
       ]
     },
     {
+      "id": "live-2026-08-24-hapoel-tel-aviv-ultras-boycott",
+      "slug": "hapoel-tel-aviv-ultras-boycott-basketball-attendance",
+      "title": "Can Hapoel Tel Aviv make peace with its ultras?",
+      "statusBefore": "review",
+      "words": 519,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-20260824-dolgopyat-third-european-floor-title",
       "slug": "dolgopyat-wins-third-european-floor-title-zagreb",
       "title": "Dolgopyat wins third European floor title, says hearing Hatikvah 'is the greatest thing there is'",
@@ -17220,6 +17262,46 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-20260824-moti-daniel-avdija-national-team-future",
+      "slug": "moti-daniel-deni-avdija-national-team-future",
+      "title": "Moti Daniel on Avdija's national team future: \"I really don't know\"",
+      "statusBefore": "published",
+      "words": 466,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260824-liga-leumit-pro-course-coaches-fix",
+      "slug": "liga-leumit-pro-course-coaches-fix",
+      "title": "Liga Leumit finds a fix for its coaches' Pro course clash with matchday",
+      "statusBefore": "published",
+      "words": 425,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-24-eliel-peretz-beer-sheva-contract-hold",
+      "slug": "eliel-peretz-beer-sheva-contract-hold",
+      "title": "Hapoel Beer Sheva won't release Eliel Peretz while Champions League tie is live, agent says",
+      "statusBefore": "published",
+      "words": 372,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260824-hapoel-tel-aviv-coco-boateng-touriel-fitness",
       "slug": "hapoel-tel-aviv-coco-fit-boateng-touriel-doubtful-atalanta",
