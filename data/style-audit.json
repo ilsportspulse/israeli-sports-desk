@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T16:32:03.955Z",
+  "generatedAt": "2026-08-24T17:03:33.237Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1189,
+    "publishedArticles": 1190,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 418,
-      "average": 422
+      "median": 417,
+      "average": 421.6
     },
     "paragraphDistribution": {
       "3": 36,
       "4": 6,
       "5": 10,
-      "6": 54,
-      "7": 180,
-      "8": 351,
+      "6": 55,
+      "7": 182,
+      "8": 349,
       "9": 288,
       "10": 190,
       "11": 49,
@@ -35,9 +35,9 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.295,
+    "dominantParagraphShare": 0.293,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 54,
+    "exactSixParagraphArticles": 55,
     "analysisBelowTarget": 12,
     "articlesWithStyleFlags": 202
   },
@@ -379,26 +379,26 @@
       ]
     },
     {
-      "id": "live-2026-08-24-fifa-legends-enough-is-enough-infantino",
-      "slug": "fifa-legends-enough-is-enough-infantino-reform",
-      "title": "Football legends turn on Infantino: \"enough is enough\"",
+      "id": "live-2026-08-24-harel-nahshon-ashdod-youth-signing",
+      "slug": "harel-nahshon-ashdod-youth-academy-signing",
+      "title": "Dimona winger Harel Nahshon, 16, signs with Ashdod's youth academy",
       "kind": "news",
-      "words": 426,
-      "paragraphs": 8,
+      "words": 228,
+      "paragraphs": 6,
       "paragraphWords": {
-        "shortest": 33,
-        "longest": 86,
-        "average": 53.3
+        "shortest": 17,
+        "longest": 70,
+        "average": 38
       },
       "sentenceWords": {
-        "shortest": 3,
-        "longest": 122,
-        "average": 53.3
+        "shortest": 7,
+        "longest": 51,
+        "average": 25.3
       },
-      "lexicalDiversity": 0.634,
-      "publisherAttributions": 0,
+      "lexicalDiversity": 0.671,
+      "publisherAttributions": 1,
       "flags": [
-        "stock-phrase:remains-to-be-seen"
+        "below-editorial-target:228/280"
       ]
     },
     {
@@ -4705,23 +4705,44 @@
   ],
   "clean": [
     {
-      "id": "live-2026-08-24-vinicius-junior-canizares-criticism",
-      "slug": "vinicius-junior-canizares-criticism-nobody-wanted-him",
-      "title": "'Nobody wanted him': Cañizares tears into Vinícius Júnior after Espanyol theatrics",
+      "id": "live-2026-08-24-maradona-hand-of-god-ball-auction",
+      "slug": "maradona-hand-of-god-ball-sells-2-5-million-auction",
+      "title": "Maradona's \"Hand of God\" match ball sells for £2.5m at auction",
       "kind": "news",
-      "words": 466,
-      "paragraphs": 8,
+      "words": 321,
+      "paragraphs": 7,
       "paragraphWords": {
-        "shortest": 43,
-        "longest": 85,
-        "average": 58.3
+        "shortest": 15,
+        "longest": 80,
+        "average": 45.9
       },
       "sentenceWords": {
-        "shortest": 6,
-        "longest": 85,
-        "average": 42.4
+        "shortest": 15,
+        "longest": 80,
+        "average": 40.1
       },
-      "lexicalDiversity": 0.605,
+      "lexicalDiversity": 0.604,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-24-hadiya-hapoel-acre-exit-request",
+      "slug": "hadiya-asks-to-leave-hapoel-acre-coaching-job",
+      "title": "Adham Hadiya asks to leave Hapoel Acre after just six months in charge",
+      "kind": "news",
+      "words": 309,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 50,
+        "average": 44.1
+      },
+      "sentenceWords": {
+        "shortest": 21,
+        "longest": 92,
+        "average": 38.6
+      },
+      "lexicalDiversity": 0.615,
       "publisherAttributions": 0,
       "flags": []
     },
