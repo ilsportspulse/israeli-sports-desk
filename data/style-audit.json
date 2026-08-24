@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T12:23:30.719Z",
+  "generatedAt": "2026-08-24T12:53:24.158Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,19 +11,19 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1182,
+    "publishedArticles": 1184,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 417.5,
-      "average": 422.2
+      "median": 417,
+      "average": 422
     },
     "paragraphDistribution": {
       "3": 36,
       "4": 6,
       "5": 10,
       "6": 54,
-      "7": 178,
+      "7": 180,
       "8": 347,
       "9": 287,
       "10": 190,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.294,
+    "dominantParagraphShare": 0.293,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 54,
     "analysisBelowTarget": 12,
@@ -4682,45 +4682,45 @@
   ],
   "clean": [
     {
-      "id": "live-20260824-dolgopyat-third-european-floor-title",
-      "slug": "dolgopyat-wins-third-european-floor-title-zagreb",
-      "title": "Dolgopyat wins third European floor title, says hearing Hatikvah 'is the greatest thing there is'",
-      "kind": "article",
-      "words": 310,
+      "id": "live-20260824-hapoel-tel-aviv-coco-boateng-touriel-fitness",
+      "slug": "hapoel-tel-aviv-coco-fit-boateng-touriel-doubtful-atalanta",
+      "title": "Coco fit to start, Boateng and Touriel still doubtful for Hapoel's Atalanta decider",
+      "kind": "news",
+      "words": 324,
       "paragraphs": 7,
       "paragraphWords": {
-        "shortest": 37,
-        "longest": 56,
-        "average": 44.3
+        "shortest": 26,
+        "longest": 73,
+        "average": 46.3
       },
       "sentenceWords": {
-        "shortest": 18,
-        "longest": 56,
-        "average": 38.8
+        "shortest": 7,
+        "longest": 43,
+        "average": 29.5
       },
-      "lexicalDiversity": 0.574,
-      "publisherAttributions": 0,
+      "lexicalDiversity": 0.63,
+      "publisherAttributions": 1,
       "flags": []
     },
     {
-      "id": "live-2026-08-24-rodri-barcelona-transfer",
-      "slug": "rodri-barcelona-real-madrid-transfer-signing",
-      "title": "Rodri is everything Barcelona wanted — and exactly what Real Madrid needed",
-      "kind": "article",
-      "words": 723,
-      "paragraphs": 12,
+      "id": "live-20260824-tai-abed-levante-sale",
+      "slug": "levante-moves-sell-tai-abed-frozen-out-squad",
+      "title": "Levante moves to sell Tai Abed as Israeli winger is frozen out again",
+      "kind": "transfer",
+      "words": 330,
+      "paragraphs": 7,
       "paragraphWords": {
-        "shortest": 35,
-        "longest": 90,
-        "average": 60.3
+        "shortest": 34,
+        "longest": 60,
+        "average": 47.1
       },
       "sentenceWords": {
-        "shortest": 5,
-        "longest": 116,
-        "average": 36.2
+        "shortest": 6,
+        "longest": 41,
+        "average": 27.5
       },
-      "lexicalDiversity": 0.545,
-      "publisherAttributions": 0,
+      "lexicalDiversity": 0.63,
+      "publisherAttributions": 1,
       "flags": []
     },
     {
@@ -25279,6 +25279,48 @@
         "average": 27.2
       },
       "lexicalDiversity": 0.623,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260824-dolgopyat-third-european-floor-title",
+      "slug": "dolgopyat-wins-third-european-floor-title-zagreb",
+      "title": "Dolgopyat wins third European floor title, says hearing Hatikvah 'is the greatest thing there is'",
+      "kind": "article",
+      "words": 310,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 56,
+        "average": 44.3
+      },
+      "sentenceWords": {
+        "shortest": 18,
+        "longest": 56,
+        "average": 38.8
+      },
+      "lexicalDiversity": 0.574,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-24-rodri-barcelona-transfer",
+      "slug": "rodri-barcelona-real-madrid-transfer-signing",
+      "title": "Rodri is everything Barcelona wanted — and exactly what Real Madrid needed",
+      "kind": "article",
+      "words": 723,
+      "paragraphs": 12,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 90,
+        "average": 60.3
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 116,
+        "average": 36.2
+      },
+      "lexicalDiversity": 0.545,
       "publisherAttributions": 0,
       "flags": []
     }

@@ -146,14 +146,14 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-24T12:23:29Z",
-    "validUntil": "2026-08-25T00:23:29Z",
+    "checkedAt": "2026-08-24T12:53:23Z",
+    "validUntil": "2026-08-25T00:53:23Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 855,
+        "maxAgeHours": 856,
         "requires": [
           "matchRecap"
         ]
@@ -167,7 +167,7 @@
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 863,
+        "maxAgeHours": 864,
         "requires": [
           "basketballRecap"
         ]
@@ -181,7 +181,7 @@
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 873,
+        "maxAgeHours": 874,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-24-euroleague-super-cup-abu-dhabi",
+        "articleId": "live-20260824-hapoel-tel-aviv-coco-boateng-touriel-fitness",
         "maxAgeHours": 36,
         "requires": []
       }
