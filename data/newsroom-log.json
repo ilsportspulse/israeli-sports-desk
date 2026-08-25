@@ -2566,5 +2566,55 @@
         "decision": "duplicate"
       }
     ]
+  },
+  {
+    "ts": "2026-08-25T03:47:33.165Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 2,
+    "review": 1,
+    "skipped": 2,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "atalanta-captain-ederson-hapoel-tel-aviv-conference-league-decider",
+        "title": "Atalanta captain Ederson: \"Another battle awaits us\" before Hapoel Tel Aviv decider",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "gloukh-ajax-blocks-ounahi-transfer",
+        "title": "Gloukh's presence at Ajax is blocking Ounahi's move, Dutch media report",
+        "confidence": 0.75,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "alvarez-barcelona-atletico-transfer-standoff",
+        "title": "Barcelona and Atletico dig in for a war of attrition over Julian Alvarez",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "maccabi-netanya-bnei-sakhnin-goalless-opener",
+        "title": "Maccabi Netanya 0-0 Bnei Sakhnin: dominant hosts held by inspired debutant goalkeeper",
+        "confidence": 0.82,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Goalkeeper's Latin-alphabet name spelling varies across sources (Balbarau/Belbrao) — Hebrew form confirmed, exact transliteration not fully settled."
+      },
+      {
+        "slug": "shaedon-sharpe-torn-meniscus-six-months-trail-blazers",
+        "title": "Trail Blazers guard Shaedon Sharpe out roughly six months with torn meniscus",
+        "confidence": 0.88,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
   }
 ]

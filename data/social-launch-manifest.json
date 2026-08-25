@@ -146,8 +146,8 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-25T03:42:39Z",
-    "validUntil": "2026-08-25T15:42:39Z",
+    "checkedAt": "2026-08-25T04:06:44Z",
+    "validUntil": "2026-08-25T16:06:44Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
@@ -160,21 +160,21 @@
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-25-malaga-deportivo-draw",
+        "articleId": "live-2026-08-25-shaedon-sharpe-torn-meniscus-avdija",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 878,
+        "maxAgeHours": 879,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260825-mickey-berkowitz-dementia",
+        "articleId": "live-2026-08-24-netanya-sakhnin-fan-attack-vehicles",
         "maxAgeHours": 35,
         "requires": []
       },
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260825-sharpe-meniscus-injury",
+        "articleId": "live-2026-08-24-sabah-dambrauskas-beer-sheva-since-2017",
         "maxAgeHours": 36,
         "requires": []
       }

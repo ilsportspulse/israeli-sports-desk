@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T03:42:41.050Z",
+  "generatedAt": "2026-08-25T04:06:45.167Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,35 +11,35 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1201,
+    "publishedArticles": 1200,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 417,
-      "average": 422.1
+      "average": 421.9
     },
     "paragraphDistribution": {
       "3": 36,
       "4": 6,
       "5": 10,
-      "6": 55,
+      "6": 56,
       "7": 183,
-      "8": 354,
+      "8": 353,
       "9": 291,
       "10": 191,
       "11": 49,
       "12": 15,
-      "13": 5,
+      "13": 4,
       "14": 2,
       "16": 1,
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.295,
+    "dominantParagraphShare": 0.294,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 55,
+    "exactSixParagraphArticles": 56,
     "analysisBelowTarget": 12,
-    "articlesWithStyleFlags": 204
+    "articlesWithStyleFlags": 203
   },
   "flagged": [
     {
@@ -376,29 +376,6 @@
       "flags": [
         "below-editorial-target:227/280",
         "publisher-attribution-heavy:2"
-      ]
-    },
-    {
-      "id": "live-2026-08-25-malaga-deportivo-draw",
-      "slug": "malaga-deportivo-la-coruna-aubameyang-la-liga-draw",
-      "title": "Málaga 1-1 Deportivo La Coruña: Aubameyang strikes again as promoted rivals share the spoils",
-      "kind": "article",
-      "words": 455,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 42,
-        "longest": 70,
-        "average": 56.9
-      },
-      "sentenceWords": {
-        "shortest": 16,
-        "longest": 55,
-        "average": 35
-      },
-      "lexicalDiversity": 0.598,
-      "publisherAttributions": 0,
-      "flags": [
-        "stock-phrase:statement-of-intent"
       ]
     },
     {
@@ -4751,44 +4728,44 @@
   ],
   "clean": [
     {
-      "id": "live-20260825-mickey-berkowitz-dementia",
-      "slug": "mickey-berkowitz-family-reveals-dementia-diagnosis",
-      "title": "Mickey Berkowitz's family reveals Israeli basketball legend is living with dementia",
+      "id": "live-2026-08-25-shaedon-sharpe-torn-meniscus-avdija",
+      "slug": "shaedon-sharpe-torn-meniscus-six-months-trail-blazers",
+      "title": "Trail Blazers guard Shaedon Sharpe out roughly six months with torn meniscus",
       "kind": "news",
-      "words": 570,
-      "paragraphs": 13,
+      "words": 298,
+      "paragraphs": 7,
       "paragraphWords": {
-        "shortest": 34,
-        "longest": 64,
-        "average": 43.8
+        "shortest": 38,
+        "longest": 46,
+        "average": 42.6
       },
       "sentenceWords": {
-        "shortest": 10,
-        "longest": 79,
-        "average": 35.6
+        "shortest": 7,
+        "longest": 46,
+        "average": 27.1
       },
-      "lexicalDiversity": 0.525,
+      "lexicalDiversity": 0.658,
       "publisherAttributions": 0,
       "flags": []
     },
     {
-      "id": "live-20260825-sharpe-meniscus-injury",
-      "slug": "shaedon-sharpe-meniscus-tear-six-months-trail-blazers",
-      "title": "Blazers dealt major blow as Sharpe faces six months out with torn meniscus",
+      "id": "live-2026-08-25-gloukh-ajax-blocks-ounahi-transfer",
+      "slug": "gloukh-ajax-blocks-ounahi-transfer",
+      "title": "Gloukh's presence at Ajax is blocking Ounahi's move, Dutch media report",
       "kind": "news",
-      "words": 324,
-      "paragraphs": 7,
+      "words": 309,
+      "paragraphs": 6,
       "paragraphWords": {
-        "shortest": 31,
-        "longest": 64,
-        "average": 46.3
+        "shortest": 30,
+        "longest": 66,
+        "average": 51.5
       },
       "sentenceWords": {
-        "shortest": 11,
-        "longest": 46,
-        "average": 29.5
+        "shortest": 10,
+        "longest": 48,
+        "average": 30.9
       },
-      "lexicalDiversity": 0.636,
+      "lexicalDiversity": 0.602,
       "publisherAttributions": 0,
       "flags": []
     },

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T03:42:40.378Z",
+  "generatedAt": "2026-08-25T04:06:44.725Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,12 +17,12 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1771,
-    "publishedBefore": 1201,
-    "cleanPublished": 1194,
+    "totalArticles": 1770,
+    "publishedBefore": 1200,
+    "cleanPublished": 1193,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1201,
+    "publishedAfter": 1200,
     "reviewAfter": 570
   },
   "blockedPublished": [
@@ -141,59 +141,31 @@
   ],
   "warnings": [
     {
-      "id": "live-2026-08-25-malaga-deportivo-draw",
-      "slug": "malaga-deportivo-la-coruna-aubameyang-la-liga-draw",
-      "title": "Málaga 1-1 Deportivo La Coruña: Aubameyang strikes again as promoted rivals share the spoils",
+      "id": "live-2026-08-25-shaedon-sharpe-torn-meniscus-avdija",
+      "slug": "shaedon-sharpe-torn-meniscus-six-months-trail-blazers",
+      "title": "Trail Blazers guard Shaedon Sharpe out roughly six months with torn meniscus",
       "statusBefore": "published",
-      "words": 459,
-      "paragraphs": 8,
-      "facts": 7,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "voice:stock-editorial-phrase-detected"
-      ]
-    },
-    {
-      "id": "live-20260825-mickey-berkowitz-dementia",
-      "slug": "mickey-berkowitz-family-reveals-dementia-diagnosis",
-      "title": "Mickey Berkowitz's family reveals Israeli basketball legend is living with dementia",
-      "statusBefore": "published",
-      "words": 572,
-      "paragraphs": 13,
-      "facts": 6,
-      "verificationSources": 5,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-20260825-sharpe-meniscus-injury",
-      "slug": "shaedon-sharpe-meniscus-tear-six-months-trail-blazers",
-      "title": "Blazers dealt major blow as Sharpe faces six months out with torn meniscus",
-      "statusBefore": "published",
-      "words": 321,
+      "words": 294,
       "paragraphs": 7,
-      "facts": 7,
-      "verificationSources": 4,
+      "facts": 6,
+      "verificationSources": 3,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
     },
     {
-      "id": "live-20260825-netanya-sakhnin-goalless-opener",
-      "slug": "maccabi-netanya-bnei-sakhnin-goalless-draw-season-opener",
-      "title": "Maccabi Netanya 0-0 Bnei Sakhnin: dominant hosts held on flat opening night",
+      "id": "live-2026-08-25-maccabi-netanya-bnei-sakhnin-goalless-opener",
+      "slug": "maccabi-netanya-bnei-sakhnin-goalless-opener",
+      "title": "Maccabi Netanya 0-0 Bnei Sakhnin: dominant hosts held by inspired debutant goalkeeper",
       "statusBefore": "review",
-      "words": 488,
-      "paragraphs": 9,
+      "words": 525,
+      "paragraphs": 11,
       "facts": 7,
       "verificationSources": 3,
       "blockers": [],
       "warnings": [
-        "voice:publisher-attribution-heavy:2"
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -17466,46 +17438,30 @@
   ],
   "cleanPublished": [
     {
-      "id": "live-2026-08-25-malaga-deportivo-draw",
-      "slug": "malaga-deportivo-la-coruna-aubameyang-la-liga-draw",
-      "title": "Málaga 1-1 Deportivo La Coruña: Aubameyang strikes again as promoted rivals share the spoils",
+      "id": "live-2026-08-25-shaedon-sharpe-torn-meniscus-avdija",
+      "slug": "shaedon-sharpe-torn-meniscus-six-months-trail-blazers",
+      "title": "Trail Blazers guard Shaedon Sharpe out roughly six months with torn meniscus",
       "statusBefore": "published",
-      "words": 459,
-      "paragraphs": 8,
-      "facts": 7,
-      "verificationSources": 4,
+      "words": 294,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
       "blockers": [],
       "warnings": [
-        "voice:stock-editorial-phrase-detected"
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
-      "id": "live-20260825-mickey-berkowitz-dementia",
-      "slug": "mickey-berkowitz-family-reveals-dementia-diagnosis",
-      "title": "Mickey Berkowitz's family reveals Israeli basketball legend is living with dementia",
+      "id": "live-2026-08-25-gloukh-ajax-blocks-ounahi-transfer",
+      "slug": "gloukh-ajax-blocks-ounahi-transfer",
+      "title": "Gloukh's presence at Ajax is blocking Ounahi's move, Dutch media report",
       "statusBefore": "published",
-      "words": 572,
-      "paragraphs": 13,
+      "words": 309,
+      "paragraphs": 6,
       "facts": 6,
       "verificationSources": 5,
       "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-20260825-sharpe-meniscus-injury",
-      "slug": "shaedon-sharpe-meniscus-tear-six-months-trail-blazers",
-      "title": "Blazers dealt major blow as Sharpe faces six months out with torn meniscus",
-      "statusBefore": "published",
-      "words": 321,
-      "paragraphs": 7,
-      "facts": 7,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
+      "warnings": []
     },
     {
       "id": "live-2026-08-24-netanya-sakhnin-fan-attack-vehicles",
