@@ -1,5 +1,493 @@
 [
   {
+    "id": "live-20260825-youth-league-goal-rush",
+    "slug": "maccabi-tel-aviv-11-1-kiryat-shmona-youth-league",
+    "title": "Maccabi Tel Aviv thrash Kiryat Shmona 11-1 as Maccabi Haifa rout Ramat HaSharon 7-0",
+    "dek": "Beitar Jerusalem also won on a lopsided round for Israel's Youth Premier League, with Noam Azran and Roy Gafni each scoring twice in Tel Aviv's rout.",
+    "category": "Israeli Football",
+    "desk": "israel",
+    "kind": "article",
+    "storyForm": "news",
+    "publishedAt": "2026-08-25T17:05:21.638Z",
+    "updatedAt": "2026-08-25T17:05:21.638Z",
+    "readMinutes": 3,
+    "source": {
+      "name": "Sport5",
+      "url": "https://www.sport5.co.il/articles.aspx?FolderID=2791&docID=558600"
+    },
+    "verificationSources": [
+      {
+        "label": "Sport5 report",
+        "url": "https://www.sport5.co.il/articles.aspx?FolderID=2791&docID=558600"
+      },
+      {
+        "label": "ONE: Youth Premier League table",
+        "url": "https://www.one.co.il/Soccer/League/721"
+      },
+      {
+        "label": "Ashdod Net on Noam Azran's move to Maccabi Tel Aviv",
+        "url": "https://ashdodnet.com/%D7%A1%D7%A4%D7%95%D7%A8%D7%98/%D7%94%D7%9B%D7%99%D7%A9%D7%A8%D7%95%D7%9F-%D7%94%D7%92%D7%93%D7%95%D7%9C-%D7%A2%D7%95%D7%96%D7%91-%D7%90%D7%AA-%D7%90%D7%A9%D7%93%D7%95%D7%93-%D7%A0%D7%95%D7%A2%D7%9D-%D7%A2%D7%96%D7%A8%D7%9F-%D7%97%D7%AA%D7%9D-%D7%91%D7%9E%D7%9B%D7%91%D7%99-%D7%AA-%D7%90-615473"
+      }
+    ],
+    "body": [
+      "Israel's Youth Premier League delivered one of its most lopsided rounds of the young season, with Maccabi Tel Aviv's academy side crushing Ironi Kiryat Shmona 11-1 and Maccabi Haifa's youngsters putting seven past Hapoel Ramat HaSharon without reply, Sport5 reported.",
+      "At Tel Aviv, the rout was built on a flurry of goals shared across the squad. Roy Gafni and Noam Azran each scored twice, with Roni Haouzi, Ido Yosef, Liroye Abribayie and Israel Maman also among the scorers and Eran Ginot converting from the penalty spot. Dror Asheri got Kiryat Shmona's consolation.",
+      "Azran, who joined Maccabi Tel Aviv's youth setup from Ashdod and is the son of former Israeli winger Yaniv Azran, has quickly made an impact in the yellow-and-blue shirt following his move.",
+      "Maccabi Haifa were almost as ruthless against Ramat HaSharon. Noam Goldenberg, Rafael Levi, Adam Grimberg and Dor Goldstein all found the net, Liam Lossky struck twice, and Noam Israel added a seventh in the 61st minute to complete the rout.",
+      "In the day's tighter contest, Beitar Jerusalem beat Hapoel Haifa 3-1. Roy Tubyak opened the scoring in the 24th minute before Eli Bitton doubled his and Beitar's tally with goals in the 61st and 77th minutes. Muatez Hamad replied for Hapoel Haifa.",
+      "The results extend the perfect starts enjoyed by both Maccabi Tel Aviv and Maccabi Haifa in the league's early rounds, with the two clubs' academies again setting the pace among the country's top youth sides.",
+      "The scorelines underline the gulf that can open up even at Israel's elite youth level, where academy sides from the country's biggest clubs regularly face smaller provincial outfits in the same top division."
+    ],
+    "facts": [
+      "Maccabi Tel Aviv's youth team beat Ironi Kiryat Shmona 11-1 in Israel's Youth Premier League.",
+      "Maccabi Haifa's youth team beat Hapoel Ramat HaSharon 7-0.",
+      "Beitar Jerusalem's youth team beat Hapoel Haifa 3-1, with Eli Bitton scoring twice.",
+      "Roy Gafni and Noam Azran each scored twice for Maccabi Tel Aviv.",
+      "Noam Azran joined Maccabi Tel Aviv's academy from Ashdod and is the son of former player Yaniv Azran.",
+      "Liam Lossky scored twice for Maccabi Haifa, who scored all seven of their goals in the win over Ramat HaSharon."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 55,
+    "homepageReason": "Routine but eye-catching Israeli youth-academy results with lopsided scorelines from the top clubs, of modest broad significance since it is age-group football rather than the senior game.",
+    "dedupeKey": "il-youth-premier-league-2025-26-round2-2026-08-25",
+    "aiDisclosure": "Drafted by an AI copy desk from Sport5's report, cross-checked against club and league sources.",
+    "nameChecks": [
+      {
+        "hebrew": "מכבי תל אביב",
+        "english": "Maccabi Tel Aviv",
+        "verificationUrl": "https://www.maccabi-tlv.co.il/en/",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "עירוני קרית שמונה",
+        "english": "Ironi Kiryat Shmona",
+        "verificationUrl": "https://www.maccabipedia.co.il",
+        "confidence": 0.85
+      },
+      {
+        "hebrew": "מכבי חיפה",
+        "english": "Maccabi Haifa",
+        "verificationUrl": "https://www.mhaifafc.com",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "הפועל רמת השרון",
+        "english": "Hapoel Ramat HaSharon",
+        "verificationUrl": "https://www.one.co.il/Soccer/League/721",
+        "confidence": 0.85
+      },
+      {
+        "hebrew": "בית\"ר ירושלים",
+        "english": "Beitar Jerusalem",
+        "verificationUrl": "https://www.one.co.il/Soccer/League/721",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "הפועל חיפה",
+        "english": "Hapoel Haifa",
+        "verificationUrl": "https://www.one.co.il/Soccer/League/721",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "נועם עזרן",
+        "english": "Noam Azran",
+        "verificationUrl": "https://ashdodnet.com/%D7%A1%D7%A4%D7%95%D7%A8%D7%98/%D7%94%D7%9B%D7%99%D7%A9%D7%A8%D7%95%D7%9F-%D7%94%D7%92%D7%93%D7%95%D7%9C-%D7%A2%D7%95%D7%96%D7%91-%D7%90%D7%AA-%D7%90%D7%A9%D7%93%D7%95%D7%93-%D7%A0%D7%95%D7%A2%D7%9D-%D7%A2%D7%96%D7%A8%D7%9F-%D7%97%D7%AA%D7%9D-%D7%91%D7%9E%D7%9B%D7%91%D7%99-%D7%AA-%D7%90-615473",
+        "confidence": 0.85
+      },
+      {
+        "hebrew": "רועי גפני",
+        "english": "Roy Gafni",
+        "verificationUrl": "https://www.maccabi-tlv.co.il/en/result-fixtures/jonior-teams/",
+        "confidence": 0.6
+      }
+    ],
+    "confidence": 0.75,
+    "warning": "Single-source Sport5 report for the exact scorelines; spellings of several minor youth scorers (e.g. Liroye Abribayie, Rafael Levi, Adam Grimberg) are taken directly from the source and were not independently cross-checked against club rosters.",
+    "commonsQuery": "Bloomfield Stadium Maccabi Tel Aviv Sammy Ofer Stadium Maccabi Haifa",
+    "commonsCandidates": [
+      {
+        "title": "File:Bloomfield Stadium in Tel Aviv-Yafo 08.JPG",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Bloomfield_Stadium_in_Tel_Aviv-Yafo_08.JPG",
+        "credit": "Assaf Yekuel (Shefshef), Wikimedia Commons",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "title": "File:Sammy Ofer Stadium panorama.JPG",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Sammy_Ofer_Stadium_panorama.JPG",
+        "credit": "Assaf Yekuel (Shefshef), Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "status": "review"
+  },
+  {
+    "id": "live-20260825-xavi-netherlands-podium-quote",
+    "slug": "xavi-netherlands-guardiola-slot-podium-quote",
+    "title": "Xavi jokes he's \"on the podium\" after Guardiola and Slot turned down the Netherlands job",
+    "dek": "Unveiled as the KNVB's third choice behind Pep Guardiola and Arne Slot, the new Oranje coach shrugged off the snub with a smile at his first press conference in Zeist.",
+    "category": "World Football",
+    "desk": "international",
+    "kind": "news",
+    "storyForm": "news",
+    "publishedAt": "2026-08-25T17:05:21.638Z",
+    "updatedAt": "2026-08-25T17:05:21.638Z",
+    "readMinutes": 4,
+    "source": {
+      "name": "Sport5",
+      "url": "https://www.sport5.co.il/articles.aspx?FolderID=5166&docID=558602"
+    },
+    "verificationSources": [
+      {
+        "label": "NL Times",
+        "url": "https://nltimes.nl/2026/08/25/new-national-football-coach-xavi-says-ready-play-aggressively"
+      },
+      {
+        "label": "France24",
+        "url": "https://www.france24.com/en/live-news/20260825-here-to-win-xavi-vows-to-restore-pride-to-dutch-football"
+      },
+      {
+        "label": "DutchNews.nl",
+        "url": "https://www.dutchnews.nl/2026/08/new-oranje-coach-xavi-calls-netherlands-university-of-football/"
+      },
+      {
+        "label": "NL Times (appointment)",
+        "url": "https://nltimes.nl/2026/08/12/spanish-football-star-xavi-named-new-dutch-national-teams-manager"
+      }
+    ],
+    "body": [
+      "Xavi Hernández was formally unveiled as the new head coach of the Netherlands on Tuesday, and the first thing the Spaniard wanted to talk about was not tactics but the order in which the KNVB had actually offered him the job.",
+      "Asked at his opening press conference at the federation's Zeist campus how it felt to be the Dutch federation's third choice behind Pep Guardiola and Arne Slot, Xavi didn't flinch. \"It's not a bad position, after Guardiola and after Slot,\" he said, according to reports from the presentation. \"Third position. At least we are on the podium. I don't care.\"",
+      "The remark, delivered with a grin, summed up the mood of a low-key but historic unveiling: the KNVB went shopping for a superstar name, struck out twice, and still ended up with a Champions League and treble-winning former Barcelona captain running its national team.",
+      "Guardiola, currently on a sabbatical after leaving Manchester City, was the board's first target, while Arne Slot, who left Feyenoord for Liverpool, opted to stay in club football. Erik ten Hag was also approached and passed, before the federation turned to Xavi, who had been out of work since leaving Barcelona.",
+      "The appointment, confirmed on August 12 and formally presented in Zeist this week, makes Xavi the first foreign coach of the Dutch men's team since Austria's Ernst Happel guided the Oranje to the 1978 World Cup final — a detail the KNVB has leaned into as it sells the hire to a sceptical Dutch public.",
+      "Xavi replaces Ronald Koeman, who stepped down after the Netherlands' round-of-32 exit to Morocco at this summer's World Cup. His contract runs through the 2030 World Cup, giving him a rare long runway to rebuild a squad that flattered to deceive in North America.",
+      "He will not be working alone. Patrick Kluivert is joining the technical staff as an assistant, while Ruud van Nistelrooy stays on in his existing coaching role — a blend of continuity and fresh Dutch football royalty around the new boss.",
+      "On style, Xavi promised the dominant, possession-heavy football he preached at Barcelona, floating both a 4-3-3 and a 4-2-3-1 as his starting points and describing taking charge of Oranje as like \"entering the university of football,\" a nod to the Dutch tradition he now inherits.",
+      "For all the jokes about finishing third in an unofficial casting contest, Xavi was unambiguous about what the job means to him personally, calling the appointment an honour and insisting there was no bitterness in accepting a role that two bigger names had already turned down."
+    ],
+    "facts": [
+      "Xavi Hernández was presented as the new Netherlands national team head coach at a press conference at the KNVB's Zeist campus on 25 August 2026.",
+      "The KNVB's appointment of Xavi was confirmed on 12 August 2026, with a contract running through the 2030 World Cup.",
+      "Xavi was the federation's third choice after Pep Guardiola (on sabbatical) and Arne Slot (stayed at Liverpool) both turned down the role; Erik ten Hag was also approached.",
+      "Asked about being third choice, Xavi said: \"It's not a bad position, after Guardiola and after Slot. Third position. At least we are on the podium. I don't care.\"",
+      "Xavi is the first foreign head coach of the Dutch men's national team since Austria's Ernst Happel led them to the 1978 World Cup final.",
+      "He succeeds Ronald Koeman, who left after the Netherlands were eliminated in the round of 32 by Morocco at the 2026 World Cup.",
+      "Patrick Kluivert is joining Xavi's coaching staff as an assistant, while Ruud van Nistelrooy remains part of the technical setup."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 76,
+    "homepageReason": "Major, widely-covered international managerial appointment (Xavi at the Netherlands, with Guardiola/Slot in the backstory) in the direct aftermath of the World Cup — top-tier world football news with no Israeli angle.",
+    "dedupeKey": "xavi-netherlands-unveiling-2026-08-25",
+    "aiDisclosure": "Drafted by an AI copy desk assistant from Sport5 reporting, cross-checked against NL Times, France24 and DutchNews.nl.",
+    "nameChecks": [
+      {
+        "hebrew": "קסאבי הרננדס",
+        "english": "Xavi Hernández",
+        "verificationUrl": "https://nltimes.nl/2026/08/12/spanish-football-star-xavi-named-new-dutch-national-teams-manager",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "פפ גווארדיולה",
+        "english": "Pep Guardiola",
+        "verificationUrl": "https://nltimes.nl/2026/08/12/spanish-football-star-xavi-named-new-dutch-national-teams-manager",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "ארנה סלוט",
+        "english": "Arne Slot",
+        "verificationUrl": "https://nltimes.nl/2026/08/12/spanish-football-star-xavi-named-new-dutch-national-teams-manager",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "אריק טן האג",
+        "english": "Erik ten Hag",
+        "verificationUrl": "https://nltimes.nl/2026/08/12/spanish-football-star-xavi-named-new-dutch-national-teams-manager",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "פטריק קלויברט",
+        "english": "Patrick Kluivert",
+        "verificationUrl": "https://www.flashscore.com/news/xavi-announces-netherlands-technical-staff-as-van-nistelrooy-stays-on/fZZc0BEt/",
+        "confidence": 0.88
+      },
+      {
+        "hebrew": "רוד φαν ניסטלרוי",
+        "english": "Ruud van Nistelrooy",
+        "verificationUrl": "https://www.flashscore.com/news/xavi-announces-netherlands-technical-staff-as-van-nistelrooy-stays-on/fZZc0BEt/",
+        "confidence": 0.85
+      },
+      {
+        "hebrew": "רונלד קומאן",
+        "english": "Ronald Koeman",
+        "verificationUrl": "https://nltimes.nl/2026/08/12/spanish-football-star-xavi-named-new-dutch-national-teams-manager",
+        "confidence": 0.9
+      }
+    ],
+    "confidence": 0.88,
+    "warning": "",
+    "commonsQuery": "Xavi Hernandez footballer manager photograph",
+    "commonsCandidates": [
+      {
+        "title": "File:Xavi Hernández - 001.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Xavi_Hern%C3%A1ndez_-_001.jpg",
+        "credit": "Mutari, via Wikimedia Commons",
+        "license": "Public domain"
+      },
+      {
+        "title": "File:Xavi Hernandez (31521652051).jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Xavi_Hernandez_(31521652051).jpg",
+        "credit": "Doha Stadium Plus Qatar, via Wikimedia Commons",
+        "license": "CC BY 2.0"
+      },
+      {
+        "title": "File:Xavi Hernandez (18090182763).jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Xavi_Hernandez_(18090182763).jpg",
+        "credit": "Mohan/Doha Stadium Plus Qatar, via Wikimedia Commons",
+        "license": "CC BY 2.0"
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "live-2026-08-25-euroleague-24-team-expansion-hapoel-tel-aviv",
+    "slug": "euroleague-24-team-expansion-hapoel-tel-aviv-candidate",
+    "title": "Hapoel Tel Aviv among 11 candidates as EuroLeague plots 24-team expansion",
+    "dek": "The Israeli champions have submitted a binding offer in EuroLeague's franchise licensing process, part of a plan to grow the league to 24 teams from 2027/28 — while cross-town rivals Hapoel Jerusalem have missed the cut.",
+    "category": "Israeli Basketball",
+    "desk": "israel",
+    "kind": "news",
+    "storyForm": "news",
+    "publishedAt": "2026-08-25T17:05:21.638Z",
+    "updatedAt": "2026-08-25T17:05:21.638Z",
+    "readMinutes": 4,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/531587.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/531587.html"
+      },
+      {
+        "label": "Sport5 — the 11 clubs on the way to a EuroLeague licence",
+        "url": "https://www.sport5.co.il/articles.aspx?FolderID=405&docID=558576"
+      },
+      {
+        "label": "Sport1/Maariv — Hapoel Tel Aviv interested in the new EuroLeague model",
+        "url": "https://sport1.maariv.co.il/world-basketball/euroleague/article/1800733/"
+      },
+      {
+        "label": "Eurohoops — EuroLeague expanding to 24 teams with 21 franchises",
+        "url": "https://www.eurohoops.net/en/euroleague/2001586/euroleague-expanding-to-24-teams-with-21-franchises/"
+      }
+    ],
+    "body": [
+      "Hapoel Tel Aviv have cleared the first hurdle of EuroLeague's biggest structural overhaul in years, confirmed among 11 candidates advancing toward the competition's new long-term franchise licences, ONE reported on Tuesday.",
+      "The Israeli champions are one of 11 clubs and ownership groups invited to submit binding offers for up to eight new permanent EuroLeague licences, alongside Valencia, Dubai, a Rome-based project, PAOK Thessaloniki, Napoli, Paris, Partizan Belgrade, Red Star Belgrade, Virtus Bologna and London Lions, according to Sport5.",
+      "Sport1 had already reported that Hapoel were keen to buy into the league's new ownership structure rather than rely on results alone to keep their place at Europe's top table.",
+      "The plan, which EuroLeague is pushing toward for the 2027/28 season, would turn the competition into a 24-team league: the 13 clubs that already hold permanent shareholder status, up to eight new long-term franchises, two places reserved for EuroCup finalists, and one further wildcard slot.",
+      "The numbers behind the process are striking. The 11 approved proposals represent binding offers worth close to €700 million in franchise fees alone, with total investment projected to exceed €3.2 billion over five years as EuroLeague targets a league valuation of roughly €4.3 billion by 2027, per ONE.",
+      "Not every applicant made it through. Hapoel Jerusalem, Hapoel Tel Aviv's great Israeli rival on the European stage in recent seasons, failed to advance past the initial screening, Sport5 reported, alongside Besiktas of Turkey. Three Russian clubs — Zenit, Kuban and Kazan — were also excluded, tied to Russia's continued suspension from European competition.",
+      "EuroLeague's administration is now running detailed financial and organizational due diligence on the 11 remaining proposals. A final recommendation is due to go before an ownership assembly meeting in late September 2026, when existing shareholders are expected to formally vote on the new franchise model.",
+      "For Hapoel Tel Aviv, the stakes are considerable. The club currently sits in EuroLeague only on a single-season licence earned by winning the 2024-25 EuroCup — a status that has to be renewed on merit. A long-term franchise would instead lock in guaranteed top-tier continental basketball, along with the revenue certainty and prestige that comes with permanent shareholder status, regardless of how the domestic season unfolds.",
+      "Nothing is finalized yet. The 11 shortlisted bids, Hapoel's among them, still have to survive further scrutiny before September's vote, and EuroLeague has given no public indication of how it will rank the competing offers from markets as varied as Dubai, Paris and Belgrade.",
+      "Still, simply reaching this stage marks a notable moment for Israeli basketball, with a second local club now formally in the running to secure a permanent seat at Europe's elite table alongside Maccabi Tel Aviv."
+    ],
+    "facts": [
+      "EuroLeague is planning to expand to a 24-team league under a new long-term franchise ownership model starting in the 2027/28 season.",
+      "Hapoel Tel Aviv is one of 11 candidates that advanced to the next phase of EuroLeague's franchise licensing process, submitting a binding offer.",
+      "The 11 candidates' combined binding offers are worth close to €700 million in franchise fees.",
+      "Hapoel Jerusalem did not advance past the initial screening phase of the process.",
+      "A final decision and shareholder vote on the new franchise model are expected at a EuroLeague ownership meeting in late September 2026.",
+      "Under the planned structure, 13 existing EuroLeague shareholders would be joined by up to 8 new long-term franchises, 2 EuroCup finalists and one wildcard, for a 24-team league.",
+      "Hapoel Tel Aviv currently plays in EuroLeague on a single-season licence earned by winning the 2024-25 EuroCup."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 78,
+    "homepageReason": "Significant business/structural story for Israeli basketball — a shot at permanent EuroLeague status for Hapoel Tel Aviv, with real financial stakes, though not yet a confirmed outcome.",
+    "dedupeKey": "euroleague-franchise-expansion-2026-08-hapoel-tel-aviv",
+    "aiDisclosure": "Drafted by an AI copy desk from ONE's reporting, cross-checked against Sport5, Sport1/Maariv and Eurohoops.",
+    "nameChecks": [
+      {
+        "hebrew": "הפועל תל אביב",
+        "english": "Hapoel Tel Aviv",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Hapoel_Tel_Aviv_B.C.",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "הפועל ירושלים",
+        "english": "Hapoel Jerusalem",
+        "verificationUrl": "https://www.sport5.co.il/articles.aspx?FolderID=405&docID=558576",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "ולנסיה",
+        "english": "Valencia",
+        "verificationUrl": "https://www.sport5.co.il/articles.aspx?FolderID=405&docID=558576",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "פאוק סלוניקי",
+        "english": "PAOK Thessaloniki",
+        "verificationUrl": "https://www.sport5.co.il/articles.aspx?FolderID=405&docID=558576",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "פרטיזן בלגרד",
+        "english": "Partizan Belgrade",
+        "verificationUrl": "https://www.sport5.co.il/articles.aspx?FolderID=405&docID=558576",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "הכוכב האדום",
+        "english": "Red Star Belgrade",
+        "verificationUrl": "https://www.sport5.co.il/articles.aspx?FolderID=405&docID=558576",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "וירטוס בולוניה",
+        "english": "Virtus Bologna",
+        "verificationUrl": "https://www.sport5.co.il/articles.aspx?FolderID=405&docID=558576",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "לונדון ליונס",
+        "english": "London Lions",
+        "verificationUrl": "https://www.sport5.co.il/articles.aspx?FolderID=405&docID=558576",
+        "confidence": 0.9
+      }
+    ],
+    "confidence": 0.82,
+    "warning": "Franchise selection is not yet final — the 11 shortlisted bids still face due diligence ahead of an ownership vote expected in late September 2026.",
+    "commonsQuery": "Hapoel Tel Aviv basketball",
+    "commonsCandidates": [
+      {
+        "title": "File:Hapoel Tel Aviv B.C. Basketball (481690126).jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Hapoel_Tel_Aviv_B.C._Basketball_(481690126).jpg",
+        "credit": "Ilan (Tel Aviv), via Flickr/Wikimedia Commons",
+        "license": "CC BY 2.0"
+      },
+      {
+        "title": "File:Hapoel Tel Aviv Basketball MG 0383 (389472032).jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Hapoel_Tel_Aviv_Basketball_MG_0383_(389472032).jpg",
+        "credit": "Ilan (Tel Aviv), via Flickr/Wikimedia Commons",
+        "license": "CC BY 2.0"
+      },
+      {
+        "title": "File:Yad Eliyahu Arena Tel Aviv - panoramio.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Yad_Eliyahu_Arena_Tel_Aviv_-_panoramio.jpg",
+        "credit": "Anatoli Axelrod, via Panoramio/Wikimedia Commons",
+        "license": "CC BY 3.0"
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "live-2026-08-25-east-zlatanovic-start-beer-sheva-sabah",
+    "slug": "east-zlatanovic-start-beer-sheva-sabah-champions-league",
+    "title": "East and Zlatanović to spearhead Beer Sheva's push for Champions League history in Baku",
+    "dek": "Hapoel Beer Sheva need only a draw against Sabah to reach the Champions League league phase for the first time, and ONE reports Javon East and Igor Zlatanović will again lead the attack after their first-leg heroics.",
+    "category": "Israeli Football",
+    "desk": "israel",
+    "kind": "news",
+    "storyForm": "preview",
+    "publishedAt": "2026-08-25T17:05:21.638Z",
+    "updatedAt": "2026-08-25T17:05:21.638Z",
+    "readMinutes": 3,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/531584.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/531584.html"
+      },
+      {
+        "label": "UEFA.com match page",
+        "url": "https://www.uefa.com/uefachampionsleague/match/2049212--h-beer-sheva-vs-sabah/"
+      },
+      {
+        "label": "Sports Rabbi",
+        "url": "https://sportsrabbi.com/en/goals-by-east-and-zlatanovic-leads-hapoel-beer-sheva-to-2-1-win-and-a-step-away-from-the-champions-league/"
+      }
+    ],
+    "body": [
+      "Hapoel Beer Sheva are one result away from the biggest night in the club's European history, and ONE reports that the men who got them there will be trusted to finish the job. Javon East and Igor Zlatanović, who scored in last week's first-leg win, are set to start together again up front in Tuesday's Champions League play-off return leg against Sabah in Baku, with Zahi Ahmed also named in the attacking line.",
+      "Beer Sheva carry a 2-1 aggregate lead into the second leg at the Tofiq Bahramov Republican Stadium, with kick-off at 19:45 Israel time. A win or a draw sends the southern club into the competition's league phase for the first time in its history; only a loss by a single goal would push the tie to extra time.",
+      "The first leg was won 2-1, though it was not played anywhere near Beer Sheva. Veljko Simić put Sabah ahead inside six minutes, before East levelled just before half-time and Zlatanović struck what proved the winner with eleven minutes remaining.",
+      "That match was staged at the Rapid Giulești stadium in Bucharest rather than at Turner Stadium, because Hapoel Beer Sheva — like other Israeli clubs in continental competition — have been hosting their European \"home\" fixtures abroad because of the security situation, with tickets for the Romanian leg sold only to fans travelling from Israel. Earlier in the qualifying路 run the club used a stadium in Szombathely, Hungary, for the same reason.",
+      "Sabah, the Azerbaijani champions' domestic rivals, are also making unfamiliar history of their own: ONE notes this is the club's debut Champions League campaign, and they reached this play-off round by eliminating Denmark's Aarhus 4-0 in the previous round.",
+      "For Beer Sheva, reaching the league phase for the first time would be a landmark moment in a club history that stretches back to 1949 and includes multiple Israeli championships, but never before a spot in Europe's top-tier group stage.",
+      "East, a Jamaican forward, and the Serbian Zlatanović have formed the club's most productive attacking pairing through this European run, and Tuesday's expected selection keeps that partnership intact for the biggest test yet.",
+      "Should Beer Sheva see out the tie, the reward is not just prestige: a place in the league phase brings a guaranteed group of fixtures against Europe's leading clubs and a significant financial windfall for a club that has twice fallen at this exact playoff hurdle before, in 2016 and 2017."
+    ],
+    "facts": [
+      "Hapoel Beer Sheva lead Sabah FK 2-1 on aggregate after winning the Champions League play-off first leg 2-1.",
+      "Javon East (43') and Igor Zlatanović (79') scored Beer Sheva's goals in the first leg; Veljko Simić scored for Sabah in the 6th minute.",
+      "The first leg was played at the Rapid Giulești stadium in Bucharest, Romania, because Hapoel Beer Sheva host their European 'home' fixtures abroad due to the security situation in Israel.",
+      "The second leg kicks off Tuesday, 25 August 2026, at 19:45 Israel time at the Tofiq Bahramov Republican Stadium in Baku, Azerbaijan.",
+      "ONE reports Javon East and Igor Zlatanović are set to start again up front for Beer Sheva, with Zahi Ahmed also in the attacking line.",
+      "A win or draw sends Hapoel Beer Sheva into the Champions League league phase for the first time in the club's history; a one-goal defeat would force extra time."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 55,
+    "homepageReason": "Preview of a historic Champions League play-off decider for an Israeli club, with a confirmed attacking lineup reported by ONE.",
+    "dedupeKey": "ucl-playoff-2ndleg-hapoelbeersheva-sabah-2026-08-25",
+    "aiDisclosure": "Drafted by an AI copy desk assistant from verified reporting and edited for Israel Sports Pulse.",
+    "nameChecks": [
+      {
+        "hebrew": "איסט",
+        "english": "Javon East",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Javon_East",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "זלאטנוביץ׳",
+        "english": "Igor Zlatanović",
+        "verificationUrl": "https://www.uefa.com/uefachampionsleague/match/2049212--h-beer-sheva-vs-sabah/",
+        "confidence": 0.8
+      },
+      {
+        "hebrew": "סאבח",
+        "english": "Sabah FK",
+        "verificationUrl": "https://www.uefa.com/uefachampionsleague/clubs/59340--h-beer-sheva/",
+        "confidence": 0.85
+      },
+      {
+        "hebrew": "זהי אחמד",
+        "english": "Zahi Ahmed",
+        "verificationUrl": "https://www.fotmob.com/matches/hapoel-beer-sheva-vs-sabah-fk/5weyvoma",
+        "confidence": 0.55
+      }
+    ],
+    "confidence": 0.8,
+    "warning": "",
+    "commonsQuery": "Hapoel Be'er Sheva F.C. Turner Stadium",
+    "commonsCandidates": [
+      {
+        "title": "File:Turner Stadium on February 27th 2017 Beer Sheva vs. Kfar Saba.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Turner_Stadium_on_February_27th_2017_Beer_Sheva_vs._Kfar_Saba.jpg",
+        "credit": "The devious diesel / Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:HaPoel Beer Sheva vs. Bnei Sakhnin F.C. .jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:HaPoel_Beer_Sheva_vs._Bnei_Sakhnin_F.C._.jpg",
+        "credit": "Danny-w / Wikimedia Commons",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "title": "File:קבוצת הפועל באר שבע.jpeg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:%D7%A7%D7%91%D7%95%D7%A6%D7%AA_%D7%94%D7%A4%D7%95%D7%A2%D7%9C_%D7%91%D7%90%D7%A8_%D7%A9%D7%91%D7%A2.jpeg",
+        "credit": "Arie Rappoport / Wikimedia Commons",
+        "license": "CC BY-SA 3.0"
+      }
+    ],
+    "status": "review"
+  },
+  {
     "id": "live-2026-08-25-turiel-lecce-transfer",
     "slug": "stav-turiel-lecce-transfer-fee-hapoel-tel-aviv",
     "title": "Lecce chase Stav Turiel, but Hapoel Tel Aviv want far more than €2m",

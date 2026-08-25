@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T16:23:41.456Z",
+  "generatedAt": "2026-08-25T17:26:37.841Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,7 +11,7 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1220,
+    "publishedArticles": 1222,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
@@ -25,8 +25,8 @@
       "6": 57,
       "7": 184,
       "8": 357,
-      "9": 299,
-      "10": 195,
+      "9": 300,
+      "10": 196,
       "11": 49,
       "12": 15,
       "13": 5,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.293,
+    "dominantParagraphShare": 0.292,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 57,
     "analysisBelowTarget": 12,
@@ -4820,6 +4820,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260825-xavi-netherlands-podium-quote",
+      "slug": "xavi-netherlands-guardiola-slot-podium-quote",
+      "title": "Xavi jokes he's \"on the podium\" after Guardiola and Slot turned down the Netherlands job",
+      "kind": "news",
+      "words": 425,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 40,
+        "longest": 60,
+        "average": 47.2
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 54,
+        "average": 32.7
+      },
+      "lexicalDiversity": 0.591,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-25-euroleague-24-team-expansion-hapoel-tel-aviv",
+      "slug": "euroleague-24-team-expansion-hapoel-tel-aviv-candidate",
+      "title": "Hapoel Tel Aviv among 11 candidates as EuroLeague plots 24-team expansion",
+      "kind": "news",
+      "words": 445,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 65,
+        "average": 44.5
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 47,
+        "average": 26.2
+      },
+      "lexicalDiversity": 0.593,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-08-25-turiel-lecce-transfer",
       "slug": "stav-turiel-lecce-transfer-fee-hapoel-tel-aviv",
