@@ -1,5 +1,42 @@
 [
   {
+    "ts": "2026-08-25T10:40:44.052Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 3,
+    "published": 1,
+    "review": 1,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "infantino-fifa-revolt-2027-election",
+        "title": "Infantino faces the deepest revolt of his FIFA presidency",
+        "confidence": 0.82,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Ynet's specific claim of a wide African federation revolt (e.g. a count against Infantino) could not be independently verified; other reporting shows CAF as a body has formally backed him, so that detail is attributed to Ynet's own framing rather than stated as fact."
+      },
+      {
+        "slug": "sabah-coach-dambrauskas-praises-beer-sheva-players",
+        "title": "Sabah coach says he'd happily take two Hapoel Beer Sheva players",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "roi-kehat-hapoel-beer-sheva-sabah-champions-league-odds",
+        "title": "An Israeli in Baku gives Hapoel Beer Sheva a 60% chance to see off Sabah",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-08-25T08:28:35.014Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -2532,114 +2569,6 @@
         "slug": "musiala-ruled-out-super-cup-collapses",
         "title": "Musiala left out of German Super Cup squad after second training collapse",
         "confidence": 0.88,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-21T09:09:20.697Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 0,
-    "review": 4,
-    "skipped": 1,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "hapoel-nir-ramat-hasharon-beat-maccabi-ironi-ashdod-state-cup",
-        "title": "Hapoel Nir Ramat HaSharon beat Maccabi Ironi Ashdod 2-1 after extra time with only nine fit players",
-        "confidence": 0.78,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Single-sourced to ONE for the match itself (score, quotes); exact fixture date and Hapoel's own goalscorers were not given in the source, and 'Jerusalem FC' is a working transliteration of the round-five opponent named only as מ.כ ירושלים."
-      },
-      {
-        "slug": "disasi-crystal-palace-loan-parrott-real-betis-move",
-        "title": "Disasi agrees Crystal Palace loan as Parrott completes big-money move to Real Betis",
-        "decision": "duplicate",
-        "reason": "same event as khalaili-crystal-palace-first-interview"
-      },
-      {
-        "slug": "ziv-arie-maccabi-petah-tikva-decision-easy",
-        "title": "Ziv Arie says decision to join Maccabi Petah Tikva was an easy one",
-        "confidence": 0.85,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "below gate thresholds"
-      },
-      {
-        "slug": "meir-buchbot-signs-hapoel-beit-shean",
-        "title": "Meir Buchbot signs for Hapoel Beit She'an ahead of new season",
-        "confidence": 0.78,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "No Wikimedia Commons photo of Buchbot or Hapoel Beit She'an could be verified, so no image is attached - a stock/file image should be sourced editorially before publication. Coach identification (Guy Dayan) rests on the ONE report alone; one older item referred to a different incoming coach, so this could reflect a subsequent staffing change."
-      },
-      {
-        "slug": "israel-show-jumping-team-misses-olympic-route-aachen-worlds",
-        "title": "Israel's show jumping team finishes 26th of 30, misses direct Olympic route at Aachen worlds",
-        "confidence": 0.85,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "below gate thresholds"
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-25T08:55:34.244Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 3,
-    "review": 1,
-    "skipped": 1,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "hapoel-beer-sheva-sabah-baku-champions-league-preview",
-        "title": "Baku braces for a sell-out as Hapoel Beer Sheva defend a slender lead over Sabah",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "eshel-levental-joins-hapoel-haemek-senior-training",
-        "title": "Sixteen-year-old Eshel Levental joins Hapoel Ha'Emek's senior training group",
-        "confidence": 0.78,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Club quotes are paraphrased/translated from ONE's Hebrew report, not verbatim; only one strongly-matched Wikimedia Commons image (an older file photo of the club, then named Hapoel Gilboa Galil) could be verified rather than the usual 2-4."
-      },
-      {
-        "slug": "hapoel-tel-aviv-withdraws-yahav-gurfinkel-pursuit",
-        "title": "Hapoel Tel Aviv pulls out of move for former full-back Yahav Gurfinkel",
-        "decision": "duplicate",
-        "reason": "same event as hapoel-tel-aviv-gelbard-loan-kfar-saba-gorfinkel-return"
-      },
-      {
-        "slug": "carragher-liverpool-worst-transfer-window-premier-league-history",
-        "title": "Carragher warns Liverpool's £450m spree could be the worst transfer window in Premier League history",
-        "confidence": 0.9,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "manor-solomon-west-ham-pro-palestinian-fan-backlash",
-        "title": "Pro-Palestinian West Ham fans vow to keep campaigning until Manor Solomon leaves club",
-        "confidence": 0.78,
         "gate": "pass",
         "decision": "published",
         "reason": ""

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T10:05:05.177Z",
+  "generatedAt": "2026-08-25T10:59:39.116Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1209,
+    "publishedArticles": 1210,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 418,
-      "average": 422.5
+      "average": 422.7
     },
     "paragraphDistribution": {
       "3": 36,
@@ -25,7 +25,7 @@
       "6": 56,
       "7": 183,
       "8": 354,
-      "9": 295,
+      "9": 296,
       "10": 194,
       "11": 49,
       "12": 15,
@@ -4773,6 +4773,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "archive-20260825-strasbourg-26-march-1981-the-basket-that",
+      "slug": "strasbourg-26-march-1981-the-basket-that-gave-maccabi-its-second-europ",
+      "title": "Strasbourg, 26 March 1981: The Basket That Gave Maccabi Its Second European Crown",
+      "kind": "explainer",
+      "words": 712,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 67,
+        "longest": 100,
+        "average": 79.1
+      },
+      "sentenceWords": {
+        "shortest": 14,
+        "longest": 67,
+        "average": 37.5
+      },
+      "lexicalDiversity": 0.548,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-25-hapoel-hadera-23-man-squad-nosbaum",
       "slug": "hapoel-hadera-name-23-man-squad-nosbaum-state-cup",

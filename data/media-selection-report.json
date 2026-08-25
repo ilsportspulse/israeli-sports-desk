@@ -1,33 +1,21 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-08-25-carragher-worst-transfer-window-liverpool",
-      "article": "Carragher warns Liverpool's £450m spree could be the worst transfer window in Premier League history",
-      "file": "File:Jamie Carragher.jpg",
-      "license": "CC BY 2.0"
-    },
-    {
-      "articleId": "live-20260825-eshel-levental-hapoel-haemek-senior-training",
-      "article": "Sixteen-year-old Eshel Levental joins Hapoel Ha'Emek's senior training group",
-      "file": "File:Hapoel Gilboa Galil.jpg",
-      "license": "CC BY 3.0"
-    },
-    {
-      "articleId": "live-20260825-hapoel-beer-sheva-sabah-baku-champions-league-preview",
-      "article": "Baku braces for a sell-out as Hapoel Beer Sheva defend a slender lead over Sabah",
-      "file": "File:Tofiq Bahramov Stadium Qarabağ Ağdam Internazionale.jpg",
+      "articleId": "live-20260825-kehat-beer-sheva-sabah-odds",
+      "article": "An Israeli in Baku gives Hapoel Beer Sheva a 60% chance to see off Sabah",
+      "file": "File:Tofiq Bahramov Stadium Qarabağ Internazionale, 2014.jpg",
       "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-2026-08-25-fifa-infantino-revolt",
+      "article": "Infantino faces the deepest revolt of his FIFA presidency",
+      "file": "File:Gianni Infantino (2020) (cropped).jpg",
+      "license": "CC BY 2.0"
     },
     {
       "articleId": "live-20260815-liebmann-1500m-freestyle-world-record",
       "article": "German teenager Johannes Liebmann shatters 1500m freestyle world record in 14:26.79",
       "file": "File:Swimming Pool lanes and starting blocks at AIS.jpg",
-      "license": "CC BY-SA 4.0"
-    },
-    {
-      "articleId": "live-2026-08-13-adva-cohen-steeplechase-10th",
-      "article": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
-      "file": "File:20220817 European Championships Munich 2022 Tania Moreno Matveeva 850 7683.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
@@ -47,19 +35,13 @@
       "article": "Adam Ramsay-Peaty questions it all after bitter Commonwealth bronze",
       "file": "File:Adam Peaty Olympics 100m breaststroke 2016.jpg",
       "license": "CC BY 3.0 br"
-    },
-    {
-      "articleId": "live-2026-08-25-shaedon-sharpe-torn-meniscus-avdija",
-      "article": "Trail Blazers guard Shaedon Sharpe out roughly six months with torn meniscus",
-      "file": "File:Shaedon Sharpe 2022.jpg",
-      "license": "CC BY 4.0"
     }
   ],
   "failures": [
     {
-      "id": "live-20260825-solomon-west-ham-fan-backlash",
-      "title": "Pro-Palestinian West Ham fans vow to keep campaigning until Manor Solomon leaves club",
-      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+      "id": "archive-20260825-strasbourg-26-march-1981-the-basket-that",
+      "title": "Strasbourg, 26 March 1981: The Basket That Gave Maccabi Its Second European Crown",
+      "error": "image download 429 after retries"
     },
     {
       "id": "live-2026-08-25-roy-berkovich-father-struggle",
@@ -184,6 +166,11 @@
     {
       "id": "live-2026-08-15-ukraine-amateur-tennis-legend-kurbanov-killed-war",
       "title": "Ukrainian amateur tennis 'legend' Slava Kurbanov killed fighting on the front",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-2026-08-13-adva-cohen-steeplechase-10th",
+      "title": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {
@@ -449,6 +436,11 @@
     {
       "id": "live-2026-08-24-maradona-hand-of-god-ball-auction",
       "title": "Maradona's \"Hand of God\" match ball sells for £2.5m at auction",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-20260825-solomon-west-ham-fan-backlash",
+      "title": "Pro-Palestinian West Ham fans vow to keep campaigning until Manor Solomon leaves club",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     }
   ]
