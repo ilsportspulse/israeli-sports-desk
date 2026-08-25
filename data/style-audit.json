@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T02:40:41.396Z",
+  "generatedAt": "2026-08-25T03:42:41.050Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,7 +11,7 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1198,
+    "publishedArticles": 1201,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
@@ -23,13 +23,13 @@
       "4": 6,
       "5": 10,
       "6": 55,
-      "7": 182,
-      "8": 353,
+      "7": 183,
+      "8": 354,
       "9": 291,
       "10": 191,
       "11": 49,
       "12": 15,
-      "13": 4,
+      "13": 5,
       "14": 2,
       "16": 1,
       "17": 3
@@ -39,7 +39,7 @@
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 55,
     "analysisBelowTarget": 12,
-    "articlesWithStyleFlags": 203
+    "articlesWithStyleFlags": 204
   },
   "flagged": [
     {
@@ -376,6 +376,29 @@
       "flags": [
         "below-editorial-target:227/280",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-25-malaga-deportivo-draw",
+      "slug": "malaga-deportivo-la-coruna-aubameyang-la-liga-draw",
+      "title": "Málaga 1-1 Deportivo La Coruña: Aubameyang strikes again as promoted rivals share the spoils",
+      "kind": "article",
+      "words": 455,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 42,
+        "longest": 70,
+        "average": 56.9
+      },
+      "sentenceWords": {
+        "shortest": 16,
+        "longest": 55,
+        "average": 35
+      },
+      "lexicalDiversity": 0.598,
+      "publisherAttributions": 0,
+      "flags": [
+        "stock-phrase:statement-of-intent"
       ]
     },
     {
@@ -4727,6 +4750,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260825-mickey-berkowitz-dementia",
+      "slug": "mickey-berkowitz-family-reveals-dementia-diagnosis",
+      "title": "Mickey Berkowitz's family reveals Israeli basketball legend is living with dementia",
+      "kind": "news",
+      "words": 570,
+      "paragraphs": 13,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 64,
+        "average": 43.8
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 79,
+        "average": 35.6
+      },
+      "lexicalDiversity": 0.525,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260825-sharpe-meniscus-injury",
+      "slug": "shaedon-sharpe-meniscus-tear-six-months-trail-blazers",
+      "title": "Blazers dealt major blow as Sharpe faces six months out with torn meniscus",
+      "kind": "news",
+      "words": 324,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 64,
+        "average": 46.3
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 46,
+        "average": 29.5
+      },
+      "lexicalDiversity": 0.636,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-24-netanya-sakhnin-fan-attack-vehicles",
       "slug": "bnei-sakhnin-players-cars-attacked-netanya-fans",

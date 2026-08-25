@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T02:40:40.735Z",
+  "generatedAt": "2026-08-25T03:42:40.378Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1767,
-    "publishedBefore": 1198,
-    "cleanPublished": 1191,
+    "totalArticles": 1771,
+    "publishedBefore": 1201,
+    "cleanPublished": 1194,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1198,
-    "reviewAfter": 569
+    "publishedAfter": 1201,
+    "reviewAfter": 570
   },
   "blockedPublished": [
     {
@@ -140,6 +140,62 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-2026-08-25-malaga-deportivo-draw",
+      "slug": "malaga-deportivo-la-coruna-aubameyang-la-liga-draw",
+      "title": "Málaga 1-1 Deportivo La Coruña: Aubameyang strikes again as promoted rivals share the spoils",
+      "statusBefore": "published",
+      "words": 459,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "live-20260825-mickey-berkowitz-dementia",
+      "slug": "mickey-berkowitz-family-reveals-dementia-diagnosis",
+      "title": "Mickey Berkowitz's family reveals Israeli basketball legend is living with dementia",
+      "statusBefore": "published",
+      "words": 572,
+      "paragraphs": 13,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260825-sharpe-meniscus-injury",
+      "slug": "shaedon-sharpe-meniscus-tear-six-months-trail-blazers",
+      "title": "Blazers dealt major blow as Sharpe faces six months out with torn meniscus",
+      "statusBefore": "published",
+      "words": 321,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260825-netanya-sakhnin-goalless-opener",
+      "slug": "maccabi-netanya-bnei-sakhnin-goalless-draw-season-opener",
+      "title": "Maccabi Netanya 0-0 Bnei Sakhnin: dominant hosts held on flat opening night",
+      "statusBefore": "review",
+      "words": 488,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
     {
       "id": "live-2026-08-24-netanya-fans-sakhnin-players-attack",
       "slug": "sakhnin-players-accuse-netanya-fans-of-post-match-attack",
@@ -17409,6 +17465,48 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-25-malaga-deportivo-draw",
+      "slug": "malaga-deportivo-la-coruna-aubameyang-la-liga-draw",
+      "title": "Málaga 1-1 Deportivo La Coruña: Aubameyang strikes again as promoted rivals share the spoils",
+      "statusBefore": "published",
+      "words": 459,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "live-20260825-mickey-berkowitz-dementia",
+      "slug": "mickey-berkowitz-family-reveals-dementia-diagnosis",
+      "title": "Mickey Berkowitz's family reveals Israeli basketball legend is living with dementia",
+      "statusBefore": "published",
+      "words": 572,
+      "paragraphs": 13,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260825-sharpe-meniscus-injury",
+      "slug": "shaedon-sharpe-meniscus-tear-six-months-trail-blazers",
+      "title": "Blazers dealt major blow as Sharpe faces six months out with torn meniscus",
+      "statusBefore": "published",
+      "words": 321,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-08-24-netanya-sakhnin-fan-attack-vehicles",
       "slug": "bnei-sakhnin-players-cars-attacked-netanya-fans",

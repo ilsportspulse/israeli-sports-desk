@@ -1,5 +1,58 @@
 [
   {
+    "ts": "2026-08-25T03:22:11.717Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 3,
+    "review": 1,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "barcelona-atletico-julian-alvarez-standoff-deadline-week",
+        "title": "Barcelona and Atlético dig in for a deadline-week war of attrition over Julián Álvarez",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "maccabi-netanya-bnei-sakhnin-goalless-draw-season-opener",
+        "title": "Maccabi Netanya 0-0 Bnei Sakhnin: dominant hosts held on flat opening night",
+        "confidence": 0.82,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Sakhnin's debutant goalkeeper is not named here because his name was rendered inconsistently across sources and could not be confidently verified; the owner's surname (Kastin/Casteen) also varies slightly between outlets."
+      },
+      {
+        "slug": "shaedon-sharpe-meniscus-tear-six-months-trail-blazers",
+        "title": "Blazers dealt major blow as Sharpe faces six months out with torn meniscus",
+        "confidence": 0.95,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "mickey-berkowitz-family-reveals-dementia-diagnosis",
+        "title": "Mickey Berkowitz's family reveals Israeli basketball legend is living with dementia",
+        "confidence": 0.92,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "malaga-deportivo-la-coruna-aubameyang-la-liga-draw",
+        "title": "Málaga 1-1 Deportivo La Coruña: Aubameyang strikes again as promoted rivals share the spoils",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-08-24T23:03:55.176Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -2511,46 +2564,6 @@
         "slug": "hapoel-tel-aviv-special-team-pride-atalanta-draw",
         "title": "Hapoel Tel Aviv 'proud' of a 'special team' after 0-0 draw at Atalanta",
         "decision": "duplicate"
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-20T23:33:04.248Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 3,
-    "published": 2,
-    "review": 1,
-    "skipped": 0,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "rayo-vallecano-alaves-1-1-mariano-diaz-late-equaliser",
-        "title": "Rayo Vallecano 1-1 Alavés: Mariano Díaz strikes late in Rayo's Butarque exile",
-        "confidence": 0.85,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "below gate thresholds"
-      },
-      {
-        "slug": "sarri-admits-hapoel-tel-aviv-outmuscled-atalanta",
-        "title": "Atalanta 0-0 Hapoel Tel Aviv: Sarri admits the Israelis had the physical edge",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "bergamo-police-seize-fireworks-israeli-fans-atalanta-hapoel-tel-aviv",
-        "title": "Italian police seize 45kg of fireworks from two Israeli fans before Atalanta clash",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
       }
     ]
   }
