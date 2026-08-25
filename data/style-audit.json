@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T14:27:05.285Z",
+  "generatedAt": "2026-08-25T14:48:50.092Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1215,
+    "publishedArticles": 1214,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 418,
-      "average": 422.3
+      "average": 422.4
     },
     "paragraphDistribution": {
       "3": 36,
       "4": 6,
-      "5": 11,
+      "5": 10,
       "6": 57,
-      "7": 183,
-      "8": 356,
+      "7": 185,
+      "8": 354,
       "9": 297,
       "10": 194,
       "11": 49,
@@ -35,37 +35,13 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.293,
+    "dominantParagraphShare": 0.292,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 57,
     "analysisBelowTarget": 12,
     "articlesWithStyleFlags": 207
   },
   "flagged": [
-    {
-      "id": "live-20260825-hapoel-jerusalem-reebok-kit-2026-27",
-      "slug": "hapoel-jerusalem-new-reebok-kit-2026-27",
-      "title": "Hapoel Jerusalem unveil new kit for 2026/27 season as Reebok deal begins",
-      "kind": "news",
-      "words": 231,
-      "paragraphs": 5,
-      "paragraphWords": {
-        "shortest": 30,
-        "longest": 69,
-        "average": 46.2
-      },
-      "sentenceWords": {
-        "shortest": 30,
-        "longest": 37,
-        "average": 33
-      },
-      "lexicalDiversity": 0.688,
-      "publisherAttributions": 1,
-      "flags": [
-        "below-editorial-target:231/280",
-        "sentence-rhythm-low-variation"
-      ]
-    },
     {
       "id": "live-2026-08-24-maccabi-netanya-bnei-sakhnin-preview",
       "slug": "maccabi-netanya-bnei-sakhnin-season-opener-preview",
@@ -400,6 +376,29 @@
       "flags": [
         "below-editorial-target:227/280",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260825-triathlon-haemakim-returns",
+      "slug": "triathlon-haemakim-returns-afula-gilboa-2027",
+      "title": "Off-road triathlon set to return to Israel with new Valleys race near Gilboa in 2027",
+      "kind": "news",
+      "words": 271,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 20,
+        "longest": 55,
+        "average": 38.7
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 68,
+        "average": 38.7
+      },
+      "lexicalDiversity": 0.616,
+      "publisherAttributions": 0,
+      "flags": [
+        "below-editorial-target:271/280"
       ]
     },
     {
@@ -4821,45 +4820,24 @@
   ],
   "clean": [
     {
-      "id": "live-20260825-hapoel-beersheva-sabah-zlatanovic-preview",
-      "slug": "hapoel-beer-sheva-sabah-second-leg-zlatanovic-preview",
-      "title": "Feed Zlatanović in the box, says former Sabah man ahead of Champions League decider",
+      "id": "live-20260825-hapoel-jerusalem-reebok-kit-launch",
+      "slug": "hapoel-jerusalem-reebok-kit-2026-27",
+      "title": "Hapoel Jerusalem unveil new Reebok kit for 2026/27 season",
       "kind": "news",
-      "words": 400,
-      "paragraphs": 8,
+      "words": 354,
+      "paragraphs": 7,
       "paragraphWords": {
-        "shortest": 37,
-        "longest": 62,
-        "average": 50
+        "shortest": 27,
+        "longest": 90,
+        "average": 50.6
       },
       "sentenceWords": {
-        "shortest": 7,
-        "longest": 55,
-        "average": 26.7
+        "shortest": 13,
+        "longest": 119,
+        "average": 35.4
       },
-      "lexicalDiversity": 0.57,
+      "lexicalDiversity": 0.624,
       "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260825-off-road-triathlon-returns-israel",
-      "slug": "off-road-triathlon-returns-to-israel-gilboa-afula-2027",
-      "title": "Off-road triathlon returns to Israel with new Gilboa-Afula race",
-      "kind": "news",
-      "words": 350,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 25,
-        "longest": 68,
-        "average": 43.8
-      },
-      "sentenceWords": {
-        "shortest": 7,
-        "longest": 48,
-        "average": 31.8
-      },
-      "lexicalDiversity": 0.586,
-      "publisherAttributions": 1,
       "flags": []
     },
     {

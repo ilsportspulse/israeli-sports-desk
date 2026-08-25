@@ -2565,5 +2565,52 @@
         "reason": "No correctly-identified, web-verified Wikimedia Commons photo of this specific U16 team, match or venue could be confirmed — commonsCandidates is empty and the image slot should be held rather than filled with an unrelated or wrong-subject file."
       }
     ]
+  },
+  {
+    "ts": "2026-08-25T14:29:58.368Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 2,
+    "review": 0,
+    "skipped": 3,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "hapoel-jerusalem-reebok-kit-2026-27",
+        "title": "Hapoel Jerusalem unveil new Reebok kit for 2026/27 season",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "atletico-shareholders-oppose-alvarez-barcelona-move",
+        "title": "All Atlético Madrid shareholders, Idan Ofer included, oppose Álvarez's move to Barcelona",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "bouaddi-einstein-manchester-city-transfer",
+        "title": "Manchester City complete record teenage transfer for Morocco's 'Einstein', Ayyoub Bouaddi",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "triathlon-haemakim-returns-afula-gilboa-2027",
+        "title": "Off-road triathlon set to return to Israel with new Valleys race near Gilboa in 2027",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "hapoel-beer-sheva-sabah-champions-league-playoff-second-leg-preview",
+        "title": "Ex-Sabah man Ivanović: feed Zlatanović the ball as Beer Sheva chase Champions League history in Baku",
+        "decision": "duplicate"
+      }
+    ]
   }
 ]
