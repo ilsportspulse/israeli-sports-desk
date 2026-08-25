@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T09:14:41.185Z",
+  "generatedAt": "2026-08-25T09:15:58.304Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -16,17 +16,17 @@
       "minimum": 69,
       "maximum": 1070,
       "median": 418,
-      "average": 422.3
+      "average": 422.2
     },
     "paragraphDistribution": {
       "3": 36,
       "4": 6,
       "5": 10,
       "6": 56,
-      "7": 183,
+      "7": 184,
       "8": 354,
-      "9": 295,
-      "10": 192,
+      "9": 292,
+      "10": 194,
       "11": 49,
       "12": 15,
       "13": 5,
@@ -39,7 +39,7 @@
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 56,
     "analysisBelowTarget": 12,
-    "articlesWithStyleFlags": 205
+    "articlesWithStyleFlags": 204
   },
   "flagged": [
     {
@@ -375,29 +375,6 @@
       "publisherAttributions": 2,
       "flags": [
         "below-editorial-target:227/280",
-        "publisher-attribution-heavy:2"
-      ]
-    },
-    {
-      "id": "live-20260825-solomon-west-ham-fan-backlash",
-      "slug": "manor-solomon-west-ham-pro-palestinian-fan-backlash",
-      "title": "Pro-Palestinian West Ham fans vow to keep campaigning until Manor Solomon leaves club",
-      "kind": "article",
-      "words": 517,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 38,
-        "longest": 77,
-        "average": 57.4
-      },
-      "sentenceWords": {
-        "shortest": 9,
-        "longest": 86,
-        "average": 36.9
-      },
-      "lexicalDiversity": 0.54,
-      "publisherAttributions": 2,
-      "flags": [
         "publisher-attribution-heavy:2"
       ]
     },
@@ -4774,45 +4751,45 @@
   ],
   "clean": [
     {
-      "id": "live-2026-08-25-carragher-worst-transfer-window-liverpool",
-      "slug": "carragher-liverpool-worst-transfer-window-premier-league-history",
-      "title": "Carragher warns Liverpool's £450m spree could be the worst transfer window in Premier League history",
+      "id": "live-2026-08-25-hapoel-hadera-23-man-squad-nosbaum",
+      "slug": "hapoel-hadera-name-23-man-squad-nosbaum-state-cup",
+      "title": "Hapoel Hadera name 23-man squad for first test under Amir Nosbaum",
       "kind": "news",
-      "words": 508,
-      "paragraphs": 9,
+      "words": 416,
+      "paragraphs": 10,
       "paragraphWords": {
-        "shortest": 33,
-        "longest": 82,
-        "average": 56.4
+        "shortest": 31,
+        "longest": 57,
+        "average": 41.6
       },
       "sentenceWords": {
-        "shortest": 6,
-        "longest": 92,
-        "average": 31.8
+        "shortest": 7,
+        "longest": 57,
+        "average": 32
       },
-      "lexicalDiversity": 0.596,
-      "publisherAttributions": 0,
+      "lexicalDiversity": 0.642,
+      "publisherAttributions": 1,
       "flags": []
     },
     {
-      "id": "live-20260825-hapoel-beer-sheva-sabah-baku-champions-league-preview",
-      "slug": "hapoel-beer-sheva-sabah-baku-champions-league-preview",
-      "title": "Baku braces for a sell-out as Hapoel Beer Sheva defend a slender lead over Sabah",
-      "kind": "article",
-      "words": 540,
-      "paragraphs": 9,
+      "id": "live-2026-08-25-roi-kahat-hapoel-beer-sheva-sabah-champions-league",
+      "slug": "roi-kahat-hapoel-beer-sheva-sabah-champions-league-playoff",
+      "title": "Roi Kahat: Be'er Sheva has proven itself the better side, and its transformation is remarkable",
+      "kind": "preview",
+      "words": 632,
+      "paragraphs": 10,
       "paragraphWords": {
-        "shortest": 46,
-        "longest": 81,
-        "average": 60
+        "shortest": 43,
+        "longest": 99,
+        "average": 63.2
       },
       "sentenceWords": {
         "shortest": 12,
-        "longest": 62,
-        "average": 36
+        "longest": 80,
+        "average": 39.5
       },
-      "lexicalDiversity": 0.533,
-      "publisherAttributions": 1,
+      "lexicalDiversity": 0.554,
+      "publisherAttributions": 0,
       "flags": []
     },
     {
@@ -4834,6 +4811,27 @@
       },
       "lexicalDiversity": 0.604,
       "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-25-beer-sheva-sabah-baku-preview",
+      "slug": "hapoel-beer-sheva-sabah-baku-champions-league-second-leg",
+      "title": "Ex-Azerbaijan coach warns Beer Sheva's gaps could give Sabah a route back in Baku",
+      "kind": "news",
+      "words": 431,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 43,
+        "longest": 70,
+        "average": 61.6
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 98,
+        "average": 33.2
+      },
+      "lexicalDiversity": 0.559,
+      "publisherAttributions": 0,
       "flags": []
     },
     {
