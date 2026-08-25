@@ -1,20 +1,14 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-08-25-keaton-wallace-maccabi-arrival",
-      "article": "Keaton Wallace lands in Israel to join Maccabi Tel Aviv: \"I lost my bags, but I came to work\"",
-      "file": "File:Keaton Wallace.jpg",
-      "license": "CC BY 2.0"
+      "articleId": "live-2026-08-25-maccabi-haifa-hutsulyak-rejection",
+      "article": "Maccabi Haifa rebuffed again as Ukraine winger Hutsulyak snubs move",
+      "file": "File:SM Caen Tifo 15 ans du MNK.jpg",
+      "license": "CC BY-SA 3.0"
     },
     {
-      "articleId": "live-20260825-ben-cohen-memorial-banner",
-      "article": "'Nothing will stop us': new banner honours fallen fan Ben Cohen after Romanian veto",
-      "file": "File:ASSA 2026 - Ben Cohen 02.jpg",
-      "license": "CC BY-SA 4.0"
-    },
-    {
-      "articleId": "live-2026-08-25-maccabi-ta-kiryat-shmona-youth-held",
-      "article": "Maccabi Tel Aviv trail Ironi Kiryat Shmona 0-2 in youth league clash — match still in progress",
+      "articleId": "live-2026-08-25-maccabi-tel-aviv-kiryat-shmona-youth-in-progress",
+      "article": "Maccabi Tel Aviv trail Ironi Kiryat Shmona early in youth league clash — match still in progress",
       "file": "File:GiuseppeMeazzaNeazzurro.jpg",
       "license": "CC BY 2.0"
     },
@@ -25,9 +19,15 @@
       "license": "CC BY-SA 4.0"
     },
     {
+      "articleId": "live-2026-08-13-adva-cohen-steeplechase-10th",
+      "article": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
+      "file": "File:20220817 European Championships Munich 2022 Tania Moreno Matveeva 850 7683.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
       "articleId": "live-20260802-israel-fifth-mixed-duet-technical-paris",
       "article": "Israel take fifth in mixed duet technical final at European Championships in Paris",
-      "file": "File:20220817 European Championships Munich 2022 Tania Moreno Matveeva 850 7683.jpg",
+      "file": "File:20220814 European Championships Munich 2022 Ľubomír Pištej 850 3618.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
@@ -44,6 +44,16 @@
     }
   ],
   "failures": [
+    {
+      "id": "live-2026-08-25-turiel-lecce-transfer",
+      "title": "Lecce chase Stav Turiel, but Hapoel Tel Aviv want far more than €2m",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-20260825-miguel-vitor-hapoel-beersheba-lottery-ticket",
+      "title": "\"Like winning the lottery\": inside Hapoel Beersheba's fight to keep Miguel Vítor",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
     {
       "id": "live-20260825-drapic-netanya-roni-levi-inheritance",
       "title": "Drapić: Roni Levi inherited the wrong squad at Netanya",
@@ -172,11 +182,6 @@
     {
       "id": "live-2026-08-15-ukraine-amateur-tennis-legend-kurbanov-killed-war",
       "title": "Ukrainian amateur tennis 'legend' Slava Kurbanov killed fighting on the front",
-      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
-    },
-    {
-      "id": "live-2026-08-13-adva-cohen-steeplechase-10th",
-      "title": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {

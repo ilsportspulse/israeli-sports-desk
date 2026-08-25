@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T15:49:06.284Z",
+  "generatedAt": "2026-08-25T16:23:41.456Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,11 +11,11 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1216,
+    "publishedArticles": 1220,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 417.5,
+      "median": 418,
       "average": 422.3
     },
     "paragraphDistribution": {
@@ -23,10 +23,10 @@
       "4": 6,
       "5": 11,
       "6": 57,
-      "7": 183,
-      "8": 356,
-      "9": 298,
-      "10": 194,
+      "7": 184,
+      "8": 357,
+      "9": 299,
+      "10": 195,
       "11": 49,
       "12": 15,
       "13": 5,
@@ -4821,24 +4821,87 @@
   ],
   "clean": [
     {
-      "id": "live-2026-08-25-keaton-wallace-maccabi-arrival",
-      "slug": "keaton-wallace-arrives-maccabi-tel-aviv-lost-bags",
-      "title": "Keaton Wallace lands in Israel to join Maccabi Tel Aviv: \"I lost my bags, but I came to work\"",
-      "kind": "news",
-      "words": 362,
-      "paragraphs": 9,
+      "id": "live-2026-08-25-turiel-lecce-transfer",
+      "slug": "stav-turiel-lecce-transfer-fee-hapoel-tel-aviv",
+      "title": "Lecce chase Stav Turiel, but Hapoel Tel Aviv want far more than €2m",
+      "kind": "article",
+      "words": 482,
+      "paragraphs": 8,
       "paragraphWords": {
-        "shortest": 30,
-        "longest": 50,
-        "average": 40.2
+        "shortest": 35,
+        "longest": 102,
+        "average": 60.3
       },
       "sentenceWords": {
-        "shortest": 6,
-        "longest": 41,
-        "average": 27.8
+        "shortest": 13,
+        "longest": 53,
+        "average": 30.1
       },
-      "lexicalDiversity": 0.655,
+      "lexicalDiversity": 0.56,
       "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-25-maccabi-haifa-hutsulyak-rejection",
+      "slug": "maccabi-haifa-hutsulyak-second-rejection",
+      "title": "Maccabi Haifa rebuffed again as Ukraine winger Hutsulyak snubs move",
+      "kind": "transfer",
+      "words": 313,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 26,
+        "longest": 67,
+        "average": 44.7
+      },
+      "sentenceWords": {
+        "shortest": 17,
+        "longest": 60,
+        "average": 34.8
+      },
+      "lexicalDiversity": 0.636,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260825-atletico-shareholders-alvarez-barcelona",
+      "slug": "atletico-shareholders-idan-ofer-unite-against-alvarez-barcelona-move",
+      "title": "Idan Ofer among Atlético Madrid shareholders blocking Julián Álvarez's Barcelona dream",
+      "kind": "news",
+      "words": 436,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 42,
+        "longest": 55,
+        "average": 48.4
+      },
+      "sentenceWords": {
+        "shortest": 17,
+        "longest": 101,
+        "average": 48.4
+      },
+      "lexicalDiversity": 0.592,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260825-hapoel-beersheva-bencohen-memorial-banner",
+      "slug": "ben-cohen-memorial-banner-hapoel-beer-sheva-baku",
+      "title": "'Nothing will stop us': fallen fan's family carry a new memorial banner to Hapoel Beer Sheva's Baku decider",
+      "kind": "news",
+      "words": 429,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 14,
+        "longest": 63,
+        "average": 42.9
+      },
+      "sentenceWords": {
+        "shortest": 2,
+        "longest": 73,
+        "average": 23.8
+      },
+      "lexicalDiversity": 0.552,
+      "publisherAttributions": 0,
       "flags": []
     },
     {
@@ -26006,6 +26069,27 @@
         "average": 36
       },
       "lexicalDiversity": 0.533,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-25-keaton-wallace-maccabi-arrival",
+      "slug": "keaton-wallace-arrives-maccabi-tel-aviv-lost-bags",
+      "title": "Keaton Wallace lands in Israel to join Maccabi Tel Aviv: \"I lost my bags, but I came to work\"",
+      "kind": "news",
+      "words": 362,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 50,
+        "average": 40.2
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 41,
+        "average": 27.8
+      },
+      "lexicalDiversity": 0.655,
       "publisherAttributions": 1,
       "flags": []
     }
