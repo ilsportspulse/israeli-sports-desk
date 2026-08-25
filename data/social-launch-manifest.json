@@ -146,8 +146,8 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-25T20:33:44Z",
-    "validUntil": "2026-08-26T08:33:44Z",
+    "checkedAt": "2026-08-25T21:11:39Z",
+    "validUntil": "2026-08-26T09:11:39Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
@@ -160,21 +160,21 @@
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-25-vitor-sabah-hapoel-beer-sheva-champions-league-exit",
+        "articleId": "live-2026-08-25-maccabi-ashdod-turner-mcduffie-imports-land",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 895,
+        "maxAgeHours": 896,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-25-maccabi-ashdod-turner-mcduffie-imports-land",
+        "articleId": "live-2026-08-25-reijnders-atletico-money",
         "maxAgeHours": 35,
         "requires": []
       },
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-25-reijnders-atletico-money",
+        "articleId": "live-2026-08-25-hapoel-tel-aviv-kiryat-gat-womens-state-cup",
         "maxAgeHours": 36,
         "requires": []
       }

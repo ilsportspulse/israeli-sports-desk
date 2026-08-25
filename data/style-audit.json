@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T20:33:45.780Z",
+  "generatedAt": "2026-08-25T21:11:41.151Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -16,17 +16,17 @@
       "minimum": 69,
       "maximum": 1070,
       "median": 417,
-      "average": 422.4
+      "average": 422.1
     },
     "paragraphDistribution": {
-      "3": 35,
+      "3": 36,
       "4": 6,
       "5": 11,
       "6": 58,
       "7": 185,
-      "8": 360,
-      "9": 302,
-      "10": 197,
+      "8": 359,
+      "9": 301,
+      "10": 198,
       "11": 49,
       "12": 15,
       "13": 5,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.293,
+    "dominantParagraphShare": 0.292,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 58,
     "analysisBelowTarget": 12,
-    "articlesWithStyleFlags": 206
+    "articlesWithStyleFlags": 207
   },
   "flagged": [
     {
@@ -4794,48 +4794,50 @@
       "flags": [
         "publisher-attribution-heavy:2"
       ]
+    },
+    {
+      "id": "result-2026-08-25-sabah-fk-hapoel-be-er",
+      "slug": "sabah-fk-5-2-hapoel-be-er-champions-league-qualifying",
+      "title": "Sabah FK 5–2 Hapoel Be'er: Champions League qualifying",
+      "kind": "news",
+      "words": 113,
+      "paragraphs": 3,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 41,
+        "average": 37.7
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 27,
+        "average": 18.8
+      },
+      "lexicalDiversity": 0.752,
+      "publisherAttributions": 0,
+      "flags": [
+        "below-editorial-target:113/280"
+      ]
     }
   ],
   "clean": [
     {
-      "id": "live-2026-08-25-vitor-sabah-hapoel-beer-sheva-champions-league-exit",
-      "slug": "vitor-i-feel-very-bad-sabah-hapoel-beer-sheva-champions-league-exit",
-      "title": "Sabah 5-2 Hapoel Be'er Sheva (6-4 agg): Vítor - 'I feel very bad, this is a very difficult moment'",
-      "kind": "news",
-      "words": 610,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 43,
-        "longest": 102,
-        "average": 67.8
-      },
-      "sentenceWords": {
-        "shortest": 6,
-        "longest": 110,
-        "average": 38.1
-      },
-      "lexicalDiversity": 0.51,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-25-ronaldo-halftime-al-nassr-comeback",
-      "slug": "al-nassr-al-ettifaq-3-2-ronaldo-substituted-halftime-mane-comeback",
-      "title": "Al Nassr 3-2 Al Ettifaq: Ronaldo fumes after halftime hook as Mane inspires 10-man comeback",
+      "id": "live-20260825-ronaldo-subbed-al-nassr-comeback-al-ettifaq",
+      "slug": "ronaldo-fumes-al-nassr-comeback-al-ettifaq",
+      "title": "Al Ettifaq 2-3 Al Nassr: Ronaldo fumes after halftime substitution as ten-man side completes comeback",
       "kind": "article",
-      "words": 366,
-      "paragraphs": 8,
+      "words": 510,
+      "paragraphs": 10,
       "paragraphWords": {
         "shortest": 36,
-        "longest": 64,
-        "average": 45.8
+        "longest": 66,
+        "average": 51
       },
       "sentenceWords": {
         "shortest": 7,
-        "longest": 52,
-        "average": 28.2
+        "longest": 66,
+        "average": 26.8
       },
-      "lexicalDiversity": 0.626,
+      "lexicalDiversity": 0.575,
       "publisherAttributions": 1,
       "flags": []
     },

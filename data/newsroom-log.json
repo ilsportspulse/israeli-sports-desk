@@ -2546,5 +2546,53 @@
         "reason": ""
       }
     ]
+  },
+  {
+    "ts": "2026-08-25T20:51:22.396Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 1,
+    "review": 1,
+    "skipped": 3,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "ronaldo-fumes-al-nassr-comeback-al-ettifaq",
+        "title": "Al Ettifaq 2-3 Al Nassr: Ronaldo fumes after halftime substitution as ten-man side completes comeback",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "marciano-diop-player-ratings-sabah-beer-sheva-champions-league",
+        "title": "Marciano's 7 the lone bright spot as Diop's red card sinks Beer Sheva's Champions League bid",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "sabah-hapoel-beer-sheva-5-2-champions-league-playoff-elimination",
+        "title": "Sabah beat Hapoel Be'er Sheva 5-2 after extra time to end Champions League dream, 6-4 on aggregate",
+        "decision": "duplicate",
+        "reason": "same event as hapoel-be-er-2-1-sabah-fk-champions-league-qualifying"
+      },
+      {
+        "slug": "miguel-vitor-hapoel-beer-sheva-sabah-champions-league-exit",
+        "title": "Sabah 5-2 Hapoel Beer Sheva (AET): captain Miguel Vítor — \"I feel very bad, this is a very difficult moment\"",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "hapoel-kfar-saba-beat-beitar-jerusalem-2-0-youth-division-a",
+        "title": "Hapoel Kfar Saba beat Beitar Jerusalem 2-0 in Youth Division A",
+        "confidence": 0.75,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Youth-division match; English spellings of the teenage scorers' and coach's names are best-effort transliterations from a single Hebrew source and have not been cross-checked against an English-language registry."
+      }
+    ]
   }
 ]

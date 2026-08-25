@@ -183317,9 +183317,224 @@
     "homepageReason": "A confirmed result involving an Israeli team, published automatically at full time.",
     "dedupeKey": "football sabah-fk hapoel-be-er match 2026-08-25",
     "trending": 4,
-    "status": "review",
+    "status": "published",
     "aiDisclosure": "Automated result flash generated at full time from ESPN's match data (final score, competition and, where available, scorers). Expanded and cross-checked in follow-up coverage.",
-    "commonsQuery": "Sabah FK football",
-    "warning": "dup same-match recap (3 shared tokens)"
+    "commonsQuery": "Sabah FK football"
+  },
+  {
+    "id": "live-2026-08-25-hapoel-kfar-saba-beitar-jerusalem-youth",
+    "slug": "hapoel-kfar-saba-beat-beitar-jerusalem-2-0-youth-division-a",
+    "title": "Hapoel Kfar Saba beat Beitar Jerusalem 2-0 in Youth Division A",
+    "dek": "Tom Makro's early strike and a late Noam Vasihon penalty gave Hapoel Kfar Saba back-to-back wins at the top of Israel's elite youth flight, while Beitar Jerusalem's academy side slipped to a second defeat of the season.",
+    "category": "Israeli Football",
+    "desk": "israel",
+    "kind": "article",
+    "storyForm": "match_report",
+    "publishedAt": "2026-08-25T20:51:22.396Z",
+    "updatedAt": "2026-08-25T20:51:22.396Z",
+    "readMinutes": 2,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/531603.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE match report: Hapoel Kfar Saba 2-0 Beitar Jerusalem (Youth Division A, round 3)",
+        "url": "https://www.one.co.il/Article/531603.html"
+      }
+    ],
+    "body": [
+      "Hapoel Kfar Saba's youth side continued its encouraging start to the season with a 2-0 win over Beitar Jerusalem in round three of Liga Naarim Alef, Israel's top-flight youth division, ONE reported.",
+      "Tom Makro put the hosts ahead in the 11th minute, and Noam Vasihon added a second from the penalty spot in the closing stages to put the result beyond doubt.",
+      "The win was Kfar Saba's second in a row after an opening-round 0-0 draw with Hapoel Jerusalem, and it marks the club's academy out as one of the early movers in the division.",
+      "Coach Amri Laser was upbeat about his young squad afterwards, telling ONE the group looks worth following closely as the season develops.",
+      "For Beitar Jerusalem, it was a second loss in three rounds at this level, extending what ONE described as an unsteady start for the Jerusalem club's youth setup even as its senior side remains the focus of most attention around the capital.",
+      "The result was one of several from a busy round three across Israel's Youth Division A, with ONE also reporting wins for Maccabi Haifa, Hapoel Tel Aviv and Ashdod, and a share of the points for Hapoel Jerusalem against Rishon LeZion."
+    ],
+    "facts": [
+      "Hapoel Kfar Saba's youth team beat Beitar Jerusalem 2-0 in round three of Liga Naarim Alef (Youth Division A)",
+      "Tom Makro scored the opening goal in the 11th minute",
+      "Noam Vasihon scored a late penalty for Kfar Saba's second goal",
+      "The result was Hapoel Kfar Saba's second consecutive win of the season, after a 0-0 draw with Hapoel Jerusalem in round one",
+      "It was Beitar Jerusalem's second defeat of the young season at this level",
+      "Hapoel Kfar Saba's youth coach is Amri Laser"
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 32,
+    "homepageReason": "Routine result from Israel's top youth football division involving two well-known club academies; developmental-level news rather than a first-team result.",
+    "dedupeKey": "liga-naarim-alef-2026-r3-kfarsaba-beitar",
+    "aiDisclosure": "Drafted by an AI copy desk from a single verified source report; facts checked against the original ONE article before publication.",
+    "nameChecks": [
+      {
+        "hebrew": "הפועל כפר סבא",
+        "english": "Hapoel Kfar Saba",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Hapoel_Kfar_Saba_F.C.",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "בית\"ר ירושלים",
+        "english": "Beitar Jerusalem",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Beitar_Jerusalem_F.C.",
+        "confidence": 0.97
+      },
+      {
+        "hebrew": "תום מכרו",
+        "english": "Tom Makro",
+        "verificationUrl": "https://www.one.co.il/Article/531603.html",
+        "confidence": 0.6
+      },
+      {
+        "hebrew": "נועם וסיחון",
+        "english": "Noam Vasihon",
+        "verificationUrl": "https://www.one.co.il/Article/531603.html",
+        "confidence": 0.55
+      },
+      {
+        "hebrew": "עמרי לייזר",
+        "english": "Amri Laser",
+        "verificationUrl": "https://www.one.co.il/Article/531603.html",
+        "confidence": 0.6
+      }
+    ],
+    "confidence": 0.75,
+    "warning": "Youth-division match; English spellings of the teenage scorers' and coach's names are best-effort transliterations from a single Hebrew source and have not been cross-checked against an English-language registry.",
+    "commonsQuery": "Beitar Jerusalem F.C. photograph",
+    "commonsCandidates": [
+      {
+        "title": "File:Beitar Jerusalem in training.JPG",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Beitar_Jerusalem_in_training.JPG",
+        "credit": "Jonathan Peters (Govvy)",
+        "license": "CC BY 3.0"
+      },
+      {
+        "title": "File:Bnei Yehuda Tel Aviv vs Beitar Jerusalem.JPG",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Bnei_Yehuda_Tel_Aviv_vs_Beitar_Jerusalem.JPG",
+        "credit": "Botend",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:Soccer. Beitar Jerusalem (12359371595).jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Soccer._Beitar_Jerusalem_(12359371595).jpg",
+        "credit": "Betty Nudler",
+        "license": "CC BY 2.0"
+      }
+    ],
+    "status": "review"
+  },
+  {
+    "id": "live-20260825-ronaldo-subbed-al-nassr-comeback-al-ettifaq",
+    "slug": "ronaldo-fumes-al-nassr-comeback-al-ettifaq",
+    "title": "Al Ettifaq 2-3 Al Nassr: Ronaldo fumes after halftime substitution as ten-man side completes comeback",
+    "dek": "Cristiano Ronaldo trudged off angrily at the break as Al Nassr trailed 2-0 and played with ten men for most of the match — then watched from the bench as Sadio Mané inspired a stunning turnaround.",
+    "category": "World Football",
+    "desk": "international",
+    "kind": "article",
+    "storyForm": "match report",
+    "publishedAt": "2026-08-25T20:51:22.396Z",
+    "updatedAt": "2026-08-25T20:51:22.396Z",
+    "readMinutes": 4,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/531606.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/531606.html"
+      },
+      {
+        "label": "VAVEL USA",
+        "url": "https://www.vavel.com/en-us/soccer/2026/08/25/1269007-al-ettifaq-vs-al-nassr-live-score-saudi-pro-league.html"
+      },
+      {
+        "label": "Bleacher Report",
+        "url": "https://bleacherreport.com/articles/25485495-cristiano-ronaldo-gives-frustrated-reaction-trending-video-after-being-subbed-halftime"
+      },
+      {
+        "label": "Goal.com",
+        "url": "https://www.goal.com/en-in/lists/video-after-shedding-the-burden-of-ronaldo-al-nassr-defy-logic-and-beat-al-ittifaq-with-a-crazy-comeback/bltf9102c2dcaa4a011"
+      }
+    ],
+    "body": [
+      "Cristiano Ronaldo walked down the tunnel at halftime in a foul mood on Tuesday, hauled off by Ange Postecoglou with Al Nassr trailing Al Ettifaq 2-0 and already reduced to ten men — only to watch from the bench as his teammates produced one of the wildest comebacks of the young Saudi Pro League season to win 3-2.",
+      "The night unravelled early for the champions. In the 12th minute, goalkeeper Bento raced off his line to close down Al Ettifaq forward Moussa Dembélé and brought him down just outside the box. Referee Mohammed Al-Hoaish had no hesitation showing a straight red card, forcing Postecoglou into an immediate reshuffle as backup keeper Abdulrahman Al-Otaibi came on.",
+      "Playing a man light for the remaining 78 minutes proved costly before the break. Ondrej Duda put Al Ettifaq ahead in the 31st minute, and Álvaro Medrán doubled the lead deep into first-half stoppage time, sending Al Nassr in 2-0 down at the interval despite their numerical disadvantage.",
+      "That is when Postecoglou made his second big call of the night, withdrawing Ronaldo at the break to add midfield cover and shore up a side already stretched thin with ten men. According to ONE's report on the incident, the Portuguese star was visibly unhappy about the decision, seen remonstrating with teammates before disappearing down the tunnel without returning for the second half.",
+      "The frustration was understandable on more than one level. Ronaldo had scored in Al Nassr's previous league outing and, sitting on 978 career goals in his relentless pursuit of the 1,000 mark, every minute on the pitch carries extra weight for the 41-year-old at this stage of his career.",
+      "What followed vindicated his coach's gamble, even if it will do little to soothe Ronaldo's mood. Sadio Mané pulled a goal back in the 74th minute, latching onto a through ball from João Félix to beat the Al Ettifaq goalkeeper.",
+      "Three minutes later Al Nassr were level. Abdulelah Al-Amri rose to meet a corner delivered by Félix and headed the equaliser home, capping a remarkable turnaround for a team that had spent more than an hour playing with ten men.",
+      "The comeback was completed in the 90th minute. Mané struck again after Sami Al-Naji broke clear on the counter-attack, snatching all three points for Al Nassr in stoppage time and sending the travelling supporters into raptures.",
+      "It was a result that defied the arithmetic of the match — a red card inside a quarter of an hour, a two-goal halftime deficit, and the team's biggest name substituted before the second half even began. Yet Al Nassr found a way, with Mané and Félix combining to overturn the deficit twice over.",
+      "The win keeps Al Nassr's start to the 2026-27 Saudi Pro League campaign unblemished as they open the defence of the title they claimed last May under Postecoglou, but the postmatch conversation will likely centre on Ronaldo's on-camera reaction rather than his teammates' heroics — and on whether the veteran forward's minutes are now being carefully managed as he closes in on his 1,000th career goal."
+    ],
+    "facts": [
+      "Al Nassr beat Al Ettifaq 3-2 away from home in Matchday 3 of the 2026-27 Saudi Pro League season on 25 August 2026.",
+      "Al Nassr goalkeeper Bento was sent off with a straight red card in the 12th minute for fouling Moussa Dembélé outside the box.",
+      "Al Ettifaq led 2-0 at halftime through goals from Ondrej Duda (31') and Álvaro Medrán (45+4').",
+      "Cristiano Ronaldo was substituted by manager Ange Postecoglou at halftime and appeared visibly unhappy about the decision.",
+      "Sadio Mané scored twice (74', 90') and Abdulelah Al-Amri once (77') as Al Nassr completed the comeback while playing a man down.",
+      "Ronaldo is reported to be on 978 career goals as he pursues the milestone of 1,000."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 68,
+    "homepageReason": "Notable world football story — Ronaldo drama and a dramatic ten-man comeback involving the reigning Saudi champions — but a routine league fixture with no Israeli angle, so it sits in the mid-tier rather than top-tier bracket.",
+    "dedupeKey": "spl-al-ettifaq-al-nassr-2026-08-25",
+    "aiDisclosure": "Drafted with AI assistance from verified reporting by ONE and cross-checked against multiple independent outlets; reviewed by the editorial desk.",
+    "nameChecks": [
+      {
+        "hebrew": "כריסטיאנו רונאלדו",
+        "english": "Cristiano Ronaldo",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Cristiano_Ronaldo",
+        "confidence": 0.99
+      },
+      {
+        "hebrew": "אל נאסר",
+        "english": "Al Nassr",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Al_Nassr_FC",
+        "confidence": 0.97
+      },
+      {
+        "hebrew": "אל אתיפאק",
+        "english": "Al Ettifaq",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Al-Ettifaq_FC",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "סאדיו מאנה",
+        "english": "Sadio Mané",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Sadio_Man%C3%A9",
+        "confidence": 0.97
+      },
+      {
+        "hebrew": "ז'ואאו פליקס",
+        "english": "João Félix",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Jo%C3%A3o_F%C3%A9lix",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "אנג' פוסטקוגלו",
+        "english": "Ange Postecoglou",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Ange_Postecoglou",
+        "confidence": 0.95
+      }
+    ],
+    "confidence": 0.85,
+    "warning": "",
+    "commonsQuery": "Cristiano Ronaldo Al Nassr",
+    "commonsCandidates": [
+      {
+        "title": "File:Cristiano Ronaldo Al-Nassr 2023.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Cristiano_Ronaldo_Al-Nassr_2023.jpg",
+        "credit": "Mohammad Hossein Movahedi Nejad / Tasnim News Agency",
+        "license": "CC BY 4.0"
+      },
+      {
+        "title": "File:Cristiano Ronaldo with Al Nassr, 19 September 2023 - 80.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Cristiano_Ronaldo_with_Al_Nassr,_19_September_2023_-_80.jpg",
+        "credit": "Mehrdad Esfahani / Student News Agency (SNN)",
+        "license": "CC BY 4.0"
+      }
+    ],
+    "status": "published"
   }
 ]
