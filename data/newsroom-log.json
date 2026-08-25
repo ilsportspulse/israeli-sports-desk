@@ -1,5 +1,58 @@
 [
   {
+    "ts": "2026-08-25T15:06:08.662Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 2,
+    "review": 2,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "maccabi-tel-aviv-ironi-kiryat-shmona-youth-league-in-progress",
+        "title": "Maccabi Tel Aviv trail Ironi Kiryat Shmona early in youth league clash — match still in progress",
+        "confidence": 0,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "match in progress — wait for full time"
+      },
+      {
+        "slug": "ben-cohen-memorial-banner-hapoel-beer-sheva-baku",
+        "title": "'Nothing will stop us': fallen fan's family carry a new memorial banner to Hapoel Beer Sheva's Baku decider",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "hapoel-beer-sheva-fans-flood-baku-streets-champions-league-decider",
+        "title": "Hapoel Beer Sheva fans flood Baku streets ahead of historic Champions League decider",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "keaton-wallace-maccabi-tel-aviv-arrival-lost-bags",
+        "title": "Keaton Wallace lands in Israel: 'I lost my bags, but I came to work'",
+        "confidence": 0.82,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "below gate thresholds"
+      },
+      {
+        "slug": "atletico-shareholders-idan-ofer-unite-against-alvarez-barcelona-move",
+        "title": "Idan Ofer among Atlético Madrid shareholders blocking Julián Álvarez's Barcelona dream",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-08-25T14:07:02.299Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -2507,109 +2560,6 @@
         "gate": "pass",
         "decision": "published",
         "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-21T15:58:54.866Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 2,
-    "review": 3,
-    "skipped": 0,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "tohar-gabai-joins-ramat-hasharon-youth-side",
-        "title": "Tohar Gabai steps up to Ramat Hasharon's top-flight youth side",
-        "confidence": 0.82,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "below gate thresholds"
-      },
-      {
-        "slug": "nba-summer-transfers-that-changed-the-league",
-        "title": "The summer that changed the NBA: LeBron, Giannis and every big move",
-        "confidence": 0.88,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "kiryat-motzkin-rehovot-basketball-signings",
-        "title": "Kiryat Motzkin add Derek Williams and Daniel Nagar as Rehovot sign Niv Lampert",
-        "confidence": 0.75,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Single-source roundup (ONE); surname transliteration for Daniel Nagar varies across records (Nagar/Nager), and no independent second source confirmed the exact club destinations at time of writing."
-      },
-      {
-        "slug": "fantasy-ligat-haal-top-10-candidates-2026-27",
-        "title": "Atzili tops ONE's ten contenders to be crowned Ligat Ha'al's fantasy king",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "israel-u16-girls-basketball-beat-romania-70-51-classification",
-        "title": "Israel U16 girls beat Romania 70-51 in European classification game",
-        "confidence": 0.85,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "No correctly-identified, web-verified Wikimedia Commons photo of this specific U16 team, match or venue could be confirmed — commonsCandidates is empty and the image slot should be held rather than filled with an unrelated or wrong-subject file."
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-25T14:29:58.368Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 2,
-    "review": 0,
-    "skipped": 3,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "hapoel-jerusalem-reebok-kit-2026-27",
-        "title": "Hapoel Jerusalem unveil new Reebok kit for 2026/27 season",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "atletico-shareholders-oppose-alvarez-barcelona-move",
-        "title": "All Atlético Madrid shareholders, Idan Ofer included, oppose Álvarez's move to Barcelona",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "bouaddi-einstein-manchester-city-transfer",
-        "title": "Manchester City complete record teenage transfer for Morocco's 'Einstein', Ayyoub Bouaddi",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "triathlon-haemakim-returns-afula-gilboa-2027",
-        "title": "Off-road triathlon set to return to Israel with new Valleys race near Gilboa in 2027",
-        "confidence": 0.8,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "hapoel-beer-sheva-sabah-champions-league-playoff-second-leg-preview",
-        "title": "Ex-Sabah man Ivanović: feed Zlatanović the ball as Beer Sheva chase Champions League history in Baku",
-        "decision": "duplicate"
       }
     ]
   }

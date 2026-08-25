@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T14:48:49.425Z",
+  "generatedAt": "2026-08-25T15:25:48.321Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1796,
-    "publishedBefore": 1214,
-    "cleanPublished": 1207,
+    "totalArticles": 1803,
+    "publishedBefore": 1217,
+    "cleanPublished": 1210,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1214,
-    "reviewAfter": 582
+    "publishedAfter": 1217,
+    "reviewAfter": 586
   },
   "blockedPublished": [
     {
@@ -141,14 +141,14 @@
   ],
   "warnings": [
     {
-      "id": "live-20260825-triathlon-haemakim-returns",
-      "slug": "triathlon-haemakim-returns-afula-gilboa-2027",
-      "title": "Off-road triathlon set to return to Israel with new Valleys race near Gilboa in 2027",
+      "id": "live-20260825-atletico-shareholders-alvarez-barcelona",
+      "slug": "atletico-shareholders-idan-ofer-unite-against-alvarez-barcelona-move",
+      "title": "Idan Ofer among Atlético Madrid shareholders blocking Julián Álvarez's Barcelona dream",
       "statusBefore": "published",
-      "words": 273,
-      "paragraphs": 7,
-      "facts": 6,
-      "verificationSources": 1,
+      "words": 446,
+      "paragraphs": 9,
+      "facts": 5,
+      "verificationSources": 4,
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline",
@@ -156,14 +156,56 @@
       ]
     },
     {
-      "id": "live-20260825-hapoel-jerusalem-reebok-kit-launch",
-      "slug": "hapoel-jerusalem-reebok-kit-2026-27",
-      "title": "Hapoel Jerusalem unveil new Reebok kit for 2026/27 season",
-      "statusBefore": "published",
-      "words": 350,
+      "id": "live-2026-08-25-keaton-wallace-maccabi-tel-aviv-arrival",
+      "slug": "keaton-wallace-maccabi-tel-aviv-arrival-lost-bags",
+      "title": "Keaton Wallace lands in Israel: 'I lost my bags, but I came to work'",
+      "statusBefore": "review",
+      "words": 318,
       "paragraphs": 7,
       "facts": 7,
-      "verificationSources": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-25-maccabi-tel-aviv-kiryat-shmona-youth-in-progress",
+      "slug": "maccabi-tel-aviv-ironi-kiryat-shmona-youth-league-in-progress",
+      "title": "Maccabi Tel Aviv trail Ironi Kiryat Shmona early in youth league clash — match still in progress",
+      "statusBefore": "review",
+      "words": 120,
+      "paragraphs": 5,
+      "facts": 5,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-20260825-hapoel-beersheva-sabah-zlatanovic-preview",
+      "slug": "hapoel-beer-sheva-sabah-second-leg-zlatanovic-preview",
+      "title": "Feed Zlatanović in the box, says former Sabah man ahead of Champions League decider",
+      "statusBefore": "published",
+      "words": 401,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-20260825-off-road-triathlon-returns-israel",
+      "slug": "off-road-triathlon-returns-to-israel-gilboa-afula-2027",
+      "title": "Off-road triathlon returns to Israel with new Gilboa-Afula race",
+      "statusBefore": "published",
+      "words": 351,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 1,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -17720,14 +17762,12 @@
       "warnings": [
         "voice:publisher-attribution-heavy:2"
       ]
-    }
-  ],
-  "cleanPublished": [
+    },
     {
       "id": "live-20260825-triathlon-haemakim-returns",
       "slug": "triathlon-haemakim-returns-afula-gilboa-2027",
       "title": "Off-road triathlon set to return to Israel with new Valleys race near Gilboa in 2027",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 273,
       "paragraphs": 7,
       "facts": 6,
@@ -17742,7 +17782,7 @@
       "id": "live-20260825-hapoel-jerusalem-reebok-kit-launch",
       "slug": "hapoel-jerusalem-reebok-kit-2026-27",
       "title": "Hapoel Jerusalem unveil new Reebok kit for 2026/27 season",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 350,
       "paragraphs": 7,
       "facts": 7,
@@ -17751,6 +17791,75 @@
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
+    }
+  ],
+  "cleanPublished": [
+    {
+      "id": "live-20260825-atletico-shareholders-alvarez-barcelona",
+      "slug": "atletico-shareholders-idan-ofer-unite-against-alvarez-barcelona-move",
+      "title": "Idan Ofer among Atlético Madrid shareholders blocking Julián Álvarez's Barcelona dream",
+      "statusBefore": "published",
+      "words": 446,
+      "paragraphs": 9,
+      "facts": 5,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260825-hapoel-beersheva-bencohen-memorial-banner",
+      "slug": "ben-cohen-memorial-banner-hapoel-beer-sheva-baku",
+      "title": "'Nothing will stop us': fallen fan's family carry a new memorial banner to Hapoel Beer Sheva's Baku decider",
+      "statusBefore": "published",
+      "words": 432,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260825-hapoel-beersheva-sabah-zlatanovic-preview",
+      "slug": "hapoel-beer-sheva-sabah-second-leg-zlatanovic-preview",
+      "title": "Feed Zlatanović in the box, says former Sabah man ahead of Champions League decider",
+      "statusBefore": "published",
+      "words": 401,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-20260825-off-road-triathlon-returns-israel",
+      "slug": "off-road-triathlon-returns-to-israel-gilboa-afula-2027",
+      "title": "Off-road triathlon returns to Israel with new Gilboa-Afula race",
+      "statusBefore": "published",
+      "words": 351,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260825-hapoel-jerusalem-reebok-kit-2026-27",
+      "slug": "hapoel-jerusalem-new-reebok-kit-2026-27",
+      "title": "Hapoel Jerusalem unveil new kit for 2026/27 season as Reebok deal begins",
+      "statusBefore": "published",
+      "words": 227,
+      "paragraphs": 5,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": []
     },
     {
       "id": "live-20260825-nearim-a-national-league-fixtures",

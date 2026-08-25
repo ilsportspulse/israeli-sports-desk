@@ -1,16 +1,16 @@
 {
   "selections": [
     {
-      "articleId": "live-20260825-triathlon-haemakim-returns",
-      "article": "Off-road triathlon set to return to Israel with new Valleys race near Gilboa in 2027",
-      "file": "File:Ma'ayan Harod National Park, Harod Valley, Israel 10.jpg",
-      "license": "CC BY-SA 4.0"
+      "articleId": "live-20260825-atletico-shareholders-alvarez-barcelona",
+      "article": "Idan Ofer among Atlético Madrid shareholders blocking Julián Álvarez's Barcelona dream",
+      "file": "File:Madrid - Estadio Wanda Metropolitano 04.jpg",
+      "license": "CC0"
     },
     {
-      "articleId": "live-20260825-hapoel-jerusalem-reebok-kit-launch",
-      "article": "Hapoel Jerusalem unveil new Reebok kit for 2026/27 season",
-      "file": "File:2024-10-29 ALBA Berlin gegen Paris Basketball (EuroLeague 2024-25) by Sandro Halank–158.jpg",
-      "license": "CC BY-SA 4.0"
+      "articleId": "live-2026-08-25-keaton-wallace-maccabi-tel-aviv-arrival",
+      "article": "Keaton Wallace lands in Israel: 'I lost my bags, but I came to work'",
+      "file": "File:Keaton Wallace.jpg",
+      "license": "CC BY 2.0"
     },
     {
       "articleId": "live-20260815-liebmann-1500m-freestyle-world-record",
@@ -44,6 +44,16 @@
     }
   ],
   "failures": [
+    {
+      "id": "live-20260825-hapoel-beersheva-bencohen-memorial-banner",
+      "title": "'Nothing will stop us': fallen fan's family carry a new memorial banner to Hapoel Beer Sheva's Baku decider",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-2026-08-25-maccabi-tel-aviv-kiryat-shmona-youth-in-progress",
+      "title": "Maccabi Tel Aviv trail Ironi Kiryat Shmona early in youth league clash — match still in progress",
+      "error": "image download 429 after retries"
+    },
     {
       "id": "live-20260825-drapic-netanya-roni-levi-inheritance",
       "title": "Drapić: Roni Levi inherited the wrong squad at Netanya",
