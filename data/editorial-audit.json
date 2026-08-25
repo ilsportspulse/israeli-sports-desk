@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T17:50:35.773Z",
+  "generatedAt": "2026-08-25T19:04:35.630Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1812,
-    "publishedBefore": 1223,
-    "cleanPublished": 1216,
+    "totalArticles": 1818,
+    "publishedBefore": 1225,
+    "cleanPublished": 1218,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1223,
-    "reviewAfter": 589
+    "publishedAfter": 1225,
+    "reviewAfter": 593
   },
   "blockedPublished": [
     {
@@ -140,6 +140,62 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-20260825-hapoel-hadera-state-cup-win",
+      "slug": "hapoel-hadera-beitar-nordia-state-cup-win",
+      "title": "Hapoel Hadera 1-0 Beitar Nordia Jerusalem: Yamharan's late strike opens Nosbaum era with a State Cup win",
+      "statusBefore": "review",
+      "words": 263,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260825-xavi-netherlands-podium-quote",
+      "slug": "xavi-netherlands-guardiola-slot-podium-quote",
+      "title": "Xavi jokes he's \"on the podium\" after Guardiola and Slot turned down the Netherlands job",
+      "statusBefore": "published",
+      "words": 427,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-25-euroleague-24-team-expansion-hapoel-tel-aviv",
+      "slug": "euroleague-24-team-expansion-hapoel-tel-aviv-candidate",
+      "title": "Hapoel Tel Aviv among 11 candidates as EuroLeague plots 24-team expansion",
+      "statusBefore": "review",
+      "words": 445,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-25-east-zlatanovic-start-beer-sheva-sabah",
+      "slug": "east-zlatanovic-start-beer-sheva-sabah-champions-league",
+      "title": "East and Zlatanović to spearhead Beer Sheva's push for Champions League history in Baku",
+      "statusBefore": "review",
+      "words": 406,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
     {
       "id": "live-2026-08-25-turiel-lecce-transfer",
       "slug": "stav-turiel-lecce-transfer-fee-hapoel-tel-aviv",
@@ -17884,40 +17940,30 @@
   ],
   "cleanPublished": [
     {
-      "id": "live-20260825-euroleague-24-teams-hapoel-tel-aviv",
-      "slug": "euroleague-24-teams-hapoel-tel-aviv-franchise-bid",
-      "title": "Hapoel Tel Aviv among 11 candidates as EuroLeague advances 24-team franchise plan",
+      "id": "live-2026-08-25-kangwa-instagram-story-beer-sheva-sabah",
+      "slug": "kangwa-instagram-story-beer-sheva-champions-league",
+      "title": "Kings Kangwa keeps an eye on old club as Beer Sheva chase Champions League history",
       "statusBefore": "published",
-      "words": 374,
-      "paragraphs": 10,
-      "facts": 7,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": []
-    },
-    {
-      "id": "live-20260825-man-utd-baleba-signing",
-      "slug": "manchester-united-sign-carlos-baleba-brighton",
-      "title": "Manchester United confirm £70m signing of Carlos Baleba from Brighton",
-      "statusBefore": "published",
-      "words": 394,
-      "paragraphs": 8,
+      "words": 402,
+      "paragraphs": 6,
       "facts": 6,
       "verificationSources": 4,
       "blockers": [],
       "warnings": []
     },
     {
-      "id": "live-2026-08-25-xavi-netherlands-head-coach",
-      "slug": "xavi-hernandez-netherlands-head-coach-after-guardiola-slot-say-no",
-      "title": "Xavi lands Netherlands job after Guardiola and Slot both said no",
+      "id": "live-20260825-xavi-netherlands-podium-quote",
+      "slug": "xavi-netherlands-guardiola-slot-podium-quote",
+      "title": "Xavi jokes he's \"on the podium\" after Guardiola and Slot turned down the Netherlands job",
       "statusBefore": "published",
-      "words": 478,
-      "paragraphs": 10,
+      "words": 427,
+      "paragraphs": 9,
       "facts": 7,
-      "verificationSources": 5,
+      "verificationSources": 4,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-2026-08-25-turiel-lecce-transfer",
@@ -34344,6 +34390,42 @@
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
+    },
+    {
+      "id": "live-20260825-euroleague-24-teams-hapoel-tel-aviv",
+      "slug": "euroleague-24-teams-hapoel-tel-aviv-franchise-bid",
+      "title": "Hapoel Tel Aviv among 11 candidates as EuroLeague advances 24-team franchise plan",
+      "statusBefore": "published",
+      "words": 374,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260825-man-utd-baleba-signing",
+      "slug": "manchester-united-sign-carlos-baleba-brighton",
+      "title": "Manchester United confirm £70m signing of Carlos Baleba from Brighton",
+      "statusBefore": "published",
+      "words": 394,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-25-xavi-netherlands-head-coach",
+      "slug": "xavi-hernandez-netherlands-head-coach-after-guardiola-slot-say-no",
+      "title": "Xavi lands Netherlands job after Guardiola and Slot both said no",
+      "statusBefore": "published",
+      "words": 478,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
     }
   ]
 }
