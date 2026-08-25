@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-25T15:25:47Z",
-    "validUntil": "2026-08-26T03:25:47Z",
+    "checkedAt": "2026-08-25T15:49:05Z",
+    "validUntil": "2026-08-26T03:49:05Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 882,
+        "maxAgeHours": 883,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260825-atletico-shareholders-alvarez-barcelona",
+        "articleId": "live-2026-08-25-keaton-wallace-maccabi-arrival",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 890,
+        "maxAgeHours": 891,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260825-hapoel-beersheva-bencohen-memorial-banner",
+        "articleId": "live-20260825-hapoel-beersheva-sabah-zlatanovic-preview",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 900,
+        "maxAgeHours": 901,
         "requires": [
           "column"
         ]

@@ -1,27 +1,27 @@
 {
   "selections": [
     {
-      "articleId": "live-20260825-atletico-shareholders-alvarez-barcelona",
-      "article": "Idan Ofer among Atlético Madrid shareholders blocking Julián Álvarez's Barcelona dream",
-      "file": "File:Madrid - Estadio Wanda Metropolitano 04.jpg",
-      "license": "CC0"
+      "articleId": "live-2026-08-25-keaton-wallace-maccabi-arrival",
+      "article": "Keaton Wallace lands in Israel to join Maccabi Tel Aviv: \"I lost my bags, but I came to work\"",
+      "file": "File:Keaton Wallace.jpg",
+      "license": "CC BY 2.0"
     },
     {
-      "articleId": "live-2026-08-25-keaton-wallace-maccabi-tel-aviv-arrival",
-      "article": "Keaton Wallace lands in Israel: 'I lost my bags, but I came to work'",
-      "file": "File:Keaton Wallace.jpg",
+      "articleId": "live-20260825-ben-cohen-memorial-banner",
+      "article": "'Nothing will stop us': new banner honours fallen fan Ben Cohen after Romanian veto",
+      "file": "File:ASSA 2026 - Ben Cohen 02.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-2026-08-25-maccabi-ta-kiryat-shmona-youth-held",
+      "article": "Maccabi Tel Aviv trail Ironi Kiryat Shmona 0-2 in youth league clash — match still in progress",
+      "file": "File:GiuseppeMeazzaNeazzurro.jpg",
       "license": "CC BY 2.0"
     },
     {
       "articleId": "live-20260815-liebmann-1500m-freestyle-world-record",
       "article": "German teenager Johannes Liebmann shatters 1500m freestyle world record in 14:26.79",
       "file": "File:Swimming Pool lanes and starting blocks at AIS.jpg",
-      "license": "CC BY-SA 4.0"
-    },
-    {
-      "articleId": "live-2026-08-13-adva-cohen-steeplechase-10th",
-      "article": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
-      "file": "File:20220814 European Championships Munich 2022 Ľubomír Pištej 850 3618.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
@@ -44,16 +44,6 @@
     }
   ],
   "failures": [
-    {
-      "id": "live-20260825-hapoel-beersheva-bencohen-memorial-banner",
-      "title": "'Nothing will stop us': fallen fan's family carry a new memorial banner to Hapoel Beer Sheva's Baku decider",
-      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
-    },
-    {
-      "id": "live-2026-08-25-maccabi-tel-aviv-kiryat-shmona-youth-in-progress",
-      "title": "Maccabi Tel Aviv trail Ironi Kiryat Shmona early in youth league clash — match still in progress",
-      "error": "image download 429 after retries"
-    },
     {
       "id": "live-20260825-drapic-netanya-roni-levi-inheritance",
       "title": "Drapić: Roni Levi inherited the wrong squad at Netanya",
@@ -182,6 +172,11 @@
     {
       "id": "live-2026-08-15-ukraine-amateur-tennis-legend-kurbanov-killed-war",
       "title": "Ukrainian amateur tennis 'legend' Slava Kurbanov killed fighting on the front",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-2026-08-13-adva-cohen-steeplechase-10th",
+      "title": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {

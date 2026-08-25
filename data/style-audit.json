@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T15:25:48.998Z",
+  "generatedAt": "2026-08-25T15:49:06.284Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1217,
+    "publishedArticles": 1216,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 418,
-      "average": 422.4
+      "median": 417.5,
+      "average": 422.3
     },
     "paragraphDistribution": {
       "3": 36,
@@ -26,7 +26,7 @@
       "7": 183,
       "8": 356,
       "9": 298,
-      "10": 195,
+      "10": 194,
       "11": 49,
       "12": 15,
       "13": 5,
@@ -4821,45 +4821,24 @@
   ],
   "clean": [
     {
-      "id": "live-20260825-atletico-shareholders-alvarez-barcelona",
-      "slug": "atletico-shareholders-idan-ofer-unite-against-alvarez-barcelona-move",
-      "title": "Idan Ofer among Atlético Madrid shareholders blocking Julián Álvarez's Barcelona dream",
+      "id": "live-2026-08-25-keaton-wallace-maccabi-arrival",
+      "slug": "keaton-wallace-arrives-maccabi-tel-aviv-lost-bags",
+      "title": "Keaton Wallace lands in Israel to join Maccabi Tel Aviv: \"I lost my bags, but I came to work\"",
       "kind": "news",
-      "words": 436,
+      "words": 362,
       "paragraphs": 9,
       "paragraphWords": {
-        "shortest": 42,
-        "longest": 55,
-        "average": 48.4
+        "shortest": 30,
+        "longest": 50,
+        "average": 40.2
       },
       "sentenceWords": {
-        "shortest": 17,
-        "longest": 101,
-        "average": 48.4
+        "shortest": 6,
+        "longest": 41,
+        "average": 27.8
       },
-      "lexicalDiversity": 0.592,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-20260825-hapoel-beersheva-bencohen-memorial-banner",
-      "slug": "ben-cohen-memorial-banner-hapoel-beer-sheva-baku",
-      "title": "'Nothing will stop us': fallen fan's family carry a new memorial banner to Hapoel Beer Sheva's Baku decider",
-      "kind": "news",
-      "words": 429,
-      "paragraphs": 10,
-      "paragraphWords": {
-        "shortest": 14,
-        "longest": 63,
-        "average": 42.9
-      },
-      "sentenceWords": {
-        "shortest": 2,
-        "longest": 73,
-        "average": 23.8
-      },
-      "lexicalDiversity": 0.552,
-      "publisherAttributions": 0,
+      "lexicalDiversity": 0.655,
+      "publisherAttributions": 1,
       "flags": []
     },
     {

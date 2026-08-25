@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T15:25:48.321Z",
+  "generatedAt": "2026-08-25T15:49:05.600Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,12 +17,12 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1803,
-    "publishedBefore": 1217,
-    "cleanPublished": 1210,
+    "totalArticles": 1802,
+    "publishedBefore": 1216,
+    "cleanPublished": 1209,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1217,
+    "publishedAfter": 1216,
     "reviewAfter": 586
   },
   "blockedPublished": [
@@ -141,28 +141,13 @@
   ],
   "warnings": [
     {
-      "id": "live-20260825-atletico-shareholders-alvarez-barcelona",
-      "slug": "atletico-shareholders-idan-ofer-unite-against-alvarez-barcelona-move",
-      "title": "Idan Ofer among Atlético Madrid shareholders blocking Julián Álvarez's Barcelona dream",
+      "id": "live-2026-08-25-keaton-wallace-maccabi-arrival",
+      "slug": "keaton-wallace-arrives-maccabi-tel-aviv-lost-bags",
+      "title": "Keaton Wallace lands in Israel to join Maccabi Tel Aviv: \"I lost my bags, but I came to work\"",
       "statusBefore": "published",
-      "words": 446,
+      "words": 358,
       "paragraphs": 9,
-      "facts": 5,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline",
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-25-keaton-wallace-maccabi-tel-aviv-arrival",
-      "slug": "keaton-wallace-maccabi-tel-aviv-arrival-lost-bags",
-      "title": "Keaton Wallace lands in Israel: 'I lost my bags, but I came to work'",
-      "statusBefore": "review",
-      "words": 318,
-      "paragraphs": 7,
-      "facts": 7,
+      "facts": 6,
       "verificationSources": 3,
       "blockers": [],
       "warnings": [
@@ -170,17 +155,35 @@
       ]
     },
     {
-      "id": "live-2026-08-25-maccabi-tel-aviv-kiryat-shmona-youth-in-progress",
-      "slug": "maccabi-tel-aviv-ironi-kiryat-shmona-youth-league-in-progress",
-      "title": "Maccabi Tel Aviv trail Ironi Kiryat Shmona early in youth league clash — match still in progress",
+      "id": "live-20260825-ben-cohen-memorial-banner",
+      "slug": "hapoel-beer-sheva-ben-cohen-memorial-banner-sabah",
+      "title": "'Nothing will stop us': new banner honours fallen fan Ben Cohen after Romanian veto",
       "statusBefore": "review",
-      "words": 120,
-      "paragraphs": 5,
-      "facts": 5,
-      "verificationSources": 1,
+      "words": 494,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 5,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-25-maccabi-ta-kiryat-shmona-youth-held",
+      "slug": "maccabi-tel-aviv-kiryat-shmona-youth-league-in-progress",
+      "title": "Maccabi Tel Aviv trail Ironi Kiryat Shmona 0-2 in youth league clash — match still in progress",
+      "statusBefore": "review",
+      "words": 71,
+      "paragraphs": 2,
+      "facts": 5,
+      "verificationSources": 1,
+      "blockers": [
+        "structure:2/3-paragraphs"
+      ],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -17795,31 +17798,18 @@
   ],
   "cleanPublished": [
     {
-      "id": "live-20260825-atletico-shareholders-alvarez-barcelona",
-      "slug": "atletico-shareholders-idan-ofer-unite-against-alvarez-barcelona-move",
-      "title": "Idan Ofer among Atlético Madrid shareholders blocking Julián Álvarez's Barcelona dream",
+      "id": "live-2026-08-25-keaton-wallace-maccabi-arrival",
+      "slug": "keaton-wallace-arrives-maccabi-tel-aviv-lost-bags",
+      "title": "Keaton Wallace lands in Israel to join Maccabi Tel Aviv: \"I lost my bags, but I came to work\"",
       "statusBefore": "published",
-      "words": 446,
+      "words": 358,
       "paragraphs": 9,
-      "facts": 5,
-      "verificationSources": 4,
+      "facts": 6,
+      "verificationSources": 3,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline",
         "media:no-action-or-competition-context-detected"
       ]
-    },
-    {
-      "id": "live-20260825-hapoel-beersheva-bencohen-memorial-banner",
-      "slug": "ben-cohen-memorial-banner-hapoel-beer-sheva-baku",
-      "title": "'Nothing will stop us': fallen fan's family carry a new memorial banner to Hapoel Beer Sheva's Baku decider",
-      "statusBefore": "published",
-      "words": 432,
-      "paragraphs": 10,
-      "facts": 6,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": []
     },
     {
       "id": "live-20260825-hapoel-beersheva-sabah-zlatanovic-preview",

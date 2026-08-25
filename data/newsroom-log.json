@@ -2562,5 +2562,56 @@
         "reason": ""
       }
     ]
+  },
+  {
+    "ts": "2026-08-25T15:27:59.097Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 2,
+    "review": 1,
+    "skipped": 2,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "maccabi-tel-aviv-kiryat-shmona-youth-league-in-progress",
+        "title": "Maccabi Tel Aviv trail Ironi Kiryat Shmona 0-2 in youth league clash — match still in progress",
+        "confidence": 0,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "match in progress — wait for full time"
+      },
+      {
+        "slug": "hapoel-beer-sheva-ben-cohen-memorial-banner-sabah",
+        "title": "'Nothing will stop us': new banner honours fallen fan Ben Cohen after Romanian veto",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "url": "https://www.one.co.il/Article/531582.html",
+        "decision": "skipped",
+        "reason": "no valid article emitted"
+      },
+      {
+        "slug": "keaton-wallace-arrives-maccabi-tel-aviv-lost-bags",
+        "title": "Keaton Wallace lands in Israel to join Maccabi Tel Aviv: \"I lost my bags, but I came to work\"",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "ofer-atletico-shareholders-block-alvarez-barcelona",
+        "title": "Idan Ofer among Atletico Madrid shareholders blocking Julian Alvarez's move to Barcelona",
+        "decision": "duplicate",
+        "reason": "same event as julian-alvarez-booed-atletico-madrid-barcelona-transfer-saga"
+      }
+    ]
   }
 ]
