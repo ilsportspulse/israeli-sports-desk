@@ -1,5 +1,55 @@
 [
   {
+    "ts": "2026-08-25T20:13:54.404Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 2,
+    "review": 1,
+    "skipped": 2,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "al-nassr-al-ettifaq-3-2-ronaldo-substituted-halftime-mane-comeback",
+        "title": "Al Nassr 3-2 Al Ettifaq: Ronaldo fumes after halftime hook as Mane inspires 10-man comeback",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "marciano-diop-player-ratings-sabah-hapoel-beer-sheva-champions-league",
+        "title": "Marciano rated best on a brutal night as Sabah end Hapoel Be'er Sheva's Champions League dream",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "beer-sheva-kozhok-reaction-sabah-champions-league-elimination",
+        "title": "Sabah FK 5-2 Hapoel Be'er Sheva (6-4 agg): Kozhok says his side 'weren't worthy' of Champions League place",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "vitor-i-feel-very-bad-sabah-hapoel-beer-sheva-champions-league-exit",
+        "title": "Sabah 5-2 Hapoel Be'er Sheva (6-4 agg): Vítor - 'I feel very bad, this is a very difficult moment'",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "hapoel-kfar-saba-beitar-jerusalem-youth-league-2-0",
+        "title": "Hapoel Kfar Saba beat Beitar Jerusalem 2-0 in Youth League round three",
+        "confidence": 0,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "not newsworthy — this is an Under-16 academy fixture (Ligat Ne'arim A, round 3, players born 2010), not a first-team match; held per editorial policy on trivial filler. Scorer name transliterations also unverified against a second source."
+      }
+    ]
+  },
+  {
     "ts": "2026-08-25T19:35:16.354Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -2491,59 +2541,6 @@
         "slug": "hapoel-ramat-gan-summer-squad-rebuild-2026",
         "title": "Hapoel Ramat Gan rebuild almost an entire squad for their Ligat Ha'Al return",
         "confidence": 0.78,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-22T06:49:51.840Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 2,
-    "review": 2,
-    "skipped": 1,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "kafr-qasim-mizrahi-compensation-ruling",
-        "title": "Kafr Qasim ordered to pay hundreds of thousands of shekels to forward Yaniv Mizrahi",
-        "confidence": 0.82,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Compensation figures and quotes rely on a single reliable source (ONE); no verifiable, correctly-identified Wikimedia Commons photo of Mizrahi or Kafr Qasim's team/ground could be confirmed, so no image is included."
-      },
-      {
-        "slug": "franck-rivollier-hapoel-petah-tikva-maccabi-derby-interview",
-        "title": "Franck Rivollier explains his move to bitter rivals Maccabi Petah Tikva",
-        "confidence": 0.8,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "ido-saar-hapoel-haifa-injury-comeback",
-        "title": "Ido Sa'ar's long road back: Hapoel Haifa youth defender scores after horror leg break",
-        "confidence": 0.75,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Niche youth-football story reported by a single outlet (ONE); some player/coach names are phonetic transliterations from Hebrew and are not independently indexed elsewhere."
-      },
-      {
-        "url": "https://www.one.co.il/Article/531254.html",
-        "decision": "skipped",
-        "reason": "no valid article emitted"
-      },
-      {
-        "slug": "eckert-confirms-peretz-southampton-number-one-goalkeeper",
-        "title": "Southampton boss Tonda Eckert says he told Ramsdale straight: Peretz is our No. 1",
-        "confidence": 0.85,
         "gate": "pass",
         "decision": "published",
         "reason": ""

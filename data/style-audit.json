@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T19:53:58.541Z",
+  "generatedAt": "2026-08-25T20:33:45.780Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,21 +11,21 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1228,
+    "publishedArticles": 1229,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 417,
-      "average": 422
+      "average": 422.4
     },
     "paragraphDistribution": {
-      "3": 36,
+      "3": 35,
       "4": 6,
       "5": 11,
       "6": 58,
       "7": 185,
-      "8": 359,
-      "9": 301,
+      "8": 360,
+      "9": 302,
       "10": 197,
       "11": 49,
       "12": 15,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.292,
+    "dominantParagraphShare": 0.293,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 58,
     "analysisBelowTarget": 12,
-    "articlesWithStyleFlags": 207
+    "articlesWithStyleFlags": 206
   },
   "flagged": [
     {
@@ -4635,29 +4635,6 @@
       ]
     },
     {
-      "id": "result-2026-08-19-hapoel-be-er-sabah-fk",
-      "slug": "hapoel-be-er-2-1-sabah-fk-champions-league-qualifying",
-      "title": "Hapoel Be'er 2–1 Sabah FK: Champions League qualifying",
-      "kind": "news",
-      "words": 98,
-      "paragraphs": 3,
-      "paragraphWords": {
-        "shortest": 26,
-        "longest": 39,
-        "average": 32.7
-      },
-      "sentenceWords": {
-        "shortest": 12,
-        "longest": 23,
-        "average": 16.3
-      },
-      "lexicalDiversity": 0.714,
-      "publisherAttributions": 0,
-      "flags": [
-        "below-editorial-target:98/280"
-      ]
-    },
-    {
       "id": "live-2026-08-22-yuval-sason-bnei-reineh",
       "slug": "yuval-sason-closes-in-on-bnei-reineh-move",
       "title": "Yuval Sason closes in on move to Bnei Reineh",
@@ -4820,6 +4797,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-25-vitor-sabah-hapoel-beer-sheva-champions-league-exit",
+      "slug": "vitor-i-feel-very-bad-sabah-hapoel-beer-sheva-champions-league-exit",
+      "title": "Sabah 5-2 Hapoel Be'er Sheva (6-4 agg): Vítor - 'I feel very bad, this is a very difficult moment'",
+      "kind": "news",
+      "words": 610,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 43,
+        "longest": 102,
+        "average": 67.8
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 110,
+        "average": 38.1
+      },
+      "lexicalDiversity": 0.51,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-25-ronaldo-halftime-al-nassr-comeback",
+      "slug": "al-nassr-al-ettifaq-3-2-ronaldo-substituted-halftime-mane-comeback",
+      "title": "Al Nassr 3-2 Al Ettifaq: Ronaldo fumes after halftime hook as Mane inspires 10-man comeback",
+      "kind": "article",
+      "words": 366,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 64,
+        "average": 45.8
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 52,
+        "average": 28.2
+      },
+      "lexicalDiversity": 0.626,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-08-25-maccabi-ashdod-turner-mcduffie-imports-land",
       "slug": "maccabi-ashdod-turner-mcduffie-foreign-signings-land-israel",

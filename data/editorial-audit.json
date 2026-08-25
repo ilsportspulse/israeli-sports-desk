@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T19:53:58.146Z",
+  "generatedAt": "2026-08-25T20:33:45.141Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1822,
-    "publishedBefore": 1228,
-    "cleanPublished": 1221,
+    "totalArticles": 1826,
+    "publishedBefore": 1229,
+    "cleanPublished": 1222,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1228,
-    "reviewAfter": 594
+    "publishedAfter": 1229,
+    "reviewAfter": 597
   },
   "blockedPublished": [
     {
@@ -140,6 +140,49 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-20260825-hapoel-kfar-saba-beitar-jerusalem-youth",
+      "slug": "hapoel-kfar-saba-beitar-jerusalem-youth-league-2-0",
+      "title": "Hapoel Kfar Saba beat Beitar Jerusalem 2-0 in Youth League round three",
+      "statusBefore": "review",
+      "words": 155,
+      "paragraphs": 5,
+      "facts": 6,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-25-vitor-sabah-hapoel-beer-sheva-champions-league-exit",
+      "slug": "vitor-i-feel-very-bad-sabah-hapoel-beer-sheva-champions-league-exit",
+      "title": "Sabah 5-2 Hapoel Be'er Sheva (6-4 agg): Vítor - 'I feel very bad, this is a very difficult moment'",
+      "statusBefore": "published",
+      "words": 609,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-25-ronaldo-halftime-al-nassr-comeback",
+      "slug": "al-nassr-al-ettifaq-3-2-ronaldo-substituted-halftime-mane-comeback",
+      "title": "Al Nassr 3-2 Al Ettifaq: Ronaldo fumes after halftime hook as Mane inspires 10-man comeback",
+      "statusBefore": "published",
+      "words": 367,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
     {
       "id": "live-2026-08-25-maccabi-ashdod-turner-mcduffie-imports-land",
       "slug": "maccabi-ashdod-turner-mcduffie-foreign-signings-land-israel",
@@ -17985,6 +18028,34 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-2026-08-25-vitor-sabah-hapoel-beer-sheva-champions-league-exit",
+      "slug": "vitor-i-feel-very-bad-sabah-hapoel-beer-sheva-champions-league-exit",
+      "title": "Sabah 5-2 Hapoel Be'er Sheva (6-4 agg): Vítor - 'I feel very bad, this is a very difficult moment'",
+      "statusBefore": "published",
+      "words": 609,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-25-ronaldo-halftime-al-nassr-comeback",
+      "slug": "al-nassr-al-ettifaq-3-2-ronaldo-substituted-halftime-mane-comeback",
+      "title": "Al Nassr 3-2 Al Ettifaq: Ronaldo fumes after halftime hook as Mane inspires 10-man comeback",
+      "statusBefore": "published",
+      "words": 367,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
       "id": "live-2026-08-25-maccabi-ashdod-turner-mcduffie-imports-land",
       "slug": "maccabi-ashdod-turner-mcduffie-foreign-signings-land-israel",
       "title": "Maccabi Ashdod's two new imports, Turner and McDuffie, touch down in Israel",
@@ -33971,18 +34042,6 @@
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
-    },
-    {
-      "id": "result-2026-08-19-hapoel-be-er-sabah-fk",
-      "slug": "hapoel-be-er-2-1-sabah-fk-champions-league-qualifying",
-      "title": "Hapoel Be'er 2–1 Sabah FK: Champions League qualifying",
-      "statusBefore": "published",
-      "words": 96,
-      "paragraphs": 3,
-      "facts": 3,
-      "verificationSources": 1,
-      "blockers": [],
-      "warnings": []
     },
     {
       "id": "live-2026-08-20-djokovic-vaccine-documentary",
