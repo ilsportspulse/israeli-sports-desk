@@ -2561,5 +2561,55 @@
         "reason": ""
       }
     ]
+  },
+  {
+    "ts": "2026-08-25T17:30:33.565Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 3,
+    "review": 0,
+    "skipped": 2,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "sabah-hapoel-beer-sheva-ucl-playoff-second-leg-held",
+        "title": "Hapoel Beer Sheva's Champions League playoff tie with Sabah still hangs in the balance",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "xavi-hernandez-netherlands-head-coach-after-guardiola-slot-say-no",
+        "title": "Xavi lands Netherlands job after Guardiola and Slot both said no",
+        "confidence": 0.92,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "manchester-united-sign-carlos-baleba-brighton",
+        "title": "Manchester United confirm £70m signing of Carlos Baleba from Brighton",
+        "confidence": 0.9,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "euroleague-24-teams-hapoel-tel-aviv-franchise-bid",
+        "title": "Hapoel Tel Aviv among 11 candidates as EuroLeague advances 24-team franchise plan",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "bouaddi-einstein-man-city-transfer",
+        "title": "Meet 'Einstein': Ayoub Bouaddi seals British-record teenage move to Manchester City",
+        "decision": "duplicate"
+      }
+    ]
   }
 ]

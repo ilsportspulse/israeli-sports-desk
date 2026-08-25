@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T17:26:37.841Z",
+  "generatedAt": "2026-08-25T17:50:36.448Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,7 +11,7 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1222,
+    "publishedArticles": 1223,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
@@ -24,9 +24,9 @@
       "5": 11,
       "6": 57,
       "7": 184,
-      "8": 357,
-      "9": 300,
-      "10": 196,
+      "8": 358,
+      "9": 299,
+      "10": 197,
       "11": 49,
       "12": 15,
       "13": 5,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.292,
+    "dominantParagraphShare": 0.293,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 57,
     "analysisBelowTarget": 12,
@@ -4821,45 +4821,66 @@
   ],
   "clean": [
     {
-      "id": "live-20260825-xavi-netherlands-podium-quote",
-      "slug": "xavi-netherlands-guardiola-slot-podium-quote",
-      "title": "Xavi jokes he's \"on the podium\" after Guardiola and Slot turned down the Netherlands job",
+      "id": "live-20260825-euroleague-24-teams-hapoel-tel-aviv",
+      "slug": "euroleague-24-teams-hapoel-tel-aviv-franchise-bid",
+      "title": "Hapoel Tel Aviv among 11 candidates as EuroLeague advances 24-team franchise plan",
       "kind": "news",
-      "words": 425,
-      "paragraphs": 9,
+      "words": 376,
+      "paragraphs": 10,
       "paragraphWords": {
-        "shortest": 40,
-        "longest": 60,
-        "average": 47.2
+        "shortest": 30,
+        "longest": 44,
+        "average": 37.6
       },
       "sentenceWords": {
-        "shortest": 6,
-        "longest": 54,
-        "average": 32.7
+        "shortest": 17,
+        "longest": 42,
+        "average": 34.2
       },
-      "lexicalDiversity": 0.591,
+      "lexicalDiversity": 0.665,
       "publisherAttributions": 0,
       "flags": []
     },
     {
-      "id": "live-2026-08-25-euroleague-24-team-expansion-hapoel-tel-aviv",
-      "slug": "euroleague-24-team-expansion-hapoel-tel-aviv-candidate",
-      "title": "Hapoel Tel Aviv among 11 candidates as EuroLeague plots 24-team expansion",
+      "id": "live-20260825-man-utd-baleba-signing",
+      "slug": "manchester-united-sign-carlos-baleba-brighton",
+      "title": "Manchester United confirm £70m signing of Carlos Baleba from Brighton",
       "kind": "news",
-      "words": 445,
+      "words": 394,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 61,
+        "average": 49.3
+      },
+      "sentenceWords": {
+        "shortest": 26,
+        "longest": 80,
+        "average": 35.8
+      },
+      "lexicalDiversity": 0.604,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-25-xavi-netherlands-head-coach",
+      "slug": "xavi-hernandez-netherlands-head-coach-after-guardiola-slot-say-no",
+      "title": "Xavi lands Netherlands job after Guardiola and Slot both said no",
+      "kind": "article",
+      "words": 474,
       "paragraphs": 10,
       "paragraphWords": {
         "shortest": 30,
-        "longest": 65,
-        "average": 44.5
+        "longest": 63,
+        "average": 47.4
       },
       "sentenceWords": {
-        "shortest": 4,
-        "longest": 47,
-        "average": 26.2
+        "shortest": 7,
+        "longest": 59,
+        "average": 33.9
       },
-      "lexicalDiversity": 0.593,
-      "publisherAttributions": 1,
+      "lexicalDiversity": 0.538,
+      "publisherAttributions": 0,
       "flags": []
     },
     {

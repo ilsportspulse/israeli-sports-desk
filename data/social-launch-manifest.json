@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-25T17:26:36Z",
-    "validUntil": "2026-08-26T05:26:36Z",
+    "checkedAt": "2026-08-25T17:50:35Z",
+    "validUntil": "2026-08-26T05:50:35Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 884,
+        "maxAgeHours": 885,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260825-xavi-netherlands-podium-quote",
+        "articleId": "live-20260825-euroleague-24-teams-hapoel-tel-aviv",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 892,
+        "maxAgeHours": 893,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-25-turiel-lecce-transfer",
+        "articleId": "live-20260825-man-utd-baleba-signing",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 902,
+        "maxAgeHours": 903,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-25-maccabi-haifa-hutsulyak-rejection",
+        "articleId": "live-2026-08-25-xavi-netherlands-head-coach",
         "maxAgeHours": 36,
         "requires": []
       }
