@@ -2591,5 +2591,59 @@
         "reason": "below gate thresholds"
       }
     ]
+  },
+  {
+    "ts": "2026-08-25T08:55:34.244Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 3,
+    "review": 1,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "hapoel-beer-sheva-sabah-baku-champions-league-preview",
+        "title": "Baku braces for a sell-out as Hapoel Beer Sheva defend a slender lead over Sabah",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "eshel-levental-joins-hapoel-haemek-senior-training",
+        "title": "Sixteen-year-old Eshel Levental joins Hapoel Ha'Emek's senior training group",
+        "confidence": 0.78,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Club quotes are paraphrased/translated from ONE's Hebrew report, not verbatim; only one strongly-matched Wikimedia Commons image (an older file photo of the club, then named Hapoel Gilboa Galil) could be verified rather than the usual 2-4."
+      },
+      {
+        "slug": "hapoel-tel-aviv-withdraws-yahav-gurfinkel-pursuit",
+        "title": "Hapoel Tel Aviv pulls out of move for former full-back Yahav Gurfinkel",
+        "decision": "duplicate",
+        "reason": "same event as hapoel-tel-aviv-gelbard-loan-kfar-saba-gorfinkel-return"
+      },
+      {
+        "slug": "carragher-liverpool-worst-transfer-window-premier-league-history",
+        "title": "Carragher warns Liverpool's £450m spree could be the worst transfer window in Premier League history",
+        "confidence": 0.9,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "manor-solomon-west-ham-pro-palestinian-fan-backlash",
+        "title": "Pro-Palestinian West Ham fans vow to keep campaigning until Manor Solomon leaves club",
+        "confidence": 0.78,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
   }
 ]

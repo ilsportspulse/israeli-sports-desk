@@ -695,7 +695,7 @@
       }
     ],
     "confidence": 0.82,
-    "warning": "",
+    "warning": "dup same-event (7: baku,hapoel,beer,sheva,lead,sabah)",
     "commonsQuery": "Hapoel Beer Sheva football club Sabah FK Azerbaijan",
     "commonsCandidates": [
       {
@@ -717,7 +717,7 @@
         "license": "CC0 1.0"
       }
     ],
-    "status": "published"
+    "status": "review"
   },
   {
     "id": "live-2026-08-25-roy-berkovich-father-struggle",
@@ -178896,6 +178896,443 @@
         "creditUrl": "https://commons.wikimedia.org/wiki/File:Arena,_Ajax_stadion,_Amsterdam.JPG",
         "credit": "Alf van Beem",
         "license": "CC0 1.0"
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "live-20260825-solomon-west-ham-fan-backlash",
+    "slug": "manor-solomon-west-ham-pro-palestinian-fan-backlash",
+    "title": "Pro-Palestinian West Ham fans vow to keep campaigning until Manor Solomon leaves club",
+    "dek": "Activists quoted by ONE say they will not stop until the Israeli winger is out of West Ham, weeks after the club condemned an anti-Palestinian chant aimed at him.",
+    "category": "Israelis Abroad",
+    "desk": "israel",
+    "kind": "article",
+    "storyForm": "news",
+    "publishedAt": "2026-08-25T08:55:34.244Z",
+    "updatedAt": "2026-08-25T08:55:34.244Z",
+    "readMinutes": 4,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/531545.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/531545.html"
+      },
+      {
+        "label": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/8/13/pro-palestine-football-fans-lament-west-ham-for-signing-manor-solomon"
+      },
+      {
+        "label": "The Times of Israel",
+        "url": "https://www.timesofisrael.com/west-ham-slams-anti-palestine-chant-directed-at-israeli-soccer-player-manor-solomon/"
+      },
+      {
+        "label": "Middle East Eye",
+        "url": "https://www.middleeasteye.net/news/he-hates-palestine-west-ham-urges-fans-drop-chant-solomon-pro%E2%80%91israel-stance"
+      },
+      {
+        "label": "West Ham United (official signing announcement)",
+        "url": "https://www.whufc.com/en/news/west-ham-united-sign-manor-solomon"
+      }
+    ],
+    "body": [
+      "A group of pro-Palestinian West Ham United supporters says it will keep up the pressure on the club until Israeli winger Manor Solomon is gone, according to a report by the Israeli outlet ONE, which quoted activists as saying: \"We are West Ham subscribers. We will continue to support Palestine, we do not agree with Solomon's signing and we will continue to make our voice heard until he leaves the club.\"",
+      "The comments follow Solomon's move to West Ham from Tottenham Hotspur earlier this month, a transfer reported at roughly £5m rising to £7m on a three-year deal with a club option for a fourth. The 27-year-old scored on his debut in a 2-2 draw at Burnley, but the occasion was overshadowed by a chant some away fans aimed at him: \"Manor Solomon's on my mind, and he hates Palestine.\"",
+      "West Ham quickly distanced itself from the chant, calling it \"offensive and divisive\" and stressing that \"every supporter is an ambassador for our club\" who should be able to watch football \"without fear, discrimination or abuse\" - a statement carried by the Times of Israel and Middle East Eye among others.",
+      "According to ONE, commenters reacting to the activists' video accused it of amounting to intimidation, with one calling it \"a terrifying video in a terrorist style designed to frighten West Ham into getting rid of the Jewish footballer Manor Solomon.\" That characterization was reported by ONE but could not be independently confirmed through English-language coverage of the story.",
+      "Another commenter cited by ONE claimed Palestinian flags had been placed around West Ham's training ground to pressure the club into dropping Solomon. That specific claim likewise could not be verified elsewhere, though it echoes an earlier episode from September 2025, when fans reportedly waved Palestinian flags and jeered Solomon during an away match while he was on loan at Leeds United.",
+      "The chant itself did not originate at West Ham. It was first heard from Leeds fans during Solomon's loan spell there in the 2024-25 season, when Leeds won promotion to the Premier League, and it has since followed him to his new club.",
+      "Much of the anger traces back to Solomon's own public statements since the war in Gaza began. Weeks after the October 7, 2023 Hamas attack, he wrote on Instagram that \"Israel has the right to defend itself\" and urged followers to \"pray for Israel.\" He later responded to the \"All Eyes on Rafah\" social media campaign by posting, \"Where were your eyes on October 7?\" - posts Al Jazeera reported as the backdrop to the current backlash.",
+      "Solomon, an Israel international, previously played for Maccabi Petah Tikva, Shakhtar Donetsk and Fulham before joining Tottenham, and had a title-winning loan season at Leeds. He remains one of the most prominent Israeli players currently in English football.",
+      "West Ham has given no indication it intends to move Solomon on. Its statement condemning the chant reads as a defense of the player rather than a distancing from him, but ONE's report suggests the campaign from a section of pro-Palestinian supporters has no plans to let up."
+    ],
+    "facts": [
+      "Manor Solomon, an Israeli international winger, joined West Ham United from Tottenham Hotspur in August 2026 on a reported £5m-£7m, three-year deal with a club option for a fourth.",
+      "Solomon scored on his West Ham debut, a 2-2 draw at Burnley, but some away fans sang a chant referencing his pro-Israel views.",
+      "West Ham United publicly condemned the chant as \"offensive and divisive.\"",
+      "Pro-Palestinian activists quoted by ONE said they would keep protesting \"until Solomon leaves West Ham.\"",
+      "Solomon has previously posted pro-Israel messages on social media, including after the October 7, 2023 attack and in response to the \"All Eyes on Rafah\" campaign.",
+      "The anti-Solomon chant was first sung by Leeds United fans during his 2024-25 loan spell at the club."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 55,
+    "homepageReason": "Ongoing fan controversy around a prominent Israeli international at a Premier League club - relevant to our Israelis Abroad coverage, though it is a quotes/reaction story rather than a result or transfer.",
+    "dedupeKey": "whu-solomon-fan-backlash-2026-08",
+    "aiDisclosure": "Drafted by an AI copy desk assistant from ONE's original Hebrew report, cross-checked against Al Jazeera, the Times of Israel, Middle East Eye and West Ham's official statement.",
+    "nameChecks": [
+      {
+        "hebrew": "מנור סולומון",
+        "english": "Manor Solomon",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Manor_Solomon",
+        "confidence": 0.95
+      }
+    ],
+    "confidence": 0.78,
+    "warning": "ONE's claims of a 'terrorist-style' intimidation video and Palestinian flags placed at West Ham's training ground could not be independently verified in English-language coverage; treated in the copy as unconfirmed reports from social-media commentary quoted by ONE, not established fact.",
+    "commonsQuery": "Manor Solomon footballer West Ham London Stadium",
+    "commonsCandidates": [
+      {
+        "title": "File:Manor Solomon - Press Conference - Israel Football Association - 26 May 2022 (cropped).jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Manor_Solomon_-_Press_Conference_-_Israel_Football_Association_-_26_May_2022_(cropped).jpg",
+        "credit": "NivAhronson / Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:Manor Solomon 15032025 (1).jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Manor_Solomon_15032025_(1).jpg",
+        "credit": "Timmy96 / Wikimedia Commons",
+        "license": "CC0 1.0"
+      },
+      {
+        "title": "File:West Ham London Stadium Panorama.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:West_Ham_London_Stadium_Panorama.jpg",
+        "credit": "Louis (Flickr) / Wikimedia Commons",
+        "license": "CC BY 2.0"
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "live-2026-08-25-carragher-worst-transfer-window-liverpool",
+    "slug": "carragher-liverpool-worst-transfer-window-premier-league-history",
+    "title": "Carragher warns Liverpool's £450m spree could be the worst transfer window in Premier League history",
+    "dek": "Sky Sports pundits Jamie Carragher and Gary Neville turn on Florian Wirtz and Alexander Isak after Liverpool's stumbling 2-2 draw at Newcastle, with Andoni Iraola under early pressure to fix a misfiring rebuild.",
+    "category": "World Football",
+    "desk": "international",
+    "kind": "news",
+    "storyForm": "news",
+    "publishedAt": "2026-08-25T08:55:34.244Z",
+    "updatedAt": "2026-08-25T08:55:34.244Z",
+    "readMinutes": 4,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/531546.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/531546.html"
+      },
+      {
+        "label": "Sky Sports",
+        "url": "https://www.skysports.com/football/news/11669/13576764/liverpool-florian-wirtz-part-of-potentially-a-worst-ever-transfer-window-says-jamie-carragher-as-reds-midfield-problems-exposed"
+      },
+      {
+        "label": "ESPN",
+        "url": "https://www.espn.com/soccer/story/_/id/49716466/jamie-carragher-liverpool-2025-worst-transfer-window-premier-league-history"
+      },
+      {
+        "label": "ThisIsAnfield",
+        "url": "https://www.thisisanfield.com/2026/08/newcastle-2-2-liverpool-match-report-premier-league-2026-iraola/"
+      }
+    ],
+    "body": [
+      "Liverpool spent close to £450 million rebuilding their squad last summer, and Jamie Carragher thinks the club may come to regret every pound of it. Speaking on Sky Sports' Monday Night Football after Liverpool's stumbling 2-2 draw at Newcastle, the former Reds defender said the window could go down as the worst business a Premier League club has ever done.",
+      "\"If this doesn't change in the next two or three months under Iraola, and these players improving, I think we're going to be looking at that as arguably the worst transfer window we've probably seen in Premier League history, when you consider the fees for these players, and what it's going to do for Liverpool,\" Carragher said.",
+      "The list of arrivals is eye-watering. Alexander Isak joined from Newcastle for £125 million on transfer deadline day, while Florian Wirtz arrived from Bayer Leverkusen for an initial £100 million that could rise to £116 million. Liverpool also paid £79 million for Hugo Ekitike, plus fees for Milos Kerkez, Jeremie Frimpong, Giorgi Mamardashvili and teenage centre-back Giovanni Leoni.",
+      "Carragher singled out Ekitike as the one clear success of the window, saying the others have underperformed relative to their price tags for the best part of a year. He was particularly scathing about Wirtz, who arrived as Germany's brightest young talent and a British-record signing for an attacking midfielder.",
+      "\"I don't see where he fits in at all, really,\" Carragher said of the 23-year-old. He went further on the fee itself: \"Neat and tidy footballer. Not a player who should be worth £110m, someone who probably should be £50m-60m.\" He also questioned Liverpool's midfield balance more broadly, saying: \"I don't believe that midfield can function with the personnel in there. For me, it doesn't work,\" adding that Liverpool's attacking players think only of \"going forwards\" at the expense of defensive solidity.",
+      "Gary Neville, working alongside Carragher, was equally pointed on Wirtz and Isak, describing both as \"too nice\" and saying they \"must now start delivering\" after being given time to settle into English football.",
+      "The criticism landed the day after Liverpool were pegged back twice at St James' Park on the opening weekend of the season. Anthony Elanga put Newcastle ahead inside four minutes, Cody Gakpo levelled just after the break, Joe Willock restored the hosts' lead moments after coming off the bench, and Dominik Szoboszlai's stoppage-time penalty rescued a point for the visitors.",
+      "It was also the competitive bow for both new managers: Andoni Iraola, who succeeded Arne Slot at Anfield this summer, and Matthias Jaissle at Newcastle. Slot led Liverpool to the Premier League title in his debut season but was relieved of his duties after the club slumped to fifth place last term, prompting the club to turn to Iraola for a reset.",
+      "Carragher was not optimistic about an immediate turnaround, adding: \"I don't think Liverpool will be contenders this season.\" The club now have little time to respond, with Nottingham Forest visiting Anfield on August 29 in what has quickly become a significant early test for Iraola's tenure."
+    ],
+    "facts": [
+      "Jamie Carragher said on Sky Sports that Liverpool's summer transfer window could become 'arguably the worst' in Premier League history if performances do not improve within two to three months.",
+      "Liverpool spent close to £450 million in summer 2025, including a club-record £125 million on Alexander Isak from Newcastle and an initial £100 million (rising to a potential £116 million) on Florian Wirtz from Bayer Leverkusen.",
+      "Other 2025 signings named in the discussion include Hugo Ekitike (£79m), Milos Kerkez, Jeremie Frimpong, Giorgi Mamardashvili and Giovanni Leoni.",
+      "Carragher exempted only Ekitike from his criticism, saying the rest of the new arrivals have underperformed for close to a year.",
+      "Gary Neville called Wirtz and Isak 'too nice' and said they must start delivering.",
+      "The comments followed Liverpool's 2-2 draw at Newcastle on the opening weekend of the 2026/27 Premier League season, the competitive debut for new Liverpool manager Andoni Iraola, who replaced Arne Slot after Liverpool finished fifth last season.",
+      "Liverpool next play Nottingham Forest at Anfield on August 29, 2026."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 58,
+    "homepageReason": "High-profile pundit criticism of a marquee Premier League club's record-breaking transfer spend, tied to a live managerial reset — strong global football interest but a reaction/analysis piece rather than a confirmed result.",
+    "dedupeKey": "liverpool-carragher-transfer-window-criticism-2026-08",
+    "aiDisclosure": "Drafted by an AI copy desk from a single Hebrew-language source (ONE) and cross-verified against English-language outlets before publication.",
+    "nameChecks": [
+      {
+        "hebrew": "קראגר",
+        "english": "Jamie Carragher",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Jamie_Carragher",
+        "confidence": 0.97
+      },
+      {
+        "hebrew": "ניוויל",
+        "english": "Gary Neville",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Gary_Neville",
+        "confidence": 0.97
+      },
+      {
+        "hebrew": "וירץ",
+        "english": "Florian Wirtz",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Florian_Wirtz",
+        "confidence": 0.97
+      },
+      {
+        "hebrew": "איזאק",
+        "english": "Alexander Isak",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Alexander_Isak",
+        "confidence": 0.97
+      },
+      {
+        "hebrew": "איראולה",
+        "english": "Andoni Iraola",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Andoni_Iraola",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "לאוני",
+        "english": "Giovanni Leoni",
+        "verificationUrl": "https://www.premierleague.com/en/news/4373873/liverpool-sign-centre-back-giovanni-leoni-from-parma-in-summer-transfer-window",
+        "confidence": 0.93
+      }
+    ],
+    "confidence": 0.9,
+    "warning": "",
+    "commonsQuery": "Jamie Carragher Liverpool pundit photograph",
+    "commonsCandidates": [
+      {
+        "title": "File:Jamie Carragher.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Jamie_Carragher.jpg",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY 2.0"
+      },
+      {
+        "title": "File:Florian Wirtz 04012026 (3) (extracted).jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Florian_Wirtz_04012026_(3)_(extracted).jpg",
+        "credit": "Wikimedia Commons",
+        "license": "CC0 1.0"
+      },
+      {
+        "title": "File:Premier League Newcastle-Arsenal 2023-05-07 22.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Premier_League_Newcastle-Arsenal_2023-05-07_22.jpg",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "status": "published"
+  },
+  {
+    "id": "live-20260825-eshel-levental-hapoel-haemek-senior-training",
+    "slug": "eshel-levental-joins-hapoel-haemek-senior-training",
+    "title": "Sixteen-year-old Eshel Levental joins Hapoel Ha'Emek's senior training group",
+    "dek": "The teenage guard, a leading scorer for Israel's under-16 cadets at this summer's European Championship, will train alongside the top-flight club's senior squad while still turning out for the youth side.",
+    "category": "Israeli Basketball",
+    "desk": "israel",
+    "kind": "article",
+    "storyForm": "news",
+    "publishedAt": "2026-08-25T08:55:34.244Z",
+    "updatedAt": "2026-08-25T08:55:34.244Z",
+    "readMinutes": 3,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/531548.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/531548.html"
+      },
+      {
+        "label": "Sports Rabbi profile of Eshel Levental",
+        "url": "https://sportsrabbi.com/%D7%94%D7%93%D7%95%D7%93-%D7%94%D7%9E%D7%A4%D7%95%D7%A8%D7%A1%D7%9D-%D7%A1%D7%92%D7%99%D7%A8%D7%AA-%D7%94%D7%9E%D7%A2%D7%92%D7%9C-%D7%A2%D7%9D-%D7%A4%D7%99%D7%A0%D7%99-%D7%95%D7%94%D7%93%D7%9E%D7%99/"
+      },
+      {
+        "label": "Hapoel Ha'Emek club profile, basket.co.il (Ligat Winner Sal)",
+        "url": "https://basket.co.il/team.asp?TeamId=1122&sType=p1"
+      }
+    ],
+    "body": [
+      "Hapoel Ha'Emek is fast-tracking one of its own. The Gan Ner-based club has invited 16-year-old guard Eshel Levental to train with its senior squad for the coming season, ONE reported, even as he continues to play for the youth team in parallel.",
+      "It is a notable vote of confidence for a player who only recently turned heads on the international stage. Levental was among the leading scorers for Israel's under-16 cadets team at this summer's European Championship, according to the report, after coming up through Hapoel Ha'Emek's own development system.",
+      "The senior team he is now training with is no small stage. Hapoel Ha'Emek, previously known as Hapoel Gilboa Galil before a rebrand this year, plays in the Israeli Basketball Premier League, known commercially as Ligat Winner Sal — the top tier of the domestic game, home to Maccabi and Hapoel Tel Aviv among others.",
+      "Club professional director Yonatan Alon framed the move as part of a deliberate strategy rather than a one-off gesture, telling ONE that the club wants to give its young players the chance \"to train, learn and develop\" inside the senior team's environment.",
+      "Youth director Yoav Shankman struck a similar note, describing the arrangement as evidence of the club's commitment to building a genuine pathway for its developing players rather than simply promoting a promising name.",
+      "Levental will not be alone in making the step up. ONE also reported that another young player, Shmurey Barzani, will keep training with Hapoel Ha'Emek's senior squad after signing a dual contract that also ties him to Tiberias.",
+      "The plan for both players, per the report, is to combine senior-level exposure with continued minutes in the youth league this season — a gradual introduction rather than an immediate promotion to the professional roster.",
+      "For Levental, basketball runs in the family. He is a nephew of well-known Israeli basketball commentator Amit Levental, and multiple relatives, including his father, have played the game — a background that has shadowed his own rise through the youth ranks."
+    ],
+    "facts": [
+      "Eshel Levental, a 16-year-old guard, will train with Hapoel Ha'Emek's senior squad for the 2025-26 season while continuing to play for the club's youth team.",
+      "Hapoel Ha'Emek, formerly Hapoel Gilboa Galil before a 2025 rebrand, plays in the Israeli Basketball Premier League (Ligat Winner Sal), the top tier of Israeli basketball.",
+      "Levental was among the leading scorers for Israel's under-16 cadets team at the 2025 European Championship.",
+      "Club professional director Yonatan Alon and youth director Yoav Shankman both commented on the move as part of the club's development pathway for young players.",
+      "Fellow youth player Shmurey Barzani will also train with the senior squad after signing a dual contract with Tiberias and Hapoel Ha'Emek.",
+      "Levental is a nephew of Israeli basketball commentator Amit Levental and comes from a basketball-playing family."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 38,
+    "homepageReason": "Notable but routine club development news — a promising 16-year-old joining top-flight senior training, not a confirmed transfer or result.",
+    "dedupeKey": "hapoel-haemek-eshel-levental-senior-training-2025-26",
+    "aiDisclosure": "This article was drafted by an AI copy desk assistant from the cited source reporting and independently verified background, under editorial review.",
+    "nameChecks": [
+      {
+        "hebrew": "אשל לוינטל",
+        "english": "Eshel Levental",
+        "verificationUrl": "https://sportsrabbi.com/%D7%94%D7%93%D7%95%D7%93-%D7%94%D7%9E%D7%A4%D7%95%D7%A8%D7%A1%D7%9D-%D7%A1%D7%92%D7%99%D7%A8%D7%AA-%D7%94%D7%9E%D7%A2%D7%92%D7%9C-%D7%A2%D7%9D-%D7%A4%D7%99%D7%A0%D7%99-%D7%95%D7%94%D7%93%D7%9E%D7%99/",
+        "confidence": 0.75
+      },
+      {
+        "hebrew": "הפועל העמק",
+        "english": "Hapoel Ha'Emek",
+        "verificationUrl": "https://en.wikipedia.org/wiki/Hapoel_HaEmek",
+        "confidence": 0.9
+      },
+      {
+        "hebrew": "יונתן אלון",
+        "english": "Yonatan Alon",
+        "verificationUrl": "https://www.one.co.il/Article/531548.html",
+        "confidence": 0.6
+      },
+      {
+        "hebrew": "יואב שנקמן",
+        "english": "Yoav Shankman",
+        "verificationUrl": "https://sportsrabbi.com/%D7%94%D7%93%D7%95%D7%93-%D7%94%D7%9E%D7%A4%D7%95%D7%A8%D7%A1%D7%9D-%D7%A1%D7%92%D7%99%D7%A8%D7%AA-%D7%94%D7%9E%D7%A2%D7%92%D7%9C-%D7%A2%D7%9D-%D7%A4%D7%99%D7%A0%D7%99-%D7%95%D7%94%D7%93%D7%9E%D7%99/",
+        "confidence": 0.7
+      },
+      {
+        "hebrew": "שמורי ברזני",
+        "english": "Shmurey Barzani",
+        "verificationUrl": "https://www.one.co.il/Article/531548.html",
+        "confidence": 0.6
+      },
+      {
+        "hebrew": "עמית לוינטל",
+        "english": "Amit Levental",
+        "verificationUrl": "https://sportsrabbi.com/%D7%94%D7%93%D7%95%D7%93-%D7%94%D7%9E%D7%A4%D7%95%D7%A8%D7%A1%D7%9D-%D7%A1%D7%92%D7%99%D7%A8%D7%AA-%D7%94%D7%9E%D7%A2%D7%92%D7%9C-%D7%A2%D7%9D-%D7%A4%D7%99%D7%A0%D7%99-%D7%95%D7%94%D7%93%D7%9E%D7%99/",
+        "confidence": 0.6
+      }
+    ],
+    "confidence": 0.78,
+    "warning": "Club quotes are paraphrased/translated from ONE's Hebrew report, not verbatim; only one strongly-matched Wikimedia Commons image (an older file photo of the club, then named Hapoel Gilboa Galil) could be verified rather than the usual 2-4.",
+    "commonsQuery": "Hapoel Gilboa Galil basketball team photo",
+    "commonsCandidates": [
+      {
+        "title": "File:Hapoel Gilboa Galil.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Hapoel_Gilboa_Galil.jpg",
+        "credit": "Ilan Costica / Wikimedia Commons",
+        "license": "CC BY 3.0 / GFDL 1.2+"
+      }
+    ],
+    "status": "review"
+  },
+  {
+    "id": "live-20260825-hapoel-beer-sheva-sabah-baku-champions-league-preview",
+    "slug": "hapoel-beer-sheva-sabah-baku-champions-league-preview",
+    "title": "Baku braces for a sell-out as Hapoel Beer Sheva defend a slender lead over Sabah",
+    "dek": "The Azerbaijani side must overturn a 2-1 first-leg deficit on Tuesday, with local reports suggesting a bigger stadium than Sabah's own will be packed for the Champions League play-off decider.",
+    "category": "Israeli Football",
+    "desk": "israel",
+    "kind": "article",
+    "storyForm": "preview",
+    "publishedAt": "2026-08-25T08:55:34.244Z",
+    "updatedAt": "2026-08-25T08:55:34.244Z",
+    "readMinutes": 4,
+    "source": {
+      "name": "ONE",
+      "url": "https://www.one.co.il/Article/531492.html"
+    },
+    "verificationSources": [
+      {
+        "label": "ONE",
+        "url": "https://www.one.co.il/Article/531492.html"
+      },
+      {
+        "label": "UEFA.com – second leg facts",
+        "url": "https://www.uefa.com/uefachampionsleague/news/02a8-21670232ff22-53bd5512f714-1000--champions-league-qualifying-play-offs-second-leg-sabah-v/"
+      },
+      {
+        "label": "Sports Rabbi – first leg report",
+        "url": "https://sportsrabbi.com/en/goals-by-east-and-zlatanovic-leads-hapoel-beer-sheva-to-2-1-win-and-a-step-away-from-the-champions-league/"
+      },
+      {
+        "label": "İdman və Biz – ticket sales",
+        "url": "https://www.idman.biz/en/news/football/152296"
+      }
+    ],
+    "body": [
+      "Hapoel Be'er Sheva head into Tuesday night in Baku with the advantage that matters most in a two-legged tie: a lead. Ran Kojok's side beat Sabah 2-1 in the first leg in Bucharest last week, and a place in the Champions League league phase for the first time in the club's history is now within touching distance.",
+      "Sabah, the Azerbaijani champions, have to find a way back, and according to ONE the occasion in Baku is shaping up to be a genuine spectacle regardless of the football. The Azerbaijani outlet reports that local journalists are forecasting a crowd of anywhere between 20,000 and 28,000, with roughly 2,000 travelling Israeli supporters swallowed up inside a stadium filled largely with home fans.",
+      "One detail underlines just how big Sabah consider this game: they are not playing it at their own ground. ONE reports that Sabah's regular stadium does not meet UEFA's hosting standards — it is short on capacity and lacks the separate entrances required for home and away supporters — so the second leg has been shifted to the old Tofiq Bahramov Republican Stadium in Baku, a 31,000-capacity venue that last served as Azerbaijan's national stadium before the Baku Olympic Stadium was built.",
+      "The Azerbaijani outlet İdman və Biz reported this week that around 15,000 tickets had already been sold ahead of kick-off, a figure that, taken alongside ONE's local estimates, points toward a near-capacity house for a club used to playing in front of far smaller crowds.",
+      "The first leg swung on a fast start and a strong finish. Sabah led inside six minutes through Veljko Simić, but Hapoel responded before the break through Javon East and then won the game in the second half when Igor Zlatanović struck in the 79th minute to make it 2-1 — the same scoreline they now have to defend.",
+      "Kickoff on Tuesday is set for 20:45 local time in Baku, which is 19:45 in Israel — the one-hour time difference behind the discrepancy in kickoff times reported by different outlets. A draw or a Hapoel win by any margin would send the Israeli champions into the Champions League league phase for the first time; Sabah, chasing the same milestone themselves, need to win by two clear goals to force extra time, or by three to go through outright.",
+      "For Kojok, appointed by the club two seasons ago, it is the biggest night of his Be'er Sheva tenure so far. His side have already eliminated Red Star Belgrade on aggregate to reach this play-off round, and a positive result in Baku would complete the most successful European campaign in the club's history.",
+      "ONE's report also captured the mood among Azerbaijani commentary, with local voices quoted as rating the tie close to 50-50 given Sabah have not previously played at this particular stadium — a rare factor of unfamiliarity working against the home side even as it hosts what could be a sell-out crowd.",
+      "Whatever happens, the winner moves into the group phase of Europe's premier club competition for the first time — a landmark for either club, and one that has turned a routine play-off leg into what is being billed in Baku as one of the Azerbaijani game's biggest nights in years."
+    ],
+    "facts": [
+      "Hapoel Be'er Sheva won the Champions League play-off first leg 2-1 away to Sabah in Bucharest on 19 August 2026.",
+      "The second leg is being played on Tuesday, 25 August 2026, kicking off at 20:45 Baku time (19:45 Israel time).",
+      "The second leg has been moved to the Tofiq Bahramov Republican Stadium in Baku because Sabah's own stadium does not meet UEFA hosting standards, according to ONE.",
+      "İdman və Biz reported around 15,000 tickets sold ahead of the match, while ONE cited local estimates of a 20,000-28,000 crowd, including roughly 2,000 travelling Israeli supporters.",
+      "Sabah opened the scoring in the first leg through Veljko Simić after six minutes; Javon East equalised before half-time and Igor Zlatanović scored the winner in the 79th minute.",
+      "The winner of the tie reaches the UEFA Champions League league phase for the first time in either club's history.",
+      "Ran Kojok is Hapoel Be'er Sheva's head coach."
+    ],
+    "theme": "night-pitch",
+    "homepagePriority": 56,
+    "homepageReason": "High-stakes Champions League play-off preview with historic stakes for an Israeli club, but as a pre-match preview it is capped below the confirmed-result tier.",
+    "dedupeKey": "ucl-po-sabah-hapoelbeersheva-2026-08-25-leg2",
+    "aiDisclosure": "Drafted with AI assistance from verified reporting by ONE and corroborating outlets, reviewed by the Israel Sports Pulse desk before publication.",
+    "nameChecks": [
+      {
+        "hebrew": "רן קוז'וק",
+        "english": "Ran Kojok",
+        "verificationUrl": "https://sportsrabbi.com/en/goals-by-east-and-zlatanovic-leads-hapoel-beer-sheva-to-2-1-win-and-a-step-away-from-the-champions-league/",
+        "confidence": 0.85
+      },
+      {
+        "hebrew": "הפועל באר שבע",
+        "english": "Hapoel Be'er Sheva",
+        "verificationUrl": "https://www.uefa.com/uefachampionsleague/news/02a8-21670232ff22-53bd5512f714-1000--champions-league-qualifying-play-offs-second-leg-sabah-v/",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "סבאח",
+        "english": "Sabah FK",
+        "verificationUrl": "https://www.uefa.com/uefachampionsleague/news/02a8-21670232ff22-53bd5512f714-1000--champions-league-qualifying-play-offs-second-leg-sabah-v/",
+        "confidence": 0.95
+      },
+      {
+        "hebrew": "ג'בון איסט",
+        "english": "Javon East",
+        "verificationUrl": "https://sportsrabbi.com/en/goals-by-east-and-zlatanovic-leads-hapoel-beer-sheva-to-2-1-win-and-a-step-away-from-the-champions-league/",
+        "confidence": 0.85
+      },
+      {
+        "hebrew": "איגור זלטנוביץ'",
+        "english": "Igor Zlatanović",
+        "verificationUrl": "https://sportsrabbi.com/en/goals-by-east-and-zlatanovic-leads-hapoel-beer-sheva-to-2-1-win-and-a-step-away-from-the-champions-league/",
+        "confidence": 0.85
+      }
+    ],
+    "confidence": 0.82,
+    "warning": "Crowd figures (15,000 tickets sold per İdman və Biz; 20,000-28,000 estimated by local Azerbaijani commentators per ONE) are pre-match estimates, not an official sell-out confirmation from Sabah or UEFA.",
+    "commonsQuery": "Tofiq Bahramov Republican Stadium Baku football",
+    "commonsCandidates": [
+      {
+        "title": "File:Tofiq Bahramov Stadium Qarabağ Ağdam Internazionale.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Tofiq_Bahramov_Stadium_Qaraba%C4%9F_A%C4%9Fdam_Internazionale.jpg",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:Tevfik Behramov Stadyumu.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Tevfik_Behramov_Stadyumu.jpg",
+        "credit": "Abbaszade656 / Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "title": "File:Turner Stadium on February 27th 2017 Beer Sheva vs. Kfar Saba.jpg",
+        "creditUrl": "https://commons.wikimedia.org/wiki/File:Turner_Stadium_on_February_27th_2017_Beer_Sheva_vs._Kfar_Saba.jpg",
+        "credit": "The devious diesel / Wikimedia Commons",
+        "license": "CC BY-SA 4.0"
       }
     ],
     "status": "published"

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T08:47:43.824Z",
+  "generatedAt": "2026-08-25T09:14:40.608Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1784,
+    "totalArticles": 1783,
     "publishedBefore": 1207,
     "cleanPublished": 1200,
     "blockedPublished": 7,
     "demoted": 0,
     "publishedAfter": 1207,
-    "reviewAfter": 577
+    "reviewAfter": 576
   },
   "blockedPublished": [
     {
@@ -141,46 +141,31 @@
   ],
   "warnings": [
     {
-      "id": "live-2026-08-25-azerbaijani-writer-sabah-hapoel-beer-sheva-respect-not-fear",
-      "slug": "azerbaijani-columnist-sabah-must-respect-not-fear-hapoel-beer-sheva",
-      "title": "Azerbaijani columnist urges Sabah to respect Hapoel Beer Sheva, but not fear them",
-      "statusBefore": "review",
-      "words": 314,
-      "paragraphs": 7,
+      "id": "live-20260825-solomon-west-ham-fan-backlash",
+      "slug": "manor-solomon-west-ham-pro-palestinian-fan-backlash",
+      "title": "Pro-Palestinian West Ham fans vow to keep campaigning until Manor Solomon leaves club",
+      "statusBefore": "published",
+      "words": 517,
+      "paragraphs": 9,
       "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260825-hapoel-beer-sheva-sabah-baku-champions-league-preview",
+      "slug": "hapoel-beer-sheva-sabah-baku-champions-league-preview",
+      "title": "Baku braces for a sell-out as Hapoel Beer Sheva defend a slender lead over Sabah",
+      "statusBefore": "published",
+      "words": 539,
+      "paragraphs": 9,
+      "facts": 7,
       "verificationSources": 4,
       "blockers": [],
       "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-20260825-beitar-improved-offer-serna",
-      "slug": "beitar-jerusalem-improved-offer-alexis-serna",
-      "title": "Beitar Jerusalem raise offer for Colombian midfielder Serna after first bid rejected",
-      "statusBefore": "review",
-      "words": 274,
-      "paragraphs": 7,
-      "facts": 6,
-      "verificationSources": 1,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline",
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-25-hapoel-petah-tikva-security-company",
-      "slug": "hapoel-petah-tikva-replace-security-company",
-      "title": "Hapoel Petah Tikva to switch security firms after guard struck fan with metal rod",
-      "statusBefore": "review",
-      "words": 276,
-      "paragraphs": 6,
-      "facts": 6,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline",
         "voice:publisher-attribution-heavy:2"
       ]
     },
@@ -203,7 +188,7 @@
       "id": "live-2026-08-25-beer-sheva-sabah-baku-preview",
       "slug": "hapoel-beer-sheva-sabah-baku-champions-league-second-leg",
       "title": "Ex-Azerbaijan coach warns Beer Sheva's gaps could give Sabah a route back in Baku",
-      "statusBefore": "published",
+      "statusBefore": "review",
       "words": 432,
       "paragraphs": 7,
       "facts": 7,
@@ -17596,28 +17581,45 @@
   ],
   "cleanPublished": [
     {
-      "id": "live-2026-08-25-hapoel-hadera-23-man-squad-nosbaum",
-      "slug": "hapoel-hadera-name-23-man-squad-nosbaum-state-cup",
-      "title": "Hapoel Hadera name 23-man squad for first test under Amir Nosbaum",
+      "id": "live-20260825-solomon-west-ham-fan-backlash",
+      "slug": "manor-solomon-west-ham-pro-palestinian-fan-backlash",
+      "title": "Pro-Palestinian West Ham fans vow to keep campaigning until Manor Solomon leaves club",
       "statusBefore": "published",
-      "words": 416,
-      "paragraphs": 10,
+      "words": 517,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-25-carragher-worst-transfer-window-liverpool",
+      "slug": "carragher-liverpool-worst-transfer-window-premier-league-history",
+      "title": "Carragher warns Liverpool's £450m spree could be the worst transfer window in Premier League history",
+      "statusBefore": "published",
+      "words": 508,
+      "paragraphs": 9,
       "facts": 7,
-      "verificationSources": 3,
+      "verificationSources": 4,
       "blockers": [],
       "warnings": []
     },
     {
-      "id": "live-2026-08-25-roi-kahat-hapoel-beer-sheva-sabah-champions-league",
-      "slug": "roi-kahat-hapoel-beer-sheva-sabah-champions-league-playoff",
-      "title": "Roi Kahat: Be'er Sheva has proven itself the better side, and its transformation is remarkable",
+      "id": "live-20260825-hapoel-beer-sheva-sabah-baku-champions-league-preview",
+      "slug": "hapoel-beer-sheva-sabah-baku-champions-league-preview",
+      "title": "Baku braces for a sell-out as Hapoel Beer Sheva defend a slender lead over Sabah",
       "statusBefore": "published",
-      "words": 633,
-      "paragraphs": 10,
-      "facts": 6,
+      "words": 539,
+      "paragraphs": 9,
+      "facts": 7,
       "verificationSources": 4,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
     },
     {
       "id": "live-2026-08-25-noam-yaacov-utah-ncaa-denied",
@@ -17626,21 +17628,6 @@
       "statusBefore": "published",
       "words": 434,
       "paragraphs": 10,
-      "facts": 7,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline",
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-25-beer-sheva-sabah-baku-preview",
-      "slug": "hapoel-beer-sheva-sabah-baku-champions-league-second-leg",
-      "title": "Ex-Azerbaijan coach warns Beer Sheva's gaps could give Sabah a route back in Baku",
-      "statusBefore": "published",
-      "words": 432,
-      "paragraphs": 7,
       "facts": 7,
       "verificationSources": 3,
       "blockers": [],
