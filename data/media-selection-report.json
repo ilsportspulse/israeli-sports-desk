@@ -1,22 +1,16 @@
 {
   "selections": [
     {
-      "articleId": "live-20260825-nearim-a-national-league-fixtures",
-      "article": "National League for Boys A releases 2026/27 fixture list, kicking off September 15",
-      "file": "File:שחקן נערים ב' מבקיע שער הניצחון בפנדל.jpg",
-      "license": "CC BY-SA 4.0"
-    },
-    {
-      "articleId": "live-2026-08-25-rehovot-mayor-cash-denial",
-      "article": "Rehovot mayor denies paying cash to anyone over stalled football club merger",
-      "file": "File:Mecz piłkarski Wisła Kraków - Zagłębie Sosnwoiec, 28 października 2022, Pożegnanie Stadionu Ludowego, KP.jpg",
-      "license": "CC BY 4.0"
-    },
-    {
-      "articleId": "archive-20260825-strasbourg-26-march-1981-the-basket-that",
-      "article": "Strasbourg, 26 March 1981: The Basket That Gave Maccabi Its Second European Crown",
-      "file": "File:Miki Berkovich (cropped).jpg",
+      "articleId": "live-20260825-off-road-triathlon-returns-israel",
+      "article": "Off-road triathlon returns to Israel with new Gilboa-Afula race",
+      "file": "File:On Mount Gilboa, Israel.jpg",
       "license": "CC BY-SA 3.0"
+    },
+    {
+      "articleId": "live-20260825-hapoel-jerusalem-reebok-kit-2026-27",
+      "article": "Hapoel Jerusalem unveil new kit for 2026/27 season as Reebok deal begins",
+      "file": "File:Harrison Barnes dunk USA Basketball Blue vs White game Las Vegas 2013.jpg",
+      "license": "Public domain"
     },
     {
       "articleId": "live-20260815-liebmann-1500m-freestyle-world-record",
@@ -27,13 +21,13 @@
     {
       "articleId": "live-2026-08-13-adva-cohen-steeplechase-10th",
       "article": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
-      "file": "File:20220817 European Championships Munich 2022 Tania Moreno Matveeva 850 7683.jpg",
+      "file": "File:20220814 European Championships Munich 2022 Ľubomír Pištej 850 3618.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
       "articleId": "live-20260802-israel-fifth-mixed-duet-technical-paris",
       "article": "Israel take fifth in mixed duet technical final at European Championships in Paris",
-      "file": "File:20220814 European Championships Munich 2022 Ľubomír Pištej 850 3618.jpg",
+      "file": "File:20220817 European Championships Munich 2022 Tania Moreno Matveeva 850 7683.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
@@ -50,6 +44,11 @@
     }
   ],
   "failures": [
+    {
+      "id": "live-20260825-hapoel-beersheva-sabah-zlatanovic-preview",
+      "title": "Feed Zlatanović in the box, says former Sabah man ahead of Champions League decider",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
     {
       "id": "live-20260825-drapic-netanya-roni-levi-inheritance",
       "title": "Drapić: Roni Levi inherited the wrong squad at Netanya",

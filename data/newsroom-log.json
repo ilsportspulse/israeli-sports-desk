@@ -1,5 +1,55 @@
 [
   {
+    "ts": "2026-08-25T14:07:02.299Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 3,
+    "review": 0,
+    "skipped": 2,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "hapoel-jerusalem-new-reebok-kit-2026-27",
+        "title": "Hapoel Jerusalem unveil new kit for 2026/27 season as Reebok deal begins",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "atletico-madrid-shareholders-alvarez-barcelona",
+        "title": "All Atlético Madrid shareholders oppose Álvarez's move to Barcelona, ONE reports",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "bouaddi-einstein-manchester-city-profile",
+        "title": "The teenager they call Einstein: how Bouaddi became Manchester City's new midfield brain",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "off-road-triathlon-returns-to-israel-gilboa-afula-2027",
+        "title": "Off-road triathlon returns to Israel with new Gilboa-Afula race",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "hapoel-beer-sheva-sabah-second-leg-zlatanovic-preview",
+        "title": "Feed Zlatanović in the box, says former Sabah man ahead of Champions League decider",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-08-25T13:06:51.586Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -2513,59 +2563,6 @@
         "gate": "hold",
         "decision": "review",
         "reason": "No correctly-identified, web-verified Wikimedia Commons photo of this specific U16 team, match or venue could be confirmed — commonsCandidates is empty and the image slot should be held rather than filled with an unrelated or wrong-subject file."
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-21T13:48:44.558Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 3,
-    "review": 1,
-    "skipped": 1,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "bernasconi-atalanta-hapoel-tel-aviv-conference-league-playoff",
-        "title": "Atalanta 0-0 Hapoel Tel Aviv: Bernasconi says Nerazzurri braced for a press that never came",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "ronaldo-returns-al-nassr-al-riyadh-24-goals-from-1000",
-        "title": "Ronaldo returns for Al-Nassr against Al-Riyadh, needing 24 goals for 1,000",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "kroos-picks-kvaratskhelia-ballon-dor-2026",
-        "title": "Kroos names Kvaratskhelia his surprise pick for the 2026 Ballon d'Or",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "hapoel-ramat-gan-dego-return-liga-al-opener-maccabi-haifa",
-        "title": "Dego savours 'special feeling' as Hapoel Ramat Gan return to the big league to face Maccabi Haifa",
-        "confidence": 0.82,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "below gate thresholds"
-      },
-      {
-        "slug": "musiala-doctors-recommend-continue-playing-no-retirement",
-        "title": "Musiala's doctors say he can keep playing, no need to retire",
-        "decision": "duplicate"
       }
     ]
   }

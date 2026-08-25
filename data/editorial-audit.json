@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T13:26:50.854Z",
+  "generatedAt": "2026-08-25T14:27:04.771Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,12 +17,12 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1794,
-    "publishedBefore": 1212,
-    "cleanPublished": 1205,
+    "totalArticles": 1797,
+    "publishedBefore": 1215,
+    "cleanPublished": 1208,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1212,
+    "publishedAfter": 1215,
     "reviewAfter": 582
   },
   "blockedPublished": [
@@ -140,6 +140,34 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-20260825-hapoel-beersheva-sabah-zlatanovic-preview",
+      "slug": "hapoel-beer-sheva-sabah-second-leg-zlatanovic-preview",
+      "title": "Feed Zlatanović in the box, says former Sabah man ahead of Champions League decider",
+      "statusBefore": "published",
+      "words": 401,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-20260825-off-road-triathlon-returns-israel",
+      "slug": "off-road-triathlon-returns-to-israel-gilboa-afula-2027",
+      "title": "Off-road triathlon returns to Israel with new Gilboa-Afula race",
+      "statusBefore": "published",
+      "words": 351,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260825-drapic-netanya-roni-levi-inheritance",
       "slug": "drapic-roni-levi-netanya-wrong-inheritance",
@@ -17694,6 +17722,46 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-20260825-hapoel-beersheva-sabah-zlatanovic-preview",
+      "slug": "hapoel-beer-sheva-sabah-second-leg-zlatanovic-preview",
+      "title": "Feed Zlatanović in the box, says former Sabah man ahead of Champions League decider",
+      "statusBefore": "published",
+      "words": 401,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-20260825-off-road-triathlon-returns-israel",
+      "slug": "off-road-triathlon-returns-to-israel-gilboa-afula-2027",
+      "title": "Off-road triathlon returns to Israel with new Gilboa-Afula race",
+      "statusBefore": "published",
+      "words": 351,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260825-hapoel-jerusalem-reebok-kit-2026-27",
+      "slug": "hapoel-jerusalem-new-reebok-kit-2026-27",
+      "title": "Hapoel Jerusalem unveil new kit for 2026/27 season as Reebok deal begins",
+      "statusBefore": "published",
+      "words": 227,
+      "paragraphs": 5,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-20260825-nearim-a-national-league-fixtures",
       "slug": "national-league-nearim-a-2026-27-fixtures-published",

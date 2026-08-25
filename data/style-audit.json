@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T13:26:51.517Z",
+  "generatedAt": "2026-08-25T14:27:05.285Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1212,
+    "publishedArticles": 1215,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 418,
-      "average": 422.6
+      "average": 422.3
     },
     "paragraphDistribution": {
       "3": 36,
       "4": 6,
-      "5": 10,
+      "5": 11,
       "6": 57,
       "7": 183,
-      "8": 354,
+      "8": 356,
       "9": 297,
       "10": 194,
       "11": 49,
@@ -35,13 +35,37 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.292,
+    "dominantParagraphShare": 0.293,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 57,
     "analysisBelowTarget": 12,
-    "articlesWithStyleFlags": 206
+    "articlesWithStyleFlags": 207
   },
   "flagged": [
+    {
+      "id": "live-20260825-hapoel-jerusalem-reebok-kit-2026-27",
+      "slug": "hapoel-jerusalem-new-reebok-kit-2026-27",
+      "title": "Hapoel Jerusalem unveil new kit for 2026/27 season as Reebok deal begins",
+      "kind": "news",
+      "words": 231,
+      "paragraphs": 5,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 69,
+        "average": 46.2
+      },
+      "sentenceWords": {
+        "shortest": 30,
+        "longest": 37,
+        "average": 33
+      },
+      "lexicalDiversity": 0.688,
+      "publisherAttributions": 1,
+      "flags": [
+        "below-editorial-target:231/280",
+        "sentence-rhythm-low-variation"
+      ]
+    },
     {
       "id": "live-2026-08-24-maccabi-netanya-bnei-sakhnin-preview",
       "slug": "maccabi-netanya-bnei-sakhnin-season-opener-preview",
@@ -4796,6 +4820,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260825-hapoel-beersheva-sabah-zlatanovic-preview",
+      "slug": "hapoel-beer-sheva-sabah-second-leg-zlatanovic-preview",
+      "title": "Feed Zlatanović in the box, says former Sabah man ahead of Champions League decider",
+      "kind": "news",
+      "words": 400,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 62,
+        "average": 50
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 55,
+        "average": 26.7
+      },
+      "lexicalDiversity": 0.57,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260825-off-road-triathlon-returns-israel",
+      "slug": "off-road-triathlon-returns-to-israel-gilboa-afula-2027",
+      "title": "Off-road triathlon returns to Israel with new Gilboa-Afula race",
+      "kind": "news",
+      "words": 350,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 25,
+        "longest": 68,
+        "average": 43.8
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 48,
+        "average": 31.8
+      },
+      "lexicalDiversity": 0.586,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-08-25-rehovot-mayor-cash-denial",
       "slug": "rehovot-mayor-matan-dil-denies-cash-payments-football-merger",

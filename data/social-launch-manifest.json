@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-25T13:26:50Z",
-    "validUntil": "2026-08-26T01:26:50Z",
+    "checkedAt": "2026-08-25T14:27:04Z",
+    "validUntil": "2026-08-26T02:27:04Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 880,
+        "maxAgeHours": 881,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260825-nearim-a-national-league-fixtures",
+        "articleId": "live-20260825-hapoel-beersheva-sabah-zlatanovic-preview",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 888,
+        "maxAgeHours": 889,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-25-rehovot-mayor-cash-denial",
+        "articleId": "live-20260825-off-road-triathlon-returns-israel",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 898,
+        "maxAgeHours": 899,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-25-carragher-worst-transfer-window-liverpool",
+        "articleId": "live-20260825-hapoel-jerusalem-reebok-kit-2026-27",
         "maxAgeHours": 36,
         "requires": []
       }
