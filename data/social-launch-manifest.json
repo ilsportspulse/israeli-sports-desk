@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-25T19:04:35Z",
-    "validUntil": "2026-08-26T07:04:35Z",
+    "checkedAt": "2026-08-25T19:53:57Z",
+    "validUntil": "2026-08-26T07:53:57Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 886,
+        "maxAgeHours": 887,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-25-kangwa-instagram-story-beer-sheva-sabah",
+        "articleId": "live-2026-08-25-maccabi-ashdod-turner-mcduffie-imports-land",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 894,
+        "maxAgeHours": 895,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260825-euroleague-24-teams-hapoel-tel-aviv",
+        "articleId": "live-2026-08-25-reijnders-atletico-money",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 904,
+        "maxAgeHours": 905,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260825-man-utd-baleba-signing",
+        "articleId": "live-2026-08-25-hapoel-tel-aviv-kiryat-gat-womens-state-cup",
         "maxAgeHours": 36,
         "requires": []
       }

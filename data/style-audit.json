@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T19:04:36.319Z",
+  "generatedAt": "2026-08-25T19:53:58.541Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,21 +11,21 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1225,
+    "publishedArticles": 1228,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 418,
-      "average": 422.2
+      "median": 417,
+      "average": 422
     },
     "paragraphDistribution": {
       "3": 36,
       "4": 6,
       "5": 11,
       "6": 58,
-      "7": 184,
-      "8": 358,
-      "9": 300,
+      "7": 185,
+      "8": 359,
+      "9": 301,
       "10": 197,
       "11": 49,
       "12": 15,
@@ -4820,6 +4820,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-25-maccabi-ashdod-turner-mcduffie-imports-land",
+      "slug": "maccabi-ashdod-turner-mcduffie-foreign-signings-land-israel",
+      "title": "Maccabi Ashdod's two new imports, Turner and McDuffie, touch down in Israel",
+      "kind": "news",
+      "words": 338,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 16,
+        "longest": 66,
+        "average": 42.3
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 98,
+        "average": 42.3
+      },
+      "lexicalDiversity": 0.607,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-25-reijnders-atletico-money",
+      "slug": "reijnders-atletico-manchester-city-money-alqadsiah",
+      "title": "Atletico Madrid wanted Reijnders but could not afford Manchester City's asking price, father says",
+      "kind": "news",
+      "words": 396,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 52,
+        "average": 44
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 52,
+        "average": 28.3
+      },
+      "lexicalDiversity": 0.609,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-25-hapoel-tel-aviv-kiryat-gat-womens-state-cup",
+      "slug": "hapoel-tel-aviv-2-0-kiryat-gat-womens-state-cup-second-round",
+      "title": "Hapoel Tel Aviv 2-0 Kiryat Gat: Avital penalty and second strike send holders through in women's State Cup",
+      "kind": "article",
+      "words": 287,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 29,
+        "longest": 59,
+        "average": 41
+      },
+      "sentenceWords": {
+        "shortest": 14,
+        "longest": 46,
+        "average": 28.7
+      },
+      "lexicalDiversity": 0.638,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-08-25-kangwa-instagram-story-beer-sheva-sabah",
       "slug": "kangwa-instagram-story-beer-sheva-champions-league",

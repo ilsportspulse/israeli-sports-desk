@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T19:04:35.630Z",
+  "generatedAt": "2026-08-25T19:53:58.146Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1818,
-    "publishedBefore": 1225,
-    "cleanPublished": 1218,
+    "totalArticles": 1822,
+    "publishedBefore": 1228,
+    "cleanPublished": 1221,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1225,
-    "reviewAfter": 593
+    "publishedAfter": 1228,
+    "reviewAfter": 594
   },
   "blockedPublished": [
     {
@@ -140,6 +140,51 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-2026-08-25-maccabi-ashdod-turner-mcduffie-imports-land",
+      "slug": "maccabi-ashdod-turner-mcduffie-foreign-signings-land-israel",
+      "title": "Maccabi Ashdod's two new imports, Turner and McDuffie, touch down in Israel",
+      "statusBefore": "published",
+      "words": 337,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-25-reijnders-atletico-money",
+      "slug": "reijnders-atletico-manchester-city-money-alqadsiah",
+      "title": "Atletico Madrid wanted Reijnders but could not afford Manchester City's asking price, father says",
+      "statusBefore": "published",
+      "words": 396,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-25-maccabi-haifa-youth-thrash-ashdod-71",
+      "slug": "maccabi-haifa-youth-thrash-ashdod-7-1",
+      "title": "Maccabi Haifa's youth side thrash Ashdod 7-1 in Youth League B",
+      "statusBefore": "review",
+      "words": 225,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260825-hapoel-hadera-state-cup-win",
       "slug": "hapoel-hadera-beitar-nordia-state-cup-win",
@@ -17939,6 +17984,48 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-25-maccabi-ashdod-turner-mcduffie-imports-land",
+      "slug": "maccabi-ashdod-turner-mcduffie-foreign-signings-land-israel",
+      "title": "Maccabi Ashdod's two new imports, Turner and McDuffie, touch down in Israel",
+      "statusBefore": "published",
+      "words": 337,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-25-reijnders-atletico-money",
+      "slug": "reijnders-atletico-manchester-city-money-alqadsiah",
+      "title": "Atletico Madrid wanted Reijnders but could not afford Manchester City's asking price, father says",
+      "statusBefore": "published",
+      "words": 396,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-25-hapoel-tel-aviv-kiryat-gat-womens-state-cup",
+      "slug": "hapoel-tel-aviv-2-0-kiryat-gat-womens-state-cup-second-round",
+      "title": "Hapoel Tel Aviv 2-0 Kiryat Gat: Avital penalty and second strike send holders through in women's State Cup",
+      "statusBefore": "published",
+      "words": 287,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-2026-08-25-kangwa-instagram-story-beer-sheva-sabah",
       "slug": "kangwa-instagram-story-beer-sheva-champions-league",

@@ -1,5 +1,58 @@
 [
   {
+    "ts": "2026-08-25T19:35:16.354Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 3,
+    "review": 1,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "hapoel-tel-aviv-2-0-kiryat-gat-womens-state-cup-second-round",
+        "title": "Hapoel Tel Aviv 2-0 Kiryat Gat: Avital penalty and second strike send holders through in women's State Cup",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "southampton-west-ham-league-cup-in-progress",
+        "title": "Peretz and Solomon face off as Southampton host West Ham in League Cup",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "maccabi-haifa-youth-thrash-ashdod-7-1",
+        "title": "Maccabi Haifa's youth side thrash Ashdod 7-1 in Youth League B",
+        "confidence": 0,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "not newsworthy — this is an Under-19 Youth League B (development squad) fixture, not a senior-team result; player-name spellings are drawn from a single youth-football report and not cross-checked against an official roster/registry. Recommend holding from publication."
+      },
+      {
+        "slug": "reijnders-atletico-manchester-city-money-alqadsiah",
+        "title": "Atletico Madrid wanted Reijnders but could not afford Manchester City's asking price, father says",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "maccabi-ashdod-turner-mcduffie-foreign-signings-land-israel",
+        "title": "Maccabi Ashdod's two new imports, Turner and McDuffie, touch down in Israel",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-08-25T18:43:39.094Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -2491,62 +2544,6 @@
         "slug": "eckert-confirms-peretz-southampton-number-one-goalkeeper",
         "title": "Southampton boss Tonda Eckert says he told Ramsdale straight: Peretz is our No. 1",
         "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-22T04:08:08.381Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 5,
-    "review": 0,
-    "skipped": 0,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "mbappe-third-consecutive-pichichi-challenge",
-        "title": "Mbappé chases a third straight Pichichi as new La Liga season dawns",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "hamza-abdelkarim-barcelona-number-9-option",
-        "title": "Hamza Abdelkarim emerges as a real option to be Barcelona's number 9 this season",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "ronaldo-marriage-youth-al-nassr-comeback",
-        "title": "Ronaldo scores as Al Nassr beat Al Riyadh 4-0, and Saudi media credit his marriage for the spark",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "crystal-palace-pierre-sage-rules-out-wharton-real-madrid-move",
-        "title": "Crystal Palace boss Pierre Sage shuts down Real Madrid move for Adam Wharton",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "arsenal-attack-title-coventry-win",
-        "title": "Arsenal open Premier League defence with 3-0 win over Coventry as Ødegaard vows to 'attack' the title",
-        "confidence": 0.9,
         "gate": "pass",
         "decision": "published",
         "reason": ""
