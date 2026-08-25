@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T04:06:44.725Z",
+  "generatedAt": "2026-08-25T06:19:12.174Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1770,
-    "publishedBefore": 1200,
-    "cleanPublished": 1193,
+    "totalArticles": 1779,
+    "publishedBefore": 1205,
+    "cleanPublished": 1198,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1200,
-    "reviewAfter": 570
+    "publishedAfter": 1205,
+    "reviewAfter": 574
   },
   "blockedPublished": [
     {
@@ -141,31 +141,103 @@
   ],
   "warnings": [
     {
-      "id": "live-2026-08-25-shaedon-sharpe-torn-meniscus-avdija",
-      "slug": "shaedon-sharpe-torn-meniscus-six-months-trail-blazers",
-      "title": "Trail Blazers guard Shaedon Sharpe out roughly six months with torn meniscus",
+      "id": "live-2026-08-25-noam-yaacov-utah-ncaa-denied",
+      "slug": "noam-yaacov-utah-ncaa-eligibility-denied",
+      "title": "NCAA rejects Utah's appeal, ending Noam Yaacov's path to the Utes",
       "statusBefore": "published",
-      "words": 294,
-      "paragraphs": 7,
-      "facts": 6,
+      "words": 434,
+      "paragraphs": 10,
+      "facts": 7,
       "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-25-beer-sheva-sabah-baku-preview",
+      "slug": "hapoel-beer-sheva-sabah-baku-champions-league-second-leg",
+      "title": "Ex-Azerbaijan coach warns Beer Sheva's gaps could give Sabah a route back in Baku",
+      "statusBefore": "published",
+      "words": 432,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-25-hapoel-beer-sheva-sabah-second-leg-preview",
+      "slug": "hapoel-beer-sheva-sabah-champions-league-second-leg-preview",
+      "title": "Hapoel Beer Sheva brace for a different Sabah as Champions League tie reaches Baku decider",
+      "statusBefore": "review",
+      "words": 389,
+      "paragraphs": 8,
+      "facts": 8,
+      "verificationSources": 4,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
     },
     {
-      "id": "live-2026-08-25-maccabi-netanya-bnei-sakhnin-goalless-opener",
-      "slug": "maccabi-netanya-bnei-sakhnin-goalless-opener",
-      "title": "Maccabi Netanya 0-0 Bnei Sakhnin: dominant hosts held by inspired debutant goalkeeper",
+      "id": "live-2026-08-25-malaga-deportivo-draw",
+      "slug": "malaga-deportivo-la-coruna-aubameyang-la-liga-draw",
+      "title": "Málaga 1-1 Deportivo La Coruña: Aubameyang strikes again as promoted rivals share the spoils",
+      "statusBefore": "published",
+      "words": 459,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "live-20260825-mickey-berkowitz-dementia",
+      "slug": "mickey-berkowitz-family-reveals-dementia-diagnosis",
+      "title": "Mickey Berkowitz's family reveals Israeli basketball legend is living with dementia",
+      "statusBefore": "published",
+      "words": 572,
+      "paragraphs": 13,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260825-sharpe-meniscus-injury",
+      "slug": "shaedon-sharpe-meniscus-tear-six-months-trail-blazers",
+      "title": "Blazers dealt major blow as Sharpe faces six months out with torn meniscus",
+      "statusBefore": "published",
+      "words": 321,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260825-netanya-sakhnin-goalless-opener",
+      "slug": "maccabi-netanya-bnei-sakhnin-goalless-draw-season-opener",
+      "title": "Maccabi Netanya 0-0 Bnei Sakhnin: dominant hosts held on flat opening night",
       "statusBefore": "review",
-      "words": 525,
-      "paragraphs": 11,
+      "words": 488,
+      "paragraphs": 9,
       "facts": 7,
       "verificationSources": 3,
       "blockers": [],
       "warnings": [
-        "media:no-action-or-competition-context-detected"
+        "voice:publisher-attribution-heavy:2"
       ]
     },
     {
@@ -17434,17 +17506,15 @@
       "warnings": [
         "presentation:outlet-name-in-headline"
       ]
-    }
-  ],
-  "cleanPublished": [
+    },
     {
-      "id": "live-2026-08-25-shaedon-sharpe-torn-meniscus-avdija",
-      "slug": "shaedon-sharpe-torn-meniscus-six-months-trail-blazers",
-      "title": "Trail Blazers guard Shaedon Sharpe out roughly six months with torn meniscus",
-      "statusBefore": "published",
-      "words": 294,
-      "paragraphs": 7,
-      "facts": 6,
+      "id": "live-2026-08-25-maccabi-netanya-bnei-sakhnin-goalless-opener",
+      "slug": "maccabi-netanya-bnei-sakhnin-goalless-opener",
+      "title": "Maccabi Netanya 0-0 Bnei Sakhnin: dominant hosts held by inspired debutant goalkeeper",
+      "statusBefore": "review",
+      "words": 525,
+      "paragraphs": 11,
+      "facts": 7,
       "verificationSources": 3,
       "blockers": [],
       "warnings": [
@@ -17461,7 +17531,95 @@
       "facts": 6,
       "verificationSources": 5,
       "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    }
+  ],
+  "cleanPublished": [
+    {
+      "id": "live-2026-08-25-noam-yaacov-utah-ncaa-denied",
+      "slug": "noam-yaacov-utah-ncaa-eligibility-denied",
+      "title": "NCAA rejects Utah's appeal, ending Noam Yaacov's path to the Utes",
+      "statusBefore": "published",
+      "words": 434,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-25-beer-sheva-sabah-baku-preview",
+      "slug": "hapoel-beer-sheva-sabah-baku-champions-league-second-leg",
+      "title": "Ex-Azerbaijan coach warns Beer Sheva's gaps could give Sabah a route back in Baku",
+      "statusBefore": "published",
+      "words": 432,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-25-israeli-clubs-europe-playoff-odds",
+      "slug": "israeli-clubs-europe-playoff-second-leg-odds",
+      "title": "Bookmakers favour Sabah, Lugano and Atalanta as Israel's European playoff deciders arrive",
+      "statusBefore": "published",
+      "words": 445,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 6,
+      "blockers": [],
       "warnings": []
+    },
+    {
+      "id": "live-2026-08-25-malaga-deportivo-draw",
+      "slug": "malaga-deportivo-la-coruna-aubameyang-la-liga-draw",
+      "title": "Málaga 1-1 Deportivo La Coruña: Aubameyang strikes again as promoted rivals share the spoils",
+      "statusBefore": "published",
+      "words": 459,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "live-20260825-mickey-berkowitz-dementia",
+      "slug": "mickey-berkowitz-family-reveals-dementia-diagnosis",
+      "title": "Mickey Berkowitz's family reveals Israeli basketball legend is living with dementia",
+      "statusBefore": "published",
+      "words": 572,
+      "paragraphs": 13,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260825-sharpe-meniscus-injury",
+      "slug": "shaedon-sharpe-meniscus-tear-six-months-trail-blazers",
+      "title": "Blazers dealt major blow as Sharpe faces six months out with torn meniscus",
+      "statusBefore": "published",
+      "words": 321,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-2026-08-24-netanya-sakhnin-fan-attack-vehicles",
@@ -33590,6 +33748,20 @@
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-08-25-gloukh-ajax-blocks-ounahi-transfer",
+      "slug": "gloukh-ajax-blocks-ounahi-transfer",
+      "title": "Gloukh's presence at Ajax is blocking Ounahi's move, Dutch media report",
+      "statusBefore": "published",
+      "words": 309,
+      "paragraphs": 6,
+      "facts": 6,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
       ]
     }
   ]

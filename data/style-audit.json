@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T04:06:45.167Z",
+  "generatedAt": "2026-08-25T06:19:12.853Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,25 +11,25 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1200,
+    "publishedArticles": 1205,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 417,
-      "average": 421.9
+      "median": 418,
+      "average": 422.1
     },
     "paragraphDistribution": {
       "3": 36,
       "4": 6,
       "5": 10,
       "6": 56,
-      "7": 183,
-      "8": 353,
-      "9": 291,
-      "10": 191,
+      "7": 184,
+      "8": 354,
+      "9": 292,
+      "10": 192,
       "11": 49,
       "12": 15,
-      "13": 4,
+      "13": 5,
       "14": 2,
       "16": 1,
       "17": 3
@@ -39,7 +39,7 @@
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 56,
     "analysisBelowTarget": 12,
-    "articlesWithStyleFlags": 203
+    "articlesWithStyleFlags": 204
   },
   "flagged": [
     {
@@ -376,6 +376,29 @@
       "flags": [
         "below-editorial-target:227/280",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-25-malaga-deportivo-draw",
+      "slug": "malaga-deportivo-la-coruna-aubameyang-la-liga-draw",
+      "title": "Málaga 1-1 Deportivo La Coruña: Aubameyang strikes again as promoted rivals share the spoils",
+      "kind": "article",
+      "words": 455,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 42,
+        "longest": 70,
+        "average": 56.9
+      },
+      "sentenceWords": {
+        "shortest": 16,
+        "longest": 55,
+        "average": 35
+      },
+      "lexicalDiversity": 0.598,
+      "publisherAttributions": 0,
+      "flags": [
+        "stock-phrase:statement-of-intent"
       ]
     },
     {
@@ -4728,44 +4751,107 @@
   ],
   "clean": [
     {
-      "id": "live-2026-08-25-shaedon-sharpe-torn-meniscus-avdija",
-      "slug": "shaedon-sharpe-torn-meniscus-six-months-trail-blazers",
-      "title": "Trail Blazers guard Shaedon Sharpe out roughly six months with torn meniscus",
+      "id": "live-2026-08-25-noam-yaacov-utah-ncaa-denied",
+      "slug": "noam-yaacov-utah-ncaa-eligibility-denied",
+      "title": "NCAA rejects Utah's appeal, ending Noam Yaacov's path to the Utes",
       "kind": "news",
-      "words": 298,
+      "words": 442,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 71,
+        "average": 44.2
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 55,
+        "average": 26
+      },
+      "lexicalDiversity": 0.604,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-25-beer-sheva-sabah-baku-preview",
+      "slug": "hapoel-beer-sheva-sabah-baku-champions-league-second-leg",
+      "title": "Ex-Azerbaijan coach warns Beer Sheva's gaps could give Sabah a route back in Baku",
+      "kind": "news",
+      "words": 431,
       "paragraphs": 7,
       "paragraphWords": {
-        "shortest": 38,
-        "longest": 46,
-        "average": 42.6
+        "shortest": 43,
+        "longest": 70,
+        "average": 61.6
       },
       "sentenceWords": {
         "shortest": 7,
-        "longest": 46,
-        "average": 27.1
+        "longest": 98,
+        "average": 33.2
       },
-      "lexicalDiversity": 0.658,
+      "lexicalDiversity": 0.559,
       "publisherAttributions": 0,
       "flags": []
     },
     {
-      "id": "live-2026-08-25-gloukh-ajax-blocks-ounahi-transfer",
-      "slug": "gloukh-ajax-blocks-ounahi-transfer",
-      "title": "Gloukh's presence at Ajax is blocking Ounahi's move, Dutch media report",
-      "kind": "news",
-      "words": 309,
-      "paragraphs": 6,
+      "id": "live-2026-08-25-israeli-clubs-europe-playoff-odds",
+      "slug": "israeli-clubs-europe-playoff-second-leg-odds",
+      "title": "Bookmakers favour Sabah, Lugano and Atalanta as Israel's European playoff deciders arrive",
+      "kind": "article",
+      "words": 444,
+      "paragraphs": 9,
       "paragraphWords": {
-        "shortest": 30,
-        "longest": 66,
-        "average": 51.5
+        "shortest": 37,
+        "longest": 59,
+        "average": 49.3
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 50,
+        "average": 27.8
+      },
+      "lexicalDiversity": 0.565,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260825-mickey-berkowitz-dementia",
+      "slug": "mickey-berkowitz-family-reveals-dementia-diagnosis",
+      "title": "Mickey Berkowitz's family reveals Israeli basketball legend is living with dementia",
+      "kind": "news",
+      "words": 570,
+      "paragraphs": 13,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 64,
+        "average": 43.8
       },
       "sentenceWords": {
         "shortest": 10,
-        "longest": 48,
-        "average": 30.9
+        "longest": 79,
+        "average": 35.6
       },
-      "lexicalDiversity": 0.602,
+      "lexicalDiversity": 0.525,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260825-sharpe-meniscus-injury",
+      "slug": "shaedon-sharpe-meniscus-tear-six-months-trail-blazers",
+      "title": "Blazers dealt major blow as Sharpe faces six months out with torn meniscus",
+      "kind": "news",
+      "words": 324,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 64,
+        "average": 46.3
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 46,
+        "average": 29.5
+      },
+      "lexicalDiversity": 0.636,
       "publisherAttributions": 0,
       "flags": []
     },
@@ -25661,6 +25747,27 @@
         "average": 38.6
       },
       "lexicalDiversity": 0.615,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-25-gloukh-ajax-blocks-ounahi-transfer",
+      "slug": "gloukh-ajax-blocks-ounahi-transfer",
+      "title": "Gloukh's presence at Ajax is blocking Ounahi's move, Dutch media report",
+      "kind": "news",
+      "words": 309,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 66,
+        "average": 51.5
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 48,
+        "average": 30.9
+      },
+      "lexicalDiversity": 0.602,
       "publisherAttributions": 0,
       "flags": []
     }

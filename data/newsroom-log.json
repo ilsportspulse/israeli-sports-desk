@@ -1,5 +1,61 @@
 [
   {
+    "ts": "2026-08-25T05:58:09.930Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 4,
+    "review": 1,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "hapoel-beer-sheva-sabah-champions-league-second-leg-preview",
+        "title": "Hapoel Beer Sheva brace for a different Sabah as Champions League tie reaches Baku decider",
+        "confidence": 0.85,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Coach's name transliterated variably across outlets as Kozuch/Kozuk/Kojok; spelling used here follows Transfermarkt/press convention."
+      },
+      {
+        "slug": "israeli-clubs-europe-playoff-second-leg-odds",
+        "title": "Bookmakers favour Sabah, Lugano and Atalanta as Israel's European playoff deciders arrive",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "roy-berkovich-emotional-post-father-mickey-berkovich-dementia",
+        "title": "Roy Berkovich: dad's struggle hasn't ended, family says after revealing Mickey Berkovich's dementia battle",
+        "confidence": 0.88,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "hapoel-beer-sheva-sabah-baku-champions-league-second-leg",
+        "title": "Ex-Azerbaijan coach warns Beer Sheva's gaps could give Sabah a route back in Baku",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "noam-yaacov-utah-ncaa-eligibility-denied",
+        "title": "NCAA rejects Utah's appeal, ending Noam Yaacov's path to the Utes",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-08-25T03:22:11.717Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -2527,90 +2583,6 @@
         "slug": "deni-avdija-portland-trail-blazers-role-analysts",
         "title": "US analysts spell out what Portland need from Deni Avdija this season",
         "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-21T03:58:30.811Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 3,
-    "published": 0,
-    "review": 1,
-    "skipped": 2,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "hapoel-tel-aviv-atalanta-conference-league-podcast-recap",
-        "title": "Atalanta 0-0 Hapoel Tel Aviv: Barda's game plan leaves the Reds one game from a Conference League statement",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "maccabi-tel-aviv-lugano-gifts-dressing-room-anger",
-        "title": "Lugano 2-1 Maccabi Tel Aviv: dressing-room fury over 'gifts' as Conference League tie hangs in the balance",
-        "confidence": 0.8,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Anonymous dressing-room quotes and the Vanharen/reinforcement details are reported by ONE alone; sporting director Steven Vanharen's title and remarks are not independently confirmed by other outlets."
-      },
-      {
-        "slug": "hapoel-tel-aviv-special-team-pride-atalanta-draw",
-        "title": "Hapoel Tel Aviv 'proud' of a 'special team' after 0-0 draw at Atalanta",
-        "decision": "duplicate"
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-25T03:47:33.165Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 2,
-    "review": 1,
-    "skipped": 2,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "atalanta-captain-ederson-hapoel-tel-aviv-conference-league-decider",
-        "title": "Atalanta captain Ederson: \"Another battle awaits us\" before Hapoel Tel Aviv decider",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "gloukh-ajax-blocks-ounahi-transfer",
-        "title": "Gloukh's presence at Ajax is blocking Ounahi's move, Dutch media report",
-        "confidence": 0.75,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "alvarez-barcelona-atletico-transfer-standoff",
-        "title": "Barcelona and Atletico dig in for a war of attrition over Julian Alvarez",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "maccabi-netanya-bnei-sakhnin-goalless-opener",
-        "title": "Maccabi Netanya 0-0 Bnei Sakhnin: dominant hosts held by inspired debutant goalkeeper",
-        "confidence": 0.82,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Goalkeeper's Latin-alphabet name spelling varies across sources (Balbarau/Belbrao) — Hebrew form confirmed, exact transliteration not fully settled."
-      },
-      {
-        "slug": "shaedon-sharpe-torn-meniscus-six-months-trail-blazers",
-        "title": "Trail Blazers guard Shaedon Sharpe out roughly six months with torn meniscus",
-        "confidence": 0.88,
         "gate": "pass",
         "decision": "published",
         "reason": ""

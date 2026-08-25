@@ -1,21 +1,33 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-08-25-shaedon-sharpe-torn-meniscus-avdija",
-      "article": "Trail Blazers guard Shaedon Sharpe out roughly six months with torn meniscus",
-      "file": "File:Shaedon Sharpe.jpg",
-      "license": "CC BY-SA 4.0"
+      "articleId": "live-2026-08-25-noam-yaacov-utah-ncaa-denied",
+      "article": "NCAA rejects Utah's appeal, ending Noam Yaacov's path to the Utes",
+      "file": "File:Huntsman Center.jpeg",
+      "license": "CC BY-SA 3.0"
     },
     {
-      "articleId": "live-2026-08-25-maccabi-netanya-bnei-sakhnin-goalless-opener",
-      "article": "Maccabi Netanya 0-0 Bnei Sakhnin: dominant hosts held by inspired debutant goalkeeper",
-      "file": "File:GiuseppeMeazzaNeazzurro.jpg",
-      "license": "CC BY 2.0"
+      "articleId": "live-2026-08-25-beer-sheva-sabah-baku-preview",
+      "article": "Ex-Azerbaijan coach warns Beer Sheva's gaps could give Sabah a route back in Baku",
+      "file": "File:Sabah FC fans.jpg",
+      "license": "CC0"
+    },
+    {
+      "articleId": "live-2026-08-25-hapoel-beer-sheva-sabah-second-leg-preview",
+      "article": "Hapoel Beer Sheva brace for a different Sabah as Champions League tie reaches Baku decider",
+      "file": "File:Hadassah Park in Beer Sheva 034.jpg",
+      "license": "CC BY-SA 4.0"
     },
     {
       "articleId": "live-20260815-liebmann-1500m-freestyle-world-record",
       "article": "German teenager Johannes Liebmann shatters 1500m freestyle world record in 14:26.79",
       "file": "File:Swimming Pool lanes and starting blocks at AIS.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-2026-08-13-adva-cohen-steeplechase-10th",
+      "article": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
+      "file": "File:20220814 European Championships Munich 2022 Ľubomír Pištej 850 3618.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
@@ -35,13 +47,24 @@
       "article": "Adam Ramsay-Peaty questions it all after bitter Commonwealth bronze",
       "file": "File:Adam Peaty Olympics 100m breaststroke 2016.jpg",
       "license": "CC BY 3.0 br"
+    },
+    {
+      "articleId": "live-2026-08-25-gloukh-ajax-blocks-ounahi-transfer",
+      "article": "Gloukh's presence at Ajax is blocking Ounahi's move, Dutch media report",
+      "file": "File:FC Red Bull Salzburg gegen SK Rapid Wien (2025-05-24 Bundesliga) 01.jpg",
+      "license": "CC BY-SA 4.0"
     }
   ],
   "failures": [
     {
-      "id": "live-2026-08-25-gloukh-ajax-blocks-ounahi-transfer",
-      "title": "Gloukh's presence at Ajax is blocking Ounahi's move, Dutch media report",
-      "error": "image download 429 after retries"
+      "id": "live-2026-08-25-roy-berkovich-father-struggle",
+      "title": "Roy Berkovich: dad's struggle hasn't ended, family says after revealing Mickey Berkovich's dementia battle",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-2026-08-25-israeli-clubs-europe-playoff-odds",
+      "title": "Bookmakers favour Sabah, Lugano and Atalanta as Israel's European playoff deciders arrive",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {
       "id": "column-20260824-dolgopyat-s-gold-was-the-easy-part-getti",
@@ -161,11 +184,6 @@
     {
       "id": "live-2026-08-15-ukraine-amateur-tennis-legend-kurbanov-killed-war",
       "title": "Ukrainian amateur tennis 'legend' Slava Kurbanov killed fighting on the front",
-      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
-    },
-    {
-      "id": "live-2026-08-13-adva-cohen-steeplechase-10th",
-      "title": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {
