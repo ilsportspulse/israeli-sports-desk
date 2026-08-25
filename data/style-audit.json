@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T07:45:41.670Z",
+  "generatedAt": "2026-08-25T08:47:44.535Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1205,
+    "publishedArticles": 1207,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 418,
-      "average": 422.1
+      "average": 422.2
     },
     "paragraphDistribution": {
       "3": 36,
@@ -26,7 +26,7 @@
       "7": 184,
       "8": 354,
       "9": 292,
-      "10": 192,
+      "10": 194,
       "11": 49,
       "12": 15,
       "13": 5,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.294,
+    "dominantParagraphShare": 0.293,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 56,
     "analysisBelowTarget": 12,
@@ -4750,6 +4750,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-25-hapoel-hadera-23-man-squad-nosbaum",
+      "slug": "hapoel-hadera-name-23-man-squad-nosbaum-state-cup",
+      "title": "Hapoel Hadera name 23-man squad for first test under Amir Nosbaum",
+      "kind": "news",
+      "words": 416,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 57,
+        "average": 41.6
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 57,
+        "average": 32
+      },
+      "lexicalDiversity": 0.642,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-25-roi-kahat-hapoel-beer-sheva-sabah-champions-league",
+      "slug": "roi-kahat-hapoel-beer-sheva-sabah-champions-league-playoff",
+      "title": "Roi Kahat: Be'er Sheva has proven itself the better side, and its transformation is remarkable",
+      "kind": "preview",
+      "words": 632,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 43,
+        "longest": 99,
+        "average": 63.2
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 80,
+        "average": 39.5
+      },
+      "lexicalDiversity": 0.554,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-25-noam-yaacov-utah-ncaa-denied",
       "slug": "noam-yaacov-utah-ncaa-eligibility-denied",

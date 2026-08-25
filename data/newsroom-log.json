@@ -1,5 +1,61 @@
 [
   {
+    "ts": "2026-08-25T08:28:35.014Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 2,
+    "review": 3,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "hapoel-petah-tikva-replace-security-company",
+        "title": "Hapoel Petah Tikva to switch security firms after guard struck fan with metal rod",
+        "confidence": 0.8,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "The security-company switch itself is reported by ONE alone; the club has not issued its own statement confirming the change. The underlying assault and house-arrest release are independently confirmed by Ynet and Israeli press."
+      },
+      {
+        "slug": "roi-kahat-hapoel-beer-sheva-sabah-champions-league-playoff",
+        "title": "Roi Kahat: Be'er Sheva has proven itself the better side, and its transformation is remarkable",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "beitar-jerusalem-improved-offer-alexis-serna",
+        "title": "Beitar Jerusalem raise offer for Colombian midfielder Serna after first bid rejected",
+        "confidence": 0.78,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Deal not yet completed — improved offer reported by a single outlet (ONE); Independiente Medellín has not confirmed acceptance, and no fee has been disclosed."
+      },
+      {
+        "slug": "hapoel-hadera-name-23-man-squad-nosbaum-state-cup",
+        "title": "Hapoel Hadera name 23-man squad for first test under Amir Nosbaum",
+        "confidence": 0.78,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "azerbaijani-columnist-sabah-must-respect-not-fear-hapoel-beer-sheva",
+        "title": "Azerbaijani columnist urges Sabah to respect Hapoel Beer Sheva, but not fear them",
+        "confidence": 0.75,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Journalist's name (Javad Aliyev) and exact AZERTAC byline could not be independently verified beyond the ONE report; quotes are attributed to ONE's translation of the AZERTAC column."
+      }
+    ]
+  },
+  {
     "ts": "2026-08-25T05:58:09.930Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -2533,59 +2589,6 @@
         "gate": "hold",
         "decision": "review",
         "reason": "below gate thresholds"
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-21T06:57:47.960Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 2,
-    "review": 2,
-    "skipped": 1,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "bachar-lineup-dilemmas-maccabi-haifa-hapoel-ramat-gan",
-        "title": "Bachar weighs lineup dilemmas as Maccabi Haifa open season against Hapoel Ramat Gan",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "url": "https://www.one.co.il/Article/531182.html",
-        "decision": "skipped",
-        "reason": "no valid article emitted"
-      },
-      {
-        "slug": "ella-bar-lev-agam-noy-judo-cadet-world-champions-48kg",
-        "title": "Ella Bar-Lev takes world U18 judo gold as Agam Noy adds bronze in same category",
-        "confidence": 0.78,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Names of the coach and federation chairman verified against external biographical sources (Shany Hershko, Moshe Ponte); the specific medal results themselves rest on the single ONE report, as the event was ongoing at filing time."
-      },
-      {
-        "slug": "hapoel-beer-sheva-flies-to-baku-champions-league-playoff-second-leg",
-        "title": "Hapoel Be'er Sheva fly to Baku for Champions League playoff decider against Sabah",
-        "confidence": 0.85,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Exact kickoff time for Tuesday's second leg in Baku is not stated in sourcing; sponsor/charter-flight and ticket-price details are reported by ONE alone."
-      },
-      {
-        "slug": "deni-avdija-portland-trail-blazers-role-analysts",
-        "title": "US analysts spell out what Portland need from Deni Avdija this season",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
       }
     ]
   }
