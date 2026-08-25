@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T21:13:02.030Z",
+  "generatedAt": "2026-08-25T21:31:12.143Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,22 +11,22 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1229,
+    "publishedArticles": 1231,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 417,
-      "average": 422.4
+      "average": 422.2
     },
     "paragraphDistribution": {
-      "3": 35,
+      "3": 36,
       "4": 6,
       "5": 11,
       "6": 58,
       "7": 185,
       "8": 360,
       "9": 302,
-      "10": 197,
+      "10": 198,
       "11": 49,
       "12": 15,
       "13": 5,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.293,
+    "dominantParagraphShare": 0.292,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 58,
     "analysisBelowTarget": 12,
-    "articlesWithStyleFlags": 206
+    "articlesWithStyleFlags": 207
   },
   "flagged": [
     {
@@ -4793,6 +4793,29 @@
       "publisherAttributions": 2,
       "flags": [
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "result-2026-08-25-sabah-fk-hapoel-be-er",
+      "slug": "sabah-fk-5-2-hapoel-be-er-champions-league-qualifying",
+      "title": "Sabah FK 5–2 Hapoel Be'er: Champions League qualifying",
+      "kind": "news",
+      "words": 113,
+      "paragraphs": 3,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 41,
+        "average": 37.7
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 27,
+        "average": 18.8
+      },
+      "lexicalDiversity": 0.752,
+      "publisherAttributions": 0,
+      "flags": [
+        "below-editorial-target:113/280"
       ]
     }
   ],
@@ -26278,6 +26301,27 @@
       },
       "lexicalDiversity": 0.538,
       "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260825-ronaldo-subbed-al-nassr-comeback-al-ettifaq",
+      "slug": "ronaldo-fumes-al-nassr-comeback-al-ettifaq",
+      "title": "Al Ettifaq 2-3 Al Nassr: Ronaldo fumes after halftime substitution as ten-man side completes comeback",
+      "kind": "article",
+      "words": 510,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 66,
+        "average": 51
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 66,
+        "average": 26.8
+      },
+      "lexicalDiversity": 0.575,
+      "publisherAttributions": 1,
       "flags": []
     }
   ]
