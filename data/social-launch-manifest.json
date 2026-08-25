@@ -146,49 +146,49 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-25T12:16:09Z",
-    "validUntil": "2026-08-26T00:16:09Z",
+    "checkedAt": "2026-08-25T13:26:50Z",
+    "validUntil": "2026-08-26T01:26:50Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 879,
+        "maxAgeHours": 880,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-25-carragher-worst-transfer-window-liverpool",
+        "articleId": "live-20260825-nearim-a-national-league-fixtures",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 887,
+        "maxAgeHours": 888,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260825-hapoel-beer-sheva-sabah-baku-champions-league-preview",
+        "articleId": "live-2026-08-25-rehovot-mayor-cash-denial",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 897,
+        "maxAgeHours": 898,
         "requires": [
           "column"
         ]
       },
       {
         "role": "archive",
-        "articleId": "archive-20260824-tel-aviv-11-july-2009-the-night-israel-s",
+        "articleId": "archive-20260825-strasbourg-26-march-1981-the-basket-that",
         "maxAgeHours": 156,
         "requires": [
           "historical-feature"
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-25-hapoel-hadera-23-man-squad-nosbaum",
+        "articleId": "live-2026-08-25-carragher-worst-transfer-window-liverpool",
         "maxAgeHours": 36,
         "requires": []
       }

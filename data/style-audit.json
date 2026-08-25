@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T12:16:10.901Z",
+  "generatedAt": "2026-08-25T13:26:51.517Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,21 +11,21 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1210,
+    "publishedArticles": 1212,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 418,
-      "average": 422.7
+      "average": 422.6
     },
     "paragraphDistribution": {
       "3": 36,
       "4": 6,
       "5": 10,
-      "6": 56,
+      "6": 57,
       "7": 183,
       "8": 354,
-      "9": 296,
+      "9": 297,
       "10": 194,
       "11": 49,
       "12": 15,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.293,
+    "dominantParagraphShare": 0.292,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 56,
+    "exactSixParagraphArticles": 57,
     "analysisBelowTarget": 12,
-    "articlesWithStyleFlags": 205
+    "articlesWithStyleFlags": 206
   },
   "flagged": [
     {
@@ -376,6 +376,29 @@
       "flags": [
         "below-editorial-target:227/280",
         "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260825-nearim-a-national-league-fixtures",
+      "slug": "national-league-nearim-a-2026-27-fixtures-published",
+      "title": "National League for Boys A releases 2026/27 fixture list, kicking off September 15",
+      "kind": "news",
+      "words": 241,
+      "paragraphs": 6,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 55,
+        "average": 40.2
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 40,
+        "average": 26.8
+      },
+      "lexicalDiversity": 0.643,
+      "publisherAttributions": 0,
+      "flags": [
+        "below-editorial-target:241/280"
       ]
     },
     {
@@ -4773,6 +4796,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-25-rehovot-mayor-cash-denial",
+      "slug": "rehovot-mayor-matan-dil-denies-cash-payments-football-merger",
+      "title": "Rehovot mayor denies paying cash to anyone over stalled football club merger",
+      "kind": "article",
+      "words": 441,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 72,
+        "average": 49
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 51,
+        "average": 36.8
+      },
+      "lexicalDiversity": 0.571,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "archive-20260825-strasbourg-26-march-1981-the-basket-that",
       "slug": "strasbourg-26-march-1981-the-basket-that-gave-maccabi-its-second-europ",

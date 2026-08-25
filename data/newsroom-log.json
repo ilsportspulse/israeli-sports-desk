@@ -1,5 +1,55 @@
 [
   {
+    "ts": "2026-08-25T13:06:51.586Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 2,
+    "review": 1,
+    "skipped": 2,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "rehovot-mayor-matan-dil-denies-cash-payments-football-merger",
+        "title": "Rehovot mayor denies paying cash to anyone over stalled football club merger",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "national-league-nearim-a-2026-27-fixtures-published",
+        "title": "National League for Boys A releases 2026/27 fixture list, kicking off September 15",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "shuli-dinin-hapoel-beer-sheva-midwife-champions-league-history",
+        "title": "The midwife who delivered half the Hapoel Beer Sheva dressing room believes history is coming",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "national-youth-league-fixtures-2026-27",
+        "title": "National youth league sets fixtures for 2026/27 season, kicking off September 8",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "drapic-roni-levi-netanya-wrong-inheritance",
+        "title": "Drapić: Roni Levi inherited the wrong squad at Netanya",
+        "confidence": 0.85,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "below gate thresholds"
+      }
+    ]
+  },
+  {
     "ts": "2026-08-25T10:40:44.052Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -2516,62 +2566,6 @@
         "slug": "musiala-doctors-recommend-continue-playing-no-retirement",
         "title": "Musiala's doctors say he can keep playing, no need to retire",
         "decision": "duplicate"
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-21T11:35:09.021Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 5,
-    "review": 0,
-    "skipped": 0,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "alon-ziv-tiberias-squad-not-closed-ligat-haal-opener",
-        "title": "Alon Ziv: Tiberias squad still not closed as Ligat Ha'al opener nears",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "uri-magbo-signs-hapoel-umm-al-fahm",
-        "title": "Former Beitar Jerusalem favourite Uri Magbo signs for Hapoel Umm al-Fahm",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "premier-league-new-managers-pressure-test-2026-27",
-        "title": "Premier League's new-manager gamble: can Maresca, Iraola and Alonso survive the pressure?",
-        "confidence": 0.72,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "ferencvaros-eyes-maccabi-netanya-midfielder-bassam-zaarura",
-        "title": "Ferencváros show interest in Maccabi Netanya's Bassam Zaarura, ONE reports",
-        "confidence": 0.8,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "musiala-ruled-out-super-cup-collapses",
-        "title": "Musiala left out of German Super Cup squad after second training collapse",
-        "confidence": 0.88,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
       }
     ]
   }
