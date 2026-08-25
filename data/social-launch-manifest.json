@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-25T09:15:57Z",
-    "validUntil": "2026-08-25T21:15:57Z",
+    "checkedAt": "2026-08-25T09:53:02Z",
+    "validUntil": "2026-08-25T21:53:02Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 876,
+        "maxAgeHours": 877,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-25-hapoel-hadera-23-man-squad-nosbaum",
+        "articleId": "live-2026-08-25-carragher-worst-transfer-window-liverpool",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 884,
+        "maxAgeHours": 885,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-25-noam-yaacov-utah-ncaa-denied",
+        "articleId": "live-20260825-hapoel-beer-sheva-sabah-baku-champions-league-preview",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 894,
+        "maxAgeHours": 895,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-25-beer-sheva-sabah-baku-preview",
+        "articleId": "live-2026-08-25-hapoel-hadera-23-man-squad-nosbaum",
         "maxAgeHours": 36,
         "requires": []
       }
