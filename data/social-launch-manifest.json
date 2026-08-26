@@ -146,8 +146,8 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-26T01:30:04Z",
-    "validUntil": "2026-08-26T13:30:04Z",
+    "checkedAt": "2026-08-26T01:58:11Z",
+    "validUntil": "2026-08-26T13:58:11Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
@@ -160,21 +160,21 @@
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-26-real-betis-valencia-mestalla",
+        "articleId": "live-2026-08-25-vitor-sabah-hapoel-beer-sheva-champions-league-exit",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 900,
+        "maxAgeHours": 901,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-25-vitor-sabah-hapoel-beer-sheva-champions-league-exit",
+        "articleId": "live-2026-08-25-maccabi-ashdod-turner-mcduffie-imports-land",
         "maxAgeHours": 35,
         "requires": []
       },
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-25-maccabi-ashdod-turner-mcduffie-imports-land",
+        "articleId": "live-2026-08-25-reijnders-atletico-money",
         "maxAgeHours": 36,
         "requires": []
       }
