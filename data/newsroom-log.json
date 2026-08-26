@@ -1,5 +1,55 @@
 [
   {
+    "ts": "2026-08-26T12:07:01.907Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 2,
+    "review": 1,
+    "skipped": 2,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "silvas-only-contributors-remain-hapoel-haifa-squad",
+        "title": "Silvas: only players who can help on the pitch remain at Hapoel Haifa",
+        "confidence": 0.78,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Gia Prou's name is a phonetic rendering from a single Hebrew-language source and could not be independently cross-checked against a registry spelling."
+      },
+      {
+        "slug": "elimelech-beer-sheva-paid-price-squad-depth",
+        "title": "Elimelech: Beer Sheva paid the price for not signing 6-7 players",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "flick-confirms-balde-in-squad-rodri-role-athletic-club",
+        "title": "Flick confirms Balde in the squad and outlines a role for Rodri against Athletic Club",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "hapoel-jerusalem-demands-police-investigation-findings-rehovot-violence",
+        "title": "Hapoel Jerusalem demand police release findings on Rehovot fan-violence probe",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "hapoel-jerusalem-denies-euroleague-franchise-exclusion",
+        "title": "Hapoel Jerusalem denies it has been shut out of EuroLeague franchise race",
+        "decision": "duplicate"
+      }
+    ]
+  },
+  {
     "ts": "2026-08-26T09:34:03.802Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -2459,62 +2509,6 @@
         "gate": "pass",
         "decision": "published",
         "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-22T13:07:03.369Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 3,
-    "review": 2,
-    "skipped": 0,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "solomon-peretz-start-in-england-khalaili-waits-on-bench-at-everton",
-        "title": "Solomon and Peretz start in England as Khalaili waits on the bench at Everton",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "denis-valiyoulin-discus-world-title-daegu",
-        "title": "Denis Valiyoulin retains discus world title with 49.78m throw in Daegu",
-        "confidence": 0.82,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "below gate thresholds"
-      },
-      {
-        "slug": "ilay-dolinski-released-israel-basketball-squad-tulsa",
-        "title": "Dolinski released from Israel basketball squad to make it to Tulsa on time",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "ligat-haal-2026-27-season-survey-champion-violence",
-        "title": "Ligat Ha'al opens new season as ONE asks fans to vote on the title race and stadium safety",
-        "confidence": 0.78,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "dolgopyat-coach-weisberg-medal-felt-like-birth",
-        "title": "Dolgopyat's coach: winning that medal felt like giving birth",
-        "confidence": 0.82,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Coach quotes and the Ron Piatok/team-qualification detail are reported by ONE alone; spelling of Weisberg's name varies across outlets (Weisberg/Weisburg/Vaisburg) and Piatok's transliteration is unverified beyond ONE"
       }
     ]
   }

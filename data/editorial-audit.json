@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T11:31:58.841Z",
+  "generatedAt": "2026-08-26T12:28:06.647Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1839,
-    "publishedBefore": 1235,
-    "cleanPublished": 1228,
+    "totalArticles": 1842,
+    "publishedBefore": 1237,
+    "cleanPublished": 1230,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1235,
-    "reviewAfter": 604
+    "publishedAfter": 1237,
+    "reviewAfter": 605
   },
   "blockedPublished": [
     {
@@ -141,6 +141,34 @@
   ],
   "warnings": [
     {
+      "id": "live-20260826-flick-balde-rodri-athletic-club",
+      "slug": "flick-confirms-balde-in-squad-rodri-role-athletic-club",
+      "title": "Flick confirms Balde in the squad and outlines a role for Rodri against Athletic Club",
+      "statusBefore": "published",
+      "words": 517,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-26-silvas-hapoel-haifa-squad-rebuild",
+      "slug": "silvas-only-contributors-remain-hapoel-haifa-squad",
+      "title": "Silvas: only players who can help on the pitch remain at Hapoel Haifa",
+      "statusBefore": "review",
+      "words": 354,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-20260826-hapoel-heidegger-registration",
       "slug": "hapoel-tel-aviv-nears-heidegger-registration",
       "title": "Hapoel Tel Aviv close to completing Heidegger's registration with basketball union",
@@ -180,7 +208,8 @@
       "verificationSources": 2,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -18170,6 +18199,32 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-20260826-flick-balde-rodri-athletic-club",
+      "slug": "flick-confirms-balde-in-squad-rodri-role-athletic-club",
+      "title": "Flick confirms Balde in the squad and outlines a role for Rodri against Athletic Club",
+      "statusBefore": "published",
+      "words": 517,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260826-elimelech-beer-sheva-squad-depth",
+      "slug": "elimelech-beer-sheva-paid-price-squad-depth",
+      "title": "Elimelech: Beer Sheva paid the price for not signing 6-7 players",
+      "statusBefore": "published",
+      "words": 385,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
       "id": "live-20260826-alvarez-atletico-training-absence",
       "slug": "julian-alvarez-misses-atletico-training-pain-barcelona-standoff",
       "title": "Julián Álvarez misses Atlético training citing pain amid Barcelona standoff",
@@ -18180,7 +18235,8 @@
       "verificationSources": 2,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {

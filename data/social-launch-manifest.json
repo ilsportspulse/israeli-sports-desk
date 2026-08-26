@@ -146,8 +146,8 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-26T11:31:58Z",
-    "validUntil": "2026-08-26T23:31:58Z",
+    "checkedAt": "2026-08-26T12:28:06Z",
+    "validUntil": "2026-08-27T00:28:06Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
@@ -160,21 +160,21 @@
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260826-barcelona-alvarez-or-nothing",
+        "articleId": "live-20260826-flick-balde-rodri-athletic-club",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 910,
+        "maxAgeHours": 911,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-26-mourinho-returns-bernabeu",
+        "articleId": "live-20260826-elimelech-beer-sheva-squad-depth",
         "maxAgeHours": 35,
         "requires": []
       },
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-26-lask-celtic-champions-league-collapse",
+        "articleId": "live-20260826-alvarez-atletico-training-absence",
         "maxAgeHours": 36,
         "requires": []
       }

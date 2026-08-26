@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T11:31:59.508Z",
+  "generatedAt": "2026-08-26T12:28:07.285Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,7 +11,7 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1235,
+    "publishedArticles": 1237,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
@@ -25,8 +25,8 @@
       "6": 58,
       "7": 185,
       "8": 361,
-      "9": 305,
-      "10": 199,
+      "9": 306,
+      "10": 200,
       "11": 49,
       "12": 15,
       "13": 5,
@@ -4797,6 +4797,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260826-flick-balde-rodri-athletic-club",
+      "slug": "flick-confirms-balde-in-squad-rodri-role-athletic-club",
+      "title": "Flick confirms Balde in the squad and outlines a role for Rodri against Athletic Club",
+      "kind": "news",
+      "words": 516,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 24,
+        "longest": 91,
+        "average": 51.6
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 91,
+        "average": 39.7
+      },
+      "lexicalDiversity": 0.525,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260826-elimelech-beer-sheva-squad-depth",
+      "slug": "elimelech-beer-sheva-paid-price-squad-depth",
+      "title": "Elimelech: Beer Sheva paid the price for not signing 6-7 players",
+      "kind": "article",
+      "words": 385,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 24,
+        "longest": 57,
+        "average": 42.8
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 88,
+        "average": 29.6
+      },
+      "lexicalDiversity": 0.584,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260826-alvarez-atletico-training-absence",
       "slug": "julian-alvarez-misses-atletico-training-pain-barcelona-standoff",
