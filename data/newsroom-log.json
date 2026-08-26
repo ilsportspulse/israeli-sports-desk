@@ -2507,5 +2507,58 @@
         "reason": ""
       }
     ]
+  },
+  {
+    "ts": "2026-08-26T16:40:32.590Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 4,
+    "review": 0,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "sidney-lima-brazilian-defender-talks-maccabi-netanya",
+        "title": "Brazilian centre-back Sidney Lima in transfer talks with Maccabi Netanya",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "dembele-psg-contract-luis-enrique-tension",
+        "title": "PSG plays down Dembélé-Luis Enrique tension as contract talks continue",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "atletico-madrid-contact-juventus-jonathan-david",
+        "title": "Atlético Madrid make contact with Juventus over Jonathan David",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "lamine-yamal-mood-friends-leaving-barcelona",
+        "title": "In Spain, they explain the reason for Yamal's sour mood",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "maccabi-tel-aviv-guiagon-al-taawoun-sell-on-windfall",
+        "title": "Maccabi Tel Aviv cash in as academy product Guiagon completes $5m Saudi Arabia move",
+        "decision": "duplicate"
+      }
+    ]
   }
 ]
