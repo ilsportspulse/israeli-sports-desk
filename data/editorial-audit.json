@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T20:20:06.623Z",
+  "generatedAt": "2026-08-26T21:20:02.748Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1875,
-    "publishedBefore": 1258,
-    "cleanPublished": 1251,
+    "totalArticles": 1878,
+    "publishedBefore": 1259,
+    "cleanPublished": 1252,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1258,
-    "reviewAfter": 617
+    "publishedAfter": 1259,
+    "reviewAfter": 619
   },
   "blockedPublished": [
     {
@@ -140,6 +140,20 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-2026-08-26-barda-hapoel-tel-aviv-no-changes-atalanta",
+      "slug": "barda-hapoel-tel-aviv-no-changes-atalanta-decider",
+      "title": "Barda sees no reason to change a winning Hapoel Tel Aviv side for Atalanta decider",
+      "statusBefore": "published",
+      "words": 410,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-08-26-ashram-steps-down-junior-rhythmic-gymnastics-coach",
       "slug": "linoy-ashram-steps-down-junior-rhythmic-gymnastics-coach",
@@ -18540,6 +18554,20 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-26-barda-hapoel-tel-aviv-no-changes-atalanta",
+      "slug": "barda-hapoel-tel-aviv-no-changes-atalanta-decider",
+      "title": "Barda sees no reason to change a winning Hapoel Tel Aviv side for Atalanta decider",
+      "statusBefore": "published",
+      "words": 410,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260826-nico-gonzalez-newcastle-unveiled",
       "slug": "nico-gonzalez-presented-newcastle-united",

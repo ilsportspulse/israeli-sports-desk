@@ -1,5 +1,56 @@
 [
   {
+    "ts": "2026-08-26T20:57:29.836Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 1,
+    "review": 2,
+    "skipped": 2,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "real-madrid-real-sociedad-la-liga-mourinho-home-debut",
+        "title": "Real Madrid host Real Sociedad as Mourinho takes charge for his first home game",
+        "confidence": 0,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "match in progress — wait for full time; independent outlets gave conflicting scores for this game that could not be reconciled before deadline"
+      },
+      {
+        "slug": "maccabi-tel-aviv-lugano-conference-league-second-leg-preview",
+        "title": "Maccabi Tel Aviv ready for Lugano challenge as Miller eyes Conference League turnaround",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "barda-hapoel-tel-aviv-no-changes-atalanta-decider",
+        "title": "Barda sees no reason to change a winning Hapoel Tel Aviv side for Atalanta decider",
+        "confidence": 0.83,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "eran-zahavi-would-have-killed-amsterdam-robbers-channel-13-interview",
+        "title": "Eran Zahavi: I would have killed the men who attacked my family, and I'd accept life in prison for it",
+        "confidence": 0.82,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "below gate thresholds"
+      },
+      {
+        "slug": "vitor-15-seconds-champions-league-heartbreak",
+        "title": "Sabah beat Hapoel Be'er Sheva 5-2 as Vítor opens up on the '15 seconds' that ended a Champions League dream",
+        "decision": "duplicate",
+        "reason": "same event as kangwa-instagram-story-beer-sheva-champions-league"
+      }
+    ]
+  },
+  {
     "ts": "2026-08-26T19:59:19.559Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -2471,59 +2522,6 @@
         "gate": "pass",
         "decision": "published",
         "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-22T18:02:04.741Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 2,
-    "review": 2,
-    "skipped": 1,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "maccabi-haifa-hapoel-ramat-gan-liga-leumit-opener-in-progress",
-        "title": "Maccabi Haifa trail Hapoel Ramat Gan early in Liga Leumit season opener",
-        "confidence": 0,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "match in progress — wait for full time"
-      },
-      {
-        "slug": "manor-solomon-bright-spot-west-ham-charlton-defeat",
-        "title": "West Ham 1-2 Charlton: Solomon again the standout as Hammers stumble at home",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "serena-williams-carlos-alcaraz-us-open-mixed-doubles-return",
-        "title": "Serena Williams to play mixed doubles with Carlos Alcaraz in US Open return",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "hull-city-2-0-manchester-united-premier-league-opener",
-        "title": "Hull City 2-0 Manchester United: newly promoted Tigers stun Carrick's side on opening day",
-        "confidence": 0.88,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "pyramid-training-gym-guide",
-        "title": "What is pyramid training at the gym, and who is it actually for?",
-        "confidence": 0,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "not newsworthy — generic fitness/how-to explainer with no Israeli or international sport angle (no athlete, team, match or competition); recommend holding from the sports desk."
       }
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T20:20:07.322Z",
+  "generatedAt": "2026-08-26T21:20:03.445Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,7 +11,7 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1258,
+    "publishedArticles": 1259,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
@@ -25,7 +25,7 @@
       "6": 59,
       "7": 191,
       "8": 362,
-      "9": 311,
+      "9": 312,
       "10": 207,
       "11": 50,
       "12": 15,
@@ -4820,6 +4820,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-26-barda-hapoel-tel-aviv-no-changes-atalanta",
+      "slug": "barda-hapoel-tel-aviv-no-changes-atalanta-decider",
+      "title": "Barda sees no reason to change a winning Hapoel Tel Aviv side for Atalanta decider",
+      "kind": "news",
+      "words": 411,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 28,
+        "longest": 58,
+        "average": 45.7
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 64,
+        "average": 31.6
+      },
+      "lexicalDiversity": 0.584,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260826-nico-gonzalez-newcastle-unveiled",
       "slug": "nico-gonzalez-presented-newcastle-united",
