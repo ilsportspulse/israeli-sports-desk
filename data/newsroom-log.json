@@ -1,5 +1,57 @@
 [
   {
+    "ts": "2026-08-26T16:02:50.960Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 2,
+    "review": 1,
+    "skipped": 2,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "atletico-madrid-contact-juventus-over-jonathan-david",
+        "title": "Atletico Madrid make contact with Juventus over Jonathan David",
+        "decision": "duplicate",
+        "reason": "same event as julian-alvarez-booed-atletico-madrid-barcelona-transfer-saga"
+      },
+      {
+        "slug": "spanish-tv-explains-lamine-yamal-emotional-reaction-barcelona-bench",
+        "title": "Spanish TV: Yamal's glum mood is about his three best friends leaving Barcelona, not him",
+        "confidence": 0.65,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "maccabi-tel-aviv-guiagon-saudi-transfer-payday",
+        "title": "Maccabi Tel Aviv set for a payday as former winger Guiagon completes Saudi move",
+        "decision": "duplicate",
+        "reason": "same event as guiagon-saudi-move-maccabi-tel-aviv-sell-on-clause"
+      },
+      {
+        "slug": "maher-hamad-achi-nazareth-liga-leumit-vote-dispute",
+        "title": "Achi Nazareth chairman cries foul over deadlocked board vote",
+        "confidence": 0.68,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "The exact name of the governing committee involved (understood to be Liga Leumit representation within Israeli football's national management) is not fully spelled out in the source; no verifiable, correctly-identified photo of Maher Hamad or Maccabi Achi Nazareth could be confirmed on Wikimedia Commons, so no image is included."
+      },
+      {
+        "slug": "manchester-united-sleeve-blunder-hull-city",
+        "title": "Hull City stun Manchester United 2-0 as sleeve badge blunder catches out Old Trafford club",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-08-26T14:56:29.159Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -2453,59 +2505,6 @@
         "gate": "pass",
         "decision": "published",
         "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-22T14:55:09.334Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 1,
-    "review": 3,
-    "skipped": 1,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "kenny-miller-maccabi-tel-aviv-hapoel-jerusalem-preview",
-        "title": "Miller fronts the media as Maccabi Tel Aviv regroup for Hapoel Jerusalem opener",
-        "confidence": 0.78,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "ONE's report was a live-broadcast page for an ongoing press conference; no direct quotes from Miller had been published at the time of writing."
-      },
-      {
-        "slug": "maccabi-haifa-hapoel-raanana-youth-league-in-progress",
-        "title": "Maccabi Haifa trail Hapoel Ra'anana in Liga Leumit youth clash",
-        "confidence": 0,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "match in progress — wait for full time. Source is a live minute-29 update of a youth-league fixture, not a final-whistle report; scorer detail from the fetch was also internally inconsistent. Holding until the game ends and a confirmed final score is available."
-      },
-      {
-        "slug": "dimarco-names-lamine-yamal-toughest-opponent-career",
-        "title": "Dimarco names Lamine Yamal the toughest opponent of his career",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "west-ham-charlton-half-time-held",
-        "title": "West Ham v Charlton still being played — no report until full time",
-        "confidence": 0,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "match in progress — wait for full time; half-time score also disputed between sources"
-      },
-      {
-        "slug": "kani-bruninho-saief-start-maccabi-haifa-hapoel-ramat-gan-opener",
-        "title": "Kani, Bruninho and Saief start as Maccabi Haifa open season against Hapoel Ramat Gan",
-        "decision": "duplicate"
       }
     ]
   }

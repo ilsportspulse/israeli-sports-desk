@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T15:18:05.317Z",
+  "generatedAt": "2026-08-26T16:23:04.089Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,19 +11,19 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1240,
+    "publishedArticles": 1242,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 418,
-      "average": 422.8
+      "median": 417.5,
+      "average": 422.7
     },
     "paragraphDistribution": {
       "3": 35,
       "4": 6,
       "5": 11,
       "6": 58,
-      "7": 185,
+      "7": 187,
       "8": 361,
       "9": 307,
       "10": 202,
@@ -4797,6 +4797,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260826-man-utd-sleeve-blunder-hull",
+      "slug": "manchester-united-sleeve-blunder-hull-city",
+      "title": "Hull City stun Manchester United 2-0 as sleeve badge blunder catches out Old Trafford club",
+      "kind": "article",
+      "words": 381,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 45,
+        "longest": 66,
+        "average": 54.4
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 41,
+        "average": 21.2
+      },
+      "lexicalDiversity": 0.585,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-26-yamal-mood-barcelona-friends-exit",
+      "slug": "spanish-tv-explains-lamine-yamal-emotional-reaction-barcelona-bench",
+      "title": "Spanish TV: Yamal's glum mood is about his three best friends leaving Barcelona, not him",
+      "kind": "news",
+      "words": 392,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 49,
+        "longest": 65,
+        "average": 56
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 60,
+        "average": 32.7
+      },
+      "lexicalDiversity": 0.628,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-2026-08-26-di-maria-fifa-sanctions-argentina",
       "slug": "di-maria-fifa-sanctions-paredes-molina-excessive",

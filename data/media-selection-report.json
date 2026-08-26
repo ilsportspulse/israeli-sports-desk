@@ -1,33 +1,21 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-08-26-maccabi-herzliya-netanya-stadium",
-      "article": "League management orders Maccabi Herzliya to play at Netanya Stadium after home ground fails inspection",
-      "file": "File:SM Caen Tifo 15 ans du MNK.jpg",
-      "license": "CC BY-SA 3.0"
-    },
-    {
-      "articleId": "live-2026-08-26-di-maria-fifa-sanctions-argentina",
-      "article": "Di María calls FIFA bans for Paredes and Molina \"quite exaggerated\"",
-      "file": "File:Ángel Di María 2017.jpg",
-      "license": "CC BY-SA 3.0"
-    },
-    {
-      "articleId": "live-2026-08-26-kyle-singler-mental-health-videos",
-      "article": "Former Real Madrid and NBA forward Kyle Singler sparks alarm with third round of distressing videos",
-      "file": "File:Kyle Singler.jpg",
-      "license": "CC BY-SA 2.0"
-    },
-    {
-      "articleId": "live-20260826-frej-ifa-election-petition",
-      "article": "Frej petitions football tribunal to force release of IFA election rules",
-      "file": "File:Issawi Frej.jpg",
-      "license": "CC BY-SA 3.0"
+      "articleId": "live-20260826-man-utd-sleeve-blunder-hull",
+      "article": "Hull City stun Manchester United 2-0 as sleeve badge blunder catches out Old Trafford club",
+      "file": "File:Old Trafford (interior), Manchester United.jpg",
+      "license": "CC BY 2.0"
     },
     {
       "articleId": "live-20260815-liebmann-1500m-freestyle-world-record",
       "article": "German teenager Johannes Liebmann shatters 1500m freestyle world record in 14:26.79",
       "file": "File:Swimming Pool lanes and starting blocks at AIS.jpg",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "articleId": "live-2026-08-13-adva-cohen-steeplechase-10th",
+      "article": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
+      "file": "File:20220814 European Championships Munich 2022 Ľubomír Pištej 850 3618.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
@@ -51,9 +39,14 @@
   ],
   "failures": [
     {
-      "id": "live-2026-08-26-atalanta-hapoel-tel-aviv-elmas-absences",
-      "title": "Atalanta prepare for Hapoel Tel Aviv decider without four players, as new signing Elmas sends a message of support",
-      "error": "image download 429 after retries"
+      "id": "live-2026-08-26-maher-hamad-achi-nazareth-vote-dispute",
+      "title": "Achi Nazareth chairman cries foul over deadlocked board vote",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-2026-08-26-yamal-mood-barcelona-friends-exit",
+      "title": "Spanish TV: Yamal's glum mood is about his three best friends leaving Barcelona, not him",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {
       "id": "live-2026-08-25-east-zlatanovic-start-beer-sheva-sabah",
@@ -193,11 +186,6 @@
     {
       "id": "live-2026-08-15-ukraine-amateur-tennis-legend-kurbanov-killed-war",
       "title": "Ukrainian amateur tennis 'legend' Slava Kurbanov killed fighting on the front",
-      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
-    },
-    {
-      "id": "live-2026-08-13-adva-cohen-steeplechase-10th",
-      "title": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {
