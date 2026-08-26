@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T19:19:31.704Z",
+  "generatedAt": "2026-08-26T19:47:46.173Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -18,12 +18,12 @@
   },
   "summary": {
     "totalArticles": 1865,
-    "publishedBefore": 1252,
-    "cleanPublished": 1245,
+    "publishedBefore": 1254,
+    "cleanPublished": 1247,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1252,
-    "reviewAfter": 613
+    "publishedAfter": 1254,
+    "reviewAfter": 611
   },
   "blockedPublished": [
     {
@@ -141,12 +141,12 @@
   ],
   "warnings": [
     {
-      "id": "live-2026-08-26-vitor-football-teaches-not-to-give-up",
-      "slug": "vitor-football-teaches-never-give-up-beer-sheva-sabah",
-      "title": "Sabah beat Hapoel Be'er Sheva 5-2 in extra time as captain Vítor says: 'Football teaches you never to give up'",
-      "statusBefore": "review",
-      "words": 471,
-      "paragraphs": 10,
+      "id": "live-2026-08-26-serena-alcaraz-mixed-doubles-out",
+      "slug": "serena-williams-alcaraz-us-open-mixed-doubles-quarterfinal-exit",
+      "title": "Serena Williams and Alcaraz fall 5-4(4), 4-1 to Bencic and Cobolli in US Open mixed doubles",
+      "statusBefore": "published",
+      "words": 384,
+      "paragraphs": 8,
       "facts": 6,
       "verificationSources": 4,
       "blockers": [],
@@ -155,60 +155,17 @@
       ]
     },
     {
-      "id": "live-2026-08-26-nearim-gimel-rishon-lezion-maccabi-round2",
-      "slug": "nearim-gimel-round-2-hapoel-rishon-lezion-maccabi-tel-aviv",
-      "title": "Hapoel Rishon LeZion score late to beat Bnei Yehuda 3-1, Maccabi Tel Aviv rout Hapoel Ra'anana 5-1",
-      "statusBefore": "review",
-      "words": 305,
-      "paragraphs": 7,
-      "facts": 6,
-      "verificationSources": 1,
+      "id": "live-20260826-federer-us-open-drone-tribute",
+      "slug": "federer-us-open-drone-tribute-farewell",
+      "title": "Drone show and a packed Arthur Ashe give Federer an emotional US Open send-off",
+      "statusBefore": "published",
+      "words": 341,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-26-free-agent-stars-ramos-pogba",
-      "slug": "free-agent-stars-still-without-a-club-late-august",
-      "title": "From Ramos to Pogba: the marquee free agents still hunting for a club",
-      "statusBefore": "review",
-      "words": 530,
-      "paragraphs": 10,
-      "facts": 7,
-      "verificationSources": 5,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline",
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-26-justin-james-nes-ziona",
-      "slug": "justin-james-joins-nes-ziona-basketball",
-      "title": "Nes Ziona sign former Sacramento Kings forward Justin James as sixth import",
-      "statusBefore": "published",
-      "words": 223,
-      "paragraphs": 6,
-      "facts": 6,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline"
-      ]
-    },
-    {
-      "id": "live-20260826-kiryat-shmona-shaheen-return-talks",
-      "slug": "kiryat-shmona-bilal-shaheen-return-talks",
-      "title": "Kiryat Shmona reopen contact with Bilal Shaheen over shock return",
-      "statusBefore": "published",
-      "words": 390,
-      "paragraphs": 7,
-      "facts": 7,
-      "verificationSources": 2,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline"
       ]
     },
     {
@@ -18452,31 +18409,55 @@
   ],
   "cleanPublished": [
     {
-      "id": "live-2026-08-26-justin-james-nes-ziona",
-      "slug": "justin-james-joins-nes-ziona-basketball",
-      "title": "Nes Ziona sign former Sacramento Kings forward Justin James as sixth import",
+      "id": "live-20260826-miki-berkovich-tribute",
+      "slug": "israel-basketball-tributes-miki-berkovich-dementia",
+      "title": "Israel sends love to basketball legend Miki Berkovich after dementia diagnosis revealed",
       "statusBefore": "published",
-      "words": 223,
-      "paragraphs": 6,
+      "words": 619,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-26-nfl-cte-study-one-in-four",
+      "slug": "nfl-players-cte-study-one-in-four-who-died",
+      "title": "Study finds at least one in four NFL players who died had brain disease linked to head trauma",
+      "statusBefore": "published",
+      "words": 478,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-26-serena-alcaraz-mixed-doubles-out",
+      "slug": "serena-williams-alcaraz-us-open-mixed-doubles-quarterfinal-exit",
+      "title": "Serena Williams and Alcaraz fall 5-4(4), 4-1 to Bencic and Cobolli in US Open mixed doubles",
+      "statusBefore": "published",
+      "words": 384,
+      "paragraphs": 8,
       "facts": 6,
       "verificationSources": 4,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
-      "id": "live-20260826-kiryat-shmona-shaheen-return-talks",
-      "slug": "kiryat-shmona-bilal-shaheen-return-talks",
-      "title": "Kiryat Shmona reopen contact with Bilal Shaheen over shock return",
+      "id": "live-20260826-federer-us-open-drone-tribute",
+      "slug": "federer-us-open-drone-tribute-farewell",
+      "title": "Drone show and a packed Arthur Ashe give Federer an emotional US Open send-off",
       "statusBefore": "published",
-      "words": 390,
-      "paragraphs": 7,
+      "words": 341,
+      "paragraphs": 9,
       "facts": 7,
-      "verificationSources": 2,
+      "verificationSources": 3,
       "blockers": [],
       "warnings": [
-        "presentation:outlet-name-in-headline"
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {

@@ -2526,5 +2526,61 @@
         "reason": ""
       }
     ]
+  },
+  {
+    "ts": "2026-08-26T19:27:56.253Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 4,
+    "review": 1,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "real-madrid-real-sociedad-match-in-progress",
+        "title": "Real Madrid host Real Sociedad in rescheduled La Liga opener at the Bernabéu",
+        "confidence": 0,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "match in progress — wait for full time"
+      },
+      {
+        "slug": "federer-us-open-drone-tribute-farewell",
+        "title": "Drone show and a packed Arthur Ashe give Federer an emotional US Open send-off",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "serena-williams-alcaraz-us-open-mixed-doubles-quarterfinal-exit",
+        "title": "Serena Williams and Alcaraz fall 5-4(4), 4-1 to Bencic and Cobolli in US Open mixed doubles",
+        "confidence": 0.92,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "nfl-players-cte-study-one-in-four-who-died",
+        "title": "Study finds at least one in four NFL players who died had brain disease linked to head trauma",
+        "confidence": 0.92,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "israel-basketball-tributes-miki-berkovich-dementia",
+        "title": "Israel sends love to basketball legend Miki Berkovich after dementia diagnosis revealed",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
   }
 ]

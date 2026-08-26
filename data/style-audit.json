@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T19:19:32.351Z",
+  "generatedAt": "2026-08-26T19:47:46.856Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,22 +11,22 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1252,
+    "publishedArticles": 1254,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 417,
-      "average": 422.4
+      "average": 422.7
     },
     "paragraphDistribution": {
       "3": 35,
       "4": 6,
       "5": 11,
-      "6": 59,
-      "7": 190,
-      "8": 361,
-      "9": 310,
-      "10": 205,
+      "6": 58,
+      "7": 189,
+      "8": 362,
+      "9": 311,
+      "10": 207,
       "11": 49,
       "12": 15,
       "13": 5,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.288,
+    "dominantParagraphShare": 0.289,
     "uniformStructureWarning": false,
-    "exactSixParagraphArticles": 59,
+    "exactSixParagraphArticles": 58,
     "analysisBelowTarget": 12,
-    "articlesWithStyleFlags": 207
+    "articlesWithStyleFlags": 206
   },
   "flagged": [
     {
@@ -400,29 +400,6 @@
       "flags": [
         "below-editorial-target:227/280",
         "publisher-attribution-heavy:2"
-      ]
-    },
-    {
-      "id": "live-2026-08-26-justin-james-nes-ziona",
-      "slug": "justin-james-joins-nes-ziona-basketball",
-      "title": "Nes Ziona sign former Sacramento Kings forward Justin James as sixth import",
-      "kind": "news",
-      "words": 228,
-      "paragraphs": 6,
-      "paragraphWords": {
-        "shortest": 24,
-        "longest": 58,
-        "average": 38
-      },
-      "sentenceWords": {
-        "shortest": 24,
-        "longest": 58,
-        "average": 38
-      },
-      "lexicalDiversity": 0.689,
-      "publisherAttributions": 1,
-      "flags": [
-        "below-editorial-target:228/280"
       ]
     },
     {
@@ -4821,23 +4798,86 @@
   ],
   "clean": [
     {
-      "id": "live-20260826-kiryat-shmona-shaheen-return-talks",
-      "slug": "kiryat-shmona-bilal-shaheen-return-talks",
-      "title": "Kiryat Shmona reopen contact with Bilal Shaheen over shock return",
-      "kind": "article",
-      "words": 389,
-      "paragraphs": 7,
+      "id": "live-20260826-miki-berkovich-tribute",
+      "slug": "israel-basketball-tributes-miki-berkovich-dementia",
+      "title": "Israel sends love to basketball legend Miki Berkovich after dementia diagnosis revealed",
+      "kind": "feature",
+      "words": 613,
+      "paragraphs": 10,
       "paragraphWords": {
-        "shortest": 32,
-        "longest": 75,
-        "average": 55.6
+        "shortest": 50,
+        "longest": 86,
+        "average": 61.3
       },
       "sentenceWords": {
-        "shortest": 5,
-        "longest": 44,
-        "average": 22.9
+        "shortest": 9,
+        "longest": 86,
+        "average": 30.7
       },
-      "lexicalDiversity": 0.589,
+      "lexicalDiversity": 0.556,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-26-nfl-cte-study-one-in-four",
+      "slug": "nfl-players-cte-study-one-in-four-who-died",
+      "title": "Study finds at least one in four NFL players who died had brain disease linked to head trauma",
+      "kind": "article",
+      "words": 479,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 25,
+        "longest": 65,
+        "average": 47.9
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 57,
+        "average": 29.9
+      },
+      "lexicalDiversity": 0.557,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-26-serena-alcaraz-mixed-doubles-out",
+      "slug": "serena-williams-alcaraz-us-open-mixed-doubles-quarterfinal-exit",
+      "title": "Serena Williams and Alcaraz fall 5-4(4), 4-1 to Bencic and Cobolli in US Open mixed doubles",
+      "kind": "article",
+      "words": 382,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 30,
+        "longest": 69,
+        "average": 47.8
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 59,
+        "average": 31.8
+      },
+      "lexicalDiversity": 0.579,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260826-federer-us-open-drone-tribute",
+      "slug": "federer-us-open-drone-tribute-farewell",
+      "title": "Drone show and a packed Arthur Ashe give Federer an emotional US Open send-off",
+      "kind": "article",
+      "words": 341,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 25,
+        "longest": 54,
+        "average": 37.9
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 72,
+        "average": 37.9
+      },
+      "lexicalDiversity": 0.607,
       "publisherAttributions": 0,
       "flags": []
     },
