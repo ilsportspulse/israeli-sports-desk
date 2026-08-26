@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T01:58:12.322Z",
+  "generatedAt": "2026-08-26T02:05:34.545Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,11 +11,11 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1229,
+    "publishedArticles": 1230,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 418,
+      "median": 417.5,
       "average": 422.5
     },
     "paragraphDistribution": {
@@ -25,7 +25,7 @@
       "6": 58,
       "7": 185,
       "8": 359,
-      "9": 302,
+      "9": 303,
       "10": 198,
       "11": 49,
       "12": 15,
@@ -4797,6 +4797,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-26-real-betis-valencia-mestalla",
+      "slug": "real-betis-valencia-1-0-mestalla",
+      "title": "Real Betis beat Valencia 1-0 at Mestalla to stay perfect through two games",
+      "kind": "match-report",
+      "words": 417,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 67,
+        "average": 46.3
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 55,
+        "average": 27.8
+      },
+      "lexicalDiversity": 0.568,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-25-vitor-sabah-hapoel-beer-sheva-champions-league-exit",
       "slug": "vitor-i-feel-very-bad-sabah-hapoel-beer-sheva-champions-league-exit",
