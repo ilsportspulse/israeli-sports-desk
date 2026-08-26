@@ -1,5 +1,61 @@
 [
   {
+    "ts": "2026-08-26T09:34:03.802Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 1,
+    "review": 4,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "julian-alvarez-misses-atletico-training-pain-barcelona-standoff",
+        "title": "Julián Álvarez misses Atlético training citing pain amid Barcelona standoff",
+        "confidence": 0.78,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "alexis-serna-beitar-jerusalem-transfer-target-profile",
+        "title": "Potential but inconsistent: getting to know Alexis Serna, Beitar Jerusalem's transfer target",
+        "confidence": 0.78,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Talks are ongoing and unconfirmed — no transfer fee or completed deal has been disclosed by either club."
+      },
+      {
+        "slug": "frej-ifa-election-petition",
+        "title": "Frej petitions football tribunal to force release of IFA election rules",
+        "confidence": 0.78,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Single-source report (ONE); the attorney's name and the chairman's exact English transliteration ('Zuaretz' vs 'Zuares') vary across outlets and are not independently confirmed."
+      },
+      {
+        "slug": "hapoel-herzliya-promotion-push-2026-27",
+        "title": "'No more excuses': Hapoel Herzliya vow to end 14-year wait for promotion",
+        "confidence": 0.75,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Squad, coaching-staff and administrative names are as reported by ONE and not yet independently corroborated by a second outlet."
+      },
+      {
+        "slug": "hapoel-tel-aviv-nears-heidegger-registration",
+        "title": "Hapoel Tel Aviv close to completing Heidegger's registration with basketball union",
+        "confidence": 0.75,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Hapoel completing Heidegger's registration is still an expectation reported by ONE, not yet confirmed by the Israel Basketball Association or either club; Toppin's Israeli citizenship process is also still pending."
+      }
+    ]
+  },
+  {
     "ts": "2026-08-26T07:06:01.158Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -2459,59 +2515,6 @@
         "gate": "hold",
         "decision": "review",
         "reason": "Coach quotes and the Ron Piatok/team-qualification detail are reported by ONE alone; spelling of Weisberg's name varies across outlets (Weisberg/Weisburg/Vaisburg) and Piatok's transliteration is unverified beyond ONE"
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-22T11:54:22.376Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 3,
-    "review": 1,
-    "skipped": 1,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "dolgopyat-israel-greatest-athlete-trajectory",
-        "title": "Dolgopyat closes in on becoming Israel's greatest athlete after third European floor gold",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "url": "https://www.one.co.il/Article/531266.html",
-        "decision": "skipped",
-        "reason": "no valid article emitted"
-      },
-      {
-        "slug": "beitar-jerusalem-draw-maccabi-hapoel-petah-tikva-win-youth-opener",
-        "title": "Beitar draw 2-2 as Maccabi and Hapoel Petah Tikva win on opening weekend of Ne'arim Gimel league",
-        "confidence": 0,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "not newsworthy — this is a routine boys' U-16 third-tier academy league (Ne'arim Gimel) scoreline roundup with unverifiable youth-player names and no senior/professional stakes; hold rather than publish. Player-name transliterations are best-effort only, as no public registry exists for these age-group athletes."
-      },
-      {
-        "slug": "simeone-defends-julian-alvarez-atletico-madrid-villarreal",
-        "title": "Simeone defends Julián Álvarez as Atlético Madrid recall him to face Villarreal",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "flick-brushes-off-alvarez-talk-praises-deco-elche-opener",
-        "title": "Flick brushes off Alvarez talk, hails Deco's 'fantastic job' before Elche opener",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
       }
     ]
   }

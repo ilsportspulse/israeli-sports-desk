@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T09:05:52.351Z",
+  "generatedAt": "2026-08-26T09:55:37.484Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1834,
-    "publishedBefore": 1234,
-    "cleanPublished": 1227,
+    "totalArticles": 1839,
+    "publishedBefore": 1235,
+    "cleanPublished": 1228,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1234,
-    "reviewAfter": 600
+    "publishedAfter": 1235,
+    "reviewAfter": 604
   },
   "blockedPublished": [
     {
@@ -140,6 +140,49 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-20260826-hapoel-heidegger-registration",
+      "slug": "hapoel-tel-aviv-nears-heidegger-registration",
+      "title": "Hapoel Tel Aviv close to completing Heidegger's registration with basketball union",
+      "statusBefore": "review",
+      "words": 402,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260826-alexis-serna-beitar-profile",
+      "slug": "alexis-serna-beitar-jerusalem-transfer-target-profile",
+      "title": "Potential but inconsistent: getting to know Alexis Serna, Beitar Jerusalem's transfer target",
+      "statusBefore": "review",
+      "words": 478,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260826-alvarez-atletico-training-absence",
+      "slug": "julian-alvarez-misses-atletico-training-pain-barcelona-standoff",
+      "title": "Julián Álvarez misses Atlético training citing pain amid Barcelona standoff",
+      "statusBefore": "published",
+      "words": 345,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
     {
       "id": "live-20260826-barcelona-alvarez-or-nothing",
       "slug": "barcelona-settle-on-alvarez-or-nothing-striker-search",
@@ -18126,6 +18169,20 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-20260826-alvarez-atletico-training-absence",
+      "slug": "julian-alvarez-misses-atletico-training-pain-barcelona-standoff",
+      "title": "Julián Álvarez misses Atlético training citing pain amid Barcelona standoff",
+      "statusBefore": "published",
+      "words": 345,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
     {
       "id": "live-20260826-barcelona-alvarez-or-nothing",
       "slug": "barcelona-settle-on-alvarez-or-nothing-striker-search",

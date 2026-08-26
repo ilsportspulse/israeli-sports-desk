@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T09:05:53.030Z",
+  "generatedAt": "2026-08-26T09:55:38.177Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,11 +11,11 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1234,
+    "publishedArticles": 1235,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 417.5,
+      "median": 417,
       "average": 422.6
     },
     "paragraphDistribution": {
@@ -25,7 +25,7 @@
       "6": 58,
       "7": 185,
       "8": 361,
-      "9": 304,
+      "9": 305,
       "10": 199,
       "11": 49,
       "12": 15,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.293,
+    "dominantParagraphShare": 0.292,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 58,
     "analysisBelowTarget": 12,
@@ -4797,6 +4797,27 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260826-alvarez-atletico-training-absence",
+      "slug": "julian-alvarez-misses-atletico-training-pain-barcelona-standoff",
+      "title": "Julián Álvarez misses Atlético training citing pain amid Barcelona standoff",
+      "kind": "news",
+      "words": 344,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 26,
+        "longest": 50,
+        "average": 38.2
+      },
+      "sentenceWords": {
+        "shortest": 14,
+        "longest": 50,
+        "average": 31.3
+      },
+      "lexicalDiversity": 0.654,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260826-barcelona-alvarez-or-nothing",
       "slug": "barcelona-settle-on-alvarez-or-nothing-striker-search",
