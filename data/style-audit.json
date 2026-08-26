@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T00:05:54.089Z",
+  "generatedAt": "2026-08-26T01:30:05.980Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,21 +11,21 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1231,
+    "publishedArticles": 1230,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 417,
-      "average": 422.2
+      "median": 417.5,
+      "average": 422.5
     },
     "paragraphDistribution": {
-      "3": 36,
+      "3": 35,
       "4": 6,
       "5": 11,
       "6": 58,
       "7": 185,
-      "8": 360,
-      "9": 302,
+      "8": 359,
+      "9": 303,
       "10": 198,
       "11": 49,
       "12": 15,
@@ -39,7 +39,7 @@
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 58,
     "analysisBelowTarget": 12,
-    "articlesWithStyleFlags": 207
+    "articlesWithStyleFlags": 206
   },
   "flagged": [
     {
@@ -4794,32 +4794,30 @@
       "flags": [
         "publisher-attribution-heavy:2"
       ]
-    },
-    {
-      "id": "result-2026-08-25-sabah-fk-hapoel-be-er",
-      "slug": "sabah-fk-5-2-hapoel-be-er-champions-league-qualifying",
-      "title": "Sabah FK 5–2 Hapoel Be'er: Champions League qualifying",
-      "kind": "news",
-      "words": 113,
-      "paragraphs": 3,
-      "paragraphWords": {
-        "shortest": 33,
-        "longest": 41,
-        "average": 37.7
-      },
-      "sentenceWords": {
-        "shortest": 12,
-        "longest": 27,
-        "average": 18.8
-      },
-      "lexicalDiversity": 0.752,
-      "publisherAttributions": 0,
-      "flags": [
-        "below-editorial-target:113/280"
-      ]
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-26-real-betis-valencia-mestalla",
+      "slug": "real-betis-valencia-1-0-mestalla",
+      "title": "Real Betis beat Valencia 1-0 at Mestalla to stay perfect through two games",
+      "kind": "match-report",
+      "words": 417,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 67,
+        "average": 46.3
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 55,
+        "average": 27.8
+      },
+      "lexicalDiversity": 0.568,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-25-vitor-sabah-hapoel-beer-sheva-champions-league-exit",
       "slug": "vitor-i-feel-very-bad-sabah-hapoel-beer-sheva-champions-league-exit",
@@ -4839,27 +4837,6 @@
       },
       "lexicalDiversity": 0.51,
       "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-25-ronaldo-halftime-al-nassr-comeback",
-      "slug": "al-nassr-al-ettifaq-3-2-ronaldo-substituted-halftime-mane-comeback",
-      "title": "Al Nassr 3-2 Al Ettifaq: Ronaldo fumes after halftime hook as Mane inspires 10-man comeback",
-      "kind": "article",
-      "words": 366,
-      "paragraphs": 8,
-      "paragraphWords": {
-        "shortest": 36,
-        "longest": 64,
-        "average": 45.8
-      },
-      "sentenceWords": {
-        "shortest": 7,
-        "longest": 52,
-        "average": 28.2
-      },
-      "lexicalDiversity": 0.626,
-      "publisherAttributions": 1,
       "flags": []
     },
     {
