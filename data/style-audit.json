@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T13:57:43.152Z",
+  "generatedAt": "2026-08-26T15:18:05.317Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1237,
+    "publishedArticles": 1240,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 417,
-      "average": 422.6
+      "median": 418,
+      "average": 422.8
     },
     "paragraphDistribution": {
       "3": 35,
@@ -25,8 +25,8 @@
       "6": 58,
       "7": 185,
       "8": 361,
-      "9": 306,
-      "10": 200,
+      "9": 307,
+      "10": 202,
       "11": 49,
       "12": 15,
       "13": 5,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.292,
+    "dominantParagraphShare": 0.291,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 58,
     "analysisBelowTarget": 12,
@@ -4797,6 +4797,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-26-di-maria-fifa-sanctions-argentina",
+      "slug": "di-maria-fifa-sanctions-paredes-molina-excessive",
+      "title": "Di María calls FIFA bans for Paredes and Molina \"quite exaggerated\"",
+      "kind": "news",
+      "words": 485,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 67,
+        "average": 48.5
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 71,
+        "average": 37.3
+      },
+      "lexicalDiversity": 0.598,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-26-atalanta-hapoel-tel-aviv-elmas-absences",
+      "slug": "atalanta-hapoel-tel-aviv-elmas-absences-conference-league",
+      "title": "Atalanta prepare for Hapoel Tel Aviv decider without four players, as new signing Elmas sends a message of support",
+      "kind": "news",
+      "words": 446,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 74,
+        "average": 49.6
+      },
+      "sentenceWords": {
+        "shortest": 13,
+        "longest": 98,
+        "average": 37.2
+      },
+      "lexicalDiversity": 0.61,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-26-kyle-singler-mental-health-videos",
+      "slug": "kyle-singler-alarming-videos-coach-k-mental-health-concern",
+      "title": "Former Real Madrid and NBA forward Kyle Singler sparks alarm with third round of distressing videos",
+      "kind": "news",
+      "words": 535,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 39,
+        "longest": 68,
+        "average": 53.5
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 50,
+        "average": 33.4
+      },
+      "lexicalDiversity": 0.533,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-20260826-flick-balde-rodri-athletic-club",
       "slug": "flick-confirms-balde-in-squad-rodri-role-athletic-club",

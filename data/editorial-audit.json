@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T13:57:42.625Z",
+  "generatedAt": "2026-08-26T15:18:04.864Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1842,
-    "publishedBefore": 1237,
-    "cleanPublished": 1230,
+    "totalArticles": 1846,
+    "publishedBefore": 1240,
+    "cleanPublished": 1233,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1237,
-    "reviewAfter": 605
+    "publishedAfter": 1240,
+    "reviewAfter": 606
   },
   "blockedPublished": [
     {
@@ -141,6 +141,48 @@
   ],
   "warnings": [
     {
+      "id": "live-2026-08-26-maccabi-herzliya-netanya-stadium",
+      "slug": "maccabi-herzliya-host-hapoel-kfar-saba-netanya-stadium",
+      "title": "League management orders Maccabi Herzliya to play at Netanya Stadium after home ground fails inspection",
+      "statusBefore": "review",
+      "words": 312,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-26-di-maria-fifa-sanctions-argentina",
+      "slug": "di-maria-fifa-sanctions-paredes-molina-excessive",
+      "title": "Di María calls FIFA bans for Paredes and Molina \"quite exaggerated\"",
+      "statusBefore": "published",
+      "words": 479,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-26-kyle-singler-mental-health-videos",
+      "slug": "kyle-singler-alarming-videos-coach-k-mental-health-concern",
+      "title": "Former Real Madrid and NBA forward Kyle Singler sparks alarm with third round of distressing videos",
+      "statusBefore": "published",
+      "words": 540,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
       "id": "live-20260826-flick-balde-rodri-athletic-club",
       "slug": "flick-confirms-balde-in-squad-rodri-role-athletic-club",
       "title": "Flick confirms Balde in the squad and outlines a role for Rodri against Athletic Club",
@@ -180,6 +222,20 @@
       "blockers": [],
       "warnings": [
         "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260826-frej-ifa-election-petition",
+      "slug": "frej-ifa-election-petition",
+      "title": "Frej petitions football tribunal to force release of IFA election rules",
+      "statusBefore": "review",
+      "words": 329,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
         "media:no-action-or-competition-context-detected"
       ]
     },
@@ -18198,6 +18254,46 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-26-di-maria-fifa-sanctions-argentina",
+      "slug": "di-maria-fifa-sanctions-paredes-molina-excessive",
+      "title": "Di María calls FIFA bans for Paredes and Molina \"quite exaggerated\"",
+      "statusBefore": "published",
+      "words": 479,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-26-atalanta-hapoel-tel-aviv-elmas-absences",
+      "slug": "atalanta-hapoel-tel-aviv-elmas-absences-conference-league",
+      "title": "Atalanta prepare for Hapoel Tel Aviv decider without four players, as new signing Elmas sends a message of support",
+      "statusBefore": "published",
+      "words": 449,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-26-kyle-singler-mental-health-videos",
+      "slug": "kyle-singler-alarming-videos-coach-k-mental-health-concern",
+      "title": "Former Real Madrid and NBA forward Kyle Singler sparks alarm with third round of distressing videos",
+      "statusBefore": "published",
+      "words": 540,
+      "paragraphs": 10,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-20260826-flick-balde-rodri-athletic-club",
       "slug": "flick-confirms-balde-in-squad-rodri-role-athletic-club",
