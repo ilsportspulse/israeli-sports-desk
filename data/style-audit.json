@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T17:37:16.176Z",
+  "generatedAt": "2026-08-26T18:33:43.040Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,22 +11,22 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1244,
+    "publishedArticles": 1250,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 418,
-      "average": 422.8
+      "median": 417,
+      "average": 422.6
     },
     "paragraphDistribution": {
       "3": 35,
       "4": 6,
       "5": 11,
       "6": 58,
-      "7": 187,
+      "7": 189,
       "8": 361,
-      "9": 308,
-      "10": 203,
+      "9": 310,
+      "10": 205,
       "11": 49,
       "12": 15,
       "13": 5,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.29,
+    "dominantParagraphShare": 0.289,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 58,
     "analysisBelowTarget": 12,
@@ -4798,6 +4798,69 @@
   ],
   "clean": [
     {
+      "id": "live-20260826-sarri-braces-atalanta-hapoel-tel-aviv",
+      "slug": "sarri-braces-tough-test-atalanta-hapoel-tel-aviv-decider",
+      "title": "Sarri braces for tough test as Atalanta face Hapoel Tel Aviv decider",
+      "kind": "news",
+      "words": 404,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 26,
+        "longest": 62,
+        "average": 44.9
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 96,
+        "average": 31.1
+      },
+      "lexicalDiversity": 0.614,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-26-real-madrid-cucurella-silva-lineup",
+      "slug": "real-madrid-cucurella-bernardo-silva-lineup-real-sociedad",
+      "title": "Cucurella and Bernardo Silva set to start as Real Madrid host Real Sociedad",
+      "kind": "article",
+      "words": 407,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 64,
+        "average": 40.7
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 41,
+        "average": 31.3
+      },
+      "lexicalDiversity": 0.624,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-26-dan-biton-hapoel-beer-sheva-gradual-return",
+      "slug": "dan-biton-hapoel-beer-sheva-cautious-optimism-return",
+      "title": "Cautious optimism at Hapoel Beer Sheva as Dan Biton edges toward a gradual return",
+      "kind": "article",
+      "words": 406,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 54,
+        "longest": 66,
+        "average": 58
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 55,
+        "average": 29
+      },
+      "lexicalDiversity": 0.591,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
       "id": "live-20260826-maccabi-tel-aviv-lugano-preview",
       "slug": "maccabi-tel-aviv-lugano-conference-league-decider-preview",
       "title": "Miller and Camara: Maccabi Tel Aviv players know what is at stake against Lugano",
@@ -4858,27 +4921,6 @@
       },
       "lexicalDiversity": 0.585,
       "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-26-yamal-mood-barcelona-friends-exit",
-      "slug": "spanish-tv-explains-lamine-yamal-emotional-reaction-barcelona-bench",
-      "title": "Spanish TV: Yamal's glum mood is about his three best friends leaving Barcelona, not him",
-      "kind": "news",
-      "words": 392,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 49,
-        "longest": 65,
-        "average": 56
-      },
-      "sentenceWords": {
-        "shortest": 4,
-        "longest": 60,
-        "average": 32.7
-      },
-      "lexicalDiversity": 0.628,
-      "publisherAttributions": 1,
       "flags": []
     },
     {
@@ -26593,6 +26635,90 @@
       },
       "lexicalDiversity": 0.575,
       "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-26-yamal-mood-friends-departure",
+      "slug": "lamine-yamal-mood-friends-leaving-barcelona",
+      "title": "In Spain, they explain the reason for Yamal's sour mood",
+      "kind": "news",
+      "words": 487,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 44,
+        "longest": 68,
+        "average": 54.1
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 58,
+        "average": 28.6
+      },
+      "lexicalDiversity": 0.602,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-26-atletico-madrid-contact-juventus-jonathan-david",
+      "slug": "atletico-madrid-contact-juventus-jonathan-david",
+      "title": "Atlético Madrid make contact with Juventus over Jonathan David",
+      "kind": "news",
+      "words": 323,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 57,
+        "average": 46.1
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 34,
+        "average": 24.8
+      },
+      "lexicalDiversity": 0.628,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-26-dembele-psg-contract-tension",
+      "slug": "dembele-psg-contract-luis-enrique-tension",
+      "title": "PSG plays down Dembélé-Luis Enrique tension as contract talks continue",
+      "kind": "news",
+      "words": 369,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 33,
+        "longest": 42,
+        "average": 36.9
+      },
+      "sentenceWords": {
+        "shortest": 33,
+        "longest": 42,
+        "average": 36.9
+      },
+      "lexicalDiversity": 0.623,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-26-sidney-lima-maccabi-netanya-talks",
+      "slug": "sidney-lima-brazilian-defender-talks-maccabi-netanya",
+      "title": "Brazilian centre-back Sidney Lima in transfer talks with Maccabi Netanya",
+      "kind": "news",
+      "words": 311,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 38,
+        "longest": 56,
+        "average": 44.4
+      },
+      "sentenceWords": {
+        "shortest": 11,
+        "longest": 43,
+        "average": 28.3
+      },
+      "lexicalDiversity": 0.621,
+      "publisherAttributions": 0,
       "flags": []
     }
   ]

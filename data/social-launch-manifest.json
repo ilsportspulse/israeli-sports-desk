@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-26T17:37:15Z",
-    "validUntil": "2026-08-27T05:37:15Z",
+    "checkedAt": "2026-08-26T18:33:41Z",
+    "validUntil": "2026-08-27T06:33:41Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 909,
+        "maxAgeHours": 910,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260826-maccabi-tel-aviv-lugano-preview",
+        "articleId": "live-20260826-sarri-braces-atalanta-hapoel-tel-aviv",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 916,
+        "maxAgeHours": 917,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260826-israeli-paralympians-kayak-rowing-worlds",
+        "articleId": "live-2026-08-26-real-madrid-cucurella-silva-lineup",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 927,
+        "maxAgeHours": 928,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-20260826-man-utd-sleeve-blunder-hull",
+        "articleId": "live-2026-08-26-dan-biton-hapoel-beer-sheva-gradual-return",
         "maxAgeHours": 36,
         "requires": []
       }

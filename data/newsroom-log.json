@@ -1,5 +1,58 @@
 [
   {
+    "ts": "2026-08-26T18:11:28.219Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 3,
+    "review": 1,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "dan-biton-hapoel-beer-sheva-cautious-optimism-return",
+        "title": "Cautious optimism at Hapoel Beer Sheva as Dan Biton edges toward a gradual return",
+        "confidence": 0.78,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "real-madrid-cucurella-bernardo-silva-lineup-real-sociedad",
+        "title": "Cucurella and Bernardo Silva set to start as Real Madrid host Real Sociedad",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "asaf-nimni-karnei-shomron-youth-football-department",
+        "title": "Asaf Nimni to lead new youth department at Maccabi Karnei Shomron",
+        "confidence": 0.8,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Attendee and official names (Kuznitz, Koretzky, Zalka, Ben David) and the exact quote are sourced only to ONE's report; Nimni's own biography and career background are independently corroborated via Wikipedia. Division of Maccabi Karnei Shomron's senior team is not stated in the source."
+      },
+      {
+        "slug": "sarri-braces-tough-test-atalanta-hapoel-tel-aviv-decider",
+        "title": "Sarri braces for tough test as Atalanta face Hapoel Tel Aviv decider",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "hapoel-beer-sheva-vitor-never-give-up",
+        "title": "Hapoel Beer Sheva captain Vítor: 'football teaches us not to give up' after 6-4 aggregate exit to Sabah",
+        "decision": "duplicate"
+      }
+    ]
+  },
+  {
     "ts": "2026-08-26T16:02:50.960Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -2465,149 +2518,6 @@
         "slug": "hull-city-stun-manchester-united-premier-league-opener",
         "title": "Hull City 2-0 Manchester United: Carrick's side accused of lacking 'blood, courage and fighting spirit'",
         "decision": "duplicate"
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-22T15:52:26.254Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 3,
-    "published": 3,
-    "review": 0,
-    "skipped": 0,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "serena-williams-carlos-alcaraz-us-open-mixed-doubles-wildcard",
-        "title": "Serena Williams and Carlos Alcaraz to team up for US Open mixed doubles",
-        "confidence": 0.88,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "cocaine-scandal-fall-of-tennis-self-styled-bad-boy-nick-kyrgios",
-        "title": "Cocaine positive ends Nick Kyrgios's long fall from Wimbledon finalist to world No. 919",
-        "confidence": 0.92,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "israeli-football-broadcasters-not-publicists-column",
-        "title": "The public wants broadcasters, not hype men, argues top Ynet columnist",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-26T16:40:32.590Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 4,
-    "review": 0,
-    "skipped": 1,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "sidney-lima-brazilian-defender-talks-maccabi-netanya",
-        "title": "Brazilian centre-back Sidney Lima in transfer talks with Maccabi Netanya",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "dembele-psg-contract-luis-enrique-tension",
-        "title": "PSG plays down Dembélé-Luis Enrique tension as contract talks continue",
-        "confidence": 0.8,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "atletico-madrid-contact-juventus-jonathan-david",
-        "title": "Atlético Madrid make contact with Juventus over Jonathan David",
-        "confidence": 0.8,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "lamine-yamal-mood-friends-leaving-barcelona",
-        "title": "In Spain, they explain the reason for Yamal's sour mood",
-        "confidence": 0.8,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "maccabi-tel-aviv-guiagon-al-taawoun-sell-on-windfall",
-        "title": "Maccabi Tel Aviv cash in as academy product Guiagon completes $5m Saudi Arabia move",
-        "decision": "duplicate"
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-26T17:15:43.916Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 2,
-    "review": 1,
-    "skipped": 2,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "israeli-paralympians-advance-kayak-rowing-worlds-daniel-bronze",
-        "title": "Israeli Paralympians advance at kayak and rowing worlds as Daniel finally receives European bronze",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "sarri-atalanta-hapoel-tel-aviv-conference-league-presser",
-        "title": "Sarri braces for \"difficult\" Hapoel Tel Aviv test in Conference League decider",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "vitor-instagram-football-teaches-not-to-give-up",
-        "title": "Sabah 5-2 Hapoel Be'er Sheva (agg 6-4): Vítor says 'football teaches us not to give up'",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "maccabi-tel-aviv-lugano-conference-league-decider-preview",
-        "title": "Miller and Camara: Maccabi Tel Aviv players know what is at stake against Lugano",
-        "confidence": 0.85,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "hapoel-beer-sheva-sabah-champions-league-heartbreak",
-        "title": "Sabah beat Hapoel Beer Sheva 5-2 in extra time to win Champions League playoff 6-4 on aggregate",
-        "confidence": 0.85,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "Core match facts (score, aggregate, extra-time goals, red cards) are confirmed across ONE, Al Jazeera, Walla and Haaretz; Aderet Kozuch's exact social-media quote is reported by ONE only and not independently re-confirmed on her own account."
       }
     ]
   }
