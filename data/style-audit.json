@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T06:05:41.865Z",
+  "generatedAt": "2026-08-26T07:27:40.095Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,7 +11,7 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1232,
+    "publishedArticles": 1234,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
@@ -24,7 +24,7 @@
       "5": 11,
       "6": 58,
       "7": 185,
-      "8": 359,
+      "8": 361,
       "9": 304,
       "10": 199,
       "11": 49,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.291,
+    "dominantParagraphShare": 0.293,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 58,
     "analysisBelowTarget": 12,
@@ -4797,6 +4797,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260826-barcelona-alvarez-or-nothing",
+      "slug": "barcelona-settle-on-alvarez-or-nothing-striker-search",
+      "title": "Barcelona settle on 'Alvarez or nothing' as striker search stalls",
+      "kind": "transfer",
+      "words": 387,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 32,
+        "longest": 72,
+        "average": 48.4
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 45,
+        "average": 27.6
+      },
+      "lexicalDiversity": 0.602,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-26-mourinho-returns-bernabeu",
+      "slug": "mourinho-returns-to-bernabeu-13-years-later",
+      "title": "13 years on, José Mourinho returns to the Bernabéu bench",
+      "kind": "article",
+      "words": 474,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 43,
+        "longest": 80,
+        "average": 59.3
+      },
+      "sentenceWords": {
+        "shortest": 24,
+        "longest": 62,
+        "average": 39.5
+      },
+      "lexicalDiversity": 0.584,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-26-lask-celtic-champions-league-collapse",
       "slug": "lask-celtic-champions-league-collapse-four-goal-lead",

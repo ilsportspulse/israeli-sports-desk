@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T06:05:41.184Z",
+  "generatedAt": "2026-08-26T07:27:39.409Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1831,
-    "publishedBefore": 1232,
-    "cleanPublished": 1225,
+    "totalArticles": 1834,
+    "publishedBefore": 1234,
+    "cleanPublished": 1227,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1232,
-    "reviewAfter": 599
+    "publishedAfter": 1234,
+    "reviewAfter": 600
   },
   "blockedPublished": [
     {
@@ -140,6 +140,49 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-20260826-barcelona-alvarez-or-nothing",
+      "slug": "barcelona-settle-on-alvarez-or-nothing-striker-search",
+      "title": "Barcelona settle on 'Alvarez or nothing' as striker search stalls",
+      "statusBefore": "published",
+      "words": 391,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-26-mourinho-returns-bernabeu",
+      "slug": "mourinho-returns-to-bernabeu-13-years-later",
+      "title": "13 years on, José Mourinho returns to the Bernabéu bench",
+      "statusBefore": "published",
+      "words": 478,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260826-hapoel-akko-nakash-more-drive",
+      "slug": "hapoel-akko-owner-nakash-more-drive-after-coach-resignation",
+      "title": "Hapoel Akko owner Tzachi Nakash vows more drive after coach's shock resignation",
+      "statusBefore": "review",
+      "words": 438,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:4"
+      ]
+    },
     {
       "id": "live-2026-08-26-lask-celtic-champions-league-collapse",
       "slug": "lask-celtic-champions-league-collapse-four-goal-lead",
@@ -18083,6 +18126,35 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-20260826-barcelona-alvarez-or-nothing",
+      "slug": "barcelona-settle-on-alvarez-or-nothing-striker-search",
+      "title": "Barcelona settle on 'Alvarez or nothing' as striker search stalls",
+      "statusBefore": "published",
+      "words": 391,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 1,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-26-mourinho-returns-bernabeu",
+      "slug": "mourinho-returns-to-bernabeu-13-years-later",
+      "title": "13 years on, José Mourinho returns to the Bernabéu bench",
+      "statusBefore": "published",
+      "words": 478,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-08-26-lask-celtic-champions-league-collapse",
       "slug": "lask-celtic-champions-league-collapse-four-goal-lead",

@@ -1,27 +1,21 @@
 {
   "selections": [
     {
-      "articleId": "live-2026-08-26-lask-celtic-champions-league-collapse",
-      "article": "LASK 5-1 Celtic (5-4 agg): Hoops surrender four-goal lead to crash out of Champions League",
-      "file": "File:Raiffeisen-Arena Linz 01.jpg",
+      "articleId": "live-20260826-barcelona-alvarez-or-nothing",
+      "article": "Barcelona settle on 'Alvarez or nothing' as striker search stalls",
+      "file": "File:Joan Laporta - 001.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "archive-20260826-munich-10-august-2002-the-vault-that-gav",
-      "article": "Munich, 10 August 2002: The Vault That Gave Israel Its First European Gold",
-      "file": "File:Israel track and field championship 2011 Aleksandr Averbukh 01.JPG",
-      "license": "CC BY-SA 3.0"
+      "articleId": "live-2026-08-26-mourinho-returns-bernabeu",
+      "article": "13 years on, José Mourinho returns to the Bernabéu bench",
+      "file": "File:José Mourinho'14.JPG",
+      "license": "CC BY-SA 4.0"
     },
     {
       "articleId": "live-20260815-liebmann-1500m-freestyle-world-record",
       "article": "German teenager Johannes Liebmann shatters 1500m freestyle world record in 14:26.79",
       "file": "File:Swimming Pool lanes and starting blocks at AIS.jpg",
-      "license": "CC BY-SA 4.0"
-    },
-    {
-      "articleId": "live-2026-08-13-adva-cohen-steeplechase-10th",
-      "article": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
-      "file": "File:20220814 European Championships Munich 2022 Ľubomír Pištej 850 3618.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
@@ -44,6 +38,11 @@
     }
   ],
   "failures": [
+    {
+      "id": "live-20260826-hapoel-akko-nakash-more-drive",
+      "title": "Hapoel Akko owner Tzachi Nakash vows more drive after coach's shock resignation",
+      "error": "image download 429 after retries"
+    },
     {
       "id": "live-2026-08-25-east-zlatanovic-start-beer-sheva-sabah",
       "title": "East and Zlatanović to spearhead Beer Sheva's push for Champions League history in Baku",
@@ -182,6 +181,11 @@
     {
       "id": "live-2026-08-15-ukraine-amateur-tennis-legend-kurbanov-killed-war",
       "title": "Ukrainian amateur tennis 'legend' Slava Kurbanov killed fighting on the front",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-2026-08-13-adva-cohen-steeplechase-10th",
+      "title": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {
