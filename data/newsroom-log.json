@@ -1,5 +1,61 @@
 [
   {
+    "ts": "2026-08-26T18:58:39.921Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 2,
+    "review": 3,
+    "skipped": 0,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "kiryat-shmona-bilal-shaheen-return-talks",
+        "title": "Kiryat Shmona reopen contact with Bilal Shaheen over shock return",
+        "confidence": 0.8,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "justin-james-joins-nes-ziona-basketball",
+        "title": "Nes Ziona sign former Sacramento Kings forward Justin James as sixth import",
+        "confidence": 0.82,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "free-agent-stars-still-without-a-club-late-august",
+        "title": "From Ramos to Pogba: the marquee free agents still hunting for a club",
+        "confidence": 0.75,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Core facts (Pogba's Monaco termination, Ramos's free-agent search, Sancho's departure from Man United, James Rodriguez's status) are independently confirmed; the rest of the roster (Carvajal, Ceballos, Alaba, Goretzka, Coutinho, Fabinho, Wijnaldum, Mahrez, Traore, Kessie, Parejo, Gudelj, Alli, Sterling, Smalling, El Shaarawy, Brozovic, Guerreiro, Bennacer) is reported per ONE alone and was not individually cross-checked against a second outlet."
+      },
+      {
+        "slug": "nearim-gimel-round-2-hapoel-rishon-lezion-maccabi-tel-aviv",
+        "title": "Hapoel Rishon LeZion score late to beat Bnei Yehuda 3-1, Maccabi Tel Aviv rout Hapoel Ra'anana 5-1",
+        "confidence": 0.6,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Youth-league player names (e.g. Liam Yamini-Sahar, Tabor Grant, Yehali Sabag, Eyasu Ashtia) are best-effort transliterations from a single Hebrew-language youth-football report; no registry exists to independently confirm exact spellings for these age-group players."
+      },
+      {
+        "slug": "vitor-football-teaches-never-give-up-beer-sheva-sabah",
+        "title": "Sabah beat Hapoel Be'er Sheva 5-2 in extra time as captain Vítor says: 'Football teaches you never to give up'",
+        "confidence": 0.85,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "below gate thresholds"
+      }
+    ]
+  },
+  {
     "ts": "2026-08-26T18:11:28.219Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -2468,56 +2524,6 @@
         "gate": "pass",
         "decision": "published",
         "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-22T16:33:30.626Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 2,
-    "review": 1,
-    "skipped": 2,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "serena-williams-carlos-alcaraz-us-open-mixed-doubles",
-        "title": "Serena Williams and Carlos Alcaraz to team up for US Open mixed doubles",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "hazan-sola-costa-maccabi-petah-tikva-kiryat-shmona-ligat-haal-opener",
-        "title": "Hazan starts for Maccabi Petah Tikva, Sola and Costa in Kiryat Shmona's XI for season opener",
-        "confidence": 0.78,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "ironi-tiberias-hapoel-petah-tikva-season-opener-preview",
-        "title": "Badash and Avishai Cohen set for Petah Tikva debuts as Tiberias open season under a points penalty",
-        "confidence": 0.82,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "kani-bruninho-saief-start-maccabi-haifa-hapoel-ramat-gan",
-        "title": "Kani, Bruninho and Saief start as Maccabi Haifa host Hapoel Ramat Gan in league opener",
-        "confidence": 0.85,
-        "gate": "hold",
-        "decision": "review",
-        "reason": "below gate thresholds"
-      },
-      {
-        "slug": "hull-city-stun-manchester-united-premier-league-opener",
-        "title": "Hull City 2-0 Manchester United: Carrick's side accused of lacking 'blood, courage and fighting spirit'",
-        "decision": "duplicate"
       }
     ]
   }
