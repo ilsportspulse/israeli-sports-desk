@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T17:01:16.327Z",
+  "generatedAt": "2026-08-26T17:37:16.176Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -15,8 +15,8 @@
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
-      "median": 417.5,
-      "average": 422.6
+      "median": 418,
+      "average": 422.8
     },
     "paragraphDistribution": {
       "3": 35,
@@ -4798,87 +4798,87 @@
   ],
   "clean": [
     {
-      "id": "live-2026-08-26-yamal-mood-friends-departure",
-      "slug": "lamine-yamal-mood-friends-leaving-barcelona",
-      "title": "In Spain, they explain the reason for Yamal's sour mood",
+      "id": "live-20260826-maccabi-tel-aviv-lugano-preview",
+      "slug": "maccabi-tel-aviv-lugano-conference-league-decider-preview",
+      "title": "Miller and Camara: Maccabi Tel Aviv players know what is at stake against Lugano",
       "kind": "news",
-      "words": 487,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 44,
-        "longest": 68,
-        "average": 54.1
-      },
-      "sentenceWords": {
-        "shortest": 6,
-        "longest": 58,
-        "average": 28.6
-      },
-      "lexicalDiversity": 0.602,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-26-atletico-madrid-contact-juventus-jonathan-david",
-      "slug": "atletico-madrid-contact-juventus-jonathan-david",
-      "title": "Atlético Madrid make contact with Juventus over Jonathan David",
-      "kind": "news",
-      "words": 323,
-      "paragraphs": 7,
-      "paragraphWords": {
-        "shortest": 33,
-        "longest": 57,
-        "average": 46.1
-      },
-      "sentenceWords": {
-        "shortest": 6,
-        "longest": 34,
-        "average": 24.8
-      },
-      "lexicalDiversity": 0.628,
-      "publisherAttributions": 0,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-26-dembele-psg-contract-tension",
-      "slug": "dembele-psg-contract-luis-enrique-tension",
-      "title": "PSG plays down Dembélé-Luis Enrique tension as contract talks continue",
-      "kind": "news",
-      "words": 369,
+      "words": 462,
       "paragraphs": 10,
       "paragraphWords": {
-        "shortest": 33,
-        "longest": 42,
-        "average": 36.9
+        "shortest": 35,
+        "longest": 61,
+        "average": 46.2
       },
       "sentenceWords": {
-        "shortest": 33,
-        "longest": 42,
-        "average": 36.9
+        "shortest": 6,
+        "longest": 48,
+        "average": 25.7
       },
-      "lexicalDiversity": 0.623,
+      "lexicalDiversity": 0.58,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-20260826-israeli-paralympians-kayak-rowing-worlds",
+      "slug": "israeli-paralympians-advance-kayak-rowing-worlds-daniel-bronze",
+      "title": "Israeli Paralympians advance at kayak and rowing worlds as Daniel finally receives European bronze",
+      "kind": "article",
+      "words": 447,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 75,
+        "average": 49.7
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 54,
+        "average": 24.8
+      },
+      "lexicalDiversity": 0.588,
       "publisherAttributions": 0,
       "flags": []
     },
     {
-      "id": "live-2026-08-26-sidney-lima-maccabi-netanya-talks",
-      "slug": "sidney-lima-brazilian-defender-talks-maccabi-netanya",
-      "title": "Brazilian centre-back Sidney Lima in transfer talks with Maccabi Netanya",
-      "kind": "news",
-      "words": 311,
+      "id": "live-20260826-man-utd-sleeve-blunder-hull",
+      "slug": "manchester-united-sleeve-blunder-hull-city",
+      "title": "Hull City stun Manchester United 2-0 as sleeve badge blunder catches out Old Trafford club",
+      "kind": "article",
+      "words": 381,
       "paragraphs": 7,
       "paragraphWords": {
-        "shortest": 38,
-        "longest": 56,
-        "average": 44.4
+        "shortest": 45,
+        "longest": 66,
+        "average": 54.4
       },
       "sentenceWords": {
-        "shortest": 11,
-        "longest": 43,
-        "average": 28.3
+        "shortest": 4,
+        "longest": 41,
+        "average": 21.2
       },
-      "lexicalDiversity": 0.621,
+      "lexicalDiversity": 0.585,
       "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-26-yamal-mood-barcelona-friends-exit",
+      "slug": "spanish-tv-explains-lamine-yamal-emotional-reaction-barcelona-bench",
+      "title": "Spanish TV: Yamal's glum mood is about his three best friends leaving Barcelona, not him",
+      "kind": "news",
+      "words": 392,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 49,
+        "longest": 65,
+        "average": 56
+      },
+      "sentenceWords": {
+        "shortest": 4,
+        "longest": 60,
+        "average": 32.7
+      },
+      "lexicalDiversity": 0.628,
+      "publisherAttributions": 1,
       "flags": []
     },
     {

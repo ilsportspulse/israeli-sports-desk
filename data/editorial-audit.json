@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T17:01:15.688Z",
+  "generatedAt": "2026-08-26T17:37:15.499Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1850,
+    "totalArticles": 1852,
     "publishedBefore": 1244,
     "cleanPublished": 1237,
     "blockedPublished": 7,
     "demoted": 0,
     "publishedAfter": 1244,
-    "reviewAfter": 606
+    "reviewAfter": 608
   },
   "blockedPublished": [
     {
@@ -141,59 +141,31 @@
   ],
   "warnings": [
     {
-      "id": "live-2026-08-26-yamal-mood-friends-departure",
-      "slug": "lamine-yamal-mood-friends-leaving-barcelona",
-      "title": "In Spain, they explain the reason for Yamal's sour mood",
+      "id": "live-2026-08-26-hapoel-beer-sheva-sabah-champions-league-heartbreak",
+      "slug": "hapoel-beer-sheva-sabah-champions-league-heartbreak",
+      "title": "Sabah beat Hapoel Beer Sheva 5-2 in extra time to win Champions League playoff 6-4 on aggregate",
+      "statusBefore": "review",
+      "words": 549,
+      "paragraphs": 11,
+      "facts": 10,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
+    {
+      "id": "live-20260826-maccabi-tel-aviv-lugano-preview",
+      "slug": "maccabi-tel-aviv-lugano-conference-league-decider-preview",
+      "title": "Miller and Camara: Maccabi Tel Aviv players know what is at stake against Lugano",
       "statusBefore": "published",
-      "words": 487,
-      "paragraphs": 9,
+      "words": 462,
+      "paragraphs": 10,
       "facts": 7,
       "verificationSources": 5,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-26-atletico-madrid-contact-juventus-jonathan-david",
-      "slug": "atletico-madrid-contact-juventus-jonathan-david",
-      "title": "Atlético Madrid make contact with Juventus over Jonathan David",
-      "statusBefore": "published",
-      "words": 323,
-      "paragraphs": 7,
-      "facts": 7,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-26-dembele-psg-contract-tension",
-      "slug": "dembele-psg-contract-luis-enrique-tension",
-      "title": "PSG plays down Dembélé-Luis Enrique tension as contract talks continue",
-      "statusBefore": "published",
-      "words": 370,
-      "paragraphs": 10,
-      "facts": 7,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline"
-      ]
-    },
-    {
-      "id": "live-2026-08-26-sidney-lima-maccabi-netanya-talks",
-      "slug": "sidney-lima-brazilian-defender-talks-maccabi-netanya",
-      "title": "Brazilian centre-back Sidney Lima in transfer talks with Maccabi Netanya",
-      "statusBefore": "published",
-      "words": 314,
-      "paragraphs": 7,
-      "facts": 7,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline"
       ]
     },
     {
@@ -18311,12 +18283,12 @@
   ],
   "cleanPublished": [
     {
-      "id": "live-2026-08-26-yamal-mood-friends-departure",
-      "slug": "lamine-yamal-mood-friends-leaving-barcelona",
-      "title": "In Spain, they explain the reason for Yamal's sour mood",
+      "id": "live-20260826-maccabi-tel-aviv-lugano-preview",
+      "slug": "maccabi-tel-aviv-lugano-conference-league-decider-preview",
+      "title": "Miller and Camara: Maccabi Tel Aviv players know what is at stake against Lugano",
       "statusBefore": "published",
-      "words": 487,
-      "paragraphs": 9,
+      "words": 462,
+      "paragraphs": 10,
       "facts": 7,
       "verificationSources": 5,
       "blockers": [],
@@ -18325,46 +18297,40 @@
       ]
     },
     {
-      "id": "live-2026-08-26-atletico-madrid-contact-juventus-jonathan-david",
-      "slug": "atletico-madrid-contact-juventus-jonathan-david",
-      "title": "Atlético Madrid make contact with Juventus over Jonathan David",
+      "id": "live-20260826-israeli-paralympians-kayak-rowing-worlds",
+      "slug": "israeli-paralympians-advance-kayak-rowing-worlds-daniel-bronze",
+      "title": "Israeli Paralympians advance at kayak and rowing worlds as Daniel finally receives European bronze",
       "statusBefore": "published",
-      "words": 323,
+      "words": 439,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260826-man-utd-sleeve-blunder-hull",
+      "slug": "manchester-united-sleeve-blunder-hull-city",
+      "title": "Hull City stun Manchester United 2-0 as sleeve badge blunder catches out Old Trafford club",
+      "statusBefore": "published",
+      "words": 380,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-26-yamal-mood-barcelona-friends-exit",
+      "slug": "spanish-tv-explains-lamine-yamal-emotional-reaction-barcelona-bench",
+      "title": "Spanish TV: Yamal's glum mood is about his three best friends leaving Barcelona, not him",
+      "statusBefore": "published",
+      "words": 393,
       "paragraphs": 7,
       "facts": 7,
       "verificationSources": 4,
       "blockers": [],
-      "warnings": [
-        "media:no-action-or-competition-context-detected"
-      ]
-    },
-    {
-      "id": "live-2026-08-26-dembele-psg-contract-tension",
-      "slug": "dembele-psg-contract-luis-enrique-tension",
-      "title": "PSG plays down Dembélé-Luis Enrique tension as contract talks continue",
-      "statusBefore": "published",
-      "words": 370,
-      "paragraphs": 10,
-      "facts": 7,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline"
-      ]
-    },
-    {
-      "id": "live-2026-08-26-sidney-lima-maccabi-netanya-talks",
-      "slug": "sidney-lima-brazilian-defender-talks-maccabi-netanya",
-      "title": "Brazilian centre-back Sidney Lima in transfer talks with Maccabi Netanya",
-      "statusBefore": "published",
-      "words": 314,
-      "paragraphs": 7,
-      "facts": 7,
-      "verificationSources": 3,
-      "blockers": [],
-      "warnings": [
-        "presentation:outlet-name-in-headline"
-      ]
+      "warnings": []
     },
     {
       "id": "live-2026-08-26-di-maria-fifa-sanctions-argentina",

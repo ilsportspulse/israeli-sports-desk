@@ -146,21 +146,21 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-26T17:01:15Z",
-    "validUntil": "2026-08-27T05:01:15Z",
+    "checkedAt": "2026-08-26T17:37:15Z",
+    "validUntil": "2026-08-27T05:37:15Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 908,
+        "maxAgeHours": 909,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-26-yamal-mood-friends-departure",
+        "articleId": "live-20260826-maccabi-tel-aviv-lugano-preview",
         "maxAgeHours": 48,
         "requires": []
       },
@@ -174,14 +174,14 @@
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-26-atletico-madrid-contact-juventus-jonathan-david",
+        "articleId": "live-20260826-israeli-paralympians-kayak-rowing-worlds",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 926,
+        "maxAgeHours": 927,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-26-sidney-lima-maccabi-netanya-talks",
+        "articleId": "live-20260826-man-utd-sleeve-blunder-hull",
         "maxAgeHours": 36,
         "requires": []
       }

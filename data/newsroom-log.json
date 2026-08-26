@@ -2560,5 +2560,55 @@
         "decision": "duplicate"
       }
     ]
+  },
+  {
+    "ts": "2026-08-26T17:15:43.916Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 2,
+    "review": 1,
+    "skipped": 2,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "israeli-paralympians-advance-kayak-rowing-worlds-daniel-bronze",
+        "title": "Israeli Paralympians advance at kayak and rowing worlds as Daniel finally receives European bronze",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "sarri-atalanta-hapoel-tel-aviv-conference-league-presser",
+        "title": "Sarri braces for \"difficult\" Hapoel Tel Aviv test in Conference League decider",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "vitor-instagram-football-teaches-not-to-give-up",
+        "title": "Sabah 5-2 Hapoel Be'er Sheva (agg 6-4): Vítor says 'football teaches us not to give up'",
+        "decision": "duplicate"
+      },
+      {
+        "slug": "maccabi-tel-aviv-lugano-conference-league-decider-preview",
+        "title": "Miller and Camara: Maccabi Tel Aviv players know what is at stake against Lugano",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "hapoel-beer-sheva-sabah-champions-league-heartbreak",
+        "title": "Sabah beat Hapoel Beer Sheva 5-2 in extra time to win Champions League playoff 6-4 on aggregate",
+        "confidence": 0.85,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "Core match facts (score, aggregate, extra-time goals, red cards) are confirmed across ONE, Al Jazeera, Walla and Haaretz; Aderet Kozuch's exact social-media quote is reported by ONE only and not independently re-confirmed on her own account."
+      }
+    ]
   }
 ]
