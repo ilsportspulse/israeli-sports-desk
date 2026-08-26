@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T03:55:30.937Z",
+  "generatedAt": "2026-08-26T04:33:18.927Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1230,
+    "publishedArticles": 1232,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 417.5,
-      "average": 422.5
+      "average": 422.6
     },
     "paragraphDistribution": {
       "3": 35,
@@ -25,8 +25,8 @@
       "6": 58,
       "7": 185,
       "8": 359,
-      "9": 303,
-      "10": 198,
+      "9": 304,
+      "10": 199,
       "11": 49,
       "12": 15,
       "13": 5,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.292,
+    "dominantParagraphShare": 0.291,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 58,
     "analysisBelowTarget": 12,
@@ -4797,6 +4797,48 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-2026-08-26-lask-celtic-champions-league-collapse",
+      "slug": "lask-celtic-champions-league-collapse-four-goal-lead",
+      "title": "LASK 5-1 Celtic (5-4 agg): Hoops surrender four-goal lead to crash out of Champions League",
+      "kind": "article",
+      "words": 358,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 31,
+        "longest": 49,
+        "average": 39.8
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 49,
+        "average": 29.8
+      },
+      "lexicalDiversity": 0.62,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "archive-20260826-munich-10-august-2002-the-vault-that-gav",
+      "slug": "munich-10-august-2002-the-vault-that-gave-israel-its-first-european-go",
+      "title": "Munich, 10 August 2002: The Vault That Gave Israel Its First European Gold",
+      "kind": "explainer",
+      "words": 603,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 20,
+        "longest": 100,
+        "average": 60.3
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 92,
+        "average": 31.7
+      },
+      "lexicalDiversity": 0.527,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-26-real-betis-valencia-mestalla",
       "slug": "real-betis-valencia-1-0-mestalla",

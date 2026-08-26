@@ -146,21 +146,21 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-26T03:55:29Z",
-    "validUntil": "2026-08-26T15:55:29Z",
+    "checkedAt": "2026-08-26T04:33:17Z",
+    "validUntil": "2026-08-26T16:33:17Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 895,
+        "maxAgeHours": 896,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-26-real-betis-valencia-mestalla",
+        "articleId": "live-2026-08-26-lask-celtic-champions-league-collapse",
         "maxAgeHours": 48,
         "requires": []
       },
@@ -174,14 +174,14 @@
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-25-vitor-sabah-hapoel-beer-sheva-champions-league-exit",
+        "articleId": "archive-20260826-munich-10-august-2002-the-vault-that-gav",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 913,
+        "maxAgeHours": 914,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-25-maccabi-ashdod-turner-mcduffie-imports-land",
+        "articleId": "live-2026-08-26-real-betis-valencia-mestalla",
         "maxAgeHours": 36,
         "requires": []
       }
