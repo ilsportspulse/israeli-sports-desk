@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T09:52:47.014Z",
+  "generatedAt": "2026-08-27T11:23:39.486Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,12 +17,12 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1890,
-    "publishedBefore": 1266,
-    "cleanPublished": 1259,
+    "totalArticles": 1893,
+    "publishedBefore": 1269,
+    "cleanPublished": 1262,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1266,
+    "publishedAfter": 1269,
     "reviewAfter": 624
   },
   "blockedPublished": [
@@ -140,6 +140,34 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-20260827-camp-nou-2029-champions-league-final-bid",
+      "slug": "camp-nou-bids-to-host-2029-champions-league-final",
+      "title": "Camp Nou emerges as front-runner to host the 2029 Champions League final",
+      "statusBefore": "published",
+      "words": 446,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260827-ben-dayan-defends-melika-lugano-return-leg",
+      "slug": "ben-dayan-defends-ofek-melika-maccabi-tel-aviv-lugano-return-leg",
+      "title": "Ben Dayan defends young goalkeeper Melika ahead of Maccabi Tel Aviv's must-win Lugano return leg",
+      "statusBefore": "published",
+      "words": 419,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-08-27-almog-cohen-beitar-presser",
       "slug": "almog-cohen-beitar-jerusalem-coaching-debut-presser",
@@ -18668,6 +18696,46 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-20260827-camp-nou-2029-champions-league-final-bid",
+      "slug": "camp-nou-bids-to-host-2029-champions-league-final",
+      "title": "Camp Nou emerges as front-runner to host the 2029 Champions League final",
+      "statusBefore": "published",
+      "words": 446,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260827-ben-dayan-defends-melika-lugano-return-leg",
+      "slug": "ben-dayan-defends-ofek-melika-maccabi-tel-aviv-lugano-return-leg",
+      "title": "Ben Dayan defends young goalkeeper Melika ahead of Maccabi Tel Aviv's must-win Lugano return leg",
+      "statusBefore": "published",
+      "words": 419,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "archive-20260827-london-17-october-2009-the-floor-routine",
+      "slug": "london-17-october-2009-the-floor-routine-that-gave-israeli-gymnastics-",
+      "title": "London, 17 October 2009: The Floor Routine That Gave Israeli Gymnastics Its First World Medal",
+      "statusBefore": "published",
+      "words": 751,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 6,
+      "blockers": [],
+      "warnings": []
+    },
     {
       "id": "live-2026-08-27-almog-cohen-beitar-presser",
       "slug": "almog-cohen-beitar-jerusalem-coaching-debut-presser",

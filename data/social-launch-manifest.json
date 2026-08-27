@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-27T09:52:46Z",
-    "validUntil": "2026-08-27T21:52:46Z",
+    "checkedAt": "2026-08-27T11:23:39Z",
+    "validUntil": "2026-08-27T23:23:39Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 925,
+        "maxAgeHours": 926,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-27-almog-cohen-beitar-presser",
+        "articleId": "live-20260827-camp-nou-2029-champions-league-final-bid",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 933,
+        "maxAgeHours": 934,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-2026-08-27-winner-odds-hapoel-atalanta-maccabi-lugano",
+        "articleId": "live-20260827-ben-dayan-defends-melika-lugano-return-leg",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 943,
+        "maxAgeHours": 944,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-27-ifa-league-letter-state-attorney-stadium-violence",
+        "articleId": "live-2026-08-27-almog-cohen-beitar-presser",
         "maxAgeHours": 36,
         "requires": []
       }

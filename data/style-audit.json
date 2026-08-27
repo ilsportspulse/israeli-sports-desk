@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T09:52:47.705Z",
+  "generatedAt": "2026-08-27T11:23:40.203Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,12 +11,12 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1266,
+    "publishedArticles": 1269,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 417,
-      "average": 422.5
+      "average": 422.8
     },
     "paragraphDistribution": {
       "3": 35,
@@ -25,7 +25,7 @@
       "6": 59,
       "7": 193,
       "8": 365,
-      "9": 313,
+      "9": 316,
       "10": 208,
       "11": 50,
       "12": 15,
@@ -4843,6 +4843,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260827-camp-nou-2029-champions-league-final-bid",
+      "slug": "camp-nou-bids-to-host-2029-champions-league-final",
+      "title": "Camp Nou emerges as front-runner to host the 2029 Champions League final",
+      "kind": "news",
+      "words": 445,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 73,
+        "average": 49.4
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 45,
+        "average": 29.7
+      },
+      "lexicalDiversity": 0.582,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260827-ben-dayan-defends-melika-lugano-return-leg",
+      "slug": "ben-dayan-defends-ofek-melika-maccabi-tel-aviv-lugano-return-leg",
+      "title": "Ben Dayan defends young goalkeeper Melika ahead of Maccabi Tel Aviv's must-win Lugano return leg",
+      "kind": "preview",
+      "words": 420,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 27,
+        "longest": 69,
+        "average": 46.7
+      },
+      "sentenceWords": {
+        "shortest": 13,
+        "longest": 95,
+        "average": 42
+      },
+      "lexicalDiversity": 0.607,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "archive-20260827-london-17-october-2009-the-floor-routine",
+      "slug": "london-17-october-2009-the-floor-routine-that-gave-israeli-gymnastics-",
+      "title": "London, 17 October 2009: The Floor Routine That Gave Israeli Gymnastics Its First World Medal",
+      "kind": "explainer",
+      "words": 748,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 69,
+        "longest": 94,
+        "average": 83.1
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 49,
+        "average": 25.8
+      },
+      "lexicalDiversity": 0.452,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-27-almog-cohen-beitar-presser",
       "slug": "almog-cohen-beitar-jerusalem-coaching-debut-presser",
