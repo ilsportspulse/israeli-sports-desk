@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-27T14:22:45Z",
-    "validUntil": "2026-08-28T02:22:45Z",
+    "checkedAt": "2026-08-27T15:00:05Z",
+    "validUntil": "2026-08-28T03:00:05Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 929,
+        "maxAgeHours": 930,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-20260827-teddy-stadium-light-rail-plan",
+        "articleId": "live-20260827-tel-aviv-derby-round-4-schedule",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 937,
+        "maxAgeHours": 938,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260827-mbappe-hattrick-real-madrid-sociedad",
+        "articleId": "live-2026-08-27-roni-levy-beitar-jerusalem-preview",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 947,
+        "maxAgeHours": 948,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-27-avraham-grant-aris-thessaloniki-adviser",
+        "articleId": "live-20260827-teddy-stadium-light-rail-plan",
         "maxAgeHours": 36,
         "requires": []
       }

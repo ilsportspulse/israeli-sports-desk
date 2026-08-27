@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T14:22:46.706Z",
+  "generatedAt": "2026-08-27T15:00:06.416Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,20 +11,20 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1274,
+    "publishedArticles": 1277,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 417,
-      "average": 422.6
+      "average": 422.4
     },
     "paragraphDistribution": {
       "3": 35,
       "4": 6,
       "5": 11,
       "6": 59,
-      "7": 195,
-      "8": 366,
+      "7": 197,
+      "8": 367,
       "9": 318,
       "10": 208,
       "11": 50,
@@ -4866,6 +4866,69 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260827-tel-aviv-derby-round-4-schedule",
+      "slug": "tel-aviv-derby-round-four-winner-league-basketball-schedule",
+      "title": "Tel Aviv derby lands in round four as Israeli basketball league unveils 2026/27 fixture list",
+      "kind": "news",
+      "words": 351,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 34,
+        "longest": 53,
+        "average": 43.9
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 46,
+        "average": 29.3
+      },
+      "lexicalDiversity": 0.59,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-27-roni-levy-beitar-jerusalem-preview",
+      "slug": "roni-levy-maccabi-netanya-preview-beitar-jerusalem",
+      "title": "Roni Levy previews Maccabi Netanya's clash with old club Beitar Jerusalem",
+      "kind": "news",
+      "words": 320,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 16,
+        "longest": 62,
+        "average": 45.7
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 49,
+        "average": 29.1
+      },
+      "lexicalDiversity": 0.619,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-27-albert-raanana-talmor-yavne-loans",
+      "slug": "albert-loaned-raanana-talmor-signs-yavne",
+      "title": "Maccabi Tel Aviv loan Braelee Albert to Ra'anana as Atir Talmor joins Elitzur Yavne",
+      "kind": "news",
+      "words": 299,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 23,
+        "longest": 56,
+        "average": 42.7
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 52,
+        "average": 29.9
+      },
+      "lexicalDiversity": 0.645,
+      "publisherAttributions": 1,
+      "flags": []
+    },
     {
       "id": "live-20260827-teddy-stadium-light-rail-plan",
       "slug": "teddy-stadium-light-rail-crowd-dispersal-plan",

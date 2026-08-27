@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T14:22:46.004Z",
+  "generatedAt": "2026-08-27T15:00:05.706Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1898,
-    "publishedBefore": 1274,
-    "cleanPublished": 1267,
+    "totalArticles": 1902,
+    "publishedBefore": 1277,
+    "cleanPublished": 1270,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1274,
-    "reviewAfter": 624
+    "publishedAfter": 1277,
+    "reviewAfter": 625
   },
   "blockedPublished": [
     {
@@ -141,6 +141,63 @@
   ],
   "warnings": [
     {
+      "id": "live-20260827-tel-aviv-derby-round-4-schedule",
+      "slug": "tel-aviv-derby-round-four-winner-league-basketball-schedule",
+      "title": "Tel Aviv derby lands in round four as Israeli basketball league unveils 2026/27 fixture list",
+      "statusBefore": "published",
+      "words": 351,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260827-ansu-fati-monaco-injury-return",
+      "slug": "ansu-fati-monaco-injury-return-timeline",
+      "title": "Where has Ansu Fati gone? Monaco plot a mid-September return for their injured forward",
+      "statusBefore": "review",
+      "words": 505,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-27-roni-levy-beitar-jerusalem-preview",
+      "slug": "roni-levy-maccabi-netanya-preview-beitar-jerusalem",
+      "title": "Roni Levy previews Maccabi Netanya's clash with old club Beitar Jerusalem",
+      "statusBefore": "published",
+      "words": 322,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-08-27-albert-raanana-talmor-yavne-loans",
+      "slug": "albert-loaned-raanana-talmor-signs-yavne",
+      "title": "Maccabi Tel Aviv loan Braelee Albert to Ra'anana as Atir Talmor joins Elitzur Yavne",
+      "statusBefore": "published",
+      "words": 297,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
       "id": "live-20260827-teddy-stadium-light-rail-plan",
       "slug": "teddy-stadium-light-rail-crowd-dispersal-plan",
       "title": "Light rail unveils crowd-dispersal plan to clear fans from Teddy Stadium",
@@ -164,6 +221,20 @@
       "paragraphs": 7,
       "facts": 7,
       "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-27-real-madrid-manu-kone-roma-interest",
+      "slug": "real-madrid-eye-manu-kone-roma-as-report",
+      "title": "Real Madrid monitoring Roma's Manu Koné as transfer deadline nears, AS reports",
+      "statusBefore": "published",
+      "words": 367,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 2,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -18755,6 +18826,49 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-20260827-tel-aviv-derby-round-4-schedule",
+      "slug": "tel-aviv-derby-round-four-winner-league-basketball-schedule",
+      "title": "Tel Aviv derby lands in round four as Israeli basketball league unveils 2026/27 fixture list",
+      "statusBefore": "published",
+      "words": 351,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-27-roni-levy-beitar-jerusalem-preview",
+      "slug": "roni-levy-maccabi-netanya-preview-beitar-jerusalem",
+      "title": "Roni Levy previews Maccabi Netanya's clash with old club Beitar Jerusalem",
+      "statusBefore": "published",
+      "words": 322,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
+      "id": "live-2026-08-27-albert-raanana-talmor-yavne-loans",
+      "slug": "albert-loaned-raanana-talmor-signs-yavne",
+      "title": "Maccabi Tel Aviv loan Braelee Albert to Ra'anana as Atir Talmor joins Elitzur Yavne",
+      "statusBefore": "published",
+      "words": 297,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
       "id": "live-20260827-teddy-stadium-light-rail-plan",
       "slug": "teddy-stadium-light-rail-crowd-dispersal-plan",
       "title": "Light rail unveils crowd-dispersal plan to clear fans from Teddy Stadium",
@@ -18793,7 +18907,9 @@
       "facts": 6,
       "verificationSources": 2,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-2026-08-27-avraham-grant-aris-thessaloniki-adviser",

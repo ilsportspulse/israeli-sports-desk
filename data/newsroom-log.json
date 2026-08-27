@@ -1,5 +1,59 @@
 [
   {
+    "ts": "2026-08-27T14:37:46.830Z",
+    "mode": "cli",
+    "model": "claude-sonnet-5",
+    "candidates": 5,
+    "published": 3,
+    "review": 1,
+    "skipped": 1,
+    "gates": {
+      "confidenceMin": 0.55,
+      "namecheckMin": 0.75,
+      "autoPublish": true
+    },
+    "decisions": [
+      {
+        "slug": "tai-abed-valladolid-offer-levante-transfer",
+        "title": "Valladolid table offer for Tai Abed, but the decision is his alone",
+        "decision": "duplicate",
+        "reason": "same event as levante-moves-sell-tai-abed-frozen-out-squad"
+      },
+      {
+        "slug": "albert-loaned-raanana-talmor-signs-yavne",
+        "title": "Maccabi Tel Aviv loan Braelee Albert to Ra'anana as Atir Talmor joins Elitzur Yavne",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "roni-levy-maccabi-netanya-preview-beitar-jerusalem",
+        "title": "Roni Levy previews Maccabi Netanya's clash with old club Beitar Jerusalem",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      },
+      {
+        "slug": "ansu-fati-monaco-injury-return-timeline",
+        "title": "Where has Ansu Fati gone? Monaco plot a mid-September return for their injured forward",
+        "confidence": 0.85,
+        "gate": "hold",
+        "decision": "review",
+        "reason": "below gate thresholds"
+      },
+      {
+        "slug": "tel-aviv-derby-round-four-winner-league-basketball-schedule",
+        "title": "Tel Aviv derby lands in round four as Israeli basketball league unveils 2026/27 fixture list",
+        "confidence": 0.85,
+        "gate": "pass",
+        "decision": "published",
+        "reason": ""
+      }
+    ]
+  },
+  {
     "ts": "2026-08-27T13:59:23.067Z",
     "mode": "cli",
     "model": "claude-sonnet-5",
@@ -2484,59 +2538,6 @@
         "slug": "hapoel-tel-aviv-gelbard-loan-kfar-saba-gorfinkel-return",
         "title": "Hapoel Tel Aviv close in on Gelbard loan to Kfar Saba as Gurfinkel return nears",
         "confidence": 0.78,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      }
-    ]
-  },
-  {
-    "ts": "2026-08-23T06:23:41.385Z",
-    "mode": "cli",
-    "model": "claude-sonnet-5",
-    "candidates": 5,
-    "published": 4,
-    "review": 0,
-    "skipped": 1,
-    "gates": {
-      "confidenceMin": 0.55,
-      "namecheckMin": 0.75,
-      "autoPublish": true
-    },
-    "decisions": [
-      {
-        "slug": "barcelona-lukeba-signing-hinges-kounde-balde-futures",
-        "title": "Barcelona's chase for Lukeba hinges on Kounde and Balde's futures",
-        "confidence": 0.8,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "de-zerbi-tottenham-not-a-team-yet-brentford-defeat",
-        "title": "Brentford 3-0 Tottenham: De Zerbi admits Spurs are 'not a team yet' as chaotic opener exposes new project",
-        "confidence": 0.9,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "omer-dahan-lawyers-accuse-police-misleading-impression-indictment",
-        "title": "Dahan's lawyers accuse police of creating false impression an indictment was already decided",
-        "confidence": 0.8,
-        "gate": "pass",
-        "decision": "published",
-        "reason": ""
-      },
-      {
-        "slug": "hull-city-manchester-united-media-reaction-carrick-pre-season",
-        "title": "Hull City 2-0 Manchester United: pundits say Carrick's side looked unprepared",
-        "decision": "duplicate"
-      },
-      {
-        "slug": "maccabi-tel-aviv-hapoel-jerusalem-odds-preview",
-        "title": "Maccabi Tel Aviv well-fancied at Hapoel Jerusalem as Ligat Ha'al returns",
-        "confidence": 0.82,
         "gate": "pass",
         "decision": "published",
         "reason": ""
