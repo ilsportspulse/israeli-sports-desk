@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T00:52:14.436Z",
+  "generatedAt": "2026-08-27T02:25:56.337Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,22 +11,22 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1259,
+    "publishedArticles": 1263,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 417,
-      "average": 422.5
+      "average": 422.7
     },
     "paragraphDistribution": {
       "3": 35,
       "4": 6,
       "5": 11,
       "6": 59,
-      "7": 191,
+      "7": 192,
       "8": 362,
-      "9": 312,
-      "10": 207,
+      "9": 314,
+      "10": 208,
       "11": 50,
       "12": 15,
       "13": 5,
@@ -35,7 +35,7 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.288,
+    "dominantParagraphShare": 0.287,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 59,
     "analysisBelowTarget": 12,
@@ -4820,6 +4820,90 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260827-hapoel-tel-aviv-season-ticket-plan",
+      "slug": "hapoel-tel-aviv-new-season-ticket-plan-2026-27",
+      "title": "Hapoel Tel Aviv scrap new-fan markup in overhauled season-ticket plan",
+      "kind": "news",
+      "words": 381,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 38,
+        "longest": 68,
+        "average": 54.4
+      },
+      "sentenceWords": {
+        "shortest": 12,
+        "longest": 72,
+        "average": 34.6
+      },
+      "lexicalDiversity": 0.58,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260827-hapoel-tel-aviv-uefa-fine-ticket-ban",
+      "slug": "hapoel-tel-aviv-fined-ticket-ban-pyrotechnics-atalanta-uefa",
+      "title": "Hapoel Tel Aviv fined €43,000 and hit with ticket ban after pyrotechnics at Atalanta tie",
+      "kind": "article",
+      "words": 431,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 37,
+        "longest": 64,
+        "average": 47.9
+      },
+      "sentenceWords": {
+        "shortest": 8,
+        "longest": 47,
+        "average": 28.7
+      },
+      "lexicalDiversity": 0.566,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-27-mourinho-plan-mbappe-bellingham-real-madrid",
+      "slug": "mourinho-plan-mbappe-bellingham-real-madrid-real-sociedad",
+      "title": "Real Madrid 4-1 Real Sociedad: Mourinho's plan for Mbappé and Bellingham starts to click",
+      "kind": "article",
+      "words": 458,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 40,
+        "longest": 68,
+        "average": 50.9
+      },
+      "sentenceWords": {
+        "shortest": 6,
+        "longest": 94,
+        "average": 35.2
+      },
+      "lexicalDiversity": 0.592,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-27-savio-debut-tottenham-charlton-carabao-cup",
+      "slug": "tottenham-savio-debut-thrash-charlton-carabao-cup",
+      "title": "Tottenham hammer Charlton 5-1 as Savio scores and assists on £85m debut",
+      "kind": "article",
+      "words": 583,
+      "paragraphs": 10,
+      "paragraphWords": {
+        "shortest": 39,
+        "longest": 89,
+        "average": 58.3
+      },
+      "sentenceWords": {
+        "shortest": 10,
+        "longest": 49,
+        "average": 30.7
+      },
+      "lexicalDiversity": 0.569,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-2026-08-26-barda-hapoel-tel-aviv-no-changes-atalanta",
       "slug": "barda-hapoel-tel-aviv-no-changes-atalanta-decider",

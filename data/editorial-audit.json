@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T00:52:13.872Z",
+  "generatedAt": "2026-08-27T02:25:55.617Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1878,
-    "publishedBefore": 1259,
-    "cleanPublished": 1252,
+    "totalArticles": 1883,
+    "publishedBefore": 1263,
+    "cleanPublished": 1256,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1259,
-    "reviewAfter": 619
+    "publishedAfter": 1263,
+    "reviewAfter": 620
   },
   "blockedPublished": [
     {
@@ -140,6 +140,49 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-20260827-hapoel-tel-aviv-uefa-fine-ticket-ban",
+      "slug": "hapoel-tel-aviv-fined-ticket-ban-pyrotechnics-atalanta-uefa",
+      "title": "Hapoel Tel Aviv fined €43,000 and hit with ticket ban after pyrotechnics at Atalanta tie",
+      "statusBefore": "published",
+      "words": 427,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-27-savio-debut-tottenham-charlton-carabao-cup",
+      "slug": "tottenham-savio-debut-thrash-charlton-carabao-cup",
+      "title": "Tottenham hammer Charlton 5-1 as Savio scores and assists on £85m debut",
+      "statusBefore": "published",
+      "words": 582,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260827-mourinho-mbappe-crazy",
+      "slug": "mourinho-hails-mbappe-hat-trick-crazy",
+      "title": "Real Madrid thrash Real Sociedad 4-1 as Mourinho hails Mbappé's hat-trick as 'crazy'",
+      "statusBefore": "review",
+      "words": 335,
+      "paragraphs": 8,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-08-26-barda-hapoel-tel-aviv-no-changes-atalanta",
       "slug": "barda-hapoel-tel-aviv-no-changes-atalanta-decider",
@@ -339,6 +382,7 @@
       "verificationSources": 4,
       "blockers": [],
       "warnings": [
+        "media:no-action-or-competition-context-detected",
         "voice:stock-editorial-phrase-detected"
       ]
     },
@@ -18554,6 +18598,59 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-20260827-hapoel-tel-aviv-season-ticket-plan",
+      "slug": "hapoel-tel-aviv-new-season-ticket-plan-2026-27",
+      "title": "Hapoel Tel Aviv scrap new-fan markup in overhauled season-ticket plan",
+      "statusBefore": "published",
+      "words": 379,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-20260827-hapoel-tel-aviv-uefa-fine-ticket-ban",
+      "slug": "hapoel-tel-aviv-fined-ticket-ban-pyrotechnics-atalanta-uefa",
+      "title": "Hapoel Tel Aviv fined €43,000 and hit with ticket ban after pyrotechnics at Atalanta tie",
+      "statusBefore": "published",
+      "words": 427,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-27-mourinho-plan-mbappe-bellingham-real-madrid",
+      "slug": "mourinho-plan-mbappe-bellingham-real-madrid-real-sociedad",
+      "title": "Real Madrid 4-1 Real Sociedad: Mourinho's plan for Mbappé and Bellingham starts to click",
+      "statusBefore": "published",
+      "words": 457,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-27-savio-debut-tottenham-charlton-carabao-cup",
+      "slug": "tottenham-savio-debut-thrash-charlton-carabao-cup",
+      "title": "Tottenham hammer Charlton 5-1 as Savio scores and assists on £85m debut",
+      "statusBefore": "published",
+      "words": 582,
+      "paragraphs": 10,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
     {
       "id": "live-2026-08-26-barda-hapoel-tel-aviv-no-changes-atalanta",
       "slug": "barda-hapoel-tel-aviv-no-changes-atalanta-decider",

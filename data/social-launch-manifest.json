@@ -146,42 +146,42 @@
     "Approve each first-wave post or an explicit bounded scheduling batch."
   ],
   "currentStorySnapshot": {
-    "checkedAt": "2026-08-27T00:52:13Z",
-    "validUntil": "2026-08-27T12:52:13Z",
+    "checkedAt": "2026-08-27T02:25:55Z",
+    "validUntil": "2026-08-27T14:25:55Z",
     "status": "internal-candidates-only-not-scheduled",
     "candidates": [
       {
         "role": "match-centre",
         "articleId": "live-20260720-world-cup-final-spain-argentina",
-        "maxAgeHours": 916,
+        "maxAgeHours": 917,
         "requires": [
           "matchRecap"
         ]
       },
       {
         "role": "israelis-abroad",
-        "articleId": "live-2026-08-26-barda-hapoel-tel-aviv-no-changes-atalanta",
+        "articleId": "live-20260827-hapoel-tel-aviv-season-ticket-plan",
         "maxAgeHours": 48,
         "requires": []
       },
       {
         "role": "youth",
         "articleId": "live-20260719-israel-u20-lithuania-eurobasket",
-        "maxAgeHours": 924,
+        "maxAgeHours": 925,
         "requires": [
           "basketballRecap"
         ]
       },
       {
         "role": "israeli-football",
-        "articleId": "live-20260826-nico-gonzalez-newcastle-unveiled",
+        "articleId": "live-20260827-hapoel-tel-aviv-uefa-fine-ticket-ban",
         "maxAgeHours": 35,
         "requires": []
       },
       {
         "role": "column",
         "articleId": "column-20260719-second-wave-youth-basketball",
-        "maxAgeHours": 934,
+        "maxAgeHours": 935,
         "requires": [
           "column"
         ]
@@ -196,7 +196,7 @@
       },
       {
         "role": "major-international",
-        "articleId": "live-2026-08-26-barda-perfect-game-atalanta",
+        "articleId": "live-2026-08-27-savio-debut-tottenham-charlton-carabao-cup",
         "maxAgeHours": 36,
         "requires": []
       }
