@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T03:52:20.947Z",
+  "generatedAt": "2026-08-27T05:21:05.738Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -16,7 +16,7 @@
       "minimum": 69,
       "maximum": 1070,
       "median": 417,
-      "average": 422.7
+      "average": 422.6
     },
     "paragraphDistribution": {
       "3": 35,
@@ -24,8 +24,8 @@
       "5": 11,
       "6": 59,
       "7": 192,
-      "8": 362,
-      "9": 314,
+      "8": 363,
+      "9": 313,
       "10": 208,
       "11": 50,
       "12": 15,
@@ -4821,6 +4821,27 @@
   ],
   "clean": [
     {
+      "id": "live-2026-08-27-mourinho-mbappe-ronaldo-comparison",
+      "slug": "mourinho-mbappe-ronaldo-comparison-real-sociedad",
+      "title": "Mourinho brushes off Ronaldo comparison after Mbappé's hat-trick",
+      "kind": "news",
+      "words": 361,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 29,
+        "longest": 65,
+        "average": 45.1
+      },
+      "sentenceWords": {
+        "shortest": 19,
+        "longest": 48,
+        "average": 36.1
+      },
+      "lexicalDiversity": 0.626,
+      "publisherAttributions": 1,
+      "flags": []
+    },
+    {
       "id": "live-20260827-hapoel-tel-aviv-season-ticket-plan",
       "slug": "hapoel-tel-aviv-new-season-ticket-plan-2026-27",
       "title": "Hapoel Tel Aviv scrap new-fan markup in overhauled season-ticket plan",
@@ -4860,27 +4881,6 @@
       },
       "lexicalDiversity": 0.566,
       "publisherAttributions": 1,
-      "flags": []
-    },
-    {
-      "id": "live-2026-08-27-mourinho-plan-mbappe-bellingham-real-madrid",
-      "slug": "mourinho-plan-mbappe-bellingham-real-madrid-real-sociedad",
-      "title": "Real Madrid 4-1 Real Sociedad: Mourinho's plan for Mbappé and Bellingham starts to click",
-      "kind": "article",
-      "words": 458,
-      "paragraphs": 9,
-      "paragraphWords": {
-        "shortest": 40,
-        "longest": 68,
-        "average": 50.9
-      },
-      "sentenceWords": {
-        "shortest": 6,
-        "longest": 94,
-        "average": 35.2
-      },
-      "lexicalDiversity": 0.592,
-      "publisherAttributions": 0,
       "flags": []
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T03:52:20.395Z",
+  "generatedAt": "2026-08-27T05:21:05.050Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1883,
+    "totalArticles": 1886,
     "publishedBefore": 1263,
     "cleanPublished": 1256,
     "blockedPublished": 7,
     "demoted": 0,
     "publishedAfter": 1263,
-    "reviewAfter": 620
+    "reviewAfter": 623
   },
   "blockedPublished": [
     {
@@ -140,6 +140,20 @@
     }
   ],
   "warnings": [
+    {
+      "id": "live-2026-08-27-alvarez-atletico-training-absence",
+      "slug": "julian-alvarez-atletico-training-absence-illness-barcelona",
+      "title": "Álvarez's camp explains Atlético training absence amid Barcelona pursuit",
+      "statusBefore": "review",
+      "words": 459,
+      "paragraphs": 8,
+      "facts": 8,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "voice:stock-editorial-phrase-detected"
+      ]
+    },
     {
       "id": "live-20260827-hapoel-tel-aviv-uefa-fine-ticket-ban",
       "slug": "hapoel-tel-aviv-fined-ticket-ban-pyrotechnics-atalanta-uefa",
@@ -18599,6 +18613,18 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-2026-08-27-mourinho-mbappe-ronaldo-comparison",
+      "slug": "mourinho-mbappe-ronaldo-comparison-real-sociedad",
+      "title": "Mourinho brushes off Ronaldo comparison after Mbappé's hat-trick",
+      "statusBefore": "published",
+      "words": 365,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": []
+    },
+    {
       "id": "live-20260827-hapoel-tel-aviv-season-ticket-plan",
       "slug": "hapoel-tel-aviv-new-season-ticket-plan-2026-27",
       "title": "Hapoel Tel Aviv scrap new-fan markup in overhauled season-ticket plan",
@@ -18624,18 +18650,6 @@
         "media:no-action-or-competition-context-detected",
         "voice:publisher-attribution-heavy:2"
       ]
-    },
-    {
-      "id": "live-2026-08-27-mourinho-plan-mbappe-bellingham-real-madrid",
-      "slug": "mourinho-plan-mbappe-bellingham-real-madrid-real-sociedad",
-      "title": "Real Madrid 4-1 Real Sociedad: Mourinho's plan for Mbappé and Bellingham starts to click",
-      "statusBefore": "published",
-      "words": 457,
-      "paragraphs": 9,
-      "facts": 6,
-      "verificationSources": 4,
-      "blockers": [],
-      "warnings": []
     },
     {
       "id": "live-2026-08-27-savio-debut-tottenham-charlton-carabao-cup",
