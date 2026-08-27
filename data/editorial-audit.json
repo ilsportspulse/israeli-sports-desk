@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T06:52:36.352Z",
+  "generatedAt": "2026-08-27T08:25:38.546Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,13 +17,13 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1886,
-    "publishedBefore": 1263,
-    "cleanPublished": 1256,
+    "totalArticles": 1890,
+    "publishedBefore": 1266,
+    "cleanPublished": 1259,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1263,
-    "reviewAfter": 623
+    "publishedAfter": 1266,
+    "reviewAfter": 624
   },
   "blockedPublished": [
     {
@@ -141,6 +141,48 @@
   ],
   "warnings": [
     {
+      "id": "live-2026-08-27-almog-cohen-beitar-presser",
+      "slug": "almog-cohen-beitar-jerusalem-coaching-debut-presser",
+      "title": "Almog Cohen says he's loving life as Beitar Jerusalem coach ahead of season opener",
+      "statusBefore": "published",
+      "words": 449,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-27-ifa-league-letter-state-attorney-stadium-violence",
+      "slug": "ifa-league-chiefs-letter-state-attorney-stadium-violence",
+      "title": "Football chiefs tell state attorney: \"The feeling is that the state is abandoning us and the fans\"",
+      "statusBefore": "published",
+      "words": 332,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-27-shuki-sadar-kanaan-muslim-israeli-flag-mma",
+      "slug": "shuki-sadar-kanaan-muslim-israeli-flag-mma",
+      "title": "Muslim MMA fighter Shuki Sadar Kanaan: 'I fly the Israeli flag everywhere'",
+      "statusBefore": "review",
+      "words": 443,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline"
+      ]
+    },
+    {
       "id": "live-2026-08-27-alvarez-atletico-training-absence",
       "slug": "julian-alvarez-atletico-training-absence-illness-barcelona",
       "title": "Álvarez's camp explains Atlético training absence amid Barcelona pursuit",
@@ -167,6 +209,20 @@
       "warnings": [
         "media:no-action-or-competition-context-detected",
         "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-27-mourinho-plan-mbappe-bellingham-real-madrid",
+      "slug": "mourinho-plan-mbappe-bellingham-real-madrid-real-sociedad",
+      "title": "Real Madrid 4-1 Real Sociedad: Mourinho's plan for Mbappé and Bellingham starts to click",
+      "statusBefore": "review",
+      "words": 457,
+      "paragraphs": 9,
+      "facts": 6,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
       ]
     },
     {
@@ -18612,6 +18668,46 @@
     }
   ],
   "cleanPublished": [
+    {
+      "id": "live-2026-08-27-almog-cohen-beitar-presser",
+      "slug": "almog-cohen-beitar-jerusalem-coaching-debut-presser",
+      "title": "Almog Cohen says he's loving life as Beitar Jerusalem coach ahead of season opener",
+      "statusBefore": "published",
+      "words": 449,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-27-winner-odds-hapoel-atalanta-maccabi-lugano",
+      "slug": "winner-odds-hapoel-atalanta-maccabi-lugano-conference-league",
+      "title": "Betting markets make Atalanta strong favourites over Hapoel as Maccabi eye Lugano turnaround",
+      "statusBefore": "published",
+      "words": 363,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-27-ifa-league-letter-state-attorney-stadium-violence",
+      "slug": "ifa-league-chiefs-letter-state-attorney-stadium-violence",
+      "title": "Football chiefs tell state attorney: \"The feeling is that the state is abandoning us and the fans\"",
+      "statusBefore": "published",
+      "words": 332,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
     {
       "id": "live-2026-08-27-mourinho-mbappe-ronaldo-comparison",
       "slug": "mourinho-mbappe-ronaldo-comparison-real-sociedad",
