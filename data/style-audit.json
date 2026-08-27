@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T12:52:40.987Z",
+  "generatedAt": "2026-08-27T14:22:46.706Z",
   "purpose": "Internal voice and structural-variety baseline; this report is not public article content.",
   "targets": {
     "breakingNewsMinimumWords": 280,
@@ -11,21 +11,21 @@
     "publisherAttributionMaximumPerArticle": 1
   },
   "summary": {
-    "publishedArticles": 1269,
+    "publishedArticles": 1274,
     "wordCount": {
       "minimum": 69,
       "maximum": 1070,
       "median": 417,
-      "average": 422.8
+      "average": 422.6
     },
     "paragraphDistribution": {
       "3": 35,
       "4": 6,
       "5": 11,
       "6": 59,
-      "7": 193,
-      "8": 365,
-      "9": 316,
+      "7": 195,
+      "8": 366,
+      "9": 318,
       "10": 208,
       "11": 50,
       "12": 15,
@@ -35,11 +35,11 @@
       "17": 3
     },
     "dominantParagraphCount": 8,
-    "dominantParagraphShare": 0.288,
+    "dominantParagraphShare": 0.287,
     "uniformStructureWarning": false,
     "exactSixParagraphArticles": 59,
     "analysisBelowTarget": 12,
-    "articlesWithStyleFlags": 208
+    "articlesWithStyleFlags": 209
   },
   "flagged": [
     {
@@ -399,6 +399,29 @@
       "publisherAttributions": 2,
       "flags": [
         "below-editorial-target:227/280",
+        "publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-2026-08-27-avraham-grant-aris-thessaloniki-adviser",
+      "slug": "avraham-grant-aris-thessaloniki-adviser",
+      "title": "Avraham Grant begins new job as adviser to Greek giants Aris Thessaloniki",
+      "kind": "news",
+      "words": 351,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 32,
+        "longest": 44,
+        "average": 39
+      },
+      "sentenceWords": {
+        "shortest": 9,
+        "longest": 41,
+        "average": 27
+      },
+      "lexicalDiversity": 0.578,
+      "publisherAttributions": 2,
+      "flags": [
         "publisher-attribution-heavy:2"
       ]
     },
@@ -4843,6 +4866,90 @@
     }
   ],
   "clean": [
+    {
+      "id": "live-20260827-teddy-stadium-light-rail-plan",
+      "slug": "teddy-stadium-light-rail-crowd-dispersal-plan",
+      "title": "Light rail unveils crowd-dispersal plan to clear fans from Teddy Stadium",
+      "kind": "news",
+      "words": 471,
+      "paragraphs": 9,
+      "paragraphWords": {
+        "shortest": 35,
+        "longest": 79,
+        "average": 52.3
+      },
+      "sentenceWords": {
+        "shortest": 14,
+        "longest": 79,
+        "average": 39.3
+      },
+      "lexicalDiversity": 0.58,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260827-mbappe-hattrick-real-madrid-sociedad",
+      "slug": "real-madrid-thrash-real-sociedad-mbappe-hattrick-mourinho-bernabeu",
+      "title": "Real Madrid thrash Real Sociedad 4-1 as Mbappé's hat-trick crowns Mourinho's Bernabéu return",
+      "kind": "article",
+      "words": 367,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 46,
+        "longest": 61,
+        "average": 52.4
+      },
+      "sentenceWords": {
+        "shortest": 14,
+        "longest": 50,
+        "average": 33.4
+      },
+      "lexicalDiversity": 0.643,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-2026-08-27-real-madrid-manu-kone-roma-interest",
+      "slug": "real-madrid-eye-manu-kone-roma-as-report",
+      "title": "Real Madrid monitoring Roma's Manu Koné as transfer deadline nears, AS reports",
+      "kind": "news",
+      "words": 366,
+      "paragraphs": 7,
+      "paragraphWords": {
+        "shortest": 41,
+        "longest": 67,
+        "average": 52.3
+      },
+      "sentenceWords": {
+        "shortest": 5,
+        "longest": 44,
+        "average": 24.4
+      },
+      "lexicalDiversity": 0.601,
+      "publisherAttributions": 0,
+      "flags": []
+    },
+    {
+      "id": "live-20260827-noam-dovrat-knee-surgery-nes-ziona",
+      "slug": "noam-dovrat-knee-surgery-doubt-nes-ziona-league-opener",
+      "title": "Fresh knee surgery leaves Noam Dovrat in doubt for Nes Ziona's league opener",
+      "kind": "news",
+      "words": 374,
+      "paragraphs": 8,
+      "paragraphWords": {
+        "shortest": 36,
+        "longest": 72,
+        "average": 46.8
+      },
+      "sentenceWords": {
+        "shortest": 7,
+        "longest": 49,
+        "average": 31.2
+      },
+      "lexicalDiversity": 0.58,
+      "publisherAttributions": 0,
+      "flags": []
+    },
     {
       "id": "live-20260827-camp-nou-2029-champions-league-final-bid",
       "slug": "camp-nou-bids-to-host-2029-champions-league-final",

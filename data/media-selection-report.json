@@ -1,16 +1,28 @@
 {
   "selections": [
     {
-      "articleId": "live-20260827-camp-nou-2029-champions-league-final-bid",
-      "article": "Camp Nou emerges as front-runner to host the 2029 Champions League final",
-      "file": "File:Camp Nou.jpg",
-      "license": "CC BY 2.0"
+      "articleId": "live-20260827-teddy-stadium-light-rail-plan",
+      "article": "Light rail unveils crowd-dispersal plan to clear fans from Teddy Stadium",
+      "file": "File:Jerusalem Light Rail tram at Machane Yehuda.jpg",
+      "license": "CC BY 3.0"
     },
     {
-      "articleId": "live-20260827-ben-dayan-defends-melika-lugano-return-leg",
-      "article": "Ben Dayan defends young goalkeeper Melika ahead of Maccabi Tel Aviv's must-win Lugano return leg",
-      "file": "File:Ortal Ben Dayan 2017.jpg",
-      "license": "CC BY-SA 4.0"
+      "articleId": "live-20260827-mbappe-hattrick-real-madrid-sociedad",
+      "article": "Real Madrid thrash Real Sociedad 4-1 as Mbappé's hat-trick crowns Mourinho's Bernabéu return",
+      "file": "File:Kylian Mbappé.jpg",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "articleId": "live-2026-08-27-avraham-grant-aris-thessaloniki-adviser",
+      "article": "Avraham Grant begins new job as adviser to Greek giants Aris Thessaloniki",
+      "file": "File:Avram Grant 2012.jpg",
+      "license": "CC BY 3.0"
+    },
+    {
+      "articleId": "archive-20260827-london-17-october-2009-the-floor-routine",
+      "article": "London, 17 October 2009: The Floor Routine That Gave Israeli Gymnastics Its First World Medal",
+      "file": "File:Podium of 2009 WAGC Male Floor.JPG",
+      "license": "CC BY-SA 3.0"
     },
     {
       "articleId": "live-20260815-liebmann-1500m-freestyle-world-record",
@@ -19,15 +31,9 @@
       "license": "CC BY-SA 4.0"
     },
     {
-      "articleId": "live-2026-08-13-adva-cohen-steeplechase-10th",
-      "article": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
-      "file": "File:20220814 European Championships Munich 2022 Ľubomír Pištej 850 3618.jpg",
-      "license": "CC BY-SA 4.0"
-    },
-    {
       "articleId": "live-20260802-israel-fifth-mixed-duet-technical-paris",
       "article": "Israel take fifth in mixed duet technical final at European Championships in Paris",
-      "file": "File:20220817 European Championships Munich 2022 Tania Moreno Matveeva 850 7683.jpg",
+      "file": "File:20220814 European Championships Munich 2022 Ľubomír Pištej 850 3618.jpg",
       "license": "CC BY-SA 4.0"
     },
     {
@@ -45,9 +51,14 @@
   ],
   "failures": [
     {
-      "id": "archive-20260827-london-17-october-2009-the-floor-routine",
-      "title": "London, 17 October 2009: The Floor Routine That Gave Israeli Gymnastics Its First World Medal",
+      "id": "live-2026-08-27-real-madrid-manu-kone-roma-interest",
+      "title": "Real Madrid monitoring Roma's Manu Koné as transfer deadline nears, AS reports",
       "error": "image download 429 after retries"
+    },
+    {
+      "id": "live-20260827-noam-dovrat-knee-surgery-nes-ziona",
+      "title": "Fresh knee surgery leaves Noam Dovrat in doubt for Nes Ziona's league opener",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {
       "id": "live-2026-08-27-shuki-sadar-kanaan-muslim-israeli-flag-mma",
@@ -207,6 +218,11 @@
     {
       "id": "live-2026-08-15-ukraine-amateur-tennis-legend-kurbanov-killed-war",
       "title": "Ukrainian amateur tennis 'legend' Slava Kurbanov killed fighting on the front",
+      "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
+    },
+    {
+      "id": "live-2026-08-13-adva-cohen-steeplechase-10th",
+      "title": "Adva Cohen finishes 10th in 3,000m steeplechase final at European Championships",
       "error": "no AI-verified, curated or subject-fallback image for this story — held for review"
     },
     {

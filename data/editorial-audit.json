@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T12:52:40.492Z",
+  "generatedAt": "2026-08-27T14:22:46.004Z",
   "mode": "audit-only",
   "standard": {
     "minimumWords": {
@@ -17,12 +17,12 @@
     "exactOrHonestCurrentMediaRequired": true
   },
   "summary": {
-    "totalArticles": 1893,
-    "publishedBefore": 1269,
-    "cleanPublished": 1262,
+    "totalArticles": 1898,
+    "publishedBefore": 1274,
+    "cleanPublished": 1267,
     "blockedPublished": 7,
     "demoted": 0,
-    "publishedAfter": 1269,
+    "publishedAfter": 1274,
     "reviewAfter": 624
   },
   "blockedPublished": [
@@ -141,6 +141,50 @@
   ],
   "warnings": [
     {
+      "id": "live-20260827-teddy-stadium-light-rail-plan",
+      "slug": "teddy-stadium-light-rail-crowd-dispersal-plan",
+      "title": "Light rail unveils crowd-dispersal plan to clear fans from Teddy Stadium",
+      "statusBefore": "published",
+      "words": 473,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260827-mbappe-hattrick-real-madrid-sociedad",
+      "slug": "real-madrid-thrash-real-sociedad-mbappe-hattrick-mourinho-bernabeu",
+      "title": "Real Madrid thrash Real Sociedad 4-1 as Mbappé's hat-trick crowns Mourinho's Bernabéu return",
+      "statusBefore": "published",
+      "words": 369,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-27-avraham-grant-aris-thessaloniki-adviser",
+      "slug": "avraham-grant-aris-thessaloniki-adviser",
+      "title": "Avraham Grant begins new job as adviser to Greek giants Aris Thessaloniki",
+      "statusBefore": "published",
+      "words": 351,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
       "id": "live-20260827-camp-nou-2029-champions-league-final-bid",
       "slug": "camp-nou-bids-to-host-2029-champions-league-final",
       "title": "Camp Nou emerges as front-runner to host the 2029 Champions League final",
@@ -163,6 +207,20 @@
       "paragraphs": 9,
       "facts": 7,
       "verificationSources": 5,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "archive-20260827-london-17-october-2009-the-floor-routine",
+      "slug": "london-17-october-2009-the-floor-routine-that-gave-israeli-gymnastics-",
+      "title": "London, 17 October 2009: The Floor Routine That Gave Israeli Gymnastics Its First World Medal",
+      "statusBefore": "published",
+      "words": 751,
+      "paragraphs": 9,
+      "facts": 7,
+      "verificationSources": 6,
       "blockers": [],
       "warnings": [
         "media:no-action-or-competition-context-detected"
@@ -18697,6 +18755,74 @@
   ],
   "cleanPublished": [
     {
+      "id": "live-20260827-teddy-stadium-light-rail-plan",
+      "slug": "teddy-stadium-light-rail-crowd-dispersal-plan",
+      "title": "Light rail unveils crowd-dispersal plan to clear fans from Teddy Stadium",
+      "statusBefore": "published",
+      "words": 473,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "presentation:outlet-name-in-headline",
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-20260827-mbappe-hattrick-real-madrid-sociedad",
+      "slug": "real-madrid-thrash-real-sociedad-mbappe-hattrick-mourinho-bernabeu",
+      "title": "Real Madrid thrash Real Sociedad 4-1 as Mbappé's hat-trick crowns Mourinho's Bernabéu return",
+      "statusBefore": "published",
+      "words": 369,
+      "paragraphs": 7,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
+    },
+    {
+      "id": "live-2026-08-27-real-madrid-manu-kone-roma-interest",
+      "slug": "real-madrid-eye-manu-kone-roma-as-report",
+      "title": "Real Madrid monitoring Roma's Manu Koné as transfer deadline nears, AS reports",
+      "statusBefore": "published",
+      "words": 367,
+      "paragraphs": 7,
+      "facts": 6,
+      "verificationSources": 2,
+      "blockers": [],
+      "warnings": []
+    },
+    {
+      "id": "live-2026-08-27-avraham-grant-aris-thessaloniki-adviser",
+      "slug": "avraham-grant-aris-thessaloniki-adviser",
+      "title": "Avraham Grant begins new job as adviser to Greek giants Aris Thessaloniki",
+      "statusBefore": "published",
+      "words": 351,
+      "paragraphs": 9,
+      "facts": 8,
+      "verificationSources": 3,
+      "blockers": [],
+      "warnings": [
+        "media:no-action-or-competition-context-detected",
+        "voice:publisher-attribution-heavy:2"
+      ]
+    },
+    {
+      "id": "live-20260827-noam-dovrat-knee-surgery-nes-ziona",
+      "slug": "noam-dovrat-knee-surgery-doubt-nes-ziona-league-opener",
+      "title": "Fresh knee surgery leaves Noam Dovrat in doubt for Nes Ziona's league opener",
+      "statusBefore": "published",
+      "words": 373,
+      "paragraphs": 8,
+      "facts": 7,
+      "verificationSources": 4,
+      "blockers": [],
+      "warnings": []
+    },
+    {
       "id": "live-20260827-camp-nou-2029-champions-league-final-bid",
       "slug": "camp-nou-bids-to-host-2029-champions-league-final",
       "title": "Camp Nou emerges as front-runner to host the 2029 Champions League final",
@@ -18734,7 +18860,9 @@
       "facts": 7,
       "verificationSources": 6,
       "blockers": [],
-      "warnings": []
+      "warnings": [
+        "media:no-action-or-competition-context-detected"
+      ]
     },
     {
       "id": "live-2026-08-27-almog-cohen-beitar-presser",
